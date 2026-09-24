@@ -50,6 +50,7 @@ export default function HistoryAIModule() {
       {step === 'lesson' && (
         <LessonResultPage
           lessonId={lessonId}
+          topicId={activeTopic?.id}
           topicTitle={activeTopic?.title}
           onBack={() => setStep('topics')}
         />

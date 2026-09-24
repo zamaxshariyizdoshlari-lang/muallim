@@ -1,10 +1,15 @@
 import { AlertTriangle, ChevronLeft, Loader2 } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { getLesson } from '../api/client'
+import AssetPanel from '../components/AssetPanel'
+import MatchingGame from '../components/MatchingGame'
+import PresentationViewer from '../components/PresentationViewer'
+import QuizGame from '../components/QuizGame'
+import TimelineGame from '../components/TimelineGame'
 
 const POLL_INTERVAL_MS = 2500
 
-export default function LessonResultPage({ lessonId, topicTitle, onBack }) {
+export default function LessonResultPage({ lessonId, topicId, topicTitle, onBack }) {
   const [lesson, setLesson] = useState(null)
   const [error, setError] = useState('')
   const intervalRef = useRef(null)
@@ -67,6 +72,27 @@ export default function LessonResultPage({ lessonId, topicTitle, onBack }) {
         <div className="flex flex-col gap-6">
           <LessonPlanCard plan={lesson.lesson_plan} />
           <QuizCard quiz={lesson.quiz} />
+
+          <h2 className="mt-2 text-lg font-semibold text-slate-900">Taqdimot va o'yinlar</h2>
+
+          <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot">
+            {(data) => <PresentationViewer slides={data.slides} />}
+          </AssetPanel>
+
+          {lesson.quiz?.questions?.length > 0 && (
+            <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h2 className="mb-4 text-lg font-semibold text-slate-900">Viktorina</h2>
+              <QuizGame questions={lesson.quiz.questions} />
+            </section>
+          )}
+
+          <AssetPanel topicId={topicId} kind="game_timeline" label="O'yin: xronologiya tartiblash">
+            {(data) => <TimelineGame items={data.items} />}
+          </AssetPanel>
+
+          <AssetPanel topicId={topicId} kind="game_matching" label="O'yin: moslashtirish">
+            {(data) => <MatchingGame pairs={data.pairs} />}
+          </AssetPanel>
         </div>
       )}
     </div>

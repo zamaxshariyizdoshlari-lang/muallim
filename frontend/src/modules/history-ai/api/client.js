@@ -74,3 +74,15 @@ export function createLesson(topicId) {
 export function getLesson(lessonId) {
   return request(`/lessons/${lessonId}/`)
 }
+
+export function createAsset(topicId, kind) {
+  return request('/assets/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ topic: topicId, kind }),
+  })
+}
+
+export function getAsset(assetId) {
+  return request(`/assets/${assetId}/`)
+}
