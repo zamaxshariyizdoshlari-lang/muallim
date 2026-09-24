@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { createLesson, getToken } from './api/client'
+import { getToken } from './api/client'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import TopicSelectPage from './pages/TopicSelectPage'
@@ -15,7 +15,6 @@ export default function HistoryAIModule() {
   const [book, setBook] = useState(null)
   const [topics, setTopics] = useState([])
   const [activeTopic, setActiveTopic] = useState(null)
-  const [lessonId, setLessonId] = useState(null)
 
   if (!authed) {
     return <LoginPage onSuccess={() => setAuthed(true)} />
@@ -27,10 +26,8 @@ export default function HistoryAIModule() {
     setStep('topics')
   }
 
-  async function handleSelectTopic(topic) {
+  function handleSelectTopic(topic) {
     setActiveTopic(topic)
-    const lesson = await createLesson(topic.id)
-    setLessonId(lesson.id)
     setStep('lesson')
   }
 
@@ -49,7 +46,6 @@ export default function HistoryAIModule() {
 
       {step === 'lesson' && (
         <LessonResultPage
-          lessonId={lessonId}
           topicId={activeTopic?.id}
           topicTitle={activeTopic?.title}
           onBack={() => setStep('topics')}

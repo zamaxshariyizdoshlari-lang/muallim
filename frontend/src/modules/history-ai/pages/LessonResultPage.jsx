@@ -1,6 +1,6 @@
-import { AlertTriangle, ChevronLeft, Loader2 } from 'lucide-react'
+import { AlertTriangle, ChevronLeft, Loader2, RefreshCw, ShieldAlert, Sparkles } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { getLesson } from '../api/client'
+import { createLesson, getLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
 import MatchingGame from '../components/MatchingGame'
 import PresentationViewer from '../components/PresentationViewer'
@@ -9,34 +9,54 @@ import TimelineGame from '../components/TimelineGame'
 
 const POLL_INTERVAL_MS = 2500
 
-export default function LessonResultPage({ lessonId, topicId, topicTitle, onBack }) {
+export default function LessonResultPage({ topicId, topicTitle, onBack }) {
   const [lesson, setLesson] = useState(null)
+  const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const intervalRef = useRef(null)
 
   useEffect(() => {
     let cancelled = false
-
-    async function poll() {
-      try {
-        const data = await getLesson(lessonId)
+    getLessonByTopic(topicId)
+      .then((data) => {
         if (cancelled) return
         setLesson(data)
-        if (data.status !== 'pending' && intervalRef.current) {
-          clearInterval(intervalRef.current)
-        }
-      } catch (err) {
-        if (!cancelled) setError(err.message)
-      }
-    }
+        if (data?.status === 'pending') startPolling()
+      })
+      .catch((err) => !cancelled && setError(err.message))
+      .finally(() => !cancelled && setLoading(false))
 
-    poll()
-    intervalRef.current = setInterval(poll, POLL_INTERVAL_MS)
     return () => {
       cancelled = true
       clearInterval(intervalRef.current)
     }
-  }, [lessonId])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicId])
+
+  function startPolling() {
+    clearInterval(intervalRef.current)
+    intervalRef.current = setInterval(async () => {
+      try {
+        const data = await getLessonByTopic(topicId)
+        setLesson(data)
+        if (data?.status !== 'pending') clearInterval(intervalRef.current)
+      } catch (err) {
+        setError(err.message)
+        clearInterval(intervalRef.current)
+      }
+    }, POLL_INTERVAL_MS)
+  }
+
+  async function handleGenerate(regenerate) {
+    setError('')
+    try {
+      const created = await createLesson(topicId, { regenerate })
+      setLesson(created)
+      if (created.status === 'pending') startPolling()
+    } catch (err) {
+      setError(err.message)
+    }
+  }
 
   return (
     <div className="mx-auto max-w-2xl">
@@ -49,9 +69,28 @@ export default function LessonResultPage({ lessonId, topicId, topicTitle, onBack
 
       <h1 className="mb-6 text-2xl font-semibold text-slate-900">{topicTitle}</h1>
 
-      {error && <p className="text-sm text-red-600">{error}</p>}
+      {error && <p className="mb-4 text-sm text-red-600">{error}</p>}
 
-      {!error && (!lesson || lesson.status === 'pending') && (
+      {loading && (
+        <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-6 text-sm text-slate-600 shadow-sm">
+          <Loader2 className="animate-spin" size={18} />
+          Yuklanmoqda...
+        </div>
+      )}
+
+      {!loading && !lesson && (
+        <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-white px-4 py-6 shadow-sm">
+          <p className="text-sm text-slate-600">Bu mavzu uchun dars rejasi va test hali yaratilmagan.</p>
+          <button
+            onClick={() => handleGenerate(false)}
+            className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
+          >
+            <Sparkles size={16} /> Yaratish
+          </button>
+        </div>
+      )}
+
+      {lesson?.status === 'pending' && (
         <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-6 text-sm text-slate-600 shadow-sm">
           <Loader2 className="animate-spin" size={18} />
           Dars rejasi va test tayyorlanmoqda... (AI javob bermoqda)
@@ -59,17 +98,34 @@ export default function LessonResultPage({ lessonId, topicId, topicTitle, onBack
       )}
 
       {lesson?.status === 'failed' && (
-        <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-4 text-sm text-red-700">
-          <AlertTriangle size={18} className="mt-0.5 shrink-0" />
-          <div>
-            <p className="font-medium">Xatolik yuz berdi</p>
-            <p className="mt-1 text-red-600">{lesson.error_message}</p>
+        <div className="flex flex-col gap-3">
+          <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-4 text-sm text-red-700">
+            <AlertTriangle size={18} className="mt-0.5 shrink-0" />
+            <div>
+              <p className="font-medium">Xatolik yuz berdi</p>
+              <p className="mt-1 text-red-600">{lesson.error_message}</p>
+            </div>
           </div>
+          <button
+            onClick={() => handleGenerate(true)}
+            className="flex w-fit items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
+          >
+            <RefreshCw size={14} /> Qayta urinish
+          </button>
         </div>
       )}
 
       {lesson?.status === 'done' && (
         <div className="flex flex-col gap-6">
+          <div className="flex justify-end">
+            <button
+              onClick={() => handleGenerate(true)}
+              className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
+            >
+              <RefreshCw size={13} /> Dars rejasini qayta yaratish
+            </button>
+          </div>
+
           <LessonPlanCard plan={lesson.lesson_plan} />
           <QuizCard quiz={lesson.quiz} />
 
@@ -93,6 +149,10 @@ export default function LessonResultPage({ lessonId, topicId, topicTitle, onBack
           <AssetPanel topicId={topicId} kind="game_matching" label="O'yin: moslashtirish">
             {(data) => <MatchingGame pairs={data.pairs} />}
           </AssetPanel>
+
+          <AssetPanel topicId={topicId} kind="game_fill_blank" label="O'yin: bo'sh joyni to'ldirish">
+            {(data) => <QuizGame questions={data.questions} />}
+          </AssetPanel>
         </div>
       )}
     </div>
@@ -104,6 +164,17 @@ function PageTag({ page }) {
   return (
     <span className="ml-2 inline-block rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-500">
       bet {page}
+    </span>
+  )
+}
+
+function UnverifiedTag() {
+  return (
+    <span
+      title="Bu fakt kitob matnida avtomatik tasdiqlanmadi"
+      className="ml-2 inline-flex items-center gap-1 rounded bg-amber-100 px-1.5 py-0.5 text-xs text-amber-700"
+    >
+      <ShieldAlert size={12} /> kitobda tasdiqlanmadi
     </span>
   )
 }
@@ -133,6 +204,7 @@ function LessonPlanCard({ plan }) {
               <li key={i}>
                 {f.fact}
                 <PageTag page={f.page} />
+                {f.verified === false && <UnverifiedTag />}
               </li>
             ))}
           </ul>

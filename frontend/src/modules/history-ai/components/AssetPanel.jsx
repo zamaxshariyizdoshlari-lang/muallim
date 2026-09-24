@@ -1,38 +1,69 @@
-import { AlertTriangle, Loader2, Sparkles } from 'lucide-react'
+import { AlertTriangle, Loader2, RefreshCw, Sparkles } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { createAsset, getAsset } from '../api/client'
+import { createAsset, getAsset, getAssetByTopic } from '../api/client'
 
 const POLL_INTERVAL_MS = 2500
 
 /**
- * Taqdimot/o'yin uchun umumiy panel: "Yaratish" tugmasi -> fon vazifani
- * boshlaydi -> natija tayyor bo'lguncha pollaydi -> children(data) render qiladi.
+ * Taqdimot/o'yin uchun umumiy panel.
+ * Avval mavjud natijani tekshiradi (bor bo'lsa AI qayta chaqirilmaydi),
+ * bo'lmasa "Yaratish" tugmasini ko'rsatadi. "Qayta yaratish" alohida amal.
  */
 export default function AssetPanel({ topicId, kind, label, children }) {
   const [asset, setAsset] = useState(null)
+  const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const intervalRef = useRef(null)
 
-  useEffect(() => () => clearInterval(intervalRef.current), [])
+  useEffect(() => {
+    let cancelled = false
+    getAssetByTopic(topicId, kind)
+      .then((data) => {
+        if (cancelled) return
+        setAsset(data)
+        if (data?.status === 'pending') startPolling(data.id)
+      })
+      .catch((err) => !cancelled && setError(err.message))
+      .finally(() => !cancelled && setLoading(false))
 
-  async function handleGenerate() {
+    return () => {
+      cancelled = true
+      clearInterval(intervalRef.current)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicId, kind])
+
+  function startPolling(assetId) {
+    clearInterval(intervalRef.current)
+    intervalRef.current = setInterval(async () => {
+      try {
+        const data = await getAsset(assetId)
+        setAsset(data)
+        if (data.status !== 'pending') clearInterval(intervalRef.current)
+      } catch (err) {
+        setError(err.message)
+        clearInterval(intervalRef.current)
+      }
+    }, POLL_INTERVAL_MS)
+  }
+
+  async function handleGenerate(regenerate) {
     setError('')
     try {
-      const created = await createAsset(topicId, kind)
+      const created = await createAsset(topicId, kind, { regenerate })
       setAsset(created)
-      intervalRef.current = setInterval(async () => {
-        try {
-          const data = await getAsset(created.id)
-          setAsset(data)
-          if (data.status !== 'pending') clearInterval(intervalRef.current)
-        } catch (err) {
-          setError(err.message)
-          clearInterval(intervalRef.current)
-        }
-      }, POLL_INTERVAL_MS)
+      if (created.status === 'pending') startPolling(created.id)
     } catch (err) {
       setError(err.message)
     }
+  }
+
+  if (loading) {
+    return (
+      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
+      </section>
+    )
   }
 
   if (!asset) {
@@ -41,7 +72,7 @@ export default function AssetPanel({ topicId, kind, label, children }) {
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
           <button
-            onClick={handleGenerate}
+            onClick={() => handleGenerate(false)}
             className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
           >
             <Sparkles size={16} /> Yaratish
@@ -54,7 +85,19 @@ export default function AssetPanel({ topicId, kind, label, children }) {
 
   return (
     <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-lg font-semibold text-slate-900">{label}</h2>
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
+        {asset.status !== 'pending' && (
+          <button
+            onClick={() => handleGenerate(true)}
+            className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
+          >
+            <RefreshCw size={13} /> Qayta yaratish
+          </button>
+        )}
+      </div>
+
+      {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
 
       {asset.status === 'pending' && (
         <div className="flex items-center gap-2 text-sm text-slate-600">

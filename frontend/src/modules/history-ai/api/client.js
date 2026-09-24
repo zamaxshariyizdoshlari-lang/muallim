@@ -63,11 +63,13 @@ export function listTopics(bookId) {
   return request(`/books/${bookId}/topics/`)
 }
 
-export function createLesson(topicId) {
+export function createLesson(topicId, { regenerate = false } = {}) {
+  const params = { topic: topicId }
+  if (regenerate) params.regenerate = 'true'
   return request('/lessons/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ topic: topicId }),
+    body: new URLSearchParams(params),
   })
 }
 
@@ -75,14 +77,36 @@ export function getLesson(lessonId) {
   return request(`/lessons/${lessonId}/`)
 }
 
-export function createAsset(topicId, kind) {
+/** Mavzu uchun mavjud lesson'ni oladi; hali yaratilmagan bo'lsa null qaytaradi (404 emas, xato emas). */
+export async function getLessonByTopic(topicId) {
+  try {
+    return await request(`/topics/${topicId}/lesson/`)
+  } catch (err) {
+    if (err.status === 404) return null
+    throw err
+  }
+}
+
+export function createAsset(topicId, kind, { regenerate = false } = {}) {
+  const params = { topic: topicId, kind }
+  if (regenerate) params.regenerate = 'true'
   return request('/assets/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ topic: topicId, kind }),
+    body: new URLSearchParams(params),
   })
 }
 
 export function getAsset(assetId) {
   return request(`/assets/${assetId}/`)
+}
+
+/** Mavzu+kind uchun mavjud asset'ni oladi; hali yaratilmagan bo'lsa null qaytaradi. */
+export async function getAssetByTopic(topicId, kind) {
+  try {
+    return await request(`/topics/${topicId}/assets/${kind}/`)
+  } catch (err) {
+    if (err.status === 404) return null
+    throw err
+  }
 }
