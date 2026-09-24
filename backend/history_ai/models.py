@@ -60,9 +60,13 @@ class Topic(models.Model):
 
 
 class Lesson(models.Model):
-    """Tanlangan mavzu uchun yaratilgan dars rejasi + test (AI natijasi)."""
+    """Tanlangan mavzu uchun yaratilgan dars rejasi + test (AI natijasi).
 
-    topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='lessons')
+    Mavzu uchun bitta lesson (OneToOne) - qayta yaratish shu yozuvni yangilaydi,
+    har safar yangi qator qo'shilmaydi (AI chaqiruvini keraksiz takrorlamaslik uchun).
+    """
+
+    topic = models.OneToOneField(Topic, on_delete=models.CASCADE, related_name='lesson')
     created_by = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='lessons'
     )
@@ -90,10 +94,12 @@ class GeneratedAsset(models.Model):
     KIND_PRESENTATION = 'presentation'
     KIND_GAME_TIMELINE = 'game_timeline'
     KIND_GAME_MATCHING = 'game_matching'
+    KIND_GAME_FILL_BLANK = 'game_fill_blank'
     KIND_CHOICES = [
         (KIND_PRESENTATION, 'Taqdimot'),
         (KIND_GAME_TIMELINE, "O'yin: xronologiya"),
         (KIND_GAME_MATCHING, "O'yin: moslashtirish"),
+        (KIND_GAME_FILL_BLANK, "O'yin: bo'sh joyni to'ldirish"),
     ]
 
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='assets')
@@ -109,6 +115,9 @@ class GeneratedAsset(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ('topic', 'kind')
 
     def __str__(self):
         return f"{self.get_kind_display()}: {self.topic.title} [{self.status}]"
