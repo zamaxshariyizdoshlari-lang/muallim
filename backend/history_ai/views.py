@@ -3,11 +3,13 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import Book, Lesson, Page, Topic
-from .serializers import BookSerializer, LessonSerializer, TopicSerializer
+from .models import Book, GeneratedAsset, Lesson, Page, Topic
+from .serializers import BookSerializer, GeneratedAssetSerializer, LessonSerializer, TopicSerializer
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.topic_detector import detect_topics
-from .tasks import start_lesson_generation
+from .tasks import start_asset_generation, start_lesson_generation
+
+VALID_ASSET_KINDS = {choice[0] for choice in GeneratedAsset.KIND_CHOICES}
 
 
 class BookUploadView(APIView):
@@ -82,3 +84,31 @@ class LessonCreateView(APIView):
 class LessonDetailView(generics.RetrieveAPIView):
     queryset = Lesson.objects.all()
     serializer_class = LessonSerializer
+
+
+class GeneratedAssetCreateView(APIView):
+    """Taqdimot yoki o'yin yaratishni boshlaydi (fon vazifa). kind: presentation | game_timeline | game_matching."""
+
+    def post(self, request):
+        topic_id = request.data.get('topic')
+        kind = request.data.get('kind')
+
+        if not topic_id:
+            raise ValidationError({'topic': 'topic id talab qilinadi'})
+        if kind not in VALID_ASSET_KINDS:
+            raise ValidationError({'kind': f"kind quyidagilardan biri bo'lishi kerak: {sorted(VALID_ASSET_KINDS)}"})
+
+        try:
+            topic = Topic.objects.get(id=topic_id)
+        except Topic.DoesNotExist:
+            raise ValidationError({'topic': 'Mavzu topilmadi'})
+
+        asset = GeneratedAsset.objects.create(topic=topic, kind=kind, created_by=request.user)
+        start_asset_generation(asset.id)
+
+        return Response(GeneratedAssetSerializer(asset).data, status=status.HTTP_202_ACCEPTED)
+
+
+class GeneratedAssetDetailView(generics.RetrieveAPIView):
+    queryset = GeneratedAsset.objects.all()
+    serializer_class = GeneratedAssetSerializer

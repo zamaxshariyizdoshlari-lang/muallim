@@ -9,4 +9,6 @@ urlpatterns = [
     path('books/<int:book_id>/topics/', views.TopicListView.as_view(), name='topic-list'),
     path('lessons/', views.LessonCreateView.as_view(), name='lesson-create'),
     path('lessons/<int:pk>/', views.LessonDetailView.as_view(), name='lesson-detail'),
+    path('assets/', views.GeneratedAssetCreateView.as_view(), name='asset-create'),
+    path('assets/<int:pk>/', views.GeneratedAssetDetailView.as_view(), name='asset-detail'),
 ]

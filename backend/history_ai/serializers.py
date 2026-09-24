@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Book, Lesson, Topic
+from .models import Book, GeneratedAsset, Lesson, Topic
 
 
 class BookSerializer(serializers.ModelSerializer):
@@ -29,4 +29,19 @@ class LessonSerializer(serializers.ModelSerializer):
         read_only_fields = [
             'id', 'topic_title', 'status', 'ai_provider',
             'lesson_plan', 'quiz', 'error_message', 'created_at', 'updated_at',
+        ]
+
+
+class GeneratedAssetSerializer(serializers.ModelSerializer):
+    topic_title = serializers.CharField(source='topic.title', read_only=True)
+
+    class Meta:
+        model = GeneratedAsset
+        fields = [
+            'id', 'topic', 'topic_title', 'kind', 'status', 'ai_provider',
+            'data', 'error_message', 'created_at', 'updated_at',
+        ]
+        read_only_fields = [
+            'id', 'topic_title', 'status', 'ai_provider',
+            'data', 'error_message', 'created_at', 'updated_at',
         ]
