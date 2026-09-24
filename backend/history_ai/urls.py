@@ -7,8 +7,14 @@ app_name = 'history_ai'
 urlpatterns = [
     path('books/', views.BookUploadView.as_view(), name='book-upload'),
     path('books/<int:book_id>/topics/', views.TopicListView.as_view(), name='topic-list'),
+    path('topics/<int:topic_id>/lesson/', views.LessonByTopicView.as_view(), name='lesson-by-topic'),
     path('lessons/', views.LessonCreateView.as_view(), name='lesson-create'),
     path('lessons/<int:pk>/', views.LessonDetailView.as_view(), name='lesson-detail'),
+    path(
+        'topics/<int:topic_id>/assets/<str:kind>/',
+        views.GeneratedAssetByTopicView.as_view(),
+        name='asset-by-topic',
+    ),
     path('assets/', views.GeneratedAssetCreateView.as_view(), name='asset-create'),
     path('assets/<int:pk>/', views.GeneratedAssetDetailView.as_view(), name='asset-detail'),
 ]

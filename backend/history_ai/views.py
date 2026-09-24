@@ -1,19 +1,28 @@
+from django.shortcuts import get_object_or_404
 from rest_framework import generics, status
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import Book, GeneratedAsset, Lesson, Page, Topic
+from .models import STATUS_PENDING, Book, GeneratedAsset, Lesson, Page, Topic
+from .permissions import IsTeacher
 from .serializers import BookSerializer, GeneratedAssetSerializer, LessonSerializer, TopicSerializer
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.topic_detector import detect_topics
 from .tasks import start_asset_generation, start_lesson_generation
+from .throttles import AIGenerationThrottle
 
 VALID_ASSET_KINDS = {choice[0] for choice in GeneratedAsset.KIND_CHOICES}
 
 
+def _is_truthy(value):
+    return str(value).lower() in ('1', 'true', 'yes')
+
+
 class BookUploadView(APIView):
-    """PDF yuklash: betlarga ajratib saqlaydi va mavzularni aniqlaydi."""
+    """PDF yuklash: betlarga ajratib saqlaydi va mavzularni aniqlaydi. Faqat o'qituvchi."""
+
+    permission_classes = [IsTeacher]
 
     def post(self, request):
         file_obj = request.FILES.get('file')
@@ -62,8 +71,24 @@ class TopicListView(generics.ListAPIView):
         return Topic.objects.filter(book_id=self.kwargs['book_id'])
 
 
+class LessonByTopicView(generics.RetrieveAPIView):
+    """Mavjud lesson'ni ko'rish uchun (o'quvchilar ham). Hali yaratilmagan bo'lsa 404."""
+
+    serializer_class = LessonSerializer
+
+    def get_object(self):
+        return get_object_or_404(Lesson, topic_id=self.kwargs['topic_id'])
+
+
 class LessonCreateView(APIView):
-    """Tanlangan mavzu uchun dars rejasi + test yaratishni boshlaydi (fon vazifa)."""
+    """Dars rejasi + test yaratish/qayta yaratishni boshlaydi. Faqat o'qituvchi.
+
+    Mavzu uchun bitta lesson bor (get-or-create) — allaqachon mavjud bo'lsa va
+    "regenerate" berilmagan bo'lsa, AI qayta chaqirilmaydi, mavjudi qaytariladi.
+    """
+
+    permission_classes = [IsTeacher]
+    throttle_classes = [AIGenerationThrottle]
 
     def post(self, request):
         topic_id = request.data.get('topic')
@@ -75,9 +100,20 @@ class LessonCreateView(APIView):
         except Topic.DoesNotExist:
             raise ValidationError({'topic': 'Mavzu topilmadi'})
 
-        lesson = Lesson.objects.create(topic=topic, created_by=request.user)
-        start_lesson_generation(lesson.id)
+        lesson, created = Lesson.objects.get_or_create(topic=topic, defaults={'created_by': request.user})
+        regenerate = _is_truthy(request.data.get('regenerate', False))
 
+        if not created and not regenerate:
+            return Response(LessonSerializer(lesson).data, status=status.HTTP_200_OK)
+
+        if not created and lesson.status == STATUS_PENDING:
+            # Generatsiya allaqachon ketmoqda - qayta ishga tushirmaymiz (poyga holatini oldini olish).
+            return Response(LessonSerializer(lesson).data, status=status.HTTP_202_ACCEPTED)
+
+        lesson.status = STATUS_PENDING
+        lesson.error_message = ''
+        lesson.save(update_fields=['status', 'error_message'])
+        start_lesson_generation(lesson.id)
         return Response(LessonSerializer(lesson).data, status=status.HTTP_202_ACCEPTED)
 
 
@@ -86,8 +122,27 @@ class LessonDetailView(generics.RetrieveAPIView):
     serializer_class = LessonSerializer
 
 
+class GeneratedAssetByTopicView(generics.RetrieveAPIView):
+    """Mavjud taqdimot/o'yinni ko'rish uchun (o'quvchilar ham). Hali yaratilmagan bo'lsa 404."""
+
+    serializer_class = GeneratedAssetSerializer
+
+    def get_object(self):
+        return get_object_or_404(
+            GeneratedAsset, topic_id=self.kwargs['topic_id'], kind=self.kwargs['kind']
+        )
+
+
 class GeneratedAssetCreateView(APIView):
-    """Taqdimot yoki o'yin yaratishni boshlaydi (fon vazifa). kind: presentation | game_timeline | game_matching."""
+    """Taqdimot/o'yin yaratish/qayta yaratishni boshlaydi. Faqat o'qituvchi.
+
+    kind: presentation (AI, fon vazifa) | game_timeline | game_matching | game_fill_blank (qoida, darhol).
+    Mavzu+kind uchun bitta yozuv bor (get-or-create) — mavjud bo'lsa va "regenerate"
+    berilmagan bo'lsa, qayta yaratilmaydi.
+    """
+
+    permission_classes = [IsTeacher]
+    throttle_classes = [AIGenerationThrottle]
 
     def post(self, request):
         topic_id = request.data.get('topic')
@@ -103,9 +158,23 @@ class GeneratedAssetCreateView(APIView):
         except Topic.DoesNotExist:
             raise ValidationError({'topic': 'Mavzu topilmadi'})
 
-        asset = GeneratedAsset.objects.create(topic=topic, kind=kind, created_by=request.user)
-        start_asset_generation(asset.id)
+        asset, created = GeneratedAsset.objects.get_or_create(
+            topic=topic, kind=kind, defaults={'created_by': request.user}
+        )
+        regenerate = _is_truthy(request.data.get('regenerate', False))
 
+        if not created and not regenerate:
+            return Response(GeneratedAssetSerializer(asset).data, status=status.HTTP_200_OK)
+
+        if not created and asset.status == STATUS_PENDING:
+            # Generatsiya allaqachon ketmoqda - qayta ishga tushirmaymiz (poyga holatini oldini olish).
+            return Response(GeneratedAssetSerializer(asset).data, status=status.HTTP_202_ACCEPTED)
+
+        asset.status = STATUS_PENDING
+        asset.error_message = ''
+        asset.save(update_fields=['status', 'error_message'])
+        start_asset_generation(asset.id)
+        asset.refresh_from_db()  # qoida asosidagi turlar sinxron tugaydi - yangi holatni olish kerak
         return Response(GeneratedAssetSerializer(asset).data, status=status.HTTP_202_ACCEPTED)
 
 

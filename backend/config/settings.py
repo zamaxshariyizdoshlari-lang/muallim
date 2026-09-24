@@ -138,6 +138,9 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
+    'DEFAULT_THROTTLE_RATES': {
+        'ai_generation': os.getenv('AI_RATE_LIMIT', '20/hour'),
+    },
 }
 
 
@@ -150,8 +153,20 @@ CORS_ALLOWED_ORIGINS = [
 
 # Tarixchi AI settings
 
-AI_PROVIDER = os.getenv('AI_PROVIDER', 'claude')
+AI_PROVIDER = os.getenv('AI_PROVIDER', 'gemini')
+AI_MODEL = os.getenv('AI_MODEL', '')  # bo'sh bo'lsa, har provayder o'z arzon standart modelini ishlatadi
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
-ANTHROPIC_MODEL = os.getenv('ANTHROPIC_MODEL', 'claude-sonnet-5')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
-GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+
+AI_RATE_LIMIT = os.getenv('AI_RATE_LIMIT', '20/hour')
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {'class': 'logging.StreamHandler'},
+    },
+    'loggers': {
+        'history_ai.ai_usage': {'handlers': ['console'], 'level': 'INFO', 'propagate': False},
+    },
+}
