@@ -11,6 +11,12 @@ HEADING_PATTERNS = [
 MIN_HEADING_LEN = 4
 MAX_HEADING_LEN = 120
 
+# Mundarija sahifasida bir nechta bob-sarlavha qatori ketma-ket keladi;
+# haqiqiy bob beti esa faqat bitta sarlavha bilan boshlanadi. So'zga asoslangan
+# tekshiruv ("tarkib" kabi) ishonchsiz chiqdi - bu ildiz oddiy so'zlar ichida ham
+# uchraydi (masalan "tarkibiga"), shuning uchun faqat sondan foydalanamiz.
+MAX_HEADINGS_PER_CONTENT_PAGE = 1
+
 
 def _looks_like_heading(line):
     line = line.strip()
@@ -22,21 +28,27 @@ def _looks_like_heading(line):
     return False
 
 
+def _is_toc_page(heading_lines_count):
+    return heading_lines_count > MAX_HEADINGS_PER_CONTENT_PAGE
+
+
 def detect_topics(pages):
     """pages: [(page_number, text), ...] -> [{"title", "start_page", "end_page"}, ...]
 
     Oddiy evristika: har bir betning satrlarini ma'lum shakllar (masalan
     "3-bob", "§ 5", "II bob") bilan solishtirib, sarlavhalarni topadi.
+    Mundarija (kontent) sahifalari bundan istisno qilinadi, aks holda har bir
+    bob nomi mundarijada ham "topic" sifatida noto'g'ri qo'shilib ketadi.
     Sarlavha topilmasa, butun kitob bitta "Umumiy matn" mavzusi sifatida qaytariladi.
     """
     candidates = []
     for page_number, text in pages:
         if not text:
             continue
-        for line in text.splitlines():
-            if _looks_like_heading(line):
-                candidates.append({'page': page_number, 'title': line.strip()})
-                break
+        heading_lines = [line.strip() for line in text.splitlines() if _looks_like_heading(line)]
+        if not heading_lines or _is_toc_page(len(heading_lines)):
+            continue
+        candidates.append({'page': page_number, 'title': heading_lines[0]})
 
     if not candidates:
         last_page = pages[-1][0] if pages else 1
