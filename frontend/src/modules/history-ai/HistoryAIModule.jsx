@@ -1,33 +1,35 @@
 import { GraduationCap, LogOut } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
+import { Link, Navigate, Outlet, Route, Routes, useNavigate, useOutletContext, useParams } from 'react-router-dom'
 import {
   clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
-  getSectionExam, getSections, getToken, listTopics, submitBookExam, submitSectionExam, submitTopicTest,
+  getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, submitBookExam, submitSectionExam,
+  submitTopicTest,
 } from './api/client'
-import { ThemeToggle, useTheme } from './components/ui'
+import { Spinner, ThemeToggle, useTheme } from './components/ui'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
+import SubjectsPage from './pages/SubjectsPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
-import SubjectsPage from './pages/SubjectsPage'
 import UploadPage from './pages/UploadPage'
 
 /**
- * Muallim ta'lim modulining kirish nuqtasi. ERP'ga qo'shilganda bitta route
- * ostida shu komponent render qilinadi (masalan <Route path="/history-ai" element={<HistoryAIModule />} />).
+ * Muallim ta'lim modulining kirish nuqtasi. Router (BrowserRouter) tashqarida beriladi.
+ *
+ * Manzillar:
+ *   /                          fanlar
+ *   /fan/:slug                 fan kurslari
+ *   /kurs/:bookId              kurs yo'l xaritasi
+ *   /kurs/:bookId/mavzu/:id    dars
+ *   /kurs/:bookId/mavzu/:id/test
+ *   /kurs/:bookId/bolim/:id    bo'lim testi
+ *   /kurs/:bookId/imtihon      yakuniy imtihon
  */
 export default function HistoryAIModule() {
   const [dark, toggleTheme] = useTheme()
   const [authed, setAuthed] = useState(Boolean(getToken()))
   const [me, setMe] = useState(null)
-  const [step, setStep] = useState('subjects') // subjects | upload (kurslar) | topics | lesson | topicTest | sectionExam | exam
-  const [book, setBook] = useState(null)
-  const [subject, setSubject] = useState(null)
-  const [topics, setTopics] = useState([])
-  const [sections, setSections] = useState([])
-  const [activeSection, setActiveSection] = useState(null)
-  const [progress, setProgress] = useState(null)
-  const [activeTopic, setActiveTopic] = useState(null)
 
   useEffect(() => {
     if (authed) getMe().then(setMe).catch(() => setAuthed(false))
@@ -38,61 +40,48 @@ export default function HistoryAIModule() {
   }
   if (!me) return null
 
-  const isTeacher = me.is_staff
-
   function handleLogout() {
     clearToken()
     setMe(null)
-    setBook(null)
-    setStep('subjects')
-    setSubject(null)
     setAuthed(false)
   }
 
-  async function refreshTopics(bookId = book.id) {
-    const [freshTopics, freshProgress, freshSections] = await Promise.all([
-      listTopics(bookId), getBookProgress(bookId), getSections(bookId),
-    ])
-    setTopics(freshTopics)
-    setProgress(freshProgress)
-    setSections(freshSections)
-  }
+  return (
+    <Routes>
+      <Route element={<Shell me={me} dark={dark} onToggleTheme={toggleTheme} onLogout={handleLogout} />}>
+        <Route index element={<SubjectsRoute />} />
+        <Route path="fan/:slug" element={<CoursesRoute />} />
+        <Route path="kurs/:bookId" element={<BookLayout />}>
+          <Route index element={<TopicsRoute />} />
+          <Route path="mavzu/:topicId" element={<LessonRoute />} />
+          <Route path="mavzu/:topicId/test" element={<TopicTestRoute />} />
+          <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
+          <Route path="imtihon" element={<ExamRoute />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Route>
+    </Routes>
+  )
+}
 
-  async function handleUploaded(newBook, newTopics) {
-    setBook(newBook)
-    await refreshTopics(newBook.id)
-    setStep('topics')
-  }
-
-  async function backToTopics() {
-    await refreshTopics()
-    setStep('topics')
-  }
-
+function Shell({ me, dark, onToggleTheme, onLogout }) {
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
-          <button
-            type="button"
-            onClick={() => setStep('subjects')}
-            className="flex items-center gap-2.5 text-left"
-            aria-label="Bosh sahifa"
-          >
+          <Link to="/" className="flex items-center gap-2.5 text-left" aria-label="Bosh sahifa">
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-brand-ink">
               <GraduationCap size={18} />
             </span>
-            <span className="font-display text-lg font-bold leading-none text-ink">
-              Muallim
-            </span>
-          </button>
+            <span className="font-display text-lg font-bold leading-none text-ink">Muallim</span>
+          </Link>
           <div className="flex items-center gap-2">
             <span className="hidden text-sm text-muted sm:inline">
-              {me.username}
-              {isTeacher && <span className="chip chip-gold ml-2">o'qituvchi</span>}
+              {me.first_name || me.username}
+              {me.is_staff && <span className="chip chip-gold ml-2">o'qituvchi</span>}
             </span>
-            <ThemeToggle dark={dark} onToggle={toggleTheme} />
-            <button type="button" onClick={handleLogout} className="btn btn-ghost btn-sm">
+            <ThemeToggle dark={dark} onToggle={onToggleTheme} />
+            <button type="button" onClick={onLogout} className="btn btn-ghost btn-sm">
               <LogOut size={14} /> <span className="hidden sm:inline">Chiqish</span>
             </button>
           </div>
@@ -101,91 +90,170 @@ export default function HistoryAIModule() {
       </header>
 
       <main className="mx-auto max-w-5xl px-4 pb-24 pt-8">
-      {step === 'subjects' && (
-        <SubjectsPage me={me} onOpenSubject={(sub) => { setSubject(sub); setStep('upload') }} />
-      )}
-
-      {step === 'upload' && (
-        <UploadPage
-          subject={subject}
-          onBack={() => setStep('subjects')}
-          isTeacher={isTeacher}
-          onUploaded={handleUploaded}
-          onOpenBook={async (b) => {
-            setBook(b)
-            await refreshTopics(b.id)
-            setStep('topics')
-          }}
-        />
-      )}
-
-      {step === 'topics' && (
-        <TopicSelectPage
-          book={book}
-          topics={topics}
-          sections={sections}
-          isTeacher={isTeacher}
-          progress={progress}
-          onOpenSectionExam={(section) => { setActiveSection(section); setStep('sectionExam') }}
-          onSelect={(topic) => { setActiveTopic(topic); setStep('lesson') }}
-          onBack={() => setStep('upload')}
-          onOpenExam={() => setStep('exam')}
-          onDownloadCertificate={() => downloadCertificate(book.id)}
-        />
-      )}
-
-      {step === 'lesson' && (
-        <LessonResultPage
-          topicId={activeTopic.id}
-          topicTitle={activeTopic.title}
-          isTeacher={isTeacher}
-          onBack={backToTopics}
-          onStartTest={() => setStep('topicTest')}
-        />
-      )}
-
-      {step === 'topicTest' && (
-        <TestPage
-          key={`t${activeTopic.id}`}
-          title={`Mavzu testi: ${activeTopic.title}`}
-          isTeacher={isTeacher}
-          load={() => getAssetByTopic(activeTopic.id, 'topic_test')}
-          create={() => createAsset(activeTopic.id, 'topic_test', { regenerate: true })}
-          submit={(answers) => submitTopicTest(activeTopic.id, answers)}
-          passedLabel="Mavzu to'liq o'zlashtirildi. Keyingi mavzu ochildi!"
-          onBack={() => setStep('lesson')}
-          onPassed={backToTopics}
-        />
-      )}
-
-      {step === 'sectionExam' && (
-        <TestPage
-          key={`s${activeSection.id}`}
-          title={`Bo'lim testi: ${activeSection.title}`}
-          isTeacher={false}
-          load={() => getSectionExam(activeSection.id)}
-          create={async () => {}}
-          submit={(answers) => submitSectionExam(activeSection.id, answers)}
-          passedLabel="Bo'lim to'liq o'zlashtirildi. Keyingi bo'lim ochildi!"
-          onBack={backToTopics}
-          onPassed={backToTopics}
-        />
-      )}
-
-      {step === 'exam' && (
-        <TestPage
-          key="exam"
-          title={`Yakuniy imtihon: ${book.title}`}
-          isTeacher={isTeacher}
-          load={() => getBookExam(book.id)}
-          create={() => createBookExam(book.id)}
-          submit={(answers) => submitBookExam(book.id, answers)}
-          passedLabel="Kitob muvaffaqiyatli tugatildi! Sertifikatingiz tayyor."
-          onBack={backToTopics}
-          onPassed={backToTopics}
-        />
-      )}
+        <Outlet context={{ me, isTeacher: me.is_staff }} />
       </main>
     </div>
+  )
+}
+
+/* ───────── Fanlar va kurslar ───────── */
+
+function SubjectsRoute() {
+  const { me } = useOutletContext()
+  const navigate = useNavigate()
+  return <SubjectsPage me={me} onOpenSubject={(s) => navigate(`/fan/${s.slug}`)} />
+}
+
+function CoursesRoute() {
+  const { isTeacher } = useOutletContext()
+  const { slug } = useParams()
+  const navigate = useNavigate()
+  const [subject, setSubject] = useState(null)
+
+  useEffect(() => {
+    listSubjects().then((list) => setSubject(list.find((s) => s.slug === slug) || { slug, title: slug }))
+  }, [slug])
+
+  if (!subject) return <Spinner>Yuklanmoqda...</Spinner>
+  return (
+    <UploadPage
+      subject={subject}
+      isTeacher={isTeacher}
+      onBack={() => navigate('/')}
+      onUploaded={(book) => navigate(`/kurs/${book.id}`)}
+      onOpenBook={(book) => navigate(`/kurs/${book.id}`)}
+    />
+  )
+}
+
+/* ───────── Kurs (bo'limlar, mavzular, progress) ───────── */
+
+function BookLayout() {
+  const outer = useOutletContext()
+  const { bookId } = useParams()
+  const id = Number(bookId)
+  const [data, setData] = useState(null)
+  const [error, setError] = useState('')
+
+  const refresh = useCallback(async () => {
+    const [books, topics, progress, sections] = await Promise.all([
+      listBooks(), listTopics(id), getBookProgress(id), getSections(id),
+    ])
+    setData({ book: books.find((b) => b.id === id) || null, topics, progress, sections })
+  }, [id])
+
+  useEffect(() => {
+    setData(null)
+    setError('')
+    refresh().catch((err) => setError(err.message))
+  }, [refresh])
+
+  if (error) return <p className="text-bad">{error}</p>
+  if (!data) return <Spinner>Kurs yuklanmoqda...</Spinner>
+  if (!data.book) return <Navigate to="/" replace />
+
+  return <Outlet context={{ ...outer, ...data, bookId: id, refresh }} />
+}
+
+function TopicsRoute() {
+  const { book, topics, sections, progress, isTeacher, bookId } = useOutletContext()
+  const navigate = useNavigate()
+  return (
+    <TopicSelectPage
+      book={book}
+      topics={topics}
+      sections={sections}
+      isTeacher={isTeacher}
+      progress={progress}
+      onOpenSectionExam={(s) => navigate(`/kurs/${bookId}/bolim/${s.id}`)}
+      onSelect={(t) => navigate(`/kurs/${bookId}/mavzu/${t.id}`)}
+      onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
+      onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
+      onDownloadCertificate={() => downloadCertificate(bookId)}
+    />
+  )
+}
+
+function useTopicParam() {
+  const { topics } = useOutletContext()
+  const { topicId } = useParams()
+  return topics.find((t) => t.id === Number(topicId)) || null
+}
+
+function LessonRoute() {
+  const { isTeacher, bookId, refresh } = useOutletContext()
+  const topic = useTopicParam()
+  const navigate = useNavigate()
+  if (!topic) return <Navigate to={`/kurs/${bookId}`} replace />
+  if (!isTeacher && !topic.unlocked) return <Navigate to={`/kurs/${bookId}`} replace />
+  return (
+    <LessonResultPage
+      topicId={topic.id}
+      topicTitle={topic.title}
+      isTeacher={isTeacher}
+      onBack={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
+      onStartTest={() => navigate(`/kurs/${bookId}/mavzu/${topic.id}/test`)}
+    />
+  )
+}
+
+function TopicTestRoute() {
+  const { isTeacher, bookId, refresh } = useOutletContext()
+  const topic = useTopicParam()
+  const navigate = useNavigate()
+  if (!topic) return <Navigate to={`/kurs/${bookId}`} replace />
+  return (
+    <TestPage
+      key={`t${topic.id}`}
+      title={`Mavzu testi: ${topic.title}`}
+      isTeacher={isTeacher}
+      load={() => getAssetByTopic(topic.id, 'topic_test')}
+      create={() => createAsset(topic.id, 'topic_test', { regenerate: true })}
+      submit={(answers) => submitTopicTest(topic.id, answers)}
+      passedLabel="Mavzu to'liq o'zlashtirildi. Keyingi mavzu ochildi!"
+      onBack={() => navigate(`/kurs/${bookId}/mavzu/${topic.id}`)}
+      onPassed={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
+    />
+  )
+}
+
+function SectionExamRoute() {
+  const { sections, bookId, refresh } = useOutletContext()
+  const { sectionId } = useParams()
+  const navigate = useNavigate()
+  const section = sections.find((s) => s.id === Number(sectionId))
+  if (!section) return <Navigate to={`/kurs/${bookId}`} replace />
+  const back = async () => { await refresh(); navigate(`/kurs/${bookId}`) }
+  return (
+    <TestPage
+      key={`s${section.id}`}
+      title={`Bo'lim testi: ${section.title}`}
+      isTeacher={false}
+      load={() => getSectionExam(section.id)}
+      create={async () => {}}
+      submit={(answers) => submitSectionExam(section.id, answers)}
+      passedLabel="Bo'lim to'liq o'zlashtirildi. Keyingi bo'lim ochildi!"
+      onBack={back}
+      onPassed={back}
+    />
+  )
+}
+
+function ExamRoute() {
+  const { book, isTeacher, bookId, refresh } = useOutletContext()
+  const navigate = useNavigate()
+  const back = async () => { await refresh(); navigate(`/kurs/${bookId}`) }
+  return (
+    <TestPage
+      key="exam"
+      title={`Yakuniy imtihon: ${book.title}`}
+      isTeacher={isTeacher}
+      load={() => getBookExam(bookId)}
+      create={() => createBookExam(bookId)}
+      submit={(answers) => submitBookExam(bookId, answers)}
+      passedLabel="Kurs muvaffaqiyatli tugatildi! Sertifikatingiz tayyor."
+      onBack={back}
+      onPassed={back}
+    />
   )
 }
