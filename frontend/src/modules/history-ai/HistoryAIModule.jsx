@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, LogOut, Star } from 'lucide-react'
+import { Flame, GraduationCap, LogOut, Star, WifiOff } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -83,7 +83,19 @@ export default function HistoryAIModule() {
 
 function Shell({ me, dark, onToggleTheme, onLogout }) {
   const [stats, setStats] = useState(null)
+  const [online, setOnline] = useState(navigator.onLine)
   const location = useLocation()
+
+  useEffect(() => {
+    const up = () => setOnline(true)
+    const down = () => setOnline(false)
+    window.addEventListener('online', up)
+    window.addEventListener('offline', down)
+    return () => {
+      window.removeEventListener('online', up)
+      window.removeEventListener('offline', down)
+    }
+  }, [])
 
   // Sahifa almashganda XP/ketma-ketlik yangilanadi (test topshirilgandan keyin ham).
   useEffect(() => {
@@ -122,6 +134,11 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
           </div>
         </div>
         <div className="meander" />
+        {!online && (
+          <div className="flex items-center justify-center gap-2 bg-gold-soft px-4 py-1.5 text-xs font-semibold text-ink-2">
+            <WifiOff size={13} /> Internet yo'q — avval ochilgan darslarni o'qishingiz mumkin, testlar ishlamaydi.
+          </div>
+        )}
       </header>
 
       <main className="mx-auto max-w-5xl px-4 pb-24 pt-8">

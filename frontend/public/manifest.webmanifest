@@ -1,0 +1,14 @@
+{
+  "name": "Muallim — onlayn ta'lim platformasi",
+  "short_name": "Muallim",
+  "description": "Tarix, turk tili va boshqa fanlarni mavzu-mavzu o'rganing.",
+  "lang": "uz",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5eddc",
+  "theme_color": "#a3442a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -14,6 +14,7 @@ export function setToken(token) {
 
 export function clearToken() {
   localStorage.removeItem(TOKEN_STORAGE_KEY)
+  navigator.serviceWorker?.controller?.postMessage('clear-content')
 }
 
 export async function login(username, password) {
