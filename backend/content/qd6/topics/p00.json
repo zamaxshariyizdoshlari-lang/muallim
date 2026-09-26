@@ -1,0 +1,83 @@
+{
+  "key": "p00", "title": "Kirish", "start_page": 5, "end_page": 6,
+  "explanation": {
+    "goals": ["Qadimgi dunyo tarixi fani nimani o'rganishini bilish", "Darslik bilan to'g'ri ishlash usullarini o'zlashtirish"],
+    "blocks": [
+      { "heading": "Qadimgi dunyo tarixi nimani o'rganadi?", "pages": [5],
+        "text": "Bugun Yer yuzidagi ko'pgina odamlarni uzoq o'tmish, o'z xalqi va mamlakati tarixi qiziqtiradi. Qadimgi dunyo tarixi ana shu o'tmishni o'rganadi. Bu tarix turli-tuman arxeologik va yozma manbalarda o'z aksini topgan. Ular qadimiy davr odamlarining hayoti va faoliyati haqida hikoya qilib, savollarimizga javoblar topishga ko'maklashadi.\n\nYer yuzida odam paydo bo'lganidan to milodiy 476-yilda G'arbiy Rim imperiyasi qulaguniga qadar kechgan voqealar tarix fanida qadimgi dunyo tarixi deb ataladi." },
+      { "heading": "Insonning uzoq tarixiy yo'li", "pages": [5],
+        "text": "Inson tosh qurollarni yasashdan to metallni kashf qilguncha, eng oddiy turarjoylarni qurishdan to dastlabki shaharlarni bunyod etguncha, turli-tuman hunarmandchilik buyumlari, yozuv va boshqalarni yaratguncha uzoq tarixiy yo'lni bosib o'tdi.\n\nInsondagi yaratuvchanlik sifati doimo qadrlanib kelgan. Hatto qadim zamonlarda, uzoq ajdodlarimiz hayoti xavf-xatar va tashvishlarga to'la bo'lganda ham, ular olamni anglashga harakat qilishgan. Bu esa ma'naviy madaniyat rivojlanishi uchun poydevor bo'lgan." },
+      { "heading": "Vatanimiz tarixi", "pages": [5],
+        "text": "Bizning Vatanimiz - O'zbekiston uzoq va shonli tarixga ega. Aynan shu zaminda uzoq o'tmishda o'ziga xos sivilizatsiya yaratildi. Bu yerda qadimgi shaharlar va davlatlar tashkil topgan. Ziroatchilar, hunarmandlar va quruvchilar o'zlarining mehnati va yaratuvchanlik salohiyati bilan o'lka dovrug'ini olamga yoyganlar.\n\nVatanga muhabbat bosqinchilarga qarshi kurashgan xalq qahramonlari jasoratida namoyon bo'ladi. Ular yurt ozodligini o'z hayotlaridan ustun qo'yganlar. Ajdodlarimizning jasorati va amalga oshirgan buyuk ishlari qalblarda vatanparvarlik hissini uyg'otadi, har birimizga Vatan manfaatlarini himoya qilishni o'rgatadi. Shu bois har birimiz o'z Vatanimiz tarixini bilishimiz va boshqa mamlakatlar xalqlarining tarixi va madaniyatiga hurmat bilan qarashimiz kerak." },
+      { "heading": "Tarix bizga nimani o'rgatadi?", "pages": [5, 6],
+        "text": "Tarix bizni zo'ravonlik bilan hamma narsaga erishishga emas, balki o'zaro murosa va boshqalarga hurmat bilan munosabatda bo'lishga o'rgatadi. Tarixni sana va nomlar uchun emas, balki ajdodlarning bebaho yaratuvchanlik tajribasi uchun o'rganish kerak.\n\nXalqimiz azaldan ezgulik, tinchlik va bunyodkorlikka intilgan. Bu intilish tarixiy an'analar va boy ma'naviyatga asoslangan. Biz ajdodlarimizning ezgu ishlarini davom ettirishimiz lozim." },
+      { "heading": "Darslik matni bilan ishlash", "pages": [6],
+        "text": "Darslikni o'qir ekansiz, tushunilishi qiyin bo'lgan so'zlarga, tarixiy atama va iboralarga duch kelasiz. Ularni yodlash, esda saqlash kerak bo'ladi. Uyga berilgan topshiriqlarni tayyorlashda quyidagilarga rioya qiling:\n1) Darsda yozib olganlaringizni bir necha bor o'qing.\n2) O'qishdan oldin mavzu sarlavhasiga diqqat qiling, darsda nimalar deyilganini eslang.\n3) Har bir mavzu oxirida berilgan savollarni o'qing. Shunda nimalarga e'tibor berish lozimligini va o'qiganlaringizni qay tartibda bayon etish kerakligini bilib olasiz.\n4) Matnni taxminiy qismlarga bo'ling va har birining asosiy mazmunini o'z so'zlaringiz bilan ayting, keyin butun mavzuni gapirib bering. Gapira olmasangiz, qiyin joylarini qayta o'qing. Takrorlang. Darslik matnini yod olish kerak emas.\n5) Matnni o'qish jarayonida unda eslatilgan rasm va jadvallarni toping, izohlarini o'qing, matnda uchragan shaharlar, mamlakatlar nomlarini xaritadan toping.\n6) Savollarga javob bering va mavzu oxiridagi topshiriqlarni bajaring." }
+    ],
+    "key_facts": [
+      { "fact": "Qadimgi dunyo tarixi - Yer yuzida odam paydo bo'lganidan to milodiy 476-yilda G'arbiy Rim imperiyasi qulaguniga qadar kechgan voqealar", "page": 5 },
+      { "fact": "Qadimgi dunyo tarixi arxeologik va yozma manbalarda o'z aksini topgan", "page": 5 },
+      { "fact": "Tarixni sana va nomlar uchun emas, ajdodlarning yaratuvchanlik tajribasi uchun o'rganish kerak", "page": 5 },
+      { "fact": "Darslik matnini yod olish kerak emas: matnni qismlarga bo'lib, mazmunini o'z so'zlar bilan aytish kerak", "page": 6 }
+    ],
+    "summary": "Qadimgi dunyo tarixi odam paydo bo'lganidan milodiy 476-yilda G'arbiy Rim qulaguniga qadar bo'lgan davrni o'rganadi va uni o'rganishdan maqsad ajdodlar tajribasidan o'rganish, Vatanga muhabbat hamda boshqa xalqlarga hurmat tuyg'usini tarbiyalashdir."
+  },
+  "presentation": { "slides": [
+    { "title": "Kirish", "bullets": [], "page": null },
+    { "title": "Qadimgi dunyo tarixi", "bullets": ["Odam paydo bo'lganidan G'arbiy Rim qulaguniga qadar", "Tugash sanasi: milodiy 476-yil", "Manbalar: arxeologik va yozma"], "page": 5 },
+    { "title": "Inson yo'li", "bullets": ["Tosh qurollardan metallgacha", "Eng oddiy turarjoydan dastlabki shaharlargacha", "Hunarmandchilik va yozuvning yaratilishi"], "page": 5 },
+    { "title": "Tarix nimaga o'rgatadi?", "bullets": ["Murosa va o'zaro hurmatga", "Vatanparvarlik hissiga", "Ajdodlar tajribasidan foydalanishga"], "page": 5 },
+    { "title": "Darslik bilan ishlash", "bullets": ["Mavzu sarlavhasiga diqqat qiling", "Matnni qismlarga bo'lib, o'z so'zlaringiz bilan ayting", "Rasm izohlarini o'qing, joylarni xaritadan toping", "Darslikni yod olish shart emas"], "page": 6 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Yer yuzida odam paydo bo'ldi (qadimgi dunyo tarixi boshlanadi)", "page": 5 },
+      { "label": "Milodiy 476-yil: G'arbiy Rim imperiyasi qulaydi (qadimgi dunyo tarixi tugaydi)", "page": 5 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Qadimgi dunyo tarixi", "right": "Odam paydo bo'lganidan G'arbiy Rim imperiyasi qulaguniga qadar kechgan voqealar", "page": 5 },
+      { "left": "Milodiy 476-yil", "right": "G'arbiy Rim imperiyasi qulagan yil", "page": 5 },
+      { "left": "Tarixni o'rganish maqsadi", "right": "Ajdodlarning yaratuvchanlik tajribasini bilish", "page": 5 },
+      { "left": "Darslik matni", "right": "Yod olish kerak emas, o'z so'zlar bilan ayta olish kerak", "page": 6 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "G'arbiy Rim imperiyasi milodiy ____-yilda qulagan.", "options": ["395", "476", "330", "527"], "correct_index": 1, "page": 5 },
+      { "question": "Qadimgi dunyo tarixi ____ va yozma manbalarda o'z aksini topgan.", "options": ["arxeologik", "og'zaki", "diniy", "xaritali"], "correct_index": 0, "page": 5 },
+      { "question": "Tarixni sana va nomlar uchun emas, ajdodlarning ____ tajribasi uchun o'rganish kerak.", "options": ["harbiy", "yaratuvchanlik", "savdo", "diniy"], "correct_index": 1, "page": 5 },
+      { "question": "Darslik matnini ____ kerak emas.", "options": ["o'qish", "tushunish", "yod olish", "takrorlash"], "correct_index": 2, "page": 6 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi dunyo tarixi qaysi davrni o'z ichiga oladi?", "answer": "Yer yuzida odam paydo bo'lganidan to milodiy 476-yilda G'arbiy Rim imperiyasi qulaguniga qadar kechgan voqealarni.", "page": 5 },
+      { "question": "Uyga berilgan topshiriqlarni tayyorlashda qanday qoidalarga rioya qilish kerak?", "answer": "Darsda yozganlarni qayta o'qish, mavzu sarlavhasiga e'tibor berish, mavzu oxiridagi savollarni o'qish, matnni qismlarga bo'lib o'z so'zlar bilan aytish, rasm va jadval izohlarini o'qib joylarni xaritadan topish hamda savollarga javob berish.", "page": 6 }
+    ],
+    "quiz": [
+      { "question": "Qadimgi dunyo tarixi qachon tugaydi?", "options": ["Milodiy 476-yilda G'arbiy Rim qulashi bilan", "Milodiy 1-asrda", "Aleksandr Makedonskiy vafotida", "Yozuv kashf qilinganda"], "correct_index": 0, "page": 5 },
+      { "question": "Tarixni nima uchun o'rganish kerak?", "options": ["Faqat sanalarni yod olish uchun", "Ajdodlarning yaratuvchanlik tajribasi uchun", "Faqat nomlarni bilish uchun", "Urushlarni sanash uchun"], "correct_index": 1, "page": 5 },
+      { "question": "Tarix bizni nimaga o'rgatadi?", "options": ["Zo'ravonlik bilan erishishga", "O'zaro murosa va hurmatga", "Faqat o'z yurtini bilishga", "Boshqa xalqlardan uzoq turishga"], "correct_index": 1, "page": 5 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimgi dunyo tarixi qaysi voqeadan boshlanadi?", "options": ["Yozuv kashf etilishidan", "Yer yuzida odam paydo bo'lishidan", "Birinchi shahar qurilishidan", "Misr davlati tashkil topishidan"], "correct_index": 1, "page": 5 },
+    { "question": "Qadimgi dunyo tarixi qaysi voqea bilan tugaydi?", "options": ["Rim shahrining asos solinishi", "Makedoniyalik Aleksandr yurishlari", "G'arbiy Rim imperiyasining qulashi", "Vizantiyaning tashkil topishi"], "correct_index": 2, "page": 5 },
+    { "question": "G'arbiy Rim imperiyasi qaysi yilda qulagan?", "options": ["Milodiy 330-yil", "Milodiy 395-yil", "Milodiy 527-yil", "Milodiy 476-yil"], "correct_index": 3, "page": 5 },
+    { "question": "Qadimgi dunyo tarixi qanday manbalarda o'z aksini topgan?", "options": ["Faqat yozma manbalarda", "Arxeologik va yozma manbalarda", "Faqat og'zaki rivoyatlarda", "Faqat xaritalarda"], "correct_index": 1, "page": 5 },
+    { "question": "Insonning tarixiy yo'li darslikda qanday tasvirlanadi?", "options": ["Tosh qurollar yasashdan to metallni kashf qilish, dastlabki shaharlar, hunarmandchilik va yozuvni yaratishgacha", "Faqat urushlardan iborat", "Faqat dehqonchilikdan iborat", "Faqat savdo yo'llarini kashf qilishdan iborat"], "correct_index": 0, "page": 5 },
+    { "question": "Uzoq ajdodlarimiz hayoti xavf-xatarga to'la bo'lganda ham nimaga harakat qilishgan?", "options": ["Yangi yerlarni bosib olishga", "Olamni anglashga", "Shahar qurishga", "Savdo qilishga"], "correct_index": 1, "page": 5 },
+    { "question": "Ajdodlarning olamni anglashga intilishi nimaning poydevori bo'lgan?", "options": ["Harbiy kuchning", "Ma'naviy madaniyat rivojlanishining", "Savdo yo'llarining", "Davlat chegaralarining"], "correct_index": 1, "page": 5 },
+    { "question": "Vatanga muhabbat darslikda nimada namoyon bo'ladi deyilgan?", "options": ["Bosqinchilarga qarshi kurashgan xalq qahramonlari jasoratida", "Boylikni to'plashda", "Boshqa yurtlarni bosib olishda", "Faqat she'rlar yozishda"], "correct_index": 0, "page": 5 },
+    { "question": "Darslikka ko'ra, o'z Vatanimiz tarixini bilishdan tashqari yana nimaga hurmat bilan qarash kerak?", "options": ["Faqat qo'shni davlatlarga", "Boshqa mamlakatlar xalqlarining tarixi va madaniyatiga", "Faqat qadimgi shaharlarga", "Faqat harbiy yodgorliklarga"], "correct_index": 1, "page": 5 },
+    { "question": "Tarix bizni nimaga o'rgatadi?", "options": ["Zo'ravonlik bilan hamma narsaga erishishga", "O'zaro murosa va boshqalarga hurmat bilan munosabatda bo'lishga", "Faqat sanalarni yodlashga", "Faqat kuchliga bo'ysunishga"], "correct_index": 1, "page": 5 },
+    { "question": "Tarixni nima uchun o'rganish kerak?", "options": ["Sana va nomlar uchun", "Ajdodlarning bebaho yaratuvchanlik tajribasi uchun", "Urushlar ro'yxatini bilish uchun", "Imtihon topshirish uchun"], "correct_index": 1, "page": 5 },
+    { "question": "Darslik matnini o'qishdan oldin nimaga diqqat qilish tavsiya etiladi?", "options": ["Rasmlarning sonini sanashga", "Mavzu sarlavhasiga", "Sahifa raqamiga", "Oxirgi bo'limga"], "correct_index": 1, "page": 6 },
+    { "question": "Mavzu oxiridagi savollarni o'qishning foydasi nima?", "options": ["Mavzuni yodlash shart bo'lmaydi", "Nimalarga e'tibor berish va qay tartibda bayon etish kerakligi ma'lum bo'ladi", "Rasmlar tushunarli bo'ladi", "Xaritani ko'rish shart bo'lmaydi"], "correct_index": 1, "page": 6 },
+    { "question": "Matnni o'rganishda darslik qanday usulni tavsiya qiladi?", "options": ["Butun matnni so'zma-so'z yodlash", "Matnni qismlarga bo'lib, har birining mazmunini o'z so'zlari bilan aytish", "Faqat sarlavhalarni o'qish", "Matnni faqat bir marta o'qish"], "correct_index": 1, "page": 6 },
+    { "question": "Darslik matni haqida qaysi fikr to'g'ri?", "options": ["Uni so'zma-so'z yod olish shart", "Uni yod olish kerak emas", "Uni faqat sinfda o'qish kerak", "Uni faqat xaritasiz o'rganish mumkin"], "correct_index": 1, "page": 6 },
+    { "question": "Matnda uchragan shaharlar va mamlakatlar nomlarini qayerdan topish maslahat berilgan?", "options": ["Lug'atdan", "Xaritadan", "Jadvaldan", "Tarixiy hujjatdan"], "correct_index": 1, "page": 6 },
+    { "question": "Matnni o'qish jarayonida rasm va jadvallar bilan nima qilish kerak?", "options": ["E'tibor bermaslik", "Ularni topib, izohlarini o'qish", "Faqat ularni ko'chirib yozish", "Faqat jadvallarni o'qish"], "correct_index": 1, "page": 6 },
+    { "question": "Darslikni o'qishda uchraydigan qiyin so'zlar, tarixiy atama va iboralar bilan nima qilish kerak?", "options": ["O'tkazib yuborish", "Ularni yodlash, esda saqlash", "Faqat o'qituvchidan so'rash", "Hech narsa qilmaslik"], "correct_index": 1, "page": 6 },
+    { "question": "Xalqimiz azaldan nimalarga intilgan?", "options": ["Ezgulik, tinchlik va bunyodkorlikka", "Bosqinchilik va urushga", "Yakkalanib qolishga", "Faqat savdo-sotiqqa"], "correct_index": 0, "page": 6 },
+    { "question": "Ajdodlarimizning ezgu ishlariga munosabat qanday bo'lishi kerak?", "options": ["Ularni unutish kerak", "Ularni davom ettirish lozim", "Ularni faqat eslash kerak", "Ularni o'zgartirib yuborish kerak"], "correct_index": 1, "page": 6 }
+  ]
+}

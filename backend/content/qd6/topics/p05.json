@@ -1,0 +1,85 @@
+{
+  "key": "p05", "title": "5-§. O'rta Osiyo temir asriga o'tish davrida", "start_page": 26, "end_page": 27,
+  "explanation": {
+    "goals": ["Temirning kashf etilishi va ahamiyatini tushuntirish", "Temir asri boshlarida O'rta Osiyo jamiyati tuzilishini bilish"],
+    "blocks": [
+      { "heading": "Temirdan foydalanish", "pages": [26],
+        "text": "Odamlar mis va bronzadan mehnat qurollari yasashni o'rgangan paytdan keyin oradan ko'p asrlar o'tib, temirdan mehnat qurollari yasash imkoniyati paydo bo'ldi. Bu jarayon ko'p mehnat talab qilgan, negaki temir misdan ko'ra ancha yuqori haroratda (1500 gradus) eriydi. Ayni paytda temir mis va bronzaga nisbatan ancha qattiqroq edi.\n\nTemirdan birinchi bo'lib Kichik Osiyodagi xettlar mil. avv. XIV-XIII asrlarda foydalana boshlagan. Temir buyumlarning ommalashuvi asta-sekinlik bilan davom etgan. Sof temir tabiatda kamyob metall bo'lgani sababli undan dastlab bezak buyumlari tayyorlangan. Shunday bezaklar Misr fir'avni Tutanxamon maqbarasidan topilgan." },
+      { "heading": "Temirning dehqonchilikka ta'siri", "pages": [26],
+        "text": "Mehnat qurollarining temirdan yasalishi, eng avvalo, dehqonchilikning rivojiga ta'sir ko'rsatgan. Temir uchli omochlar va boltalar paydo bo'lgan. Bu mehnat qurollari katta maydonlarda ziroatchilikning rivojlanishiga imkon yaratib bergan. O'rta Osiyoda temirdan yasalgan ilk mehnat qurollari mil. avv. IX-VIII asrlarga tegishli." },
+      { "heading": "Ijtimoiy tuzum", "pages": [27],
+        "text": "Temir qurollarning tarqalishi mehnat samaradorligini oshirdi va bu ishlab chiqarishning yanada ilg'or usuliga o'tish uchun sharoit hozirladi. Temir asri boshlarida O'rta Osiyoda aholi turli guruhlarga bo'lindi: kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlar shular jumlasidandir.\n\nO'rta Osiyoda jamiyatning asosini tashkil etgan katta patriarxal oila bo'lganini \"Avesto\"dan bilamiz. Bir necha shunday oilalar hududiy qo'shnichilik jamoasini tashkil etgan. Katta oila a'zolari alohida turarjoyga ega bo'lib, xo'jalik ishlarini birgalikda amalga oshirishgan, o'zlarining mehnat qurollari, qishloq xo'jalik mahsulotlari zaxirasi va chorva podalariga egalik qilishgan. O'rta Osiyoda temir asriga o'tish davrida jamiyatning tuzilishi shunday bo'lgan." }
+    ],
+    "key_facts": [
+      { "fact": "Temir misdan ancha yuqori haroratda (1500 gradus) eriydi va mis hamda bronzadan qattiqroq", "page": 26 },
+      { "fact": "Temirdan birinchi bo'lib Kichik Osiyodagi xettlar mil. avv. XIV-XIII asrlarda foydalana boshlagan", "page": 26 },
+      { "fact": "O'rta Osiyoda temirdan yasalgan ilk mehnat qurollari mil. avv. IX-VIII asrlarga tegishli", "page": 26 },
+      { "fact": "Temir asri boshlarida O'rta Osiyo aholisi kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlarga bo'lingan", "page": 27 },
+      { "fact": "Jamiyat asosi katta patriarxal oila bo'lgan (\"Avesto\" ma'lumoti); bir necha oila hududiy qo'shnichilik jamoasini tashkil etgan", "page": 27 }
+    ],
+    "summary": "Temir mis va bronzadan qattiqroq bo'lsa-da, erishi qiyin bo'lgani uchun asta-sekin tarqalgan; u dehqonchilikni rivojlantirgan. O'rta Osiyoda ilk temir qurollar mil. avv. IX-VIII asrlarga oid bo'lib, jamiyat kohin, jangchi, chorvador, dehqon va hunarmandlarga bo'linib, katta patriarxal oilalar hududiy jamoalarni tashkil etgan."
+  },
+  "presentation": { "slides": [
+    { "title": "5-§. O'rta Osiyo temir asriga o'tish davrida", "bullets": [], "page": null },
+    { "title": "Temirning xususiyatlari", "bullets": ["1500 gradusda eriydi", "Mis va bronzadan qattiqroq", "Sof temir tabiatda kamyob"], "page": 26 },
+    { "title": "Temirdan foydalanish", "bullets": ["Xettlar - mil. avv. XIV-XIII asrlar", "O'rta Osiyoda - mil. avv. IX-VIII asrlar", "Temir uchli omoch va boltalar"], "page": 26 },
+    { "title": "Jamiyat guruhlari", "bullets": ["Kohinlar", "Jangchilar", "Chorvadorlar", "Dehqonlar", "Hunarmandlar"], "page": 27 },
+    { "title": "Katta patriarxal oila", "bullets": ["Jamiyat asosi (\"Avesto\")", "Bir necha oila - qo'shnichilik jamoasi"], "page": 27 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Xettlar temirdan foydalana boshlaydi (mil. avv. XIV-XIII asrlar)", "page": 26 },
+      { "label": "O'rta Osiyoda ilk temir mehnat qurollari (mil. avv. IX-VIII asrlar)", "page": 26 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Xettlar", "right": "Temirdan birinchi bo'lib foydalangan Kichik Osiyo xalqi", "page": 26 },
+      { "left": "1500 gradus", "right": "Temir eriydigan harorat", "page": 26 },
+      { "left": "Tutanxamon maqbarasi", "right": "Dastlabki temir bezaklar topilgan joy", "page": 26 },
+      { "left": "Temir uchli omoch va boltalar", "right": "Katta maydonlarda ziroatchilik rivojiga imkon bergan qurollar", "page": 26 },
+      { "left": "Katta patriarxal oila", "right": "O'rta Osiyo jamiyatining asosi", "page": 27 },
+      { "left": "Hududiy qo'shnichilik jamoasi", "right": "Bir necha katta oilaning birlashuvi", "page": 27 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Temir misdan ancha yuqori haroratda, ya'ni ____ gradusda eriydi.", "options": ["500", "1500", "3000", "800"], "correct_index": 1, "page": 26 },
+      { "question": "Temirdan birinchi bo'lib Kichik Osiyodagi ____ foydalana boshlagan.", "options": ["xettlar", "misrliklar", "shumerlar", "fors"], "correct_index": 0, "page": 26 },
+      { "question": "Sof temir tabiatda ____ metall bo'lgani uchun undan dastlab bezaklar yasalgan.", "options": ["ko'p uchraydigan", "kamyob", "yengil", "zaharli"], "correct_index": 1, "page": 26 },
+      { "question": "Dastlabki temir bezaklar Misr fir'avni ____ maqbarasidan topilgan.", "options": ["Xufu", "Ramzes", "Tutanxamon", "Narmer"], "correct_index": 2, "page": 26 },
+      { "question": "Temir asri boshlarida jamiyatning asosini katta ____ oila tashkil etgan.", "options": ["matriarxal", "patriarxal", "davlat", "savdogar"], "correct_index": 1, "page": 27 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Temir buyumlardan foydalanish qachon boshlangan?", "answer": "Temirdan birinchi bo'lib Kichik Osiyodagi xettlar mil. avv. XIV-XIII asrlarda foydalana boshlagan; O'rta Osiyoda temirdan yasalgan ilk mehnat qurollari mil. avv. IX-VIII asrlarga tegishli.", "page": 26 },
+      { "question": "Temirdan mehnat qurollari yasashning boshlanishi jamiyatda qanday o'zgarishlarga olib kelgan?", "answer": "Dehqonchilik rivojlangan (temir uchli omoch va boltalar katta maydonlarda ziroatchilikka imkon bergan), mehnat samaradorligi oshib, ishlab chiqarishning ilg'or usuliga o'tish uchun sharoit hozirlangan.", "page": 27 },
+      { "question": "Temir asri boshlarida O'rta Osiyoda aholi qaysi guruhlarga bo'lingan?", "answer": "Kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlarga.", "page": 27 }
+    ],
+    "quiz": [
+      { "question": "Temirdan mehnat qurollari yasash nima uchun ko'p mehnat talab qilgan?", "options": ["Temir misdan ancha yuqori haroratda eriydi", "Temir topilmasdi", "Temir juda yumshoq edi", "Uni faqat suvda eritish mumkin edi"], "correct_index": 0, "page": 26 },
+      { "question": "Sof temirdan dastlab nima tayyorlangan?", "options": ["Bezak buyumlari", "Omochlar", "Qilichlar", "Idishlar"], "correct_index": 0, "page": 26 },
+      { "question": "Temir qurollarning tarqalishi nimaga sharoit hozirladi?", "options": ["Ishlab chiqarishning yanada ilg'or usuliga o'tishga", "Dehqonchilikning to'xtashiga", "Yozuvning yo'qolishiga", "Aholining kamayishiga"], "correct_index": 0, "page": 27 }
+    ]
+  },
+  "test": [
+    { "question": "Temirdan mehnat qurollari yasash imkoniyati qachon paydo bo'ldi?", "options": ["Mis va bronza qurollari yasashni o'rgangandan keyin oradan ko'p asrlar o'tib", "Mis kashf etilishi bilan bir vaqtda", "Neolit davrida", "Paleolit davrida"], "correct_index": 0, "page": 26 },
+    { "question": "Temir qurollar yasash nima uchun ko'p mehnat talab qilgan?", "options": ["Temir misdan ko'ra ancha yuqori haroratda eriydi", "Temir juda yumshoq edi", "Temirni topish qiyin emas edi", "Temir juda yengil edi"], "correct_index": 0, "page": 26 },
+    { "question": "Temir necha gradus haroratda eriydi?", "options": ["Taxminan 500", "Taxminan 800", "Taxminan 1500", "Taxminan 3000"], "correct_index": 2, "page": 26 },
+    { "question": "Temir mis va bronzaga nisbatan qanday edi?", "options": ["Ancha qattiqroq", "Yumshoqroq", "Xuddi shunday", "Sinuvchanroq va yengil"], "correct_index": 0, "page": 26 },
+    { "question": "Temirdan birinchi bo'lib qaysi xalq foydalana boshlagan?", "options": ["Kichik Osiyodagi xettlar", "Misrliklar", "Shumerlar", "Xitoyliklar"], "correct_index": 0, "page": 26 },
+    { "question": "Xettlar temirdan qachon foydalana boshlagan?", "options": ["Mil. avv. XIV-XIII asrlarda", "Mil. avv. IX-VIII asrlarda", "Mil. avv. IV-III asrlarda", "Milodiy I asrda"], "correct_index": 0, "page": 26 },
+    { "question": "Nima uchun temir buyumlarning ommalashuvi asta-sekin davom etgan?", "options": ["Sof temir tabiatda kamyob metall bo'lgani va uni eritish qiyin bo'lgani uchun", "Temir arzon bo'lgani uchun", "Odamlar temirni yoqtirmagani uchun", "Temir zaharli bo'lgani uchun"], "correct_index": 0, "page": 26 },
+    { "question": "Sof temirdan dastlab nima tayyorlangan?", "options": ["Bezak buyumlari", "Omochlar", "Boltalar", "Nayzalar"], "correct_index": 0, "page": 26 },
+    { "question": "Temirdan yasalgan dastlabki bezaklar qaysi fir'avn maqbarasidan topilgan?", "options": ["Tutanxamon", "Xufu", "Ramzes II", "Narmer"], "correct_index": 0, "page": 26 },
+    { "question": "Mehnat qurollarining temirdan yasalishi eng avvalo qaysi sohaga ta'sir ko'rsatdi?", "options": ["Dehqonchilikka", "Savdoga", "Dengizchilikka", "Yozuvga"], "correct_index": 0, "page": 26 },
+    { "question": "Temir uchli qaysi qurollar paydo bo'lgan?", "options": ["Omochlar va boltalar", "Nayzalar va o'q-yoylar", "Ko'zgular va tumorlar", "Idish va guldonlar"], "correct_index": 0, "page": 26 },
+    { "question": "Temir qurollar nimaga imkon yaratib bergan?", "options": ["Katta maydonlarda ziroatchilikning rivojlanishiga", "Dengiz savdosining boshlanishiga", "Shaharlarning yo'qolishiga", "G'orlarda yashashga"], "correct_index": 0, "page": 26 },
+    { "question": "O'rta Osiyoda temirdan yasalgan ilk mehnat qurollari qaysi davrga tegishli?", "options": ["Mil. avv. IX-VIII asrlar", "Mil. avv. XIV-XIII asrlar", "Mil. avv. IV-III asrlar", "Milodiy II asr"], "correct_index": 0, "page": 26 },
+    { "question": "Temir qurollarning tarqalishi nimani oshirdi?", "options": ["Mehnat samaradorligini", "Aholi sonini faqat", "Harbiy xarajatlarni", "Soliqlarni"], "correct_index": 0, "page": 27 },
+    { "question": "Temir asri boshlarida O'rta Osiyo aholisi qaysi guruhlarga bo'lindi?", "options": ["Kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlar", "Faqat dehqonlar va savdogarlar", "Shohlar va qullar", "Ovchilar va baliqchilar"], "correct_index": 0, "page": 27 },
+    { "question": "Quyidagilardan qaysi biri temir asri boshlaridagi ijtimoiy guruhlar qatoriga kirmaydi?", "options": ["Kohinlar", "Jangchilar", "Dengizchilar", "Hunarmandlar"], "correct_index": 2, "page": 27 },
+    { "question": "O'rta Osiyo jamiyatining asosini nima tashkil etgan?", "options": ["Katta patriarxal oila", "Matriarxal urug'", "Davlat idorasi", "Savdo uyushmasi"], "correct_index": 0, "page": 27 },
+    { "question": "Jamiyatning asosi katta patriarxal oila ekanligini qaysi manbadan bilamiz?", "options": ["\"Avesto\"dan", "Gerodot \"Tarix\"idan", "Behistun yozuvidan", "Strabon \"Geografiya\"sidan"], "correct_index": 0, "page": 27 },
+    { "question": "Bir necha katta oila birlashib nimani tashkil etgan?", "options": ["Hududiy qo'shnichilik jamoasini", "Davlat armiyasini", "Savdo karvonini", "Diniy jamoani"], "correct_index": 0, "page": 27 },
+    { "question": "Katta oila a'zolari qanday yashagan?", "options": ["Alohida turarjoyga ega bo'lib, xo'jalik ishlarini birgalikda amalga oshirgan", "Hammasi bitta uyda", "Har biri alohida, bir-biridan mustaqil", "Doimiy ko'chib yurgan"], "correct_index": 0, "page": 27 },
+    { "question": "Katta oila a'zolari nimalarga egalik qilgan?", "options": ["O'z mehnat qurollari, qishloq xo'jalik mahsulotlari zaxirasi va chorva podalariga", "Faqat yerga", "Faqat qullarga", "Faqat uyga"], "correct_index": 0, "page": 27 }
+  ]
+}
