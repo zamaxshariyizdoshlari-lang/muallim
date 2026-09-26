@@ -11,8 +11,29 @@ STATUS_CHOICES = [
 ]
 
 
+class Subject(models.Model):
+    """Fan (Tarix, Turk tili, ...). Har fanda bir nechta kurs (kitob) bo'ladi."""
+
+    slug = models.SlugField(max_length=50, unique=True)
+    title = models.CharField(max_length=100)
+    description = models.CharField(max_length=300, blank=True)
+    # lucide-react ikonka nomi (frontend xaritalaydi), masalan "landmark", "languages"
+    icon = models.CharField(max_length=40, blank=True)
+    order = models.PositiveIntegerField(default=0)
+    is_active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ['order', 'id']
+
+    def __str__(self):
+        return self.title
+
+
 class Book(models.Model):
-    """O'qituvchi tomonidan yuklangan tarix darsligi (PDF)."""
+    """Kurs (darslik): bo'limlar -> mavzular. PDF yoki tayyor JSON orqali yaratiladi."""
+
+    subject = models.ForeignKey(Subject, on_delete=models.SET_NULL, null=True, blank=True, related_name='books')
+    description = models.CharField(max_length=500, blank=True)
 
     title = models.CharField(max_length=255)
     # JSON orqali import qilingan kitoblarda PDF faylning o'zi bo'lmaydi.
@@ -22,8 +43,6 @@ class Book(models.Model):
     uploaded_by = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='books'
     )
-    # Kelajakda ERP'dagi School modeliga FK bilan almashtiriladi; hozircha ixtiyoriy id sifatida.
-    school_id_ref = models.IntegerField(null=True, blank=True)
     has_text_layer = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

@@ -3,7 +3,10 @@
  "book": {
   "key": "qadimgi-dunyo-6",
   "title": "Qadimgi dunyo tarixi (6-sinf, 2022)",
-  "language": "uz"
+  "language": "uz",
+  "subject": "tarix",
+  "subject_title": "Tarix",
+  "description": "Sagdullayev, Kostetskiy. 6-sinf darsligi (2022): 5 bo'lim, 44 mavzu."
  },
  "sections": [
   {

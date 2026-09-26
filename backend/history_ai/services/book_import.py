@@ -5,7 +5,7 @@ import random
 from django.db import transaction
 
 from ..models import (
-    STATUS_DONE, Book, BookExam, GeneratedAsset, Lesson, Section, SectionExam, Topic,
+    STATUS_DONE, Book, BookExam, GeneratedAsset, Lesson, Section, SectionExam, Subject, Topic,
 )
 
 FORMAT_VERSION = 1
@@ -127,6 +127,12 @@ def import_book_json(data, user):
         key=bdata['key'], defaults={'title': bdata['title'], 'uploaded_by': user}
     )
     book.title = bdata['title']
+    book.description = bdata.get('description', book.description)
+    subj = bdata.get('subject') or 'tarix'
+    subject, _ = Subject.objects.get_or_create(
+        slug=subj, defaults={'title': bdata.get('subject_title') or subj.replace('-', ' ').title()}
+    )
+    book.subject = subject
     book.save()
 
     seen_sections, seen_topics = [], []

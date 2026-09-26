@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'uz'
 
 TIME_ZONE = 'UTC'
 
@@ -140,6 +140,7 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_THROTTLE_RATES': {
         'ai_generation': os.getenv('AI_RATE_LIMIT', '20/hour'),
+        'register': os.getenv('REGISTER_RATE_LIMIT', '20/hour'),
     },
 }
 

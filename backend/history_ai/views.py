@@ -2,6 +2,7 @@ from django.core.files.base import ContentFile
 from django.http import FileResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
+from django.db.models import Count
 from rest_framework import generics, status
 from rest_framework.exceptions import PermissionDenied, ValidationError
 from rest_framework.permissions import IsAuthenticated
@@ -10,13 +11,13 @@ from rest_framework.views import APIView
 
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
-    Lesson, Page, Section, SectionCompletion, SectionExam, TestAttempt, Topic, TopicCompletion,
+    Lesson, Page, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic, TopicCompletion,
 )
 from .permissions import IsTeacher
 from .progress import all_topics_completed, section_states, topic_states
 from .serializers import (
     BookExamSerializer, BookSerializer, GeneratedAssetSerializer, LessonSerializer,
-    SectionExamSerializer, TopicSerializer,
+    SectionExamSerializer, SubjectSerializer, TopicSerializer,
 )
 from .services.book_exam_builder import build_book_exam
 from .services.book_import import import_book_json
@@ -48,7 +49,11 @@ class BookUploadView(APIView):
         return [IsAuthenticated()] if self.request.method == 'GET' else [IsTeacher()]
 
     def get(self, request):
-        return Response(BookSerializer(Book.objects.order_by('-created_at'), many=True).data)
+        books = Book.objects.select_related('subject').order_by('-created_at')
+        slug = request.query_params.get('subject')
+        if slug:
+            books = books.filter(subject__slug=slug)
+        return Response(BookSerializer(books, many=True).data)
 
     def post(self, request):
         file_obj = request.FILES.get('file')
@@ -92,7 +97,21 @@ class BookUploadView(APIView):
 
 class MeView(APIView):
     def get(self, request):
-        return Response({'username': request.user.username, 'is_staff': request.user.is_staff})
+        u = request.user
+        return Response({
+            'username': u.username,
+            'first_name': u.first_name,
+            'is_staff': u.is_staff,
+            'date_joined': u.date_joined,
+        })
+
+
+class SubjectListView(APIView):
+    """Faol fanlar ro'yxati (har birida nechta kurs borligi bilan)."""
+
+    def get(self, request):
+        qs = Subject.objects.filter(is_active=True).annotate(book_count=Count('books'))
+        return Response(SubjectSerializer(qs, many=True).data)
 
 
 class TopicListView(generics.ListAPIView):

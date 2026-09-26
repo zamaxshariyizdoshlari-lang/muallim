@@ -1,5 +1,5 @@
 {
-  "book": { "key": "qadimgi-dunyo-6", "title": "Qadimgi dunyo tarixi (6-sinf, 2022)", "language": "uz" },
+  "book": { "key": "qadimgi-dunyo-6", "title": "Qadimgi dunyo tarixi (6-sinf, 2022)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "Sagdullayev, Kostetskiy. 6-sinf darsligi (2022): 5 bo'lim, 44 mavzu." },
   "sections": [
     { "key": "s1", "title": "I BO'LIM. Eng qadimgi tuzumdan sivilizatsiya sari",
       "topics": ["p00", "p01", "p02", "p03", "p04", "p05"] },

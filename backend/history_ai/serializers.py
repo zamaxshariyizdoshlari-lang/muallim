@@ -1,12 +1,22 @@
 from rest_framework import serializers
 
-from .models import Book, BookExam, GeneratedAsset, Lesson, SectionExam, Topic
+from .models import Book, BookExam, GeneratedAsset, Lesson, SectionExam, Subject, Topic
+
+
+class SubjectSerializer(serializers.ModelSerializer):
+    book_count = serializers.IntegerField(read_only=True, default=0)
+
+    class Meta:
+        model = Subject
+        fields = ['id', 'slug', 'title', 'description', 'icon', 'order', 'book_count']
 
 
 class BookSerializer(serializers.ModelSerializer):
+    subject_slug = serializers.CharField(source='subject.slug', read_only=True, default=None)
+
     class Meta:
         model = Book
-        fields = ['id', 'title', 'file', 'has_text_layer', 'created_at']
+        fields = ['id', 'title', 'description', 'subject', 'subject_slug', 'file', 'has_text_layer', 'created_at']
         read_only_fields = ['id', 'has_text_layer', 'created_at']
 
 
