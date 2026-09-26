@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
   createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
-  getToken, listTopics, submitBookExam, submitTopicTest,
+  getSectionExam, getSections, getToken, listTopics, submitBookExam, submitSectionExam, submitTopicTest,
 } from './api/client'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
@@ -19,6 +19,8 @@ export default function HistoryAIModule() {
   const [step, setStep] = useState('upload') // upload | topics | lesson | topicTest | exam
   const [book, setBook] = useState(null)
   const [topics, setTopics] = useState([])
+  const [sections, setSections] = useState([])
+  const [activeSection, setActiveSection] = useState(null)
   const [progress, setProgress] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
 
@@ -34,15 +36,17 @@ export default function HistoryAIModule() {
   const isTeacher = me.is_staff
 
   async function refreshTopics(bookId = book.id) {
-    const [freshTopics, freshProgress] = await Promise.all([listTopics(bookId), getBookProgress(bookId)])
+    const [freshTopics, freshProgress, freshSections] = await Promise.all([
+      listTopics(bookId), getBookProgress(bookId), getSections(bookId),
+    ])
     setTopics(freshTopics)
     setProgress(freshProgress)
+    setSections(freshSections)
   }
 
   async function handleUploaded(newBook, newTopics) {
     setBook(newBook)
-    setTopics(newTopics)
-    setProgress(await getBookProgress(newBook.id))
+    await refreshTopics(newBook.id)
     setStep('topics')
   }
 
@@ -69,8 +73,10 @@ export default function HistoryAIModule() {
         <TopicSelectPage
           book={book}
           topics={topics}
+          sections={sections}
           isTeacher={isTeacher}
           progress={progress}
+          onOpenSectionExam={(section) => { setActiveSection(section); setStep('sectionExam') }}
           onSelect={(topic) => { setActiveTopic(topic); setStep('lesson') }}
           onBack={() => setStep('upload')}
           onOpenExam={() => setStep('exam')}
@@ -98,6 +104,20 @@ export default function HistoryAIModule() {
           submit={(answers) => submitTopicTest(activeTopic.id, answers)}
           passedLabel="Mavzu to'liq o'zlashtirildi. Keyingi mavzu ochildi!"
           onBack={() => setStep('lesson')}
+          onPassed={backToTopics}
+        />
+      )}
+
+      {step === 'sectionExam' && (
+        <TestPage
+          key={`s${activeSection.id}`}
+          title={`Bo'lim testi: ${activeSection.title}`}
+          isTeacher={false}
+          load={() => getSectionExam(activeSection.id)}
+          create={async () => {}}
+          submit={(answers) => submitSectionExam(activeSection.id, answers)}
+          passedLabel="Bo'lim to'liq o'zlashtirildi. Keyingi bo'lim ochildi!"
+          onBack={backToTopics}
           onPassed={backToTopics}
         />
       )}

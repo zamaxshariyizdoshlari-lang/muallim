@@ -1,6 +1,6 @@
 import { BookOpen, FileUp, Loader2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { listBooks, uploadBook } from '../api/client'
+import { importBookJson, listBooks, uploadBook } from '../api/client'
 
 export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
   const [books, setBooks] = useState([])
@@ -12,6 +12,22 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
   useEffect(() => {
     listBooks().then(setBooks).catch((err) => setError(err.message))
   }, [])
+
+  const [importMsg, setImportMsg] = useState(null)
+
+  async function handleImport(e) {
+    const f = e.target.files?.[0]
+    e.target.value = ''
+    if (!f) return
+    setImportMsg({ text: 'Import qilinmoqda...' })
+    try {
+      const r = await importBookJson(f)
+      setImportMsg({ ok: true, text: `Import tayyor: ${r.sections} bo'lim, ${r.topics} mavzu, ${r.questions} test savoli.` })
+      setBooks(await listBooks())
+    } catch (err) {
+      setImportMsg({ text: err.message, errors: err.errors })
+    }
+  }
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -50,8 +66,29 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
       </div>
 
       {isTeacher && (
+        <div className="mb-6 rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-1 text-sm font-semibold text-slate-900">Tayyor JSON'dan import (asosiy yo'l)</h2>
+          <p className="mb-3 text-xs text-slate-500">Mavzular, testlar, o'yinlar hammasi tayyor JSON faylda. Qayta yuklasangiz, o'quvchilar progressi saqlanadi.</p>
+          <label className="inline-block cursor-pointer rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
+            JSON faylni tanlash
+            <input type="file" accept="application/json,.json" className="hidden" onChange={handleImport} />
+          </label>
+          {importMsg && (
+            <div className={`mt-3 text-sm ${importMsg.ok ? 'text-green-700' : 'text-red-600'}`}>
+              <p>{importMsg.text}</p>
+              {importMsg.errors?.length > 0 && (
+                <ul className="mt-1 max-h-40 list-disc overflow-auto pl-5 text-xs">
+                  {importMsg.errors.map((er, i) => <li key={i}>{er}</li>)}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
+      {isTeacher && (
         <form onSubmit={handleSubmit} className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="mb-3 text-sm font-semibold text-slate-900">Yangi darslik yuklash</h2>
+          <h2 className="mb-3 text-sm font-semibold text-slate-900">Zaxira: PDF yuklash (avtomatik aniqlash)</h2>
           <label className="mb-4 block text-sm text-slate-700">
             Kitob nomi (ixtiyoriy)
             <input

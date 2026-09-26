@@ -150,6 +150,7 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
           </AssetPanel>
 
           <StageHeading n={3} text="Savollar" />
+          <BookQuestions items={lesson.quiz?.book_questions} />
           <QuizCard quiz={lesson.quiz} />
           {lesson.quiz?.questions?.length > 0 && (
             <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -234,6 +235,16 @@ function LessonPlanCard({ plan }) {
         </div>
       )}
 
+      {plan.blocks?.map((b, i) => (
+        <div key={i} className="mb-4">
+          {b.heading && <h3 className="mb-1 text-sm font-semibold text-slate-800">{b.heading}</h3>}
+          <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700">
+            {b.text}
+            {b.pages?.map((pg) => <PageTag key={pg} page={pg} />)}
+          </p>
+        </div>
+      ))}
+
       {plan.explanation && (
         <div className="mb-4">
           <h3 className="mb-1 text-sm font-medium text-slate-700">Tushuntirish</h3>
@@ -247,6 +258,32 @@ function LessonPlanCard({ plan }) {
           <p className="text-sm text-slate-600">{plan.summary}</p>
         </div>
       )}
+    </section>
+  )
+}
+
+function BookQuestions({ items }) {
+  const [open, setOpen] = useState({})
+  if (!items?.length) return null
+  return (
+    <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 className="mb-4 text-lg font-semibold text-slate-900">Darslikdagi savol va topshiriqlar</h2>
+      <ol className="flex flex-col gap-4">
+        {items.map((q, i) => (
+          <li key={i}>
+            <p className="text-sm font-medium text-slate-800">{i + 1}. {q.question}</p>
+            {open[i] ? (
+              <p className="mt-2 rounded bg-green-50 px-3 py-2 text-sm text-green-800">
+                {q.answer}<PageTag page={q.page} />
+              </p>
+            ) : (
+              <button onClick={() => setOpen((o) => ({ ...o, [i]: true }))} className="mt-1 text-xs text-indigo-600 underline">
+                Javobni ko'rish
+              </button>
+            )}
+          </li>
+        ))}
+      </ol>
     </section>
   )
 }

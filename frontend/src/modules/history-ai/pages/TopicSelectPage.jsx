@@ -1,7 +1,12 @@
 import { Award, BookOpen, CheckCircle2, ChevronLeft, ClipboardCheck, Lock } from 'lucide-react'
 
-export default function TopicSelectPage({ book, topics, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate }) {
+export default function TopicSelectPage({ book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate }) {
   const completedCount = topics.filter((t) => t.completed).length
+  const sectionIds = [...new Set(topics.map((t) => t.section))]
+  const groups = sectionIds.map((id) => ({
+    section: sections.find((s) => s.id === id) || null,
+    topics: topics.filter((t) => t.section === id),
+  }))
 
   return (
     <div className="mx-auto max-w-xl">
@@ -15,32 +20,57 @@ export default function TopicSelectPage({ book, topics, isTeacher, progress, onS
         {!isTeacher && ` O'tildi: ${completedCount} / ${topics.length}.`}
       </p>
 
-      <div className="flex flex-col gap-2">
-        {topics.map((topic) => {
-          const locked = !topic.unlocked
-          return (
-            <button
-              key={topic.id}
-              onClick={() => onSelect(topic)}
-              disabled={locked}
-              title={locked ? "Avval oldingi mavzu testini 100% topshiring" : undefined}
-              className={`flex items-center justify-between rounded-lg border px-4 py-3 text-left shadow-sm ${
-                locked
-                  ? 'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400'
-                  : 'border-slate-200 bg-white hover:border-indigo-400 hover:bg-indigo-50'
-              }`}
-            >
-              <span className="flex items-center gap-3">
-                {locked ? <Lock size={18} /> : topic.completed ? <CheckCircle2 className="text-green-600" size={18} /> : <BookOpen className="text-indigo-500" size={18} />}
-                <span className="text-sm font-medium">{topic.title}</span>
-              </span>
-              <span className="text-xs text-slate-400">
-                {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}-${topic.end_page}`}
-              </span>
-            </button>
-          )
-        })}
-      </div>
+      {groups.map((group) => (
+        <div key={group.section?.id ?? 'none'} className="mb-6">
+          {group.section && (
+            <div className="mb-2 flex items-center justify-between gap-2">
+              <h2 className="text-sm font-semibold text-slate-700">{group.section.title}</h2>
+              {(isTeacher || group.section.has_exam) && (
+                <button
+                  onClick={() => onOpenSectionExam(group.section)}
+                  disabled={!isTeacher && !group.section.exam_available}
+                  title={!isTeacher && !group.section.exam_available ? "Bo'limdagi barcha mavzularni tugatgach ochiladi" : undefined}
+                  className={`flex shrink-0 items-center gap-1 rounded-lg px-3 py-1 text-xs font-medium ${
+                    group.section.completed
+                      ? 'bg-green-100 text-green-700'
+                      : group.section.exam_available || isTeacher
+                        ? 'bg-indigo-600 text-white hover:bg-indigo-700'
+                        : 'cursor-not-allowed bg-slate-100 text-slate-400'
+                  }`}
+                >
+                  <ClipboardCheck size={13} /> {group.section.completed ? "Bo'lim testi o'tildi" : "Bo'lim testi"}
+                </button>
+              )}
+            </div>
+          )}
+          <div className="flex flex-col gap-2">
+            {group.topics.map((topic) => {
+              const locked = !topic.unlocked
+              return (
+                <button
+                  key={topic.id}
+                  onClick={() => onSelect(topic)}
+                  disabled={locked}
+                  title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini 100% topshiring" : undefined}
+                  className={`flex items-center justify-between rounded-lg border px-4 py-3 text-left shadow-sm ${
+                    locked
+                      ? 'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400'
+                      : 'border-slate-200 bg-white hover:border-indigo-400 hover:bg-indigo-50'
+                  }`}
+                >
+                  <span className="flex items-center gap-3">
+                    {locked ? <Lock size={18} /> : topic.completed ? <CheckCircle2 className="text-green-600" size={18} /> : <BookOpen className="text-indigo-500" size={18} />}
+                    <span className="text-sm font-medium">{topic.title}</span>
+                  </span>
+                  <span className="text-xs text-slate-400">
+                    {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}-${topic.end_page}`}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      ))}
 
       <div className="mt-6 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
         <h2 className="mb-1 flex items-center gap-2 text-sm font-semibold text-slate-900">
