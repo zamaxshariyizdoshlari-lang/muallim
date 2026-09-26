@@ -1,0 +1,90 @@
+{
+  "key": "p08", "title": "8-§. Qadimgi Misrda din", "start_page": 34, "end_page": 35,
+  "explanation": {
+    "goals": ["Misrliklarning asosiy ma'budlarini bilish", "Kohinlarning jamiyatdagi o'rni va nufuzini tushuntirish"],
+    "blocks": [
+      { "heading": "Misrliklarning ma'budlari", "pages": [34],
+        "text": "Misr aholisi uchun din kundalik turmushning ajralmas bir bo'lagi hisoblangan. Qadimgi misrliklar ma'budlar hayvonlar qiyofasiga kirib olib, ya'ni mushuk, qo'y, ho'kiz, arslon, sigir ko'rinishida odamlar orasida yashaydi deb hisoblagan. Misrliklar ma'budlarning bir qancha joni mavjud: ulardan biri hayvon tanasida, boshqasi esa haykalida yashaydi deb o'ylagan. Kohinlar - ibodatxona ruhoniylari ma'budlarni dindorlar in'om tariqasida keltirgan narsalar bilan boqishadi deb hisoblashgan." },
+      { "heading": "Ptax va Apis", "pages": [34],
+        "text": "Qadimgi Misr podsholigining poytaxti Memfisning o'z ma'budi - Ptax bo'lgan. Misrliklar e'tiqodicha, Ptax olamni yaratayotganida har bir narsaning nomini odamga o'rgatgan. Ma'bud shunchalik qudratliki, uni asl qiyofasida ko'rishning iloji yo'q. Shuning uchun ham Ptax degan ma'budning Yer yuzidagi qiyofasi Apis bo'lib, u peshanasi va belida oq qashqasi bo'lgan qora ho'kiz timsolida tasavvur qilingan." },
+      { "heading": "Amon-Ra, Xapi va Osiris", "pages": [34, 35],
+        "text": "Quyosh ma'budi Amon-Ra fir'avnlarning bosh ilohi va homiysi hisoblangan. Dastlab ikkita ma'bud bo'lgan: Fiva shahri homiysi Amon va Quyosh ma'budi Ra, so'ng ikkalasi yagona ma'budga birlashgan. Uning ibodatxonasi Geliopolda (Baolbek) bo'lgan. Fir'avnlar Quyosh ma'budi o'g'illaridir, hukmdorlar hamma ishni o'zining samoviy otasi amri bilan amalga oshiradi degan qarash mavjud bo'lgan.\n\nXapi - Nil ma'budi, Misrdagi hayotning birlamchi manbai va posboni, Osiris yerosti saltanati ma'budi hisoblangan." },
+      { "heading": "Kohinlar va ibodatxonalar", "pages": [35],
+        "text": "Kohinlar ma'budlar va odamlar o'rtasida vositachi hisoblangan. Misrliklar e'tiqodicha, mabodo Yer yuzida maxsus marosimlar ado etilmasa, ma'budlar odamlarga madad bermay qo'yadi. Kohinlar diniy marosimlarni bilar, qurbonlik bag'ishlar edi. Kundalik turmushda ham kohinlarsiz biror ish qilish mushkul edi.\n\nKohinlar Nil toshqini vaqtini, qachon urug'lik sochish va hosilni yig'ishtirib olish muddatini aniq bilgan. Barcha \"nom\"larda ibodatxonalar bo'lgan, fir'avnlar ularga katta-katta boylik va yerlar hadya etardi." }
+    ],
+    "key_facts": [
+      { "fact": "Misrliklar ma'budlar hayvon qiyofasida (mushuk, qo'y, ho'kiz, arslon, sigir) odamlar orasida yashaydi deb hisoblagan", "page": 34 },
+      { "fact": "Memfisning ma'budi Ptax, uning Yer yuzidagi qiyofasi - qora ho'kiz Apis", "page": 34 },
+      { "fact": "Quyosh ma'budi Amon-Ra fir'avnlarning bosh ilohi va homiysi bo'lgan; fir'avnlar uning o'g'illari hisoblangan", "page": 35 },
+      { "fact": "Xapi - Nil ma'budi, Osiris - yerosti saltanati ma'budi", "page": 35 },
+      { "fact": "Kohinlar ma'budlar va odamlar o'rtasida vositachi bo'lib, Nil toshqini va ekin muddatlarini bilgan", "page": 35 }
+    ],
+    "summary": "Misr dini ko'p ma'budli bo'lib, ma'budlar hayvon qiyofasida yashaydi deb ishonilgan. Ptax (Apis), Amon-Ra, Xapi va Osiris asosiy ma'budlar; kohinlar vositachi va Nil toshqinini bilgani uchun katta nufuzga ega bo'lgan."
+  },
+  "presentation": { "slides": [
+    { "title": "8-§. Qadimgi Misrda din", "bullets": [], "page": null },
+    { "title": "Ma'budlar hayvon qiyofasida", "bullets": ["Mushuk, qo'y, ho'kiz, arslon, sigir", "Bir necha joni: hayvonda va haykalda"], "page": 34 },
+    { "title": "Ptax va Apis", "bullets": ["Ptax - Memfis ma'budi", "Olam yaratilganda narsalarga nom o'rgatgan", "Yerdagi qiyofasi - qora ho'kiz Apis"], "page": 34 },
+    { "title": "Amon-Ra", "bullets": ["Fiva homiysi Amon + Quyosh ma'budi Ra", "Fir'avnlarning bosh ilohi", "Fir'avnlar - uning o'g'illari"], "page": 35 },
+    { "title": "Boshqa ma'budlar", "bullets": ["Xapi - Nil ma'budi", "Osiris - yerosti saltanati ma'budi"], "page": 35 },
+    { "title": "Kohinlar", "bullets": ["Ma'bud va odam o'rtasida vositachi", "Nil toshqini va ekin muddatlarini bilgan", "Ibodatxonalar boy bo'lgan"], "page": 35 }
+  ] },
+  "games": {
+    "matching": { "pairs": [
+      { "left": "Ptax", "right": "Memfis shahrining ma'budi", "page": 34 },
+      { "left": "Apis", "right": "Ptax ma'budining Yer yuzidagi qiyofasi - oq qashqali qora ho'kiz", "page": 34 },
+      { "left": "Amon-Ra", "right": "Fir'avnlarning bosh ilohi va homiysi", "page": 34 },
+      { "left": "Ra", "right": "Quyosh ma'budi", "page": 34 },
+      { "left": "Amon", "right": "Fiva shahri homiysi", "page": 34 },
+      { "left": "Xapi", "right": "Nil ma'budi", "page": 35 },
+      { "left": "Osiris", "right": "Yerosti saltanati ma'budi", "page": 35 },
+      { "left": "Kohinlar", "right": "Ma'budlar va odamlar o'rtasidagi vositachilar", "page": 35 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Memfisning ma'budi ____ edi.", "options": ["Ptax", "Osiris", "Xapi", "Ra"], "correct_index": 0, "page": 34 },
+      { "question": "Ptaxning Yer yuzidagi qiyofasi ____ bo'lib, qora ho'kiz timsolida tasavvur qilingan.", "options": ["Osiris", "Apis", "Amon", "Xapi"], "correct_index": 1, "page": 34 },
+      { "question": "Quyosh ma'budi ____ fir'avnlarning bosh ilohi hisoblangan.", "options": ["Amon-Ra", "Ptax", "Osiris", "Xapi"], "correct_index": 0, "page": 34 },
+      { "question": "____ - Nil ma'budi.", "options": ["Osiris", "Xapi", "Ptax", "Ra"], "correct_index": 1, "page": 35 },
+      { "question": "Osiris ____ saltanati ma'budi hisoblangan.", "options": ["yerosti", "osmon", "dengiz", "cho'l"], "correct_index": 0, "page": 35 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi misrliklarning dini haqida so'zlab bering.", "answer": "Din kundalik turmushning ajralmas qismi edi. Misrliklar ma'budlar hayvon qiyofasida odamlar orasida yashaydi va ularning bir necha joni bor (hayvon tanasida, haykalida) deb hisoblagan. Asosiy ma'budlar: Ptax (Apis), Amon-Ra, Xapi, Osiris. Kohinlar ma'budlarga qurbonlik keltirgan.", "page": 34 },
+      { "question": "Kimlar Qadimgi Misrda Quyosh ma'budi o'g'illari hisoblangan?", "answer": "Fir'avnlar - hukmdorlar hamma ishni samoviy otasi, Quyosh ma'budi amri bilan qiladi deb tasavvur qilingan.", "page": 35 },
+      { "question": "Afsonaga ko'ra, qaysi misrliklar ma'budi buqa timsolida tasavvur qilingan?", "answer": "Memfis ma'budi Ptax - uning Yer yuzidagi qiyofasi Apis, oq qashqali qora ho'kiz timsolida tasavvur qilingan.", "page": 34 },
+      { "question": "Ma'budlar va odamlar o'rtasida kim vositachi hisoblangan?", "answer": "Kohinlar (ibodatxona ruhoniylari).", "page": 35 },
+      { "question": "Misr kohinlari nufuzi va kuch-qudratining sababi nimada?", "answer": "Ular ma'budlar bilan odamlar o'rtasida vositachi hisoblanib, diniy marosimlarni bilgan, Nil toshqini vaqtini hamda urug' sochish va hosil yig'ish muddatini aniq bilgan; ibodatxonalarga fir'avnlar katta boylik va yerlar hadya etgan.", "page": 35 }
+    ],
+    "quiz": [
+      { "question": "Misrliklar nima uchun marosimlar o'tkazishni zarur deb hisoblagan?", "options": ["Aks holda ma'budlar odamlarga madad bermay qo'yadi", "Fir'avn buyurgani uchun", "Bayram bo'lgani uchun", "Kohinlar boyishi uchun"], "correct_index": 0, "page": 35 },
+      { "question": "Amon-Ra qanday hosil bo'lgan?", "options": ["Fiva homiysi Amon va Quyosh ma'budi Ra yagona ma'budga birlashgan", "Ptax va Osiris qo'shilgan", "Xapi va Apis qo'shilgan", "Uni fir'avn yaratgan"], "correct_index": 0, "page": 34 },
+      { "question": "Nil toshqini vaqtini kimlar aniq bilgan?", "options": ["Kohinlar", "Dehqonlar", "Nomarxlar", "Hunarmandlar"], "correct_index": 0, "page": 35 }
+    ]
+  },
+  "test": [
+    { "question": "Misr aholisi uchun din qanday o'rin tutgan?", "options": ["Kundalik turmushning ajralmas bir bo'lagi", "Faqat bayramlarda ahamiyatli", "Faqat kohinlar uchun zarur", "Ahamiyatsiz"], "correct_index": 0, "page": 34 },
+    { "question": "Misrliklar ma'budlar qanday qiyofada odamlar orasida yashaydi deb hisoblagan?", "options": ["Hayvonlar qiyofasida", "Bulut qiyofasida", "Faqat odam qiyofasida", "Daraxt qiyofasida"], "correct_index": 0, "page": 34 },
+    { "question": "Quyidagi hayvonlardan qaysi biri ma'bud qiyofasi sifatida darslikda keltirilgan?", "options": ["Mushuk", "Tuya", "Bo'ri", "Fil"], "correct_index": 0, "page": 34 },
+    { "question": "Misrliklar ma'budlarning joni haqida qanday o'ylagan?", "options": ["Bir qancha joni bor: biri hayvon tanasida, boshqasi haykalida yashaydi", "Bitta joni bor", "Joni yo'q", "Faqat osmonda yashaydi"], "correct_index": 0, "page": 34 },
+    { "question": "Kohinlar kimlar?", "options": ["Ibodatxona ruhoniylari", "Harbiy sarkardalar", "Hunarmandlar boshlig'i", "Nom hukmdorlari"], "correct_index": 0, "page": 34 },
+    { "question": "Kohinlar ma'budlarni nima bilan boqishadi deb hisoblangan?", "options": ["Dindorlar in'om tariqasida keltirgan narsalar bilan", "Faqat suv bilan", "Faqat go'sht bilan", "Fir'avn oltini bilan"], "correct_index": 0, "page": 34 },
+    { "question": "Memfisning o'z ma'budi kim edi?", "options": ["Ptax", "Osiris", "Xapi", "Amon"], "correct_index": 0, "page": 34 },
+    { "question": "Misrliklar e'tiqodicha, Ptax olamni yaratayotganda nima qilgan?", "options": ["Har bir narsaning nomini odamga o'rgatgan", "Nilni yaratgan", "Fir'avnni tanlagan", "Piramidalar qurgan"], "correct_index": 0, "page": 34 },
+    { "question": "Nima uchun Ptax ma'budini asl qiyofasida ko'rib bo'lmaydi deyilgan?", "options": ["Ma'bud shunchalik qudratli", "U ko'rinmas suvda yashaydi", "U faqat kechasi keladi", "U uzoq yulduzda yashaydi"], "correct_index": 0, "page": 34 },
+    { "question": "Ptax ma'budining Yer yuzidagi qiyofasi qanday atalgan?", "options": ["Apis", "Osiris", "Ra", "Xapi"], "correct_index": 0, "page": 34 },
+    { "question": "Apis qanday hayvon timsolida tasavvur qilingan?", "options": ["Peshanasi va belida oq qashqasi bo'lgan qora ho'kiz", "Oq sigir", "Qora mushuk", "Sariq arslon"], "correct_index": 0, "page": 34 },
+    { "question": "Fir'avnlarning bosh ilohi va homiysi kim hisoblangan?", "options": ["Quyosh ma'budi Amon-Ra", "Ptax", "Xapi", "Osiris"], "correct_index": 0, "page": 34 },
+    { "question": "Amon-Ra qaysi ikki ma'budning birlashuvidan hosil bo'lgan?", "options": ["Fiva shahri homiysi Amon va Quyosh ma'budi Ra", "Ptax va Apis", "Osiris va Xapi", "Amon va Ptax"], "correct_index": 0, "page": 34 },
+    { "question": "Amon qaysi shaharning homiysi bo'lgan?", "options": ["Fiva", "Memfis", "Giza", "Aleksandriya"], "correct_index": 0, "page": 34 },
+    { "question": "Quyosh ma'budining ibodatxonasi qayerda bo'lgan?", "options": ["Geliopolda (Baolbek)", "Memfisda", "Gizada", "Sinayda"], "correct_index": 0, "page": 35 },
+    { "question": "Misrda fir'avnlar kimning o'g'illari hisoblangan?", "options": ["Quyosh ma'budining", "Nil ma'budining", "Osirisning", "Ptaxning"], "correct_index": 0, "page": 35 },
+    { "question": "Xapi kim edi?", "options": ["Nil ma'budi, hayotning birlamchi manbai va posboni", "Yerosti saltanati ma'budi", "Quyosh ma'budi", "Memfis ma'budi"], "correct_index": 0, "page": 35 },
+    { "question": "Osiris qaysi ma'bud hisoblangan?", "options": ["Yerosti saltanati ma'budi", "Nil ma'budi", "Quyosh ma'budi", "Urush ma'budi"], "correct_index": 0, "page": 35 },
+    { "question": "Ma'budlar va odamlar o'rtasida kim vositachi hisoblangan?", "options": ["Kohinlar", "Fir'avnlar", "Nomarxlar", "Dehqonlar"], "correct_index": 0, "page": 35 },
+    { "question": "Misrliklar e'tiqodicha, maxsus marosimlar ado etilmasa nima bo'ladi?", "options": ["Ma'budlar odamlarga madad bermay qo'yadi", "Nil quriydi", "Fir'avn o'ladi", "Quyosh chiqmaydi"], "correct_index": 0, "page": 35 },
+    { "question": "Kohinlar nimalarni bilgan?", "options": ["Nil toshqini vaqtini, urug'lik sochish va hosil yig'ish muddatini", "Faqat harbiy yurish vaqtini", "Faqat savdo yo'llarini", "Faqat soliq miqdorini"], "correct_index": 0, "page": 35 },
+    { "question": "Ibodatxonalar qayerlarda bo'lgan?", "options": ["Barcha \"nom\"larda", "Faqat Memfisda", "Faqat Fivada", "Faqat Gizada"], "correct_index": 0, "page": 35 },
+    { "question": "Fir'avnlar ibodatxonalarga nimalar hadya etgan?", "options": ["Katta-katta boylik va yerlar", "Faqat qullar", "Faqat hayvonlar", "Faqat oltin haykallar"], "correct_index": 0, "page": 35 }
+  ]
+}

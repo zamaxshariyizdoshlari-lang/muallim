@@ -1,0 +1,109 @@
+{
+  "key": "p09", "title": "9-§. Piramidalar va daxmalar", "start_page": 36, "end_page": 39,
+  "explanation": {
+    "goals": ["Piramidalar, sfinks va maqbaralarning vazifasi hamda o'lchamlarini bilish", "Mumiyolash va Osiris sudi haqidagi e'tiqodni tushuntirish"],
+    "blocks": [
+      { "heading": "Piramidalar - fir'avnlar maqbarasi", "pages": [36],
+        "text": "\"Hamma narsa vaqtdan qo'rqadi, vaqt esa piramidalardan!\" Qadimgi va O'rta podsholiklar davrida misrliklar barpo etgan ulkan piramidalar fir'avnlar dafn etiladigan joy - maqbaralar bo'lgan. O'tgan mingyilliklar davomida ko'pdan ko'p shaharlar va davlatlar yo'q bo'lib ketdi, ibodatxonalar va saroylar xarobaga aylandi, faqat piramidalargina to'rt ming yildan oshiq vaqt davomida o'zgarmasdan turibdi.\n\nMemfis shahri yaqinida uch fir'avn - Xufu, Xafra va Menkaura uchun bunyod etilgan piramidalar eng mashhur inshootlardir. Bu piramidalar jahonning yetti mo'jizasidan biri hisoblanib, ular hozirga qadar saqlanib qolgan." },
+      { "heading": "Xufu (Xeops) piramidasi", "pages": [36, 37],
+        "text": "Eng katta piramida Xufu (yunonlar uni Xeops deb atashgan) uchun mil. avv. 2600-yil atrofida qurilgan. Uning balandligi 147 metr bo'lgan. Piramida har biri ikki tonnadan og'irroq bo'lgan 2,5 million dona tosh bo'laklaridan tashkil topgan. Toshlar shunchalik tekis qilib kesilgan va taroshlanganki, ular o'rtasidagi yoriq 0,5 millimetrdan oshmaydi." },
+      { "heading": "Piramidaning ichki tuzilishi va sfinks", "pages": [38],
+        "text": "Piramida ichida dahliz bilan tutashtirilgan bir qancha xonalar mavjud. Ulardan birida fir'avnning mumiyolangan jasadi solingan toshtobut - sarkofag joylashgan. Daxmalar ichi esa munojotlar va qarg'ishlardan iborat bitiklar bilan qoplangan, ular fir'avnni himoya qilishi va o'zga hayotga o'tayotganida unga yordam berishi kerak bo'lgan.\n\nPiramidalarni sfinks - tanasi sherniki, boshi odamniki bo'lgan ulkan haykal qo'riqlaydi. \"Sahro shohi\" - sfinks haykali toshdan ishlangan bo'lib, balandligi 20 metrga teng." },
+      { "heading": "Yangi podsholik: tosh maqbaralar", "pages": [38],
+        "text": "Yangi podsholik davriga kelib misrliklar piramidalar qurmay qo'yishadi. Fir'avnlarni tog'lardagi o'yilgan tosh maqbaralarga dafn etadigan bo'lishadi (shohlar vodiysi). Eng mashhur maqbara fir'avn Tutanxamonga tegishli bo'lgan. Maqbara ichidagi tasavvurga sig'maydigan boyliklar bizgacha yetib kelgan." },
+      { "heading": "Mumiyolash", "pages": [39],
+        "text": "Qadimgi misrliklar inson vafot etganidan keyin marhumlar saltanatiga ketadi, o'sha yerda umrini davom ettiradi deb hisoblagan. Ammo marhumlar saltanatidagi hayot, misrliklar fikricha, Osiris sudining natijalariga bog'liq bo'ladi. Tarozining bir pallasiga marhumning yuragi, boshqasiga esa qush patlari qo'yiladi. Mabodo tarozi pallalari tenglashsa, demak, inson bu dunyodagi hayotida faqat ezgu ishlar qilgan bo'ladi, u vafot etganidan keyin ajoyib bir sharoitda umrini davom ettiradi. Mabodo yurak og'irroq kelsa, demak, inson bir talay yomon ishlarni qilgan bo'lib chiqadi, natijada badbashara maxluqlarga yemish bo'ladi.\n\nOsiris qarshisida go'zal qiyofada qad rostlash uchun misrliklar inson jasadini mumiyolagan. Mumiyolash bilan Misr kohin-tabiblari shug'ullangan. Odatda mumiyolash qariyb 70 kun davom etgan. Jasadga maxsus ishlov berilganidan keyin ko'pdan ko'p matolar bilan o'rab-chirmashgan. Matolar qati orasiga omad keltiruvchi tumorlar qo'yilgan. Mumiyolash faqat marhumning ortida qolgan boy-badavlat qarindoshlarigagina nasib etgan." }
+    ],
+    "key_facts": [
+      { "fact": "Piramidalar Qadimgi va O'rta podsholik davrida fir'avnlar uchun maqbara sifatida qurilgan", "page": 36 },
+      { "fact": "Xufu, Xafra va Menkaura piramidalari Memfis yaqinida; jahonning yetti mo'jizasidan biri", "page": 36 },
+      { "fact": "Xufu (Xeops) piramidasi mil. avv. 2600-yil atrofida qurilgan, balandligi 147 metr, 2,5 million tosh bo'lagidan iborat", "page": 37 },
+      { "fact": "Sfinks - tanasi sher, boshi odam bo'lgan, balandligi 20 metrli tosh haykal (\"Sahro shohi\")", "page": 38 },
+      { "fact": "Yangi podsholikda fir'avnlar tog'lardagi tosh maqbaralarga dafn etilgan; eng mashhuri Tutanxamon maqbarasi", "page": 38 },
+      { "fact": "Mumiyolash qariyb 70 kun davom etgan va kohin-tabiblar tomonidan bajarilgan", "page": 39 }
+    ],
+    "summary": "Piramidalar fir'avnlarning maqbarasi bo'lib, Xufu piramidasi eng katta (147 m). Yangi podsholikda fir'avnlar tog'dagi tosh maqbaralarga dafn etilgan. Misrliklar Osiris sudiga ishonib, jasadni go'zal holda saqlash uchun 70 kun davomida mumiyolagan."
+  },
+  "presentation": { "slides": [
+    { "title": "9-§. Piramidalar va daxmalar", "bullets": [], "page": null },
+    { "title": "Piramidalar", "bullets": ["Fir'avnlar maqbarasi", "Qadimgi va O'rta podsholik davri", "4 ming yildan oshiq o'zgarmagan"], "page": 36 },
+    { "title": "Xufu (Xeops) piramidasi", "bullets": ["Mil. avv. 2600-yil atrofida", "Balandligi 147 metr", "2,5 million tosh bo'lagi"], "page": 37 },
+    { "title": "Sfinks", "bullets": ["Tanasi sher, boshi odam", "\"Sahro shohi\"", "Balandligi 20 metr"], "page": 38 },
+    { "title": "Yangi podsholik maqbaralari", "bullets": ["Tog'lardagi o'yilgan tosh maqbaralar", "Eng mashhuri - Tutanxamon maqbarasi"], "page": 38 },
+    { "title": "Mumiyolash", "bullets": ["Osiris sudi: yurak va qush patlari tarozisi", "Qariyb 70 kun", "Kohin-tabiblar bajargan"], "page": 39 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. 2600-yil atrofida Xufu (Xeops) piramidasi quriladi", "page": 37 },
+      { "label": "Yangi podsholik davrida piramidalar qurilishi to'xtaydi", "page": 38 },
+      { "label": "Fir'avnlar tog'lardagi tosh maqbaralarga (shohlar vodiysi) dafn etiladi", "page": 38 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Xufu", "right": "Yunonlar Xeops deb atagan fir'avn", "page": 37 },
+      { "left": "147 metr", "right": "Xufu piramidasining balandligi", "page": 37 },
+      { "left": "Sfinks", "right": "Tanasi sher, boshi odamniki bo'lgan haykal", "page": 38 },
+      { "left": "Sarkofag", "right": "Mumiyolangan jasad solingan toshtobut", "page": 38 },
+      { "left": "Tutanxamon", "right": "Eng mashhur tosh maqbara egasi", "page": 38 },
+      { "left": "Osiris sudi", "right": "Yurak va qush patlari tarozida o'lchanadigan sud", "page": 39 },
+      { "left": "Mumiyolash", "right": "Jasadni qariyb 70 kun davomida ishlab, matolarga o'rash", "page": 39 },
+      { "left": "Kohin-tabiblar", "right": "Mumiyolash bilan shug'ullangan Misr mutaxassislari", "page": 39 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Xufu piramidasi mil. avv. ____-yil atrofida qurilgan.", "options": ["3000", "2600", "1500", "500"], "correct_index": 1, "page": 37 },
+      { "question": "Xufu piramidasining balandligi ____ metr bo'lgan.", "options": ["47", "97", "147", "247"], "correct_index": 2, "page": 37 },
+      { "question": "Yunonlar Xufu fir'avnni ____ deb atashgan.", "options": ["Xeops", "Xafra", "Menkaura", "Menes"], "correct_index": 0, "page": 37 },
+      { "question": "Sfinksning balandligi ____ metrga teng.", "options": ["10", "20", "50", "100"], "correct_index": 1, "page": 38 },
+      { "question": "Mumiyolash odatda qariyb ____ kun davom etgan.", "options": ["7", "30", "70", "365"], "correct_index": 2, "page": 39 },
+      { "question": "Tarozining bir pallasiga marhumning ____, boshqasiga qush patlari qo'yilgan.", "options": ["yuragi", "qo'li", "boshi", "tili"], "correct_index": 0, "page": 39 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi Misr piramidalari qanday maqsadda barpo etilgan?", "answer": "Piramidalar fir'avnlar dafn etiladigan maqbaralar sifatida qurilgan.", "page": 36 },
+      { "question": "\"Hamma narsa vaqtdan qo'rqadi, vaqt esa piramidalardan!\" degan iborani qanday tushunasiz?", "answer": "Darslikka ko'ra, shaharlar, ibodatxonalar va saroylar xarobaga aylangan, faqat piramidalar to'rt ming yildan oshiq vaqt davomida o'zgarmay turibdi - ya'ni ular vaqt hukmiga bo'ysunmaydi.", "page": 36 },
+      { "question": "Misrdagi eng mashhur piramidalar qayerda qurilgan?", "answer": "Memfis shahri yaqinida - Xufu, Xafra va Menkaura fir'avnlar uchun.", "page": 36 },
+      { "question": "Nima uchun fir'avnlarni dafn qilishda maqbaralarga ular hayoti mobaynida foydalangan buyumlarni qo'yishgan?", "answer": "Misrliklar inson vafotidan keyin marhumlar saltanatiga ketib, o'sha yerda umrini davom ettiradi deb hisoblagan; shu sababli maqbaralarga boyliklar qo'yilgan.", "page": 39 },
+      { "question": "Nima uchun marhumlarni mumiyolashgan?", "answer": "Osiris qarshisida go'zal qiyofada qad rostlash uchun.", "page": 39 }
+    ],
+    "quiz": [
+      { "question": "Osiris sudida tarozining pallalari tenglashsa nima bo'ladi?", "options": ["Inson ezgu ishlar qilgan, ajoyib sharoitda umrini davom ettiradi", "Inson yomon ishlar qilgan", "Inson qayta tiriladi", "Sud yana takrorlanadi"], "correct_index": 0, "page": 39 },
+      { "question": "Nima uchun Yangi podsholikda piramidalar o'rniga tog'dagi maqbaralar qurilgan?", "options": ["Darslik sababini ko'rsatmagan, faqat piramidalar qurmay qo'yilganini aytadi", "Toshlar tugagan", "Fir'avnlar kambag'al bo'lgan", "Nil quriganligi uchun"], "correct_index": 0, "page": 38 },
+      { "question": "Mumiyolash kimlarga nasib etgan?", "options": ["Boy-badavlat qarindoshlari qolgan marhumlarga", "Barcha misrliklarga", "Faqat dehqonlarga", "Faqat kohinlarga"], "correct_index": 0, "page": 39 }
+    ]
+  },
+  "test": [
+    { "question": "Piramidalar Qadimgi Misrda qanday vazifani bajargan?", "options": ["Fir'avnlar dafn etiladigan maqbara", "Ibodatxona", "Saroy", "G'alla ombori"], "correct_index": 0, "page": 36 },
+    { "question": "Piramidalar qaysi podsholiklar davrida barpo etilgan?", "options": ["Qadimgi va O'rta podsholik", "Yangi podsholik", "Faqat fors davri", "Giksoslar davri"], "correct_index": 0, "page": 36 },
+    { "question": "Piramidalar qancha vaqt davomida o'zgarmasdan turibdi?", "options": ["To'rt ming yildan oshiq", "Ming yil", "Ikki yuz yil", "O'n ming yil"], "correct_index": 0, "page": 36 },
+    { "question": "Eng mashhur piramidalar qaysi shahar yaqinida joylashgan?", "options": ["Memfis", "Fiva", "Iskandariya", "Luksor"], "correct_index": 0, "page": 36 },
+    { "question": "Memfis yaqinidagi eng mashhur piramidalar qaysi uch fir'avn uchun qurilgan?", "options": ["Xufu, Xafra va Menkaura", "Menes, Yaxmos va Tutmos", "Tutanxamon, Xufu va Ramzes", "Narmer, Xafra va Kambiz"], "correct_index": 0, "page": 36 },
+    { "question": "Piramidalar nimaning bir mo'jizasi hisoblanadi?", "options": ["Jahonning yetti mo'jizasidan biri", "Afrikaning yagona mo'jizasi", "Misrning yagona yodgorligi", "Yunon mo'jizasi"], "correct_index": 0, "page": 36 },
+    { "question": "Eng katta piramida qaysi fir'avn uchun qurilgan?", "options": ["Xufu", "Xafra", "Menkaura", "Tutanxamon"], "correct_index": 0, "page": 37 },
+    { "question": "Xufuni yunonlar qanday atashgan?", "options": ["Xeops", "Xafra", "Ptax", "Menes"], "correct_index": 0, "page": 37 },
+    { "question": "Xufu piramidasi qachon qurilgan?", "options": ["Mil. avv. 2600-yil atrofida", "Mil. avv. 1600-yil atrofida", "Mil. avv. 600-yil atrofida", "Milodiy 100-yil atrofida"], "correct_index": 0, "page": 37 },
+    { "question": "Xufu piramidasining balandligi qancha bo'lgan?", "options": ["147 metr", "47 metr", "247 metr", "20 metr"], "correct_index": 0, "page": 37 },
+    { "question": "Xufu piramidasi nechta tosh bo'lagidan tashkil topgan?", "options": ["2,5 million dona", "25 ming dona", "250 ming dona", "25 million dona"], "correct_index": 0, "page": 37 },
+    { "question": "Piramida toshlarining har biri qancha og'irlikda?", "options": ["Ikki tonnadan og'irroq", "Bir kilogramm", "Yuz kilogramm", "Yarim tonna"], "correct_index": 0, "page": 37 },
+    { "question": "Piramida toshlari orasidagi yoriq qanchadan oshmaydi?", "options": ["0,5 millimetrdan", "5 santimetrdan", "1 metrdan", "10 millimetrdan"], "correct_index": 0, "page": 37 },
+    { "question": "Piramida ichidagi xonalardan birida nima joylashgan?", "options": ["Fir'avnning mumiyolangan jasadi solingan sarkofag", "Ibodatxona haykali", "G'alla ombori", "Kutubxona"], "correct_index": 0, "page": 38 },
+    { "question": "Sarkofag nima?", "options": ["Toshtobut", "Sopol idish", "Ibodatxona", "Piramida darvozasi"], "correct_index": 0, "page": 38 },
+    { "question": "Daxmalar ichi nima bilan qoplangan?", "options": ["Munojotlar va qarg'ishlardan iborat bitiklar bilan", "Oltin plitalar bilan", "Xaritalar bilan", "Rasmlar bilan faqat"], "correct_index": 0, "page": 38 },
+    { "question": "Daxmadagi bitiklar nima vazifani bajargan?", "options": ["Fir'avnni himoya qilgan va o'zga hayotga o'tishda yordam bergan", "Qurilish sanasini ko'rsatgan", "Soliq miqdorini yozgan", "Fir'avn tarixini yozgan"], "correct_index": 0, "page": 38 },
+    { "question": "Sfinks qanday haykal?", "options": ["Tanasi sherniki, boshi odamniki", "Tanasi odamniki, boshi sherniki", "Tanasi buqaniki, boshi odamniki", "Butunlay sherga o'xshash"], "correct_index": 0, "page": 38 },
+    { "question": "Sfinksning balandligi qancha?", "options": ["20 metr", "147 metr", "2 metr", "200 metr"], "correct_index": 0, "page": 38 },
+    { "question": "Sfinks qanday nom bilan ataladi?", "options": ["\"Sahro shohi\"", "\"Nil posboni\"", "\"Quyosh farzandi\"", "\"Yer ustuni\""], "correct_index": 0, "page": 38 },
+    { "question": "Yangi podsholik davriga kelib misrliklar nima qilishdi?", "options": ["Piramidalar qurmay qo'yishdi", "Ko'proq piramida qurishdi", "Piramidalarni buzdi", "Yozuvni tark etdi"], "correct_index": 0, "page": 38 },
+    { "question": "Yangi podsholikda fir'avnlar qayerga dafn etilgan?", "options": ["Tog'lardagi o'yilgan tosh maqbaralarga", "Piramidalarga", "Dengiz tubiga", "Ibodatxona hovlisiga"], "correct_index": 0, "page": 38 },
+    { "question": "Eng mashhur tosh maqbara qaysi fir'avnga tegishli?", "options": ["Tutanxamon", "Xufu", "Menes", "Yaxmos"], "correct_index": 0, "page": 38 },
+    { "question": "Misrliklar inson vafot etgach nima bo'ladi deb hisoblagan?", "options": ["Marhumlar saltanatiga ketib, o'sha yerda umrini davom ettiradi", "Butunlay yo'q bo'ladi", "Yangi tanada qaytadi", "Yulduzga aylanadi"], "correct_index": 0, "page": 39 },
+    { "question": "Marhumlar saltanatidagi hayot nimaga bog'liq bo'lgan?", "options": ["Osiris sudining natijalariga", "Fir'avn irodasiga", "Kohinlar xohishiga", "Boylikka"], "correct_index": 0, "page": 39 },
+    { "question": "Osiris sudida tarozining bir pallasiga nima, boshqasiga nima qo'yilgan?", "options": ["Marhumning yuragi va qush patlari", "Oltin va kumush", "Bug'doy va arpa", "Qilich va qalqon"], "correct_index": 0, "page": 39 },
+    { "question": "Tarozi pallalari tenglashsa, bu nimani bildirgan?", "options": ["Inson hayotida faqat ezgu ishlar qilgan", "Inson qo'rqoq bo'lgan", "Inson boy bo'lgan", "Inson kasal bo'lgan"], "correct_index": 0, "page": 39 },
+    { "question": "Yurak og'irroq kelsa, marhumni nima kutgan?", "options": ["Badbashara maxluqlarga yemish bo'lgan", "Qayta tug'ilgan", "Fir'avn qo'l ostiga o'tgan", "Ibodatxonaga hadya qilingan"], "correct_index": 0, "page": 39 },
+    { "question": "Misrliklar jasadni nima uchun mumiyolagan?", "options": ["Osiris qarshisida go'zal qiyofada qad rostlash uchun", "Kasalliklardan saqlanish uchun", "Yer ostiga ko'mish uchun", "Savdo qilish uchun"], "correct_index": 0, "page": 39 },
+    { "question": "Mumiyolash bilan kimlar shug'ullangan?", "options": ["Misr kohin-tabiblari", "Kemasozlar", "Dehqonlar", "Nomarxlar"], "correct_index": 0, "page": 39 },
+    { "question": "Mumiyolash odatda qancha davom etgan?", "options": ["Qariyb 70 kun", "Bir kun", "Bir yil", "Ikki hafta"], "correct_index": 0, "page": 39 },
+    { "question": "Mumiyolangan jasad qanday o'ralgan?", "options": ["Ko'pdan ko'p matolar bilan, orasiga omad keltiruvchi tumorlar qo'yilgan", "Charm bilan", "Papirus bilan", "Loy bilan"], "correct_index": 0, "page": 39 },
+    { "question": "Mumiyolash kimlarga nasib etgan?", "options": ["Faqat marhumning boy-badavlat qarindoshlariga ega bo'lganlarga", "Barcha misrliklarga", "Faqat qullarga", "Faqat harbiylarga"], "correct_index": 0, "page": 39 }
+  ]
+}
