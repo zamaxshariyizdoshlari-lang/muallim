@@ -9,7 +9,7 @@ import TimelineGame from '../components/TimelineGame'
 
 const POLL_INTERVAL_MS = 2500
 
-export default function LessonResultPage({ topicId, topicTitle, onBack }) {
+export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBack, onStartTest }) {
   const [lesson, setLesson] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -80,13 +80,17 @@ export default function LessonResultPage({ topicId, topicTitle, onBack }) {
 
       {!loading && !lesson && (
         <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-white px-4 py-6 shadow-sm">
-          <p className="text-sm text-slate-600">Bu mavzu uchun dars rejasi va test hali yaratilmagan.</p>
-          <button
-            onClick={() => handleGenerate(false)}
-            className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
-          >
-            <Sparkles size={16} /> Yaratish
-          </button>
+          <p className="text-sm text-slate-600">
+            {isTeacher ? 'Bu mavzu uchun dars rejasi va test hali yaratilmagan.' : "Bu mavzu materiallarini o'qituvchi hali tayyorlamagan."}
+          </p>
+          {isTeacher && (
+            <button
+              onClick={() => handleGenerate(false)}
+              className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
+            >
+              <Sparkles size={16} /> Yaratish
+            </button>
+          )}
         </div>
       )}
 
@@ -117,24 +121,36 @@ export default function LessonResultPage({ topicId, topicTitle, onBack }) {
 
       {lesson?.status === 'done' && (
         <div className="flex flex-col gap-6">
-          <div className="flex justify-end">
-            <button
-              onClick={() => handleGenerate(true)}
-              className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
-            >
-              <RefreshCw size={13} /> Dars rejasini qayta yaratish
-            </button>
-          </div>
+          {isTeacher && (
+            <div className="flex justify-end">
+              <button
+                onClick={() => handleGenerate(true)}
+                className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
+              >
+                <RefreshCw size={13} /> Dars rejasini qayta yaratish
+              </button>
+            </div>
+          )}
 
+          <StageHeading n={1} text="Mavzu tushuntirilishi" />
           <LessonPlanCard plan={lesson.lesson_plan} />
-          <QuizCard quiz={lesson.quiz} />
 
-          <h2 className="mt-2 text-lg font-semibold text-slate-900">Taqdimot va o'yinlar</h2>
-
-          <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot">
+          <StageHeading n={2} text="O'yinlar (ixtiyoriy mashq)" />
+          <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot" isTeacher={isTeacher}>
             {(data) => <PresentationViewer slides={data.slides} />}
           </AssetPanel>
+          <AssetPanel topicId={topicId} kind="game_timeline" label="Xronologiya tartiblash" isTeacher={isTeacher}>
+            {(data) => <TimelineGame items={data.items} />}
+          </AssetPanel>
+          <AssetPanel topicId={topicId} kind="game_matching" label="Moslashtirish" isTeacher={isTeacher}>
+            {(data) => <MatchingGame pairs={data.pairs} />}
+          </AssetPanel>
+          <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" isTeacher={isTeacher}>
+            {(data) => <QuizGame questions={data.questions} />}
+          </AssetPanel>
 
+          <StageHeading n={3} text="Savollar" />
+          <QuizCard quiz={lesson.quiz} />
           {lesson.quiz?.questions?.length > 0 && (
             <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
               <h2 className="mb-4 text-lg font-semibold text-slate-900">Viktorina</h2>
@@ -142,20 +158,27 @@ export default function LessonResultPage({ topicId, topicTitle, onBack }) {
             </section>
           )}
 
-          <AssetPanel topicId={topicId} kind="game_timeline" label="O'yin: xronologiya tartiblash">
-            {(data) => <TimelineGame items={data.items} />}
-          </AssetPanel>
-
-          <AssetPanel topicId={topicId} kind="game_matching" label="O'yin: moslashtirish">
-            {(data) => <MatchingGame pairs={data.pairs} />}
-          </AssetPanel>
-
-          <AssetPanel topicId={topicId} kind="game_fill_blank" label="O'yin: bo'sh joyni to'ldirish">
-            {(data) => <QuizGame questions={data.questions} />}
-          </AssetPanel>
+          <StageHeading n={4} text="Mavzu testi" />
+          <section className="rounded-xl border border-indigo-200 bg-indigo-50 p-6 shadow-sm">
+            <p className="mb-3 text-sm text-slate-700">
+              Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni 100% topshirgandan keyin ochiladi.
+            </p>
+            <button onClick={onStartTest} className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
+              {isTeacher ? "Testni ko'rish / yaratish" : 'Testni boshlash'}
+            </button>
+          </section>
         </div>
       )}
     </div>
+  )
+}
+
+function StageHeading({ n, text }) {
+  return (
+    <h2 className="mt-4 flex items-center gap-2 text-lg font-semibold text-slate-900">
+      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 text-sm text-white">{n}</span>
+      {text}
+    </h2>
   )
 }
 

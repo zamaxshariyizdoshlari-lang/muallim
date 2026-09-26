@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from rest_framework import generics, status
 from rest_framework.exceptions import PermissionDenied, ValidationError
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -34,7 +35,12 @@ def _is_truthy(value):
 class BookUploadView(APIView):
     """PDF yuklash: betlarga ajratib saqlaydi va mavzularni aniqlaydi. Faqat o'qituvchi."""
 
-    permission_classes = [IsTeacher]
+    def get_permissions(self):
+        # Kitoblar ro'yxatini hamma ko'ra oladi; yuklash faqat o'qituvchiga.
+        return [IsAuthenticated()] if self.request.method == 'GET' else [IsTeacher()]
+
+    def get(self, request):
+        return Response(BookSerializer(Book.objects.order_by('-created_at'), many=True).data)
 
     def post(self, request):
         file_obj = request.FILES.get('file')

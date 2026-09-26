@@ -59,6 +59,10 @@ export function uploadBook(file, title) {
   return request('/books/', { method: 'POST', body: formData })
 }
 
+export function listBooks() {
+  return request('/books/')
+}
+
 export function listTopics(bookId) {
   return request(`/books/${bookId}/topics/`)
 }
@@ -109,4 +113,55 @@ export async function getAssetByTopic(topicId, kind) {
     if (err.status === 404) return null
     throw err
   }
+}
+
+export function getMe() {
+  return request('/me/')
+}
+
+export function getBookProgress(bookId) {
+  return request(`/books/${bookId}/progress/`)
+}
+
+export function submitTopicTest(topicId, answers) {
+  return request(`/topics/${topicId}/test/submit/`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ answers }),
+  })
+}
+
+/** Yakuniy imtihon; hali yaratilmagan bo'lsa null. */
+export async function getBookExam(bookId) {
+  try {
+    return await request(`/books/${bookId}/exam/`)
+  } catch (err) {
+    if (err.status === 404) return null
+    throw err
+  }
+}
+
+export function createBookExam(bookId) {
+  return request(`/books/${bookId}/exam/create/`, { method: 'POST' })
+}
+
+export function submitBookExam(bookId, answers) {
+  return request(`/books/${bookId}/exam/submit/`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ answers }),
+  })
+}
+
+export async function downloadCertificate(bookId) {
+  const res = await fetch(`${API_BASE}/books/${bookId}/certificate/`, {
+    headers: { Authorization: `Token ${getToken()}` },
+  })
+  if (!res.ok) throw new Error('Sertifikatni yuklab bo\'lmadi')
+  const url = URL.createObjectURL(await res.blob())
+  const a = document.createElement('a')
+  a.href = url
+  a.download = 'sertifikat.pdf'
+  a.click()
+  URL.revokeObjectURL(url)
 }
