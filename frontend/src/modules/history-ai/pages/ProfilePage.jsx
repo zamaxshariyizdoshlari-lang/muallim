@@ -1,6 +1,6 @@
 import { Award, BookOpen, Flag, Flame, Footprints, Library, Lock, Target, Trophy, Zap } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { getProfile } from '../api/client'
+import { changePassword, getMe, getProfile, updateMe } from '../api/client'
 import { ErrorNote, ProgressBar, Spinner } from '../components/ui'
 
 const BADGE_ICONS = {
@@ -9,6 +9,38 @@ const BADGE_ICONS = {
 }
 
 export default function ProfilePage({ me }) {
+  const [account, setAccount] = useState({ first_name: me.first_name || '', email: me.email || '' })
+  const [accMsg, setAccMsg] = useState(null)
+  const [pw, setPw] = useState({ old: '', next: '' })
+  const [pwMsg, setPwMsg] = useState(null)
+
+  useEffect(() => {
+    getMe().then((m) => setAccount({ first_name: m.first_name || '', email: m.email || '' })).catch(() => {})
+  }, [])
+
+  async function saveAccount(e) {
+    e.preventDefault()
+    setAccMsg(null)
+    try {
+      await updateMe(account)
+      setAccMsg({ ok: true, text: 'Saqlandi.' })
+    } catch (err) {
+      setAccMsg({ text: err.message })
+    }
+  }
+
+  async function savePassword(e) {
+    e.preventDefault()
+    setPwMsg(null)
+    try {
+      await changePassword(pw.old, pw.next)
+      setPw({ old: '', next: '' })
+      setPwMsg({ ok: true, text: 'Parol yangilandi.' })
+    } catch (err) {
+      setPwMsg({ text: err.message })
+    }
+  }
+
   const [p, setP] = useState(null)
   const [error, setError] = useState('')
 
@@ -83,6 +115,42 @@ export default function ProfilePage({ me }) {
           )
         })}
       </ul>
+
+      {/* Hisob sozlamalari */}
+      <h2 className="mb-4 mt-12 font-display text-2xl font-bold text-ink">Hisob sozlamalari</h2>
+      <div className="grid gap-5 sm:grid-cols-2">
+        <form onSubmit={saveAccount} className="card p-5">
+          <h3 className="mb-4 font-display text-lg font-bold text-ink">Shaxsiy ma'lumot</h3>
+          <label className="mb-3 block text-sm font-medium text-ink-2">
+            Ism
+            <input className="field mt-1.5" value={account.first_name} maxLength={60}
+              onChange={(e) => setAccount((a) => ({ ...a, first_name: e.target.value }))} />
+          </label>
+          <label className="mb-4 block text-sm font-medium text-ink-2">
+            Email <span className="font-normal text-muted">(parolni tiklash uchun)</span>
+            <input type="email" className="field mt-1.5" value={account.email}
+              onChange={(e) => setAccount((a) => ({ ...a, email: e.target.value }))} />
+          </label>
+          {accMsg && <p className={`mb-3 text-sm ${accMsg.ok ? 'text-ok' : 'text-bad'}`}>{accMsg.text}</p>}
+          <button className="btn btn-primary btn-sm">Saqlash</button>
+        </form>
+
+        <form onSubmit={savePassword} className="card p-5">
+          <h3 className="mb-4 font-display text-lg font-bold text-ink">Parolni o'zgartirish</h3>
+          <label className="mb-3 block text-sm font-medium text-ink-2">
+            Joriy parol
+            <input type="password" className="field mt-1.5" value={pw.old} autoComplete="current-password" required
+              onChange={(e) => setPw((v) => ({ ...v, old: e.target.value }))} />
+          </label>
+          <label className="mb-4 block text-sm font-medium text-ink-2">
+            Yangi parol
+            <input type="password" className="field mt-1.5" value={pw.next} autoComplete="new-password" required
+              onChange={(e) => setPw((v) => ({ ...v, next: e.target.value }))} />
+          </label>
+          {pwMsg && <p className={`mb-3 text-sm ${pwMsg.ok ? 'text-ok' : 'text-bad'}`}>{pwMsg.text}</p>}
+          <button className="btn btn-primary btn-sm">Yangilash</button>
+        </form>
+      </div>
     </div>
   )
 }

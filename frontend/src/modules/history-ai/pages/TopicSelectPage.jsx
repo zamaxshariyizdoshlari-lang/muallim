@@ -1,4 +1,4 @@
-import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import { Award, BarChart3, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
 import SearchBox from '../components/SearchBox'
 import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
@@ -13,7 +13,7 @@ function splitSectionTitle(title = '', fallbackIndex = 0) {
 
 export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
-  onOpenReview, onOpenTopic,
+  onOpenReview, onOpenTopic, onOpenAnalytics,
 }) {
   const completedCount = topics.filter((t) => t.completed).length
   const sectionIds = [...new Set(topics.map((t) => t.section))]
@@ -51,6 +51,21 @@ export default function TopicSelectPage({
 
       <div className="mb-10 space-y-4">
         <SearchBox bookId={book.id} onOpenTopic={onOpenTopic} />
+        {isTeacher && (
+          <button
+            onClick={onOpenAnalytics}
+            className="card card-hover flex w-full items-center gap-4 px-5 py-4 text-left"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-soft text-brand">
+              <BarChart3 size={20} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-display text-lg font-bold text-ink">O'qituvchi paneli</span>
+              <span className="text-sm text-muted">O'quvchilar natijasi va eng qiyin savollar</span>
+            </span>
+            <span className="chip chip-gold">Ochish →</span>
+          </button>
+        )}
         {!isTeacher && progress?.weak_count > 0 && (
           <button
             onClick={onOpenReview}

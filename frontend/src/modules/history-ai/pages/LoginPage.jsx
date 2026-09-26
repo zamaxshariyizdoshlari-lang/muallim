@@ -1,23 +1,32 @@
 import { GraduationCap, Loader2, LogIn, UserPlus } from 'lucide-react'
 import { useState } from 'react'
-import { login, register } from '../api/client'
+import { login, register, requestPasswordReset } from '../api/client'
 import { ErrorNote, ThemeToggle } from '../components/ui'
 
 export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
-  const [mode, setMode] = useState('login') // login | register
+  const [mode, setMode] = useState('login') // login | register | forgot
+  const [email, setEmail] = useState('')
+  const [info, setInfo] = useState('')
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [firstName, setFirstName] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const isRegister = mode === 'register'
+  const isForgot = mode === 'forgot'
 
   async function handleSubmit(e) {
     e.preventDefault()
     setError('')
+    setInfo('')
     setLoading(true)
     try {
-      if (isRegister) await register(username.trim(), password, firstName.trim())
+      if (isForgot) {
+        const r = await requestPasswordReset(email.trim())
+        setInfo(r.detail)
+        return
+      }
+      if (isRegister) await register(username.trim(), password, firstName.trim(), email.trim())
       else await login(username.trim(), password)
       onSuccess()
     } catch (err) {
@@ -30,6 +39,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
   function switchMode(next) {
     setMode(next)
     setError('')
+    setInfo('')
   }
 
   return (
@@ -63,6 +73,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
 
         {/* O'ng: forma */}
         <form onSubmit={handleSubmit} className="card rise mx-auto w-full max-w-md p-7 sm:p-9" style={{ animationDelay: '0.1s' }}>
+          {!isForgot && (
           <div className="mb-6 grid grid-cols-2 rounded-xl bg-paper-2 p-1 text-sm font-semibold">
             {[['login', 'Kirish'], ['register', "Ro'yxatdan o'tish"]].map(([m, label]) => (
               <button
@@ -77,12 +88,17 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
               </button>
             ))}
           </div>
+          )}
 
           <h2 className="font-display text-2xl font-bold text-ink">
-            {isRegister ? 'Yangi hisob yarating' : 'Xush kelibsiz'}
+            {isForgot ? 'Parolni tiklash' : isRegister ? 'Yangi hisob yarating' : 'Xush kelibsiz'}
           </h2>
           <p className="mb-6 mt-1 text-sm text-muted">
-            {isRegister ? 'Bir daqiqada ro\'yxatdan o\'ting va o\'qishni boshlang' : 'Davom etish uchun tizimga kiring'}
+            {isForgot
+              ? "Ro'yxatdan o'tishda kiritgan emailingizni yozing — tiklash havolasini yuboramiz."
+              : isRegister
+                ? "Bir daqiqada ro'yxatdan o'ting va o'qishni boshlang"
+                : 'Davom etish uchun tizimga kiring'}
           </p>
 
           {isRegister && (
@@ -99,6 +115,22 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
             </label>
           )}
 
+          {isForgot && (
+            <label className="mb-5 block text-sm font-medium text-ink-2">
+              Email
+              <input
+                type="email"
+                className="field mt-1.5"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                autoComplete="email"
+                required
+              />
+            </label>
+          )}
+
+          {!isForgot && (
+          <>
           <label className="mb-4 block text-sm font-medium text-ink-2">
             Login
             <input
@@ -123,12 +155,39 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
             {isRegister && <span className="mt-1.5 block text-xs font-normal text-muted">Kamida 8 belgi.</span>}
           </label>
 
+          {isRegister && (
+            <label className="mb-5 block text-sm font-medium text-ink-2">
+              Email <span className="font-normal text-muted">(ixtiyoriy — parolni tiklash uchun)</span>
+              <input
+                type="email"
+                className="field mt-1.5"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                autoComplete="email"
+              />
+            </label>
+          )}
+          </>
+          )}
+
           <ErrorNote>{error}</ErrorNote>
+          {info && <p className="mb-4 rounded-xl border border-ok/40 bg-ok-soft px-4 py-2.5 text-sm text-ok">{info}</p>}
 
           <button type="submit" disabled={loading} className="btn btn-primary w-full py-3">
             {loading ? <Loader2 className="animate-spin" size={16} /> : isRegister ? <UserPlus size={16} /> : <LogIn size={16} />}
-            {loading ? 'Iltimos, kuting...' : isRegister ? "Ro'yxatdan o'tish" : 'Kirish'}
+            {loading ? 'Iltimos, kuting...' : isForgot ? 'Havola yuborish' : isRegister ? "Ro'yxatdan o'tish" : 'Kirish'}
           </button>
+
+          {mode === 'login' && (
+            <button type="button" onClick={() => switchMode('forgot')} className="mt-4 w-full text-center text-sm text-muted hover:text-brand">
+              Parolni unutdingizmi?
+            </button>
+          )}
+          {isForgot && (
+            <button type="button" onClick={() => switchMode('login')} className="mt-4 w-full text-center text-sm text-muted hover:text-brand">
+              ← Kirishga qaytish
+            </button>
+          )}
         </form>
       </div>
     </div>

@@ -12,7 +12,9 @@ import { Spinner, ThemeToggle, useTheme } from './components/ui'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
+import ResetPasswordPage from './pages/ResetPasswordPage'
 import ReviewPage from './pages/ReviewPage'
+import TeacherPanelPage from './pages/TeacherPanelPage'
 import SubjectsPage from './pages/SubjectsPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
@@ -40,7 +42,15 @@ export default function HistoryAIModule() {
   }, [authed])
 
   if (!authed) {
-    return <LoginPage onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme} />
+    return (
+      <Routes>
+        <Route path="parolni-tiklash" element={<ResetPasswordPage dark={dark} onToggleTheme={toggleTheme} />} />
+        <Route
+          path="*"
+          element={<LoginPage onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme} />}
+        />
+      </Routes>
+    )
   }
   if (!me) return null
 
@@ -63,6 +73,7 @@ export default function HistoryAIModule() {
           <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
+          <Route path="tahlil" element={<AnalyticsRoute />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
@@ -199,10 +210,18 @@ function TopicsRoute() {
       onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
       onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
       onOpenReview={() => navigate(`/kurs/${bookId}/takrorlash`)}
+      onOpenAnalytics={() => navigate(`/kurs/${bookId}/tahlil`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
     />
   )
+}
+
+function AnalyticsRoute() {
+  const { book, bookId, isTeacher } = useOutletContext()
+  const navigate = useNavigate()
+  if (!isTeacher) return <Navigate to={`/kurs/${bookId}`} replace />
+  return <TeacherPanelPage book={book} onBack={() => navigate(`/kurs/${bookId}`)} />
 }
 
 function ReviewRoute() {

@@ -1,6 +1,7 @@
 const API_BASE = import.meta.env.VITE_HISTORY_API_BASE_URL || 'http://127.0.0.1:8000/api/history'
 const TOKEN_URL = import.meta.env.VITE_AUTH_TOKEN_URL || 'http://127.0.0.1:8000/api/auth/token/'
 const REGISTER_URL = import.meta.env.VITE_AUTH_REGISTER_URL || 'http://127.0.0.1:8000/api/auth/register/'
+const AUTH_BASE = REGISTER_URL.replace(/register\/?$/, '')
 const TOKEN_STORAGE_KEY = 'tarixchi_ai_token'
 
 export function getToken() {
@@ -29,11 +30,11 @@ export async function login(username, password) {
   return data.token
 }
 
-export async function register(username, password, firstName) {
+export async function register(username, password, firstName, email) {
   const res = await fetch(REGISTER_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username, password, first_name: firstName }),
+    body: JSON.stringify({ username, password, first_name: firstName, email }),
   })
   const body = await res.json().catch(() => ({}))
   if (!res.ok) {
@@ -62,6 +63,45 @@ export function searchBook(bookId, q) {
 
 export function getProfile() {
   return request('/profile/')
+}
+
+async function authPost(path, payload) {
+  const res = await fetch(`${AUTH_BASE}${path}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...(getToken() ? { Authorization: `Token ${getToken()}` } : {}) },
+    body: JSON.stringify(payload),
+  })
+  const body = await res.json().catch(() => ({}))
+  if (!res.ok) {
+    const first = body.detail || Object.values(body).flat()[0]
+    throw new Error(typeof first === 'string' ? first : "So'rov bajarilmadi")
+  }
+  return body
+}
+
+export function requestPasswordReset(email) {
+  return authPost('password-reset/', { email })
+}
+
+export function confirmPasswordReset(uid, token, password) {
+  return authPost('password-reset/confirm/', { uid, token, password })
+}
+
+export async function changePassword(oldPassword, newPassword) {
+  const data = await authPost('change-password/', { old_password: oldPassword, new_password: newPassword })
+  setToken(data.token)
+}
+
+export function updateMe(payload) {
+  return request('/me/', {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  })
+}
+
+export function getAnalytics(bookId) {
+  return request(`/books/${bookId}/analytics/`)
 }
 
 export function listSubjects() {
