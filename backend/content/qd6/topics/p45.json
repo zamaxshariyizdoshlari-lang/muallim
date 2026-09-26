@@ -1,0 +1,105 @@
+{
+  "key": "p45", "title": "45-§. Rim respublikasida hayot", "start_page": 158, "end_page": 160,
+  "explanation": {
+    "goals": ["Rim shaharlari va aholisi hayotini tasvirlash", "Rimliklarning kiyimi, ma'budlari va diniy marosimlarini bilish"],
+    "blocks": [
+      { "heading": "Shaharlardagi hayot", "pages": [158],
+        "text": "Davlatning hududi kengayib borgani sayin shaharlar ham ko'paydi. Rim shaharlari oldindan puxta ishlangan reja asosida barpo etilgan. Shaharlarda ko'plab chiroyli jamoat va turarjoy binolari, ibodatxonalar, hammomlar, savdo rastalari va dorixonalar bo'lgan.\n\nKo'pchilik odamlar 2-3 qavatli binolarda istiqomat qilgan. Badavlat odamlar esa o'zlariga koshona qurib olar edilar. Bunday uylarda markaziy isitish tizimi bo'lgan: pollar isitilar, quvurlar orqali uylarga suv oqib kelar edi. Uy mozaikalar - shisha yoki tosh parchalaridan ishlangan suratlar bilan bezatilgan. Shohona uy-joylar - villalar devorlarini freskalar - xom suvoqqa ishlangan rasmlar bezatib turgan. Har bir shahar markazidagi forumda bozor maydoni, xalq yig'ilishlari uchun joy va markaziy ibodatxona bo'lgan. Suv shaharga bir necha qavatli ko'prikka o'xshab ketuvchi akveduk orqali oqib kelgan.\n\nRim bozorlarida katta tovar bo'lmish qullarga talab ko'p edi. Har bir shaharning qullar savdoga chiqariladigan bozorlari bo'lgan.\n\nOdamlar kiyib yuradigan liboslar ularning jamiyatdagi mavqeyini bildirgan. Masalan, o'g'il bolalar 14 yoshga to'lgunga qadar pushti yo'lli toga kiyishgan. 14 yoshga kirganlarida ular voyaga yetgan shaxs hisoblanar va oppoq toga kiya boshlar edi. Xuddi shunday harir togani senatorlar ham kiyishgan. Rimlik ayollar turli rangdagi ko'ylaklar kiyib, bosh va yelkalariga ro'mol tashlab yurganlar.\n\nRasm izohlari: qadimgi Rim ko'chasi; qadimgi devorga ishlangan tasvir (Pompey)." },
+      { "heading": "Qadimgi rimliklarning e'tiqodlari", "pages": [159],
+        "text": "Kundalik hayotda rimliklar o'z ma'budlariga madad va homiylik istab murojaat etishardi. Ular uchun ulug'vor ibodatxonalar barpo etilgan. Rimliklar dini yunonlar diniy e'tiqodlarini esga soladi. Muhim ishni boshlashdan oldin rimliklar bu ishda madad berishi uchun ma'budlarga qurbonliklar bag'ishlar edi.\n\nTurfa ma'budlar hayotning turli jihatlarini boshqarar edi. Masalan, rimliklar jangda mag'lubiyatga uchragudek bo'lishsa, demak, qaysidir ish bilan urush ma'budi Marsning jahlini chiqardik, degan xayolga borishgan.\n\nRimliklar bosh ma'budi, osmon, momaqaldiroq va yashin podshosi Yupiter Rim davlatining homiysi hisoblangan. Rimliklar dengiz, ov, savdo-sotiq, olov va temirchilik, bahor va sevgi, adolat va taqdir ma'budlariga e'tiqod qilishgan.\n\nRimliklarning ma'budlari: Yupiter - momaqaldiroq va yashin ma'budi; Neptun - dengiz ma'budi; Mars - urush ma'budi; Vesta - xonadon uchog'i homiysi; Diana - ov ma'budasi; Merkuriy - savdo-sotiq ma'budi; Vulqon - olov va temirchilik ma'budi." },
+      { "heading": "Diniy marosimlar", "pages": [160],
+        "text": "Diniy marosimlar qat'iy belgilangan qoidalar bo'yicha o'tkazilgan. Marosimlar o'tkazilishi ustidan kohinlar - pontifiklar - Rim ruhoniylari nazorat qilishgan. Ular bayramlar taqvimi, marosimlar, tantanalar tartibini tuzishardi. 5 nafardan 15 nafargacha ruhoniylar jamlangan pontifiklar hay'atiga buyuk pontifik rahbarlik qilgan. Buyuk pontifik ma'budlar bilan maslahatlashib, xulosa beradi deb hisoblashgan.\n\nRimliklar barcha muhim ishlarni bashorat qilishdan boshlashgan. Bashorat qilish kohin - avgurlar yordamida amalga oshirilgan. Avgurlar qushlar parvoziga, momaqaldiroq, chaqmoq, muqaddas qushlarga sepilgan donlar, aks-sadoga va hokazolarga qarab bashorat qilar, alomatlar ko'ngildagidek bo'lmasa, ishlar ma'lum muddatga kechiktirilar edi.\n\nXonadon o'chog'i homiysi Vesta ibodatxonasida muqaddas olov saqlangan. Olov yonib turar ekan, hayot mavjud deb hisoblashgan.\n\nRasm izohlari: urush ma'budiga bag'ishlangan marosim; buyuk pontifik. Savol: qadimgi rimliklarning dini yunonlar dinidan nimasi bilan farq qilgan?" }
+    ],
+    "key_facts": [
+      { "fact": "Rim shaharlari oldindan puxta ishlangan reja asosida qurilgan; jamoat binolari, hammomlar, dorixonalar bo'lgan", "page": 158 },
+      { "fact": "Boylar uylarida markaziy isitish va suv quvurlari bo'lgan; devorlar mozaika va freskalar bilan bezatilgan", "page": 158 },
+      { "fact": "Shaharga suv akveduk orqali kelgan; forumda bozor, xalq yig'ilishi joyi va markaziy ibodatxona bo'lgan", "page": 158 },
+      { "fact": "Qullarga talab ko'p bo'lib, qullar bozorlari mavjud bo'lgan", "page": 158 },
+      { "fact": "O'g'il bolalar 14 yoshgacha pushti yo'lli toga, undan keyin oppoq toga kiygan; senatorlar ham oppoq toga kiygan", "page": 158 },
+      { "fact": "Yupiter - bosh ma'bud, Rim davlati homiysi; Mars - urush, Neptun - dengiz, Diana - ov, Merkuriy - savdo, Vulqon - temirchilik, Vesta - xonadon o'chog'i ma'budi", "page": 159 },
+      { "fact": "Diniy marosimlar ustidan pontifiklar nazorat qilgan; hay'atga buyuk pontifik rahbarlik qilgan", "page": 160 },
+      { "fact": "Avgurlar qushlar parvozi va boshqa alomatlarga qarab bashorat qilgan", "page": 160 },
+      { "fact": "Vesta ibodatxonasida muqaddas olov saqlangan; olov yonib turar ekan, hayot mavjud deb hisoblangan", "page": 160 }
+    ],
+    "summary": "Rim shaharlari puxta rejalashtirilgan, akveduk, hammom, forum, mozaika va freskalar bilan bezatilgan; qullar savdosi keng bo'lgan. Kiyim mavqeni bildirgan (toga). Rimliklar Yupiter boshchiligidagi ma'budlarga e'tiqod qilgan; marosimlarni pontifiklar nazorat qilgan, avgurlar bashorat qilgan."
+  },
+  "presentation": { "slides": [
+    { "title": "45-§. Rim respublikasida hayot", "bullets": [], "page": null },
+    { "title": "Rim shaharlari", "bullets": ["Puxta reja asosida qurilgan", "Hammomlar, dorixonalar, savdo rastalari", "Forum - bozor, yig'ilish, ibodatxona", "Akveduk orqali suv"], "page": 158 },
+    { "title": "Turar joy", "bullets": ["Ko'pchilik 2-3 qavatli binolarda", "Boylar - koshona, villa", "Markaziy isitish, suv quvurlari", "Mozaika va freskalar"], "page": 158 },
+    { "title": "Qullar va kiyim", "bullets": ["Qullar savdosi - katta tovar", "Bolalar - pushti yo'lli toga", "14 yoshdan - oppoq toga", "Senatorlar ham oppoq toga"], "page": 158 },
+    { "title": "Ma'budlar", "bullets": ["Yupiter - bosh ma'bud", "Mars - urush; Neptun - dengiz", "Diana - ov; Merkuriy - savdo", "Vulqon - temirchilik; Vesta - o'choq"], "page": 159 },
+    { "title": "Diniy marosimlar", "bullets": ["Qat'iy qoidalar", "Pontifiklar nazorati, buyuk pontifik", "Bayramlar taqvimi"], "page": 160 },
+    { "title": "Avgurlar", "bullets": ["Qush parvozi, momaqaldiroq, chaqmoq", "Alomat yomon bo'lsa - ish kechiktirilgan", "Vesta ibodatxonasida muqaddas olov"], "page": 160 }
+  ] },
+  "games": {
+    "timeline": null,
+    "matching": { "pairs": [
+      { "left": "Yupiter", "right": "Osmon, momaqaldiroq va yashin podshosi, Rim homiysi", "page": 159 },
+      { "left": "Mars", "right": "Urush ma'budi", "page": 159 },
+      { "left": "Neptun", "right": "Dengiz ma'budi", "page": 159 },
+      { "left": "Diana", "right": "Ov ma'budasi", "page": 159 },
+      { "left": "Merkuriy", "right": "Savdo-sotiq ma'budi", "page": 159 },
+      { "left": "Vulqon", "right": "Olov va temirchilik ma'budi", "page": 159 },
+      { "left": "Vesta", "right": "Xonadon uchog'i homiysi", "page": 159 },
+      { "left": "Akveduk", "right": "Shaharga suv olib keluvchi ko'prikka o'xshash inshoot", "page": 158 },
+      { "left": "Fresk", "right": "Xom suvoqqa ishlangan rasm", "page": 158 },
+      { "left": "Pontifik", "right": "Marosimlar ustidan nazorat qilgan Rim ruhoniysi", "page": 160 },
+      { "left": "Avgur", "right": "Bashorat qiluvchi kohin", "page": 160 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Shaharga suv bir necha qavatli ko'prikka o'xshash ____ orqali oqib kelgan.", "options": ["akveduk", "kanal", "quvur", "xandaq"], "correct_index": 0, "page": 158 },
+      { "question": "Mozaikalar shisha yoki ____ parchalaridan ishlangan suratlardir.", "options": ["tosh", "yog'och", "temir", "charm"], "correct_index": 0, "page": 158 },
+      { "question": "O'g'il bolalar ____ yoshga to'lgunga qadar pushti yo'lli toga kiygan.", "options": ["14", "10", "18", "21"], "correct_index": 0, "page": 158 },
+      { "question": "Bosh ma'bud ____ hisoblangan.", "options": ["Yupiter", "Mars", "Neptun", "Diana"], "correct_index": 0, "page": 159 },
+      { "question": "Urush ma'budi ____ edi.", "options": ["Mars", "Vesta", "Diana", "Vulqon"], "correct_index": 0, "page": 159 },
+      { "question": "Pontifiklar hay'atiga ____ pontifik rahbarlik qilgan.", "options": ["buyuk", "kichik", "birinchi", "oliy"], "correct_index": 0, "page": 160 },
+      { "question": "Vesta ibodatxonasida ____ olov saqlangan.", "options": ["muqaddas", "abadiy", "qora", "yashil"], "correct_index": 0, "page": 160 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Rim shaharlari va ularning aholisi hayoti haqida so'zlab bering.", "answer": "Shaharlar puxta reja asosida qurilgan; jamoat va turarjoy binolari, ibodatxonalar, hammomlar, savdo rastalari, dorixonalar, forum bo'lgan; suv akveduk orqali kelgan. Ko'pchilik 2-3 qavatli binolarda, boylar koshona va villalarda (isitish, suv quvurlari, mozaika, freska) yashagan; qullar bozorlari mavjud edi.", "page": 158 },
+      { "question": "Rimliklar liboslari nimasi bilan ajralib turar edi?", "answer": "Kiyim mavqeni bildirgan: o'g'il bolalar 14 yoshgacha pushti yo'lli toga, undan keyin va senatorlar oppoq toga kiygan; ayollar rangli ko'ylak kiyib, bosh va yelkalariga ro'mol tashlagan.", "page": 158 },
+      { "question": "Rimda diniy marosimlar qanday o'tkazilgan?", "answer": "Qat'iy belgilangan qoidalar bo'yicha; ustidan pontifiklar nazorat qilgan, ular bayramlar taqvimi va marosimlar tartibini tuzgan, hay'atga buyuk pontifik rahbarlik qilgan; ma'budlarga qurbonliklar keltirilgan.", "page": 160 },
+      { "question": "Avgurlar nima bilan shug'ullangan?", "answer": "Bashorat bilan: qushlar parvozi, momaqaldiroq, chaqmoq, muqaddas qushlarga sepilgan donlar, aks-sado kabi alomatlarga qarab; alomat yomon bo'lsa, ishlar kechiktirilgan.", "page": 160 }
+    ],
+    "quiz": [
+      { "question": "Rimliklar jangda mag'lub bo'lishsa, nimani sabab deb hisoblagan?", "options": ["Urush ma'budi Marsning jahli chiqqan", "Yupiter g'azablangan", "Neptun jazolagan", "Vesta yordam bermagan"], "correct_index": 0, "page": 159 },
+      { "question": "Vesta ibodatxonasidagi olov nimani bildirgan?", "options": ["Olov yonib turar ekan, hayot mavjud", "Urush boshlanishini", "Bayramni", "Boylikni"], "correct_index": 0, "page": 160 }
+    ]
+  },
+  "test": [
+    { "question": "Rim shaharlari qanday barpo etilgan?", "options": ["Oldindan puxta ishlangan reja asosida", "Tasodifan", "Faqat qal'a atrofida", "Daryo bo'ylab"], "correct_index": 0, "page": 158 },
+    { "question": "Rim shaharlarida qaysi binolar bo'lgan?", "options": ["Ibodatxonalar, hammomlar, savdo rastalari va dorixonalar", "Faqat saroylar", "Faqat qal'alar", "Faqat bozorlar"], "correct_index": 0, "page": 158 },
+    { "question": "Ko'pchilik rimliklar qanday uylarda yashagan?", "options": ["2-3 qavatli binolarda", "Chodirlarda", "Koshonalarda", "G'orlarda"], "correct_index": 0, "page": 158 },
+    { "question": "Badavlat rimliklar uylarida nima bo'lgan?", "options": ["Markaziy isitish tizimi va quvurlarda suv", "Faqat mash'al", "Yog'och pech", "Hech narsa"], "correct_index": 0, "page": 158 },
+    { "question": "Mozaika nima?", "options": ["Shisha yoki tosh parchalaridan ishlangan surat", "Xom suvoqqa ishlangan rasm", "Haykal", "Gilam"], "correct_index": 0, "page": 158 },
+    { "question": "Fresk nima?", "options": ["Xom suvoqqa ishlangan rasm", "Tosh parchalaridan ishlangan surat", "Devor haykali", "Sopol idish"], "correct_index": 0, "page": 158 },
+    { "question": "Villa nima?", "options": ["Shohona uy-joy", "Jamoat hammomi", "Ibodatxona", "Bozor"], "correct_index": 0, "page": 158 },
+    { "question": "Forumda nimalar bo'lgan?", "options": ["Bozor maydoni, xalq yig'ilishlari joyi va markaziy ibodatxona", "Faqat saroy", "Harbiy qarorgoh", "Qullar bozori faqat"], "correct_index": 0, "page": 158 },
+    { "question": "Suv shaharga nima orqali oqib kelgan?", "options": ["Akveduk orqali", "Daryo orqali", "Kemalar orqali", "Xandaq orqali"], "correct_index": 0, "page": 158 },
+    { "question": "Rim bozorlarida qaysi tovarga talab ko'p edi?", "options": ["Qullarga", "Ipakka", "Otlarga", "Fillarga"], "correct_index": 0, "page": 158 },
+    { "question": "O'g'il bolalar 14 yoshgacha qanday toga kiyishgan?", "options": ["Pushti yo'lli toga", "Oppoq toga", "Qizil toga", "Qora toga"], "correct_index": 0, "page": 158 },
+    { "question": "14 yoshga kirganda o'g'il bolalar qanday toga kiya boshlagan?", "options": ["Oppoq toga", "Pushti yo'lli toga", "Ko'k toga", "Toga kiymagan"], "correct_index": 0, "page": 158 },
+    { "question": "Oppoq harir togani yana kimlar kiygan?", "options": ["Senatorlar", "Qullar", "Liktorlar", "Kohinlar"], "correct_index": 0, "page": 158 },
+    { "question": "Rimlik ayollar qanday kiyingan?", "options": ["Turli rangdagi ko'ylaklar, bosh va yelkasiga ro'mol", "Faqat toga", "Faqat oq libos", "Zirh"], "correct_index": 0, "page": 158 },
+    { "question": "Rimliklar ma'budlariga nima maqsadda murojaat etgan?", "options": ["Madad va homiylik istab", "Jazolash uchun", "Urush e'lon qilish uchun", "Soliq to'lash uchun"], "correct_index": 0, "page": 159 },
+    { "question": "Rimliklar dini qaysi dinni eslatadi?", "options": ["Yunonlar diniy e'tiqodini", "Misr dinini", "Zardushtiylikni", "Buddaviylikni"], "correct_index": 0, "page": 159 },
+    { "question": "Muhim ishni boshlashdan oldin rimliklar nima qilgan?", "options": ["Ma'budlarga qurbonliklar bag'ishlagan", "Urush e'lon qilgan", "Senatga murojaat qilgan", "Ro'za tutgan"], "correct_index": 0, "page": 159 },
+    { "question": "Rimliklarning bosh ma'budi kim edi?", "options": ["Yupiter", "Mars", "Neptun", "Vulqon"], "correct_index": 0, "page": 159 },
+    { "question": "Yupiter nimaning ma'budi edi?", "options": ["Osmon, momaqaldiroq va yashin", "Dengiz", "Ov", "Savdo"], "correct_index": 0, "page": 159 },
+    { "question": "Neptun qaysi ma'bud?", "options": ["Dengiz ma'budi", "Urush ma'budi", "Savdo ma'budi", "Ov ma'budasi"], "correct_index": 0, "page": 159 },
+    { "question": "Diana kim edi?", "options": ["Ov ma'budasi", "Xonadon o'chog'i homiysi", "Dengiz ma'budasi", "Sevgi ma'budasi"], "correct_index": 0, "page": 159 },
+    { "question": "Merkuriy nimaning homiysi edi?", "options": ["Savdo-sotiqning", "Urushning", "Ovning", "Olovning"], "correct_index": 0, "page": 159 },
+    { "question": "Vulqon nimaning ma'budi edi?", "options": ["Olov va temirchilikning", "Dengizning", "Ovning", "Adolatning"], "correct_index": 0, "page": 159 },
+    { "question": "Vesta nimaning homiysi edi?", "options": ["Xonadon uchog'ining", "Urushning", "Dengizning", "Savdoning"], "correct_index": 0, "page": 159 },
+    { "question": "Diniy marosimlar ustidan kimlar nazorat qilgan?", "options": ["Pontifiklar", "Konsullar", "Liktorlar", "Senatorlar"], "correct_index": 0, "page": 160 },
+    { "question": "Pontifiklar hay'ati nechta ruhoniydan iborat bo'lgan?", "options": ["5 nafardan 15 nafargacha", "12 nafar", "100 nafar", "3 nafar"], "correct_index": 0, "page": 160 },
+    { "question": "Pontifiklar hay'atiga kim rahbarlik qilgan?", "options": ["Buyuk pontifik", "Konsul", "Diktator", "Avgur"], "correct_index": 0, "page": 160 },
+    { "question": "Rimliklar barcha muhim ishlarni nimadan boshlashgan?", "options": ["Bashorat qilishdan", "Urushdan", "Soliq yig'ishdan", "Bayramdan"], "correct_index": 0, "page": 160 },
+    { "question": "Avgurlar nimaga qarab bashorat qilgan?", "options": ["Qushlar parvozi, momaqaldiroq, chaqmoq va boshqa alomatlarga", "Yulduzlarga faqat", "Tushlarga", "Qo'l chiziqlariga"], "correct_index": 0, "page": 160 },
+    { "question": "Alomatlar ko'ngildagidek bo'lmasa, ishlar nima bo'lgan?", "options": ["Ma'lum muddatga kechiktirilgan", "Bekor qilingan", "Darhol bajarilgan", "Senatga topshirilgan"], "correct_index": 0, "page": 160 },
+    { "question": "Vesta ibodatxonasida nima saqlangan?", "options": ["Muqaddas olov", "Xazina", "Qonunlar", "Qurol"], "correct_index": 0, "page": 160 }
+  ]
+}

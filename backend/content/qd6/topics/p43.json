@@ -62,7 +62,7 @@
     "book_questions": [
       { "question": "Xaritadan Italiya hududini ko'rsating va uning geografik xususiyatlarini so'zlab bering.", "answer": "Italiya Apennin yarimorolini to'liq egallagan; iqlimi iliq, qurg'oqchilik va qattiq sovuq bo'lmagan, tuprog'i unumdor; eng katta daryosi - Po. Xaritada Rim, Piza, Neapol, Messina, Sirakuza, Sitsiliya, Sardiniya, Korsika, O'rta Yer va Adriatika dengizlari ko'rsatilgan.", "page": 151 },
       { "question": "Italiya aholisi qanday atalgan?", "answer": "Italiklar (shimoli-g'arbda etrusklar yashagan).", "page": 151 },
-      { "question": "Nima uchun ona bo'ri Rimning timsoli hisoblanadi? Rim shahri qanday tashkil etilganligi haqida gapirib bering.", "answer": "Afsonaga ko'ra, savatda Tibr bo'yiga tashlab ketilgan egizaklar Romul va Remni ona bo'ri emizib boqqan, shuning uchun u Rimning timsoli. Rim Tibr bo'yidagi dehqonchilik manzilgohlaridan boshlangan; rivoyatga ko'ra mil. avv. 753-yilda Romul va Rem asos solgan.", "page": 152 }
+      { "question": "Nima uchun ona bo'ri Rimning timsoli hisoblanadi? Rim shahri qanday tashkil etilganligi haqida gapirib bering.", "answer": "Afsonaga ko'ra, savatda Tibr bo'yiga tashlab ketilgan egizaklar Romul va Rem ona bo'ri emizib boqqan, shuning uchun u Rimning timsoli. Rim Tibr bo'yidagi dehqonchilik manzilgohlaridan boshlangan; rivoyatga ko'ra mil. avv. 753-yilda Romul va Rem asos solgan.", "page": 152 }
     ],
     "quiz": [
       { "question": "Rimning yettita tepalikda joylashishi nima uchun qulay bo'lgan?", "options": ["Harbiy nuqtayi nazardan qulay bo'lgan", "Savdo uchun", "Dehqonchilik uchun", "Dengizga yaqin bo'lgani uchun"], "correct_index": 0, "page": 152 },
@@ -89,7 +89,7 @@
     { "question": "Daryo va botqoqlik aholiga nima xizmat qilgan?", "options": ["Qo'shni qabilalar hujumidan himoya qilgan", "Suv ichish uchun", "Sug'orish uchun", "Savdo uchun"], "correct_index": 0, "page": 152 },
     { "question": "Rimga rivoyatga ko'ra qachon asos solingan?", "options": ["Mil. avv. 753-yilda", "Mil. avv. 509-yilda", "Mil. avv. 776-yilda", "Mil. avv. 1200-yilda"], "correct_index": 0, "page": 152 },
     { "question": "Rimga kimlar asos solgan?", "options": ["Aka-uka Romul va Rem", "Tarkviniy", "Aleksandr", "Salavk"], "correct_index": 0, "page": 152 },
-    { "question": "Romul va Remni chaqaloq paytida nima qilishgan?", "options": ["Savatga solib, Tibr bo'yiga tashlab ketishgan", "Cho'ponga topshirishgan", "Saroyda tarbiyalashgan", "Yunonistonga jo'natishgan"], "correct_index": 0, "page": 152 },
+    { "question": "Romul va Rem chaqaloq paytida nima qilingan?", "options": ["Savatga solib, Tibr bo'yiga tashlab ketishgan", "Cho'ponga topshirishgan", "Saroyda tarbiyalashgan", "Yunonistonga jo'natishgan"], "correct_index": 0, "page": 152 },
     { "question": "Egizaklarni kim emizib boqqan?", "options": ["Ona bo'ri", "Ona ayiq", "Cho'pon xotini", "Malika"], "correct_index": 0, "page": 152 },
     { "question": "Rimning timsoli hisoblangan hayvon qaysi?", "options": ["Ona bo'ri", "Burgut", "Sher", "Buqa"], "correct_index": 0, "page": 152 },
     { "question": "Kapitoliy tepaligida nima bunyod etilgan?", "options": ["Dushmanlardan himoyalanish uchun qal'a", "Ibodatxona faqat", "Bozor", "Teatr"], "correct_index": 0, "page": 152 },
