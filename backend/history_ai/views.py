@@ -22,7 +22,7 @@ from .serializers import (
 )
 from .services.book_exam_builder import build_book_exam
 from .services.book_import import import_book_json
-from .services import gamification, review as review_service
+from .services import analytics, gamification, review as review_service
 from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.rules.exceptions import NotEnoughDataError
@@ -103,9 +103,36 @@ class MeView(APIView):
         return Response({
             'username': u.username,
             'first_name': u.first_name,
+            'email': u.email,
             'is_staff': u.is_staff,
             'date_joined': u.date_joined,
         })
+
+    def patch(self, request):
+        from django.contrib.auth import get_user_model
+        from django.core.exceptions import ValidationError as DjangoValidationError
+        from django.core.validators import validate_email
+
+        u = request.user
+        errors = {}
+        if 'first_name' in request.data:
+            u.first_name = (request.data.get('first_name') or '').strip()[:60]
+        if 'email' in request.data:
+            email = (request.data.get('email') or '').strip().lower()
+            if email:
+                try:
+                    validate_email(email)
+                except DjangoValidationError:
+                    errors['email'] = "Email manzili noto'g'ri."
+                else:
+                    if get_user_model().objects.filter(email__iexact=email).exclude(pk=u.pk).exists():
+                        errors['email'] = "Bu email boshqa hisobga bog'langan."
+            if not errors:
+                u.email = email
+        if errors:
+            raise ValidationError(errors)
+        u.save()
+        return self.get(request)
 
 
 class ProfileView(APIView):
@@ -500,3 +527,13 @@ class BookSearchView(APIView):
             allowed = {tid for tid, st in states.items() if st['unlocked']}
         hits = review_service.search_book(book, request.query_params.get('q', ''), allowed)
         return Response({'results': hits})
+
+
+class BookAnalyticsView(APIView):
+    """O'qituvchi paneli: o'quvchilar natijasi va eng qiyin savollar."""
+
+    permission_classes = [IsTeacher]
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        return Response(analytics.book_analytics(book))

@@ -141,6 +141,7 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'ai_generation': os.getenv('AI_RATE_LIMIT', '20/hour'),
         'register': os.getenv('REGISTER_RATE_LIMIT', '20/hour'),
+        'password_reset': os.getenv('PASSWORD_RESET_RATE_LIMIT', '10/hour'),
     },
 }
 
@@ -171,3 +172,14 @@ LOGGING = {
         'history_ai.ai_usage': {'handlers': ['console'], 'level': 'INFO', 'propagate': False},
     },
 }
+
+
+# Email (parolni tiklash). Ishlab chiqishda xatlar konsolga chiqadi; ishlab chiqarishda .env orqali SMTP kiriting.
+FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5173').rstrip('/')
+EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.console.EmailBackend')
+EMAIL_HOST = os.getenv('EMAIL_HOST', '')
+EMAIL_PORT = int(os.getenv('EMAIL_PORT', '587'))
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
+EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', '1') == '1'
+DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', 'Muallim <no-reply@muallim.local>')
