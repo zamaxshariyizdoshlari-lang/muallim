@@ -95,7 +95,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
           </h2>
           <p className="mb-6 mt-1 text-sm text-muted">
             {isForgot
-              ? "Ro'yxatdan o'tishda kiritgan emailingizni yozing — tiklash havolasini yuboramiz."
+              ? "Ro'yxatdan o'tishda kiritgan elektron pochtangizni yozing — tiklash havolasini yuboramiz."
               : isRegister
                 ? "Bir daqiqada ro'yxatdan o'ting va o'qishni boshlang"
                 : 'Davom etish uchun tizimga kiring'}
@@ -117,7 +117,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
 
           {isForgot && (
             <label className="mb-5 block text-sm font-medium text-ink-2">
-              Email
+              Elektron pochta
               <input
                 type="email"
                 className="field mt-1.5"
@@ -132,7 +132,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
           {!isForgot && (
           <>
           <label className="mb-4 block text-sm font-medium text-ink-2">
-            Login
+            Foydalanuvchi nomi
             <input
               className="field mt-1.5"
               value={username}
@@ -157,7 +157,7 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
 
           {isRegister && (
             <label className="mb-5 block text-sm font-medium text-ink-2">
-              Email <span className="font-normal text-muted">(ixtiyoriy — parolni tiklash uchun)</span>
+              Elektron pochta <span className="font-normal text-muted">(ixtiyoriy — parolni tiklash uchun)</span>
               <input
                 type="email"
                 className="field mt-1.5"

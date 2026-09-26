@@ -21,7 +21,7 @@ class BookSerializer(serializers.ModelSerializer):
 
 
 def hide_answers(data, request):
-    """Rasmiy test savollaridan to'g'ri javobni o'quvchidan yashiradi (o'qituvchi ko'radi)."""
+    """Rasmiy test savollaridan to'g'ri javobni talabadan yashiradi (o'qituvchi ko'radi)."""
     user = getattr(request, 'user', None)
     if data and not (user and user.is_staff):
         data = {**data, 'questions': [

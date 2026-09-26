@@ -20,7 +20,7 @@ class RegisterThrottle(AnonRateThrottle):
 
 
 class RegisterView(APIView):
-    """Ochiq ro'yxatdan o'tish: istalgan odam login va parol bilan o'quvchi bo'la oladi."""
+    """Ochiq ro'yxatdan o'tish: istalgan odam login va parol bilan talaba bo'la oladi."""
 
     permission_classes = [AllowAny]
     authentication_classes = []

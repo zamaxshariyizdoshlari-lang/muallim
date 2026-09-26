@@ -69,7 +69,7 @@ export default function ProfilePage({ me }) {
             <p className="mt-1 text-sm font-semibold text-brand">{p.title}</p>
             <ProgressBar value={p.xp_in_level} max={p.xp_for_next} className="mt-4" />
             <p className="mt-1.5 text-xs text-muted">
-              {p.xp_in_level} / {p.xp_for_next} XP — keyingi darajagacha
+              {p.xp_in_level} / {p.xp_for_next} ball — keyingi darajagacha
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function ProfilePage({ me }) {
 
       {/* Raqamlar */}
       <div className="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-        <Stat icon={Trophy} label="Jami XP" value={p.xp} />
+        <Stat icon={Trophy} label="Jami ball" value={p.xp} />
         <Stat icon={Flame} label="Joriy ketma-ketlik" value={`${p.streak.current} kun`} hot={p.streak.current > 0} />
         <Stat icon={Zap} label="Eng uzun" value={`${p.streak.best} kun`} />
         <Stat icon={BookOpen} label="O'zlashtirilgan mavzu" value={p.stats.topics_done} />
@@ -127,7 +127,7 @@ export default function ProfilePage({ me }) {
               onChange={(e) => setAccount((a) => ({ ...a, first_name: e.target.value }))} />
           </label>
           <label className="mb-4 block text-sm font-medium text-ink-2">
-            Email <span className="font-normal text-muted">(parolni tiklash uchun)</span>
+            Elektron pochta <span className="font-normal text-muted">(parolni tiklash uchun)</span>
             <input type="email" className="field mt-1.5" value={account.email}
               onChange={(e) => setAccount((a) => ({ ...a, email: e.target.value }))} />
           </label>

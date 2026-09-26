@@ -6,7 +6,7 @@ import { BackLink, ErrorNote, ProgressBar, Spinner } from '../components/ui'
 /**
  * Xatolarni takrorlash: oxirgi marta xato qilingan savollar. To'g'ri javob ko'rsatilmaydi -
  * faqat to'g'ri/xato va qaysi betni qayta o'qish kerakligi (rasmiy testdagi kabi).
- * To'g'ri javob berilgan savol ro'yxatdan chiqadi va +5 XP beradi.
+ * To'g'ri javob berilgan savol ro'yxatdan chiqadi va +5 ball beradi.
  */
 export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
   const [items, setItems] = useState(null)
@@ -60,7 +60,7 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
         <p className="eyebrow mb-2">Takrorlash</p>
         <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">Xatolar ustida ishlash</h1>
         <p className="mt-3 text-sm text-muted">
-          Testlarda xato qilgan savollaringiz. To'g'ri javob bergan savol ro'yxatdan chiqadi (+5 XP).
+          Testlarda xato qilgan savollaringiz. To'g'ri javob bergan savol ro'yxatdan chiqadi (+5 ball).
         </p>
       </header>
 
@@ -100,7 +100,7 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
             <div className="rise mt-5">
               {feedback.correct ? (
                 <p className="flex items-center gap-2 text-sm font-semibold text-ok">
-                  <CheckCircle2 size={18} /> To'g'ri! {feedback.xp > 0 && <span className="chip chip-gold">+{feedback.xp} XP</span>}
+                  <CheckCircle2 size={18} /> To'g'ri! {feedback.xp > 0 && <span className="chip chip-gold">+{feedback.xp} ball</span>}
                 </p>
               ) : (
                 <p className="rounded-lg bg-bad-soft px-3 py-2 text-sm font-medium text-bad">

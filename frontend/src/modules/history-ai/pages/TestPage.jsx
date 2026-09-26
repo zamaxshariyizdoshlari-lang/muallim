@@ -128,7 +128,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                     )}
                   </p>
                   {result.passed && result.xp_gained > 0 && (
-                    <p className="chip chip-gold mt-2 !text-sm">+{result.xp_gained} XP olindi</p>
+                    <p className="chip chip-gold mt-2 !text-sm">+{result.xp_gained} ball olindi</p>
                   )}
                   <p className="mt-1 text-sm leading-relaxed text-ink-2">
                     {result.passed

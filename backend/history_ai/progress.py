@@ -4,7 +4,7 @@ from .models import Certificate, SectionCompletion, TopicCompletion
 def topic_states(user, topics):
     """topics (order bo'yicha) -> {topic_id: {"unlocked": bool, "completed": bool}}.
 
-    O'qituvchi (is_staff) uchun hammasi ochiq. O'quvchi uchun mavzu ochiladi, agar
+    O'qituvchi (is_staff) uchun hammasi ochiq. Talaba uchun mavzu ochiladi, agar
     oldingi mavzu testi 100% topshirilgan bo'lsa VA (mavzu keyingi bo'limda bo'lsa)
     oldingi bo'lim testi ham 100% topshirilgan bo'lsa.
     """

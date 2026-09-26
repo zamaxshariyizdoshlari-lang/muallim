@@ -91,7 +91,7 @@ export default function UploadPage({ subject, onBack, isTeacher, onUploaded, onO
               <h2 className="font-display text-lg font-bold text-ink">Tayyor JSON'dan import</h2>
             </div>
             <p className="mb-4 text-sm leading-relaxed text-muted">
-              Mavzular, testlar, o'yinlar hammasi tayyor JSON faylda. Qayta yuklasangiz, o'quvchilar progressi saqlanadi.
+              Mavzular, testlar, o'yinlar hammasi tayyor JSON faylda. Qayta yuklasangiz, talabalar progressi saqlanadi.
             </p>
             <label className="btn btn-primary cursor-pointer">
               JSON faylni tanlash

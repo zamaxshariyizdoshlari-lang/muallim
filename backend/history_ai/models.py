@@ -278,7 +278,7 @@ class SectionCompletion(models.Model):
 
 
 class XPEvent(models.Model):
-    """Bir martalik XP mukofoti jurnali (user + kind + ref unikal: qayta topshirish XP bermaydi)."""
+    """Bir martalik ball mukofoti jurnali (user + kind + ref unikal: qayta topshirish ball bermaydi)."""
 
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='xp_events')
     kind = models.CharField(max_length=20)

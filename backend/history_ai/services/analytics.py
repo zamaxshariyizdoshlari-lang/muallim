@@ -1,4 +1,4 @@
-"""O'qituvchi paneli: kurs bo'yicha o'quvchilar natijasi va eng qiyin savollar."""
+"""O'qituvchi paneli: kurs bo'yicha talabalar natijasi va eng qiyin savollar."""
 from collections import defaultdict
 
 from django.contrib.auth import get_user_model

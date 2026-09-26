@@ -1,6 +1,6 @@
-"""XP, daraja, kunlik ketma-ketlik (streak) va nishonlar.
+"""ball, daraja, kunlik ketma-ketlik (streak) va nishonlar.
 
-XP jurnali (XPEvent) bir marta beriladi (user+kind+ref unikal), shuning uchun testni qayta
+ball jurnali (XPEvent) bir marta beriladi (user+kind+ref unikal), shuning uchun testni qayta
 topshirish XPni ko'paytirmaydi. Streak va nishonlar mavjud ma'lumotlardan hisoblanadi.
 """
 from datetime import timedelta
@@ -24,7 +24,7 @@ def _award(user, kind, ref_id, points):
 
 
 def award_topic(user, topic):
-    """Mavzu testi 100% topshirilganda: asosiy XP + birinchi urinishda bo'lsa bonus."""
+    """Mavzu testi 100% topshirilganda: asosiy ball + birinchi urinishda bo'lsa bonus."""
     gained = _award(user, 'topic', topic.id, POINTS['topic'])
     if gained and TestAttempt.objects.filter(student=user, topic=topic).count() == 1:
         gained += _award(user, 'topic_first', topic.id, POINTS['topic_first'])

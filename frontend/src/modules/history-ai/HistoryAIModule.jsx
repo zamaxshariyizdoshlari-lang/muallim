@@ -97,7 +97,7 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
     }
   }, [])
 
-  // Sahifa almashganda XP/ketma-ketlik yangilanadi (test topshirilgandan keyin ham).
+  // Sahifa almashganda ball/ketma-ketlik yangilanadi (test topshirilgandan keyin ham).
   useEffect(() => {
     getProfile().then(setStats).catch(() => {})
   }, [location.pathname])
@@ -114,12 +114,12 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
           </Link>
           <div className="flex items-center gap-2">
             {stats && (
-              <Link to="/profil" className="flex items-center gap-1.5" title="Profil: XP va ketma-ketlik">
+              <Link to="/profil" className="flex items-center gap-1.5" title="Profil: ball va ketma-ketlik">
                 <span className={`chip ${stats.streak.current > 0 ? 'chip-gold' : ''}`}>
                   <Flame size={13} /> {stats.streak.current}
                 </span>
                 <span className="chip chip-gold">
-                  <Star size={13} /> {stats.xp} XP
+                  <Star size={13} /> {stats.xp} ball
                 </span>
               </Link>
             )}

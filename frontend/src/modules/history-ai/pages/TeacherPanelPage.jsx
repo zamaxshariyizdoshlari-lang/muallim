@@ -30,13 +30,13 @@ export default function TeacherPanelPage({ book, onBack }) {
       </header>
 
       <div className="mb-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-        <Kpi icon={Users} label="O'quvchilar" value={summary.students} />
-        <Kpi icon={TrendingUp} label="O'rtacha progress" value={`${summary.avg_progress}%`} />
+        <Kpi icon={Users} label="Talabalar" value={summary.students} />
+        <Kpi icon={TrendingUp} label="O'rtacha o'zlashtirish" value={`${summary.avg_progress}%`} />
         <Kpi icon={Award} label="Sertifikat olganlar" value={summary.certificates} />
         <Kpi icon={Target} label="Jami mavzu" value={summary.total_topics} />
       </div>
 
-      <h2 className="mb-4 font-display text-2xl font-bold text-ink">O'quvchilar</h2>
+      <h2 className="mb-4 font-display text-2xl font-bold text-ink">Talabalar</h2>
       {students.length === 0 ? (
         <p className="card mb-10 p-6 text-sm text-muted">Hali hech kim test topshirmagan.</p>
       ) : (
@@ -44,8 +44,8 @@ export default function TeacherPanelPage({ book, onBack }) {
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead>
               <tr className="border-b border-line text-xs uppercase tracking-wider text-muted">
-                <th className="px-4 py-3">O'quvchi</th>
-                <th className="px-4 py-3">Progress</th>
+                <th className="px-4 py-3">Talaba</th>
+                <th className="px-4 py-3">O'zlashtirish</th>
                 <th className="px-4 py-3">Urinishlar</th>
                 <th className="px-4 py-3">Oxirgi faollik</th>
               </tr>

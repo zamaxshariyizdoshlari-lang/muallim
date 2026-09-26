@@ -61,7 +61,7 @@ export default function TopicSelectPage({
             </span>
             <span className="min-w-0 flex-1">
               <span className="block font-display text-lg font-bold text-ink">O'qituvchi paneli</span>
-              <span className="text-sm text-muted">O'quvchilar natijasi va eng qiyin savollar</span>
+              <span className="text-sm text-muted">Talabalar natijasi va eng qiyin savollar</span>
             </span>
             <span className="chip chip-gold">Ochish →</span>
           </button>

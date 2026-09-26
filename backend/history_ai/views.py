@@ -136,7 +136,7 @@ class MeView(APIView):
 
 
 class ProfileView(APIView):
-    """O'quvchi profili: XP, daraja, ketma-ketlik, nishonlar, statistika."""
+    """Talaba profili: ball, daraja, ketma-ketlik, nishonlar, statistika."""
 
     def get(self, request):
         u = request.user
@@ -315,7 +315,7 @@ class CertificateDownloadView(APIView):
 
 
 class LessonByTopicView(generics.RetrieveAPIView):
-    """Mavjud lesson'ni ko'rish uchun (o'quvchilar ham). Hali yaratilmagan bo'lsa 404."""
+    """Mavjud lesson'ni ko'rish uchun (talabalar ham). Hali yaratilmagan bo'lsa 404."""
 
     serializer_class = LessonSerializer
 
@@ -367,7 +367,7 @@ class LessonDetailView(generics.RetrieveAPIView):
 
 
 class GeneratedAssetByTopicView(generics.RetrieveAPIView):
-    """Mavjud taqdimot/o'yinni ko'rish uchun (o'quvchilar ham). Hali yaratilmagan bo'lsa 404."""
+    """Mavjud taqdimot/o'yinni ko'rish uchun (talabalar ham). Hali yaratilmagan bo'lsa 404."""
 
     serializer_class = GeneratedAssetSerializer
 
@@ -497,7 +497,7 @@ class ReviewListView(APIView):
 
 
 class ReviewAnswerView(APIView):
-    """Takrorlashda javob berish: faqat to'g'ri/xato va bet qaytadi. To'g'ri javob XP beradi."""
+    """Takrorlashda javob berish: faqat to'g'ri/xato va bet qaytadi. To'g'ri javob ball beradi."""
 
     def post(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
@@ -517,7 +517,7 @@ class ReviewAnswerView(APIView):
 
 
 class BookSearchView(APIView):
-    """Kurs ichida qidiruv (o'quvchi uchun faqat ochilgan mavzular)."""
+    """Kurs ichida qidiruv (talaba uchun faqat ochilgan mavzular)."""
 
     def get(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
@@ -530,7 +530,7 @@ class BookSearchView(APIView):
 
 
 class BookAnalyticsView(APIView):
-    """O'qituvchi paneli: o'quvchilar natijasi va eng qiyin savollar."""
+    """O'qituvchi paneli: talabalar natijasi va eng qiyin savollar."""
 
     permission_classes = [IsTeacher]
 
