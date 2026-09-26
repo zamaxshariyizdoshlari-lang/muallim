@@ -102,7 +102,7 @@ export default function ProfilePage({ me }) {
             <li key={b.key} className={`card flex items-center gap-4 p-4 ${b.earned ? '' : 'opacity-60'}`}>
               <span
                 className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl ${
-                  b.earned ? 'bg-gold text-[#241a08]' : 'bg-paper-2 text-muted'
+                  b.earned ? 'bg-gold text-white' : 'bg-paper-2 text-muted'
                 }`}
               >
                 {b.earned ? <Icon size={22} /> : <Lock size={18} />}

@@ -71,7 +71,7 @@ export default function TopicSelectPage({
             onClick={onOpenReview}
             className="card card-hover flex w-full items-center gap-4 !border-gold/60 bg-gold-soft/50 px-5 py-4 text-left"
           >
-            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold text-[#241a08]">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold text-white">
               <RotateCcw size={20} />
             </span>
             <span className="min-w-0 flex-1">
@@ -147,7 +147,7 @@ export default function TopicSelectPage({
                 <li className="relative">
                   <span
                     className={`absolute -left-[3.05rem] top-3 flex h-9 w-9 items-center justify-center rounded-full border-2 ${
-                      sec.completed ? 'border-ok bg-ok text-white' : examEnabled ? 'border-gold bg-gold text-[#241a08]' : 'border-line-strong bg-paper-2 text-muted'
+                      sec.completed ? 'border-ok bg-ok text-white' : examEnabled ? 'border-gold bg-gold text-white' : 'border-line-strong bg-paper-2 text-muted'
                     }`}
                     aria-hidden
                   >
