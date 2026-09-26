@@ -95,11 +95,13 @@ class GeneratedAsset(models.Model):
     KIND_GAME_TIMELINE = 'game_timeline'
     KIND_GAME_MATCHING = 'game_matching'
     KIND_GAME_FILL_BLANK = 'game_fill_blank'
+    KIND_TOPIC_TEST = 'topic_test'
     KIND_CHOICES = [
         (KIND_PRESENTATION, 'Taqdimot'),
         (KIND_GAME_TIMELINE, "O'yin: xronologiya"),
         (KIND_GAME_MATCHING, "O'yin: moslashtirish"),
         (KIND_GAME_FILL_BLANK, "O'yin: bo'sh joyni to'ldirish"),
+        (KIND_TOPIC_TEST, "Mavzu bo'yicha to'liq test"),
     ]
 
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='assets')
@@ -121,3 +123,88 @@ class GeneratedAsset(models.Model):
 
     def __str__(self):
         return f"{self.get_kind_display()}: {self.topic.title} [{self.status}]"
+
+
+class BookExam(models.Model):
+    """Kitob yakunidagi umumiy test (barcha mavzular faktlaridan quriladi).
+
+    GeneratedAsset'ga o'xshaydi, lekin mavzu emas, kitob darajasida - shuning
+    uchun alohida model (bitta kitobda bitta yakuniy imtihon).
+    """
+
+    book = models.OneToOneField(Book, on_delete=models.CASCADE, related_name='exam')
+    created_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='book_exams'
+    )
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default=STATUS_PENDING)
+    data = models.JSONField(null=True, blank=True)
+    error_message = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"Yakuniy imtihon: {self.book.title} [{self.status}]"
+
+
+class TestAttempt(models.Model):
+    """Talabaning mavzu testi yoki kitob yakuniy imtihoniga bitta urinishi.
+
+    Aynan bittasi to'ldiriladi: topic (mavzu testi) yoki book (yakuniy imtihon).
+    """
+
+    student = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='test_attempts'
+    )
+    topic = models.ForeignKey(
+        Topic, on_delete=models.CASCADE, related_name='attempts', null=True, blank=True
+    )
+    book = models.ForeignKey(
+        Book, on_delete=models.CASCADE, related_name='exam_attempts', null=True, blank=True
+    )
+    answers = models.JSONField()  # {"0": chosen_index, "1": chosen_index, ...}
+    score = models.PositiveIntegerField()
+    total = models.PositiveIntegerField()
+    passed = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']
+
+    def __str__(self):
+        target = self.topic.title if self.topic_id else f"Yakuniy: {self.book.title}"
+        return f"{self.student.username} - {target} - {self.score}/{self.total}"
+
+
+class TopicCompletion(models.Model):
+    """Talaba shu mavzu testini 100% to'g'ri topshirganini bildiradi (mavzu ochilishi uchun asos)."""
+
+    student = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='topic_completions'
+    )
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='completions')
+    attempt = models.ForeignKey(TestAttempt, on_delete=models.SET_NULL, null=True, blank=True)
+    completed_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('student', 'topic')
+
+    def __str__(self):
+        return f"{self.student.username} - {self.topic.title} - o'tildi"
+
+
+class Certificate(models.Model):
+    """Talaba butun kitobni (barcha mavzu + yakuniy imtihon) tugatganda beriladi."""
+
+    student = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='certificates'
+    )
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='certificates')
+    file = models.FileField(upload_to='certificates/')
+    issued_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('student', 'book')
+
+    def __str__(self):
+        return f"Sertifikat: {self.student.username} - {self.book.title}"

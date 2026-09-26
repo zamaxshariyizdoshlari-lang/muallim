@@ -1,13 +1,25 @@
+from django.core.files.base import ContentFile
+from django.http import FileResponse
 from django.shortcuts import get_object_or_404
+from django.utils import timezone
 from rest_framework import generics, status
-from rest_framework.exceptions import ValidationError
+from rest_framework.exceptions import PermissionDenied, ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import STATUS_PENDING, Book, GeneratedAsset, Lesson, Page, Topic
+from .models import (
+    STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
+    Lesson, Page, TestAttempt, Topic, TopicCompletion,
+)
 from .permissions import IsTeacher
-from .serializers import BookSerializer, GeneratedAssetSerializer, LessonSerializer, TopicSerializer
+from .progress import all_topics_completed, topic_states
+from .serializers import (
+    BookExamSerializer, BookSerializer, GeneratedAssetSerializer, LessonSerializer, TopicSerializer,
+)
+from .services.book_exam_builder import build_book_exam
+from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
+from .services.rules.exceptions import NotEnoughDataError
 from .services.topic_detector import detect_topics
 from .tasks import start_asset_generation, start_lesson_generation
 from .throttles import AIGenerationThrottle
@@ -64,11 +76,159 @@ class BookUploadView(APIView):
         }, status=status.HTTP_201_CREATED)
 
 
+class MeView(APIView):
+    def get(self, request):
+        return Response({'username': request.user.username, 'is_staff': request.user.is_staff})
+
+
 class TopicListView(generics.ListAPIView):
     serializer_class = TopicSerializer
 
     def get_queryset(self):
         return Topic.objects.filter(book_id=self.kwargs['book_id'])
+
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        context['topic_states'] = topic_states(self.request.user, self.get_queryset())
+        return context
+
+
+class BookProgressView(APIView):
+    """Kitob bo'yicha talaba holati: barcha mavzu tugadimi, yakuniy imtihon/sertifikat bormi."""
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        cert = Certificate.objects.filter(student=request.user, book=book).first()
+        return Response({
+            'all_topics_completed': all_topics_completed(request.user, book),
+            'exam_exists': BookExam.objects.filter(book=book, status=STATUS_DONE).exists(),
+            'certificate': bool(cert),
+        })
+
+
+def _grade(questions, answers):
+    """answers: {"0": chosen_index, ...}. Javob berilmagan savol xato hisoblanadi."""
+    details = []
+    score = 0
+    for i, q in enumerate(questions):
+        chosen = answers.get(str(i))
+        correct = chosen == q['correct_index']
+        score += int(correct)
+        # To'g'ri javob ataylab qaytarilmaydi (yodlab olishning oldini olish) - faqat qayerdan o'qish kerakligi (bet).
+        details.append({'index': i, 'correct': correct, 'page': q.get('page')})
+    return score, len(questions), details
+
+
+def _read_answers(request):
+    answers = request.data.get('answers')
+    if not isinstance(answers, dict):
+        raise ValidationError({'answers': "answers obyekt bo'lishi kerak: {savol_indeksi: tanlangan_variant}"})
+    return {str(k): v for k, v in answers.items()}
+
+
+class TopicTestSubmitView(APIView):
+    """Talaba mavzu testini topshiradi. 100% bo'lsa mavzu "o'tildi" deb belgilanadi."""
+
+    def post(self, request, topic_id):
+        topic = get_object_or_404(Topic, id=topic_id)
+        state = topic_states(request.user, topic.book.topics.all())[topic.id]
+        if not state['unlocked']:
+            raise PermissionDenied("Bu mavzu hali ochilmagan: avval oldingi mavzu testini topshiring.")
+
+        asset = GeneratedAsset.objects.filter(
+            topic=topic, kind=GeneratedAsset.KIND_TOPIC_TEST, status=STATUS_DONE
+        ).first()
+        if not asset:
+            raise ValidationError({'detail': "Bu mavzu uchun test hali yaratilmagan."})
+
+        score, total, details = _grade(asset.data['questions'], _read_answers(request))
+        passed = total > 0 and score == total
+        attempt = TestAttempt.objects.create(
+            student=request.user, topic=topic, answers=_read_answers(request),
+            score=score, total=total, passed=passed,
+        )
+        if passed:
+            TopicCompletion.objects.get_or_create(
+                student=request.user, topic=topic, defaults={'attempt': attempt}
+            )
+        return Response({'score': score, 'total': total, 'passed': passed, 'details': details})
+
+
+class BookExamByBookView(generics.RetrieveAPIView):
+    serializer_class = BookExamSerializer
+
+    def get_object(self):
+        return get_object_or_404(BookExam, book_id=self.kwargs['book_id'])
+
+
+class BookExamCreateView(APIView):
+    """Yakuniy imtihonni yaratish/qayta yaratish. Faqat o'qituvchi (qoida asosida, AI'siz)."""
+
+    permission_classes = [IsTeacher]
+
+    def post(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        exam, _ = BookExam.objects.get_or_create(book=book, defaults={'created_by': request.user})
+
+        pages_by_topic = {
+            topic: [
+                (p.page_number, p.text)
+                for p in book.pages.filter(page_number__gte=topic.start_page, page_number__lte=topic.end_page)
+            ]
+            for topic in book.topics.all()
+        }
+        try:
+            exam.data = build_book_exam(book, pages_by_topic)
+            exam.status = STATUS_DONE
+            exam.error_message = ''
+        except NotEnoughDataError as exc:
+            exam.status = STATUS_FAILED
+            exam.error_message = str(exc)
+        exam.save()
+        return Response(
+            BookExamSerializer(exam, context={'request': request}).data, status=status.HTTP_200_OK
+        )
+
+
+class BookExamSubmitView(APIView):
+    """Talaba yakuniy imtihonni topshiradi; 100% va barcha mavzu tugagan bo'lsa sertifikat beriladi."""
+
+    def post(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        if not all_topics_completed(request.user, book):
+            raise PermissionDenied("Yakuniy imtihon uchun avval barcha mavzu testlarini topshiring.")
+
+        exam = BookExam.objects.filter(book=book, status=STATUS_DONE).first()
+        if not exam:
+            raise ValidationError({'detail': "Yakuniy imtihon hali yaratilmagan."})
+
+        answers = _read_answers(request)
+        score, total, details = _grade(exam.data['questions'], answers)
+        passed = total > 0 and score == total
+        TestAttempt.objects.create(
+            student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
+        )
+
+        certificate = False
+        if passed:
+            if not Certificate.objects.filter(student=request.user, book=book).exists():
+                name = request.user.get_full_name() or request.user.username
+                pdf = build_certificate_pdf(name, book.title, timezone.now())
+                cert = Certificate(student=request.user, book=book)
+                cert.file.save(f'certificate_{book.id}_{request.user.id}.pdf', ContentFile(pdf), save=False)
+                cert.save()
+            certificate = True
+
+        return Response({
+            'score': score, 'total': total, 'passed': passed,
+            'details': details, 'certificate': certificate,
+        })
+
+
+class CertificateDownloadView(APIView):
+    def get(self, request, book_id):
+        cert = get_object_or_404(Certificate, student=request.user, book_id=book_id)
+        return FileResponse(cert.file.open('rb'), as_attachment=True, filename='sertifikat.pdf')
 
 
 class LessonByTopicView(generics.RetrieveAPIView):

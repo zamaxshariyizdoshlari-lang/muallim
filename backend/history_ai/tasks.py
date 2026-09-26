@@ -6,6 +6,7 @@ from .models import STATUS_DONE, STATUS_FAILED, GeneratedAsset, Lesson
 from .services.ai import get_ai_provider
 from .services.fact_checker import annotate_key_facts
 from .services.prompts import build_lesson_prompt, build_presentation_prompt
+from .services.topic_test_builder import build_topic_test
 from .services.rules.exceptions import NotEnoughDataError
 from .services.rules.fill_blank_builder import build_fill_blank
 from .services.rules.matching_builder import build_matching
@@ -100,6 +101,19 @@ def _run_ai_asset_generation(asset_id):
 def start_asset_generation(asset_id):
     """Asset turiga qarab: AI turlari fon oqimida, qoida asosidagilar darhol (sinxron)."""
     asset = GeneratedAsset.objects.get(id=asset_id)
+
+    if asset.kind == GeneratedAsset.KIND_TOPIC_TEST:
+        pages = _topic_pages(asset.topic)
+        try:
+            asset.data = build_topic_test(asset.topic, pages)
+            asset.ai_provider = ''
+            asset.status = STATUS_DONE
+            asset.error_message = ''
+        except NotEnoughDataError as exc:
+            asset.status = STATUS_FAILED
+            asset.error_message = str(exc)
+        asset.save()
+        return
 
     if asset.kind in RULE_ASSET_BUILDERS:
         pages = _topic_pages(asset.topic)

@@ -5,7 +5,14 @@ from . import views
 app_name = 'history_ai'
 
 urlpatterns = [
+    path('me/', views.MeView.as_view(), name='me'),
     path('books/', views.BookUploadView.as_view(), name='book-upload'),
+    path('books/<int:book_id>/progress/', views.BookProgressView.as_view(), name='book-progress'),
+    path('books/<int:book_id>/exam/', views.BookExamByBookView.as_view(), name='book-exam'),
+    path('books/<int:book_id>/exam/create/', views.BookExamCreateView.as_view(), name='book-exam-create'),
+    path('books/<int:book_id>/exam/submit/', views.BookExamSubmitView.as_view(), name='book-exam-submit'),
+    path('books/<int:book_id>/certificate/', views.CertificateDownloadView.as_view(), name='certificate'),
+    path('topics/<int:topic_id>/test/submit/', views.TopicTestSubmitView.as_view(), name='topic-test-submit'),
     path('books/<int:book_id>/topics/', views.TopicListView.as_view(), name='topic-list'),
     path('topics/<int:topic_id>/lesson/', views.LessonByTopicView.as_view(), name='lesson-by-topic'),
     path('lessons/', views.LessonCreateView.as_view(), name='lesson-create'),
