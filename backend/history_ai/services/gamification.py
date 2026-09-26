@@ -16,7 +16,7 @@ from ..models import (
 POINTS = {'topic': 50, 'topic_first': 20, 'section': 150, 'exam': 300, 'review': 5}
 XP_PER_LEVEL = 200
 
-LEVEL_TITLES = ['Yangi o\'quvchi', 'Izlanuvchi', 'Bilimdon', 'Donishmand', 'Alloma', 'Ustoz']
+LEVEL_TITLES = ['Yangi boshlovchi', 'Izlanuvchi', 'Bilimdon', 'Donishmand', 'Alloma', 'Ustoz']
 
 
 def _award(user, kind, ref_id, points):
@@ -148,7 +148,7 @@ def badges(user):
     best_streak = streak_info(user)['best']
     spec = [
         ('first_step', 'Birinchi qadam', "Birinchi mavzu testini topshiring", 'footprints', topics_done >= 1),
-        ('five_topics', 'Faol o\'quvchi', '5 ta mavzuni o\'zlashtiring', 'book-open', topics_done >= 5),
+        ('five_topics', 'Faol o\'rganuvchi', '5 ta mavzuni o\'zlashtiring', 'book-open', topics_done >= 5),
         ('twenty_topics', 'Bilim izlovchi', '20 ta mavzuni o\'zlashtiring', 'library', topics_done >= 20),
         ('perfect', 'Mukammal', "5 ta testni birinchi urinishda 100% topshiring", 'target', perfect_first >= 5),
         ('section', "Bo'lim ustasi", "Birinchi bo'lim testini topshiring", 'flag', sections_done >= 1),
