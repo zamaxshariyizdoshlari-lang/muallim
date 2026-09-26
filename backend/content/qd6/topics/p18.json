@@ -1,0 +1,97 @@
+{
+  "key": "p18", "title": "18-§. Miloddan avvalgi III asrda Xitoy", "start_page": 69, "end_page": 72,
+  "explanation": {
+    "goals": ["Sin Shixuandi tomonidan Xitoy birlashtirilishini va uning maqbarasini bilish", "Buyuk Xitoy devori va xitoyliklarning ixtirolarini tushuntirish"],
+    "blocks": [
+      { "heading": "Markazlashgan davlatning tashkil topishi", "pages": [69],
+        "text": "Mil. avv. 246-yilda Xitoyni o'z hokimiyati ostida birlashtirgan hukmdor Sin Shixuandi nomini olgan. Bu nom \"Sinning birinchi hukmdori\" degan ma'noni bildiradi. O'z davlati hududini alohida viloyatlarga taqsimlagan hukmdor har biriga noiblarini rahbar etib tayinladi.\n\nSin Shixuandi tirikligidayoq o'ziga atab maqbara qurishga farmon bergandi. Hashamati va bezaklari jihatidan bu maqbara Misr piramidalari bilan bellasha oladi. Maqbarani 720 ming odam 37 yil mobaynida bunyod etgan. Maqbara bir necha kvadrat kilometr maydonda joylashgan. Sin Shixuandi maqbarasidan hukmdorni \"qo'riqlash\" uchun o'rnatilgan 6 mingta sopol askarlar haykallari topilgan." },
+      { "heading": "Buyuk Xitoy devori", "pages": [70],
+        "text": "Sin Shixuandi o'z davlatini ko'chmanchi hunlarning hujumlaridan himoya qilish uchun Shimoliy Xitoy bo'ylab qurilgan mudofaa devorini yanada mustahkamlashni buyurgan. Devorni qurish ishlari dastlab mil. avv. IV asrda boshlangan. Bu devor tarixda Buyuk Xitoy devori deb atalgan. Uning balandligi 6-10 metr, qalinligi 5-8 metr, uzunligi esa qariyb 4000 kilometrni tashkil etadi. U qadim zamonlarda dushman qo'shinlari uchun jiddiy to'siq bo'lib xizmat qilgan: otliq qo'shinlar undan oshib o'ta olmas, qal'alarni hujum bilan zabt etishni esa ko'chmanchilar hali uddalay olmasdi. Podsho va amaldorlar devor qurilishida yuz minglab dehqonlarni majburan ishlatgan." },
+      { "heading": "Qadimgi Xitoy madaniyati", "pages": [71],
+        "text": "Qadimgi Xitoyda o'ziga xos yuksak madaniyat yaratilgan. Mahalliy aholining kundalik hayoti ziroatchilik, hunarmandchilik, binokorlik va boshqa sohalar bilan bog'liq bo'lib, ilmiy bilimlarning rivojlanishini taqozo etgan. Shu tariqa matematika, astronomiya va geografiya fanlari rivoj topgan. Shuningdek, qadimgi xitoyliklar me'morchilik va haykaltaroshlik sohalarida katta yutuqlarga erishgan. Qadimgi Xitoyda so'z va jumlalarni ifodalagan iyerogliflar mavjud bo'lgan. Dastlab xitoyliklar bambuk taxtachalarga yozishgan." },
+      { "heading": "Xitoyliklarning ixtirolari", "pages": [72],
+        "text": "Bundan 2,5 ming yil muqaddam yozish uchun shoyidan foydalanishga o'tildi. Shoyi matolarga mo'yqalam bilan yozilgan. Miloddan avvalgi I asrda qog'oz ixtiro qilindi.\n\nXitoyliklarning eng ajoyib ixtirolaridan biri kompas bo'lgan. U magnitlangan temirdan yasalgan uzun dastali katta qoshiqni eslatar edi. Bu moslamani kataklarga ajratilgan va zarhallangan yog'ochga o'rnatishgan, uning dastasi esa hamma vaqt janubni ko'rsatgan. Xitoyda zilzilani oldindan aniqlab beruvchi seysmograf ham ixtiro qilingan." }
+    ],
+    "key_facts": [
+      { "fact": "Mil. avv. 246-yilda Xitoyni birlashtirgan hukmdor Sin Shixuandi (\"Sinning birinchi hukmdori\") nomini olgan", "page": 69 },
+      { "fact": "Sin Shixuandi maqbarasini 720 ming odam 37 yil qurgan; undan 6 mingta sopol askar haykali topilgan", "page": 69 },
+      { "fact": "Buyuk Xitoy devori balandligi 6-10 m, qalinligi 5-8 m, uzunligi qariyb 4000 km; ko'chmanchi hunlardan himoya uchun qurilgan", "page": 70 },
+      { "fact": "Xitoyda qog'oz mil. avv. I asrda ixtiro qilingan", "page": 72 },
+      { "fact": "Xitoyliklar kompas va zilzilani oldindan aniqlovchi seysmografni ixtiro qilgan", "page": 72 }
+    ],
+    "summary": "Mil. avv. 246-yilda Sin Shixuandi Xitoyni birlashtirib, viloyatlar boshqaruvini joriy qildi, ulkan maqbara va Buyuk Xitoy devorini mustahkamlashni buyurdi. Xitoyliklar iyerogliflar, shoyi va bambukka yozuv, qog'oz, kompas va seysmografni ixtiro qilgan."
+  },
+  "presentation": { "slides": [
+    { "title": "18-§. Miloddan avvalgi III asrda Xitoy", "bullets": [], "page": null },
+    { "title": "Sin Shixuandi", "bullets": ["Mil. avv. 246-yil", "\"Sinning birinchi hukmdori\"", "Viloyatlarga bo'lib, noiblar tayinladi"], "page": 69 },
+    { "title": "Maqbara", "bullets": ["720 ming odam, 37 yil", "6 mingta sopol askar haykali"], "page": 69 },
+    { "title": "Buyuk Xitoy devori", "bullets": ["Ko'chmanchi hunlardan himoya", "Balandligi 6-10 m, qalinligi 5-8 m", "Uzunligi qariyb 4000 km"], "page": 70 },
+    { "title": "Madaniyat", "bullets": ["Matematika, astronomiya, geografiya", "Iyerogliflar", "Bambuk taxtachalar, keyin shoyi"], "page": 71 },
+    { "title": "Ixtirolar", "bullets": ["Qog'oz - mil. avv. I asr", "Kompas", "Seysmograf"], "page": 72 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. IV asrda Buyuk Xitoy devorini qurish ishlari boshlanadi", "page": 70 },
+      { "label": "Mil. avv. 246-yilda Sin Shixuandi Xitoyni birlashtiradi", "page": 69 },
+      { "label": "Mil. avv. I asrda qog'oz ixtiro qilinadi", "page": 72 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Sin Shixuandi", "right": "\"Sinning birinchi hukmdori\"", "page": 69 },
+      { "left": "Sopol askarlar", "right": "Sin Shixuandi maqbarasidagi 6 mingta haykal", "page": 69 },
+      { "left": "Buyuk Xitoy devori", "right": "Uzunligi qariyb 4000 kilometr bo'lgan mudofaa devori", "page": 70 },
+      { "left": "Bambuk taxtachalar", "right": "Xitoyliklar dastlab yozgan material", "page": 71 },
+      { "left": "Shoyi", "right": "Mo'yqalam bilan yozilgan mato", "page": 72 },
+      { "left": "Qog'oz", "right": "Mil. avv. I asrda ixtiro qilingan yozuv materiali", "page": 72 },
+      { "left": "Kompas", "right": "Dastasi janubni ko'rsatgan magnitlangan qoshiq", "page": 72 },
+      { "left": "Seysmograf", "right": "Zilzilani oldindan aniqlovchi moslama", "page": 72 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Sin Shixuandi Xitoyni mil. avv. ____-yilda birlashtirdi.", "options": ["246", "146", "346", "446"], "correct_index": 0, "page": 69 },
+      { "question": "Sin Shixuandi maqbarasini ____ ming odam 37 yil davomida qurgan.", "options": ["72", "720", "7200", "20"], "correct_index": 1, "page": 69 },
+      { "question": "Maqbaradan ____ mingta sopol askar haykali topilgan.", "options": ["6", "60", "2", "16"], "correct_index": 0, "page": 69 },
+      { "question": "Buyuk Xitoy devorining uzunligi qariyb ____ kilometr.", "options": ["400", "4000", "40", "40000"], "correct_index": 1, "page": 70 },
+      { "question": "Devor ko'chmanchi ____ hujumlaridan himoya qilish uchun mustahkamlangan.", "options": ["hunlar", "forslar", "yunonlar", "rimliklar"], "correct_index": 0, "page": 70 },
+      { "question": "Qog'oz mil. avv. ____ asrda ixtiro qilindi.", "options": ["I", "V", "X", "III"], "correct_index": 0, "page": 72 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Xitoyni yagona davlatga birlashtirgan hukmdor nomini ayting. Bu voqea qachon bo'lgan?", "answer": "Sin Shixuandi (\"Sinning birinchi hukmdori\"); mil. avv. 246-yilda.", "page": 69 },
+      { "question": "Buyuk Xitoy devori haqida nimalarni bilasiz? Nima uchun bu devor ko'chmanchilarning bosqiniga to'siq bo'lib turgan?", "answer": "Devor Shimoliy Xitoy bo'ylab ko'chmanchi hunlardan himoya uchun qurilgan; balandligi 6-10 m, qalinligi 5-8 m, uzunligi qariyb 4000 km. Otliq qo'shinlar undan oshib o'ta olmagan, ko'chmanchilar qal'alarni hujum bilan zabt eta olmagan.", "page": 70 },
+      { "question": "Xitoyliklarning ixtirolarini sanab bering. Qaysilaridan hozir ham foydalanamiz?", "answer": "Iyerogliflar, shoyiga yozish, qog'oz, kompas, seysmograf. Qog'oz va kompasdan hozir ham foydalaniladi.", "page": 72 }
+    ],
+    "quiz": [
+      { "question": "Sin Shixuandi o'z davlatini qanday boshqargan?", "options": ["Viloyatlarga bo'lib, har biriga noiblarini tayinlagan", "Hamma yerni o'zi boshqargan", "Kohinlarga topshirgan", "Saylangan kengash orqali"], "correct_index": 0, "page": 69 },
+      { "question": "Devor qurilishida kimlar majburan ishlatilgan?", "options": ["Yuz minglab dehqonlar", "Qullar faqat", "Harbiy asirlar faqat", "Kohinlar"], "correct_index": 0, "page": 70 },
+      { "question": "Kompas qanday tuzilgan edi?", "options": ["Magnitlangan temirdan yasalgan uzun dastali qoshiq", "Suzuvchi igna", "Aylanuvchi disk", "Simob idishi"], "correct_index": 0, "page": 72 }
+    ]
+  },
+  "test": [
+    { "question": "Xitoyni birlashtirgan hukmdor qanday nom olgan?", "options": ["Sin Shixuandi", "Chjou Vani", "Shan Vani", "Xan Udi"], "correct_index": 0, "page": 69 },
+    { "question": "Xitoy qachon birlashtirilgan?", "options": ["Mil. avv. 246-yilda", "Mil. avv. 3000-yilda", "Mil. avv. 500-yilda", "Milodiy 100-yilda"], "correct_index": 0, "page": 69 },
+    { "question": "\"Sin Shixuandi\" nomi qanday ma'noni bildiradi?", "options": ["\"Sinning birinchi hukmdori\"", "\"Osmon o'g'li\"", "\"Buyuk sarkarda\"", "\"Devor quruvchisi\""], "correct_index": 0, "page": 69 },
+    { "question": "Sin Shixuandi davlatni qanday taqsimlagan?", "options": ["Alohida viloyatlarga, har biriga noib tayinlagan", "Nomlarga", "Satrapiyalarga", "Polislarga"], "correct_index": 0, "page": 69 },
+    { "question": "Sin Shixuandi maqbara qurishga qachon farmon bergan?", "options": ["Tirikligidayoq", "Vafotidan keyin", "Kasal bo'lganda", "Taxtga chiqmasdan oldin"], "correct_index": 0, "page": 69 },
+    { "question": "Sin Shixuandi maqbarasi qaysi yodgorlik bilan bellasha oladi?", "options": ["Misr piramidalari bilan", "Parfenon bilan", "Zikkurat bilan", "Persepol bilan"], "correct_index": 0, "page": 69 },
+    { "question": "Maqbarani necha kishi necha yilda qurgan?", "options": ["720 ming odam 37 yilda", "72 ming odam 3 yilda", "7 ming odam 70 yilda", "1 million odam 10 yilda"], "correct_index": 0, "page": 69 },
+    { "question": "Maqbaradan nima topilgan?", "options": ["Hukmdorni \"qo'riqlash\" uchun 6 mingta sopol askar haykali", "Oltin xazina", "Papirus kitoblari", "Kema"], "correct_index": 0, "page": 69 },
+    { "question": "Buyuk Xitoy devori nimadan himoya qilish uchun qurilgan?", "options": ["Ko'chmanchi hunlarning hujumlaridan", "Dengiz toshqinidan", "Forslardan", "Hind qo'shinidan"], "correct_index": 0, "page": 70 },
+    { "question": "Devor qayerda qurilgan?", "options": ["Shimoliy Xitoy bo'ylab", "Janubiy Xitoy bo'ylab", "Xuanxe deltasida", "Dengiz qirg'og'ida"], "correct_index": 0, "page": 70 },
+    { "question": "Devorni qurish ishlari dastlab qachon boshlangan?", "options": ["Mil. avv. IV asrda", "Mil. avv. XX asrda", "Milodiy V asrda", "Mil. avv. I asrda"], "correct_index": 0, "page": 70 },
+    { "question": "Buyuk Xitoy devorining balandligi qancha?", "options": ["6-10 metr", "1-2 metr", "20-30 metr", "60-100 metr"], "correct_index": 0, "page": 70 },
+    { "question": "Buyuk Xitoy devorining qalinligi qancha?", "options": ["5-8 metr", "1-2 metr", "20-30 metr", "50-80 metr"], "correct_index": 0, "page": 70 },
+    { "question": "Buyuk Xitoy devorining uzunligi qancha?", "options": ["Qariyb 4000 kilometr", "Qariyb 400 kilometr", "Qariyb 40 kilometr", "Qariyb 40000 kilometr"], "correct_index": 0, "page": 70 },
+    { "question": "Nima uchun devor ko'chmanchilar uchun to'siq bo'lgan?", "options": ["Otliq qo'shinlar oshib o'ta olmagan, qal'alarni zabt etishni uddalay olmagan", "U suv bilan to'lgan edi", "Uni qo'riqchilar himoya qilgan faqat", "Uning ustida qal'a bo'lmagan"], "correct_index": 0, "page": 70 },
+    { "question": "Devor qurilishida kimlar majburan ishlatilgan?", "options": ["Yuz minglab dehqonlar", "Faqat qullar", "Jangchilar", "Kohinlar"], "correct_index": 0, "page": 70 },
+    { "question": "Qadimgi Xitoyda qaysi fanlar rivoj topgan?", "options": ["Matematika, astronomiya va geografiya", "Faqat tibbiyot", "Faqat mantiq", "Faqat kimyo"], "correct_index": 0, "page": 71 },
+    { "question": "Xitoyliklar qaysi sohalarda katta yutuqlarga erishgan?", "options": ["Me'morchilik va haykaltaroshlikda", "Dengizchilikda faqat", "Konchilikda faqat", "Zargarlikda faqat"], "correct_index": 0, "page": 71 },
+    { "question": "Qadimgi Xitoyda so'z va jumlalarni nima ifodalagan?", "options": ["Iyerogliflar", "Mixxat", "Alifbo", "Raqamlar"], "correct_index": 0, "page": 71 },
+    { "question": "Dastlab xitoyliklar nimaga yozgan?", "options": ["Bambuk taxtachalarga", "Loy taxtachalarga", "Papirusga", "Teriga"], "correct_index": 0, "page": 71 },
+    { "question": "Keyinchalik yozish uchun nimadan foydalanishga o'tilgan?", "options": ["Shoyidan", "Pergamentdan", "Papirusdan", "Toshdan"], "correct_index": 0, "page": 72 },
+    { "question": "Shoyi matolarga nima bilan yozilgan?", "options": ["Mo'yqalam bilan", "Qamish qalam bilan", "Tayoqcha bilan", "Temir uchli qalam bilan"], "correct_index": 0, "page": 72 },
+    { "question": "Qog'oz qachon ixtiro qilingan?", "options": ["Mil. avv. I asrda", "Mil. avv. V asrda", "Milodiy V asrda", "Mil. avv. XX asrda"], "correct_index": 0, "page": 72 },
+    { "question": "Kompas qanday tuzilgan edi?", "options": ["Magnitlangan temirdan yasalgan uzun dastali qoshiq", "Aylanuvchi arrali g'ildirak", "Suv bilan to'ldirilgan idish", "Yulduz xaritasi"], "correct_index": 0, "page": 72 },
+    { "question": "Kompasning dastasi qaysi tomonni ko'rsatgan?", "options": ["Janubni", "Shimolni", "Sharqni", "G'arbni"], "correct_index": 0, "page": 72 },
+    { "question": "Seysmograf nima uchun kerak edi?", "options": ["Zilzilani oldindan aniqlash uchun", "Vaqtni o'lchash uchun", "Yo'nalishni bilish uchun", "Ob-havoni aniqlash uchun"], "correct_index": 0, "page": 72 }
+  ]
+}

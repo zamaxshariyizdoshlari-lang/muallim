@@ -1,0 +1,101 @@
+{
+  "key": "p17", "title": "17-§. Qadimgi Xitoy sivilizatsiyalari", "start_page": 66, "end_page": 68,
+  "explanation": {
+    "goals": ["Xitoyda ilk davlatlar (Shan, Chjou) va ularning tashkil topishini bilish", "Xitoy aholisining mashg'ulotlari (choy, ipak) va \"ko'p podsholiklar\" davrini tushuntirish"],
+    "blocks": [
+      { "heading": "Xitoyda sivilizatsiya kurtaklari", "pages": [66],
+        "text": "Misr, Mesopotamiya va Hindistondagi kabi Xitoyda ham ilk sivilizatsiyalar Xuanxe va Yanszi nomli katta daryolar bo'ylarida vujudga kelgan. Miloddan avvalgi 3-mingyillikning oxirlarida qadimgi Xitoy hududida ilk davlat Xuanxe daryosi havzasining o'rta qismida paydo bo'ladi.\n\nShan qabilasining boshlig'i bu davlatni o'ziga bo'ysundirgan. Shu tariqa davlat nomi ham uning bosh shahri nomi kabi Shan deb atalgan. Betoxtov olib borilgan bosqinchilik urushlari davlatni zaiflashtirgan." },
+      { "heading": "Chjou davlati - \"Osmon ostidagi podsholik\"", "pages": [66],
+        "text": "Shan davlatining zaiflashuvidan qo'shni chjou qabilasi foydalangan va bostirib kirib, Shan yerlarini o'zinikiga qo'shib oladi va Chjou deb nomlangan katta davlatni bunyod etadi. Davlat yerlari ulkanligi bois hukmdorlar uni \"Osmon ostidagi podsholik\", o'zlarini esa \"Osmon o'g'illari\" deb atagan. Butun Shimoliy Xitoy ana shu davlat tarkibiga kirgan." },
+      { "heading": "Xitoy aholisining mashg'ulotlari", "pages": [67],
+        "text": "Dehqonchilik Xitoyda azaldan e'tiborli va faxrli kasb hisoblangan. Asosiy dehqonchilik ekinlari javdar va bug'doy bo'lgan. Keyinchalik xitoyliklar sholi yetishtira boshladi. Sholi urug'i Hindistondan keltirilgan.\n\nXitoy aholisi choy daraxtini ham yetishtira boshladi, uning barglaridan shifobaxsh ichimlik bo'lmish choy tayyorlanadi. Choy tez orada butun jahonga tarqaldi.\n\nTut daraxtini yetishtirish Xitoy aholisining asosiy mashg'ulotlaridan biri bo'lgan. Tut bargi bilan ipak qurti boqiladi. Ipak qurtlari pillalarga tolalarni o'raydi, pilladan esa nihoyatda yengil va nafis mato bo'lmish shoyi tayyorlanadi." },
+      { "heading": "\"Ko'p podsholiklar\" va \"kurashayotgan podsholiklar\" davri", "pages": [68],
+        "text": "Mil. avv. VIII-VII asrlarda Chjou davlatida markaziy hokimiyat zaiflasha boshladi. Ayrim viloyatlar noiblari podsho hokimiyatidan ozod bo'lishga intilar edi. Xitoyga ko'chmanchi qabilalar hujum qila boshlaganidan foydalangan chekka viloyatlar aholisi ajralib chiqib, o'z davlatini tashkil eta boshladi. Shu tariqa mil. avv. VII-V asrlardagi davr tarixda \"ko'p podsholiklar\" davri nomini olgan.\n\nXitoyda ayni paytda \"kurashayotgan podsholiklar\" davri ham boshlanadi. Chjou davlatida hukmronlikni qo'lga kiritish uchun mayda podsholiklar o'rtasida urushlar 200 yildan uzoqroq davom etdi. Bu davr Sin davlati hukmdori o'zining barcha raqiblarini yo'q qilib, mil. avv. III asrda yagona davlat tuzishi bilan yakunlandi." }
+    ],
+    "key_facts": [
+      { "fact": "Xitoyda ilk sivilizatsiyalar Xuanxe va Yanszi daryolari bo'ylarida vujudga kelgan", "page": 66 },
+      { "fact": "Mil. avv. 3-mingyillik oxirlarida Xuanxe havzasining o'rta qismida ilk davlat - Shan paydo bo'lgan", "page": 66 },
+      { "fact": "Chjou qabilasi Shanni bosib olib, Chjou davlatini tuzgan; hukmdorlari o'zlarini \"Osmon o'g'illari\" deb atagan", "page": 66 },
+      { "fact": "Xitoyliklar sholi, choy va tut daraxti yetishtirgan; pilladan shoyi tayyorlangan", "page": 67 },
+      { "fact": "Mil. avv. VII-V asrlar \"ko'p podsholiklar\" davri; mil. avv. III asrda Sin davlati hukmdori Xitoyni birlashtirgan", "page": 68 }
+    ],
+    "summary": "Xitoyda ilk davlat Shan (mil. avv. 3-ming yillik oxiri) Xuanxe bo'ylarida vujudga kelib, Chjou davlati bilan almashgan. Dehqonchilik, choy va ipakchilik rivojlangan. Mil. avv. VII-V asrlarda \"ko'p podsholiklar\" davri bo'lgan; mil. avv. III asrda Sin hukmdori yagona davlat tuzgan."
+  },
+  "presentation": { "slides": [
+    { "title": "17-§. Qadimgi Xitoy sivilizatsiyalari", "bullets": [], "page": null },
+    { "title": "Ilk sivilizatsiya", "bullets": ["Xuanxe va Yanszi daryolari bo'yida", "Mil. avv. 3-mingyillik oxiri: Shan davlati"], "page": 66 },
+    { "title": "Chjou davlati", "bullets": ["Shanni bosib olgan", "\"Osmon ostidagi podsholik\"", "Hukmdorlar - \"Osmon o'g'illari\""], "page": 66 },
+    { "title": "Mashg'ulotlar", "bullets": ["Javdar, bug'doy, sholi", "Choy daraxti", "Tut, ipak qurti va shoyi"], "page": 67 },
+    { "title": "Ko'p podsholiklar", "bullets": ["Mil. avv. VIII-VII asr: Chjou zaiflashdi", "Mil. avv. VII-V asrlar", "200 yildan uzoq urushlar"], "page": 68 },
+    { "title": "Birlashish", "bullets": ["Mil. avv. III asr", "Sin davlati hukmdori yagona davlat tuzdi"], "page": 68 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. 3-mingyillik oxirlarida Xuanxe bo'ylarida ilk davlat (Shan) paydo bo'ladi", "page": 66 },
+      { "label": "Chjou qabilasi Shanni bosib olib, Chjou davlatini tuzadi", "page": 66 },
+      { "label": "Mil. avv. VIII-VII asrlarda Chjouda markaziy hokimiyat zaiflasha boshlaydi", "page": 68 },
+      { "label": "Mil. avv. VII-V asrlarda \"ko'p podsholiklar\" davri", "page": 68 },
+      { "label": "Mil. avv. III asrda Sin hukmdori yagona davlat tuzadi", "page": 68 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Xuanxe va Yanszi", "right": "Xitoy ilk sivilizatsiyalari vujudga kelgan daryolar", "page": 66 },
+      { "left": "Shan", "right": "Xitoydagi ilk davlat", "page": 66 },
+      { "left": "Chjou", "right": "\"Osmon ostidagi podsholik\" deb atalgan davlat", "page": 66 },
+      { "left": "\"Osmon o'g'illari\"", "right": "Chjou hukmdorlarining o'zlariga bergan nomi", "page": 66 },
+      { "left": "Sholi", "right": "Urug'i Hindistondan keltirilgan ekin", "page": 67 },
+      { "left": "Choy", "right": "Shifobaxsh ichimlik, tez orada butun jahonga tarqalgan", "page": 67 },
+      { "left": "Ipak qurti", "right": "Tut bargi bilan boqiladi", "page": 67 },
+      { "left": "Shoyi", "right": "Pilladan tayyorlangan yengil va nafis mato", "page": 67 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Xitoyda ilk sivilizatsiyalar Yanszi va ____ daryolari bo'ylarida vujudga kelgan.", "options": ["Xuanxe", "Gang", "Hind", "Nil"], "correct_index": 0, "page": 66 },
+      { "question": "Xitoydagi ilk davlat ____ deb atalgan.", "options": ["Shan", "Sin", "Xan", "Chjou"], "correct_index": 0, "page": 66 },
+      { "question": "Chjou hukmdorlari o'zlarini ____ deb atagan.", "options": ["\"Osmon o'g'illari\"", "\"Yer egalari\"", "\"Daryo shohlari\"", "\"Quyosh farzandlari\""], "correct_index": 0, "page": 66 },
+      { "question": "Sholi urug'i ____ dan keltirilgan.", "options": ["Hindistondan", "Misrdan", "Eronidan", "Yunonistondan"], "correct_index": 0, "page": 67 },
+      { "question": "Ipak qurtlari ____ bargi bilan boqilgan.", "options": ["tut", "uzum", "olma", "paxta"], "correct_index": 0, "page": 67 },
+      { "question": "\"Kurashayotgan podsholiklar\" davri ____ yildan uzoqroq davom etdi.", "options": ["20", "200", "500", "1000"], "correct_index": 1, "page": 68 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qaysi daryolar vodiysida Xitoyning ilk sivilizatsiyalari vujudga kela boshladi?", "answer": "Xuanxe va Yanszi daryolari vodiylarida.", "page": 66 },
+      { "question": "Xitoyda birinchi davlat qachon tashkil topdi? U qanday atalgan?", "answer": "Mil. avv. 3-mingyillikning oxirlarida Xuanxe daryosi havzasining o'rta qismida; davlat Shan deb atalgan (bosh shahri nomi bilan).", "page": 66 },
+      { "question": "Xitoyning qaysi qadimgi davlati \"Osmon ostidagi podsholik\" degan nom olgan edi? Nima uchun?", "answer": "Chjou davlati - uning yerlari ulkan bo'lgani bois hukmdorlar uni \"Osmon ostidagi podsholik\", o'zlarini \"Osmon o'g'illari\" deb atagan.", "page": 66 },
+      { "question": "Qadimgi Xitoy aholisining asosiy mashg'ulotlarini sanab bering.", "answer": "Dehqonchilik (javdar, bug'doy, sholi), choy yetishtirish, tut daraxti va ipak qurtini boqish, shoyi tayyorlash.", "page": 67 }
+    ],
+    "quiz": [
+      { "question": "Shan davlatini zaiflashtirgan nima?", "options": ["Betoxtov olib borilgan bosqinchilik urushlari", "Toshqinlar", "Ochlik", "Kasallik"], "correct_index": 0, "page": 66 },
+      { "question": "\"Ko'p podsholiklar\" davri nima sababdan boshlandi?", "options": ["Chjouda markaziy hokimiyat zaiflashib, viloyatlar ajralib chiqa boshladi", "Sin hukmdori vafot etdi", "Xitoy Hindistonga qo'shildi", "Yangi din paydo bo'ldi"], "correct_index": 0, "page": 68 },
+      { "question": "Xitoyni mil. avv. III asrda kim birlashtirdi?", "options": ["Sin davlati hukmdori", "Chjou hukmdori", "Shan boshlig'i", "Xan hukmdori"], "correct_index": 0, "page": 68 }
+    ]
+  },
+  "test": [
+    { "question": "Xitoyda ilk sivilizatsiyalar qaysi daryolar bo'ylarida vujudga kelgan?", "options": ["Xuanxe va Yanszi", "Gang va Hind", "Nil va Frot", "Amudaryo va Sirdaryo"], "correct_index": 0, "page": 66 },
+    { "question": "Xitoyda ilk davlat qachon paydo bo'ldi?", "options": ["Mil. avv. 3-mingyillikning oxirlarida", "Mil. avv. 6-mingyillikda", "Mil. avv. 1-mingyillikda", "Milodiy 1-asrda"], "correct_index": 0, "page": 66 },
+    { "question": "Ilk davlat daryoning qaysi qismida paydo bo'ldi?", "options": ["Xuanxe havzasining o'rta qismida", "Yanszi deltasida", "Dengiz bo'yida", "Tog'lar orasida"], "correct_index": 0, "page": 66 },
+    { "question": "Shan davlati nima uchun shunday nom olgan?", "options": ["Bosh shahri nomi kabi", "Podsho ismi tufayli", "Daryo nomi tufayli", "Ma'bud nomi tufayli"], "correct_index": 0, "page": 66 },
+    { "question": "Shan davlatini kim o'ziga bo'ysundirgan?", "options": ["Shan qabilasining boshlig'i", "Chjou hukmdori", "Sin hukmdori", "Xan sarkardasi"], "correct_index": 0, "page": 66 },
+    { "question": "Shan davlatini zaiflashtirgan narsa nima?", "options": ["Betoxtov bosqinchilik urushlari", "Suv toshqinlari", "Ichki qo'zg'olon", "Ochlik"], "correct_index": 0, "page": 66 },
+    { "question": "Shan zaiflashuvidan qaysi qo'shni qabila foydalangan?", "options": ["Chjou qabilasi", "Sin qabilasi", "Xan qabilasi", "Xitan qabilasi"], "correct_index": 0, "page": 66 },
+    { "question": "Chjou davlati qanday tashkil topgan?", "options": ["Chjou qabilasi Shan yerlarini o'zinikiga qo'shib olishi natijasida", "Ikki davlat sulh tuzib", "Xalq qo'zg'oloni bilan", "Savdogarlar ittifoqidan"], "correct_index": 0, "page": 66 },
+    { "question": "Chjou hukmdorlari davlatni qanday atagan?", "options": ["\"Osmon ostidagi podsholik\"", "\"Sariq daryo mamlakati\"", "\"Ipak yurti\"", "\"Yer markazi\""], "correct_index": 0, "page": 66 },
+    { "question": "Chjou hukmdorlari o'zlarini qanday atagan?", "options": ["\"Osmon o'g'illari\"", "\"Yer shohlari\"", "\"Daryo egalari\"", "\"Xudolar\""], "correct_index": 0, "page": 66 },
+    { "question": "Chjou davlati qaysi hududni o'z ichiga olgan?", "options": ["Butun Shimoliy Xitoyni", "Faqat Xuanxe deltasini", "Janubiy Xitoyni", "Hindistonni"], "correct_index": 0, "page": 66 },
+    { "question": "Xitoyda qaysi kasb azaldan e'tiborli va faxrli hisoblangan?", "options": ["Dehqonchilik", "Savdo", "Harbiylik", "Hunarmandchilik"], "correct_index": 0, "page": 67 },
+    { "question": "Xitoyning asosiy dehqonchilik ekinlari qaysilar bo'lgan?", "options": ["Javdar va bug'doy", "Guruch va paxta", "Makkajo'xori va tariq", "Arpa va no'xat"], "correct_index": 0, "page": 67 },
+    { "question": "Xitoyliklar keyinchalik qaysi ekinni yetishtira boshladi?", "options": ["Sholi", "Kartoshka", "Paxta", "Zig'ir"], "correct_index": 0, "page": 67 },
+    { "question": "Sholi urug'i Xitoyga qayerdan keltirilgan?", "options": ["Hindistondan", "Misrdan", "Eron dan", "Yunonistondan"], "correct_index": 0, "page": 67 },
+    { "question": "Choy nima?", "options": ["Choy daraxti barglaridan tayyorlanadigan shifobaxsh ichimlik", "Sut mahsuloti", "Sharbat turi", "Yog'"], "correct_index": 0, "page": 67 },
+    { "question": "Choy qanday tarqaldi?", "options": ["Tez orada butun jahonga tarqaldi", "Faqat Xitoyda qoldi", "Faqat Hindistonga", "Sekin tarqaldi"], "correct_index": 0, "page": 67 },
+    { "question": "Ipak qurti nima bilan boqiladi?", "options": ["Tut bargi bilan", "Choy bargi bilan", "Paxta bilan", "Uzum bargi bilan"], "correct_index": 0, "page": 67 },
+    { "question": "Ipak qurtlari nimaga tolalarni o'raydi?", "options": ["Pillalarga", "Yaproqlarga", "Toshlarga", "Shoxlarga"], "correct_index": 0, "page": 67 },
+    { "question": "Pilladan qanday mato tayyorlanadi?", "options": ["Nihoyatda yengil va nafis shoyi", "Qalin jun mato", "Zig'ir mato", "Paxta mato"], "correct_index": 0, "page": 67 },
+    { "question": "Chjou davlatida markaziy hokimiyat qachon zaiflasha boshladi?", "options": ["Mil. avv. VIII-VII asrlarda", "Mil. avv. III asrda", "Mil. avv. XV asrda", "Milodiy I asrda"], "correct_index": 0, "page": 68 },
+    { "question": "Ayrim viloyatlar noiblari nimaga intilgan?", "options": ["Podsho hokimiyatidan ozod bo'lishga", "Soliqlarni oshirishga", "Urushga to'xtatishga", "Ko'chib ketishga"], "correct_index": 0, "page": 68 },
+    { "question": "Chekka viloyatlar aholisi ajralib chiqishidan qaysi hodisa foydalangan?", "options": ["Ko'chmanchi qabilalar hujumidan", "Toshqindan", "Ochlikdan", "Dengiz savdosidan"], "correct_index": 0, "page": 68 },
+    { "question": "\"Ko'p podsholiklar\" davri qaysi asrlarni o'z ichiga oladi?", "options": ["Mil. avv. VII-V asrlar", "Mil. avv. XXX-XX asrlar", "Mil. avv. III-I asrlar", "Milodiy I-V asrlar"], "correct_index": 0, "page": 68 },
+    { "question": "Mayda podsholiklar o'rtasidagi urushlar qancha davom etdi?", "options": ["200 yildan uzoqroq", "10 yil", "50 yil", "1000 yil"], "correct_index": 0, "page": 68 },
+    { "question": "\"Kurashayotgan podsholiklar\" davri nima bilan yakunlandi?", "options": ["Sin hukmdorining mil. avv. III asrda yagona davlat tuzishi bilan", "Chjouning qayta tiklanishi bilan", "Shanning qaytishi bilan", "Ko'chmanchilar bosqini bilan"], "correct_index": 0, "page": 68 },
+    { "question": "Sin hukmdori yagona davlatni qanday tuzgan?", "options": ["O'zining barcha raqiblarini yo'q qilib", "Sulh tuzib", "Saylov orqali", "Meros orqali"], "correct_index": 0, "page": 68 }
+  ]
+}
