@@ -1,6 +1,7 @@
-import { Award, BookOpen, Flag, Flame, Footprints, Library, Lock, Target, Trophy, Zap } from 'lucide-react'
+import { Award, BookOpen, Flag, Flame, Footprints, Library, Lock, Medal, Target, Trophy, Zap } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { changePassword, getMe, getProfile, updateMe } from '../api/client'
+import { changePassword, getLeaderboard, getMe, getProfile, updateMe } from '../api/client'
+import DailyGoalCard from '../components/DailyGoalCard'
 import { ErrorNote, ProgressBar, Spinner } from '../components/ui'
 
 const BADGE_ICONS = {
@@ -42,11 +43,24 @@ export default function ProfilePage({ me }) {
   }
 
   const [p, setP] = useState(null)
+  const [board, setBoard] = useState(null)
   const [error, setError] = useState('')
 
   useEffect(() => {
     getProfile().then(setP).catch((err) => setError(err.message))
+    getLeaderboard().then(setBoard).catch(() => {})
   }, [])
+
+  async function changeSetting(patch) {
+    try {
+      await updateMe(patch)
+      const [np, nb] = await Promise.all([getProfile(), getLeaderboard()])
+      setP(np)
+      setBoard(nb)
+    } catch (err) {
+      setError(err.message)
+    }
+  }
 
   if (error) return <ErrorNote>{error}</ErrorNote>
   if (!p) return <Spinner>Profil yuklanmoqda...</Spinner>
@@ -83,6 +97,23 @@ export default function ProfilePage({ me }) {
         <Stat icon={BookOpen} label="O'zlashtirilgan mavzu" value={p.stats.topics_done} />
       </div>
 
+      <div className="mb-8">
+        <DailyGoalCard daily={p.daily} streak={p.streak} />
+        <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-muted">
+          Kunlik maqsad:
+          {[20, 50, 100].map((g) => (
+            <button
+              key={g}
+              onClick={() => changeSetting({ daily_goal: g })}
+              aria-pressed={p.daily.goal === g}
+              className={`chip cursor-pointer ${p.daily.goal === g ? 'chip-gold' : ''}`}
+            >
+              {g} ball
+            </button>
+          ))}
+        </div>
+      </div>
+
       {!p.streak.active_today && (
         <p className="mb-8 rounded-xl border border-gold/40 bg-gold-soft px-4 py-3 text-sm text-ink-2">
           <Flame size={15} className="mr-1.5 inline text-gold" />
@@ -115,6 +146,46 @@ export default function ProfilePage({ me }) {
           )
         })}
       </ul>
+
+      {/* Haftalik reyting */}
+      {board && (
+        <section className="mt-12" aria-label="Haftalik reyting">
+          <div className="mb-4 flex items-end justify-between gap-3">
+            <div>
+              <h2 className="font-display text-2xl font-bold text-ink">Haftalik reyting</h2>
+              <p className="text-sm text-muted">Shu hafta (dushanbadan) to'plangan ball bo'yicha</p>
+            </div>
+            <label className="flex cursor-pointer items-center gap-2 text-xs text-muted">
+              <input
+                type="checkbox"
+                checked={board.opted_in}
+                onChange={(e) => changeSetting({ show_in_leaderboard: e.target.checked })}
+              />
+              Reytingda ko'rinish
+            </label>
+          </div>
+          {board.top.length === 0 ? (
+            <p className="card p-6 text-sm text-muted">Bu hafta hali hech kim ball to'plamagan. Birinchi bo'ling!</p>
+          ) : (
+            <ol className="card divide-y divide-line overflow-hidden">
+              {board.top.map((r) => (
+                <li key={r.rank} className={`flex items-center gap-4 px-4 py-3 ${r.me ? 'bg-brand-soft' : ''}`}>
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-paper-2 text-sm font-bold text-ink-2">
+                    {r.rank <= 3 ? <Medal size={16} className="text-gold" /> : r.rank}
+                  </span>
+                  <span className="min-w-0 flex-1 truncate font-semibold text-ink">
+                    {r.name} {r.me && <span className="chip chip-gold ml-1">siz</span>}
+                  </span>
+                  <span className="font-display font-bold text-ink">{r.points} ball</span>
+                </li>
+              ))}
+            </ol>
+          )}
+          {board.me && board.me.rank > board.top.length && (
+            <p className="mt-2 text-sm text-muted">Sizning o'rningiz: {board.me.rank} ({board.me.points} ball)</p>
+          )}
+        </section>
+      )}
 
       {/* Hisob sozlamalari */}
       <h2 className="mb-4 mt-12 font-display text-2xl font-bold text-ink">Hisob sozlamalari</h2>

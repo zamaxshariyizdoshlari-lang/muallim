@@ -285,3 +285,7 @@ export async function importBookJson(file) {
   }
   return body
 }
+
+export function getLeaderboard() {
+  return request('/leaderboard/')
+}

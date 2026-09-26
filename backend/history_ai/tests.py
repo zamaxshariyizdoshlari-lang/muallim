@@ -295,3 +295,58 @@ class HealthTests(TestCase):
         r = self.client.get('/api/health/')
         self.assertEqual(r.status_code, 200)
         self.assertEqual(r.json()['status'], 'ok')
+
+
+class DailyGoalLeaderboardTests(CourseFixture):
+    def test_daily_goal_progress_and_settings(self):
+        self.login(self.user)
+        d = self.client.get(f'{H}profile/').data['daily']
+        self.assertEqual((d['goal'], d['today'], d['met']), (50, 0, False))
+        self.submit(self.topics[0])  # +70
+        self.assertTrue(self.client.get(f'{H}profile/').data['daily']['met'])
+        r = self.client.patch(f'{H}me/', {'daily_goal': 100}, format='json')
+        self.assertEqual(r.data['daily_goal'], 100)
+        self.assertFalse(self.client.get(f'{H}profile/').data['daily']['met'])
+        self.assertEqual(self.client.patch(f'{H}me/', {'daily_goal': 7}, format='json').status_code, 400)
+
+    def test_leaderboard_ranks_and_opt_out(self):
+        other = User.objects.create_user('boshqa', password='boshqa-parol-1', first_name='Vali')
+        self.login(self.user)
+        self.submit(self.topics[0])
+        self.login(other)
+        r = self.client.get(f'{H}leaderboard/')
+        self.assertEqual([t['name'] for t in r.data['top']], ['talaba'])
+        self.assertIsNone(r.data['me'])
+        self.login(self.user)
+        self.assertEqual(self.client.get(f'{H}leaderboard/').data['me']['rank'], 1)
+        self.client.patch(f'{H}me/', {'show_in_leaderboard': False}, format='json')
+        self.assertEqual(self.client.get(f'{H}leaderboard/').data['top'], [])
+
+
+class StreakFreezeTests(CourseFixture):
+    def _active(self, days_ago_list):
+        for d in days_ago_list:
+            a = TestAttempt.objects.create(
+                student=self.user, topic=self.topics[0], answers={}, score=0, total=2, passed=False)
+            TestAttempt.objects.filter(pk=a.pk).update(created_at=timezone.now() - timedelta(days=d))
+
+    def test_freeze_earned_after_seven_days_forgives_one_gap(self):
+        # 8..2 kun oldin faol (7 kun -> 1 muzlatish), 1 kun oldin o'tkazilgan, bugun faol
+        self._active([8, 7, 6, 5, 4, 3, 2, 0])
+        s = gamification.streak_info(self.user)
+        self.assertEqual(s['current'], 8)
+        self.assertEqual(s['freezes'], 0)
+
+    def test_no_freeze_breaks_streak(self):
+        self._active([3, 2, 0])
+        self.assertEqual(gamification.streak_info(self.user)['current'], 1)
+
+    def test_freeze_counted_in_inventory(self):
+        self._active([6, 5, 4, 3, 2, 1, 0])
+        s = gamification.streak_info(self.user)
+        self.assertEqual((s['current'], s['freezes']), (7, 1))
+
+    def test_review_answer_counts_as_activity(self):
+        from .models import ReviewAnswer
+        ReviewAnswer.objects.create(user=self.user, book=self.book, qkey='abc', correct=True)
+        self.assertTrue(gamification.streak_info(self.user)['active_today'])

@@ -1,6 +1,7 @@
 import { ArrowRight, BookOpen, Clock, Landmark, Languages, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { listSubjects } from '../api/client'
+import { getProfile, listSubjects } from '../api/client'
+import DailyGoalCard from '../components/DailyGoalCard'
 import { ErrorNote } from '../components/ui'
 
 const ICONS = { landmark: Landmark, languages: Languages, book: BookOpen }
@@ -8,9 +9,11 @@ const ICONS = { landmark: Landmark, languages: Languages, book: BookOpen }
 export default function SubjectsPage({ me, onOpenSubject }) {
   const [subjects, setSubjects] = useState(null)
   const [error, setError] = useState('')
+  const [prof, setProf] = useState(null)
 
   useEffect(() => {
     listSubjects().then(setSubjects).catch((err) => setError(err.message))
+    getProfile().then(setProf).catch(() => {})
   }, [])
 
   const name = me?.first_name || me?.username
@@ -28,6 +31,12 @@ export default function SubjectsPage({ me, onOpenSubject }) {
       </div>
 
       <ErrorNote>{error}</ErrorNote>
+
+      {prof && (
+        <div className="mb-8">
+          <DailyGoalCard daily={prof.daily} streak={prof.streak} />
+        </div>
+      )}
 
       <div className="grid gap-5 sm:grid-cols-2">
         {subjects?.map((s, i) => {

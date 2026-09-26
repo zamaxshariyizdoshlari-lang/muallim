@@ -301,3 +301,16 @@ class ReviewAnswer(models.Model):
     qkey = models.CharField(max_length=20, db_index=True)
     correct = models.BooleanField()
     created_at = models.DateTimeField(auto_now_add=True)
+
+
+class UserSettings(models.Model):
+    """Foydalanuvchi sozlamalari: kunlik maqsad (ball) va haftalik reytingda ko'rinish."""
+
+    GOAL_CHOICES = (20, 50, 100)
+
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='learning_settings')
+    daily_goal = models.PositiveIntegerField(default=50)
+    show_in_leaderboard = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"{self.user} maqsad={self.daily_goal}"

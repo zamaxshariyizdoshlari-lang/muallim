@@ -12,7 +12,7 @@ from rest_framework.views import APIView
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
     Lesson, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
-    TopicCompletion,
+    TopicCompletion, UserSettings,
 )
 from .permissions import IsTeacher
 from .progress import all_topics_completed, section_states, topic_states
@@ -106,6 +106,8 @@ class MeView(APIView):
             'email': u.email,
             'is_staff': u.is_staff,
             'date_joined': u.date_joined,
+            'daily_goal': gamification.get_settings(u).daily_goal,
+            'show_in_leaderboard': gamification.get_settings(u).show_in_leaderboard,
         })
 
     def patch(self, request):
@@ -129,10 +131,26 @@ class MeView(APIView):
                         errors['email'] = "Bu email boshqa hisobga bog'langan."
             if not errors:
                 u.email = email
+        st = gamification.get_settings(u)
+        if 'daily_goal' in request.data:
+            if request.data['daily_goal'] not in UserSettings.GOAL_CHOICES:
+                errors['daily_goal'] = "Kunlik maqsad 20, 50 yoki 100 ball bo'lishi mumkin."
+            else:
+                st.daily_goal = request.data['daily_goal']
+        if 'show_in_leaderboard' in request.data:
+            st.show_in_leaderboard = bool(request.data['show_in_leaderboard'])
         if errors:
             raise ValidationError(errors)
         u.save()
+        st.save()
         return self.get(request)
+
+
+class LeaderboardView(APIView):
+    """Haftalik ball reytingi (ixtiyoriy: profil sozlamalaridan o'chirish mumkin)."""
+
+    def get(self, request):
+        return Response(gamification.leaderboard(request.user))
 
 
 class ProfileView(APIView):
