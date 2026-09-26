@@ -10,14 +10,16 @@ from rest_framework.views import APIView
 
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
-    Lesson, Page, TestAttempt, Topic, TopicCompletion,
+    Lesson, Page, Section, SectionCompletion, SectionExam, TestAttempt, Topic, TopicCompletion,
 )
 from .permissions import IsTeacher
-from .progress import all_topics_completed, topic_states
+from .progress import all_topics_completed, section_states, topic_states
 from .serializers import (
-    BookExamSerializer, BookSerializer, GeneratedAssetSerializer, LessonSerializer, TopicSerializer,
+    BookExamSerializer, BookSerializer, GeneratedAssetSerializer, LessonSerializer,
+    SectionExamSerializer, TopicSerializer,
 )
 from .services.book_exam_builder import build_book_exam
+from .services.book_import import import_book_json
 from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.rules.exceptions import NotEnoughDataError
@@ -26,6 +28,12 @@ from .tasks import start_asset_generation, start_lesson_generation
 from .throttles import AIGenerationThrottle
 
 VALID_ASSET_KINDS = {choice[0] for choice in GeneratedAsset.KIND_CHOICES}
+
+
+def _guard_not_imported(book):
+    """JSON'dan import qilingan kitob materialini AI/qoida bilan tasodifan qayta yozib yubormaslik uchun."""
+    if book.key:
+        raise ValidationError({'detail': "Bu kitob JSON'dan import qilingan: materialni JSON orqali yangilang."})
 
 
 def _is_truthy(value):
@@ -174,6 +182,7 @@ class BookExamCreateView(APIView):
 
     def post(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
+        _guard_not_imported(book)
         exam, _ = BookExam.objects.get_or_create(book=book, defaults={'created_by': request.user})
 
         pages_by_topic = {
@@ -266,6 +275,7 @@ class LessonCreateView(APIView):
         except Topic.DoesNotExist:
             raise ValidationError({'topic': 'Mavzu topilmadi'})
 
+        _guard_not_imported(topic.book)
         lesson, created = Lesson.objects.get_or_create(topic=topic, defaults={'created_by': request.user})
         regenerate = _is_truthy(request.data.get('regenerate', False))
 
@@ -324,6 +334,7 @@ class GeneratedAssetCreateView(APIView):
         except Topic.DoesNotExist:
             raise ValidationError({'topic': 'Mavzu topilmadi'})
 
+        _guard_not_imported(topic.book)
         asset, created = GeneratedAsset.objects.get_or_create(
             topic=topic, kind=kind, defaults={'created_by': request.user}
         )
@@ -347,3 +358,58 @@ class GeneratedAssetCreateView(APIView):
 class GeneratedAssetDetailView(generics.RetrieveAPIView):
     queryset = GeneratedAsset.objects.all()
     serializer_class = GeneratedAssetSerializer
+
+
+class BookImportView(APIView):
+    """Tayyor JSON'dan kitobni import qilish (faqat o'qituvchi). Fayl (`file`) yoki JSON tanasi."""
+
+    permission_classes = [IsTeacher]
+
+    def post(self, request):
+        import json
+
+        upload = request.FILES.get('file')
+        try:
+            data = json.load(upload) if upload else request.data
+        except (ValueError, UnicodeDecodeError):
+            raise ValidationError({'detail': "Fayl to'g'ri JSON emas."})
+        try:
+            summary = import_book_json(data, request.user)
+        except ValueError as exc:
+            return Response({'errors': exc.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+        return Response(summary, status=status.HTTP_201_CREATED)
+
+
+class SectionListView(APIView):
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        return Response(section_states(request.user, book))
+
+
+class SectionExamByIdView(generics.RetrieveAPIView):
+    serializer_class = SectionExamSerializer
+
+    def get_object(self):
+        return get_object_or_404(SectionExam, section_id=self.kwargs['section_id'])
+
+
+class SectionExamSubmitView(APIView):
+    """Bo'lim testi: 100% bo'lsa bo'lim "o'tildi" va keyingi bo'lim ochiladi."""
+
+    def post(self, request, section_id):
+        section = get_object_or_404(Section, id=section_id)
+        topic_ids = list(section.topics.values_list('id', flat=True))
+        done = TopicCompletion.objects.filter(student=request.user, topic_id__in=topic_ids).count()
+        if done != len(topic_ids):
+            raise PermissionDenied("Bo'lim testi uchun avval bo'limdagi barcha mavzu testlarini topshiring.")
+
+        exam = get_object_or_404(SectionExam, section=section)
+        answers = _read_answers(request)
+        score, total, details = _grade(exam.data['questions'], answers)
+        passed = total > 0 and score == total
+        TestAttempt.objects.create(
+            student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,
+        )
+        if passed:
+            SectionCompletion.objects.get_or_create(student=request.user, section=section)
+        return Response({'score': score, 'total': total, 'passed': passed, 'details': details})

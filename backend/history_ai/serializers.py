@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Book, BookExam, GeneratedAsset, Lesson, Topic
+from .models import Book, BookExam, GeneratedAsset, Lesson, SectionExam, Topic
 
 
 class BookSerializer(serializers.ModelSerializer):
@@ -26,7 +26,7 @@ class TopicSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Topic
-        fields = ['id', 'book', 'title', 'start_page', 'end_page', 'order', 'unlocked', 'completed']
+        fields = ['id', 'book', 'section', 'key', 'title', 'start_page', 'end_page', 'order', 'unlocked', 'completed']
         read_only_fields = ['id']
 
     def _state(self, obj):
@@ -73,6 +73,19 @@ class GeneratedAssetSerializer(serializers.ModelSerializer):
         rep = super().to_representation(instance)
         if instance.kind == GeneratedAsset.KIND_TOPIC_TEST:
             rep['data'] = hide_answers(rep['data'], self.context.get('request'))
+        return rep
+
+
+class SectionExamSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SectionExam
+        fields = ['id', 'section', 'data']
+        read_only_fields = fields
+
+    def to_representation(self, instance):
+        rep = super().to_representation(instance)
+        rep['status'] = 'done'
+        rep['data'] = hide_answers(rep['data'], self.context.get('request'))
         return rep
 
 

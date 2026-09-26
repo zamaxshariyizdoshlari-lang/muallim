@@ -6,6 +6,10 @@ app_name = 'history_ai'
 
 urlpatterns = [
     path('me/', views.MeView.as_view(), name='me'),
+    path('books/import/', views.BookImportView.as_view(), name='book-import'),
+    path('books/<int:book_id>/sections/', views.SectionListView.as_view(), name='section-list'),
+    path('sections/<int:section_id>/exam/', views.SectionExamByIdView.as_view(), name='section-exam'),
+    path('sections/<int:section_id>/exam/submit/', views.SectionExamSubmitView.as_view(), name='section-exam-submit'),
     path('books/', views.BookUploadView.as_view(), name='book-upload'),
     path('books/<int:book_id>/progress/', views.BookProgressView.as_view(), name='book-progress'),
     path('books/<int:book_id>/exam/', views.BookExamByBookView.as_view(), name='book-exam'),

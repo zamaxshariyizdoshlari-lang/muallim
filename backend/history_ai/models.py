@@ -15,7 +15,10 @@ class Book(models.Model):
     """O'qituvchi tomonidan yuklangan tarix darsligi (PDF)."""
 
     title = models.CharField(max_length=255)
-    file = models.FileField(upload_to='books/')
+    # JSON orqali import qilingan kitoblarda PDF faylning o'zi bo'lmaydi.
+    file = models.FileField(upload_to='books/', blank=True)
+    # JSON import shu kalit bo'yicha kitobni topib yangilaydi.
+    key = models.CharField(max_length=100, blank=True, db_index=True)
     uploaded_by = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='books'
     )
@@ -43,10 +46,28 @@ class Page(models.Model):
         return f"{self.book.title} - bet {self.page_number}"
 
 
+class Section(models.Model):
+    """Kitob bo'limi (masalan "I BO'LIM"): bir nechta mavzuni birlashtiradi."""
+
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='sections')
+    key = models.CharField(max_length=50)
+    title = models.CharField(max_length=255)
+    order = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
+        unique_together = ('book', 'key')
+
+    def __str__(self):
+        return self.title
+
+
 class Topic(models.Model):
     """Kitobdan aniqlangan bob/paragraf (mavzu)."""
 
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='topics')
+    section = models.ForeignKey(Section, on_delete=models.SET_NULL, null=True, blank=True, related_name='topics')
+    key = models.CharField(max_length=50, blank=True)
     title = models.CharField(max_length=255)
     start_page = models.PositiveIntegerField()
     end_page = models.PositiveIntegerField()
@@ -162,6 +183,9 @@ class TestAttempt(models.Model):
     book = models.ForeignKey(
         Book, on_delete=models.CASCADE, related_name='exam_attempts', null=True, blank=True
     )
+    section = models.ForeignKey(
+        Section, on_delete=models.CASCADE, related_name='attempts', null=True, blank=True
+    )
     answers = models.JSONField()  # {"0": chosen_index, "1": chosen_index, ...}
     score = models.PositiveIntegerField()
     total = models.PositiveIntegerField()
@@ -208,3 +232,27 @@ class Certificate(models.Model):
 
     def __str__(self):
         return f"Sertifikat: {self.student.username} - {self.book.title}"
+
+
+class SectionExam(models.Model):
+    """Bo'lim testi (JSON importda bo'limdagi mavzu testlaridan tuziladi)."""
+
+    section = models.OneToOneField(Section, on_delete=models.CASCADE, related_name='exam')
+    data = models.JSONField()
+    created_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"Bo'lim testi: {self.section.title}"
+
+
+class SectionCompletion(models.Model):
+    """Talaba bo'lim testini 100% topshirgan (keyingi bo'lim ochilishi uchun asos)."""
+
+    student = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='section_completions'
+    )
+    section = models.ForeignKey(Section, on_delete=models.CASCADE, related_name='completions')
+    completed_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('student', 'section')
