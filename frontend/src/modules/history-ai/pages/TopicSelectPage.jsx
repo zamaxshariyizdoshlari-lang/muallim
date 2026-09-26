@@ -1,99 +1,181 @@
-import { Award, BookOpen, CheckCircle2, ChevronLeft, ClipboardCheck, Lock } from 'lucide-react'
+import { Award, BookOpen, Check, ClipboardCheck, Lock, Trophy } from 'lucide-react'
+import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
-export default function TopicSelectPage({ book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate }) {
+const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
+
+/** "I BO'LIM. Sarlavha" -> { num: 'I', name: 'Sarlavha' } */
+function splitSectionTitle(title = '', fallbackIndex = 0) {
+  const m = title.match(/^\s*([IVXLC]+)\s*[- ]*BO['‘’`ʻ]?LIM\.?\s*(.*)$/i)
+  if (m) return { num: m[1].toUpperCase(), name: m[2] || title }
+  return { num: ROMAN[fallbackIndex] || String(fallbackIndex + 1), name: title }
+}
+
+export default function TopicSelectPage({
+  book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
+}) {
   const completedCount = topics.filter((t) => t.completed).length
   const sectionIds = [...new Set(topics.map((t) => t.section))]
   const groups = sectionIds.map((id) => ({
     section: sections.find((s) => s.id === id) || null,
     topics: topics.filter((t) => t.section === id),
   }))
+  const nextTopic = topics.find((t) => t.unlocked && !t.completed)
 
   return (
-    <div className="mx-auto max-w-xl">
-      <button onClick={onBack} className="mb-4 flex items-center gap-1 text-sm text-slate-500 hover:text-slate-700">
-        <ChevronLeft size={16} /> Darsliklar ro'yxati
-      </button>
+    <div className="rise mx-auto max-w-3xl">
+      <BackLink onClick={onBack}>Darsliklar ro'yxati</BackLink>
 
-      <h1 className="mb-1 text-2xl font-semibold text-slate-900">Mavzu tanlang</h1>
-      <p className="mb-6 text-sm text-slate-500">
-        "{book.title}" kitobidan {topics.length} ta mavzu aniqlandi.
-        {!isTeacher && ` O'tildi: ${completedCount} / ${topics.length}.`}
-      </p>
-
-      {groups.map((group) => (
-        <div key={group.section?.id ?? 'none'} className="mb-6">
-          {group.section && (
-            <div className="mb-2 flex items-center justify-between gap-2">
-              <h2 className="text-sm font-semibold text-slate-700">{group.section.title}</h2>
-              {(isTeacher || group.section.has_exam) && (
-                <button
-                  onClick={() => onOpenSectionExam(group.section)}
-                  disabled={!isTeacher && !group.section.exam_available}
-                  title={!isTeacher && !group.section.exam_available ? "Bo'limdagi barcha mavzularni tugatgach ochiladi" : undefined}
-                  className={`flex shrink-0 items-center gap-1 rounded-lg px-3 py-1 text-xs font-medium ${
-                    group.section.completed
-                      ? 'bg-green-100 text-green-700'
-                      : group.section.exam_available || isTeacher
-                        ? 'bg-indigo-600 text-white hover:bg-indigo-700'
-                        : 'cursor-not-allowed bg-slate-100 text-slate-400'
-                  }`}
-                >
-                  <ClipboardCheck size={13} /> {group.section.completed ? "Bo'lim testi o'tildi" : "Bo'lim testi"}
-                </button>
-              )}
-            </div>
-          )}
-          <div className="flex flex-col gap-2">
-            {group.topics.map((topic) => {
-              const locked = !topic.unlocked
-              return (
-                <button
-                  key={topic.id}
-                  onClick={() => onSelect(topic)}
-                  disabled={locked}
-                  title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini 100% topshiring" : undefined}
-                  className={`flex items-center justify-between rounded-lg border px-4 py-3 text-left shadow-sm ${
-                    locked
-                      ? 'cursor-not-allowed border-slate-200 bg-slate-100 text-slate-400'
-                      : 'border-slate-200 bg-white hover:border-indigo-400 hover:bg-indigo-50'
-                  }`}
-                >
-                  <span className="flex items-center gap-3">
-                    {locked ? <Lock size={18} /> : topic.completed ? <CheckCircle2 className="text-green-600" size={18} /> : <BookOpen className="text-indigo-500" size={18} />}
-                    <span className="text-sm font-medium">{topic.title}</span>
-                  </span>
-                  <span className="text-xs text-slate-400">
-                    {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}-${topic.end_page}`}
-                  </span>
-                </button>
-              )
-            })}
+      {/* Sarlavha kartasi */}
+      <div className="card relative mb-10 overflow-hidden p-6 sm:p-8">
+        <div className="pointer-events-none absolute -right-10 -top-10 h-44 w-44 rounded-full bg-gold/10" aria-hidden />
+        <div className="relative flex flex-wrap items-center gap-6">
+          {!isTeacher && <ProgressRing value={completedCount} max={topics.length} />}
+          <div className="min-w-0 flex-1">
+            <p className="eyebrow mb-1">Yo'l xaritasi</p>
+            <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{book.title}</h1>
+            <p className="mt-2 text-sm text-muted">
+              {topics.length} ta mavzu
+              {!isTeacher && ` · o'tildi: ${completedCount} / ${topics.length}`}
+            </p>
+            {!isTeacher && <ProgressBar value={completedCount} max={topics.length} className="mt-4 max-w-sm" />}
           </div>
+          {!isTeacher && nextTopic && (
+            <button onClick={() => onSelect(nextTopic)} className="btn btn-primary">
+              <BookOpen size={16} /> {completedCount ? 'Davom etish' : 'Boshlash'}
+            </button>
+          )}
         </div>
-      ))}
+      </div>
 
-      <div className="mt-6 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-        <h2 className="mb-1 flex items-center gap-2 text-sm font-semibold text-slate-900">
-          <ClipboardCheck size={16} /> Kitob yakuniy imtihoni
-        </h2>
-        {isTeacher ? (
-          <button onClick={onOpenExam} className="mt-2 rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50">
-            Yakuniy imtihonni ko'rish / yaratish
-          </button>
-        ) : progress?.all_topics_completed ? (
-          <button onClick={onOpenExam} className="mt-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700">
-            Yakuniy imtihonni topshirish
-          </button>
-        ) : (
-          <p className="text-xs text-slate-500">Barcha mavzu testlarini topshirgach ochiladi.</p>
-        )}
+      {/* Bo'limlar */}
+      {groups.map((group, gi) => {
+        const { num, name } = splitSectionTitle(group.section?.title, gi)
+        const done = group.topics.filter((t) => t.completed).length
+        const sec = group.section
+        const examEnabled = isTeacher || sec?.exam_available
+        return (
+          <section key={sec?.id ?? 'none'} className="mb-10">
+            <div className="mb-4 flex items-center gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-brand font-display text-xl font-extrabold text-brand-ink shadow">
+                {num}
+              </div>
+              <div className="min-w-0 flex-1">
+                <p className="eyebrow">{num} bo'lim</p>
+                <h2 className="font-display text-xl font-bold leading-snug text-ink sm:text-2xl">{name}</h2>
+              </div>
+              <span className="chip hidden sm:inline-flex">{done} / {group.topics.length}</span>
+            </div>
+
+            {/* Mavzular yo'li */}
+            <ol className="relative ml-7 border-l-2 border-dashed border-line-strong pl-8">
+              {group.topics.map((topic) => {
+                const locked = !topic.unlocked
+                const current = nextTopic?.id === topic.id
+                return (
+                  <li key={topic.id} className="relative pb-3">
+                    <span
+                      className={`absolute -left-[3.05rem] top-3 flex h-9 w-9 items-center justify-center rounded-full border-2 ${
+                        topic.completed
+                          ? 'border-ok bg-ok text-white'
+                          : locked
+                            ? 'border-line-strong bg-paper-2 text-muted'
+                            : current
+                              ? 'border-brand bg-brand text-brand-ink ring-4 ring-brand/20'
+                              : 'border-gold bg-surface text-gold'
+                      }`}
+                      aria-hidden
+                    >
+                      {topic.completed ? <Check size={17} strokeWidth={3} /> : locked ? <Lock size={15} /> : <BookOpen size={16} />}
+                    </span>
+                    <button
+                      onClick={() => onSelect(topic)}
+                      disabled={locked}
+                      title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini 100% topshiring" : undefined}
+                      className={`card card-hover flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left ${
+                        locked ? '!bg-paper-2 !shadow-none' : ''
+                      } ${current ? '!border-brand' : ''}`}
+                    >
+                      <span className={`text-[0.95rem] font-semibold leading-snug ${locked ? 'text-muted' : 'text-ink'}`}>
+                        {topic.title}
+                      </span>
+                      <span className="chip shrink-0">
+                        {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}–${topic.end_page}`}
+                      </span>
+                    </button>
+                  </li>
+                )
+              })}
+
+              {/* Bo'lim testi */}
+              {sec && (isTeacher || sec.has_exam) && (
+                <li className="relative">
+                  <span
+                    className={`absolute -left-[3.05rem] top-3 flex h-9 w-9 items-center justify-center rounded-full border-2 ${
+                      sec.completed ? 'border-ok bg-ok text-white' : examEnabled ? 'border-gold bg-gold text-[#241a08]' : 'border-line-strong bg-paper-2 text-muted'
+                    }`}
+                    aria-hidden
+                  >
+                    {sec.completed ? <Check size={17} strokeWidth={3} /> : examEnabled ? <ClipboardCheck size={16} /> : <Lock size={15} />}
+                  </span>
+                  <button
+                    onClick={() => onOpenSectionExam(sec)}
+                    disabled={!examEnabled}
+                    title={!examEnabled ? "Bo'limdagi barcha mavzularni tugatgach ochiladi" : undefined}
+                    className={`flex w-full items-center justify-between gap-3 rounded-2xl border px-4 py-3.5 text-left transition-colors ${
+                      sec.completed
+                        ? 'border-ok/40 bg-ok-soft text-ok'
+                        : examEnabled
+                          ? 'border-gold bg-gold-soft text-ink hover:brightness-105'
+                          : 'cursor-not-allowed border-line bg-paper-2 text-muted'
+                    }`}
+                  >
+                    <span className="flex items-center gap-2 font-display text-base font-bold">
+                      <ClipboardCheck size={18} />
+                      {sec.completed ? "Bo'lim testi o'tildi" : `${num} bo'lim testi`}
+                    </span>
+                    <span className="text-xs font-medium">
+                      {sec.completed ? 'Yakunlandi' : examEnabled ? 'Boshlash →' : 'Qulflangan'}
+                    </span>
+                  </button>
+                </li>
+              )}
+            </ol>
+          </section>
+        )
+      })}
+
+      {/* Yakuniy imtihon */}
+      <section className="card relative overflow-hidden p-6 sm:p-8">
+        <div className="meander absolute inset-x-0 top-0" />
+        <div className="flex flex-wrap items-center gap-5 pt-2">
+          <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gold-soft text-gold">
+            <Trophy size={28} />
+          </span>
+          <div className="min-w-0 flex-1">
+            <h2 className="font-display text-2xl font-bold text-ink">Kitob yakuniy imtihoni</h2>
+            <p className="mt-1 text-sm text-muted">
+              {isTeacher
+                ? "Imtihonni ko'rish yoki yaratish mumkin."
+                : progress?.all_topics_completed
+                  ? 'Barcha mavzular o\'tildi — imtihonga tayyorsiz!'
+                  : "Barcha mavzu testlarini topshirgach ochiladi."}
+            </p>
+          </div>
+          {isTeacher ? (
+            <button onClick={onOpenExam} className="btn btn-ghost">Ko'rish / yaratish</button>
+          ) : progress?.all_topics_completed ? (
+            <button onClick={onOpenExam} className="btn btn-primary">Imtihonni topshirish</button>
+          ) : (
+            <span className="chip"><Lock size={12} /> Qulflangan</span>
+          )}
+        </div>
 
         {progress?.certificate && (
-          <button onClick={onDownloadCertificate} className="mt-3 flex items-center gap-2 rounded-lg bg-green-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-green-700">
+          <button onClick={onDownloadCertificate} className="btn btn-gold mt-5">
             <Award size={16} /> Sertifikatni yuklab olish (PDF)
           </button>
         )}
-      </div>
+      </section>
     </div>
   )
 }

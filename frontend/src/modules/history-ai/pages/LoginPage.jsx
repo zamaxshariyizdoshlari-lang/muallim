@@ -1,8 +1,9 @@
-import { LogIn } from 'lucide-react'
+import { Landmark, LogIn, Loader2 } from 'lucide-react'
 import { useState } from 'react'
 import { login } from '../api/client'
+import { ErrorNote, ThemeToggle } from '../components/ui'
 
-export default function LoginPage({ onSuccess }) {
+export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -23,46 +24,69 @@ export default function LoginPage({ onSuccess }) {
   }
 
   return (
-    <div className="flex min-h-[60vh] items-center justify-center">
-      <form
-        onSubmit={handleSubmit}
-        className="w-full max-w-sm rounded-xl border border-slate-200 bg-white p-6 shadow-sm"
-      >
-        <h1 className="mb-1 text-xl font-semibold text-slate-900">Tarixchi AI</h1>
-        <p className="mb-5 text-sm text-slate-500">Tizimga kirish</p>
+    <div className="relative min-h-screen">
+      <div className="absolute right-4 top-4 z-10">
+        <ThemeToggle dark={dark} onToggle={onToggleTheme} />
+      </div>
 
-        <label className="mb-3 block text-sm text-slate-700">
-          Login
-          <input
-            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-        </label>
+      <div className="mx-auto grid min-h-screen max-w-6xl items-center gap-10 px-5 py-10 lg:grid-cols-2 lg:gap-16">
+        {/* Chap: g'oya */}
+        <div className="rise">
+          <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-brand text-brand-ink shadow-lg">
+            <Landmark size={28} />
+          </div>
+          <p className="eyebrow mb-3">Qadimgi dunyo tarixi</p>
+          <h1 className="font-display text-5xl font-extrabold leading-[1.05] text-ink sm:text-6xl">
+            Tarixchi <span className="text-brand">AI</span>
+          </h1>
+          <p className="mt-5 max-w-md font-read text-lg leading-relaxed text-ink-2">
+            Misr piramidalaridan Rim imperiyasigacha — darslikni mavzu-mavzu o'rganing, o'yinlar bilan mustahkamlang va
+            sertifikat oling.
+          </p>
+          <div className="meander mt-8 max-w-xs" />
+          <ul className="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-ink-2">
+            <li className="chip chip-gold">Mavzu-mavzu dars</li>
+            <li className="chip chip-gold">O'yinlar va testlar</li>
+            <li className="chip chip-gold">Sertifikat</li>
+          </ul>
+        </div>
 
-        <label className="mb-4 block text-sm text-slate-700">
-          Parol
-          <input
-            type="password"
-            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </label>
+        {/* O'ng: forma */}
+        <form onSubmit={handleSubmit} className="card rise mx-auto w-full max-w-md p-7 sm:p-9" style={{ animationDelay: '0.1s' }}>
+          <h2 className="font-display text-2xl font-bold text-ink">Xush kelibsiz</h2>
+          <p className="mb-6 mt-1 text-sm text-muted">Davom etish uchun tizimga kiring</p>
 
-        {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
+          <label className="mb-4 block text-sm font-medium text-ink-2">
+            Login
+            <input
+              className="field mt-1.5"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              autoComplete="username"
+              required
+            />
+          </label>
 
-        <button
-          type="submit"
-          disabled={loading}
-          className="flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 disabled:opacity-60"
-        >
-          <LogIn size={16} />
-          {loading ? 'Kirilmoqda...' : 'Kirish'}
-        </button>
-      </form>
+          <label className="mb-5 block text-sm font-medium text-ink-2">
+            Parol
+            <input
+              type="password"
+              className="field mt-1.5"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              autoComplete="current-password"
+              required
+            />
+          </label>
+
+          <ErrorNote>{error}</ErrorNote>
+
+          <button type="submit" disabled={loading} className="btn btn-primary w-full py-3">
+            {loading ? <Loader2 className="animate-spin" size={16} /> : <LogIn size={16} />}
+            {loading ? 'Kirilmoqda...' : 'Kirish'}
+          </button>
+        </form>
+      </div>
     </div>
   )
 }

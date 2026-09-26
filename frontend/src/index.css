@@ -1,5 +1,363 @@
 @import "tailwindcss";
 
+/* ───────── Dizayn tokenlari: "Papirus va terrakota" (yorug') / "Tungi kutubxona" (qorong'i) ───────── */
+:root {
+  --paper: #f5eddc;
+  --paper-2: #efe4cd;
+  --surface: #fffaf0;
+  --surface-2: #faf1de;
+  --ink: #2a2017;
+  --ink-2: #5a4a38;
+  --muted: #8a7862;
+  --line: #e2d4b8;
+  --line-strong: #cdb98f;
+  --brand: #a3442a;
+  --brand-hover: #873420;
+  --brand-soft: #f6dfd3;
+  --brand-ink: #ffffff;
+  --gold: #b3862c;
+  --gold-soft: #f4e6bf;
+  --ok: #45683a;
+  --ok-soft: #e1ecd6;
+  --bad: #a3322b;
+  --bad-soft: #f7dcd8;
+  --warn-soft: #f8ecc8;
+  --chalk: #2b2a26;
+  --chalk-ink: #f3ead6;
+  --shadow: 0 1px 2px rgba(74, 52, 24, 0.08), 0 8px 24px -12px rgba(74, 52, 24, 0.22);
+}
+
+:root.dark {
+  --paper: #15100b;
+  --paper-2: #1b140e;
+  --surface: #211912;
+  --surface-2: #2a2016;
+  --ink: #f2e8d3;
+  --ink-2: #cbbb9f;
+  --muted: #9a8a72;
+  --line: #3a2e21;
+  --line-strong: #56452f;
+  --brand: #e08358;
+  --brand-hover: #eb9670;
+  --brand-soft: #3b2418;
+  --brand-ink: #1a0f08;
+  --gold: #d9ad4f;
+  --gold-soft: #3a2f14;
+  --ok: #8fb67a;
+  --ok-soft: #22301b;
+  --bad: #ec8579;
+  --bad-soft: #3a1c18;
+  --warn-soft: #3a3013;
+  --chalk: #100d09;
+  --chalk-ink: #f3ead6;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -14px rgba(0, 0, 0, 0.7);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-ink: var(--brand-ink);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn-soft: var(--warn-soft);
+  --font-display: "Playfair Display", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-read: "Lora", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
 body {
   margin: 0;
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(1200px 500px at 85% -10%, color-mix(in srgb, var(--gold) 14%, transparent), transparent 70%),
+    radial-gradient(900px 500px at -10% 110%, color-mix(in srgb, var(--brand) 10%, transparent), transparent 70%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ───────── Komponent sinflari ───────── */
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .card-hover {
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  }
+  .card-hover:hover:not(:disabled) {
+    transform: translateY(-2px);
+    border-color: var(--gold);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 12px;
+    padding: 0.6rem 1.1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+  }
+  .btn:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--brand);
+    color: var(--brand-ink);
+    box-shadow: 0 6px 16px -8px var(--brand);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--brand-hover);
+  }
+  .btn-gold {
+    background: var(--gold);
+    color: #241a08;
+  }
+  .btn-gold:hover:not(:disabled) {
+    filter: brightness(1.07);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--ink-2);
+    border-color: var(--line-strong);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    background: var(--surface-2);
+    color: var(--ink);
+  }
+  .btn-sm {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+  }
+
+  .field {
+    width: 100%;
+    background: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--line-strong);
+    border-radius: 12px;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.95rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 25%, transparent);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: var(--surface-2);
+    color: var(--muted);
+    border: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  .chip-gold {
+    background: var(--gold-soft);
+    color: var(--gold);
+    border-color: color-mix(in srgb, var(--gold) 35%, transparent);
+  }
+
+  .eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  /* Yunon meandri (grek kalit) chizig'i */
+  .meander {
+    height: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='10' viewBox='0 0 20 10'%3E%3Cpath d='M0 9.5h4V2.5h8v5H8' fill='none' stroke='%23b3862c' stroke-width='1.4' stroke-linecap='square'/%3E%3Cpath d='M12 9.5h8' fill='none' stroke='%23b3862c' stroke-width='1.4'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 20px 10px;
+    opacity: 0.7;
+  }
+
+  .divider-ornament {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--gold);
+  }
+  .divider-ornament::before,
+  .divider-ornament::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+  }
+
+  /* O'qish uchun qulay matn */
+  .read {
+    font-family: var(--font-read);
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--ink);
+  }
+  .read p + p {
+    margin-top: 1rem;
+  }
+  .read-first::first-letter {
+    font-family: var(--font-display);
+    float: left;
+    font-size: 3.4rem;
+    line-height: 0.85;
+    padding: 0.25rem 0.5rem 0 0;
+    color: var(--brand);
+    font-weight: 700;
+  }
+
+  .option {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 0.75rem;
+    text-align: left;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.95rem;
+    color: var(--ink);
+    cursor: pointer;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+  .option:hover:not(:disabled) {
+    border-color: var(--gold);
+    background: var(--surface-2);
+  }
+  .option:disabled {
+    cursor: default;
+  }
+  .option-key {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    background: var(--surface-2);
+    color: var(--ink-2);
+    border: 1px solid var(--line-strong);
+  }
+  .option.is-selected {
+    border-color: var(--brand);
+    background: var(--brand-soft);
+  }
+  .option.is-selected .option-key {
+    background: var(--brand);
+    color: var(--brand-ink);
+    border-color: var(--brand);
+  }
+  .option.is-ok {
+    border-color: var(--ok);
+    background: var(--ok-soft);
+  }
+  .option.is-ok .option-key {
+    background: var(--ok);
+    color: #fff;
+    border-color: var(--ok);
+  }
+  .option.is-bad {
+    border-color: var(--bad);
+    background: var(--bad-soft);
+  }
+  .option.is-bad .option-key {
+    background: var(--bad);
+    color: #fff;
+    border-color: var(--bad);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.45s ease both;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+.shake {
+  animation: shake 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .shake { animation: none; }
+  .card-hover, .btn { transition: none; }
 }

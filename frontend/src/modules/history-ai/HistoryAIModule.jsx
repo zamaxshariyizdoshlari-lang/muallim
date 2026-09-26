@@ -1,8 +1,10 @@
+import { Landmark, LogOut } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import {
-  createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
+  clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
   getSectionExam, getSections, getToken, listTopics, submitBookExam, submitSectionExam, submitTopicTest,
 } from './api/client'
+import { ThemeToggle, useTheme } from './components/ui'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import TestPage from './pages/TestPage'
@@ -14,6 +16,7 @@ import UploadPage from './pages/UploadPage'
  * ostida shu komponent render qilinadi (masalan <Route path="/history-ai" element={<HistoryAIModule />} />).
  */
 export default function HistoryAIModule() {
+  const [dark, toggleTheme] = useTheme()
   const [authed, setAuthed] = useState(Boolean(getToken()))
   const [me, setMe] = useState(null)
   const [step, setStep] = useState('upload') // upload | topics | lesson | topicTest | exam
@@ -29,11 +32,19 @@ export default function HistoryAIModule() {
   }, [authed])
 
   if (!authed) {
-    return <LoginPage onSuccess={() => setAuthed(true)} />
+    return <LoginPage onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme} />
   }
   if (!me) return null
 
   const isTeacher = me.is_staff
+
+  function handleLogout() {
+    clearToken()
+    setMe(null)
+    setBook(null)
+    setStep('upload')
+    setAuthed(false)
+  }
 
   async function refreshTopics(bookId = book.id) {
     const [freshTopics, freshProgress, freshSections] = await Promise.all([
@@ -56,7 +67,37 @@ export default function HistoryAIModule() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 px-4 py-10">
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
+        <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
+          <button
+            type="button"
+            onClick={() => setStep('upload')}
+            className="flex items-center gap-2.5 text-left"
+            aria-label="Bosh sahifa"
+          >
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-brand-ink">
+              <Landmark size={18} />
+            </span>
+            <span className="font-display text-lg font-bold leading-none text-ink">
+              Tarixchi <span className="text-brand">AI</span>
+            </span>
+          </button>
+          <div className="flex items-center gap-2">
+            <span className="hidden text-sm text-muted sm:inline">
+              {me.username}
+              {isTeacher && <span className="chip chip-gold ml-2">o'qituvchi</span>}
+            </span>
+            <ThemeToggle dark={dark} onToggle={toggleTheme} />
+            <button type="button" onClick={handleLogout} className="btn btn-ghost btn-sm">
+              <LogOut size={14} /> <span className="hidden sm:inline">Chiqish</span>
+            </button>
+          </div>
+        </div>
+        <div className="meander" />
+      </header>
+
+      <main className="mx-auto max-w-5xl px-4 pb-24 pt-8">
       {step === 'upload' && (
         <UploadPage
           isTeacher={isTeacher}
@@ -135,6 +176,7 @@ export default function HistoryAIModule() {
           onPassed={backToTopics}
         />
       )}
+      </main>
     </div>
   )
 }

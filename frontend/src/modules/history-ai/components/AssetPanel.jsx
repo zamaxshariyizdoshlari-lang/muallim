@@ -9,7 +9,7 @@ const POLL_INTERVAL_MS = 2500
  * Avval mavjud natijani tekshiradi (bor bo'lsa AI qayta chaqirilmaydi),
  * bo'lmasa "Yaratish" tugmasini ko'rsatadi. "Qayta yaratish" alohida amal.
  */
-export default function AssetPanel({ topicId, kind, label, isTeacher, children }) {
+export default function AssetPanel({ topicId, kind, label, icon: Icon, isTeacher, children }) {
   const [asset, setAsset] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -58,64 +58,65 @@ export default function AssetPanel({ topicId, kind, label, isTeacher, children }
     }
   }
 
+  const heading = (
+    <h3 className="flex items-center gap-2.5 font-display text-lg font-bold text-ink">
+      {Icon && (
+        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-soft text-brand">
+          <Icon size={17} />
+        </span>
+      )}
+      {label}
+    </h3>
+  )
+
   if (loading) {
-    return (
-      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
-      </section>
-    )
+    return <section className="card p-5 sm:p-6">{heading}</section>
   }
 
   if (!asset) {
     return (
-      <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
+      <section className="card p-5 sm:p-6">
+        <div className="flex items-center justify-between gap-3">
+          {heading}
           {isTeacher ? (
-            <button
-              onClick={() => handleGenerate(false)}
-              className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
-            >
-              <Sparkles size={16} /> Yaratish
+            <button onClick={() => handleGenerate(false)} className="btn btn-primary btn-sm">
+              <Sparkles size={15} /> Yaratish
             </button>
           ) : (
-            <span className="text-xs text-slate-400">Hali tayyorlanmagan</span>
+            <span className="chip">Hali tayyorlanmagan</span>
           )}
         </div>
-        {error && <p className="mt-3 text-sm text-red-600">{error}</p>}
+        {error && <p className="mt-3 text-sm text-bad">{error}</p>}
       </section>
     )
   }
 
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-slate-900">{label}</h2>
+    <section className="card p-5 sm:p-6">
+      <div className="mb-5 flex items-center justify-between gap-3">
+        {heading}
         {isTeacher && asset.status !== 'pending' && (
-          <button
-            onClick={() => handleGenerate(true)}
-            className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
-          >
+          <button onClick={() => handleGenerate(true)} className="btn btn-ghost btn-sm">
             <RefreshCw size={13} /> Qayta yaratish
           </button>
         )}
       </div>
 
-      {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
+      {error && <p className="mb-3 text-sm text-bad">{error}</p>}
 
       {asset.status === 'pending' && (
-        <div className="flex items-center gap-2 text-sm text-slate-600">
-          <Loader2 className="animate-spin" size={18} />
+        <div className="flex items-center gap-2 text-sm text-ink-2">
+          <Loader2 className="animate-spin text-gold" size={18} />
           Tayyorlanmoqda...
         </div>
       )}
 
       {asset.status === 'failed' && (
-        <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+        <div className="flex items-start gap-2 rounded-xl border border-bad/40 bg-bad-soft px-4 py-3 text-sm text-bad">
           <AlertTriangle size={18} className="mt-0.5 shrink-0" />
           <div>
-            <p className="font-medium">Xatolik yuz berdi</p>
-            <p className="mt-1 text-red-600">{asset.error_message}</p>
+            <p className="font-semibold">Xatolik yuz berdi</p>
+            <p className="mt-1">{asset.error_message}</p>
           </div>
         </div>
       )}

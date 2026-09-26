@@ -1,12 +1,13 @@
 import { RotateCcw } from 'lucide-react'
 import { useState } from 'react'
+import { ProgressBar } from './ui'
 
 export default function QuizGame({ questions }) {
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState(0)
 
-  if (!questions?.length) return <p className="text-sm text-slate-500">Savollar topilmadi.</p>
+  if (!questions?.length) return <p className="text-sm text-muted">Savollar topilmadi.</p>
 
   const question = questions[index]
   const finished = index >= questions.length
@@ -30,14 +31,15 @@ export default function QuizGame({ questions }) {
 
   if (finished) {
     return (
-      <div className="text-center">
-        <p className="mb-4 text-lg font-medium text-slate-800">
-          Natija: {score} / {questions.length}
+      <div className="rise py-4 text-center">
+        <p className="eyebrow mb-1">Natija</p>
+        <p className="font-display text-5xl font-extrabold text-brand">
+          {score} <span className="text-muted">/ {questions.length}</span>
         </p>
-        <button
-          onClick={reset}
-          className="mx-auto flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
-        >
+        <p className="mt-2 text-sm text-ink-2">
+          {score === questions.length ? "Ajoyib! Hammasi to'g'ri." : "Yaxshi urinish! Yana bir bor sinab ko'ring."}
+        </p>
+        <button onClick={reset} className="btn btn-ghost mt-5">
           <RotateCcw size={14} /> Qaytadan boshlash
         </button>
       </div>
@@ -46,10 +48,11 @@ export default function QuizGame({ questions }) {
 
   return (
     <div>
-      <p className="mb-1 text-xs text-slate-400">
-        Savol {index + 1} / {questions.length}
-      </p>
-      <p className="mb-3 text-sm font-medium text-slate-800">{question.question}</p>
+      <div className="mb-4 flex items-center gap-3">
+        <span className="chip">Savol {index + 1} / {questions.length}</span>
+        <ProgressBar value={index} max={questions.length} />
+      </div>
+      <p className="mb-4 font-read text-lg font-medium leading-snug text-ink">{question.question}</p>
 
       <div className="flex flex-col gap-2">
         {question.options?.map((opt, i) => {
@@ -59,25 +62,18 @@ export default function QuizGame({ questions }) {
             <button
               key={i}
               onClick={() => pick(i)}
-              className={`rounded-lg border px-3 py-2 text-left text-sm ${
-                isCorrect
-                  ? 'border-green-300 bg-green-50 text-green-700'
-                  : isWrongPick
-                    ? 'border-red-300 bg-red-50 text-red-700'
-                    : 'border-slate-200 bg-white text-slate-700 hover:border-indigo-300'
-              }`}
+              disabled={selected !== null}
+              className={`option ${isCorrect ? 'is-ok' : isWrongPick ? 'is-bad shake' : ''}`}
             >
-              {String.fromCharCode(65 + i)}. {opt}
+              <span className="option-key">{String.fromCharCode(65 + i)}</span>
+              <span className="pt-0.5">{opt}</span>
             </button>
           )
         })}
       </div>
 
       {selected !== null && (
-        <button
-          onClick={next}
-          className="mt-4 rounded-lg bg-indigo-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
-        >
+        <button onClick={next} className="btn btn-primary mt-5">
           {index + 1 === questions.length ? 'Yakunlash' : 'Keyingi savol'}
         </button>
       )}

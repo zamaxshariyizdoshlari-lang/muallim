@@ -21,7 +21,7 @@ export default function MatchingGame({ pairs }) {
   const [matched, setMatched] = useState(() => new Set())
   const [wrongPair, setWrongPair] = useState(null)
 
-  if (!pairs?.length) return <p className="text-sm text-slate-500">Juftliklar topilmadi.</p>
+  if (!pairs?.length) return <p className="text-sm text-muted">Juftliklar topilmadi.</p>
 
   function pickLeft(index) {
     if (matched.has(index)) return
@@ -49,24 +49,18 @@ export default function MatchingGame({ pairs }) {
 
   return (
     <div>
-      <p className="mb-3 text-sm text-slate-600">
-        Chap tomondan bittasini, keyin unga mos o'ng tomondagisini bosing.
+      <p className="mb-4 text-sm text-ink-2">
+        Avval chap tomondan bittasini, keyin unga mos o'ng tomondagisini bosing.
       </p>
 
-      <div className="mb-4 grid grid-cols-2 gap-4">
+      <div className="mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
           {left.map((item) => (
             <button
               key={item.index}
               onClick={() => pickLeft(item.index)}
               disabled={matched.has(item.index)}
-              className={`rounded-lg border px-3 py-2 text-left text-sm ${
-                matched.has(item.index)
-                  ? 'border-green-300 bg-green-50 text-green-700'
-                  : selectedLeft === item.index
-                    ? 'border-indigo-400 bg-indigo-50 text-indigo-700'
-                    : 'border-slate-200 bg-white text-slate-700 hover:border-indigo-300'
-              }`}
+              className={`option ${matched.has(item.index) ? 'is-ok' : selectedLeft === item.index ? 'is-selected' : ''}`}
             >
               {item.text}
             </button>
@@ -79,13 +73,7 @@ export default function MatchingGame({ pairs }) {
               key={item.index}
               onClick={() => pickRight(item.index)}
               disabled={matched.has(item.index)}
-              className={`rounded-lg border px-3 py-2 text-left text-sm ${
-                matched.has(item.index)
-                  ? 'border-green-300 bg-green-50 text-green-700'
-                  : wrongPair === item.index
-                    ? 'border-red-300 bg-red-50 text-red-700'
-                    : 'border-slate-200 bg-white text-slate-700 hover:border-indigo-300'
-              }`}
+              className={`option ${matched.has(item.index) ? 'is-ok' : wrongPair === item.index ? 'is-bad shake' : ''}`}
             >
               {item.text}
             </button>
@@ -93,14 +81,10 @@ export default function MatchingGame({ pairs }) {
         </div>
       </div>
 
-      <div className="flex items-center gap-3">
-        <p className="text-sm text-slate-600">
-          Topildi: {matched.size} / {pairs.length}
-        </p>
-        <button
-          onClick={reset}
-          className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
-        >
+      <div className="flex flex-wrap items-center gap-3">
+        <span className="chip chip-gold">Topildi: {matched.size} / {pairs.length}</span>
+        {matched.size === pairs.length && <span className="text-sm font-semibold text-ok">Barakalla! Hammasi topildi.</span>}
+        <button onClick={reset} className="btn btn-ghost btn-sm">
           <RotateCcw size={14} /> Qayta boshlash
         </button>
       </div>

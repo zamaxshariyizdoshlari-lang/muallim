@@ -17,3 +17,4 @@ frontend/.env
 .idea/
 .DS_Store
 Thumbs.db
+backend/dev_credentials.txt

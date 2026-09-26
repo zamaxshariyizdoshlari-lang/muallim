@@ -1,5 +1,6 @@
-import { AlertTriangle, CheckCircle2, ChevronLeft, Loader2, RotateCcw, Sparkles, XCircle } from 'lucide-react'
+import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
 
 /**
  * Rasmiy test (mavzu testi yoki yakuniy imtihon). Barcha savollar birdaniga ko'rsatiladi,
@@ -15,6 +16,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   const [submitting, setSubmitting] = useState(false)
 
   useEffect(() => {
+    window.scrollTo({ top: 0 })
     load()
       .then(setTest)
       .catch((err) => setError(err.message))
@@ -37,6 +39,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
     setSubmitting(true)
     try {
       setResult(await submit(answers))
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
       setError(err.message)
     } finally {
@@ -55,23 +58,26 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   const detailByIndex = Object.fromEntries((result?.details || []).map((d) => [d.index, d]))
 
   return (
-    <div className="mx-auto max-w-2xl">
-      <button onClick={onBack} className="mb-4 flex items-center gap-1 text-sm text-slate-500 hover:text-slate-700">
-        <ChevronLeft size={16} /> Orqaga
-      </button>
-      <h1 className="mb-1 text-2xl font-semibold text-slate-900">{title}</h1>
-      <p className="mb-6 text-sm text-slate-500">
-        Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi.
-      </p>
+    <div className="rise mx-auto max-w-3xl">
+      <BackLink onClick={onBack}>Orqaga</BackLink>
 
-      {error && <p className="mb-4 text-sm text-red-600">{error}</p>}
-      {loading && <Loader2 className="animate-spin text-slate-400" size={20} />}
+      <header className="mb-8">
+        <p className="eyebrow mb-2">Bilimni sinash</p>
+        <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{title}</h1>
+        <p className="mt-3 text-sm text-muted">
+          Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi.
+          {questions.length > 0 && ` Jami ${questions.length} ta savol.`}
+        </p>
+      </header>
+
+      <ErrorNote>{error}</ErrorNote>
+      {loading && <Loader2 className="animate-spin text-gold" size={22} />}
 
       {!loading && !test && (
-        <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-white px-4 py-6 shadow-sm">
-          <p className="text-sm text-slate-600">Test hali yaratilmagan.</p>
+        <div className="card flex flex-wrap items-center justify-between gap-4 px-5 py-6">
+          <p className="text-sm text-ink-2">Test hali yaratilmagan.</p>
           {isTeacher && (
-            <button onClick={handleCreate} className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700">
+            <button onClick={handleCreate} className="btn btn-primary btn-sm">
               <Sparkles size={16} /> Yaratish
             </button>
           )}
@@ -79,10 +85,10 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
       )}
 
       {test?.status === 'failed' && (
-        <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-4 text-sm text-red-700">
+        <div className="flex items-start gap-2 rounded-xl border border-bad/40 bg-bad-soft px-4 py-4 text-sm text-bad">
           <AlertTriangle size={18} className="mt-0.5 shrink-0" />
           <div>
-            <p className="font-medium">Test tuzib bo'lmadi</p>
+            <p className="font-semibold">Test tuzib bo'lmadi</p>
             <p className="mt-1">{test.error_message}</p>
             {isTeacher && (
               <button onClick={handleCreate} className="mt-2 underline">Qayta urinish</button>
@@ -94,55 +100,84 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
       {questions.length > 0 && (
         <>
           {isTeacher && !result && (
-            <button onClick={handleCreate} className="mb-4 text-xs text-slate-500 underline">
+            <button onClick={handleCreate} className="mb-4 text-xs text-muted underline hover:text-brand">
               Testni qayta yaratish
             </button>
           )}
 
           {result && (
-            <div className={`mb-6 rounded-lg border px-4 py-4 text-sm ${result.passed ? 'border-green-300 bg-green-50 text-green-800' : 'border-amber-300 bg-amber-50 text-amber-800'}`}>
-              <p className="text-base font-semibold">
-                Natija: {result.score} / {result.total}
-              </p>
-              {result.passed ? (
-                <>
-                  <p className="mt-1">{passedLabel || "Tabriklaymiz, test to'liq topshirildi!"}</p>
-                  <button onClick={() => onPassed(result)} className="mt-3 rounded-lg bg-green-600 px-4 py-1.5 font-medium text-white hover:bg-green-700">
-                    Davom etish
-                  </button>
-                </>
-              ) : (
-                <>
-                  <p className="mt-1">
-                    Hali hammasi to'g'ri emas. Xato savollarning yonidagi betlarni qayta o'qib chiqing va yana urinib ko'ring.
+            <div
+              className={`rise card mb-8 overflow-hidden p-6 sm:p-8 ${
+                result.passed ? '!border-ok' : '!border-gold'
+              }`}
+            >
+              <div className="flex flex-wrap items-center gap-5">
+                <div
+                  className={`flex h-20 w-20 shrink-0 items-center justify-center rounded-full font-display text-2xl font-extrabold ${
+                    result.passed ? 'bg-ok-soft text-ok' : 'bg-gold-soft text-gold'
+                  }`}
+                >
+                  {result.score}/{result.total}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="font-display text-2xl font-bold text-ink">
+                    {result.passed ? (
+                      <span className="inline-flex items-center gap-2"><PartyPopper className="text-ok" size={24} /> Tabriklaymiz!</span>
+                    ) : (
+                      'Yana bir urinib ko\'ring'
+                    )}
                   </p>
-                  <button onClick={retry} className="mt-3 flex items-center gap-1 rounded-lg border border-amber-400 px-3 py-1.5 font-medium hover:bg-amber-100">
+                  <p className="mt-1 text-sm leading-relaxed text-ink-2">
+                    {result.passed
+                      ? passedLabel || "Test to'liq topshirildi!"
+                      : "Hali hammasi to'g'ri emas. Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring."}
+                  </p>
+                </div>
+                {result.passed ? (
+                  <button onClick={() => onPassed(result)} className="btn btn-primary">Davom etish</button>
+                ) : (
+                  <button onClick={retry} className="btn btn-gold">
                     <RotateCcw size={14} /> Qayta urinish
                   </button>
-                </>
-              )}
+                )}
+              </div>
             </div>
           )}
 
-          <ol className="flex flex-col gap-4">
+          <ol className="flex flex-col gap-5">
             {questions.map((q, i) => {
               const d = detailByIndex[i]
               return (
-                <li key={i} className={`rounded-xl border bg-white p-4 shadow-sm ${d ? (d.correct ? 'border-green-300' : 'border-red-300') : 'border-slate-200'}`}>
-                  <p className="mb-2 flex items-start gap-2 text-sm font-medium text-slate-800">
-                    <span className="flex-1">{i + 1}. {q.question}</span>
-                    {d && (d.correct ? <CheckCircle2 className="shrink-0 text-green-600" size={18} /> : <XCircle className="shrink-0 text-red-600" size={18} />)}
+                <li
+                  key={i}
+                  className={`card p-5 sm:p-6 ${d ? (d.correct ? '!border-ok' : '!border-bad') : ''}`}
+                >
+                  <p className="mb-4 flex items-start gap-3">
+                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-soft text-sm font-bold text-brand">
+                      {i + 1}
+                    </span>
+                    <span className="flex-1 pt-0.5 font-read text-lg font-medium leading-snug text-ink">{q.question}</span>
+                    {d && (d.correct ? <CheckCircle2 className="shrink-0 text-ok" size={22} /> : <XCircle className="shrink-0 text-bad" size={22} />)}
                   </p>
-                  <div className="flex flex-col gap-1">
+                  <div className="flex flex-col gap-2">
                     {q.options.map((opt, j) => (
-                      <label key={j} className={`flex cursor-pointer items-center gap-2 rounded px-2 py-1 text-sm ${answers[i] === j ? 'bg-indigo-50 text-indigo-800' : 'text-slate-700 hover:bg-slate-50'}`}>
-                        <input type="radio" name={`q${i}`} disabled={Boolean(result)} checked={answers[i] === j} onChange={() => setAnswers((a) => ({ ...a, [i]: j }))} />
-                        {opt}
-                      </label>
+                      <button
+                        key={j}
+                        type="button"
+                        disabled={Boolean(result)}
+                        onClick={() => setAnswers((a) => ({ ...a, [i]: j }))}
+                        className={`option ${answers[i] === j ? 'is-selected' : ''}`}
+                        aria-pressed={answers[i] === j}
+                      >
+                        <span className="option-key">{String.fromCharCode(65 + j)}</span>
+                        <span className="pt-0.5">{opt}</span>
+                      </button>
                     ))}
                   </div>
                   {d && !d.correct && d.page && (
-                    <p className="mt-2 text-xs text-red-600">Qayta o'qing: darslikning {d.page}-beti</p>
+                    <p className="mt-3 rounded-lg bg-bad-soft px-3 py-2 text-sm font-medium text-bad">
+                      Qayta o'qing: darslikning {d.page}-beti
+                    </p>
                   )}
                 </li>
               )
@@ -150,12 +185,17 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
           </ol>
 
           {!result && (
-            <div className="sticky bottom-4 mt-6 flex items-center justify-between rounded-lg border border-slate-200 bg-white px-4 py-3 shadow">
-              <span className="text-sm text-slate-500">Javob berildi: {answeredCount} / {questions.length}</span>
+            <div className="card sticky bottom-4 z-20 mt-8 flex items-center gap-4 px-4 py-3 sm:px-5">
+              <div className="min-w-0 flex-1">
+                <p className="mb-1.5 text-xs font-semibold text-muted">
+                  Javob berildi: {answeredCount} / {questions.length}
+                </p>
+                <ProgressBar value={answeredCount} max={questions.length} />
+              </div>
               <button
                 onClick={handleSubmit}
                 disabled={submitting || answeredCount < questions.length}
-                className="rounded-lg bg-indigo-600 px-4 py-1.5 text-sm font-medium text-white hover:bg-indigo-700 disabled:opacity-50"
+                className="btn btn-primary"
               >
                 {submitting ? 'Tekshirilmoqda...' : 'Topshirish'}
               </button>

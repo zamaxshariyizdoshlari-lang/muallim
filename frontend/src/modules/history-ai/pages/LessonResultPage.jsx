@@ -1,13 +1,24 @@
-import { AlertTriangle, ChevronLeft, Loader2, RefreshCw, ShieldAlert, Sparkles } from 'lucide-react'
+import {
+  AlertTriangle, BookMarked, CheckCircle2, Clock, Gamepad2, HelpCircle, Layers, Lightbulb, Link2, ListChecks,
+  Presentation, RefreshCw, ShieldAlert, Sparkles, Target,
+} from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { createLesson, getLesson, getLessonByTopic } from '../api/client'
+import { createLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
 import MatchingGame from '../components/MatchingGame'
 import PresentationViewer from '../components/PresentationViewer'
 import QuizGame from '../components/QuizGame'
 import TimelineGame from '../components/TimelineGame'
+import { BackLink, ErrorNote, PageTag, Spinner } from '../components/ui'
 
 const POLL_INTERVAL_MS = 2500
+
+const STAGES = [
+  { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
+  { n: 2, id: 'stage-2', label: "O'yinlar", icon: Gamepad2 },
+  { n: 3, id: 'stage-3', label: 'Savollar', icon: HelpCircle },
+  { n: 4, id: 'stage-4', label: 'Mavzu testi', icon: ListChecks },
+]
 
 export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBack, onStartTest }) {
   const [lesson, setLesson] = useState(null)
@@ -16,6 +27,7 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
   const intervalRef = useRef(null)
 
   useEffect(() => {
+    window.scrollTo({ top: 0 })
     let cancelled = false
     getLessonByTopic(topicId)
       .then((data) => {
@@ -58,137 +70,172 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
     }
   }
 
+  function goTo(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  const ready = lesson?.status === 'done'
+  const pageRange = ready ? pageRangeOf(lesson.lesson_plan) : null
+
   return (
-    <div className="mx-auto max-w-2xl">
-      <button
-        onClick={onBack}
-        className="mb-4 flex items-center gap-1 text-sm text-slate-500 hover:text-slate-700"
-      >
-        <ChevronLeft size={16} /> Mavzular ro'yxatiga qaytish
-      </button>
+    <div className="rise mx-auto max-w-3xl">
+      <BackLink onClick={onBack}>Mavzular ro'yxatiga qaytish</BackLink>
 
-      <h1 className="mb-6 text-2xl font-semibold text-slate-900">{topicTitle}</h1>
+      <header className="mb-6">
+        <p className="eyebrow mb-2">Mavzu</p>
+        <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{topicTitle}</h1>
+        {pageRange && (
+          <p className="mt-3 flex items-center gap-2 text-sm text-muted">
+            <Clock size={14} /> Darslikning {pageRange} betlari asosida
+          </p>
+        )}
+      </header>
 
-      {error && <p className="mb-4 text-sm text-red-600">{error}</p>}
-
-      {loading && (
-        <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-6 text-sm text-slate-600 shadow-sm">
-          <Loader2 className="animate-spin" size={18} />
-          Yuklanmoqda...
-        </div>
+      {ready && (
+        <nav
+          aria-label="Bosqichlar"
+          className="sticky top-[4.15rem] z-20 -mx-4 mb-8 overflow-x-auto border-b border-line bg-paper/90 px-4 py-2 backdrop-blur"
+        >
+          <ul className="flex min-w-max gap-2">
+            {STAGES.map((s) => (
+              <li key={s.id}>
+                <button onClick={() => goTo(s.id)} className="btn btn-ghost btn-sm !rounded-full">
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-brand text-[0.68rem] text-brand-ink">
+                    {s.n}
+                  </span>
+                  {s.label}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </nav>
       )}
 
+      <ErrorNote>{error}</ErrorNote>
+
+      {loading && <Spinner>Yuklanmoqda...</Spinner>}
+
       {!loading && !lesson && (
-        <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-white px-4 py-6 shadow-sm">
-          <p className="text-sm text-slate-600">
+        <div className="card flex flex-wrap items-center justify-between gap-4 px-5 py-6">
+          <p className="text-sm text-ink-2">
             {isTeacher ? 'Bu mavzu uchun dars rejasi va test hali yaratilmagan.' : "Bu mavzu materiallarini o'qituvchi hali tayyorlamagan."}
           </p>
           {isTeacher && (
-            <button
-              onClick={() => handleGenerate(false)}
-              className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
-            >
+            <button onClick={() => handleGenerate(false)} className="btn btn-primary btn-sm">
               <Sparkles size={16} /> Yaratish
             </button>
           )}
         </div>
       )}
 
-      {lesson?.status === 'pending' && (
-        <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-6 text-sm text-slate-600 shadow-sm">
-          <Loader2 className="animate-spin" size={18} />
-          Dars rejasi va test tayyorlanmoqda... (AI javob bermoqda)
-        </div>
-      )}
+      {lesson?.status === 'pending' && <Spinner>Dars rejasi va test tayyorlanmoqda... (AI javob bermoqda)</Spinner>}
 
       {lesson?.status === 'failed' && (
         <div className="flex flex-col gap-3">
-          <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-4 text-sm text-red-700">
+          <div className="flex items-start gap-2 rounded-xl border border-bad/40 bg-bad-soft px-4 py-4 text-sm text-bad">
             <AlertTriangle size={18} className="mt-0.5 shrink-0" />
             <div>
-              <p className="font-medium">Xatolik yuz berdi</p>
-              <p className="mt-1 text-red-600">{lesson.error_message}</p>
+              <p className="font-semibold">Xatolik yuz berdi</p>
+              <p className="mt-1">{lesson.error_message}</p>
             </div>
           </div>
-          <button
-            onClick={() => handleGenerate(true)}
-            className="flex w-fit items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
-          >
+          <button onClick={() => handleGenerate(true)} className="btn btn-ghost btn-sm w-fit">
             <RefreshCw size={14} /> Qayta urinish
           </button>
         </div>
       )}
 
-      {lesson?.status === 'done' && (
-        <div className="flex flex-col gap-6">
+      {ready && (
+        <div className="flex flex-col gap-14">
           {isTeacher && (
-            <div className="flex justify-end">
-              <button
-                onClick={() => handleGenerate(true)}
-                className="flex items-center gap-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-50"
-              >
+            <div className="-mb-8 flex justify-end">
+              <button onClick={() => handleGenerate(true)} className="btn btn-ghost btn-sm">
                 <RefreshCw size={13} /> Dars rejasini qayta yaratish
               </button>
             </div>
           )}
 
-          <StageHeading n={1} text="Mavzu tushuntirilishi" />
-          <LessonPlanCard plan={lesson.lesson_plan} />
+          <Stage n={1} id="stage-1" title="Mavzu tushuntirilishi">
+            <LessonPlanCard plan={lesson.lesson_plan} />
+          </Stage>
 
-          <StageHeading n={2} text="O'yinlar (ixtiyoriy mashq)" />
-          <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot" isTeacher={isTeacher}>
-            {(data) => <PresentationViewer slides={data.slides} />}
-          </AssetPanel>
-          <AssetPanel topicId={topicId} kind="game_timeline" label="Xronologiya tartiblash" isTeacher={isTeacher}>
-            {(data) => <TimelineGame items={data.items} />}
-          </AssetPanel>
-          <AssetPanel topicId={topicId} kind="game_matching" label="Moslashtirish" isTeacher={isTeacher}>
-            {(data) => <MatchingGame pairs={data.pairs} />}
-          </AssetPanel>
-          <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" isTeacher={isTeacher}>
-            {(data) => <QuizGame questions={data.questions} />}
-          </AssetPanel>
+          <Stage n={2} id="stage-2" title="O'yinlar" hint="Ixtiyoriy mashq — bilimni qiziqarli tarzda mustahkamlang.">
+            <div className="flex flex-col gap-5">
+              <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot" icon={Presentation} isTeacher={isTeacher}>
+                {(data) => <PresentationViewer slides={data.slides} />}
+              </AssetPanel>
+              <AssetPanel topicId={topicId} kind="game_timeline" label="Xronologiya tartiblash" icon={Clock} isTeacher={isTeacher}>
+                {(data) => <TimelineGame items={data.items} />}
+              </AssetPanel>
+              <AssetPanel topicId={topicId} kind="game_matching" label="Moslashtirish" icon={Link2} isTeacher={isTeacher}>
+                {(data) => <MatchingGame pairs={data.pairs} />}
+              </AssetPanel>
+              <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" icon={Layers} isTeacher={isTeacher}>
+                {(data) => <QuizGame questions={data.questions} />}
+              </AssetPanel>
+            </div>
+          </Stage>
 
-          <StageHeading n={3} text="Savollar" />
-          <BookQuestions items={lesson.quiz?.book_questions} />
-          <QuizCard quiz={lesson.quiz} />
-          {lesson.quiz?.questions?.length > 0 && (
-            <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h2 className="mb-4 text-lg font-semibold text-slate-900">Viktorina</h2>
-              <QuizGame questions={lesson.quiz.questions} />
+          <Stage n={3} id="stage-3" title="Savollar">
+            <div className="flex flex-col gap-5">
+              <BookQuestions items={lesson.quiz?.book_questions} />
+              <QuizCard quiz={lesson.quiz} />
+              {lesson.quiz?.questions?.length > 0 && (
+                <section className="card p-5 sm:p-6">
+                  <h3 className="mb-4 font-display text-lg font-bold text-ink">Viktorina</h3>
+                  <QuizGame questions={lesson.quiz.questions} />
+                </section>
+              )}
+            </div>
+          </Stage>
+
+          <Stage n={4} id="stage-4" title="Mavzu testi">
+            <section className="card relative overflow-hidden border-brand/40 p-6 sm:p-8">
+              <div className="meander absolute inset-x-0 top-0" />
+              <div className="flex flex-wrap items-center gap-5 pt-2">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-brand text-brand-ink">
+                  <ListChecks size={28} />
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="font-read text-base leading-relaxed text-ink-2">
+                    Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni <b className="text-ink">100%</b> topshirgandan
+                    keyin ochiladi.
+                  </p>
+                </div>
+                <button onClick={onStartTest} className="btn btn-primary">
+                  {isTeacher ? "Testni ko'rish / yaratish" : 'Testni boshlash'}
+                </button>
+              </div>
             </section>
-          )}
-
-          <StageHeading n={4} text="Mavzu testi" />
-          <section className="rounded-xl border border-indigo-200 bg-indigo-50 p-6 shadow-sm">
-            <p className="mb-3 text-sm text-slate-700">
-              Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni 100% topshirgandan keyin ochiladi.
-            </p>
-            <button onClick={onStartTest} className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
-              {isTeacher ? "Testni ko'rish / yaratish" : 'Testni boshlash'}
-            </button>
-          </section>
+          </Stage>
         </div>
       )}
     </div>
   )
 }
 
-function StageHeading({ n, text }) {
-  return (
-    <h2 className="mt-4 flex items-center gap-2 text-lg font-semibold text-slate-900">
-      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-indigo-600 text-sm text-white">{n}</span>
-      {text}
-    </h2>
-  )
+function pageRangeOf(plan) {
+  const pages = (plan?.blocks || []).flatMap((b) => b.pages || []).filter((p) => Number.isFinite(p))
+  if (!pages.length) return null
+  const min = Math.min(...pages)
+  const max = Math.max(...pages)
+  return min === max ? String(min) : `${min}–${max}`
 }
 
-function PageTag({ page }) {
-  if (page === undefined || page === null) return null
+function Stage({ n, id, title, hint, children }) {
   return (
-    <span className="ml-2 inline-block rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-500">
-      bet {page}
-    </span>
+    <section id={id} className="scroll-mt-32">
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand font-display text-lg font-bold text-brand-ink shadow">
+            {n}
+          </span>
+          <h2 className="font-display text-2xl font-bold text-ink sm:text-3xl">{title}</h2>
+        </div>
+        {hint && <p className="ml-13 mt-1 pl-1 text-sm text-muted">{hint}</p>}
+      </div>
+      {children}
+    </section>
   )
 }
 
@@ -196,7 +243,7 @@ function UnverifiedTag() {
   return (
     <span
       title="Bu fakt kitob matnida avtomatik tasdiqlanmadi"
-      className="ml-2 inline-flex items-center gap-1 rounded bg-amber-100 px-1.5 py-0.5 text-xs text-amber-700"
+      className="chip ml-2 !border-gold/50 !bg-warn-soft !text-gold"
     >
       <ShieldAlert size={12} /> kitobda tasdiqlanmadi
     </span>
@@ -206,26 +253,58 @@ function UnverifiedTag() {
 function LessonPlanCard({ plan }) {
   if (!plan) return null
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-lg font-semibold text-slate-900">Dars rejasi</h2>
-
+    <div className="flex flex-col gap-6">
       {plan.goals?.length > 0 && (
-        <div className="mb-4">
-          <h3 className="mb-1 text-sm font-medium text-slate-700">Maqsadlar</h3>
-          <ul className="list-inside list-disc text-sm text-slate-600">
+        <div className="card border-gold/40 bg-gold-soft/40 p-5 sm:p-6">
+          <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
+            <Target size={18} className="text-gold" /> Bu mavzuda nimani o'rganasiz
+          </h3>
+          <ul className="flex flex-col gap-2">
             {plan.goals.map((goal, i) => (
-              <li key={i}>{goal}</li>
+              <li key={i} className="flex gap-2.5 text-[0.95rem] text-ink-2">
+                <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-ok" />
+                {goal}
+              </li>
             ))}
           </ul>
         </div>
       )}
 
+      {plan.blocks?.length > 0 && (
+        <article className="card p-6 sm:p-9">
+          {plan.blocks.map((b, i) => (
+            <div key={i} className={i > 0 ? 'mt-9' : ''}>
+              {b.heading && (
+                <h3 className="mb-4 border-b border-line pb-2 font-display text-xl font-bold text-brand sm:text-2xl">{b.heading}</h3>
+              )}
+              <div className="read">
+                {b.text.split(/\n{2,}/).map((para, pi) => (
+                  <p key={pi} className={i === 0 && pi === 0 ? 'read-first' : ''}>
+                    {para}
+                  </p>
+                ))}
+              </div>
+              {b.pages?.length > 0 && (
+                <p className="mt-3 flex flex-wrap items-center gap-1 text-xs text-muted">
+                  Manba:
+                  {b.pages.map((pg) => (
+                    <PageTag key={pg} page={pg} />
+                  ))}
+                </p>
+              )}
+            </div>
+          ))}
+        </article>
+      )}
+
       {plan.key_facts?.length > 0 && (
-        <div className="mb-4">
-          <h3 className="mb-1 text-sm font-medium text-slate-700">Asosiy faktlar</h3>
-          <ul className="flex flex-col gap-1 text-sm text-slate-600">
+        <div>
+          <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
+            <Lightbulb size={18} className="text-gold" /> Esda tuting
+          </h3>
+          <ul className="grid gap-3 sm:grid-cols-2">
             {plan.key_facts.map((f, i) => (
-              <li key={i}>
+              <li key={i} className="card border-l-4 !border-l-gold p-4 text-sm leading-relaxed text-ink-2">
                 {f.fact}
                 <PageTag page={f.page} />
                 {f.verified === false && <UnverifiedTag />}
@@ -235,30 +314,20 @@ function LessonPlanCard({ plan }) {
         </div>
       )}
 
-      {plan.blocks?.map((b, i) => (
-        <div key={i} className="mb-4">
-          {b.heading && <h3 className="mb-1 text-sm font-semibold text-slate-800">{b.heading}</h3>}
-          <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700">
-            {b.text}
-            {b.pages?.map((pg) => <PageTag key={pg} page={pg} />)}
-          </p>
-        </div>
-      ))}
-
       {plan.explanation && (
-        <div className="mb-4">
-          <h3 className="mb-1 text-sm font-medium text-slate-700">Tushuntirish</h3>
-          <p className="text-sm text-slate-600">{plan.explanation}</p>
+        <div className="card p-5 sm:p-6">
+          <h3 className="mb-2 font-display text-lg font-bold text-ink">Tushuntirish</h3>
+          <p className="read !text-base">{plan.explanation}</p>
         </div>
       )}
 
       {plan.summary && (
-        <div>
-          <h3 className="mb-1 text-sm font-medium text-slate-700">Xulosa</h3>
-          <p className="text-sm text-slate-600">{plan.summary}</p>
+        <div className="rounded-2xl border border-brand/30 bg-brand-soft p-5 sm:p-6">
+          <h3 className="mb-2 font-display text-lg font-bold text-brand">Xulosa</h3>
+          <p className="font-read text-base leading-relaxed text-ink">{plan.summary}</p>
         </div>
       )}
-    </section>
+    </div>
   )
 }
 
@@ -266,21 +335,27 @@ function BookQuestions({ items }) {
   const [open, setOpen] = useState({})
   if (!items?.length) return null
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-lg font-semibold text-slate-900">Darslikdagi savol va topshiriqlar</h2>
-      <ol className="flex flex-col gap-4">
+    <section className="card p-5 sm:p-6">
+      <h3 className="mb-5 font-display text-lg font-bold text-ink">Darslikdagi savol va topshiriqlar</h3>
+      <ol className="flex flex-col gap-5">
         {items.map((q, i) => (
-          <li key={i}>
-            <p className="text-sm font-medium text-slate-800">{i + 1}. {q.question}</p>
-            {open[i] ? (
-              <p className="mt-2 rounded bg-green-50 px-3 py-2 text-sm text-green-800">
-                {q.answer}<PageTag page={q.page} />
-              </p>
-            ) : (
-              <button onClick={() => setOpen((o) => ({ ...o, [i]: true }))} className="mt-1 text-xs text-indigo-600 underline">
-                Javobni ko'rish
-              </button>
-            )}
+          <li key={i} className="flex gap-3">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-soft text-sm font-bold text-brand">
+              {i + 1}
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="font-read text-base font-medium leading-snug text-ink">{q.question}</p>
+              {open[i] ? (
+                <p className="rise mt-3 rounded-xl border border-ok/40 bg-ok-soft px-4 py-3 text-sm leading-relaxed text-ink">
+                  {q.answer}
+                  <PageTag page={q.page} />
+                </p>
+              ) : (
+                <button onClick={() => setOpen((o) => ({ ...o, [i]: true }))} className="btn btn-ghost btn-sm mt-2.5">
+                  Javobni ko'rish
+                </button>
+              )}
+            </div>
           </li>
         ))}
       </ol>
@@ -291,23 +366,21 @@ function BookQuestions({ items }) {
 function QuizCard({ quiz }) {
   if (!quiz?.questions?.length) return null
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-lg font-semibold text-slate-900">Test savollari</h2>
-      <ol className="flex flex-col gap-4">
+    <section className="card p-5 sm:p-6">
+      <h3 className="mb-5 font-display text-lg font-bold text-ink">Test savollari (javoblari bilan)</h3>
+      <ol className="flex flex-col gap-5">
         {quiz.questions.map((q, i) => (
           <li key={i}>
-            <p className="text-sm font-medium text-slate-800">
+            <p className="font-read text-base font-medium text-ink">
               {i + 1}. {q.question}
               <PageTag page={q.page} />
             </p>
-            <ul className="mt-2 flex flex-col gap-1">
+            <ul className="mt-2 flex flex-col gap-1.5">
               {q.options?.map((opt, j) => (
                 <li
                   key={j}
-                  className={`rounded px-2 py-1 text-sm ${
-                    j === q.correct_index
-                      ? 'bg-green-50 text-green-700'
-                      : 'text-slate-600'
+                  className={`rounded-lg px-3 py-1.5 text-sm ${
+                    j === q.correct_index ? 'bg-ok-soft font-semibold text-ok' : 'text-ink-2'
                   }`}
                 >
                   {String.fromCharCode(65 + j)}. {opt}
