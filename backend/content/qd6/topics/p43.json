@@ -1,0 +1,103 @@
+{
+  "key": "p43", "title": "43-§. Qadimgi Italiya va uning aholisi", "start_page": 151, "end_page": 153,
+  "explanation": {
+    "goals": ["Italiyaning tabiiy sharoiti va qadimgi aholisini bilish", "Rimga asos solinishi haqidagi rivoyatni hikoya qilish", "Rim respublikasining tashkil topishini tushuntirish"],
+    "blocks": [
+      { "heading": "Tabiiy sharoiti va qadimgi aholisi", "pages": [151],
+        "text": "Iqlimi iliq Apennin yarimorolini to'liq egallagan Italiya zaminida qurg'oqchilik ham, qattiq sovuq ham bo'lmasdi. Yegulik mahsulotlari mo'l-ko'lligi va tuproq unumdorligi tufayli ko'p asrlar davomida qadimgi Italiya aholisining asosiy mashg'uloti dehqonchilik va chorvachilik bo'lgan. Qadim zamonlardan boshlab Apennin yarimorolida turli qabilalar yashab kelgan.\n\n\"Italiya\" so'zi \"buzoqchalar mamlakati\" ma'nosini bildiradi. Italiya sohillarida koloniyalarga asos solgan yunonlar bu mamlakatda sigirlarni o'tlatish uchun ajoyib o'tloqlarni topganlar.\n\nApennin yarimorolidagi eng katta daryo Po daryosidir. Yarimorolning qabilalari italiklar deb nomlangan. Italiyaning shimoli-g'arbiy qismida etrusklar yashagan. Ularning asosiy mashg'uloti dehqonchilik bo'lgan.\n\nMil. avv. VIII asrda etrusklar Italiyada 12 ta shahar-davlat tuzishadi. Etrusklar Sharq mamlakatlari bilan erkin savdo-sotiq qilish uchun yunon koloniyalari bilan kurash boshlashadi. Afrikaning shimoliy sohilida joylashgan Finikiya koloniyasi - Karfagen shahar-davlati ham ularga qo'shiladi. Dastlab karfagenliklar va etrusklar g'alaba qozonishadi, ammo ko'p o'tmay yunon qo'shini ularni quruqlik va dengizda tor-mor qiladi.\n\nRasm izohi: qadimgi italiklarning manzilgohlari va mehnat jarayoni manzarasi." },
+      { "heading": "Rimga asos solinishi", "pages": [152],
+        "text": "Rim shahri Tibr daryosi bo'yidagi dehqonchilik manzilgohlaridan boshlangan. Tibr bo'ylab joylashgan kichik manzilgohlar birlashib, katta shaharga aylanadi. Rimning yettita tepalikda joylashishi harbiy nuqtayi nazardan juda ham qulay bo'lgan. Daryo va botqoqlik aholini qo'shni qabilalar hujumlaridan himoya qilar edi.\n\nRivoyatga qaraganda, Rim shahriga mil. avv. 753-yilda aka-uka Romul va Rem asos solgan. Dunyoga kelganlaridan so'ng chaqaloqlarni savatga solib, Tibr daryosi bo'yiga tashlab ketadilar. Daryo bo'yida ularni ona bo'ri topib olib, emizadi va boqadi. Keyin aka-ukalarni bir cho'pon topib olib tarbiyalaydi. Voyaga yetganlarida esa ular Tibr bo'yida shahar barpo etishga ahd qilishadi.\n\nBugungi kunda, afsonada aytilganidek, egizaklarni emizgan ona bo'ri Rimning timsoli hisoblanadi.\n\nRim katta shaharga aylanadi. Kapitoliy tepaligida dushmanlardan himoyalanish uchun qal'a bunyod etiladi.\n\nXarita: Qadimgi Italiya - Rim, Piza, Neapol, Messina, Sirakuza, Sitsiliya orolligi, Sardiniya orolligi, Korsika orolligi, Apennin yarimoroli, O'rta Yer dengizi, Adriatika dengizi. Rasm: Rem va Romulni topib olgan ona bo'ri tasviri." },
+      { "heading": "Qadimgi Rimda boshqaruv", "pages": [153],
+        "text": "Ilgari rimliklar o'z hukmdorlarini saylashardi. Hukmdorlar ham harbiy boshliq, ham sudya, ham kohin bo'lishgan. Mag'rur Tarkviniy laqabli kishi mamlakatga saylab qo'yilgan hukmdorni o'ldirib, hokimiyatni egallab oldi. Bundan darg'azab bo'lgan aholi qo'zg'olon ko'tarib, Tarkviniyni shahardan haydab yubordi. Shahar ahli butun hokimiyat bir kishi qo'lida jamlanishiga yo'l qo'ymaydigan boshqaruv shakliga o'tishga qaror qiladi. Mil. avv. 509-yilda podsho hokimiyatining ag'darilishi Rim respublikasi asosini yaratdi.\n\nRasm/sxema izohlari: Tarkviniyning shahardan quvg'in qilinishi; etrusklar qalqoni; mil. avv. 509-yil Rim respublikasi; \"buzoqchalar mamlakati\", italiklar, etrusklar; mil. avv. 753-yilda Rimga asos solinishi, Romul va Rem." }
+    ],
+    "key_facts": [
+      { "fact": "Italiya Apennin yarimorolida joylashgan; iqlimi iliq, tuprog'i unumdor; aholi asosan dehqonchilik va chorvachilik bilan shug'ullangan", "page": 151 },
+      { "fact": "\"Italiya\" so'zi \"buzoqchalar mamlakati\" degan ma'noni bildiradi", "page": 151 },
+      { "fact": "Apennin yarimorolidagi eng katta daryo - Po; yarimorol qabilalari italiklar deb atalgan", "page": 151 },
+      { "fact": "Shimoli-g'arbda etrusklar yashagan; mil. avv. VIII asrda 12 ta shahar-davlat tuzganlar", "page": 151 },
+      { "fact": "Etrusklar va Karfagen yunon koloniyalari bilan kurashgan, lekin yunon qo'shini ularni tor-mor qilgan", "page": 151 },
+      { "fact": "Rim Tibr daryosi bo'yida, yettita tepalikda joylashgan; daryo va botqoqlik uni himoya qilgan", "page": 152 },
+      { "fact": "Rivoyatga ko'ra, Rimga mil. avv. 753-yilda aka-uka Romul va Rem asos solgan; ularni ona bo'ri emizgan", "page": 152 },
+      { "fact": "Kapitoliy tepaligida qal'a bunyod etilgan", "page": 152 },
+      { "fact": "Tarkviniy quvilgach, mil. avv. 509-yilda podsho hokimiyati ag'darilib, Rim respublikasi asosi yaratilgan", "page": 153 }
+    ],
+    "summary": "Italiya Apennin yarimorolida iliq iqlim va unumdor yerlarga ega bo'lib, aholisi dehqonchilik bilan shug'ullangan; shimoli-g'arbda etrusklar yashagan. Rivoyatga ko'ra Rimga mil. avv. 753-yilda Romul va Rem asos solgan. Mil. avv. 509-yilda Tarkviniy quvilib, Rim respublikasi tuzildi."
+  },
+  "presentation": { "slides": [
+    { "title": "43-§. Qadimgi Italiya va uning aholisi", "bullets": [], "page": null },
+    { "title": "Tabiiy sharoit", "bullets": ["Apennin yarimoroli", "Iliq iqlim, unumdor tuproq", "Eng katta daryo - Po", "Dehqonchilik va chorvachilik"], "page": 151 },
+    { "title": "Aholisi", "bullets": ["Italiklar", "\"Italiya\" - \"buzoqchalar mamlakati\"", "Shimoli-g'arbda etrusklar"], "page": 151 },
+    { "title": "Etrusklar", "bullets": ["Mil. avv. VIII asr - 12 shahar-davlat", "Yunon koloniyalari bilan kurash", "Karfagen ittifoqchi bo'lgan", "Yunon qo'shini tor-mor qilgan"], "page": 151 },
+    { "title": "Rimga asos solinishi", "bullets": ["Tibr bo'yidagi manzilgohlar", "Yettita tepalik", "Rivoyat: Romul va Rem, mil. avv. 753"], "page": 152 },
+    { "title": "Ona bo'ri", "bullets": ["Egizaklarni ona bo'ri emizgan", "Rimning timsoli", "Kapitoliy tepaligida qal'a"], "page": 152 },
+    { "title": "Podsho hokimiyatining ag'darilishi", "bullets": ["Hukmdorlar saylanardi", "Tarkviniy hokimiyatni tortib oldi", "Mil. avv. 509 - Rim respublikasi"], "page": 153 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. VIII asrda etrusklar 12 ta shahar-davlat tuzadi", "page": 151 },
+      { "label": "Mil. avv. 753-yilda rivoyatga ko'ra Romul va Rem Rimga asos soladi", "page": 152 },
+      { "label": "Mil. avv. 509-yilda podsho hokimiyati ag'dariladi, Rim respublikasi tuziladi", "page": 153 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Apennin", "right": "Italiya joylashgan yarimorol", "page": 151 },
+      { "left": "Po", "right": "Apennin yarimorolidagi eng katta daryo", "page": 151 },
+      { "left": "Etrusklar", "right": "Italiyaning shimoli-g'arbida yashagan xalq", "page": 151 },
+      { "left": "Karfagen", "right": "Afrikaning shimoliy sohilidagi Finikiya koloniyasi", "page": 151 },
+      { "left": "Tibr", "right": "Rim shahri bo'yida joylashgan daryo", "page": 152 },
+      { "left": "Romul va Rem", "right": "Rimga asos solgan rivoyatdagi aka-uka", "page": 152 },
+      { "left": "Kapitoliy", "right": "Qal'a bunyod etilgan tepalik", "page": 152 },
+      { "left": "Ona bo'ri", "right": "Rimning timsoli", "page": 152 },
+      { "left": "Tarkviniy", "right": "Aholi tomonidan shahardan haydalgan hukmdor", "page": 153 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Italiya ____ yarimorolini to'liq egallagan.", "options": ["Apennin", "Balkan", "Pireney", "Kichik Osiyo"], "correct_index": 0, "page": 151 },
+      { "question": "\"Italiya\" so'zi \"____ mamlakati\" ma'nosini bildiradi.", "options": ["buzoqchalar", "qo'zichoqlar", "otlar", "bo'rilar"], "correct_index": 0, "page": 151 },
+      { "question": "Etrusklar mil. avv. VIII asrda ____ ta shahar-davlat tuzishgan.", "options": ["12", "7", "30", "3"], "correct_index": 0, "page": 151 },
+      { "question": "Rim ____ ta tepalikda joylashgan.", "options": ["yettita", "uchta", "o'nta", "beshta"], "correct_index": 0, "page": 152 },
+      { "question": "Rimga rivoyatga ko'ra mil. avv. ____-yilda asos solingan.", "options": ["753", "509", "776", "490"], "correct_index": 0, "page": 152 },
+      { "question": "Rim respublikasi mil. avv. ____-yilda tashkil topgan.", "options": ["509", "753", "312", "323"], "correct_index": 0, "page": 153 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Xaritadan Italiya hududini ko'rsating va uning geografik xususiyatlarini so'zlab bering.", "answer": "Italiya Apennin yarimorolini to'liq egallagan; iqlimi iliq, qurg'oqchilik va qattiq sovuq bo'lmagan, tuprog'i unumdor; eng katta daryosi - Po. Xaritada Rim, Piza, Neapol, Messina, Sirakuza, Sitsiliya, Sardiniya, Korsika, O'rta Yer va Adriatika dengizlari ko'rsatilgan.", "page": 151 },
+      { "question": "Italiya aholisi qanday atalgan?", "answer": "Italiklar (shimoli-g'arbda etrusklar yashagan).", "page": 151 },
+      { "question": "Nima uchun ona bo'ri Rimning timsoli hisoblanadi? Rim shahri qanday tashkil etilganligi haqida gapirib bering.", "answer": "Afsonaga ko'ra, savatda Tibr bo'yiga tashlab ketilgan egizaklar Romul va Remni ona bo'ri emizib boqqan, shuning uchun u Rimning timsoli. Rim Tibr bo'yidagi dehqonchilik manzilgohlaridan boshlangan; rivoyatga ko'ra mil. avv. 753-yilda Romul va Rem asos solgan.", "page": 152 }
+    ],
+    "quiz": [
+      { "question": "Rimning yettita tepalikda joylashishi nima uchun qulay bo'lgan?", "options": ["Harbiy nuqtayi nazardan qulay bo'lgan", "Savdo uchun", "Dehqonchilik uchun", "Dengizga yaqin bo'lgani uchun"], "correct_index": 0, "page": 152 },
+      { "question": "Rimliklar Tarkviniyni nima uchun haydab yuborgan?", "options": ["U saylangan hukmdorni o'ldirib, hokimiyatni egallagani uchun", "U soliq oshirgani uchun", "U urushda yengilgani uchun", "U dinni o'zgartirgani uchun"], "correct_index": 0, "page": 153 }
+    ]
+  },
+  "test": [
+    { "question": "Italiya qaysi yarimorolda joylashgan?", "options": ["Apennin yarimorolida", "Balkan yarimorolida", "Kichik Osiyoda", "Pireney yarimorolida"], "correct_index": 0, "page": 151 },
+    { "question": "Italiya iqlimi qanday edi?", "options": ["Iliq, qurg'oqchilik ham, qattiq sovuq ham bo'lmagan", "Quruq va issiq", "Sovuq va qorli", "Nam va issiq"], "correct_index": 0, "page": 151 },
+    { "question": "Qadimgi Italiya aholisining asosiy mashg'uloti nima edi?", "options": ["Dehqonchilik va chorvachilik", "Dengiz savdosi", "Konchilik", "Baliq ovi"], "correct_index": 0, "page": 151 },
+    { "question": "\"Italiya\" so'zi qanday ma'noni bildiradi?", "options": ["\"Buzoqchalar mamlakati\"", "\"Quyosh yurti\"", "\"Tog'lar yurti\"", "\"Dengiz mamlakati\""], "correct_index": 0, "page": 151 },
+    { "question": "Yunonlar Italiya sohillarida nima uchun ajoyib o'tloqlar topgan?", "options": ["Sigirlarni o'tlatish uchun", "Ot boqish uchun", "Ekin ekish uchun", "Uzum yetishtirish uchun"], "correct_index": 0, "page": 151 },
+    { "question": "Apennin yarimorolidagi eng katta daryo qaysi?", "options": ["Po", "Tibr", "Nil", "Dajla"], "correct_index": 0, "page": 151 },
+    { "question": "Yarimorol qabilalari qanday atalgan?", "options": ["Italiklar", "Etrusklar", "Latinlar", "Finikiyaliklar"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklar Italiyaning qaysi qismida yashagan?", "options": ["Shimoli-g'arbiy qismida", "Janubiy qismida", "Sharqiy qismida", "Markaziy orolda"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklarning asosiy mashg'uloti nima edi?", "options": ["Dehqonchilik", "Chorvachilik", "Dengizchilik", "Hunarmandchilik"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklar mil. avv. VIII asrda nechta shahar-davlat tuzgan?", "options": ["12 ta", "7 ta", "3 ta", "30 ta"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklar yunon koloniyalari bilan nima uchun kurash boshlagan?", "options": ["Sharq mamlakatlari bilan erkin savdo qilish uchun", "Yer olish uchun", "Dinni tarqatish uchun", "Qullar uchun"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklarga qaysi shahar-davlat qo'shilgan?", "options": ["Karfagen", "Sparta", "Afina", "Troya"], "correct_index": 0, "page": 151 },
+    { "question": "Karfagen qayerda joylashgan Finikiya koloniyasi edi?", "options": ["Afrikaning shimoliy sohilida", "Sitsiliyada", "Kritda", "Kichik Osiyoda"], "correct_index": 0, "page": 151 },
+    { "question": "Etrusklar va karfagenliklarni kim tor-mor qilgan?", "options": ["Yunon qo'shini", "Rim qo'shini", "Fors qo'shini", "Makedon qo'shini"], "correct_index": 0, "page": 151 },
+    { "question": "Rim shahri qaysi daryo bo'yida joylashgan?", "options": ["Tibr", "Po", "Nil", "Dunay"], "correct_index": 0, "page": 152 },
+    { "question": "Rim nechta tepalikda joylashgan?", "options": ["Yettita", "Uchta", "O'nta", "Beshta"], "correct_index": 0, "page": 152 },
+    { "question": "Daryo va botqoqlik aholiga nima xizmat qilgan?", "options": ["Qo'shni qabilalar hujumidan himoya qilgan", "Suv ichish uchun", "Sug'orish uchun", "Savdo uchun"], "correct_index": 0, "page": 152 },
+    { "question": "Rimga rivoyatga ko'ra qachon asos solingan?", "options": ["Mil. avv. 753-yilda", "Mil. avv. 509-yilda", "Mil. avv. 776-yilda", "Mil. avv. 1200-yilda"], "correct_index": 0, "page": 152 },
+    { "question": "Rimga kimlar asos solgan?", "options": ["Aka-uka Romul va Rem", "Tarkviniy", "Aleksandr", "Salavk"], "correct_index": 0, "page": 152 },
+    { "question": "Romul va Remni chaqaloq paytida nima qilishgan?", "options": ["Savatga solib, Tibr bo'yiga tashlab ketishgan", "Cho'ponga topshirishgan", "Saroyda tarbiyalashgan", "Yunonistonga jo'natishgan"], "correct_index": 0, "page": 152 },
+    { "question": "Egizaklarni kim emizib boqqan?", "options": ["Ona bo'ri", "Ona ayiq", "Cho'pon xotini", "Malika"], "correct_index": 0, "page": 152 },
+    { "question": "Rimning timsoli hisoblangan hayvon qaysi?", "options": ["Ona bo'ri", "Burgut", "Sher", "Buqa"], "correct_index": 0, "page": 152 },
+    { "question": "Kapitoliy tepaligida nima bunyod etilgan?", "options": ["Dushmanlardan himoyalanish uchun qal'a", "Ibodatxona faqat", "Bozor", "Teatr"], "correct_index": 0, "page": 152 },
+    { "question": "Ilgari rimliklar hukmdorlarini qanday tanlashgan?", "options": ["Saylashgan", "Merosga qoldirishgan", "Qur'a tashlashgan", "Urush bilan"], "correct_index": 0, "page": 153 },
+    { "question": "Ilk hukmdorlar qanday vazifalarni bajargan?", "options": ["Harbiy boshliq, sudya va kohin", "Faqat kohin", "Faqat sudya", "Faqat savdogar"], "correct_index": 0, "page": 153 },
+    { "question": "Tarkviniy nima qilgan?", "options": ["Saylangan hukmdorni o'ldirib, hokimiyatni egallagan", "Rimni tark etgan", "Respublika tuzgan", "Etrusklarni yengan"], "correct_index": 0, "page": 153 },
+    { "question": "Aholi Tarkviniyga qanday javob bergan?", "options": ["Qo'zg'olon ko'tarib, uni shahardan haydab yuborgan", "Uni taxtga o'tqazgan", "Unga soliq to'lagan", "Unga taslim bo'lgan"], "correct_index": 0, "page": 153 },
+    { "question": "Aholi qanday boshqaruv shakliga o'tishga qaror qilgan?", "options": ["Hokimiyat bir kishi qo'lida jamlanmaydigan shaklga", "Podsholikka", "Ruhoniylar hukmronligiga", "Harbiy diktaturaga"], "correct_index": 0, "page": 153 },
+    { "question": "Rim respublikasi qachon tashkil topgan?", "options": ["Mil. avv. 509-yilda", "Mil. avv. 753-yilda", "Mil. avv. 323-yilda", "Mil. avv. 330-yilda"], "correct_index": 0, "page": 153 }
+  ]
+}
