@@ -1,5 +1,6 @@
 const API_BASE = import.meta.env.VITE_HISTORY_API_BASE_URL || 'http://127.0.0.1:8000/api/history'
 const TOKEN_URL = import.meta.env.VITE_AUTH_TOKEN_URL || 'http://127.0.0.1:8000/api/auth/token/'
+const REGISTER_URL = import.meta.env.VITE_AUTH_REGISTER_URL || 'http://127.0.0.1:8000/api/auth/register/'
 const TOKEN_STORAGE_KEY = 'tarixchi_ai_token'
 
 export function getToken() {
@@ -26,6 +27,25 @@ export async function login(username, password) {
   const data = await res.json()
   setToken(data.token)
   return data.token
+}
+
+export async function register(username, password, firstName) {
+  const res = await fetch(REGISTER_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username, password, first_name: firstName }),
+  })
+  const body = await res.json().catch(() => ({}))
+  if (!res.ok) {
+    const first = Object.values(body).flat()[0]
+    throw new Error(typeof first === 'string' ? first : "Ro'yxatdan o'tib bo'lmadi")
+  }
+  setToken(body.token)
+  return body.token
+}
+
+export function listSubjects() {
+  return request('/subjects/')
 }
 
 async function request(path, options = {}) {
@@ -59,8 +79,8 @@ export function uploadBook(file, title) {
   return request('/books/', { method: 'POST', body: formData })
 }
 
-export function listBooks() {
-  return request('/books/')
+export function listBooks(subjectSlug) {
+  return request(subjectSlug ? `/books/?subject=${encodeURIComponent(subjectSlug)}` : '/books/')
 }
 
 export function listTopics(bookId) {

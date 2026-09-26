@@ -1,9 +1,9 @@
 import { ArrowRight, BookOpen, FileJson, FileUp, Loader2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { importBookJson, listBooks, uploadBook } from '../api/client'
-import { ErrorNote } from '../components/ui'
+import { BackLink, ErrorNote } from '../components/ui'
 
-export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
+export default function UploadPage({ subject, onBack, isTeacher, onUploaded, onOpenBook }) {
   const [books, setBooks] = useState([])
   const [file, setFile] = useState(null)
   const [title, setTitle] = useState('')
@@ -12,8 +12,8 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
   const [importMsg, setImportMsg] = useState(null)
 
   useEffect(() => {
-    listBooks().then(setBooks).catch((err) => setError(err.message))
-  }, [])
+    listBooks(subject?.slug).then(setBooks).catch((err) => setError(err.message))
+  }, [subject?.slug])
 
   async function handleImport(e) {
     const f = e.target.files?.[0]
@@ -23,7 +23,7 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
     try {
       const r = await importBookJson(f)
       setImportMsg({ ok: true, text: `Import tayyor: ${r.sections} bo'lim, ${r.topics} mavzu, ${r.questions} test savoli.` })
-      setBooks(await listBooks())
+      setBooks(await listBooks(subject?.slug))
     } catch (err) {
       setImportMsg({ text: err.message, errors: err.errors })
     }
@@ -46,18 +46,19 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
 
   return (
     <div className="rise">
+      <BackLink onClick={onBack}>Barcha fanlar</BackLink>
       <div className="mb-8">
-        <p className="eyebrow mb-2">Kutubxona</p>
-        <h1 className="font-display text-4xl font-extrabold text-ink sm:text-5xl">Darsliklar</h1>
+        <p className="eyebrow mb-2">{subject?.title || 'Kurslar'}</p>
+        <h1 className="font-display text-4xl font-extrabold text-ink sm:text-5xl">Kurslar</h1>
         <p className="mt-3 max-w-xl font-read text-lg text-ink-2">
-          {isTeacher ? 'Darslikni tanlang yoki yangisini yuklang.' : "O'qimoqchi bo'lgan darslikni tanlang."}
+          {isTeacher ? 'Kursni tanlang yoki yangisini yuklang.' : "O'qimoqchi bo'lgan kursni tanlang."}
         </p>
       </div>
 
       <ErrorNote>{error}</ErrorNote>
 
       <div className="mb-10 grid gap-4 sm:grid-cols-2">
-        {books.length === 0 && <p className="text-sm text-muted">Hozircha darsliklar yo'q.</p>}
+        {books.length === 0 && <p className="text-sm text-muted">Bu fanda hozircha kurslar yo'q.</p>}
         {books.map((b, i) => (
           <button
             key={b.id}
@@ -72,7 +73,7 @@ export default function UploadPage({ isTeacher, onUploaded, onOpenBook }) {
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block font-display text-lg font-bold leading-snug text-ink">{b.title}</span>
-                <span className="mt-1 block text-xs font-medium text-muted">O'qishni boshlash</span>
+                <span className="mt-1 block text-xs font-medium text-muted">{b.description || "O'qishni boshlash"}</span>
               </span>
               <ArrowRight className="shrink-0 text-gold transition-transform group-hover:translate-x-1" size={20} />
             </span>

@@ -1,4 +1,4 @@
-import { Landmark, LogOut } from 'lucide-react'
+import { GraduationCap, LogOut } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import {
   clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
@@ -9,18 +9,20 @@ import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
+import SubjectsPage from './pages/SubjectsPage'
 import UploadPage from './pages/UploadPage'
 
 /**
- * Tarixchi AI modulining kirish nuqtasi. ERP'ga qo'shilganda bitta route
+ * Muallim ta'lim modulining kirish nuqtasi. ERP'ga qo'shilganda bitta route
  * ostida shu komponent render qilinadi (masalan <Route path="/history-ai" element={<HistoryAIModule />} />).
  */
 export default function HistoryAIModule() {
   const [dark, toggleTheme] = useTheme()
   const [authed, setAuthed] = useState(Boolean(getToken()))
   const [me, setMe] = useState(null)
-  const [step, setStep] = useState('upload') // upload | topics | lesson | topicTest | exam
+  const [step, setStep] = useState('subjects') // subjects | upload (kurslar) | topics | lesson | topicTest | sectionExam | exam
   const [book, setBook] = useState(null)
+  const [subject, setSubject] = useState(null)
   const [topics, setTopics] = useState([])
   const [sections, setSections] = useState([])
   const [activeSection, setActiveSection] = useState(null)
@@ -42,7 +44,8 @@ export default function HistoryAIModule() {
     clearToken()
     setMe(null)
     setBook(null)
-    setStep('upload')
+    setStep('subjects')
+    setSubject(null)
     setAuthed(false)
   }
 
@@ -72,15 +75,15 @@ export default function HistoryAIModule() {
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
           <button
             type="button"
-            onClick={() => setStep('upload')}
+            onClick={() => setStep('subjects')}
             className="flex items-center gap-2.5 text-left"
             aria-label="Bosh sahifa"
           >
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-brand-ink">
-              <Landmark size={18} />
+              <GraduationCap size={18} />
             </span>
             <span className="font-display text-lg font-bold leading-none text-ink">
-              Tarixchi <span className="text-brand">AI</span>
+              Muallim
             </span>
           </button>
           <div className="flex items-center gap-2">
@@ -98,8 +101,14 @@ export default function HistoryAIModule() {
       </header>
 
       <main className="mx-auto max-w-5xl px-4 pb-24 pt-8">
+      {step === 'subjects' && (
+        <SubjectsPage me={me} onOpenSubject={(sub) => { setSubject(sub); setStep('upload') }} />
+      )}
+
       {step === 'upload' && (
         <UploadPage
+          subject={subject}
+          onBack={() => setStep('subjects')}
           isTeacher={isTeacher}
           onUploaded={handleUploaded}
           onOpenBook={async (b) => {
