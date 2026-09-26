@@ -1,0 +1,92 @@
+{
+  "key": "p22", "title": "22-§. Antik tarixning boshlanishi", "start_page": 85, "end_page": 87,
+  "explanation": {
+    "goals": ["Qadimgi Yunonistonning geografik o'rni va mashg'ulotlarini bilish", "Minoy va Miken sivilizatsiyalari, axeylar hamda doriylarning o'rnini tushuntirish"],
+    "blocks": [
+      { "heading": "Hudud va mashg'ulotlar", "pages": [85, 86],
+        "text": "Bolqon yarimoroli va O'rta Yer dengizi orollarini o'z ichiga olgan qadimgi yunon davlatlarining umumiy nomi Qadimgi Yunoniston deb atalgan. Shimol tarafidan tashqari, Qadimgi Yunonistonni O'rta Yer va Egey dengizlari o'rab turgan.\n\nYunoniston hududining katta qismini tog'lar egallagan. Ularning eng baland cho'qqisi - Olimp tog'i mamlakatning shimoli-sharqida joylashgan. Tog' daryolari bo'ylarida serunum dalalar joylashgan. Tog'lar o'-o'lanlar va butalar bilan qoplangan. Peloponnes yarimorolida ninabargli o'rmonlar o'sgan. Yunonlar qadim zamonlardan dehqonchilik va chorvachilik bilan shug'ullangan." },
+      { "heading": "Sivilizatsiyaning vujudga kelishi", "pages": [86],
+        "text": "Mil. avv. 2-mingyillikda ilk shahar-davlatlar vujudga kela boshlagan Krit orolidagi sivilizatsiya afsonaviy podsho Minos nomi bilan Minoy sivilizatsiyasi deb atalgan. Krit davlatining shahar, manzilgohlari zilzila, kuchli dengiz to'lqinlari va vulqon otilishi oqibatida vayron bo'lgan. Ko'p o'tmay qayta tiklangan.\n\nQit'adagi Yunoniston hududidan jangovar qabilalar bostirib kiradi, ularni axeylar deyishgan. Aynan axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazgan. Doriy qabilalarining Janubiy Yunonistonga bostirib kirishi Miken davlatining tugatilishi va Sparta davlatining vujudga kelishiga olib keladi. Mikendagi \"Arslonlar darvozasi\" va oltin niqob hamda oltin qadah Miken sivilizatsiyasidan qolgan yodgorliklardir." },
+      { "heading": "Yunonlarning dengiz sayohatlari", "pages": [87],
+        "text": "Egey dengizidagi ko'p sonli katta-kichik orollar, qulay dengiz qirg'oqlari va qo'ltiqlar yunonlar orasida dengizchilik rivoj topishiga imkon yaratib beradi. Biroq yunonlarda katta kemalar bo'lmagan, kichik eshkakli qayiqlarda esa sohildan yiroqqa suzib borish ancha xatarli bo'lgan. Bundan tashqari, yunonlarda hali kompas bo'lmagan, adashib qolishdan xavfsirab, ular ko'z ilg'aydigan qisqa masofalarga - oroldan orolga yoki sohil yaqinida suzgan. Tajribali dengizchilar esa yelkanlardan foydalanib olis yurtlarga - Misrga hamda O'rta Yer va Qora dengiz sohillaridagi shaharlarga suzib borgan." }
+    ],
+    "key_facts": [
+      { "fact": "Qadimgi Yunoniston Bolqon yarimoroli va O'rta Yer dengizi orollarini o'z ichiga olgan; hududining katta qismi tog'lar", "page": 85 },
+      { "fact": "Eng baland cho'qqi - Olimp tog'i, mamlakatning shimoli-sharqida", "page": 85 },
+      { "fact": "Krit orolidagi sivilizatsiya afsonaviy podsho Minos nomi bilan Minoy sivilizatsiyasi deb atalgan (mil. avv. 2-mingyillik)", "page": 86 },
+      { "fact": "Axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazgan", "page": 86 },
+      { "fact": "Doriylar bostirib kirib, Miken davlatini tugatgan va Sparta vujudga kelgan", "page": 86 }
+    ],
+    "summary": "Yunoniston tog'li, uni O'rta Yer va Egey dengizlari o'rab turadi; yunonlar dehqonchilik, chorvachilik va dengizchilik bilan shug'ullangan. Mil. avv. 2-mingyillikda Kritda Minoy sivilizatsiyasi paydo bo'lib, axeylar tomonidan tugatilgan; doriylar Mikenni tugatib, Spartaning vujudga kelishiga sabab bo'lgan."
+  },
+  "presentation": { "slides": [
+    { "title": "22-§. Antik tarixning boshlanishi", "bullets": [], "page": null },
+    { "title": "Qadimgi Yunoniston", "bullets": ["Bolqon yarimoroli va O'rta Yer dengizi orollari", "O'rta Yer va Egey dengizlari o'rab turadi", "Olimp tog'i - eng baland cho'qqi"], "page": 85 },
+    { "title": "Mashg'ulotlar", "bullets": ["Dehqonchilik va chorvachilik", "Dengizchilik - Egey orollari"], "page": 86 },
+    { "title": "Minoy sivilizatsiyasi", "bullets": ["Krit oroli, mil. avv. 2-mingyillik", "Afsonaviy podsho Minos", "Zilzila, vulqon, dengiz to'lqinlari vayron qilgan"], "page": 86 },
+    { "title": "Axeylar va doriylar", "bullets": ["Axeylar Minoyni tugatdi", "Doriylar Mikenni tugatib, Spartani vujudga keltirdi"], "page": 86 },
+    { "title": "Dengiz sayohatlari", "bullets": ["Kompas yo'q edi", "Sohil yaqinida yoki oroldan orolga", "Yelkan bilan Misr va Qora dengizgacha"], "page": 87 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. 2-mingyillikda Kritda Minoy sivilizatsiyasining shahar-davlatlari vujudga keladi", "page": 86 },
+      { "label": "Axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazadi", "page": 86 },
+      { "label": "Doriylar Miken davlatini tugatadi va Sparta davlati vujudga keladi", "page": 86 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Olimp tog'i", "right": "Yunonistonning eng baland cho'qqisi", "page": 85 },
+      { "left": "Krit", "right": "Minoy sivilizatsiyasi vujudga kelgan orol", "page": 86 },
+      { "left": "Minos", "right": "Minoy sivilizatsiyasiga nom bergan afsonaviy podsho", "page": 86 },
+      { "left": "Axeylar", "right": "Minoy sivilizatsiyasini barbod qilgan jangovar qabilalar", "page": 86 },
+      { "left": "Doriylar", "right": "Miken tugatilib, Sparta vujudga kelishiga sabab bo'lgan qabilalar", "page": 86 },
+      { "left": "\"Arslonlar darvozasi\"", "right": "Mikendagi mashhur yodgorlik", "page": 86 },
+      { "left": "Yelkan", "right": "Olis yurtlarga suzishga imkon bergan qurilma", "page": 87 },
+      { "left": "Egey dengizi", "right": "Yunonistonni o'rab turgan dengizlardan biri", "page": 85 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Yunonistonning eng baland cho'qqisi ____ tog'idir.", "options": ["Olimp", "Elbrus", "Ararat", "Sinay"], "correct_index": 0, "page": 85 },
+      { "question": "Krit orolidagi sivilizatsiya afsonaviy podsho ____ nomi bilan atalgan.", "options": ["Minos", "Nin", "Sargon", "Menes"], "correct_index": 0, "page": 86 },
+      { "question": "Minoy sivilizatsiyasi barbod bo'lishini ____ nihoyasiga yetkazgan.", "options": ["axeylar", "doriylar", "forslar", "misrliklar"], "correct_index": 0, "page": 86 },
+      { "question": "____ qabilalarining bostirib kirishi Miken davlatining tugatilishiga olib kelgan.", "options": ["Doriy", "Fors", "Sak", "Xett"], "correct_index": 0, "page": 86 },
+      { "question": "Yunonlarda hali ____ bo'lmagani sababli qisqa masofalarga suzgan.", "options": ["kompas", "eshkak", "yelkan", "qayiq"], "correct_index": 0, "page": 87 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Xaritadan Qadimgi Yunoniston va Krit oroli hududlarini ko'rsating.", "answer": "Qadimgi Yunoniston Bolqon yarimoroli va O'rta Yer dengizi orollarini o'z ichiga oladi; Krit oroli Egey dengizining janubida joylashgan (darslik xaritasida ko'rsatilgan).", "page": 85 },
+      { "question": "Mamlakat geografik o'rnining o'ziga xosligi nimada?", "answer": "Yunonistonni O'rta Yer va Egey dengizlari o'rab turadi, hududining katta qismini tog'lar egallagan (Olimp - eng baland cho'qqi), tog' daryolari bo'ylarida serunum dalalar bor.", "page": 85 },
+      { "question": "Geografik sharoitlar qadimgi yunon mashg'ulotlariga qanday ta'sir ko'rsatgan?", "answer": "Serunum dalalar dehqonchilik va chorvachilikni, Egey orollari, qo'ltiqlar va qirg'oqlar dengizchilikni rivojlantirgan.", "page": 86 },
+      { "question": "Qadimgi Yunonistonda ilk sivilizatsiya qayerda vujudga keldi va nima uchun u zavolga yuz tutdi?", "answer": "Krit orolida (Minoy sivilizatsiyasi). Shaharlari zilzila, kuchli dengiz to'lqinlari va vulqon otilishi oqibatida vayron bo'lgan, keyin axeylar uni nihoyasiga yetkazgan.", "page": 86 }
+    ],
+    "quiz": [
+      { "question": "Nima uchun yunonlar sohildan yiroqqa suzmagan?", "options": ["Katta kemalari yo'q, kompas yo'q, kichik qayiqda xatarli edi", "Suzishni bilmasdi", "Dengizdan qo'rqardi", "Fir'avn taqiqlagan"], "correct_index": 0, "page": 87 },
+      { "question": "Krit sivilizatsiyasi vayron bo'lgach nima bo'lgan?", "options": ["Ko'p o'tmay qayta tiklangan", "Butunlay yo'q bo'lgan", "Misr tarkibiga kirgan", "Forslarga o'tgan"], "correct_index": 0, "page": 86 },
+      { "question": "Peloponnes yarimorolida qanday o'rmonlar o'sgan?", "options": ["Ninabargli o'rmonlar", "Tropik o'rmonlar", "Zaytun bog'lari", "Palma o'rmonlari"], "correct_index": 0, "page": 85 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimgi Yunoniston nimalarni o'z ichiga olgan?", "options": ["Bolqon yarimoroli va O'rta Yer dengizi orollarini", "Faqat Krit orolini", "Kichik Osiyoni", "Italiyani"], "correct_index": 0, "page": 85 },
+    { "question": "Qadimgi Yunonistonni qaysi dengizlar o'rab turgan?", "options": ["O'rta Yer va Egey", "Qora va Kaspiy", "Qizil va Arabiston", "Boltiq va Shimoliy"], "correct_index": 0, "page": 85 },
+    { "question": "Yunoniston hududining katta qismini nima egallagan?", "options": ["Tog'lar", "Cho'llar", "Tekisliklar", "Botqoqliklar"], "correct_index": 0, "page": 85 },
+    { "question": "Yunonistonning eng baland cho'qqisi qaysi?", "options": ["Olimp tog'i", "Elbrus", "Atlas", "Ararat"], "correct_index": 0, "page": 85 },
+    { "question": "Olimp tog'i mamlakatning qaysi qismida joylashgan?", "options": ["Shimoli-sharqida", "Janubi-g'arbida", "Markazida", "Sharqida orolda"], "correct_index": 0, "page": 85 },
+    { "question": "Serunum dalalar qayerlarda joylashgan?", "options": ["Tog' daryolari bo'ylarida", "Sahroda", "Qirg'oqda faqat", "Cho'qqilarda"], "correct_index": 0, "page": 85 },
+    { "question": "Peloponnes yarimorolida qanday o'rmonlar o'sgan?", "options": ["Ninabargli", "Tropik", "Bargli faqat", "Bambuk"], "correct_index": 0, "page": 85 },
+    { "question": "Yunonlar qadim zamonlardan nima bilan shug'ullangan?", "options": ["Dehqonchilik va chorvachilik", "Faqat ovchilik", "Faqat savdo", "Konchilik"], "correct_index": 0, "page": 86 },
+    { "question": "Ilk shahar-davlatlar qachon vujudga kela boshlagan?", "options": ["Mil. avv. 2-mingyillikda", "Mil. avv. 6-mingyillikda", "Milodiy 1-asrda", "Mil. avv. 500-yilda"], "correct_index": 0, "page": 86 },
+    { "question": "Krit orolidagi sivilizatsiya qanday atalgan?", "options": ["Minoy sivilizatsiyasi", "Miken sivilizatsiyasi", "Sparta sivilizatsiyasi", "Afina sivilizatsiyasi"], "correct_index": 0, "page": 86 },
+    { "question": "Minoy sivilizatsiyasi kimning nomi bilan atalgan?", "options": ["Afsonaviy podsho Minos", "Podsho Nin", "Sargon I", "Gilgamish"], "correct_index": 0, "page": 86 },
+    { "question": "Krit davlatining shahar va manzilgohlari nimalar oqibatida vayron bo'lgan?", "options": ["Zilzila, kuchli dengiz to'lqinlari va vulqon otilishi", "Faqat urush", "Kasallik", "Qurg'oqchilik"], "correct_index": 0, "page": 86 },
+    { "question": "Vayron bo'lgan Krit shaharlari keyin nima bo'lgan?", "options": ["Ko'p o'tmay qayta tiklangan", "Tashlab ketilgan", "Bosib olingan", "Unutilgan"], "correct_index": 0, "page": 86 },
+    { "question": "Qit'adagi Yunonistondan bostirib kirgan jangovar qabilalar qanday atalgan?", "options": ["Axeylar", "Doriylar", "Ioniyaliklar", "Finikiyaliklar"], "correct_index": 0, "page": 86 },
+    { "question": "Minoy sivilizatsiyasi barbod bo'lishini kim nihoyasiga yetkazgan?", "options": ["Axeylar", "Doriylar", "Forslar", "Misrliklar"], "correct_index": 0, "page": 86 },
+    { "question": "Doriy qabilalarining bostirib kirishi nimalarga olib keldi?", "options": ["Miken davlatining tugatilishi va Sparta vujudga kelishiga", "Kritning tiklanishiga", "Afinaning qulashiga", "Misr zabt etilishiga"], "correct_index": 0, "page": 86 },
+    { "question": "Doriylar Yunonistonning qaysi qismiga bostirib kirgan?", "options": ["Janubiy Yunonistonga", "Shimoliy Yunonistonga", "Krit oroliga", "Kichik Osiyoga"], "correct_index": 0, "page": 86 },
+    { "question": "Mikendagi mashhur yodgorlik qaysi?", "options": ["\"Arslonlar darvozasi\"", "\"Ishtar darvozasi\"", "\"Shoh yo'li\"", "\"Sfinks\""], "correct_index": 0, "page": 86 },
+    { "question": "Yunonlar orasida dengizchilik rivojlanishiga nima imkon bergan?", "options": ["Egey dengizidagi orollar, qulay qirg'oqlar va qo'ltiqlar", "Katta daryolar", "Baland tog'lar", "Cho'llar"], "correct_index": 0, "page": 87 },
+    { "question": "Yunonlarda qanday muammo bor edi?", "options": ["Katta kemalar bo'lmagan, kichik eshkakli qayiqlarda uzoqqa suzish xatarli edi", "Dengizga chiqish taqiqlangan", "Dengiz muzlagan", "Kemalar bor edi, ammo suvsiz"], "correct_index": 0, "page": 87 },
+    { "question": "Yunonlar qisqa masofalarga suzishining sababi nima edi?", "options": ["Kompas yo'q, adashib qolishdan xavfsirashgan", "Vaqt yo'q edi", "Soliq to'lash", "Dushman kuzatgan"], "correct_index": 0, "page": 87 },
+    { "question": "Tajribali dengizchilar nimadan foydalanib olis yurtlarga suzgan?", "options": ["Yelkanlardan", "Kompasdan", "Traktordan", "Xaritadan faqat"], "correct_index": 0, "page": 87 },
+    { "question": "Yunon dengizchilari qayerlarga suzib borgan?", "options": ["Misrga hamda O'rta Yer va Qora dengiz sohillaridagi shaharlarga", "Hindistonga", "Amerikaga", "Xitoyga"], "correct_index": 0, "page": 87 }
+  ]
+}

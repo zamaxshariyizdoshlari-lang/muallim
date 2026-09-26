@@ -1,0 +1,80 @@
+{
+  "key": "p25", "title": "25-§. Yunon koloniyalari", "start_page": 93, "end_page": 94,
+  "explanation": {
+    "goals": ["Yunonlarning nima uchun yangi hududlarni o'zlashtirganini tushuntirish", "Koloniyalar, ellinlar va varvarlar tushunchalarini bilish"],
+    "blocks": [
+      { "heading": "Yangi hududlarni o'zlashtirish", "pages": [93],
+        "text": "Qadimgi Yunonistonda zodagonlardan qarzdor bo'lib qolgan, o'z yer va mulkiga ega bo'lmagan ko'plab odamlar o'z vatanini tark etishga, begona yurtlarda omadini sinab ko'rishga majbur bo'lgan. Olis yo'l xavfli edi. Jo'nab ketish oldidan yunonlar ma'budlarga qurbonliklar bag'ishlagan. O'zlari bilan birga loy surtilgan, qamishdan to'qilgan savatchalarda olov ham olishgan. Olov ayni mahalda ular umrbod tark etgan vatanning bir parchasi edi." },
+      { "heading": "Yunon koloniyalarining tashkil topishi", "pages": [93, 94],
+        "text": "Yunonistondan ko'chib kelganlar Sitsiliya oroli sohili va Apennin yarimoroli janubiga o'rnashdi. Ularning manzilgohlari O'rta Yer va Qora dengiz bo'ylarida ham vujudga keldi. Yunonlarning koloniyalari sekin-asta shahar-davlatlarga aylana bordi. Bu shaharlarning o'z hokimlari, qo'shinlari, qonunlari va tangalari bo'lgan. Ularda savdo-sotiq va hunarmandchilik rivojlandi.\n\nKoloniyalarning aholisi Yunoniston shaharlari - polislari bilan doimiy aloqada bo'lgan. Yunonlar o'zini yagona xalq - ellinlar deb hisoblagan, o'z vatanini esa Ellada deb atagan. Yunonlar o'zlashtirilgan yerlar tevaragida yashovchi yunon bo'lmagan xalqlarni \"varvarlar\" deb atagan.\n\nMil. avv. VIII-VI asrlarda Olviya, Xersones, Pantikapey kabi ko'pdan ko'p yunon koloniyalari tashkil topdi. Bu davr tarixda Buyuk Yunon koloniyalashtirishi nomini olgan." }
+    ],
+    "key_facts": [
+      { "fact": "Qarzdor bo'lib qolgan, yer-mulksiz yunonlar begona yurtlarda omad izlab vatanini tark etgan", "page": 93 },
+      { "fact": "Yunonlar Sitsiliya oroli sohiliga, Apennin yarimoroli janubiga, O'rta Yer va Qora dengiz bo'ylariga o'rnashgan", "page": 93 },
+      { "fact": "Koloniyalar shahar-davlatlarga aylanib, o'z hokimlari, qo'shinlari, qonunlari va tangalariga ega bo'lgan", "page": 93 },
+      { "fact": "Yunonlar o'zlarini ellinlar, vatanini Ellada, yunon bo'lmagan xalqlarni \"varvarlar\" deb atagan", "page": 94 },
+      { "fact": "Mil. avv. VIII-VI asrlarda Buyuk Yunon koloniyalashtirishi bo'lgan (Olviya, Xersones, Pantikapey)", "page": 94 }
+    ],
+    "summary": "Qarzdor va yersiz yunonlar mil. avv. VIII-VI asrlarda (Buyuk Yunon koloniyalashtirishi) Sitsiliya, Apennin janubi, O'rta Yer va Qora dengiz bo'ylariga ko'chib, Olviya, Xersones, Pantikapey kabi koloniyalar tashkil etgan; ular o'zini ellinlar, boshqa xalqlarni varvarlar deb atagan."
+  },
+  "presentation": { "slides": [
+    { "title": "25-§. Yunon koloniyalari", "bullets": [], "page": null },
+    { "title": "Nima uchun ko'chishgan?", "bullets": ["Zodagonlardan qarzdor, yer-mulksiz odamlar", "Begona yurtda omad izlash"], "page": 93 },
+    { "title": "Jo'nash oldidan", "bullets": ["Ma'budlarga qurbonlik", "Savatchadagi olov - vatanning parchasi"], "page": 93 },
+    { "title": "Koloniyalar qayerda?", "bullets": ["Sitsiliya va Apennin janubi", "O'rta Yer dengizi bo'ylari", "Qora dengiz bo'ylari"], "page": 93 },
+    { "title": "Shahar-davlatlar", "bullets": ["O'z hokimlari, qo'shini, qonunlari, tangalari", "Savdo va hunarmandchilik"], "page": 93 },
+    { "title": "Ellinlar va varvarlar", "bullets": ["Ellinlar - yagona xalq", "Ellada - vatan", "Yunon bo'lmaganlar - \"varvarlar\""], "page": 94 },
+    { "title": "Buyuk Yunon koloniyalashtirishi", "bullets": ["Mil. avv. VIII-VI asrlar", "Olviya, Xersones, Pantikapey"], "page": 94 }
+  ] },
+  "games": {
+    "matching": { "pairs": [
+      { "left": "Ellinlar", "right": "Yunonlarning o'zlarini atagan yagona xalq nomi", "page": 94 },
+      { "left": "Ellada", "right": "Yunonlar vatanini atagan nom", "page": 94 },
+      { "left": "Varvarlar", "right": "Yunon bo'lmagan xalqlar", "page": 94 },
+      { "left": "Olviya, Xersones, Pantikapey", "right": "Mil. avv. VIII-VI asrlarda tashkil topgan yunon koloniyalari", "page": 94 },
+      { "left": "Sitsiliya oroli", "right": "Yunonlar o'rnashgan sohil", "page": 93 },
+      { "left": "Savatchadagi olov", "right": "Umrbod tark etilgan vatanning bir parchasi", "page": 93 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Yunonlar o'zini yagona xalq - ____ deb hisoblagan.", "options": ["ellinlar", "varvarlar", "doriylar", "axeylar"], "correct_index": 0, "page": 94 },
+      { "question": "Yunonlar o'z vatanini ____ deb atagan.", "options": ["Ellada", "Attika", "Lakonika", "Peloponnes"], "correct_index": 0, "page": 94 },
+      { "question": "Yunon bo'lmagan xalqlarni yunonlar ____ deb atagan.", "options": ["varvarlar", "ellinlar", "ilotlar", "meteklar"], "correct_index": 0, "page": 94 },
+      { "question": "Buyuk Yunon koloniyalashtirishi mil. avv. ____ asrlarda bo'lgan.", "options": ["VIII-VI", "XX-XV", "III-I", "XII-X"], "correct_index": 0, "page": 94 },
+      { "question": "Jo'nab ketayotganda yunonlar savatchalarda ____ ham olishgan.", "options": ["olov", "suv", "g'alla", "tuproq"], "correct_index": 0, "page": 93 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Yunon koloniyalari qachon tashkil topgan?", "answer": "Mil. avv. VIII-VI asrlarda - bu davr Buyuk Yunon koloniyalashtirishi deb ataladi.", "page": 94 },
+      { "question": "Qora dengiz sohillarida qaysi shaharlar vujudga keldi?", "answer": "Olviya, Xersones, Pantikapey (darslik xaritasida Vizantiy ham ko'rsatilgan).", "page": 94 },
+      { "question": "Yunonlar o'zlarini va o'z vatanini qanday atashgan?", "answer": "O'zlarini ellinlar, vatanini Ellada deb atashgan.", "page": 94 }
+    ],
+    "quiz": [
+      { "question": "Nima uchun ko'plab yunonlar vatanini tark etgan?", "options": ["Zodagonlardan qarzdor, yer-mulksiz bo'lib qolgani uchun", "Fir'avn buyurgani uchun", "Ochlik uchun", "Dushman bosqini uchun"], "correct_index": 0, "page": 93 },
+      { "question": "Koloniyalar sekin-asta nimaga aylana borgan?", "options": ["Shahar-davlatlarga", "Qishloqlarga", "Qal'alarga", "Harbiy lagerlarga"], "correct_index": 0, "page": 93 },
+      { "question": "Koloniyalarning aholisi kim bilan doimiy aloqada bo'lgan?", "options": ["Yunoniston polislari bilan", "Fors shohi bilan", "Misr bilan", "Faqat bir-biri bilan"], "correct_index": 0, "page": 94 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimgi Yunonistonda kimlar vatanini tark etishga majbur bo'lgan?", "options": ["Zodagonlardan qarzdor bo'lgan, yer-mulksiz ko'plab odamlar", "Faqat harbiylar", "Faqat kohinlar", "Faqat savdogarlar"], "correct_index": 0, "page": 93 },
+    { "question": "Olis yo'l qanday edi?", "options": ["Xavfli", "Oson", "Qisqa", "Tekis"], "correct_index": 0, "page": 93 },
+    { "question": "Jo'nab ketish oldidan yunonlar nima qilgan?", "options": ["Ma'budlarga qurbonliklar bag'ishlagan", "Ziyofat bergan", "Xarita chizgan", "Hech narsa qilmagan"], "correct_index": 0, "page": 93 },
+    { "question": "Yunonlar savatchalarda o'zlari bilan nimani olishgan?", "options": ["Olovni", "Suvni", "Tuproqni", "Donni"], "correct_index": 0, "page": 93 },
+    { "question": "Savatchalar nimadan tayyorlangan edi?", "options": ["Loy surtilgan, qamishdan to'qilgan", "Charmdan", "Sopoldan", "Metalldan"], "correct_index": 0, "page": 93 },
+    { "question": "Olov ko'chib ketganlar uchun nimani anglatgan?", "options": ["Umrbod tark etilgan vatanning bir parchasi", "Isinish vositasi faqat", "Ma'bud belgisi", "Kemani yoritish"], "correct_index": 0, "page": 93 },
+    { "question": "Yunonistondan ko'chib kelganlar qaysi hududlarga o'rnashgan?", "options": ["Sitsiliya oroli sohili va Apennin yarimoroli janubiga", "Hindistonga", "Xitoyga", "Amerikaga"], "correct_index": 0, "page": 93 },
+    { "question": "Yunon manzilgohlari yana qayerlarda vujudga kelgan?", "options": ["O'rta Yer va Qora dengiz bo'ylarida", "Nil vodiysida", "Sahroda", "Himolayda"], "correct_index": 0, "page": 93 },
+    { "question": "Koloniyalar sekin-asta nimaga aylana bordi?", "options": ["Shahar-davlatlarga", "Qishloqlarga", "Ibodatxonalarga", "Qal'alarga"], "correct_index": 0, "page": 93 },
+    { "question": "Koloniya shaharlarining nimalari bo'lgan?", "options": ["O'z hokimlari, qo'shinlari, qonunlari va tangalari", "Faqat qo'shini", "Faqat tangasi", "Hech narsasi"], "correct_index": 0, "page": 93 },
+    { "question": "Koloniyalarda nimalar rivojlandi?", "options": ["Savdo-sotiq va hunarmandchilik", "Faqat dehqonchilik", "Faqat harbiy ish", "Faqat ilm"], "correct_index": 0, "page": 93 },
+    { "question": "Koloniyalar aholisi kim bilan doimiy aloqada bo'lgan?", "options": ["Yunoniston polislari bilan", "Fors shohi bilan", "Misr fir'avni bilan", "Hech kim bilan"], "correct_index": 0, "page": 94 },
+    { "question": "Yunonlar o'zini qanday xalq deb hisoblagan?", "options": ["Yagona xalq - ellinlar", "Alohida polis xalqlari", "Doriylar", "Varvarlar"], "correct_index": 0, "page": 94 },
+    { "question": "Yunonlar o'z vatanini nima deb atagan?", "options": ["Ellada", "Attika", "Peloponnes", "Lakonika"], "correct_index": 0, "page": 94 },
+    { "question": "Yunonlar yunon bo'lmagan xalqlarni qanday atagan?", "options": ["\"Varvarlar\"", "\"Ellinlar\"", "\"Ilotlar\"", "\"Meteklar\""], "correct_index": 0, "page": 94 },
+    { "question": "Quyidagilardan qaysi biri yunon koloniyasi?", "options": ["Olviya", "Afrosiyob", "Suza", "Memfis"], "correct_index": 0, "page": 94 },
+    { "question": "Xersones va Pantikapey qaysi dengiz bo'yida edi?", "options": ["Qora dengiz", "Kaspiy dengizi", "Qizil dengiz", "Egey dengizi"], "correct_index": 0, "page": 94 },
+    { "question": "Yunon koloniyalari qachon tashkil topgan?", "options": ["Mil. avv. VIII-VI asrlarda", "Mil. avv. XX-XV asrlarda", "Mil. avv. III-I asrlarda", "Milodiy II asrda"], "correct_index": 0, "page": 94 },
+    { "question": "Bu davr tarixda qanday nom olgan?", "options": ["Buyuk Yunon koloniyalashtirishi", "Yunon-fors urushlari davri", "Ellinizm davri", "Klassik davr"], "correct_index": 0, "page": 94 },
+    { "question": "Koloniya nomlari orasida qaysi biri darslikda keltirilgan?", "options": ["Pantikapey", "Persepol", "Baqtra", "Uruk"], "correct_index": 0, "page": 94 }
+  ]
+}
