@@ -1,0 +1,98 @@
+{
+  "key": "p16", "title": "16-§. Qadimgi Hindiston madaniyati", "start_page": 62, "end_page": 65,
+  "explanation": {
+    "goals": ["Hindistonning fan va madaniyat yutuqlarini bilish", "Buddaviylikning paydo bo'lishi va asosiy g'oyalarini tushuntirish"],
+    "blocks": [
+      { "heading": "Fan va madaniyat", "pages": [62],
+        "text": "Qadimiy Hindistonda ilm-fan, xususan, astronomiya va matematika sohalari yuksalgan. Hindlar yil hisobining 360 kundan tarkib topgan taqvimini tuzadi. Bu davrda sanash va hisoblash tizimi keng tarqaladi: hindlar juda katta raqamlarni bildiruvchi alohida belgilarni ishlatgan.\n\nShuningdek, hind astronomlari katta yutuqlarga erishgan. Ular Quyosh, yulduzlar va sayyoralar harakatini o'rgangan. Shu kuzatuvlar natijalari yil uzunligini aniqlashga imkon beradi. Oy yog'dusi uning sirtiga tushgan quyosh nurining akslanishi ekanligi ham hindlarga ma'lum bo'lgan." },
+      { "heading": "Tibbiyot, shaxmat va sanskrit", "pages": [63],
+        "text": "Qadimgi Hindistonda tibbiyot sohasi rivoj topgan. Yozma manbalarda turli xil kasalliklar va jarrohlik asboblari tilga olingan. Hindlar kasalliklarni davolashda shifobaxsh dorilardan foydalangan.\n\nHindistonda ixtiro qilingan, hindlarning o'zi \"qo'shinlarning to'rt turi\" deb ataydigan o'yin bugungi kunda butun jahonda shaxmat nomi bilan ma'lum va mashhurdir.\n\nQadimiy hind tillari asosida yangi adabiy til bo'lmish sanskrit ishlab chiqildi. \"Mahabharata\", \"Ramayana\" dostonlari hamda boshqa asarlar ana shu tilda yozilgan bo'lib, ular bugungi kunga qadar yetib kelgan." },
+      { "heading": "\"Xudolarsiz din\" - buddaviylik", "pages": [64],
+        "text": "Jamiyatdagi o'zgarishlar ta'sirida hindlarning diniy e'tiqodlari ham o'zgarib borgan. Mil. avv. VI asrda yangi buddaviylik dinining yaratilishi Budda taxallusini olgan shahzoda Siddhartha Gautama nomi bilan bog'liq.\n\nRivoyatda naql qilinishicha, shahzoda Siddhartha Gautama 20 yoshga to'lguniga qadar hukmdor otasi saroyida betashvish kun kechirgan. U kunlardan bir kuni sayr qilib yurgan paytda munkillagan, bedavo dardga yo'liqqan bir kishiga, keyin esa dafn marosimiga ko'zi tushadi. Shunday qilib, shahzoda inson azob chekishi mumkinligini va vaqti kelib vafot etishini angladi. Bu Siddhartha Gautama hayotini tamomila o'zgartirib yubordi. U saroydagi farog'atli turmushdan voz kechdi, hayot mazmunini izlab topish maqsadida dunyo bo'ylab sayohatga otlandi.\n\nBudda inson son-sanoqsiz marotaba tug'iladi va vafot etadi degan xulosaga kelgan. Keyingi hayotda odamning kim bo'lib tug'ilishi ham uning sa'y-harakatlari va amallariga bog'liq bo'ladi." },
+      { "heading": "Buddaviylik ta'limoti", "pages": [65],
+        "text": "Budda va uning izdoshlari bo'lgan buddaviylar inson yolg'on so'zlamasligi, mol-davlat to'plamasligi, tirik mavjudotlar qonini to'kmasligi kerak deb hisoblaydi. Shu sababli inson har qanday xohish-istaklaridan voz kechishi zarur, negaki har qanday xohish-istak azob-uqubatga olib keladi.\n\nAvvaliga buddaviylar e'tiqodida ma'bud bo'lmagan, chunki ular ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblagan. Ammo ko'p o'tmay Buddaning o'ziga sig'inish boshlanadi. Bugun ham buddaviylik ibodatxonalarida uning haykallarini ko'rish mumkin. Budda nilufar gulida teran o'ylarga cho'mgancha qilt etmay, qovoqlarini tushirgancha chordana qurib o'tirgan holatda tasvirlanadi." }
+    ],
+    "key_facts": [
+      { "fact": "Hindlar 360 kundan iborat yil taqvimini tuzgan va juda katta raqamlar uchun belgilar ishlatgan", "page": 62 },
+      { "fact": "Shaxmat Hindistonda ixtiro qilingan; hindlar uni \"qo'shinlarning to'rt turi\" deb atagan", "page": 63 },
+      { "fact": "Sanskrit - qadimiy hind tillari asosida ishlab chiqilgan adabiy til; \"Mahabharata\" va \"Ramayana\" shu tilda yozilgan", "page": 63 },
+      { "fact": "Mil. avv. VI asrda shahzoda Siddhartha Gautama (Budda) buddaviylik dinini yaratgan", "page": 64 },
+      { "fact": "Buddaviylar xohish-istaklar azob-uqubatga olib keladi deb hisoblagan; dastlab ular ma'budga sig'inmagan (\"xudolarsiz din\")", "page": 65 }
+    ],
+    "summary": "Qadimgi Hindistonda astronomiya, matematika va tibbiyot rivojlanib, shaxmat ixtiro qilindi, sanskrit va \"Mahabharata\", \"Ramayana\" dostonlari yaratildi. Mil. avv. VI asrda Siddhartha Gautama azob-uqubatdan qutulish yo'lini ko'rsatuvchi buddaviylikka asos soldi."
+  },
+  "presentation": { "slides": [
+    { "title": "16-§. Qadimgi Hindiston madaniyati", "bullets": [], "page": null },
+    { "title": "Fan", "bullets": ["360 kunlik taqvim", "Katta raqamlar uchun belgilar", "Quyosh, yulduz, sayyora kuzatuvlari"], "page": 62 },
+    { "title": "Tibbiyot va ixtirolar", "bullets": ["Jarrohlik asboblari, shifobaxsh dorilar", "Shaxmat - \"qo'shinlarning to'rt turi\""], "page": 63 },
+    { "title": "Sanskrit adabiyoti", "bullets": ["Yangi adabiy til - sanskrit", "\"Mahabharata\"", "\"Ramayana\""], "page": 63 },
+    { "title": "Budda", "bullets": ["Mil. avv. VI asr", "Shahzoda Siddhartha Gautama", "Azob-uqubat sababini izlagan"], "page": 64 },
+    { "title": "Buddaviylik ta'limoti", "bullets": ["Yolg'on gapirmaslik, mol-davlat to'plamaslik", "Qon to'kmaslik", "Xohish-istaklardan voz kechish"], "page": 65 }
+  ] },
+  "games": {
+    "matching": { "pairs": [
+      { "left": "360 kun", "right": "Hindlar tuzgan yil taqvimining davomiyligi", "page": 62 },
+      { "left": "Astronomlar", "right": "Oy yog'dusi quyosh nurining akslanishi ekanini bilgan", "page": 62 },
+      { "left": "Jarrohlik asboblari", "right": "Hind tibbiyoti yozma manbalarida tilga olingan", "page": 63 },
+      { "left": "Shaxmat", "right": "Hindlar \"qo'shinlarning to'rt turi\" deb atagan o'yin", "page": 63 },
+      { "left": "Sanskrit", "right": "Qadimiy hind tillari asosidagi yangi adabiy til", "page": 63 },
+      { "left": "\"Mahabharata\" va \"Ramayana\"", "right": "Sanskritda yozilgan dostonlar", "page": 63 },
+      { "left": "Siddhartha Gautama", "right": "Budda taxallusini olgan shahzoda", "page": 64 },
+      { "left": "Buddaviylik", "right": "Avvaliga ma'budsiz \"xudolarsiz din\"", "page": 65 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Hindlar yil hisobining ____ kundan iborat taqvimini tuzgan.", "options": ["300", "360", "365", "354"], "correct_index": 1, "page": 62 },
+      { "question": "Shaxmat Hindistonda ixtiro qilingan bo'lib, hindlar uni \"qo'shinlarning ____ turi\" deb atagan.", "options": ["ikki", "uch", "to'rt", "besh"], "correct_index": 2, "page": 63 },
+      { "question": "\"Mahabharata\" va \"Ramayana\" dostonlari ____ tilida yozilgan.", "options": ["sanskrit", "mixxat", "yunon", "fors"], "correct_index": 0, "page": 63 },
+      { "question": "Buddaviylik mil. avv. ____ asrda yaratilgan.", "options": ["VI", "X", "III", "I"], "correct_index": 0, "page": 64 },
+      { "question": "Siddhartha Gautama ____ yoshga qadar otasi saroyida betashvish yashagan.", "options": ["10", "20", "30", "40"], "correct_index": 1, "page": 64 },
+      { "question": "Buddaviylar har qanday xohish-istak ____ olib keladi deb hisoblagan.", "options": ["azob-uqubatga", "boylikka", "donishmandlikka", "g'alabaga"], "correct_index": 0, "page": 65 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi Hindistonda qaysi fanlar rivojlangan?", "answer": "Astronomiya, matematika va tibbiyot.", "page": 62 },
+      { "question": "Hind astronomlari qanday kuzatuvlarni amalga oshirgan?", "answer": "Ular Quyosh, yulduzlar va sayyoralar harakatini o'rgangan, natijada yil uzunligini aniqlagan; Oy yog'dusi quyosh nurining akslanishi ekanini bilgan.", "page": 62 },
+      { "question": "Hindlarning matematika va tibbiyot sohalaridagi yutuqlari haqida so'zlab bering.", "answer": "Sanash va hisoblash tizimi keng tarqalgan, juda katta raqamlar uchun belgilar ishlatilgan. Tibbiyotda turli kasalliklar va jarrohlik asboblari tilga olingan, shifobaxsh dorilardan foydalanilgan.", "page": 63 },
+      { "question": "Bugungi kunda butun jahonda mashhur bo'lgan qaysi o'yinni hindlar ixtiro qilishgan?", "answer": "Shaxmatni (hindlar uni \"qo'shinlarning to'rt turi\" deb atagan).", "page": 63 },
+      { "question": "Hindlar qaysi dinni \"xudolarsiz din\" deyishgan?", "answer": "Buddaviylikni - chunki dastlab buddaviylar e'tiqodida ma'bud bo'lmagan.", "page": 65 }
+    ],
+    "quiz": [
+      { "question": "Siddhartha Gautama hayotini nima o'zgartirib yubordi?", "options": ["Inson azob chekishi va vafot etishini anglashi", "Urushdagi mag'lubiyat", "Otasining vafoti", "Kasallikka chalinishi"], "correct_index": 0, "page": 64 },
+      { "question": "Nima uchun buddaviylar dastlab ma'budga sig'inmagan?", "options": ["Ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblagan", "Ma'budlar yo'q edi", "Kohinlar taqiqlagan", "Podsho taqiqlagan"], "correct_index": 0, "page": 65 },
+      { "question": "Budda qanday holatda tasvirlanadi?", "options": ["Nilufar gulida chordana qurib, teran o'ylarga cho'mgan", "Ot ustida", "Taxtda tik turgan", "Jang kiyimida"], "correct_index": 0, "page": 65 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimiy Hindistonda qaysi fanlar yuksalgan?", "options": ["Astronomiya va matematika", "Faqat kimyo", "Faqat geografiya", "Faqat mantiq"], "correct_index": 0, "page": 62 },
+    { "question": "Hindlar tuzgan taqvim necha kundan iborat edi?", "options": ["360 kun", "365 kun", "354 kun", "300 kun"], "correct_index": 0, "page": 62 },
+    { "question": "Hindlar juda katta raqamlarni qanday ifodalagan?", "options": ["Alohida belgilar bilan", "So'zlar bilan", "Chiziqlar bilan", "Hisoblab bo'lmagan"], "correct_index": 0, "page": 62 },
+    { "question": "Hind astronomlari nimalar harakatini o'rgangan?", "options": ["Quyosh, yulduzlar va sayyoralar", "Faqat Oy", "Faqat kometalar", "Faqat Quyosh"], "correct_index": 0, "page": 62 },
+    { "question": "Astronomik kuzatuvlar nimani aniqlashga imkon bergan?", "options": ["Yil uzunligini", "Dengiz yo'nalishini", "Ekin turini", "Soliq miqdorini"], "correct_index": 0, "page": 62 },
+    { "question": "Oy yog'dusi hindlarga qanday ma'lum bo'lgan?", "options": ["Quyosh nurining akslanishi sifatida", "Oyning o'z nuri sifatida", "Xudo nuri sifatida", "Yulduz nuri sifatida"], "correct_index": 0, "page": 62 },
+    { "question": "Qadimgi Hindistonda tibbiyot haqida yozma manbalarda nimalar tilga olingan?", "options": ["Turli kasalliklar va jarrohlik asboblari", "Faqat dorilar narxi", "Faqat shifokorlar ismi", "Faqat kasalxonalar"], "correct_index": 0, "page": 63 },
+    { "question": "Hindlar kasalliklarni davolashda nimadan foydalangan?", "options": ["Shifobaxsh dorilardan", "Faqat duodan", "Faqat suvdan", "Faqat tuzdan"], "correct_index": 0, "page": 63 },
+    { "question": "Hindistonda ixtiro qilingan qaysi o'yin bugun butun jahonda mashhur?", "options": ["Shaxmat", "Nard", "Domino", "Shashka"], "correct_index": 0, "page": 63 },
+    { "question": "Hindlar shaxmatni qanday atagan?", "options": ["\"Qo'shinlarning to'rt turi\"", "\"Shoh o'yini\"", "\"Aql sinovi\"", "\"Fil jangi\""], "correct_index": 0, "page": 63 },
+    { "question": "Sanskrit nima?", "options": ["Qadimiy hind tillari asosida ishlab chiqilgan yangi adabiy til", "Hind daryosi nomi", "Kasta nomi", "Ibodatxona turi"], "correct_index": 0, "page": 63 },
+    { "question": "Quyidagi dostonlardan qaysi biri sanskrit tilida yozilgan?", "options": ["\"Mahabharata\"", "\"Gilgamish\"", "\"Iliada\"", "\"Avesto\""], "correct_index": 0, "page": 63 },
+    { "question": "\"Ramayana\" nima?", "options": ["Sanskritda yozilgan doston", "Shahar nomi", "Ma'bud nomi", "O'yin nomi"], "correct_index": 0, "page": 63 },
+    { "question": "Hindlarning diniy e'tiqodlari nima ta'sirida o'zgarib borgan?", "options": ["Jamiyatdagi o'zgarishlar ta'sirida", "Bosqinlar ta'sirida", "Iqlim o'zgarishi ta'sirida", "Savdo ta'sirida"], "correct_index": 0, "page": 64 },
+    { "question": "Buddaviylik dini qachon yaratilgan?", "options": ["Mil. avv. VI asrda", "Mil. avv. XVIII asrda", "Milodiy I asrda", "Mil. avv. III asrda"], "correct_index": 0, "page": 64 },
+    { "question": "Buddaviylik dinini kim yaratgan?", "options": ["Shahzoda Siddhartha Gautama", "Brahma", "Indra", "Ganesha"], "correct_index": 0, "page": 64 },
+    { "question": "\"Budda\" nima?", "options": ["Siddhartha Gautamaning taxallusi", "Shahar nomi", "Tog' nomi", "Kasta nomi"], "correct_index": 0, "page": 64 },
+    { "question": "Siddhartha Gautama 20 yoshga qadar qayerda yashagan?", "options": ["Hukmdor otasining saroyida betashvish", "Ibodatxonada", "G'orda", "Dengiz bo'yida"], "correct_index": 0, "page": 64 },
+    { "question": "Sayr paytida shahzoda nimalarni ko'rdi?", "options": ["Munkillagan kishi, bedavo dardga yo'liqqan kishi va dafn marosimini", "Urush manzarasini", "Ibodatxonani", "Bozorni"], "correct_index": 0, "page": 64 },
+    { "question": "Shahzoda ko'rgan manzaralardan nimani angladi?", "options": ["Inson azob chekishi va vaqti kelib vafot etishini", "Boylikning ahamiyatini", "Urush zarurligini", "Taxt qadrini"], "correct_index": 0, "page": 64 },
+    { "question": "Shundan keyin Siddhartha Gautama nima qildi?", "options": ["Saroy turmushidan voz kechib, hayot mazmunini izlab sayohatga otlandi", "Taxtga o'tirdi", "Qo'shin tuzdi", "Ibodatxona qurdi"], "correct_index": 0, "page": 64 },
+    { "question": "Budda insonning tug'ilishi haqida qanday xulosaga kelgan?", "options": ["Inson son-sanoqsiz marotaba tug'iladi va vafot etadi", "Inson bir marta yashaydi", "Inson yulduzga aylanadi", "Inson qaytib kelmaydi"], "correct_index": 0, "page": 64 },
+    { "question": "Keyingi hayotda odamning kim bo'lib tug'ilishi nimaga bog'liq?", "options": ["Uning sa'y-harakatlari va amallariga", "Ota-onasiga", "Tabaqasiga", "Boyligiga"], "correct_index": 0, "page": 65 },
+    { "question": "Buddaviylar insondan nimani talab qiladi?", "options": ["Yolg'on so'zlamaslik, mol-davlat to'plamaslik, tirik mavjudotlar qonini to'kmaslik", "Faqat ro'za tutish", "Ko'proq qurbonlik keltirish", "Boy bo'lish"], "correct_index": 0, "page": 65 },
+    { "question": "Buddaviylikka ko'ra inson nimadan voz kechishi zarur?", "options": ["Har qanday xohish-istaklardan", "Faqat go'shtdan", "Faqat oiladan", "Faqat mehnatdan"], "correct_index": 0, "page": 65 },
+    { "question": "Nima uchun xohish-istaklardan voz kechish kerak?", "options": ["Har qanday xohish-istak azob-uqubatga olib keladi", "U gunoh sanaladi", "Ma'bud taqiqlagan", "U qimmatga tushadi"], "correct_index": 0, "page": 65 },
+    { "question": "Avvaliga buddaviylar e'tiqodida ma'bud bo'lganmi?", "options": ["Yo'q, ma'bud bo'lmagan", "Ha, faqat Indra", "Ha, Brahma", "Ha, Quyosh"], "correct_index": 0, "page": 65 },
+    { "question": "Avvaliga ma'budsiz din nima uchun shunday bo'lgan?", "options": ["Ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblangan", "Ma'budlar qo'rqitgan", "Kohinlar yo'q edi", "Ibodatxona qurilmagan"], "correct_index": 0, "page": 65 },
+    { "question": "Keyinchalik nima boshlandi?", "options": ["Buddaning o'ziga sig'inish", "Quyoshga sig'inish", "Sigirga sig'inish", "Olovga sig'inish"], "correct_index": 0, "page": 65 },
+    { "question": "Budda qanday tasvirlanadi?", "options": ["Nilufar gulida chordana qurib, qovoqlarini tushirgan holda", "Taxtda, qo'lida qilich bilan", "Filga minib", "Tik turgan holda"], "correct_index": 0, "page": 65 }
+  ]
+}

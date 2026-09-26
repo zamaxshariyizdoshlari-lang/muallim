@@ -32,7 +32,7 @@ def tokens(text):
         before = text[:m.start()].rstrip()
         if not before or before[-1] in '.?!:(-"“':  # gap boshidagi oddiy so'z - ism emas
             continue
-        words.add(m.group(0).lower()[:5])
+        words.add(m.group(0).lower()[:4])
     return years, words
 
 

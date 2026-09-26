@@ -1,0 +1,109 @@
+{
+  "key": "p15", "title": "15-§. Qadimgi Hindistondagi ilk sivilizatsiya", "start_page": 58, "end_page": 61,
+  "explanation": {
+    "goals": ["Hindistonning tabiiy sharoiti va ilk shaharlari (Mohenjodaro, Xarappa)ni bilish", "Diniy e'tiqodlar va kasta tizimini tushuntirish"],
+    "blocks": [
+      { "heading": "Hududi va tabiiy sharoiti", "pages": [58],
+        "text": "Hindiston - Hind va Gang daryolari vodiylaridagi Osiyo qit'asining bir qismini egallagan mamlakat. Tabiiy sharoiti, issiq iqlim va daryolar dehqonchilik vujudga kelishi va rivoj topishi uchun imkoniyat yaratgan. Himolay tog'lari shimoldan keladigan sovuq shamollarni to'sib turadi. Gang vodiysidagi tropik o'rmonlar ulkan daraxtlar va rang-barang o'simliklarga boy bo'lgan." },
+      { "heading": "Hind vodiysidagi eng qadimgi shaharlar", "pages": [59],
+        "text": "Mohenjodaro va Xarappa Hind daryosi havzasining eng yirik qadimgi shaharlari edi. Ikkala shahar ham mustahkam mudofaa devorlari bilan himoyalangan, ichki qasri bo'lgan. Ko'chalar bilan biri-biridan ajratilgan mavzelardan pishiq va xom g'ishtdan qurilgan binolar (turarjoylar, omborxonalar, saroy va ibodatxonalar) topilgan. Katta va chiroyli shahar Mohenjodaro hunarmandchilik va savdo markazi bo'lgan.\n\nAholisining asosiy mashg'uloti dehqonchilik bo'lgan. Qadimgi hindlar shakarqamish, paxta o'simliklarini yetishtirgan, fillarni qo'lga o'rgatgan. Biroq mil. avv. XVIII asrdan keyin Hind daryosi vodiysi shaharlari tez-tez ro'y beruvchi toshqinlar, o'rmonlar va changalzorlar kengayishi natijasida zavolga yuz tutib, butunlay vayronaga aylanadi." },
+      { "heading": "Diniy e'tiqodlar", "pages": [59, 60],
+        "text": "Qadimgi hindlar xuddi misrliklar va bobilliklar singari tabiatni ma'budlar boshqarishiga ishonar edi. Qadimgi hind rivoyatlarida aytilishicha, Quyosh ma'budi har tongda oltin aravada osmon bo'ylab yo'lga tushadi. Quyosh tungi zulmatni parokanda qilib tashlab, odamlarga harorat va yorug'lik ulashish niyatida ufqdan bosh ko'taradi. Momaqaldiroq ma'budi Indra osmondagi suvni tutqunlikdan xalos etgach, yer yuzida qurg'oqchilik poyoniga yetadi.\n\nHindlar ayrim ma'budlarni yovvoyi hayvonlar timsolida tasavvur etishgan. Masalan, ular sig'ingan ma'budlardan biri boshi filnikiga o'xshagan donishmandlik ma'budi Ganesha bo'lgan. Sigir hindlar orasida alohida ehtiromga sazovordir. Sigir muqaddas hayvon hisoblanib, uni o'ldirish jinoyat hisoblangan.\n\nHindlar jon bir tanadan boshqasiga ko'chib o'tishiga ishongan. Ular vafot etganidan keyin odam butunlay o'lmaydi, balki boshqa bir mavjudotga aylanib, o'z tashqi qiyofasini o'zgartiradi, hayvonga, qumursqaga va o'simlikka aylanadi deb hisoblagan." },
+      { "heading": "Kastalar", "pages": [60, 61],
+        "text": "Qadimgi hindlar qanday yumushlar bilan shug'ullanishiga qarab to'rt tabaqaga ajratilgan edi. Bu tabaqalar kasta yoki varna deb atalgan, ular: kohinlar - brahmanlar (hind ruhoniylari), jangchilar - kshatriylar, dehqon, hunarmand va savdogarlar - vayshiylar, xizmatkorlar va qullar - shudralar.\n\nHindlarning e'tiqodicha, tabaqalardan har birini oliy ma'bud Brahma o'z jismining qaysidir bir qismidan dunyoga keltirgan ekan. Masalan, kohinlar uning og'zidan chiqqan, jangchilar qo'llaridan, dehqonlar qovurg'asidan, xizmatkorlar esa Brahmaning tovonidan yaratilgan deb hisoblangan. Bolalar hamisha ota-onalari tabaqasiga mansub deb topilgan. Bir tabaqadan boshqasiga o'tishning iloji bo'lmagan.\n\nTabaqalardan birortasiga mansub bo'lmaganlar esa alohida maqomga ega bo'lishgan. Bundaylarni \"chandal\", ya'ni \"hazar qilinadiganlar\" deyishgan. \"Chandallar\" kastalarga mansub odamlar bilan birga bir uyda yashay olmasdi, ular bilan bir dasturxonga o'tirish taqiqlangan. Tasodifan ularga hech kim tegib ketmasligi uchun, chandallar uzoqdan ko'rinadigan alohida kiyim kiyishlari shart edi." }
+    ],
+    "key_facts": [
+      { "fact": "Hindiston Hind va Gang daryolari vodiylarida joylashgan; Himolay tog'lari shimoldan keladigan sovuq shamollarni to'sadi", "page": 58 },
+      { "fact": "Mohenjodaro va Xarappa - Hind daryosi havzasining eng yirik qadimgi shaharlari; Mohenjodaro hunarmandchilik va savdo markazi", "page": 59 },
+      { "fact": "Mil. avv. XVIII asrdan keyin Hind vodiysi shaharlari toshqinlar va o'rmonlar kengayishi tufayli zavolga yuz tutgan", "page": 59 },
+      { "fact": "Qadimgi Hindistonda sigir muqaddas hayvon hisoblangan; hindlar jon ko'chib o'tishiga ishongan", "page": 60 },
+      { "fact": "To'rt kasta: brahmanlar (kohinlar), kshatriylar (jangchilar), vayshiylar (dehqon, hunarmand, savdogarlar), shudralar (xizmatkorlar va qullar)", "page": 60 },
+      { "fact": "Tabaqalarga kirmaganlar \"chandal\" (\"hazar qilinadiganlar\") deb atalgan", "page": 61 }
+    ],
+    "summary": "Hind va Gang vodiylarida Mohenjodaro va Xarappa kabi rejali shaharlar vujudga kelgan, ular mil. avv. XVIII asrdan keyin toshqinlar tufayli vayron bo'lgan. Hindlar ko'p ma'budga ishongan, sigirni muqaddas bilgan va jamiyat to'rt kastaga bo'lingan."
+  },
+  "presentation": { "slides": [
+    { "title": "15-§. Qadimgi Hindistondagi ilk sivilizatsiya", "bullets": [], "page": null },
+    { "title": "Tabiiy sharoit", "bullets": ["Hind va Gang daryolari vodiylari", "Issiq iqlim, dehqonchilik", "Himolay sovuq shamollarni to'sadi"], "page": 58 },
+    { "title": "Mohenjodaro va Xarappa", "bullets": ["Hind havzasining eng yirik shaharlari", "Mudofaa devori, ichki qasr", "Pishiq va xom g'isht binolar"], "page": 59 },
+    { "title": "Zavol", "bullets": ["Mil. avv. XVIII asrdan keyin", "Toshqinlar, o'rmon va changalzor kengayishi"], "page": 59 },
+    { "title": "E'tiqodlar", "bullets": ["Indra - momaqaldiroq ma'budi", "Ganesha - donishmandlik ma'budi", "Sigir - muqaddas hayvon", "Jonning ko'chib o'tishi"], "page": 60 },
+    { "title": "To'rt kasta", "bullets": ["Brahmanlar - kohinlar", "Kshatriylar - jangchilar", "Vayshiylar - dehqon, hunarmand, savdogar", "Shudralar - xizmatkor va qullar"], "page": 60 },
+    { "title": "Chandallar", "bullets": ["\"Hazar qilinadiganlar\"", "Kastalardan tashqarida"], "page": 61 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. 3-mingyillikda Hind vodiysida Mohenjodaro va Xarappa shaharlari mavjud bo'ladi", "page": 58 },
+      { "label": "Mil. avv. XVIII asrdan keyin Hind vodiysi shaharlari zavolga yuz tutib, vayronaga aylanadi", "page": 59 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Himolay", "right": "Shimoldan keladigan sovuq shamollarni to'sib turadigan tog'lar", "page": 58 },
+      { "left": "Mohenjodaro", "right": "Hunarmandchilik va savdo markazi bo'lgan katta shahar", "page": 59 },
+      { "left": "Indra", "right": "Momaqaldiroq ma'budi", "page": 60 },
+      { "left": "Ganesha", "right": "Boshi filnikiga o'xshash donishmandlik ma'budi", "page": 60 },
+      { "left": "Brahmanlar", "right": "Kohinlar - hind ruhoniylari", "page": 60 },
+      { "left": "Kshatriylar", "right": "Jangchilar", "page": 60 },
+      { "left": "Vayshiylar", "right": "Dehqon, hunarmand va savdogarlar", "page": 60 },
+      { "left": "Shudralar", "right": "Xizmatkorlar va qullar", "page": 61 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Hindiston ____ va Gang daryolari vodiylarida joylashgan.", "options": ["Hind", "Nil", "Dajla", "Frot"], "correct_index": 0, "page": 58 },
+      { "question": "Hind vodiysidagi eng yirik qadimgi shaharlar Mohenjodaro va ____ edi.", "options": ["Xarappa", "Ur", "Memfis", "Tir"], "correct_index": 0, "page": 59 },
+      { "question": "Qadimgi hindlar shakarqamish va ____ o'simliklarini yetishtirgan.", "options": ["paxta", "zaytun", "uzum", "guruch"], "correct_index": 0, "page": 59 },
+      { "question": "Momaqaldiroq ma'budi ____ edi.", "options": ["Indra", "Ganesha", "Brahma", "Quyosh"], "correct_index": 0, "page": 60 },
+      { "question": "Hindlar ____ ni muqaddas hayvon deb hisoblagan.", "options": ["sigirni", "itni", "otni", "tuyani"], "correct_index": 0, "page": 60 },
+      { "question": "Oliy ma'bud ____ tabaqalarni o'z jismining qismlaridan yaratgan.", "options": ["Brahma", "Indra", "Ganesha", "Shiva"], "correct_index": 0, "page": 61 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Xaritadan Hindistonni toping. Uning geografik o'rni, xususiyatlari haqida so'zlab bering.", "answer": "Hindiston Hind va Gang daryolari vodiylarida, Osiyo qit'asining bir qismida joylashgan. Issiq iqlim va daryolar dehqonchilikka imkon bergan, Himolay tog'lari shimoldan sovuq shamollarni to'sadi, Gang vodiysida tropik o'rmonlar bor.", "page": 58 },
+      { "question": "Nima uchun Hindiston aholisi turli tabaqalarga ajratilgan edi?", "answer": "Darslikka ko'ra, hindlar odamlar qanday yumushlar bilan shug'ullanishiga qarab to'rt tabaqaga ajratilgan; e'tiqodga ko'ra, har bir tabaqani Brahma o'z jismining turli qismidan yaratgan.", "page": 60 },
+      { "question": "Hindiston e'tiqodlari xususiyatlarini sanab bering. Ular qaysi hayvonlarga ehtirom ko'rsatishgan va nima uchun?", "answer": "Tabiatni ma'budlar boshqaradi deb ishonishgan; ayrim ma'budlar hayvon timsolida tasavvur etilgan (Ganesha - fil boshli). Sigir muqaddas hisoblanib, uni o'ldirish jinoyat bo'lgan. Jon bir tanadan boshqasiga ko'chib o'tishiga ishonishgan.", "page": 60 },
+      { "question": "Hindiston jamiyati qaysi tabaqalarga bo'lingan?", "answer": "Brahmanlar (kohinlar), kshatriylar (jangchilar), vayshiylar (dehqon, hunarmand, savdogarlar) va shudralar (xizmatkorlar, qullar).", "page": 60 },
+      { "question": "Mohenjodaro shahriga xayolan sayohat qilib, bu shahar haqida hikoya tuzing.", "answer": "Darslikka ko'ra, shahar mudofaa devori va ichki qasr bilan o'ralgan, ko'chalar bilan mavzelarga bo'lingan, pishiq va xom g'ishtdan turarjoy, omborxona, saroy va ibodatxonalar qurilgan, hunarmandchilik va savdo markazi bo'lgan.", "page": 59 }
+    ],
+    "quiz": [
+      { "question": "Hind vodiysi shaharlari nima sababdan vayron bo'lgan?", "options": ["Toshqinlar, o'rmonlar va changalzorlar kengayishi natijasida", "Fors bosqini tufayli", "Zilzila tufayli", "Odamlar ko'chib ketgani uchun"], "correct_index": 0, "page": 59 },
+      { "question": "Kasta tizimida bir tabaqadan boshqasiga o'tish mumkinmi?", "options": ["Yo'q, iloji bo'lmagan", "Ha, boylik bilan", "Ha, nikoh orqali", "Ha, kohinlar ruxsati bilan"], "correct_index": 0, "page": 61 },
+      { "question": "Chandallar kimlar?", "options": ["Tabaqalarga mansub bo'lmaganlar, \"hazar qilinadiganlar\"", "Kohinlar", "Jangchilar", "Savdogarlar"], "correct_index": 0, "page": 61 }
+    ]
+  },
+  "test": [
+    { "question": "Hindiston qaysi daryolar vodiylarida joylashgan?", "options": ["Hind va Gang", "Nil va Frot", "Dajla va Amudaryo", "Xuanxe va Yanszi"], "correct_index": 0, "page": 58 },
+    { "question": "Hindistonning tabiiy sharoiti nimaga imkon yaratgan?", "options": ["Dehqonchilik vujudga kelishi va rivojiga", "Faqat ovchilikka", "Dengizchilikka", "Konchilikka"], "correct_index": 0, "page": 58 },
+    { "question": "Himolay tog'lari Hindistonni nimadan himoya qiladi?", "options": ["Shimoldan keladigan sovuq shamollardan", "Dengiz toshqinidan", "Bosqinchilardan", "Qumli bo'ronlardan"], "correct_index": 0, "page": 58 },
+    { "question": "Gang vodiysida qanday o'rmonlar bo'lgan?", "options": ["Tropik o'rmonlar", "Ignabargli o'rmonlar", "Cho'l o'simliklari", "Zaytun bog'lari"], "correct_index": 0, "page": 58 },
+    { "question": "Hind daryosi havzasining eng yirik qadimgi shaharlari qaysilar?", "options": ["Mohenjodaro va Xarappa", "Uruk va Ur", "Memfis va Fiva", "Suza va Persepol"], "correct_index": 0, "page": 59 },
+    { "question": "Mohenjodaro va Xarappa qanday himoyalangan?", "options": ["Mustahkam mudofaa devorlari bilan, ichki qasri bo'lgan", "Xandaq bilan", "Tog'lar bilan", "Faqat daryo bilan"], "correct_index": 0, "page": 59 },
+    { "question": "Shahar mavzelari nima bilan ajratilgan?", "options": ["Ko'chalar bilan", "Devorlar bilan", "Kanallar bilan", "Daraxtlar bilan"], "correct_index": 0, "page": 59 },
+    { "question": "Binolar nimadan qurilgan?", "options": ["Pishiq va xom g'ishtdan", "Faqat toshdan", "Faqat yog'ochdan", "Faqat loydan"], "correct_index": 0, "page": 59 },
+    { "question": "Mohenjodaro qanday markaz bo'lgan?", "options": ["Hunarmandchilik va savdo markazi", "Harbiy markaz", "Diniy markaz faqat", "Ilm markazi"], "correct_index": 0, "page": 59 },
+    { "question": "Hind vodiysi aholisining asosiy mashg'uloti nima edi?", "options": ["Dehqonchilik", "Ovchilik", "Dengizchilik", "Chorvachilik faqat"], "correct_index": 0, "page": 59 },
+    { "question": "Qadimgi hindlar qaysi o'simliklarni yetishtirgan?", "options": ["Shakarqamish va paxta", "Zaytun va uzum", "Kartoshka va makkajo'xori", "Choy va kofe"], "correct_index": 0, "page": 59 },
+    { "question": "Qadimgi hindlar qaysi hayvonni qo'lga o'rgatgan?", "options": ["Fillarni", "Tuyalarni", "Otlarni", "Bug'ularni"], "correct_index": 0, "page": 59 },
+    { "question": "Hind vodiysi shaharlari qachondan keyin zavolga yuz tutdi?", "options": ["Mil. avv. XVIII asrdan keyin", "Mil. avv. XXX asrdan keyin", "Milodiy I asrdan keyin", "Mil. avv. V asrdan keyin"], "correct_index": 0, "page": 59 },
+    { "question": "Hind vodiysi shaharlari zavolining sabablaridan biri nima?", "options": ["Tez-tez ro'y beruvchi toshqinlar", "Bosqinchilarning hujumi", "Ochlik", "Yong'in"], "correct_index": 0, "page": 59 },
+    { "question": "Qadimgi hind rivoyatlariga ko'ra, Quyosh ma'budi har tongda nimada osmon bo'ylab yo'lga tushadi?", "options": ["Oltin aravada", "Kemada", "Ot ustida", "Fil ustida"], "correct_index": 0, "page": 59 },
+    { "question": "Momaqaldiroq ma'budi kim edi?", "options": ["Indra", "Ganesha", "Brahma", "Ra"], "correct_index": 0, "page": 60 },
+    { "question": "Indra osmondagi suvni tutqunlikdan xalos etgach nima bo'lgan?", "options": ["Yer yuzida qurg'oqchilik poyoniga yetgan", "Toshqin boshlangan", "Tun tugagan", "Yomg'ir to'xtagan"], "correct_index": 0, "page": 60 },
+    { "question": "Ganesha qaysi ma'bud?", "options": ["Boshi filnikiga o'xshash donishmandlik ma'budi", "Urush ma'budi", "Suv ma'budi", "O'lim ma'budi"], "correct_index": 0, "page": 60 },
+    { "question": "Hindlar qaysi hayvonni muqaddas hisoblagan?", "options": ["Sigirni", "Itni", "Mushukni", "Otni"], "correct_index": 0, "page": 60 },
+    { "question": "Sigirni o'ldirish hindlar orasida nima hisoblangan?", "options": ["Jinoyat", "Odat", "Xayrli ish", "Qurbonlik"], "correct_index": 0, "page": 60 },
+    { "question": "Hindlar jon haqida nimaga ishongan?", "options": ["Bir tanadan boshqasiga ko'chib o'tishiga", "Odam butunlay yo'q bo'lishiga", "Jon yulduzga aylanishiga", "Jon suvda qolishiga"], "correct_index": 0, "page": 60 },
+    { "question": "Qadimgi Hindistonda aholi nechta tabaqaga bo'lingan?", "options": ["To'rtta", "Uchta", "Beshta", "Oltita"], "correct_index": 0, "page": 60 },
+    { "question": "Tabaqalar boshqacha qanday atalgan?", "options": ["Kasta yoki varna", "Nom yoki nomarx", "Polis yoki demos", "Sulola yoki qabila"], "correct_index": 0, "page": 60 },
+    { "question": "Brahmanlar kimlar?", "options": ["Kohinlar - hind ruhoniylari", "Jangchilar", "Dehqonlar", "Qullar"], "correct_index": 0, "page": 60 },
+    { "question": "Kshatriylar kimlar?", "options": ["Jangchilar", "Kohinlar", "Savdogarlar", "Xizmatkorlar"], "correct_index": 0, "page": 60 },
+    { "question": "Vayshiylar kimlar?", "options": ["Dehqon, hunarmand va savdogarlar", "Kohinlar", "Jangchilar", "Qullar"], "correct_index": 0, "page": 61 },
+    { "question": "Shudralar kimlar?", "options": ["Xizmatkorlar va qullar", "Jangchilar", "Kohinlar", "Savdogarlar"], "correct_index": 0, "page": 61 },
+    { "question": "Hindlarning e'tiqodicha, tabaqalarni kim yaratgan?", "options": ["Oliy ma'bud Brahma o'z jismidan", "Indra", "Quyosh ma'budi", "Ganesha"], "correct_index": 0, "page": 61 },
+    { "question": "E'tiqodga ko'ra, kohinlar Brahmaning qaysi a'zosidan chiqqan?", "options": ["Og'zidan", "Qo'llaridan", "Qovurg'asidan", "Tovonidan"], "correct_index": 0, "page": 61 },
+    { "question": "E'tiqodga ko'ra, jangchilar Brahmaning qaysi a'zosidan yaratilgan?", "options": ["Qo'llaridan", "Og'zidan", "Tovonidan", "Boshidan"], "correct_index": 0, "page": 61 },
+    { "question": "E'tiqodga ko'ra, xizmatkorlar Brahmaning qaysi a'zosidan yaratilgan?", "options": ["Tovonidan", "Og'zidan", "Qo'llaridan", "Qovurg'asidan"], "correct_index": 0, "page": 61 },
+    { "question": "Bolalar qaysi tabaqaga mansub deb topilgan?", "options": ["Ota-onalari tabaqasiga", "O'zi tanlagan tabaqaga", "Kohinlar belgilagan tabaqaga", "Eng yuqori tabaqaga"], "correct_index": 0, "page": 61 },
+    { "question": "\"Chandal\" so'zi nimani anglatadi?", "options": ["\"Hazar qilinadiganlar\"", "\"Ezgu kishilar\"", "\"Jangchilar\"", "\"Kohinlar\""], "correct_index": 0, "page": 61 },
+    { "question": "Chandallar uchun qanday taqiqlar bo'lgan?", "options": ["Kastalar bilan bir uyda yashash va bir dasturxonga o'tirish taqiqlangan", "Dehqonchilik qilish taqiqlangan", "Savdo qilish taqiqlangan", "Ibodatxonaga kirish taqiqlangan faqat"], "correct_index": 0, "page": 61 },
+    { "question": "Chandallar nima kiyishi shart edi?", "options": ["Uzoqdan ko'rinadigan alohida kiyim", "Oq libos", "Oltin bezak", "Charm etik"], "correct_index": 0, "page": 61 }
+  ]
+}

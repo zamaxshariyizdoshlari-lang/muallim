@@ -1,0 +1,102 @@
+{
+  "key": "p13", "title": "13-§. Old Osiyo davlatlari", "start_page": 52, "end_page": 54,
+  "explanation": {
+    "goals": ["Ossuriya, Urartu, Finikiya va Falastin davlatlari haqida bilish", "Finikiya alifbosi va Bibliyaning ahamiyatini tushuntirish"],
+    "blocks": [
+      { "heading": "Ossuriya podsholigi", "pages": [52],
+        "text": "Mil. avv. 2-mingyillikda Old Osiyo hududida Ossuriya podsholigi vujudga kelgan. Qadim zamonlarda ossuriyaliklar Frot va Dajla daryolari yuqori oqimidagi (hozirgi Iroq) kichik hududni egallagan. Avval Ashshur shahri, keyin esa Nineviya shahri poytaxt bo'lgan. Aholisining asosiy mashg'ulotlari dehqonchilik va savdo-sotiq edi.\n\nOssuriyaliklar jangari xalq bo'lgan. Ular qo'shni yerlarga tez-tez hujum qilib turardi. Ossuriyaliklarning qudratli lashkari har yili yangi yerlarni zabt etishga otlanar edi. Bo'ysundirilgan xalqlar Ossuriya hukmdoriga katta miqdorda o'lpon to'lagan. Ossuriya poytaxtida ulug'vor saroylar va ibodatxonalar mavjud bo'lgan. Ashshurbanipal hukmronligi yillarida Nineviyada sopol taxtachalardan iborat yirik kutubxona jamlangan edi.\n\nAsta-sekin Ossuriya davlati zaiflashib bordi. Mil. avv. 605-yilda Ossuriya qo'shinlari Midiya va Bobil tomonidan tor-mor etilganidan keyin davlat ham zavolga yuz tutdi." },
+      { "heading": "Urartu podsholigi", "pages": [53],
+        "text": "Urartu davlati Kavkazortida, hozirgi Turkiyaning sharqiy qismida va Armaniston hududlarida joylashgan. Aholisini urartlar deyishgan. Ossuriya hujumlaridan himoyalanish zarurati Urartu davlati tashkil topishini tezlashtiradi.\n\nMil. avv. IX-VIII asr boshlarida Urartu davlati gullab-yashnadi. Tushpa shahri Urartu davlati poytaxtiga aylanadi. Urartlar bir necha marta bosqinchilik yurishlariga chiqadilar va ossuriyaliklar ustidan g'alaba qozonadilar. Ammo keyinroq ossuriyaliklar qo'shini urartlar qo'shinini tor-mor etadi. Keyinchalik Teyshebaini shahridagi qal'a ko'chmanchi skif qabilalari tomonidan ishg'ol etiladi va vayron qilib tashlanadi. Shundan keyin Urartu podsholigini Midiya bosib oladi." },
+      { "heading": "Finikiya", "pages": [54],
+        "text": "Qadim zamonlarda Finikiya O'rta Yer dengizining sharqiy qirg'og'i bo'ylab hozirgi Livan hududida va Suriyaning bir qismida joylashgan. Savdo-sotiq finikiyaliklarning asosiy mashg'ulotlaridan biri bo'lgan. Finikiyaliklar qo'shnilariga yog'och, metallar va gazlamalar sotardi. O'rta Yer dengizi sohilida Tir, Sidon, Ugarit singari yirik dengiz bo'yi shaharlari vujudga keladi.\n\nMil. avv. X asrda Finikiyada 22 undosh harfdan iborat bo'lgan alifbo yaratildi. Yunonlar ana shu alifboni o'zlashtirib oldi va ularga unli harflarni ham qo'shib qo'ydi." },
+      { "heading": "Falastin va Bibliya", "pages": [54],
+        "text": "Mil. avv. XI asrda Falastin hududida Isroil podsholigi vujudga keldi, keyinchalik u Yahudiy podsholigi bilan birlashdi. Yahudiy podsholigi Bobil podsholigi tomonidan bosib olindi.\n\nQadimiy yahudiylarning afsonalari diniy kitoblarga yozib borilgan. Bu kitoblar to'plami Bibliyaga jamlangan, bu so'z yunonchada \"kitob\" degan ma'noni anglatadi. Bibliyada olam, yer yuzidagi ilk odamlar - Odam Ato va Momo Havoning yaratilishi, yer yuzini to'fon bosishi haqida va boshqa rivoyatlar mavjud." }
+    ],
+    "key_facts": [
+      { "fact": "Ossuriya poytaxti avval Ashshur, keyin Nineviya bo'lgan; Ashshurbanipal davrida Nineviyada sopol taxtachalardan yirik kutubxona to'plangan", "page": 52 },
+      { "fact": "Mil. avv. 605-yilda Ossuriya Midiya va Bobil tomonidan tor-mor etilgan", "page": 52 },
+      { "fact": "Urartu davlati Kavkazortida joylashgan, poytaxti Tushpa; uni oxir-oqibat Midiya bosib olgan", "page": 53 },
+      { "fact": "Finikiya shaharlari: Tir, Sidon, Ugarit; mil. avv. X asrda 22 undosh harfli alifbo yaratilgan", "page": 54 },
+      { "fact": "Bibliya - qadimiy yahudiy diniy kitoblari to'plami; \"kitob\" ma'nosini bildiradi", "page": 54 }
+    ],
+    "summary": "Old Osiyoda Ossuriya jangari davlat bo'lib, mil. avv. 605-yilda Midiya va Bobil tomonidan yengilgan; Urartu Ossuriyaga qarshi yuksalib, Midiya tomonidan bosib olingan. Finikiyaliklar dengiz savdosi bilan shug'ullanib, 22 harfli alifbo yaratgan; yahudiy afsonalari Bibliyaga jamlangan."
+  },
+  "presentation": { "slides": [
+    { "title": "13-§. Old Osiyo davlatlari", "bullets": [], "page": null },
+    { "title": "Ossuriya", "bullets": ["Mil. avv. 2-mingyillik", "Poytaxt: Ashshur, keyin Nineviya", "Jangari xalq, o'lpon olgan"], "page": 52 },
+    { "title": "Ossuriya zavoli", "bullets": ["Ashshurbanipal kutubxonasi (Nineviya)", "Mil. avv. 605-yil: Midiya va Bobil yengdi"], "page": 52 },
+    { "title": "Urartu", "bullets": ["Kavkazorti, poytaxt Tushpa", "Mil. avv. IX-VIII asr boshlarida gullagan", "Skiflar va Midiya tomonidan tugatilgan"], "page": 53 },
+    { "title": "Finikiya", "bullets": ["Hozirgi Livan", "Tir, Sidon, Ugarit", "Mil. avv. X asr: 22 undosh harfli alifbo"], "page": 54 },
+    { "title": "Falastin", "bullets": ["Mil. avv. XI asr: Isroil podsholigi", "Yahudiy podsholigi Bobil tomonidan bosib olindi", "Bibliya - \"kitob\""], "page": 54 }
+  ] },
+  "games": {
+    "timeline": { "items": [
+      { "label": "Mil. avv. 2-mingyillikda Ossuriya podsholigi vujudga keladi", "page": 52 },
+      { "label": "Mil. avv. XI asrda Falastinda Isroil podsholigi paydo bo'ladi", "page": 54 },
+      { "label": "Mil. avv. X asrda Finikiyada 22 harfli alifbo yaratiladi", "page": 54 },
+      { "label": "Mil. avv. IX-VIII asr boshlarida Urartu davlati gullab-yashnaydi", "page": 53 },
+      { "label": "Mil. avv. 605-yilda Ossuriya Midiya va Bobil tomonidan tor-mor etiladi", "page": 52 }
+    ] },
+    "matching": { "pairs": [
+      { "left": "Ashshur va Nineviya", "right": "Ossuriya poytaxtlari", "page": 52 },
+      { "left": "Ashshurbanipal", "right": "Nineviyada sopol taxtachali kutubxona to'plagan davr hukmdori", "page": 52 },
+      { "left": "Tushpa", "right": "Urartu davlati poytaxti", "page": 53 },
+      { "left": "Teyshebaini", "right": "Ko'chmanchi skif qabilalari ishg'ol qilib vayron qilgan urartlar qal'asi", "page": 53 },
+      { "left": "Tir, Sidon, Ugarit", "right": "Finikiyaning dengiz bo'yi shaharlari", "page": 54 },
+      { "left": "22 undosh harf", "right": "Finikiya alifbosi", "page": 54 },
+      { "left": "Bibliya", "right": "Yunoncha \"kitob\" - yahudiy diniy kitoblari to'plami", "page": 54 },
+      { "left": "Yahudiy podsholigi", "right": "Bobil tomonidan bosib olingan davlat", "page": 54 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Ossuriya poytaxti avval Ashshur, keyin ____ shahri bo'lgan.", "options": ["Nineviya", "Bobil", "Tushpa", "Tir"], "correct_index": 0, "page": 52 },
+      { "question": "Ossuriya mil. avv. ____-yilda Midiya va Bobil tomonidan tor-mor etilgan.", "options": ["705", "605", "505", "405"], "correct_index": 1, "page": 52 },
+      { "question": "Urartu davlatining poytaxti ____ shahri edi.", "options": ["Tushpa", "Ashshur", "Ugarit", "Sidon"], "correct_index": 0, "page": 53 },
+      { "question": "Urartu podsholigini oxir-oqibat ____ bosib oldi.", "options": ["Midiya", "Misr", "Yunoniston", "Rim"], "correct_index": 0, "page": 53 },
+      { "question": "Finikiyada mil. avv. X asrda ____ undosh harfdan iborat alifbo yaratilgan.", "options": ["12", "22", "32", "42"], "correct_index": 1, "page": 54 },
+      { "question": "Bibliya so'zi yunonchada ____ degan ma'noni bildiradi.", "options": ["kitob", "xudo", "qonun", "ilm"], "correct_index": 0, "page": 54 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Old Osiyo hududida ilk davlatlar qachon vujudga kela boshladi?", "answer": "Darslikdagi ma'lumotlarga ko'ra: Ossuriya mil. avv. 2-mingyillikda, Falastinda Isroil podsholigi mil. avv. XI asrda vujudga kelgan; Finikiyada mil. avv. X asrda alifbo yaratilgan; Urartu IX-VIII asr boshlarida gullab-yashnagan.", "page": 54 },
+      { "question": "Ossuriya podsholigi haqida nimalarni bilasiz?", "answer": "Ossuriya Frot va Dajla yuqori oqimida (hozirgi Iroq) mil. avv. 2-mingyillikda vujudga kelgan; poytaxti Ashshur, keyin Nineviya; jangari xalq bo'lib, bo'ysundirilgan xalqlardan o'lpon olgan; mil. avv. 605-yilda Midiya va Bobil tomonidan tor-mor etilgan.", "page": 52 },
+      { "question": "Qaysi shaharda sopol taxtachalardan iborat eng yirik kutubxona bo'lgan?", "answer": "Nineviyada (Ashshurbanipal hukmronligi yillarida).", "page": 52 },
+      { "question": "Urartu davlatining ravnaq topishi va zavolga yuz tutishi sabablari nimada?", "answer": "Ossuriya hujumlaridan himoyalanish zarurati davlat tashkil topishini tezlashtirgan; IX-VIII asr boshlarida gullab-yashnagan. Keyin Ossuriya uni tor-mor etgan, Teyshebaini qal'asini skiflar vayron qilgan va davlatni Midiya bosib olgan.", "page": 53 },
+      { "question": "Finikiyaliklar mashg'ulotlari haqida so'zlab bering.", "answer": "Ular asosan savdo-sotiq bilan shug'ullangan: qo'shnilarga yog'och, metall va gazlama sotgan; Tir, Sidon, Ugarit dengiz bo'yi shaharlarini qurgan; 22 undosh harfli alifbo yaratgan.", "page": 54 }
+    ],
+    "quiz": [
+      { "question": "Bo'ysundirilgan xalqlar Ossuriya hukmdoriga nima to'lagan?", "options": ["Katta miqdorda o'lpon", "Faqat g'alla", "Qullar", "Hech narsa"], "correct_index": 0, "page": 52 },
+      { "question": "Yunonlar Finikiya alifbosini qanday o'zlashtirgan?", "options": ["Unli harflarni ham qo'shib", "O'zgartirmasdan", "Faqat raqamlar uchun", "Iyerogliflarga aralashtirib"], "correct_index": 0, "page": 54 },
+      { "question": "Bibliyada nimalar haqida rivoyatlar mavjud?", "options": ["Olam yaratilishi, Odam Ato va Momo Havo, to'fon", "Faqat qonunlar", "Faqat urushlar", "Faqat savdo qoidalari"], "correct_index": 0, "page": 54 }
+    ]
+  },
+  "test": [
+    { "question": "Ossuriya podsholigi qachon vujudga kelgan?", "options": ["Mil. avv. 2-mingyillikda", "Mil. avv. 4-mingyillikda", "Mil. avv. 5-asrda", "Milodiy 1-asrda"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriya qayerda joylashgan edi?", "options": ["Frot va Dajla yuqori oqimida (hozirgi Iroq)", "Nil vodiysida", "Kavkazortida", "Livanda"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriyaning dastlabki poytaxti qaysi shahar edi?", "options": ["Ashshur", "Nineviya", "Bobil", "Tushpa"], "correct_index": 0, "page": 52 },
+    { "question": "Keyinchalik Ossuriya poytaxti qaysi shahar bo'ldi?", "options": ["Nineviya", "Ashshur", "Ur", "Sidon"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriya aholisining asosiy mashg'ulotlari nima edi?", "options": ["Dehqonchilik va savdo-sotiq", "Dengizchilik", "Konchilik", "Faqat chorvachilik"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriyaliklar qanday xalq bo'lgan?", "options": ["Jangari xalq", "Tinchliksevar dehqonlar", "Dengiz savdogarlari", "Ko'chmanchi chorvadorlar"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriya qo'shini har yili nima qilishga otlanar edi?", "options": ["Yangi yerlarni zabt etishga", "Ekin ekishga", "Dam olishga", "Savdo qilishga"], "correct_index": 0, "page": 52 },
+    { "question": "Ashshurbanipal hukmronligi davrida Nineviyada nima jamlangan edi?", "options": ["Sopol taxtachalardan iborat yirik kutubxona", "Oltin xazina", "Kema flotiliyasi", "Rasadxona"], "correct_index": 0, "page": 52 },
+    { "question": "Ossuriya qachon Midiya va Bobil tomonidan tor-mor etildi?", "options": ["Mil. avv. 605-yilda", "Mil. avv. 539-yilda", "Mil. avv. 525-yilda", "Mil. avv. 331-yilda"], "correct_index": 0, "page": 52 },
+    { "question": "Urartu davlati qayerda joylashgan?", "options": ["Kavkazortida, hozirgi Turkiyaning sharqiy qismi va Armaniston hududlarida", "Misrda", "Hindistonda", "Livanda"], "correct_index": 0, "page": 53 },
+    { "question": "Urartu aholisi qanday atalgan?", "options": ["Urartlar", "Ossuriyaliklar", "Skiflar", "Midiyaliklar"], "correct_index": 0, "page": 53 },
+    { "question": "Urartu davlati tashkil topishini nima tezlashtirdi?", "options": ["Ossuriya hujumlaridan himoyalanish zarurati", "Savdo yo'llari", "Dehqonchilik", "Dengiz yaqinligi"], "correct_index": 0, "page": 53 },
+    { "question": "Urartu davlati qachon gullab-yashnadi?", "options": ["Mil. avv. IX-VIII asr boshlarida", "Mil. avv. XI asrda", "Mil. avv. III asrda", "Milodiy I asrda"], "correct_index": 0, "page": 53 },
+    { "question": "Urartu poytaxti qaysi shahar edi?", "options": ["Tushpa", "Nineviya", "Tir", "Karxemish"], "correct_index": 0, "page": 53 },
+    { "question": "Teyshebaini qal'asini kim ishg'ol qilib vayron etdi?", "options": ["Ko'chmanchi skif qabilalari", "Misrliklar", "Forslar", "Yunonlar"], "correct_index": 0, "page": 53 },
+    { "question": "Urartu podsholigini oxir-oqibat kim bosib oldi?", "options": ["Midiya", "Bobil", "Misr", "Finikiya"], "correct_index": 0, "page": 53 },
+    { "question": "Finikiya qayerda joylashgan edi?", "options": ["O'rta Yer dengizining sharqiy qirg'og'ida, hozirgi Livan hududida", "Nil bo'ylarida", "Mesopotamiya markazida", "Kavkaz tog'larida"], "correct_index": 0, "page": 54 },
+    { "question": "Finikiyaliklarning asosiy mashg'uloti nima edi?", "options": ["Savdo-sotiq", "Ovchilik", "Chorvachilik", "Konchilik"], "correct_index": 0, "page": 54 },
+    { "question": "Finikiyaliklar qo'shnilariga nimalar sotgan?", "options": ["Yog'och, metallar va gazlamalar", "Faqat don", "Faqat qullar", "Faqat tuz"], "correct_index": 0, "page": 54 },
+    { "question": "Quyidagilardan qaysi biri Finikiya shahri?", "options": ["Tir", "Uruk", "Ashshur", "Memfis"], "correct_index": 0, "page": 54 },
+    { "question": "Finikiyada mil. avv. X asrda nima yaratildi?", "options": ["22 undosh harfdan iborat alifbo", "Mixxat", "Iyeroglif", "Taqvim"], "correct_index": 0, "page": 54 },
+    { "question": "Yunonlar Finikiya alifbosiga nima qo'shdi?", "options": ["Unli harflarni", "Raqamlarni", "Belgi-rasmlarni", "Tinish belgilarini"], "correct_index": 0, "page": 54 },
+    { "question": "Falastin hududida mil. avv. XI asrda qaysi podsholik vujudga keldi?", "options": ["Isroil podsholigi", "Bobil podsholigi", "Ossuriya", "Urartu"], "correct_index": 0, "page": 54 },
+    { "question": "Yahudiy podsholigini kim bosib oldi?", "options": ["Bobil podsholigi", "Misr", "Finikiya", "Urartu"], "correct_index": 0, "page": 54 },
+    { "question": "Qadimiy yahudiylarning afsonalari qayerga jamlangan?", "options": ["Bibliyaga", "Avestoga", "Iliadaga", "Papiruslarga"], "correct_index": 0, "page": 54 },
+    { "question": "Bibliya so'zi yunonchada nimani anglatadi?", "options": ["Kitob", "Qonun", "Ilm", "Xudo"], "correct_index": 0, "page": 54 },
+    { "question": "Bibliyada quyidagilardan qaysi biri haqida so'z boradi?", "options": ["Odam Ato va Momo Havoning yaratilishi, to'fon", "Xammurapi qonunlari", "Piramidalar qurilishi", "Ossuriya yurishlari"], "correct_index": 0, "page": 54 }
+  ]
+}
