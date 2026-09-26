@@ -44,6 +44,10 @@ export async function register(username, password, firstName) {
   return body.token
 }
 
+export function getProfile() {
+  return request('/profile/')
+}
+
 export function listSubjects() {
   return request('/subjects/')
 }

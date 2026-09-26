@@ -21,6 +21,7 @@ from .serializers import (
 )
 from .services.book_exam_builder import build_book_exam
 from .services.book_import import import_book_json
+from .services import gamification
 from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.rules.exceptions import NotEnoughDataError
@@ -106,6 +107,17 @@ class MeView(APIView):
         })
 
 
+class ProfileView(APIView):
+    """O'quvchi profili: XP, daraja, ketma-ketlik, nishonlar, statistika."""
+
+    def get(self, request):
+        u = request.user
+        return Response({
+            'username': u.username, 'first_name': u.first_name, 'date_joined': u.date_joined,
+            **gamification.profile(u),
+        })
+
+
 class SubjectListView(APIView):
     """Faol fanlar ro'yxati (har birida nechta kurs borligi bilan)."""
 
@@ -176,6 +188,7 @@ class TopicTestSubmitView(APIView):
 
         score, total, details = _grade(asset.data['questions'], _read_answers(request))
         passed = total > 0 and score == total
+        xp = 0
         attempt = TestAttempt.objects.create(
             student=request.user, topic=topic, answers=_read_answers(request),
             score=score, total=total, passed=passed,
@@ -184,7 +197,11 @@ class TopicTestSubmitView(APIView):
             TopicCompletion.objects.get_or_create(
                 student=request.user, topic=topic, defaults={'attempt': attempt}
             )
-        return Response({'score': score, 'total': total, 'passed': passed, 'details': details})
+            xp = gamification.award_topic(request.user, topic)
+        return Response({
+            'score': score, 'total': total, 'passed': passed, 'details': details,
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+        })
 
 
 class BookExamByBookView(generics.RetrieveAPIView):
@@ -239,6 +256,7 @@ class BookExamSubmitView(APIView):
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers)
         passed = total > 0 and score == total
+        xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
         )
@@ -252,10 +270,12 @@ class BookExamSubmitView(APIView):
                 cert.file.save(f'certificate_{book.id}_{request.user.id}.pdf', ContentFile(pdf), save=False)
                 cert.save()
             certificate = True
+            xp = gamification.award_exam(request.user, book)
 
         return Response({
             'score': score, 'total': total, 'passed': passed,
             'details': details, 'certificate': certificate,
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
         })
 
 
@@ -426,9 +446,14 @@ class SectionExamSubmitView(APIView):
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers)
         passed = total > 0 and score == total
+        xp = 0
         TestAttempt.objects.create(
             student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,
         )
         if passed:
             SectionCompletion.objects.get_or_create(student=request.user, section=section)
-        return Response({'score': score, 'total': total, 'passed': passed, 'details': details})
+            xp = gamification.award_section(request.user, section)
+        return Response({
+            'score': score, 'total': total, 'passed': passed, 'details': details,
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+        })

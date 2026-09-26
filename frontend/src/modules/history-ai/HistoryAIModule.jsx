@@ -1,14 +1,17 @@
-import { GraduationCap, LogOut } from 'lucide-react'
+import { Flame, GraduationCap, LogOut, Star } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
-import { Link, Navigate, Outlet, Route, Routes, useNavigate, useOutletContext, useParams } from 'react-router-dom'
+import {
+  Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
+} from 'react-router-dom'
 import {
   clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
-  getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, submitBookExam, submitSectionExam,
+  getProfile, getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, submitBookExam, submitSectionExam,
   submitTopicTest,
 } from './api/client'
 import { Spinner, ThemeToggle, useTheme } from './components/ui'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
+import ProfilePage from './pages/ProfilePage'
 import SubjectsPage from './pages/SubjectsPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
@@ -50,6 +53,7 @@ export default function HistoryAIModule() {
     <Routes>
       <Route element={<Shell me={me} dark={dark} onToggleTheme={toggleTheme} onLogout={handleLogout} />}>
         <Route index element={<SubjectsRoute />} />
+        <Route path="profil" element={<ProfileRoute />} />
         <Route path="fan/:slug" element={<CoursesRoute />} />
         <Route path="kurs/:bookId" element={<BookLayout />}>
           <Route index element={<TopicsRoute />} />
@@ -65,6 +69,14 @@ export default function HistoryAIModule() {
 }
 
 function Shell({ me, dark, onToggleTheme, onLogout }) {
+  const [stats, setStats] = useState(null)
+  const location = useLocation()
+
+  // Sahifa almashganda XP/ketma-ketlik yangilanadi (test topshirilgandan keyin ham).
+  useEffect(() => {
+    getProfile().then(setStats).catch(() => {})
+  }, [location.pathname])
+
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
@@ -76,10 +88,20 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
             <span className="font-display text-lg font-bold leading-none text-ink">Muallim</span>
           </Link>
           <div className="flex items-center gap-2">
-            <span className="hidden text-sm text-muted sm:inline">
+            {stats && (
+              <Link to="/profil" className="flex items-center gap-1.5" title="Profil: XP va ketma-ketlik">
+                <span className={`chip ${stats.streak.current > 0 ? 'chip-gold' : ''}`}>
+                  <Flame size={13} /> {stats.streak.current}
+                </span>
+                <span className="chip chip-gold">
+                  <Star size={13} /> {stats.xp} XP
+                </span>
+              </Link>
+            )}
+            <Link to="/profil" className="hidden text-sm text-muted hover:text-brand sm:inline">
               {me.first_name || me.username}
               {me.is_staff && <span className="chip chip-gold ml-2">o'qituvchi</span>}
-            </span>
+            </Link>
             <ThemeToggle dark={dark} onToggle={onToggleTheme} />
             <button type="button" onClick={onLogout} className="btn btn-ghost btn-sm">
               <LogOut size={14} /> <span className="hidden sm:inline">Chiqish</span>
@@ -97,6 +119,11 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
 }
 
 /* ───────── Fanlar va kurslar ───────── */
+
+function ProfileRoute() {
+  const { me } = useOutletContext()
+  return <ProfilePage me={me} />
+}
 
 function SubjectsRoute() {
   const { me } = useOutletContext()

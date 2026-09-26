@@ -275,3 +275,19 @@ class SectionCompletion(models.Model):
 
     class Meta:
         unique_together = ('student', 'section')
+
+
+class XPEvent(models.Model):
+    """Bir martalik XP mukofoti jurnali (user + kind + ref unikal: qayta topshirish XP bermaydi)."""
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='xp_events')
+    kind = models.CharField(max_length=20)
+    ref_id = models.PositiveIntegerField()
+    points = models.PositiveIntegerField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('user', 'kind', 'ref_id')
+
+    def __str__(self):
+        return f"{self.user} +{self.points} ({self.kind})"
