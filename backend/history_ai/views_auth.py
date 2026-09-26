@@ -35,15 +35,15 @@ class RegisterView(APIView):
 
         errors = {}
         if len(username) < 3 or len(username) > 30 or not username.replace('_', '').replace('.', '').isalnum():
-            errors['username'] = "Login 3-30 belgi: harf, raqam, nuqta yoki pastki chiziq."
+            errors['username'] = "Foydalanuvchi nomi 3-30 belgi: harf, raqam, nuqta yoki pastki chiziq."
         elif User.objects.filter(username__iexact=username).exists():
-            errors['username'] = "Bu login band."
+            errors['username'] = "Bu foydalanuvchi nomi band."
         if len(password) < 8:
             errors['password'] = "Parol kamida 8 belgidan iborat bo'lsin."
         elif password.isdigit():
             errors['password'] = "Parol faqat raqamlardan iborat bo'lmasin."
         elif password.lower() == username.lower():
-            errors['password'] = "Parol loginga o'xshash bo'lmasin."
+            errors['password'] = "Parol foydalanuvchi nomiga o'xshash bo'lmasin."
         if email:
             try:
                 validate_email(email)
@@ -66,7 +66,7 @@ def _check_password(password, username=''):
     if password.isdigit():
         return "Parol faqat raqamlardan iborat bo'lmasin."
     if username and password.lower() == username.lower():
-        return "Parol loginga o'xshash bo'lmasin."
+        return "Parol foydalanuvchi nomiga o'xshash bo'lmasin."
     return None
 
 
