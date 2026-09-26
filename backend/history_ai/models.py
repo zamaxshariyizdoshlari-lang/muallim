@@ -291,3 +291,13 @@ class XPEvent(models.Model):
 
     def __str__(self):
         return f"{self.user} +{self.points} ({self.kind})"
+
+
+class ReviewAnswer(models.Model):
+    """Xatolarni takrorlash rejimida berilgan javob (savol matni kaliti bo'yicha)."""
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='review_answers')
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='review_answers')
+    qkey = models.CharField(max_length=20, db_index=True)
+    correct = models.BooleanField()
+    created_at = models.DateTimeField(auto_now_add=True)

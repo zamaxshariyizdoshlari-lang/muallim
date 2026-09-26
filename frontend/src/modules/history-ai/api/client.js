@@ -44,6 +44,22 @@ export async function register(username, password, firstName) {
   return body.token
 }
 
+export function getReview(bookId) {
+  return request(`/books/${bookId}/review/`)
+}
+
+export function answerReview(bookId, key, choice) {
+  return request(`/books/${bookId}/review/answer/`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ key, choice }),
+  })
+}
+
+export function searchBook(bookId, q) {
+  return request(`/books/${bookId}/search/?q=${encodeURIComponent(q)}`)
+}
+
 export function getProfile() {
   return request('/profile/')
 }

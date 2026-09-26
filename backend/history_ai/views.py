@@ -11,7 +11,8 @@ from rest_framework.views import APIView
 
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
-    Lesson, Page, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic, TopicCompletion,
+    Lesson, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
+    TopicCompletion,
 )
 from .permissions import IsTeacher
 from .progress import all_topics_completed, section_states, topic_states
@@ -21,7 +22,7 @@ from .serializers import (
 )
 from .services.book_exam_builder import build_book_exam
 from .services.book_import import import_book_json
-from .services import gamification
+from .services import gamification, review as review_service
 from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.rules.exceptions import NotEnoughDataError
@@ -148,6 +149,7 @@ class BookProgressView(APIView):
             'all_topics_completed': all_topics_completed(request.user, book),
             'exam_exists': BookExam.objects.filter(book=book, status=STATUS_DONE).exists(),
             'certificate': bool(cert),
+            'weak_count': len(review_service.weak_questions(request.user, book)),
         })
 
 
@@ -457,3 +459,44 @@ class SectionExamSubmitView(APIView):
             'score': score, 'total': total, 'passed': passed, 'details': details,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
         })
+
+
+class ReviewListView(APIView):
+    """Xatolarni takrorlash: talaba oxirgi marta xato qilgan savollar (to'g'ri javobsiz)."""
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        return Response({'items': review_service.public_weak(review_service.weak_questions(request.user, book))})
+
+
+class ReviewAnswerView(APIView):
+    """Takrorlashda javob berish: faqat to'g'ri/xato va bet qaytadi. To'g'ri javob XP beradi."""
+
+    def post(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        key = request.data.get('key')
+        choice = request.data.get('choice')
+        weak = {w['key']: w for w in review_service.weak_questions(request.user, book)}
+        item = weak.get(key)
+        if not item:
+            raise ValidationError({'detail': "Bu savol takrorlash ro'yxatida yo'q."})
+        correct = choice == item['correct_index']
+        ra = ReviewAnswer.objects.create(user=request.user, book=book, qkey=key, correct=correct)
+        xp = gamification.award_review(request.user, ra.id) if correct else 0
+        return Response({
+            'correct': correct, 'page': item['page'], 'xp_gained': xp,
+            'remaining': len(weak) - (1 if correct else 0),
+        })
+
+
+class BookSearchView(APIView):
+    """Kurs ichida qidiruv (o'quvchi uchun faqat ochilgan mavzular)."""
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        allowed = None
+        if not request.user.is_staff:
+            states = topic_states(request.user, book.topics.all())
+            allowed = {tid for tid, st in states.items() if st['unlocked']}
+        hits = review_service.search_book(book, request.query_params.get('q', ''), allowed)
+        return Response({'results': hits})

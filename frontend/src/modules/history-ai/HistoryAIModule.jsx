@@ -12,6 +12,7 @@ import { Spinner, ThemeToggle, useTheme } from './components/ui'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
+import ReviewPage from './pages/ReviewPage'
 import SubjectsPage from './pages/SubjectsPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
@@ -61,6 +62,7 @@ export default function HistoryAIModule() {
           <Route path="mavzu/:topicId/test" element={<TopicTestRoute />} />
           <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
           <Route path="imtihon" element={<ExamRoute />} />
+          <Route path="takrorlash" element={<ReviewRoute />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
@@ -196,7 +198,21 @@ function TopicsRoute() {
       onSelect={(t) => navigate(`/kurs/${bookId}/mavzu/${t.id}`)}
       onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
       onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
+      onOpenReview={() => navigate(`/kurs/${bookId}/takrorlash`)}
+      onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
+    />
+  )
+}
+
+function ReviewRoute() {
+  const { bookId, refresh } = useOutletContext()
+  const navigate = useNavigate()
+  return (
+    <ReviewPage
+      bookId={bookId}
+      onBack={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
+      onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
     />
   )
 }

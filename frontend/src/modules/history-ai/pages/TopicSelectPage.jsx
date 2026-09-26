@@ -1,4 +1,5 @@
-import { Award, BookOpen, Check, ClipboardCheck, Lock, Trophy } from 'lucide-react'
+import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import SearchBox from '../components/SearchBox'
 import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
@@ -12,6 +13,7 @@ function splitSectionTitle(title = '', fallbackIndex = 0) {
 
 export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
+  onOpenReview, onOpenTopic,
 }) {
   const completedCount = topics.filter((t) => t.completed).length
   const sectionIds = [...new Set(topics.map((t) => t.section))]
@@ -45,6 +47,25 @@ export default function TopicSelectPage({
             </button>
           )}
         </div>
+      </div>
+
+      <div className="mb-10 space-y-4">
+        <SearchBox bookId={book.id} onOpenTopic={onOpenTopic} />
+        {!isTeacher && progress?.weak_count > 0 && (
+          <button
+            onClick={onOpenReview}
+            className="card card-hover flex w-full items-center gap-4 !border-gold/60 bg-gold-soft/50 px-5 py-4 text-left"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold text-[#241a08]">
+              <RotateCcw size={20} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-display text-lg font-bold text-ink">Xatolarni takrorlash</span>
+              <span className="text-sm text-muted">{progress.weak_count} ta savol takrorlashni kutmoqda</span>
+            </span>
+            <span className="chip chip-gold">Boshlash →</span>
+          </button>
+        )}
       </div>
 
       {/* Bo'limlar */}

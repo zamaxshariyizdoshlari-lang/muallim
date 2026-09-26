@@ -10,7 +10,7 @@ from django.utils import timezone
 
 from ..models import Certificate, SectionCompletion, TestAttempt, TopicCompletion, XPEvent
 
-POINTS = {'topic': 50, 'topic_first': 20, 'section': 150, 'exam': 300}
+POINTS = {'topic': 50, 'topic_first': 20, 'section': 150, 'exam': 300, 'review': 5}
 XP_PER_LEVEL = 200
 
 LEVEL_TITLES = ['Yangi o\'quvchi', 'Izlanuvchi', 'Bilimdon', 'Donishmand', 'Alloma', 'Ustoz']
@@ -37,6 +37,10 @@ def award_section(user, section):
 
 def award_exam(user, book):
     return _award(user, 'exam', book.id, POINTS['exam'])
+
+
+def award_review(user, review_answer_id):
+    return _award(user, 'review', review_answer_id, POINTS['review'])
 
 
 def total_xp(user):
