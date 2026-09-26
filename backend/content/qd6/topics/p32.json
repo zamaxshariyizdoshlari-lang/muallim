@@ -1,0 +1,89 @@
+{
+  "key": "p32", "title": "32-§. Qadimgi Yunoniston afsonalari", "start_page": 111, "end_page": 113,
+  "explanation": {
+    "goals": ["Afsonalarda haqiqat va uydirmani ajratish", "Yunon xudolari va afsonaviy qahramonlarni bilish"],
+    "blocks": [
+      { "heading": "Afsonalar: haqiqat va uydirma", "pages": [111],
+        "text": "Afsonalar (yunon tilida \"mif\") yunonlar tarixidagi qadimgi davr haqida ko'p narsalarni bilishga imkon beradi. Ular olamning yaratilishi, yer yuzida hayot va odamning paydo bo'lishi, qahramonlar jasorati va dengiz sayohatlari haqida hikoya qiladi.\n\nYunon afsonalari rang-barang va qiziqarlidir. Afsonalarda aytilishicha, azalda Yer hamma tomondan dengizlar bilan o'ralgan edi. Dastlab ularning hukmdori Okean degan titan bo'lgan. Atlant degan titan ulkan osmon gumbazini yelkasida suyab turgan.\n\nYunonlarning rivoyatlari Gerakl, Axilles singari bahodir qahramonlar jasorati haqida hikoya qiladi. Ularning barchasi matonat, kuch-qudrat va aql-zakovat kabi fazilatlarga ega bo'lgan. O'n ikki jasorati tufayli Gerakl Olimp tog'idagi xudolar saltanatida faxrli o'ringa ega bo'lgan ekan.\n\nRasm izohi: qadimgi yunonlar tasavvurlari - Atlant. Topshiriq: matnni o'qib, afsonalarda haqiqat va uydirmani ajrating." },
+      { "heading": "Qadimgi yunonlarning xudolari", "pages": [112],
+        "text": "Qadimgi yunonlar ham ularning hayoti va tevarak-olam ko'zga ko'rinmas sirli kuchlarga tobe ekanligiga ishongan. Bu ko'rinmas kuchlarni yunonlar xudolar deb atadi. Xudolar ularning Yer yuzi va marhumlar saltanatidagi hayotida hukmron edi.\n\nQadimgi yunonlarning uch ilohi olamga hukmronlik qilar edi: oliy xudo deb hisoblangan Zevs - osmonda, Poseydon - dengizda, Aid - marhumlar saltanatida. Qolgan ma'budlar esa dehqonchilik va hunarmandchilik, san'at va she'riyat, muhabbat va go'zallik homiylari hisoblangan. Urush va g'alaba, adliya, uyqu va tonggi shafaq ma'budlari, shuningdek, ikkinchi darajali satirlar va nimfalar degan ma'budlar ham bo'lgan. Ular o'rmonlar, daryolar va tog'larda yashagan deb tasavvur qilingan.\n\nYunonlarning tasavvurlariga ko'ra, ma'budlar Shimoliy Yunonistondagi Olimp tog'ida yashagan. Yunonlar Olimp ma'budlarini odamlardek qizg'anchiq va shafqatsiz, kunni bazmi jamshid va o'yin-kulgida o'tkazadi, bir-biri bilan tortishadi, xohish-irodasiga qarshi borganlarni shafqatsiz jazolaydi deb hisoblagan. Shuning uchun ham yunonlar o'zlari yaratgan xudolardan qo'rqqan, ularning sharafiga ko'plab ibodatxonalar barpo etib, qurbonliklar qilgan.\n\nRasm izohlari: Olimp xudolari - Zevs, Gera, Afina, Poseydon, Aid, Artemida, Apollon, Gefest, Dionis, Afrodita, Ares, Germes. Afsonalar qahramonlari: titanlar (gigantlar); sirenalar (yarim qush, yarim ayol); kentavrlar (yarim ot, yarim odam); sikloplar (peshanasida bitta ko'zi bo'lgan bahaybat mavjudotlar)." },
+      { "heading": "Geraklning 12 jasorati", "pages": [113],
+        "text": "Sahifada Geraklning 12 jasorati rasmlarda tasvirlangan. Topshiriq: rasmlarga qarab, Geraklning 12 jasorati haqida gapirib berish.\n\nAfsonalarning ahamiyati: ular qadimgi davr, yunonlarning tabiat hodisalari va xudolar haqidagi tasavvurlarini o'rganishga imkon beradi." }
+    ],
+    "key_facts": [
+      { "fact": "\"Mif\" - yunoncha \"afsona\"; afsonalar qadimgi davr haqida ko'p narsani bilishga imkon beradi", "page": 111 },
+      { "fact": "Titan Okean dengizlar hukmdori, titan Atlant osmon gumbazini yelkasida tutib turgan", "page": 111 },
+      { "fact": "O'n ikki jasorati tufayli Gerakl Olimp tog'idagi xudolar saltanatida faxrli o'ringa ega bo'lgan", "page": 111 },
+      { "fact": "Uch ilohi olamga hukmronlik qilgan: Zevs - osmonda, Poseydon - dengizda, Aid - marhumlar saltanatida", "page": 112 },
+      { "fact": "Ma'budlar Shimoliy Yunonistondagi Olimp tog'ida yashagan deb tasavvur qilingan", "page": 112 },
+      { "fact": "Yunonlar xudolardan qo'rqib, ularga ibodatxonalar qurgan va qurbonliklar qilgan", "page": 112 }
+    ],
+    "summary": "Afsonalar (mif) qadimgi yunonlar tasavvurlarini aks ettiradi: Okean, Atlant, Gerakl va boshqalar. Zevs (osmon), Poseydon (dengiz), Aid (marhumlar saltanati) olamga hukmronlik qilgan, ma'budlar Olimp tog'ida yashagan, yunonlar ulardan qo'rqib ibodatxonalar qurgan."
+  },
+  "presentation": { "slides": [
+    { "title": "32-§. Qadimgi Yunoniston afsonalari", "bullets": [], "page": null },
+    { "title": "Afsonalar (mif)", "bullets": ["Qadimgi davr haqida bilishga imkon beradi", "Olamning yaratilishi, odamning paydo bo'lishi", "Qahramonlar jasorati, dengiz sayohatlari"], "page": 111 },
+    { "title": "Titanlar", "bullets": ["Okean - dengizlar hukmdori", "Atlant - osmon gumbazini yelkasida tutgan"], "page": 111 },
+    { "title": "Qahramonlar", "bullets": ["Gerakl, Axilles", "Matonat, kuch va aql-zakovat", "Gerakl - o'n ikki jasorat"], "page": 111 },
+    { "title": "Uch oliy ilohi", "bullets": ["Zevs - osmonda (oliy xudo)", "Poseydon - dengizda", "Aid - marhumlar saltanatida"], "page": 112 },
+    { "title": "Olimp ma'budlari", "bullets": ["Olimp tog'ida yashagan", "Odamlardek qizg'anchiq va shafqatsiz", "Yunonlar ulardan qo'rqib, qurbonliklar qilgan"], "page": 112 },
+    { "title": "Afsonaviy mavjudotlar", "bullets": ["Sirenalar - yarim qush, yarim ayol", "Kentavrlar - yarim ot, yarim odam", "Sikloplar - bitta ko'zli bahaybat"], "page": 112 }
+  ] },
+  "games": {
+    "timeline": null,
+    "matching": { "pairs": [
+      { "left": "Zevs", "right": "Osmondagi oliy xudo", "page": 112 },
+      { "left": "Poseydon", "right": "Dengiz xudosi", "page": 112 },
+      { "left": "Aid", "right": "Marhumlar saltanati xudosi", "page": 112 },
+      { "left": "Okean", "right": "Dengizlar hukmdori bo'lgan titan", "page": 111 },
+      { "left": "Atlant", "right": "Osmon gumbazini yelkasida tutgan titan", "page": 111 },
+      { "left": "Sirenalar", "right": "Yarim qush, yarim ayol", "page": 112 },
+      { "left": "Kentavrlar", "right": "Yarim ot, yarim odam", "page": 112 },
+      { "left": "Sikloplar", "right": "Peshanasida bitta ko'zi bo'lgan bahaybat mavjudotlar", "page": 112 },
+      { "left": "Olimp", "right": "Ma'budlar yashagan tog'", "page": 112 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Afsonalar yunon tilida \"____\" deyiladi.", "options": ["mif", "epos", "drama", "ode"], "correct_index": 0, "page": 111 },
+      { "question": "Osmon gumbazini yelkasida ____ degan titan suyab turgan.", "options": ["Atlant", "Okean", "Gerakl", "Axilles"], "correct_index": 0, "page": 111 },
+      { "question": "Gerakl ____ jasorati tufayli xudolar saltanatida faxrli o'ringa ega bo'lgan.", "options": ["o'n ikki", "yetti", "uch", "yigirma"], "correct_index": 0, "page": 111 },
+      { "question": "Oliy xudo deb ____ hisoblangan.", "options": ["Zevs", "Aid", "Apollon", "Ares"], "correct_index": 0, "page": 112 },
+      { "question": "Ma'budlar Shimoliy Yunonistondagi ____ tog'ida yashagan.", "options": ["Olimp", "Alp", "Ural", "Kavkaz"], "correct_index": 0, "page": 112 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi Yunoniston tarixini o'rganishda afsonalar qanday ahamiyatga ega?", "answer": "Afsonalar yunonlar tarixidagi qadimgi davr haqida ko'p narsalarni bilishga imkon beradi.", "page": 111 },
+      { "question": "Yunonlar afsonalarda tabiatning har xil hodisalarini qay tarzda tushuntirgan?", "answer": "Ularni ko'zga ko'rinmas sirli kuchlar - xudolar va ma'budlar bilan bog'lab tushuntirgan (Zevs - osmon, Poseydon - dengiz, qolganlari dehqonchilik, san'at, muhabbat va boshqalar homiylari).", "page": 112 },
+      { "question": "Yunonlar hayotida ma'budlar qanday ahamiyatga ega bo'lgan?", "answer": "Yunonlar hayoti va tevarak-olam ma'budlarga tobe deb ishongan, ulardan qo'rqib ibodatxonalar qurgan va qurbonliklar qilgan.", "page": 112 }
+    ],
+    "quiz": [
+      { "question": "Zevs qayerda hukmronlik qilgan?", "options": ["Osmonda", "Dengizda", "Marhumlar saltanatida", "Yer ostida"], "correct_index": 0, "page": 112 },
+      { "question": "Yunonlar nima uchun xudolardan qo'rqqan?", "options": ["Ularni qizg'anchiq va shafqatsiz, xohishiga qarshi borganlarni jazolaydi deb hisoblagan", "Ular ko'rinmas bo'lgani uchun faqat", "Ular urush boshlagani uchun", "Ular soliq olgani uchun"], "correct_index": 0, "page": 112 }
+    ]
+  },
+  "test": [
+    { "question": "Yunon tilida \"mif\" nimani anglatadi?", "options": ["Afsona", "Doston", "Sahna", "Qonun"], "correct_index": 0, "page": 111 },
+    { "question": "Afsonalar nimani bilishga imkon beradi?", "options": ["Yunonlar tarixidagi qadimgi davr haqida ko'p narsani", "Faqat kelajakni", "Faqat urush yillarini", "Faqat savdo yo'llarini"], "correct_index": 0, "page": 111 },
+    { "question": "Afsonalar qaysi mavzular haqida hikoya qiladi?", "options": ["Olamning yaratilishi, hayot va odamning paydo bo'lishi, qahramonlar jasorati, dengiz sayohatlari", "Faqat soliqlar", "Faqat kasalliklar", "Faqat qurilish"], "correct_index": 0, "page": 111 },
+    { "question": "Afsonalarga ko'ra, azalda Yer nima bilan o'ralgan edi?", "options": ["Hamma tomondan dengizlar bilan", "Tog'lar bilan", "Cho'llar bilan", "Muz bilan"], "correct_index": 0, "page": 111 },
+    { "question": "Dengizlarning dastlabki hukmdori kim bo'lgan?", "options": ["Titan Okean", "Poseydon", "Zevs", "Aid"], "correct_index": 0, "page": 111 },
+    { "question": "Osmon gumbazini yelkasida kim suyab turgan?", "options": ["Titan Atlant", "Titan Okean", "Gerakl", "Axilles"], "correct_index": 0, "page": 111 },
+    { "question": "Qahramonlar qanday fazilatlarga ega bo'lgan?", "options": ["Matonat, kuch-qudrat va aql-zakovat", "Boylik va shuhrat", "Ayyorlik va xiyonat", "Xudolik va o'lmaslik"], "correct_index": 0, "page": 111 },
+    { "question": "Gerakl nechta jasorat ko'rsatgan?", "options": ["O'n ikkita", "Yettita", "Uchta", "O'nta"], "correct_index": 0, "page": 111 },
+    { "question": "Gerakl jasoratlari tufayli qayerda faxrli o'ringa ega bo'lgan?", "options": ["Olimp tog'idagi xudolar saltanatida", "Sparta qo'shinida", "Troya saroyida", "Afinada"], "correct_index": 0, "page": 111 },
+    { "question": "Yunonlar xudolar deb nimani atagan?", "options": ["Hayoti va olamni boshqaradigan ko'rinmas sirli kuchlarni", "Podsholarni", "Kohinlarni", "Qahramonlarni"], "correct_index": 0, "page": 112 },
+    { "question": "Zevs qanday xudo hisoblangan?", "options": ["Oliy xudo, osmon hukmdori", "Dengiz xudosi", "Marhumlar xudosi", "Urush xudosi"], "correct_index": 0, "page": 112 },
+    { "question": "Dengizda kim hukmronlik qilgan?", "options": ["Poseydon", "Zevs", "Aid", "Apollon"], "correct_index": 0, "page": 112 },
+    { "question": "Marhumlar saltanatida kim hukmronlik qilgan?", "options": ["Aid", "Poseydon", "Zevs", "Ares"], "correct_index": 0, "page": 112 },
+    { "question": "Qolgan ma'budlar nimalarning homiylari hisoblangan?", "options": ["Dehqonchilik, hunarmandchilik, san'at, she'riyat, muhabbat va go'zallik", "Faqat urush", "Faqat dengiz", "Faqat savdo"], "correct_index": 0, "page": 112 },
+    { "question": "Satirlar va nimfalar qayerda yashagan deb tasavvur qilingan?", "options": ["O'rmonlar, daryolar va tog'larda", "Osmonda", "Dengiz tubida", "Shaharlarda"], "correct_index": 0, "page": 112 },
+    { "question": "Ma'budlar qayerda yashagan deb hisoblangan?", "options": ["Shimoliy Yunonistondagi Olimp tog'ida", "Kritda", "Troyada", "Akropolda"], "correct_index": 0, "page": 112 },
+    { "question": "Yunonlar Olimp ma'budlarini qanday tasavvur qilgan?", "options": ["Odamlardek qizg'anchiq va shafqatsiz, bazmu o'yin-kulgida yashaydigan", "Mehribon va kechirimli", "Faqat ibodat qiladigan", "Jismsiz va sokin"], "correct_index": 0, "page": 112 },
+    { "question": "Yunonlar xudolarga nima qilgan?", "options": ["Ibodatxonalar barpo etib, qurbonliklar qilgan", "Ularga qarshi urush olib borgan", "Ularni e'tiborsiz qoldirgan", "Ularni haykalga aylantirgan faqat"], "correct_index": 0, "page": 112 },
+    { "question": "Sirenalar kimlar?", "options": ["Yarim qush, yarim ayol mavjudotlar", "Yarim ot, yarim odam", "Bitta ko'zli bahaybatlar", "Gigant titanlar"], "correct_index": 0, "page": 112 },
+    { "question": "Kentavrlar kimlar?", "options": ["Yarim ot, yarim odam", "Yarim qush, yarim ayol", "Bitta ko'zli bahaybatlar", "Yarim baliq, yarim odam"], "correct_index": 0, "page": 112 },
+    { "question": "Sikloplar qanday mavjudotlar?", "options": ["Peshanasida bitta ko'zi bo'lgan bahaybat mavjudotlar", "Yarim ot, yarim odam", "Qanotli ayollar", "Ilon sochli ayollar"], "correct_index": 0, "page": 112 },
+    { "question": "Titanlar boshqacha qanday ataladi?", "options": ["Gigantlar", "Kentavrlar", "Sirenalar", "Nimfalar"], "correct_index": 0, "page": 112 },
+    { "question": "Geraklning jasoratlari sahifada qanday berilgan?", "options": ["Rasmlarda tasvirlangan", "Faqat jadvalda", "Xaritada", "Qo'shiq matnida"], "correct_index": 0, "page": 113 }
+  ]
+}

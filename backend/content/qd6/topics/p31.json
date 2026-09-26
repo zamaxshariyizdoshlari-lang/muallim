@@ -1,0 +1,84 @@
+{
+  "key": "p31", "title": "31-§. Qadimgi Yunoniston olimlari va mutafakkirlari", "start_page": 109, "end_page": 110,
+  "explanation": {
+    "goals": ["Yunon olimlari va mutafakkirlarining qarashlarini bilish", "Gerodot va Arximedning xizmatlarini tushuntirish"],
+    "blocks": [
+      { "heading": "Fan va yunon mutafakkirlari", "pages": [109],
+        "text": "Qadimgi Yunonistonda olimlarni donishmandlar, hayot murabbiylari sifatida bilishgan. Yunon mutafakkirlari olam tuzilishi va inson hayoti ma'nosini tushuntirishga harakat qilgan. Olimlar - qadimgi Yunonistonning donishmandlari.\n\nMashhur yunon faylasufi Geraklit yer yuzidagi hamma narsa olovdan kelib chiqqan deb uqtirgan. \"Bir daryoga ikki marta tushish mumkin emas\", \"Hamma narsa oqadi, hamma narsa o'zgaruvchandir\" degan mashhur hikmatlar unga tegishlidir.\n\nFrakiyalik Demokrit faylasuf Geraklitning fikriga e'tiroz bildirib, bizni qurshab turgan hamma narsa ko'zga ko'rinmaydigan mayda-mayda zarralar - atomlardan tashkil topgan degan ma'nodagi fikrni bayon etgan.\n\nYunon faylasufi Diogen \"Insonda hech qanday ehtiyojlar bo'lmasligi shart\" degan fikrni o'z ta'limotiga asos qilib oldi. Hayotdagi barcha qulayliklardan voz kechgan Diogen bir bochkada kun kechirgan. Afsonalarga ko'ra, Makedoniyalik Aleksandr undan: \"Senga qanday yordam berish mumkin?\" deb so'raganida, Diogen: \"Nariroq tur, quyoshni to'syapsan!\" - deya kinoya qilgan ekan." },
+      { "heading": "Gerodot va Arximed", "pages": [110],
+        "text": "Mil. avv. V asrda yashagan Gerodot yunon-fors urushlariga bag'ishlab \"Tarix\" deb nomlangan kitob yozgan. Shu kitob orqali birdaniga mashhur bo'lib ketgan. Qadimda Gerodotga \"tarixning otasi\" degan nom berilgan.\n\nBarcha zamonlarda olimlar ilmiy masala yechimini topgan yunon fizigi va matematigi Arximedning \"Evrika!\" (\"Topdim, topdim!\") qiyqirig'ini takrorlab yuradi.\n\nArximed yorug'likni ko'zgu orqali jamlab, Sirakuza ustiga hujum qilib kelayotgan rimliklarning kemalarini yondirib yuborgani haqida hikoya bor. Arximed richag (dastak) qonunini ishlab chiqdi va mashhur bo'lib ketgan bir iborani aytdi: \"Menga tayanch nuqtasini topib bering, Yerni o'z o'qidan chiqarib yuboraman!\"\n\nRasm izohi: Arximed tomonidan rimliklar kemalarining yondirib yuborilishi." }
+    ],
+    "key_facts": [
+      { "fact": "Geraklit hamma narsa olovdan kelib chiqqan, \"hamma narsa oqadi, o'zgaruvchandir\" degan", "page": 109 },
+      { "fact": "Demokrit hamma narsa ko'zga ko'rinmaydigan zarralar - atomlardan tashkil topgan deb hisoblagan", "page": 109 },
+      { "fact": "Diogen ehtiyojlardan voz kechib, bochkada yashagan", "page": 109 },
+      { "fact": "Gerodot yunon-fors urushlari haqida \"Tarix\" kitobini yozgan va \"tarixning otasi\" deb atalgan", "page": 110 },
+      { "fact": "Arximed richag qonunini ishlab chiqqan va \"Evrika!\" (\"Topdim!\") deb hayqirgan", "page": 110 }
+    ],
+    "summary": "Yunon mutafakkirlari olam va hayot ma'nosini tushuntirgan: Geraklit olov, Demokrit atomlar haqida o'rgatgan, Diogen bochkada yashagan. Gerodot \"Tarix\" kitobi bilan \"tarixning otasi\" bo'lgan, Arximed richag qonunini kashf etgan."
+  },
+  "presentation": { "slides": [
+    { "title": "31-§. Yunon olimlari va mutafakkirlari", "bullets": [], "page": null },
+    { "title": "Fan va donishmandlar", "bullets": ["Olimlar - donishmandlar, hayot murabbiylari", "Olam tuzilishi va hayot ma'nosini izlashgan"], "page": 109 },
+    { "title": "Geraklit", "bullets": ["Hamma narsa olovdan kelib chiqqan", "\"Hamma narsa oqadi, o'zgaruvchandir\"", "\"Bir daryoga ikki marta tushish mumkin emas\""], "page": 109 },
+    { "title": "Demokrit", "bullets": ["Frakiyalik faylasuf", "Hamma narsa atomlardan tashkil topgan"], "page": 109 },
+    { "title": "Diogen", "bullets": ["Ehtiyojlar bo'lmasligi shart", "Bochkada kun kechirgan", "Aleksandrga: \"Nariroq tur, quyoshni to'syapsan!\""], "page": 109 },
+    { "title": "Gerodot", "bullets": ["Mil. avv. V asr", "\"Tarix\" kitobi - yunon-fors urushlari", "\"Tarixning otasi\""], "page": 110 },
+    { "title": "Arximed", "bullets": ["Fizik va matematik", "\"Evrika!\" - \"Topdim!\"", "Richag qonuni", "Sirakuzada rimliklar kemalarini yondirgani haqida hikoya"], "page": 110 }
+  ] },
+  "games": {
+    "timeline": null,
+    "matching": { "pairs": [
+      { "left": "Geraklit", "right": "Hamma narsa olovdan kelib chiqqan deb uqtirgan faylasuf", "page": 109 },
+      { "left": "Demokrit", "right": "Hamma narsa atomlardan tashkil topgan degan Frakiyalik faylasuf", "page": 109 },
+      { "left": "Diogen", "right": "Bochkada kun kechirgan faylasuf", "page": 109 },
+      { "left": "Gerodot", "right": "\"Tarixning otasi\"", "page": 110 },
+      { "left": "Arximed", "right": "Richag qonunini ishlab chiqqan fizik va matematik", "page": 110 },
+      { "left": "Atom", "right": "Ko'zga ko'rinmaydigan mayda zarra", "page": 109 },
+      { "left": "Evrika!", "right": "\"Topdim, topdim!\" degan qichqiriq", "page": 110 }
+    ] },
+    "fill_blank": { "questions": [
+      { "question": "Geraklit fikricha, yer yuzidagi hamma narsa ____ dan kelib chiqqan.", "options": ["olov", "suv", "havo", "tuproq"], "correct_index": 0, "page": 109 },
+      { "question": "Demokrit hamma narsa mayda zarralar - ____ dan tashkil topgan degan.", "options": ["atomlar", "tomchilar", "donalar", "kukunlar"], "correct_index": 0, "page": 109 },
+      { "question": "Diogen bir ____ da kun kechirgan.", "options": ["bochka", "g'or", "chodir", "saroy"], "correct_index": 0, "page": 109 },
+      { "question": "Gerodot \"____\" deb nomlangan kitob yozgan.", "options": ["Tarix", "Iliada", "Antigona", "Evrika"], "correct_index": 0, "page": 110 },
+      { "question": "Arximed ____ qonunini ishlab chiqqan.", "options": ["richag", "og'irlik", "harakat", "tortishish"], "correct_index": 0, "page": 110 }
+    ] }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qadimgi yunonlar olimlarni qanday hurmat qilgan?", "answer": "Olimlarni donishmandlar va hayot murabbiylari sifatida bilishgan.", "page": 109 },
+      { "question": "Yunon mutafakkirlari qaysi masalalarni tushuntirib berishga harakat qilgan?", "answer": "Olam tuzilishi va inson hayotining ma'nosini.", "page": 109 },
+      { "question": "Yunon olimlarining kashfiyotlari va yutuqlari haqida so'zlab bering.", "answer": "Geraklit hamma narsa olovdan kelib chiqqanini, Demokrit atomlar haqidagi fikrni bayon etgan; Gerodot \"Tarix\" kitobini yozgan; Arximed richag qonunini ishlab chiqqan.", "page": 110 },
+      { "question": "Arximedning \"Evrika!\" degan iborasi ma'nosini tushuntirib bering.", "answer": "\"Evrika!\" - \"Topdim, topdim!\" degani; olimlar ilmiy masala yechimini topganida takrorlaydigan qichqiriq.", "page": 110 }
+    ],
+    "quiz": [
+      { "question": "Gerodotga qanday nom berilgan?", "options": ["Tarixning otasi", "Donishmandlar sardori", "Faylasuflar shohi", "Fan homiysi"], "correct_index": 0, "page": 110 },
+      { "question": "Diogen Aleksandrga nima deb javob bergan?", "options": ["\"Nariroq tur, quyoshni to'syapsan!\"", "\"Menga oltin ber!\"", "\"Meni himoya qil!\"", "\"Yerni ber!\""], "correct_index": 0, "page": 109 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimgi Yunonistonda olimlar kim sifatida bilingan?", "options": ["Donishmandlar, hayot murabbiylari", "Kohinlar", "Askarboshilar", "Savdogarlar"], "correct_index": 0, "page": 109 },
+    { "question": "Yunon mutafakkirlari nimani tushuntirishga harakat qilgan?", "options": ["Olam tuzilishi va inson hayoti ma'nosini", "Faqat dehqonchilik usullarini", "Urush san'atini", "Soliq tizimini"], "correct_index": 0, "page": 109 },
+    { "question": "Geraklit hamma narsa nimadan kelib chiqqan deb uqtirgan?", "options": ["Olovdan", "Suvdan", "Havodan", "Tuproqdan"], "correct_index": 0, "page": 109 },
+    { "question": "Qaysi hikmat Geraklitga tegishli?", "options": ["\"Bir daryoga ikki marta tushish mumkin emas\"", "\"Nariroq tur, quyoshni to'syapsan\"", "\"Evrika!\"", "\"Tarixning otasi\""], "correct_index": 0, "page": 109 },
+    { "question": "Geraklitning fikricha, hamma narsa qanday?", "options": ["Oqadi va o'zgaruvchandir", "Doimiy va o'zgarmasdir", "Ko'zga ko'rinmaydi", "Xudolarga tobedir"], "correct_index": 0, "page": 109 },
+    { "question": "Demokrit qayerlik edi?", "options": ["Frakiyalik", "Spartalik", "Afinalik", "Kritlik"], "correct_index": 0, "page": 109 },
+    { "question": "Demokrit nimaga e'tiroz bildirgan?", "options": ["Faylasuf Geraklitning fikriga", "Gerodotning kitobiga", "Arximedning qonuniga", "Diogenning bochkasiga"], "correct_index": 0, "page": 109 },
+    { "question": "Demokritga ko'ra, atomlar qanday zarralar?", "options": ["Ko'zga ko'rinmaydigan mayda-mayda zarralar", "Katta toshlar", "Olov uchqunlari", "Suv tomchilari"], "correct_index": 0, "page": 109 },
+    { "question": "Diogen ta'limotining asosi nima edi?", "options": ["Insonda hech qanday ehtiyojlar bo'lmasligi shart", "Boylik to'plash", "Xudolarga qurbonlik", "Urushda g'alaba qilish"], "correct_index": 0, "page": 109 },
+    { "question": "Diogen qayerda kun kechirgan?", "options": ["Bir bochkada", "Saroyda", "Ibodatxonada", "Qal'ada"], "correct_index": 0, "page": 109 },
+    { "question": "Afsonaga ko'ra, Diogendan yordam kerakmi deb kim so'ragan?", "options": ["Makedoniyalik Aleksandr", "Gerodot", "Arximed", "Demokrit"], "correct_index": 0, "page": 109 },
+    { "question": "Diogen Aleksandrning taklifiga qanday javob bergan?", "options": ["\"Nariroq tur, quyoshni to'syapsan!\"", "\"Menga saroy ber!\"", "\"Ketishga ruxsat ber!\"", "\"Yordam kerak!\""], "correct_index": 0, "page": 109 },
+    { "question": "Gerodot qaysi asrda yashagan?", "options": ["Mil. avv. V asrda", "Mil. avv. II asrda", "Milodiy V asrda", "Mil. avv. X asrda"], "correct_index": 0, "page": 110 },
+    { "question": "Gerodot qaysi voqealarga bag'ishlab kitob yozgan?", "options": ["Yunon-fors urushlariga", "Troya urushiga", "Olimpiya o'yinlariga", "Makedoniya yurishlariga"], "correct_index": 0, "page": 110 },
+    { "question": "Gerodotning kitobi qanday nomlangan?", "options": ["\"Tarix\"", "\"Iliada\"", "\"Odisseya\"", "\"Antigona\""], "correct_index": 0, "page": 110 },
+    { "question": "Gerodotga qadimda qanday nom berilgan?", "options": ["\"Tarixning otasi\"", "\"Donishmandlar shohi\"", "\"Ilm homiysi\"", "\"Kitoblar otasi\""], "correct_index": 0, "page": 110 },
+    { "question": "Arximed kim edi?", "options": ["Yunon fizigi va matematigi", "Yunon shoiri", "Yunon dramaturgi", "Yunon haykaltaroshi"], "correct_index": 0, "page": 110 },
+    { "question": "\"Evrika!\" so'zi nimani anglatadi?", "options": ["\"Topdim, topdim!\"", "\"Yashasin!\"", "\"Qoching!\"", "\"Tinch bo'ling!\""], "correct_index": 0, "page": 110 },
+    { "question": "Arximed haqidagi hikoyaga ko'ra, u nima qilgan?", "options": ["Yorug'likni ko'zgu orqali jamlab, rimliklar kemalarini yondirgan", "Troyani bosib olgan", "Parfenonni qurgan", "Bochkada yashagan"], "correct_index": 0, "page": 110 },
+    { "question": "Arximed qaysi shahar ustiga hujum qilgan rimliklarga qarshi kurashgan?", "options": ["Sirakuza", "Troya", "Sparta", "Afina"], "correct_index": 0, "page": 110 },
+    { "question": "Arximed qanday qonunni ishlab chiqqan?", "options": ["Richag (dastak) qonunini", "Atomlar qonunini", "Suv oqimi qonunini", "Olov qonunini"], "correct_index": 0, "page": 110 },
+    { "question": "Arximed nima deb aytgan?", "options": ["\"Menga tayanch nuqtasini topib bering, Yerni o'z o'qidan chiqarib yuboraman!\"", "\"Hamma narsa oqadi!\"", "\"Nariroq tur!\"", "\"Tarix - hayot ustozi!\""], "correct_index": 0, "page": 110 }
+  ]
+}
