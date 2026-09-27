@@ -38,83 +38,1230 @@
               }
             ],
             "key_facts": [
-              {"fact": "\"Merhaba\" kun davomida istalgan vaqt ishlatiladigan universal salom."},
-              {"fact": "Xayrlashishda ketuvchi \"Hoşça kal\", qoluvchi \"Güle güle\" deydi - ular almashtirilmaydi."},
-              {"fact": "bu = yaqin, şu = ko'rsatilayotgan/o'rtacha, o = uzoq."}
+              {
+                "fact": "\"Merhaba\" kun davomida istalgan vaqt ishlatiladigan universal salom."
+              },
+              {
+                "fact": "Xayrlashishda ketuvchi \"Hoşça kal\", qoluvchi \"Güle güle\" deydi - ular almashtirilmaydi."
+              },
+              {
+                "fact": "bu = yaqin, şu = ko'rsatilayotgan/o'rtacha, o = uzoq."
+              }
             ],
             "vocabulary": [
-              {"tr": "merhaba", "uz": "salom", "example_tr": "Merhaba! Benim adım Ali.", "example_uz": "Salom! Mening ismim Ali."},
-              {"tr": "günaydın", "uz": "xayrli tong", "example_tr": "Günaydın! Nasılsınız?", "example_uz": "Xayrli tong! Qalaysiz?"},
-              {"tr": "iyi günler", "uz": "xayrli kun", "example_tr": "İyi günler, hoşça kalın.", "example_uz": "Xayrli kun, xayr."},
-              {"tr": "iyi akşamlar", "uz": "xayrli kech", "example_tr": "İyi akşamlar Ayşe Hanım.", "example_uz": "Xayrli kech, Ayshe xonim."},
-              {"tr": "hoşça kal", "uz": "xayr (ketuvchi aytadi)", "example_tr": "Hoşça kal, görüşürüz.", "example_uz": "Xayr, ko'rishguncha."},
-              {"tr": "güle güle", "uz": "xayr (qoluvchi aytadi)", "example_tr": "Güle güle, iyi yolculuklar.", "example_uz": "Xayr, yaxshi boring."},
-              {"tr": "hoş geldiniz", "uz": "xush kelibsiz", "example_tr": "Hoş geldiniz Ahmet Bey!", "example_uz": "Xush kelibsiz, Ahmet janob!"},
-              {"tr": "hoş bulduk", "uz": "xush kelib qoldik (javob)", "example_tr": "Hoş bulduk, teşekkür ederim.", "example_uz": "Xush kelib qoldik, rahmat."},
-              {"tr": "benim adım", "uz": "mening ismim", "example_tr": "Benim adım Sardor.", "example_uz": "Mening ismim Sardor."},
-              {"tr": "adınız ne?", "uz": "ismingiz nima?", "example_tr": "Merhaba, adınız ne?", "example_uz": "Salom, ismingiz nima?"},
-              {"tr": "memnun oldum", "uz": "tanishganimdan xursandman", "example_tr": "Ben de memnun oldum.", "example_uz": "Men ham xursandman."},
-              {"tr": "nasılsınız?", "uz": "qalaysiz? (rasmiy)", "example_tr": "Nasılsınız? İyi misiniz?", "example_uz": "Qalaysiz? Yaxshimisiz?"},
-              {"tr": "teşekkür ederim", "uz": "rahmat", "example_tr": "Teşekkür ederim, iyiyim.", "example_uz": "Rahmat, yaxshiman."},
-              {"tr": "evet / hayır", "uz": "ha / yo'q", "example_tr": "Evet, teşekkür ederim.", "example_uz": "Ha, rahmat."},
-              {"tr": "bu / şu / o", "uz": "bu / şu (o'sha) / u (uzoq)", "example_tr": "Bu kitap, o ev.", "example_uz": "Bu kitob, u (narigi) uy."},
-              {"tr": "bay / hanım", "uz": "janob / xonim", "example_tr": "Ahmet Bey, Ayşe Hanım.", "example_uz": "Ahmet janob, Ayshe xonim."},
-              {"tr": "arkadaş", "uz": "do'st", "example_tr": "Bu benim arkadaşım.", "example_uz": "Bu mening do'stim."},
-              {"tr": "öğrenci", "uz": "talaba/o'quvchi", "example_tr": "Ben öğrenciyim.", "example_uz": "Men talabaman."},
-              {"tr": "öğretmen", "uz": "o'qituvchi", "example_tr": "O bir öğretmen.", "example_uz": "U o'qituvchi."},
-              {"tr": "efendim?", "uz": "kechirasiz? (qayta so'rashda)", "example_tr": "Efendim? Anlamadım.", "example_uz": "Kechirasiz? Tushunmadim."}
+              {
+                "tr": "merhaba",
+                "uz": "salom",
+                "example_tr": "Merhaba! Benim adım Ali.",
+                "example_uz": "Salom! Mening ismim Ali."
+              },
+              {
+                "tr": "günaydın",
+                "uz": "xayrli tong",
+                "example_tr": "Günaydın! Nasılsınız?",
+                "example_uz": "Xayrli tong! Qalaysiz?"
+              },
+              {
+                "tr": "iyi günler",
+                "uz": "xayrli kun",
+                "example_tr": "İyi günler, hoşça kalın.",
+                "example_uz": "Xayrli kun, xayr."
+              },
+              {
+                "tr": "iyi akşamlar",
+                "uz": "xayrli kech",
+                "example_tr": "İyi akşamlar Ayşe Hanım.",
+                "example_uz": "Xayrli kech, Ayshe xonim."
+              },
+              {
+                "tr": "hoşça kal",
+                "uz": "xayr (ketuvchi aytadi)",
+                "example_tr": "Hoşça kal, görüşürüz.",
+                "example_uz": "Xayr, ko'rishguncha."
+              },
+              {
+                "tr": "güle güle",
+                "uz": "xayr (qoluvchi aytadi)",
+                "example_tr": "Güle güle, iyi yolculuklar.",
+                "example_uz": "Xayr, yaxshi boring."
+              },
+              {
+                "tr": "hoş geldiniz",
+                "uz": "xush kelibsiz",
+                "example_tr": "Hoş geldiniz Ahmet Bey!",
+                "example_uz": "Xush kelibsiz, Ahmet janob!"
+              },
+              {
+                "tr": "hoş bulduk",
+                "uz": "xush kelib qoldik (javob)",
+                "example_tr": "Hoş bulduk, teşekkür ederim.",
+                "example_uz": "Xush kelib qoldik, rahmat."
+              },
+              {
+                "tr": "benim adım",
+                "uz": "mening ismim",
+                "example_tr": "Benim adım Sardor.",
+                "example_uz": "Mening ismim Sardor."
+              },
+              {
+                "tr": "adınız ne?",
+                "uz": "ismingiz nima?",
+                "example_tr": "Merhaba, adınız ne?",
+                "example_uz": "Salom, ismingiz nima?"
+              },
+              {
+                "tr": "memnun oldum",
+                "uz": "tanishganimdan xursandman",
+                "example_tr": "Ben de memnun oldum.",
+                "example_uz": "Men ham xursandman."
+              },
+              {
+                "tr": "nasılsınız?",
+                "uz": "qalaysiz? (rasmiy)",
+                "example_tr": "Nasılsınız? İyi misiniz?",
+                "example_uz": "Qalaysiz? Yaxshimisiz?"
+              },
+              {
+                "tr": "teşekkür ederim",
+                "uz": "rahmat",
+                "example_tr": "Teşekkür ederim, iyiyim.",
+                "example_uz": "Rahmat, yaxshiman."
+              },
+              {
+                "tr": "evet / hayır",
+                "uz": "ha / yo'q",
+                "example_tr": "Evet, teşekkür ederim.",
+                "example_uz": "Ha, rahmat."
+              },
+              {
+                "tr": "bu / şu / o",
+                "uz": "bu / şu (o'sha) / u (uzoq)",
+                "example_tr": "Bu kitap, o ev.",
+                "example_uz": "Bu kitob, u (narigi) uy."
+              },
+              {
+                "tr": "bay / hanım",
+                "uz": "janob / xonim",
+                "example_tr": "Ahmet Bey, Ayşe Hanım.",
+                "example_uz": "Ahmet janob, Ayshe xonim."
+              },
+              {
+                "tr": "arkadaş",
+                "uz": "do'st",
+                "example_tr": "Bu benim arkadaşım.",
+                "example_uz": "Bu mening do'stim."
+              },
+              {
+                "tr": "öğrenci",
+                "uz": "talaba/o'quvchi",
+                "example_tr": "Ben öğrenciyim.",
+                "example_uz": "Men talabaman."
+              },
+              {
+                "tr": "öğretmen",
+                "uz": "o'qituvchi",
+                "example_tr": "O bir öğretmen.",
+                "example_uz": "U o'qituvchi."
+              },
+              {
+                "tr": "efendim?",
+                "uz": "kechirasiz? (qayta so'rashda)",
+                "example_tr": "Efendim? Anlamadım.",
+                "example_uz": "Kechirasiz? Tushunmadim."
+              }
             ],
             "reading": {
               "title": "Yangi sinfda",
               "text": "Bugün okulda yeni bir öğrenci var. Adı Murat. Murat sınıfa girer ve \"Günaydın!\" der. Öğretmen gülümser ve \"Günaydın Murat! Hoş geldin\" der.\n\nMurat arkadaşlarıyla tanışır: \"Merhaba, benim adım Murat. Memnun oldum.\" Arkadaşları da \"Biz de memnun olduk\" derler. Herkes çok mutlu.",
               "questions": [
-                {"question": "Yangi o'quvchining ismi nima?", "options": ["Murat", "Ali", "Ahmet", "Emre"], "correct_index": 0},
-                {"question": "O'qituvchi Muratga nima deydi?", "options": ["Günaydın, hoş geldin", "Güle güle", "Nasılsınız", "Teşekkür ederim"], "correct_index": 0}
+                {
+                  "question": "Yangi o'quvchining ismi nima?",
+                  "options": [
+                    "Murat",
+                    "Ali",
+                    "Ahmet",
+                    "Emre"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "O'qituvchi Muratga nima deydi?",
+                  "options": [
+                    "Günaydın, hoş geldin",
+                    "Güle güle",
+                    "Nasılsınız",
+                    "Teşekkür ederim"
+                  ],
+                  "correct_index": 0
+                }
               ]
             },
             "listening": {
               "dialogue": [
-                {"speaker": "Ali", "text": "Merhaba!"},
-                {"speaker": "Aylin", "text": "Merhaba! Benim adım Aylin. Sizin adınız ne?"},
-                {"speaker": "Ali", "text": "Benim adım Ali. Memnun oldum."},
-                {"speaker": "Aylin", "text": "Ben de memnun oldum. Nasılsınız?"},
-                {"speaker": "Ali", "text": "Teşekkür ederim, iyiyim. Siz nasılsınız?"},
-                {"speaker": "Aylin", "text": "Ben de iyiyim, teşekkür ederim."}
+                {
+                  "speaker": "Ali",
+                  "text": "Merhaba!"
+                },
+                {
+                  "speaker": "Aylin",
+                  "text": "Merhaba! Benim adım Aylin. Sizin adınız ne?"
+                },
+                {
+                  "speaker": "Ali",
+                  "text": "Benim adım Ali. Memnun oldum."
+                },
+                {
+                  "speaker": "Aylin",
+                  "text": "Ben de memnun oldum. Nasılsınız?"
+                },
+                {
+                  "speaker": "Ali",
+                  "text": "Teşekkür ederim, iyiyim. Siz nasılsınız?"
+                },
+                {
+                  "speaker": "Aylin",
+                  "text": "Ben de iyiyim, teşekkür ederim."
+                }
               ],
               "questions": [
-                {"question": "Ayolning ismi nima?", "options": ["Aylin", "Ali", "Derya", "Murat"], "correct_index": 0},
-                {"question": "Ali o'zini qanday his qilyapti?", "options": ["Yaxshi (iyi)", "Yomon", "Charchagan", "Xafa"], "correct_index": 0}
+                {
+                  "question": "Ayolning ismi nima?",
+                  "options": [
+                    "Aylin",
+                    "Ali",
+                    "Derya",
+                    "Murat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ali o'zini qanday his qilyapti?",
+                  "options": [
+                    "Yaxshi (iyi)",
+                    "Yomon",
+                    "Charchagan",
+                    "Xafa"
+                  ],
+                  "correct_index": 0
+                }
               ]
             },
             "sentence_practice": [
-              {"type": "choice", "prompt": "\"Xayrli tong\" turkchada qanday bo'ladi?", "options": ["Günaydın", "İyi geceler", "Hoşça kal", "Merhaba"], "correct_index": 0},
-              {"type": "choice", "prompt": "Kimdir sizga \"Nasılsınız?\" desa, eng mos javob qaysi?", "options": ["Teşekkür ederim, iyiyim", "Benim adım Ali", "Hoşça kal", "Evet"], "correct_index": 0},
-              {"type": "order", "prompt": "\"Mening ismim Ali.\" gapini tuzing.", "words": ["Benim", "adım", "Ali."]},
-              {"type": "order", "prompt": "\"Tanishganimdan xursandman.\" gapini tuzing.", "words": ["Tanıştığımıza", "memnun", "oldum."]},
-              {"type": "choice", "prompt": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'zni ishlatasiz?", "options": ["Bu", "Şu", "O", "Ne"], "correct_index": 0},
-              {"type": "choice", "prompt": "\"Xush kelibsiz\" degan iboraga to'g'ri javob qaysi?", "options": ["Hoş bulduk", "Güle güle", "Efendim", "Evet"], "correct_index": 0}
+              {
+                "type": "choice",
+                "prompt": "\"Xayrli tong\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Günaydın",
+                  "İyi geceler",
+                  "Hoşça kal",
+                  "Merhaba"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "Kimdir sizga \"Nasılsınız?\" desa, eng mos javob qaysi?",
+                "options": [
+                  "Teşekkür ederim, iyiyim",
+                  "Benim adım Ali",
+                  "Hoşça kal",
+                  "Evet"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Mening ismim Ali.\" gapini tuzing.",
+                "words": [
+                  "Benim",
+                  "adım",
+                  "Ali."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Tanishganimdan xursandman.\" gapini tuzing.",
+                "words": [
+                  "Tanıştığımıza",
+                  "memnun",
+                  "oldum."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'zni ishlatasiz?",
+                "options": [
+                  "Bu",
+                  "Şu",
+                  "O",
+                  "Ne"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Xush kelibsiz\" degan iboraga to'g'ri javob qaysi?",
+                "options": [
+                  "Hoş bulduk",
+                  "Güle güle",
+                  "Efendim",
+                  "Evet"
+                ],
+                "correct_index": 0
+              }
             ],
             "writing_prompt": {
               "instruction": "O'zingizni turkcha tanishtiring: ismingizni ayting va o'zingizni qanday his qilayotganingizni yozing (kamida 2 gap).",
               "sample_answer": "Merhaba! Benim adım Sardor. İyiyim, teşekkür ederim."
             },
             "speaking_prompt": {
-              "sentences": ["Merhaba!", "Benim adım ...", "Memnun oldum.", "Nasılsınız?", "Teşekkür ederim, iyiyim."]
+              "sentences": [
+                "Merhaba!",
+                "Benim adım ...",
+                "Memnun oldum.",
+                "Nasılsınız?",
+                "Teşekkür ederim, iyiyim."
+              ]
             }
           },
           "test": [
-            {"question": "\"Salom\" so'zini turkchada qanday aytamiz?", "options": ["Merhaba", "Güle güle", "Teşekkür", "Evet"], "correct_index": 0},
-            {"question": "\"Rahmat\" turkchada nima bo'ladi?", "options": ["Teşekkür ederim", "Memnun oldum", "Merhaba", "Hayır"], "correct_index": 0},
-            {"question": "Ketayotgan kishi xayrlashganda nima deydi?", "options": ["Hoşça kal", "Günaydın", "Merhaba", "Nasılsınız"], "correct_index": 0},
-            {"question": "\"Mening ismim...\" turkchada qanday boshlanadi?", "options": ["Benim adım", "Adınız ne", "Memnun oldum", "Nasılsınız"], "correct_index": 0},
-            {"question": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'z ishlatiladi?", "options": ["Bu", "Şu", "O", "Ne"], "correct_index": 0},
-            {"question": "Juda uzoqdagi narsani ko'rsatish uchun-chi?", "options": ["O", "Bu", "Şu", "Kim"], "correct_index": 0},
-            {"question": "\"Memnun oldum\" qachon aytiladi?", "options": ["Tanishgandan keyin", "Xayrlashganda", "Xafa bo'lganda", "Savol berganda"], "correct_index": 0},
-            {"question": "\"Nasılsınız?\" savoliga eng mos javob qaysi?", "options": ["Teşekkür ederim, iyiyim", "Benim adım Ali", "Hoşça kal", "Evet"], "correct_index": 0},
-            {"question": "\"Xayrli kun\" turkchada qanday bo'ladi?", "options": ["İyi günler", "Günaydın", "İyi geceler", "Merhaba"], "correct_index": 0},
-            {"question": "\"Ismingiz nima?\" deb so'rash uchun qaysi ibora ishlatiladi?", "options": ["Adınız ne?", "Nasılsınız?", "Memnun oldum", "Hoşça kal"], "correct_index": 0},
-            {"question": "\"Xush kelibsiz\" turkchada qanday bo'ladi?", "options": ["Hoş geldiniz", "Hoş bulduk", "Güle güle", "Efendim"], "correct_index": 0},
-            {"question": "\"Do'st\" turkchada nima bo'ladi?", "options": ["Arkadaş", "Öğrenci", "Öğretmen", "Bay"], "correct_index": 0}
+            {
+              "question": "\"Salom\" so'zini turkchada qanday aytamiz?",
+              "options": [
+                "Merhaba",
+                "Güle güle",
+                "Teşekkür",
+                "Evet"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Rahmat\" turkchada nima bo'ladi?",
+              "options": [
+                "Teşekkür ederim",
+                "Memnun oldum",
+                "Merhaba",
+                "Hayır"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Ketayotgan kishi xayrlashganda nima deydi?",
+              "options": [
+                "Hoşça kal",
+                "Günaydın",
+                "Merhaba",
+                "Nasılsınız"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mening ismim...\" turkchada qanday boshlanadi?",
+              "options": [
+                "Benim adım",
+                "Adınız ne",
+                "Memnun oldum",
+                "Nasılsınız"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'z ishlatiladi?",
+              "options": [
+                "Bu",
+                "Şu",
+                "O",
+                "Ne"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Juda uzoqdagi narsani ko'rsatish uchun-chi?",
+              "options": [
+                "O",
+                "Bu",
+                "Şu",
+                "Kim"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Memnun oldum\" qachon aytiladi?",
+              "options": [
+                "Tanishgandan keyin",
+                "Xayrlashganda",
+                "Xafa bo'lganda",
+                "Savol berganda"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Nasılsınız?\" savoliga eng mos javob qaysi?",
+              "options": [
+                "Teşekkür ederim, iyiyim",
+                "Benim adım Ali",
+                "Hoşça kal",
+                "Evet"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xayrli kun\" turkchada qanday bo'ladi?",
+              "options": [
+                "İyi günler",
+                "Günaydın",
+                "İyi geceler",
+                "Merhaba"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ismingiz nima?\" deb so'rash uchun qaysi ibora ishlatiladi?",
+              "options": [
+                "Adınız ne?",
+                "Nasılsınız?",
+                "Memnun oldum",
+                "Hoşça kal"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xush kelibsiz\" turkchada qanday bo'ladi?",
+              "options": [
+                "Hoş geldiniz",
+                "Hoş bulduk",
+                "Güle güle",
+                "Efendim"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Do'st\" turkchada nima bo'ladi?",
+              "options": [
+                "Arkadaş",
+                "Öğrenci",
+                "Öğretmen",
+                "Bay"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u1b",
+          "title": "B. Nerelisiniz? — Qayerliksiz?",
+          "start_page": 2,
+          "end_page": 2,
+          "explanation": {
+            "goals": [
+              "Qayerlik ekanligini aytish va so'rash",
+              "Mamlakat nomidan millat/aholi sifatini yasash (-lI qo'shimchasi)",
+              "1 dan 10 gacha sonlarni bilish"
+            ],
+            "blocks": [
+              {
+                "heading": "Nerelisiniz?",
+                "text": "Kimningdir qayerlik ekanligini so'rash uchun \"Nerelisiniz?\" (rasmiy) yoki \"Nerelisin?\" (samimiy) savoli beriladi.\n\nJavob berishda mamlakat yoki shahar nomiga \"-lI\" qo'shimchasi qo'shiladi: \"Özbekistan\" + \"lı\" = \"Özbekistanlı\" (o'zbekistonlik), \"İstanbul\" + \"lu\" = \"İstanbullu\" (istanbullik). To'liq javob: \"Ben Özbekistanlıyım\" (Men o'zbekistonlikman).\n\nQaysi shaharda/mamlakatda yashashini aytish uchun esa \"-de/-da\" qo'shimchasi ishlatiladi: \"Taşkent'te yaşıyorum\" (Toshkentda yashayman)."
+              },
+              {
+                "heading": "Mamlakatlar",
+                "text": "Ba'zi mamlakat va shahar nomlari: Özbekistan (O'zbekiston), Türkiye (Turkiya), Rusya (Rossiya), Kore (Koreya), Taşkent, İstanbul, Ankara.\n\nBu so'zlarga \"-lI\" qo'shilganda so'zning oxirgi unlisiga qarab shakl o'zgaradi (katta unlilar uyg'unligi): Özbekistan-lı, Türkiye-li, Kore-li, Rusya-lı."
+              },
+              {
+                "heading": "Sonlar (1–10)",
+                "text": "Turkchada sonlar: bir (1), iki (2), üç (3), dört (4), beş (5), altı (6), yedi (7), sekiz (8), dokuz (9), on (10).\n\nSonlar narsa nomidan oldin keladi va narsa nomi ko'plik qo'shimchasi olmaydi: \"iki kitap\" (ikki kitob), \"beş öğrenci\" (besh talaba)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "Qayerlik ekanini aytish uchun mamlakat/shahar nomiga -lI qo'shiladi: Özbekistanlı."
+              },
+              {
+                "fact": "Qayerda yashashni aytish uchun -de/-da qo'shiladi: Taşkent'te yaşıyorum."
+              },
+              {
+                "fact": "Son + narsa: narsa ko'plik olmaydi. \"iki kitap\", \"iki kitaplar\" emas."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "ülke",
+                "uz": "davlat, mamlakat",
+                "example_tr": "Özbekistan güzel bir ülke.",
+                "example_uz": "O'zbekiston go'zal davlat."
+              },
+              {
+                "tr": "şehir",
+                "uz": "shahar",
+                "example_tr": "Taşkent büyük bir şehir.",
+                "example_uz": "Toshkent katta shahar."
+              },
+              {
+                "tr": "nereli?",
+                "uz": "qayerlik?",
+                "example_tr": "Siz nerelisiniz?",
+                "example_uz": "Siz qayerliksiz?"
+              },
+              {
+                "tr": "Özbekistan",
+                "uz": "O'zbekiston",
+                "example_tr": "Ben Özbekistanlıyım.",
+                "example_uz": "Men o'zbekistonlikman."
+              },
+              {
+                "tr": "Türkiye",
+                "uz": "Turkiya",
+                "example_tr": "O Türkiyeli.",
+                "example_uz": "U turkiyalik."
+              },
+              {
+                "tr": "Taşkent",
+                "uz": "Toshkent",
+                "example_tr": "Taşkent'te yaşıyorum.",
+                "example_uz": "Men Toshkentda yashayman."
+              },
+              {
+                "tr": "İstanbul",
+                "uz": "Istanbul",
+                "example_tr": "İstanbul çok güzel.",
+                "example_uz": "Istanbul juda go'zal."
+              },
+              {
+                "tr": "yaşıyorum",
+                "uz": "yashayapman",
+                "example_tr": "Ben Taşkent'te yaşıyorum.",
+                "example_uz": "Men Toshkentda yashayman."
+              },
+              {
+                "tr": "burada",
+                "uz": "bu yerda",
+                "example_tr": "Ben burada yaşıyorum.",
+                "example_uz": "Men bu yerda yashayman."
+              },
+              {
+                "tr": "orada",
+                "uz": "u yerda",
+                "example_tr": "Arkadaşım orada.",
+                "example_uz": "Do'stim u yerda."
+              },
+              {
+                "tr": "bir",
+                "uz": "bir (1)",
+                "example_tr": "Bir kitap.",
+                "example_uz": "Bir kitob."
+              },
+              {
+                "tr": "iki",
+                "uz": "ikki (2)",
+                "example_tr": "İki öğrenci.",
+                "example_uz": "Ikki talaba."
+              },
+              {
+                "tr": "üç",
+                "uz": "uch (3)",
+                "example_tr": "Üç arkadaş.",
+                "example_uz": "Uch do'st."
+              },
+              {
+                "tr": "dört",
+                "uz": "to'rt (4)",
+                "example_tr": "Dört ev.",
+                "example_uz": "To'rt uy."
+              },
+              {
+                "tr": "beş",
+                "uz": "besh (5)",
+                "example_tr": "Beş şehir.",
+                "example_uz": "Besh shahar."
+              },
+              {
+                "tr": "altı",
+                "uz": "olti (6)",
+                "example_tr": "Altı ülke.",
+                "example_uz": "Olti davlat."
+              },
+              {
+                "tr": "yedi",
+                "uz": "yetti (7)",
+                "example_tr": "Yedi gün.",
+                "example_uz": "Yetti kun."
+              },
+              {
+                "tr": "sekiz",
+                "uz": "sakkiz (8)",
+                "example_tr": "Sekiz kitap.",
+                "example_uz": "Sakkiz kitob."
+              },
+              {
+                "tr": "dokuz",
+                "uz": "to'qqiz (9)",
+                "example_tr": "Dokuz öğrenci.",
+                "example_uz": "To'qqiz talaba."
+              },
+              {
+                "tr": "on",
+                "uz": "o'n (10)",
+                "example_tr": "On arkadaş.",
+                "example_uz": "O'n do'st."
+              }
+            ],
+            "reading": {
+              "title": "Men kimman?",
+              "text": "Merhaba! Benim adım Kamola. Ben Özbekistanlıyım. Taşkent'te yaşıyorum. Taşkent büyük ve güzel bir şehir.\n\nArkadaşım Ahmet Türkiyeli. O İstanbul'da yaşıyor. Biz internetten tanıştık ve şimdi iyi arkadaşız.",
+              "questions": [
+                {
+                  "question": "Kamola qayerlik?",
+                  "options": [
+                    "Özbekistanlı",
+                    "Türkiyeli",
+                    "Koreli",
+                    "Rusyalı"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ahmet qaysi shaharda yashaydi?",
+                  "options": [
+                    "İstanbul",
+                    "Taşkent",
+                    "Ankara",
+                    "Bakü"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Vali",
+                  "text": "Merhaba, nerelisiniz?"
+                },
+                {
+                  "speaker": "Elif",
+                  "text": "Ben Türkiyeliyim. Siz nerelisiniz?"
+                },
+                {
+                  "speaker": "Vali",
+                  "text": "Ben Özbekistanlıyım. Taşkent'te yaşıyorum."
+                },
+                {
+                  "speaker": "Elif",
+                  "text": "Taşkent güzel bir şehir mi?"
+                },
+                {
+                  "speaker": "Vali",
+                  "text": "Evet, çok güzel!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Elif qayerlik?",
+                  "options": [
+                    "Türkiyeli",
+                    "Özbekistanlı",
+                    "Koreli",
+                    "Amerikalı"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Vali qaysi shaharda yashaydi?",
+                  "options": [
+                    "Taşkent",
+                    "İstanbul",
+                    "Ankara",
+                    "İzmir"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "options": [
+                  "Ben Özbekistanlıyım",
+                  "Ben Türkiyeliyim",
+                  "Sen Özbekistanlısın",
+                  "O Özbekistanlı"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"Men o'zbekistonlikman\" turkchada qanday bo'ladi?"
+              },
+              {
+                "options": [
+                  "Beş",
+                  "Dört",
+                  "Altı",
+                  "Yedi"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"5\" turkchada qanday yoziladi?"
+              },
+              {
+                "type": "order",
+                "prompt": "\"Men Toshkentda yashayman.\" gapini tuzing.",
+                "words": [
+                  "Ben",
+                  "Taşkent'te",
+                  "yaşıyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Siz qayerliksiz?\" gapini tuzing.",
+                "words": [
+                  "Siz",
+                  "nerelisiniz?"
+                ]
+              },
+              {
+                "options": [
+                  "On",
+                  "Dokuz",
+                  "Sekiz",
+                  "Yedi"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"10\" turkchada nima?"
+              },
+              {
+                "options": [
+                  "-lI",
+                  "-de/-da",
+                  "-ler/-lar",
+                  "-im"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "Mamlakat nomiga qaysi qo'shimcha qo'shilsa \"aholisi\" ma'nosini beradi?"
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Qayerlik ekanligingizni va qaysi shaharda yashashingizni turkcha yozing (kamida 2 gap).",
+              "sample_answer": "Ben Özbekistanlıyım. Taşkent'te yaşıyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Nerelisiniz?",
+                "Ben Özbekistanlıyım.",
+                "Taşkent'te yaşıyorum.",
+                "Bir, iki, üç, dört, beş."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Qayerliksiz?\" turkchada qanday bo'ladi?",
+              "options": [
+                "Nerelisiniz?",
+                "Nasılsınız?",
+                "Adınız ne?",
+                "Kimsiniz?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Men o'zbekistonlikman\" - to'g'ri variant?",
+              "options": [
+                "Ben Özbekistanlıyım",
+                "Ben Özbekistan",
+                "Ben Türkiyeliyim",
+                "Sen Özbekistanlısın"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Toshkentda yashayman\" turkchada?",
+              "options": [
+                "Taşkent'te yaşıyorum",
+                "Taşkent'liyim",
+                "Taşkent'e gidiyorum",
+                "Taşkent güzel"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"3\" soni turkchada?",
+              "options": [
+                "Üç",
+                "İki",
+                "Dört",
+                "Beş"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"7\" soni turkchada?",
+              "options": [
+                "Yedi",
+                "Sekiz",
+                "Altı",
+                "Dokuz"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"10\" soni turkchada?",
+              "options": [
+                "On",
+                "Dokuz",
+                "Sekiz",
+                "Yedi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Mamlakat nomiga qo'shilib \"aholisi\" ma'nosini beruvchi qo'shimcha?",
+              "options": [
+                "-lI",
+                "-de/-da",
+                "-ler",
+                "-im"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Shahar\" turkchada nima?",
+              "options": [
+                "Şehir",
+                "Ülke",
+                "Ev",
+                "Sokak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bu yerda\" turkchada qanday bo'ladi?",
+              "options": [
+                "Burada",
+                "Orada",
+                "Şurada",
+                "Nerede"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Ikki kishi qayerlik ekanini so'rashganda javob qaysi qolipda beriladi?",
+              "options": [
+                "Ben [mamlakat]+lIyım",
+                "Ben [mamlakat]",
+                "Sen [mamlakat]lısın",
+                "O [mamlakat]"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u1c",
+          "title": "C. Karşılaşma — Selamlaşish",
+          "start_page": 3,
+          "end_page": 3,
+          "explanation": {
+            "goals": [
+              "\"Sen\" va \"Siz\" farqini tushunish (samimiy va rasmiy murojaat)",
+              "Ko'plik qo'shimchasi -lar/-ler bilan tanishish",
+              "Uchrashuv va xayrlashuvda qo'shimcha iboralarni bilish"
+            ],
+            "blocks": [
+              {
+                "heading": "Sen va Siz",
+                "text": "Turkchada \"sen\" (sen) - yaqin do'st, oilaviy yoki tengdosh bilan samimiy muomalada ishlatiladi. \"Siz\" (siz) esa notanish kishi, katta yoshli yoki rasmiy vaziyatda ishlatiladi.\n\nFe'llar ham shunga qarab o'zgaradi: \"Nasılsın?\" (samimiy) va \"Nasılsınız?\" (rasmiy) bir xil ma'noni bildiradi, lekin muomala darajasi boshqacha.\n\nYangi tanishgan kattalar bilan doim \"siz\" bilan boshlash xushmuomalalik hisoblanadi."
+              },
+              {
+                "heading": "Ko'plik qo'shimchasi -lar/-ler",
+                "text": "Turkchada ko'plik uchun so'zga \"-lar\" yoki \"-ler\" qo'shiladi (unlilar uyg'unligiga qarab): \"öğrenci\" (talaba) -> \"öğrenciler\" (talabalar), \"arkadaş\" (do'st) -> \"arkadaşlar\" (do'stlar), \"ev\" (uy) -> \"evler\" (uylar).\n\nSon bilan kelganda ko'plik qo'shimchasi ishlatilmaydi: \"beş öğrenci\" (besh talaba) to'g'ri, \"beş öğrenciler\" noto'g'ri."
+              },
+              {
+                "heading": "Qo'shimcha iboralar",
+                "text": "Xayrlashishda yana bu iboralar ishlatiladi: \"Görüşürüz\" (Ko'rishguncha), \"Yarın görüşürüz\" (Ertaga ko'rishguncha), \"İyi geceler\" (Xayrli tun - uxlashdan oldin).\n\nKimnidir chaqirish yoki e'tiborini tortish uchun \"Buyurun\" (Marhamat/Xush kelibsiz - xizmatchi tomonidan) yoki \"Affedersiniz\" (Kechirasiz) ishlatiladi."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Sen\" - do'stlar/oila uchun, \"Siz\" - notanish/rasmiy uchun ishlatiladi."
+              },
+              {
+                "fact": "Ko'plik: -lar/-ler. Son bilan kelsa ko'plik qo'shilmaydi (beş öğrenci)."
+              },
+              {
+                "fact": "\"Affedersiniz\" - kechirim so'rash yoki e'tiborni tortish uchun ishlatiladi."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "sen",
+                "uz": "sen (samimiy)",
+                "example_tr": "Sen nasılsın?",
+                "example_uz": "Sen qalaysan?"
+              },
+              {
+                "tr": "siz",
+                "uz": "siz (rasmiy)",
+                "example_tr": "Siz nasılsınız?",
+                "example_uz": "Siz qalaysiz?"
+              },
+              {
+                "tr": "nasılsın?",
+                "uz": "qalaysan? (samimiy)",
+                "example_tr": "Merhaba, nasılsın?",
+                "example_uz": "Salom, qalaysan?"
+              },
+              {
+                "tr": "iyiyim",
+                "uz": "yaxshiman",
+                "example_tr": "Ben iyiyim, sen nasılsın?",
+                "example_uz": "Men yaxshiman, sen qalaysan?"
+              },
+              {
+                "tr": "fena değilim",
+                "uz": "yomon emasman",
+                "example_tr": "Fena değilim, teşekkürler.",
+                "example_uz": "Yomon emasman, rahmat."
+              },
+              {
+                "tr": "görüşürüz",
+                "uz": "ko'rishguncha",
+                "example_tr": "Hoşça kal, görüşürüz.",
+                "example_uz": "Xayr, ko'rishguncha."
+              },
+              {
+                "tr": "yarın",
+                "uz": "ertaga",
+                "example_tr": "Yarın görüşürüz.",
+                "example_uz": "Ertaga ko'rishguncha."
+              },
+              {
+                "tr": "iyi geceler",
+                "uz": "xayrli tun",
+                "example_tr": "İyi geceler, iyi uykular.",
+                "example_uz": "Xayrli tun, yaxshi uxlang."
+              },
+              {
+                "tr": "affedersiniz",
+                "uz": "kechirasiz",
+                "example_tr": "Affedersiniz, saat kaç?",
+                "example_uz": "Kechirasiz, soat necha?"
+              },
+              {
+                "tr": "buyurun",
+                "uz": "marhamat",
+                "example_tr": "Buyurun, oturun.",
+                "example_uz": "Marhamat, o'tiring."
+              },
+              {
+                "tr": "öğrenciler",
+                "uz": "talabalar",
+                "example_tr": "Öğrenciler sınıfta.",
+                "example_uz": "Talabalar sinfda."
+              },
+              {
+                "tr": "arkadaşlar",
+                "uz": "do'stlar",
+                "example_tr": "Arkadaşlar burada.",
+                "example_uz": "Do'stlar bu yerda."
+              },
+              {
+                "tr": "evler",
+                "uz": "uylar",
+                "example_tr": "Evler büyük.",
+                "example_uz": "Uylar katta."
+              },
+              {
+                "tr": "kadın",
+                "uz": "ayol",
+                "example_tr": "O kadın öğretmen.",
+                "example_uz": "U ayol o'qituvchi."
+              },
+              {
+                "tr": "erkek",
+                "uz": "erkak",
+                "example_tr": "Bu erkek öğrenci.",
+                "example_uz": "Bu erkak talaba."
+              },
+              {
+                "tr": "çocuk",
+                "uz": "bola",
+                "example_tr": "Çocuk okulda.",
+                "example_uz": "Bola maktabda."
+              },
+              {
+                "tr": "tanışmak",
+                "uz": "tanishmoq",
+                "example_tr": "Sizinle tanışmak güzel.",
+                "example_uz": "Siz bilan tanishish yoqimli."
+              },
+              {
+                "tr": "biraz",
+                "uz": "biroz",
+                "example_tr": "Biraz Türkçe biliyorum.",
+                "example_uz": "Biroz turkcha bilaman."
+              },
+              {
+                "tr": "çok",
+                "uz": "juda, ko'p",
+                "example_tr": "Çok teşekkür ederim.",
+                "example_uz": "Juda rahmat."
+              },
+              {
+                "tr": "de/da",
+                "uz": "ham",
+                "example_tr": "Ben de iyiyim.",
+                "example_uz": "Men ham yaxshiman."
+              }
+            ],
+            "reading": {
+              "title": "Ikki do'st",
+              "text": "Ali ve Veli okulda karşılaşır. Ali \"Merhaba Veli, nasılsın?\" der. Veli \"İyiyim, teşekkürler. Sen nasılsın?\" diye cevap verir.\n\nAli \"Ben de iyiyim\" der. Sınıfta çok öğrenci var: kızlar ve erkekler, hepsi arkadaş. Ders bitince \"Yarın görüşürüz!\" derler.",
+              "questions": [
+                {
+                  "question": "Ali va Veli qayerda uchrashishdi?",
+                  "options": [
+                    "Maktabda",
+                    "Uyda",
+                    "Bozorda",
+                    "Ko'chada"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ular ajralishayotganda nima deyishadi?",
+                  "options": [
+                    "Yarın görüşürüz",
+                    "Hoşça kal",
+                    "İyi geceler",
+                    "Affedersiniz"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Ayla",
+                  "text": "Merhaba Deniz, nasılsın?"
+                },
+                {
+                  "speaker": "Deniz",
+                  "text": "İyiyim, teşekkürler. Sen nasılsın?"
+                },
+                {
+                  "speaker": "Ayla",
+                  "text": "Ben de iyiyim. Bu, arkadaşım Cem."
+                },
+                {
+                  "speaker": "Deniz",
+                  "text": "Merhaba Cem, tanıştığımıza memnun oldum."
+                },
+                {
+                  "speaker": "Cem",
+                  "text": "Ben de memnun oldum."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Ayla Denizga kimni tanishtiradi?",
+                  "options": [
+                    "Cem",
+                    "Ali",
+                    "Veli",
+                    "Murat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Deniz o'zini qanday his qilyapti?",
+                  "options": [
+                    "Yaxshi (iyi)",
+                    "Yomon",
+                    "Charchagan",
+                    "Xafa"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "options": [
+                  "Siz",
+                  "Sen",
+                  "O",
+                  "Biz"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "Notanish katta yoshli kishiga qanday murojaat qilinadi?"
+              },
+              {
+                "options": [
+                  "Öğrenciler",
+                  "Öğrenci",
+                  "Öğretmenler",
+                  "Arkadaşlar"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"Talabalar\" turkchada qanday bo'ladi?"
+              },
+              {
+                "type": "order",
+                "prompt": "\"Sen qalaysan?\" gapini tuzing.",
+                "words": [
+                  "Sen",
+                  "nasılsın?"
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Ertaga ko'rishguncha.\" gapini tuzing.",
+                "words": [
+                  "Yarın",
+                  "görüşürüz."
+                ]
+              },
+              {
+                "options": [
+                  "Affedersiniz",
+                  "Buyurun",
+                  "Teşekkürler",
+                  "Memnun oldum"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"Kechirasiz\" turkchada qanday bo'ladi?"
+              },
+              {
+                "options": [
+                  "-lar",
+                  "-ler",
+                  "-lı",
+                  "-de"
+                ],
+                "correct_index": 0,
+                "type": "choice",
+                "prompt": "\"Do'stlar\" so'zining ko'plik qo'shimchasi qaysi?"
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Yangi tanishgan do'stingiz bilan qisqa suhbat yozing: salomlashing, hol-ahvol so'rang, xayrlashing (kamida 3 gap).",
+              "sample_answer": "Merhaba, nasılsın? İyiyim, teşekkürler. Yarın görüşürüz!"
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Sen nasılsın?",
+                "İyiyim, teşekkürler.",
+                "Yarın görüşürüz.",
+                "İyi geceler."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "Do'stingizga qanday murojaat qilasiz?",
+              "options": [
+                "Sen",
+                "Siz",
+                "O",
+                "Biz"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Notanish katta odamga-chi?",
+              "options": [
+                "Siz",
+                "Sen",
+                "O",
+                "Biz"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Uylar\" turkchada qanday bo'ladi?",
+              "options": [
+                "Evler",
+                "Ev",
+                "Evim",
+                "Evde"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ertaga\" turkchada nima?",
+              "options": [
+                "Yarın",
+                "Bugün",
+                "Dün",
+                "Şimdi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xayrli tun\" turkchada qanday bo'ladi?",
+              "options": [
+                "İyi geceler",
+                "Günaydın",
+                "İyi günler",
+                "Merhaba"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kechirasiz\" so'zini qachon ishlatamiz?",
+              "options": [
+                "Kechirim so'raganda",
+                "Xursand bo'lganda",
+                "Xayrlashganda",
+                "Tanishganda"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ayol\" turkchada nima?",
+              "options": [
+                "Kadın",
+                "Erkek",
+                "Çocuk",
+                "Arkadaş"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bola\" turkchada nima?",
+              "options": [
+                "Çocuk",
+                "Erkek",
+                "Kadın",
+                "Öğrenci"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Men ham yaxshiman\" turkchada qanday bo'ladi?",
+              "options": [
+                "Ben de iyiyim",
+                "Ben iyiyim",
+                "Sen de iyisin",
+                "O da iyi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Ko'plik qo'shimchasi qaysi ikkitasi?",
+              "options": [
+                "-lar / -ler",
+                "-de / -da",
+                "-lI / -lU",
+                "-im / -in"
+              ],
+              "correct_index": 0
+            }
           ]
         }
       ]
