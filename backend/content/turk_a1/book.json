@@ -3739,6 +3739,1243 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u4",
+      "title": "4-unite. Cevremiz",
+      "topics": [
+        {
+          "key": "u4a",
+          "title": "A. Bizim Sokağımız — Bizning ko'chamiz",
+          "start_page": 10,
+          "end_page": 10,
+          "explanation": {
+            "goals": [
+              "Atrofdagi joylarni (do'kon, park, kasalxona) nomlash",
+              "Egalik qo'shimchalarini chuqurroq o'rganish (bizim, sizin)",
+              "\"Var mı?\" savoli bilan mavjudlikni so'rash"
+            ],
+            "blocks": [
+              {
+                "heading": "Atrofdagi joylar",
+                "text": "Ko'cha va shahar joylari: market (do'kon), eczane (dorixona), hastane (kasalxona), park, okul (maktab), cami (masjid), banka (bank).\n\n\"Bizim mahallemizde bir park var.\" (Bizning mahallamizda bir park bor)."
+              },
+              {
+                "heading": "Egalik: bizim, sizin",
+                "text": "\"Bizim\" (bizning) va \"sizin\" (sizning) egalik olmoshlari so'zga mos qo'shimcha bilan birga ishlatiladi: \"bizim sokağımız\" (bizning ko'chamiz), \"sizin eviniz\" (sizning uyingiz).\n\nOlmosh ko'pincha tushirilishi ham mumkin, chunki qo'shimchaning o'zi egalikni bildiradi: \"sokağımız\" yetarli."
+              },
+              {
+                "heading": "Var mı? — bormi?",
+                "text": "Biror narsaning mavjudligini so'rash uchun \"var mı?\" ishlatiladi: \"Burada eczane var mı?\" (Bu yerda dorixona bormi?) Javob: \"Evet, var.\" (Ha, bor) yoki \"Hayır, yok.\" (Yo'q, yo'q)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Var mı?\" - bormi? deb so'rash, javobi \"evet, var\" / \"hayır, yok\"."
+              },
+              {
+                "fact": "Egalik qo'shimchasi bo'lsa olmosh (bizim, sizin) tushirilishi mumkin."
+              },
+              {
+                "fact": "eczane - dorixona, hastane - kasalxona, cami - masjid."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "sokak",
+                "uz": "ko'cha",
+                "example_tr": "Bizim sokağımız sakin.",
+                "example_uz": "Bizning ko'chamiz tinch."
+              },
+              {
+                "tr": "mahalle",
+                "uz": "mahalla",
+                "example_tr": "Mahallemiz güzel.",
+                "example_uz": "Mahallamiz go'zal."
+              },
+              {
+                "tr": "market",
+                "uz": "do'kon",
+                "example_tr": "Yakında market var.",
+                "example_uz": "Yaqinda do'kon bor."
+              },
+              {
+                "tr": "eczane",
+                "uz": "dorixona",
+                "example_tr": "Eczane açık mı?",
+                "example_uz": "Dorixona ochiqmi?"
+              },
+              {
+                "tr": "hastane",
+                "uz": "kasalxona",
+                "example_tr": "Hastane uzak değil.",
+                "example_uz": "Kasalxona uzoq emas."
+              },
+              {
+                "tr": "park",
+                "uz": "park",
+                "example_tr": "Parkta çocuklar var.",
+                "example_uz": "Parkda bolalar bor."
+              },
+              {
+                "tr": "cami",
+                "uz": "masjid",
+                "example_tr": "Cami eski ve güzel.",
+                "example_uz": "Masjid eski va go'zal."
+              },
+              {
+                "tr": "banka",
+                "uz": "bank",
+                "example_tr": "Banka kapalı.",
+                "example_uz": "Bank yopiq."
+              },
+              {
+                "tr": "restoran",
+                "uz": "restoran",
+                "example_tr": "Bu restoran çok iyi.",
+                "example_uz": "Bu restoran juda yaxshi."
+              },
+              {
+                "tr": "durak",
+                "uz": "bekat",
+                "example_tr": "Otobüs durağı burada.",
+                "example_uz": "Avtobus bekati bu yerda."
+              },
+              {
+                "tr": "var mı?",
+                "uz": "bormi?",
+                "example_tr": "Burada park var mı?",
+                "example_uz": "Bu yerda park bormi?"
+              },
+              {
+                "tr": "yakında",
+                "uz": "yaqinda",
+                "example_tr": "Yakında bir okul var.",
+                "example_uz": "Yaqinda bir maktab bor."
+              },
+              {
+                "tr": "karşıda",
+                "uz": "qarshisida/narigi tomonda",
+                "example_tr": "Market karşıda.",
+                "example_uz": "Do'kon narigi tomonda."
+              },
+              {
+                "tr": "açık",
+                "uz": "ochiq",
+                "example_tr": "Market açık.",
+                "example_uz": "Do'kon ochiq."
+              },
+              {
+                "tr": "kapalı",
+                "uz": "yopiq",
+                "example_tr": "Banka kapalı.",
+                "example_uz": "Bank yopiq."
+              },
+              {
+                "tr": "sakin",
+                "uz": "tinch",
+                "example_tr": "Sokağımız sakin.",
+                "example_uz": "Ko'chamiz tinch."
+              },
+              {
+                "tr": "kalabalık",
+                "uz": "gavjum",
+                "example_tr": "Park çok kalabalık.",
+                "example_uz": "Park juda gavjum."
+              },
+              {
+                "tr": "bizim",
+                "uz": "bizning",
+                "example_tr": "Bizim mahallemiz.",
+                "example_uz": "Bizning mahallamiz."
+              },
+              {
+                "tr": "sizin",
+                "uz": "sizning",
+                "example_tr": "Sizin sokağınız.",
+                "example_uz": "Sizning ko'changiz."
+              },
+              {
+                "tr": "civarda",
+                "uz": "atrofda",
+                "example_tr": "Civarda ne var?",
+                "example_uz": "Atrofda nima bor?"
+              }
+            ],
+            "reading": {
+              "title": "Bizim mahallamiz",
+              "text": "Bizim mahallemiz çok güzel ve sakin. Evimizin karşısında bir market var. Marketin yanında bir eczane var.\n\nMahallemizde büyük bir park da var, çocuklar orada oynuyor. Hastane biraz uzak ama otobüsle beş dakika.",
+              "questions": [
+                {
+                  "question": "Uyning qarshisida nima bor?",
+                  "options": [
+                    "Do'kon",
+                    "Kasalxona",
+                    "Bank",
+                    "Masjid"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Kasalxonagacha necha daqiqa?",
+                  "options": [
+                    "Besh daqiqa",
+                    "O'n daqiqa",
+                    "Bir soat",
+                    "Yigirma daqiqa"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Sude",
+                  "text": "Burada eczane var mı?"
+                },
+                {
+                  "speaker": "Onur",
+                  "text": "Evet, var. Marketin yanında."
+                },
+                {
+                  "speaker": "Sude",
+                  "text": "Peki hastane var mı?"
+                },
+                {
+                  "speaker": "Onur",
+                  "text": "Hayır, hastane yok. Ama parkın karşısında."
+                },
+                {
+                  "speaker": "Sude",
+                  "text": "Teşekkür ederim!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Dorixona qayerda?",
+                  "options": [
+                    "Do'konning yonida",
+                    "Parkda",
+                    "Bankda",
+                    "Masjidda"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Kasalxona haqida nima deyilgan?",
+                  "options": [
+                    "Parkning qarshisida",
+                    "Do'konning yonida",
+                    "Uyning yonida",
+                    "Yo'q, mavjud emas"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Bormi?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Var mı?",
+                  "Ne var?",
+                  "Kim var?",
+                  "Nerede?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Dorixona\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Eczane",
+                  "Hastane",
+                  "Market",
+                  "Banka"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bizning ko'chamiz tinch.\" gapini tuzing.",
+                "words": [
+                  "Bizim",
+                  "sokağımız",
+                  "sakin."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bu yerda park bormi?\" gapini tuzing.",
+                "words": [
+                  "Burada",
+                  "park",
+                  "var",
+                  "mı?"
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ochiq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Açık",
+                  "Kapalı",
+                  "Sakin",
+                  "Kalabalık"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Kasalxona\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Hastane",
+                  "Eczane",
+                  "Cami",
+                  "Banka"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Mahallangiz haqida yozing: qaysi joylar bor (do'kon, park va h.k.) (kamida 2 gap).",
+              "sample_answer": "Mahallemiz sakin. Yakında bir market ve bir park var."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Burada market var mı?",
+                "Evet, var.",
+                "Mahallemiz sakin.",
+                "Park karşıda."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Bormi?\" turkchada nima?",
+              "options": [
+                "Var mı?",
+                "Ne kadar?",
+                "Nerede?",
+                "Kaç?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Dorixona\" turkchada nima?",
+              "options": [
+                "Eczane",
+                "Hastane",
+                "Market",
+                "Cami"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kasalxona\" turkchada nima?",
+              "options": [
+                "Hastane",
+                "Eczane",
+                "Banka",
+                "Park"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Masjid\" turkchada nima?",
+              "options": [
+                "Cami",
+                "Banka",
+                "Market",
+                "Restoran"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ochiq\" turkchada nima?",
+              "options": [
+                "Açık",
+                "Kapalı",
+                "Sakin",
+                "Uzak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yopiq\" turkchada nima?",
+              "options": [
+                "Kapalı",
+                "Açık",
+                "Yakın",
+                "Kalabalık"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tinch\" turkchada nima?",
+              "options": [
+                "Sakin",
+                "Kalabalık",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bizning\" turkchada nima?",
+              "options": [
+                "Bizim",
+                "Sizin",
+                "Benim",
+                "Onun"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bekat\" turkchada nima?",
+              "options": [
+                "Durak",
+                "Sokak",
+                "Cadde",
+                "Mahalle"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Atrofda\" turkchada nima?",
+              "options": [
+                "Civarda",
+                "Uzakta",
+                "İçinde",
+                "Yakında"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u4b",
+          "title": "B. Ne? Nerede? — Nima? Qayerda?",
+          "start_page": 11,
+          "end_page": 11,
+          "explanation": {
+            "goals": [
+              "Yo'nalish va joylashuvni ifodalash (yonida, orasida, qarshisida)",
+              "\"-den ... -e kadar\" (dan ... gacha) qurilmasi",
+              "Oddiy yo'l ko'rsatish iboralari"
+            ],
+            "blocks": [
+              {
+                "heading": "Joylashuv so'zlari",
+                "text": "Narsalarning joylashuvini bildiruvchi so'zlar: yanında (yonida), önünde (oldida), arkasında (orqasida), arasında (orasida), karşısında (qarshisida), içinde (ichida).\n\nMisol: \"Kitap masanın üstünde.\" (Kitob stol ustida). \"Çanta sandalyenin yanında.\" (Sumka stul yonida)."
+              },
+              {
+                "heading": "-den ... -e kadar",
+                "text": "\"Dan ... gacha\" ma'nosini berish uchun \"-den\" (yoki -dan) va \"-e kadar\" (yoki -a kadar) birga ishlatiladi: \"Evden okula kadar\" (Uydan maktabgacha), \"Sabahtan akşama kadar\" (Ertalabdan kechgacha)."
+              },
+              {
+                "heading": "Yo'l ko'rsatish",
+                "text": "Yo'l ko'rsatishda foydali iboralar: \"Düz git.\" (To'g'riga bor), \"Sağa dön.\" (O'ngga burul), \"Sola dön.\" (Chapga burul), \"Yakın mı?\" (Yaqinmi?)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "yanında=yonida, önünde=oldida, arkasında=orqasida, içinde=ichida."
+              },
+              {
+                "fact": "-den ... -e kadar = dan ... gacha."
+              },
+              {
+                "fact": "sağa dön = o'ngga burul, sola dön = chapga burul, düz git = to'g'riga bor."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "yanında",
+                "uz": "yonida",
+                "example_tr": "Okulun yanında.",
+                "example_uz": "Maktabning yonida."
+              },
+              {
+                "tr": "önünde",
+                "uz": "oldida",
+                "example_tr": "Evin önünde.",
+                "example_uz": "Uyning oldida."
+              },
+              {
+                "tr": "arkasında",
+                "uz": "orqasida",
+                "example_tr": "Marketin arkasında.",
+                "example_uz": "Do'konning orqasida."
+              },
+              {
+                "tr": "arasında",
+                "uz": "orasida",
+                "example_tr": "İki bina arasında.",
+                "example_uz": "Ikki bino orasida."
+              },
+              {
+                "tr": "karşısında",
+                "uz": "qarshisida",
+                "example_tr": "Parkın karşısında.",
+                "example_uz": "Parkning qarshisida."
+              },
+              {
+                "tr": "içinde",
+                "uz": "ichida",
+                "example_tr": "Çantanın içinde.",
+                "example_uz": "Sumkaning ichida."
+              },
+              {
+                "tr": "dışında",
+                "uz": "tashqarisida",
+                "example_tr": "Evin dışında.",
+                "example_uz": "Uyning tashqarisida."
+              },
+              {
+                "tr": "sağ",
+                "uz": "o'ng",
+                "example_tr": "Sağa dön.",
+                "example_uz": "O'ngga burul."
+              },
+              {
+                "tr": "sol",
+                "uz": "chap",
+                "example_tr": "Sola dön.",
+                "example_uz": "Chapga burul."
+              },
+              {
+                "tr": "düz",
+                "uz": "to'g'ri",
+                "example_tr": "Düz git.",
+                "example_uz": "To'g'riga bor."
+              },
+              {
+                "tr": "dönmek",
+                "uz": "burilmoq",
+                "example_tr": "Sağa dönüyorum.",
+                "example_uz": "O'ngga burilaman."
+              },
+              {
+                "tr": "gitmek",
+                "uz": "bormoq",
+                "example_tr": "Okula gidiyorum.",
+                "example_uz": "Maktabga boryapman."
+              },
+              {
+                "tr": "köşe",
+                "uz": "burchak",
+                "example_tr": "Köşede bir market var.",
+                "example_uz": "Burchakda bir do'kon bor."
+              },
+              {
+                "tr": "bina",
+                "uz": "bino",
+                "example_tr": "Bu bina çok yeni.",
+                "example_uz": "Bu bino juda yangi."
+              },
+              {
+                "tr": "yol",
+                "uz": "yo'l",
+                "example_tr": "Bu yol uzun.",
+                "example_uz": "Bu yo'l uzun."
+              },
+              {
+                "tr": "kadar",
+                "uz": "gacha",
+                "example_tr": "Okula kadar yürüyorum.",
+                "example_uz": "Maktabgacha piyoda boraman."
+              },
+              {
+                "tr": "arada",
+                "uz": "orada, orasida",
+                "example_tr": "Arada bir görüşüyoruz.",
+                "example_uz": "Ba'zan ko'rishamiz."
+              },
+              {
+                "tr": "yürümek",
+                "uz": "yurmoq (piyoda)",
+                "example_tr": "Okula yürüyorum.",
+                "example_uz": "Maktabga piyoda boraman."
+              },
+              {
+                "tr": "uzakta",
+                "uz": "uzoqda",
+                "example_tr": "Hastane uzakta değil.",
+                "example_uz": "Kasalxona uzoqda emas."
+              },
+              {
+                "tr": "hemen",
+                "uz": "darhol, tez orada",
+                "example_tr": "Market hemen orada.",
+                "example_uz": "Do'kon aynan o'sha yerda."
+              }
+            ],
+            "reading": {
+              "title": "Yo'l so'rash",
+              "text": "Turist bir adama soruyor: \"Affedersiniz, eczane nerede?\" Adam \"Düz gidin, sonra sağa dönün. Eczane marketin yanında\" diyor.\n\nTurist teşekkür ediyor ve yürüyor. Beş dakika sonra eczaneyi buluyor. Çok mutlu oluyor.",
+              "questions": [
+                {
+                  "question": "Dorixona qayerda joylashgan?",
+                  "options": [
+                    "Do'konning yonida",
+                    "Parkning qarshisida",
+                    "Bankning orqasida",
+                    "Uyning oldida"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Turist qancha vaqtda dorixonani topdi?",
+                  "options": [
+                    "Besh daqiqada",
+                    "O'n daqiqada",
+                    "Bir soatda",
+                    "Darhol"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Yolcu",
+                  "text": "Affedersiniz, park nerede?"
+                },
+                {
+                  "speaker": "Sakin",
+                  "text": "Düz gidin, sonra sola dönün."
+                },
+                {
+                  "speaker": "Yolcu",
+                  "text": "Uzak mı?"
+                },
+                {
+                  "speaker": "Sakin",
+                  "text": "Hayır, hemen orada, hastanenin karşısında."
+                },
+                {
+                  "speaker": "Yolcu",
+                  "text": "Çok teşekkür ederim!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Park qayerda joylashgan?",
+                  "options": [
+                    "Kasalxonaning qarshisida",
+                    "Do'konning yonida",
+                    "Bankning orqasida",
+                    "Masjidning ichida"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yo'lovchi qaysi tomonga burilishi kerak?",
+                  "options": [
+                    "Chapga",
+                    "O'ngga",
+                    "Orqaga",
+                    "To'g'riga"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Yonida\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yanında",
+                  "Önünde",
+                  "Arkasında",
+                  "İçinde"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"O'ngga burul\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Sağa dön",
+                  "Sola dön",
+                  "Düz git",
+                  "Geri dön"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"To'g'riga boring.\" gapini tuzing.",
+                "words": [
+                  "Düz",
+                  "gidin."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Dorixona do'konning yonida.\" gapini tuzing.",
+                "words": [
+                  "Eczane",
+                  "marketin",
+                  "yanında."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ichida\" turkchada qanday bo'ladi?",
+                "options": [
+                  "İçinde",
+                  "Dışında",
+                  "Üstünde",
+                  "Altında"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Uzoqda\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Uzakta",
+                  "Yakında",
+                  "İçinde",
+                  "Dışında"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Uyingizdan maktab yoki ishgacha bo'lgan yo'lni tasvirlab yozing (kamida 2 gap).",
+              "sample_answer": "Evden okula kadar yürüyorum. Okul parkın yanında."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Eczane nerede?",
+                "Düz gidin, sağa dönün.",
+                "Market yakında.",
+                "Çok teşekkür ederim."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Yonida\" turkchada nima?",
+              "options": [
+                "Yanında",
+                "Önünde",
+                "İçinde",
+                "Üstünde"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ichida\" turkchada nima?",
+              "options": [
+                "İçinde",
+                "Dışında",
+                "Yanında",
+                "Altında"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'ng\" turkchada nima?",
+              "options": [
+                "Sağ",
+                "Sol",
+                "Düz",
+                "Geri"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chap\" turkchada nima?",
+              "options": [
+                "Sol",
+                "Sağ",
+                "Düz",
+                "Geri"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"To'g'riga bor\" turkchada qanday bo'ladi?",
+              "options": [
+                "Düz git",
+                "Sağa dön",
+                "Sola dön",
+                "Geri git"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Burilmoq\" turkchada nima?",
+              "options": [
+                "Dönmek",
+                "Gitmek",
+                "Yürümek",
+                "Durmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Piyoda yurmoq\" turkchada nima?",
+              "options": [
+                "Yürümek",
+                "Dönmek",
+                "Gitmek",
+                "Uçmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Burchak\" turkchada nima?",
+              "options": [
+                "Köşe",
+                "Bina",
+                "Yol",
+                "Sokak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Uzoqda\" turkchada nima?",
+              "options": [
+                "Uzakta",
+                "Yakında",
+                "İçinde",
+                "Dışında"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"-dan...-gacha\" turkchada qanday ifodalanadi?",
+              "options": [
+                "-den ... -e kadar",
+                "-de ... -da",
+                "-den ... -den",
+                "-e ... -e"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u4c",
+          "title": "C. Bir Haftalık Planımız — Bir haftalik rejamiz",
+          "start_page": 12,
+          "end_page": 12,
+          "explanation": {
+            "goals": [
+              "Kelasi zamon (-ecek/-acak) bilan reja tuzish",
+              "Haftalik rejani tasvirlash",
+              "\"Ne yapacaksın?\" savoliga javob berish"
+            ],
+            "blocks": [
+              {
+                "heading": "Kelasi zamon: -ecek/-acak",
+                "text": "Kelajakda bo'ladigan ish-harakatni bildirish uchun fe'l tubiga \"-ecek\" yoki \"-acak\" qo'shiladi: \"gitmek\" (bormoq) -> \"gideceğim\" (boraman - kelajakda), \"gelmek\" (kelmoq) -> \"geleceğim\" (kelaman).\n\nMisol: \"Yarın okula gideceğim.\" (Ertaga maktabga boraman)."
+              },
+              {
+                "heading": "Reja so'rash",
+                "text": "\"Ne yapacaksın?\" (Nima qilasan? - kelajakda) savoli bilan kimningdir rejasi so'raladi. Javob: \"Kitap okuyacağım.\" (Kitob o'qiyman)."
+              },
+              {
+                "heading": "Haftalik reja",
+                "text": "Haftalik rejani tasvirlashda hafta kunlari va kelasi zamon birga ishlatiladi: \"Pazartesi çalışacağım, Cumartesi dinleneceğim.\" (Dushanba ishlayman, shanba dam olaman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "Kelasi zamon: fe'l + -ecek/-acak + shaxs qo'shimchasi."
+              },
+              {
+                "fact": "\"Ne yapacaksın?\" - Nima qilasan (kelajakda)?"
+              },
+              {
+                "fact": "Kelasi zamon reja va niyatlarni bildiradi."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "yapacağım",
+                "uz": "qilaman (kelajakda)",
+                "example_tr": "Ödevimi yapacağım.",
+                "example_uz": "Vazifamni qilaman."
+              },
+              {
+                "tr": "gideceğim",
+                "uz": "boraman (kelajakda)",
+                "example_tr": "Yarın okula gideceğim.",
+                "example_uz": "Ertaga maktabga boraman."
+              },
+              {
+                "tr": "geleceğim",
+                "uz": "kelaman (kelajakda)",
+                "example_tr": "Akşam geleceğim.",
+                "example_uz": "Kechqurun kelaman."
+              },
+              {
+                "tr": "çalışacağım",
+                "uz": "ishlayman (kelajakda)",
+                "example_tr": "Pazartesi çalışacağım.",
+                "example_uz": "Dushanba ishlayman."
+              },
+              {
+                "tr": "dinleneceğim",
+                "uz": "dam olaman (kelajakda)",
+                "example_tr": "Hafta sonu dinleneceğim.",
+                "example_uz": "Dam olish kunlari dam olaman."
+              },
+              {
+                "tr": "okuyacağım",
+                "uz": "o'qiyman (kelajakda)",
+                "example_tr": "Kitap okuyacağım.",
+                "example_uz": "Kitob o'qiyman."
+              },
+              {
+                "tr": "ne yapacaksın?",
+                "uz": "nima qilasan (kelajakda)?",
+                "example_tr": "Yarın ne yapacaksın?",
+                "example_uz": "Ertaga nima qilasan?"
+              },
+              {
+                "tr": "plan",
+                "uz": "reja",
+                "example_tr": "Haftalık planım var.",
+                "example_uz": "Haftalik rejam bor."
+              },
+              {
+                "tr": "gelecek hafta",
+                "uz": "kelasi hafta",
+                "example_tr": "Gelecek hafta sınav var.",
+                "example_uz": "Kelasi hafta imtihon bor."
+              },
+              {
+                "tr": "gelecek ay",
+                "uz": "kelasi oy",
+                "example_tr": "Gelecek ay tatildeyim.",
+                "example_uz": "Kelasi oy ta'tildaman."
+              },
+              {
+                "tr": "toplantı",
+                "uz": "yig'ilish",
+                "example_tr": "Toplantı var.",
+                "example_uz": "Yig'ilish bor."
+              },
+              {
+                "tr": "spor yapmak",
+                "uz": "sport bilan shug'ullanmoq",
+                "example_tr": "Spor yapacağım.",
+                "example_uz": "Sport qilaman."
+              },
+              {
+                "tr": "gezmek",
+                "uz": "sayr qilmoq",
+                "example_tr": "Şehri gezeceğim.",
+                "example_uz": "Shaharni aylanaman."
+              },
+              {
+                "tr": "misafir",
+                "uz": "mehmon",
+                "example_tr": "Misafirim gelecek.",
+                "example_uz": "Mehmonim keladi."
+              },
+              {
+                "tr": "davet",
+                "uz": "taklif, chaqiruv",
+                "example_tr": "Davetim var.",
+                "example_uz": "Taklifim bor."
+              },
+              {
+                "tr": "belki",
+                "uz": "balki",
+                "example_tr": "Belki geleceğim.",
+                "example_uz": "Balki kelaman."
+              },
+              {
+                "tr": "kesinlikle",
+                "uz": "albatta",
+                "example_tr": "Kesinlikle geleceğim.",
+                "example_uz": "Albatta kelaman."
+              },
+              {
+                "tr": "önemli",
+                "uz": "muhim",
+                "example_tr": "Bu çok önemli.",
+                "example_uz": "Bu juda muhim."
+              },
+              {
+                "tr": "meşgul",
+                "uz": "band",
+                "example_tr": "Bu hafta meşgulüm.",
+                "example_uz": "Bu hafta bandman."
+              },
+              {
+                "tr": "boş",
+                "uz": "bo'sh",
+                "example_tr": "Cumartesi boşum.",
+                "example_uz": "Shanba kuni bo'shman."
+              }
+            ],
+            "reading": {
+              "title": "Haftalik rejam",
+              "text": "Bu hafta çok meşgulüm. Pazartesi ve Salı çalışacağım. Çarşamba bir toplantım var, çok önemli.\n\nCumartesi boşum, arkadaşlarımla şehri gezeceğim. Pazar günü dinleneceğim ve kitap okuyacağım.",
+              "questions": [
+                {
+                  "question": "Chorshanba kuni nima bor?",
+                  "options": [
+                    "Yig'ilish",
+                    "Sayohat",
+                    "Dam olish",
+                    "Sport"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Shanba kuni nima qiladi?",
+                  "options": [
+                    "Shaharni aylanadi",
+                    "Ishlaydi",
+                    "Dam oladi",
+                    "Kitob o'qiydi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Naz",
+                  "text": "Yarın ne yapacaksın?"
+                },
+                {
+                  "speaker": "Efe",
+                  "text": "Sabah çalışacağım, akşam dinleneceğim."
+                },
+                {
+                  "speaker": "Naz",
+                  "text": "Hafta sonu boş musun?"
+                },
+                {
+                  "speaker": "Efe",
+                  "text": "Evet, cumartesi boşum. Gezmek ister misin?"
+                },
+                {
+                  "speaker": "Naz",
+                  "text": "Kesinlikle, çok isterim!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Efe ertaga kechqurun nima qiladi?",
+                  "options": [
+                    "Dam oladi",
+                    "Ishlaydi",
+                    "O'qiydi",
+                    "Sayohat qiladi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Naz taklifga qanday javob berdi?",
+                  "options": [
+                    "Albatta rozi bo'ldi",
+                    "Rad etdi",
+                    "O'ylab ko'radi",
+                    "Javob bermadi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Boraman\" (kelajakda) turkchada qanday bo'ladi?",
+                "options": [
+                  "Gideceğim",
+                  "Gidiyorum",
+                  "Gittim",
+                  "Git"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Nima qilasan?\" (kelajakda) turkchada qanday bo'ladi?",
+                "options": [
+                  "Ne yapacaksın?",
+                  "Ne yapıyorsun?",
+                  "Ne yaptın?",
+                  "Ne yap?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Ertaga maktabga boraman.\" gapini tuzing.",
+                "words": [
+                  "Yarın",
+                  "okula",
+                  "gideceğim."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Kelasi hafta imtihon bor.\" gapini tuzing.",
+                "words": [
+                  "Gelecek",
+                  "hafta",
+                  "sınav",
+                  "var."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Balki\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Belki",
+                  "Kesinlikle",
+                  "Hiç",
+                  "Her zaman"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Band\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Meşgul",
+                  "Boş",
+                  "Önemli",
+                  "Sakin"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Kelasi hafta uchun rejangizni yozing: qaysi kun nima qilasiz (kamida 2 gap).",
+              "sample_answer": "Pazartesi çalışacağım. Cumartesi dinleneceğim."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Yarın ne yapacaksın?",
+                "Çalışacağım.",
+                "Hafta sonu boşum.",
+                "Kesinlikle geleceğim."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Boraman\" (kelajakda) turkchada nima?",
+              "options": [
+                "Gideceğim",
+                "Gidiyorum",
+                "Gittim",
+                "Gitmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kelaman\" (kelajakda) turkchada nima?",
+              "options": [
+                "Geleceğim",
+                "Geliyorum",
+                "Geldim",
+                "Gelmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ishlayman\" (kelajakda) turkchada nima?",
+              "options": [
+                "Çalışacağım",
+                "Çalışıyorum",
+                "Çalıştım",
+                "Çalışmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Reja\" turkchada nima?",
+              "options": [
+                "Plan",
+                "Toplantı",
+                "Davet",
+                "Misafir"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yig'ilish\" turkchada nima?",
+              "options": [
+                "Toplantı",
+                "Plan",
+                "Misafir",
+                "Davet"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mehmon\" turkchada nima?",
+              "options": [
+                "Misafir",
+                "Davet",
+                "Toplantı",
+                "Plan"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Albatta\" turkchada nima?",
+              "options": [
+                "Kesinlikle",
+                "Belki",
+                "Hiç",
+                "Bazen"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Balki\" turkchada nima?",
+              "options": [
+                "Belki",
+                "Kesinlikle",
+                "Her zaman",
+                "Hiç"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bo'sh\" (vaqt haqida) turkchada nima?",
+              "options": [
+                "Boş",
+                "Meşgul",
+                "Önemli",
+                "Sakin"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Band\" turkchada nima?",
+              "options": [
+                "Meşgul",
+                "Boş",
+                "Kolay",
+                "Zor"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
