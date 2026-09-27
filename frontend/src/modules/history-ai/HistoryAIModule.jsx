@@ -35,12 +35,32 @@ import UploadPage from './pages/UploadPage'
  */
 export default function HistoryAIModule() {
   const [dark, toggleTheme] = useTheme()
+  // Token localStorage'da qolar ekan, kirish doim ochiq bo'ladi: faqat token haqiqatan
+  // yaroqsiz (401/403) bo'lsa chiqib ketiladi, tarmoq/server xatosida emas.
   const [authed, setAuthed] = useState(Boolean(getToken()))
   const [me, setMe] = useState(null)
+  const [meError, setMeError] = useState('')
+
+  const loadMe = useCallback(() => {
+    setMeError('')
+    getMe().then(setMe).catch((err) => {
+      if (err.status === 401 || err.status === 403) setAuthed(false)
+      // `err.status` bo'lsa - backend javob berib, aniq xabar yuborgan (o'zbekcha); aks holda
+      // brauzerning o'z tarmoq xatosi (odatda inglizcha) - o'rniga umumiy o'zbekcha xabar ko'rsatiladi.
+      else setMeError(err.status ? err.message : "Ulanishda xatolik. Internetni tekshiring.")
+    })
+  }, [])
 
   useEffect(() => {
-    if (authed) getMe().then(setMe).catch(() => setAuthed(false))
-  }, [authed])
+    if (authed) loadMe()
+  }, [authed, loadMe])
+
+  useEffect(() => {
+    if (!authed || me) return
+    const onOnline = () => loadMe()
+    window.addEventListener('online', onOnline)
+    return () => window.removeEventListener('online', onOnline)
+  }, [authed, me, loadMe])
 
   if (!authed) {
     return (
@@ -54,7 +74,21 @@ export default function HistoryAIModule() {
       </Routes>
     )
   }
-  if (!me) return null
+  if (!me) {
+    return (
+      <div className="flex min-h-screen items-center justify-center px-5">
+        <div className="card max-w-sm p-6 text-center">
+          <Spinner>Yuklanmoqda...</Spinner>
+          {meError && (
+            <>
+              <p className="mt-3 text-sm text-bad">{meError}</p>
+              <button onClick={loadMe} className="btn btn-ghost btn-sm mt-3">Qayta urinish</button>
+            </>
+          )}
+        </div>
+      </div>
+    )
+  }
 
   function handleLogout() {
     clearToken()
