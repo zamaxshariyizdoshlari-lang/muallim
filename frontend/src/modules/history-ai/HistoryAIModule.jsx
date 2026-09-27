@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, LogOut, Star, WifiOff } from 'lucide-react'
+import { Flame, GraduationCap, Home, LogOut, Star, UserRound, WifiOff } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -175,20 +175,20 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
             </span>
             <span className="font-display text-lg font-bold leading-none text-ink">Muallim</span>
           </Link>
+
+          <NavMenu />
+
           <div className="flex items-center gap-2">
             {stats && (
-              <Link to="/profil" className="flex items-center gap-1.5" title="Profil: ball va ketma-ketlik">
+              <Link to="/profil" className="hidden items-center gap-1.5 sm:flex" title="Profil: ball va ketma-ketlik">
                 <span className={`chip ${stats.streak.current > 0 ? 'chip-gold' : ''}`}>
-                  <Flame size={13} /> {stats.streak.current}
+                  <Flame size={13} className={stats.streak.current > 0 ? 'streak-flame' : ''} /> {stats.streak.current}
                 </span>
                 <span className="chip chip-gold">
                   <Star size={13} /> {stats.xp} ball
                 </span>
               </Link>
             )}
-            <Link to="/profil" className="hidden text-sm text-muted hover:text-brand sm:inline">
-              {me.first_name || me.username}
-            </Link>
             <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
             <ThemeToggle dark={dark} onToggle={onToggleTheme} />
             <button type="button" onClick={onLogout} className="btn btn-ghost btn-sm">
@@ -207,7 +207,73 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
       <main id="main-content" className="mx-auto max-w-5xl px-4 pb-24 pt-8">
         <Outlet context={{ me, isTeacher: me.is_staff }} />
       </main>
+
+      <MobileNav stats={stats} />
     </div>
+  )
+}
+
+const NAV_ITEMS = [
+  { to: '/', label: 'Bosh sahifa', icon: Home, end: true },
+  { to: '/profil', label: 'Profil', icon: UserRound },
+]
+
+/** Katta ekranda header ichidagi gorizontal menyu. */
+function NavMenu() {
+  const location = useLocation()
+  return (
+    <nav aria-label="Asosiy menyu" className="hidden items-center gap-1 sm:flex">
+      {NAV_ITEMS.map(({ to, label, icon: Icon, end }) => {
+        const active = end ? location.pathname === to : location.pathname.startsWith(to)
+        return (
+          <Link
+            key={to}
+            to={to}
+            aria-current={active ? 'page' : undefined}
+            className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold transition-colors ${
+              active ? 'bg-brand-soft text-brand' : 'text-muted hover:text-ink'
+            }`}
+          >
+            <Icon size={15} /> {label}
+          </Link>
+        )
+      })}
+    </nav>
+  )
+}
+
+/** Kichik ekranda pastki qattiq menyu (Duolingo/mobil ilovalar uslubida). */
+function MobileNav({ stats }) {
+  const location = useLocation()
+  return (
+    <nav
+      aria-label="Asosiy menyu"
+      className="fixed inset-x-0 bottom-0 z-30 flex items-stretch justify-around border-t border-line bg-paper/95 backdrop-blur sm:hidden"
+    >
+      {NAV_ITEMS.map(({ to, label, icon: Icon, end }) => {
+        const active = end ? location.pathname === to : location.pathname.startsWith(to)
+        return (
+          <Link
+            key={to}
+            to={to}
+            aria-current={active ? 'page' : undefined}
+            className={`flex flex-1 flex-col items-center gap-0.5 py-2.5 text-[0.68rem] font-semibold ${
+              active ? 'text-brand' : 'text-muted'
+            }`}
+          >
+            <span className="relative">
+              <Icon size={20} />
+              {to === '/profil' && stats?.streak.current > 0 && (
+                <span className="absolute -right-2 -top-1.5 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-gold text-[0.55rem] text-white">
+                  {stats.streak.current}
+                </span>
+              )}
+            </span>
+            {label}
+          </Link>
+        )
+      })}
+    </nav>
   )
 }
 

@@ -1,5 +1,6 @@
 import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
 
 /**
@@ -105,6 +106,8 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
             </button>
           )}
 
+          {result?.passed && <Confetti />}
+
           {result && (
             <div
               role="status"
@@ -130,7 +133,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                     )}
                   </p>
                   {result.passed && result.xp_gained > 0 && (
-                    <p className="chip chip-gold mt-2 !text-sm">+{result.xp_gained} ball olindi</p>
+                    <p className="xp-pop chip chip-gold mt-2 !text-sm">+{result.xp_gained} ball olindi</p>
                   )}
                   <p className="mt-1 text-sm leading-relaxed text-ink-2">
                     {result.passed
