@@ -199,10 +199,12 @@ class BookProgressView(APIView):
         })
 
 
-def _grade(questions, answers, book=None):
+def _grade(questions, answers, book=None, topic=None):
     """answers: {"0": chosen_index, ...}. Javob berilmagan savol xato hisoblanadi.
 
     `book` berilsa, xato javoblarga qisqa eslatma (`explain`: sarlavha + matn boshi) qo'shiladi.
+    `topic` berilsa (mavzu testi), eslatma to'g'ridan-to'g'ri shu mavzudan olinadi - bet raqami
+    shart emas (til kursi kabi sahifaga asoslanmagan kurslar uchun).
     """
     details = []
     score = 0
@@ -213,7 +215,7 @@ def _grade(questions, answers, book=None):
         # To'g'ri javob ataylab qaytarilmaydi (yodlab olishning oldini olish) - faqat qayerdan o'qish kerakligi (bet).
         detail = {'index': i, 'correct': correct, 'page': q.get('page')}
         if not correct and book is not None:
-            detail['explain'] = review_service.explain_page(book, q.get('page'))
+            detail['explain'] = review_service.explain_page(book, q.get('page'), topic=topic)
         details.append(detail)
     return score, len(questions), details
 
@@ -241,7 +243,7 @@ class TopicTestSubmitView(APIView):
             raise ValidationError({'detail': "Bu mavzu uchun test hali yaratilmagan."})
 
         answers = _read_answers(request)
-        score, total, details = _grade(asset.data['questions'], answers, book=topic.book)
+        score, total, details = _grade(asset.data['questions'], answers, book=topic.book, topic=topic)
         passed = total > 0 and score == total
         xp = 0
         attempt = TestAttempt.objects.create(

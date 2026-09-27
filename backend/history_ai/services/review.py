@@ -125,27 +125,43 @@ def answer_card(user, book, key, choice):
         card.interval_idx = 0
         card.due_date = timezone.localdate()
         card.save(update_fields=['interval_idx', 'due_date', 'updated_at'])
-    explain = None if correct else explain_page(book, page)
+    explain = None
+    if not correct:
+        topic = Topic.objects.filter(id=card.data.get('topic_id')).first() if card.data.get('topic_id') else None
+        explain = explain_page(book, page, topic=topic)
     return {'correct': correct, 'page': page, 'mastered': mastered, 'next_in_days': next_in_days, 'explain': explain}
 
 
-def explain_page(book, page):
-    """Xato javobdan keyingi qisqa eslatma: shu betni qoplaydigan dars blokining sarlavhasi va boshi."""
-    if not page:
+def explain_page(book, page, topic=None):
+    """Xato javobdan keyingi qisqa eslatma: tegishli dars blokining sarlavhasi va boshi.
+
+    `topic` berilsa (mavzu testi kabi mavzu aniq bo'lganda) shu mavzuning darsidan, aks holda
+    `page` (kitob beti) orqali mos darsdan qidiriladi - sahifa raqami bo'lmagan kurslarda
+    (masalan til darslari) `topic` orqali ham ishlaydi.
+    """
+    if topic is not None:
+        lesson = Lesson.objects.filter(topic=topic, lesson_plan__isnull=False).first()
+    elif page:
+        lesson = Lesson.objects.filter(
+            topic__book=book, topic__start_page__lte=page, topic__end_page__gte=page, lesson_plan__isnull=False,
+        ).first()
+    else:
         return None
-    lesson = Lesson.objects.filter(
-        topic__book=book, topic__start_page__lte=page, topic__end_page__gte=page, lesson_plan__isnull=False,
-    ).first()
     if not lesson:
         return None
-    for b in (lesson.lesson_plan or {}).get('blocks', []):
-        if page in (b.get('pages') or []):
-            text = b.get('text') or ''
-            snippet = text[:180]
-            if len(snippet) < len(text):
-                snippet = snippet.rsplit(' ', 1)[0] + '...'
-            return {'heading': b.get('heading', ''), 'snippet': snippet}
-    return None
+    blocks = (lesson.lesson_plan or {}).get('blocks', [])
+    block = None
+    if page:
+        block = next((b for b in blocks if page in (b.get('pages') or [])), None)
+    if block is None and topic is not None:
+        block = blocks[0] if blocks else None
+    if block is None:
+        return None
+    text = block.get('text') or ''
+    snippet = text[:180]
+    if len(snippet) < len(text):
+        snippet = snippet.rsplit(' ', 1)[0] + '...'
+    return {'heading': block.get('heading', ''), 'snippet': snippet}
 
 
 def _snippet(text, needle, radius=70):

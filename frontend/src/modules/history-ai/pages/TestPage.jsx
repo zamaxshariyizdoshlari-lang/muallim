@@ -179,11 +179,11 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                       </button>
                     ))}
                   </div>
-                  {d && !d.correct && d.page && (
+                  {d && !d.correct && (d.page || d.explain) && (
                     <div className="mt-3 rounded-lg bg-bad-soft px-3 py-2 text-sm text-bad">
-                      <p className="font-medium">Qayta o'qing: darslikning {d.page}-beti</p>
+                      {d.page && <p className="font-medium">Qayta o'qing: darslikning {d.page}-beti</p>}
                       {d.explain && (
-                        <p className="mt-1 text-ink-2">
+                        <p className={d.page ? 'mt-1 text-ink-2' : 'font-medium text-ink-2'}>
                           {d.explain.heading && <span className="font-semibold">{d.explain.heading}: </span>}
                           {d.explain.snippet}
                         </p>

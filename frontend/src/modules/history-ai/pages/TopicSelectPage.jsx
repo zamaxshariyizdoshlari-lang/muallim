@@ -15,6 +15,7 @@ export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
   onOpenReview, onOpenTopic,
 }) {
+  const showPages = book.subject_slug === 'tarix'
   const completedCount = topics.filter((t) => t.completed).length
   const sectionIds = [...new Set(topics.map((t) => t.section))]
   const groups = sectionIds.map((id) => ({
@@ -119,9 +120,11 @@ export default function TopicSelectPage({
                       <span className={`text-[0.95rem] font-semibold leading-snug ${locked ? 'text-muted' : 'text-ink'}`}>
                         {topic.title}
                       </span>
-                      <span className="chip shrink-0">
-                        {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}–${topic.end_page}`}
-                      </span>
+                      {showPages && (
+                        <span className="chip shrink-0">
+                          {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}–${topic.end_page}`}
+                        </span>
+                      )}
                     </button>
                   </li>
                 )

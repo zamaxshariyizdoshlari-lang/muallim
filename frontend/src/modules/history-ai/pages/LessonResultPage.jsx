@@ -1,6 +1,6 @@
 import {
-  AlertTriangle, BookMarked, CheckCircle2, Clock, Gamepad2, HelpCircle, Layers, Lightbulb, Link2, ListChecks,
-  PencilLine, Presentation, RefreshCw, ShieldAlert, Sparkles, SpellCheck2, Target, Volume2,
+  AlertTriangle, BookMarked, BookOpenCheck, CheckCircle2, Clock, Gamepad2, HelpCircle, Layers, Lightbulb, Link2,
+  ListChecks, PencilLine, Presentation, RefreshCw, ShieldAlert, Sparkles, SpellCheck2, Target, Volume2,
 } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { createLesson, getLessonByTopic } from '../api/client'
@@ -10,6 +10,7 @@ import ListeningExercise from '../components/ListeningExercise'
 import MatchingGame from '../components/MatchingGame'
 import PresentationViewer from '../components/PresentationViewer'
 import QuizGame from '../components/QuizGame'
+import ReadingExercise from '../components/ReadingExercise'
 import SentencePractice from '../components/SentencePractice'
 import SpeakingPractice from '../components/SpeakingPractice'
 import TimelineGame from '../components/TimelineGame'
@@ -29,8 +30,9 @@ const LANGUAGE_STAGES = [
   { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
   { n: 2, id: 'stage-2', label: 'Kartochkalar', icon: Layers },
   { n: 3, id: 'stage-3', label: 'Tinglash', icon: Volume2 },
-  { n: 4, id: 'stage-4', label: 'Mashqlar', icon: SpellCheck2 },
-  { n: 5, id: 'stage-5', label: 'Mavzu testi', icon: ListChecks },
+  { n: 4, id: 'stage-4', label: "O'qish", icon: BookOpenCheck },
+  { n: 5, id: 'stage-5', label: 'Mashqlar', icon: SpellCheck2 },
+  { n: 6, id: 'stage-6', label: 'Mavzu testi', icon: ListChecks },
 ]
 
 export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBack, onStartTest }) {
@@ -187,7 +189,15 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
                 />
               </Stage>
 
-              <Stage n={4} id="stage-4" title="Mashqlar">
+              <Stage n={4} id="stage-4" title="O'qish">
+                <ReadingExercise
+                  title={lesson.lesson_plan.reading?.title}
+                  text={lesson.lesson_plan.reading?.text}
+                  questions={lesson.lesson_plan.reading?.questions}
+                />
+              </Stage>
+
+              <Stage n={5} id="stage-5" title="Mashqlar">
                 <div className="flex flex-col gap-8">
                   {lesson.lesson_plan.sentence_practice?.length > 0 && (
                     <section className="card p-5 sm:p-6">
@@ -215,7 +225,7 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
                 </div>
               </Stage>
 
-              <Stage n={5} id="stage-5" title="Mavzu testi">
+              <Stage n={6} id="stage-6" title="Mavzu testi">
                 <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
               </Stage>
             </>

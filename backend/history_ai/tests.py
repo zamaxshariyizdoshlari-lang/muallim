@@ -539,6 +539,10 @@ class LanguageContentImportTests(TestCase):
                 {'type': 'choice', 'prompt': 'Salom?', 'options': ['Merhaba', 'Hayır'], 'correct_index': 0},
                 {'type': 'order', 'prompt': 'Tuzing', 'words': ['Benim', 'adım', 'Ali.']},
             ],
+            reading={
+                'title': 'Sinfda', 'text': 'Bugün yeni bir öğrenci var.',
+                'questions': [{'question': 'Kim yangi?', 'options': ['Öğrenci', 'Öğretmen'], 'correct_index': 0}],
+            },
             writing_prompt={'instruction': 'Yozing', 'sample_answer': 'Merhaba!'},
             speaking_prompt={'sentences': ['Merhaba!']},
         )
@@ -547,6 +551,7 @@ class LanguageContentImportTests(TestCase):
         plan = Lesson.objects.get(topic=topic).lesson_plan
         self.assertEqual(plan['vocabulary'][0]['tr'], 'merhaba')
         self.assertEqual(plan['listening']['dialogue'][0]['speaker'], 'Ali')
+        self.assertEqual(plan['reading']['title'], 'Sinfda')
         self.assertEqual(len(plan['sentence_practice']), 2)
         self.assertEqual(plan['writing_prompt']['instruction'], 'Yozing')
         self.assertEqual(plan['speaking_prompt']['sentences'], ['Merhaba!'])
@@ -570,3 +575,18 @@ class LanguageContentImportTests(TestCase):
         data = self._base_topic(vocabulary=[{'tr': 'merhaba'}])
         errors = validate_book_json(data)
         self.assertTrue(any('vocabulary' in e for e in errors))
+
+    def test_reading_without_text_rejected(self):
+        from .services.book_import import validate_book_json
+        data = self._base_topic(reading={'title': 'Sarlavha', 'questions': []})
+        errors = validate_book_json(data)
+        self.assertTrue(any('reading' in e for e in errors))
+
+    def test_mcq_page_is_optional(self):
+        """page berilmasa ham xato bo'lmasin (til kursida bet raqami yo'q)."""
+        from .services.book_import import validate_book_json
+        data = self._base_topic(
+            sentence_practice=[{'type': 'choice', 'prompt': 'S?', 'options': ['A', 'B'], 'correct_index': 0}],
+        )
+        errors = validate_book_json(data)
+        self.assertEqual(errors, [])

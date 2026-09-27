@@ -31,8 +31,9 @@ def _check_mcq(q, where, errors):
     ci = q.get('correct_index')
     if not _is_int(ci) or not isinstance(opts, list) or not 0 <= ci < len(opts):
         errors.append(f"{where}: correct_index variantlar oralig'ida emas")
-    if not _is_int(q.get('page')):
-        errors.append(f"{where}: page (bet raqami) butun son bo'lishi kerak")
+    # page ixtiyoriy: kitobga asoslangan kurslarda (tarix) bet raqami beriladi, til kursida kerak emas.
+    if 'page' in q and q['page'] is not None and not _is_int(q['page']):
+        errors.append(f"{where}: page berilsa, butun son bo'lishi kerak")
 
 
 def validate_book_json(data):
@@ -88,15 +89,17 @@ def validate_book_json(data):
                 if not (isinstance(line, dict) and line.get('speaker') and line.get('text')):
                     errors.append(f"{tw}.explanation.listening.dialogue[{li}]: speaker va text majburiy")
             for qi, q in enumerate(listening.get('questions') or []):
-                _check_mcq({**q, 'page': q.get('page', t.get('start_page'))}, f"{tw}.explanation.listening.questions[{qi}]", errors)
+                _check_mcq(q, f"{tw}.explanation.listening.questions[{qi}]", errors)
+            reading = expl.get('reading') or {}
+            if reading and not str(reading.get('text', '')).strip():
+                errors.append(f"{tw}.explanation.reading: text majburiy")
+            for qi, q in enumerate(reading.get('questions') or []):
+                _check_mcq(q, f"{tw}.explanation.reading.questions[{qi}]", errors)
             for pi, sp in enumerate(expl.get('sentence_practice') or []):
                 if not isinstance(sp, dict) or sp.get('type') not in ('choice', 'order'):
                     errors.append(f"{tw}.explanation.sentence_practice[{pi}]: type 'choice' yoki 'order' bo'lishi kerak")
                 elif sp['type'] == 'choice':
-                    _check_mcq(
-                        {**sp, 'question': sp.get('prompt'), 'page': t.get('start_page')},
-                        f"{tw}.explanation.sentence_practice[{pi}]", errors,
-                    )
+                    _check_mcq({**sp, 'question': sp.get('prompt')}, f"{tw}.explanation.sentence_practice[{pi}]", errors)
                 elif sp['type'] == 'order' and (not isinstance(sp.get('words'), list) or len(sp['words']) < 2):
                     errors.append(f"{tw}.explanation.sentence_practice[{pi}]: words kamida 2 ta so'z")
             wp = expl.get('writing_prompt')
@@ -196,7 +199,7 @@ def import_book_json(data, user):
                 'summary': expl.get('summary', ''),
             }
             # Til kursi uchun ixtiyoriy qismlar (bo'lsa qo'shiladi - tarix kitobida bo'lmaydi).
-            for key in ('vocabulary', 'listening', 'sentence_practice', 'writing_prompt', 'speaking_prompt'):
+            for key in ('vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt'):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]
             Lesson.objects.update_or_create(
