@@ -15,7 +15,6 @@ import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import ResetPasswordPage from './pages/ResetPasswordPage'
 import ReviewPage from './pages/ReviewPage'
-import TeacherPanelPage from './pages/TeacherPanelPage'
 import SubjectsPage from './pages/SubjectsPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
@@ -132,7 +131,6 @@ export default function HistoryAIModule() {
           <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
-          <Route path="tahlil" element={<AnalyticsRoute />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
@@ -190,7 +188,6 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
             )}
             <Link to="/profil" className="hidden text-sm text-muted hover:text-brand sm:inline">
               {me.first_name || me.username}
-              {me.is_staff && <span className="chip chip-gold ml-2">o'qituvchi</span>}
             </Link>
             <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
             <ThemeToggle dark={dark} onToggle={onToggleTheme} />
@@ -228,7 +225,6 @@ function SubjectsRoute() {
 }
 
 function CoursesRoute() {
-  const { isTeacher } = useOutletContext()
   const { slug } = useParams()
   const navigate = useNavigate()
   const [subject, setSubject] = useState(null)
@@ -238,15 +234,7 @@ function CoursesRoute() {
   }, [slug])
 
   if (!subject) return <Spinner>Yuklanmoqda...</Spinner>
-  return (
-    <UploadPage
-      subject={subject}
-      isTeacher={isTeacher}
-      onBack={() => navigate('/')}
-      onUploaded={(book) => navigate(`/kurs/${book.id}`)}
-      onOpenBook={(book) => navigate(`/kurs/${book.id}`)}
-    />
-  )
+  return <UploadPage subject={subject} onBack={() => navigate('/')} onOpenBook={(book) => navigate(`/kurs/${book.id}`)} />
 }
 
 /* ───────── Kurs (bo'limlar, mavzular, progress) ───────── */
@@ -293,18 +281,10 @@ function TopicsRoute() {
       onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
       onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
       onOpenReview={() => navigate(`/kurs/${bookId}/takrorlash`)}
-      onOpenAnalytics={() => navigate(`/kurs/${bookId}/tahlil`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
     />
   )
-}
-
-function AnalyticsRoute() {
-  const { book, bookId, isTeacher } = useOutletContext()
-  const navigate = useNavigate()
-  if (!isTeacher) return <Navigate to={`/kurs/${bookId}`} replace />
-  return <TeacherPanelPage book={book} onBack={() => navigate(`/kurs/${bookId}`)} />
 }
 
 function ReviewRoute() {

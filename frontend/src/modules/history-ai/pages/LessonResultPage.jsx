@@ -118,7 +118,7 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
       {!loading && !lesson && (
         <div className="card flex flex-wrap items-center justify-between gap-4 px-5 py-6">
           <p className="text-sm text-ink-2">
-            {isTeacher ? 'Bu mavzu uchun dars rejasi va test hali yaratilmagan.' : "Bu mavzu materiallarini o'qituvchi hali tayyorlamagan."}
+            {isTeacher ? 'Bu mavzu uchun dars rejasi va test hali yaratilmagan.' : "Bu mavzu materiallari hali tayyorlanmagan."}
           </p>
           {isTeacher && (
             <button onClick={() => handleGenerate(false)} className="btn btn-primary btn-sm">

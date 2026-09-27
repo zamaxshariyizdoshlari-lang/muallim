@@ -101,10 +101,6 @@ export function updateMe(payload) {
   })
 }
 
-export function getAnalytics(bookId) {
-  return request(`/books/${bookId}/analytics/`)
-}
-
 export function listSubjects() {
   return request('/subjects/')
 }
@@ -131,13 +127,6 @@ async function request(path, options = {}) {
 
   if (res.status === 204) return null
   return res.json()
-}
-
-export function uploadBook(file, title) {
-  const formData = new FormData()
-  formData.append('file', file)
-  if (title) formData.append('title', title)
-  return request('/books/', { method: 'POST', body: formData })
 }
 
 export function listBooks(subjectSlug) {
@@ -266,24 +255,6 @@ export function submitSectionExam(sectionId, answers) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ answers }),
   })
-}
-
-/** Tayyor JSON faylni import qiladi; xatolar ro'yxati bo'lsa Error.errors ga qo'yiladi. */
-export async function importBookJson(file) {
-  const formData = new FormData()
-  formData.append('file', file)
-  const res = await fetch(`${API_BASE}/books/import/`, {
-    method: 'POST',
-    headers: { Authorization: `Token ${getToken()}` },
-    body: formData,
-  })
-  const body = await res.json().catch(() => ({}))
-  if (!res.ok) {
-    const error = new Error(body.detail || `JSON noto'g'ri (${(body.errors || []).length} ta xato)`)
-    error.errors = body.errors || []
-    throw error
-  }
-  return body
 }
 
 export function getLeaderboard() {

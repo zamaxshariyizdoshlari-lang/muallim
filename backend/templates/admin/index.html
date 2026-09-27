@@ -1,0 +1,9 @@
+{% extends "admin/index.html" %}
+{% block content %}
+<div class="module" style="margin-bottom:20px;padding:12px 16px;">
+  <a href="{% url 'admin:statistika' %}" style="font-weight:bold;font-size:15px;">
+    📊 Platforma statistikasi (talabalar, kurslar, faollik)
+  </a>
+</div>
+{{ block.super }}
+{% endblock %}

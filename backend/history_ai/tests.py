@@ -481,3 +481,24 @@ class IntroTopicUnlockTests(TestCase):
         states = topic_states(self.user, plain)
         self.assertTrue(states[plain[0].id]['unlocked'])
         self.assertFalse(states[plain[1].id]['unlocked'])
+
+
+class AdminStatsTests(CourseFixture):
+    def test_platform_overview_counts(self):
+        from .services.admin_stats import platform_overview
+        self.login(self.user)
+        self.submit(self.topics[0])
+        o = platform_overview()
+        self.assertEqual(o['students_total'], 1)  # teacher is_staff=True -> hisoblanmaydi
+        self.assertEqual(o['students_active_today'], 1)
+        self.assertEqual(o['new_registrations_7d'], 1)
+        self.assertEqual(o['books_total'], 1)
+        self.assertEqual(o['most_popular_book'], self.book.title)
+        self.assertEqual(o['certificates_total'], 0)
+
+    def test_platform_overview_empty_when_no_activity(self):
+        from .services.admin_stats import platform_overview
+        o = platform_overview()
+        self.assertEqual(o['students_total'], 1)
+        self.assertEqual(o['students_active_today'], 0)
+        self.assertIsNone(o['most_popular_book'])

@@ -299,6 +299,8 @@ class XPEvent(models.Model):
 
     class Meta:
         unique_together = ('user', 'kind', 'ref_id')
+        verbose_name = 'Ball voqeasi'
+        verbose_name_plural = 'Ball voqealari'
 
     def __str__(self):
         return f"{self.user} +{self.points} ({self.kind})"
@@ -322,6 +324,10 @@ class UserSettings(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='learning_settings')
     daily_goal = models.PositiveIntegerField(default=50)
     show_in_leaderboard = models.BooleanField(default=True)
+
+    class Meta:
+        verbose_name = "Foydalanuvchi sozlamasi"
+        verbose_name_plural = "Foydalanuvchi sozlamalari"
 
     def __str__(self):
         return f"{self.user} maqsad={self.daily_goal}"
