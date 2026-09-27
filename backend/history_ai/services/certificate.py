@@ -8,8 +8,11 @@ def _latin1(text):
     return text.encode('latin-1', 'replace').decode('latin-1')
 
 
-def build_certificate_pdf(student_name, book_title, issued_date):
-    """Sertifikat PDF (landshaft A4) baytlarini qaytaradi."""
+def build_certificate_pdf(student_name, book_title, issued_date, verify_url=None):
+    """Sertifikat PDF (landshaft A4) baytlarini qaytaradi.
+
+    `verify_url` berilsa, pastki qismga sertifikatni tekshirish havolasi yoziladi.
+    """
     pdf = FPDF(orientation='L', unit='mm', format='A4')
     pdf.add_page()
     pdf.set_auto_page_break(False)
@@ -45,6 +48,13 @@ def build_certificate_pdf(student_name, book_title, issued_date):
 
     pdf.set_font('Helvetica', '', 14)
     pdf.set_xy(0, 170)
-    pdf.cell(297, 10, _latin1(f"Sana: {issued_date:%d.%m.%Y}   |   Tarixchi AI"), align='C')
+    footer = f"Sana: {issued_date:%d.%m.%Y}   |   Muallim"
+    pdf.cell(297, 10, _latin1(footer), align='C')
+
+    if verify_url:
+        pdf.set_font('Helvetica', '', 10)
+        pdf.set_text_color(120, 120, 120)
+        pdf.set_xy(0, 180)
+        pdf.cell(297, 8, _latin1(f"Sertifikatni tekshirish: {verify_url}"), align='C')
 
     return bytes(pdf.output())

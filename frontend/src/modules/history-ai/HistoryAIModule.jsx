@@ -9,6 +9,7 @@ import {
   submitTopicTest,
 } from './api/client'
 import { Spinner, ThemeToggle, useTheme } from './components/ui'
+import CertificateVerifyPage from './pages/CertificateVerifyPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
@@ -45,6 +46,7 @@ export default function HistoryAIModule() {
     return (
       <Routes>
         <Route path="parolni-tiklash" element={<ResetPasswordPage dark={dark} onToggleTheme={toggleTheme} />} />
+        <Route path="sertifikat/:code" element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} />} />
         <Route
           path="*"
           element={<LoginPage onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme} />}
@@ -62,6 +64,7 @@ export default function HistoryAIModule() {
 
   return (
     <Routes>
+      <Route path="sertifikat/:code" element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} />} />
       <Route element={<Shell me={me} dark={dark} onToggleTheme={toggleTheme} onLogout={handleLogout} />}>
         <Route index element={<SubjectsRoute />} />
         <Route path="profil" element={<ProfileRoute />} />

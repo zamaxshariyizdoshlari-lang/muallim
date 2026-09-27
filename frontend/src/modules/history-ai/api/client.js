@@ -289,3 +289,10 @@ export async function importBookJson(file) {
 export function getLeaderboard() {
   return request('/leaderboard/')
 }
+
+export async function verifyCertificate(code) {
+  const res = await fetch(`${API_BASE}/certificates/verify/${encodeURIComponent(code)}/`)
+  const body = await res.json().catch(() => ({}))
+  if (!res.ok) return { valid: false }
+  return body
+}

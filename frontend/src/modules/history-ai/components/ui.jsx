@@ -123,3 +123,16 @@ export function SectionTitle({ eyebrow, children, right }) {
     </div>
   )
 }
+
+const UZ_MONTHS = [
+  'yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun',
+  'iyul', 'avgust', 'sentabr', 'oktabr', 'noyabr', 'dekabr',
+]
+
+/** Ba'zi brauzerlarda `toLocaleDateString('uz-UZ', {month:'long'})` oy nomini bilmaydi (ICU
+ * ma'lumoti yo'q) - shuning uchun sanani o'zimiz, ishonchli formatlaymiz: "27 sentabr 2026". */
+export function formatDateUz(value) {
+  const d = new Date(value)
+  if (Number.isNaN(d.getTime())) return ''
+  return `${d.getDate()} ${UZ_MONTHS[d.getMonth()]} ${d.getFullYear()}`
+}

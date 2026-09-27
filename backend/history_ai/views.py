@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.core.files.base import ContentFile
 from django.http import FileResponse
 from django.shortcuts import get_object_or_404
@@ -5,7 +6,7 @@ from django.utils import timezone
 from django.db.models import Count
 from rest_framework import generics, status
 from rest_framework.exceptions import PermissionDenied, ValidationError
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -321,8 +322,9 @@ class BookExamSubmitView(APIView):
         if passed:
             if not Certificate.objects.filter(student=request.user, book=book).exists():
                 name = request.user.get_full_name() or request.user.username
-                pdf = build_certificate_pdf(name, book.title, timezone.now())
                 cert = Certificate(student=request.user, book=book)
+                verify_url = f"{settings.FRONTEND_URL}/sertifikat/{cert.code}"
+                pdf = build_certificate_pdf(name, book.title, timezone.now(), verify_url=verify_url)
                 cert.file.save(f'certificate_{book.id}_{request.user.id}.pdf', ContentFile(pdf), save=False)
                 cert.save()
             certificate = True
@@ -339,6 +341,28 @@ class CertificateDownloadView(APIView):
     def get(self, request, book_id):
         cert = get_object_or_404(Certificate, student=request.user, book_id=book_id)
         return FileResponse(cert.file.open('rb'), as_attachment=True, filename='sertifikat.pdf')
+
+
+class CertificateVerifyView(APIView):
+    """Ochiq (login talab qilinmaydigan) sertifikat tekshiruvi: kod bo'yicha egasi va kursni ko'rsatadi.
+
+    Talaba yoki kitob ID orqali emas, faqat tasodifiy kod orqali topiladi - boshqa sertifikatlarni
+    "sanab ko'rish" imkonsiz.
+    """
+
+    permission_classes = [AllowAny]
+    authentication_classes = []
+
+    def get(self, request, code):
+        cert = Certificate.objects.filter(code=code.strip().upper()).select_related('student', 'book').first()
+        if not cert:
+            return Response({'valid': False}, status=404)
+        return Response({
+            'valid': True,
+            'student_name': cert.student.get_full_name() or cert.student.username,
+            'book_title': cert.book.title,
+            'issued_at': cert.issued_at,
+        })
 
 
 class LessonByTopicView(generics.RetrieveAPIView):

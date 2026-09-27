@@ -410,3 +410,33 @@ class SpacedRepetitionTests(CourseFixture):
 def qkey_of(text):
     from .services.review import qkey
     return qkey(text)
+
+
+class CertificateVerifyTests(CourseFixture):
+    def _earn_certificate(self):
+        from .models import BookExam, SectionCompletion, TopicCompletion
+        for t in self.topics:
+            TopicCompletion.objects.create(student=self.user, topic=t)
+        for s in self.sections:
+            SectionCompletion.objects.create(student=self.user, section=s)
+        BookExam.objects.create(
+            book=self.book, created_by=self.teacher, status=STATUS_DONE,
+            data={'questions': make_questions(99, n=1)},
+        )
+        self.login(self.user)
+        return self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': {'0': 0}}, format='json')
+
+    def test_certificate_verify_public_and_unknown_code(self):
+        from .models import Certificate
+        r = self._earn_certificate()
+        self.assertTrue(r.data['certificate'])
+        cert = Certificate.objects.get(student=self.user, book=self.book)
+        self.assertTrue(cert.code)
+        anon = APIClient()
+        ok = anon.get(f'/api/history/certificates/verify/{cert.code}/')
+        self.assertEqual(ok.status_code, 200)
+        self.assertTrue(ok.data['valid'])
+        self.assertEqual(ok.data['book_title'], self.book.title)
+        missing = anon.get('/api/history/certificates/verify/NOSUCHCODE/')
+        self.assertEqual(missing.status_code, 404)
+        self.assertFalse(missing.data['valid'])

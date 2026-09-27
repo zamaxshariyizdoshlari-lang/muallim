@@ -1,3 +1,5 @@
+import uuid
+
 from django.conf import settings
 from django.db import models
 
@@ -236,14 +238,23 @@ class TopicCompletion(models.Model):
         return f"{self.student.username} - {self.topic.title} - o'tildi"
 
 
+def _new_certificate_code():
+    return uuid.uuid4().hex[:10].upper()
+
+
 class Certificate(models.Model):
-    """Talaba butun kitobni (barcha mavzu + yakuniy imtihon) tugatganda beriladi."""
+    """Talaba butun kitobni (barcha mavzu + yakuniy imtihon) tugatganda beriladi.
+
+    `code` - istalgan kishi (masalan ish beruvchi) sertifikatni ochiq havola orqali tekshirishi
+    uchun (talaba yoki kitob ID'siz, taxmin qilib bo'lmaydigan tasodifiy kod).
+    """
 
     student = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='certificates'
     )
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='certificates')
     file = models.FileField(upload_to='certificates/')
+    code = models.CharField(max_length=12, unique=True, default=_new_certificate_code, editable=False)
     issued_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

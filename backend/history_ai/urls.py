@@ -23,6 +23,7 @@ urlpatterns = [
     path('books/<int:book_id>/exam/create/', views.BookExamCreateView.as_view(), name='book-exam-create'),
     path('books/<int:book_id>/exam/submit/', views.BookExamSubmitView.as_view(), name='book-exam-submit'),
     path('books/<int:book_id>/certificate/', views.CertificateDownloadView.as_view(), name='certificate'),
+    path('certificates/verify/<str:code>/', views.CertificateVerifyView.as_view(), name='certificate-verify'),
     path('topics/<int:topic_id>/test/submit/', views.TopicTestSubmitView.as_view(), name='topic-test-submit'),
     path('books/<int:book_id>/topics/', views.TopicListView.as_view(), name='topic-list'),
     path('topics/<int:topic_id>/lesson/', views.LessonByTopicView.as_view(), name='lesson-by-topic'),
