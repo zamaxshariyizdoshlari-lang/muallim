@@ -4976,6 +4976,1243 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u5",
+      "title": "5-unite. Meslekler",
+      "topics": [
+        {
+          "key": "u5a",
+          "title": "A. Meslekleri Tanıyalım — Kasblar bilan tanishamiz",
+          "start_page": 13,
+          "end_page": 13,
+          "explanation": {
+            "goals": [
+              "Asosiy kasb nomlarini bilish",
+              "\"Ne iş yapıyorsun?\" savoliga javob berish",
+              "Ish joyi haqida gapirish"
+            ],
+            "blocks": [
+              {
+                "heading": "Kasblar",
+                "text": "Asosiy kasb nomlari: doktor (shifokor), öğretmen (o'qituvchi), mühendis (muhandis), avukat (advokat), polis (militsioner), aşçı (oshpaz), şoför (haydovchi), hemşire (hamshira).\n\n\"Ben doktorum.\" (Men shifokorman) - kasb otga to'g'ridan-to'g'ri shaxs qo'shimchasi qo'shiladi."
+              },
+              {
+                "heading": "Ne iş yapıyorsun?",
+                "text": "Kasb so'rash uchun \"Ne iş yapıyorsun?\" (Qanday ish qilasan?) yoki \"Mesleğin ne?\" (Kasbing nima?) savoli beriladi.\n\nJavob: \"Öğretmenim.\" (O'qituvchiman) yoki \"Mühendis olarak çalışıyorum.\" (Muhandis bo'lib ishlayman)."
+              },
+              {
+                "heading": "Ish joyi",
+                "text": "Ish joylari: hastane (kasalxona - shifokor uchun), okul (maktab - o'qituvchi uchun), şirket (kompaniya), fabrika (zavod).\n\nMisol: \"Hastanede çalışıyorum.\" (Kasalxonada ishlayman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "Kasb so'ziga to'g'ridan-to'g'ri shaxs qo'shimchasi qo'shiladi: doktorum, öğretmenim."
+              },
+              {
+                "fact": "\"Ne iş yapıyorsun?\" / \"Mesleğin ne?\" - kasb so'rash."
+              },
+              {
+                "fact": "\"-de/-da çalışıyorum\" - ...da ishlayman."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "meslek",
+                "uz": "kasb",
+                "example_tr": "Mesleğin ne?",
+                "example_uz": "Kasbing nima?"
+              },
+              {
+                "tr": "doktor",
+                "uz": "shifokor",
+                "example_tr": "Ben doktorum.",
+                "example_uz": "Men shifokorman."
+              },
+              {
+                "tr": "öğretmen",
+                "uz": "o'qituvchi",
+                "example_tr": "O öğretmen.",
+                "example_uz": "U o'qituvchi."
+              },
+              {
+                "tr": "mühendis",
+                "uz": "muhandis",
+                "example_tr": "Babam mühendis.",
+                "example_uz": "Otam muhandis."
+              },
+              {
+                "tr": "avukat",
+                "uz": "advokat",
+                "example_tr": "Ablam avukat.",
+                "example_uz": "Opam advokat."
+              },
+              {
+                "tr": "polis",
+                "uz": "militsioner",
+                "example_tr": "O bir polis.",
+                "example_uz": "U militsioner."
+              },
+              {
+                "tr": "aşçı",
+                "uz": "oshpaz",
+                "example_tr": "Restoranda aşçıyım.",
+                "example_uz": "Restoranda oshpazman."
+              },
+              {
+                "tr": "şoför",
+                "uz": "haydovchi",
+                "example_tr": "Amcam şoför.",
+                "example_uz": "Amakim haydovchi."
+              },
+              {
+                "tr": "hemşire",
+                "uz": "hamshira",
+                "example_tr": "Teyzem hemşire.",
+                "example_uz": "Xolam hamshira."
+              },
+              {
+                "tr": "çiftçi",
+                "uz": "dehqon",
+                "example_tr": "Dedem çiftçi.",
+                "example_uz": "Bobom dehqon."
+              },
+              {
+                "tr": "ne iş yapıyorsun?",
+                "uz": "qanday ish qilasan?",
+                "example_tr": "Ne iş yapıyorsun?",
+                "example_uz": "Qanday ish qilasan?"
+              },
+              {
+                "tr": "çalışıyorum",
+                "uz": "ishlayapman",
+                "example_tr": "Hastanede çalışıyorum.",
+                "example_uz": "Kasalxonada ishlayman."
+              },
+              {
+                "tr": "şirket",
+                "uz": "kompaniya",
+                "example_tr": "Bir şirkette çalışıyorum.",
+                "example_uz": "Bir kompaniyada ishlayman."
+              },
+              {
+                "tr": "fabrika",
+                "uz": "zavod",
+                "example_tr": "Fabrikada işçiyim.",
+                "example_uz": "Zavodda ishchiman."
+              },
+              {
+                "tr": "işçi",
+                "uz": "ishchi",
+                "example_tr": "O bir işçi.",
+                "example_uz": "U ishchi."
+              },
+              {
+                "tr": "müdür",
+                "uz": "direktor, boshliq",
+                "example_tr": "O şirketin müdürü.",
+                "example_uz": "U kompaniyaning direktori."
+              },
+              {
+                "tr": "maaş",
+                "uz": "ish haqi",
+                "example_tr": "Maaşım iyi.",
+                "example_uz": "Ish haqim yaxshi."
+              },
+              {
+                "tr": "zor",
+                "uz": "qiyin",
+                "example_tr": "Bu iş zor.",
+                "example_uz": "Bu ish qiyin."
+              },
+              {
+                "tr": "kolay",
+                "uz": "oson",
+                "example_tr": "Bu iş kolay.",
+                "example_uz": "Bu ish oson."
+              },
+              {
+                "tr": "sevmek",
+                "uz": "yoqtirmoq",
+                "example_tr": "İşimi seviyorum.",
+                "example_uz": "Ishimni yoqtiraman."
+              }
+            ],
+            "reading": {
+              "title": "Kasbim",
+              "text": "Benim adım Murat. Ben doktorum ve bir hastanede çalışıyorum. İşim biraz zor ama ben çok seviyorum.\n\nEşim öğretmen, o bir okulda çalışıyor. Kardeşim mühendis, bir şirkette çalışıyor. Ailemiz çok çalışkan.",
+              "questions": [
+                {
+                  "question": "Muratning kasbi nima?",
+                  "options": [
+                    "Shifokor",
+                    "O'qituvchi",
+                    "Muhandis",
+                    "Advokat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Uning rafiqasi qayerda ishlaydi?",
+                  "options": [
+                    "Maktabda",
+                    "Kasalxonada",
+                    "Zavodda",
+                    "Bankda"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Elif",
+                  "text": "Mesleğin ne?"
+                },
+                {
+                  "speaker": "Kerem",
+                  "text": "Ben mühendisim. Sen ne iş yapıyorsun?"
+                },
+                {
+                  "speaker": "Elif",
+                  "text": "Ben öğretmenim, bir okulda çalışıyorum."
+                },
+                {
+                  "speaker": "Kerem",
+                  "text": "İşini seviyor musun?"
+                },
+                {
+                  "speaker": "Elif",
+                  "text": "Evet, çok seviyorum!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Keremning kasbi nima?",
+                  "options": [
+                    "Muhandis",
+                    "O'qituvchi",
+                    "Shifokor",
+                    "Advokat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Elif ishini yoqtiradimi?",
+                  "options": [
+                    "Ha, juda yoqtiradi",
+                    "Yo'q, yoqtirmaydi",
+                    "Bilmayman",
+                    "Ba'zan"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Men shifokorman\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ben doktorum",
+                  "Ben doktor",
+                  "Sen doktorsun",
+                  "O doktor"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qanday ish qilasan?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ne iş yapıyorsun?",
+                  "Nerede çalışıyorsun?",
+                  "Kimsin?",
+                  "Ne zaman?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Kasalxonada ishlayman.\" gapini tuzing.",
+                "words": [
+                  "Hastanede",
+                  "çalışıyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"U bir o'qituvchi.\" gapini tuzing.",
+                "words": [
+                  "O",
+                  "bir",
+                  "öğretmen."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Oson\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Kolay",
+                  "Zor",
+                  "İyi",
+                  "Kötü"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ish haqi\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Maaş",
+                  "Meslek",
+                  "Şirket",
+                  "Müdür"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "O'zingizning yoki oila a'zoingizning kasbi haqida yozing: nima ish qiladi, qayerda ishlaydi (kamida 2 gap).",
+              "sample_answer": "Babam mühendis. Bir şirkette çalışıyor."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Mesleğin ne?",
+                "Ben öğretmenim.",
+                "Hastanede çalışıyorum.",
+                "İşimi seviyorum."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Shifokor\" turkchada nima?",
+              "options": [
+                "Doktor",
+                "Öğretmen",
+                "Mühendis",
+                "Avukat"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'qituvchi\" turkchada nima?",
+              "options": [
+                "Öğretmen",
+                "Doktor",
+                "Polis",
+                "Aşçı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Muhandis\" turkchada nima?",
+              "options": [
+                "Mühendis",
+                "Avukat",
+                "Şoför",
+                "Hemşire"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Haydovchi\" turkchada nima?",
+              "options": [
+                "Şoför",
+                "Aşçı",
+                "Polis",
+                "Çiftçi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kasb\" turkchada nima?",
+              "options": [
+                "Meslek",
+                "Maaş",
+                "Şirket",
+                "Müdür"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ishlamoq\" turkchada nima?",
+              "options": [
+                "Çalışmak",
+                "Sevmek",
+                "Gitmek",
+                "Yapmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kompaniya\" turkchada nima?",
+              "options": [
+                "Şirket",
+                "Fabrika",
+                "Hastane",
+                "Okul"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qiyin\" turkchada nima?",
+              "options": [
+                "Zor",
+                "Kolay",
+                "İyi",
+                "Kötü"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Oson\" turkchada nima?",
+              "options": [
+                "Kolay",
+                "Zor",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Direktor\" turkchada nima?",
+              "options": [
+                "Müdür",
+                "İşçi",
+                "Aşçı",
+                "Şoför"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u5b",
+          "title": "B. Ne Olmak İstiyorsun? — Kim bo'lishni xohlaysan?",
+          "start_page": 14,
+          "end_page": 14,
+          "explanation": {
+            "goals": [
+              "Kelajakdagi kasb haqida gapirish",
+              "\"İstemek\" (xohlamoq) fe'lini qo'llash",
+              "Sabab bildirish: \"çünkü\" (chunki)"
+            ],
+            "blocks": [
+              {
+                "heading": "Ne olmak istiyorsun?",
+                "text": "Kelajakda kim bo'lishni so'rash uchun \"Ne olmak istiyorsun?\" (Kim bo'lishni xohlaysan?) savoli beriladi. Javob: \"Doktor olmak istiyorum.\" (Shifokor bo'lishni xohlayman)."
+              },
+              {
+                "heading": "İstemek fe'li",
+                "text": "\"İstemek\" (xohlamoq) fe'li boshqa fe'l bilan birga ishlatilganda ikkinchi fe'l \"-mek/-mak\" shaklida (infinitiv) keladi: \"okumak istiyorum\" (o'qishni xohlayman), \"gitmek istiyorum\" (borishni xohlayman)."
+              },
+              {
+                "heading": "Çünkü — chunki",
+                "text": "Sabab bildirish uchun \"çünkü\" (chunki) ishlatiladi: \"Doktor olmak istiyorum çünkü insanlara yardım etmek istiyorum.\" (Shifokor bo'lishni xohlayman, chunki odamlarga yordam berishni xohlayman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Ne olmak istiyorsun?\" - kelajakdagi kasb haqida so'raydi."
+              },
+              {
+                "fact": "İstemek + fe'l-mek/-mak: \"okumak istiyorum\" (o'qishni xohlayman)."
+              },
+              {
+                "fact": "\"Çünkü\" - chunki, sabab bildiradi."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "olmak",
+                "uz": "bo'lmoq",
+                "example_tr": "Doktor olmak istiyorum.",
+                "example_uz": "Shifokor bo'lishni xohlayman."
+              },
+              {
+                "tr": "istemek",
+                "uz": "xohlamoq",
+                "example_tr": "Ne istiyorsun?",
+                "example_uz": "Nima xohlaysan?"
+              },
+              {
+                "tr": "çünkü",
+                "uz": "chunki",
+                "example_tr": "Çünkü çok seviyorum.",
+                "example_uz": "Chunki juda yaxshi ko'raman."
+              },
+              {
+                "tr": "gelecekte",
+                "uz": "kelajakda",
+                "example_tr": "Gelecekte doktor olacağım.",
+                "example_uz": "Kelajakda shifokor bo'laman."
+              },
+              {
+                "tr": "hayal",
+                "uz": "orzu",
+                "example_tr": "Bu benim hayalim.",
+                "example_uz": "Bu mening orzuim."
+              },
+              {
+                "tr": "yardım etmek",
+                "uz": "yordam bermoq",
+                "example_tr": "İnsanlara yardım etmek istiyorum.",
+                "example_uz": "Odamlarga yordam berishni xohlayman."
+              },
+              {
+                "tr": "başarılı",
+                "uz": "muvaffaqiyatli",
+                "example_tr": "Başarılı olmak istiyorum.",
+                "example_uz": "Muvaffaqiyatli bo'lishni xohlayman."
+              },
+              {
+                "tr": "zengin",
+                "uz": "boy",
+                "example_tr": "Zengin olmak istemiyorum.",
+                "example_uz": "Boy bo'lishni xohlamayman."
+              },
+              {
+                "tr": "ünlü",
+                "uz": "mashhur",
+                "example_tr": "Ünlü olmak istiyor.",
+                "example_uz": "U mashhur bo'lishni xohlaydi."
+              },
+              {
+                "tr": "hedef",
+                "uz": "maqsad",
+                "example_tr": "Hedefim doktor olmak.",
+                "example_uz": "Maqsadim shifokor bo'lish."
+              },
+              {
+                "tr": "çalışkan",
+                "uz": "mehnatkash",
+                "example_tr": "Çok çalışkanım.",
+                "example_uz": "Men juda mehnatkashman."
+              },
+              {
+                "tr": "gelecek",
+                "uz": "kelajak",
+                "example_tr": "Gelecek çok önemli.",
+                "example_uz": "Kelajak juda muhim."
+              },
+              {
+                "tr": "üniversite",
+                "uz": "universitet",
+                "example_tr": "Üniversitede okuyorum.",
+                "example_uz": "Universitetda o'qiyman."
+              },
+              {
+                "tr": "okumak",
+                "uz": "o'qimoq",
+                "example_tr": "Tıp okumak istiyorum.",
+                "example_uz": "Tibbiyot o'qishni xohlayman."
+              },
+              {
+                "tr": "tıp",
+                "uz": "tibbiyot",
+                "example_tr": "Tıp okuyorum.",
+                "example_uz": "Tibbiyot o'qiyman."
+              },
+              {
+                "tr": "neden?",
+                "uz": "nega?",
+                "example_tr": "Neden doktor olmak istiyorsun?",
+                "example_uz": "Nega shifokor bo'lishni xohlaysan?"
+              },
+              {
+                "tr": "sebep",
+                "uz": "sabab",
+                "example_tr": "Sebep basit.",
+                "example_uz": "Sabab oddiy."
+              },
+              {
+                "tr": "önemli",
+                "uz": "muhim",
+                "example_tr": "Bu iş önemli.",
+                "example_uz": "Bu ish muhim."
+              },
+              {
+                "tr": "gerçekleştirmek",
+                "uz": "amalga oshirmoq",
+                "example_tr": "Hayalimi gerçekleştireceğim.",
+                "example_uz": "Orzuimni amalga oshiraman."
+              },
+              {
+                "tr": "kesin",
+                "uz": "aniq, qat'iy",
+                "example_tr": "Kesin karar verdim.",
+                "example_uz": "Aniq qaror qabul qildim."
+              }
+            ],
+            "reading": {
+              "title": "Mening orzum",
+              "text": "Benim adım Aydın. Üniversitede tıp okuyorum. Doktor olmak istiyorum çünkü insanlara yardım etmek istiyorum.\n\nBu benim hayalim. Çok çalışkanım ve başarılı olmak istiyorum. Gelecekte bir hastanede çalışacağım.",
+              "questions": [
+                {
+                  "question": "Aydin nima o'qiydi?",
+                  "options": [
+                    "Tibbiyot",
+                    "Muhandislik",
+                    "Huquq",
+                    "Iqtisod"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "U nega shifokor bo'lmoqchi?",
+                  "options": [
+                    "Odamlarga yordam berish uchun",
+                    "Boy bo'lish uchun",
+                    "Mashhur bo'lish uchun",
+                    "Oson ish uchun"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Öğretmen",
+                  "text": "Ne olmak istiyorsun?"
+                },
+                {
+                  "speaker": "Öğrenci",
+                  "text": "Mühendis olmak istiyorum."
+                },
+                {
+                  "speaker": "Öğretmen",
+                  "text": "Neden?"
+                },
+                {
+                  "speaker": "Öğrenci",
+                  "text": "Çünkü matematik çok seviyorum."
+                },
+                {
+                  "speaker": "Öğretmen",
+                  "text": "Harika bir hedef!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "O'quvchi kim bo'lishni xohlaydi?",
+                  "options": [
+                    "Muhandis",
+                    "Shifokor",
+                    "O'qituvchi",
+                    "Advokat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "U nega shu kasbni tanladi?",
+                  "options": [
+                    "Matematikani yaxshi ko'radi",
+                    "Boy bo'lish uchun",
+                    "Mashhur bo'lish uchun",
+                    "Osonligi uchun"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Kim bo'lishni xohlaysan?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ne olmak istiyorsun?",
+                  "Ne iş yapıyorsun?",
+                  "Mesleğin ne?",
+                  "Kimsin?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Chunki\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Çünkü",
+                  "Ve",
+                  "Ama",
+                  "Belki"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Shifokor bo'lishni xohlayman.\" gapini tuzing.",
+                "words": [
+                  "Doktor",
+                  "olmak",
+                  "istiyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Odamlarga yordam bermoqchiman.\" gapini tuzing.",
+                "words": [
+                  "İnsanlara",
+                  "yardım",
+                  "etmek",
+                  "istiyorum."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Orzu\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Hayal",
+                  "Hedef",
+                  "Sebep",
+                  "Gelecek"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Kelajak\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Gelecek",
+                  "Geçmiş",
+                  "Şimdi",
+                  "Bugün"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Kelajakda kim bo'lishni xohlaysiz va nima uchun, yozing (kamida 2 gap).",
+              "sample_answer": "Mühendis olmak istiyorum çünkü matematik seviyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Ne olmak istiyorsun?",
+                "Doktor olmak istiyorum.",
+                "Çünkü insanlara yardım etmek istiyorum.",
+                "Bu benim hayalim."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Kim bo'lishni xohlaysan?\" turkchada nima?",
+              "options": [
+                "Ne olmak istiyorsun?",
+                "Ne iş yapıyorsun?",
+                "Kimsin?",
+                "Nasılsın?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xohlamoq\" turkchada nima?",
+              "options": [
+                "İstemek",
+                "Olmak",
+                "Gitmek",
+                "Sevmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chunki\" turkchada nima?",
+              "options": [
+                "Çünkü",
+                "Ama",
+                "Ve",
+                "Belki"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Orzu\" turkchada nima?",
+              "options": [
+                "Hayal",
+                "Sebep",
+                "Hedef",
+                "Gelecek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yordam bermoq\" turkchada nima?",
+              "options": [
+                "Yardım etmek",
+                "İstemek",
+                "Sevmek",
+                "Çalışmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mashhur\" turkchada nima?",
+              "options": [
+                "Ünlü",
+                "Zengin",
+                "Başarılı",
+                "Çalışkan"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Boy\" turkchada nima?",
+              "options": [
+                "Zengin",
+                "Ünlü",
+                "Başarılı",
+                "Fakir"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Muvaffaqiyatli\" turkchada nima?",
+              "options": [
+                "Başarılı",
+                "Zengin",
+                "Ünlü",
+                "Çalışkan"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Nega?\" turkchada nima?",
+              "options": [
+                "Neden?",
+                "Ne zaman?",
+                "Nerede?",
+                "Kim?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Universitet\" turkchada nima?",
+              "options": [
+                "Üniversite",
+                "Okul",
+                "Hastane",
+                "Şirket"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u5c",
+          "title": "C. Hobilerim — Sevimli mashg'ulotlarim",
+          "start_page": 15,
+          "end_page": 15,
+          "explanation": {
+            "goals": [
+              "Sevimli mashg'ulotlarni tasvirlash",
+              "\"Sevmek\" va \"hoşlanmak\" fe'llarini qo'llash",
+              "Erkin vaqtdagi faoliyatlar haqida gapirish"
+            ],
+            "blocks": [
+              {
+                "heading": "Hobbi so'rash",
+                "text": "\"Hobin ne?\" (Hobbing nima?) yoki \"Boş zamanında ne yapıyorsun?\" (Bo'sh vaqtingda nima qilasan?) savollari bilan hobbi so'raladi.\n\nJavob: \"Kitap okumayı seviyorum.\" (Kitob o'qishni yaxshi ko'raman)."
+              },
+              {
+                "heading": "Sevmek + fe'l-mAyI",
+                "text": "\"Sevmek\" (yaxshi ko'rmoq) fe'li bilan birga ishlatilgan fe'l \"-mayı/-meyi\" shaklini oladi: \"okumak\" (o'qimoq) -> \"okumayı seviyorum\" (o'qishni yaxshi ko'raman), \"yüzmek\" (suzmoq) -> \"yüzmeyi seviyorum\" (suzishni yaxshi ko'raman)."
+              },
+              {
+                "heading": "Sport va san'at",
+                "text": "Sport turlari: futbol, basketbol, yüzme (suzish), koşu (yugurish). San'at: müzik (musiqa), resim (rasm), dans (raqs).\n\nMisol: \"Futbol oynamayı seviyorum.\" (Futbol o'ynashni yaxshi ko'raman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Sevmek\" bilan fe'l -mayı/-meyi shaklida keladi: okumayı seviyorum."
+              },
+              {
+                "fact": "\"Hobin ne?\" - hobbi so'rash."
+              },
+              {
+                "fact": "futbol oynamak - futbol o'ynash, kitap okumak - kitob o'qish."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "hobi",
+                "uz": "hobbi, sevimli mashg'ulot",
+                "example_tr": "Hobin ne?",
+                "example_uz": "Hobbing nima?"
+              },
+              {
+                "tr": "okumak",
+                "uz": "o'qimoq",
+                "example_tr": "Okumayı seviyorum.",
+                "example_uz": "O'qishni yaxshi ko'raman."
+              },
+              {
+                "tr": "yüzmek",
+                "uz": "suzmoq",
+                "example_tr": "Yüzmeyi seviyorum.",
+                "example_uz": "Suzishni yaxshi ko'raman."
+              },
+              {
+                "tr": "koşmak",
+                "uz": "yugurmoq",
+                "example_tr": "Koşmayı seviyorum.",
+                "example_uz": "Yugurishni yaxshi ko'raman."
+              },
+              {
+                "tr": "futbol",
+                "uz": "futbol",
+                "example_tr": "Futbol oynuyorum.",
+                "example_uz": "Futbol o'ynayman."
+              },
+              {
+                "tr": "basketbol",
+                "uz": "basketbol",
+                "example_tr": "Basketbol oynamayı seviyorum.",
+                "example_uz": "Basketbol o'ynashni yaxshi ko'raman."
+              },
+              {
+                "tr": "müzik",
+                "uz": "musiqa",
+                "example_tr": "Müzik dinlemeyi seviyorum.",
+                "example_uz": "Musiqa tinglashni yaxshi ko'raman."
+              },
+              {
+                "tr": "resim",
+                "uz": "rasm",
+                "example_tr": "Resim yapmayı seviyorum.",
+                "example_uz": "Rasm chizishni yaxshi ko'raman."
+              },
+              {
+                "tr": "dans",
+                "uz": "raqs",
+                "example_tr": "Dans etmeyi seviyorum.",
+                "example_uz": "Raqsga tushishni yaxshi ko'raman."
+              },
+              {
+                "tr": "seyahat",
+                "uz": "sayohat",
+                "example_tr": "Seyahat etmeyi seviyorum.",
+                "example_uz": "Sayohat qilishni yaxshi ko'raman."
+              },
+              {
+                "tr": "fotoğraf",
+                "uz": "fotosurat",
+                "example_tr": "Fotoğraf çekmeyi seviyorum.",
+                "example_uz": "Fotosurat olishni yaxshi ko'raman."
+              },
+              {
+                "tr": "yemek pişirmek",
+                "uz": "ovqat pishirmoq",
+                "example_tr": "Yemek pişirmeyi seviyorum.",
+                "example_uz": "Ovqat pishirishni yaxshi ko'raman."
+              },
+              {
+                "tr": "hoşlanmak",
+                "uz": "yoqtirmoq",
+                "example_tr": "Müzikten hoşlanıyorum.",
+                "example_uz": "Musiqani yoqtiraman."
+              },
+              {
+                "tr": "boş zaman",
+                "uz": "bo'sh vaqt",
+                "example_tr": "Boş zamanımda okurum.",
+                "example_uz": "Bo'sh vaqtimda o'qiyman."
+              },
+              {
+                "tr": "oynamak",
+                "uz": "o'ynamoq",
+                "example_tr": "Futbol oynuyorum.",
+                "example_uz": "Futbol o'ynayman."
+              },
+              {
+                "tr": "kitap",
+                "uz": "kitob",
+                "example_tr": "Kitap okumayı seviyorum.",
+                "example_uz": "Kitob o'qishni yaxshi ko'raman."
+              },
+              {
+                "tr": "film",
+                "uz": "film",
+                "example_tr": "Film izlemeyi seviyorum.",
+                "example_uz": "Film ko'rishni yaxshi ko'raman."
+              },
+              {
+                "tr": "izlemek",
+                "uz": "tomosha qilmoq",
+                "example_tr": "Film izliyorum.",
+                "example_uz": "Film tomosha qilaman."
+              },
+              {
+                "tr": "dinlemek",
+                "uz": "tinglamoq",
+                "example_tr": "Müzik dinliyorum.",
+                "example_uz": "Musiqa tinglayman."
+              },
+              {
+                "tr": "ilginç",
+                "uz": "qiziqarli",
+                "example_tr": "Bu çok ilginç.",
+                "example_uz": "Bu juda qiziqarli."
+              }
+            ],
+            "reading": {
+              "title": "Mening hobbilarim",
+              "text": "Boş zamanımda kitap okumayı seviyorum. Ayrıca müzik dinlemeyi ve film izlemeyi de seviyorum.\n\nHafta sonu arkadaşlarımla futbol oynuyorum. Bazen de resim yapıyorum. Hobilerim çok çeşitli!",
+              "questions": [
+                {
+                  "question": "Yozuvchi bo'sh vaqtida nima qilishni yoqtiradi?",
+                  "options": [
+                    "Kitob o'qishni",
+                    "Suzishni",
+                    "Raqsga tushishni",
+                    "Ovqat pishirishni"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Dam olish kunlari nima qiladi?",
+                  "options": [
+                    "Futbol o'ynaydi",
+                    "Kitob o'qiydi",
+                    "Uxlaydi",
+                    "Ishlaydi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Buse",
+                  "text": "Hobin ne?"
+                },
+                {
+                  "speaker": "Tolga",
+                  "text": "Yüzmeyi seviyorum. Sen?"
+                },
+                {
+                  "speaker": "Buse",
+                  "text": "Ben müzik dinlemeyi seviyorum."
+                },
+                {
+                  "speaker": "Tolga",
+                  "text": "Ne tür müzik?"
+                },
+                {
+                  "speaker": "Buse",
+                  "text": "Her tür, özellikle Türk müziği."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Tolganing hobbisi nima?",
+                  "options": [
+                    "Suzish",
+                    "Musiqa tinglash",
+                    "Kitob o'qish",
+                    "Futbol"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Buse qanday musiqani yaxshi ko'radi?",
+                  "options": [
+                    "Turk musiqasini ayniqsa",
+                    "Faqat klassikani",
+                    "Hech qanday",
+                    "Faqat jazz"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Hobbing nima?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Hobin ne?",
+                  "Ne yapıyorsun?",
+                  "Mesleğin ne?",
+                  "Nasılsın?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"O'qishni yaxshi ko'raman\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Okumayı seviyorum",
+                  "Okuyorum",
+                  "Okudum",
+                  "Oku"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Musiqa tinglashni yaxshi ko'raman.\" gapini tuzing.",
+                "words": [
+                  "Müzik",
+                  "dinlemeyi",
+                  "seviyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bo'sh vaqtimda kitob o'qiyman.\" gapini tuzing.",
+                "words": [
+                  "Boş",
+                  "zamanımda",
+                  "kitap",
+                  "okuyorum."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Suzish\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yüzmek",
+                  "Koşmak",
+                  "Oynamak",
+                  "Dans"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Rasm\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Resim",
+                  "Müzik",
+                  "Film",
+                  "Dans"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Hobbilaringiz haqida yozing: nima qilishni yaxshi ko'rasiz (kamida 2 gap).",
+              "sample_answer": "Kitap okumayı seviyorum. Ayrıca müzik dinlemeyi de seviyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Hobin ne?",
+                "Kitap okumayı seviyorum.",
+                "Müzik dinlemeyi seviyorum.",
+                "Futbol oynuyorum."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Hobbi\" turkchada nima?",
+              "options": [
+                "Hobi",
+                "Meslek",
+                "İş",
+                "Ders"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'qishni yaxshi ko'raman\" - to'g'ri shakl?",
+              "options": [
+                "Okumayı seviyorum",
+                "Okuyorum",
+                "Okudum",
+                "Okumak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Suzmoq\" turkchada nima?",
+              "options": [
+                "Yüzmek",
+                "Koşmak",
+                "Oynamak",
+                "Dans etmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yugurmoq\" turkchada nima?",
+              "options": [
+                "Koşmak",
+                "Yüzmek",
+                "Oynamak",
+                "Okumak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Musiqa\" turkchada nima?",
+              "options": [
+                "Müzik",
+                "Resim",
+                "Dans",
+                "Film"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Rasm\" turkchada nima?",
+              "options": [
+                "Resim",
+                "Müzik",
+                "Dans",
+                "Kitap"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sayohat\" turkchada nima?",
+              "options": [
+                "Seyahat",
+                "Hobi",
+                "Film",
+                "Müzik"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tomosha qilmoq\" turkchada nima?",
+              "options": [
+                "İzlemek",
+                "Dinlemek",
+                "Okumak",
+                "Yapmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tinglamoq\" turkchada nima?",
+              "options": [
+                "Dinlemek",
+                "İzlemek",
+                "Okumak",
+                "Oynamak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qiziqarli\" turkchada nima?",
+              "options": [
+                "İlginç",
+                "Sıkıcı",
+                "Kolay",
+                "Zor"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
