@@ -1,15 +1,20 @@
 import {
   AlertTriangle, BookMarked, CheckCircle2, Clock, Gamepad2, HelpCircle, Layers, Lightbulb, Link2, ListChecks,
-  Presentation, RefreshCw, ShieldAlert, Sparkles, Target,
+  PencilLine, Presentation, RefreshCw, ShieldAlert, Sparkles, SpellCheck2, Target, Volume2,
 } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { createLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
+import FlashcardDeck from '../components/FlashcardDeck'
+import ListeningExercise from '../components/ListeningExercise'
 import MatchingGame from '../components/MatchingGame'
 import PresentationViewer from '../components/PresentationViewer'
 import QuizGame from '../components/QuizGame'
+import SentencePractice from '../components/SentencePractice'
+import SpeakingPractice from '../components/SpeakingPractice'
 import TimelineGame from '../components/TimelineGame'
 import { BackLink, ErrorNote, PageTag, Spinner } from '../components/ui'
+import WritingPractice from '../components/WritingPractice'
 
 const POLL_INTERVAL_MS = 2500
 
@@ -18,6 +23,14 @@ const STAGES = [
   { n: 2, id: 'stage-2', label: "O'yinlar", icon: Gamepad2 },
   { n: 3, id: 'stage-3', label: 'Savollar', icon: HelpCircle },
   { n: 4, id: 'stage-4', label: 'Mavzu testi', icon: ListChecks },
+]
+
+const LANGUAGE_STAGES = [
+  { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
+  { n: 2, id: 'stage-2', label: 'Kartochkalar', icon: Layers },
+  { n: 3, id: 'stage-3', label: 'Tinglash', icon: Volume2 },
+  { n: 4, id: 'stage-4', label: 'Mashqlar', icon: SpellCheck2 },
+  { n: 5, id: 'stage-5', label: 'Mavzu testi', icon: ListChecks },
 ]
 
 export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBack, onStartTest }) {
@@ -76,6 +89,8 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
 
   const ready = lesson?.status === 'done'
   const pageRange = ready ? pageRangeOf(lesson.lesson_plan) : null
+  const isLanguage = Boolean(lesson?.lesson_plan?.vocabulary?.length)
+  const stages = isLanguage ? LANGUAGE_STAGES : STAGES
 
   return (
     <div className="rise mx-auto max-w-3xl">
@@ -97,7 +112,7 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
           className="sticky top-[4.15rem] z-20 -mx-4 mb-8 overflow-x-auto border-b border-line bg-paper/90 px-4 py-2 backdrop-blur"
         >
           <ul className="flex min-w-max gap-2">
-            {STAGES.map((s) => (
+            {stages.map((s) => (
               <li key={s.id}>
                 <button onClick={() => goTo(s.id)} className="btn btn-ghost btn-sm !rounded-full">
                   <span className="flex h-5 w-5 items-center justify-center rounded-full bg-brand text-[0.68rem] text-brand-ink">
@@ -155,59 +170,92 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
             </div>
           )}
 
-          <Stage n={1} id="stage-1" title="Mavzu tushuntirilishi">
+          <Stage n={1} id="stage-1" title={isLanguage ? 'Grammatika va yangi so\'zlar' : 'Mavzu tushuntirilishi'}>
             <LessonPlanCard plan={lesson.lesson_plan} />
           </Stage>
 
-          <Stage n={2} id="stage-2" title="O'yinlar" hint="Ixtiyoriy mashq — bilimni qiziqarli tarzda mustahkamlang.">
-            <div className="flex flex-col gap-5">
-              <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot" icon={Presentation} isTeacher={isTeacher}>
-                {(data) => <PresentationViewer slides={data.slides} />}
-              </AssetPanel>
-              <AssetPanel topicId={topicId} kind="game_timeline" label="Xronologiya tartiblash" icon={Clock} isTeacher={isTeacher}>
-                {(data) => <TimelineGame items={data.items} />}
-              </AssetPanel>
-              <AssetPanel topicId={topicId} kind="game_matching" label="Moslashtirish" icon={Link2} isTeacher={isTeacher}>
-                {(data) => <MatchingGame pairs={data.pairs} />}
-              </AssetPanel>
-              <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" icon={Layers} isTeacher={isTeacher}>
-                {(data) => <QuizGame questions={data.questions} />}
-              </AssetPanel>
-            </div>
-          </Stage>
+          {isLanguage ? (
+            <>
+              <Stage n={2} id="stage-2" title="Kartochkalar" hint="So'zlarni tinglab, tarjimasini mustahkamlang.">
+                <FlashcardDeck words={lesson.lesson_plan.vocabulary} />
+              </Stage>
 
-          <Stage n={3} id="stage-3" title="Savollar">
-            <div className="flex flex-col gap-5">
-              <BookQuestions items={lesson.quiz?.book_questions} />
-              <QuizCard quiz={lesson.quiz} />
-              {lesson.quiz?.questions?.length > 0 && (
-                <section className="card p-5 sm:p-6">
-                  <h3 className="mb-4 font-display text-lg font-bold text-ink">Viktorina</h3>
-                  <QuizGame questions={lesson.quiz.questions} />
-                </section>
-              )}
-            </div>
-          </Stage>
+              <Stage n={3} id="stage-3" title="Tinglab tushunish">
+                <ListeningExercise
+                  dialogue={lesson.lesson_plan.listening?.dialogue}
+                  questions={lesson.lesson_plan.listening?.questions}
+                />
+              </Stage>
 
-          <Stage n={4} id="stage-4" title="Mavzu testi">
-            <section className="card relative overflow-hidden border-brand/40 p-6 sm:p-8">
-              <div className="meander absolute inset-x-0 top-0" />
-              <div className="flex flex-wrap items-center gap-5 pt-2">
-                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-brand text-brand-ink">
-                  <ListChecks size={28} />
-                </span>
-                <div className="min-w-0 flex-1">
-                  <p className="font-read text-base leading-relaxed text-ink-2">
-                    Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni <b className="text-ink">100%</b> topshirgandan
-                    keyin ochiladi.
-                  </p>
+              <Stage n={4} id="stage-4" title="Mashqlar">
+                <div className="flex flex-col gap-8">
+                  {lesson.lesson_plan.sentence_practice?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Gap mashqlari</h3>
+                      <SentencePractice items={lesson.lesson_plan.sentence_practice} />
+                    </section>
+                  )}
+                  {lesson.lesson_plan.writing_prompt && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 flex items-center gap-2 font-display text-lg font-bold text-ink">
+                        <PencilLine size={18} className="text-brand" /> Yozish mashqi
+                      </h3>
+                      <WritingPractice
+                        instruction={lesson.lesson_plan.writing_prompt.instruction}
+                        sample_answer={lesson.lesson_plan.writing_prompt.sample_answer}
+                      />
+                    </section>
+                  )}
+                  {lesson.lesson_plan.speaking_prompt?.sentences?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Gapirish mashqi</h3>
+                      <SpeakingPractice sentences={lesson.lesson_plan.speaking_prompt.sentences} />
+                    </section>
+                  )}
                 </div>
-                <button onClick={onStartTest} className="btn btn-primary">
-                  {isTeacher ? "Testni ko'rish / yaratish" : 'Testni boshlash'}
-                </button>
-              </div>
-            </section>
-          </Stage>
+              </Stage>
+
+              <Stage n={5} id="stage-5" title="Mavzu testi">
+                <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+              </Stage>
+            </>
+          ) : (
+            <>
+              <Stage n={2} id="stage-2" title="O'yinlar" hint="Ixtiyoriy mashq — bilimni qiziqarli tarzda mustahkamlang.">
+                <div className="flex flex-col gap-5">
+                  <AssetPanel topicId={topicId} kind="presentation" label="Interaktiv taqdimot" icon={Presentation} isTeacher={isTeacher}>
+                    {(data) => <PresentationViewer slides={data.slides} />}
+                  </AssetPanel>
+                  <AssetPanel topicId={topicId} kind="game_timeline" label="Xronologiya tartiblash" icon={Clock} isTeacher={isTeacher}>
+                    {(data) => <TimelineGame items={data.items} />}
+                  </AssetPanel>
+                  <AssetPanel topicId={topicId} kind="game_matching" label="Moslashtirish" icon={Link2} isTeacher={isTeacher}>
+                    {(data) => <MatchingGame pairs={data.pairs} />}
+                  </AssetPanel>
+                  <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" icon={Layers} isTeacher={isTeacher}>
+                    {(data) => <QuizGame questions={data.questions} />}
+                  </AssetPanel>
+                </div>
+              </Stage>
+
+              <Stage n={3} id="stage-3" title="Savollar">
+                <div className="flex flex-col gap-5">
+                  <BookQuestions items={lesson.quiz?.book_questions} />
+                  <QuizCard quiz={lesson.quiz} />
+                  {lesson.quiz?.questions?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Viktorina</h3>
+                      <QuizGame questions={lesson.quiz.questions} />
+                    </section>
+                  )}
+                </div>
+              </Stage>
+
+              <Stage n={4} id="stage-4" title="Mavzu testi">
+                <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+              </Stage>
+            </>
+          )}
         </div>
       )}
     </div>
@@ -220,6 +268,28 @@ function pageRangeOf(plan) {
   const min = Math.min(...pages)
   const max = Math.max(...pages)
   return min === max ? String(min) : `${min}–${max}`
+}
+
+function FinalTestCta({ isTeacher, onStartTest }) {
+  return (
+    <section className="card relative overflow-hidden border-brand/40 p-6 sm:p-8">
+      <div className="meander absolute inset-x-0 top-0" />
+      <div className="flex flex-wrap items-center gap-5 pt-2">
+        <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-brand text-brand-ink">
+          <ListChecks size={28} />
+        </span>
+        <div className="min-w-0 flex-1">
+          <p className="font-read text-base leading-relaxed text-ink-2">
+            Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni <b className="text-ink">100%</b> topshirgandan
+            keyin ochiladi.
+          </p>
+        </div>
+        <button onClick={onStartTest} className="btn btn-primary">
+          {isTeacher ? "Testni ko'rish / yaratish" : 'Testni boshlash'}
+        </button>
+      </div>
+    </section>
+  )
 }
 
 function Stage({ n, id, title, hint, children }) {

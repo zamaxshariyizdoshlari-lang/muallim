@@ -78,6 +78,34 @@ def validate_book_json(data):
             for qi, q in enumerate(t.get('test') or []):
                 _check_mcq(q, f"{tw}.test[{qi}]", errors)
 
+            # Til kursi uchun ixtiyoriy maydonlar (tarix kitobida bo'lmaydi).
+            expl = t.get('explanation') or {}
+            for wi, w in enumerate(expl.get('vocabulary') or []):
+                if not (isinstance(w, dict) and w.get('tr') and w.get('uz')):
+                    errors.append(f"{tw}.explanation.vocabulary[{wi}]: tr va uz majburiy")
+            listening = expl.get('listening') or {}
+            for li, line in enumerate(listening.get('dialogue') or []):
+                if not (isinstance(line, dict) and line.get('speaker') and line.get('text')):
+                    errors.append(f"{tw}.explanation.listening.dialogue[{li}]: speaker va text majburiy")
+            for qi, q in enumerate(listening.get('questions') or []):
+                _check_mcq({**q, 'page': q.get('page', t.get('start_page'))}, f"{tw}.explanation.listening.questions[{qi}]", errors)
+            for pi, sp in enumerate(expl.get('sentence_practice') or []):
+                if not isinstance(sp, dict) or sp.get('type') not in ('choice', 'order'):
+                    errors.append(f"{tw}.explanation.sentence_practice[{pi}]: type 'choice' yoki 'order' bo'lishi kerak")
+                elif sp['type'] == 'choice':
+                    _check_mcq(
+                        {**sp, 'question': sp.get('prompt'), 'page': t.get('start_page')},
+                        f"{tw}.explanation.sentence_practice[{pi}]", errors,
+                    )
+                elif sp['type'] == 'order' and (not isinstance(sp.get('words'), list) or len(sp['words']) < 2):
+                    errors.append(f"{tw}.explanation.sentence_practice[{pi}]: words kamida 2 ta so'z")
+            wp = expl.get('writing_prompt')
+            if wp is not None and not (wp.get('instruction') and wp.get('sample_answer')):
+                errors.append(f"{tw}.explanation.writing_prompt: instruction va sample_answer majburiy")
+            sprompt = expl.get('speaking_prompt')
+            if sprompt is not None and not sprompt.get('sentences'):
+                errors.append(f"{tw}.explanation.speaking_prompt: sentences bo'sh bo'lmasin")
+
             games = t.get('games') or {}
             for qi, q in enumerate((games.get('fill_blank') or {}).get('questions', [])):
                 _check_mcq(q, f"{tw}.games.fill_blank[{qi}]", errors)
@@ -161,16 +189,21 @@ def import_book_json(data, user):
             section_topic_titles[section.id].append(topic)
 
             expl = t['explanation']
+            lesson_plan = {
+                'goals': expl.get('goals', []),
+                'blocks': expl['blocks'],
+                'key_facts': [{**f, 'verified': True} for f in expl.get('key_facts', [])],
+                'summary': expl.get('summary', ''),
+            }
+            # Til kursi uchun ixtiyoriy qismlar (bo'lsa qo'shiladi - tarix kitobida bo'lmaydi).
+            for key in ('vocabulary', 'listening', 'sentence_practice', 'writing_prompt', 'speaking_prompt'):
+                if expl.get(key):
+                    lesson_plan[key] = expl[key]
             Lesson.objects.update_or_create(
                 topic=topic,
                 defaults={
                     'created_by': user, 'status': STATUS_DONE, 'ai_provider': 'import', 'error_message': '',
-                    'lesson_plan': {
-                        'goals': expl.get('goals', []),
-                        'blocks': expl['blocks'],
-                        'key_facts': [{**f, 'verified': True} for f in expl.get('key_facts', [])],
-                        'summary': expl.get('summary', ''),
-                    },
+                    'lesson_plan': lesson_plan,
                     'quiz': {
                         'questions': (t.get('practice') or {}).get('quiz', []),
                         'book_questions': (t.get('practice') or {}).get('book_questions', []),

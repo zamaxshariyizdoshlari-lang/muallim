@@ -502,3 +502,71 @@ class AdminStatsTests(CourseFixture):
         self.assertEqual(o['students_total'], 1)
         self.assertEqual(o['students_active_today'], 0)
         self.assertIsNone(o['most_popular_book'])
+
+
+class LanguageContentImportTests(TestCase):
+    """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
+
+    def setUp(self):
+        self.user = User.objects.create_user('admin_test', password='admin-parol-1', is_staff=True)
+
+    def _base_topic(self, **extra_explanation):
+        return {
+            'format_version': 1,
+            'book': {'key': 'til_sinov', 'title': 'Til sinov kursi', 'subject': 'sinov-tili'},
+            'sections': [{
+                'key': 's1', 'title': "1-bo'lim", 'topics': [{
+                    'key': 't1', 'title': '1-dars', 'start_page': 1, 'end_page': 2,
+                    'explanation': {
+                        'blocks': [{'heading': 'Grammatika', 'text': 'Qoida matni.'}],
+                        **extra_explanation,
+                    },
+                    'test': make_questions(1, n=5),
+                }],
+            }],
+        }
+
+    def test_language_fields_pass_through_to_lesson_plan(self):
+        from .services.book_import import import_book_json
+        from .models import Lesson, Topic
+        data = self._base_topic(
+            vocabulary=[{'tr': 'merhaba', 'uz': 'salom', 'example_tr': 'Merhaba!', 'example_uz': 'Salom!'}],
+            listening={
+                'dialogue': [{'speaker': 'Ali', 'text': 'Merhaba!'}],
+                'questions': [{'question': 'Kim gapirdi?', 'options': ['Ali', 'Vali'], 'correct_index': 0, 'page': 1}],
+            },
+            sentence_practice=[
+                {'type': 'choice', 'prompt': 'Salom?', 'options': ['Merhaba', 'Hayır'], 'correct_index': 0},
+                {'type': 'order', 'prompt': 'Tuzing', 'words': ['Benim', 'adım', 'Ali.']},
+            ],
+            writing_prompt={'instruction': 'Yozing', 'sample_answer': 'Merhaba!'},
+            speaking_prompt={'sentences': ['Merhaba!']},
+        )
+        import_book_json(data, self.user)
+        topic = Topic.objects.get(key='t1')
+        plan = Lesson.objects.get(topic=topic).lesson_plan
+        self.assertEqual(plan['vocabulary'][0]['tr'], 'merhaba')
+        self.assertEqual(plan['listening']['dialogue'][0]['speaker'], 'Ali')
+        self.assertEqual(len(plan['sentence_practice']), 2)
+        self.assertEqual(plan['writing_prompt']['instruction'], 'Yozing')
+        self.assertEqual(plan['speaking_prompt']['sentences'], ['Merhaba!'])
+
+    def test_history_topics_unaffected_without_language_fields(self):
+        from .services.book_import import import_book_json
+        from .models import Lesson, Topic
+        import_book_json(self._base_topic(), self.user)
+        plan = Lesson.objects.get(topic=Topic.objects.get(key='t1')).lesson_plan
+        self.assertNotIn('vocabulary', plan)
+        self.assertNotIn('listening', plan)
+
+    def test_invalid_sentence_practice_type_rejected(self):
+        from .services.book_import import validate_book_json
+        data = self._base_topic(sentence_practice=[{'type': 'unknown', 'words': ['a', 'b']}])
+        errors = validate_book_json(data)
+        self.assertTrue(any('sentence_practice' in e for e in errors))
+
+    def test_vocabulary_missing_fields_rejected(self):
+        from .services.book_import import validate_book_json
+        data = self._base_topic(vocabulary=[{'tr': 'merhaba'}])
+        errors = validate_book_json(data)
+        self.assertTrue(any('vocabulary' in e for e in errors))

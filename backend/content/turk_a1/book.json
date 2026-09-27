@@ -1,0 +1,136 @@
+{
+  "format_version": 1,
+  "book": {
+    "key": "turk_a1",
+    "title": "Turk tili A1",
+    "description": "Yunus Emre Enstitusi \"Yedi Iklim Turkce A1\" darsligi tuzilishi asosida, boshlang'ich daraja.",
+    "subject": "turk-tili",
+    "subject_title": "Turk tili"
+  },
+  "sections": [
+    {
+      "key": "u1",
+      "title": "1-unite. Tanishma",
+      "topics": [
+        {
+          "key": "u1a",
+          "title": "A. Merhaba — Salomlashuv va tanishuv",
+          "start_page": 10,
+          "end_page": 16,
+          "explanation": {
+            "goals": [
+              "Turkchada salomlashish va xayrlashish iboralarini bilish",
+              "O'zini tanishtirish: ism aytish va so'rash",
+              "bu / şu / o ko'rsatish olmoshlarini to'g'ri ishlatish"
+            ],
+            "blocks": [
+              {
+                "heading": "Salomlashuv iboralari",
+                "text": "Turkchada eng ko'p ishlatiladigan salom \"Merhaba!\" so'zi - kuningizning istalgan vaqtida ishlatsa bo'ladi.\n\nVaqtga qarab boshqa salomlar ham bor: ertalab \"Günaydın!\" (Xayrli tong), kunduzi \"İyi günler!\" (Xayrli kun), kechqurun \"İyi akşamlar!\" (Xayrli kech) deyiladi.\n\nXayrlashishda ikki xil ibora ishlatiladi: ketayotgan kishi \"Hoşça kal!\" deydi, qoluvchi kishi esa \"Güle güle!\" deb javob beradi."
+              },
+              {
+                "heading": "O'zini tanishtirish",
+                "text": "Ismingizni aytish uchun \"Benim adım ...\" (Mening ismim ...) iborasi ishlatiladi. Boshqa birovning ismini so'rash uchun esa \"Adınız ne?\" yoki \"Sizin adınız ne?\" deb so'raladi.\n\nTanishgandan keyin xushmuomalalik uchun \"Memnun oldum\" (Tanishganimdan xursandman) deyiladi. Javobida \"Ben de memnun oldum\" (Men ham xursandman) deb aytiladi.\n\nHol-ahvol so'rashda \"Nasılsınız?\" (Qalaysiz?) savoli, javobida esa \"Teşekkür ederim, iyiyim\" (Rahmat, yaxshiman) iborasi ishlatiladi."
+              },
+              {
+                "heading": "Bu, şu, o — ko'rsatish olmoshlari",
+                "text": "Turkchada narsani ko'rsatishda uch xil olmosh ishlatiladi, ular masofaga qarab tanlanadi: \"bu\" - gapiruvchiga yaqin turgan narsa uchun; \"şu\" - biroz uzoqroqda, lekin ishora qilib ko'rsatilayotgan narsa uchun; \"o\" - ikkalasidan ham uzoqda turgan narsa (yoki tanish shaxs/narsa) uchun ishlatiladi.\n\nMasalan: \"Bu kitap.\" (Bu kitob - yaqinda), \"Şu masa.\" (Şu stol - narida), \"O ev.\" (O uy - uzoqda).\n\nSavol berish uchun bu so'zlarga \"ne?\" (nima?) yoki \"kim?\" (kim?) qo'shiladi: \"Bu ne?\" (Bu nima?), \"O kim?\" (U kim?)."
+              }
+            ],
+            "key_facts": [
+              {"fact": "\"Merhaba\" kun davomida istalgan vaqt ishlatiladigan universal salom.", "page": 10},
+              {"fact": "Xayrlashishda ketuvchi \"Hoşça kal\", qoluvchi \"Güle güle\" deydi - ular almashtirilmaydi.", "page": 12},
+              {"fact": "bu = yaqin, şu = ko'rsatilayotgan/o'rtacha, o = uzoq.", "page": 14}
+            ],
+            "vocabulary": [
+              {"tr": "merhaba", "uz": "salom", "example_tr": "Merhaba! Benim adım Ali.", "example_uz": "Salom! Mening ismim Ali."},
+              {"tr": "günaydın", "uz": "xayrli tong", "example_tr": "Günaydın! Nasılsınız?", "example_uz": "Xayrli tong! Qalaysiz?"},
+              {"tr": "iyi günler", "uz": "xayrli kun", "example_tr": "İyi günler, hoşça kalın.", "example_uz": "Xayrli kun, xayr."},
+              {"tr": "iyi akşamlar", "uz": "xayrli kech", "example_tr": "İyi akşamlar Ayşe Hanım.", "example_uz": "Xayrli kech, Ayshe xonim."},
+              {"tr": "hoşça kal", "uz": "xayr (ketuvchi aytadi)", "example_tr": "Hoşça kal, görüşürüz.", "example_uz": "Xayr, ko'rishguncha."},
+              {"tr": "güle güle", "uz": "xayr (qoluvchi aytadi)", "example_tr": "Güle güle, iyi yolculuklar.", "example_uz": "Xayr, yaxshi boring."},
+              {"tr": "benim adım", "uz": "mening ismim", "example_tr": "Benim adım Sardor.", "example_uz": "Mening ismim Sardor."},
+              {"tr": "adınız ne?", "uz": "ismingiz nima?", "example_tr": "Merhaba, adınız ne?", "example_uz": "Salom, ismingiz nima?"},
+              {"tr": "memnun oldum", "uz": "tanishganimdan xursandman", "example_tr": "Ben de memnun oldum.", "example_uz": "Men ham xursandman."},
+              {"tr": "nasılsınız?", "uz": "qalaysiz? (rasmiy)", "example_tr": "Nasılsınız? İyi misiniz?", "example_uz": "Qalaysiz? Yaxshimisiz?"},
+              {"tr": "teşekkür ederim", "uz": "rahmat", "example_tr": "Teşekkür ederim, iyiyim.", "example_uz": "Rahmat, yaxshiman."},
+              {"tr": "evet / hayır", "uz": "ha / yo'q", "example_tr": "Evet, teşekkür ederim.", "example_uz": "Ha, rahmat."},
+              {"tr": "bu / şu / o", "uz": "bu / şu (o'sha) / u (uzoq)", "example_tr": "Bu kitap, o ev.", "example_uz": "Bu kitob, u (narigi) uy."}
+            ],
+            "listening": {
+              "dialogue": [
+                {"speaker": "Ali", "text": "Merhaba!"},
+                {"speaker": "Aylin", "text": "Merhaba! Benim adım Aylin. Sizin adınız ne?"},
+                {"speaker": "Ali", "text": "Benim adım Ali. Memnun oldum."},
+                {"speaker": "Aylin", "text": "Ben de memnun oldum. Nasılsınız?"},
+                {"speaker": "Ali", "text": "Teşekkür ederim, iyiyim. Siz nasılsınız?"},
+                {"speaker": "Aylin", "text": "Ben de iyiyim, teşekkür ederim."}
+              ],
+              "questions": [
+                {
+                  "question": "Ayolning ismi nima?",
+                  "options": ["Aylin", "Ali", "Derya", "Murat"],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ali o'zini qanday his qilyapti?",
+                  "options": ["Yaxshi (iyi)", "Yomon", "Charchagan", "Xafa"],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Xayrli tong\" turkchada qanday bo'ladi?",
+                "options": ["Günaydın", "İyi geceler", "Hoşça kal", "Merhaba"],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "Kimdir sizga \"Nasılsınız?\" desa, eng mos javob qaysi?",
+                "options": ["Teşekkür ederim, iyiyim", "Benim adım Ali", "Hoşça kal", "Evet"],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Mening ismim Ali.\" gapini tuzing.",
+                "words": ["Benim", "adım", "Ali."]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Tanishganimdan xursandman.\" gapini tuzing.",
+                "words": ["Tanıştığımıza", "memnun", "oldum."]
+              },
+              {
+                "type": "choice",
+                "prompt": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'zni ishlatasiz?",
+                "options": ["Bu", "Şu", "O", "Ne"],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "O'zingizni turkcha tanishtiring: ismingizni ayting va o'zingizni qanday his qilayotganingizni yozing (kamida 2 gap).",
+              "sample_answer": "Merhaba! Benim adım Sardor. İyiyim, teşekkür ederim."
+            },
+            "speaking_prompt": {
+              "sentences": ["Merhaba!", "Benim adım ...", "Memnun oldum.", "Nasılsınız?", "Teşekkür ederim, iyiyim."]
+            }
+          },
+          "test": [
+            {"question": "\"Salom\" so'zini turkchada qanday aytamiz?", "options": ["Merhaba", "Güle güle", "Teşekkür", "Evet"], "correct_index": 0, "page": 10},
+            {"question": "\"Rahmat\" turkchada nima bo'ladi?", "options": ["Teşekkür ederim", "Memnun oldum", "Merhaba", "Hayır"], "correct_index": 0, "page": 11},
+            {"question": "Ketayotgan kishi xayrlashganda nima deydi?", "options": ["Hoşça kal", "Günaydın", "Merhaba", "Nasılsınız"], "correct_index": 0, "page": 12},
+            {"question": "\"Mening ismim...\" turkchada qanday boshlanadi?", "options": ["Benim adım", "Adınız ne", "Memnun oldum", "Nasılsınız"], "correct_index": 0, "page": 11},
+            {"question": "Yaqiningizdagi narsani ko'rsatish uchun qaysi so'z ishlatiladi?", "options": ["Bu", "Şu", "O", "Ne"], "correct_index": 0, "page": 14},
+            {"question": "Juda uzoqdagi narsani ko'rsatish uchun-chi?", "options": ["O", "Bu", "Şu", "Kim"], "correct_index": 0, "page": 14},
+            {"question": "\"Memnun oldum\" qachon aytiladi?", "options": ["Tanishgandan keyin", "Xayrlashganda", "Xafa bo'lganda", "Savol berganda"], "correct_index": 0, "page": 11},
+            {"question": "\"Nasılsınız?\" savoliga eng mos javob qaysi?", "options": ["Teşekkür ederim, iyiyim", "Benim adım Ali", "Hoşça kal", "Evet"], "correct_index": 0, "page": 12},
+            {"question": "\"Xayrli kun\" turkchada qanday bo'ladi?", "options": ["İyi günler", "Günaydın", "İyi geceler", "Merhaba"], "correct_index": 0, "page": 10},
+            {"question": "\"Ismingiz nima?\" deb so'rash uchun qaysi ibora ishlatiladi?", "options": ["Adınız ne?", "Nasılsınız?", "Memnun oldum", "Hoşça kal"], "correct_index": 0, "page": 11}
+          ]
+        }
+      ]
+    }
+  ]
+}
