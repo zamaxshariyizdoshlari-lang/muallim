@@ -2502,6 +2502,1243 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u3",
+      "title": "3-unite. Gunluk Hayat",
+      "topics": [
+        {
+          "key": "u3a",
+          "title": "A. Saat Kaçta? — Soat nechada?",
+          "start_page": 7,
+          "end_page": 7,
+          "explanation": {
+            "goals": [
+              "Soatni turkchada aytish va so'rash",
+              "Kunlik ish-harakatlarni tasvirlash",
+              "\"-de/-da\" bilan vaqtni ifodalash"
+            ],
+            "blocks": [
+              {
+                "heading": "Soat nechada?",
+                "text": "Soatni so'rash uchun \"Saat kaç?\" (Soat necha?) savoli beriladi. Javob: \"Saat üç.\" (Soat uch).\n\n\"Nechada?\" (qachon, soat nechada) savoliga esa \"Saat üçte.\" (Soat uchda) deb javob beriladi - soat raqamiga \"-te/-ta\" qo'shiladi."
+              },
+              {
+                "heading": "Kunlik harakatlar",
+                "text": "Kunlik ish-harakatlarni aytishda oddiy hozirgi/kelasi zamon ishlatiladi: \"Sabah kalkıyorum.\" (Ertalab turaman), \"Akşam yatıyorum.\" (Kechqurun yotaman).\n\nVaqt so'zlari: sabah (ertalab), öğle (peshin), akşam (kechqurun), gece (kecha/tun)."
+              },
+              {
+                "heading": "Vaqt zarflari",
+                "text": "\"Her gün\" (har kuni), \"bazen\" (ba'zan), \"her zaman\" (doim), \"hiç\" (hech qachon) kabi so'zlar harakat qanchalik tez-tez sodir bo'lishini bildiradi.\n\nMisol: \"Her gün okula gidiyorum.\" (Har kuni maktabga boraman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Saat kaç?\" - soat necha? \"Saat kaçta?\" - soat nechada?"
+              },
+              {
+                "fact": "Soat raqamiga -te/-ta qo'shilsa \"...da\" ma'nosini beradi: üçte (uchda)."
+              },
+              {
+                "fact": "sabah - ertalab, öğle - peshin, akşam - kechqurun, gece - tun."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "saat",
+                "uz": "soat",
+                "example_tr": "Saat kaç?",
+                "example_uz": "Soat necha?"
+              },
+              {
+                "tr": "kaç?",
+                "uz": "necha?",
+                "example_tr": "Saat kaç?",
+                "example_uz": "Soat necha?"
+              },
+              {
+                "tr": "sabah",
+                "uz": "ertalab",
+                "example_tr": "Sabah kalkıyorum.",
+                "example_uz": "Ertalab turaman."
+              },
+              {
+                "tr": "öğle",
+                "uz": "peshin",
+                "example_tr": "Öğlen yemek yiyorum.",
+                "example_uz": "Peshinda ovqatlanaman."
+              },
+              {
+                "tr": "akşam",
+                "uz": "kechqurun",
+                "example_tr": "Akşam eve geliyorum.",
+                "example_uz": "Kechqurun uyga kelaman."
+              },
+              {
+                "tr": "gece",
+                "uz": "tun",
+                "example_tr": "Gece yatıyorum.",
+                "example_uz": "Tunda yotaman."
+              },
+              {
+                "tr": "kalkmak",
+                "uz": "turmoq",
+                "example_tr": "Yedide kalkıyorum.",
+                "example_uz": "Yettida turaman."
+              },
+              {
+                "tr": "yatmak",
+                "uz": "yotmoq",
+                "example_tr": "Onda yatıyorum.",
+                "example_uz": "O'nda yotaman."
+              },
+              {
+                "tr": "yemek yemek",
+                "uz": "ovqatlanmoq",
+                "example_tr": "Sekizde yemek yiyorum.",
+                "example_uz": "Sakkizda ovqatlanaman."
+              },
+              {
+                "tr": "işe gitmek",
+                "uz": "ishga bormoq",
+                "example_tr": "Dokuzda işe gidiyorum.",
+                "example_uz": "To'qqizda ishga boraman."
+              },
+              {
+                "tr": "her gün",
+                "uz": "har kuni",
+                "example_tr": "Her gün spor yapıyorum.",
+                "example_uz": "Har kuni sport bilan shug'ullanaman."
+              },
+              {
+                "tr": "bazen",
+                "uz": "ba'zan",
+                "example_tr": "Bazen geç kalkıyorum.",
+                "example_uz": "Ba'zan kech turaman."
+              },
+              {
+                "tr": "her zaman",
+                "uz": "doim",
+                "example_tr": "Her zaman erken kalkarım.",
+                "example_uz": "Doim erta turaman."
+              },
+              {
+                "tr": "hiç",
+                "uz": "hech qachon",
+                "example_tr": "Hiç geç kalmıyorum.",
+                "example_uz": "Hech qachon kechikmayman."
+              },
+              {
+                "tr": "erken",
+                "uz": "erta",
+                "example_tr": "Erken kalkıyorum.",
+                "example_uz": "Erta turaman."
+              },
+              {
+                "tr": "geç",
+                "uz": "kech",
+                "example_tr": "Geç yatıyorum.",
+                "example_uz": "Kech yotaman."
+              },
+              {
+                "tr": "buçuk",
+                "uz": "yarim",
+                "example_tr": "Saat yedi buçuk.",
+                "example_uz": "Soat yetti yarim."
+              },
+              {
+                "tr": "çeyrek",
+                "uz": "chorak",
+                "example_tr": "Saat sekize çeyrek var.",
+                "example_uz": "Sakkizga chorak bor."
+              },
+              {
+                "tr": "dakika",
+                "uz": "daqiqa",
+                "example_tr": "Beş dakika bekle.",
+                "example_uz": "Besh daqiqa kut."
+              },
+              {
+                "tr": "gün",
+                "uz": "kun",
+                "example_tr": "İyi günler.",
+                "example_uz": "Xayrli kun."
+              }
+            ],
+            "reading": {
+              "title": "Benim günüm",
+              "text": "Her gün saat yedide kalkıyorum. Sabah kahvaltı yapıyorum ve saat sekizde okula gidiyorum. Öğlen okulda yemek yiyorum.\n\nAkşam saat altıda eve geliyorum. Gece saat onda yatıyorum. Bazen geç yatıyorum ama her zaman erken kalkıyorum.",
+              "questions": [
+                {
+                  "question": "Yozuvchi soat nechada turadi?",
+                  "options": [
+                    "Yettida",
+                    "Sakkizda",
+                    "Oltida",
+                    "O'nda"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "U kechasi soat nechada yotadi?",
+                  "options": [
+                    "O'nda",
+                    "Yettida",
+                    "Sakkizda",
+                    "Oltida"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Burak",
+                  "text": "Saat kaçta kalkıyorsun?"
+                },
+                {
+                  "speaker": "Ceren",
+                  "text": "Saat yedide kalkıyorum. Sen?"
+                },
+                {
+                  "speaker": "Burak",
+                  "text": "Ben altıda kalkıyorum, erken çalışıyorum."
+                },
+                {
+                  "speaker": "Ceren",
+                  "text": "Akşam saat kaçta yatıyorsun?"
+                },
+                {
+                  "speaker": "Burak",
+                  "text": "Genelde onda yatıyorum."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Ceren soat nechada turadi?",
+                  "options": [
+                    "Yettida",
+                    "Oltida",
+                    "Sakkizda",
+                    "O'nda"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Burak nega erta turadi?",
+                  "options": [
+                    "Erta ishlaydi",
+                    "Maktabga boradi",
+                    "Sport qiladi",
+                    "Kitob o'qiydi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Soat necha?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Saat kaç?",
+                  "Saat kaçta?",
+                  "Ne zaman?",
+                  "Nerede?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Har kuni\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Her gün",
+                  "Bazen",
+                  "Hiç",
+                  "Her zaman"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Ertalab turaman.\" gapini tuzing.",
+                "words": [
+                  "Sabah",
+                  "kalkıyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Soat yettida.\" gapini tuzing.",
+                "words": [
+                  "Saat",
+                  "yedide."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Kech\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Geç",
+                  "Erken",
+                  "Sabah",
+                  "Akşam"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Yarim\" (soat) turkchada qanday bo'ladi?",
+                "options": [
+                  "Buçuk",
+                  "Çeyrek",
+                  "Dakika",
+                  "Saat"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Kun tartibingizni yozing: soat nechada turasiz, nechada uxlaysiz (kamida 2 gap).",
+              "sample_answer": "Ben her gün yedide kalkıyorum. Gece onda yatıyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Saat kaç?",
+                "Saat yedide kalkıyorum.",
+                "Her gün okula gidiyorum.",
+                "Gece onda yatıyorum."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Soat necha?\" turkchada qanday bo'ladi?",
+              "options": [
+                "Saat kaç?",
+                "Ne zaman?",
+                "Nerede?",
+                "Kim?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ertalab\" turkchada nima?",
+              "options": [
+                "Sabah",
+                "Akşam",
+                "Gece",
+                "Öğle"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kechqurun\" turkchada nima?",
+              "options": [
+                "Akşam",
+                "Sabah",
+                "Gece",
+                "Öğle"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Turmoq\" turkchada nima?",
+              "options": [
+                "Kalkmak",
+                "Yatmak",
+                "Yemek",
+                "Gitmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yotmoq\" turkchada nima?",
+              "options": [
+                "Yatmak",
+                "Kalkmak",
+                "Gelmek",
+                "Gitmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Har kuni\" turkchada nima?",
+              "options": [
+                "Her gün",
+                "Bazen",
+                "Hiç",
+                "Şimdi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ba'zan\" turkchada nima?",
+              "options": [
+                "Bazen",
+                "Her gün",
+                "Hiç",
+                "Her zaman"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Erta\" turkchada nima?",
+              "options": [
+                "Erken",
+                "Geç",
+                "Sabah",
+                "Gece"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kech\" turkchada nima?",
+              "options": [
+                "Geç",
+                "Erken",
+                "Akşam",
+                "Sabah"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Daqiqa\" turkchada nima?",
+              "options": [
+                "Dakika",
+                "Saat",
+                "Gün",
+                "Saniye"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u3b",
+          "title": "B. Ne Kadar? Kaç Lira? — Qancha? Necha pul?",
+          "start_page": 8,
+          "end_page": 8,
+          "explanation": {
+            "goals": [
+              "Narx so'rash va aytish",
+              "Katta sonlarni (10-100) bilish",
+              "Do'konda oddiy xarid qilish iboralari"
+            ],
+            "blocks": [
+              {
+                "heading": "Narx so'rash",
+                "text": "Narxni so'rash uchun \"Ne kadar?\" (Qancha?) yoki \"Kaç lira?\" (Necha lira?) savollari ishlatiladi. Javob: \"On lira.\" (O'n lira).\n\nDo'konda: \"Bu ne kadar?\" (Bu qancha turadi?), \"Çok pahalı.\" (Juda qimmat), \"Ucuz mu?\" (Arzonmi?)."
+              },
+              {
+                "heading": "Katta sonlar",
+                "text": "O'nlik sonlar: yirmi (20), otuz (30), kırk (40), elli (50), altmış (60), yetmiş (70), seksen (80), doksan (90), yüz (100).\n\nOraliq sonlar qo'shib aytiladi: \"yirmi beş\" (25) = yirmi (20) + beş (5)."
+              },
+              {
+                "heading": "Do'konda",
+                "text": "Xarid qilishda foydali iboralar: \"Bunu istiyorum.\" (Buni xohlayman), \"Kaç tane?\" (Nechta?), \"Hesap lütfen.\" (Hisob-kitob, iltimos - to'lov so'rash).\n\n\"Pahalı\" (qimmat) va \"ucuz\" (arzon) so'zlari narx haqida fikr bildirishda ishlatiladi."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Ne kadar?\" / \"Kaç lira?\" - narx so'rash uchun ishlatiladi."
+              },
+              {
+                "fact": "yirmi=20, otuz=30, kırk=40, elli=50, yüz=100."
+              },
+              {
+                "fact": "pahalı - qimmat, ucuz - arzon."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "ne kadar?",
+                "uz": "qancha?",
+                "example_tr": "Bu ne kadar?",
+                "example_uz": "Bu qancha turadi?"
+              },
+              {
+                "tr": "lira",
+                "uz": "lira (pul birligi)",
+                "example_tr": "On lira.",
+                "example_uz": "O'n lira."
+              },
+              {
+                "tr": "para",
+                "uz": "pul",
+                "example_tr": "Param yok.",
+                "example_uz": "Pulim yo'q."
+              },
+              {
+                "tr": "pahalı",
+                "uz": "qimmat",
+                "example_tr": "Çok pahalı.",
+                "example_uz": "Juda qimmat."
+              },
+              {
+                "tr": "ucuz",
+                "uz": "arzon",
+                "example_tr": "Bu ucuz.",
+                "example_uz": "Bu arzon."
+              },
+              {
+                "tr": "yirmi",
+                "uz": "yigirma (20)",
+                "example_tr": "Yirmi lira.",
+                "example_uz": "Yigirma lira."
+              },
+              {
+                "tr": "otuz",
+                "uz": "o'ttiz (30)",
+                "example_tr": "Otuz dakika.",
+                "example_uz": "O'ttiz daqiqa."
+              },
+              {
+                "tr": "kırk",
+                "uz": "qirq (40)",
+                "example_tr": "Kırk yaşında.",
+                "example_uz": "Qirq yoshda."
+              },
+              {
+                "tr": "elli",
+                "uz": "ellik (50)",
+                "example_tr": "Elli lira.",
+                "example_uz": "Ellik lira."
+              },
+              {
+                "tr": "altmış",
+                "uz": "oltmish (60)",
+                "example_tr": "Altmış dakika bir saat.",
+                "example_uz": "Oltmish daqiqa bir soat."
+              },
+              {
+                "tr": "yetmiş",
+                "uz": "yetmish (70)",
+                "example_tr": "Yetmiş lira.",
+                "example_uz": "Yetmish lira."
+              },
+              {
+                "tr": "seksen",
+                "uz": "sakson (80)",
+                "example_tr": "Seksen lira.",
+                "example_uz": "Sakson lira."
+              },
+              {
+                "tr": "doksan",
+                "uz": "to'qson (90)",
+                "example_tr": "Doksan lira.",
+                "example_uz": "To'qson lira."
+              },
+              {
+                "tr": "yüz",
+                "uz": "yuz (100)",
+                "example_tr": "Yüz lira.",
+                "example_uz": "Yuz lira."
+              },
+              {
+                "tr": "istiyorum",
+                "uz": "xohlayman",
+                "example_tr": "Bunu istiyorum.",
+                "example_uz": "Buni xohlayman."
+              },
+              {
+                "tr": "kaç tane?",
+                "uz": "nechta?",
+                "example_tr": "Kaç tane elma?",
+                "example_uz": "Nechta olma?"
+              },
+              {
+                "tr": "hesap",
+                "uz": "hisob (to'lov)",
+                "example_tr": "Hesap lütfen.",
+                "example_uz": "Hisob-kitob, iltimos."
+              },
+              {
+                "tr": "market",
+                "uz": "do'kon",
+                "example_tr": "Markete gidiyorum.",
+                "example_uz": "Do'konga boryapman."
+              },
+              {
+                "tr": "almak",
+                "uz": "sotib olmoq",
+                "example_tr": "Elma almak istiyorum.",
+                "example_uz": "Olma sotib olmoqchiman."
+              },
+              {
+                "tr": "satmak",
+                "uz": "sotmoq",
+                "example_tr": "O ekmek satıyor.",
+                "example_uz": "U non sotadi."
+              }
+            ],
+            "reading": {
+              "title": "Markette",
+              "text": "Ayşe markete gidiyor. \"Bu elma ne kadar?\" diye soruyor. Satıcı \"Yirmi lira\" diyor. Ayşe \"Çok pahalı\" diyor ve gülüyor.\n\nSonra ekmek alıyor: \"Bu ekmek kaç lira?\" Satıcı \"Beş lira\" diyor. Ayşe ekmeği alıyor ve \"Teşekkür ederim\" diyor.",
+              "questions": [
+                {
+                  "question": "Olma qancha turadi?",
+                  "options": [
+                    "Yigirma lira",
+                    "Besh lira",
+                    "O'n lira",
+                    "O'ttiz lira"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ayshe olmani qanday deb baholaydi?",
+                  "options": [
+                    "Qimmat",
+                    "Arzon",
+                    "Yaxshi",
+                    "Yomon"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Satıcı",
+                  "text": "Buyurun, ne istiyorsunuz?"
+                },
+                {
+                  "speaker": "Müşteri",
+                  "text": "Bu kitap ne kadar?"
+                },
+                {
+                  "speaker": "Satıcı",
+                  "text": "Otuz lira."
+                },
+                {
+                  "speaker": "Müşteri",
+                  "text": "Biraz ucuz olur mu?"
+                },
+                {
+                  "speaker": "Satıcı",
+                  "text": "Yirmi beş lira olsun."
+                },
+                {
+                  "speaker": "Müşteri",
+                  "text": "Tamam, alıyorum."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Kitobning dastlabki narxi qancha edi?",
+                  "options": [
+                    "O'ttiz lira",
+                    "Yigirma besh lira",
+                    "O'n lira",
+                    "Ellik lira"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Oxir-oqibat kitob nechaga sotildi?",
+                  "options": [
+                    "Yigirma besh lira",
+                    "O'ttiz lira",
+                    "O'n lira",
+                    "Qirq lira"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Qancha turadi?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ne kadar?",
+                  "Kaç tane?",
+                  "Nasıl?",
+                  "Nerede?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qimmat\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Pahalı",
+                  "Ucuz",
+                  "Büyük",
+                  "Küçük"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Buni xohlayman.\" gapini tuzing.",
+                "words": [
+                  "Bunu",
+                  "istiyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bu qancha turadi?\" gapini tuzing.",
+                "words": [
+                  "Bu",
+                  "ne",
+                  "kadar?"
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"100\" soni turkchada?",
+                "options": [
+                  "Yüz",
+                  "On",
+                  "Bin",
+                  "Kırk"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Arzon\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ucuz",
+                  "Pahalı",
+                  "Yeni",
+                  "Eski"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Do'konda biror narsa sotib olayotganingizni tasvirlab yozing: nima sotib olyapsiz, narxi qancha (kamida 2 gap).",
+              "sample_answer": "Markete gidiyorum. Elma alıyorum, yirmi lira."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Bu ne kadar?",
+                "Çok pahalı.",
+                "Bunu istiyorum.",
+                "Hesap lütfen."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Qancha?\" turkchada qanday bo'ladi?",
+              "options": [
+                "Ne kadar?",
+                "Nerede?",
+                "Ne zaman?",
+                "Kim?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qimmat\" turkchada nima?",
+              "options": [
+                "Pahalı",
+                "Ucuz",
+                "Yeni",
+                "Eski"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Arzon\" turkchada nima?",
+              "options": [
+                "Ucuz",
+                "Pahalı",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"20\" soni turkchada?",
+              "options": [
+                "Yirmi",
+                "On",
+                "Otuz",
+                "Kırk"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"50\" soni turkchada?",
+              "options": [
+                "Elli",
+                "Kırk",
+                "Altmış",
+                "Yetmiş"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"100\" soni turkchada?",
+              "options": [
+                "Yüz",
+                "On",
+                "Bin",
+                "Elli"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Pul\" turkchada nima?",
+              "options": [
+                "Para",
+                "Lira",
+                "Hesap",
+                "Market"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sotib olmoq\" turkchada nima?",
+              "options": [
+                "Almak",
+                "Satmak",
+                "İstemek",
+                "Vermek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sotmoq\" turkchada nima?",
+              "options": [
+                "Satmak",
+                "Almak",
+                "İstemek",
+                "Bakmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Nechta?\" turkchada qanday bo'ladi?",
+              "options": [
+                "Kaç tane?",
+                "Ne kadar?",
+                "Kaç lira?",
+                "Nerede?"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u3c",
+          "title": "C. Nerede? Ne Zaman? — Qayerda? Qachon?",
+          "start_page": 9,
+          "end_page": 9,
+          "explanation": {
+            "goals": [
+              "\"Nerede?\" va \"Ne zaman?\" savollariga javob berish",
+              "-DAn önce / -DAn sonra (oldin/keyin) qurilmasi",
+              "Hafta kunlarini bilish"
+            ],
+            "blocks": [
+              {
+                "heading": "Nerede? va Ne zaman?",
+                "text": "\"Nerede?\" (Qayerda?) joy haqida, \"Ne zaman?\" (Qachon?) vaqt haqida so'raydi. Javoblar: \"Okulda.\" (Maktabda), \"Yarın.\" (Ertaga), \"Pazartesi.\" (Dushanba)."
+              },
+              {
+                "heading": "Oldin va keyin",
+                "text": "\"-den önce\" (oldin) va \"-den sonra\" (keyin) qurilmasi ikkita harakat tartibini bildiradi: \"Yemekten önce\" (Ovqatdan oldin), \"Dersten sonra\" (Darsdan keyin).\n\nMisol: \"Okuldan sonra eve gidiyorum.\" (Maktabdan keyin uyga boraman)."
+              },
+              {
+                "heading": "Hafta kunlari",
+                "text": "Hafta kunlari: Pazartesi (dushanba), Salı (seshanba), Çarşamba (chorshanba), Perşembe (payshanba), Cuma (juma), Cumartesi (shanba), Pazar (yakshanba).\n\n\"Hangi gün?\" (Qaysi kun?) savoli bilan kun so'raladi."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Nerede?\" - joy, \"Ne zaman?\" - vaqt so'raydi."
+              },
+              {
+                "fact": "-den önce = oldin, -den sonra = keyin."
+              },
+              {
+                "fact": "Hafta 7 kun: Pazartesi'den Pazar'a qadar."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "nerede?",
+                "uz": "qayerda?",
+                "example_tr": "Kitap nerede?",
+                "example_uz": "Kitob qayerda?"
+              },
+              {
+                "tr": "ne zaman?",
+                "uz": "qachon?",
+                "example_tr": "Ders ne zaman?",
+                "example_uz": "Dars qachon?"
+              },
+              {
+                "tr": "önce",
+                "uz": "oldin",
+                "example_tr": "Yemekten önce.",
+                "example_uz": "Ovqatdan oldin."
+              },
+              {
+                "tr": "sonra",
+                "uz": "keyin",
+                "example_tr": "Dersten sonra.",
+                "example_uz": "Darsdan keyin."
+              },
+              {
+                "tr": "pazartesi",
+                "uz": "dushanba",
+                "example_tr": "Pazartesi okul var.",
+                "example_uz": "Dushanba maktab bor."
+              },
+              {
+                "tr": "salı",
+                "uz": "seshanba",
+                "example_tr": "Salı günü geliyorum.",
+                "example_uz": "Seshanba kuni kelaman."
+              },
+              {
+                "tr": "çarşamba",
+                "uz": "chorshanba",
+                "example_tr": "Çarşamba tatil.",
+                "example_uz": "Chorshanba dam olish kuni."
+              },
+              {
+                "tr": "perşembe",
+                "uz": "payshanba",
+                "example_tr": "Perşembe sınav var.",
+                "example_uz": "Payshanba imtihon bor."
+              },
+              {
+                "tr": "cuma",
+                "uz": "juma",
+                "example_tr": "Cuma günü tatil.",
+                "example_uz": "Juma kuni dam olish."
+              },
+              {
+                "tr": "cumartesi",
+                "uz": "shanba",
+                "example_tr": "Cumartesi çalışmıyorum.",
+                "example_uz": "Shanba kuni ishlamayman."
+              },
+              {
+                "tr": "pazar",
+                "uz": "yakshanba",
+                "example_tr": "Pazar günü dinleniyorum.",
+                "example_uz": "Yakshanba kuni dam olaman."
+              },
+              {
+                "tr": "hafta",
+                "uz": "hafta",
+                "example_tr": "Bu hafta çok yoğun.",
+                "example_uz": "Bu hafta juda band."
+              },
+              {
+                "tr": "hangi gün?",
+                "uz": "qaysi kun?",
+                "example_tr": "Hangi gün geliyorsun?",
+                "example_uz": "Qaysi kun kelasan?"
+              },
+              {
+                "tr": "bugün",
+                "uz": "bugun",
+                "example_tr": "Bugün pazartesi.",
+                "example_uz": "Bugun dushanba."
+              },
+              {
+                "tr": "dün",
+                "uz": "kecha",
+                "example_tr": "Dün pazardı.",
+                "example_uz": "Kecha yakshanba edi."
+              },
+              {
+                "tr": "yarın",
+                "uz": "ertaga",
+                "example_tr": "Yarın salı.",
+                "example_uz": "Ertaga seshanba."
+              },
+              {
+                "tr": "ders",
+                "uz": "dars",
+                "example_tr": "Dersten sonra eve gidiyorum.",
+                "example_uz": "Darsdan keyin uyga boraman."
+              },
+              {
+                "tr": "tatil",
+                "uz": "dam olish kuni, ta'til",
+                "example_tr": "Pazar tatil.",
+                "example_uz": "Yakshanba dam olish kuni."
+              },
+              {
+                "tr": "sınav",
+                "uz": "imtihon",
+                "example_tr": "Perşembe sınavım var.",
+                "example_uz": "Payshanba imtihonim bor."
+              },
+              {
+                "tr": "yoğun",
+                "uz": "band, zich",
+                "example_tr": "Bu hafta yoğunum.",
+                "example_uz": "Bu hafta bandman."
+              }
+            ],
+            "reading": {
+              "title": "Haftalık plan",
+              "text": "Pazartesi ve Salı okulda dersim var. Çarşamba sınavım var, bu yüzden çok çalışıyorum. Perşembe ve Cuma yine derslerim var.\n\nCumartesi ve Pazar tatil. Cumartesi arkadaşlarımla buluşuyorum, Pazar günü dinleniyorum.",
+              "questions": [
+                {
+                  "question": "Chorshanba kuni nima bor?",
+                  "options": [
+                    "Imtihon",
+                    "Dam olish",
+                    "Do'stlar bilan uchrashuv",
+                    "Sayohat"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Qaysi kunlar dam olish kuni?",
+                  "options": [
+                    "Shanba va yakshanba",
+                    "Dushanba va seshanba",
+                    "Chorshanba va payshanba",
+                    "Juma va shanba"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Deniz",
+                  "text": "Ne zaman sınavın var?"
+                },
+                {
+                  "speaker": "Kaan",
+                  "text": "Perşembe günü."
+                },
+                {
+                  "speaker": "Deniz",
+                  "text": "Sınavdan önce ne yapıyorsun?"
+                },
+                {
+                  "speaker": "Kaan",
+                  "text": "Çok çalışıyorum, sonra dinleniyorum."
+                },
+                {
+                  "speaker": "Deniz",
+                  "text": "Başarılar!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Koanning imtihoni qachon?",
+                  "options": [
+                    "Payshanba",
+                    "Dushanba",
+                    "Juma",
+                    "Shanba"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Imtihondan oldin Koan nima qiladi?",
+                  "options": [
+                    "Ko'p tayyorlanadi",
+                    "Dam oladi",
+                    "Uxlaydi",
+                    "Sayohat qiladi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Qachon?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ne zaman?",
+                  "Nerede?",
+                  "Ne kadar?",
+                  "Kaç?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Dushanba\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Pazartesi",
+                  "Salı",
+                  "Çarşamba",
+                  "Cuma"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Darsdan keyin uyga boraman.\" gapini tuzing.",
+                "words": [
+                  "Dersten",
+                  "sonra",
+                  "eve",
+                  "gidiyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Ovqatdan oldin.\" gapini tuzing.",
+                "words": [
+                  "Yemekten",
+                  "önce."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Yakshanba\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Pazar",
+                  "Pazartesi",
+                  "Cumartesi",
+                  "Cuma"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Imtihon\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Sınav",
+                  "Ders",
+                  "Tatil",
+                  "Hafta"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Haftalik rejangizni yozing: qaysi kunlari nima qilasiz (kamida 2 gap).",
+              "sample_answer": "Pazartesi okula gidiyorum. Cumartesi dinleniyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Ne zaman geliyorsun?",
+                "Perşembe sınavım var.",
+                "Dersten sonra eve gidiyorum.",
+                "Pazar tatil."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Qayerda?\" turkchada nima?",
+              "options": [
+                "Nerede?",
+                "Ne zaman?",
+                "Ne kadar?",
+                "Kim?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qachon?\" turkchada nima?",
+              "options": [
+                "Ne zaman?",
+                "Nerede?",
+                "Kaç?",
+                "Nasıl?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Oldin\" turkchada nima?",
+              "options": [
+                "Önce",
+                "Sonra",
+                "Şimdi",
+                "Yarın"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Keyin\" turkchada nima?",
+              "options": [
+                "Sonra",
+                "Önce",
+                "Şimdi",
+                "Dün"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Dushanba\" turkchada nima?",
+              "options": [
+                "Pazartesi",
+                "Salı",
+                "Cuma",
+                "Pazar"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yakshanba\" turkchada nima?",
+              "options": [
+                "Pazar",
+                "Cumartesi",
+                "Cuma",
+                "Salı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bugun\" turkchada nima?",
+              "options": [
+                "Bugün",
+                "Dün",
+                "Yarın",
+                "Hafta"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ertaga\" turkchada nima?",
+              "options": [
+                "Yarın",
+                "Dün",
+                "Bugün",
+                "Şimdi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Imtihon\" turkchada nima?",
+              "options": [
+                "Sınav",
+                "Ders",
+                "Tatil",
+                "Ödev"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Dam olish kuni\" turkchada nima?",
+              "options": [
+                "Tatil",
+                "Ders",
+                "Sınav",
+                "Hafta"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
