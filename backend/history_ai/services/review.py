@@ -1,14 +1,20 @@
-"""Xatolarni takrorlash va kurs ichida qidiruv.
+"""Xatolarni takrorlash (oraliq takrorlash / spaced repetition) va kurs ichida qidiruv.
 
-"Zaif savol" - talaba oxirgi marta xato javob bergan (rasmiy testda yoki takrorlashda) savol.
-Savol matni bo'yicha kalit (qkey) hisoblanadi, shuning uchun test qayta yaratilsa ham izchil.
+Talaba xato qilgan savol kartochka (ReviewCard) sifatida saqlanadi, "sana"si bugun bo'lganda
+takrorlash ro'yxatida chiqadi. To'g'ri javob berilganda kartochka uzoqroq muddatga o'tadi
+(1, 3, 7, 14, 30 kun); oxirgisida ham to'g'ri javob berilsa o'zlashtirilgan hisoblanib o'chadi.
+Xato javob kartochkani darhol yana bugungi kunga qaytaradi. Savol matni bo'yicha kalit (qkey)
+hisoblanadi, shuning uchun test qayta yaratilsa ham izchil qoladi.
 """
 import hashlib
 import re
+from datetime import timedelta
 
-from ..models import (
-    STATUS_DONE, BookExam, GeneratedAsset, Lesson, ReviewAnswer, SectionExam, TestAttempt, Topic,
-)
+from django.utils import timezone
+
+from ..models import STATUS_DONE, BookExam, GeneratedAsset, Lesson, ReviewCard, SectionExam, Topic
+
+INTERVALS = [1, 3, 7, 14, 30]  # kun: har to'g'ri javobdan keyingi keyingi "sana"gacha
 
 
 def qkey(text):
@@ -36,49 +42,110 @@ def _questions_for_attempt(attempt, cache):
     return cache[key]
 
 
-def weak_questions(user, book):
-    """Talaba hozir noto'g'ri deb turgan savollar ro'yxati (to'liq savol, correct_index bilan - ichki)."""
-    events = []  # (vaqt, qkey, to'g'rimi, savol)
-    cache = {}
-    attempts = TestAttempt.objects.filter(student=user).filter(
-        topic__book=book
-    ) | TestAttempt.objects.filter(student=user, section__book=book) | TestAttempt.objects.filter(
-        student=user, book=book
+def _topic_for_page(topics, page):
+    if not page:
+        return None
+    return next((t for t in topics if t.start_page <= page <= t.end_page), None)
+
+
+def _advance(user, book, key):
+    """To'g'ri javob: kartochka bor bo'lsa keyingi intervalga o'tadi, oxirgisida o'zlashtirilib o'chadi."""
+    card = ReviewCard.objects.filter(user=user, book=book, qkey=key).first()
+    if not card:
+        return
+    nxt = card.interval_idx + 1
+    if nxt >= len(INTERVALS):
+        card.delete()
+        return
+    card.interval_idx = nxt
+    card.due_date = timezone.localdate() + timedelta(days=INTERVALS[nxt])
+    card.save(update_fields=['interval_idx', 'due_date', 'updated_at'])
+
+
+def _reset(user, book, key, q, topic):
+    """Xato javob: kartochka yaratiladi (yoki 0-intervalga qaytadi), bugun takrorlash uchun tayyor."""
+    data = {
+        'question': q['question'], 'options': q['options'], 'correct_index': q['correct_index'],
+        'page': q.get('page'), 'topic_id': topic.id if topic else None, 'topic_title': topic.title if topic else '',
+    }
+    ReviewCard.objects.update_or_create(
+        user=user, book=book, qkey=key,
+        defaults={'data': data, 'interval_idx': 0, 'due_date': timezone.localdate()},
     )
-    for att in attempts.distinct():
-        qs = _questions_for_attempt(att, cache)
-        for i, q in enumerate(qs):
-            chosen = (att.answers or {}).get(str(i))
-            events.append((att.created_at, qkey(q['question']), chosen == q['correct_index'], q))
-    for ra in ReviewAnswer.objects.filter(user=user, book=book):
-        events.append((ra.created_at, ra.qkey, ra.correct, None))
-
-    events.sort(key=lambda e: e[0])
-    state, questions = {}, {}
-    for _, key, ok, q in events:
-        state[key] = ok
-        if q is not None:
-            questions[key] = q
-
-    topics = list(Topic.objects.filter(book=book))
-    weak = []
-    for key, ok in state.items():
-        if ok or key not in questions:
-            continue
-        q = questions[key]
-        page = q.get('page')
-        topic = next((t for t in topics if page and t.start_page <= page <= t.end_page), None)
-        weak.append({
-            'key': key, 'question': q['question'], 'options': q['options'], 'page': page,
-            'correct_index': q['correct_index'],
-            'topic_id': topic.id if topic else None, 'topic_title': topic.title if topic else '',
-        })
-    weak.sort(key=lambda w: (w['page'] or 0))
-    return weak
 
 
-def public_weak(items):
-    return [{k: v for k, v in w.items() if k != 'correct_index'} for w in items]
+def record_grading(user, book, questions, answers, topic=None):
+    """Har qanday test (mavzu/bo'lim/yakuniy) topshirilgandan keyin chaqiriladi: takrorlash
+    kartochkalarini yangilaydi (xato -> kartochka, to'g'ri -> mavjud kartochka ilgarilaydi)."""
+    topics = None
+    for i, q in enumerate(questions):
+        chosen = (answers or {}).get(str(i))
+        correct = chosen == q['correct_index']
+        key = qkey(q['question'])
+        if correct:
+            _advance(user, book, key)
+        else:
+            t = topic
+            if t is None:
+                if topics is None:
+                    topics = list(Topic.objects.filter(book=book))
+                t = _topic_for_page(topics, q.get('page'))
+            _reset(user, book, key, q, t)
+
+
+def due_cards(user, book):
+    """Bugun (yoki undan oldin) "sana"si kelgan takrorlash kartochkalari."""
+    return list(
+        ReviewCard.objects.filter(user=user, book=book, due_date__lte=timezone.localdate())
+        .order_by('due_date', 'id')
+    )
+
+
+def public_card(card):
+    d = card.data
+    return {
+        'key': card.qkey, 'question': d['question'], 'options': d['options'],
+        'page': d.get('page'), 'topic_id': d.get('topic_id'), 'topic_title': d.get('topic_title'),
+    }
+
+
+def answer_card(user, book, key, choice):
+    """Takrorlashda javob berish. Qaytaradi: to'g'ri/xato, bet, o'zlashtirildimi va keyingi sana (kun)."""
+    card = ReviewCard.objects.filter(user=user, book=book, qkey=key).first()
+    if not card:
+        return None
+    correct = choice == card.data['correct_index']
+    page = card.data.get('page')
+    if correct:
+        next_in_days = INTERVALS[card.interval_idx + 1] if card.interval_idx + 1 < len(INTERVALS) else None
+        _advance(user, book, key)
+        mastered = next_in_days is None
+    else:
+        mastered, next_in_days = False, INTERVALS[0]
+        card.interval_idx = 0
+        card.due_date = timezone.localdate()
+        card.save(update_fields=['interval_idx', 'due_date', 'updated_at'])
+    explain = None if correct else explain_page(book, page)
+    return {'correct': correct, 'page': page, 'mastered': mastered, 'next_in_days': next_in_days, 'explain': explain}
+
+
+def explain_page(book, page):
+    """Xato javobdan keyingi qisqa eslatma: shu betni qoplaydigan dars blokining sarlavhasi va boshi."""
+    if not page:
+        return None
+    lesson = Lesson.objects.filter(
+        topic__book=book, topic__start_page__lte=page, topic__end_page__gte=page, lesson_plan__isnull=False,
+    ).first()
+    if not lesson:
+        return None
+    for b in (lesson.lesson_plan or {}).get('blocks', []):
+        if page in (b.get('pages') or []):
+            text = b.get('text') or ''
+            snippet = text[:180]
+            if len(snippet) < len(text):
+                snippet = snippet.rsplit(' ', 1)[0] + '...'
+            return {'heading': b.get('heading', ''), 'snippet': snippet}
+    return None
 
 
 def _snippet(text, needle, radius=70):

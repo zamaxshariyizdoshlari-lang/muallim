@@ -194,12 +194,15 @@ class BookProgressView(APIView):
             'all_topics_completed': all_topics_completed(request.user, book),
             'exam_exists': BookExam.objects.filter(book=book, status=STATUS_DONE).exists(),
             'certificate': bool(cert),
-            'weak_count': len(review_service.weak_questions(request.user, book)),
+            'weak_count': len(review_service.due_cards(request.user, book)),
         })
 
 
-def _grade(questions, answers):
-    """answers: {"0": chosen_index, ...}. Javob berilmagan savol xato hisoblanadi."""
+def _grade(questions, answers, book=None):
+    """answers: {"0": chosen_index, ...}. Javob berilmagan savol xato hisoblanadi.
+
+    `book` berilsa, xato javoblarga qisqa eslatma (`explain`: sarlavha + matn boshi) qo'shiladi.
+    """
     details = []
     score = 0
     for i, q in enumerate(questions):
@@ -207,7 +210,10 @@ def _grade(questions, answers):
         correct = chosen == q['correct_index']
         score += int(correct)
         # To'g'ri javob ataylab qaytarilmaydi (yodlab olishning oldini olish) - faqat qayerdan o'qish kerakligi (bet).
-        details.append({'index': i, 'correct': correct, 'page': q.get('page')})
+        detail = {'index': i, 'correct': correct, 'page': q.get('page')}
+        if not correct and book is not None:
+            detail['explain'] = review_service.explain_page(book, q.get('page'))
+        details.append(detail)
     return score, len(questions), details
 
 
@@ -233,13 +239,15 @@ class TopicTestSubmitView(APIView):
         if not asset:
             raise ValidationError({'detail': "Bu mavzu uchun test hali yaratilmagan."})
 
-        score, total, details = _grade(asset.data['questions'], _read_answers(request))
+        answers = _read_answers(request)
+        score, total, details = _grade(asset.data['questions'], answers, book=topic.book)
         passed = total > 0 and score == total
         xp = 0
         attempt = TestAttempt.objects.create(
-            student=request.user, topic=topic, answers=_read_answers(request),
+            student=request.user, topic=topic, answers=answers,
             score=score, total=total, passed=passed,
         )
+        review_service.record_grading(request.user, topic.book, asset.data['questions'], answers, topic=topic)
         if passed:
             TopicCompletion.objects.get_or_create(
                 student=request.user, topic=topic, defaults={'attempt': attempt}
@@ -301,12 +309,13 @@ class BookExamSubmitView(APIView):
             raise ValidationError({'detail': "Yakuniy imtihon hali yaratilmagan."})
 
         answers = _read_answers(request)
-        score, total, details = _grade(exam.data['questions'], answers)
+        score, total, details = _grade(exam.data['questions'], answers, book=book)
         passed = total > 0 and score == total
         xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
         )
+        review_service.record_grading(request.user, book, exam.data['questions'], answers)
 
         certificate = False
         if passed:
@@ -491,12 +500,13 @@ class SectionExamSubmitView(APIView):
 
         exam = get_object_or_404(SectionExam, section=section)
         answers = _read_answers(request)
-        score, total, details = _grade(exam.data['questions'], answers)
+        score, total, details = _grade(exam.data['questions'], answers, book=section.book)
         passed = total > 0 and score == total
         xp = 0
         TestAttempt.objects.create(
             student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,
         )
+        review_service.record_grading(request.user, section.book, exam.data['questions'], answers)
         if passed:
             SectionCompletion.objects.get_or_create(student=request.user, section=section)
             xp = gamification.award_section(request.user, section)
@@ -507,11 +517,12 @@ class SectionExamSubmitView(APIView):
 
 
 class ReviewListView(APIView):
-    """Xatolarni takrorlash: talaba oxirgi marta xato qilgan savollar (to'g'ri javobsiz)."""
+    """Xatolarni takrorlash: bugun "sana"si kelgan kartochkalar (to'g'ri javobsiz)."""
 
     def get(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
-        return Response({'items': review_service.public_weak(review_service.weak_questions(request.user, book))})
+        cards = review_service.due_cards(request.user, book)
+        return Response({'items': [review_service.public_card(c) for c in cards]})
 
 
 class ReviewAnswerView(APIView):
@@ -521,16 +532,16 @@ class ReviewAnswerView(APIView):
         book = get_object_or_404(Book, id=book_id)
         key = request.data.get('key')
         choice = request.data.get('choice')
-        weak = {w['key']: w for w in review_service.weak_questions(request.user, book)}
-        item = weak.get(key)
-        if not item:
+        result = review_service.answer_card(request.user, book, key, choice)
+        if result is None:
             raise ValidationError({'detail': "Bu savol takrorlash ro'yxatida yo'q."})
-        correct = choice == item['correct_index']
-        ra = ReviewAnswer.objects.create(user=request.user, book=book, qkey=key, correct=correct)
-        xp = gamification.award_review(request.user, ra.id) if correct else 0
+        ra = ReviewAnswer.objects.create(user=request.user, book=book, qkey=key, correct=result['correct'])
+        xp = gamification.award_review(request.user, ra.id) if result['correct'] else 0
+        remaining = len(review_service.due_cards(request.user, book))
         return Response({
-            'correct': correct, 'page': item['page'], 'xp_gained': xp,
-            'remaining': len(weak) - (1 if correct else 0),
+            'correct': result['correct'], 'page': result['page'], 'mastered': result['mastered'],
+            'next_in_days': result['next_in_days'], 'explain': result['explain'], 'xp_gained': xp,
+            'remaining': remaining,
         })
 
 

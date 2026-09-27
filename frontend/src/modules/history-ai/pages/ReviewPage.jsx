@@ -4,16 +4,16 @@ import { answerReview, getReview } from '../api/client'
 import { BackLink, ErrorNote, ProgressBar, Spinner } from '../components/ui'
 
 /**
- * Xatolarni takrorlash: oxirgi marta xato qilingan savollar. To'g'ri javob ko'rsatilmaydi -
- * faqat to'g'ri/xato va qaysi betni qayta o'qish kerakligi (rasmiy testdagi kabi).
- * To'g'ri javob berilgan savol ro'yxatdan chiqadi va +5 ball beradi.
+ * Xatolarni takrorlash (oraliq takrorlash): bugun "sana"si kelgan kartochkalar. To'g'ri javob
+ * ko'rsatilmaydi - faqat to'g'ri/xato va qaysi betni qayta o'qish kerakligi (rasmiy testdagi kabi).
+ * To'g'ri javob kartochkani uzoqroq muddatga o'tkazadi (+5 ball); oxirgi bosqichda o'zlashtiriladi.
  */
 export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
   const [items, setItems] = useState(null)
   const [total, setTotal] = useState(0)
   const [index, setIndex] = useState(0)
-  const [feedback, setFeedback] = useState(null) // { choice, correct, page, xp }
-  const [mastered, setMastered] = useState(0)
+  const [feedback, setFeedback] = useState(null) // { choice, correct, page, xp, mastered, nextInDays, explain }
+  const [masteredCount, setMasteredCount] = useState(0)
   const [error, setError] = useState('')
 
   useEffect(() => {
@@ -33,8 +33,11 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
     if (feedback) return
     try {
       const r = await answerReview(bookId, q.key, choice)
-      setFeedback({ choice, correct: r.correct, page: r.page, xp: r.xp_gained })
-      if (r.correct) setMastered((m) => m + 1)
+      setFeedback({
+        choice, correct: r.correct, page: r.page, xp: r.xp_gained,
+        mastered: r.mastered, nextInDays: r.next_in_days, explain: r.explain,
+      })
+      if (r.correct) setMasteredCount((m) => m + 1)
     } catch (err) {
       setError(err.message)
     }
@@ -48,7 +51,7 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
   function again() {
     setFeedback(null)
     setIndex(0)
-    setMastered(0)
+    setMasteredCount(0)
     setItems(null)
     getReview(bookId).then((d) => { setItems(d.items); setTotal(d.items.length) })
   }
@@ -60,14 +63,15 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
         <p className="eyebrow mb-2">Takrorlash</p>
         <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">Xatolar ustida ishlash</h1>
         <p className="mt-3 text-sm text-muted">
-          Testlarda xato qilgan savollaringiz. To'g'ri javob bergan savol ro'yxatdan chiqadi (+5 ball).
+          Testlarda xato qilgan savollaringiz kartochka sifatida shu yerda qaytadi: to'g'ri javob bersangiz
+          kartochka uzoqroq muddatga "uxlaydi" (+5 ball), xato qilsangiz darhol yana bugungiga qaytadi.
         </p>
       </header>
 
       {total === 0 && (
         <div className="card p-8 text-center">
           <Sparkles className="mx-auto mb-3 text-gold" size={32} />
-          <p className="font-display text-xl font-bold text-ink">Takrorlaydigan xato yo'q!</p>
+          <p className="font-display text-xl font-bold text-ink">Bugun takrorlaydigan kartochka yo'q!</p>
           <p className="mt-1 text-sm text-muted">Testlarda xato qilsangiz, savollar shu yerga tushadi.</p>
         </div>
       )}
@@ -99,23 +103,40 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
           {feedback && (
             <div className="rise mt-5">
               {feedback.correct ? (
-                <p className="flex items-center gap-2 text-sm font-semibold text-ok">
-                  <CheckCircle2 size={18} /> To'g'ri! {feedback.xp > 0 && <span className="chip chip-gold">+{feedback.xp} ball</span>}
-                </p>
-              ) : (
-                <p className="rounded-lg bg-bad-soft px-3 py-2 text-sm font-medium text-bad">
-                  Noto'g'ri.{' '}
-                  {feedback.page && (
-                    <>
-                      Qayta o'qing: darslikning {feedback.page}-beti
-                      {q.topic_id && (
-                        <button onClick={() => onOpenTopic(q.topic_id)} className="ml-2 underline">
-                          Mavzuga o'tish
-                        </button>
-                      )}
-                    </>
+                <div className="rounded-lg bg-ok-soft px-3 py-2 text-sm text-ok">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <CheckCircle2 size={18} />
+                    {feedback.mastered ? "O'zlashtirdingiz! Kartochka olib tashlandi." : 'To\'g\'ri!'}
+                    {feedback.xp > 0 && <span className="chip chip-gold">+{feedback.xp} ball</span>}
+                  </p>
+                  {!feedback.mastered && feedback.nextInDays && (
+                    <p className="mt-1 text-ink-2">
+                      Bu kartochka {feedback.nextInDays} kundan keyin yana takrorlanadi.
+                    </p>
                   )}
-                </p>
+                </div>
+              ) : (
+                <div className="rounded-lg bg-bad-soft px-3 py-2 text-sm text-bad">
+                  <p className="font-medium">
+                    Noto'g'ri.{' '}
+                    {feedback.page && (
+                      <>
+                        Qayta o'qing: darslikning {feedback.page}-beti
+                        {q.topic_id && (
+                          <button onClick={() => onOpenTopic(q.topic_id)} className="ml-2 underline">
+                            Mavzuga o'tish
+                          </button>
+                        )}
+                      </>
+                    )}
+                  </p>
+                  {feedback.explain && (
+                    <p className="mt-1 text-ink-2">
+                      {feedback.explain.heading && <span className="font-semibold">{feedback.explain.heading}: </span>}
+                      {feedback.explain.snippet}
+                    </p>
+                  )}
+                </div>
               )}
               <button onClick={next} className="btn btn-primary mt-4">
                 {index + 1 === items.length ? 'Yakunlash' : 'Keyingi savol'}
@@ -129,13 +150,13 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
         <div className="card rise p-8 text-center">
           <p className="eyebrow mb-1">Natija</p>
           <p className="font-display text-5xl font-extrabold text-brand">
-            {mastered} <span className="text-muted">/ {total}</span>
+            {masteredCount} <span className="text-muted">/ {total}</span>
           </p>
           <p className="mt-2 text-sm text-ink-2">
-            {mastered === total ? "Ajoyib! Barcha xatolar tuzatildi." : "Qolgan savollarni yana bir bor takrorlang."}
+            {masteredCount === total ? "Ajoyib! Bugungi kartochkalar tugadi." : "Qolganlarini yana bir bor takrorlang."}
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
-            {mastered < total && (
+            {masteredCount < total && (
               <button onClick={again} className="btn btn-gold">
                 <RotateCcw size={14} /> Qolganlarini takrorlash
               </button>

@@ -253,6 +253,13 @@ class ReviewSearchTests(CourseFixture):
             f'{H}books/{self.book.id}/review/answer/', {'key': 'yoq', 'choice': 0}, format='json')
         self.assertEqual(r.status_code, 400)
 
+    def test_wrong_test_answer_includes_explanation(self):
+        self.login(self.user)
+        r = self.submit(self.topics[0], correct=False)
+        wrong = next(d for d in r.data['details'] if not d['correct'])
+        self.assertIsNotNone(wrong['explain'])
+        self.assertIn('heading', wrong['explain'])
+
     def test_search_limited_to_unlocked_topics(self):
         self.login(self.user)
         hits = self.client.get(f'{H}books/{self.book.id}/search/', {'q': 'fir\'avn'}).data['results']
@@ -350,3 +357,56 @@ class StreakFreezeTests(CourseFixture):
         from .models import ReviewAnswer
         ReviewAnswer.objects.create(user=self.user, book=self.book, qkey='abc', correct=True)
         self.assertTrue(gamification.streak_info(self.user)['active_today'])
+
+
+class SpacedRepetitionTests(CourseFixture):
+    """review.INTERVALS = [1, 3, 7, 14, 30]: har to'g'ri javob keyingi intervalga o'tkazadi."""
+
+    def _card_key(self):
+        from .services.review import qkey
+        return qkey(self.topics[0].assets.first().data['questions'][0]['question'])
+
+    def test_interval_grows_and_card_is_mastered_at_the_end(self):
+        from .models import ReviewCard
+        from .services.review import INTERVALS
+        self.login(self.user)
+        self.submit(self.topics[0], correct=False)
+        key = self._card_key()
+        url = f'{H}books/{self.book.id}/review/answer/'
+        for expected_next in INTERVALS[1:]:
+            r = self.client.post(url, {'key': key, 'choice': 0}, format='json')
+            self.assertTrue(r.data['correct'])
+            self.assertEqual(r.data['next_in_days'], expected_next)
+            self.assertFalse(r.data['mastered'])
+        r = self.client.post(url, {'key': key, 'choice': 0}, format='json')
+        self.assertTrue(r.data['mastered'])
+        self.assertIsNone(r.data['next_in_days'])
+        self.assertFalse(ReviewCard.objects.filter(qkey=key).exists())
+
+    def test_wrong_answer_resets_interval_to_due_today(self):
+        self.login(self.user)
+        self.submit(self.topics[0], correct=False)
+        key = self._card_key()
+        url = f'{H}books/{self.book.id}/review/answer/'
+        self.client.post(url, {'key': key, 'choice': 0}, format='json')  # ilgarilaydi (3 kun)
+        self.assertEqual(self.client.get(f'{H}books/{self.book.id}/review/').data['items'], [])
+        r = self.client.post(url, {'key': key, 'choice': 1}, format='json')  # xato -> darhol qaytadi
+        self.assertFalse(r.data['correct'])
+        self.assertEqual(len(self.client.get(f'{H}books/{self.book.id}/review/').data['items']), 1)
+
+    def test_section_exam_wrong_answer_creates_card_with_topic(self):
+        from .models import SectionExam, ReviewCard
+        SectionExam.objects.create(section=self.sections[0], data={'questions': make_questions(10, n=2)})
+        self.login(self.user)
+        self.submit(self.topics[0])
+        self.submit(self.topics[1])
+        r = self.client.post(
+            f'{H}sections/{self.sections[0].id}/exam/submit/', {'answers': {'0': 1, '1': 0}}, format='json')
+        self.assertEqual(r.status_code, 200)
+        card = ReviewCard.objects.get(user=self.user, book=self.book, qkey=qkey_of('Savol 10-0?'))
+        self.assertEqual(card.data['topic_id'], self.topics[0].id)
+
+
+def qkey_of(text):
+    from .services.review import qkey
+    return qkey(text)

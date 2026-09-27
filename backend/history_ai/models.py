@@ -314,3 +314,27 @@ class UserSettings(models.Model):
 
     def __str__(self):
         return f"{self.user} maqsad={self.daily_goal}"
+
+
+class ReviewCard(models.Model):
+    """Oraliq takrorlash (spaced repetition) kartochkasi: talaba xato qilgan savol.
+
+    To'g'ri javob berilganda interval kattalashadi (kartochka uzoqroq muddatga "uxlaydi");
+    oxirgi intervalda ham to'g'ri javob berilsa o'zlashtirilgan hisoblanib o'chiriladi.
+    Xato javob interval'ni 0 ga qaytaradi (kartochka darhol yana "sana"si kelgan bo'ladi).
+    """
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='review_cards')
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='review_cards')
+    qkey = models.CharField(max_length=20, db_index=True)
+    data = models.JSONField()  # {question, options, correct_index, page, topic_id, topic_title}
+    interval_idx = models.PositiveSmallIntegerField(default=0)
+    due_date = models.DateField(db_index=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ('user', 'book', 'qkey')
+
+    def __str__(self):
+        return f"{self.user} · {self.qkey} (due {self.due_date})"
