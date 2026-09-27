@@ -101,7 +101,7 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
           </div>
 
           {feedback && (
-            <div className="rise mt-5">
+            <div className="rise mt-5" role="status" aria-live="polite">
               {feedback.correct ? (
                 <div className="rounded-lg bg-ok-soft px-3 py-2 text-sm text-ok">
                   <p className="flex items-center gap-2 font-semibold">

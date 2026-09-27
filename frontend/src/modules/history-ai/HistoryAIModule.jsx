@@ -8,7 +8,7 @@ import {
   getProfile, getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, submitBookExam, submitSectionExam,
   submitTopicTest,
 } from './api/client'
-import { Spinner, ThemeToggle, useTheme } from './components/ui'
+import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
@@ -35,6 +35,7 @@ import UploadPage from './pages/UploadPage'
  */
 export default function HistoryAIModule() {
   const [dark, toggleTheme] = useTheme()
+  const [fontSize, setFontSize] = useFontSize()
   // Token localStorage'da qolar ekan, kirish doim ochiq bo'ladi: faqat token haqiqatan
   // yaroqsiz (401/403) bo'lsa chiqib ketiladi, tarmoq/server xatosida emas.
   const [authed, setAuthed] = useState(Boolean(getToken()))
@@ -65,11 +66,22 @@ export default function HistoryAIModule() {
   if (!authed) {
     return (
       <Routes>
-        <Route path="parolni-tiklash" element={<ResetPasswordPage dark={dark} onToggleTheme={toggleTheme} />} />
-        <Route path="sertifikat/:code" element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} />} />
+        <Route
+          path="parolni-tiklash"
+          element={<ResetPasswordPage dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize} />}
+        />
+        <Route
+          path="sertifikat/:code"
+          element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize} />}
+        />
         <Route
           path="*"
-          element={<LoginPage onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme} />}
+          element={
+            <LoginPage
+              onSuccess={() => setAuthed(true)} dark={dark} onToggleTheme={toggleTheme}
+              fontSize={fontSize} onChangeFontSize={setFontSize}
+            />
+          }
         />
       </Routes>
     )
@@ -98,8 +110,18 @@ export default function HistoryAIModule() {
 
   return (
     <Routes>
-      <Route path="sertifikat/:code" element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} />} />
-      <Route element={<Shell me={me} dark={dark} onToggleTheme={toggleTheme} onLogout={handleLogout} />}>
+      <Route
+        path="sertifikat/:code"
+        element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize} />}
+      />
+      <Route
+        element={
+          <Shell
+            me={me} dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize}
+            onLogout={handleLogout}
+          />
+        }
+      >
         <Route index element={<SubjectsRoute />} />
         <Route path="profil" element={<ProfileRoute />} />
         <Route path="fan/:slug" element={<CoursesRoute />} />
@@ -118,7 +140,7 @@ export default function HistoryAIModule() {
   )
 }
 
-function Shell({ me, dark, onToggleTheme, onLogout }) {
+function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }) {
   const [stats, setStats] = useState(null)
   const [online, setOnline] = useState(navigator.onLine)
   const location = useLocation()
@@ -141,6 +163,12 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
 
   return (
     <div className="min-h-screen">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-xl focus:bg-brand focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-brand-ink"
+      >
+        Asosiy kontentga o'tish
+      </a>
       <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
           <Link to="/" className="flex items-center gap-2.5 text-left" aria-label="Bosh sahifa">
@@ -164,6 +192,7 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
               {me.first_name || me.username}
               {me.is_staff && <span className="chip chip-gold ml-2">o'qituvchi</span>}
             </Link>
+            <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
             <ThemeToggle dark={dark} onToggle={onToggleTheme} />
             <button type="button" onClick={onLogout} className="btn btn-ghost btn-sm">
               <LogOut size={14} /> <span className="hidden sm:inline">Chiqish</span>
@@ -178,7 +207,7 @@ function Shell({ me, dark, onToggleTheme, onLogout }) {
         )}
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 pb-24 pt-8">
+      <main id="main-content" className="mx-auto max-w-5xl px-4 pb-24 pt-8">
         <Outlet context={{ me, isTeacher: me.is_staff }} />
       </main>
     </div>

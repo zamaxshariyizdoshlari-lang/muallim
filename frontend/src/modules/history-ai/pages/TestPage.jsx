@@ -107,6 +107,8 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
 
           {result && (
             <div
+              role="status"
+              aria-live="polite"
               className={`rise card mb-8 overflow-hidden p-6 sm:p-8 ${
                 result.passed ? '!border-ok' : '!border-gold'
               }`}
