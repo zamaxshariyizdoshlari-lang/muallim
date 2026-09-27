@@ -1265,6 +1265,1243 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u2",
+      "title": "2-unite. Ailemiz",
+      "topics": [
+        {
+          "key": "u2a",
+          "title": "A. Ailem ve Ben — Oilam va men",
+          "start_page": 4,
+          "end_page": 4,
+          "explanation": {
+            "goals": [
+              "Oila a'zolarini nomlash",
+              "Egalik qo'shimchalarini (-im/-in/-i) tanishtirish",
+              "\"Kimning?\" savoliga javob berish"
+            ],
+            "blocks": [
+              {
+                "heading": "Oila a'zolari",
+                "text": "Oila a'zolarini bildiruvchi asosiy so'zlar: anne (ona), baba (ota), abla (opa), abi/ağabey (aka), kardeş (uka/singil), teyze (xola), amca (amaki, otaning ukasi), dayı (tog'a, onaning akasi/ukasi), hala (amma).\n\nBu so'zlar oilaviy munosabatlarni bildiradi va A1 darajasida eng ko'p ishlatiladigan so'zlar qatoriga kiradi."
+              },
+              {
+                "heading": "Egalik qo'shimchalari",
+                "text": "\"Mening ...m\" ma'nosini berish uchun so'zga egalik qo'shimchasi qo'shiladi: \"anne\" (ona) + \"m\" = \"annem\" (mening onam), \"baba\" + \"m\" = \"babam\" (mening otam).\n\nBoshqa shaxslar uchun: \"senin annen\" (sening onang), \"onun annesi\" (uning onasi). Qo'shimcha egadan keyin kelib, so'zning oxirgi tovushiga qarab shakl o'zgaradi."
+              },
+              {
+                "heading": "Kimning? savoli",
+                "text": "\"Kimin?\" (kimning?) savoli bilan egalikni so'rash mumkin: \"Bu kimin kitabı?\" (Bu kimning kitobi?) - javob: \"Bu benim kitabım.\" (Bu mening kitobim).\n\n\"Var\" (bor) va \"yok\" (yo'q) so'zlari oila haqida gapirishda ham ishlatiladi: \"İki kardeşim var.\" (Ikki aka-ukam/opa-singlim bor)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Annem\" = mening onam, \"babam\" = mening otam - egalik qo'shimchasi -m."
+              },
+              {
+                "fact": "\"Kimin?\" - kimningligini so'raydi; javobda \"benim\" (mening) ishlatiladi."
+              },
+              {
+                "fact": "\"... var\" - bor, \"... yok\" - yo'q, oila a'zolari sonini aytishda ishlatiladi."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "aile",
+                "uz": "oila",
+                "example_tr": "Ailem büyük.",
+                "example_uz": "Oilam katta."
+              },
+              {
+                "tr": "anne",
+                "uz": "ona",
+                "example_tr": "Annem öğretmen.",
+                "example_uz": "Onam o'qituvchi."
+              },
+              {
+                "tr": "baba",
+                "uz": "ota",
+                "example_tr": "Babam mühendis.",
+                "example_uz": "Otam muhandis."
+              },
+              {
+                "tr": "abla",
+                "uz": "opa",
+                "example_tr": "Ablam doktor.",
+                "example_uz": "Opam shifokor."
+              },
+              {
+                "tr": "ağabey",
+                "uz": "aka",
+                "example_tr": "Ağabeyim çok çalışkan.",
+                "example_uz": "Akam juda mehnatkash."
+              },
+              {
+                "tr": "kardeş",
+                "uz": "aka-uka/opa-singil",
+                "example_tr": "Bir kardeşim var.",
+                "example_uz": "Bitta aka-ukam bor."
+              },
+              {
+                "tr": "kız kardeş",
+                "uz": "singil",
+                "example_tr": "Kız kardeşim küçük.",
+                "example_uz": "Singlim kichkina."
+              },
+              {
+                "tr": "erkek kardeş",
+                "uz": "uka",
+                "example_tr": "Erkek kardeşim öğrenci.",
+                "example_uz": "Ukam talaba."
+              },
+              {
+                "tr": "teyze",
+                "uz": "xola",
+                "example_tr": "Teyzem İstanbul'da.",
+                "example_uz": "Xolam Istanbulda."
+              },
+              {
+                "tr": "amca",
+                "uz": "amaki",
+                "example_tr": "Amcam çiftçi.",
+                "example_uz": "Amakim dehqon."
+              },
+              {
+                "tr": "dayı",
+                "uz": "tog'a",
+                "example_tr": "Dayım asker.",
+                "example_uz": "Tog'am harbiy."
+              },
+              {
+                "tr": "hala",
+                "uz": "amma",
+                "example_tr": "Halam çok iyi.",
+                "example_uz": "Ammam juda yaxshi."
+              },
+              {
+                "tr": "büyükanne",
+                "uz": "buvi",
+                "example_tr": "Büyükannem yaşlı.",
+                "example_uz": "Buvim keksa."
+              },
+              {
+                "tr": "büyükbaba",
+                "uz": "bobo",
+                "example_tr": "Büyükbabam emekli.",
+                "example_uz": "Bobom nafaqada."
+              },
+              {
+                "tr": "var",
+                "uz": "bor",
+                "example_tr": "İki kardeşim var.",
+                "example_uz": "Ikki aka-ukam bor."
+              },
+              {
+                "tr": "yok",
+                "uz": "yo'q",
+                "example_tr": "Kız kardeşim yok.",
+                "example_uz": "Singlim yo'q."
+              },
+              {
+                "tr": "kimin?",
+                "uz": "kimning?",
+                "example_tr": "Bu kimin çantası?",
+                "example_uz": "Bu kimning sumkasi?"
+              },
+              {
+                "tr": "benim",
+                "uz": "mening",
+                "example_tr": "Bu benim ailem.",
+                "example_uz": "Bu mening oilam."
+              },
+              {
+                "tr": "büyük",
+                "uz": "katta",
+                "example_tr": "Ailem büyük.",
+                "example_uz": "Oilam katta."
+              },
+              {
+                "tr": "küçük",
+                "uz": "kichik",
+                "example_tr": "Kardeşim küçük.",
+                "example_uz": "Ukam kichkina."
+              }
+            ],
+            "reading": {
+              "title": "Benim ailem",
+              "text": "Benim ailem büyük. Annem ve babam öğretmen. Bir ağabeyim ve bir kız kardeşim var. Ağabeyim mühendis, kız kardeşim öğrenci.\n\nBüyükannem ve büyükbabam da bizimle yaşıyor. Ailem çok mutlu bir aile.",
+              "questions": [
+                {
+                  "question": "Yozuvchining ota-onasi kim bo'lib ishlaydi?",
+                  "options": [
+                    "O'qituvchi",
+                    "Shifokor",
+                    "Muhandis",
+                    "Dehqon"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Akasi kim bo'lib ishlaydi?",
+                  "options": [
+                    "Muhandis",
+                    "O'qituvchi",
+                    "Talaba",
+                    "Shifokor"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Selin",
+                  "text": "Ailende kimler var?"
+                },
+                {
+                  "speaker": "Emre",
+                  "text": "Annem, babam ve bir kardeşim var."
+                },
+                {
+                  "speaker": "Selin",
+                  "text": "Kardeşin kız mı, erkek mi?"
+                },
+                {
+                  "speaker": "Emre",
+                  "text": "Kız kardeşim var, o çok küçük."
+                },
+                {
+                  "speaker": "Selin",
+                  "text": "Ne güzel bir aile!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Emrening oilasida kim bor?",
+                  "options": [
+                    "Ota-ona va singil",
+                    "Faqat ota-ona",
+                    "Aka va opa",
+                    "Buvi-bobo"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Emrening singlisi qanday?",
+                  "options": [
+                    "Kichkina",
+                    "Katta",
+                    "O'qituvchi",
+                    "Talaba"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Mening onam\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Annem",
+                  "Babam",
+                  "Kardeşim",
+                  "Ablam"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ikki aka-ukam bor\" turkchada qanday bo'ladi?",
+                "options": [
+                  "İki kardeşim var",
+                  "İki kardeşim yok",
+                  "Kardeşim var",
+                  "Kardeşim iki"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bu mening oilam.\" gapini tuzing.",
+                "words": [
+                  "Bu",
+                  "benim",
+                  "ailem."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Onam o'qituvchi.\" gapini tuzing.",
+                "words": [
+                  "Annem",
+                  "öğretmen."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Buvi\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Büyükanne",
+                  "Büyükbaba",
+                  "Teyze",
+                  "Hala"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Kimning kitobi?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Kimin kitabı?",
+                  "Ne kitabı?",
+                  "Nerede kitap?",
+                  "Kim kitap?"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Oilangiz haqida yozing: nechta a'zo bor, ular kim bo'lib ishlaydi (kamida 3 gap).",
+              "sample_answer": "Ailem büyük. Annem öğretmen, babam mühendis. Bir kardeşim var."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Ailende kimler var?",
+                "Annem ve babam var.",
+                "Bir kardeşim var.",
+                "Ailem çok mutlu."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Ona\" turkchada nima?",
+              "options": [
+                "Anne",
+                "Baba",
+                "Abla",
+                "Kardeş"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ota\" turkchada nima?",
+              "options": [
+                "Baba",
+                "Anne",
+                "Amca",
+                "Dayı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Aka\" turkchada nima?",
+              "options": [
+                "Ağabey",
+                "Abla",
+                "Teyze",
+                "Hala"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bor\" turkchada nima?",
+              "options": [
+                "Var",
+                "Yok",
+                "Kimin",
+                "Benim"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yo'q\" turkchada nima?",
+              "options": [
+                "Yok",
+                "Var",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mening otam\" turkchada qanday bo'ladi?",
+              "options": [
+                "Babam",
+                "Annem",
+                "Kardeşim",
+                "Ablam"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Amaki\" turkchada nima?",
+              "options": [
+                "Amca",
+                "Dayı",
+                "Teyze",
+                "Hala"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tog'a\" turkchada nima?",
+              "options": [
+                "Dayı",
+                "Amca",
+                "Hala",
+                "Teyze"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kimning?\" turkchada qanday so'raladi?",
+              "options": [
+                "Kimin?",
+                "Kim?",
+                "Ne?",
+                "Nerede?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bobo\" turkchada nima?",
+              "options": [
+                "Büyükbaba",
+                "Büyükanne",
+                "Amca",
+                "Dayı"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u2b",
+          "title": "B. Evim — Uyim",
+          "start_page": 5,
+          "end_page": 5,
+          "explanation": {
+            "goals": [
+              "Uy va xonalar nomlarini bilish",
+              "Bulunma hâli (-de/-da) bilan \"qayerda\" savoliga javob berish",
+              "Yönelme hâli (-e/-a) bilan \"qayerga\" ni ifodalash"
+            ],
+            "blocks": [
+              {
+                "heading": "Uy va xonalar",
+                "text": "Uy qismlari: salon (mehmonxona), mutfak (oshxona), yatak odası (yotoqxona), banyo (hammom), balkon (balkon), bahçe (bog').\n\n\"Evde\" (uyda) so'zi \"ev\" (uy) so'ziga \"-de\" bulunma hâli qo'shimchasi qo'shilishidan hosil bo'ladi."
+              },
+              {
+                "heading": "Bulunma hâli: -de/-da",
+                "text": "\"Qayerda?\" savoliga javob berish uchun joy nomiga \"-de\" yoki \"-da\" qo'shiladi (unlilar uyg'unligiga qarab): \"mutfak\" + \"ta\" = \"mutfakta\" (oshxonada), \"salon\" + \"da\" = \"salonda\" (mehmonxonada).\n\nMisol: \"Anne mutfakta.\" (Ona oshxonada). \"Kitaplar odada.\" (Kitoblar xonada)."
+              },
+              {
+                "heading": "Yönelme hâli: -e/-a",
+                "text": "\"Qayerga?\" savoliga javob berishda joy nomiga \"-e\" yoki \"-a\" qo'shiladi: \"ev\" + \"e\" = \"eve\" (uyga), \"okul\" + \"a\" = \"okula\" (maktabga).\n\nMisol: \"Eve gidiyorum.\" (Uyga ketyapman). \"Okula gidiyorum.\" (Maktabga ketyapman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "-de/-da = qayerda (bulunma hali): mutfakta, salonda."
+              },
+              {
+                "fact": "-e/-a = qayerga (yönelme hali): eve, okula."
+              },
+              {
+                "fact": "\"Ev\" - uy, \"oda\" - xona, \"bahçe\" - bog'/hovli."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "ev",
+                "uz": "uy",
+                "example_tr": "Evim büyük.",
+                "example_uz": "Uyim katta."
+              },
+              {
+                "tr": "oda",
+                "uz": "xona",
+                "example_tr": "Odam küçük.",
+                "example_uz": "Xonam kichkina."
+              },
+              {
+                "tr": "salon",
+                "uz": "mehmonxona",
+                "example_tr": "Salon çok geniş.",
+                "example_uz": "Mehmonxona juda keng."
+              },
+              {
+                "tr": "mutfak",
+                "uz": "oshxona",
+                "example_tr": "Annem mutfakta.",
+                "example_uz": "Onam oshxonada."
+              },
+              {
+                "tr": "yatak odası",
+                "uz": "yotoqxona",
+                "example_tr": "Yatak odam üstte.",
+                "example_uz": "Yotoqxonam yuqorida."
+              },
+              {
+                "tr": "banyo",
+                "uz": "hammom",
+                "example_tr": "Banyo temiz.",
+                "example_uz": "Hammom toza."
+              },
+              {
+                "tr": "balkon",
+                "uz": "balkon",
+                "example_tr": "Balkonda çiçekler var.",
+                "example_uz": "Balkonda gullar bor."
+              },
+              {
+                "tr": "bahçe",
+                "uz": "bog', hovli",
+                "example_tr": "Bahçede ağaçlar var.",
+                "example_uz": "Bog'da daraxtlar bor."
+              },
+              {
+                "tr": "kapı",
+                "uz": "eshik",
+                "example_tr": "Kapı açık.",
+                "example_uz": "Eshik ochiq."
+              },
+              {
+                "tr": "pencere",
+                "uz": "deraza",
+                "example_tr": "Pencere kapalı.",
+                "example_uz": "Deraza yopiq."
+              },
+              {
+                "tr": "masa",
+                "uz": "stol",
+                "example_tr": "Masa mutfakta.",
+                "example_uz": "Stol oshxonada."
+              },
+              {
+                "tr": "sandalye",
+                "uz": "stul",
+                "example_tr": "Sandalye burada.",
+                "example_uz": "Stul bu yerda."
+              },
+              {
+                "tr": "yatak",
+                "uz": "karavot",
+                "example_tr": "Yatak yeni.",
+                "example_uz": "Karavot yangi."
+              },
+              {
+                "tr": "eve",
+                "uz": "uyga",
+                "example_tr": "Eve gidiyorum.",
+                "example_uz": "Uyga ketyapman."
+              },
+              {
+                "tr": "evde",
+                "uz": "uyda",
+                "example_tr": "Bugün evdeyim.",
+                "example_uz": "Bugun uydaman."
+              },
+              {
+                "tr": "okula",
+                "uz": "maktabga",
+                "example_tr": "Okula gidiyorum.",
+                "example_uz": "Maktabga ketyapman."
+              },
+              {
+                "tr": "temiz",
+                "uz": "toza",
+                "example_tr": "Ev çok temiz.",
+                "example_uz": "Uy juda toza."
+              },
+              {
+                "tr": "geniş",
+                "uz": "keng",
+                "example_tr": "Salon geniş.",
+                "example_uz": "Mehmonxona keng."
+              },
+              {
+                "tr": "üstte",
+                "uz": "yuqorida/ustida",
+                "example_tr": "Kitap masanın üstünde.",
+                "example_uz": "Kitob stol ustida."
+              },
+              {
+                "tr": "altında",
+                "uz": "ostida",
+                "example_tr": "Kedi masanın altında.",
+                "example_uz": "Mushuk stol ostida."
+              }
+            ],
+            "reading": {
+              "title": "Benim evim",
+              "text": "Benim evim küçük ama çok temiz. Bir salon, bir mutfak ve iki yatak odası var. Salon çok geniş, orada televizyon var.\n\nBahçede güzel çiçekler var. Ben her gün bahçede oturuyorum. Evimi çok seviyorum.",
+              "questions": [
+                {
+                  "question": "Uyda nechta yotoqxona bor?",
+                  "options": [
+                    "Ikkita",
+                    "Bitta",
+                    "Uchta",
+                    "To'rtta"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bog'da nima bor?",
+                  "options": [
+                    "Gullar",
+                    "Televizor",
+                    "Stol",
+                    "Kitoblar"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Mert",
+                  "text": "Annen nerede?"
+                },
+                {
+                  "speaker": "Zeynep",
+                  "text": "Annem mutfakta, yemek yapıyor."
+                },
+                {
+                  "speaker": "Mert",
+                  "text": "Baban da evde mi?"
+                },
+                {
+                  "speaker": "Zeynep",
+                  "text": "Hayır, babam işte."
+                },
+                {
+                  "speaker": "Mert",
+                  "text": "Peki sen ne yapıyorsun?"
+                },
+                {
+                  "speaker": "Zeynep",
+                  "text": "Ben odamda kitap okuyorum."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Zeynepning onasi qayerda?",
+                  "options": [
+                    "Oshxonada",
+                    "Ishda",
+                    "Bog'da",
+                    "Mehmonxonada"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Zeynep nima qilyapti?",
+                  "options": [
+                    "Kitob o'qiyapti",
+                    "Ovqat pishiryapti",
+                    "Ishlayapti",
+                    "Uxlayapti"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Oshxonada\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Mutfakta",
+                  "Mutfağa",
+                  "Mutfak",
+                  "Mutfaktan"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Uyga ketyapman\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Eve gidiyorum",
+                  "Evde oturuyorum",
+                  "Evden geliyorum",
+                  "Ev büyük"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Ona oshxonada.\" gapini tuzing.",
+                "words": [
+                  "Anne",
+                  "mutfakta."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bog'da gullar bor.\" gapini tuzing.",
+                "words": [
+                  "Bahçede",
+                  "çiçekler",
+                  "var."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Deraza\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Pencere",
+                  "Kapı",
+                  "Masa",
+                  "Sandalye"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Xona\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Oda",
+                  "Ev",
+                  "Salon",
+                  "Bahçe"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Uyingiz haqida yozing: nechta xona bor, qaysi xonani yoqtirasiz (kamida 2 gap).",
+              "sample_answer": "Evim küçük ama temiz. İki oda var. Ben mutfağı çok seviyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Evim büyük.",
+                "Annem mutfakta.",
+                "Eve gidiyorum.",
+                "Bahçede çiçekler var."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Uy\" turkchada nima?",
+              "options": [
+                "Ev",
+                "Oda",
+                "Salon",
+                "Bahçe"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Oshxona\" turkchada nima?",
+              "options": [
+                "Mutfak",
+                "Salon",
+                "Banyo",
+                "Balkon"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bog'/hovli\" turkchada nima?",
+              "options": [
+                "Bahçe",
+                "Oda",
+                "Kapı",
+                "Pencere"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Oshxonada\" - to'g'ri shakl?",
+              "options": [
+                "Mutfakta",
+                "Mutfağa",
+                "Mutfaktan",
+                "Mutfak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Uyga\" - to'g'ri shakl?",
+              "options": [
+                "Eve",
+                "Evde",
+                "Evden",
+                "Ev"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Eshik\" turkchada nima?",
+              "options": [
+                "Kapı",
+                "Pencere",
+                "Masa",
+                "Yatak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Deraza\" turkchada nima?",
+              "options": [
+                "Pencere",
+                "Kapı",
+                "Duvar",
+                "Yer"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Toza\" turkchada nima?",
+              "options": [
+                "Temiz",
+                "Kirli",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Karavot\" turkchada nima?",
+              "options": [
+                "Yatak",
+                "Masa",
+                "Sandalye",
+                "Kapı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"-de/-da\" qo'shimchasi nimani anglatadi?",
+              "options": [
+                "Qayerda",
+                "Qayerga",
+                "Qayerdan",
+                "Kim"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u2c",
+          "title": "C. Adresim — Manzilim",
+          "start_page": 6,
+          "end_page": 6,
+          "explanation": {
+            "goals": [
+              "Manzil so'rash va aytish",
+              "Ayrılma hâli (-den/-dan) bilan \"qayerdan\" ifodasi",
+              "Buyruq (emir) shaklining oddiy qo'llanilishi"
+            ],
+            "blocks": [
+              {
+                "heading": "Manzil so'rash",
+                "text": "Manzilni so'rash uchun \"Adresiniz ne?\" (Manzilingiz nima?) yoki \"Nerede oturuyorsunuz?\" (Qayerda yashaysiz?) savoli beriladi.\n\nJavobda ko'cha, mahalla va shahar nomi aytiladi: \"Atatürk Caddesi'nde oturuyorum.\" (Ataturk ko'chasida yashayman)."
+              },
+              {
+                "heading": "Ayrılma hâli: -den/-dan",
+                "text": "\"Qayerdan?\" savoliga javob berish uchun joy nomiga \"-den\" yoki \"-dan\" qo'shiladi: \"okul\" + \"dan\" = \"okuldan\" (maktabdan), \"ev\" + \"den\" = \"evden\" (uydan).\n\nMisol: \"Okuldan geliyorum.\" (Maktabdan kelyapman). \"Neredensiniz?\" (Qayerdansiz?)."
+              },
+              {
+                "heading": "Oddiy buyruq",
+                "text": "Kimgadir biror ish qilishni so'rash uchun fe'lning oddiy shakli (buyruq) ishlatiladi: \"Gel!\" (Kel!), \"Otur!\" (O'tir!), \"Bak!\" (Qara!).\n\nXushmuomalalik bilan aytish uchun \"lütfen\" (iltimos) so'zi qo'shiladi: \"Lütfen otur.\" (Iltimos, o'tiring)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "-den/-dan = qayerdan (ayrılma hali): okuldan, evden."
+              },
+              {
+                "fact": "\"Lütfen\" - iltimos, buyruqni xushmuomala qiladi."
+              },
+              {
+                "fact": "Manzil so'rash: \"Adresiniz ne?\" yoki \"Nerede oturuyorsunuz?\""
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "adres",
+                "uz": "manzil",
+                "example_tr": "Adresiniz ne?",
+                "example_uz": "Manzilingiz nima?"
+              },
+              {
+                "tr": "cadde",
+                "uz": "ko'cha (katta)",
+                "example_tr": "Atatürk Caddesi'nde oturuyorum.",
+                "example_uz": "Ataturk ko'chasida yashayman."
+              },
+              {
+                "tr": "sokak",
+                "uz": "ko'cha (kichik)",
+                "example_tr": "Bu sokak sessiz.",
+                "example_uz": "Bu ko'cha jimjit."
+              },
+              {
+                "tr": "mahalle",
+                "uz": "mahalla",
+                "example_tr": "Mahallem çok güzel.",
+                "example_uz": "Mahallam juda go'zal."
+              },
+              {
+                "tr": "numara",
+                "uz": "raqam, uy raqami",
+                "example_tr": "Ev numarası 5.",
+                "example_uz": "Uy raqami 5."
+              },
+              {
+                "tr": "oturuyorum",
+                "uz": "yashayapman/o'tiribman",
+                "example_tr": "Burada oturuyorum.",
+                "example_uz": "Men bu yerda yashayman."
+              },
+              {
+                "tr": "neredensiniz?",
+                "uz": "qayerdansiz?",
+                "example_tr": "Neredensiniz, İstanbul'dan mı?",
+                "example_uz": "Qayerdansiz, Istanbuldanmi?"
+              },
+              {
+                "tr": "okuldan",
+                "uz": "maktabdan",
+                "example_tr": "Okuldan geliyorum.",
+                "example_uz": "Maktabdan kelyapman."
+              },
+              {
+                "tr": "evden",
+                "uz": "uydan",
+                "example_tr": "Evden çıkıyorum.",
+                "example_uz": "Uydan chiqyapman."
+              },
+              {
+                "tr": "lütfen",
+                "uz": "iltimos",
+                "example_tr": "Lütfen otur.",
+                "example_uz": "Iltimos, o'tiring."
+              },
+              {
+                "tr": "gel!",
+                "uz": "kel!",
+                "example_tr": "Buraya gel!",
+                "example_uz": "Bu yerga kel!"
+              },
+              {
+                "tr": "otur!",
+                "uz": "o'tir!",
+                "example_tr": "Lütfen otur.",
+                "example_uz": "Iltimos, o'tiring."
+              },
+              {
+                "tr": "bak!",
+                "uz": "qara!",
+                "example_tr": "Şuraya bak!",
+                "example_uz": "U yerga qara!"
+              },
+              {
+                "tr": "dur!",
+                "uz": "to'xta!",
+                "example_tr": "Lütfen dur!",
+                "example_uz": "Iltimos, to'xtang!"
+              },
+              {
+                "tr": "yakın",
+                "uz": "yaqin",
+                "example_tr": "Okul eve yakın.",
+                "example_uz": "Maktab uyga yaqin."
+              },
+              {
+                "tr": "uzak",
+                "uz": "uzoq",
+                "example_tr": "İş çok uzak.",
+                "example_uz": "Ish juda uzoq."
+              },
+              {
+                "tr": "kaç?",
+                "uz": "necha?",
+                "example_tr": "Numara kaç?",
+                "example_uz": "Raqami necha?"
+              },
+              {
+                "tr": "posta kodu",
+                "uz": "pochta indeksi",
+                "example_tr": "Posta kodunuz ne?",
+                "example_uz": "Pochta indeksingiz nima?"
+              },
+              {
+                "tr": "şehir merkezi",
+                "uz": "shahar markazi",
+                "example_tr": "Şehir merkezinde çalışıyorum.",
+                "example_uz": "Shahar markazida ishlayman."
+              },
+              {
+                "tr": "gitmek",
+                "uz": "bormoq/ketmoq",
+                "example_tr": "Okula gitmek istiyorum.",
+                "example_uz": "Maktabga bormoqchiman."
+              }
+            ],
+            "reading": {
+              "title": "Yangi manzil",
+              "text": "Merhaba, benim adım Elif. Yeni bir eve taşındık. Adresimiz Atatürk Caddesi, 5 numara. Evimiz şehir merkezine yakın.\n\nOkulum evden çok uzak değil, yürüyerek gidiyorum. Mahallemiz çok sakin ve güzel.",
+              "questions": [
+                {
+                  "question": "Elifning uyi qayerga yaqin?",
+                  "options": [
+                    "Shahar markaziga",
+                    "Dengizga",
+                    "Tog'ga",
+                    "Bozorga"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Elif maktabga qanday boradi?",
+                  "options": [
+                    "Piyoda",
+                    "Mashinada",
+                    "Avtobusda",
+                    "Poyezdda"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Can",
+                  "text": "Adresiniz ne?"
+                },
+                {
+                  "speaker": "Aslı",
+                  "text": "Atatürk Caddesi, 12 numara."
+                },
+                {
+                  "speaker": "Can",
+                  "text": "Ev okula yakın mı?"
+                },
+                {
+                  "speaker": "Aslı",
+                  "text": "Evet, çok yakın, yürüyerek beş dakika."
+                },
+                {
+                  "speaker": "Can",
+                  "text": "Ne güzel!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Aslining uy raqami necha?",
+                  "options": [
+                    "12",
+                    "5",
+                    "10",
+                    "20"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Uy maktabgacha piyoda necha daqiqa?",
+                  "options": [
+                    "Besh daqiqa",
+                    "O'n daqiqa",
+                    "Bir soat",
+                    "Yigirma daqiqa"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Manzilingiz nima?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Adresiniz ne?",
+                  "Nasılsınız?",
+                  "Nerelisiniz?",
+                  "Adınız ne?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Maktabdan kelyapman\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Okuldan geliyorum",
+                  "Okula gidiyorum",
+                  "Okulda oturuyorum",
+                  "Okul büyük"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Iltimos, o'tiring.\" gapini tuzing.",
+                "words": [
+                  "Lütfen",
+                  "otur."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Uy maktabga yaqin.\" gapini tuzing.",
+                "words": [
+                  "Ev",
+                  "okula",
+                  "yakın."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Uzoq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Uzak",
+                  "Yakın",
+                  "Büyük",
+                  "Küçük"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"-den/-dan\" qo'shimchasi nimani anglatadi?",
+                "options": [
+                  "Qayerdan",
+                  "Qayerda",
+                  "Qayerga",
+                  "Kim"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Manzilingizni va uyingiz maktab/ishga yaqin yoki uzoqligini yozing (kamida 2 gap).",
+              "sample_answer": "Adresim Bahar Sokak, 3 numara. Evim okula çok yakın."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Adresiniz ne?",
+                "Okuldan geliyorum.",
+                "Lütfen otur.",
+                "Ev okula yakın."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Manzil\" turkchada nima?",
+              "options": [
+                "Adres",
+                "Cadde",
+                "Sokak",
+                "Mahalle"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ko'cha (katta)\" turkchada nima?",
+              "options": [
+                "Cadde",
+                "Sokak",
+                "Ev",
+                "Oda"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Iltimos\" turkchada nima?",
+              "options": [
+                "Lütfen",
+                "Teşekkür",
+                "Efendim",
+                "Merhaba"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kel!\" turkchada qanday bo'ladi?",
+              "options": [
+                "Gel!",
+                "Git!",
+                "Otur!",
+                "Dur!"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'tir!\" turkchada qanday bo'ladi?",
+              "options": [
+                "Otur!",
+                "Gel!",
+                "Bak!",
+                "Dur!"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yaqin\" turkchada nima?",
+              "options": [
+                "Yakın",
+                "Uzak",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Uzoq\" turkchada nima?",
+              "options": [
+                "Uzak",
+                "Yakın",
+                "Geniş",
+                "Temiz"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Maktabdan\" - to'g'ri shakl?",
+              "options": [
+                "Okuldan",
+                "Okula",
+                "Okulda",
+                "Okul"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Necha?\" turkchada qanday bo'ladi?",
+              "options": [
+                "Kaç?",
+                "Ne?",
+                "Kim?",
+                "Nerede?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bormoq\" turkchada nima?",
+              "options": [
+                "Gitmek",
+                "Gelmek",
+                "Oturmak",
+                "Bakmak"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
