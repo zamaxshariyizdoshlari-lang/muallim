@@ -6213,6 +6213,1240 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u6",
+      "title": "6-unite. Ulasim",
+      "topics": [
+        {
+          "key": "u6a",
+          "title": "A. Yolculuk Nereye? — Sayohat qayerga?",
+          "start_page": 16,
+          "end_page": 16,
+          "explanation": {
+            "goals": [
+              "Transport turlarini nomlash",
+              "Chipta sotib olish iboralari",
+              "\"-ki\" qo'shimchasi bilan tegishlilikni bildirish"
+            ],
+            "blocks": [
+              {
+                "heading": "Transport turlari",
+                "text": "Transport vositalari: otobüs (avtobus), tren (poyezd), uçak (samolyot), taksi, metro, gemi (kema), bisiklet (velosiped).\n\n\"Otobüsle gidiyorum.\" (Avtobusda boraman) - transport nomiga \"-le/-la\" (bilan) qo'shimchasi qo'shiladi."
+              },
+              {
+                "heading": "Chipta sotib olish",
+                "text": "Bekat/vokzalda foydali iboralar: \"Bir bilet lütfen.\" (Bitta chipta, iltimos), \"Ne zaman kalkıyor?\" (Qachon jo'naydi?), \"Kaçta varıyor?\" (Qachon yetib boradi?)."
+              },
+              {
+                "heading": "-ki qo'shimchasi",
+                "text": "\"-ki\" qo'shimchasi tegishlilikni bildiradi: \"masadaki kitap\" (stoldagi kitob), \"yarınki toplantı\" (ertangi yig'ilish).\n\nBu qo'shimcha o'zgarmaydi (unlilar uyg'unligiga bo'ysunmaydi), faqat \"bugünkü\" so'zida \"-kü\" bo'ladi."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "Transport + -le/-la = bilan: otobüsle, trenle."
+              },
+              {
+                "fact": "\"-ki\" qo'shimchasi o'zgarmaydi: masadaki, yarınki."
+              },
+              {
+                "fact": "\"Ne zaman kalkıyor?\" - qachon jo'naydi?"
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "otobüs",
+                "uz": "avtobus",
+                "example_tr": "Otobüsle gidiyorum.",
+                "example_uz": "Avtobusda boraman."
+              },
+              {
+                "tr": "tren",
+                "uz": "poyezd",
+                "example_tr": "Trenle seyahat ediyorum.",
+                "example_uz": "Poyezdda sayohat qilaman."
+              },
+              {
+                "tr": "uçak",
+                "uz": "samolyot",
+                "example_tr": "Uçakla gideceğim.",
+                "example_uz": "Samolyotda boraman."
+              },
+              {
+                "tr": "taksi",
+                "uz": "taksi",
+                "example_tr": "Taksiye biniyorum.",
+                "example_uz": "Taksiga chiqaman."
+              },
+              {
+                "tr": "metro",
+                "uz": "metro",
+                "example_tr": "Metroyla gidiyorum.",
+                "example_uz": "Metroda boraman."
+              },
+              {
+                "tr": "gemi",
+                "uz": "kema",
+                "example_tr": "Gemiyle geldik.",
+                "example_uz": "Kemada keldik."
+              },
+              {
+                "tr": "bisiklet",
+                "uz": "velosiped",
+                "example_tr": "Bisikletle gidiyorum.",
+                "example_uz": "Velosipedda boraman."
+              },
+              {
+                "tr": "bilet",
+                "uz": "chipta",
+                "example_tr": "Bir bilet lütfen.",
+                "example_uz": "Bitta chipta, iltimos."
+              },
+              {
+                "tr": "istasyon",
+                "uz": "vokzal",
+                "example_tr": "İstasyon uzak.",
+                "example_uz": "Vokzal uzoq."
+              },
+              {
+                "tr": "havalimanı",
+                "uz": "aeroport",
+                "example_tr": "Havalimanına gidiyorum.",
+                "example_uz": "Aeroportga boryapman."
+              },
+              {
+                "tr": "kalkmak",
+                "uz": "jo'namoq (transport)",
+                "example_tr": "Tren ne zaman kalkıyor?",
+                "example_uz": "Poyezd qachon jo'naydi?"
+              },
+              {
+                "tr": "varmak",
+                "uz": "yetib bormoq",
+                "example_tr": "Kaçta varıyor?",
+                "example_uz": "Qachon yetib boradi?"
+              },
+              {
+                "tr": "binmek",
+                "uz": "chiqmoq (transportga)",
+                "example_tr": "Otobüse biniyorum.",
+                "example_uz": "Avtobusga chiqaman."
+              },
+              {
+                "tr": "inmek",
+                "uz": "tushmoq (transportdan)",
+                "example_tr": "Buradan iniyorum.",
+                "example_uz": "Bu yerdan tushaman."
+              },
+              {
+                "tr": "bavul",
+                "uz": "chamadon",
+                "example_tr": "Bavulum ağır.",
+                "example_uz": "Chamadonim og'ir."
+              },
+              {
+                "tr": "yolculuk",
+                "uz": "sayohat, yo'l",
+                "example_tr": "İyi yolculuklar!",
+                "example_uz": "Yaxshi yo'l!"
+              },
+              {
+                "tr": "gidiş",
+                "uz": "boruvchi (chipta)",
+                "example_tr": "Gidiş bileti.",
+                "example_uz": "Boruvchi chipta."
+              },
+              {
+                "tr": "dönüş",
+                "uz": "qaytish",
+                "example_tr": "Dönüş bileti de aldım.",
+                "example_uz": "Qaytish chiptasini ham oldim."
+              },
+              {
+                "tr": "peron",
+                "uz": "peron",
+                "example_tr": "Tren üçüncü peronda.",
+                "example_uz": "Poyezd uchinchi peronda."
+              },
+              {
+                "tr": "yolcu",
+                "uz": "yo'lovchi",
+                "example_tr": "Yolcular bekliyor.",
+                "example_uz": "Yo'lovchilar kutmoqda."
+              }
+            ],
+            "reading": {
+              "title": "Sayohatga tayyorgarlik",
+              "text": "Yarın Ankara'ya gidiyorum. Trenle gideceğim çünkü uçak çok pahalı. Bavulumu hazırladım.\n\nİstasyona erken gideceğim. Bilet aldım, gidiş ve dönüş. Tren sabah sekizde kalkıyor.",
+              "questions": [
+                {
+                  "question": "Yozuvchi qanday transportda ketadi?",
+                  "options": [
+                    "Poyezdda",
+                    "Samolyotda",
+                    "Avtobusda",
+                    "Mashinada"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Poyezd soat nechada jo'naydi?",
+                  "options": [
+                    "Sakkizda",
+                    "Yettida",
+                    "To'qqizda",
+                    "O'nda"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Yolcu",
+                  "text": "Bir bilet lütfen, Ankara'ya."
+                },
+                {
+                  "speaker": "Memur",
+                  "text": "Gidiş mi, gidiş-dönüş mü?"
+                },
+                {
+                  "speaker": "Yolcu",
+                  "text": "Gidiş-dönüş lütfen. Ne zaman kalkıyor?"
+                },
+                {
+                  "speaker": "Memur",
+                  "text": "Saat onda, üçüncü perondan."
+                },
+                {
+                  "speaker": "Yolcu",
+                  "text": "Teşekkür ederim."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Yo'lovchi qanday chipta oldi?",
+                  "options": [
+                    "Borish-qaytish",
+                    "Faqat borish",
+                    "Faqat qaytish",
+                    "Uch kishilik"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Poyezd qaysi perondan jo'naydi?",
+                  "options": [
+                    "Uchinchi",
+                    "Birinchi",
+                    "Ikkinchi",
+                    "To'rtinchi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Avtobusda boraman\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Otobüsle gidiyorum",
+                  "Otobüs gidiyorum",
+                  "Otobüste gidiyorum",
+                  "Otobüsten gidiyorum"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Chipta\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Bilet",
+                  "İstasyon",
+                  "Yolcu",
+                  "Peron"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bitta chipta, iltimos.\" gapini tuzing.",
+                "words": [
+                  "Bir",
+                  "bilet",
+                  "lütfen."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Poyezd qachon jo'naydi?\" gapini tuzing.",
+                "words": [
+                  "Tren",
+                  "ne",
+                  "zaman",
+                  "kalkıyor?"
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Aeroport\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Havalimanı",
+                  "İstasyon",
+                  "Peron",
+                  "Durak"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Yo'lovchi\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yolcu",
+                  "Yolculuk",
+                  "Bilet",
+                  "Bavul"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Yaqinda qilgan yoki qilmoqchi bo'lgan sayohatingiz haqida yozing: qayerga, qanday transportda (kamida 2 gap).",
+              "sample_answer": "Yarın İstanbul'a gideceğim. Uçakla gideceğim."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Bir bilet lütfen.",
+                "Ne zaman kalkıyor?",
+                "Otobüsle gidiyorum.",
+                "İyi yolculuklar!"
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Avtobus\" turkchada nima?",
+              "options": [
+                "Otobüs",
+                "Tren",
+                "Uçak",
+                "Gemi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Samolyot\" turkchada nima?",
+              "options": [
+                "Uçak",
+                "Tren",
+                "Otobüs",
+                "Metro"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Poyezd\" turkchada nima?",
+              "options": [
+                "Tren",
+                "Uçak",
+                "Gemi",
+                "Taksi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chipta\" turkchada nima?",
+              "options": [
+                "Bilet",
+                "Bavul",
+                "Peron",
+                "Yolcu"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chamadon\" turkchada nima?",
+              "options": [
+                "Bavul",
+                "Bilet",
+                "İstasyon",
+                "Peron"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Vokzal\" turkchada nima?",
+              "options": [
+                "İstasyon",
+                "Havalimanı",
+                "Peron",
+                "Durak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Aeroport\" turkchada nima?",
+              "options": [
+                "Havalimanı",
+                "İstasyon",
+                "Peron",
+                "Liman"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Jo'namoq\" (transport) turkchada nima?",
+              "options": [
+                "Kalkmak",
+                "Varmak",
+                "Binmek",
+                "İnmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yetib bormoq\" turkchada nima?",
+              "options": [
+                "Varmak",
+                "Kalkmak",
+                "İnmek",
+                "Binmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chiqmoq\" (transportga) turkchada nima?",
+              "options": [
+                "Binmek",
+                "İnmek",
+                "Kalkmak",
+                "Varmak"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u6b",
+          "title": "B. Trafikte — Yo'lda",
+          "start_page": 17,
+          "end_page": 17,
+          "explanation": {
+            "goals": [
+              "Yo'l harakati bilan bog'liq so'zlarni bilish",
+              "\"Lazım\" (kerak) so'zini qo'llash",
+              "Xavfsizlik va qoidalar haqida oddiy gaplar tuzish"
+            ],
+            "blocks": [
+              {
+                "heading": "Yo'l harakati",
+                "text": "Yo'l bilan bog'liq so'zlar: trafik (harakat, tirbandlik), trafik ışığı (svetofor), yaya (piyoda), kırmızı ışık (qizil chiroq), yeşil ışık (yashil chiroq).\n\n\"Trafik çok yoğun.\" (Yo'lda tirbandlik ko'p)."
+              },
+              {
+                "heading": "Lazım — kerak",
+                "text": "\"Lazım\" (kerak) so'zi zaruriyatni bildiradi: \"Dikkatli olmak lazım.\" (Ehtiyot bo'lish kerak). Fe'l \"-mak/-mek\" shaklida \"lazım\"dan oldin keladi.\n\nMisol: \"Kırmızı ışıkta durmak lazım.\" (Qizil chiroqda to'xtash kerak)."
+              },
+              {
+                "heading": "Xavfsizlik qoidalari",
+                "text": "Oddiy qoidalar: \"Kırmızıda dur, yeşilde geç.\" (Qizilda to'xta, yashilda o't). \"Dikkatli ol!\" (Ehtiyot bo'l!). \"Hız yapma!\" (Tez yurma!)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Lazım\" - kerak, fe'l+mek/mak bilan birga keladi."
+              },
+              {
+                "fact": "kırmızı ışık - qizil chiroq (to'xta), yeşil ışık - yashil chiroq (o't)."
+              },
+              {
+                "fact": "\"Dikkatli ol!\" - ehtiyot bo'l!"
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "trafik",
+                "uz": "yo'l harakati, tirbandlik",
+                "example_tr": "Trafik çok yoğun.",
+                "example_uz": "Tirbandlik ko'p."
+              },
+              {
+                "tr": "trafik ışığı",
+                "uz": "svetofor",
+                "example_tr": "Trafik ışığında dur.",
+                "example_uz": "Svetoforda to'xta."
+              },
+              {
+                "tr": "kırmızı",
+                "uz": "qizil",
+                "example_tr": "Kırmızı ışık yandı.",
+                "example_uz": "Qizil chiroq yondi."
+              },
+              {
+                "tr": "yeşil",
+                "uz": "yashil",
+                "example_tr": "Yeşil ışıkta geç.",
+                "example_uz": "Yashil chiroqda o't."
+              },
+              {
+                "tr": "sarı",
+                "uz": "sariq",
+                "example_tr": "Sarı ışık dikkat demek.",
+                "example_uz": "Sariq chiroq ehtiyot degani."
+              },
+              {
+                "tr": "yaya",
+                "uz": "piyoda",
+                "example_tr": "Yayalar burada geçiyor.",
+                "example_uz": "Piyodalar bu yerdan o'tadi."
+              },
+              {
+                "tr": "lazım",
+                "uz": "kerak",
+                "example_tr": "Dikkatli olmak lazım.",
+                "example_uz": "Ehtiyot bo'lish kerak."
+              },
+              {
+                "tr": "dikkat",
+                "uz": "diqqat, ehtiyot",
+                "example_tr": "Dikkat et!",
+                "example_uz": "Ehtiyot bo'l!"
+              },
+              {
+                "tr": "hız",
+                "uz": "tezlik",
+                "example_tr": "Hız yapma!",
+                "example_uz": "Tez yurma!"
+              },
+              {
+                "tr": "durmak",
+                "uz": "to'xtamoq",
+                "example_tr": "Burada dur.",
+                "example_uz": "Bu yerda to'xta."
+              },
+              {
+                "tr": "geçmek",
+                "uz": "o'tmoq",
+                "example_tr": "Yolu geçiyorum.",
+                "example_uz": "Yo'ldan o'tyapman."
+              },
+              {
+                "tr": "araba",
+                "uz": "mashina",
+                "example_tr": "Araba çok hızlı.",
+                "example_uz": "Mashina juda tez."
+              },
+              {
+                "tr": "kaza",
+                "uz": "avariya",
+                "example_tr": "Kaza oldu.",
+                "example_uz": "Avariya bo'ldi."
+              },
+              {
+                "tr": "tehlikeli",
+                "uz": "xavfli",
+                "example_tr": "Bu çok tehlikeli.",
+                "example_uz": "Bu juda xavfli."
+              },
+              {
+                "tr": "güvenli",
+                "uz": "xavfsiz",
+                "example_tr": "Bu yol güvenli.",
+                "example_uz": "Bu yo'l xavfsiz."
+              },
+              {
+                "tr": "yol",
+                "uz": "yo'l",
+                "example_tr": "Bu yol dar.",
+                "example_uz": "Bu yo'l tor."
+              },
+              {
+                "tr": "kavşak",
+                "uz": "chorraha",
+                "example_tr": "Kavşakta dikkatli ol.",
+                "example_uz": "Chorrahada ehtiyot bo'l."
+              },
+              {
+                "tr": "korna",
+                "uz": "signal (mashina)",
+                "example_tr": "Korna çalıyor.",
+                "example_uz": "Signal chalinyapti."
+              },
+              {
+                "tr": "park etmek",
+                "uz": "to'xtatmoq (mashina)",
+                "example_tr": "Arabayı park ettim.",
+                "example_uz": "Mashinani to'xtatdim."
+              },
+              {
+                "tr": "emniyet kemeri",
+                "uz": "xavfsizlik kamari",
+                "example_tr": "Emniyet kemeri tak!",
+                "example_uz": "Xavfsizlik kamarini tak!"
+              }
+            ],
+            "reading": {
+              "title": "Yo'lda ehtiyot",
+              "text": "Bugün trafik çok yoğundu. Kavşakta uzun süre bekledim. Trafik ışığı kırmızıydı, ben de durdum.\n\nYeşil ışık yanınca geçtim. Yolda her zaman dikkatli olmak lazım. Emniyet kemeri takmak da çok önemli.",
+              "questions": [
+                {
+                  "question": "Bugun yo'lda qanday holat bo'ldi?",
+                  "options": [
+                    "Tirbandlik ko'p edi",
+                    "Yo'l bo'sh edi",
+                    "Avariya bo'ldi",
+                    "Yomg'ir yog'di"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Muallif qachon to'xtadi?",
+                  "options": [
+                    "Qizil chiroqda",
+                    "Yashil chiroqda",
+                    "Sariq chiroqda",
+                    "Har doim"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Anne",
+                  "text": "Dikkatli ol, trafik çok yoğun!"
+                },
+                {
+                  "speaker": "Çocuk",
+                  "text": "Tamam anne, dikkatli olacağım."
+                },
+                {
+                  "speaker": "Anne",
+                  "text": "Kırmızıda dur, yeşilde geç."
+                },
+                {
+                  "speaker": "Çocuk",
+                  "text": "Biliyorum, her zaman dikkatliyim."
+                },
+                {
+                  "speaker": "Anne",
+                  "text": "Aferin!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Ona bolasiga nima haqida ogohlantiryapti?",
+                  "options": [
+                    "Yo'lda ehtiyot bo'lish",
+                    "Ovqatlanish",
+                    "Uyqu",
+                    "Dars"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bola qachon yo'ldan o'tishi kerak?",
+                  "options": [
+                    "Yashil chiroqda",
+                    "Qizil chiroqda",
+                    "Sariq chiroqda",
+                    "Har doim"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Ehtiyot bo'lish kerak\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Dikkatli olmak lazım",
+                  "Dikkatli oldum",
+                  "Dikkat et",
+                  "Dikkatliyim"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qizil chiroq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Kırmızı ışık",
+                  "Yeşil ışık",
+                  "Sarı ışık",
+                  "Trafik ışığı"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bu yerda to'xta.\" gapini tuzing.",
+                "words": [
+                  "Burada",
+                  "dur."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Yo'l xavfli.\" gapini tuzing.",
+                "words": [
+                  "Yol",
+                  "tehlikeli."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Tirbandlik\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Trafik",
+                  "Yol",
+                  "Kavşak",
+                  "Araba"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Mashina\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Araba",
+                  "Bisiklet",
+                  "Otobüs",
+                  "Tren"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Yo'l harakati qoidalari haqida 2 ta gap yozing (masalan svetofor haqida).",
+              "sample_answer": "Kırmızıda durmak lazım. Yeşilde geçmek güvenli."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Dikkatli ol!",
+                "Kırmızıda dur.",
+                "Yeşilde geç.",
+                "Trafik çok yoğun."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Kerak\" turkchada nima?",
+              "options": [
+                "Lazım",
+                "Var",
+                "Yok",
+                "Belki"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qizil\" turkchada nima?",
+              "options": [
+                "Kırmızı",
+                "Yeşil",
+                "Sarı",
+                "Mavi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yashil\" turkchada nima?",
+              "options": [
+                "Yeşil",
+                "Kırmızı",
+                "Sarı",
+                "Siyah"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Piyoda\" turkchada nima?",
+              "options": [
+                "Yaya",
+                "Yolcu",
+                "Şoför",
+                "Araba"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mashina\" turkchada nima?",
+              "options": [
+                "Araba",
+                "Bisiklet",
+                "Tren",
+                "Uçak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xavfli\" turkchada nima?",
+              "options": [
+                "Tehlikeli",
+                "Güvenli",
+                "Kolay",
+                "Zor"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xavfsiz\" turkchada nima?",
+              "options": [
+                "Güvenli",
+                "Tehlikeli",
+                "Yoğun",
+                "Hızlı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"To'xtamoq\" turkchada nima?",
+              "options": [
+                "Durmak",
+                "Geçmek",
+                "Binmek",
+                "İnmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'tmoq\" (yo'ldan) turkchada nima?",
+              "options": [
+                "Geçmek",
+                "Durmak",
+                "Kalkmak",
+                "Varmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Chorraha\" turkchada nima?",
+              "options": [
+                "Kavşak",
+                "Sokak",
+                "Cadde",
+                "Yol"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u6c",
+          "title": "C. Bugün Hava Nasıl? — Bugun ob-havo qanday?",
+          "start_page": 18,
+          "end_page": 18,
+          "explanation": {
+            "goals": [
+              "Ob-havo haqida gapirish",
+              "Fasl nomlarini bilish",
+              "\"Gibi\" (kabi) taqqoslash so'zini qo'llash"
+            ],
+            "blocks": [
+              {
+                "heading": "Ob-havo",
+                "text": "Ob-havo haqida so'rash: \"Bugün hava nasıl?\" (Bugun ob-havo qanday?). Javoblar: \"Güneşli.\" (Quyoshli), \"Yağmurlu.\" (Yomg'irli), \"Karlı.\" (Qorli), \"Rüzgarlı.\" (Shamolli), \"Bulutlu.\" (Bulutli)."
+              },
+              {
+                "heading": "Fasllar",
+                "text": "To'rt fasl: ilkbahar (bahor), yaz (yoz), sonbahar (kuz), kış (qish).\n\n\"Yazın sıcak, kışın soğuk olur.\" (Yozda issiq, qishda sovuq bo'ladi)."
+              },
+              {
+                "heading": "Gibi — kabi",
+                "text": "\"Gibi\" (kabi, singari) taqqoslash uchun ishlatiladi: \"Bugün yaz gibi sıcak.\" (Bugun yozdek issiq).\n\nHarorat haqida: \"Sıcak\" (issiq), \"soğuk\" (sovuq), \"ılık\" (iliq)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Hava nasıl?\" - ob-havo qanday? güneşli, yağmurlu, karlı, rüzgarlı."
+              },
+              {
+                "fact": "4 fasl: ilkbahar, yaz, sonbahar, kış."
+              },
+              {
+                "fact": "\"Gibi\" - kabi/singari, taqqoslashda ishlatiladi."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "hava",
+                "uz": "ob-havo",
+                "example_tr": "Hava nasıl?",
+                "example_uz": "Ob-havo qanday?"
+              },
+              {
+                "tr": "güneşli",
+                "uz": "quyoshli",
+                "example_tr": "Bugün güneşli.",
+                "example_uz": "Bugun quyoshli."
+              },
+              {
+                "tr": "yağmurlu",
+                "uz": "yomg'irli",
+                "example_tr": "Yarın yağmurlu.",
+                "example_uz": "Ertaga yomg'irli."
+              },
+              {
+                "tr": "karlı",
+                "uz": "qorli",
+                "example_tr": "Kışın karlı oluyor.",
+                "example_uz": "Qishda qorli bo'ladi."
+              },
+              {
+                "tr": "rüzgarlı",
+                "uz": "shamolli",
+                "example_tr": "Bugün rüzgarlı.",
+                "example_uz": "Bugun shamolli."
+              },
+              {
+                "tr": "bulutlu",
+                "uz": "bulutli",
+                "example_tr": "Hava bulutlu.",
+                "example_uz": "Ob-havo bulutli."
+              },
+              {
+                "tr": "sıcak",
+                "uz": "issiq",
+                "example_tr": "Yazın çok sıcak.",
+                "example_uz": "Yozda juda issiq."
+              },
+              {
+                "tr": "soğuk",
+                "uz": "sovuq",
+                "example_tr": "Kışın çok soğuk.",
+                "example_uz": "Qishda juda sovuq."
+              },
+              {
+                "tr": "ılık",
+                "uz": "iliq",
+                "example_tr": "Bugün ılık.",
+                "example_uz": "Bugun iliq."
+              },
+              {
+                "tr": "ilkbahar",
+                "uz": "bahor",
+                "example_tr": "İlkbaharda çiçekler açar.",
+                "example_uz": "Bahorda gullar ochiladi."
+              },
+              {
+                "tr": "yaz",
+                "uz": "yoz",
+                "example_tr": "Yazın deniz güzel.",
+                "example_uz": "Yozda dengiz go'zal."
+              },
+              {
+                "tr": "sonbahar",
+                "uz": "kuz",
+                "example_tr": "Sonbaharda yapraklar düşer.",
+                "example_uz": "Kuzda barglar to'kiladi."
+              },
+              {
+                "tr": "kış",
+                "uz": "qish",
+                "example_tr": "Kışın kar yağar.",
+                "example_uz": "Qishda qor yog'adi."
+              },
+              {
+                "tr": "gibi",
+                "uz": "kabi, singari",
+                "example_tr": "Yaz gibi sıcak.",
+                "example_uz": "Yozdek issiq."
+              },
+              {
+                "tr": "derece",
+                "uz": "gradus",
+                "example_tr": "Otuz derece.",
+                "example_uz": "O'ttiz gradus."
+              },
+              {
+                "tr": "yağmur",
+                "uz": "yomg'ir",
+                "example_tr": "Yağmur yağıyor.",
+                "example_uz": "Yomg'ir yog'yapti."
+              },
+              {
+                "tr": "kar",
+                "uz": "qor",
+                "example_tr": "Kar yağıyor.",
+                "example_uz": "Qor yog'yapti."
+              },
+              {
+                "tr": "güneş",
+                "uz": "quyosh",
+                "example_tr": "Güneş çok parlak.",
+                "example_uz": "Quyosh juda yorqin."
+              },
+              {
+                "tr": "bulut",
+                "uz": "bulut",
+                "example_tr": "Gökyüzünde bulut var.",
+                "example_uz": "Osmonda bulut bor."
+              },
+              {
+                "tr": "hava durumu",
+                "uz": "ob-havo ma'lumoti",
+                "example_tr": "Hava durumuna baktım.",
+                "example_uz": "Ob-havo ma'lumotiga qaradim."
+              }
+            ],
+            "reading": {
+              "title": "To'rt fasl",
+              "text": "Türkiye'de dört mevsim var: ilkbahar, yaz, sonbahar ve kış. İlkbaharda hava ılık, çiçekler açıyor.\n\nYazın çok sıcak, deniz çok güzel. Sonbaharda yapraklar düşüyor. Kışın soğuk oluyor ve kar yağıyor. Ben en çok ilkbaharı seviyorum.",
+              "questions": [
+                {
+                  "question": "Bahorda ob-havo qanday?",
+                  "options": [
+                    "Iliq",
+                    "Issiq",
+                    "Sovuq",
+                    "Yomg'irli"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Muallif qaysi faslni eng ko'p yaxshi ko'radi?",
+                  "options": [
+                    "Bahorni",
+                    "Yozni",
+                    "Kuzni",
+                    "Qishni"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Ece",
+                  "text": "Bugün hava nasıl?"
+                },
+                {
+                  "speaker": "Kaan",
+                  "text": "Çok güneşli ve sıcak."
+                },
+                {
+                  "speaker": "Ece",
+                  "text": "Yarın da güneşli mi?"
+                },
+                {
+                  "speaker": "Kaan",
+                  "text": "Hayır, yarın yağmurlu olacak."
+                },
+                {
+                  "speaker": "Ece",
+                  "text": "O zaman şemsiye alayım."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Bugun ob-havo qanday?",
+                  "options": [
+                    "Quyoshli va issiq",
+                    "Yomg'irli",
+                    "Qorli",
+                    "Shamolli"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ertaga ob-havo qanday bo'ladi?",
+                  "options": [
+                    "Yomg'irli",
+                    "Quyoshli",
+                    "Qorli",
+                    "Iliq"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Ob-havo qanday?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Hava nasıl?",
+                  "Saat kaç?",
+                  "Ne kadar?",
+                  "Nereye?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Issiq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Sıcak",
+                  "Soğuk",
+                  "Ilık",
+                  "Yağmurlu"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bugun quyoshli.\" gapini tuzing.",
+                "words": [
+                  "Bugün",
+                  "güneşli."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Qishda sovuq bo'ladi.\" gapini tuzing.",
+                "words": [
+                  "Kışın",
+                  "soğuk",
+                  "olur."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qish\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Kış",
+                  "Yaz",
+                  "İlkbahar",
+                  "Sonbahar"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Yomg'ir\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yağmur",
+                  "Kar",
+                  "Güneş",
+                  "Rüzgar"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Bugungi ob-havo va qaysi faslni yaxshi ko'rishingizni yozing (kamida 2 gap).",
+              "sample_answer": "Bugün hava güneşli. Ben yazı çok seviyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Hava nasıl?",
+                "Bugün güneşli.",
+                "Yarın yağmurlu olacak.",
+                "Kışın kar yağıyor."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Ob-havo qanday?\" turkchada nima?",
+              "options": [
+                "Hava nasıl?",
+                "Saat kaç?",
+                "Nereye?",
+                "Ne zaman?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Quyoshli\" turkchada nima?",
+              "options": [
+                "Güneşli",
+                "Yağmurlu",
+                "Karlı",
+                "Bulutlu"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yomg'irli\" turkchada nima?",
+              "options": [
+                "Yağmurlu",
+                "Güneşli",
+                "Karlı",
+                "Rüzgarlı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Issiq\" turkchada nima?",
+              "options": [
+                "Sıcak",
+                "Soğuk",
+                "Ilık",
+                "Serin"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sovuq\" turkchada nima?",
+              "options": [
+                "Soğuk",
+                "Sıcak",
+                "Ilık",
+                "Güneşli"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bahor\" turkchada nima?",
+              "options": [
+                "İlkbahar",
+                "Yaz",
+                "Sonbahar",
+                "Kış"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yoz\" turkchada nima?",
+              "options": [
+                "Yaz",
+                "Kış",
+                "İlkbahar",
+                "Sonbahar"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kuz\" turkchada nima?",
+              "options": [
+                "Sonbahar",
+                "İlkbahar",
+                "Yaz",
+                "Kış"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qish\" turkchada nima?",
+              "options": [
+                "Kış",
+                "Yaz",
+                "İlkbahar",
+                "Sonbahar"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kabi/singari\" turkchada qanday ifodalanadi?",
+              "options": [
+                "Gibi",
+                "Lazım",
+                "Çünkü",
+                "Belki"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
