@@ -11,8 +11,8 @@ cp .env.example .env      # DEBUG=False, SECRET_KEY, ALLOWED_HOSTS, DB_*, SMTP, 
 python manage.py migrate
 python manage.py createcachetable   # USE_DB_CACHE=1 bo'lsa
 python manage.py collectstatic --noinput
-python manage.py createsuperuser    # is_staff bo'lsa o'qituvchi hisoblanadi
-python manage.py import_book content/qd6/book.json --user <o'qituvchi>
+python manage.py createsuperuser    # sizning admin hisobingiz - /admin/ ga shu bilan kirasiz
+python manage.py import_book content/qd6/book.json --user <admin_foydalanuvchi_nomi>
 gunicorn config.wsgi:application --workers 3 --bind 127.0.0.1:8000
 ```
 Tekshirish: `python manage.py check --deploy` — ogohlantirishsiz bo'lishi kerak.
@@ -27,6 +27,18 @@ VITE_AUTH_REGISTER_URL=https://muallim.uz/api/auth/register/
 ENV
 npm ci && npm run build        # dist/ ni Nginx beradi
 ```
+
+## Admin panel
+
+Ilovaning o'zida "o'qituvchi" yoki boshqaruv ekrani yo'q - platforma ikkita alohida qismdan iborat:
+- **Foydalanuvchi ilovasi** (`muallim.uz`) - istalgan kishi ro'yxatdan o'tib o'qiydi.
+- **Admin panel** (`muallim.uz/admin/`) - faqat `createsuperuser` bilan yaratilgan hisob kira oladi.
+  - Bosh sahifadagi "📊 Platforma statistikasi" - talabalar soni, bugungi faollik, mashhur kurs.
+  - **Users** - har bir talabaning ball/mavzu/sertifikat soni ko'rinadi; bloklash, faollashtirish,
+    admin huquqi berish shu yerdan.
+  - **Certificates** - berilgan sertifikatlarni ko'rish, kerak bo'lsa bekor qilish (o'chirish).
+  - **Books/Subjects/Topics** va boshqa hammasi - to'liq ko'rish/tahrirlash.
+  - Yangi kurs qo'shish JSON orqali (`manage.py import_book`) qilinadi, admin panelning o'zidan emas.
 
 ## 3. Nginx (qisqacha)
 - `/` -> `frontend/dist` (SPA: `try_files $uri /index.html`), `sw.js` uchun `Cache-Control: no-cache`.
