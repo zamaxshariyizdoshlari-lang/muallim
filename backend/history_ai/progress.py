@@ -1,12 +1,20 @@
 from .models import Certificate, SectionCompletion, TopicCompletion
 
 
+def _is_intro(topic):
+    """"Kirish" - kitobning kirish qismi, haqiqiy mavzu emas: uni tugatish shart qilib qo'yilmaydi."""
+    return topic.title.strip().lower() == 'kirish'
+
+
 def topic_states(user, topics):
     """topics (order bo'yicha) -> {topic_id: {"unlocked": bool, "completed": bool}}.
 
     O'qituvchi (is_staff) uchun hammasi ochiq. Talaba uchun mavzu ochiladi, agar
     oldingi mavzu testi 100% topshirilgan bo'lsa VA (mavzu keyingi bo'limda bo'lsa)
     oldingi bo'lim testi ham 100% topshirilgan bo'lsa.
+
+    Istisno: kitob "Kirish" mavzusi bilan boshlansa, undan keyingi (haqiqiy 1-) mavzu ham
+    "Kirish"ni tugatishni kutmasdan ochiq bo'ladi - "Kirish" shunchaki kirish so'zi, test emas.
     """
     topics = list(topics)
     completed_ids = set(
@@ -20,17 +28,19 @@ def topic_states(user, topics):
         SectionCompletion.objects.filter(student=user, section_id__in=section_order)
         .values_list('section_id', flat=True)
     )
+    starts_with_intro = len(topics) > 1 and _is_intro(topics[0])
 
     states = {}
     previous_completed = True
-    for topic in topics:
+    for i, topic in enumerate(topics):
         completed = topic.id in completed_ids
         section_ok = True
         if topic.section_id:
             idx = section_order.index(topic.section_id)
             section_ok = idx == 0 or section_order[idx - 1] in completed_sections
+        after_intro = starts_with_intro and i == 1
         states[topic.id] = {
-            'unlocked': bool(user.is_staff) or (previous_completed and section_ok),
+            'unlocked': bool(user.is_staff) or after_intro or (previous_completed and section_ok),
             'completed': completed,
         }
         previous_completed = completed

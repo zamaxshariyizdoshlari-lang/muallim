@@ -1,7 +1,10 @@
-import { ChevronLeft, Loader2, Moon, Sun } from 'lucide-react'
+import { ChevronLeft, Loader2, Moon, Sun, Type } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 const THEME_KEY = 'tarixchi_theme'
+const FONT_KEY = 'tarixchi_font_size'
+const FONT_SIZES = ['sm', 'md', 'lg']
+const FONT_LABELS = { sm: 'Kichik matn', md: "O'rta matn", lg: 'Katta matn' }
 
 export function useTheme() {
   const [dark, setDark] = useState(() => document.documentElement.classList.contains('dark'))
@@ -28,6 +31,46 @@ export function ThemeToggle({ dark, onToggle }) {
       className="btn btn-ghost btn-sm !px-2.5"
     >
       {dark ? <Sun size={16} /> : <Moon size={16} />}
+    </button>
+  )
+}
+
+/** Matn o'lchami (kichik/o'rta/katta), butun sayt uchun `<html data-font-size>` orqali. Ko'zi
+ * xira odamlar uchun - masofadan ekranga qarab o'qish qulay bo'lsin. localStorage'da saqlanadi. */
+export function useFontSize() {
+  const [size, setSize] = useState(() => {
+    try {
+      return localStorage.getItem(FONT_KEY) || 'md'
+    } catch {
+      return 'md'
+    }
+  })
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-font-size', size)
+    try {
+      localStorage.setItem(FONT_KEY, size)
+    } catch {
+      /* localStorage mavjud emas */
+    }
+  }, [size])
+
+  return [size, setSize]
+}
+
+export function FontSizeToggle({ size, onChange }) {
+  function cycle() {
+    onChange(FONT_SIZES[(FONT_SIZES.indexOf(size) + 1) % FONT_SIZES.length])
+  }
+  return (
+    <button
+      type="button"
+      onClick={cycle}
+      aria-label={`${FONT_LABELS[size]}. Matn o'lchamini o'zgartirish uchun bosing`}
+      title="Matn o'lchami"
+      className="btn btn-ghost btn-sm !px-2.5"
+    >
+      <Type size={size === 'lg' ? 19 : size === 'sm' ? 13 : 16} />
     </button>
   )
 }

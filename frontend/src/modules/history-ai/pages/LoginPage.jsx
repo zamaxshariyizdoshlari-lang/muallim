@@ -1,9 +1,9 @@
 import { GraduationCap, Loader2, LogIn, UserPlus } from 'lucide-react'
 import { useState } from 'react'
 import { login, register, requestPasswordReset } from '../api/client'
-import { ErrorNote, ThemeToggle } from '../components/ui'
+import { ErrorNote, FontSizeToggle, ThemeToggle } from '../components/ui'
 
-export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
+export default function LoginPage({ onSuccess, dark, onToggleTheme, fontSize, onChangeFontSize }) {
   const [mode, setMode] = useState('login') // login | register | forgot
   const [email, setEmail] = useState('')
   const [info, setInfo] = useState('')
@@ -44,7 +44,8 @@ export default function LoginPage({ onSuccess, dark, onToggleTheme }) {
 
   return (
     <div className="relative min-h-screen">
-      <div className="absolute right-4 top-4 z-10">
+      <div className="absolute right-4 top-4 z-10 flex items-center gap-1.5">
+        <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
         <ThemeToggle dark={dark} onToggle={onToggleTheme} />
       </div>
 

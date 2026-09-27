@@ -86,6 +86,14 @@ html.dark {
   color-scheme: dark;
 }
 
+/* Matn o'lchami: rem'ga asoslangan barcha o'lchamlar shu bilan proportsional o'zgaradi */
+html[data-font-size='sm'] {
+  font-size: 93.75%;
+}
+html[data-font-size='lg'] {
+  font-size: 112.5%;
+}
+
 body {
   margin: 0;
   font-family: var(--font-sans);

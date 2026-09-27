@@ -440,3 +440,44 @@ class CertificateVerifyTests(CourseFixture):
         missing = anon.get('/api/history/certificates/verify/NOSUCHCODE/')
         self.assertEqual(missing.status_code, 404)
         self.assertFalse(missing.data['valid'])
+
+
+class IntroTopicUnlockTests(TestCase):
+    """"Kirish" mavzusi bo'lsa, undan keyingi mavzu ham darhol ochiq bo'lishi kerak."""
+
+    def setUp(self):
+        cache.clear()
+        self.teacher = User.objects.create_user('ustoz2', password='ustoz-parol-1', is_staff=True)
+        self.user = User.objects.create_user('talaba2', password='talaba-parol-1')
+        self.book = Book.objects.create(title='Kirishli kurs', key='kirishli', uploaded_by=self.teacher)
+        self.topics = [
+            Topic.objects.create(book=self.book, key='k', title='Kirish', start_page=1, end_page=2, order=0),
+            Topic.objects.create(book=self.book, key='t1', title='1-§. Birinchi', start_page=3, end_page=4, order=1),
+            Topic.objects.create(book=self.book, key='t2', title='2-§. Ikkinchi', start_page=5, end_page=6, order=2),
+        ]
+
+    def test_topic_after_intro_is_unlocked_without_finishing_intro(self):
+        from .progress import topic_states
+        states = topic_states(self.user, self.topics)
+        kirish, first, second = self.topics
+        self.assertTrue(states[kirish.id]['unlocked'])
+        self.assertTrue(states[first.id]['unlocked'])
+        self.assertFalse(states[second.id]['unlocked'])
+
+    def test_topic_after_first_real_topic_still_gated(self):
+        from .progress import topic_states
+        from .models import TopicCompletion
+        _, first, second = self.topics
+        TopicCompletion.objects.create(student=self.user, topic=first)
+        states = topic_states(self.user, self.topics)
+        self.assertTrue(states[second.id]['unlocked'])
+
+    def test_without_intro_normal_gating_applies(self):
+        from .progress import topic_states
+        plain = [
+            Topic.objects.create(book=self.book, key='a', title='1-§. A', start_page=10, end_page=11, order=10),
+            Topic.objects.create(book=self.book, key='b', title='2-§. B', start_page=12, end_page=13, order=11),
+        ]
+        states = topic_states(self.user, plain)
+        self.assertTrue(states[plain[0].id]['unlocked'])
+        self.assertFalse(states[plain[1].id]['unlocked'])

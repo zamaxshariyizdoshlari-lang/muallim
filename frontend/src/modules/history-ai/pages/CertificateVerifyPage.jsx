@@ -2,13 +2,13 @@ import { Award, BadgeCheck, GraduationCap, XCircle } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { verifyCertificate } from '../api/client'
-import { formatDateUz, Spinner, ThemeToggle } from '../components/ui'
+import { formatDateUz, FontSizeToggle, Spinner, ThemeToggle } from '../components/ui'
 
 /**
  * Ochiq (login talab qilmaydigan) sertifikat tekshiruvi: sertifikatdagi havola/kod orqali
  * istalgan kishi (masalan ish beruvchi) sertifikat haqiqiyligini tasdiqlashi mumkin.
  */
-export default function CertificateVerifyPage({ dark, onToggleTheme }) {
+export default function CertificateVerifyPage({ dark, onToggleTheme, fontSize, onChangeFontSize }) {
   const { code } = useParams()
   const [result, setResult] = useState(null)
 
@@ -18,7 +18,8 @@ export default function CertificateVerifyPage({ dark, onToggleTheme }) {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center px-5">
-      <div className="absolute right-4 top-4">
+      <div className="absolute right-4 top-4 flex items-center gap-1.5">
+        <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
         <ThemeToggle dark={dark} onToggle={onToggleTheme} />
       </div>
       <div className="w-full max-w-md">

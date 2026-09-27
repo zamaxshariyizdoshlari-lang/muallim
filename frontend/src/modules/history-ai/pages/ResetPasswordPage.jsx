@@ -2,9 +2,9 @@ import { GraduationCap, KeyRound, Loader2 } from 'lucide-react'
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { confirmPasswordReset } from '../api/client'
-import { ErrorNote, ThemeToggle } from '../components/ui'
+import { ErrorNote, FontSizeToggle, ThemeToggle } from '../components/ui'
 
-export default function ResetPasswordPage({ dark, onToggleTheme }) {
+export default function ResetPasswordPage({ dark, onToggleTheme, fontSize, onChangeFontSize }) {
   const [params] = useSearchParams()
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -27,7 +27,8 @@ export default function ResetPasswordPage({ dark, onToggleTheme }) {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center px-5">
-      <div className="absolute right-4 top-4">
+      <div className="absolute right-4 top-4 flex items-center gap-1.5">
+        <FontSizeToggle size={fontSize} onChange={onChangeFontSize} />
         <ThemeToggle dark={dark} onToggle={onToggleTheme} />
       </div>
       <form onSubmit={handleSubmit} className="card rise w-full max-w-md p-7 sm:p-9">
