@@ -8681,6 +8681,1238 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u8",
+      "title": "8-unite. Tatil",
+      "topics": [
+        {
+          "key": "u8a",
+          "title": "A. Hafta Sonu — Dam olish kunlari",
+          "start_page": 22,
+          "end_page": 22,
+          "explanation": {
+            "goals": [
+              "O'tgan zamon (-di) bilan o'tgan hafta sonu haqida gapirish",
+              "Dam olish kunidagi faoliyatlarni tasvirlash",
+              "A1 darajasidagi asosiy fe'llarni takrorlash"
+            ],
+            "blocks": [
+              {
+                "heading": "O'tgan aniq zamon: -di",
+                "text": "O'tib ketgan, aniq bo'lgan harakatni bildirish uchun fe'l tubiga \"-di/-dı/-du/-dü\" qo'shiladi: \"gitmek\" (bormoq) -> \"gittim\" (bordim), \"gelmek\" (kelmoq) -> \"geldim\" (keldim).\n\nMisol: \"Geçen hafta sonu parka gittim.\" (O'tgan dam olish kunida parkga bordim)."
+              },
+              {
+                "heading": "Dam olish kuni faoliyatlari",
+                "text": "Odatiy dam olish kuni harakatlari: uyumak (uxlamoq), dinlenmek (dam olmoq), gezmek (sayr qilmoq), arkadaşlarla buluşmak (do'stlar bilan uchrashmoq), film izlemek (film ko'rmoq)."
+              },
+              {
+                "heading": "Takrorlash",
+                "text": "Bu darsda avvalgi darslardan o'rgangan so'z va qurilmalarni birlashtirib, o'tgan hafta sonu haqida to'liq hikoya tuzish mashq qilinadi: vaqt, joy, kishilar, harakatlar - hammasi birga."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "O'tgan zamon: fe'l + -di/-dı/-du/-dü + shaxs qo'shimchasi."
+              },
+              {
+                "fact": "gittim=bordim, geldim=keldim, yaptım=qildim."
+              },
+              {
+                "fact": "\"Geçen hafta sonu\" - o'tgan dam olish kunida."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "hafta sonu",
+                "uz": "dam olish kuni",
+                "example_tr": "Hafta sonu ne yaptın?",
+                "example_uz": "Dam olish kunida nima qilding?"
+              },
+              {
+                "tr": "geçen",
+                "uz": "o'tgan",
+                "example_tr": "Geçen hafta.",
+                "example_uz": "O'tgan hafta."
+              },
+              {
+                "tr": "gittim",
+                "uz": "bordim",
+                "example_tr": "Parka gittim.",
+                "example_uz": "Parkga bordim."
+              },
+              {
+                "tr": "geldim",
+                "uz": "keldim",
+                "example_tr": "Eve geç geldim.",
+                "example_uz": "Uyga kech keldim."
+              },
+              {
+                "tr": "yaptım",
+                "uz": "qildim",
+                "example_tr": "Ödevimi yaptım.",
+                "example_uz": "Vazifamni qildim."
+              },
+              {
+                "tr": "gördüm",
+                "uz": "ko'rdim",
+                "example_tr": "Arkadaşımı gördüm.",
+                "example_uz": "Do'stimni ko'rdim."
+              },
+              {
+                "tr": "uyudum",
+                "uz": "uxladim",
+                "example_tr": "Geç uyudum.",
+                "example_uz": "Kech uxladim."
+              },
+              {
+                "tr": "dinlendim",
+                "uz": "dam oldim",
+                "example_tr": "Bütün gün dinlendim.",
+                "example_uz": "Butun kun dam oldim."
+              },
+              {
+                "tr": "gezdim",
+                "uz": "sayr qildim",
+                "example_tr": "Şehirde gezdim.",
+                "example_uz": "Shaharda sayr qildim."
+              },
+              {
+                "tr": "buluştum",
+                "uz": "uchrashdim",
+                "example_tr": "Arkadaşımla buluştum.",
+                "example_uz": "Do'stim bilan uchrashdim."
+              },
+              {
+                "tr": "izledim",
+                "uz": "tomosha qildim",
+                "example_tr": "Film izledim.",
+                "example_uz": "Film tomosha qildim."
+              },
+              {
+                "tr": "okudum",
+                "uz": "o'qidim",
+                "example_tr": "Kitap okudum.",
+                "example_uz": "Kitob o'qidim."
+              },
+              {
+                "tr": "yüzdüm",
+                "uz": "suzdim",
+                "example_tr": "Havuzda yüzdüm.",
+                "example_uz": "Basseynda suzdim."
+              },
+              {
+                "tr": "yedim",
+                "uz": "yedim",
+                "example_tr": "Lezzetli yemek yedim.",
+                "example_uz": "Mazali ovqat yedim."
+              },
+              {
+                "tr": "içtim",
+                "uz": "ichdim",
+                "example_tr": "Çay içtim.",
+                "example_uz": "Choy ichdim."
+              },
+              {
+                "tr": "eğlendim",
+                "uz": "yaxshi dam oldim/yayradim",
+                "example_tr": "Çok eğlendim.",
+                "example_uz": "Juda yayradim."
+              },
+              {
+                "tr": "yorgun",
+                "uz": "charchagan",
+                "example_tr": "Çok yorgunum.",
+                "example_uz": "Juda charchaganman."
+              },
+              {
+                "tr": "dinlenmiş",
+                "uz": "dam olgan",
+                "example_tr": "Şimdi dinlenmiş hissediyorum.",
+                "example_uz": "Endi dam olgandek his qilyapman."
+              },
+              {
+                "tr": "harika",
+                "uz": "ajoyib",
+                "example_tr": "Harika bir hafta sonuydu.",
+                "example_uz": "Ajoyib dam olish kuni edi."
+              },
+              {
+                "tr": "sıkıcı",
+                "uz": "zerikarli",
+                "example_tr": "Bu film sıkıcıydı.",
+                "example_uz": "Bu film zerikarli edi."
+              }
+            ],
+            "reading": {
+              "title": "O'tgan dam olish kuni",
+              "text": "Geçen hafta sonu çok güzeldi. Cumartesi arkadaşlarımla parka gittim, orada yürüdük ve konuştuk. Akşam bir film izledik.\n\nPazar günü evde dinlendim, kitap okudum ve erken uyudum. Harika bir hafta sonuydu!",
+              "questions": [
+                {
+                  "question": "Shanba kuni nima qilishdi?",
+                  "options": [
+                    "Parkga borishdi",
+                    "Uyda dam olishdi",
+                    "Kino ko'rishdi",
+                    "Suzishdi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yakshanba kuni nima qildi?",
+                  "options": [
+                    "Uyda dam oldi, kitob o'qidi",
+                    "Parkga bordi",
+                    "Do'stlari bilan uchrashdi",
+                    "Ishladi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Ela",
+                  "text": "Hafta sonu ne yaptın?"
+                },
+                {
+                  "speaker": "Kerim",
+                  "text": "Arkadaşlarımla buluştum, çok eğlendik."
+                },
+                {
+                  "speaker": "Ela",
+                  "text": "Ne yaptınız?"
+                },
+                {
+                  "speaker": "Kerim",
+                  "text": "Sinemaya gittik, film izledik."
+                },
+                {
+                  "speaker": "Ela",
+                  "text": "Ben de evde dinlendim."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Kerim dam olish kunida nima qildi?",
+                  "options": [
+                    "Do'stlari bilan kino ko'rdi",
+                    "Uyda dam oldi",
+                    "Ishladi",
+                    "Sport qildi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ela nima qildi?",
+                  "options": [
+                    "Uyda dam oldi",
+                    "Kino ko'rdi",
+                    "Sayohat qildi",
+                    "Ishladi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Bordim\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Gittim",
+                  "Geldim",
+                  "Gördüm",
+                  "Yaptım"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ko'rdim\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Gördüm",
+                  "Gittim",
+                  "Okudum",
+                  "İzledim"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Parkga bordim.\" gapini tuzing.",
+                "words": [
+                  "Parka",
+                  "gittim."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Kitob o'qidim.\" gapini tuzing.",
+                "words": [
+                  "Kitap",
+                  "okudum."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Charchagan\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yorgun",
+                  "Eğlendim",
+                  "Harika",
+                  "Sıkıcı"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ajoyib\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Harika",
+                  "Sıkıcı",
+                  "Yorgun",
+                  "Kolay"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "O'tgan dam olish kuningiz haqida yozing: nima qildingiz (kamida 2 gap, o'tgan zamonda).",
+              "sample_answer": "Geçen hafta sonu parka gittim. Arkadaşlarımla buluştum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Hafta sonu ne yaptın?",
+                "Parka gittim.",
+                "Çok eğlendim.",
+                "Harika bir gündü."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Bordim\" turkchada nima?",
+              "options": [
+                "Gittim",
+                "Geldim",
+                "Gördüm",
+                "Yedim"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Keldim\" turkchada nima?",
+              "options": [
+                "Geldim",
+                "Gittim",
+                "Gördüm",
+                "Okudum"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qildim\" turkchada nima?",
+              "options": [
+                "Yaptım",
+                "Gittim",
+                "Geldim",
+                "Gördüm"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ko'rdim\" turkchada nima?",
+              "options": [
+                "Gördüm",
+                "Gittim",
+                "Yaptım",
+                "Okudum"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"O'qidim\" turkchada nima?",
+              "options": [
+                "Okudum",
+                "Yazdım",
+                "Gördüm",
+                "İzledim"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Uxladim\" turkchada nima?",
+              "options": [
+                "Uyudum",
+                "Dinlendim",
+                "Gezdim",
+                "Yüzdüm"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Charchagan\" turkchada nima?",
+              "options": [
+                "Yorgun",
+                "Harika",
+                "Sıkıcı",
+                "Eğlenceli"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ajoyib\" turkchada nima?",
+              "options": [
+                "Harika",
+                "Sıkıcı",
+                "Yorgun",
+                "Zor"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Zerikarli\" turkchada nima?",
+              "options": [
+                "Sıkıcı",
+                "Harika",
+                "Eğlenceli",
+                "Kolay"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Dam olish kuni\" turkchada nima?",
+              "options": [
+                "Hafta sonu",
+                "Hafta içi",
+                "Bugün",
+                "Yarın"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u8b",
+          "title": "B. Yaz Tatili — Yozgi ta'til",
+          "start_page": 23,
+          "end_page": 23,
+          "explanation": {
+            "goals": [
+              "Yozgi ta'til rejalari va xotiralari haqida gapirish",
+              "O'tgan va kelasi zamonni birga qo'llash",
+              "Sayohat va dam olish so'z boyligini kengaytirish"
+            ],
+            "blocks": [
+              {
+                "heading": "Yozgi ta'til",
+                "text": "Yozgi ta'til so'z boyligi: deniz (dengiz), plaj (plyaj), güneşlenmek (kuyoshda toblanmoq), tatil köyü (dam olish qishlog'i/kurort), deniz tatili (dengiz bo'yida dam olish).\n\n\"Yaz tatilinde denize gideceğim.\" (Yozgi ta'tilda dengizga boraman)."
+              },
+              {
+                "heading": "O'tgan va kelasi zamonni birlashtirish",
+                "text": "Xotiralar (o'tgan zamon) va rejalar (kelasi zamon) bir suhbatda birga ishlatilishi mumkin: \"Geçen yaz Antalya'ya gittim, bu yaz İstanbul'a gideceğim.\" (O'tgan yozi Antaliyaga bordim, bu yozi Istanbulga boraman)."
+              },
+              {
+                "heading": "Sayohat xotiralari",
+                "text": "Xotira so'rash: \"Tatilin nasıldı?\" (Ta'tiling qanday o'tdi?). Javob: \"Harikaydı!\" (Ajoyib edi!) yoki \"Çok eğlendim.\" (Juda yayradim)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Tatilin nasıldı?\" - ta'tiling qanday o'tdi? (o'tgan zamon so'roq)."
+              },
+              {
+                "fact": "deniz - dengiz, plaj - plyaj, güneşlenmek - kuyoshda toblanmoq."
+              },
+              {
+                "fact": "O'tgan va kelasi zamon bitta suhbatda birga ishlatilishi mumkin."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "yaz tatili",
+                "uz": "yozgi ta'til",
+                "example_tr": "Yaz tatili başladı.",
+                "example_uz": "Yozgi ta'til boshlandi."
+              },
+              {
+                "tr": "deniz",
+                "uz": "dengiz",
+                "example_tr": "Deniz çok güzel.",
+                "example_uz": "Dengiz juda go'zal."
+              },
+              {
+                "tr": "plaj",
+                "uz": "plyaj",
+                "example_tr": "Plajda oturuyorum.",
+                "example_uz": "Plyajda o'tiraman."
+              },
+              {
+                "tr": "güneşlenmek",
+                "uz": "quyoshda toblanmoq",
+                "example_tr": "Plajda güneşlendim.",
+                "example_uz": "Plyajda quyoshda toblandim."
+              },
+              {
+                "tr": "tatil köyü",
+                "uz": "kurort",
+                "example_tr": "Tatil köyünde kaldık.",
+                "example_uz": "Kurortda qoldik."
+              },
+              {
+                "tr": "denize girmek",
+                "uz": "dengizga tushmoq",
+                "example_tr": "Denize girdim.",
+                "example_uz": "Dengizga tushdim."
+              },
+              {
+                "tr": "kum",
+                "uz": "qum",
+                "example_tr": "Kum çok sıcak.",
+                "example_uz": "Qum juda issiq."
+              },
+              {
+                "tr": "otel",
+                "uz": "mehmonxona",
+                "example_tr": "Güzel bir otelde kaldık.",
+                "example_uz": "Chiroyli mehmonxonada qoldik."
+              },
+              {
+                "tr": "manzara",
+                "uz": "manzara",
+                "example_tr": "Manzara harika.",
+                "example_uz": "Manzara ajoyib."
+              },
+              {
+                "tr": "nasıldı?",
+                "uz": "qanday o'tdi?",
+                "example_tr": "Tatilin nasıldı?",
+                "example_uz": "Ta'tiling qanday o'tdi?"
+              },
+              {
+                "tr": "harikaydı",
+                "uz": "ajoyib edi",
+                "example_tr": "Tatil harikaydı.",
+                "example_uz": "Ta'til ajoyib edi."
+              },
+              {
+                "tr": "anı",
+                "uz": "xotira",
+                "example_tr": "Güzel anılar biriktirdim.",
+                "example_uz": "Chiroyli xotiralar to'pladim."
+              },
+              {
+                "tr": "fotoğraf çekmek",
+                "uz": "fotosurat olmoq",
+                "example_tr": "Çok fotoğraf çektim.",
+                "example_uz": "Ko'p fotosurat oldim."
+              },
+              {
+                "tr": "dinlenmek",
+                "uz": "dam olmoq",
+                "example_tr": "Tatilde dinlendim.",
+                "example_uz": "Ta'tilda dam oldim."
+              },
+              {
+                "tr": "sıcaklık",
+                "uz": "harorat",
+                "example_tr": "Sıcaklık otuz derece.",
+                "example_uz": "Harorat o'ttiz gradus."
+              },
+              {
+                "tr": "şezlong",
+                "uz": "shezlong",
+                "example_tr": "Şezlongda uzandım.",
+                "example_uz": "Shezlongda yotdim."
+              },
+              {
+                "tr": "yüzme havuzu",
+                "uz": "basseyn",
+                "example_tr": "Yüzme havuzunda yüzdüm.",
+                "example_uz": "Basseynda suzdim."
+              },
+              {
+                "tr": "keşfetmek",
+                "uz": "kashf etmoq",
+                "example_tr": "Yeni yerler keşfettim.",
+                "example_uz": "Yangi joylarni kashf qildim."
+              },
+              {
+                "tr": "hediye",
+                "uz": "sovg'a",
+                "example_tr": "Hediye aldım.",
+                "example_uz": "Sovg'a oldim."
+              },
+              {
+                "tr": "dönmek",
+                "uz": "qaytmoq",
+                "example_tr": "Yarın döneceğim.",
+                "example_uz": "Ertaga qaytaman."
+              }
+            ],
+            "reading": {
+              "title": "Yozgi ta'til",
+              "text": "Geçen yaz Antalya'ya gittim. Denizde yüzdüm, plajda güneşlendim. Otel çok güzeldi, manzara harikaydı.\n\nBu yaz İstanbul'a gideceğim. Yeni yerler keşfedeceğim ve çok fotoğraf çekeceğim. Tatilleri çok seviyorum!",
+              "questions": [
+                {
+                  "question": "O'tgan yozi qayerga borgan?",
+                  "options": [
+                    "Antaliyaga",
+                    "Istanbulga",
+                    "Ankaraga",
+                    "Izmirga"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bu yozi qayerga boradi?",
+                  "options": [
+                    "Istanbulga",
+                    "Antaliyaga",
+                    "Bursaga",
+                    "Adanaga"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Nil",
+                  "text": "Tatilin nasıldı?"
+                },
+                {
+                  "speaker": "Umut",
+                  "text": "Harikaydı! Denizde çok yüzdüm."
+                },
+                {
+                  "speaker": "Nil",
+                  "text": "Nerede kaldın?"
+                },
+                {
+                  "speaker": "Umut",
+                  "text": "Bir tatil köyünde kaldım, çok güzeldi."
+                },
+                {
+                  "speaker": "Nil",
+                  "text": "Ne güzel, ben de gitmek istiyorum!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Umut ta'tilda nima qildi?",
+                  "options": [
+                    "Ko'p suzdi",
+                    "Kitob o'qidi",
+                    "Ishladi",
+                    "Uxladi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Umut qayerda qoldi?",
+                  "options": [
+                    "Kurortda",
+                    "Mehmonxonada",
+                    "Do'stinikida",
+                    "Chodirda"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Dengiz\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Deniz",
+                  "Plaj",
+                  "Kum",
+                  "Otel"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ta'tiling qanday o'tdi?\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Tatilin nasıldı?",
+                  "Tatilin ne zaman?",
+                  "Tatil nerede?",
+                  "Tatil ne kadar?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Dengizda suzdim.\" gapini tuzing.",
+                "words": [
+                  "Denizde",
+                  "yüzdüm."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Juda ajoyib edi!\" gapini tuzing.",
+                "words": [
+                  "Çok",
+                  "harikaydı!"
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Xotira\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Anı",
+                  "Hediye",
+                  "Manzara",
+                  "Otel"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Sovg'a\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Hediye",
+                  "Anı",
+                  "Manzara",
+                  "Kum"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Yoqgan yoki rejalashtirgan yozgi ta'tilingiz haqida yozing (kamida 2 gap).",
+              "sample_answer": "Geçen yaz denize gittim. Bu yaz yeni bir yer keşfedeceğim."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Tatilin nasıldı?",
+                "Harikaydı!",
+                "Denizde yüzdüm.",
+                "Çok güzel bir tatildi."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Dengiz\" turkchada nima?",
+              "options": [
+                "Deniz",
+                "Plaj",
+                "Kum",
+                "Otel"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Plyaj\" turkchada nima?",
+              "options": [
+                "Plaj",
+                "Deniz",
+                "Otel",
+                "Kum"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mehmonxona\" turkchada nima?",
+              "options": [
+                "Otel",
+                "Plaj",
+                "Deniz",
+                "Tatil"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ta'tiling qanday o'tdi?\" turkchada qanday so'raladi?",
+              "options": [
+                "Tatilin nasıldı?",
+                "Tatilin ne zaman?",
+                "Tatil nerede?",
+                "Tatilin kaç gün?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ajoyib edi\" turkchada nima?",
+              "options": [
+                "Harikaydı",
+                "Sıkıcıydı",
+                "Kolaydı",
+                "Zordu"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xotira\" turkchada nima?",
+              "options": [
+                "Anı",
+                "Hediye",
+                "Otel",
+                "Plaj"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sovg'a\" turkchada nima?",
+              "options": [
+                "Hediye",
+                "Anı",
+                "Manzara",
+                "Kum"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qaytmoq\" turkchada nima?",
+              "options": [
+                "Dönmek",
+                "Gitmek",
+                "Gelmek",
+                "Kalmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Manzara\" turkchada nima?",
+              "options": [
+                "Manzara",
+                "Otel",
+                "Plaj",
+                "Deniz"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Kashf etmoq\" turkchada nima?",
+              "options": [
+                "Keşfetmek",
+                "Dönmek",
+                "Kalmak",
+                "Gitmek"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u8c",
+          "title": "C. Bayram — Bayram",
+          "start_page": 24,
+          "end_page": 24,
+          "explanation": {
+            "goals": [
+              "Bayram va milliy urf-odatlar haqida gapirish",
+              "Tabriklash iboralarini bilish",
+              "A1 darajasidagi barcha asosiy grammatikani umumiy takrorlash"
+            ],
+            "blocks": [
+              {
+                "heading": "Bayramlar",
+                "text": "Turkiyada muhim bayramlar: Ramazan Bayramı (Ramazon hayiti), Kurban Bayramı (Qurbon hayiti), Yılbaşı (Yangi yil).\n\nBayramlarda oila va qarindoshlar yig'iladi, ziyorat qilishadi, tabriklashadi."
+              },
+              {
+                "heading": "Tabriklash",
+                "text": "Tabriklash iboralari: \"Bayramınız kutlu olsun!\" (Bayramingiz muborak bo'lsin!), \"İyi bayramlar!\" (Yaxshi bayramlar!), \"Mutlu yıllar!\" (Yangi yilingiz muborak!).\n\nKattalar bolalarga bayramda pul yoki shirinlik berishadi - bu an'ana \"bayram harçlığı\" deb ataladi."
+              },
+              {
+                "heading": "Umumiy takrorlash",
+                "text": "A1 darajasida o'rgangan hamma narsa: salomlashuv, tanishuv, oila, uy, vaqt, narx, kasb, transport, ob-havo, muloqot - hammasi bayram haqida gapirishda birlashtirilishi mumkin.\n\nMisol: \"Bayramda ailemle buluşacağım, çok mutlu olacağım.\" (Bayramda oilam bilan uchrashaman, juda xursand bo'laman)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Bayramınız kutlu olsun!\" - bayram tabrigi."
+              },
+              {
+                "fact": "Ramazan Bayramı, Kurban Bayramı, Yılbaşı - Turkiyaning asosiy bayramlari."
+              },
+              {
+                "fact": "A1 darajasi shu dars bilan yakunlanadi - endi A2 ga o'tish mumkin."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "bayram",
+                "uz": "bayram",
+                "example_tr": "Bayram yakında.",
+                "example_uz": "Bayram yaqinda."
+              },
+              {
+                "tr": "kutlamak",
+                "uz": "nishonlamoq",
+                "example_tr": "Bayramı kutluyoruz.",
+                "example_uz": "Bayramni nishonlaymiz."
+              },
+              {
+                "tr": "kutlu olsun",
+                "uz": "muborak bo'lsin",
+                "example_tr": "Bayramınız kutlu olsun!",
+                "example_uz": "Bayramingiz muborak bo'lsin!"
+              },
+              {
+                "tr": "yılbaşı",
+                "uz": "yangi yil",
+                "example_tr": "Yılbaşı kutlu olsun!",
+                "example_uz": "Yangi yilingiz muborak!"
+              },
+              {
+                "tr": "aile toplantısı",
+                "uz": "oilaviy yig'in",
+                "example_tr": "Bayramda aile toplantısı var.",
+                "example_uz": "Bayramda oilaviy yig'in bor."
+              },
+              {
+                "tr": "hediye vermek",
+                "uz": "sovg'a bermoq",
+                "example_tr": "Çocuklara hediye verdik.",
+                "example_uz": "Bolalarga sovg'a berdik."
+              },
+              {
+                "tr": "ziyaret etmek",
+                "uz": "ziyorat qilmoq",
+                "example_tr": "Akrabaları ziyaret ettik.",
+                "example_uz": "Qarindoshlarni ziyorat qildik."
+              },
+              {
+                "tr": "akraba",
+                "uz": "qarindosh",
+                "example_tr": "Akrabalarımız geldi.",
+                "example_uz": "Qarindoshlarimiz kelishdi."
+              },
+              {
+                "tr": "tatlı",
+                "uz": "shirinlik",
+                "example_tr": "Bayramda tatlı yeriz.",
+                "example_uz": "Bayramda shirinlik yeymiz."
+              },
+              {
+                "tr": "sevinç",
+                "uz": "quvonch",
+                "example_tr": "Büyük bir sevinç.",
+                "example_uz": "Katta quvonch."
+              },
+              {
+                "tr": "mutlu",
+                "uz": "baxtli, xursand",
+                "example_tr": "Bayramda çok mutluyum.",
+                "example_uz": "Bayramda juda xursandman."
+              },
+              {
+                "tr": "gelenek",
+                "uz": "an'ana",
+                "example_tr": "Bu güzel bir gelenek.",
+                "example_uz": "Bu chiroyli an'ana."
+              },
+              {
+                "tr": "birlikte",
+                "uz": "birgalikda",
+                "example_tr": "Ailece birlikte yiyoruz.",
+                "example_uz": "Oilaviy birgalikda yeymiz."
+              },
+              {
+                "tr": "kucaklaşmak",
+                "uz": "quchoqlashmoq",
+                "example_tr": "Bayramda kucaklaşırız.",
+                "example_uz": "Bayramda quchoqlashamiz."
+              },
+              {
+                "tr": "el öpmek",
+                "uz": "qo'l o'pmoq (kattalarni hurmatlash)",
+                "example_tr": "Büyüklerin elini öperiz.",
+                "example_uz": "Kattalarning qo'lini o'pamiz."
+              },
+              {
+                "tr": "sofra",
+                "uz": "dasturxon",
+                "example_tr": "Sofra çok zengin.",
+                "example_uz": "Dasturxon juda boy."
+              },
+              {
+                "tr": "davet etmek",
+                "uz": "taklif qilmoq",
+                "example_tr": "Misafir davet ettik.",
+                "example_uz": "Mehmon taklif qildik."
+              },
+              {
+                "tr": "her yıl",
+                "uz": "har yili",
+                "example_tr": "Her yıl kutluyoruz.",
+                "example_uz": "Har yili nishonlaymiz."
+              },
+              {
+                "tr": "önemli gün",
+                "uz": "muhim kun",
+                "example_tr": "Bugün önemli bir gün.",
+                "example_uz": "Bugun muhim kun."
+              },
+              {
+                "tr": "tebrik",
+                "uz": "tabrik",
+                "example_tr": "Tebrik ederim!",
+                "example_uz": "Tabriklayman!"
+              }
+            ],
+            "reading": {
+              "title": "Bizning bayramimiz",
+              "text": "Yarın Kurban Bayramı. Ailem çok heyecanlı. Akrabalarımız gelecek, birlikte sofra kuracağız.\n\nÇocuklara hediye vereceğiz, büyüklerin elini öpeceğiz. \"Bayramınız kutlu olsun!\" diyeceğiz. Bu benim en sevdiğim gelenek.",
+              "questions": [
+                {
+                  "question": "Ertaga qaysi bayram?",
+                  "options": [
+                    "Qurbon hayiti",
+                    "Ramazon hayiti",
+                    "Yangi yil",
+                    "Tug'ilgan kun"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Oila nima qiladi?",
+                  "options": [
+                    "Qarindoshlar bilan yig'iladi",
+                    "Sayohatga chiqadi",
+                    "Ishlaydi",
+                    "Uxlaydi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Zara",
+                  "text": "Bayramınız kutlu olsun!"
+                },
+                {
+                  "speaker": "Emin",
+                  "text": "Sizin de bayramınız kutlu olsun! Ne yapıyorsun?"
+                },
+                {
+                  "speaker": "Zara",
+                  "text": "Ailemle birlikteyiz, çok mutluyum."
+                },
+                {
+                  "speaker": "Emin",
+                  "text": "Biz de akrabaları ziyaret ediyoruz."
+                },
+                {
+                  "speaker": "Zara",
+                  "text": "İyi bayramlar!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Zara bayramda nima qilyapti?",
+                  "options": [
+                    "Oilasi bilan birga",
+                    "Ishlayapti",
+                    "Sayohatda",
+                    "Yolg'iz"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Eminlar nima qilishyapti?",
+                  "options": [
+                    "Qarindoshlarni ziyorat qilishyapti",
+                    "Uyda o'tirishibdi",
+                    "Ishlashyapti",
+                    "Sayr qilishyapti"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Bayramingiz muborak bo'lsin!\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Bayramınız kutlu olsun!",
+                  "İyi günler!",
+                  "Hoşça kal!",
+                  "Teşekkür ederim!"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qarindosh\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Akraba",
+                  "Arkadaş",
+                  "Komşu",
+                  "Misafir"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bayramda juda xursandman.\" gapini tuzing.",
+                "words": [
+                  "Bayramda",
+                  "çok",
+                  "mutluyum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bolalarga sovg'a berdik.\" gapini tuzing.",
+                "words": [
+                  "Çocuklara",
+                  "hediye",
+                  "verdik."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"An'ana\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Gelenek",
+                  "Tebrik",
+                  "Sevinç",
+                  "Ziyaret"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ziyorat qilmoq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Ziyaret etmek",
+                  "Davet etmek",
+                  "Kutlamak",
+                  "Öpmek"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Sevimli bayramingizni qanday nishonlashingizni yozing (kamida 2 gap).",
+              "sample_answer": "Bayramda ailemle buluşuyoruz. Büyüklerin elini öpüyoruz."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Bayramınız kutlu olsun!",
+                "Çok mutluyum.",
+                "Ailemle birlikteyiz.",
+                "İyi bayramlar!"
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Bayram\" turkchada nima?",
+              "options": [
+                "Bayram",
+                "Tatil",
+                "Hafta sonu",
+                "Yıl"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bayramingiz muborak bo'lsin!\" turkchada nima?",
+              "options": [
+                "Bayramınız kutlu olsun!",
+                "İyi akşamlar!",
+                "Hoşça kal!",
+                "Görüşürüz!"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qarindosh\" turkchada nima?",
+              "options": [
+                "Akraba",
+                "Arkadaş",
+                "Komşu",
+                "Yabancı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sovg'a bermoq\" turkchada nima?",
+              "options": [
+                "Hediye vermek",
+                "Hediye almak",
+                "Davet etmek",
+                "Ziyaret etmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ziyorat qilmoq\" turkchada nima?",
+              "options": [
+                "Ziyaret etmek",
+                "Kutlamak",
+                "Davet etmek",
+                "Öpmek"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"An'ana\" turkchada nima?",
+              "options": [
+                "Gelenek",
+                "Tebrik",
+                "Sevinç",
+                "Bayram"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xursand\" turkchada nima?",
+              "options": [
+                "Mutlu",
+                "Yorgun",
+                "Üzgün",
+                "Meşgul"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tabrik\" turkchada nima?",
+              "options": [
+                "Tebrik",
+                "Gelenek",
+                "Akraba",
+                "Sevinç"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Dasturxon\" turkchada nima?",
+              "options": [
+                "Sofra",
+                "Tatlı",
+                "Hediye",
+                "Bayram"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Har yili\" turkchada nima?",
+              "options": [
+                "Her yıl",
+                "Her gün",
+                "Her hafta",
+                "Her ay"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
