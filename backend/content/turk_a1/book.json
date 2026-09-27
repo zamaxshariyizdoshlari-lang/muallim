@@ -7447,6 +7447,1240 @@
           ]
         }
       ]
+    },
+    {
+      "key": "u7",
+      "title": "7-unite. Iletisim",
+      "topics": [
+        {
+          "key": "u7a",
+          "title": "A. Telefon — Telefon",
+          "start_page": 19,
+          "end_page": 19,
+          "explanation": {
+            "goals": [
+              "Telefon suhbati iboralarini bilish",
+              "Raqamlarni telefon uchun aytish",
+              "\"Bence\" (mening fikrimcha) qurilmasini qo'llash"
+            ],
+            "blocks": [
+              {
+                "heading": "Telefon suhbati",
+                "text": "Telefonda gaplashishda: \"Alo?\" (Eshitaman?), \"Kimsiniz?\" (Siz kimsiz?), \"Bir dakika lütfen.\" (Bir daqiqa, iltimos), \"Sizi duyamıyorum.\" (Sizni eshitolmayapman)."
+              },
+              {
+                "heading": "Telefon raqami",
+                "text": "Telefon raqamini so'rash: \"Telefon numaranız ne?\" (Telefon raqamingiz nima?). Raqamlar birma-bir yoki juftlik qilib aytiladi.\n\n\"Numaranızı verir misiniz?\" (Raqamingizni bera olasizmi?) - xushmuomalalik bilan so'rash."
+              },
+              {
+                "heading": "Bence — mening fikrimcha",
+                "text": "\"Bence\" (mening fikrimcha) shaxsiy fikr bildirishda ishlatiladi: \"Bence bu telefon çok iyi.\" (Mening fikrimcha, bu telefon juda yaxshi).\n\n\"-a göre\" ham fikr bildirishda ishlatiladi: \"Bana göre\" (menimcha), \"Sana göre\" (seningcha)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"Alo?\" - telefon ko'targanda aytiladigan salom."
+              },
+              {
+                "fact": "\"Bence\" / \"Bana göre\" - mening fikrimcha, menimcha."
+              },
+              {
+                "fact": "\"Numaranız ne?\" - telefon raqamingiz nima?"
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "telefon",
+                "uz": "telefon",
+                "example_tr": "Telefonum yeni.",
+                "example_uz": "Telefonim yangi."
+              },
+              {
+                "tr": "alo",
+                "uz": "eshitaman (telefonda)",
+                "example_tr": "Alo, kimsiniz?",
+                "example_uz": "Eshitaman, siz kimsiz?"
+              },
+              {
+                "tr": "numara",
+                "uz": "raqam",
+                "example_tr": "Numaranız ne?",
+                "example_uz": "Raqamingiz nima?"
+              },
+              {
+                "tr": "aramak",
+                "uz": "qo'ng'iroq qilmoq",
+                "example_tr": "Seni arayacağım.",
+                "example_uz": "Senga qo'ng'iroq qilaman."
+              },
+              {
+                "tr": "mesaj",
+                "uz": "xabar",
+                "example_tr": "Mesaj attım.",
+                "example_uz": "Xabar yubordim."
+              },
+              {
+                "tr": "bence",
+                "uz": "mening fikrimcha",
+                "example_tr": "Bence çok güzel.",
+                "example_uz": "Mening fikrimcha, juda go'zal."
+              },
+              {
+                "tr": "bana göre",
+                "uz": "menimcha",
+                "example_tr": "Bana göre haklısın.",
+                "example_uz": "Menimcha, haqsan."
+              },
+              {
+                "tr": "duymak",
+                "uz": "eshitmoq",
+                "example_tr": "Seni duyamıyorum.",
+                "example_uz": "Seni eshitolmayapman."
+              },
+              {
+                "tr": "konuşmak",
+                "uz": "gaplashmoq",
+                "example_tr": "Telefonda konuşuyorum.",
+                "example_uz": "Telefonda gaplashyapman."
+              },
+              {
+                "tr": "kapatmak",
+                "uz": "yopmoq (telefonni)",
+                "example_tr": "Telefonu kapatıyorum.",
+                "example_uz": "Telefonni yopyapman."
+              },
+              {
+                "tr": "açmak",
+                "uz": "ochmoq/javob bermoq",
+                "example_tr": "Telefonu açtım.",
+                "example_uz": "Telefonga javob berdim."
+              },
+              {
+                "tr": "meşgul",
+                "uz": "band (telefon haqida)",
+                "example_tr": "Hat meşgul.",
+                "example_uz": "Liniya band."
+              },
+              {
+                "tr": "şarj",
+                "uz": "quvvat/zaryad",
+                "example_tr": "Telefonum şarjsız.",
+                "example_uz": "Telefonim zaryadsiz."
+              },
+              {
+                "tr": "ekran",
+                "uz": "ekran",
+                "example_tr": "Ekran kırık.",
+                "example_uz": "Ekran singan."
+              },
+              {
+                "tr": "yeni",
+                "uz": "yangi",
+                "example_tr": "Telefonum yeni.",
+                "example_uz": "Telefonim yangi."
+              },
+              {
+                "tr": "eski",
+                "uz": "eski",
+                "example_tr": "Eski telefon.",
+                "example_uz": "Eski telefon."
+              },
+              {
+                "tr": "daha",
+                "uz": "-roq (qiyoslash)",
+                "example_tr": "Bu daha iyi.",
+                "example_uz": "Bu yaxshiroq."
+              },
+              {
+                "tr": "en",
+                "uz": "eng",
+                "example_tr": "En iyi telefon.",
+                "example_uz": "Eng yaxshi telefon."
+              },
+              {
+                "tr": "geri aramak",
+                "uz": "qayta qo'ng'iroq qilmoq",
+                "example_tr": "Sizi geri arayacağım.",
+                "example_uz": "Sizga qayta qo'ng'iroq qilaman."
+              },
+              {
+                "tr": "bir dakika",
+                "uz": "bir daqiqa",
+                "example_tr": "Bir dakika lütfen.",
+                "example_uz": "Bir daqiqa, iltimos."
+              }
+            ],
+            "reading": {
+              "title": "Telefon suhbati",
+              "text": "Telefon çalıyor. Merve açıyor: \"Alo?\" Karşıdan bir ses: \"Merhaba, ben Ali. Ayşe orada mı?\"\n\nMerve \"Bir dakika lütfen\" diyor. Sonra Ayşe telefonu alıyor ve konuşmaya başlıyorlar. Bence telefon çok kullanışlı bir alet.",
+              "questions": [
+                {
+                  "question": "Ali kimni so'rayapti?",
+                  "options": [
+                    "Ayshe",
+                    "Merve",
+                    "Onasi",
+                    "Do'sti"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Merve nima deydi?",
+                  "options": [
+                    "Bir daqiqa, iltimos",
+                    "Kechirasiz",
+                    "Yo'q, u yo'q",
+                    "Xayr"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Ozan",
+                  "text": "Alo, kimsiniz?"
+                },
+                {
+                  "speaker": "Derin",
+                  "text": "Ben Derin. Numaranızı nereden buldum, bilmiyorum."
+                },
+                {
+                  "speaker": "Ozan",
+                  "text": "Sorun değil, nasıl yardımcı olabilirim?"
+                },
+                {
+                  "speaker": "Derin",
+                  "text": "Yanlış numara aramışım, özür dilerim."
+                },
+                {
+                  "speaker": "Ozan",
+                  "text": "Rica ederim, iyi günler!"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Derin nima uchun kechirim so'radi?",
+                  "options": [
+                    "Xato raqam terdi",
+                    "Kech qo'ng'iroq qildi",
+                    "Ovozi baland edi",
+                    "Uzoq gapladi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ozan qanday javob berdi?",
+                  "options": [
+                    "Xushmuomala javob berdi",
+                    "Jahli chiqdi",
+                    "Telefonni yopdi",
+                    "Javob bermadi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Eshitaman?\" (telefonda) turkchada qanday bo'ladi?",
+                "options": [
+                  "Alo?",
+                  "Merhaba?",
+                  "Efendim?",
+                  "Nasılsınız?"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Mening fikrimcha\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Bence",
+                  "Belki",
+                  "Çünkü",
+                  "Lazım"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Sizni eshitolmayapman.\" gapini tuzing.",
+                "words": [
+                  "Sizi",
+                  "duyamıyorum."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Bir daqiqa, iltimos.\" gapini tuzing.",
+                "words": [
+                  "Bir",
+                  "dakika",
+                  "lütfen."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Xabar\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Mesaj",
+                  "Numara",
+                  "Telefon",
+                  "Ekran"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Qo'ng'iroq qilmoq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Aramak",
+                  "Konuşmak",
+                  "Duymak",
+                  "Kapatmak"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Telefon orqali do'stingiz bilan qisqa suhbat yozing (kamida 2 gap).",
+              "sample_answer": "Alo, ben Ali. Nasılsın?"
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Alo, kimsiniz?",
+                "Bir dakika lütfen.",
+                "Sizi duyamıyorum.",
+                "Bence çok iyi."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Eshitaman?\" (telefonda) turkchada nima?",
+              "options": [
+                "Alo?",
+                "Merhaba?",
+                "Nasılsınız?",
+                "Efendim?"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Raqam\" turkchada nima?",
+              "options": [
+                "Numara",
+                "Telefon",
+                "Mesaj",
+                "Ekran"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Qo'ng'iroq qilmoq\" turkchada nima?",
+              "options": [
+                "Aramak",
+                "Konuşmak",
+                "Duymak",
+                "Yazmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xabar\" turkchada nima?",
+              "options": [
+                "Mesaj",
+                "Numara",
+                "Telefon",
+                "Ses"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Mening fikrimcha\" turkchada nima?",
+              "options": [
+                "Bence",
+                "Belki",
+                "Çünkü",
+                "Ve"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Eshitmoq\" turkchada nima?",
+              "options": [
+                "Duymak",
+                "Konuşmak",
+                "Görmek",
+                "Bakmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Gaplashmoq\" turkchada nima?",
+              "options": [
+                "Konuşmak",
+                "Duymak",
+                "Yazmak",
+                "Okumak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yangi\" turkchada nima?",
+              "options": [
+                "Yeni",
+                "Eski",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Eski\" turkchada nima?",
+              "options": [
+                "Eski",
+                "Yeni",
+                "Ucuz",
+                "Pahalı"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Eng\" turkchada nima?",
+              "options": [
+                "En",
+                "Daha",
+                "Bence",
+                "Gibi"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u7b",
+          "title": "B. Bilgisayar ve İnternet — Kompyuter va internet",
+          "start_page": 20,
+          "end_page": 20,
+          "explanation": {
+            "goals": [
+              "Kompyuter va internet bilan bog'liq so'zlarni bilish",
+              "Qiyoslash: \"-den daha\" (dan ko'ra)",
+              "Ustunlik darajasi: \"en\" (eng)"
+            ],
+            "blocks": [
+              {
+                "heading": "Kompyuter va internet",
+                "text": "Asosiy so'zlar: bilgisayar (kompyuter), internet, e-posta (elektron pochta), site (sayt), şifre (parol), dosya (fayl).\n\n\"İnternete bağlanıyorum.\" (Internetga ulanaman)."
+              },
+              {
+                "heading": "Qiyoslash: -den daha",
+                "text": "Ikki narsani solishtirish uchun \"-den daha\" (dan ko'ra ...roq) ishlatiladi: \"Bu bilgisayar o'ndan daha hızlı.\" (Bu kompyuter u biridan tezroq).\n\nMisol: \"İnternet kitaptan daha hızlı.\" (Internet kitobdan tezroq)."
+              },
+              {
+                "heading": "Ustunlik: en",
+                "text": "Eng yuqori darajani bildirish uchun sifatdan oldin \"en\" (eng) qo'yiladi: \"en hızlı\" (eng tez), \"en iyi\" (eng yaxshi), \"en pahalı\" (eng qimmat)."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"-den daha\" = dan ko'ra ...roq (qiyoslash)."
+              },
+              {
+                "fact": "\"en\" + sifat = eng ... (ustunlik): en iyi, en hızlı."
+              },
+              {
+                "fact": "şifre - parol, dosya - fayl, e-posta - elektron pochta."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "bilgisayar",
+                "uz": "kompyuter",
+                "example_tr": "Bilgisayarım yavaş.",
+                "example_uz": "Kompyuterim sekin."
+              },
+              {
+                "tr": "internet",
+                "uz": "internet",
+                "example_tr": "İnternet hızlı.",
+                "example_uz": "Internet tez."
+              },
+              {
+                "tr": "e-posta",
+                "uz": "elektron pochta",
+                "example_tr": "E-posta gönderdim.",
+                "example_uz": "Elektron pochta yubordim."
+              },
+              {
+                "tr": "site",
+                "uz": "sayt",
+                "example_tr": "Bu site çok iyi.",
+                "example_uz": "Bu sayt juda yaxshi."
+              },
+              {
+                "tr": "şifre",
+                "uz": "parol",
+                "example_tr": "Şifremi unuttum.",
+                "example_uz": "Parolimni unutdim."
+              },
+              {
+                "tr": "dosya",
+                "uz": "fayl",
+                "example_tr": "Dosyayı gönder.",
+                "example_uz": "Faylni yubor."
+              },
+              {
+                "tr": "hızlı",
+                "uz": "tez",
+                "example_tr": "İnternet çok hızlı.",
+                "example_uz": "Internet juda tez."
+              },
+              {
+                "tr": "yavaş",
+                "uz": "sekin",
+                "example_tr": "Bilgisayar yavaş.",
+                "example_uz": "Kompyuter sekin."
+              },
+              {
+                "tr": "daha",
+                "uz": "ko'ra ...roq",
+                "example_tr": "Bundan daha hızlı.",
+                "example_uz": "Bundan tezroq."
+              },
+              {
+                "tr": "en",
+                "uz": "eng",
+                "example_tr": "En hızlı internet.",
+                "example_uz": "Eng tez internet."
+              },
+              {
+                "tr": "indirmek",
+                "uz": "yuklab olmoq",
+                "example_tr": "Dosya indiriyorum.",
+                "example_uz": "Fayl yuklab olyapman."
+              },
+              {
+                "tr": "yüklemek",
+                "uz": "yuklamoq",
+                "example_tr": "Fotoğraf yüklüyorum.",
+                "example_uz": "Fotosurat yuklayapman."
+              },
+              {
+                "tr": "arama yapmak",
+                "uz": "qidirmoq",
+                "example_tr": "İnternette arama yapıyorum.",
+                "example_uz": "Internetda qidiryapman."
+              },
+              {
+                "tr": "bağlanmak",
+                "uz": "ulanmoq",
+                "example_tr": "İnternete bağlanıyorum.",
+                "example_uz": "Internetga ulanyapman."
+              },
+              {
+                "tr": "sosyal medya",
+                "uz": "ijtimoiy tarmoq",
+                "example_tr": "Sosyal medya kullanıyorum.",
+                "example_uz": "Ijtimoiy tarmoqdan foydalanaman."
+              },
+              {
+                "tr": "video",
+                "uz": "video",
+                "example_tr": "Video izliyorum.",
+                "example_uz": "Video tomosha qilyapman."
+              },
+              {
+                "tr": "ekran",
+                "uz": "ekran",
+                "example_tr": "Ekran büyük.",
+                "example_uz": "Ekran katta."
+              },
+              {
+                "tr": "klavye",
+                "uz": "klaviatura",
+                "example_tr": "Klavye kırık.",
+                "example_uz": "Klaviatura singan."
+              },
+              {
+                "tr": "fare",
+                "uz": "sichqoncha (kompyuter)",
+                "example_tr": "Fare çalışmıyor.",
+                "example_uz": "Sichqoncha ishlamayapti."
+              },
+              {
+                "tr": "program",
+                "uz": "dastur",
+                "example_tr": "Yeni bir program indirdim.",
+                "example_uz": "Yangi dastur yukladim."
+              }
+            ],
+            "reading": {
+              "title": "Yangi kompyuter",
+              "text": "Geçen hafta yeni bir bilgisayar aldım. Eski bilgisayarımdan daha hızlı. İnternet bağlantısı da çok iyi.\n\nBence bu benim en iyi bilgisayarım. Her gün e-posta gönderiyorum ve video izliyorum.",
+              "questions": [
+                {
+                  "question": "Yangi kompyuter eskisiga nisbatan qanday?",
+                  "options": [
+                    "Tezroq",
+                    "Sekinroq",
+                    "Kattaroq",
+                    "Kichikroq"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Muallif har kuni nima qiladi?",
+                  "options": [
+                    "Elektron pochta yuboradi",
+                    "O'yin o'ynaydi",
+                    "Kitob o'qiydi",
+                    "Musiqa tinglaydi"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Arda",
+                  "text": "Şifremi unuttum, ne yapmalıyım?"
+                },
+                {
+                  "speaker": "Zehra",
+                  "text": "Yeni bir şifre oluşturabilirsin."
+                },
+                {
+                  "speaker": "Arda",
+                  "text": "Nasıl?"
+                },
+                {
+                  "speaker": "Zehra",
+                  "text": "Siteye gir, \"şifremi unuttum\" yazısına tıkla."
+                },
+                {
+                  "speaker": "Arda",
+                  "text": "Tamam, deneyeceğim."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Arda nimani unutdi?",
+                  "options": [
+                    "Parolini",
+                    "Telefon raqamini",
+                    "Adresini",
+                    "Ismini"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Zehra qanday maslahat berdi?",
+                  "options": [
+                    "Yangi parol yaratish",
+                    "Qayta ro'yxatdan o'tish",
+                    "Kutish",
+                    "Telefon qilish"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Kompyuter\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Bilgisayar",
+                  "Telefon",
+                  "İnternet",
+                  "Ekran"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Eng tez\" turkchada qanday bo'ladi?",
+                "options": [
+                  "En hızlı",
+                  "Daha hızlı",
+                  "Çok hızlı",
+                  "Hızlı"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Internet juda tez.\" gapini tuzing.",
+                "words": [
+                  "İnternet",
+                  "çok",
+                  "hızlı."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Parolimni unutdim.\" gapini tuzing.",
+                "words": [
+                  "Şifremi",
+                  "unuttum."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Parol\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Şifre",
+                  "Dosya",
+                  "Site",
+                  "Program"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"...dan tezroq\" turkchada qanday ifodalanadi?",
+                "options": [
+                  "-den daha hızlı",
+                  "en hızlı",
+                  "çok hızlı",
+                  "hızlı gibi"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Kompyuteringiz yoki telefoningiz haqida yozing: nima uchun ishlatasiz (kamida 2 gap).",
+              "sample_answer": "Bilgisayarımı her gün kullanıyorum. E-posta gönderiyorum ve video izliyorum."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Bilgisayarım yavaş.",
+                "İnternet çok hızlı.",
+                "Şifremi unuttum.",
+                "Bu en iyi program."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Kompyuter\" turkchada nima?",
+              "options": [
+                "Bilgisayar",
+                "Telefon",
+                "Ekran",
+                "Program"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Parol\" turkchada nima?",
+              "options": [
+                "Şifre",
+                "Dosya",
+                "Site",
+                "E-posta"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Fayl\" turkchada nima?",
+              "options": [
+                "Dosya",
+                "Şifre",
+                "Site",
+                "Program"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tez\" turkchada nima?",
+              "options": [
+                "Hızlı",
+                "Yavaş",
+                "Büyük",
+                "Küçük"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sekin\" turkchada nima?",
+              "options": [
+                "Yavaş",
+                "Hızlı",
+                "Yeni",
+                "Eski"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Eng\" + sifat qanday ma'no beradi?",
+              "options": [
+                "Ustunlik (eng...)",
+                "Qiyoslash (...dan ko'ra)",
+                "Inkor",
+                "Savol"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yuklab olmoq\" turkchada nima?",
+              "options": [
+                "İndirmek",
+                "Yüklemek",
+                "Bağlanmak",
+                "Aramak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ulanmoq\" turkchada nima?",
+              "options": [
+                "Bağlanmak",
+                "İndirmek",
+                "Yüklemek",
+                "Kapatmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Sichqoncha\" (kompyuter) turkchada nima?",
+              "options": [
+                "Fare",
+                "Klavye",
+                "Ekran",
+                "Dosya"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Klaviatura\" turkchada nima?",
+              "options": [
+                "Klavye",
+                "Fare",
+                "Ekran",
+                "Program"
+              ],
+              "correct_index": 0
+            }
+          ]
+        },
+        {
+          "key": "u7c",
+          "title": "C. Yüz Yüze — Yuzma-yuz",
+          "start_page": 21,
+          "end_page": 21,
+          "explanation": {
+            "goals": [
+              "Muloqot turlarini taqqoslash (telefon, internet, yuzma-yuz)",
+              "\"-den beri\" (dan beri) qurilmasi",
+              "\"-dir/-dır\" taxminiy tasdiq qo'shimchasi"
+            ],
+            "blocks": [
+              {
+                "heading": "Muloqot turlari",
+                "text": "Odamlar bilan turlicha muloqot qilish mumkin: yüz yüze (yuzma-yuz), telefonla (telefon orqali), internetten (internet orqali), mektupla (xat orqali).\n\n\"Yüz yüze konuşmak daha iyi.\" (Yuzma-yuz gaplashish yaxshiroq)."
+              },
+              {
+                "heading": "-den beri — dan beri",
+                "text": "\"-den beri\" (dan beri) vaqt boshlanishini bildiradi: \"Sabahtan beri çalışıyorum.\" (Ertalabdan beri ishlayapman). \"İki yıldan beri Türkçe öğreniyorum.\" (Ikki yildan beri turk tilini o'rganaman)."
+              },
+              {
+                "heading": "-dir/-dır",
+                "text": "\"-dir/-dır\" qo'shimchasi taxmin yoki umumiy haqiqatni bildiradi: \"Bugün pazartesidir.\" (Bugun dushanbadir). Rasmiy va yozma nutqda ko'proq ishlatiladi."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "\"-den beri\" - dan beri, vaqt boshlanishini bildiradi."
+              },
+              {
+                "fact": "yüz yüze - yuzma-yuz, eng samimiy muloqot turi."
+              },
+              {
+                "fact": "\"-dir/-dır\" - taxmin yoki umumiy haqiqatni bildiradi (rasmiy)."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "yüz yüze",
+                "uz": "yuzma-yuz",
+                "example_tr": "Yüz yüze konuşalım.",
+                "example_uz": "Yuzma-yuz gaplashaylik."
+              },
+              {
+                "tr": "mektup",
+                "uz": "xat",
+                "example_tr": "Mektup yazdım.",
+                "example_uz": "Xat yozdim."
+              },
+              {
+                "tr": "iletişim",
+                "uz": "aloqa, muloqot",
+                "example_tr": "İletişim çok önemli.",
+                "example_uz": "Muloqot juda muhim."
+              },
+              {
+                "tr": "-den beri",
+                "uz": "-dan beri",
+                "example_tr": "İki yıldan beri.",
+                "example_uz": "Ikki yildan beri."
+              },
+              {
+                "tr": "yıl",
+                "uz": "yil",
+                "example_tr": "Bir yıl oldu.",
+                "example_uz": "Bir yil bo'ldi."
+              },
+              {
+                "tr": "ay",
+                "uz": "oy",
+                "example_tr": "Bir ay önce.",
+                "example_uz": "Bir oy oldin."
+              },
+              {
+                "tr": "konuşma",
+                "uz": "suhbat",
+                "example_tr": "Güzel bir konuşma.",
+                "example_uz": "Chiroyli suhbat."
+              },
+              {
+                "tr": "anlaşmak",
+                "uz": "kelishmoq/tushunishmoq",
+                "example_tr": "Onunla anlaşıyorum.",
+                "example_uz": "U bilan kelishaman."
+              },
+              {
+                "tr": "anlamak",
+                "uz": "tushunmoq",
+                "example_tr": "Seni anlıyorum.",
+                "example_uz": "Seni tushunaman."
+              },
+              {
+                "tr": "yanlış anlamak",
+                "uz": "noto'g'ri tushunmoq",
+                "example_tr": "Beni yanlış anladın.",
+                "example_uz": "Meni noto'g'ri tushunding."
+              },
+              {
+                "tr": "önemli",
+                "uz": "muhim",
+                "example_tr": "İletişim önemli.",
+                "example_uz": "Muloqot muhim."
+              },
+              {
+                "tr": "samimi",
+                "uz": "samimiy",
+                "example_tr": "Çok samimi bir insan.",
+                "example_uz": "Juda samimiy odam."
+              },
+              {
+                "tr": "güven",
+                "uz": "ishonch",
+                "example_tr": "Güven çok önemli.",
+                "example_uz": "Ishonch juda muhim."
+              },
+              {
+                "tr": "dinlemek",
+                "uz": "tinglamoq (kishini)",
+                "example_tr": "Beni dinle.",
+                "example_uz": "Meni tingla."
+              },
+              {
+                "tr": "anlatmak",
+                "uz": "tushuntirmoq",
+                "example_tr": "Bana anlat.",
+                "example_uz": "Menga tushuntir."
+              },
+              {
+                "tr": "fikir",
+                "uz": "fikr",
+                "example_tr": "Fikrini söyle.",
+                "example_uz": "Fikringni ayt."
+              },
+              {
+                "tr": "tartışmak",
+                "uz": "bahslashmoq",
+                "example_tr": "Onunla tartıştım.",
+                "example_uz": "U bilan bahslashdim."
+              },
+              {
+                "tr": "barışmak",
+                "uz": "yarashmoq",
+                "example_tr": "Sonunda barıştık.",
+                "example_uz": "Oxir-oqibat yarashdik."
+              },
+              {
+                "tr": "arkadaşlık",
+                "uz": "do'stlik",
+                "example_tr": "Uzun bir arkadaşlık.",
+                "example_uz": "Uzoq davom etgan do'stlik."
+              },
+              {
+                "tr": "değerli",
+                "uz": "qadrli",
+                "example_tr": "Sen benim için değerlisin.",
+                "example_uz": "Sen men uchun qadrlisan."
+              }
+            ],
+            "reading": {
+              "title": "Eski do'stlik",
+              "text": "Ahmet ve Can beş yıldan beri arkadaş. Her gün yüz yüze görüşmüyorlar ama telefonla konuşuyorlar.\n\nGeçen hafta yüz yüze buluştular ve çok mutlu oldular. Bence yüz yüze konuşmak, telefondan daha samimi.",
+              "questions": [
+                {
+                  "question": "Ahmet va Can necha yildan buyon do'st?",
+                  "options": [
+                    "Besh yildan",
+                    "Ikki yildan",
+                    "O'n yildan",
+                    "Bir yildan"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Muallifning fikricha nima ko'proq samimiy?",
+                  "options": [
+                    "Yuzma-yuz suhbat",
+                    "Telefon suhbati",
+                    "Xat yozish",
+                    "Internet"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Pelin",
+                  "text": "Seninle ne zamandır görüşmüyoruz!"
+                },
+                {
+                  "speaker": "Barış",
+                  "text": "Evet, üç aydan beri görüşmedik."
+                },
+                {
+                  "speaker": "Pelin",
+                  "text": "Yüz yüze buluşalım mı?"
+                },
+                {
+                  "speaker": "Barış",
+                  "text": "Harika fikir, ne zaman uygun?"
+                },
+                {
+                  "speaker": "Pelin",
+                  "text": "Cumartesi nasıl?"
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Ular necha oydan buyon ko'rishmagan?",
+                  "options": [
+                    "Uch oydan",
+                    "Bir oydan",
+                    "Olti oydan",
+                    "Bir yildan"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Pelin nima taklif qildi?",
+                  "options": [
+                    "Yuzma-yuz uchrashish",
+                    "Telefon qilish",
+                    "Xat yozish",
+                    "Internetda gaplashish"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Yuzma-yuz\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Yüz yüze",
+                  "Telefonla",
+                  "İnternetten",
+                  "Mektupla"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ikki yildan beri\" turkchada qanday bo'ladi?",
+                "options": [
+                  "İki yıldan beri",
+                  "İki yıl önce",
+                  "İki yıl sonra",
+                  "İki yılda"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Meni tushunasanmi?\" gapini tuzing.",
+                "words": [
+                  "Beni",
+                  "anlıyor",
+                  "musun?"
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Muloqot juda muhim.\" gapini tuzing.",
+                "words": [
+                  "İletişim",
+                  "çok",
+                  "önemli."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Tushunmoq\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Anlamak",
+                  "Anlatmak",
+                  "Dinlemek",
+                  "Konuşmak"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Xat\" turkchada qanday bo'ladi?",
+                "options": [
+                  "Mektup",
+                  "Mesaj",
+                  "E-posta",
+                  "Telefon"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Eng yaqin do'stingiz bilan qanday muloqot qilishingizni yozing (telefon, yuzma-yuz va h.k.) (kamida 2 gap).",
+              "sample_answer": "En iyi arkadaşımla her gün telefonla konuşuyorum. Bazen yüz yüze görüşüyoruz."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Yüz yüze konuşalım.",
+                "Üç yıldan beri arkadaşız.",
+                "Seni anlıyorum.",
+                "İletişim çok önemli."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Yuzma-yuz\" turkchada nima?",
+              "options": [
+                "Yüz yüze",
+                "Telefonla",
+                "Mektupla",
+                "İnternetten"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Xat\" turkchada nima?",
+              "options": [
+                "Mektup",
+                "Mesaj",
+                "Telefon",
+                "E-posta"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"...dan beri\" turkchada qanday ifodalanadi?",
+              "options": [
+                "-den beri",
+                "-den daha",
+                "-e göre",
+                "-den önce"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tushunmoq\" turkchada nima?",
+              "options": [
+                "Anlamak",
+                "Anlatmak",
+                "Dinlemek",
+                "Konuşmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Tushuntirmoq\" turkchada nima?",
+              "options": [
+                "Anlatmak",
+                "Anlamak",
+                "Dinlemek",
+                "Duymak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Muhim\" turkchada nima?",
+              "options": [
+                "Önemli",
+                "Değerli",
+                "Samimi",
+                "Güvenli"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Ishonch\" turkchada nima?",
+              "options": [
+                "Güven",
+                "Fikir",
+                "İletişim",
+                "Arkadaşlık"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Bahslashmoq\" turkchada nima?",
+              "options": [
+                "Tartışmak",
+                "Barışmak",
+                "Anlaşmak",
+                "Konuşmak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Yarashmoq\" turkchada nima?",
+              "options": [
+                "Barışmak",
+                "Tartışmak",
+                "Anlamak",
+                "Duymak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Do'stlik\" turkchada nima?",
+              "options": [
+                "Arkadaşlık",
+                "İletişim",
+                "Güven",
+                "Konuşma"
+              ],
+              "correct_index": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
