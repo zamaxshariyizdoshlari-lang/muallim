@@ -74,6 +74,10 @@ function LessonEditor({ topicId }) {
   return (
     <div className="flex flex-col gap-5">
       <ErrorNote>{error}</ErrorNote>
+      <p className="-mb-1 text-xs text-muted">
+        Matn ichida <code className="rounded bg-surface-2 px-1">**muhim so'z**</code> - qalin qilib,{' '}
+        <code className="rounded bg-surface-2 px-1">==testda chiqishi mumkin==</code> - sariq belgilab ko'rsatiladi.
+      </p>
 
       <div className="card p-5 sm:p-6">
         <label className="mb-2 block text-sm font-semibold text-ink-2">

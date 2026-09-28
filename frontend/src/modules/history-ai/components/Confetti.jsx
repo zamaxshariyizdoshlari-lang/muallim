@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const COLORS = ['var(--brand)', 'var(--gold)', 'var(--ok)', '#e879f9', '#38bdf8']
 
-/** Tabriklash effekti: test/imtihon 100% topshirilganda yoki sertifikat olinganda bir martalik
+/** Tabriklash effekti: test/imtihon o'tilganda yoki sertifikat olinganda bir martalik
  * "konfetti" animatsiyasi. Ekranni bloklamaydi, ~2 soniyadan keyin o'zini tozalaydi. */
 export default function Confetti() {
   const [pieces] = useState(() =>

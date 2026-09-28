@@ -11,6 +11,7 @@ import MatchingGame from '../components/MatchingGame'
 import PresentationViewer from '../components/PresentationViewer'
 import QuizGame from '../components/QuizGame'
 import ReadingExercise from '../components/ReadingExercise'
+import RichText from '../components/RichText'
 import SentencePractice from '../components/SentencePractice'
 import SpeakingPractice from '../components/SpeakingPractice'
 import TimelineGame from '../components/TimelineGame'
@@ -290,8 +291,8 @@ function FinalTestCta({ isTeacher, onStartTest }) {
         </span>
         <div className="min-w-0 flex-1">
           <p className="font-read text-base leading-relaxed text-ink-2">
-            Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu faqat testni <b className="text-ink">100%</b> topshirgandan
-            keyin ochiladi.
+            Mavzudagi barcha ma'lumotlar bo'yicha to'liq test. Keyingi mavzu savollarning kamida{' '}
+            <b className="text-ink">80%</b>ini to'g'ri topshirgandan keyin ochiladi.
           </p>
         </div>
         <button onClick={onStartTest} className="btn btn-primary">
@@ -360,7 +361,7 @@ function LessonPlanCard({ plan }) {
               <div className="read">
                 {b.text.split(/\n{2,}/).map((para, pi) => (
                   <p key={pi} className={i === 0 && pi === 0 ? 'read-first' : ''}>
-                    {para}
+                    <RichText text={para} />
                   </p>
                 ))}
               </div>
@@ -385,7 +386,7 @@ function LessonPlanCard({ plan }) {
           <ul className="grid gap-3 sm:grid-cols-2">
             {plan.key_facts.map((f, i) => (
               <li key={i} className="card border-l-4 !border-l-gold p-4 text-sm leading-relaxed text-ink-2">
-                {f.fact}
+                <RichText text={f.fact} />
                 <PageTag page={f.page} />
                 {f.verified === false && <UnverifiedTag />}
               </li>
@@ -397,14 +398,14 @@ function LessonPlanCard({ plan }) {
       {plan.explanation && (
         <div className="card p-5 sm:p-6">
           <h3 className="mb-2 font-display text-lg font-bold text-ink">Tushuntirish</h3>
-          <p className="read !text-base">{plan.explanation}</p>
+          <p className="read !text-base"><RichText text={plan.explanation} /></p>
         </div>
       )}
 
       {plan.summary && (
         <div className="rounded-2xl border border-brand/30 bg-brand-soft p-5 sm:p-6">
           <h3 className="mb-2 font-display text-lg font-bold text-brand">Xulosa</h3>
-          <p className="font-read text-base leading-relaxed text-ink">{plan.summary}</p>
+          <p className="font-read text-base leading-relaxed text-ink"><RichText text={plan.summary} /></p>
         </div>
       )}
     </div>

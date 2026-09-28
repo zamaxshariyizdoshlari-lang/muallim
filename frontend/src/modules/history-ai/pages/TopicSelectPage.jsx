@@ -112,7 +112,7 @@ export default function TopicSelectPage({
                     <button
                       onClick={() => onSelect(topic)}
                       disabled={locked}
-                      title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini 100% topshiring" : undefined}
+                      title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini topshiring" : undefined}
                       className={`card card-hover flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left ${
                         locked ? '!bg-paper-2 !shadow-none' : ''
                       } ${current ? '!border-brand' : ''}`}
