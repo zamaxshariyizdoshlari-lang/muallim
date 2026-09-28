@@ -15,8 +15,8 @@ services:
       python manage.py collectstatic --noinput &&
       python manage.py migrate &&
       (python manage.py createsuperuser --noinput || true) &&
-      (python manage.py import_book content/qd6/book.json --user admin || true) &&
-      (python manage.py import_book content/turk_a1/book.json --user admin || true)
+      python manage.py import_book content/qd6/book.json --user "$DJANGO_SUPERUSER_USERNAME" &&
+      python manage.py import_book content/turk_a1/book.json --user "$DJANGO_SUPERUSER_USERNAME"
     startCommand: "gunicorn config.wsgi:application"
     envVars:
       - key: PYTHON_VERSION

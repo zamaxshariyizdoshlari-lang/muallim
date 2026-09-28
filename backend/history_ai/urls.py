@@ -1,10 +1,36 @@
 from django.urls import path
 
-from . import views
+from . import admin_api, views
 
 app_name = 'history_ai'
 
 urlpatterns = [
+    path('admin/stats/', admin_api.AdminStatsView.as_view(), name='admin-stats'),
+    path('admin/students/', admin_api.AdminStudentListView.as_view(), name='admin-students'),
+    path('admin/students/<int:user_id>/', admin_api.AdminStudentDetailView.as_view(), name='admin-student-detail'),
+    path(
+        'admin/students/<int:user_id>/action/', admin_api.AdminStudentActionView.as_view(),
+        name='admin-student-action',
+    ),
+    path('admin/subjects/', admin_api.AdminSubjectListCreateView.as_view(), name='admin-subjects'),
+    path('admin/subjects/<int:pk>/', admin_api.AdminSubjectDetailView.as_view(), name='admin-subject-detail'),
+    path('admin/books/', admin_api.AdminBookListView.as_view(), name='admin-books'),
+    path('admin/books/<int:pk>/', admin_api.AdminBookDetailView.as_view(), name='admin-book-detail'),
+    path(
+        'admin/books/<int:book_id>/sections/', admin_api.AdminSectionListCreateView.as_view(),
+        name='admin-sections',
+    ),
+    path('admin/sections/<int:pk>/', admin_api.AdminSectionDetailView.as_view(), name='admin-section-detail'),
+    path(
+        'admin/sections/<int:section_id>/topics/', admin_api.AdminTopicListCreateView.as_view(),
+        name='admin-topics',
+    ),
+    path('admin/topics/<int:pk>/', admin_api.AdminTopicDetailView.as_view(), name='admin-topic-detail'),
+    path(
+        'admin/topics/<int:topic_id>/lesson/', admin_api.AdminTopicLessonView.as_view(),
+        name='admin-topic-lesson',
+    ),
+    path('admin/topics/<int:topic_id>/test/', admin_api.AdminTopicTestView.as_view(), name='admin-topic-test'),
     path('me/', views.MeView.as_view(), name='me'),
     path('heartbeat/', views.HeartbeatView.as_view(), name='heartbeat'),
     path('leaderboard/', views.LeaderboardView.as_view(), name='leaderboard'),

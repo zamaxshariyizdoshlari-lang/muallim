@@ -23,9 +23,12 @@ Domen sotib olmasdan, boshqa odamlar sinab ko'rishi uchun bepul manzil bilan joy
    - `DJANGO_SUPERUSER_EMAIL` = sizning emailingiz
    - `DJANGO_SUPERUSER_PASSWORD` = kuchli parol
    Saqlab, qayta joylashtirilganda `render.yaml`dagi build buyrug'i `createsuperuser --noinput`
-   va ikkala kursni (`content/qd6/book.json`, `content/turk_a1/book.json`) avtomatik import qiladi
-   (loglar orqali tekshirib bo'ladi). Buyruqlar `|| true` bilan himoyalangan, shu sabab keyingi
-   deploylarda hisob allaqachon bor bo'lsa xato bermay o'tib ketaveradi.
+   va ikkala kursni (`content/qd6/book.json`, `content/turk_a1/book.json`) shu foydalanuvchi
+   nomidan avtomatik import qiladi (loglar orqali tekshirib bo'ladi). `createsuperuser`
+   `|| true` bilan himoyalangan (keyingi deploylarda hisob allaqachon bor bo'lsa xato bermaydi),
+   lekin kontent import buyruqlari himoyalanmagan - shu sabab agar import muvaffaqiyatsiz
+   tugasa (masalan JSON noto'g'ri bo'lsa), build xato bilan to'xtaydi va loglarda sababi ko'rinadi,
+   aks holda kontent jim-jit import qilinmay qolib, sayt bo'sh (testlar yo'q) holda ishga tushardi.
 
 **Frontend (Vercel):**
 1. [vercel.com](https://vercel.com) da GitHub hisobingiz bilan kiring.

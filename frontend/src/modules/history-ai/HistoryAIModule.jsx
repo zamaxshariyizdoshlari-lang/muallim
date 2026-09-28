@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, Home, LogOut, Star, UserRound, WifiOff } from 'lucide-react'
+import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, UserRound, WifiOff } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -9,6 +9,11 @@ import {
   submitSectionExam, submitTopicTest,
 } from './api/client'
 import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
+import AdminBookEditorPage from './pages/admin/AdminBookEditorPage'
+import AdminContentPage from './pages/admin/AdminContentPage'
+import AdminDashboardPage from './pages/admin/AdminDashboardPage'
+import AdminStudentDetailPage from './pages/admin/AdminStudentDetailPage'
+import AdminTopicEditorPage from './pages/admin/AdminTopicEditorPage'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
@@ -132,6 +137,13 @@ export default function HistoryAIModule() {
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
         </Route>
+        <Route path="boshqaruv" element={<AdminGate />}>
+          <Route index element={<AdminDashboardRoute />} />
+          <Route path="talaba/:userId" element={<AdminStudentDetailRoute />} />
+          <Route path="kontent" element={<AdminContentRoute />} />
+          <Route path="kontent/kitob/:bookId" element={<AdminBookEditorRoute />} />
+          <Route path="kontent/kitob/:bookId/mavzu/:topicId" element={<AdminTopicEditorRoute />} />
+        </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
@@ -184,7 +196,7 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
             <span className="font-display text-lg font-bold leading-none text-ink">Muallim</span>
           </Link>
 
-          <NavMenu />
+          <NavMenu isTeacher={me.is_staff} />
 
           <div className="flex items-center gap-2">
             {stats && (
@@ -225,13 +237,15 @@ const NAV_ITEMS = [
   { to: '/', label: 'Bosh sahifa', icon: Home, end: true },
   { to: '/profil', label: 'Profil', icon: UserRound },
 ]
+const ADMIN_NAV_ITEM = { to: '/boshqaruv', label: 'Boshqaruv', icon: LayoutDashboard }
 
 /** Katta ekranda header ichidagi gorizontal menyu. */
-function NavMenu() {
+function NavMenu({ isTeacher }) {
   const location = useLocation()
+  const items = isTeacher ? [...NAV_ITEMS, ADMIN_NAV_ITEM] : NAV_ITEMS
   return (
     <nav aria-label="Asosiy menyu" className="hidden items-center gap-1 sm:flex">
-      {NAV_ITEMS.map(({ to, label, icon: Icon, end }) => {
+      {items.map(({ to, label, icon: Icon, end }) => {
         const active = end ? location.pathname === to : location.pathname.startsWith(to)
         return (
           <Link
@@ -453,6 +467,72 @@ function ExamRoute() {
       passedLabel="Kurs muvaffaqiyatli tugatildi! Sertifikatingiz tayyor."
       onBack={back}
       onPassed={back}
+    />
+  )
+}
+
+/* ───────── Boshqaruv paneli (faqat is_staff) ───────── */
+
+function AdminGate() {
+  const outer = useOutletContext()
+  if (!outer.isTeacher) return <Navigate to="/" replace />
+  return <Outlet context={outer} />
+}
+
+function AdminDashboardRoute() {
+  const navigate = useNavigate()
+  return (
+    <AdminDashboardPage
+      onOpenStudent={(id) => navigate(`/boshqaruv/talaba/${id}`)}
+      onOpenContent={() => navigate('/boshqaruv/kontent')}
+    />
+  )
+}
+
+function AdminStudentDetailRoute() {
+  const { userId } = useParams()
+  const navigate = useNavigate()
+  return <AdminStudentDetailPage userId={Number(userId)} onBack={() => navigate('/boshqaruv')} />
+}
+
+function AdminContentRoute() {
+  const navigate = useNavigate()
+  return (
+    <AdminContentPage
+      onOpenBook={(id) => navigate(`/boshqaruv/kontent/kitob/${id}`)}
+      onBack={() => navigate('/boshqaruv')}
+    />
+  )
+}
+
+function AdminBookEditorRoute() {
+  const { bookId } = useParams()
+  const navigate = useNavigate()
+  return (
+    <AdminBookEditorPage
+      bookId={Number(bookId)}
+      onBack={() => navigate('/boshqaruv/kontent')}
+      onOpenTopic={(topicId) => navigate(`/boshqaruv/kontent/kitob/${bookId}/mavzu/${topicId}`)}
+    />
+  )
+}
+
+function AdminTopicEditorRoute() {
+  const { bookId, topicId } = useParams()
+  const navigate = useNavigate()
+  const [title, setTitle] = useState('')
+
+  useEffect(() => {
+    listTopics(Number(bookId)).then((topics) => {
+      setTitle(topics.find((t) => t.id === Number(topicId))?.title || '')
+    })
+  }, [bookId, topicId])
+
+  return (
+    <AdminTopicEditorPage
+      topicId={Number(topicId)}
+      topicTitle={title}
+      onBack={() => navigate(`/boshqaruv/kontent/kitob/${bookId}`)}
     />
   )
 }

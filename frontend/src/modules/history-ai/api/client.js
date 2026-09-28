@@ -272,3 +272,93 @@ export async function verifyCertificate(code) {
   if (!res.ok) return { valid: false }
   return body
 }
+
+/* ───────── Boshqaruv paneli (faqat is_staff) ───────── */
+
+function jsonRequest(path, method, payload) {
+  return request(path, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+}
+
+export function getAdminStats() {
+  return request('/admin/stats/')
+}
+
+export function getAdminStudents(q = '') {
+  return request(`/admin/students/${q ? `?q=${encodeURIComponent(q)}` : ''}`)
+}
+
+export function getAdminStudent(userId) {
+  return request(`/admin/students/${userId}/`)
+}
+
+export function adminStudentAction(userId, action) {
+  return jsonRequest(`/admin/students/${userId}/action/`, 'POST', { action })
+}
+
+export function listAdminSubjects() {
+  return request('/admin/subjects/')
+}
+
+export function createAdminSubject(payload) {
+  return jsonRequest('/admin/subjects/', 'POST', payload)
+}
+
+export function updateAdminSubject(id, payload) {
+  return jsonRequest(`/admin/subjects/${id}/`, 'PATCH', payload)
+}
+
+export function deleteAdminSubject(id) {
+  return request(`/admin/subjects/${id}/`, { method: 'DELETE' })
+}
+
+export function listAdminBooks() {
+  return request('/admin/books/')
+}
+
+export function updateAdminBook(id, payload) {
+  return jsonRequest(`/admin/books/${id}/`, 'PATCH', payload)
+}
+
+export function deleteAdminBook(id) {
+  return request(`/admin/books/${id}/`, { method: 'DELETE' })
+}
+
+export function createAdminSection(bookId, payload) {
+  return jsonRequest(`/admin/books/${bookId}/sections/`, 'POST', payload)
+}
+
+export function updateAdminSection(id, payload) {
+  return jsonRequest(`/admin/sections/${id}/`, 'PATCH', payload)
+}
+
+export function deleteAdminSection(id) {
+  return request(`/admin/sections/${id}/`, { method: 'DELETE' })
+}
+
+export function createAdminTopic(sectionId, payload) {
+  return jsonRequest(`/admin/sections/${sectionId}/topics/`, 'POST', payload)
+}
+
+export function updateAdminTopic(id, payload) {
+  return jsonRequest(`/admin/topics/${id}/`, 'PATCH', payload)
+}
+
+export function deleteAdminTopic(id) {
+  return request(`/admin/topics/${id}/`, { method: 'DELETE' })
+}
+
+export function getAdminTopicLesson(topicId) {
+  return request(`/admin/topics/${topicId}/lesson/`)
+}
+
+export function saveAdminTopicLesson(topicId, lessonPlan) {
+  return jsonRequest(`/admin/topics/${topicId}/lesson/`, 'PUT', { lesson_plan: lessonPlan })
+}
+
+export function getAdminTopicTest(topicId) {
+  return request(`/admin/topics/${topicId}/test/`)
+}
+
+export function saveAdminTopicTest(topicId, questions) {
+  return jsonRequest(`/admin/topics/${topicId}/test/`, 'PUT', { questions })
+}
