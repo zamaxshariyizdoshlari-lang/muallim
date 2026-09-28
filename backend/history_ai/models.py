@@ -324,6 +324,8 @@ class UserSettings(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='learning_settings')
     daily_goal = models.PositiveIntegerField(default=50)
     show_in_leaderboard = models.BooleanField(default=True)
+    email_reminders = models.BooleanField(default=True, verbose_name="Streak eslatma emaillari")
+    last_reminder_sent = models.DateField(null=True, blank=True)
 
     class Meta:
         verbose_name = "Foydalanuvchi sozlamasi"

@@ -30,6 +30,20 @@ Domen sotib olmasdan, boshqa odamlar sinab ko'rishi uchun bepul manzil bilan joy
    tugasa (masalan JSON noto'g'ri bo'lsa), build xato bilan to'xtaydi va loglarda sababi ko'rinadi,
    aks holda kontent jim-jit import qilinmay qolib, sayt bo'sh (testlar yo'q) holda ishga tushardi.
 
+7. **Email (ixtiyoriy, lekin tavsiya etiladi)** — parolni tiklash va "streak uzilmoqda"
+   eslatmalari haqiqatan yuborilishi uchun **Environment**'ga qo'shing:
+   - `EMAIL_HOST` (masalan `smtp.gmail.com` yoki Resend/Brevo/Mailgun SMTP manzili)
+   - `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD` (Gmail uchun oddiy parol emas, **App Password** kerak)
+   - `DEFAULT_FROM_EMAIL` (masalan `Muallim <no-reply@sizningdomeningiz.uz>`)
+   Bo'sh qoldirsangiz ham sayt ishlayveradi, faqat email jim-jit yuborilmaydi (xato chiqmaydi).
+8. **Streak eslatmasi uchun Cron Job (ixtiyoriy)** — foydalanuvchi kunlik ketma-ketligini
+   uzmasin deb har kuni kechqurun eslatma yuborish uchun: Render paneli → **New +** →
+   **Cron Job** → shu repo, **Root Directory** = `backend`, **Build Command** =
+   `pip install -r requirements.txt`, **Command** = `python manage.py send_streak_reminders`,
+   **Schedule** = `0 15 * * *` (UTC 15:00 ≈ Toshkent vaqti bilan 20:00). Web xizmatidagi
+   `DB_*` va `EMAIL_*` o'zgaruvchilarining barchasini shu Cron Job'ga ham qo'shing (Render'da
+   "Environment Group" orqali ikkalasiga bitta joydan bersa ham bo'ladi).
+
 **Frontend (Vercel):**
 1. [vercel.com](https://vercel.com) da GitHub hisobingiz bilan kiring.
 2. **Add New** → **Project** → `muallim` repo'ni tanlang.

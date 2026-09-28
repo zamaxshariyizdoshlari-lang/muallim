@@ -80,7 +80,7 @@ def record_grading(user, book, questions, answers, topic=None):
     topics = None
     for i, q in enumerate(questions):
         chosen = (answers or {}).get(str(i))
-        correct = chosen == q['correct_index']
+        correct = chosen == q['options'][q['correct_index']]
         key = qkey(q['question'])
         if correct:
             _advance(user, book, key)

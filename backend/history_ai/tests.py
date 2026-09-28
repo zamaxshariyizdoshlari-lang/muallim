@@ -63,7 +63,7 @@ class CourseFixture(TestCase):
         self.client.credentials(HTTP_AUTHORIZATION=f'Token {token.key}')
 
     def submit(self, topic, correct=True):
-        answers = {'0': 0 if correct else 1, '1': 0}
+        answers = {'0': "to'g'ri" if correct else 'xato', '1': "to'g'ri"}
         return self.client.post(f'{H}topics/{topic.id}/test/submit/', {'answers': answers}, format='json')
 
 
@@ -185,14 +185,19 @@ class GamificationTests(CourseFixture):
     def test_xp_awarded_once(self):
         self.login(self.user)
         first = self.submit(self.topics[0]).data['xp_gained']
-        self.assertEqual(first, gamification.POINTS['topic'] + gamification.POINTS['topic_first'])
+        self.assertEqual(
+            first, gamification.POINTS['topic'] + gamification.POINTS['topic_first'] + gamification.POINTS['topic_perfect']
+        )
         self.assertEqual(self.submit(self.topics[0]).data['xp_gained'], 0)
         self.assertEqual(gamification.total_xp(self.user), first)
 
     def test_no_first_attempt_bonus_after_failure(self):
         self.login(self.user)
         self.submit(self.topics[0], correct=False)
-        self.assertEqual(self.submit(self.topics[0]).data['xp_gained'], gamification.POINTS['topic'])
+        self.assertEqual(
+            self.submit(self.topics[0]).data['xp_gained'],
+            gamification.POINTS['topic'] + gamification.POINTS['topic_perfect'],
+        )
 
     def test_level_info(self):
         self.assertEqual(gamification.level_info(0)['level'], 1)
@@ -401,7 +406,7 @@ class SpacedRepetitionTests(CourseFixture):
         self.submit(self.topics[0])
         self.submit(self.topics[1])
         r = self.client.post(
-            f'{H}sections/{self.sections[0].id}/exam/submit/', {'answers': {'0': 1, '1': 0}}, format='json')
+            f'{H}sections/{self.sections[0].id}/exam/submit/', {'answers': {'0': 'xato', '1': "to'g'ri"}}, format='json')
         self.assertEqual(r.status_code, 200)
         card = ReviewCard.objects.get(user=self.user, book=self.book, qkey=qkey_of('Savol 10-0?'))
         self.assertEqual(card.data['topic_id'], self.topics[0].id)
@@ -424,7 +429,7 @@ class CertificateVerifyTests(CourseFixture):
             data={'questions': make_questions(99, n=1)},
         )
         self.login(self.user)
-        return self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': {'0': 0}}, format='json')
+        return self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': {'0': "to'g'ri"}}, format='json')
 
     def test_certificate_verify_public_and_unknown_code(self):
         from .models import Certificate

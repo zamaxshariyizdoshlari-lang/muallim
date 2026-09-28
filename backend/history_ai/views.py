@@ -109,6 +109,7 @@ class MeView(APIView):
             'date_joined': u.date_joined,
             'daily_goal': gamification.get_settings(u).daily_goal,
             'show_in_leaderboard': gamification.get_settings(u).show_in_leaderboard,
+            'email_reminders': gamification.get_settings(u).email_reminders,
         })
 
     def patch(self, request):
@@ -140,6 +141,8 @@ class MeView(APIView):
                 st.daily_goal = request.data['daily_goal']
         if 'show_in_leaderboard' in request.data:
             st.show_in_leaderboard = bool(request.data['show_in_leaderboard'])
+        if 'email_reminders' in request.data:
+            st.email_reminders = bool(request.data['email_reminders'])
         if errors:
             raise ValidationError(errors)
         u.save()
@@ -215,7 +218,11 @@ class BookProgressView(APIView):
 
 
 def _grade(questions, answers, book=None, topic=None):
-    """answers: {"0": chosen_index, ...}. Javob berilmagan savol xato hisoblanadi.
+    """answers: {"0": chosen_option_text, ...}. Javob berilmagan yoki noto'g'ri savol xato hisoblanadi.
+
+    Javob variantlarning matni bo'yicha solishtiriladi (indeks emas), chunki talabaga ko'rsatiladigan
+    variantlar tartibi har safar aralashtiriladi (`hide_answers`) - shu bilan qayta urinishda
+    pozitsiyani yodlab bosib qo'yish emas, haqiqatan bilishni talab qiladi.
 
     `book` berilsa, xato javoblarga qisqa eslatma (`explain`: sarlavha + matn boshi) qo'shiladi.
     `topic` berilsa (mavzu testi), eslatma to'g'ridan-to'g'ri shu mavzudan olinadi - bet raqami
@@ -225,14 +232,21 @@ def _grade(questions, answers, book=None, topic=None):
     score = 0
     for i, q in enumerate(questions):
         chosen = answers.get(str(i))
-        correct = chosen == q['correct_index']
+        correct_answer = q['options'][q['correct_index']]
+        correct = chosen == correct_answer
         score += int(correct)
-        # To'g'ri javob ataylab qaytarilmaydi (yodlab olishning oldini olish) - faqat qayerdan o'qish kerakligi (bet).
-        detail = {'index': i, 'correct': correct, 'page': q.get('page')}
+        detail = {'index': i, 'correct': correct, 'page': q.get('page'), 'correct_answer': correct_answer}
         if not correct and book is not None:
             detail['explain'] = review_service.explain_page(book, q.get('page'), topic=topic)
         details.append(detail)
     return score, len(questions), details
+
+
+def _passed(score, total, threshold=1.0):
+    return total > 0 and score >= total * threshold
+
+
+TOPIC_SECTION_PASS_THRESHOLD = 0.8
 
 
 def _read_answers(request):
@@ -259,7 +273,7 @@ class TopicTestSubmitView(APIView):
 
         answers = _read_answers(request)
         score, total, details = _grade(asset.data['questions'], answers, book=topic.book, topic=topic)
-        passed = total > 0 and score == total
+        passed = _passed(score, total, TOPIC_SECTION_PASS_THRESHOLD)
         xp = 0
         attempt = TestAttempt.objects.create(
             student=request.user, topic=topic, answers=answers,
@@ -270,10 +284,11 @@ class TopicTestSubmitView(APIView):
             TopicCompletion.objects.get_or_create(
                 student=request.user, topic=topic, defaults={'attempt': attempt}
             )
-            xp = gamification.award_topic(request.user, topic)
+            xp = gamification.award_topic(request.user, topic, perfect=score == total)
         return Response({
             'score': score, 'total': total, 'passed': passed, 'details': details,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'pass_threshold': TOPIC_SECTION_PASS_THRESHOLD,
         })
 
 
@@ -328,7 +343,8 @@ class BookExamSubmitView(APIView):
 
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=book)
-        passed = total > 0 and score == total
+        # Sertifikat beriladigan yakuniy imtihon qat'iy 100% talab qiladi (mavzu/bo'lim testlaridan farqli).
+        passed = _passed(score, total, 1.0)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
@@ -351,6 +367,7 @@ class BookExamSubmitView(APIView):
             'score': score, 'total': total, 'passed': passed,
             'details': details, 'certificate': certificate,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'pass_threshold': 1.0,
         })
 
 
@@ -542,7 +559,7 @@ class SectionExamSubmitView(APIView):
         exam = get_object_or_404(SectionExam, section=section)
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=section.book)
-        passed = total > 0 and score == total
+        passed = _passed(score, total, TOPIC_SECTION_PASS_THRESHOLD)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,
@@ -550,10 +567,11 @@ class SectionExamSubmitView(APIView):
         review_service.record_grading(request.user, section.book, exam.data['questions'], answers)
         if passed:
             SectionCompletion.objects.get_or_create(student=request.user, section=section)
-            xp = gamification.award_section(request.user, section)
+            xp = gamification.award_section(request.user, section, perfect=score == total)
         return Response({
             'score': score, 'total': total, 'passed': passed, 'details': details,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'pass_threshold': TOPIC_SECTION_PASS_THRESHOLD,
         })
 
 

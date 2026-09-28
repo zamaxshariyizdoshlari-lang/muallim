@@ -10,13 +10,17 @@ const BADGE_ICONS = {
 }
 
 export default function ProfilePage({ me }) {
-  const [account, setAccount] = useState({ first_name: me.first_name || '', email: me.email || '' })
+  const [account, setAccount] = useState({
+    first_name: me.first_name || '', email: me.email || '', email_reminders: me.email_reminders !== false,
+  })
   const [accMsg, setAccMsg] = useState(null)
   const [pw, setPw] = useState({ old: '', next: '' })
   const [pwMsg, setPwMsg] = useState(null)
 
   useEffect(() => {
-    getMe().then((m) => setAccount({ first_name: m.first_name || '', email: m.email || '' })).catch(() => {})
+    getMe()
+      .then((m) => setAccount({ first_name: m.first_name || '', email: m.email || '', email_reminders: m.email_reminders !== false }))
+      .catch(() => {})
   }, [])
 
   async function saveAccount(e) {
@@ -201,6 +205,14 @@ export default function ProfilePage({ me }) {
             Elektron pochta <span className="font-normal text-muted">(parolni tiklash uchun)</span>
             <input type="email" className="field mt-1.5" value={account.email}
               onChange={(e) => setAccount((a) => ({ ...a, email: e.target.value }))} />
+          </label>
+          <label className="mb-4 flex cursor-pointer items-center gap-2 text-sm text-ink-2">
+            <input
+              type="checkbox"
+              checked={account.email_reminders}
+              onChange={(e) => setAccount((a) => ({ ...a, email_reminders: e.target.checked }))}
+            />
+            Streak uzilishi arafasida eslatma email yuborilsin
           </label>
           {accMsg && <p className={`mb-3 text-sm ${accMsg.ok ? 'text-ok' : 'text-bad'}`}>{accMsg.text}</p>}
           <button className="btn btn-primary btn-sm">Saqlash</button>

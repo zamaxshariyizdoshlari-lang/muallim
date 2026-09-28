@@ -1,3 +1,5 @@
+import random
+
 from rest_framework import serializers
 
 from .models import Book, BookExam, GeneratedAsset, Lesson, SectionExam, Subject, Topic
@@ -21,12 +23,20 @@ class BookSerializer(serializers.ModelSerializer):
 
 
 def hide_answers(data, request):
-    """Rasmiy test savollaridan to'g'ri javobni talabadan yashiradi (o'qituvchi ko'radi)."""
+    """Rasmiy test savollaridan to'g'ri javobni talabadan yashiradi (o'qituvchi ko'radi).
+
+    Variantlar tartibi har safar aralashtiriladi: shu bilan talaba javobni "pozitsiya bo'yicha"
+    yodlab, qayta urinishda o'ylamasdan bosib qo'ya olmaydi - lekin to'g'ri javobning o'zini
+    (matnini) baholashdan keyin ko'rishi mumkin, chunki bu haqiqiy o'rganishga yordam beradi.
+    """
     user = getattr(request, 'user', None)
     if data and not (user and user.is_staff):
-        data = {**data, 'questions': [
-            {k: v for k, v in q.items() if k != 'correct_index'} for q in data.get('questions', [])
-        ]}
+        questions = []
+        for q in data.get('questions', []):
+            options = list(q.get('options', []))
+            random.shuffle(options)
+            questions.append({**{k: v for k, v in q.items() if k != 'correct_index'}, 'options': options})
+        data = {**data, 'questions': questions}
     return data
 
 

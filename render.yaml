@@ -41,6 +41,23 @@ services:
         sync: false
       - key: DJANGO_SUPERUSER_PASSWORD
         sync: false
+      # Haqiqiy email yuborish uchun (parolni tiklash, streak eslatmalari) - EMAIL_HOST/USER/PASSWORD
+      # Render Dashboard > Environment'da to'ldirilishi kerak (masalan Gmail App Password yoki
+      # Resend/Mailgun/Brevo SMTP ma'lumotlari). Bo'sh qoldirilsa, email jim yuborilmaydi (xato bermaydi).
+      - key: EMAIL_BACKEND
+        value: django.core.mail.backends.smtp.EmailBackend
+      - key: EMAIL_HOST
+        sync: false
+      - key: EMAIL_PORT
+        value: "587"
+      - key: EMAIL_USE_TLS
+        value: "1"
+      - key: EMAIL_HOST_USER
+        sync: false
+      - key: EMAIL_HOST_PASSWORD
+        sync: false
+      - key: DEFAULT_FROM_EMAIL
+        sync: false
       - key: DB_NAME
         fromDatabase:
           name: muallim-db

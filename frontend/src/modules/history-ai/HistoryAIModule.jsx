@@ -424,6 +424,7 @@ function TopicTestRoute() {
       create={() => createAsset(topic.id, 'topic_test', { regenerate: true })}
       submit={(answers) => submitTopicTest(topic.id, answers)}
       passedLabel="Mavzu to'liq o'zlashtirildi. Keyingi mavzu ochildi!"
+      passThreshold={0.8}
       onBack={() => navigate(`/kurs/${bookId}/mavzu/${topic.id}`)}
       onPassed={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
     />
@@ -446,6 +447,7 @@ function SectionExamRoute() {
       create={async () => {}}
       submit={(answers) => submitSectionExam(section.id, answers)}
       passedLabel="Bo'lim to'liq o'zlashtirildi. Keyingi bo'lim ochildi!"
+      passThreshold={0.8}
       onBack={back}
       onPassed={back}
     />

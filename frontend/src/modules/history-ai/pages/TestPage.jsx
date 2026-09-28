@@ -4,11 +4,12 @@ import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
 
 /**
- * Rasmiy test (mavzu testi yoki yakuniy imtihon). Barcha savollar birdaniga ko'rsatiladi,
- * 100% to'g'ri bo'lsa o'tiladi. To'g'ri javob ko'rsatilmaydi - faqat qaysi savol xato
- * va qaysi betdan qayta o'qish kerakligi.
+ * Rasmiy test (mavzu testi, bo'lim testi yoki yakuniy imtihon). Barcha savollar birdaniga
+ * ko'rsatiladi. Topshirilgandan keyin har bir xato savolda to'g'ri javob va tushuntirish
+ * ko'rsatiladi (variantlar tartibi har yuklashda aralashtiriladi, shuning uchun bu pozitsiyani
+ * yodlab qayta urinishni osonlashtirmaydi).
  */
-export default function TestPage({ title, load, create, submit, isTeacher, onBack, onPassed, passedLabel }) {
+export default function TestPage({ title, load, create, submit, isTeacher, onBack, onPassed, passedLabel, passThreshold = 1 }) {
   const [test, setTest] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -66,7 +67,9 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
         <p className="eyebrow mb-2">Bilimni sinash</p>
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{title}</h1>
         <p className="mt-3 text-sm text-muted">
-          Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi.
+          {passThreshold >= 1
+            ? "Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi."
+            : `Savollarning kamida ${Math.round(passThreshold * 100)}% i to'g'ri bo'lsa o'tilgan hisoblanadi.`}
           {questions.length > 0 && ` Jami ${questions.length} ta savol.`}
         </p>
       </header>
@@ -138,7 +141,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                   <p className="mt-1 text-sm leading-relaxed text-ink-2">
                     {result.passed
                       ? passedLabel || "Test to'liq topshirildi!"
-                      : "Hali hammasi to'g'ri emas. Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring."}
+                      : "Hali yetarlicha emas. Xato savollarning tagida to'g'ri javob va tushuntirish berilgan - shularni o'qib, yana urinib ko'ring."}
                   </p>
                 </div>
                 {result.passed ? (
@@ -168,25 +171,35 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                     {d && (d.correct ? <CheckCircle2 className="shrink-0 text-ok" size={22} /> : <XCircle className="shrink-0 text-bad" size={22} />)}
                   </p>
                   <div className="flex flex-col gap-2">
-                    {q.options.map((opt, j) => (
-                      <button
-                        key={j}
-                        type="button"
-                        disabled={Boolean(result)}
-                        onClick={() => setAnswers((a) => ({ ...a, [i]: j }))}
-                        className={`option ${answers[i] === j ? 'is-selected' : ''}`}
-                        aria-pressed={answers[i] === j}
-                      >
-                        <span className="option-key">{String.fromCharCode(65 + j)}</span>
-                        <span className="pt-0.5">{opt}</span>
-                      </button>
-                    ))}
+                    {q.options.map((opt, j) => {
+                      const isChosen = answers[i] === opt
+                      const isCorrectOption = d && opt === d.correct_answer
+                      const isWrongChosen = d && isChosen && !d.correct
+                      return (
+                        <button
+                          key={j}
+                          type="button"
+                          disabled={Boolean(result)}
+                          onClick={() => setAnswers((a) => ({ ...a, [i]: opt }))}
+                          className={`option ${isChosen && !d ? 'is-selected' : ''} ${
+                            isCorrectOption ? 'is-ok' : ''
+                          } ${isWrongChosen ? 'is-bad' : ''}`}
+                          aria-pressed={isChosen}
+                        >
+                          <span className="option-key">{String.fromCharCode(65 + j)}</span>
+                          <span className="pt-0.5">{opt}</span>
+                          {isCorrectOption && <CheckCircle2 className="ml-auto shrink-0 text-ok" size={18} />}
+                          {isWrongChosen && <XCircle className="ml-auto shrink-0 text-bad" size={18} />}
+                        </button>
+                      )
+                    })}
                   </div>
-                  {d && !d.correct && (d.page || d.explain) && (
+                  {d && !d.correct && (
                     <div className="mt-3 rounded-lg bg-bad-soft px-3 py-2 text-sm text-bad">
-                      {d.page && <p className="font-medium">Qayta o'qing: darslikning {d.page}-beti</p>}
+                      <p className="font-medium">To'g'ri javob: {d.correct_answer}</p>
+                      {d.page && <p className="mt-1">Qayta o'qing: darslikning {d.page}-beti</p>}
                       {d.explain && (
-                        <p className={d.page ? 'mt-1 text-ink-2' : 'font-medium text-ink-2'}>
+                        <p className="mt-1 text-ink-2">
                           {d.explain.heading && <span className="font-semibold">{d.explain.heading}: </span>}
                           {d.explain.snippet}
                         </p>
