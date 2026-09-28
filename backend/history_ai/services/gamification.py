@@ -127,11 +127,39 @@ def week_start():
     return timezone.make_aware(datetime.combine(monday, datetime.min.time()))
 
 
-def leaderboard(user, limit=10):
-    """Shu haftalik (dushanbadan) ball bo'yicha reyting. Reytingdan chiqqanlar ko'rinmaydi."""
+LEAGUES = [
+    {'key': 'bronze', 'title': 'Bronza', 'icon': 'award', 'min_xp': 0},
+    {'key': 'silver', 'title': 'Kumush', 'icon': 'medal', 'min_xp': 500},
+    {'key': 'gold', 'title': 'Oltin', 'icon': 'trophy', 'min_xp': 1500},
+    {'key': 'platinum', 'title': 'Platina', 'icon': 'gem', 'min_xp': 3500},
+    {'key': 'diamond', 'title': 'Olmos', 'icon': 'diamond', 'min_xp': 7000},
+]
+
+
+def league_for_xp(xp):
+    current = LEAGUES[0]
+    for league in LEAGUES:
+        if xp >= league['min_xp']:
+            current = league
+    return current
+
+
+def league_info(user):
+    xp = total_xp(user)
+    idx = next(i for i, l in enumerate(LEAGUES) if l['key'] == league_for_xp(xp)['key'])
+    nxt = LEAGUES[idx + 1] if idx + 1 < len(LEAGUES) else None
+    league = LEAGUES[idx]
+    return {
+        'key': league['key'], 'title': league['title'], 'icon': league['icon'],
+        'next_title': nxt['title'] if nxt else None,
+        'xp_to_next': (nxt['min_xp'] - xp) if nxt else 0,
+    }
+
+
+def _leaderboard_rows(user, user_ids, limit):
     hidden = UserSettings.objects.filter(show_in_leaderboard=False).values_list('user_id', flat=True)
     rows = list(
-        XPEvent.objects.filter(created_at__gte=week_start()).exclude(user_id__in=hidden)
+        XPEvent.objects.filter(created_at__gte=week_start(), user_id__in=user_ids).exclude(user_id__in=hidden)
         .values('user_id').annotate(points=Sum('points')).order_by('-points', 'user_id')
     )
     users = {u.id: u for u in get_user_model().objects.filter(id__in=[r['user_id'] for r in rows[:limit]])}
@@ -146,6 +174,20 @@ def leaderboard(user, limit=10):
         ({'rank': i + 1, 'points': r['points']} for i, r in enumerate(rows) if r['user_id'] == user.id), None
     )
     return {'top': top, 'me': me, 'opted_in': get_settings(user).show_in_leaderboard, 'participants': len(rows)}
+
+
+def leaderboard(user, limit=10):
+    """Shu haftalik (dushanbadan) ball bo'yicha reyting, faqat foydalanuvchi bilan bir xil
+    ligadagilar orasida (umumiy XP bo'yicha - bronza/kumush/oltin/platina/olmos). Shu bilan
+    yangi boshlovchi doim eng ko'p ballli eskilarga emas, o'z darajasidagilarga qaraydi."""
+    totals = dict(XPEvent.objects.values('user_id').annotate(t=Sum('points')).values_list('user_id', 't'))
+    my_league = league_for_xp(totals.get(user.id, 0))['key']
+    peer_ids = [uid for uid, xp in totals.items() if league_for_xp(xp)['key'] == my_league]
+    if user.id not in peer_ids:
+        peer_ids.append(user.id)
+    result = _leaderboard_rows(user, peer_ids, limit)
+    result['league'] = league_info(user)
+    return result
 
 
 def badges(user):
@@ -178,6 +220,7 @@ def profile(user):
     return {
         'xp': xp,
         **level_info(xp),
+        'league': league_info(user),
         'streak': streak_info(user),
         'daily': daily_info(user),
         'badges': badges(user),

@@ -1,4 +1,4 @@
-import { Award, BookOpen, Flag, Flame, Footprints, Library, Lock, Medal, Target, Trophy, Zap } from 'lucide-react'
+import { Award, BookOpen, Diamond, Flag, Flame, Footprints, Gem, Library, Lock, Medal, Target, Trophy, Zap } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { changePassword, getLeaderboard, getMe, getProfile, updateMe } from '../api/client'
 import DailyGoalCard from '../components/DailyGoalCard'
@@ -7,6 +7,12 @@ import { ErrorNote, ProgressBar, Spinner } from '../components/ui'
 const BADGE_ICONS = {
   footprints: Footprints, 'book-open': BookOpen, library: Library, target: Target, flag: Flag,
   flame: Flame, zap: Zap, award: Award,
+}
+
+const LEAGUE_ICONS = { award: Award, medal: Medal, trophy: Trophy, gem: Gem, diamond: Diamond }
+const LEAGUE_COLORS = {
+  bronze: '!text-[#b08d57]', silver: '!text-slate-400', gold: '!text-gold',
+  platinum: '!text-cyan-500', diamond: '!text-brand',
 }
 
 export default function ProfilePage({ me }) {
@@ -84,7 +90,22 @@ export default function ProfilePage({ me }) {
           <div className="min-w-0 flex-1">
             <p className="eyebrow mb-1">{p.level}-daraja</p>
             <h1 className="font-display text-3xl font-extrabold text-ink">{name}</h1>
-            <p className="mt-1 text-sm font-semibold text-brand">{p.title}</p>
+            <div className="mt-1 flex flex-wrap items-center gap-3">
+              <p className="text-sm font-semibold text-brand">{p.title}</p>
+              {p.league && (() => {
+                const LeagueIcon = LEAGUE_ICONS[p.league.icon] || Award
+                return (
+                  <span className={`chip ${LEAGUE_COLORS[p.league.key] || 'text-ink-2'}`}>
+                    <LeagueIcon size={14} /> {p.league.title} ligasi
+                  </span>
+                )
+              })()}
+            </div>
+            {p.league?.next_title && (
+              <p className="mt-1 text-xs text-muted">
+                {p.league.xp_to_next} ball qoldi - {p.league.next_title} ligasiga o'tasiz
+              </p>
+            )}
             <ProgressBar value={p.xp_in_level} max={p.xp_for_next} className="mt-4" />
             <p className="mt-1.5 text-xs text-muted">
               {p.xp_in_level} / {p.xp_for_next} ball — keyingi darajagacha
@@ -156,8 +177,12 @@ export default function ProfilePage({ me }) {
         <section className="mt-12" aria-label="Haftalik reyting">
           <div className="mb-4 flex items-end justify-between gap-3">
             <div>
-              <h2 className="font-display text-2xl font-bold text-ink">Haftalik reyting</h2>
-              <p className="text-sm text-muted">Shu hafta (dushanbadan) to'plangan ball bo'yicha</p>
+              <h2 className="font-display text-2xl font-bold text-ink">
+                Haftalik reyting {board.league && <span className="text-muted">- {board.league.title} ligasi</span>}
+              </h2>
+              <p className="text-sm text-muted">
+                Shu hafta (dushanbadan) to'plangan ball bo'yicha, o'zingiz bilan bir xil ligadagilar orasida
+              </p>
             </div>
             <label className="flex cursor-pointer items-center gap-2 text-xs text-muted">
               <input
