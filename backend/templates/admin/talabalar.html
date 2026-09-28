@@ -1,0 +1,45 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<form method="get" class="muallim-search">
+  <input type="text" name="q" value="{{ search }}" placeholder="Foydalanuvchi, ism yoki email bo'yicha qidirish...">
+  <input type="submit" value="Qidirish" class="button">
+  {% if search %}<a href="{% url 'admin:talabalar' %}" class="button">Tozalash</a>{% endif %}
+</form>
+
+<table class="muallim-table">
+  <thead>
+    <tr>
+      <th>Foydalanuvchi</th>
+      <th>Ism</th>
+      <th>Ro'yxatdan o'tgan</th>
+      <th>Oxirgi faollik</th>
+      <th>Jami vaqt</th>
+      <th>Mavzular</th>
+      <th>Sertifikat</th>
+      <th>Ball</th>
+      <th>Holat</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in students %}
+    <tr>
+      <td><a href="{% url 'admin:talaba-detail' s.id %}">{{ s.username }}</a></td>
+      <td>{{ s.first_name|default:"—" }}</td>
+      <td>{{ s.date_joined|date:"d-M, Y" }}</td>
+      <td>{{ s.last_activity|default:"—" }}</td>
+      <td>{% widthratio s.total_seconds 60 1 as mins %}{{ mins }} daq</td>
+      <td>{{ s.topics_done }}</td>
+      <td>{{ s.certs_count }}</td>
+      <td>{{ s.xp }}</td>
+      <td>
+        {% if s.is_active %}<span class="muallim-badge">Faol</span>{% else %}<span class="muallim-badge" style="background:#fdd">Bloklangan</span>{% endif %}
+      </td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="9">Hozircha talaba yo'q.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p style="margin-top:24px;"><a href="{% url 'admin:index' %}">&larr; Admin bosh sahifasiga qaytish</a></p>
+{% endblock %}

@@ -1,0 +1,164 @@
+/* Muallim admin — brand ranglar (frontenddagi --brand/--gold bilan mos) */
+:root,
+html[data-theme="light"] {
+    --primary: #4a4fd6;
+    --secondary: #3a3fbd;
+    --accent: #b45309;
+    --primary-fg: #fff;
+
+    --header-color: #fff;
+    --header-branding-color: #fdefd0;
+    --header-bg: #2c2f9e;
+    --header-link-color: #fff;
+
+    --breadcrumbs-fg: #d9d9ff;
+    --breadcrumbs-link-fg: #fff;
+    --breadcrumbs-bg: #3a3fbd;
+
+    --link-fg: #4a4fd6;
+    --link-hover-color: #3a3fbd;
+    --link-selected-fg: #3a3fbd;
+
+    --button-bg: #4a4fd6;
+    --button-hover-bg: #3a3fbd;
+    --default-button-bg: #3a3fbd;
+    --default-button-hover-bg: #4a4fd6;
+
+    --selected-bg: #e8e9fc;
+    --selected-row: #fdefd0;
+}
+
+html[data-theme="dark"] {
+    --primary: #8b8ff5;
+    --header-bg: #1b1e4d;
+    --header-branding-color: #f2b04a;
+    --link-fg: #8b8ff5;
+    --link-hover-color: #a1a5f8;
+    --button-bg: #4a4fd6;
+    --button-hover-bg: #6266e0;
+}
+
+#header {
+    background: var(--header-bg);
+}
+
+#branding h1,
+#branding h1 a:link,
+#branding h1 a:visited {
+    color: var(--header-branding-color);
+    font-weight: 700;
+}
+
+div.breadcrumbs {
+    background: var(--breadcrumbs-bg);
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: var(--primary);
+}
+
+a:link, a:visited {
+    color: var(--link-fg);
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: var(--button-bg);
+}
+
+.button:active, input[type=submit]:active, input[type=button]:active,
+.button:focus, input[type=submit]:focus, input[type=button]:focus,
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: var(--button-hover-bg);
+}
+
+/* Nazorat sahifalari (statistika/talabalar) uchun umumiy kartochka uslubi */
+.muallim-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.muallim-card {
+    background: var(--body-bg);
+    border: 1px solid var(--hairline-color);
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.muallim-card h2 {
+    margin: 0 0 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--body-quiet-color);
+}
+
+.muallim-card .big {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.muallim-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: var(--body-bg);
+}
+
+.muallim-table th, .muallim-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--hairline-color);
+    text-align: left;
+    font-size: 13px;
+}
+
+.muallim-table th {
+    background: var(--darkened-bg);
+    color: var(--body-quiet-color);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+}
+
+.muallim-table tr:hover td {
+    background: var(--selected-bg);
+}
+
+.muallim-search {
+    margin: 16px 0;
+}
+
+.muallim-search input[type=text] {
+    padding: 6px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    min-width: 260px;
+}
+
+.muallim-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--selected-row);
+    color: var(--body-loud-color);
+}
+
+.muallim-activity-bar {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 60px;
+    margin: 12px 0 4px;
+}
+
+.muallim-activity-bar > div {
+    flex: 1;
+    background: var(--primary);
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+}

@@ -1,28 +1,29 @@
 {% extends "admin/base_site.html" %}
 {% block content %}
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:16px;">
-  <div class="module">
+<div class="muallim-cards">
+  <div class="muallim-card">
     <h2>Talabalar</h2>
-    <p style="font-size:28px;font-weight:bold;margin:8px 0 0;">{{ stats.students_total }}</p>
+    <p class="big">{{ stats.students_total }}</p>
     <p>Bugun faol: <strong>{{ stats.students_active_today }}</strong></p>
     <p>Oxirgi 7 kunda ro'yxatdan o'tgan: <strong>{{ stats.new_registrations_7d }}</strong></p>
   </div>
-  <div class="module">
+  <div class="muallim-card">
     <h2>Kurslar</h2>
+    <p class="big">{{ stats.books_total }}</p>
     <p>Fanlar: <strong>{{ stats.subjects_total }}</strong></p>
-    <p>Kurslar (kitoblar): <strong>{{ stats.books_total }}</strong></p>
     <p>Eng mashhur kurs: <strong>{{ stats.most_popular_book|default:"—" }}</strong></p>
   </div>
-  <div class="module">
+  <div class="muallim-card">
     <h2>Faollik</h2>
-    <p>Jami test urinishlari: <strong>{{ stats.test_attempts_total }}</strong></p>
-    <p>Berilgan sertifikatlar: <strong>{{ stats.certificates_total }}</strong></p>
+    <p class="big">{{ stats.test_attempts_total }}</p>
+    <p>test urinishi · <strong>{{ stats.certificates_total }}</strong> sertifikat berilgan</p>
   </div>
 </div>
-<div class="module" style="margin-top:24px;">
-  <h2>Bugungi faollik (foydalanuvchi bo'yicha)</h2>
+
+<div class="module" style="margin-top:24px;padding:16px 18px;">
+  <h2 style="margin-top:0;">Bugungi faollik (foydalanuvchi bo'yicha)</h2>
   {% if stats.daily_activity_today %}
-  <table>
+  <table class="muallim-table">
     <thead><tr><th>Foydalanuvchi</th><th>Bugun o'tirgan vaqti</th></tr></thead>
     <tbody>
       {% for row in stats.daily_activity_today %}
@@ -33,7 +34,7 @@
   {% else %}
   <p>Bugun hali hech kim faol bo'lmagan.</p>
   {% endif %}
-  <p style="margin-top:12px;"><a href="{% url 'admin:history_ai_dailyactivity_changelist' %}">To'liq kunlik jadval &rarr;</a></p>
+  <p style="margin-top:12px;"><a href="{% url 'admin:talabalar' %}">Talabalar bo'yicha to'liq nazorat &rarr;</a></p>
 </div>
 <p style="margin-top:24px;"><a href="{% url 'admin:index' %}">&larr; Admin bosh sahifasiga qaytish</a></p>
 {% endblock %}

@@ -2,10 +2,13 @@
 from datetime import timedelta
 
 from django.contrib.auth import get_user_model
-from django.db.models import Count
+from django.db.models import Count, Max, Sum
+from django.db.models.functions import Coalesce
 from django.utils import timezone
 
-from ..models import Book, Certificate, DailyActivity, ReviewAnswer, Subject, TestAttempt, TopicCompletion
+from ..models import (
+    Book, Certificate, DailyActivity, ReviewAnswer, Subject, TestAttempt, TopicCompletion,
+)
 
 
 def platform_overview():
@@ -43,3 +46,49 @@ def platform_overview():
         'test_attempts_total': TestAttempt.objects.count(),
         'most_popular_book': popular['topic__book__title'] if popular else None,
     }
+
+
+def students_report(search=''):
+    """Har bir talaba uchun: jami vaqt, oxirgi faollik, o'zlashtirgan mavzular, ball — bitta jadvalda.
+
+    "Platforma nazorati" uchun asosiy hisobot: kimlar foydalanyapti, qancha muddat, qanday natija bilan.
+    """
+    User = get_user_model()
+    qs = User.objects.filter(is_staff=False).annotate(
+        total_seconds=Coalesce(Sum('daily_activity__seconds_active'), 0),
+        last_activity=Max('daily_activity__date'),
+        topics_done=Count('topic_completions', distinct=True),
+        certs_count=Count('certificates', distinct=True),
+        xp=Coalesce(Sum('xp_events__points'), 0),
+    )
+    if search:
+        qs = qs.filter(username__icontains=search) | qs.filter(first_name__icontains=search) | qs.filter(
+            email__icontains=search
+        )
+    return qs.order_by('-last_activity', '-xp')
+
+
+def student_activity_history(user, days=30):
+    """Oxirgi N kunlik faollik (kunlik daqiqa), eng eskisi oldin (grafik uchun)."""
+    since = timezone.localdate() - timedelta(days=days - 1)
+    rows = {
+        row['date']: row['seconds_active']
+        for row in DailyActivity.objects.filter(user=user, date__gte=since).values('date', 'seconds_active')
+    }
+    today = timezone.localdate()
+    return [
+        {'date': today - timedelta(days=i), 'minutes': rows.get(today - timedelta(days=i), 0) // 60}
+        for i in range(days - 1, -1, -1)
+    ]
+
+
+def student_completed_topics(user):
+    """Talaba o'zlashtirgan mavzular ro'yxati, kurs/bo'lim va sanasi bilan (eng yangisi oldin)."""
+    return list(
+        TopicCompletion.objects.filter(student=user)
+        .select_related('topic', 'topic__book', 'topic__section')
+        .order_by('-completed_at')
+        .values(
+            'completed_at', 'topic__title', 'topic__book__title', 'topic__section__title',
+        )
+    )

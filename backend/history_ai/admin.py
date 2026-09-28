@@ -7,8 +7,9 @@ hisoblar kira oladi; "Platforma statistikasi" havolasi bosh sahifada chiqadi.
 from django.contrib import admin
 from django.contrib.auth import get_user_model
 from django.contrib.auth.admin import UserAdmin as DjangoUserAdmin
-from django.db.models import Count, Sum
-from django.urls import path
+from django.db.models import Count, Max, Sum
+from django.urls import path, reverse
+from django.utils.html import format_html
 
 from . import admin_views
 from .models import (
@@ -27,6 +28,8 @@ _original_get_urls = admin.site.get_urls
 def _get_urls():
     return [
         path('statistika/', admin_views.dashboard_view, name='statistika'),
+        path('talabalar/', admin_views.students_report_view, name='talabalar'),
+        path('talabalar/<int:user_id>/', admin_views.student_detail_view, name='talaba-detail'),
     ] + _original_get_urls()
 
 
@@ -61,7 +64,7 @@ class UserAdmin(DjangoUserAdmin):
 
     list_display = (
         'username', 'first_name', 'email', 'is_active', 'is_staff', 'xp_column', 'topics_done_column',
-        'certificates_column', 'date_joined', 'last_login',
+        'certificates_column', 'total_time_column', 'last_activity_column', 'date_joined', 'detail_link',
     )
     list_filter = ('is_active', 'is_staff', 'is_superuser', 'date_joined')
     search_fields = ('username', 'first_name', 'last_name', 'email')
@@ -73,6 +76,7 @@ class UserAdmin(DjangoUserAdmin):
             .annotate(
                 _xp=Sum('xp_events__points'), _topics=Count('topic_completions', distinct=True),
                 _certs=Count('certificates', distinct=True),
+                _seconds=Sum('daily_activity__seconds_active'), _last_seen=Max('daily_activity__date'),
             )
         )
 
@@ -87,6 +91,22 @@ class UserAdmin(DjangoUserAdmin):
     @admin.display(description='Sertifikat', ordering='_certs')
     def certificates_column(self, obj):
         return obj._certs
+
+    @admin.display(description='Jami vaqt', ordering='_seconds')
+    def total_time_column(self, obj):
+        seconds = obj._seconds or 0
+        hours, minutes = divmod(seconds // 60, 60)
+        return f"{hours} soat {minutes} daq" if hours else f"{minutes} daq"
+
+    @admin.display(description='Oxirgi faollik', ordering='_last_seen')
+    def last_activity_column(self, obj):
+        return obj._last_seen or '—'
+
+    @admin.display(description='Batafsil')
+    def detail_link(self, obj):
+        if obj.is_staff:
+            return '—'
+        return format_html('<a href="{}">Nazorat &rarr;</a>', reverse('admin:talaba-detail', args=[obj.pk]))
 
 
 admin.site.unregister(User)

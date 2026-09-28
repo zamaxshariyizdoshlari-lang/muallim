@@ -1,0 +1,86 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<h1 style="margin-top:0;">{{ student.first_name|default:student.username }}
+  <span style="font-weight:400;color:var(--body-quiet-color);font-size:16px;">@{{ student.username }}</span>
+</h1>
+<p>
+  {{ student.email|default:"email yo'q" }} ·
+  Ro'yxatdan o'tgan: {{ student.date_joined|date:"d-M, Y" }} ·
+  Oxirgi kirish: {{ student.last_login|date:"d-M, Y H:i"|default:"—" }} ·
+  {% if student.is_active %}<span class="muallim-badge">Faol</span>{% else %}<span class="muallim-badge" style="background:#fdd">Bloklangan</span>{% endif %}
+</p>
+
+<div class="muallim-cards">
+  <div class="muallim-card">
+    <h2>Daraja</h2>
+    <p class="big">{{ profile.level }}</p>
+    <p>{{ profile.title }}</p>
+  </div>
+  <div class="muallim-card">
+    <h2>Ball</h2>
+    <p class="big">{{ profile.xp }}</p>
+  </div>
+  <div class="muallim-card">
+    <h2>Ketma-ketlik</h2>
+    <p class="big">{{ profile.streak.current }} kun</p>
+    <p>Rekord: {{ profile.streak.best }} kun</p>
+  </div>
+  <div class="muallim-card">
+    <h2>O'zlashtirilgan</h2>
+    <p class="big">{{ profile.stats.topics_done }}</p>
+    <p>mavzu · {{ profile.stats.sections_done }} bo'lim · {{ profile.stats.certificates }} sertifikat</p>
+  </div>
+</div>
+
+<div class="module" style="margin-top:20px;padding:16px 18px;">
+  <h2 style="margin-top:0;">Oxirgi 30 kunlik faollik (daqiqa)</h2>
+  <div class="muallim-activity-bar">
+    {% for day in activity %}
+    <div title="{{ day.date }}: {{ day.minutes }} daq" style="height:{% widthratio day.minutes max_minutes 100 %}%;"></div>
+    {% endfor %}
+  </div>
+  <p style="color:var(--body-quiet-color);font-size:12px;">{{ activity.0.date }} — {{ activity.29.date }} ({{ activity|length }} kun)</p>
+</div>
+
+<div class="module" style="margin-top:20px;padding:16px 18px;">
+  <h2 style="margin-top:0;">O'zlashtirilgan mavzular</h2>
+  {% if completed_topics %}
+  <table class="muallim-table">
+    <thead><tr><th>Kurs</th><th>Bo'lim</th><th>Mavzu</th><th>Sana</th></tr></thead>
+    <tbody>
+      {% for t in completed_topics %}
+      <tr>
+        <td>{{ t.topic__book__title }}</td>
+        <td>{{ t.topic__section__title|default:"—" }}</td>
+        <td>{{ t.topic__title }}</td>
+        <td>{{ t.completed_at|date:"d-M, Y H:i" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>Hali birorta mavzu o'zlashtirilmagan.</p>
+  {% endif %}
+</div>
+
+<div class="module" style="margin-top:20px;padding:16px 18px;">
+  <h2 style="margin-top:0;">Sertifikatlar</h2>
+  {% if certificates %}
+  <table class="muallim-table">
+    <thead><tr><th>Kurs</th><th>Kod</th><th>Berilgan sana</th></tr></thead>
+    <tbody>
+      {% for c in certificates %}
+      <tr><td>{{ c.book.title }}</td><td>{{ c.code }}</td><td>{{ c.issued_at|date:"d-M, Y" }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>Hali sertifikat yo'q.</p>
+  {% endif %}
+</div>
+
+<p style="margin-top:24px;">
+  <a href="{% url 'admin:talabalar' %}">&larr; Talabalar ro'yxatiga qaytish</a> ·
+  <a href="{% url 'admin:auth_user_change' student.id %}">Django admin'da tahrirlash</a>
+</p>
+{% endblock %}
