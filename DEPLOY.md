@@ -16,12 +16,16 @@ Domen sotib olmasdan, boshqa odamlar sinab ko'rishi uchun bepul manzil bilan joy
    Render paneli → xizmatingiz → **Environment** ga kirib, `ALLOWED_HOSTS` qiymatini haqiqiy
    manzilga almashtiring va qayta joylashtiring (**Manual Deploy**).
 5. Tekshirish: `https://<manzilingiz>/api/health/` — `{"status":"ok"}` qaytarishi kerak.
-6. Admin hisob yarating: Render paneli → xizmatingiz → **Shell** → `python manage.py createsuperuser`.
-7. Kontent import qiling (xuddi shu Shell'da):
-   ```bash
-   python manage.py import_book content/qd6/book.json --user <admin_nomi>
-   python manage.py import_book content/turk_a1/book.json --user <admin_nomi>
-   ```
+6. **Bepul rejada Shell yo'q** (faqat pullik Starter rejada bor), shuning uchun admin hisobi va
+   kontent build buyrug'i orqali avtomatik yaratiladi. Render paneli → xizmatingiz →
+   **Environment** ga quyidagi 3 tasini qo'shing (qiymatlarni o'zingiz tanlang):
+   - `DJANGO_SUPERUSER_USERNAME` = masalan `admin`
+   - `DJANGO_SUPERUSER_EMAIL` = sizning emailingiz
+   - `DJANGO_SUPERUSER_PASSWORD` = kuchli parol
+   Saqlab, qayta joylashtirilganda `render.yaml`dagi build buyrug'i `createsuperuser --noinput`
+   va ikkala kursni (`content/qd6/book.json`, `content/turk_a1/book.json`) avtomatik import qiladi
+   (loglar orqali tekshirib bo'ladi). Buyruqlar `|| true` bilan himoyalangan, shu sabab keyingi
+   deploylarda hisob allaqachon bor bo'lsa xato bermay o'tib ketaveradi.
 
 **Frontend (Vercel):**
 1. [vercel.com](https://vercel.com) da GitHub hisobingiz bilan kiring.

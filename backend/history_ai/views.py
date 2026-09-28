@@ -3,7 +3,7 @@ from django.core.files.base import ContentFile
 from django.http import FileResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
-from django.db.models import Count
+from django.db.models import Count, F
 from rest_framework import generics, status
 from rest_framework.exceptions import PermissionDenied, ValidationError
 from rest_framework.permissions import AllowAny, IsAuthenticated
@@ -11,7 +11,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import (
-    STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, GeneratedAsset,
+    STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, DailyActivity, GeneratedAsset,
     Lesson, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
     TopicCompletion, UserSettings,
 )
@@ -163,6 +163,21 @@ class ProfileView(APIView):
             'username': u.username, 'first_name': u.first_name, 'date_joined': u.date_joined,
             **gamification.profile(u),
         })
+
+
+HEARTBEAT_SECONDS = 30
+
+
+class HeartbeatView(APIView):
+    """Frontend sahifa ochiq/faol paytda har 30 soniyada chaqiradi (admin uchun kunlik faollik jadvali)."""
+
+    def post(self, request):
+        today = timezone.localdate()
+        DailyActivity.objects.get_or_create(user=request.user, date=today)
+        DailyActivity.objects.filter(user=request.user, date=today).update(
+            seconds_active=F('seconds_active') + HEARTBEAT_SECONDS
+        )
+        return Response({'status': 'ok'})
 
 
 class SubjectListView(APIView):

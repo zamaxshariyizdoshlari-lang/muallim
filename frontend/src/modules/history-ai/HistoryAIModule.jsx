@@ -5,8 +5,8 @@ import {
 } from 'react-router-dom'
 import {
   clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
-  getProfile, getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, submitBookExam, submitSectionExam,
-  submitTopicTest,
+  getProfile, getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, sendHeartbeat, submitBookExam,
+  submitSectionExam, submitTopicTest,
 } from './api/client'
 import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
@@ -158,6 +158,14 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
   useEffect(() => {
     getProfile().then(setStats).catch(() => {})
   }, [location.pathname])
+
+  // Admin panelda "kunlik faollik" jadvali uchun: sahifa ochiq va faol paytda har 30s belgi beriladi.
+  useEffect(() => {
+    const ping = () => { if (document.visibilityState === 'visible') sendHeartbeat().catch(() => {}) }
+    ping()
+    const id = setInterval(ping, 30000)
+    return () => clearInterval(id)
+  }, [])
 
   return (
     <div className="min-h-screen">

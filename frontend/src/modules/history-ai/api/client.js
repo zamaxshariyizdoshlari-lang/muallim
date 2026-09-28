@@ -66,6 +66,11 @@ export function getProfile() {
   return request('/profile/')
 }
 
+/** Sahifa ochiq/faol paytda chaqiriladi — admin panelda kunlik faollik jadvali uchun. */
+export function sendHeartbeat() {
+  return request('/heartbeat/', { method: 'POST' })
+}
+
 async function authPost(path, payload) {
   const res = await fetch(`${AUTH_BASE}${path}`, {
     method: 'POST',

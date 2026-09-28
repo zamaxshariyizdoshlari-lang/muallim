@@ -19,5 +19,21 @@
     <p>Berilgan sertifikatlar: <strong>{{ stats.certificates_total }}</strong></p>
   </div>
 </div>
+<div class="module" style="margin-top:24px;">
+  <h2>Bugungi faollik (foydalanuvchi bo'yicha)</h2>
+  {% if stats.daily_activity_today %}
+  <table>
+    <thead><tr><th>Foydalanuvchi</th><th>Bugun o'tirgan vaqti</th></tr></thead>
+    <tbody>
+      {% for row in stats.daily_activity_today %}
+      <tr><td>{{ row.username }}</td><td>{{ row.minutes }} daqiqa</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>Bugun hali hech kim faol bo'lmagan.</p>
+  {% endif %}
+  <p style="margin-top:12px;"><a href="{% url 'admin:history_ai_dailyactivity_changelist' %}">To'liq kunlik jadval &rarr;</a></p>
+</div>
 <p style="margin-top:24px;"><a href="{% url 'admin:index' %}">&larr; Admin bosh sahifasiga qaytish</a></p>
 {% endblock %}

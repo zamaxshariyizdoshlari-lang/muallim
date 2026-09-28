@@ -12,8 +12,8 @@ from django.urls import path
 
 from . import admin_views
 from .models import (
-    Book, Certificate, GeneratedAsset, Lesson, ReviewAnswer, ReviewCard, Section, SectionCompletion,
-    SectionExam, Subject, TestAttempt, Topic, TopicCompletion, UserSettings, XPEvent,
+    Book, Certificate, DailyActivity, GeneratedAsset, Lesson, ReviewAnswer, ReviewCard, Section,
+    SectionCompletion, SectionExam, Subject, TestAttempt, Topic, TopicCompletion, UserSettings, XPEvent,
 )
 
 admin.site.site_header = 'Muallim - boshqaruv paneli'
@@ -217,3 +217,22 @@ class ReviewCardAdmin(admin.ModelAdmin):
 class UserSettingsAdmin(admin.ModelAdmin):
     list_display = ('user', 'daily_goal', 'show_in_leaderboard')
     search_fields = ('user__username',)
+
+
+@admin.register(DailyActivity)
+class DailyActivityAdmin(admin.ModelAdmin):
+    """Har bir foydalanuvchi qaysi kuni qancha vaqt platformada bo'lganining kunlik jadvali."""
+
+    list_display = ('user', 'date', 'duration_column')
+    list_filter = ('date',)
+    search_fields = ('user__username',)
+    date_hierarchy = 'date'
+    ordering = ('-date', 'user')
+
+    @admin.display(description="Davomiylik", ordering='seconds_active')
+    def duration_column(self, obj):
+        minutes, seconds = divmod(obj.seconds_active, 60)
+        hours, minutes = divmod(minutes, 60)
+        if hours:
+            return f"{hours} soat {minutes} daq"
+        return f"{minutes} daq {seconds} son"

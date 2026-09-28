@@ -5,7 +5,7 @@ from django.contrib.auth import get_user_model
 from django.db.models import Count
 from django.utils import timezone
 
-from ..models import Book, Certificate, ReviewAnswer, Subject, TestAttempt, TopicCompletion
+from ..models import Book, Certificate, DailyActivity, ReviewAnswer, Subject, TestAttempt, TopicCompletion
 
 
 def platform_overview():
@@ -25,7 +25,15 @@ def platform_overview():
         .annotate(n=Count('id')).order_by('-n').first()
     )
 
+    today = timezone.localdate()
+    daily_activity_today = [
+        {'username': row['user__username'], 'seconds': row['seconds_active'], 'minutes': row['seconds_active'] // 60}
+        for row in DailyActivity.objects.filter(date=today)
+        .values('user__username', 'seconds_active').order_by('-seconds_active')[:15]
+    ]
+
     return {
+        'daily_activity_today': daily_activity_today,
         'students_total': students.count(),
         'students_active_today': len(active_today),
         'new_registrations_7d': students.filter(date_joined__gte=week_ago).count(),

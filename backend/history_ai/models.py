@@ -355,3 +355,24 @@ class ReviewCard(models.Model):
 
     def __str__(self):
         return f"{self.user} · {self.qkey} (due {self.due_date})"
+
+
+class DailyActivity(models.Model):
+    """Talabaning har kuni platformada faol bo'lgan vaqti (soniyada).
+
+    Frontend sahifa ochiq va faol bo'lganda har 30 soniyada heartbeat yuboradi;
+    admin panelda foydalanuvchi qaysi kuni qancha vaqt o'tirganini shu orqali ko'radi.
+    """
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='daily_activity')
+    date = models.DateField(db_index=True)
+    seconds_active = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        unique_together = ('user', 'date')
+        verbose_name = "Kunlik faollik"
+        verbose_name_plural = "Kunlik faollik"
+        ordering = ['-date']
+
+    def __str__(self):
+        return f"{self.user} — {self.date} ({self.seconds_active}s)"
