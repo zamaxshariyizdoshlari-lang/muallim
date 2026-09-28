@@ -378,3 +378,30 @@ class DailyActivity(models.Model):
 
     def __str__(self):
         return f"{self.user} — {self.date} ({self.seconds_active}s)"
+
+
+class Friendship(models.Model):
+    """Do'stlik so'rovi/aloqasi. `from_user` so'rov yuborgan, `to_user` qabul qiluvchi.
+
+    `status='accepted'` bo'lsa ikki tomonlama do'stlik hisoblanadi (qaysi tomon so'rov
+    yuborganidan qat'iy nazar). Bir juft foydalanuvchi orasida faqat bitta yozuv bo'lishi
+    kerak - buni ilova darajasida (view'da) tekshiramiz, chunki `unique_together` yo'nalishni
+    hisobga olmaydi (A->B va B->A alohida hisoblanadi).
+    """
+
+    STATUS_PENDING = 'pending'
+    STATUS_ACCEPTED = 'accepted'
+    STATUS_CHOICES = ((STATUS_PENDING, 'Kutilmoqda'), (STATUS_ACCEPTED, 'Qabul qilingan'))
+
+    from_user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='friend_requests_sent')
+    to_user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='friend_requests_received')
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default=STATUS_PENDING)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('from_user', 'to_user')
+        verbose_name = "Do'stlik"
+        verbose_name_plural = "Do'stliklar"
+
+    def __str__(self):
+        return f"{self.from_user} -> {self.to_user} ({self.status})"

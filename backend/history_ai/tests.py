@@ -335,6 +335,50 @@ class DailyGoalLeaderboardTests(CourseFixture):
         self.assertEqual(self.client.get(f'{H}leaderboard/').data['top'], [])
 
 
+class FriendsTests(CourseFixture):
+    def setUp(self):
+        super().setUp()
+        self.other = User.objects.create_user('doston', password='doston-parol-1', first_name='Doston')
+
+    def test_request_accept_and_list(self):
+        self.login(self.user)
+        r = self.client.post(f'{H}friends/request/', {'username': 'doston'}, format='json')
+        self.assertEqual(r.status_code, 201)
+        self.assertEqual(self.client.get(f'{H}friends/').data['outgoing'], [{'username': 'doston', 'name': 'Doston'}])
+
+        self.login(self.other)
+        incoming = self.client.get(f'{H}friends/').data['incoming']
+        self.assertEqual(incoming, [{'username': 'talaba', 'name': 'talaba'}])
+        r = self.client.post(f'{H}friends/accept/', {'username': 'talaba'}, format='json')
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual([f['username'] for f in r.data['friends']], ['talaba'])
+
+        self.login(self.user)
+        self.assertEqual([f['username'] for f in self.client.get(f'{H}friends/').data['friends']], ['doston'])
+
+    def test_cannot_request_self_or_duplicate(self):
+        self.login(self.user)
+        r = self.client.post(f'{H}friends/request/', {'username': 'talaba'}, format='json')
+        self.assertEqual(r.status_code, 400)
+        self.client.post(f'{H}friends/request/', {'username': 'doston'}, format='json')
+        r = self.client.post(f'{H}friends/request/', {'username': 'doston'}, format='json')
+        self.assertEqual(r.status_code, 400)
+
+    def test_decline_and_remove(self):
+        self.login(self.user)
+        self.client.post(f'{H}friends/request/', {'username': 'doston'}, format='json')
+        self.login(self.other)
+        self.client.post(f'{H}friends/decline/', {'username': 'talaba'}, format='json')
+        self.assertEqual(self.client.get(f'{H}friends/').data['incoming'], [])
+
+        self.login(self.user)
+        self.client.post(f'{H}friends/request/', {'username': 'doston'}, format='json')
+        self.login(self.other)
+        self.client.post(f'{H}friends/accept/', {'username': 'talaba'}, format='json')
+        self.client.post(f'{H}friends/remove/', {'username': 'talaba'}, format='json')
+        self.assertEqual(self.client.get(f'{H}friends/').data['friends'], [])
+
+
 class StreakFreezeTests(CourseFixture):
     def _active(self, days_ago_list):
         for d in days_ago_list:

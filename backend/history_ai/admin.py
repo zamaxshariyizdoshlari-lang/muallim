@@ -13,7 +13,7 @@ from django.utils.html import format_html
 
 from . import admin_views
 from .models import (
-    Book, Certificate, DailyActivity, GeneratedAsset, Lesson, ReviewAnswer, ReviewCard, Section,
+    Book, Certificate, DailyActivity, Friendship, GeneratedAsset, Lesson, ReviewAnswer, ReviewCard, Section,
     SectionCompletion, SectionExam, Subject, TestAttempt, Topic, TopicCompletion, UserSettings, XPEvent,
 )
 
@@ -224,6 +224,13 @@ class ReviewAnswerAdmin(admin.ModelAdmin):
     list_display = ('user', 'book', 'qkey', 'correct', 'created_at')
     list_filter = ('correct',)
     search_fields = ('user__username',)
+
+
+@admin.register(Friendship)
+class FriendshipAdmin(admin.ModelAdmin):
+    list_display = ('from_user', 'to_user', 'status', 'created_at')
+    list_filter = ('status',)
+    search_fields = ('from_user__username', 'to_user__username')
 
 
 @admin.register(ReviewCard)

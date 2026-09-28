@@ -266,6 +266,27 @@ export function getLeaderboard() {
   return request('/leaderboard/')
 }
 
+export function getFriends() {
+  return request('/friends/')
+}
+
+export function searchUsers(q) {
+  return request(`/users/search/?q=${encodeURIComponent(q)}`)
+}
+
+function postUsername(path, username) {
+  return request(path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username }),
+  })
+}
+
+export const sendFriendRequest = (username) => postUsername('/friends/request/', username)
+export const acceptFriendRequest = (username) => postUsername('/friends/accept/', username)
+export const declineFriendRequest = (username) => postUsername('/friends/decline/', username)
+export const removeFriend = (username) => postUsername('/friends/remove/', username)
+
 export async function verifyCertificate(code) {
   const res = await fetch(`${API_BASE}/certificates/verify/${encodeURIComponent(code)}/`)
   const body = await res.json().catch(() => ({}))

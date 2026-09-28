@@ -23,7 +23,7 @@ from .serializers import (
 )
 from .services.book_exam_builder import build_book_exam
 from .services.book_import import import_book_json
-from .services import analytics, gamification, review as review_service
+from .services import analytics, friends as friends_service, gamification, review as review_service
 from .services.certificate import build_certificate_pdf
 from .services.pdf_extractor import NoTextLayerError, extract_pages
 from .services.rules.exceptions import NotEnoughDataError
@@ -155,6 +155,54 @@ class LeaderboardView(APIView):
 
     def get(self, request):
         return Response(gamification.leaderboard(request.user))
+
+
+class FriendsView(APIView):
+    """Do'stlar ro'yxati, kiruvchi/chiquvchi so'rovlar va haftalik ball solishtiruvi."""
+
+    def get(self, request):
+        return Response(friends_service.friends_summary(request.user))
+
+
+class FriendRequestView(APIView):
+    def post(self, request):
+        username = (request.data.get('username') or '').strip()
+        if not username:
+            raise ValidationError({'username': "Foydalanuvchi nomini kiriting."})
+        target, error = friends_service.send_request(request.user, username)
+        if error:
+            raise ValidationError({'detail': error})
+        return Response({'sent_to': target.username}, status=status.HTTP_201_CREATED)
+
+
+class FriendAcceptView(APIView):
+    def post(self, request):
+        username = (request.data.get('username') or '').strip()
+        if not friends_service.accept_request(request.user, username):
+            raise ValidationError({'detail': "Bunday so'rov topilmadi."})
+        return Response(friends_service.friends_summary(request.user))
+
+
+class FriendDeclineView(APIView):
+    def post(self, request):
+        username = (request.data.get('username') or '').strip()
+        friends_service.decline_or_cancel(request.user, username)
+        return Response(friends_service.friends_summary(request.user))
+
+
+class FriendRemoveView(APIView):
+    def post(self, request):
+        username = (request.data.get('username') or '').strip()
+        friends_service.remove_friend(request.user, username)
+        return Response(friends_service.friends_summary(request.user))
+
+
+class UserSearchView(APIView):
+    """Do'st sifatida qo'shish uchun foydalanuvchi nomi bo'yicha qidiruv (do'st/so'rovdagilar chiqmaydi)."""
+
+    def get(self, request):
+        q = request.query_params.get('q', '')
+        return Response({'items': friends_service.search_users(request.user, q)})
 
 
 class ProfileView(APIView):

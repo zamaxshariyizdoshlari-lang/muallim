@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, UserRound, WifiOff } from 'lucide-react'
+import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, Users, UserRound, WifiOff } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -15,6 +15,7 @@ import AdminDashboardPage from './pages/admin/AdminDashboardPage'
 import AdminStudentDetailPage from './pages/admin/AdminStudentDetailPage'
 import AdminTopicEditorPage from './pages/admin/AdminTopicEditorPage'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
+import FriendsPage from './pages/FriendsPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
@@ -128,6 +129,7 @@ export default function HistoryAIModule() {
       >
         <Route index element={<SubjectsRoute />} />
         <Route path="profil" element={<ProfileRoute />} />
+        <Route path="dostlar" element={<FriendsPage />} />
         <Route path="fan/:slug" element={<CoursesRoute />} />
         <Route path="kurs/:bookId" element={<BookLayout />}>
           <Route index element={<TopicsRoute />} />
@@ -235,6 +237,7 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
 
 const NAV_ITEMS = [
   { to: '/', label: 'Bosh sahifa', icon: Home, end: true },
+  { to: '/dostlar', label: "Do'stlar", icon: Users },
   { to: '/profil', label: 'Profil', icon: UserRound },
 ]
 const ADMIN_NAV_ITEM = { to: '/boshqaruv', label: 'Boshqaruv', icon: LayoutDashboard }
