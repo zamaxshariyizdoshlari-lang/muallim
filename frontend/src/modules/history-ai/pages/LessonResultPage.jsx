@@ -223,6 +223,18 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
                       <SpeakingPractice sentences={lesson.lesson_plan.speaking_prompt.sentences} />
                     </section>
                   )}
+                  {lesson.quiz?.questions?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Qo'shimcha viktorina</h3>
+                      <QuizGame questions={lesson.quiz.questions} />
+                    </section>
+                  )}
+                  <AssetPanel topicId={topicId} kind="game_matching" label="So'z-tarjima moslashtirish" icon={Link2} isTeacher={isTeacher}>
+                    {(data) => <MatchingGame pairs={data.pairs} />}
+                  </AssetPanel>
+                  <AssetPanel topicId={topicId} kind="game_fill_blank" label="Bo'sh joyni to'ldirish" icon={Layers} isTeacher={isTeacher}>
+                    {(data) => <QuizGame questions={data.questions} />}
+                  </AssetPanel>
                 </div>
               </Stage>
 
