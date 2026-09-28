@@ -133,7 +133,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'uz'
 
-TIME_ZONE = 'UTC'
+# Platforma foydalanuvchilari asosan O'zbekistonda - kunlik maqsad, streak va faollik
+# "kun" chegaralari shu vaqt bo'yicha hisoblanishi kerak (UTC bo'lsa, kechasi 00:00-05:00
+# Toshkent vaqtida qilingan mashqlar noto'g'ri - oldingi kunga - hisoblanib qolardi).
+TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 
