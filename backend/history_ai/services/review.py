@@ -208,3 +208,30 @@ def search_book(book, query, topic_ids=None, limit=20):
             hits.append({'topic_id': t.id, 'topic_title': t.title, **found})
     hits.sort(key=lambda h: h['page'] or 0)
     return hits[:limit]
+
+
+def book_dictionary(book, topic_ids=None, query=''):
+    """Til kursi bo'yicha to'plangan lug'at: barcha ochilgan mavzulardagi so'zlar, bitta
+    qidiriladigan ro'yxatda (har birida qaysi mavzuda o'rgatilganligi ko'rsatiladi).
+
+    Foydalanuvchi oldin o'qigan darslarning so'zlarini alohida har bir Lesson'ni qayta
+    ochmasdan, bitta joydan qidirib topishi uchun.
+    """
+    q = query.strip().lower()
+    words = []
+    lessons = Lesson.objects.filter(topic__book=book, lesson_plan__isnull=False).select_related('topic')
+    for lesson in lessons:
+        t = lesson.topic
+        if topic_ids is not None and t.id not in topic_ids:
+            continue
+        for v in (lesson.lesson_plan or {}).get('vocabulary') or []:
+            tr, uz = v.get('tr', ''), v.get('uz', '')
+            if q and q not in tr.lower() and q not in uz.lower():
+                continue
+            words.append({
+                'tr': tr, 'uz': uz,
+                'example_tr': v.get('example_tr'), 'example_uz': v.get('example_uz'),
+                'topic_id': t.id, 'topic_title': t.title,
+            })
+    words.sort(key=lambda w: w['tr'].lower())
+    return words

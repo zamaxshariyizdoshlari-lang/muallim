@@ -62,6 +62,10 @@ export function searchBook(bookId, q) {
   return request(`/books/${bookId}/search/?q=${encodeURIComponent(q)}`)
 }
 
+export function getBookDictionary(bookId, q = '') {
+  return request(`/books/${bookId}/dictionary/${q ? `?q=${encodeURIComponent(q)}` : ''}`)
+}
+
 export function getProfile() {
   return request('/profile/')
 }

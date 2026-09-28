@@ -277,6 +277,25 @@ class ReviewSearchTests(CourseFixture):
         self.login(self.user)
         self.assertEqual(self.client.get(f'{H}books/{self.book.id}/search/', {'q': 'a'}).data['results'], [])
 
+    def test_dictionary_limited_to_unlocked_topics_and_filters_by_query(self):
+        from .models import Lesson
+        Lesson.objects.filter(topic=self.topics[0]).update(
+            lesson_plan={'blocks': [{'text': 'x'}], 'vocabulary': [{'tr': 'merhaba', 'uz': "salom"}]}
+        )
+        Lesson.objects.filter(topic=self.topics[1]).update(
+            lesson_plan={'blocks': [{'text': 'x'}], 'vocabulary': [{'tr': 'günaydın', 'uz': 'xayrli tong'}]}
+        )
+        self.login(self.user)
+        items = self.client.get(f'{H}books/{self.book.id}/dictionary/').data['items']
+        self.assertEqual([w['tr'] for w in items], ['merhaba'])
+
+        self.submit(self.topics[0])
+        items = self.client.get(f'{H}books/{self.book.id}/dictionary/').data['items']
+        self.assertEqual(sorted(w['tr'] for w in items), ['günaydın', 'merhaba'])
+
+        items = self.client.get(f'{H}books/{self.book.id}/dictionary/', {'q': 'salom'}).data['items']
+        self.assertEqual([w['tr'] for w in items], ['merhaba'])
+
 
 class PermissionTests(CourseFixture):
     def test_analytics_teacher_only(self):

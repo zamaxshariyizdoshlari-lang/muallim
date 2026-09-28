@@ -10,8 +10,8 @@ def topic_states(user, topics):
     """topics (order bo'yicha) -> {topic_id: {"unlocked": bool, "completed": bool}}.
 
     O'qituvchi (is_staff) uchun hammasi ochiq. Talaba uchun mavzu ochiladi, agar
-    oldingi mavzu testi 100% topshirilgan bo'lsa VA (mavzu keyingi bo'limda bo'lsa)
-    oldingi bo'lim testi ham 100% topshirilgan bo'lsa.
+    oldingi mavzu testi o'tilgan (kamida 80% to'g'ri) bo'lsa VA (mavzu keyingi bo'limda
+    bo'lsa) oldingi bo'lim testi ham o'tilgan bo'lsa.
 
     Istisno: kitob "Kirish" mavzusi bilan boshlansa, undan keyingi (haqiqiy 1-) mavzu ham
     "Kirish"ni tugatishni kutmasdan ochiq bo'ladi - "Kirish" shunchaki kirish so'zi, test emas.

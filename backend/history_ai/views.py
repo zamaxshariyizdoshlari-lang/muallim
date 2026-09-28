@@ -690,6 +690,19 @@ class BookSearchView(APIView):
         return Response({'results': hits})
 
 
+class BookDictionaryView(APIView):
+    """Kurs bo'yicha to'plangan lug'at (til kurslari uchun) - ochilgan mavzulardagi barcha so'zlar."""
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        allowed = None
+        if not request.user.is_staff:
+            states = topic_states(request.user, book.topics.all())
+            allowed = {tid for tid, st in states.items() if st['unlocked']}
+        words = review_service.book_dictionary(book, allowed, request.query_params.get('q', ''))
+        return Response({'items': words, 'total': len(words)})
+
+
 class BookAnalyticsView(APIView):
     """O'qituvchi paneli: talabalar natijasi va eng qiyin savollar."""
 

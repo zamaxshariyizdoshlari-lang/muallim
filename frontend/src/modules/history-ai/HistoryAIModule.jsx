@@ -15,6 +15,7 @@ import AdminDashboardPage from './pages/admin/AdminDashboardPage'
 import AdminStudentDetailPage from './pages/admin/AdminStudentDetailPage'
 import AdminTopicEditorPage from './pages/admin/AdminTopicEditorPage'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
+import DictionaryPage from './pages/DictionaryPage'
 import FriendsPage from './pages/FriendsPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
@@ -138,6 +139,7 @@ export default function HistoryAIModule() {
           <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
+          <Route path="lugat" element={<DictionaryRoute />} />
         </Route>
         <Route path="boshqaruv" element={<AdminGate />}>
           <Route index element={<AdminDashboardRoute />} />
@@ -372,6 +374,7 @@ function TopicsRoute() {
       onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
       onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
       onOpenReview={() => navigate(`/kurs/${bookId}/takrorlash`)}
+      onOpenDictionary={() => navigate(`/kurs/${bookId}/lugat`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
     />
@@ -385,6 +388,18 @@ function ReviewRoute() {
     <ReviewPage
       bookId={bookId}
       onBack={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
+      onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
+    />
+  )
+}
+
+function DictionaryRoute() {
+  const { bookId } = useOutletContext()
+  const navigate = useNavigate()
+  return (
+    <DictionaryPage
+      bookId={bookId}
+      onBack={() => navigate(`/kurs/${bookId}`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
     />
   )

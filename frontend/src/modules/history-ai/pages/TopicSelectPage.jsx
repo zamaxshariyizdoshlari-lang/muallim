@@ -1,4 +1,6 @@
-import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import { Award, BookOpen, BookText, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { getBookDictionary } from '../api/client'
 import SearchBox from '../components/SearchBox'
 import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
@@ -13,9 +15,14 @@ function splitSectionTitle(title = '', fallbackIndex = 0) {
 
 export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
-  onOpenReview, onOpenTopic,
+  onOpenReview, onOpenDictionary, onOpenTopic,
 }) {
   const showPages = book.subject_slug === 'tarix'
+  const [hasDictionary, setHasDictionary] = useState(false)
+
+  useEffect(() => {
+    getBookDictionary(book.id).then((d) => setHasDictionary(d.total > 0)).catch(() => {})
+  }, [book.id])
   const completedCount = topics.filter((t) => t.completed).length
   const sectionIds = [...new Set(topics.map((t) => t.section))]
   const groups = sectionIds.map((id) => ({
@@ -51,7 +58,16 @@ export default function TopicSelectPage({
       </div>
 
       <div className="mb-10 space-y-4">
-        <SearchBox bookId={book.id} onOpenTopic={onOpenTopic} />
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="flex-1">
+            <SearchBox bookId={book.id} onOpenTopic={onOpenTopic} />
+          </div>
+          {hasDictionary && (
+            <button onClick={onOpenDictionary} className="btn btn-ghost shrink-0 sm:w-auto">
+              <BookText size={16} /> Lug'at
+            </button>
+          )}
+        </div>
         {!isTeacher && progress?.weak_count > 0 && (
           <button
             onClick={onOpenReview}
