@@ -1,12 +1,20 @@
-import { Ban, BookOpen, CheckCircle2, Flame, Search, ShieldCheck, ShieldOff, Users } from 'lucide-react'
+import {
+  Ban, BookOpen, CheckCircle2, Flame, Plus, Search, ShieldCheck, ShieldOff, Trash2, UserMinus, Users,
+} from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { adminStudentAction, getAdminStats, getAdminStudents } from '../../api/client'
+import {
+  addAdminGroupMember, adminStudentAction, createAdminGroup, deleteAdminGroup, getAdminStats, getAdminStudents,
+  listAdminGroups, removeAdminGroupMember,
+} from '../../api/client'
 import { ErrorNote, Spinner } from '../../components/ui'
 
 export default function AdminDashboardPage({ onOpenStudent, onOpenContent }) {
   const [stats, setStats] = useState(null)
   const [students, setStudents] = useState(null)
   const [q, setQ] = useState('')
+  const [groups, setGroups] = useState([])
+  const [filterGroup, setFilterGroup] = useState('')
+  const [newGroupName, setNewGroupName] = useState('')
   const [error, setError] = useState('')
   const [busyId, setBusyId] = useState(null)
 
@@ -14,12 +22,17 @@ export default function AdminDashboardPage({ onOpenStudent, onOpenContent }) {
     getAdminStats().then(setStats).catch((err) => setError(err.message))
   }, [])
 
+  function loadGroups() {
+    listAdminGroups().then(setGroups).catch(() => {})
+  }
+  useEffect(loadGroups, [])
+
   useEffect(() => {
     const id = setTimeout(() => {
-      getAdminStudents(q).then(setStudents).catch((err) => setError(err.message))
+      getAdminStudents(q, filterGroup).then(setStudents).catch((err) => setError(err.message))
     }, 250)
     return () => clearTimeout(id)
-  }, [q])
+  }, [q, filterGroup])
 
   async function handleAction(id, action) {
     setBusyId(id)
@@ -31,6 +44,52 @@ export default function AdminDashboardPage({ onOpenStudent, onOpenContent }) {
       setError(err.message)
     } finally {
       setBusyId(null)
+    }
+  }
+
+  async function handleCreateGroup(e) {
+    e.preventDefault()
+    if (!newGroupName.trim()) return
+    setError('')
+    try {
+      const g = await createAdminGroup(newGroupName.trim())
+      setGroups((gs) => [...gs, g])
+      setNewGroupName('')
+    } catch (err) {
+      setError(err.message)
+    }
+  }
+
+  async function handleDeleteGroup(g) {
+    if (!confirm(`"${g.name}" guruhini o'chirasizmi?`)) return
+    try {
+      await deleteAdminGroup(g.id)
+      setGroups((gs) => gs.filter((x) => x.id !== g.id))
+      if (filterGroup === String(g.id)) setFilterGroup('')
+    } catch (err) {
+      setError(err.message)
+    }
+  }
+
+  async function handleAddToGroup(student, groupId) {
+    if (!groupId) return
+    setError('')
+    try {
+      await addAdminGroupMember(groupId, student.username)
+      loadGroups()
+    } catch (err) {
+      setError(err.message)
+    }
+  }
+
+  async function handleRemoveFromGroup(student) {
+    setError('')
+    try {
+      await removeAdminGroupMember(filterGroup, student.id)
+      setStudents((list) => list.filter((s) => s.id !== student.id))
+      loadGroups()
+    } catch (err) {
+      setError(err.message)
     }
   }
 
@@ -72,6 +131,39 @@ export default function AdminDashboardPage({ onOpenStudent, onOpenContent }) {
             onChange={(e) => setQ(e.target.value)}
           />
         </div>
+      </div>
+
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        <button
+          onClick={() => setFilterGroup('')}
+          className={`chip ${!filterGroup ? '!border-brand/40 !bg-brand-soft !text-brand' : ''}`}
+        >
+          Barchasi
+        </button>
+        {groups.map((g) => (
+          <span key={g.id} className="inline-flex items-center gap-1">
+            <button
+              onClick={() => setFilterGroup(String(g.id))}
+              className={`chip ${filterGroup === String(g.id) ? '!border-brand/40 !bg-brand-soft !text-brand' : ''}`}
+            >
+              {g.name} ({g.student_count})
+            </button>
+            <button onClick={() => handleDeleteGroup(g)} title="Guruhni o'chirish" className="text-muted hover:text-bad">
+              <Trash2 size={12} />
+            </button>
+          </span>
+        ))}
+        <form onSubmit={handleCreateGroup} className="flex items-center gap-1">
+          <input
+            className="field !h-7 !w-32 !text-xs"
+            placeholder="Yangi guruh/sinf"
+            value={newGroupName}
+            onChange={(e) => setNewGroupName(e.target.value)}
+          />
+          <button className="btn btn-ghost btn-sm !px-2" title="Guruh qo'shish">
+            <Plus size={14} />
+          </button>
+        </form>
       </div>
 
       {!students ? (
@@ -130,6 +222,28 @@ export default function AdminDashboardPage({ onOpenStudent, onOpenContent }) {
                       >
                         {s.is_staff ? <ShieldOff size={15} /> : <ShieldCheck size={15} />}
                       </button>
+                      {filterGroup ? (
+                        <button
+                          title="Guruhdan chiqarish"
+                          onClick={() => handleRemoveFromGroup(s)}
+                          className="btn btn-ghost btn-sm !px-2"
+                        >
+                          <UserMinus size={15} className="text-bad" />
+                        </button>
+                      ) : (
+                        groups.length > 0 && (
+                          <select
+                            className="field !h-8 !w-auto !py-0 !text-xs"
+                            value=""
+                            onChange={(e) => handleAddToGroup(s, e.target.value)}
+                          >
+                            <option value="">+ Guruhga</option>
+                            {groups.map((g) => (
+                              <option key={g.id} value={g.id}>{g.name}</option>
+                            ))}
+                          </select>
+                        )
+                      )}
                     </div>
                   </td>
                 </tr>

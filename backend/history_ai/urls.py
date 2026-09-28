@@ -12,6 +12,16 @@ urlpatterns = [
         'admin/students/<int:user_id>/action/', admin_api.AdminStudentActionView.as_view(),
         name='admin-student-action',
     ),
+    path('admin/groups/', admin_api.AdminGroupListCreateView.as_view(), name='admin-groups'),
+    path('admin/groups/<int:pk>/', admin_api.AdminGroupDetailView.as_view(), name='admin-group-detail'),
+    path(
+        'admin/groups/<int:group_id>/members/', admin_api.AdminGroupMembersView.as_view(),
+        name='admin-group-members',
+    ),
+    path(
+        'admin/groups/<int:group_id>/members/<int:user_id>/', admin_api.AdminGroupMemberDetailView.as_view(),
+        name='admin-group-member-detail',
+    ),
     path('admin/subjects/', admin_api.AdminSubjectListCreateView.as_view(), name='admin-subjects'),
     path('admin/subjects/<int:pk>/', admin_api.AdminSubjectDetailView.as_view(), name='admin-subject-detail'),
     path('admin/books/', admin_api.AdminBookListView.as_view(), name='admin-books'),

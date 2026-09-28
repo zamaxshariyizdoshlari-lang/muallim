@@ -16,7 +16,7 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import STATUS_DONE, Book, GeneratedAsset, Lesson, Section, Subject, Topic
+from .models import STATUS_DONE, Book, GeneratedAsset, Lesson, Section, StudentGroup, Subject, Topic
 from .permissions import IsTeacher
 from .serializers import BookSerializer, SubjectSerializer
 from .services import gamification
@@ -55,7 +55,75 @@ class AdminStudentListView(APIView):
 
     def get(self, request):
         qs = students_report(request.query_params.get('q', '').strip())
+        group_id = request.query_params.get('group')
+        if group_id:
+            qs = qs.filter(student_groups__id=group_id, student_groups__teacher=request.user)
         return Response(AdminStudentSerializer(qs, many=True).data)
+
+
+class StudentGroupSerializer(drf_serializers.ModelSerializer):
+    student_count = drf_serializers.IntegerField(read_only=True)
+    students = drf_serializers.SerializerMethodField()
+
+    class Meta:
+        model = StudentGroup
+        fields = ['id', 'name', 'student_count', 'students', 'created_at']
+        read_only_fields = ['id', 'student_count', 'students', 'created_at']
+
+    def get_students(self, obj):
+        return list(
+            obj.students.filter(is_staff=False).values('id', 'username', 'first_name').order_by('username')
+        )
+
+
+class AdminGroupListCreateView(generics.ListCreateAPIView):
+    """O'qituvchining o'z sinflari/guruhlari ro'yxati va yangisini yaratish."""
+
+    permission_classes = [IsTeacher]
+    serializer_class = StudentGroupSerializer
+
+    def get_queryset(self):
+        return StudentGroup.objects.filter(teacher=self.request.user).annotate(
+            student_count=Count('students')
+        ).order_by('name')
+
+    def perform_create(self, serializer):
+        serializer.save(teacher=self.request.user)
+
+
+class AdminGroupDetailView(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = [IsTeacher]
+    serializer_class = StudentGroupSerializer
+
+    def get_queryset(self):
+        return StudentGroup.objects.filter(teacher=self.request.user).annotate(student_count=Count('students'))
+
+
+class AdminGroupMembersView(APIView):
+    """Guruhga talaba qo'shish (foydalanuvchi nomi bo'yicha)."""
+
+    permission_classes = [IsTeacher]
+
+    def post(self, request, group_id):
+        group = get_object_or_404(StudentGroup, pk=group_id, teacher=request.user)
+        username = (request.data.get('username') or '').strip()
+        student = User.objects.filter(username__iexact=username, is_staff=False).first()
+        if not student:
+            raise ValidationError({'username': "Bunday talaba topilmadi."})
+        group.students.add(student)
+        return Response(
+            {'id': student.id, 'username': student.username, 'first_name': student.first_name},
+            status=201,
+        )
+
+
+class AdminGroupMemberDetailView(APIView):
+    permission_classes = [IsTeacher]
+
+    def delete(self, request, group_id, user_id):
+        group = get_object_or_404(StudentGroup, pk=group_id, teacher=request.user)
+        group.students.remove(*User.objects.filter(pk=user_id))
+        return Response(status=204)
 
 
 class AdminStudentDetailView(APIView):

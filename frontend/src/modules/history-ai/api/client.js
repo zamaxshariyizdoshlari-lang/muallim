@@ -304,8 +304,12 @@ export function getAdminStats() {
   return request('/admin/stats/')
 }
 
-export function getAdminStudents(q = '') {
-  return request(`/admin/students/${q ? `?q=${encodeURIComponent(q)}` : ''}`)
+export function getAdminStudents(q = '', groupId = '') {
+  const params = new URLSearchParams()
+  if (q) params.set('q', q)
+  if (groupId) params.set('group', groupId)
+  const qs = params.toString()
+  return request(`/admin/students/${qs ? `?${qs}` : ''}`)
 }
 
 export function getAdminStudent(userId) {
@@ -314,6 +318,26 @@ export function getAdminStudent(userId) {
 
 export function adminStudentAction(userId, action) {
   return jsonRequest(`/admin/students/${userId}/action/`, 'POST', { action })
+}
+
+export function listAdminGroups() {
+  return request('/admin/groups/')
+}
+
+export function createAdminGroup(name) {
+  return jsonRequest('/admin/groups/', 'POST', { name })
+}
+
+export function deleteAdminGroup(id) {
+  return request(`/admin/groups/${id}/`, { method: 'DELETE' })
+}
+
+export function addAdminGroupMember(groupId, username) {
+  return jsonRequest(`/admin/groups/${groupId}/members/`, 'POST', { username })
+}
+
+export function removeAdminGroupMember(groupId, userId) {
+  return request(`/admin/groups/${groupId}/members/${userId}/`, { method: 'DELETE' })
 }
 
 export function listAdminSubjects() {

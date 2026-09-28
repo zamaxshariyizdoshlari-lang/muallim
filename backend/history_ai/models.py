@@ -405,3 +405,21 @@ class Friendship(models.Model):
 
     def __str__(self):
         return f"{self.from_user} -> {self.to_user} ({self.status})"
+
+
+class StudentGroup(models.Model):
+    """O'qituvchi yaratgan sinf/guruh: talabalarni birlashtirib, alohida nazorat qilish uchun
+    (masalan "9-A sinf") - boshqaruv panelidagi talabalar jadvalini shu guruh bo'yicha filtrlash."""
+
+    teacher = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='taught_groups')
+    name = models.CharField(max_length=100)
+    students = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='student_groups', blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = 'Sinf/guruh'
+        verbose_name_plural = 'Sinflar/guruhlar'
+        ordering = ['name']
+
+    def __str__(self):
+        return self.name

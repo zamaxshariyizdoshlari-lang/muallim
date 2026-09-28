@@ -618,6 +618,41 @@ class AdminContentCreationTests(CourseFixture):
         self.assertEqual(book.subject_id, subject_id)
 
 
+class StudentGroupTests(CourseFixture):
+    def test_teacher_creates_group_and_adds_student(self):
+        self.login(self.teacher)
+        r = self.client.post(f'{H}admin/groups/', {'name': "9-A sinf"}, format='json')
+        self.assertEqual(r.status_code, 201, r.data)
+        group_id = r.data['id']
+
+        r = self.client.post(f'{H}admin/groups/{group_id}/members/', {'username': 'talaba'}, format='json')
+        self.assertEqual(r.status_code, 201)
+
+        r = self.client.get(f'{H}admin/groups/{group_id}/')
+        self.assertEqual([s['username'] for s in r.data['students']], ['talaba'])
+
+        r = self.client.get(f'{H}admin/students/?group={group_id}')
+        self.assertEqual([s['username'] for s in r.data], ['talaba'])
+
+    def test_group_scoped_to_owning_teacher(self):
+        other_teacher = User.objects.create_user('boshqa_ustoz', password='parol-12345', is_staff=True)
+        self.login(self.teacher)
+        r = self.client.post(f'{H}admin/groups/', {'name': "9-A sinf"}, format='json')
+        group_id = r.data['id']
+
+        self.login(other_teacher)
+        self.assertEqual(self.client.get(f'{H}admin/groups/{group_id}/').status_code, 404)
+        self.assertEqual(self.client.get(f'{H}admin/groups/').data, [])
+
+    def test_remove_member(self):
+        self.login(self.teacher)
+        group_id = self.client.post(f'{H}admin/groups/', {'name': 'G'}, format='json').data['id']
+        self.client.post(f'{H}admin/groups/{group_id}/members/', {'username': 'talaba'}, format='json')
+        r = self.client.delete(f'{H}admin/groups/{group_id}/members/{self.user.id}/')
+        self.assertEqual(r.status_code, 204)
+        self.assertEqual(self.client.get(f'{H}admin/groups/{group_id}/').data['students'], [])
+
+
 class LanguageContentImportTests(TestCase):
     """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
 
