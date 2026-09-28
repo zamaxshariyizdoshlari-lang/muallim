@@ -595,6 +595,29 @@ class AdminStatsTests(CourseFixture):
         self.assertIsNone(o['most_popular_book'])
 
 
+class AdminContentCreationTests(CourseFixture):
+    """Admin panel orqali JSON import'siz yangi fan/kurs yaratish."""
+
+    def test_create_subject_and_book_requires_staff(self):
+        self.login(self.user)
+        r = self.client.post(f'{H}admin/subjects/', {'slug': 'fizika', 'title': 'Fizika'}, format='json')
+        self.assertEqual(r.status_code, 403)
+
+    def test_teacher_creates_subject_then_book(self):
+        self.login(self.teacher)
+        r = self.client.post(f'{H}admin/subjects/', {'slug': 'fizika', 'title': 'Fizika'}, format='json')
+        self.assertEqual(r.status_code, 201)
+        subject_id = r.data['id']
+
+        r = self.client.post(f'{H}admin/books/', {'title': '7-sinf Fizika', 'subject': subject_id}, format='json')
+        self.assertEqual(r.status_code, 201, r.data)
+        from .models import Book
+        book = Book.objects.get(id=r.data['id'])
+        self.assertEqual(book.uploaded_by, self.teacher)
+        self.assertTrue(book.key)
+        self.assertEqual(book.subject_id, subject_id)
+
+
 class LanguageContentImportTests(TestCase):
     """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
 

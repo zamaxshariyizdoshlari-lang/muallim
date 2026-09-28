@@ -8,6 +8,8 @@ dars/test kontentini yaratish-tahrirlash-o'chirish.
 from django.contrib.auth import get_user_model
 from django.db.models import Count
 from django.shortcuts import get_object_or_404
+from django.utils import timezone
+from django.utils.text import slugify
 from rest_framework import generics
 from rest_framework import serializers as drf_serializers
 from rest_framework.exceptions import ValidationError
@@ -114,10 +116,21 @@ class AdminSubjectDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Subject.objects.annotate(book_count=Count('books'))
 
 
-class AdminBookListView(generics.ListAPIView):
+class AdminBookListView(generics.ListCreateAPIView):
+    """Kurslar ro'yxati va yangi kurs (bosh sahifa: bo'lim/mavzusiz "bo'sh" kitob) yaratish.
+
+    JSON import muqobili sifatida - o'qituvchi shu yerdan kursni boshidan qo'lda yaratib,
+    keyin bo'lim/mavzularni (AdminBookEditorPage) va dars/testni (AdminTopicEditorPage) qo'shadi.
+    """
+
     permission_classes = [IsTeacher]
     serializer_class = BookSerializer
     queryset = Book.objects.select_related('subject').order_by('-created_at')
+
+    def perform_create(self, serializer):
+        title = serializer.validated_data.get('title', '')
+        key = slugify(title)[:100] or f'kurs-{int(timezone.now().timestamp())}'
+        serializer.save(uploaded_by=self.request.user, key=key)
 
 
 class AdminBookDetailView(generics.RetrieveUpdateDestroyAPIView):

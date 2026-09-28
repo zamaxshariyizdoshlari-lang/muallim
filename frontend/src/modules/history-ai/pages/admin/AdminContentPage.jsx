@@ -1,7 +1,7 @@
 import { BookOpen, ChevronRight, Plus, Trash2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import {
-  createAdminSubject, deleteAdminBook, deleteAdminSubject, listAdminBooks, listAdminSubjects,
+  createAdminBook, createAdminSubject, deleteAdminBook, deleteAdminSubject, listAdminBooks, listAdminSubjects,
   updateAdminBook, updateAdminSubject,
 } from '../../api/client'
 import { BackLink, ErrorNote, Spinner } from '../../components/ui'
@@ -11,6 +11,7 @@ export default function AdminContentPage({ onOpenBook, onBack }) {
   const [books, setBooks] = useState(null)
   const [error, setError] = useState('')
   const [newSubject, setNewSubject] = useState({ slug: '', title: '' })
+  const [newBook, setNewBook] = useState({ title: '', subject: '' })
 
   function refresh() {
     Promise.all([listAdminSubjects(), listAdminBooks()])
@@ -51,6 +52,20 @@ export default function AdminContentPage({ onOpenBook, onBack }) {
     }
   }
 
+  async function handleAddBook(e) {
+    e.preventDefault()
+    if (!newBook.title.trim() || !newBook.subject) return
+    setError('')
+    try {
+      const created = await createAdminBook({ title: newBook.title.trim(), subject: Number(newBook.subject) })
+      setBooks((list) => [created, ...list])
+      setNewBook({ title: '', subject: '' })
+      onOpenBook(created.id)
+    } catch (err) {
+      setError(err.message)
+    }
+  }
+
   async function handleRenameBook(book, title) {
     try {
       const updated = await updateAdminBook(book.id, { title })
@@ -77,8 +92,8 @@ export default function AdminContentPage({ onOpenBook, onBack }) {
         <p className="eyebrow mb-2">Boshqaruv paneli</p>
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">Fanlar va kurslar</h1>
         <p className="mt-2 text-sm text-muted">
-          Yangi kurs (kitob) qo'shish uchun JSON import hali kerak; bu yerda mavjud fan/kurs/bo'lim/mavzularni
-          tahrirlash va o'chirish mumkin.
+          Yangi kurs shu yerdan qo'lda yaratiladi (pastdagi forma) yoki tayyor JSON fayldan import qilinadi;
+          mavjud fan/kurs/bo'lim/mavzularni tahrirlash va o'chirish ham shu yerda.
         </p>
       </header>
 
@@ -121,7 +136,7 @@ export default function AdminContentPage({ onOpenBook, onBack }) {
                   </li>
                 ))}
                 {books.filter((b) => b.subject === subject.id).length === 0 && (
-                  <p className="text-sm text-muted">Bu fanda hali kurs yo'q (JSON import orqali qo'shiladi).</p>
+                  <p className="text-sm text-muted">Bu fanda hali kurs yo'q.</p>
                 )}
               </ul>
             </section>
@@ -151,6 +166,39 @@ export default function AdminContentPage({ onOpenBook, onBack }) {
               <Plus size={15} /> Fan qo'shish
             </button>
           </form>
+
+          <form onSubmit={handleAddBook} className="card flex flex-wrap items-end gap-3 p-5">
+            <label className="min-w-[200px] flex-1 text-sm font-medium text-ink-2">
+              Yangi kurs nomi
+              <input
+                className="field mt-1.5"
+                required
+                placeholder="Masalan: 7-sinf Fizika"
+                value={newBook.title}
+                onChange={(e) => setNewBook((v) => ({ ...v, title: e.target.value }))}
+              />
+            </label>
+            <label className="text-sm font-medium text-ink-2">
+              Fan
+              <select
+                className="field mt-1.5"
+                required
+                value={newBook.subject}
+                onChange={(e) => setNewBook((v) => ({ ...v, subject: e.target.value }))}
+              >
+                <option value="" disabled>Tanlang</option>
+                {subjects.map((s) => (
+                  <option key={s.id} value={s.id}>{s.title}</option>
+                ))}
+              </select>
+            </label>
+            <button className="btn btn-primary btn-sm">
+              <Plus size={15} /> Kurs qo'shish
+            </button>
+          </form>
+          <p className="-mt-3 text-xs text-muted">
+            Kurs yaratilgach, bo'lim/mavzu qo'shish sahifasiga o'tasiz - u yerda dars matni va testini yozasiz.
+          </p>
         </div>
       )}
     </div>

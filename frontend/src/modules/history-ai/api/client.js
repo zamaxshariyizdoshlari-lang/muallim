@@ -336,6 +336,10 @@ export function listAdminBooks() {
   return request('/admin/books/')
 }
 
+export function createAdminBook(payload) {
+  return jsonRequest('/admin/books/', 'POST', payload)
+}
+
 export function updateAdminBook(id, payload) {
   return jsonRequest(`/admin/books/${id}/`, 'PATCH', payload)
 }
