@@ -335,6 +335,48 @@ class DailyGoalLeaderboardTests(CourseFixture):
         self.assertEqual(self.client.get(f'{H}leaderboard/').data['top'], [])
 
 
+class QuestionTypesTests(CourseFixture):
+    """fill_blank va ordering savol turlari: baholash va javob yashirish."""
+
+    def _make_test(self, topic):
+        GeneratedAsset.objects.filter(topic=topic, kind=GeneratedAsset.KIND_TOPIC_TEST).update(
+            data={'questions': [
+                {'type': 'mcq', 'question': 'Poytaxt?', 'options': ['Toshkent', 'Samarqand'], 'correct_index': 0},
+                {'type': 'fill_blank', 'question': "1991-yil nima bo'ldi?", 'answer': 'Mustaqillik'},
+                {'type': 'ordering', 'question': "Tartibla", 'items': ['Birinchi', 'Ikkinchi', 'Uchinchi']},
+            ]},
+        )
+
+    def test_student_never_sees_answers_for_new_types(self):
+        self.login(self.user)
+        self._make_test(self.topics[0])
+        r = self.client.get(f'{H}topics/{self.topics[0].id}/assets/topic_test/')
+        body = str(r.data)
+        self.assertNotIn('Mustaqillik', body)
+        self.assertNotIn('correct_index', body)
+        # ordering elementlari hali ham mavjud (faqat tartibi aralashgan bo'lishi mumkin)
+        for item in ['Birinchi', 'Ikkinchi', 'Uchinchi']:
+            self.assertIn(item, body)
+
+    def test_grading_fill_blank_case_and_whitespace_insensitive(self):
+        self.login(self.user)
+        self._make_test(self.topics[0])
+        r = self.client.post(f'{H}topics/{self.topics[0].id}/test/submit/', {'answers': {
+            '0': 'Toshkent', '1': '  mustaqillik  ', '2': ['Birinchi', 'Ikkinchi', 'Uchinchi'],
+        }}, format='json')
+        self.assertEqual(r.data['score'], 3)
+        self.assertTrue(r.data['passed'])
+
+    def test_grading_ordering_wrong_order_fails(self):
+        self.login(self.user)
+        self._make_test(self.topics[0])
+        r = self.client.post(f'{H}topics/{self.topics[0].id}/test/submit/', {'answers': {
+            '0': 'Toshkent', '1': 'Mustaqillik', '2': ['Ikkinchi', 'Birinchi', 'Uchinchi'],
+        }}, format='json')
+        self.assertEqual(r.data['score'], 2)
+        self.assertEqual(r.data['details'][2]['correct_answer'], ['Birinchi', 'Ikkinchi', 'Uchinchi'])
+
+
 class FriendsTests(CourseFixture):
     def setUp(self):
         super().setUp()

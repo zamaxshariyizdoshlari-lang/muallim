@@ -1,7 +1,86 @@
-import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
+import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, X, XCircle } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
+
+/** Bir tanlovli (mcq) savol: variant tugmalari, javob matn bo'yicha saqlanadi (indeks emas). */
+function McqBody({ q, answer, onChange, disabled, detail: d }) {
+  return (
+    <div className="flex flex-col gap-2">
+      {q.options.map((opt, j) => {
+        const isChosen = answer === opt
+        const isCorrectOption = d && opt === d.correct_answer
+        const isWrongChosen = d && isChosen && !d.correct
+        return (
+          <button
+            key={j}
+            type="button"
+            disabled={disabled}
+            onClick={() => onChange(opt)}
+            className={`option ${isChosen && !d ? 'is-selected' : ''} ${isCorrectOption ? 'is-ok' : ''} ${isWrongChosen ? 'is-bad' : ''}`}
+            aria-pressed={isChosen}
+          >
+            <span className="option-key">{String.fromCharCode(65 + j)}</span>
+            <span className="pt-0.5">{opt}</span>
+            {isCorrectOption && <CheckCircle2 className="ml-auto shrink-0 text-ok" size={18} />}
+            {isWrongChosen && <XCircle className="ml-auto shrink-0 text-bad" size={18} />}
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+/** Bo'sh joy to'ldirish: erkin matn javobi (katta-kichik harf/bo'shliqqa sezgir emas). */
+function FillBlankBody({ answer, onChange, disabled, detail: d }) {
+  return (
+    <input
+      type="text"
+      className={`field ${d ? (d.correct ? '!border-ok' : '!border-bad') : ''}`}
+      placeholder="Javobingizni shu yerga yozing..."
+      value={answer || ''}
+      disabled={disabled}
+      onChange={(e) => onChange(e.target.value)}
+    />
+  )
+}
+
+/** Tartiblash: talaba elementlarni to'g'ri tartibda bosib chiqadi. */
+function OrderingBody({ items, answer, onChange, disabled }) {
+  const value = answer || []
+  const remaining = [...items]
+  value.forEach((v) => {
+    const idx = remaining.indexOf(v)
+    if (idx !== -1) remaining.splice(idx, 1)
+  })
+  return (
+    <div>
+      <div className="mb-3 flex min-h-[3rem] flex-wrap gap-2 rounded-lg border border-dashed border-line p-2.5">
+        {value.length === 0 && <span className="self-center text-xs text-muted">Pastdagi elementlarni to'g'ri tartibda bosing</span>}
+        {value.map((v, idx) => (
+          <button
+            key={idx}
+            type="button"
+            disabled={disabled}
+            onClick={() => onChange(value.filter((_, j) => j !== idx))}
+            className="chip chip-gold"
+          >
+            {idx + 1}. {v} {!disabled && <X size={12} />}
+          </button>
+        ))}
+      </div>
+      {remaining.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {remaining.map((v, idx) => (
+            <button key={idx} type="button" disabled={disabled} onClick={() => onChange([...value, v])} className="chip">
+              {v}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 /**
  * Rasmiy test (mavzu testi, bo'lim testi yoki yakuniy imtihon). Barcha savollar birdaniga
@@ -56,7 +135,13 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   }
 
   const questions = test?.status === 'done' ? test.data?.questions || [] : []
-  const answeredCount = Object.keys(answers).length
+  const isAnswered = (q, i) => {
+    const a = answers[i]
+    if (q.type === 'ordering') return Array.isArray(a) && a.length === q.items.length
+    if (q.type === 'fill_blank') return typeof a === 'string' && a.trim().length > 0
+    return a !== undefined
+  }
+  const answeredCount = questions.filter((q, i) => isAnswered(q, i)).length
   const detailByIndex = Object.fromEntries((result?.details || []).map((d) => [d.index, d]))
 
   return (
@@ -170,33 +255,34 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                     <span className="flex-1 pt-0.5 font-read text-lg font-medium leading-snug text-ink">{q.question}</span>
                     {d && (d.correct ? <CheckCircle2 className="shrink-0 text-ok" size={22} /> : <XCircle className="shrink-0 text-bad" size={22} />)}
                   </p>
-                  <div className="flex flex-col gap-2">
-                    {q.options.map((opt, j) => {
-                      const isChosen = answers[i] === opt
-                      const isCorrectOption = d && opt === d.correct_answer
-                      const isWrongChosen = d && isChosen && !d.correct
-                      return (
-                        <button
-                          key={j}
-                          type="button"
-                          disabled={Boolean(result)}
-                          onClick={() => setAnswers((a) => ({ ...a, [i]: opt }))}
-                          className={`option ${isChosen && !d ? 'is-selected' : ''} ${
-                            isCorrectOption ? 'is-ok' : ''
-                          } ${isWrongChosen ? 'is-bad' : ''}`}
-                          aria-pressed={isChosen}
-                        >
-                          <span className="option-key">{String.fromCharCode(65 + j)}</span>
-                          <span className="pt-0.5">{opt}</span>
-                          {isCorrectOption && <CheckCircle2 className="ml-auto shrink-0 text-ok" size={18} />}
-                          {isWrongChosen && <XCircle className="ml-auto shrink-0 text-bad" size={18} />}
-                        </button>
-                      )
-                    })}
-                  </div>
+                  {q.type === 'fill_blank' ? (
+                    <FillBlankBody
+                      answer={answers[i]}
+                      disabled={Boolean(result)}
+                      detail={d}
+                      onChange={(v) => setAnswers((a) => ({ ...a, [i]: v }))}
+                    />
+                  ) : q.type === 'ordering' ? (
+                    <OrderingBody
+                      items={q.items}
+                      answer={answers[i]}
+                      disabled={Boolean(result)}
+                      onChange={(v) => setAnswers((a) => ({ ...a, [i]: v }))}
+                    />
+                  ) : (
+                    <McqBody
+                      q={q}
+                      answer={answers[i]}
+                      disabled={Boolean(result)}
+                      detail={d}
+                      onChange={(v) => setAnswers((a) => ({ ...a, [i]: v }))}
+                    />
+                  )}
                   {d && !d.correct && (
                     <div className="mt-3 rounded-lg bg-bad-soft px-3 py-2 text-sm text-bad">
-                      <p className="font-medium">To'g'ri javob: {d.correct_answer}</p>
+                      <p className="font-medium">
+                        To'g'ri javob: {Array.isArray(d.correct_answer) ? d.correct_answer.join(' → ') : d.correct_answer}
+                      </p>
                       {d.page && <p className="mt-1">Qayta o'qing: darslikning {d.page}-beti</p>}
                       {d.explain && (
                         <p className="mt-1 text-ink-2">

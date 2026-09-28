@@ -36,6 +36,50 @@ def _check_mcq(q, where, errors):
         errors.append(f"{where}: page berilsa, butun son bo'lishi kerak")
 
 
+def _check_fill_blank_answer(q, where, errors):
+    if not isinstance(q, dict):
+        errors.append(f"{where}: savol obyekt bo'lishi kerak")
+        return
+    if not str(q.get('question', '')).strip():
+        errors.append(f"{where}: savol matni bo'sh")
+    ans = q.get('answer')
+    if not isinstance(ans, str) or not ans.strip():
+        errors.append(f"{where}: answer bo'sh bo'lmagan matn bo'lishi kerak")
+    if 'page' in q and q['page'] is not None and not _is_int(q['page']):
+        errors.append(f"{where}: page berilsa, butun son bo'lishi kerak")
+
+
+def _check_ordering(q, where, errors):
+    if not isinstance(q, dict):
+        errors.append(f"{where}: savol obyekt bo'lishi kerak")
+        return
+    if not str(q.get('question', '')).strip():
+        errors.append(f"{where}: savol matni bo'sh")
+    items = q.get('items')
+    if not isinstance(items, list) or not 2 <= len(items) <= 8 or not all(isinstance(x, str) and x.strip() for x in items):
+        errors.append(f"{where}: items 2-8 ta bo'sh bo'lmagan matn bo'lishi kerak")
+    if 'page' in q and q['page'] is not None and not _is_int(q['page']):
+        errors.append(f"{where}: page berilsa, butun son bo'lishi kerak")
+
+
+def _check_test_question(q, where, errors):
+    """Rasmiy test (mavzu/bo'lim/yakuniy imtihon) savolini turi bo'yicha tekshiradi.
+
+    `type` berilmasa 'mcq' (bitta tanlov) deb qabul qilinadi - eski kontent bilan mos keladi.
+    Faqat rasmiy testlarda ishlatiladi (dars ichidagi o'yin/mashqlarda emas - ular hali faqat
+    MCQ'ni qo'llab-quvvatlaydi, shuning uchun ular hamon `_check_mcq`ni to'g'ridan-to'g'ri ishlatadi).
+    """
+    qtype = q.get('type', 'mcq') if isinstance(q, dict) else 'mcq'
+    if qtype == 'mcq':
+        _check_mcq(q, where, errors)
+    elif qtype == 'fill_blank':
+        _check_fill_blank_answer(q, where, errors)
+    elif qtype == 'ordering':
+        _check_ordering(q, where, errors)
+    else:
+        errors.append(f"{where}: noma'lum savol turi '{qtype}'")
+
+
 def validate_book_json(data):
     """Xatolar ro'yxatini qaytaradi (bo'sh ro'yxat = hammasi to'g'ri)."""
     errors = []
@@ -77,7 +121,7 @@ def validate_book_json(data):
             if not isinstance(t.get('test'), list) or len(t['test']) < 5:
                 errors.append(f"{tw}: test kamida 5 ta savoldan iborat bo'lishi kerak")
             for qi, q in enumerate(t.get('test') or []):
-                _check_mcq(q, f"{tw}.test[{qi}]", errors)
+                _check_test_question(q, f"{tw}.test[{qi}]", errors)
 
             # Til kursi uchun ixtiyoriy maydonlar (tarix kitobida bo'lmaydi).
             expl = t.get('explanation') or {}

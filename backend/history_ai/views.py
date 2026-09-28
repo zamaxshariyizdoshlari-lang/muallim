@@ -265,12 +265,38 @@ class BookProgressView(APIView):
         })
 
 
-def _grade(questions, answers, book=None, topic=None):
-    """answers: {"0": chosen_option_text, ...}. Javob berilmagan yoki noto'g'ri savol xato hisoblanadi.
+def _normalize_text(s):
+    return ' '.join(str(s).strip().lower().split())
 
-    Javob variantlarning matni bo'yicha solishtiriladi (indeks emas), chunki talabaga ko'rsatiladigan
-    variantlar tartibi har safar aralashtiriladi (`hide_answers`) - shu bilan qayta urinishda
-    pozitsiyani yodlab bosib qo'yish emas, haqiqatan bilishni talab qiladi.
+
+def _grade_one(q, chosen):
+    """Bitta savolni turiga qarab baholaydi. Qaytaradi: (to'g'rimi, to'g'ri javob).
+
+    - mcq: javob variant matni bilan solishtiriladi (indeks emas), chunki talabaga
+      ko'rsatiladigan variantlar tartibi har safar aralashtiriladi (`hide_answers`).
+    - fill_blank: erkin matn javobi, katta-kichik harf va ortiqcha bo'shliqlarga
+      sezgir bo'lmagan holda solishtiriladi.
+    - ordering: talaba tartiblagan ro'yxat asl (to'g'ri) tartib bilan solishtiriladi.
+    """
+    qtype = q.get('type', 'mcq')
+    if qtype == 'fill_blank':
+        correct_answer = q['answer']
+        correct = isinstance(chosen, str) and _normalize_text(chosen) == _normalize_text(correct_answer)
+    elif qtype == 'ordering':
+        correct_answer = q['items']
+        correct = (
+            isinstance(chosen, list) and len(chosen) == len(correct_answer)
+            and [str(x).strip() for x in chosen] == [str(x).strip() for x in correct_answer]
+        )
+    else:
+        correct_answer = q['options'][q['correct_index']]
+        correct = chosen == correct_answer
+    return correct, correct_answer
+
+
+def _grade(questions, answers, book=None, topic=None):
+    """answers: {"0": javob, ...} - savol turiga qarab matn, yoki tartiblangan ro'yxat.
+    Javob berilmagan yoki noto'g'ri savol xato hisoblanadi.
 
     `book` berilsa, xato javoblarga qisqa eslatma (`explain`: sarlavha + matn boshi) qo'shiladi.
     `topic` berilsa (mavzu testi), eslatma to'g'ridan-to'g'ri shu mavzudan olinadi - bet raqami
@@ -280,8 +306,7 @@ def _grade(questions, answers, book=None, topic=None):
     score = 0
     for i, q in enumerate(questions):
         chosen = answers.get(str(i))
-        correct_answer = q['options'][q['correct_index']]
-        correct = chosen == correct_answer
+        correct, correct_answer = _grade_one(q, chosen)
         score += int(correct)
         detail = {'index': i, 'correct': correct, 'page': q.get('page'), 'correct_answer': correct_answer}
         if not correct and book is not None:

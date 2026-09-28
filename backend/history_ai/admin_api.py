@@ -21,7 +21,7 @@ from .services import gamification
 from .services.admin_stats import (
     platform_overview, student_activity_history, student_completed_topics, students_report,
 )
-from .services.book_import import _check_mcq
+from .services.book_import import _check_test_question
 
 User = get_user_model()
 
@@ -242,7 +242,7 @@ class AdminTopicTestView(APIView):
             raise ValidationError({'questions': "Kamida bitta savol kerak"})
         errors = []
         for i, q in enumerate(questions):
-            _check_mcq(q, f"savol[{i}]", errors)
+            _check_test_question(q, f"savol[{i}]", errors)
         if errors:
             raise ValidationError({'questions': errors})
         asset, _ = GeneratedAsset.objects.update_or_create(

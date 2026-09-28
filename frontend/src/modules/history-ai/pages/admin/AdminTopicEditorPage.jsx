@@ -147,8 +147,16 @@ function LessonEditor({ topicId }) {
   )
 }
 
-function emptyQuestion() {
-  return { question: '', options: ['', ''], correct_index: 0, page: '' }
+const QUESTION_TYPES = [
+  { id: 'mcq', label: 'Bitta tanlov' },
+  { id: 'fill_blank', label: "Bo'sh joy to'ldirish" },
+  { id: 'ordering', label: 'Tartiblash' },
+]
+
+function emptyQuestion(type = 'mcq') {
+  if (type === 'fill_blank') return { type, question: '', answer: '', page: '' }
+  if (type === 'ordering') return { type, question: '', items: ['', ''], page: '' }
+  return { type: 'mcq', question: '', options: ['', ''], correct_index: 0, page: '' }
 }
 
 function TestEditor({ topicId }) {
@@ -171,17 +179,26 @@ function TestEditor({ topicId }) {
     setQuestions((qs) => qs.map((q, i) => (i !== qi ? q : { ...q, options: q.options.map((o, j) => (j === oi ? value : o)) })))
   }
 
+  function updateItem(qi, ii, value) {
+    setQuestions((qs) => qs.map((q, i) => (i !== qi ? q : { ...q, items: q.items.map((v, j) => (j === ii ? value : v)) })))
+  }
+
+  function changeType(qi, newType) {
+    setQuestions((qs) => qs.map((q, i) => (i === qi ? { ...emptyQuestion(newType), question: q.question, page: q.page } : q)))
+  }
+
   async function handleSave() {
     setSaving(true)
     setError('')
     setSaved(false)
     try {
-      const clean = questions.map((q) => ({
-        question: q.question.trim(),
-        options: q.options.map((o) => o.trim()),
-        correct_index: q.correct_index,
-        ...(q.page ? { page: Number(q.page) } : {}),
-      }))
+      const clean = questions.map((q) => {
+        const type = q.type || 'mcq'
+        const base = { type, question: q.question.trim(), ...(q.page ? { page: Number(q.page) } : {}) }
+        if (type === 'fill_blank') return { ...base, answer: (q.answer || '').trim() }
+        if (type === 'ordering') return { ...base, items: q.items.map((v) => v.trim()).filter(Boolean) }
+        return { ...base, options: q.options.map((o) => o.trim()), correct_index: q.correct_index }
+      })
       const result = await saveAdminTopicTest(topicId, clean)
       setQuestions(result.questions)
       setSaved(true)
@@ -197,76 +214,147 @@ function TestEditor({ topicId }) {
   return (
     <div className="flex flex-col gap-5">
       <ErrorNote>{error}</ErrorNote>
-      <p className="text-sm text-muted">Har bir savolda 2–6 variant bo'lishi va to'g'ri javob belgilanishi shart.</p>
+      <p className="text-sm text-muted">
+        3 xil savol turi mavjud: bitta tanlov (2-6 variant), bo'sh joy to'ldirish (erkin matn javobi)
+        va tartiblash (elementlarni to'g'ri tartibda joylashtirish).
+      </p>
 
-      {questions.map((q, qi) => (
-        <div key={qi} className="card p-5 sm:p-6">
-          <div className="mb-3 flex items-start justify-between gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-soft text-sm font-bold text-brand">
-              {qi + 1}
-            </span>
-            <textarea
-              className="field flex-1"
-              placeholder="Savol matni"
-              value={q.question}
-              onChange={(e) => updateQuestion(qi, { question: e.target.value })}
-            />
-            <button
-              onClick={() => setQuestions((qs) => qs.filter((_, i) => i !== qi))}
-              className="btn btn-ghost btn-sm !px-2 text-bad"
-            >
-              <Trash2 size={14} />
-            </button>
-          </div>
-
-          <div className="ml-10 flex flex-col gap-2">
-            {q.options.map((opt, oi) => (
-              <label key={oi} className="flex items-center gap-2.5">
-                <input
-                  type="radio"
-                  name={`correct-${qi}`}
-                  checked={q.correct_index === oi}
-                  onChange={() => updateQuestion(qi, { correct_index: oi })}
-                />
-                <input
-                  className="field flex-1"
-                  placeholder={`Variant ${String.fromCharCode(65 + oi)}`}
-                  value={opt}
-                  onChange={(e) => updateOption(qi, oi, e.target.value)}
-                />
-                {q.options.length > 2 && (
-                  <button
-                    onClick={() => updateQuestion(qi, {
-                      options: q.options.filter((_, i) => i !== oi),
-                      correct_index: q.correct_index >= oi && q.correct_index > 0 ? q.correct_index - 1 : q.correct_index,
-                    })}
-                    className="btn btn-ghost btn-sm !px-2 text-bad"
-                  >
-                    <Trash2 size={12} />
-                  </button>
-                )}
-              </label>
-            ))}
-            {q.options.length < 6 && (
-              <button
-                onClick={() => updateQuestion(qi, { options: [...q.options, ''] })}
-                className="btn btn-ghost btn-sm w-fit !text-xs"
-              >
-                <Plus size={12} /> Variant qo'shish
-              </button>
-            )}
-            <label className="mt-1 block w-40 text-xs font-medium text-muted">
-              Bet (ixtiyoriy)
-              <input
-                type="number"
-                className="field mt-1"
-                value={q.page}
-                onChange={(e) => updateQuestion(qi, { page: e.target.value })}
+      {questions.map((q, qi) => {
+        const qtype = q.type || 'mcq'
+        return (
+          <div key={qi} className="card p-5 sm:p-6">
+            <div className="mb-3 flex items-start justify-between gap-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-soft text-sm font-bold text-brand">
+                {qi + 1}
+              </span>
+              <textarea
+                className="field flex-1"
+                placeholder="Savol matni"
+                value={q.question}
+                onChange={(e) => updateQuestion(qi, { question: e.target.value })}
               />
-            </label>
+              <button
+                onClick={() => setQuestions((qs) => qs.filter((_, i) => i !== qi))}
+                className="btn btn-ghost btn-sm !px-2 text-bad"
+              >
+                <Trash2 size={14} />
+              </button>
+            </div>
+
+            <div className="ml-10 mb-3 flex gap-1.5">
+              {QUESTION_TYPES.map((t) => (
+                <button
+                  key={t.id}
+                  type="button"
+                  onClick={() => changeType(qi, t.id)}
+                  className={`btn btn-sm !rounded-full !text-xs ${qtype === t.id ? 'btn-primary' : 'btn-ghost'}`}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+
+            <div className="ml-10 flex flex-col gap-2">
+              {qtype === 'mcq' && (
+                <>
+                  {q.options.map((opt, oi) => (
+                    <label key={oi} className="flex items-center gap-2.5">
+                      <input
+                        type="radio"
+                        name={`correct-${qi}`}
+                        checked={q.correct_index === oi}
+                        onChange={() => updateQuestion(qi, { correct_index: oi })}
+                      />
+                      <input
+                        className="field flex-1"
+                        placeholder={`Variant ${String.fromCharCode(65 + oi)}`}
+                        value={opt}
+                        onChange={(e) => updateOption(qi, oi, e.target.value)}
+                      />
+                      {q.options.length > 2 && (
+                        <button
+                          onClick={() => updateQuestion(qi, {
+                            options: q.options.filter((_, i) => i !== oi),
+                            correct_index: q.correct_index >= oi && q.correct_index > 0 ? q.correct_index - 1 : q.correct_index,
+                          })}
+                          className="btn btn-ghost btn-sm !px-2 text-bad"
+                        >
+                          <Trash2 size={12} />
+                        </button>
+                      )}
+                    </label>
+                  ))}
+                  {q.options.length < 6 && (
+                    <button
+                      onClick={() => updateQuestion(qi, { options: [...q.options, ''] })}
+                      className="btn btn-ghost btn-sm w-fit !text-xs"
+                    >
+                      <Plus size={12} /> Variant qo'shish
+                    </button>
+                  )}
+                </>
+              )}
+
+              {qtype === 'fill_blank' && (
+                <label className="block text-xs font-medium text-muted">
+                  To'g'ri javob (katta-kichik harf va bo'shliqqa sezgir emas)
+                  <input
+                    className="field mt-1"
+                    placeholder="Masalan: 1991"
+                    value={q.answer}
+                    onChange={(e) => updateQuestion(qi, { answer: e.target.value })}
+                  />
+                </label>
+              )}
+
+              {qtype === 'ordering' && (
+                <>
+                  <p className="text-xs font-medium text-muted">Elementlarni to'g'ri (kutilgan) tartibda kiriting</p>
+                  {q.items.map((item, ii) => (
+                    <div key={ii} className="flex items-center gap-2.5">
+                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-paper-2 text-xs font-bold text-ink-2">
+                        {ii + 1}
+                      </span>
+                      <input
+                        className="field flex-1"
+                        placeholder={`${ii + 1}-element`}
+                        value={item}
+                        onChange={(e) => updateItem(qi, ii, e.target.value)}
+                      />
+                      {q.items.length > 2 && (
+                        <button
+                          onClick={() => updateQuestion(qi, { items: q.items.filter((_, i) => i !== ii) })}
+                          className="btn btn-ghost btn-sm !px-2 text-bad"
+                        >
+                          <Trash2 size={12} />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                  {q.items.length < 8 && (
+                    <button
+                      onClick={() => updateQuestion(qi, { items: [...q.items, ''] })}
+                      className="btn btn-ghost btn-sm w-fit !text-xs"
+                    >
+                      <Plus size={12} /> Element qo'shish
+                    </button>
+                  )}
+                </>
+              )}
+
+              <label className="mt-1 block w-40 text-xs font-medium text-muted">
+                Bet (ixtiyoriy)
+                <input
+                  type="number"
+                  className="field mt-1"
+                  value={q.page}
+                  onChange={(e) => updateQuestion(qi, { page: e.target.value })}
+                />
+              </label>
+            </div>
           </div>
-        </div>
-      ))}
+        )
+      })}
 
       <button onClick={() => setQuestions((qs) => [...qs, emptyQuestion()])} className="btn btn-ghost btn-sm w-fit">
         <Plus size={14} /> Savol qo'shish

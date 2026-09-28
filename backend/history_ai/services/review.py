@@ -76,9 +76,15 @@ def _reset(user, book, key, q, topic):
 
 def record_grading(user, book, questions, answers, topic=None):
     """Har qanday test (mavzu/bo'lim/yakuniy) topshirilgandan keyin chaqiriladi: takrorlash
-    kartochkalarini yangilaydi (xato -> kartochka, to'g'ri -> mavjud kartochka ilgarilaydi)."""
+    kartochkalarini yangilaydi (xato -> kartochka, to'g'ri -> mavjud kartochka ilgarilaydi).
+
+    Hozircha faqat bitta tanlovli (mcq) savollar takrorlash tizimiga tushadi - "takrorlash"
+    ekrani variant tanlash asosida ishlaydi, erkin matn/tartiblash savollarini hali qo'llamaydi.
+    """
     topics = None
     for i, q in enumerate(questions):
+        if q.get('type', 'mcq') != 'mcq':
+            continue
         chosen = (answers or {}).get(str(i))
         correct = chosen == q['options'][q['correct_index']]
         key = qkey(q['question'])

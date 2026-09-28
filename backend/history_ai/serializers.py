@@ -33,9 +33,19 @@ def hide_answers(data, request):
     if data and not (user and user.is_staff):
         questions = []
         for q in data.get('questions', []):
-            options = list(q.get('options', []))
-            random.shuffle(options)
-            questions.append({**{k: v for k, v in q.items() if k != 'correct_index'}, 'options': options})
+            qtype = q.get('type', 'mcq')
+            if qtype == 'fill_blank':
+                # Erkin matn javobi: to'g'ri javobning o'zi (`answer`) yashiriladi.
+                questions.append({k: v for k, v in q.items() if k != 'answer'})
+            elif qtype == 'ordering':
+                # To'g'ri tartib ko'rsatilmasligi uchun elementlar aralashtirib beriladi.
+                items = list(q.get('items', []))
+                random.shuffle(items)
+                questions.append({**q, 'items': items})
+            else:
+                options = list(q.get('options', []))
+                random.shuffle(options)
+                questions.append({**{k: v for k, v in q.items() if k != 'correct_index'}, 'options': options})
         data = {**data, 'questions': questions}
     return data
 
