@@ -112,6 +112,25 @@ function LessonEditor({ topicId }) {
             value={block.text}
             onChange={(e) => updateBlock(i, { text: e.target.value })}
           />
+          <div className="mb-3 grid gap-3 sm:grid-cols-2">
+            <label className="block text-xs font-medium text-muted">
+              Rasm havolasi (ixtiyoriy, masalan Wikimedia Commons'dan)
+              <input
+                className="field mt-1"
+                placeholder="https://..."
+                value={block.image || ''}
+                onChange={(e) => updateBlock(i, { image: e.target.value })}
+              />
+            </label>
+            <label className="block text-xs font-medium text-muted">
+              Rasm tavsifi (ixtiyoriy)
+              <input
+                className="field mt-1"
+                value={block.image_caption || ''}
+                onChange={(e) => updateBlock(i, { image_caption: e.target.value })}
+              />
+            </label>
+          </div>
           <label className="block text-xs font-medium text-muted">
             Manba betlari (vergul bilan, masalan: 5, 6)
             <input

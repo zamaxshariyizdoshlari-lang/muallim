@@ -358,6 +358,20 @@ function LessonPlanCard({ plan }) {
               {b.heading && (
                 <h3 className="mb-4 border-b border-line pb-2 font-display text-xl font-bold text-brand sm:text-2xl">{b.heading}</h3>
               )}
+              {b.image && (
+                <figure className="mb-5">
+                  <img
+                    src={b.image}
+                    alt={b.image_caption || b.heading || ''}
+                    loading="lazy"
+                    className="w-full rounded-xl border border-line object-cover"
+                    onError={(e) => { e.currentTarget.closest('figure').style.display = 'none' }}
+                  />
+                  {b.image_caption && (
+                    <figcaption className="mt-1.5 text-center text-xs text-muted">{b.image_caption}</figcaption>
+                  )}
+                </figure>
+              )}
               <div className="read">
                 {b.text.split(/\n{2,}/).map((para, pi) => (
                   <p key={pi} className={i === 0 && pi === 0 ? 'read-first' : ''}>

@@ -262,6 +262,8 @@ class AdminLessonBlockSerializer(drf_serializers.Serializer):
     heading = drf_serializers.CharField(required=False, allow_blank=True, default='')
     text = drf_serializers.CharField(allow_blank=False)
     pages = drf_serializers.ListField(child=drf_serializers.IntegerField(), required=False, default=list)
+    image = drf_serializers.URLField(required=False, allow_blank=True, default='')
+    image_caption = drf_serializers.CharField(required=False, allow_blank=True, default='')
 
 
 class AdminKeyFactSerializer(drf_serializers.Serializer):
