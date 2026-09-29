@@ -1,6 +1,10 @@
+import hmac
+import io
+
 from django.conf import settings
 from django.core.files.base import ContentFile
-from django.http import FileResponse
+from django.core.management import call_command
+from django.http import FileResponse, Http404, HttpResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from django.db.models import Count, F
@@ -711,3 +715,41 @@ class BookAnalyticsView(APIView):
     def get(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
         return Response(analytics.book_analytics(book))
+
+
+class DataBackupView(APIView):
+    """Butun platforma ma'lumotlarini (foydalanuvchilar, progress, kontent) JSON zaxira sifatida
+    yuklab olish uchun.
+
+    Render'ning bepul PostgreSQL rejasi 30 kun harakatsizlikdan so'ng ishlamay qoladi va 14 kunlik
+    muhlatdan keyin butunlay (qaytarib bo'lmas holda) o'chiriladi. Shu sababli muntazam tashqi
+    zaxira zarur. Bu endpoint tashqi bepul kron xizmati (masalan cron-job.org) orqali muntazam
+    (masalan har hafta) chaqirilishi va natija faylini xavfsiz joyga (email, Google Drive va h.k.)
+    saqlab qo'yish uchun mo'ljallangan.
+
+    Himoya: oddiy foydalanuvchi autentifikatsiyasi emas - alohida maxfiy `BACKUP_TOKEN` (.env /
+    Render environment) bilan solishtiriladigan `X-Backup-Token` header talab qilinadi, chunki
+    tashqi kron xizmatlari odatda login-parol emas, faqat statik header/token yubora oladi.
+    BACKUP_TOKEN sozlanmagan bo'lsa, endpoint butunlay o'chirilgan (404) hisoblanadi - tasodifan
+    ochiq qolib ketmasligi uchun.
+
+    Tiklash: `python manage.py loaddata <fayl>.json`
+    """
+
+    permission_classes = [AllowAny]
+    authentication_classes = []
+
+    def get(self, request):
+        token = getattr(settings, 'BACKUP_TOKEN', '')
+        if not token:
+            raise Http404
+        provided = request.headers.get('X-Backup-Token', '')
+        if not provided or not hmac.compare_digest(provided, token):
+            return Response({'detail': "Ruxsat yo'q."}, status=status.HTTP_403_FORBIDDEN)
+
+        buffer = io.StringIO()
+        call_command('dumpdata', 'auth.user', 'authtoken.token', 'history_ai', indent=2, stdout=buffer)
+        filename = f"muallim_backup_{timezone.now().strftime('%Y%m%d_%H%M%S')}.json"
+        response = HttpResponse(buffer.getvalue(), content_type='application/json')
+        response['Content-Disposition'] = f'attachment; filename="{filename}"'
+        return response

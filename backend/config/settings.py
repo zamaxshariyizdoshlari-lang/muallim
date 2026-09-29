@@ -194,6 +194,10 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 
 AI_RATE_LIMIT = os.getenv('AI_RATE_LIMIT', '20/hour')
 
+# Tashqi bepul kron xizmati orqali /api/history/backup/ dan muntazam zaxira olish uchun maxfiy
+# token (X-Backup-Token header). Bo'sh bo'lsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
+BACKUP_TOKEN = os.getenv('BACKUP_TOKEN', '')
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

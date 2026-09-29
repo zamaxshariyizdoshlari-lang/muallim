@@ -1,11 +1,12 @@
 """Asosiy mantiq testlari: auth, mavzu ochilishi, ball, streak, takrorlash, qidiruv, tahlil."""
+import json
 import re
 from datetime import timedelta
 
 from django.contrib.auth import get_user_model
 from django.core import mail
 from django.core.cache import cache
-from django.test import TestCase
+from django.test import TestCase, override_settings
 from django.utils import timezone
 from rest_framework.authtoken.models import Token
 from rest_framework.test import APIClient
@@ -326,6 +327,29 @@ class HealthTests(TestCase):
         r = self.client.get('/api/health/')
         self.assertEqual(r.status_code, 200)
         self.assertEqual(r.json()['status'], 'ok')
+
+
+class DataBackupTests(TestCase):
+    def test_disabled_without_token_setting(self):
+        with override_settings(BACKUP_TOKEN=''):
+            r = self.client.get(f'{H}backup/')
+        self.assertEqual(r.status_code, 404)
+
+    def test_rejects_missing_or_wrong_token(self):
+        with override_settings(BACKUP_TOKEN='sirli-token'):
+            self.assertEqual(self.client.get(f'{H}backup/').status_code, 403)
+            r = self.client.get(f'{H}backup/', HTTP_X_BACKUP_TOKEN='notogri')
+            self.assertEqual(r.status_code, 403)
+
+    def test_accepts_correct_token_and_returns_json_dump(self):
+        User.objects.create_user('zaxirauser', password='zaxira-parol-1')
+        with override_settings(BACKUP_TOKEN='sirli-token'):
+            r = self.client.get(f'{H}backup/', HTTP_X_BACKUP_TOKEN='sirli-token')
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r['Content-Type'], 'application/json')
+        self.assertIn('attachment', r['Content-Disposition'])
+        data = json.loads(r.content)
+        self.assertTrue(any(obj['model'] == 'auth.user' for obj in data))
 
 
 class DailyGoalLeaderboardTests(CourseFixture):
