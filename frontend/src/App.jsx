@@ -1,11 +1,14 @@
 import { BrowserRouter } from 'react-router-dom'
+import ErrorBoundary from './ErrorBoundary'
 import { HistoryAIModule } from './modules/history-ai'
 
 function App() {
   return (
-    <BrowserRouter>
-      <HistoryAIModule />
-    </BrowserRouter>
+    <ErrorBoundary>
+      <BrowserRouter>
+        <HistoryAIModule />
+      </BrowserRouter>
+    </ErrorBoundary>
   )
 }
 

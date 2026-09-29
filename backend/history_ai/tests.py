@@ -329,27 +329,62 @@ class HealthTests(TestCase):
         self.assertEqual(r.json()['status'], 'ok')
 
 
+class AIBudgetTests(TestCase):
+    def test_no_limit_by_default(self):
+        from .services.ai.budget import check_and_record_ai_call
+        with override_settings(AI_MONTHLY_CALL_LIMIT=0):
+            for _ in range(50):
+                check_and_record_ai_call()  # ko'tarmasligi kerak
+
+    def test_raises_once_limit_reached(self):
+        from .services.ai.budget import AIBudgetExceeded, check_and_record_ai_call
+        cache.clear()
+        with override_settings(AI_MONTHLY_CALL_LIMIT=2):
+            check_and_record_ai_call()
+            check_and_record_ai_call()
+            with self.assertRaises(AIBudgetExceeded):
+                check_and_record_ai_call()
+
+
 class DataBackupTests(TestCase):
     def test_disabled_without_token_setting(self):
-        with override_settings(BACKUP_TOKEN=''):
+        with override_settings(OPS_TOKEN=''):
             r = self.client.get(f'{H}backup/')
         self.assertEqual(r.status_code, 404)
 
     def test_rejects_missing_or_wrong_token(self):
-        with override_settings(BACKUP_TOKEN='sirli-token'):
+        with override_settings(OPS_TOKEN='sirli-token'):
             self.assertEqual(self.client.get(f'{H}backup/').status_code, 403)
-            r = self.client.get(f'{H}backup/', HTTP_X_BACKUP_TOKEN='notogri')
+            r = self.client.get(f'{H}backup/', HTTP_X_OPS_TOKEN='notogri')
             self.assertEqual(r.status_code, 403)
 
     def test_accepts_correct_token_and_returns_json_dump(self):
         User.objects.create_user('zaxirauser', password='zaxira-parol-1')
-        with override_settings(BACKUP_TOKEN='sirli-token'):
-            r = self.client.get(f'{H}backup/', HTTP_X_BACKUP_TOKEN='sirli-token')
+        with override_settings(OPS_TOKEN='sirli-token'):
+            r = self.client.get(f'{H}backup/', HTTP_X_OPS_TOKEN='sirli-token')
         self.assertEqual(r.status_code, 200)
         self.assertEqual(r['Content-Type'], 'application/json')
         self.assertIn('attachment', r['Content-Disposition'])
         data = json.loads(r.content)
         self.assertTrue(any(obj['model'] == 'auth.user' for obj in data))
+
+
+class TriggerStreakRemindersTests(TestCase):
+    def test_disabled_without_token_setting(self):
+        with override_settings(OPS_TOKEN=''):
+            r = self.client.get(f'{H}cron/streak-reminders/')
+        self.assertEqual(r.status_code, 404)
+
+    def test_rejects_wrong_token(self):
+        with override_settings(OPS_TOKEN='sirli-token'):
+            r = self.client.get(f'{H}cron/streak-reminders/', HTTP_X_OPS_TOKEN='notogri')
+        self.assertEqual(r.status_code, 403)
+
+    def test_runs_command_with_correct_token(self):
+        with override_settings(OPS_TOKEN='sirli-token'):
+            r = self.client.get(f'{H}cron/streak-reminders/', HTTP_X_OPS_TOKEN='sirli-token')
+        self.assertEqual(r.status_code, 200)
+        self.assertIn('eslatma yuborildi', r.data['detail'])
 
 
 class DailyGoalLeaderboardTests(CourseFixture):

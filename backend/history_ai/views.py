@@ -717,6 +717,20 @@ class BookAnalyticsView(APIView):
         return Response(analytics.book_analytics(book))
 
 
+def _check_ops_token(request):
+    """Tashqi bepul kron xizmatlari (cron-job.org va h.k.) uchun umumiy himoya: login-parol emas,
+    faqat statik `X-Ops-Token` header. OPS_TOKEN sozlanmagan bo'lsa, chaqiruvchi endpoint butunlay
+    o'chirilgan (404) hisoblanadi - tasodifan ochiq qolib ketmasligi uchun. Muvaffaqiyatli bo'lsa
+    None, aks holda darhol qaytariladigan Response qaytaradi."""
+    token = getattr(settings, 'OPS_TOKEN', '')
+    if not token:
+        raise Http404
+    provided = request.headers.get('X-Ops-Token', '')
+    if not provided or not hmac.compare_digest(provided, token):
+        return Response({'detail': "Ruxsat yo'q."}, status=status.HTTP_403_FORBIDDEN)
+    return None
+
+
 class DataBackupView(APIView):
     """Butun platforma ma'lumotlarini (foydalanuvchilar, progress, kontent) JSON zaxira sifatida
     yuklab olish uchun.
@@ -727,12 +741,6 @@ class DataBackupView(APIView):
     (masalan har hafta) chaqirilishi va natija faylini xavfsiz joyga (email, Google Drive va h.k.)
     saqlab qo'yish uchun mo'ljallangan.
 
-    Himoya: oddiy foydalanuvchi autentifikatsiyasi emas - alohida maxfiy `BACKUP_TOKEN` (.env /
-    Render environment) bilan solishtiriladigan `X-Backup-Token` header talab qilinadi, chunki
-    tashqi kron xizmatlari odatda login-parol emas, faqat statik header/token yubora oladi.
-    BACKUP_TOKEN sozlanmagan bo'lsa, endpoint butunlay o'chirilgan (404) hisoblanadi - tasodifan
-    ochiq qolib ketmasligi uchun.
-
     Tiklash: `python manage.py loaddata <fayl>.json`
     """
 
@@ -740,12 +748,9 @@ class DataBackupView(APIView):
     authentication_classes = []
 
     def get(self, request):
-        token = getattr(settings, 'BACKUP_TOKEN', '')
-        if not token:
-            raise Http404
-        provided = request.headers.get('X-Backup-Token', '')
-        if not provided or not hmac.compare_digest(provided, token):
-            return Response({'detail': "Ruxsat yo'q."}, status=status.HTTP_403_FORBIDDEN)
+        denied = _check_ops_token(request)
+        if denied:
+            return denied
 
         buffer = io.StringIO()
         call_command('dumpdata', 'auth.user', 'authtoken.token', 'history_ai', indent=2, stdout=buffer)
@@ -753,3 +758,24 @@ class DataBackupView(APIView):
         response = HttpResponse(buffer.getvalue(), content_type='application/json')
         response['Content-Disposition'] = f'attachment; filename="{filename}"'
         return response
+
+
+class TriggerStreakRemindersView(APIView):
+    """`send_streak_reminders` buyrug'ini tashqi kron orqali kunlik ishga tushirish uchun.
+
+    Render Cron Job pullik (~$1/oy) bo'lgani uchun, buning o'rniga tashqi bepul kron xizmati
+    (masalan cron-job.org) shu URL'ni kuniga bir marta (masalan kechqurun) `X-Ops-Token` header
+    bilan chaqiradi. Himoya `DataBackupView` bilan bir xil (`_check_ops_token`).
+    """
+
+    permission_classes = [AllowAny]
+    authentication_classes = []
+
+    def get(self, request):
+        denied = _check_ops_token(request)
+        if denied:
+            return denied
+
+        buffer = io.StringIO()
+        call_command('send_streak_reminders', stdout=buffer)
+        return Response({'detail': buffer.getvalue().strip()})

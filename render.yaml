@@ -63,12 +63,23 @@ services:
         sync: false
       - key: DEFAULT_FROM_EMAIL
         sync: false
-      # Tashqi bepul kron xizmati (masalan cron-job.org) orqali muntazam
-      # /api/history/backup/ dan zaxira olish uchun maxfiy token (X-Backup-Token header bilan
-      # birga yuboriladi). Render Dashboard > Environment'da o'zingiz tasodifiy uzun qator
-      # qo'yasiz. Bo'sh qoldirilsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
-      - key: BACKUP_TOKEN
+      # Production'da kutilmagan 500 xato chiqsa, shu odamlarga avtomatik email boradi (yuqoridagi
+      # EMAIL_* orqali - sozlanmagan bo'lsa jim o'tkazib yuboriladi). Format:
+      # "Ism:email@masalan.com,Ism2:ikkinchi@masalan.com"
+      - key: ADMINS
         sync: false
+      # Tashqi bepul kron xizmati (masalan cron-job.org) orqali muntazam
+      # /api/history/backup/ (zaxira) va /api/history/cron/streak-reminders/ (kunlik eslatma
+      # email) dan foydalanish uchun maxfiy token (X-Ops-Token header bilan birga yuboriladi).
+      # Render Dashboard > Environment'da o'zingiz tasodifiy uzun qator qo'yasiz. Bo'sh
+      # qoldirilsa, ikkala endpoint ham butunlay o'chirilgan (404) bo'ladi.
+      - key: OPS_TOKEN
+        sync: false
+      # Oylik AI (Gemini/Claude) chaqiruvlar soni uchun umumiy chegara - foydalanuvchi boshiga
+      # soatlik chegaradan (AI_RATE_LIMIT) tashqari, butun tizim uchun xarajatni nazorat qilish
+      # uchun qo'shimcha himoya. 0 yoki bo'sh = cheksiz.
+      - key: AI_MONTHLY_CALL_LIMIT
+        value: "300"
       # Render'ning o'zining bepul PostgreSQL'i 30 kun harakatsizlikdan keyin ishlamay qoladi va
       # yana 14 kundan so'ng BUTUNLAY (qaytarib bo'lmas holda) o'chiriladi - shu sababli baza
       # Supabase'ga (bepul, muddatsiz, faqat "uxlaydi" - o'chirilmaydi) ko'chirildi. Quyidagi

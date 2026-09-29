@@ -62,6 +62,7 @@ urlpatterns = [
     path('books/<int:book_id>/review/answer/', views.ReviewAnswerView.as_view(), name='review-answer'),
     path('books/<int:book_id>/analytics/', views.BookAnalyticsView.as_view(), name='book-analytics'),
     path('backup/', views.DataBackupView.as_view(), name='data-backup'),
+    path('cron/streak-reminders/', views.TriggerStreakRemindersView.as_view(), name='cron-streak-reminders'),
     path('books/<int:book_id>/search/', views.BookSearchView.as_view(), name='book-search'),
     path('books/<int:book_id>/dictionary/', views.BookDictionaryView.as_view(), name='book-dictionary'),
     path('books/<int:book_id>/exam/', views.BookExamByBookView.as_view(), name='book-exam'),

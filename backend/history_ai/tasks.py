@@ -4,6 +4,7 @@ import threading
 
 from .models import STATUS_DONE, STATUS_FAILED, GeneratedAsset, Lesson
 from .services.ai import get_ai_provider
+from .services.ai.budget import check_and_record_ai_call
 from .services.fact_checker import annotate_key_facts
 from .services.prompts import build_lesson_prompt, build_presentation_prompt
 from .services.topic_test_builder import build_topic_test
@@ -49,6 +50,7 @@ def _run_lesson_generation(lesson_id):
     source_text = '\n'.join(text for _, text in pages if text)
 
     try:
+        check_and_record_ai_call()
         provider = get_ai_provider()
         prompt = build_lesson_prompt(lesson.topic.title, pages)
         raw = provider.generate(prompt)
@@ -82,6 +84,7 @@ def _run_ai_asset_generation(asset_id):
     build_prompt = AI_ASSET_BUILDERS[asset.kind]
 
     try:
+        check_and_record_ai_call()
         provider = get_ai_provider()
         prompt = build_prompt(asset.topic.title, pages)
         raw = provider.generate(prompt)

@@ -193,20 +193,35 @@ ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 
 AI_RATE_LIMIT = os.getenv('AI_RATE_LIMIT', '20/hour')
+# Foydalanuvchi boshiga soatlik chegara (yuqorida) butun tizim uchun oylik xarajatni cheklamaydi -
+# bir nechta o'qituvchi hisobi yoki xato kutilmagan API xarajatiga olib kelishi mumkin. 0 = cheksiz.
+AI_MONTHLY_CALL_LIMIT = int(os.getenv('AI_MONTHLY_CALL_LIMIT', '0'))
 
 # Tashqi bepul kron xizmati orqali /api/history/backup/ dan muntazam zaxira olish uchun maxfiy
-# token (X-Backup-Token header). Bo'sh bo'lsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
-BACKUP_TOKEN = os.getenv('BACKUP_TOKEN', '')
+# token (X-Ops-Token header). Bo'sh bo'lsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
+OPS_TOKEN = os.getenv('OPS_TOKEN', '')
+
+# Production'da kutilmagan xato (500) chiqsa, shu manzillarga avtomatik email boradi (EMAIL_* orqali,
+# sozlanmagan bo'lsa jim o'tkazib yuboriladi). Format: "Ism:email@masalan.com,Ism2:ikkinchi@masalan.com"
+ADMINS = [
+    tuple(pair.split(':', 1)) for pair in os.getenv('ADMINS', '').split(',') if ':' in pair
+]
+MANAGERS = ADMINS
 
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
         'console': {'class': 'logging.StreamHandler'},
+        'mail_admins': {'level': 'ERROR', 'class': 'django.utils.log.AdminEmailHandler'},
     },
     'root': {'handlers': ['console'], 'level': 'WARNING'},
     'loggers': {
         'history_ai.ai_usage': {'handlers': ['console'], 'level': 'INFO', 'propagate': False},
+        # Django o'zining standart LOGGING'ini to'liq almashtirganimiz uchun (yuqoridagi dict),
+        # standart mail_admins xatti-harakatini qo'lda qayta tiklaymiz - aks holda production'da
+        # 500 xatolar hech kimga bildirilmay, faqat konsol logida ko'milib qolardi.
+        'django.request': {'handlers': ['console', 'mail_admins'], 'level': 'ERROR', 'propagate': False},
     },
 }
 
