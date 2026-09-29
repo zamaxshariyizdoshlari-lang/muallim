@@ -15766,6 +15766,10 @@
               {
                 "heading": "Umumiy takrorlash",
                 "text": "A1 darajasida o'rgangan hamma narsa: salomlashuv, tanishuv, oila, uy, vaqt, narx, kasb, transport, ob-havo, muloqot - hammasi bayram haqida gapirishda birlashtirilishi mumkin.\n\nMisol: \"Bayramda ailemle buluşacağım, çok mutlu olacağım.\" (Bayramda oilam bilan uchrashaman, juda xursand bo'laman)."
+              },
+              {
+                "heading": "Butun A1 grammatikasini birlashtiramiz",
+                "text": "A1 kursida o'rgangan barcha grammatik qurilmalarni endi BITTA gapda birlashtira olishimiz kerak - bu haqiqiy til bilish darajasini ko'rsatadi:\n\n- **Kelishiklar**: Bulunma (-de/-da), Yönelme (-e/-a), Ayrılma (-den/-dan): \"Evden çıktım, markete gittim.\" (Uydan chiqdim, do'konga bordim.)\n- **Zamonlar**: Kelasi (-ecek/-acak), O'tgan aniq (-di): \"Dün geldi, yarın gidecek.\" (Kecha keldi, ertaga ketadi.)\n- **Qiyoslash**: -den daha, en: \"Bayram, adi bir günden daha güzel.\" (Bayram, oddiy kundan ko'ra chiroyliroq.)\n\nBularning barchasini bitta uzun gapga jamlash mumkin: **\"Dün marketten aldığım hediyeyi bugün akrabalarıma vereceğim, çünkü bayram her günden daha önemli.\"** (Kecha do'kondan sotib olgan sovg'amni bugun qarindoshlarimga beraman, chunki bayram har qanday kundan ko'ra muhimroq.) Bu - A1 darajasini haqiqatan egallaganingizni bildiradi."
               }
             ],
             "key_facts": [
@@ -15777,6 +15781,9 @@
               },
               {
                 "fact": "A1 darajasi shu dars bilan yakunlanadi - endi A2 ga o'tish mumkin."
+              },
+              {
+                "fact": "A1'ni yakunlash - kelishiklar, zamonlar va qiyoslashni bitta gapda birlashtira olish demakdir."
               }
             ],
             "vocabulary": [
@@ -15903,7 +15910,7 @@
             ],
             "reading": {
               "title": "Bizning bayramimiz",
-              "text": "Yarın Kurban Bayramı. Ailem çok heyecanlı. Akrabalarımız gelecek, birlikte sofra kuracağız.\n\nÇocuklara hediye vereceğiz, büyüklerin elini öpeceğiz. \"Bayramınız kutlu olsun!\" diyeceğiz. Bu benim en sevdiğim gelenek.",
+              "text": "Yarın Kurban Bayramı. Ailem çok heyecanlı. Akrabalarımız gelecek, birlikte sofra kuracağız.\n\nÇocuklara hediye vereceğiz, büyüklerin elini öpeceğiz. \"Bayramınız kutlu olsun!\" diyeceğiz. Bu benim en sevdiğim gelenek.\n\nGeçen yıl bayramdan önce marketten aldığım hediyeyi bu yıl da akrabalarıma vereceğim, çünkü bence bayram günü diğer günlerden daha özeldir.",
               "questions": [
                 {
                   "question": "Ertaga qaysi bayram?",
@@ -15922,6 +15929,26 @@
                     "Sayohatga chiqadi",
                     "Ishlaydi",
                     "Uxlaydi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yozar sovg'ani qayerdan sotib olgan?",
+                  "options": [
+                    "Marketdan",
+                    "Uydan",
+                    "Maktabdan",
+                    "Ishdan"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yozarning fikricha, bayram kuni qanday?",
+                  "options": [
+                    "Boshqa kunlardan ko'ra alohida",
+                    "Oddiy kun",
+                    "Eng zerikarli kun",
+                    "Ishlash kuni"
                   ],
                   "correct_index": 0
                 }
@@ -16168,6 +16195,36 @@
                 "hediye",
                 "verdik."
               ]
+            },
+            {
+              "question": "'Evden çıktım, markete gittim' gapida qaysi ikki kelishik ishlatilgan?",
+              "options": [
+                "Ayrılma (-den) va Yönelme (-e)",
+                "Bulunma (-de) va Ayrılma (-den)",
+                "Yönelme (-e) va Bulunma (-de)",
+                "Faqat bitta kelishik"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'Dün geldi, yarın gidecek' gapida qaysi ikki zamon ishlatilgan?",
+              "options": [
+                "O'tgan aniq (-di) va kelasi (-ecek)",
+                "Ikkalasi ham kelasi zamon",
+                "Ikkalasi ham o'tgan zamon",
+                "Hozirgi zamon (-yor)"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'Bayram, adi bir günden daha güzel' gapida qanday qurilma ishlatilgan?",
+              "options": [
+                "Qiyoslash (-den daha)",
+                "Kelasi zamon",
+                "Buyruq mayli",
+                "Ko'plik qo'shimchasi"
+              ],
+              "correct_index": 0
             }
           ],
           "games": {
