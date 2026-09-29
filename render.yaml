@@ -60,6 +60,12 @@ services:
         sync: false
       - key: DEFAULT_FROM_EMAIL
         sync: false
+      # Tashqi bepul kron xizmati (masalan cron-job.org) orqali muntazam
+      # /api/history/backup/ dan zaxira olish uchun maxfiy token (X-Backup-Token header bilan
+      # birga yuboriladi). Render Dashboard > Environment'da o'zingiz tasodifiy uzun qator
+      # qo'yasiz. Bo'sh qoldirilsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
+      - key: BACKUP_TOKEN
+        sync: false
       - key: DB_NAME
         fromDatabase:
           name: muallim-db
