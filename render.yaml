@@ -1,3 +1,6 @@
+# ESLATMA: bu Render bepul Postgres'i endi ishlatilmaydi - baza Supabase'ga ko'chirildi (pastdagi
+# muallim-api xizmatining DB_HOST/DB_USER/DB_PASSWORD qarang). Bu blok shunchaki eski, ishlatilmayotgan
+# resurs sifatida qolgan - tekshirib bo'lgach Render Dashboard'dan qo'lda o'chirsangiz bo'ladi.
 databases:
   - name: muallim-db
     plan: free
@@ -66,23 +69,19 @@ services:
       # qo'yasiz. Bo'sh qoldirilsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
       - key: BACKUP_TOKEN
         sync: false
+      # Render'ning o'zining bepul PostgreSQL'i 30 kun harakatsizlikdan keyin ishlamay qoladi va
+      # yana 14 kundan so'ng BUTUNLAY (qaytarib bo'lmas holda) o'chiriladi - shu sababli baza
+      # Supabase'ga (bepul, muddatsiz, faqat "uxlaydi" - o'chirilmaydi) ko'chirildi. Quyidagi
+      # Session Pooler manzili ishlatiladi (Render doimiy server, IPv4 orqali ulanadi - Transaction
+      # Pooler emas, aynan Session Pooler tavsiya etiladi). Pastdagi eski `databases:` bo'limi
+      # (muallim-db) endi ishlatilmaydi - tekshirib ko'rgach Render Dashboard'dan o'chirsangiz bo'ladi.
       - key: DB_NAME
-        fromDatabase:
-          name: muallim-db
-          property: database
+        value: postgres
       - key: DB_USER
-        fromDatabase:
-          name: muallim-db
-          property: user
+        value: postgres.zbwoaoebgbbwgmpzboda
       - key: DB_PASSWORD
-        fromDatabase:
-          name: muallim-db
-          property: password
+        sync: false
       - key: DB_HOST
-        fromDatabase:
-          name: muallim-db
-          property: host
+        value: aws-0-ap-northeast-2.pooler.supabase.com
       - key: DB_PORT
-        fromDatabase:
-          name: muallim-db
-          property: port
+        value: "5432"
