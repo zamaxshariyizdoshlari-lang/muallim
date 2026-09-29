@@ -2658,6 +2658,24 @@
                 "uz": "xohlamoq/so'ramoq",
                 "example_tr": "Kapıyı kapatmamı istedi.",
                 "example_uz": "U mendan eshikni yopishimni so'radi."
+              },
+              {
+                "tr": "medeniyet",
+                "uz": "sivilizatsiya",
+                "example_tr": "Bu bölgede eski bir medeniyet yaşamış.",
+                "example_uz": "Bu hududda qadimiy sivilizatsiya yashagan."
+              },
+              {
+                "tr": "kazı",
+                "uz": "qazishma (arxeologik)",
+                "example_tr": "Burada kazı yapılıyor.",
+                "example_uz": "Bu yerda arxeologik qazishma olib borilmoqda."
+              },
+              {
+                "tr": "koruma altında",
+                "uz": "muhofaza ostida",
+                "example_tr": "Bu eser koruma altında.",
+                "example_uz": "Bu obida muhofaza ostida."
               }
             ],
             "listening": {
@@ -2704,7 +2722,7 @@
             },
             "reading": {
               "title": "Her Yer Tarih",
-              "text": "Bu ülkede her şehrin kendi tarihi vardır. Eski kaleler, müzeler ve tarihi evler her yerde görülebilir. Rehberimiz bize fotoğraf çekmemizi ve sessiz olmamızı söyledi, çünkü bazı yerler çok hassastır.",
+              "text": "Bu ülkede her şehrin kendi tarihi vardır. Eski kaleler, müzeler ve tarihi evler her yerde görülebilir. Rehberimiz bize fotoğraf çekmemizi ve sessiz olmamızı söyledi, çünkü bazı yerler çok hassastır. Bazı bölgelerde hâlâ kazı çalışmaları devam ediyor - arkeologlar toprağın altında eski bir medeniyetin izlerini arıyor. Bulunan her eser dikkatle koruma altına alınıyor, çünkü bu eserler sadece bu ülkenin değil, tüm insanlığın ortak mirasıdır.",
               "questions": [
                 {
                   "question": "Ülkede neler görülebilir?",
@@ -2723,6 +2741,26 @@
                     "Yüksek sesle konuşmalarını",
                     "Koşmalarını",
                     "Yemek yemelerini"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bazı bölgelerde hâlâ ne devam ediyor?",
+                  "options": [
+                    "Kazı çalışmaları",
+                    "İnşaat",
+                    "Tatil",
+                    "Spor müsabakası"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bulunan eserlere ne yapılıyor?",
+                  "options": [
+                    "Koruma altına alınıyor",
+                    "Satılıyor",
+                    "Yok ediliyor",
+                    "Unutuluyor"
                   ],
                   "correct_index": 0
                 }
@@ -2825,6 +2863,26 @@
               "correct_index": 0
             },
             {
+              "question": "'kazı' so'zi nima?",
+              "options": [
+                "Arxeologik qazishma",
+                "Sayohat",
+                "Savdo",
+                "Qurilish"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'medeniyet' so'zi nima?",
+              "options": [
+                "Sivilizatsiya",
+                "Shahar nomi",
+                "Muzey turi",
+                "Bayram"
+              ],
+              "correct_index": 0
+            },
+            {
               "type": "fill_blank",
               "question": "'Kapıyı kapat___ söyledi' (u eshikni yopishimni aytdi, 1-shaxsga)",
               "answer": "mamı"
@@ -2908,6 +2966,24 @@
                 "uz": "ko'l",
                 "example_tr": "Göl çok güzel.",
                 "example_uz": "Ko'l juda chiroyli."
+              },
+              {
+                "tr": "nem",
+                "uz": "namlik",
+                "example_tr": "Bu bölgede nem oranı yüksek.",
+                "example_uz": "Bu hududda namlik darajasi yuqori."
+              },
+              {
+                "tr": "kurak",
+                "uz": "quruq (iqlim haqida)",
+                "example_tr": "Yaz ayları kurak geçer.",
+                "example_uz": "Yoz oylari quruq o'tadi."
+              },
+              {
+                "tr": "rüzgâr",
+                "uz": "shamol",
+                "example_tr": "Bugün rüzgâr çok güçlü.",
+                "example_uz": "Bugun shamol juda kuchli."
               }
             ],
             "listening": {
@@ -2954,7 +3030,7 @@
             },
             "reading": {
               "title": "Türkiye'nin Bölgeleri",
-              "text": "Türkiye'nin yedi coğrafi bölgesi vardır. Her bölgenin kendine özgü iklimi ve doğası vardır. Karadeniz Bölgesi'nde yağmur çok yağar, Akdeniz Bölgesi'nde ise yazlar sıcak ve kurudur. İç Anadolu'da kışlar soğuk ve karlı geçer.",
+              "text": "Türkiye'nin yedi coğrafi bölgesi vardır. Her bölgenin kendine özgü iklimi ve doğası vardır. Karadeniz Bölgesi'nde yağmur çok yağar ve nem oranı yüksektir, bu yüzden burada çay ve fındık çok iyi yetişir. Akdeniz Bölgesi'nde ise yazlar sıcak ve kurudur, kış ayları bile ılıman geçer. İç Anadolu'da kışlar soğuk ve karlı, yazlar ise kurak ve rüzgârlı geçer. Doğu Anadolu'da ise kışlar öyle sert olur ki, bazı yıllar sıcaklık eksi otuz dereceye kadar düşebilir.",
               "questions": [
                 {
                   "question": "Türkiye'nin kaç bölgesi vardır?",
@@ -2973,6 +3049,26 @@
                     "Çok kurak",
                     "Hep karlı",
                     "Çölümsü"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Karadeniz Bölgesinde ne iyi yetişir?",
+                  "options": [
+                    "Çay ve fındık",
+                    "Zeytin",
+                    "Pirinç",
+                    "Pamuk"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Doğu Anadolu kışları nasıl olabilir?",
+                  "options": [
+                    "Eksi otuz dereceye kadar soğuk",
+                    "Hep sıcak",
+                    "Yağmurlu ama ılık",
+                    "Hiç kar yağmaz"
                   ],
                   "correct_index": 0
                 }
@@ -3073,6 +3169,26 @@
                 "Tog'"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'nem' so'zi nima?",
+              "options": [
+                "Namlik",
+                "Quruqlik",
+                "Issiqlik",
+                "Sovuqlik"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'kurak' so'zi iqlim haqida qanday ma'no beradi?",
+              "options": [
+                "Quruq",
+                "Yomg'irli",
+                "Qorli",
+                "Shamolli"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -3153,6 +3269,24 @@
                 "uz": "pech",
                 "example_tr": "Fırın çok sıcak.",
                 "example_uz": "Pech juda issiq."
+              },
+              {
+                "tr": "ceviz",
+                "uz": "yong'oq",
+                "example_tr": "Baklavada ceviz var.",
+                "example_uz": "Baklavada yong'oq bor."
+              },
+              {
+                "tr": "hamur",
+                "uz": "xamir",
+                "example_tr": "Hamuru yoğurdum.",
+                "example_uz": "Xamirni qordim."
+              },
+              {
+                "tr": "lezzetli",
+                "uz": "mazali",
+                "example_tr": "Bu tatlı çok lezzetli.",
+                "example_uz": "Bu shirinlik juda mazali."
               }
             ],
             "listening": {
@@ -3199,7 +3333,7 @@
             },
             "reading": {
               "title": "Türk Tatlıları",
-              "text": "Türk mutfağında birçok meşhur tatlı vardır. Baklava, ince hamur yapraklarından ve cevizden yapılır. Lokum ise şekerden yapılan yumuşak bir tatlıdır. Misafirlerinize tatlı ikram etmek Türk kültüründe çok önemlidir.",
+              "text": "Türk mutfağında birçok meşhur tatlı vardır. Baklava, ince hamur yapraklarından ve cevizden yapılır. Lokum ise şekerden yapılan yumuşak bir tatlıdır. Misafirlerinize tatlı ikram etmek Türk kültüründe çok önemlidir. Baklava yapmak aslında sanattır - hamur o kadar ince açılmalıdır ki, neredeyse şeffaf görünmelidir. Ustalar bu ustalığı yıllarca çalışarak öğrenir. Bugün baklava dünyanın birçok ülkesinde tanınan ve sevilen bir tatlı hâline gelmiştir.",
               "questions": [
                 {
                   "question": "Baklava neyden yapılır?",
@@ -3218,6 +3352,16 @@
                     "Gereksiz bir davranış",
                     "Sadece bayramda yapılır",
                     "Yasak bir şey"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Baklava hamuru nasıl açılmalıdır?",
+                  "options": [
+                    "Neredeyse şeffaf olacak kadar ince",
+                    "Çok kalın",
+                    "Hiç açılmaz",
+                    "Sadece elle"
                   ],
                   "correct_index": 0
                 }
@@ -3318,6 +3462,26 @@
                 "Inkor"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'ceviz' so'zi nima?",
+              "options": [
+                "Yong'oq",
+                "Shakar",
+                "Xamir",
+                "Sut"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'lezzetli' so'zi nima?",
+              "options": [
+                "Mazali",
+                "Achchiq",
+                "Tuzli",
+                "Nordon"
+              ],
+              "correct_index": 0
             }
           ]
         }
@@ -3405,6 +3569,36 @@
                 "uz": "pul",
                 "example_tr": "Param yeterli değil.",
                 "example_uz": "Pulim yetarli emas."
+              },
+              {
+                "tr": "hammadde",
+                "uz": "xomashyo",
+                "example_tr": "Hammadde fabrikaya gelir.",
+                "example_uz": "Xomashyo fabrikaga keladi."
+              },
+              {
+                "tr": "dağıtım",
+                "uz": "tarqatish",
+                "example_tr": "Ürünlerin dağıtımı hızlıdır.",
+                "example_uz": "Mahsulotlarni tarqatish tez."
+              },
+              {
+                "tr": "depo",
+                "uz": "ombor",
+                "example_tr": "Ürünler depoda bekler.",
+                "example_uz": "Mahsulotlar omborda kutadi."
+              },
+              {
+                "tr": "talep",
+                "uz": "talab",
+                "example_tr": "Bu ürüne talep çok yüksek.",
+                "example_uz": "Bu mahsulotga talab juda yuqori."
+              },
+              {
+                "tr": "arz",
+                "uz": "taklif (iqtisodiy)",
+                "example_tr": "Arz ve talep dengesi önemlidir.",
+                "example_uz": "Taklif va talab muvozanati muhim."
               }
             ],
             "listening": {
@@ -3451,15 +3645,15 @@
             },
             "reading": {
               "title": "Bir Ürünün Yolculuğu",
-              "text": "Bir ürün önce fabrikada üretilir. İşçiler çalışarak ürünü hazırlar. Sonra ürün mağazalara gönderilip raflara konur. Müşteriler mağazaya gidip istedikleri ürünü satın alır. Böylece üretimden tüketime uzun bir yolculuk tamamlanmış olur.",
+              "text": "Bir ürünün yolculuğu, hammaddenin fabrikaya getirilmesiyle başlar. İşçiler çalışarak hammaddeyi işleyip ürünü hazırlar. Ürün hazır olduktan sonra depoya konur ve oradan mağazalara dağıtılır. Bir ürünün ne kadar üretileceğine karar verirken şirketler arz ve talep dengesine bakar: eğer bir ürüne talep çoksa, daha fazla üretilir. Sonunda müşteriler mağazaya gidip istedikleri ürünü satın alır. Böylece üretimden tüketime uzun bir yolculuk tamamlanmış olur.",
               "questions": [
                 {
-                  "question": "Ürün önce nerede üretilir?",
+                  "question": "Ürünün yolculuğu nasıl başlar?",
                   "options": [
-                    "Fabrikada",
-                    "Evde",
-                    "Okulda",
-                    "Markette"
+                    "Hammaddenin fabrikaya gelmesiyle",
+                    "Mağazada satılmasıyla",
+                    "Reklamla",
+                    "Depoda beklemesiyle"
                   ],
                   "correct_index": 0
                 },
@@ -3470,6 +3664,26 @@
                     "Fabrikadan direkt alarak",
                     "Postayla",
                     "Ücretsiz olarak"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Şirketler ne kadar üretileceğine karar verirken nelere bakar?",
+                  "options": [
+                    "Arz ve talep dengesine",
+                    "Sadece hava durumuna",
+                    "Sadece renklere",
+                    "Hiçbir şeye bakmaz"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ürün fabrikadan sonra nereye gider?",
+                  "options": [
+                    "Depoya",
+                    "Doğrudan eve",
+                    "Okula",
+                    "Hastaneye"
                   ],
                   "correct_index": 0
                 }
@@ -3573,6 +3787,26 @@
               "correct_index": 0
             },
             {
+              "question": "'talep' so'zi nima?",
+              "options": [
+                "Talab",
+                "Taklif",
+                "Narx",
+                "Chegirma"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'depo' so'zi nima?",
+              "options": [
+                "Ombor",
+                "Do'kon",
+                "Fabrika",
+                "Bozor"
+              ],
+              "correct_index": 0
+            },
+            {
               "type": "fill_blank",
               "question": "'Markete git___ ekmek aldım' (borib)",
               "answer": "ip"
@@ -3650,6 +3884,24 @@
                 "uz": "yoqimli ishtaha",
                 "example_tr": "Afiyet olsun!",
                 "example_uz": "Yoqimli ishtaha!"
+              },
+              {
+                "tr": "rezervasyon",
+                "uz": "bron qilish",
+                "example_tr": "Rezervasyon yaptırdım.",
+                "example_uz": "Bron qildirdim."
+              },
+              {
+                "tr": "anlaşma",
+                "uz": "kelishuv/shartnoma",
+                "example_tr": "Anlaşmayı imzaladık.",
+                "example_uz": "Shartnomani imzoladik."
+              },
+              {
+                "tr": "ortak",
+                "uz": "sherik/hamkor",
+                "example_tr": "Yeni bir ortakla tanıştım.",
+                "example_uz": "Yangi hamkor bilan tanishdim."
               }
             ],
             "listening": {
@@ -3696,7 +3948,7 @@
             },
             "reading": {
               "title": "Bir İş Yemeği",
-              "text": "Bugün önemli bir müşteriyle iş yemeğine gittik. Güzel bir restoranda masa ayırtmıştık. Garson geldi, menüyü aldık ve siparişimizi verdik. Yemekten sonra iş konularını konuştuk. Hesabı ödeyip restorandan çıktık.",
+              "text": "Bugün önemli bir müşteriyle iş yemeğine gittik. Bir hafta önceden rezervasyon yaptırmıştık, güzel bir restoranda masamız hazırdı. Garson geldi, menüyü aldık ve siparişimizi verdik. Yemekten sonra yeni ortaklığımız hakkında konuştuk ve sonunda bir anlaşmaya vardık. Bu anlaşma şirketimiz için çok önemliydi, çünkü aylardır bu ortakla görüşüyorduk. Hesabı ödeyip mutlu bir şekilde restorandan çıktık.",
               "questions": [
                 {
                   "question": "Kiminle iş yemeğine gittiler?",
@@ -3711,10 +3963,20 @@
                 {
                   "question": "Yemekten sonra ne yaptılar?",
                   "options": [
-                    "İş konularını konuştular",
+                    "Ortaklık hakkında konuşup anlaşmaya vardılar",
                     "Hemen çıktılar",
                     "Uyudular",
                     "Film izlediler"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Restoranda rezervasyon ne zaman yapılmıştı?",
+                  "options": [
+                    "Bir hafta önceden",
+                    "O gün sabah",
+                    "Hiç yapılmamıştı",
+                    "Bir ay önce"
                   ],
                   "correct_index": 0
                 }
@@ -3815,6 +4077,26 @@
                 "Egasi"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'rezervasyon' so'zi nima?",
+              "options": [
+                "Bron qilish",
+                "To'lov",
+                "Chegirma",
+                "Menyu"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'ortak' so'zi nima?",
+              "options": [
+                "Sherik/hamkor",
+                "Mijoz",
+                "Ofitsiant",
+                "Musofir"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -3895,6 +4177,24 @@
                 "uz": "rang",
                 "example_tr": "Hangi rengi istersiniz?",
                 "example_uz": "Qaysi rangni xohlaysiz?"
+              },
+              {
+                "tr": "değiştirmek",
+                "uz": "almashtirmoq",
+                "example_tr": "Bu ürünü değiştirebilir miyim?",
+                "example_uz": "Bu mahsulotni almashtira olamanmi?"
+              },
+              {
+                "tr": "iade etmek",
+                "uz": "qaytarmoq",
+                "example_tr": "Ürünü iade ettim.",
+                "example_uz": "Mahsulotni qaytardim."
+              },
+              {
+                "tr": "fiş",
+                "uz": "chek",
+                "example_tr": "Fişinizi saklayın.",
+                "example_uz": "Chekingizni saqlang."
               }
             ],
             "listening": {
@@ -3941,7 +4241,7 @@
             },
             "reading": {
               "title": "Alışveriş Merkezinde",
-              "text": "Hafta sonu alışveriş merkezine gittim. Birçok mağazayı gezdim. Beğendiğim bir ceket buldum ama fiyatı çok yüksekti. Satıcıya indirim olup olmadığını sordum. Neyse ki yüzde yirmi indirimle aldım.",
+              "text": "Hafta sonu alışveriş merkezine gittim. Birçok mağazayı gezdim. Beğendiğim bir ceket buldum ama fiyatı çok yüksekti. Satıcıya indirim olup olmadığını sordum. Neyse ki yüzde yirmi indirimle aldım. Eve geldiğimde ceketi tekrar denedim ve beden biraz büyük geldiğini fark ettim. Ertesi gün fişimle birlikte mağazaya geri döndüm ve daha küçük bedenle değiştirdim. Satıcı çok yardımcı oldu ve hiçbir sorun çıkmadı.",
               "questions": [
                 {
                   "question": "Ne satın aldı?",
@@ -3960,6 +4260,26 @@
                     "Yüzde on",
                     "İndirimsiz",
                     "Yüzde elli"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Eve geldiğinde ne fark etti?",
+                  "options": [
+                    "Bedenin büyük olduğunu",
+                    "Rengin yanlış olduğunu",
+                    "Fiyatın yanlış olduğunu",
+                    "Hiçbir şey fark etmedi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Mağazaya geri dönerken yanında ne götürdü?",
+                  "options": [
+                    "Fişini",
+                    "Sadece parayı",
+                    "Hiçbir şey",
+                    "Eski bir ceket"
                   ],
                   "correct_index": 0
                 }
@@ -4060,6 +4380,26 @@
                 "Kasalxona"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'iade etmek' so'zi nima?",
+              "options": [
+                "Qaytarmoq",
+                "Sotib olmoq",
+                "Almashtirmoq",
+                "Sinab ko'rmoq"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'fiş' so'zi nima?",
+              "options": [
+                "Chek",
+                "Chipta",
+                "Xat",
+                "Kitob"
+              ],
+              "correct_index": 0
             }
           ]
         }
@@ -4087,6 +4427,10 @@
               {
                 "heading": "Mektub yozish uslubi",
                 "text": "An'anaviy turk mektubi shunday boshlanadi: **\"Sevgili [ism],\"** (Aziz [ism],) va shunday tugaydi: **\"Sevgilerimle,\"** (Mehr bilan,) yoki **\"Seni özledim,\"** (Seni sog'indim,). Mektub matnida ==his-tuyg'ularni ochiq ifodalash== odatiy holdir - bu til o'rganuvchilar uchun yozma nutqni mashq qilishning ajoyib usuli."
+              },
+              {
+                "heading": "Hissiyotni kuchaytirish: 'çok', 'son derece', 'oldukça'",
+                "text": "Oddiy \"mutluyum\" (baxtliman) o'rniga, hissiyotni ==darajasiga qarab== turlicha kuchaytirish mumkin:\n\n- **çok mutluyum** = juda baxtliman (kundalik, eng ko'p ishlatiladigan)\n- **son derece mutluyum** = nihoyatda baxtliman (kuchliroq, biroz rasmiyroq)\n- **oldukça üzgünüm** = ancha xafaman (o'rtacha darajadagi kuchaytirish)\n\nMektub yozganda shu darajalardan foydalanish fikringizni ==aniqroq va nozikroq== ifodalash imkonini beradi - har doim \"çok\" bilan cheklanmang."
               }
             ],
             "key_facts": [
@@ -4095,6 +4439,9 @@
               },
               {
                 "fact": "Mektub 'Sevgili...' bilan boshlanib, 'Sevgilerimle' bilan tugaydi."
+              },
+              {
+                "fact": "'çok/son derece/oldukça' - hissiyot kuchini turlicha darajada bildiradi."
               }
             ],
             "summary": "Hissiyot so'zlari predikat sifatida ishlatiladi: **Mutluyum, üzgünüm, kızgınım**.",
@@ -4146,6 +4493,30 @@
                 "uz": "yubormoq",
                 "example_tr": "Mektubu gönderdim.",
                 "example_uz": "Xatni yubordim."
+              },
+              {
+                "tr": "heyecanlı",
+                "uz": "hayajonli",
+                "example_tr": "Sınavdan önce çok heyecanlıydım.",
+                "example_uz": "Imtihondan oldin juda hayajonlangan edim."
+              },
+              {
+                "tr": "şaşkın",
+                "uz": "hayron",
+                "example_tr": "Haberi duyunca şaşkına döndüm.",
+                "example_uz": "Xabarni eshitib hayron bo'lib qoldim."
+              },
+              {
+                "tr": "rahatlamak",
+                "uz": "yengil tortmoq",
+                "example_tr": "Konuştuktan sonra rahatladım.",
+                "example_uz": "Gaplashgandan keyin yengil tortdim."
+              },
+              {
+                "tr": "içten",
+                "uz": "samimiy",
+                "example_tr": "İçten bir mektup yazdı.",
+                "example_uz": "Samimiy xat yozdi."
               }
             ],
             "listening": {
@@ -4192,7 +4563,7 @@
             },
             "reading": {
               "title": "Bir Mektup",
-              "text": "Sevgili arkadaşım, nasılsın? Ben burada çok mutluyum ama seni de çok özledim. Yeni şehrimde ilginç insanlarla tanıştım. Bazen üzgün oluyorum çünkü ailemi görmüyorum. Umarım yakında görüşürüz. Sevgilerimle, Ayşe.",
+              "text": "Sevgili arkadaşım, nasılsın? Ben burada çok mutluyum ama seni de çok özledim. Yeni şehrimde ilginç insanlarla tanıştım. Bazen üzgün oluyorum çünkü ailemi görmüyorum. İlk geldiğimde oldukça şaşkındım, çünkü her şey çok farklıydı. Ama şimdi buraya alıştım ve son derece mutluyum. Yeni arkadaşlarımla konuşurken kendimi çok rahat hissediyorum. Umarım yakında görüşürüz. Sevgilerimle, Ayşe.",
               "questions": [
                 {
                   "question": "Ayşe genel olarak nasıl hissediyor?",
@@ -4211,6 +4582,16 @@
                     "Hasta olduğu için",
                     "Parası olmadığı için",
                     "İşi olmadığı için"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ayşe ilk geldiğinde nasıl hissetmiş?",
+                  "options": [
+                    "Oldukça şaşkın",
+                    "Çok kızgın",
+                    "Hiç şaşırmamış",
+                    "Çok korkmuş"
                   ],
                   "correct_index": 0
                 }
@@ -4311,6 +4692,26 @@
                 "Men senga xafaman"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'son derece' so'zi hissiyotni qanday kuchaytiradi?",
+              "options": [
+                "Nihoyatda (kuchli, rasmiyroq)",
+                "Juda oz",
+                "O'rtacha",
+                "Umuman kuchaytirmaydi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'şaşkın' so'zining ma'nosi nima?",
+              "options": [
+                "Hayron",
+                "Xursand",
+                "Charchagan",
+                "Uyqusiz"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -4385,6 +4786,24 @@
                 "uz": "umid",
                 "example_tr": "Umudumu kaybetmedim.",
                 "example_uz": "Umidimni yo'qotmadim."
+              },
+              {
+                "tr": "pes etmek",
+                "uz": "taslim bo'lmoq",
+                "example_tr": "Asla pes etmem.",
+                "example_uz": "Men hech qachon taslim bo'lmayman."
+              },
+              {
+                "tr": "inanmak",
+                "uz": "ishonmoq",
+                "example_tr": "Kendime inanıyorum.",
+                "example_uz": "O'zimga ishonaman."
+              },
+              {
+                "tr": "gerçekleştirmek",
+                "uz": "ro'yobga chiqarmoq",
+                "example_tr": "Hayalimi gerçekleştirdim.",
+                "example_uz": "Orzuimni ro'yobga chiqardim."
               }
             ],
             "listening": {
@@ -4431,7 +4850,7 @@
             },
             "reading": {
               "title": "Hayallerime Ulaşabilirim",
-              "text": "Küçükken doktor olmak istiyordum. Şimdi üniversitede tıp okuyorum ve hayalime yaklaşıyorum. Zor günler oldu, bazen başaramayacağımı düşündüm. Ama pes etmedim, çünkü hayallerime ulaşabileceğime inanıyorum.",
+              "text": "Küçükken doktor olmak istiyordum. Şimdi üniversitede tıp okuyorum ve hayalime yaklaşıyorum. Zor günler oldu, bazen başaramayacağımı düşündüm ve pes etmek istedim. Ama ailem bana her zaman destek oldu ve kendime tekrar inanmayı öğrendim. Şimdi anlıyorum ki, zorluklar aslında bizi güçlendiriyor. Hayallerime ulaşabileceğime inanıyorum, çünkü artık hiçbir zorluk beni durduramaz.",
               "questions": [
                 {
                   "question": "Yazar küçükken ne olmak istiyordu?",
@@ -4450,6 +4869,26 @@
                     "Hiçbir şeye ulaşamayacağına",
                     "Okulun gereksiz olduğuna",
                     "Pes etmesi gerektiğine"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yazara göre zorluklar ne yapar?",
+                  "options": [
+                    "Bizi güçlendirir",
+                    "Bizi zayıflatır",
+                    "Hiçbir etkisi yok",
+                    "Bizi durdurur"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Zor günlerde yazara kim destek oldu?",
+                  "options": [
+                    "Ailesi",
+                    "Hiç kimse",
+                    "Sadece kendisi",
+                    "Öğretmeni"
                   ],
                   "correct_index": 0
                 }
@@ -4563,6 +5002,26 @@
               "correct_index": 0
             },
             {
+              "question": "'pes etmek' iborasi nima?",
+              "options": [
+                "Taslim bo'lmoq",
+                "G'alaba qozonmoq",
+                "Boshlamoq",
+                "Kutmoq"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'inanmak' fe'li nima?",
+              "options": [
+                "Ishonmoq",
+                "Shubhalanmoq",
+                "Unutmoq",
+                "Qo'rqmoq"
+              ],
+              "correct_index": 0
+            },
+            {
               "type": "fill_blank",
               "question": "'Bu işi başar___' (uddasidan chiqa olaman, 1-shaxs)",
               "answer": "abilirim"
@@ -4634,6 +5093,24 @@
                 "uz": "quvnoq",
                 "example_tr": "Herkes çok neşeliydi.",
                 "example_uz": "Hamma juda quvnoq edi."
+              },
+              {
+                "tr": "sürpriz",
+                "uz": "syurpriz",
+                "example_tr": "Ona sürpriz yaptık.",
+                "example_uz": "Unga syurpriz qildik."
+              },
+              {
+                "tr": "hediye",
+                "uz": "sovg'a",
+                "example_tr": "Ona bir hediye aldım.",
+                "example_uz": "Unga sovg'a oldim."
+              },
+              {
+                "tr": "davet etmek",
+                "uz": "taklif qilmoq",
+                "example_tr": "Onu partiye davet ettim.",
+                "example_uz": "Uni ziyofatga taklif qildim."
               }
             ],
             "listening": {
@@ -4680,7 +5157,7 @@
             },
             "reading": {
               "title": "Unutulmaz Bir Parti",
-              "text": "Geçen hafta arkadaşımın doğum günü partisine gittim. Herkes çok neşeliydi. Komik şakalar yaptık, müzik dinledik ve dans ettik. Pasta kesildiğinde herkes birlikte şarkı söyledi. Gerçekten unutulmaz bir eğlenceydi.",
+              "text": "Geçen hafta arkadaşımın doğum günü partisine gittim. Aslında bu bir sürprizdi - arkadaşım hiçbir şeyden haberi yokken, hepimiz onu davet ettiğimiz evde gizlice bekledik. Kapıdan girdiğinde herkes birden \"Sürpriz!\" diye bağırdı, o da çok şaşırdı ve güldü. Herkes çok neşeliydi. Komik şakalar yaptık, müzik dinledik ve dans ettik. Pasta kesildiğinde herkes birlikte şarkı söyledi ve herkes ona güzel hediyeler verdi. Gerçekten unutulmaz bir eğlenceydi.",
               "questions": [
                 {
                   "question": "Yazar nereye gitti?",
@@ -4699,6 +5176,26 @@
                     "Ağladılar",
                     "Uyudular",
                     "Eve gittiler"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Parti aslında ne türdeydi?",
+                  "options": [
+                    "Sürpriz parti",
+                    "Sıradan bir akşam yemeği",
+                    "İş toplantısı",
+                    "Okul etkinliği"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Arkadaşı kapıdan girince ne yaptı?",
+                  "options": [
+                    "Şaşırdı ve güldü",
+                    "Ağladı",
+                    "Hiçbir şey hissetmedi",
+                    "Kızdı"
                   ],
                   "correct_index": 0
                 }
@@ -4800,6 +5297,26 @@
                 "Uyqusiz"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'sürpriz' so'zi nima?",
+              "options": [
+                "Syurpriz",
+                "Sovg'a",
+                "Bayram",
+                "Taklif"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'davet etmek' fe'li nima?",
+              "options": [
+                "Taklif qilmoq",
+                "Kutmoq",
+                "Unutmoq",
+                "Rad etmoq"
+              ],
+              "correct_index": 0
             }
           ]
         }
@@ -4875,6 +5392,30 @@
                 "uz": "ishga tushirmoq",
                 "example_tr": "Makineyi çalıştırdım.",
                 "example_uz": "Mashinani ishga tushirdim."
+              },
+              {
+                "tr": "bozulmak",
+                "uz": "buzilmoq",
+                "example_tr": "Fırın bozuldu.",
+                "example_uz": "Pech buzildi."
+              },
+              {
+                "tr": "tamir etmek",
+                "uz": "ta'mirlamoq",
+                "example_tr": "Ustayı çağırıp tamir ettirdim.",
+                "example_uz": "Ustani chaqirib ta'mirlattirdim."
+              },
+              {
+                "tr": "fiş (elektrik)",
+                "uz": "shtepsel",
+                "example_tr": "Fişi prize taktım.",
+                "example_uz": "Shtepselni rozetkaga taqdim."
+              },
+              {
+                "tr": "enerji tasarrufu",
+                "uz": "energiya tejash",
+                "example_tr": "Bu makine enerji tasarrufu sağlıyor.",
+                "example_uz": "Bu mashina energiya tejashga yordam beradi."
               }
             ],
             "listening": {
@@ -4921,7 +5462,7 @@
             },
             "reading": {
               "title": "Ev İşleri",
-              "text": "Her sabah evi temizlemek için elektrik süpürgesini kullanırım. Sonra çamaşır yıkamak için makineyi çalıştırırım. Tam işimi bitirmek üzereyken telefonum çaldı. Arkadaşım kahve içmeye davet etti.",
+              "text": "Her sabah evi temizlemek için elektrik süpürgesini kullanırım. Sonra çamaşır yıkamak için makineyi çalıştırırım. Geçen hafta çamaşır makinesi aniden bozuldu, bu yüzden bir usta çağırıp tamir ettirmek zorunda kaldım. Usta geldiğinde sorunun basit bir fiş problemi olduğunu söyledi. Yeni makineler eskilere göre çok daha az enerji tüketiyor - alışveriş yaparken artık herkes enerji tasarrufuna dikkat ediyor. Tam işimi bitirmek üzereyken telefonum çaldı. Arkadaşım kahve içmeye davet etti.",
               "questions": [
                 {
                   "question": "Evi temizlemek için ne kullanılıyor?",
@@ -4940,6 +5481,26 @@
                     "Sabah erken",
                     "Uyurken",
                     "Yemek yerken"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Çamaşır makinesine ne oldu?",
+                  "options": [
+                    "Bozuldu",
+                    "Kayboldu",
+                    "Satıldı",
+                    "Hiçbir şey"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Usta sorunun ne olduğunu söyledi?",
+                  "options": [
+                    "Basit bir fiş problemi",
+                    "Motor arızası",
+                    "Hiçbir sorun yok",
+                    "Yeni makine gerektiğini"
                   ],
                   "correct_index": 0
                 }
@@ -5042,6 +5603,26 @@
                 "Hech qachon chiqmagan"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'tamir etmek' fe'li nima?",
+              "options": [
+                "Ta'mirlamoq",
+                "Sotib olmoq",
+                "Sotmoq",
+                "Tashlamoq"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'enerji tasarrufu' iborasi nima?",
+              "options": [
+                "Energiya tejash",
+                "Energiya sarflash",
+                "Elektr toki",
+                "Elektr narxi"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -5110,6 +5691,24 @@
                 "uz": "tomosha qilmoq",
                 "example_tr": "Film izledim.",
                 "example_uz": "Film ko'rdim."
+              },
+              {
+                "tr": "reklam",
+                "uz": "reklama",
+                "example_tr": "Reklamlar çok uzun sürüyor.",
+                "example_uz": "Reklamalar juda uzoq davom etadi."
+              },
+              {
+                "tr": "yayın",
+                "uz": "efir/translyatsiya",
+                "example_tr": "Canlı yayın izliyoruz.",
+                "example_uz": "Jonli efirni tomosha qilyapmiz."
+              },
+              {
+                "tr": "ekran",
+                "uz": "ekran",
+                "example_tr": "Büyük bir ekranı var.",
+                "example_uz": "Uning katta ekrani bor."
               }
             ],
             "listening": {
@@ -5156,7 +5755,7 @@
             },
             "reading": {
               "title": "Televizyon Alışkanlıklarımız",
-              "text": "Ailem her akşam birlikte televizyon izler. Babam haberleri, annem dizileri sever. Ben ise belgesel izlemeyi tercih ederim. Bazen hep birlikte bir yarışma programı izleyip eğleniriz.",
+              "text": "Ailem her akşam birlikte televizyon izler. Babam haberleri, annem dizileri sever. Ben ise belgesel izlemeyi tercih ederim. Bazen hep birlikte bir yarışma programı izleyip eğleniriz. Eskiden televizyonda sadece birkaç kanal vardı, ama şimdi yüzlerce kanal ve canlı yayın seçeneği var. Bence en can sıkıcı şey, ilginç bir dizi izlerken reklamların çok uzun sürmesi. Yeni televizyonların ekranı da eskilere göre çok daha büyük ve net.",
               "questions": [
                 {
                   "question": "Baba ne izlemeyi sever?",
@@ -5175,6 +5774,26 @@
                     "Sadece haber",
                     "Hiçbir şey",
                     "Film değil"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Yazara göre en can sıkıcı şey nedir?",
+                  "options": [
+                    "Reklamların uzun sürmesi",
+                    "Kanalların azlığı",
+                    "Ekranın küçük olması",
+                    "Ailesinin televizyon izlememesi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Eskiden televizyonda ne kadar kanal vardı?",
+                  "options": [
+                    "Birkaç kanal",
+                    "Yüzlerce kanal",
+                    "Hiç kanal yoktu",
+                    "Binlerce kanal"
                   ],
                   "correct_index": 0
                 }
@@ -5276,6 +5895,26 @@
                 "Necha soat"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'reklam' so'zi nima?",
+              "options": [
+                "Reklama",
+                "Yangilik",
+                "Serial",
+                "Kanal"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'yayın' so'zi nima?",
+              "options": [
+                "Efir/translyatsiya",
+                "Ekran",
+                "Pult",
+                "Ovoz"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -5344,6 +5983,30 @@
                 "uz": "qush",
                 "example_tr": "Kuşlar çok güzel öter.",
                 "example_uz": "Qushlar juda chiroyli sayraydi."
+              },
+              {
+                "tr": "böcek",
+                "uz": "hasharot",
+                "example_tr": "Bahçede küçük bir böcek gördüm.",
+                "example_uz": "Bog'da kichkina hasharot ko'rdim."
+              },
+              {
+                "tr": "yuva",
+                "uz": "uya",
+                "example_tr": "Kuşun yuvası ağaçta.",
+                "example_uz": "Qushning uyasi daraxtda."
+              },
+              {
+                "tr": "tür",
+                "uz": "tur (biologik)",
+                "example_tr": "Bu nadir bir hayvan türü.",
+                "example_uz": "Bu noyob hayvon turi."
+              },
+              {
+                "tr": "nesli tükenmek",
+                "uz": "yo'q bo'lib ketmoq (tur haqida)",
+                "example_tr": "Bu tür nesli tükenmekte olan bir hayvandır.",
+                "example_uz": "Bu tur yo'q bo'lib ketayotgan hayvondir."
               }
             ],
             "listening": {
@@ -5390,7 +6053,7 @@
             },
             "reading": {
               "title": "Doğada Bir Gün",
-              "text": "Ormanda yürürken küçük kardeşim \"Bu çiçek nedir?\" diye sordu. Ben de \"Bu bir papatya,\" diye cevap verdim. Sonra bir kuş gördük. \"Bu kuş neden şarkı söylüyor?\" diye sordu. \"Belki mutludur,\" diye cevap verdim.",
+              "text": "Ormanda yürürken küçük kardeşim \"Bu çiçek nedir?\" diye sordu. Ben de \"Bu bir papatya,\" diye cevap verdim. Sonra bir kuş gördük, yuvası yüksek bir ağaçtaydı. \"Bu kuş neden şarkı söylüyor?\" diye sordu. \"Belki mutludur,\" diye cevap verdim. Biraz sonra küçük bir böcek gördük, kardeşim onu incitmeden dikkatlice inceledi. Rehberimiz bize bu ormanda bazı nadir hayvan türlerinin yaşadığını, hatta bazılarının nesli tükenmekte olduğunu anlattı. Bu yüzden doğayı korumamız gerektiğini bir kez daha anladık.",
               "questions": [
                 {
                   "question": "Kardeş ilk ne sordu?",
@@ -5409,6 +6072,26 @@
                     "Belki hastadır",
                     "Belki açtır",
                     "Belki uykusuzdur"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Rehber ormandaki hayvanlar hakkında ne anlattı?",
+                  "options": [
+                    "Bazılarının nesli tükenmekte olduğunu",
+                    "Hiç hayvan olmadığını",
+                    "Hepsinin güvende olduğunu",
+                    "Hepsinin yeni geldiğini"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Kardeş böceği nasıl inceledi?",
+                  "options": [
+                    "İncitmeden dikkatlice",
+                    "Hemen ezerek",
+                    "Hiç bakmadan",
+                    "Korkarak kaçarak"
                   ],
                   "correct_index": 0
                 }
@@ -5512,6 +6195,26 @@
                 "Bog'"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'nesli tükenmek' iborasi nimani bildiradi?",
+              "options": [
+                "Tur yo'q bo'lib ketishi",
+                "Tur ko'payishi",
+                "Tur ko'chib ketishi",
+                "Tur uxlashi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'yuva' so'zi nima?",
+              "options": [
+                "Uya",
+                "Daraxt",
+                "Barg",
+                "Ildiz"
+              ],
+              "correct_index": 0
             }
           ]
         }
@@ -5539,6 +6242,10 @@
               {
                 "heading": "Xarakter tasvirlashda qo'llanilishi",
                 "text": "Insonning xarakterini tasvirlashda ko'plab **doimiy sifatlar** ham aslida shu qolipdan kelib chiqqan: **çalışkan** (mehnatkash, çalış+kan - biroz boshqacha shakl), **konuşkan** (gapiruvchan/suxandon). Lekin oddiy fe'llardan ==bevosita -an/-en bilan== ham sifat yasash mumkin: **düşünen** (o'ylovchi), **seven** (sevuvchi)."
+              },
+              {
+                "heading": "Olumsuz shakli: -mAyAn/-meyen",
+                "text": "Sifatdoshning ==olumsuz shakli== fe'l tub + **-mAyAn/-meyen** orqali yasaladi - \"...qilmaydigan\" ma'nosini beradi:\n\n- **gülmeyen bir adam** = kulmaydigan odam\n- **çalışmayan bir öğrenci** = ishlamaydigan (mehnatkash bo'lmagan) o'quvchi\n\nDiqqat: bu shakl ==-mAz (geniş zaman olumsuzi)dan farqli== - \"gülmez\" (kulmaydi, fe'l) va \"gülmeyen\" (kulmaydigan, sifat sifatida otdan oldin keladi) grammatik vazifasi bo'yicha farqlanadi."
               }
             ],
             "key_facts": [
@@ -5547,6 +6254,9 @@
               },
               {
                 "fact": "Masalan: koşan (yuguruvchi), gülen (kuluvchi), seven (sevuvchi)."
+              },
+              {
+                "fact": "Olumsuz shakl -mAyAn/-meyen (masalan: gülmeyen) - -mAz (fe'l)dan farqli."
               }
             ],
             "summary": "**-An/-En** fe'ldan sifatdosh yasaydi: **koşan** (yuguruvchi), **gülen** (kuluvchi).",
@@ -5586,6 +6296,30 @@
                 "uz": "uyatchan",
                 "example_tr": "Kardeşim biraz utangaç.",
                 "example_uz": "Ukam biroz uyatchan."
+              },
+              {
+                "tr": "inatçı",
+                "uz": "qaysar",
+                "example_tr": "Kardeşim çok inatçı, fikrini değiştirmez.",
+                "example_uz": "Ukam juda qaysar, fikrini o'zgartirmaydi."
+              },
+              {
+                "tr": "alçakgönüllü",
+                "uz": "kamtar",
+                "example_tr": "Başarılı ama alçakgönüllü biri.",
+                "example_uz": "Muvaffaqiyatli, ammo kamtar odam."
+              },
+              {
+                "tr": "kararlı",
+                "uz": "qat'iyatli",
+                "example_tr": "Kararlı bir insan hedefine ulaşır.",
+                "example_uz": "Qat'iyatli odam maqsadiga erishadi."
+              },
+              {
+                "tr": "bencil",
+                "uz": "xudbin",
+                "example_tr": "Bencil insanlar sadece kendini düşünür.",
+                "example_uz": "Xudbin odamlar faqat o'zini o'ylaydi."
               }
             ],
             "listening": {
@@ -5632,7 +6366,7 @@
             },
             "reading": {
               "title": "İyi Bir Arkadaş",
-              "text": "İyi bir arkadaş dürüst ve sabırlı olmalıdır. Gülen bir yüzle yanınıza gelen, sizi dinleyen ve size yardım eden biri gerçek bir arkadaştır. Çalışkan ve cömert insanlarla arkadaş olmak hayatı güzelleştirir.",
+              "text": "İyi bir arkadaş dürüst ve sabırlı olmalıdır. Gülen bir yüzle yanınıza gelen, sizi dinleyen ve size yardım eden biri gerçek bir arkadaştır. Çalışkan ve cömert insanlarla arkadaş olmak hayatı güzelleştirir. Öte yandan, sürekli şikâyet eden, başkalarını dinlemeyen ve kendinden başkasını düşünmeyen bencil insanlarla arkadaş olmak zor olabilir. Kararlı ama alçakgönüllü insanlar genellikle en güvenilir arkadaşlardır - onlar başarılarıyla övünmez, ama her zaman yanınızda olurlar. İyi bir arkadaş seçmek, hayatınızdaki en önemli kararlardan biridir.",
               "questions": [
                 {
                   "question": "Metne göre iyi arkadaş nasıl olmalı?",
@@ -5651,6 +6385,26 @@
                     "Tingladi",
                     "Tinglaydi",
                     "Tinglamaydi"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Metne göre kimlerle arkadaş olmak zor olabilir?",
+                  "options": [
+                    "Bencil insanlarla",
+                    "Sabırlı insanlarla",
+                    "Dürüst insanlarla",
+                    "Cömert insanlarla"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "En güvenilir arkadaşlar nasıl tarif ediliyor?",
+                  "options": [
+                    "Kararlı ama alçakgönüllü",
+                    "Bencil ve inatçı",
+                    "Utangaç ve sessiz",
+                    "Kızgın ve sabırsız"
                   ],
                   "correct_index": 0
                 }
@@ -5751,6 +6505,36 @@
                 "Dangasa"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'gülmeyen' so'zi qaysi qo'shimcha bilan yasalgan?",
+              "options": [
+                "-mAyAn (olumsuz sifatdosh)",
+                "-An/-En (ijobiy sifatdosh)",
+                "-mAz (geniş zaman olumsuzi)",
+                "-DI (o'tgan zamon)"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'inatçı' so'zining ma'nosi nima?",
+              "options": [
+                "Qaysar",
+                "Yumshoq",
+                "Saxiy",
+                "Kamtar"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'bencil' so'zining ma'nosi nima?",
+              "options": [
+                "Xudbin",
+                "Saxiy",
+                "Mehribon",
+                "Kamtar"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -5819,6 +6603,30 @@
                 "uz": "kalit",
                 "example_tr": "Başarının anahtarı çalışmaktır.",
                 "example_uz": "Muvaffaqiyat kaliti - mehnat qilishdir."
+              },
+              {
+                "tr": "engel",
+                "uz": "to'siq",
+                "example_tr": "Birçok engeli aştım.",
+                "example_uz": "Ko'p to'siqlarni yengib o'tdim."
+              },
+              {
+                "tr": "sabretmek",
+                "uz": "sabr qilmoq",
+                "example_tr": "Sonuç için sabretmelisin.",
+                "example_uz": "Natija uchun sabr qilishing kerak."
+              },
+              {
+                "tr": "motivasyon",
+                "uz": "motivatsiya",
+                "example_tr": "Motivasyonumu kaybetmemeliyim.",
+                "example_uz": "Motivatsiyamni yo'qotmasligim kerak."
+              },
+              {
+                "tr": "ilerlemek",
+                "uz": "ilgarilamoq",
+                "example_tr": "Yavaş ama emin adımlarla ilerliyorum.",
+                "example_uz": "Sekin, ammo ishonchli qadamlar bilan ilgarilayapman."
               }
             ],
             "listening": {
@@ -5865,7 +6673,7 @@
             },
             "reading": {
               "title": "Başarının Sırrı",
-              "text": "Başarılı insanlar genellikle net bir hedefe sahiptir. Hedeflerine ulaşmak için büyük çaba gösterirler ve zorluklar karşısında pes etmezler. Her fırsatı değerlendirirler ve azimle çalışmaya devam ederler.",
+              "text": "Başarılı insanlar genellikle net bir hedefe sahiptir. Hedeflerine ulaşmak için büyük çaba gösterirler ve zorluklar karşısında pes etmezler. Yolda birçok engelle karşılaşabilirler, ama bu engeller onları durdurmaz - aksine, her engeli aşarak daha da güçlenirler. Her fırsatı değerlendirirler ve azimle çalışmaya devam ederler. Sonuçların hemen gelmeyeceğini bilirler, bu yüzden sabretmeyi öğrenirler. Motivasyonlarını kaybettikleri anlar olsa bile, kendilerine neden başladıklarını hatırlatarak yavaş ama emin adımlarla ilerlemeye devam ederler.",
               "questions": [
                 {
                   "question": "Başarılı insanların ortak özelliği nedir?",
@@ -5884,6 +6692,26 @@
                     "Çalışmazlar",
                     "Gülmezler",
                     "Konuşmazlar"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Engellerle karşılaştıklarında ne olur?",
+                  "options": [
+                    "Daha da güçlenirler",
+                    "Hemen pes ederler",
+                    "Hiçbir şey olmaz",
+                    "Hedeflerini unuturlar"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Motivasyonlarını kaybettiklerinde ne yaparlar?",
+                  "options": [
+                    "Neden başladıklarını hatırlarlar",
+                    "Tamamen pes ederler",
+                    "Hemen yeni bir hedef seçerler",
+                    "Uyumaya giderler"
                   ],
                   "correct_index": 0
                 }
@@ -5984,6 +6812,36 @@
                 "Gapirishmaydi"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "'engel' so'zining ma'nosi nima?",
+              "options": [
+                "To'siq",
+                "Yordam",
+                "Imkoniyat",
+                "Muvaffaqiyat"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'sabretmek' fe'li nima?",
+              "options": [
+                "Sabr qilmoq",
+                "Shoshilmoq",
+                "Jahllanmoq",
+                "Unutmoq"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'motivasyon' so'zi nima?",
+              "options": [
+                "Motivatsiya",
+                "Qiyinchilik",
+                "Charchoq",
+                "Dam olish"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -6005,6 +6863,10 @@
               {
                 "heading": "Kursda o'rgangan grammatikani eslaylik",
                 "text": "A2 kursida biz ko'plab muhim qurilmalarni o'rgandik - keling, ularni eslaylik:\n\n- **-mış** (belgisiz geçmiş): *Meğer çok yorgunmuş.*\n- **Geniş zaman** (-Ir/-Ar/-r): *Her gün kitap okurum.*\n- **-(y)Abil-** (qila olish): *Bunu yapabilirim.*\n- **-An/-En** (sifatdosh): *Gülen çocuk.*\n- **-A göre** (fikricha): *Bana göre bu doğru.*\n\nBu qurilmalarning barchasi ==kundalik muloqotda doimiy ishlatiladi== - ularni amaliyotda qo'llash orqali mustahkamlang."
+              },
+              {
+                "heading": "Yana bir necha muhim qurilma",
+                "text": "Kursning qolgan qismida o'rgangan yana bir qancha muhim qurilmalar bor - ularni ham eslab qolish kerak:\n\n- **-(y)Ip / -(y)ArAk** (ketma-ket harakat/usul): *Markete gidip ekmek aldım. Koşarak geldi.*\n- **-mAk için** (maqsad): *Yemek pişirmek için fırını açtım.*\n- **...diye sordu/cevap verdi** (so'zma-so'z keltirish): *\"Bu nedir?\" diye sordu.*\n\nA1'da o'rgangan asoslar (hozirgi zamon, oddiy o'tgan zamon) bilan birlashtirilganda, ==bu qurilmalar sizga deyarli har qanday kundalik vaziyatda erkin so'zlashish== imkonini beradi. Endi B1 darajasiga o'tishga tayyorsiz!"
               }
             ],
             "key_facts": [
@@ -6046,6 +6908,30 @@
                 "uz": "o'zaro yordam",
                 "example_tr": "Yardımlaşma çok önemli.",
                 "example_uz": "O'zaro yordam juda muhim."
+              },
+              {
+                "tr": "dinlemek",
+                "uz": "tinglamoq",
+                "example_tr": "Başkalarını dikkatle dinlemeliyiz.",
+                "example_uz": "Boshqalarni diqqat bilan tinglashimiz kerak."
+              },
+              {
+                "tr": "paylaşmak",
+                "uz": "baham ko'rmoq/bo'lishmoq",
+                "example_tr": "Duygularını paylaştı.",
+                "example_uz": "His-tuyg'ularini baham ko'rdi."
+              },
+              {
+                "tr": "toplum",
+                "uz": "jamiyat",
+                "example_tr": "Toplumumuz çok çeşitlidir.",
+                "example_uz": "Jamiyatimiz juda xilma-xil."
+              },
+              {
+                "tr": "birey",
+                "uz": "shaxs (individ)",
+                "example_tr": "Her birey farklıdır.",
+                "example_uz": "Har bir shaxs farqli."
               }
             ],
             "listening": {
@@ -6092,7 +6978,7 @@
             },
             "reading": {
               "title": "Empatinin Gücü",
-              "text": "Empati kurabilen insanlar daha iyi arkadaşlar olur. Başkalarının duygularını anlayan, onlara saygı gösteren ve yardım eden insanlar toplumu güzelleştirir. Bu A2 kursunda öğrendiğimiz her şey gibi, empati de pratik yaparak gelişir.",
+              "text": "Empati kurabilen insanlar daha iyi arkadaşlar olur. Başkalarının duygularını anlayan, onlara saygı gösteren ve yardım eden insanlar toplumu güzelleştirir. Her birey farklı bir hayat yaşar, farklı zorluklarla karşılaşır - bu yüzden birini gerçekten anlamak için önce onu dikkatle dinlemeliyiz. Toplumumuzda yardımlaşma ve paylaşma kültürü ne kadar güçlü olursa, hepimiz o kadar mutlu ve güvende hissederiz. Bu A2 kursunda öğrendiğimiz her şey gibi, empati de pratik yaparak gelişir - küçük adımlarla başlayıp, her gün biraz daha iyi bir dinleyici ve anlayışlı bir insan olabiliriz.",
               "questions": [
                 {
                   "question": "Empati kurabilen insanlar nasıl olur?",
@@ -6111,6 +6997,26 @@
                     "Kendiliğinden",
                     "Hiç gelişmez",
                     "Sadece kitap okuyarak"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Birini gerçekten anlamak için önce ne yapmalıyız?",
+                  "options": [
+                    "Dikkatle dinlemeli",
+                    "Hemen tavsiye vermeli",
+                    "Onunla tartışmalı",
+                    "Görmezden gelmeli"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Metne göre toplumda ne güçlü olmalı?",
+                  "options": [
+                    "Yardımlaşma ve paylaşma kültürü",
+                    "Rekabet",
+                    "Yalnızlık",
+                    "Sessizlik"
                   ],
                   "correct_index": 0
                 }
@@ -6209,6 +7115,46 @@
                 "O'z-o'zidan",
                 "Hech qachon rivojlanmaydi",
                 "Faqat kitob o'qish orqali"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'-(y)Ip' va '-(y)ArAk' orasidagi asosiy farq nima?",
+              "options": [
+                "Biri ketma-ket harakat, ikkinchisi usul/vosita bildiradi",
+                "Hech qanday farq yo'q",
+                "Ikkalasi ham bir xil ma'noda",
+                "Biri savol, ikkinchisi javob"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'...diye sordu' qurilmasi nima uchun ishlatiladi?",
+              "options": [
+                "So'zma-so'z savolni keltirish uchun",
+                "Buyruq berish uchun",
+                "Kelasi zamonni bildirish uchun",
+                "Inkor qilish uchun"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'toplum' so'zining ma'nosi nima?",
+              "options": [
+                "Jamiyat",
+                "Oila",
+                "Shahar",
+                "Davlat"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "'paylaşmak' fe'lining ma'nosi nima?",
+              "options": [
+                "Baham ko'rmoq/bo'lishmoq",
+                "Yashirmoq",
+                "Unutmoq",
+                "Tashlamoq"
               ],
               "correct_index": 0
             },

@@ -939,6 +939,9 @@ sections[3]['topics'].append({
             voc('bakış', "qarash", "Güzel bir bakışı var.", "Uning chiroyli qarashi bor."),
             voc('söylemek', 'aytmoq', 'Bana gelmesini söyledi.', 'U menga kelishimni aytdi.'),
             voc('istemek', "xohlamoq/so'ramoq", 'Kapıyı kapatmamı istedi.', 'U mendan eshikni yopishimni so\'radi.'),
+            voc('medeniyet', 'sivilizatsiya', 'Bu bölgede eski bir medeniyet yaşamış.', 'Bu hududda qadimiy sivilizatsiya yashagan.'),
+            voc('kazı', 'qazishma (arxeologik)', 'Burada kazı yapılıyor.', 'Bu yerda arxeologik qazishma olib borilmoqda.'),
+            voc('koruma altında', "muhofaza ostida", 'Bu eser koruma altında.', 'Bu obida muhofaza ostida.'),
         ],
         'listening': {
             'dialogue': [
@@ -956,10 +959,16 @@ sections[3]['topics'].append({
             'title': 'Her Yer Tarih',
             'text': "Bu ülkede her şehrin kendi tarihi vardır. Eski kaleler, müzeler ve "
                     "tarihi evler her yerde görülebilir. Rehberimiz bize fotoğraf çekmemizi "
-                    "ve sessiz olmamızı söyledi, çünkü bazı yerler çok hassastır.",
+                    "ve sessiz olmamızı söyledi, çünkü bazı yerler çok hassastır. Bazı "
+                    "bölgelerde hâlâ kazı çalışmaları devam ediyor - arkeologlar toprağın "
+                    "altında eski bir medeniyetin izlerini arıyor. Bulunan her eser dikkatle "
+                    "koruma altına alınıyor, çünkü bu eserler sadece bu ülkenin değil, tüm "
+                    "insanlığın ortak mirasıdır.",
             'questions': [
                 mcq('Ülkede neler görülebilir?', ["Kaleler, müzeler, tarihi evler", "Sadece deniz", "Sadece dağlar", "Hiçbir şey"], 0),
                 mcq('Rehber ne söyledi?', ["Fotoğraf çekmelerini ve sessiz olmalarını", "Yüksek sesle konuşmalarını", "Koşmalarını", "Yemek yemelerini"], 0),
+                mcq('Bazı bölgelerde hâlâ ne devam ediyor?', ['Kazı çalışmaları', 'İnşaat', 'Tatil', 'Spor müsabakası'], 0),
+                mcq('Bulunan eserlere ne yapılıyor?', ['Koruma altına alınıyor', 'Satılıyor', "Yok ediliyor", "Unutuluyor"], 0),
             ],
         },
         'sentence_practice': [
@@ -979,6 +988,8 @@ sections[3]['topics'].append({
         mcq("Boshqa odamning buyrug'ini qayta aytish uchun qanday qurilma ishlatiladi?", ["Fe'l + -mAsInI + söyledi/istedi", "Fe'l + -yor", "Fe'l + -ecek", "Fe'l + -di"], 0),
         mcq("'Oturmasını söyledi' jumlasi qaysi asl buyruqdan kelib chiqqan?", ["Otur!", "Oturuyor.", "Oturacak.", "Oturdu."], 0),
         mcq("'müze' so'zi nima?", ["Muzey", "Bozor", "Maktab", "Kasalxona"], 0),
+        mcq("'kazı' so'zi nima?", ["Arxeologik qazishma", "Sayohat", "Savdo", "Qurilish"], 0),
+        mcq("'medeniyet' so'zi nima?", ["Sivilizatsiya", "Shahar nomi", "Muzey turi", "Bayram"], 0),
         fill_blank("'Kapıyı kapat___ söyledi' (u eshikni yopishimni aytdi, 1-shaxsga)", 'mamı'),
     ],
 })
@@ -1016,6 +1027,9 @@ sections[3]['topics'].append({
             voc('iklim', 'iqlim', 'Bu bölgenin iklimi çok değişken.', "Bu hududning iqlimi juda o'zgaruvchan."),
             voc('dağ', 'tog\'', 'Dağlara tırmanmak zor.', "Tog'ga chiqish qiyin."),
             voc('göl', "ko'l", 'Göl çok güzel.', "Ko'l juda chiroyli."),
+            voc('nem', 'namlik', 'Bu bölgede nem oranı yüksek.', 'Bu hududda namlik darajasi yuqori.'),
+            voc('kurak', 'quruq (iqlim haqida)', 'Yaz ayları kurak geçer.', "Yoz oylari quruq o'tadi."),
+            voc('rüzgâr', 'shamol', 'Bugün rüzgâr çok güçlü.', "Bugun shamol juda kuchli."),
         ],
         'listening': {
             'dialogue': [
@@ -1032,12 +1046,17 @@ sections[3]['topics'].append({
         'reading': {
             'title': "Türkiye'nin Bölgeleri",
             'text': "Türkiye'nin yedi coğrafi bölgesi vardır. Her bölgenin kendine özgü "
-                    "iklimi ve doğası vardır. Karadeniz Bölgesi'nde yağmur çok yağar, "
-                    "Akdeniz Bölgesi'nde ise yazlar sıcak ve kurudur. İç Anadolu'da kışlar "
-                    "soğuk ve karlı geçer.",
+                    "iklimi ve doğası vardır. Karadeniz Bölgesi'nde yağmur çok yağar ve nem "
+                    "oranı yüksektir, bu yüzden burada çay ve fındık çok iyi yetişir. "
+                    "Akdeniz Bölgesi'nde ise yazlar sıcak ve kurudur, kış ayları bile ılıman "
+                    "geçer. İç Anadolu'da kışlar soğuk ve karlı, yazlar ise kurak ve "
+                    "rüzgârlı geçer. Doğu Anadolu'da ise kışlar öyle sert olur ki, bazı "
+                    "yıllar sıcaklık eksi otuz dereceye kadar düşebilir.",
             'questions': [
                 mcq("Türkiye'nin kaç bölgesi vardır?", ['Yedi', 'Beş', 'Üç', 'On'], 0),
                 mcq('Karadeniz Bölgesi nasıldır?', ['Yağmur çok yağar', 'Çok kurak', 'Hep karlı', 'Çölümsü'], 0),
+                mcq('Karadeniz Bölgesinde ne iyi yetişir?', ['Çay ve fındık', 'Zeytin', 'Pirinç', 'Pamuk'], 0),
+                mcq('Doğu Anadolu kışları nasıl olabilir?', ["Eksi otuz dereceye kadar soğuk", "Hep sıcak", "Yağmurlu ama ılık", "Hiç kar yağmaz"], 0),
             ],
         },
         'sentence_practice': [
@@ -1057,6 +1076,8 @@ sections[3]['topics'].append({
         mcq("Turkiya nechta coğrafi hududga bo'lingan?", ["Yettita", "Beshta", "O'nta", "Uchta"], 0),
         mcq("Karadeniz hududida qanday iqlim bor?", ["Yomg'irli", "Juda issiq va quruq", "Cho'l iqlimi", "Doim qorli"], 0),
         mcq("'göl' so'zi nima?", ["Ko'l", "Dengiz", "Daryo", "Tog'"], 0),
+        mcq("'nem' so'zi nima?", ["Namlik", "Quruqlik", "Issiqlik", "Sovuqlik"], 0),
+        mcq("'kurak' so'zi iqlim haqida qanday ma'no beradi?", ["Quruq", "Yomg'irli", "Qorli", "Shamolli"], 0),
     ],
 })
 
@@ -1093,6 +1114,9 @@ sections[3]['topics'].append({
             voc('malzeme', 'malzama', 'Malzemeleri hazırladım.', 'Malzamalarni tayyorladim.'),
             voc('pişirmek', 'pishirmoq', 'Pastayı fırında pişirdim.', 'Tortni pechda pishirdim.'),
             voc('fırın', 'pech', 'Fırın çok sıcak.', 'Pech juda issiq.'),
+            voc('ceviz', "yong'oq", 'Baklavada ceviz var.', 'Baklavada yong\'oq bor.'),
+            voc('hamur', 'xamir', 'Hamuru yoğurdum.', 'Xamirni qordim.'),
+            voc('lezzetli', 'mazali', 'Bu tatlı çok lezzetli.', 'Bu shirinlik juda mazali.'),
         ],
         'listening': {
             'dialogue': [
@@ -1111,10 +1135,14 @@ sections[3]['topics'].append({
             'text': "Türk mutfağında birçok meşhur tatlı vardır. Baklava, ince hamur "
                     "yapraklarından ve cevizden yapılır. Lokum ise şekerden yapılan yumuşak "
                     "bir tatlıdır. Misafirlerinize tatlı ikram etmek Türk kültüründe çok "
-                    "önemlidir.",
+                    "önemlidir. Baklava yapmak aslında sanattır - hamur o kadar ince "
+                    "açılmalıdır ki, neredeyse şeffaf görünmelidir. Ustalar bu ustalığı "
+                    "yıllarca çalışarak öğrenir. Bugün baklava dünyanın birçok ülkesinde "
+                    "tanınan ve sevilen bir tatlı hâline gelmiştir.",
             'questions': [
                 mcq('Baklava neyden yapılır?', ['İnce hamur ve ceviz', 'Sadece şeker', 'Süt ve un', 'Meyve'], 0),
                 mcq('Misafire tatlı ikram etmek ne anlama gelir?', ["Türk kültüründe önemli bir gelenek", "Gereksiz bir davranış", "Sadece bayramda yapılır", "Yasak bir şey"], 0),
+                mcq('Baklava hamuru nasıl açılmalıdır?', ["Neredeyse şeffaf olacak kadar ince", "Çok kalın", "Hiç açılmaz", "Sadece elle"], 0),
             ],
         },
         'sentence_practice': [
@@ -1134,6 +1162,8 @@ sections[3]['topics'].append({
         mcq("'-(y)AlIm' shakli nimani bildiradi?", ["Birgalikda taklif ('...aylik')", "O'tgan zamon", "Kelasi zamon", "Savol"], 0),
         mcq("'fırın' so'zi nima?", ["Pech", "Muzlatgich", "Idish", "Qoshiq"], 0),
         mcq("'Şekeri ekleyelim' jumlasi qaysi shaklda?", ["Taklif (-(y)AlIm)", "Buyruq", "Savol", "Inkor"], 0),
+        mcq("'ceviz' so'zi nima?", ["Yong'oq", "Shakar", "Xamir", "Sut"], 0),
+        mcq("'lezzetli' so'zi nima?", ["Mazali", "Achchiq", "Tuzli", "Nordon"], 0),
     ],
 })
 
@@ -1182,6 +1212,11 @@ sections[4]['topics'].append({
             voc('almak', 'sotib olmoq', 'Market\'ten ekmek aldım.', "Do'kondan non oldim."),
             voc('işçi', 'ishchi', 'İşçiler çok çalışıyor.', "Ishchilar ko'p ishlayapti."),
             voc('para', 'pul', 'Param yeterli değil.', 'Pulim yetarli emas.'),
+            voc('hammadde', 'xomashyo', 'Hammadde fabrikaya gelir.', 'Xomashyo fabrikaga keladi.'),
+            voc('dağıtım', 'tarqatish', 'Ürünlerin dağıtımı hızlıdır.', 'Mahsulotlarni tarqatish tez.'),
+            voc('depo', 'ombor', 'Ürünler depoda bekler.', 'Mahsulotlar omborda kutadi.'),
+            voc('talep', 'talab', 'Bu ürüne talep çok yüksek.', 'Bu mahsulotga talab juda yuqori.'),
+            voc('arz', 'taklif (iqtisodiy)', "Arz ve talep dengesi önemlidir.", "Taklif va talab muvozanati muhim."),
         ],
         'listening': {
             'dialogue': [
@@ -1197,13 +1232,18 @@ sections[4]['topics'].append({
         },
         'reading': {
             'title': 'Bir Ürünün Yolculuğu',
-            'text': "Bir ürün önce fabrikada üretilir. İşçiler çalışarak ürünü hazırlar. "
-                    "Sonra ürün mağazalara gönderilip raflara konur. Müşteriler mağazaya "
-                    "gidip istedikleri ürünü satın alır. Böylece üretimden tüketime uzun "
-                    "bir yolculuk tamamlanmış olur.",
+            'text': "Bir ürünün yolculuğu, hammaddenin fabrikaya getirilmesiyle başlar. "
+                    "İşçiler çalışarak hammaddeyi işleyip ürünü hazırlar. Ürün hazır "
+                    "olduktan sonra depoya konur ve oradan mağazalara dağıtılır. Bir ürünün "
+                    "ne kadar üretileceğine karar verirken şirketler arz ve talep dengesine "
+                    "bakar: eğer bir ürüne talep çoksa, daha fazla üretilir. Sonunda "
+                    "müşteriler mağazaya gidip istedikleri ürünü satın alır. Böylece "
+                    "üretimden tüketime uzun bir yolculuk tamamlanmış olur.",
             'questions': [
-                mcq('Ürün önce nerede üretilir?', ['Fabrikada', 'Evde', 'Okulda', 'Markette'], 0),
+                mcq('Ürünün yolculuğu nasıl başlar?', ['Hammaddenin fabrikaya gelmesiyle', 'Mağazada satılmasıyla', 'Reklamla', 'Depoda beklemesiyle'], 0),
                 mcq('Müşteriler ürünü nasıl alır?', ['Mağazaya gidip satın alarak', 'Fabrikadan direkt alarak', 'Postayla', 'Ücretsiz olarak'], 0),
+                mcq('Şirketler ne kadar üretileceğine karar verirken nelere bakar?', ['Arz ve talep dengesine', 'Sadece hava durumuna', 'Sadece renklere', 'Hiçbir şeye bakmaz'], 0),
+                mcq('Ürün fabrikadan sonra nereye gider?', ['Depoya', 'Doğrudan eve', 'Okula', 'Hastaneye'], 0),
             ],
         },
         'sentence_practice': [
@@ -1223,6 +1263,8 @@ sections[4]['topics'].append({
         mcq("'Koşarak geldi' qanday tarjima qilinadi?", ["Yugurib keldi", "Yurib keldi", "Uxlab keldi", "Kelmadi"], 0),
         mcq("'-(y)Ip' qo'shimchasida zamon/shaxs qo'shimchasi qaysi fe'lga qo'shiladi?", ["Faqat oxirgi fe'lga", "Har bir fe'lga", "Hech qaysi fe'lga", "Faqat birinchi fe'lga"], 0),
         mcq("'üretim' so'zi nima?", ["Ishlab chiqarish", "Iste'mol", "Sotish", "Xarid qilish"], 0),
+        mcq("'talep' so'zi nima?", ["Talab", "Taklif", "Narx", "Chegirma"], 0),
+        mcq("'depo' so'zi nima?", ["Ombor", "Do'kon", "Fabrika", "Bozor"], 0),
         fill_blank("'Markete git___ ekmek aldım' (borib)", 'ip'),
     ],
 })
@@ -1261,6 +1303,9 @@ sections[4]['topics'].append({
             voc('masa', 'stol', 'Masayı ayırttık.', 'Stolni band qildirdik.'),
             voc('sipariş', 'buyurtma', 'Siparişimizi verdik.', 'Buyurtmamizni berdik.'),
             voc('afiyet olsun', 'yoqimli ishtaha', 'Afiyet olsun!', 'Yoqimli ishtaha!'),
+            voc('rezervasyon', 'bron qilish', 'Rezervasyon yaptırdım.', 'Bron qildirdim.'),
+            voc('anlaşma', 'kelishuv/shartnoma', 'Anlaşmayı imzaladık.', 'Shartnomani imzoladik.'),
+            voc('ortak', 'sherik/hamkor', 'Yeni bir ortakla tanıştım.', 'Yangi hamkor bilan tanishdim.'),
         ],
         'listening': {
             'dialogue': [
@@ -1276,12 +1321,16 @@ sections[4]['topics'].append({
         },
         'reading': {
             'title': 'Bir İş Yemeği',
-            'text': "Bugün önemli bir müşteriyle iş yemeğine gittik. Güzel bir restoranda "
-                    "masa ayırtmıştık. Garson geldi, menüyü aldık ve siparişimizi verdik. "
-                    "Yemekten sonra iş konularını konuştuk. Hesabı ödeyip restorandan çıktık.",
+            'text': "Bugün önemli bir müşteriyle iş yemeğine gittik. Bir hafta önceden "
+                    "rezervasyon yaptırmıştık, güzel bir restoranda masamız hazırdı. Garson "
+                    "geldi, menüyü aldık ve siparişimizi verdik. Yemekten sonra yeni "
+                    "ortaklığımız hakkında konuştuk ve sonunda bir anlaşmaya vardık. Bu "
+                    "anlaşma şirketimiz için çok önemliydi, çünkü aylardır bu ortakla "
+                    "görüşüyorduk. Hesabı ödeyip mutlu bir şekilde restorandan çıktık.",
             'questions': [
                 mcq('Kiminle iş yemeğine gittiler?', ['Önemli bir müşteriyle', 'Aileyle', 'Arkadaşlarla', 'Yalnız'], 0),
-                mcq('Yemekten sonra ne yaptılar?', ['İş konularını konuştular', 'Hemen çıktılar', 'Uyudular', 'Film izlediler'], 0),
+                mcq('Yemekten sonra ne yaptılar?', ['Ortaklık hakkında konuşup anlaşmaya vardılar', 'Hemen çıktılar', 'Uyudular', 'Film izlediler'], 0),
+                mcq('Restoranda rezervasyon ne zaman yapılmıştı?', ['Bir hafta önceden', 'O gün sabah', 'Hiç yapılmamıştı', 'Bir ay önce'], 0),
             ],
         },
         'sentence_practice': [
@@ -1301,6 +1350,8 @@ sections[4]['topics'].append({
         mcq("'-abilir miyim?' shakli nimani bildiradi?", ["Xushmuomala so'rov", "Buyruq", "Kelasi zamon", "O'tgan zamon"], 0),
         mcq("'hesap' so'zi restoran kontekstida nima?", ["Hisob (to'lov)", "Matematik masala", "Kitob", "Xat"], 0),
         mcq("'garson' kim?", ["Ofitsiant", "Oshpaz", "Mijoz", "Egasi"], 0),
+        mcq("'rezervasyon' so'zi nima?", ["Bron qilish", "To'lov", "Chegirma", "Menyu"], 0),
+        mcq("'ortak' so'zi nima?", ["Sherik/hamkor", "Mijoz", "Ofitsiant", "Musofir"], 0),
     ],
 })
 
@@ -1338,6 +1389,9 @@ sections[4]['topics'].append({
             voc('ucuz', 'arzon', 'Daha ucuz bir şey var mı?', "Arzonroq narsa bormi?"),
             voc('beden', "o'lcham", 'Bedeniniz nedir?', "O'lchamingiz qancha?"),
             voc('renk', 'rang', 'Hangi rengi istersiniz?', "Qaysi rangni xohlaysiz?"),
+            voc('değiştirmek', 'almashtirmoq', 'Bu ürünü değiştirebilir miyim?', "Bu mahsulotni almashtira olamanmi?"),
+            voc('iade etmek', 'qaytarmoq', "Ürünü iade ettim.", "Mahsulotni qaytardim."),
+            voc('fiş', 'chek', "Fişinizi saklayın.", "Chekingizni saqlang."),
         ],
         'listening': {
             'dialogue': [
@@ -1355,10 +1409,16 @@ sections[4]['topics'].append({
             'title': 'Alışveriş Merkezinde',
             'text': "Hafta sonu alışveriş merkezine gittim. Birçok mağazayı gezdim. "
                     "Beğendiğim bir ceket buldum ama fiyatı çok yüksekti. Satıcıya indirim "
-                    "olup olmadığını sordum. Neyse ki yüzde yirmi indirimle aldım.",
+                    "olup olmadığını sordum. Neyse ki yüzde yirmi indirimle aldım. Eve "
+                    "geldiğimde ceketi tekrar denedim ve beden biraz büyük geldiğini fark "
+                    "ettim. Ertesi gün fişimle birlikte mağazaya geri döndüm ve daha küçük "
+                    "bedenle değiştirdim. Satıcı çok yardımcı oldu ve hiçbir sorun "
+                    "çıkmadı.",
             'questions': [
                 mcq('Ne satın aldı?', ['Ceket', 'Ayakkabı', 'Çanta', 'Gömlek'], 0),
                 mcq('Ne kadar indirimle aldı?', ['Yüzde yirmi', 'Yüzde on', 'İndirimsiz', 'Yüzde elli'], 0),
+                mcq('Eve geldiğinde ne fark etti?', ['Bedenin büyük olduğunu', 'Rengin yanlış olduğunu', "Fiyatın yanlış olduğunu", "Hiçbir şey fark etmedi"], 0),
+                mcq('Mağazaya geri dönerken yanında ne götürdü?', ['Fişini', 'Sadece parayı', "Hiçbir şey", 'Eski bir ceket'], 0),
             ],
         },
         'sentence_practice': [
@@ -1378,6 +1438,8 @@ sections[4]['topics'].append({
         mcq("'İndirim var mı?' qanday tarjima qilinadi?", ["Chegirma bormi?", "Narxi qancha?", "Bu nima?", "Qayerda?"], 0),
         mcq("'Fiyatı ne kadar?' savoli nima haqida?", ["Narx", "Rang", "O'lcham", "Vaqt"], 0),
         mcq("'mağaza' so'zi nima?", ["Do'kon", "Uy", "Maktab", "Kasalxona"], 0),
+        mcq("'iade etmek' so'zi nima?", ["Qaytarmoq", "Sotib olmoq", "Almashtirmoq", "Sinab ko'rmoq"], 0),
+        mcq("'fiş' so'zi nima?", ["Chek", "Chipta", "Xat", "Kitob"], 0),
     ],
 })
 
@@ -1407,9 +1469,21 @@ sections[5]['topics'].append({
                 "ochiq ifodalash== odatiy holdir - bu til o'rganuvchilar uchun yozma nutqni "
                 "mashq qilishning ajoyib usuli.",
             ),
+            block(
+                "Hissiyotni kuchaytirish: 'çok', 'son derece', 'oldukça'",
+                "Oddiy \"mutluyum\" (baxtliman) o'rniga, hissiyotni ==darajasiga qarab== "
+                "turlicha kuchaytirish mumkin:\n\n"
+                "- **çok mutluyum** = juda baxtliman (kundalik, eng ko'p ishlatiladigan)\n"
+                "- **son derece mutluyum** = nihoyatda baxtliman (kuchliroq, biroz rasmiyroq)\n"
+                "- **oldukça üzgünüm** = ancha xafaman (o'rtacha darajadagi kuchaytirish)\n\n"
+                "Mektub yozganda shu darajalardan foydalanish fikringizni ==aniqroq va "
+                "nozikroq== ifodalash imkonini beradi - har doim \"çok\" bilan "
+                "cheklanmang.",
+            ),
         ],
         'key_facts': [
             fact("mutlu, üzgün, kızgın, korkmuş - asosiy hissiyot so'zlari."), fact("Mektub 'Sevgili...' bilan boshlanib, 'Sevgilerimle' bilan tugaydi."),
+            fact("'çok/son derece/oldukça' - hissiyot kuchini turlicha darajada bildiradi."),
         ],
         'summary': "Hissiyot so'zlari predikat sifatida ishlatiladi: **Mutluyum, üzgünüm, kızgınım**.",
         'vocabulary': [
@@ -1421,6 +1495,10 @@ sections[5]['topics'].append({
             voc('korkmuş', "qo'rqqan", 'Çok korkmuştum.', "Juda qo'rqqandim."),
             voc('özlemek', "sog'inmoq", 'Seni özledim.', "Men seni sog'indim."),
             voc('göndermek', "yubormoq", 'Mektubu gönderdim.', 'Xatni yubordim.'),
+            voc('heyecanlı', 'hayajonli', 'Sınavdan önce çok heyecanlıydım.', "Imtihondan oldin juda hayajonlangan edim."),
+            voc('şaşkın', "hayron", 'Haberi duyunca şaşkına döndüm.', "Xabarni eshitib hayron bo'lib qoldim."),
+            voc('rahatlamak', 'yengil tortmoq', 'Konuştuktan sonra rahatladım.', "Gaplashgandan keyin yengil tortdim."),
+            voc('içten', 'samimiy', 'İçten bir mektup yazdı.', "Samimiy xat yozdi."),
         ],
         'listening': {
             'dialogue': [
@@ -1438,11 +1516,14 @@ sections[5]['topics'].append({
             'title': 'Bir Mektup',
             'text': "Sevgili arkadaşım, nasılsın? Ben burada çok mutluyum ama seni de çok "
                     "özledim. Yeni şehrimde ilginç insanlarla tanıştım. Bazen üzgün "
-                    "oluyorum çünkü ailemi görmüyorum. Umarım yakında görüşürüz. "
-                    "Sevgilerimle, Ayşe.",
+                    "oluyorum çünkü ailemi görmüyorum. İlk geldiğimde oldukça şaşkındım, "
+                    "çünkü her şey çok farklıydı. Ama şimdi buraya alıştım ve son derece "
+                    "mutluyum. Yeni arkadaşlarımla konuşurken kendimi çok rahat "
+                    "hissediyorum. Umarım yakında görüşürüz. Sevgilerimle, Ayşe.",
             'questions': [
                 mcq('Ayşe genel olarak nasıl hissediyor?', ['Mutlu ama arkadaşını özlemiş', 'Çok kızgın', 'Çok korkmuş', 'Hiçbir şey hissetmiyor'], 0),
                 mcq('Ayşe bazen neden üzgün oluyor?', ['Ailesini görmediği için', 'Hasta olduğu için', 'Parası olmadığı için', 'İşi olmadığı için'], 0),
+                mcq('Ayşe ilk geldiğinde nasıl hissetmiş?', ['Oldukça şaşkın', 'Çok kızgın', 'Hiç şaşırmamış', 'Çok korkmuş'], 0),
             ],
         },
         'sentence_practice': [
@@ -1462,6 +1543,8 @@ sections[5]['topics'].append({
         mcq("Turk mektubi odatda qanday boshlanadi?", ["'Sevgili...' bilan", "'Hoşça kal' bilan", "Raqam bilan", "Sana bilan"], 0),
         mcq("'özlemek' fe'li nima?", ["Sog'inmoq", "Unutmoq", "Yozmoq", "O'qimoq"], 0),
         mcq("'Seni özledim' qanday tarjima qilinadi?", ["Men seni sog'indim", "Men senga achinaman", "Men seni yaxshi ko'raman", "Men senga xafaman"], 0),
+        mcq("'son derece' so'zi hissiyotni qanday kuchaytiradi?", ["Nihoyatda (kuchli, rasmiyroq)", "Juda oz", "O'rtacha", "Umuman kuchaytirmaydi"], 0),
+        mcq("'şaşkın' so'zining ma'nosi nima?", ["Hayron", "Xursand", "Charchagan", "Uyqusiz"], 0),
     ],
 })
 
@@ -1503,6 +1586,9 @@ sections[5]['topics'].append({
             voc('başarmak', "uddasidan chiqmoq", 'Bu işi başarabilirim.', "Men bu ishni uddasidan chiqa olaman."),
             voc('hayal', 'orzu/xayol', 'Hayalimi gerçekleştirdim.', "Orzuimni ro'yobga chiqardim."),
             voc('umut', 'umid', 'Umudumu kaybetmedim.', "Umidimni yo'qotmadim."),
+            voc('pes etmek', 'taslim bo\'lmoq', 'Asla pes etmem.', "Men hech qachon taslim bo'lmayman."),
+            voc('inanmak', 'ishonmoq', 'Kendime inanıyorum.', "O'zimga ishonaman."),
+            voc('gerçekleştirmek', "ro'yobga chiqarmoq", 'Hayalimi gerçekleştirdim.', "Orzuimni ro'yobga chiqardim."),
         ],
         'listening': {
             'dialogue': [
@@ -1520,11 +1606,16 @@ sections[5]['topics'].append({
             'title': 'Hayallerime Ulaşabilirim',
             'text': "Küçükken doktor olmak istiyordum. Şimdi üniversitede tıp okuyorum ve "
                     "hayalime yaklaşıyorum. Zor günler oldu, bazen başaramayacağımı "
-                    "düşündüm. Ama pes etmedim, çünkü hayallerime ulaşabileceğime "
-                    "inanıyorum.",
+                    "düşündüm ve pes etmek istedim. Ama ailem bana her zaman "
+                    "destek oldu ve kendime tekrar inanmayı öğrendim. Şimdi "
+                    "anlıyorum ki, zorluklar aslında bizi güçlendiriyor. Hayallerime "
+                    "ulaşabileceğime inanıyorum, çünkü artık hiçbir zorluk beni "
+                    "durduramaz.",
             'questions': [
                 mcq('Yazar küçükken ne olmak istiyordu?', ['Doktor', "Öğretmen", 'Sporcu', 'Yazar'], 0),
                 mcq("Yazar neye inanıyor?", ["Hayallerine ulaşabileceğine", "Hiçbir şeye ulaşamayacağına", "Okulun gereksiz olduğuna", "Pes etmesi gerektiğine"], 0),
+                mcq('Yazara göre zorluklar ne yapar?', ['Bizi güçlendirir', 'Bizi zayıflatır', 'Hiçbir etkisi yok', "Bizi durdurur"], 0),
+                mcq('Zor günlerde yazara kim destek oldu?', ['Ailesi', "Hiç kimse", 'Sadece kendisi', "Öğretmeni"], 0),
             ],
         },
         'sentence_practice': [
@@ -1545,6 +1636,8 @@ sections[5]['topics'].append({
         mcq("'Bunu yapamam' qanday tarjima qilinadi?", ["Buni qila olmayman", "Buni qilaman", "Buni qildim", "Buni qilmoqchiman"], 0),
         mcq("'Gelebilir misin?' qanday tarjima qilinadi?", ["Kela olasanmi?", "Kelding mi?", "Kelasanmi (oddiy)?", "Kelmaysanmi?"], 0),
         mcq("'başarmak' fe'li nima?", ["Uddasidan chiqmoq", "Boshlamoq", "Tugatmoq", "Unutmoq"], 0),
+        mcq("'pes etmek' iborasi nima?", ["Taslim bo'lmoq", "G'alaba qozonmoq", "Boshlamoq", "Kutmoq"], 0),
+        mcq("'inanmak' fe'li nima?", ["Ishonmoq", "Shubhalanmoq", "Unutmoq", "Qo'rqmoq"], 0),
         fill_blank("'Bu işi başar___' (uddasidan chiqa olaman, 1-shaxs)", 'abilirim'),
     ],
 })
@@ -1579,6 +1672,9 @@ sections[5]['topics'].append({
             voc('parti', 'ziyofat', 'Bu akşam bir parti var.', 'Bugun kechqurun ziyofat bor.'),
             voc('kutlamak', 'nishonlamoq', 'Doğum günümü kutladık.', "Tug'ilgan kunimni nishonladik."),
             voc('neşeli', 'quvnoq', 'Herkes çok neşeliydi.', "Hamma juda quvnoq edi."),
+            voc('sürpriz', 'syurpriz', 'Ona sürpriz yaptık.', "Unga syurpriz qildik."),
+            voc('hediye', 'sovg\'a', 'Ona bir hediye aldım.', "Unga sovg'a oldim."),
+            voc('davet etmek', 'taklif qilmoq', 'Onu partiye davet ettim.', "Uni ziyofatga taklif qildim."),
         ],
         'listening': {
             'dialogue': [
@@ -1594,13 +1690,18 @@ sections[5]['topics'].append({
         },
         'reading': {
             'title': 'Unutulmaz Bir Parti',
-            'text': "Geçen hafta arkadaşımın doğum günü partisine gittim. Herkes çok "
+            'text': "Geçen hafta arkadaşımın doğum günü partisine gittim. Aslında bu bir "
+                    "sürprizdi - arkadaşım hiçbir şeyden haberi yokken, hepimiz onu davet "
+                    "ettiğimiz evde gizlice bekledik. Kapıdan girdiğinde herkes birden "
+                    "\"Sürpriz!\" diye bağırdı, o da çok şaşırdı ve güldü. Herkes çok "
                     "neşeliydi. Komik şakalar yaptık, müzik dinledik ve dans ettik. Pasta "
-                    "kesildiğinde herkes birlikte şarkı söyledi. Gerçekten unutulmaz bir "
-                    "eğlenceydi.",
+                    "kesildiğinde herkes birlikte şarkı söyledi ve herkes ona güzel "
+                    "hediyeler verdi. Gerçekten unutulmaz bir eğlenceydi.",
             'questions': [
                 mcq('Yazar nereye gitti?', ["Doğum günü partisine", "Okula", 'İşe', 'Hastaneye'], 0),
                 mcq('Pasta kesildiğinde ne yaptılar?', ['Şarkı söylediler', 'Ağladılar', 'Uyudular', 'Eve gittiler'], 0),
+                mcq('Parti aslında ne türdeydi?', ['Sürpriz parti', 'Sıradan bir akşam yemeği', 'İş toplantısı', 'Okul etkinliği'], 0),
+                mcq("Arkadaşı kapıdan girince ne yaptı?", ['Şaşırdı ve güldü', 'Ağladı', 'Hiçbir şey hissetmedi', 'Kızdı'], 0),
             ],
         },
         'sentence_practice': [
@@ -1620,6 +1721,8 @@ sections[5]['topics'].append({
         mcq("'Doğum günün kutlu olsun!' qanday tarjima qilinadi?", ["Tug'ilgan kuning muborak bo'lsin!", "Xayrli tong!", "Yoqimli ishtaha!", "Tuzalib keting!"], 0),
         mcq("'eğlence' so'zi nima?", ["O'yin-kulgi", "Ish", "Maktab", "Kasallik"], 0),
         mcq("'neşeli' so'zining ma'nosi nima?", ["Quvnoq", "Xafa", "Charchagan", "Uyqusiz"], 0),
+        mcq("'sürpriz' so'zi nima?", ["Syurpriz", "Sovg'a", "Bayram", "Taklif"], 0),
+        mcq("'davet etmek' fe'li nima?", ["Taklif qilmoq", "Kutmoq", "Unutmoq", "Rad etmoq"], 0),
     ],
 })
 
@@ -1666,6 +1769,10 @@ sections[6]['topics'].append({
             voc('ütü', 'dazmol', 'Ütü çok sıcak.', 'Dazmol juda issiq.'),
             voc('bulaşık makinesi', 'idish yuvish mashinasi', 'Bulaşık makinesi bozuldu.', "Idish yuvish mashinasi buzildi."),
             voc('çalıştırmak', "ishga tushirmoq", 'Makineyi çalıştırdım.', "Mashinani ishga tushirdim."),
+            voc('bozulmak', 'buzilmoq', 'Fırın bozuldu.', "Pech buzildi."),
+            voc('tamir etmek', "ta'mirlamoq", 'Ustayı çağırıp tamir ettirdim.', "Ustani chaqirib ta'mirlattirdim."),
+            voc('fiş (elektrik)', 'shtepsel', 'Fişi prize taktım.', "Shtepselni rozetkaga taqdim."),
+            voc('enerji tasarrufu', "energiya tejash", "Bu makine enerji tasarrufu sağlıyor.", "Bu mashina energiya tejashga yordam beradi."),
         ],
         'listening': {
             'dialogue': [
@@ -1682,11 +1789,18 @@ sections[6]['topics'].append({
         'reading': {
             'title': 'Ev İşleri',
             'text': "Her sabah evi temizlemek için elektrik süpürgesini kullanırım. Sonra "
-                    "çamaşır yıkamak için makineyi çalıştırırım. Tam işimi bitirmek "
-                    "üzereyken telefonum çaldı. Arkadaşım kahve içmeye davet etti.",
+                    "çamaşır yıkamak için makineyi çalıştırırım. Geçen hafta çamaşır "
+                    "makinesi aniden bozuldu, bu yüzden bir usta çağırıp tamir ettirmek "
+                    "zorunda kaldım. Usta geldiğinde sorunun basit bir fiş problemi "
+                    "olduğunu söyledi. Yeni makineler eskilere göre çok daha az enerji "
+                    "tüketiyor - alışveriş yaparken artık herkes enerji tasarrufuna dikkat "
+                    "ediyor. Tam işimi bitirmek üzereyken telefonum çaldı. Arkadaşım kahve "
+                    "içmeye davet etti.",
             'questions': [
                 mcq('Evi temizlemek için ne kullanılıyor?', ['Elektrik süpürgesi', 'Fırın', 'Buzdolabı', 'Ütü'], 0),
                 mcq('Telefon ne zaman çaldı?', ['İşi bitirmek üzereyken', 'Sabah erken', 'Uyurken', 'Yemek yerken'], 0),
+                mcq('Çamaşır makinesine ne oldu?', ['Bozuldu', 'Kayboldu', 'Satıldı', "Hiçbir şey"], 0),
+                mcq('Usta sorunun ne olduğunu söyledi?', ['Basit bir fiş problemi', "Motor arızası", "Hiçbir sorun yok", "Yeni makine gerektiğini"], 0),
             ],
         },
         'sentence_practice': [
@@ -1706,6 +1820,8 @@ sections[6]['topics'].append({
         mcq("'Çamaşır yıkamak için' qanday tarjima qilinadi?", ["Kir yuvish uchun", "Kir yuvgandan keyin", "Kir yuvmasdan", "Kir yuvish bilan"], 0),
         mcq("'buzdolabı' so'zi nima?", ["Muzlatgich", "Dazmol", "Pech", "Changyutgich"], 0),
         mcq("'Tam çıkmak üzereyken telefon çaldı' jumlasi nimani bildiradi?", ["Chiqmoqchi bo'lgan aynan o'sha payt", "Chiqib bo'lgandan keyin", "Chiqishdan ancha oldin", "Hech qachon chiqmagan"], 0),
+        mcq("'tamir etmek' fe'li nima?", ["Ta'mirlamoq", "Sotib olmoq", "Sotmoq", "Tashlamoq"], 0),
+        mcq("'enerji tasarrufu' iborasi nima?", ["Energiya tejash", "Energiya sarflash", "Elektr toki", "Elektr narxi"], 0),
     ],
 })
 
@@ -1742,6 +1858,9 @@ sections[6]['topics'].append({
             voc('belgesel', 'hujjatli film', 'Belgesel izlemeyi severim.', "Hujjatli film ko'rishni yaxshi ko'raman."),
             voc('kanal', 'kanal', 'Hangi kanalı izliyorsun?', 'Qaysi kanalni ko\'ryapsan?'),
             voc('izlemek', "tomosha qilmoq", 'Film izledim.', "Film ko'rdim."),
+            voc('reklam', 'reklama', 'Reklamlar çok uzun sürüyor.', "Reklamalar juda uzoq davom etadi."),
+            voc('yayın', 'efir/translyatsiya', 'Canlı yayın izliyoruz.', "Jonli efirni tomosha qilyapmiz."),
+            voc('ekran', 'ekran', 'Büyük bir ekranı var.', "Uning katta ekrani bor."),
         ],
         'listening': {
             'dialogue': [
@@ -1759,10 +1878,16 @@ sections[6]['topics'].append({
             'title': 'Televizyon Alışkanlıklarımız',
             'text': "Ailem her akşam birlikte televizyon izler. Babam haberleri, annem "
                     "dizileri sever. Ben ise belgesel izlemeyi tercih ederim. Bazen hep "
-                    "birlikte bir yarışma programı izleyip eğleniriz.",
+                    "birlikte bir yarışma programı izleyip eğleniriz. Eskiden televizyonda "
+                    "sadece birkaç kanal vardı, ama şimdi yüzlerce kanal ve canlı yayın "
+                    "seçeneği var. Bence en can sıkıcı şey, ilginç bir dizi izlerken "
+                    "reklamların çok uzun sürmesi. Yeni televizyonların ekranı da eskilere "
+                    "göre çok daha büyük ve net.",
             'questions': [
                 mcq('Baba ne izlemeyi sever?', ['Haberleri', 'Dizileri', 'Belgesel', 'Spor'], 0),
                 mcq('Aile bazen birlikte ne izler?', ['Yarışma programı', 'Sadece haber', 'Hiçbir şey', 'Film değil'], 0),
+                mcq('Yazara göre en can sıkıcı şey nedir?', ['Reklamların uzun sürmesi', 'Kanalların azlığı', 'Ekranın küçük olması', 'Ailesinin televizyon izlememesi'], 0),
+                mcq('Eskiden televizyonda ne kadar kanal vardı?', ['Birkaç kanal', 'Yüzlerce kanal', 'Hiç kanal yoktu', 'Binlerce kanal'], 0),
             ],
         },
         'sentence_practice': [
@@ -1782,6 +1907,8 @@ sections[6]['topics'].append({
         mcq("'belgesel' so'zi nima?", ["Hujjatli film", "Komediya", "Musiqa", "Yangilik"], 0),
         mcq("'izlemek' fe'li TV kontekstida nima?", ["Tomosha qilmoq", "Eshitmoq", "O'qimoq", "Yozmoq"], 0),
         mcq("'Hangi kanalı izliyorsun?' savoli nima haqida?", ["Qaysi kanal ko'rilyapti", "Qayerga borilyapti", "Kim keldi", "Necha soat"], 0),
+        mcq("'reklam' so'zi nima?", ["Reklama", "Yangilik", "Serial", "Kanal"], 0),
+        mcq("'yayın' so'zi nima?", ["Efir/translyatsiya", "Ekran", "Pult", "Ovoz"], 0),
     ],
 })
 
@@ -1820,6 +1947,10 @@ sections[6]['topics'].append({
             voc('çiçek', 'gul', 'Bu çiçek çok güzel kokuyor.', "Bu gul juda yoqimli hid keladi."),
             voc('ağaç', 'daraxt', 'Bahçede bir ağaç var.', "Bog'da bir daraxt bor."),
             voc('kuş', "qush", 'Kuşlar çok güzel öter.', "Qushlar juda chiroyli sayraydi."),
+            voc('böcek', "hasharot", 'Bahçede küçük bir böcek gördüm.', "Bog'da kichkina hasharot ko'rdim."),
+            voc('yuva', 'uya', 'Kuşun yuvası ağaçta.', "Qushning uyasi daraxtda."),
+            voc('tür', "tur (biologik)", 'Bu nadir bir hayvan türü.', "Bu noyob hayvon turi."),
+            voc('nesli tükenmek', "yo'q bo'lib ketmoq (tur haqida)", 'Bu tür nesli tükenmekte olan bir hayvandır.', "Bu tur yo'q bo'lib ketayotgan hayvondir."),
         ],
         'listening': {
             'dialogue': [
@@ -1836,12 +1967,18 @@ sections[6]['topics'].append({
         'reading': {
             'title': 'Doğada Bir Gün',
             'text': "Ormanda yürürken küçük kardeşim \"Bu çiçek nedir?\" diye sordu. Ben de "
-                    "\"Bu bir papatya,\" diye cevap verdim. Sonra bir kuş gördük. "
-                    "\"Bu kuş neden şarkı söylüyor?\" diye sordu. \"Belki mutludur,\" diye "
-                    "cevap verdim.",
+                    "\"Bu bir papatya,\" diye cevap verdim. Sonra bir kuş gördük, yuvası "
+                    "yüksek bir ağaçtaydı. \"Bu kuş neden şarkı söylüyor?\" diye sordu. "
+                    "\"Belki mutludur,\" diye cevap verdim. Biraz sonra küçük bir böcek "
+                    "gördük, kardeşim onu incitmeden dikkatlice inceledi. Rehberimiz bize "
+                    "bu ormanda bazı nadir hayvan türlerinin yaşadığını, hatta bazılarının "
+                    "nesli tükenmekte olduğunu anlattı. Bu yüzden doğayı korumamız gerektiğini "
+                    "bir kez daha anladık.",
             'questions': [
                 mcq('Kardeş ilk ne sordu?', ["Çiçeğin ne olduğunu", "Kuşun adını", "Ormanın adını", "Saatin kaç olduğunu"], 0),
                 mcq('Yazar kuş hakkında ne dedi?', ["Belki mutludur", "Belki hastadır", "Belki açtır", "Belki uykusuzdur"], 0),
+                mcq('Rehber ormandaki hayvanlar hakkında ne anlattı?', ['Bazılarının nesli tükenmekte olduğunu', 'Hiç hayvan olmadığını', 'Hepsinin güvende olduğunu', 'Hepsinin yeni geldiğini'], 0),
+                mcq('Kardeş böceği nasıl inceledi?', ['İncitmeden dikkatlice', 'Hemen ezerek', 'Hiç bakmadan', "Korkarak kaçarak"], 0),
             ],
         },
         'sentence_practice': [
@@ -1861,6 +1998,8 @@ sections[6]['topics'].append({
         mcq("'diye' so'zi o'zbekchada nimaga mos keladi?", ["deb", "va", "yoki", "lekin"], 0),
         mcq("'ağaç' so'zi nima?", ["Daraxt", "Gul", "Qush", "O'simlik (umumiy)"], 0),
         mcq("'doğa' so'zi nima?", ["Tabiat", "Shahar", "Uy", "Bog'"], 0),
+        mcq("'nesli tükenmek' iborasi nimani bildiradi?", ["Tur yo'q bo'lib ketishi", "Tur ko'payishi", "Tur ko'chib ketishi", "Tur uxlashi"], 0),
+        mcq("'yuva' so'zi nima?", ["Uya", "Daraxt", "Barg", "Ildiz"], 0),
     ],
 })
 
@@ -1894,10 +2033,22 @@ sections[7]['topics'].append({
                 "==bevosita -an/-en bilan== ham sifat yasash mumkin: **düşünen** (o'ylovchi), "
                 "**seven** (sevuvchi).",
             ),
+            block(
+                "Olumsuz shakli: -mAyAn/-meyen",
+                "Sifatdoshning ==olumsuz shakli== fe'l tub + **-mAyAn/-meyen** orqali "
+                "yasaladi - \"...qilmaydigan\" ma'nosini beradi:\n\n"
+                "- **gülmeyen bir adam** = kulmaydigan odam\n"
+                "- **çalışmayan bir öğrenci** = ishlamaydigan (mehnatkash bo'lmagan) "
+                "o'quvchi\n\n"
+                "Diqqat: bu shakl ==-mAz (geniş zaman olumsuzi)dan farqli== - \"gülmez\" "
+                "(kulmaydi, fe'l) va \"gülmeyen\" (kulmaydigan, sifat sifatida otdan oldin "
+                "keladi) grammatik vazifasi bo'yicha farqlanadi.",
+            ),
         ],
         'key_facts': [
             fact("-An/-En = '...qiluvchi/qiladigan' (sifatdosh, fe'ldan sifat yasaydi)."),
             fact("Masalan: koşan (yuguruvchi), gülen (kuluvchi), seven (sevuvchi)."),
+            fact("Olumsuz shakl -mAyAn/-meyen (masalan: gülmeyen) - -mAz (fe'l)dan farqli."),
         ],
         'summary': "**-An/-En** fe'ldan sifatdosh yasaydi: **koşan** (yuguruvchi), **gülen** (kuluvchi).",
         'vocabulary': [
@@ -1907,6 +2058,10 @@ sections[7]['topics'].append({
             voc('cömert', "saxiy", 'O çok cömert biri.', "U juda saxiy odam."),
             voc('sabırlı', "sabrli", 'Öğretmenim çok sabırlı.', "O'qituvchim juda sabrli."),
             voc('utangaç', 'uyatchan', 'Kardeşim biraz utangaç.', "Ukam biroz uyatchan."),
+            voc('inatçı', "qaysar", 'Kardeşim çok inatçı, fikrini değiştirmez.', "Ukam juda qaysar, fikrini o'zgartirmaydi."),
+            voc('alçakgönüllü', 'kamtar', 'Başarılı ama alçakgönüllü biri.', "Muvaffaqiyatli, ammo kamtar odam."),
+            voc('kararlı', "qat'iyatli", 'Kararlı bir insan hedefine ulaşır.', "Qat'iyatli odam maqsadiga erishadi."),
+            voc('bencil', "xudbin", 'Bencil insanlar sadece kendini düşünür.', "Xudbin odamlar faqat o'zini o'ylaydi."),
         ],
         'listening': {
             'dialogue': [
@@ -1924,10 +2079,18 @@ sections[7]['topics'].append({
             'title': 'İyi Bir Arkadaş',
             'text': "İyi bir arkadaş dürüst ve sabırlı olmalıdır. Gülen bir yüzle yanınıza "
                     "gelen, sizi dinleyen ve size yardım eden biri gerçek bir arkadaştır. "
-                    "Çalışkan ve cömert insanlarla arkadaş olmak hayatı güzelleştirir.",
+                    "Çalışkan ve cömert insanlarla arkadaş olmak hayatı güzelleştirir. Öte "
+                    "yandan, sürekli şikâyet eden, başkalarını dinlemeyen ve kendinden "
+                    "başkasını düşünmeyen bencil insanlarla arkadaş olmak zor olabilir. "
+                    "Kararlı ama alçakgönüllü insanlar genellikle en güvenilir "
+                    "arkadaşlardır - onlar başarılarıyla övünmez, ama her zaman yanınızda "
+                    "olurlar. İyi bir arkadaş seçmek, hayatınızdaki en önemli "
+                    "kararlardan biridir.",
             'questions': [
                 mcq("Metne göre iyi arkadaş nasıl olmalı?", ['Dürüst ve sabırlı', 'Kızgın ve bencil', 'Tembel ve sessiz', 'Utangaç ve korkak'], 0),
                 mcq("'Sizi dinleyen' ifadesindeki 'dinleyen' hangi anlamda?", ["Tinglovchi (sifatdosh)", "Tingladi", "Tinglaydi", "Tinglamaydi"], 0),
+                mcq('Metne göre kimlerle arkadaş olmak zor olabilir?', ['Bencil insanlarla', 'Sabırlı insanlarla', 'Dürüst insanlarla', 'Cömert insanlarla'], 0),
+                mcq('En güvenilir arkadaşlar nasıl tarif ediliyor?', ['Kararlı ama alçakgönüllü', 'Bencil ve inatçı', 'Utangaç ve sessiz', "Kızgın ve sabırsız"], 0),
             ],
         },
         'sentence_practice': [
@@ -1947,6 +2110,9 @@ sections[7]['topics'].append({
         mcq("'dürüst' so'zining ma'nosi nima?", ["Halol/rostgo'y", "Yolg'onchi", "Jahldor", "Uyatchan"], 0),
         mcq("'cömert' so'zining ma'nosi nima?", ["Saxiy", "Ochko'z", "Kambag'al", "Boy"], 0),
         mcq("'sabırlı' so'zining ma'nosi nima?", ["Sabrli", "Shoshqaloq", "Jahldor", "Dangasa"], 0),
+        mcq("'gülmeyen' so'zi qaysi qo'shimcha bilan yasalgan?", ["-mAyAn (olumsuz sifatdosh)", "-An/-En (ijobiy sifatdosh)", "-mAz (geniş zaman olumsuzi)", "-DI (o'tgan zamon)"], 0),
+        mcq("'inatçı' so'zining ma'nosi nima?", ["Qaysar", "Yumshoq", "Saxiy", "Kamtar"], 0),
+        mcq("'bencil' so'zining ma'nosi nima?", ["Xudbin", "Saxiy", "Mehribon", "Kamtar"], 0),
     ],
 })
 
@@ -1984,6 +2150,10 @@ sections[7]['topics'].append({
             voc('azim', "qat'iyat", 'Azimle çalıştım.', "Qat'iyat bilan ishladim."),
             voc('fırsat', 'imkoniyat', 'Bu fırsatı kaçırma.', 'Bu imkoniyatni qo\'ldan boy berma.'),
             voc('anahtar', 'kalit', 'Başarının anahtarı çalışmaktır.', 'Muvaffaqiyat kaliti - mehnat qilishdir.'),
+            voc('engel', "to'siq", 'Birçok engeli aştım.', "Ko'p to'siqlarni yengib o'tdim."),
+            voc('sabretmek', 'sabr qilmoq', 'Sonuç için sabretmelisin.', "Natija uchun sabr qilishing kerak."),
+            voc('motivasyon', 'motivatsiya', 'Motivasyonumu kaybetmemeliyim.', "Motivatsiyamni yo'qotmasligim kerak."),
+            voc('ilerlemek', 'ilgarilamoq', 'Yavaş ama emin adımlarla ilerliyorum.', "Sekin, ammo ishonchli qadamlar bilan ilgarilayapman."),
         ],
         'listening': {
             'dialogue': [
@@ -2001,11 +2171,18 @@ sections[7]['topics'].append({
             'title': 'Başarının Sırrı',
             'text': "Başarılı insanlar genellikle net bir hedefe sahiptir. Hedeflerine "
                     "ulaşmak için büyük çaba gösterirler ve zorluklar karşısında pes "
-                    "etmezler. Her fırsatı değerlendirirler ve azimle çalışmaya devam "
+                    "etmezler. Yolda birçok engelle karşılaşabilirler, ama bu engeller "
+                    "onları durdurmaz - aksine, her engeli aşarak daha da güçlenirler. Her "
+                    "fırsatı değerlendirirler ve azimle çalışmaya devam ederler. Sonuçların "
+                    "hemen gelmeyeceğini bilirler, bu yüzden sabretmeyi öğrenirler. "
+                    "Motivasyonlarını kaybettikleri anlar olsa bile, kendilerine neden "
+                    "başladıklarını hatırlatarak yavaş ama emin adımlarla ilerlemeye devam "
                     "ederler.",
             'questions': [
                 mcq('Başarılı insanların ortak özelliği nedir?', ['Net bir hedefe sahip olmaları', 'Hiç çalışmamaları', 'Şanslı olmaları', 'Hiç zorluk yaşamamaları'], 0),
                 mcq('Zorluklar karşısında ne yapmazlar?', ['Pes etmezler', 'Çalışmazlar', 'Gülmezler', 'Konuşmazlar'], 0),
+                mcq('Engellerle karşılaştıklarında ne olur?', ['Daha da güçlenirler', 'Hemen pes ederler', 'Hiçbir şey olmaz', "Hedeflerini unuturlar"], 0),
+                mcq('Motivasyonlarını kaybettiklerinde ne yaparlar?', ['Neden başladıklarını hatırlarlar', 'Tamamen pes ederler', "Hemen yeni bir hedef seçerler", "Uyumaya giderler"], 0),
             ],
         },
         'sentence_practice': [
@@ -2025,6 +2202,9 @@ sections[7]['topics'].append({
         mcq("'fırsat' so'zining ma'nosi nima?", ["Imkoniyat", "Xavf", "Qiyinchilik", "Muvaffaqiyat"], 0),
         mcq("'azim' so'zining ma'nosi nima?", ["Qat'iyat", "Dangasalik", "Qo'rquv", "Xafalik"], 0),
         mcq("Matnga ko'ra, muvaffaqiyatli odamlar zorliklar oldida nima qilishmaydi?", ["Pes etishmaydi", "Ishlashmaydi", "Kulishmaydi", "Gapirishmaydi"], 0),
+        mcq("'engel' so'zining ma'nosi nima?", ["To'siq", "Yordam", "Imkoniyat", "Muvaffaqiyat"], 0),
+        mcq("'sabretmek' fe'li nima?", ["Sabr qilmoq", "Shoshilmoq", "Jahllanmoq", "Unutmoq"], 0),
+        mcq("'motivasyon' so'zi nima?", ["Motivatsiya", "Qiyinchilik", "Charchoq", "Dam olish"], 0),
     ],
 })
 
@@ -2053,6 +2233,20 @@ sections[7]['topics'].append({
                 "Bu qurilmalarning barchasi ==kundalik muloqotda doimiy ishlatiladi== - "
                 "ularni amaliyotda qo'llash orqali mustahkamlang.",
             ),
+            block(
+                "Yana bir necha muhim qurilma",
+                "Kursning qolgan qismida o'rgangan yana bir qancha muhim qurilmalar bor "
+                "- ularni ham eslab qolish kerak:\n\n"
+                "- **-(y)Ip / -(y)ArAk** (ketma-ket harakat/usul): *Markete gidip ekmek "
+                "aldım. Koşarak geldi.*\n"
+                "- **-mAk için** (maqsad): *Yemek pişirmek için fırını açtım.*\n"
+                "- **...diye sordu/cevap verdi** (so'zma-so'z keltirish): *\"Bu nedir?\" "
+                "diye sordu.*\n\n"
+                "A1'da o'rgangan asoslar (hozirgi zamon, oddiy o'tgan zamon) bilan "
+                "birlashtirilganda, ==bu qurilmalar sizga deyarli har qanday kundalik "
+                "vaziyatda erkin so'zlashish== imkonini beradi. Endi B1 darajasiga "
+                "o'tishga tayyorsiz!",
+            ),
         ],
         'key_facts': [
             fact("Empati - boshqa odamning his-tuyg'ularini tushunish qobiliyati."),
@@ -2066,6 +2260,10 @@ sections[7]['topics'].append({
             voc('hoşgörü', 'bag\'rikenglik', 'Hoşgörülü olmalıyız.', "Bag'rikeng bo'lishimiz kerak."),
             voc('saygı', 'hurmat', 'Herkese saygı duyarım.', 'Men hammaga hurmat qilaman.'),
             voc('yardımlaşma', "o'zaro yordam", 'Yardımlaşma çok önemli.', "O'zaro yordam juda muhim."),
+            voc('dinlemek', 'tinglamoq', "Başkalarını dikkatle dinlemeliyiz.", "Boshqalarni diqqat bilan tinglashimiz kerak."),
+            voc('paylaşmak', "baham ko'rmoq/bo'lishmoq", 'Duygularını paylaştı.', "His-tuyg'ularini baham ko'rdi."),
+            voc('toplum', 'jamiyat', 'Toplumumuz çok çeşitlidir.', "Jamiyatimiz juda xilma-xil."),
+            voc('birey', 'shaxs (individ)', 'Her birey farklıdır.', "Har bir shaxs farqli."),
         ],
         'listening': {
             'dialogue': [
@@ -2083,11 +2281,18 @@ sections[7]['topics'].append({
             'title': 'Empatinin Gücü',
             'text': "Empati kurabilen insanlar daha iyi arkadaşlar olur. Başkalarının "
                     "duygularını anlayan, onlara saygı gösteren ve yardım eden insanlar "
-                    "toplumu güzelleştirir. Bu A2 kursunda öğrendiğimiz her şey gibi, "
-                    "empati de pratik yaparak gelişir.",
+                    "toplumu güzelleştirir. Her birey farklı bir hayat yaşar, farklı "
+                    "zorluklarla karşılaşır - bu yüzden birini gerçekten anlamak için önce "
+                    "onu dikkatle dinlemeliyiz. Toplumumuzda yardımlaşma ve paylaşma "
+                    "kültürü ne kadar güçlü olursa, hepimiz o kadar mutlu ve güvende "
+                    "hissederiz. Bu A2 kursunda öğrendiğimiz her şey gibi, empati de "
+                    "pratik yaparak gelişir - küçük adımlarla başlayıp, her gün biraz "
+                    "daha iyi bir dinleyici ve anlayışlı bir insan olabiliriz.",
             'questions': [
                 mcq('Empati kurabilen insanlar nasıl olur?', ['Daha iyi arkadaşlar', 'Daha yalnız', 'Daha kızgın', 'Daha sessiz'], 0),
                 mcq('Metne göre empati nasıl gelişir?', ['Pratik yaparak', 'Kendiliğinden', "Hiç gelişmez", "Sadece kitap okuyarak"], 0),
+                mcq('Birini gerçekten anlamak için önce ne yapmalıyız?', ['Dikkatle dinlemeli', 'Hemen tavsiye vermeli', "Onunla tartışmalı", "Görmezden gelmeli"], 0),
+                mcq('Metne göre toplumda ne güçlü olmalı?', ['Yardımlaşma ve paylaşma kültürü', "Rekabet", "Yalnızlık", "Sessizlik"], 0),
             ],
         },
         'sentence_practice': [
@@ -2107,6 +2312,10 @@ sections[7]['topics'].append({
         mcq("'saygı' so'zining ma'nosi nima?", ["Hurmat", "Nafrat", "Qo'rquv", "Zerikish"], 0),
         mcq("'hoşgörü' so'zining ma'nosi nima?", ["Bag'rikenglik", "Qattiqqo'llik", "Jahl", "Yolg'on"], 0),
         mcq("Matnga ko'ra, empati qanday rivojlanadi?", ["Amaliyot (pratik) orqali", "O'z-o'zidan", "Hech qachon rivojlanmaydi", "Faqat kitob o'qish orqali"], 0),
+        mcq("'-(y)Ip' va '-(y)ArAk' orasidagi asosiy farq nima?", ["Biri ketma-ket harakat, ikkinchisi usul/vosita bildiradi", "Hech qanday farq yo'q", "Ikkalasi ham bir xil ma'noda", "Biri savol, ikkinchisi javob"], 0),
+        mcq("'...diye sordu' qurilmasi nima uchun ishlatiladi?", ["So'zma-so'z savolni keltirish uchun", "Buyruq berish uchun", "Kelasi zamonni bildirish uchun", "Inkor qilish uchun"], 0),
+        mcq("'toplum' so'zining ma'nosi nima?", ["Jamiyat", "Oila", "Shahar", "Davlat"], 0),
+        mcq("'paylaşmak' fe'lining ma'nosi nima?", ["Baham ko'rmoq/bo'lishmoq", "Yashirmoq", "Unutmoq", "Tashlamoq"], 0),
         fill_blank("'Empati ___' (qilyapman, hozirgi zamon 1-shaxs)", 'kuruyorum'),
     ],
 })
