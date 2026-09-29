@@ -114,6 +114,18 @@ export function listSubjects() {
   return request('/subjects/')
 }
 
+export function getSubscriptionStatus() {
+  return request('/subscription/')
+}
+
+export function createSubscriptionCheckout(gateway) {
+  return request('/subscription/checkout/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ gateway }),
+  })
+}
+
 async function request(path, options = {}) {
   const token = getToken()
   const headers = { ...(options.headers || {}) }

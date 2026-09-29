@@ -44,6 +44,16 @@ def _guard_not_imported(book):
         raise ValidationError({'detail': "Bu kitob JSON'dan import qilingan: materialni JSON orqali yangilang."})
 
 
+def _guard_topic_locked(user, topic):
+    """Mavzu kontentini (dars, o'yin) API orqali to'g'ridan-to'g'ri so'rab olish - progress yoki
+    obuna talabini chetlab o'tishning oldini oladi (frontend faqat UI darajasida yashiradi)."""
+    if user.is_staff:
+        return
+    state = topic_states(user, topic.book.topics.all())[topic.id]
+    if not state['unlocked']:
+        raise PermissionDenied("Bu mavzu hali ochilmagan.")
+
+
 def _is_truthy(value):
     return str(value).lower() in ('1', 'true', 'yes')
 
@@ -482,7 +492,9 @@ class LessonByTopicView(generics.RetrieveAPIView):
     serializer_class = LessonSerializer
 
     def get_object(self):
-        return get_object_or_404(Lesson, topic_id=self.kwargs['topic_id'])
+        topic = get_object_or_404(Topic, id=self.kwargs['topic_id'])
+        _guard_topic_locked(self.request.user, topic)
+        return get_object_or_404(Lesson, topic_id=topic.id)
 
 
 class LessonCreateView(APIView):
@@ -534,8 +546,10 @@ class GeneratedAssetByTopicView(generics.RetrieveAPIView):
     serializer_class = GeneratedAssetSerializer
 
     def get_object(self):
+        topic = get_object_or_404(Topic, id=self.kwargs['topic_id'])
+        _guard_topic_locked(self.request.user, topic)
         return get_object_or_404(
-            GeneratedAsset, topic_id=self.kwargs['topic_id'], kind=self.kwargs['kind']
+            GeneratedAsset, topic_id=topic.id, kind=self.kwargs['kind']
         )
 
 
@@ -779,3 +793,35 @@ class TriggerStreakRemindersView(APIView):
         buffer = io.StringIO()
         call_command('send_streak_reminders', stdout=buffer)
         return Response({'detail': buffer.getvalue().strip()})
+
+
+class SubscriptionStatusView(APIView):
+    """Talabaning obuna holati va narxi (checkout tugmalarini ko'rsatish/yashirish uchun)."""
+
+    def get(self, request):
+        sub = getattr(request.user, 'subscription', None)
+        return Response({
+            'active': bool(sub and sub.is_active()),
+            'current_period_end': sub.current_period_end if sub else None,
+            'price': settings.SUBSCRIPTION_PRICE,
+            'payme_available': bool(settings.PAYME_MERCHANT_ID and settings.PAYME_SECRET_KEY),
+            'click_available': bool(settings.CLICK_MERCHANT_ID and settings.CLICK_SERVICE_ID and settings.CLICK_SECRET_KEY),
+        })
+
+
+class SubscriptionCheckoutView(APIView):
+    """Tanlangan to'lov tizimi uchun checkout havolasini yaratadi."""
+
+    def post(self, request):
+        gateway = request.data.get('gateway')
+        if gateway == 'payme':
+            if not (settings.PAYME_MERCHANT_ID and settings.PAYME_SECRET_KEY):
+                raise ValidationError({'gateway': 'Payme hali sozlanmagan.'})
+            from .services.payments.payme import build_checkout_url
+            return Response({'checkout_url': build_checkout_url(request.user)})
+        if gateway == 'click':
+            if not (settings.CLICK_MERCHANT_ID and settings.CLICK_SERVICE_ID and settings.CLICK_SECRET_KEY):
+                raise ValidationError({'gateway': 'Click hali sozlanmagan.'})
+            from .services.payments.click import build_checkout_url
+            return Response({'checkout_url': build_checkout_url(request.user)})
+        raise ValidationError({'gateway': "'payme' yoki 'click' bo'lishi kerak."})

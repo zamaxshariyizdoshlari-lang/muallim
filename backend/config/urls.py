@@ -8,6 +8,8 @@ from django.contrib import admin
 from django.contrib.admin.views.decorators import staff_member_required
 from django.http import HttpResponse, JsonResponse
 from django.urls import include, path
+from history_ai.services.payments.click import ClickMerchantView
+from history_ai.services.payments.payme import PaymeMerchantView
 from history_ai.views_auth import (
     ChangePasswordView, PasswordResetConfirmView, PasswordResetRequestView, RegisterView,
 )
@@ -62,6 +64,8 @@ urlpatterns = [
     path('api/auth/password-reset/', PasswordResetRequestView.as_view(), name='api-password-reset'),
     path('api/auth/password-reset/confirm/', PasswordResetConfirmView.as_view(), name='api-password-reset-confirm'),
     path('api/auth/change-password/', ChangePasswordView.as_view(), name='api-change-password'),
+    path('api/payments/payme/', PaymeMerchantView.as_view(), name='payme-merchant'),
+    path('api/payments/click/', ClickMerchantView.as_view(), name='click-merchant'),
     path('api/history/', include('history_ai.urls')),
 ]
 

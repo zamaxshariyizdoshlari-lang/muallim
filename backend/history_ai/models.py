@@ -423,3 +423,74 @@ class StudentGroup(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Subscription(models.Model):
+    """Talabaning oylik obunasi - faol bo'lsa, barcha fanlarning barcha bo'limlariga kirish
+    ochiladi. Har fanning birinchi bo'limi obunasiz ham bepul (progress.py'ga qarang).
+
+    `current_period_end`dan o'tgan bo'lsa, obuna faol hisoblanmaydi (avtomatik yangilanish yo'q -
+    talaba har safar to'lov qilganda `current_period_end` uzaytiriladi)."""
+
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='subscription'
+    )
+    current_period_end = models.DateTimeField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = 'Obuna'
+        verbose_name_plural = 'Obunalar'
+
+    def is_active(self):
+        from django.utils import timezone
+        return bool(self.current_period_end and self.current_period_end > timezone.now())
+    is_active.boolean = True
+
+    def __str__(self):
+        return f"{self.user} - {'faol' if self.is_active() else 'faol emas'}"
+
+
+PAYMENT_GATEWAY_PAYME = 'payme'
+PAYMENT_GATEWAY_CLICK = 'click'
+PAYMENT_GATEWAY_CHOICES = [
+    (PAYMENT_GATEWAY_PAYME, 'Payme'),
+    (PAYMENT_GATEWAY_CLICK, 'Click'),
+]
+
+PAYMENT_STATUS_PENDING = 'pending'
+PAYMENT_STATUS_PAID = 'paid'
+PAYMENT_STATUS_CANCELLED = 'cancelled'
+PAYMENT_STATUS_CHOICES = [
+    (PAYMENT_STATUS_PENDING, 'Kutilmoqda'),
+    (PAYMENT_STATUS_PAID, "To'langan"),
+    (PAYMENT_STATUS_CANCELLED, 'Bekor qilingan'),
+]
+
+
+class Payment(models.Model):
+    """Bitta oylik obuna to'lovi urinishi (Payme yoki Click orqali).
+
+    `gateway_transaction_id` - to'lov tizimining o'z tranzaksiya ID'si (Payme uchun `params.id`,
+    Click uchun `click_trans_id`) - webhook qayta kelib qolsa (idempotentlik) shu orqali
+    aniqlanadi."""
+
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='payments'
+    )
+    gateway = models.CharField(max_length=10, choices=PAYMENT_GATEWAY_CHOICES)
+    gateway_transaction_id = models.CharField(max_length=100, blank=True, db_index=True)
+    amount = models.DecimalField(max_digits=12, decimal_places=2)
+    status = models.CharField(max_length=10, choices=PAYMENT_STATUS_CHOICES, default=PAYMENT_STATUS_PENDING)
+    created_at = models.DateTimeField(auto_now_add=True)
+    paid_at = models.DateTimeField(null=True, blank=True)
+    cancelled_at = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        verbose_name = "To'lov"
+        verbose_name_plural = "To'lovlar"
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f"{self.user} - {self.amount} so'm ({self.get_status_display()})"

@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, Users, UserRound, WifiOff } from 'lucide-react'
+import { Crown, Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, Users, UserRound, WifiOff } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -23,6 +23,7 @@ import ProfilePage from './pages/ProfilePage'
 import ResetPasswordPage from './pages/ResetPasswordPage'
 import ReviewPage from './pages/ReviewPage'
 import SubjectsPage from './pages/SubjectsPage'
+import SubscriptionPage from './pages/SubscriptionPage'
 import TestPage from './pages/TestPage'
 import TopicSelectPage from './pages/TopicSelectPage'
 import UploadPage from './pages/UploadPage'
@@ -131,6 +132,7 @@ export default function HistoryAIModule() {
         <Route index element={<SubjectsRoute />} />
         <Route path="profil" element={<ProfileRoute />} />
         <Route path="dostlar" element={<FriendsPage />} />
+        <Route path="obuna" element={<SubscriptionRoute />} />
         <Route path="fan/:slug" element={<CoursesRoute />} />
         <Route path="kurs/:bookId" element={<BookLayout />}>
           <Route index element={<TopicsRoute />} />
@@ -240,6 +242,7 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
 const NAV_ITEMS = [
   { to: '/', label: 'Bosh sahifa', icon: Home, end: true },
   { to: '/dostlar', label: "Do'stlar", icon: Users },
+  { to: '/obuna', label: 'Obuna', icon: Crown },
   { to: '/profil', label: 'Profil', icon: UserRound },
 ]
 const ADMIN_NAV_ITEM = { to: '/boshqaruv', label: 'Boshqaruv', icon: LayoutDashboard }
@@ -377,8 +380,14 @@ function TopicsRoute() {
       onOpenDictionary={() => navigate(`/kurs/${bookId}/lugat`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
+      onOpenSubscription={() => navigate('/obuna')}
     />
   )
+}
+
+function SubscriptionRoute() {
+  const navigate = useNavigate()
+  return <SubscriptionPage onBack={() => navigate(-1)} />
 }
 
 function ReviewRoute() {
@@ -416,6 +425,7 @@ function LessonRoute() {
   const topic = useTopicParam()
   const navigate = useNavigate()
   if (!topic) return <Navigate to={`/kurs/${bookId}`} replace />
+  if (!isTeacher && topic.locked_reason === 'subscription') return <Navigate to="/obuna" replace />
   if (!isTeacher && !topic.unlocked) return <Navigate to={`/kurs/${bookId}`} replace />
   return (
     <LessonResultPage
@@ -433,6 +443,7 @@ function TopicTestRoute() {
   const topic = useTopicParam()
   const navigate = useNavigate()
   if (!topic) return <Navigate to={`/kurs/${bookId}`} replace />
+  if (!isTeacher && topic.locked_reason === 'subscription') return <Navigate to="/obuna" replace />
   return (
     <TestPage
       key={`t${topic.id}`}

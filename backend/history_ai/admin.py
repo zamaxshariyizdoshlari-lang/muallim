@@ -13,9 +13,9 @@ from django.utils.html import format_html
 
 from . import admin_views
 from .models import (
-    Book, Certificate, DailyActivity, Friendship, GeneratedAsset, Lesson, ReviewAnswer, ReviewCard, Section,
-    SectionCompletion, SectionExam, StudentGroup, Subject, TestAttempt, Topic, TopicCompletion, UserSettings,
-    XPEvent,
+    Book, Certificate, DailyActivity, Friendship, GeneratedAsset, Lesson, Payment, ReviewAnswer, ReviewCard,
+    Section, SectionCompletion, SectionExam, StudentGroup, Subject, Subscription, TestAttempt, Topic,
+    TopicCompletion, UserSettings, XPEvent,
 )
 
 admin.site.site_header = 'Muallim - boshqaruv paneli'
@@ -252,6 +252,21 @@ class ReviewCardAdmin(admin.ModelAdmin):
 class UserSettingsAdmin(admin.ModelAdmin):
     list_display = ('user', 'daily_goal', 'show_in_leaderboard')
     search_fields = ('user__username',)
+
+
+@admin.register(Subscription)
+class SubscriptionAdmin(admin.ModelAdmin):
+    list_display = ('user', 'is_active', 'current_period_end', 'updated_at')
+    search_fields = ('user__username',)
+    list_filter = ('current_period_end',)
+
+
+@admin.register(Payment)
+class PaymentAdmin(admin.ModelAdmin):
+    list_display = ('user', 'gateway', 'amount', 'status', 'created_at', 'paid_at')
+    list_filter = ('gateway', 'status')
+    search_fields = ('user__username', 'gateway_transaction_id')
+    date_hierarchy = 'created_at'
 
 
 @admin.register(DailyActivity)

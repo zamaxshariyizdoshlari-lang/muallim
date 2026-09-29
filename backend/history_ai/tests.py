@@ -1,4 +1,6 @@
 """Asosiy mantiq testlari: auth, mavzu ochilishi, ball, streak, takrorlash, qidiruv, tahlil."""
+import base64
+import hashlib
 import json
 import re
 from datetime import timedelta
@@ -817,3 +819,265 @@ class LanguageContentImportTests(TestCase):
         )
         errors = validate_book_json(data)
         self.assertEqual(errors, [])
+
+
+class SubscriptionGatingTests(CourseFixture):
+    def _complete_first_section(self):
+        from .models import SectionCompletion, TopicCompletion
+        TopicCompletion.objects.create(student=self.user, topic=self.topics[0])
+        TopicCompletion.objects.create(student=self.user, topic=self.topics[1])
+        SectionCompletion.objects.create(student=self.user, section=self.sections[0])
+
+    def test_second_section_locked_for_subscription_even_if_progress_complete(self):
+        from .progress import topic_states
+        self._complete_first_section()
+        states = topic_states(self.user, self.topics)
+        self.assertTrue(states[self.topics[0].id]['unlocked'])
+        self.assertTrue(states[self.topics[1].id]['unlocked'])
+        self.assertFalse(states[self.topics[2].id]['unlocked'])
+        self.assertEqual(states[self.topics[2].id]['locked_reason'], 'subscription')
+
+    def test_first_section_free_without_any_subscription(self):
+        from .progress import topic_states
+        states = topic_states(self.user, self.topics)
+        self.assertTrue(states[self.topics[0].id]['unlocked'])
+        self.assertIsNone(states[self.topics[0].id]['locked_reason'])
+
+    def test_second_section_unlocks_with_active_subscription(self):
+        from .models import Subscription
+        from .progress import topic_states
+        self._complete_first_section()
+        Subscription.objects.create(user=self.user, current_period_end=timezone.now() + timedelta(days=10))
+        states = topic_states(self.user, self.topics)
+        self.assertTrue(states[self.topics[2].id]['unlocked'])
+        self.assertIsNone(states[self.topics[2].id]['locked_reason'])
+
+    def test_expired_subscription_does_not_unlock(self):
+        from .models import Subscription
+        from .progress import topic_states
+        self._complete_first_section()
+        Subscription.objects.create(user=self.user, current_period_end=timezone.now() - timedelta(days=1))
+        states = topic_states(self.user, self.topics)
+        self.assertFalse(states[self.topics[2].id]['unlocked'])
+        self.assertEqual(states[self.topics[2].id]['locked_reason'], 'subscription')
+
+    def test_staff_always_unlocked_regardless_of_subscription(self):
+        from .progress import topic_states
+        states = topic_states(self.teacher, self.topics)
+        self.assertTrue(all(s['unlocked'] for s in states.values()))
+        self.assertTrue(all(s['locked_reason'] is None for s in states.values()))
+
+    def test_lesson_content_not_fetchable_directly_when_paywalled(self):
+        """To'lov to'sig'ini frontend emas, API'ning o'zi ta'minlashi kerak - aks holda
+        talaba to'lamasdan ham /topics/<id>/lesson/ orqali kontentni to'g'ridan-to'g'ri o'qib olishi
+        mumkin edi."""
+        self._complete_first_section()
+        self.login(self.user)
+        r = self.client.get(f'{H}topics/{self.topics[2].id}/lesson/')
+        self.assertEqual(r.status_code, 403)
+
+    def test_asset_content_not_fetchable_directly_when_paywalled(self):
+        self._complete_first_section()
+        self.login(self.user)
+        r = self.client.get(f'{H}topics/{self.topics[2].id}/assets/topic_test/')
+        self.assertEqual(r.status_code, 403)
+
+    def test_lesson_content_fetchable_after_subscribing(self):
+        from .models import Subscription
+        self._complete_first_section()
+        Subscription.objects.create(user=self.user, current_period_end=timezone.now() + timedelta(days=10))
+        self.login(self.user)
+        r = self.client.get(f'{H}topics/{self.topics[2].id}/lesson/')
+        self.assertEqual(r.status_code, 200)
+
+    def test_api_topic_list_reflects_locked_reason(self):
+        self._complete_first_section()
+        self.login(self.user)
+        r = self.client.get(f'{H}books/{self.book.id}/topics/')
+        by_id = {t['id']: t for t in r.data}
+        self.assertEqual(by_id[self.topics[2].id]['locked_reason'], 'subscription')
+
+
+class SubscriptionApiTests(CourseFixture):
+    def test_status_shows_inactive_by_default(self):
+        self.login(self.user)
+        r = self.client.get(f'{H}subscription/')
+        self.assertEqual(r.status_code, 200)
+        self.assertFalse(r.data['active'])
+        self.assertIsNone(r.data['current_period_end'])
+
+    def test_status_shows_active_with_subscription(self):
+        from .models import Subscription
+        Subscription.objects.create(user=self.user, current_period_end=timezone.now() + timedelta(days=5))
+        self.login(self.user)
+        r = self.client.get(f'{H}subscription/')
+        self.assertTrue(r.data['active'])
+
+    def test_checkout_rejects_unconfigured_gateway(self):
+        self.login(self.user)
+        with override_settings(PAYME_MERCHANT_ID='', PAYME_SECRET_KEY=''):
+            r = self.client.post(f'{H}subscription/checkout/', {'gateway': 'payme'}, format='json')
+        self.assertEqual(r.status_code, 400)
+
+    def test_checkout_rejects_unknown_gateway(self):
+        self.login(self.user)
+        r = self.client.post(f'{H}subscription/checkout/', {'gateway': 'stripe'}, format='json')
+        self.assertEqual(r.status_code, 400)
+
+    def test_checkout_returns_payme_url_when_configured(self):
+        self.login(self.user)
+        with override_settings(PAYME_MERCHANT_ID='m1', PAYME_SECRET_KEY='s1', PAYME_TEST_MODE=True):
+            r = self.client.post(f'{H}subscription/checkout/', {'gateway': 'payme'}, format='json')
+        self.assertEqual(r.status_code, 200)
+        self.assertIn('test.paycom.uz', r.data['checkout_url'])
+
+    def test_checkout_returns_click_url_when_configured(self):
+        self.login(self.user)
+        with override_settings(CLICK_MERCHANT_ID='m1', CLICK_SERVICE_ID='s1', CLICK_SECRET_KEY='k1'):
+            r = self.client.post(f'{H}subscription/checkout/', {'gateway': 'click'}, format='json')
+        self.assertEqual(r.status_code, 200)
+        self.assertIn('my.click.uz', r.data['checkout_url'])
+
+
+@override_settings(PAYME_MERCHANT_ID='test_merchant', PAYME_SECRET_KEY='test_secret', SUBSCRIPTION_PRICE=15000)
+class PaymeMerchantTests(CourseFixture):
+    def _auth_header(self):
+        token = base64.b64encode(b'Paycom:test_secret').decode()
+        return f'Basic {token}'
+
+    def _call(self, method, params, rpc_id=1):
+        body = json.dumps({'method': method, 'params': params, 'id': rpc_id})
+        return self.client.post(
+            '/api/payments/payme/', data=body, content_type='application/json',
+            HTTP_AUTHORIZATION=self._auth_header(),
+        )
+
+    def test_rejects_without_auth(self):
+        body = json.dumps({'method': 'CheckPerformTransaction', 'params': {}, 'id': 1})
+        r = self.client.post('/api/payments/payme/', data=body, content_type='application/json')
+        self.assertEqual(r.json()['error']['code'], -32504)
+
+    def test_check_perform_transaction_ok(self):
+        r = self._call('CheckPerformTransaction', {'amount': 1500000, 'account': {'user_id': str(self.user.id)}})
+        self.assertEqual(r.json()['result'], {'allow': True})
+
+    def test_check_perform_transaction_unknown_user(self):
+        r = self._call('CheckPerformTransaction', {'amount': 1500000, 'account': {'user_id': '999999'}})
+        self.assertEqual(r.json()['error']['code'], -31050)
+
+    def test_check_perform_transaction_wrong_amount(self):
+        r = self._call('CheckPerformTransaction', {'amount': 1, 'account': {'user_id': str(self.user.id)}})
+        self.assertEqual(r.json()['error']['code'], -31001)
+
+    def test_full_create_perform_flow_extends_subscription(self):
+        params = {'id': 'ptx1', 'time': 0, 'amount': 1500000, 'account': {'user_id': str(self.user.id)}}
+        r = self._call('CreateTransaction', params)
+        self.assertEqual(r.json()['result']['state'], 1)
+
+        # Idempotent: qayta chaqirilsa xuddi shu holatni qaytaradi.
+        r2 = self._call('CreateTransaction', params)
+        self.assertEqual(r2.json()['result']['state'], 1)
+
+        r3 = self._call('PerformTransaction', {'id': 'ptx1'})
+        self.assertEqual(r3.json()['result']['state'], 2)
+
+        self.user.refresh_from_db()
+        self.assertTrue(self.user.subscription.is_active())
+
+        # Idempotent perform.
+        r4 = self._call('PerformTransaction', {'id': 'ptx1'})
+        self.assertEqual(r4.json()['result']['state'], 2)
+
+        r5 = self._call('CheckTransaction', {'id': 'ptx1'})
+        self.assertEqual(r5.json()['result']['state'], 2)
+
+    def test_cancel_pending_transaction(self):
+        self._call('CreateTransaction', {
+            'id': 'ptx2', 'time': 0, 'amount': 1500000, 'account': {'user_id': str(self.user.id)},
+        })
+        r = self._call('CancelTransaction', {'id': 'ptx2', 'reason': 3})
+        self.assertEqual(r.json()['result']['state'], -1)
+
+    def test_cancel_unknown_transaction(self):
+        r = self._call('CancelTransaction', {'id': 'nope', 'reason': 3})
+        self.assertEqual(r.json()['error']['code'], -31003)
+
+    def test_second_pending_transaction_for_same_user_rejected(self):
+        self._call('CreateTransaction', {
+            'id': 'ptx3', 'time': 0, 'amount': 1500000, 'account': {'user_id': str(self.user.id)},
+        })
+        r = self._call('CreateTransaction', {
+            'id': 'ptx4', 'time': 0, 'amount': 1500000, 'account': {'user_id': str(self.user.id)},
+        })
+        self.assertEqual(r.json()['error']['code'], -31006)
+
+
+@override_settings(CLICK_MERCHANT_ID='m1', CLICK_SERVICE_ID='s1', CLICK_SECRET_KEY='clicksecret', SUBSCRIPTION_PRICE=15000)
+class ClickMerchantTests(CourseFixture):
+    def _prepare_sign(self, click_trans_id, merchant_trans_id, amount, sign_time):
+        raw = f"{click_trans_id}s1clicksecret{merchant_trans_id}{amount}0{sign_time}"
+        return hashlib.md5(raw.encode()).hexdigest()
+
+    def _complete_sign(self, click_trans_id, merchant_trans_id, merchant_prepare_id, amount, sign_time):
+        raw = f"{click_trans_id}s1clicksecret{merchant_trans_id}{merchant_prepare_id}{amount}1{sign_time}"
+        return hashlib.md5(raw.encode()).hexdigest()
+
+    def _create_payment(self):
+        from .services.payments.click import build_checkout_url
+        url = build_checkout_url(self.user)
+        payment_id = int(url.split('transaction_param=')[1])
+        return payment_id
+
+    def test_prepare_rejects_bad_signature(self):
+        payment_id = self._create_payment()
+        r = self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'amount': '15000', 'action': '0', 'sign_time': '2026-01-01', 'sign_string': 'wrong',
+        })
+        self.assertEqual(r.json()['error'], -1)
+
+    def test_prepare_success(self):
+        payment_id = self._create_payment()
+        sign = self._prepare_sign('1', str(payment_id), '15000', '2026-01-01')
+        r = self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'amount': '15000', 'action': '0', 'sign_time': '2026-01-01', 'sign_string': sign,
+        })
+        data = r.json()
+        self.assertEqual(data['error'], 0)
+        self.assertEqual(data['merchant_prepare_id'], payment_id)
+
+    def test_complete_success_extends_subscription(self):
+        payment_id = self._create_payment()
+        prep_sign = self._prepare_sign('1', str(payment_id), '15000', '2026-01-01')
+        self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'amount': '15000', 'action': '0', 'sign_time': '2026-01-01', 'sign_string': prep_sign,
+        })
+        comp_sign = self._complete_sign('1', str(payment_id), str(payment_id), '15000', '2026-01-01')
+        r = self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'merchant_prepare_id': str(payment_id), 'amount': '15000', 'action': '1', 'error': '0',
+            'sign_time': '2026-01-01', 'sign_string': comp_sign,
+        })
+        data = r.json()
+        self.assertEqual(data['error'], 0)
+        self.user.refresh_from_db()
+        self.assertTrue(self.user.subscription.is_active())
+
+    def test_complete_with_click_side_error_cancels_without_subscription(self):
+        payment_id = self._create_payment()
+        prep_sign = self._prepare_sign('1', str(payment_id), '15000', '2026-01-01')
+        self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'amount': '15000', 'action': '0', 'sign_time': '2026-01-01', 'sign_string': prep_sign,
+        })
+        comp_sign = self._complete_sign('1', str(payment_id), str(payment_id), '15000', '2026-01-01')
+        r = self.client.post('/api/payments/click/', {
+            'click_trans_id': '1', 'service_id': 's1', 'merchant_trans_id': str(payment_id),
+            'merchant_prepare_id': str(payment_id), 'amount': '15000', 'action': '1', 'error': '-5017',
+            'sign_time': '2026-01-01', 'sign_string': comp_sign,
+        })
+        self.assertEqual(r.json()['error'], 0)
+        self.user.refresh_from_db()
+        self.assertFalse(hasattr(self.user, 'subscription') and self.user.subscription.is_active())

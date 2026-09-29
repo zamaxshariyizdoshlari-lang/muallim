@@ -1,4 +1,4 @@
-import { Award, BookOpen, BookText, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import { Award, BookOpen, BookText, Check, ClipboardCheck, Crown, Lock, RotateCcw, Trophy } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { getBookDictionary } from '../api/client'
 import SearchBox from '../components/SearchBox'
@@ -15,7 +15,7 @@ function splitSectionTitle(title = '', fallbackIndex = 0) {
 
 export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
-  onOpenReview, onOpenDictionary, onOpenTopic,
+  onOpenReview, onOpenDictionary, onOpenTopic, onOpenSubscription,
 }) {
   const showPages = book.subject_slug === 'tarix'
   const [hasDictionary, setHasDictionary] = useState(false)
@@ -108,6 +108,7 @@ export default function TopicSelectPage({
             <ol className="relative ml-7 border-l-2 border-dashed border-line-strong pl-8">
               {group.topics.map((topic) => {
                 const locked = !topic.unlocked
+                const paywalled = topic.locked_reason === 'subscription'
                 const current = nextTopic?.id === topic.id
                 return (
                   <li key={topic.id} className="relative pb-3">
@@ -115,32 +116,52 @@ export default function TopicSelectPage({
                       className={`absolute -left-[3.05rem] top-3 flex h-9 w-9 items-center justify-center rounded-full border-2 ${
                         topic.completed
                           ? 'border-ok bg-ok text-white'
-                          : locked
-                            ? 'border-line-strong bg-paper-2 text-muted'
-                            : current
-                              ? 'border-brand bg-brand text-brand-ink ring-4 ring-brand/20'
-                              : 'border-gold bg-surface text-gold'
+                          : paywalled
+                            ? 'border-gold bg-gold-soft text-gold'
+                            : locked
+                              ? 'border-line-strong bg-paper-2 text-muted'
+                              : current
+                                ? 'border-brand bg-brand text-brand-ink ring-4 ring-brand/20'
+                                : 'border-gold bg-surface text-gold'
                       }`}
                       aria-hidden
                     >
-                      {topic.completed ? <Check size={17} strokeWidth={3} /> : locked ? <Lock size={15} /> : <BookOpen size={16} />}
+                      {topic.completed ? (
+                        <Check size={17} strokeWidth={3} />
+                      ) : paywalled ? (
+                        <Crown size={15} />
+                      ) : locked ? (
+                        <Lock size={15} />
+                      ) : (
+                        <BookOpen size={16} />
+                      )}
                     </span>
                     <button
-                      onClick={() => onSelect(topic)}
-                      disabled={locked}
-                      title={locked ? "Avval oldingi mavzu (yoki bo'lim) testini topshiring" : undefined}
+                      onClick={() => (paywalled ? onOpenSubscription?.() : onSelect(topic))}
+                      disabled={locked && !paywalled}
+                      title={
+                        paywalled
+                          ? "Bu mavzu obuna orqali ochiladi"
+                          : locked
+                            ? "Avval oldingi mavzu (yoki bo'lim) testini topshiring"
+                            : undefined
+                      }
                       className={`card card-hover flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left ${
-                        locked ? '!bg-paper-2 !shadow-none' : ''
+                        paywalled ? '!border-gold/50 !bg-gold-soft/30' : locked ? '!bg-paper-2 !shadow-none' : ''
                       } ${current ? '!border-brand' : ''}`}
                     >
-                      <span className={`text-[0.95rem] font-semibold leading-snug ${locked ? 'text-muted' : 'text-ink'}`}>
+                      <span className={`text-[0.95rem] font-semibold leading-snug ${locked && !paywalled ? 'text-muted' : 'text-ink'}`}>
                         {topic.title}
                       </span>
-                      {showPages && (
+                      {paywalled ? (
+                        <span className="chip chip-gold shrink-0">
+                          <Crown size={12} /> Obuna
+                        </span>
+                      ) : showPages ? (
                         <span className="chip shrink-0">
                           {topic.start_page === topic.end_page ? `bet ${topic.start_page}` : `bet ${topic.start_page}–${topic.end_page}`}
                         </span>
-                      )}
+                      ) : null}
                     </button>
                   </li>
                 )

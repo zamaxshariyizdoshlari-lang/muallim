@@ -201,6 +201,21 @@ AI_MONTHLY_CALL_LIMIT = int(os.getenv('AI_MONTHLY_CALL_LIMIT', '0'))
 # token (X-Ops-Token header). Bo'sh bo'lsa, backup endpoint butunlay o'chirilgan (404) bo'ladi.
 OPS_TOKEN = os.getenv('OPS_TOKEN', '')
 
+# Oylik obuna narxi (so'mda) - barcha fanlarning barcha bo'limlariga kirish uchun. Har fanning
+# birinchi bo'limi obunasiz ham bepul (history_ai/progress.py'ga qarang).
+SUBSCRIPTION_PRICE = int(os.getenv('SUBSCRIPTION_PRICE', '15000'))
+
+# Payme (checkout.paycom.uz) - https://developer.help.paycom.uz/
+PAYME_MERCHANT_ID = os.getenv('PAYME_MERCHANT_ID', '')
+PAYME_SECRET_KEY = os.getenv('PAYME_SECRET_KEY', '')
+# Test muhitida Payme "kassa" saytining o'zida test kartasi bilan tekshirish uchun.
+PAYME_TEST_MODE = os.getenv('PAYME_TEST_MODE', '1') == '1'
+
+# Click (my.click.uz) - https://docs.click.uz/
+CLICK_MERCHANT_ID = os.getenv('CLICK_MERCHANT_ID', '')
+CLICK_SERVICE_ID = os.getenv('CLICK_SERVICE_ID', '')
+CLICK_SECRET_KEY = os.getenv('CLICK_SECRET_KEY', '')
+
 # Production'da kutilmagan xato (500) chiqsa, shu manzillarga avtomatik email boradi (EMAIL_* orqali,
 # sozlanmagan bo'lsa jim o'tkazib yuboriladi). Format: "Ism:email@masalan.com,Ism2:ikkinchi@masalan.com"
 ADMINS = [

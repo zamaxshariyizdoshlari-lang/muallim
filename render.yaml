@@ -96,3 +96,24 @@ services:
         value: aws-0-ap-northeast-2.pooler.supabase.com
       - key: DB_PORT
         value: "5432"
+      # Oylik obuna narxi (so'mda) - barcha fanlarning barcha bo'limlariga kirish uchun (har
+      # fanning birinchi bo'limi hamma uchun bepul).
+      - key: SUBSCRIPTION_PRICE
+        value: "15000"
+      # Payme (https://business.payme.uz) - "Kassalar" bo'limidan olinadi. Sozlanmaguncha
+      # to'lov tugmasi frontendda ko'rinmaydi.
+      - key: PAYME_MERCHANT_ID
+        sync: false
+      - key: PAYME_SECRET_KEY
+        sync: false
+      # Haqiqiy (production) to'lovlarga tayyor bo'lgach "0" qiling - aks holda test.paycom.uz
+      # (sinov) muhitiga yo'naltiradi.
+      - key: PAYME_TEST_MODE
+        value: "1"
+      # Click (https://merchant.click.uz) - "Xizmatlar" bo'limidan olinadi.
+      - key: CLICK_MERCHANT_ID
+        sync: false
+      - key: CLICK_SERVICE_ID
+        sync: false
+      - key: CLICK_SECRET_KEY
+        sync: false

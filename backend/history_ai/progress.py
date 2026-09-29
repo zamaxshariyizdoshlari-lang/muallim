@@ -6,8 +6,14 @@ def _is_intro(topic):
     return topic.title.strip().lower() == 'kirish'
 
 
+def has_active_subscription(user):
+    sub = getattr(user, 'subscription', None)
+    return bool(sub and sub.is_active())
+
+
 def topic_states(user, topics):
-    """topics (order bo'yicha) -> {topic_id: {"unlocked": bool, "completed": bool}}.
+    """topics (order bo'yicha) -> {topic_id: {"unlocked": bool, "completed": bool, "locked_reason":
+    None|"progress"|"subscription"}}.
 
     O'qituvchi (is_staff) uchun hammasi ochiq. Talaba uchun mavzu ochiladi, agar
     oldingi mavzu testi o'tilgan (kamida 80% to'g'ri) bo'lsa VA (mavzu keyingi bo'limda
@@ -15,6 +21,10 @@ def topic_states(user, topics):
 
     Istisno: kitob "Kirish" mavzusi bilan boshlansa, undan keyingi (haqiqiy 1-) mavzu ham
     "Kirish"ni tugatishni kutmasdan ochiq bo'ladi - "Kirish" shunchaki kirish so'zi, test emas.
+
+    Obuna: har kitobning FAQAT birinchi bo'limi obunasiz ham ochiq - undan keyingi bo'limlar
+    faol obuna talab qiladi ("locked_reason": "subscription"), progress (oldingi mavzu/bo'lim
+    tugallanganligi) sharti bajarilgan bo'lsa ham.
     """
     topics = list(topics)
     completed_ids = set(
@@ -29,19 +39,29 @@ def topic_states(user, topics):
         .values_list('section_id', flat=True)
     )
     starts_with_intro = len(topics) > 1 and _is_intro(topics[0])
+    is_subscribed = bool(user.is_staff) or has_active_subscription(user)
 
     states = {}
     previous_completed = True
     for i, topic in enumerate(topics):
         completed = topic.id in completed_ids
         section_ok = True
+        section_idx = 0
         if topic.section_id:
-            idx = section_order.index(topic.section_id)
-            section_ok = idx == 0 or section_order[idx - 1] in completed_sections
+            section_idx = section_order.index(topic.section_id)
+            section_ok = section_idx == 0 or section_order[section_idx - 1] in completed_sections
         after_intro = starts_with_intro and i == 1
+        progress_unlocked = bool(user.is_staff) or after_intro or (previous_completed and section_ok)
+        paywalled = section_idx > 0 and not is_subscribed
+        locked_reason = None
+        if not progress_unlocked:
+            locked_reason = 'progress'
+        elif paywalled:
+            locked_reason = 'subscription'
         states[topic.id] = {
-            'unlocked': bool(user.is_staff) or after_intro or (previous_completed and section_ok),
+            'unlocked': progress_unlocked and not paywalled,
             'completed': completed,
+            'locked_reason': locked_reason,
         }
         previous_completed = completed
     return states

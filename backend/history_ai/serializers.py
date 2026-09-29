@@ -53,21 +53,28 @@ def hide_answers(data, request):
 class TopicSerializer(serializers.ModelSerializer):
     unlocked = serializers.SerializerMethodField()
     completed = serializers.SerializerMethodField()
+    locked_reason = serializers.SerializerMethodField()
 
     class Meta:
         model = Topic
-        fields = ['id', 'book', 'section', 'key', 'title', 'start_page', 'end_page', 'order', 'unlocked', 'completed']
+        fields = [
+            'id', 'book', 'section', 'key', 'title', 'start_page', 'end_page', 'order',
+            'unlocked', 'completed', 'locked_reason',
+        ]
         read_only_fields = ['id']
 
     def _state(self, obj):
         states = self.context.get('topic_states')
-        return (states or {}).get(obj.id, {'unlocked': True, 'completed': False})
+        return (states or {}).get(obj.id, {'unlocked': True, 'completed': False, 'locked_reason': None})
 
     def get_unlocked(self, obj):
         return self._state(obj)['unlocked']
 
     def get_completed(self, obj):
         return self._state(obj)['completed']
+
+    def get_locked_reason(self, obj):
+        return self._state(obj).get('locked_reason')
 
 
 class LessonSerializer(serializers.ModelSerializer):
