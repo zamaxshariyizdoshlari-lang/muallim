@@ -856,6 +856,26 @@
               "type": "fill_blank",
               "question": "Terminalda ishlaydigan, butun loyihani tushunib kod yozadigan Anthropic'ning AI yordamchisi nima deb ataladi? (2 so'z: \"Claude ...\")",
               "answer": "Claude Code"
+            },
+            {
+              "question": "Ilgari dasturlashni o'rganish nima talab qilardi?",
+              "options": [
+                "Yillar davomida chuqur texnik bilim",
+                "Bir kunlik mashg'ulot",
+                "Hech qanday bilim",
+                "Faqat internet aloqasi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Cursor nima?",
+              "options": [
+                "Ichiga AI o'rnatilgan kod muharriri (editor)",
+                "Faqat rasm tahrirlash dasturi",
+                "Video pleer",
+                "Internet brauzeri"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -945,6 +965,26 @@
                 "Iloji boricha noaniq",
                 "Faqat bitta so'zdan iborat",
                 "Faqat ingliz tilida"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Iteratsiya\" jarayonida birinchi urinishdan keyin nima kutiladi?",
+              "options": [
+                "Mukammal emas, asta-sekin yaxshilanadigan natija",
+                "Darhol 100% mukammal natija",
+                "Hech qanday o'zgarish",
+                "Loyihani tashlab yuborish"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Claude Code kabi vositada AI kod yozgandan tashqari yana nima qila oladi?",
+              "options": [
+                "To'g'ridan-to'g'ri faylni yaratishi mumkin",
+                "Faqat matn ko'rsatadi, hech narsa saqlamaydi",
+                "Faqat rasm chizadi",
+                "Faqat video yaratadi"
               ],
               "correct_index": 0
             }
@@ -1043,6 +1083,26 @@
               "type": "fill_blank",
               "question": "Dasturdagi xatoni topib tuzatish jarayoni inglizcha qanday ataladi?",
               "answer": "debugging"
+            },
+            {
+              "question": "\"Bug\" (nasoz) atamasining kelib chiqishi haqidagi mashhur rivoyat nimaga bog'liq?",
+              "options": [
+                "Kompyuter ichiga kirib qolgan kapalakka",
+                "Dasturchining ismiga",
+                "Kompyuter kompaniyasi nomiga",
+                "Hech qanday rivoyat yo'q"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Line 12: undefined variable 'nom'\" xato xabari nimani bildiradi?",
+              "options": [
+                "12-qatorda 'nom' o'zgaruvchisi aniqlanmagan",
+                "Kompyuter buzilgan",
+                "Internet yo'q",
+                "12 marta xato takrorlangan"
+              ],
+              "correct_index": 0
             }
           ]
         }
@@ -1140,6 +1200,26 @@
                 "Tadqiqot yordamchisi"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "Agent tsiklining birinchi bosqichi nima?",
+              "options": [
+                "O'ylash - nima qilish kerakligini rejalashtirish",
+                "Darhol harakat qilish",
+                "Kutish",
+                "Vazifani rad etish"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Shaxsiy yordamchi AI agentlarga qanday vazifalar misol bo'la oladi?",
+              "options": [
+                "Uchrashuv rejalashtirish, email yozish",
+                "Faqat ovqat pishirish",
+                "Faqat sport mashqi qilish",
+                "Faqat uxlash"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -1231,6 +1311,26 @@
                 "Hech qanday foyda yo'q"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "n8n vositasining o'ziga xosligi nima?",
+              "options": [
+                "Bepul, o'z serveringizga o'rnatish mumkin",
+                "Faqat pullik va yopiq",
+                "Faqat mobil ilova",
+                "Faqat rasm tahrirlash uchun"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Instagram direct message misolida, AI qadam nima vazifani bajaradi?",
+              "options": [
+                "Xabar matnini tahlil qilib, narx haqida so'rov ekanini aniqlaydi",
+                "Xabarni o'chirib yuboradi",
+                "Hech narsa qilmaydi",
+                "Faqat rasm yuboradi"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -1320,6 +1420,26 @@
                 "Botni sekinlashtirish uchun",
                 "Botni qimmatlashtirish uchun",
                 "Hech qanday foyda yo'q"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "System promptdagi \"vazifa chegarasi\" nimani belgilaydi?",
+              "options": [
+                "Bot nima haqida javob berishi va bermasligi kerakligini",
+                "Botning rangini",
+                "Botning narxini",
+                "Botning tilini majburiy inglizcha qilishni"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Chatbot loyihasini sinab ko'rish bosqichida nima qilinadi?",
+              "options": [
+                "Turli savollar berib, botning chegaradan chiqib ketmasligini tekshirish",
+                "Botni darhol o'chirib tashlash",
+                "Hech narsa qilmaslik",
+                "Faqat narxni belgilash"
               ],
               "correct_index": 0
             }
@@ -1419,6 +1539,36 @@
                 "Narxni hech qachon o'zgartirmaslik"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "Frilanser platformalariga qaysi biri misol bo'ladi?",
+              "options": [
+                "Upwork, Fiverr",
+                "Faqat Instagram",
+                "Faqat YouTube",
+                "Faqat Telegram kanali"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Nega arzon yoki bepul birinchi loyiha taklif qilish mantiqli?",
+              "options": [
+                "Sharh (review) olib, tajriba to'plash uchun",
+                "Chunki hech qachon pul olib bo'lmaydi",
+                "Chunki bu qonun talabi",
+                "Foyda yo'q, shunchaki odat"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "AI xizmatlarini taklif qilishda mijozga qanday yondashuv ishonch yaratadi?",
+              "options": [
+                "AI cheklovlarini ochiq tushuntirish",
+                "Hech qachon xato bo'lmasligini va'da qilish",
+                "AI haqida hech narsa aytmaslik",
+                "Faqat narxni gapirish"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -1508,6 +1658,26 @@
                 "Faqat tezroq ishlashingiz",
                 "Faqat arzonroq narx qo'yishingiz",
                 "Hech narsa, hamma bir xil"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Tarjima xizmatida AI'dan foydalanganda nima muhim?",
+              "options": [
+                "Natijani inson tomonidan tekshirish",
+                "Hech qachon tekshirmaslik",
+                "Faqat tezlikka e'tibor berish",
+                "Tarjimani hech kimga ko'rsatmaslik"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "AI yordamida elektron kitob/kurs yaratishda asosiy g'oya nima?",
+              "options": [
+                "O'z bilimingizni AI yordamida tezroq tuzilgan formatga keltirish",
+                "Boshqa mualliflarning kitobini nusxalash",
+                "AI'ga hammasini yozdirib, o'qimasdan sotish",
+                "Hech qanday bilim kerak emas"
               ],
               "correct_index": 0
             }
@@ -1601,6 +1771,31 @@
                 "Faqat marketing uchun kerak"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "Fermerlar uchun AI-startap g'oyasiga qaysi misol keltirilgan?",
+              "options": [
+                "Rasm bo'yicha o'simlik kasalliklarini aniqlash",
+                "Faqat ob-havo bashorati",
+                "Faqat traktor sotish",
+                "Faqat bank krediti"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "MVP yaratishda nechanchi qadam \"haqiqiy foydalanuvchilarga berish\"?",
+              "options": [
+                "3-qadam",
+                "1-qadam",
+                "Umuman qadam emas",
+                "Oxirgi, 10-qadam"
+              ],
+              "correct_index": 0
+            },
+            {
+              "type": "fill_blank",
+              "question": "\"Minimum Viable Product\" qisqartmasi qanday yoziladi?",
+              "answer": "MVP"
             }
           ]
         }
@@ -1698,6 +1893,26 @@
                 "Bu faqat vaqtni behuda sarflaydi"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "O'rta xavfli vazifalarda (o'quv materiali) qanday tekshirish tavsiya etiladi?",
+              "options": [
+                "Asosiy faktlarni tez tekshirish",
+                "Hech qanday tekshirish shart emas",
+                "Faqat huquqshunosga murojaat qilish",
+                "Butunlay rad etish"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "AI javobini qanday \"aqlli do'st\"ga o'xshatish mumkin?",
+              "options": [
+                "Foydali, ko'pincha to'g'ri, lekin so'nggi so'z va tekshirish sizniki",
+                "Har doim mutlaqo to'g'ri, tekshirish shart emas",
+                "Hech qachon ishonib bo'lmaydigan",
+                "Sizdan ko'ra ko'proq javobgar"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -1789,6 +2004,26 @@
                 "Boshqa hech kimga aytmaslik"
               ],
               "correct_index": 0
+            },
+            {
+              "question": "\"Deepfake\" nima uchun xavfli hisoblanadi?",
+              "options": [
+                "Boshqa odamning ovozi/qiyofasini ruxsatsiz nusxalash imkonini beradi",
+                "Chunki bu juda qimmat texnologiya",
+                "Chunki u internetni sekinlashtiradi",
+                "Hech qanday xavfi yo'q"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Maktab/universitet ishini butunlay AI'ga yozdirib, o'zining deb topshirish nima hisoblanadi?",
+              "options": [
+                "AI'dan noto'g'ri foydalanish (halolliksizlik)",
+                "Eng yaxshi o'rganish usuli",
+                "Majburiy talab",
+                "Hech qanday muammo emas"
+              ],
+              "correct_index": 0
             }
           ]
         },
@@ -1815,6 +2050,10 @@
               {
                 "heading": "Kursdan keyin nima qilish kerak",
                 "text": "Bu kurs - **boshlang'ich nuqta**, yakuni emas. Davom etish uchun tavsiyalar:\n\n1. **Har kuni amaliyot qiling**: haqiqiy vazifalaringizda AI'dan foydalaning (o'qish, ish, shaxsiy loyihalar)\n2. **Yangiliklarni kuzating**: yangi AI vositalari chiqqanda, ularning nima o'zgacha qilishini tushunishga harakat qiling\n3. **Kichik loyihalar yarating**: har oy bitta yangi narsa - chatbot, avtomatlashtirish, veb-sahifa\n4. **Jamiyatga qo'shiling**: onlayn forumlar, Telegram guruhlari orqali boshqa o'rganuvchilar bilan tajriba almashing\n\n**Yodda tuting**: bu kursni tugatgan bo'lsangiz, siz allaqachon ko'pchilikdan oldinda turibsiz - endi shu bilimni **amalda qo'llash va chuqurlashtirish** vaqti keldi."
+              },
+              {
+                "heading": "Butun kursni birlashtiruvchi yakuniy reja",
+                "text": "Kursning 6 bo'limi haqiqatda bitta yaxlit yo'l edi - keling, ularni birlashtiraylik:\n\n1. **Asoslar** (1-bo'lim): AI, mashinaviy o'qitish, LLM nima ekanini tushundingiz\n2. **Prompt yozish** (2-bo'lim): AI bilan samarali muloqot qilishni o'rgandingiz\n3. **Dasturlash** (3-bo'lim): AI yordamida kod yozish, debug qilishni bilib oldingiz\n4. **Agentlar** (4-bo'lim): avtomatlashtirish va chatbot yaratishni o'zlashtirdingiz\n5. **Pul topish** (5-bo'lim): bu bilimlarni daromadga aylantirish yo'llarini bildingiz\n6. **Xavfsizlik va kelajak** (6-bo'lim): tanqidiy fikrlash va etik foydalanishni o'rgandingiz\n\nHaqiqiy ekspertlik shu oltisini ==birga== qo'llashdan iborat: masalan, mijoz uchun chatbot qurishda (4) - avval yaxshi prompt yozasiz (2), kodini AI bilan yaratasiz (3), buni xizmat sifatida sotasiz (5), va doim natijani tekshirib, mijozga halol bo'lasiz (6). Aynan shu - **noldan ekspertgacha** bo'lgan yo'lning yakuni."
               }
             ],
             "key_facts": [
@@ -1826,6 +2065,9 @@
               },
               {
                 "fact": "Kursdan keyin doimiy amaliyot va kichik loyihalar orqali o'rganishni davom ettirish kerak."
+              },
+              {
+                "fact": "Haqiqiy ekspertlik - kursning barcha 6 bo'limini birga, amaliyotda qo'llash demakdir."
               }
             ],
             "summary": "AI tez o'zgaradi, lekin ==tamoyillar (prompt, tekshirish, tanqidiy fikrlash) doim amal qiladi==. Bu - **boshlang'ich nuqta**, davomi amaliyotda."
@@ -1878,6 +2120,36 @@
                 "AI hech qachon ishlamasligi",
                 "Inson hech qachon AI'siz ishlay olmasligi",
                 "AI insonlardan aqlliroq bo'lishi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Mijoz uchun chatbot qurish misolida, qaysi bo'limlar birga ishlatiladi?",
+              "options": [
+                "Prompt yozish, dasturlash, pul topish va xavfsizlik (2, 3, 5, 6-bo'limlar)",
+                "Faqat 1-bo'lim",
+                "Faqat 6-bo'lim",
+                "Hech qaysi bo'lim kerak emas"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Kursning nomi \"Sun'iy intellekt: noldan ekspertgacha\" nimani anglatadi?",
+              "options": [
+                "Hech qanday bilimsiz boshlab, amaliy ekspertlikka yetish yo'li",
+                "Faqat nazariy bilim berish",
+                "Faqat bitta vosita o'rgatish",
+                "Kurs tugagach hech narsa qilib bo'lmasligi"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Haqiqiy ekspertlik nimadan iborat, matnga ko'ra?",
+              "options": [
+                "Kursning barcha bo'limlarini birga, amaliyotda qo'llash",
+                "Faqat bitta bo'limni mukammal bilish",
+                "Faqat nazariyani yodlash",
+                "AI haqida hech narsa bilmaslik"
               ],
               "correct_index": 0
             }

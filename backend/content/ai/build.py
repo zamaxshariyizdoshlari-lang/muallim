@@ -712,6 +712,14 @@ sections.append({
                     "Internetni tezlashtirish uchun",
                 ], 0),
                 fill_blank("Terminalda ishlaydigan, butun loyihani tushunib kod yozadigan Anthropic'ning AI yordamchisi nima deb ataladi? (2 so'z: \"Claude ...\")", "Claude Code"),
+                mcq("Ilgari dasturlashni o'rganish nima talab qilardi?", [
+                    "Yillar davomida chuqur texnik bilim",
+                    "Bir kunlik mashg'ulot", "Hech qanday bilim", "Faqat internet aloqasi",
+                ], 0),
+                mcq("Cursor nima?", [
+                    "Ichiga AI o'rnatilgan kod muharriri (editor)",
+                    "Faqat rasm tahrirlash dasturi", "Video pleer", "Internet brauzeri",
+                ], 0),
             ],
         },
         {
@@ -786,6 +794,15 @@ sections.append({
                 mcq("AI'ga so'rov yozganda qanday bo'lishi kerak?", [
                     "Iloji boricha aniq va tasvirlangan", "Iloji boricha noaniq",
                     "Faqat bitta so'zdan iborat", "Faqat ingliz tilida",
+                ], 0),
+                mcq("\"Iteratsiya\" jarayonida birinchi urinishdan keyin nima kutiladi?", [
+                    "Mukammal emas, asta-sekin yaxshilanadigan natija",
+                    "Darhol 100% mukammal natija", "Hech qanday o'zgarish", "Loyihani tashlab yuborish",
+                ], 0),
+                mcq("Claude Code kabi vositada AI kod yozgandan tashqari yana nima qila oladi?", [
+                    "To'g'ridan-to'g'ri faylni yaratishi mumkin",
+                    "Faqat matn ko'rsatadi, hech narsa saqlamaydi",
+                    "Faqat rasm chizadi", "Faqat video yaratadi",
                 ], 0),
             ],
         },
@@ -862,6 +879,14 @@ sections.append({
                     "Bu AI'ni xafa qiladi",
                 ], 0),
                 fill_blank("Dasturdagi xatoni topib tuzatish jarayoni inglizcha qanday ataladi?", "debugging"),
+                mcq("\"Bug\" (nasoz) atamasining kelib chiqishi haqidagi mashhur rivoyat nimaga bog'liq?", [
+                    "Kompyuter ichiga kirib qolgan kapalakka",
+                    "Dasturchining ismiga", "Kompyuter kompaniyasi nomiga", "Hech qanday rivoyat yo'q",
+                ], 0),
+                mcq("\"Line 12: undefined variable 'nom'\" xato xabari nimani bildiradi?", [
+                    "12-qatorda 'nom' o'zgaruvchisi aniqlanmagan",
+                    "Kompyuter buzilgan", "Internet yo'q", "12 marta xato takrorlangan",
+                ], 0),
             ],
         },
     ],
@@ -947,6 +972,14 @@ sections.append({
                     "Oddiy statik veb-sahifa", "Mijozlarga xizmat ko'rsatish boti",
                     "Dasturlash yordamchisi", "Tadqiqot yordamchisi",
                 ], 0),
+                mcq("Agent tsiklining birinchi bosqichi nima?", [
+                    "O'ylash - nima qilish kerakligini rejalashtirish",
+                    "Darhol harakat qilish", "Kutish", "Vazifani rad etish",
+                ], 0),
+                mcq("Shaxsiy yordamchi AI agentlarga qanday vazifalar misol bo'la oladi?", [
+                    "Uchrashuv rejalashtirish, email yozish",
+                    "Faqat ovqat pishirish", "Faqat sport mashqi qilish", "Faqat uxlash",
+                ], 0),
             ],
         },
         {
@@ -1021,6 +1054,14 @@ sections.append({
                     "Oddiy so'rovlarga avtomatik javob berib, vaqtni tejash",
                     "Barcha mijozlarni yo'qotish", "Internetni sekinlashtirish",
                     "Hech qanday foyda yo'q",
+                ], 0),
+                mcq("n8n vositasining o'ziga xosligi nima?", [
+                    "Bepul, o'z serveringizga o'rnatish mumkin",
+                    "Faqat pullik va yopiq", "Faqat mobil ilova", "Faqat rasm tahrirlash uchun",
+                ], 0),
+                mcq("Instagram direct message misolida, AI qadam nima vazifani bajaradi?", [
+                    "Xabar matnini tahlil qilib, narx haqida so'rov ekanini aniqlaydi",
+                    "Xabarni o'chirib yuboradi", "Hech narsa qilmaydi", "Faqat rasm yuboradi",
                 ], 0),
             ],
         },
@@ -1103,6 +1144,15 @@ sections.append({
                     "Bot bilmagan narsani to'qib chiqarmasligi (hallucination) uchun",
                     "Botni sekinlashtirish uchun", "Botni qimmatlashtirish uchun",
                     "Hech qanday foyda yo'q",
+                ], 0),
+                mcq("System promptdagi \"vazifa chegarasi\" nimani belgilaydi?", [
+                    "Bot nima haqida javob berishi va bermasligi kerakligini",
+                    "Botning rangini", "Botning narxini", "Botning tilini majburiy inglizcha qilishni",
+                ], 0),
+                mcq("Chatbot loyihasini sinab ko'rish bosqichida nima qilinadi?", [
+                    "Turli savollar berib, botning chegaradan chiqib ketmasligini tekshirish",
+                    "Botni darhol o'chirib tashlash", "Hech narsa qilmaslik",
+                    "Faqat narxni belgilash",
                 ], 0),
             ],
         },
@@ -1195,6 +1245,20 @@ sections.append({
                     "Oqilona oshirib borish", "Har doim bepul qilib qoldirish",
                     "Darhol juda qimmat qilish", "Narxni hech qachon o'zgartirmaslik",
                 ], 0),
+                mcq("Frilanser platformalariga qaysi biri misol bo'ladi?", [
+                    "Upwork, Fiverr", "Faqat Instagram", "Faqat YouTube", "Faqat Telegram kanali",
+                ], 0),
+                mcq("Nega arzon yoki bepul birinchi loyiha taklif qilish mantiqli?", [
+                    "Sharh (review) olib, tajriba to'plash uchun",
+                    "Chunki hech qachon pul olib bo'lmaydi",
+                    "Chunki bu qonun talabi", "Foyda yo'q, shunchaki odat",
+                ], 0),
+                mcq("AI xizmatlarini taklif qilishda mijozga qanday yondashuv ishonch yaratadi?", [
+                    "AI cheklovlarini ochiq tushuntirish",
+                    "Hech qachon xato bo'lmasligini va'da qilish",
+                    "AI haqida hech narsa aytmaslik",
+                    "Faqat narxni gapirish",
+                ], 0),
             ],
         },
         {
@@ -1277,6 +1341,17 @@ sections.append({
                     "Faqat arzonroq narx qo'yishingiz",
                     "Hech narsa, hamma bir xil",
                 ], 0),
+                mcq("Tarjima xizmatida AI'dan foydalanganda nima muhim?", [
+                    "Natijani inson tomonidan tekshirish",
+                    "Hech qachon tekshirmaslik", "Faqat tezlikka e'tibor berish",
+                    "Tarjimani hech kimga ko'rsatmaslik",
+                ], 0),
+                mcq("AI yordamida elektron kitob/kurs yaratishda asosiy g'oya nima?", [
+                    "O'z bilimingizni AI yordamida tezroq tuzilgan formatga keltirish",
+                    "Boshqa mualliflarning kitobini nusxalash",
+                    "AI'ga hammasini yozdirib, o'qimasdan sotish",
+                    "Hech qanday bilim kerak emas",
+                ], 0),
             ],
         },
         {
@@ -1355,6 +1430,14 @@ sections.append({
                     "Hech qanday rol o'ynamaydi",
                     "Faqat marketing uchun kerak",
                 ], 0),
+                mcq("Fermerlar uchun AI-startap g'oyasiga qaysi misol keltirilgan?", [
+                    "Rasm bo'yicha o'simlik kasalliklarini aniqlash",
+                    "Faqat ob-havo bashorati", "Faqat traktor sotish", "Faqat bank krediti",
+                ], 0),
+                mcq("MVP yaratishda nechanchi qadam \"haqiqiy foydalanuvchilarga berish\"?", [
+                    "3-qadam", "1-qadam", "Umuman qadam emas", "Oxirgi, 10-qadam",
+                ], 0),
+                fill_blank("\"Minimum Viable Product\" qisqartmasi qanday yoziladi?", "MVP"),
             ],
         },
     ],
@@ -1440,6 +1523,15 @@ sections.append({
                     "Bu hech qanday foyda bermaydi",
                     "Bu faqat vaqtni behuda sarflaydi",
                 ], 0),
+                mcq("O'rta xavfli vazifalarda (o'quv materiali) qanday tekshirish tavsiya etiladi?", [
+                    "Asosiy faktlarni tez tekshirish", "Hech qanday tekshirish shart emas",
+                    "Faqat huquqshunosga murojaat qilish", "Butunlay rad etish",
+                ], 0),
+                mcq("AI javobini qanday \"aqlli do'st\"ga o'xshatish mumkin?", [
+                    "Foydali, ko'pincha to'g'ri, lekin so'nggi so'z va tekshirish sizniki",
+                    "Har doim mutlaqo to'g'ri, tekshirish shart emas",
+                    "Hech qachon ishonib bo'lmaydigan", "Sizdan ko'ra ko'proq javobgar",
+                ], 0),
             ],
         },
         {
@@ -1522,6 +1614,16 @@ sections.append({
                     "Faqat narxni tekshirish",
                     "Boshqa hech kimga aytmaslik",
                 ], 0),
+                mcq("\"Deepfake\" nima uchun xavfli hisoblanadi?", [
+                    "Boshqa odamning ovozi/qiyofasini ruxsatsiz nusxalash imkonini beradi",
+                    "Chunki bu juda qimmat texnologiya",
+                    "Chunki u internetni sekinlashtiradi",
+                    "Hech qanday xavfi yo'q",
+                ], 0),
+                mcq("Maktab/universitet ishini butunlay AI'ga yozdirib, o'zining deb topshirish nima hisoblanadi?", [
+                    "AI'dan noto'g'ri foydalanish (halolliksizlik)",
+                    "Eng yaxshi o'rganish usuli", "Majburiy talab", "Hech qanday muammo emas",
+                ], 0),
             ],
         },
         {
@@ -1572,11 +1674,26 @@ sections.append({
                         "oldinda turibsiz - endi shu bilimni **amalda qo'llash va chuqurlashtirish** "
                         "vaqti keldi.",
                     ),
+                    block(
+                        "Butun kursni birlashtiruvchi yakuniy reja",
+                        "Kursning 6 bo'limi haqiqatda bitta yaxlit yo'l edi - keling, ularni birlashtiraylik:\n\n"
+                        "1. **Asoslar** (1-bo'lim): AI, mashinaviy o'qitish, LLM nima ekanini tushundingiz\n"
+                        "2. **Prompt yozish** (2-bo'lim): AI bilan samarali muloqot qilishni o'rgandingiz\n"
+                        "3. **Dasturlash** (3-bo'lim): AI yordamida kod yozish, debug qilishni bilib oldingiz\n"
+                        "4. **Agentlar** (4-bo'lim): avtomatlashtirish va chatbot yaratishni o'zlashtirdingiz\n"
+                        "5. **Pul topish** (5-bo'lim): bu bilimlarni daromadga aylantirish yo'llarini bildingiz\n"
+                        "6. **Xavfsizlik va kelajak** (6-bo'lim): tanqidiy fikrlash va etik foydalanishni o'rgandingiz\n\n"
+                        "Haqiqiy ekspertlik shu oltisini ==birga== qo'llashdan iborat: masalan, mijoz uchun "
+                        "chatbot qurishda (4) - avval yaxshi prompt yozasiz (2), kodini AI bilan yaratasiz (3), "
+                        "buni xizmat sifatida sotasiz (5), va doim natijani tekshirib, mijozga halol bo'lasiz (6). "
+                        "Aynan shu - **noldan ekspertgacha** bo'lgan yo'lning yakuni.",
+                    ),
                 ],
                 'key_facts': [
                     fact("AI vositalari tez o'zgaradi - tamoyillarni tushunish vosita nomidan muhimroq."),
                     fact("Tanqidiy fikrlash, ijodkorlik, muloqot - AI davrida tobora qadrli inson ko'nikmalari."),
                     fact("Kursdan keyin doimiy amaliyot va kichik loyihalar orqali o'rganishni davom ettirish kerak."),
+                    fact("Haqiqiy ekspertlik - kursning barcha 6 bo'limini birga, amaliyotda qo'llash demakdir."),
                 ],
                 'summary': "AI tez o'zgaradi, lekin ==tamoyillar (prompt, tekshirish, tanqidiy fikrlash) "
                            "doim amal qiladi==. Bu - **boshlang'ich nuqta**, davomi amaliyotda.",
@@ -1608,6 +1725,21 @@ sections.append({
                     "AI hech qachon ishlamasligi",
                     "Inson hech qachon AI'siz ishlay olmasligi",
                     "AI insonlardan aqlliroq bo'lishi",
+                ], 0),
+                mcq("Mijoz uchun chatbot qurish misolida, qaysi bo'limlar birga ishlatiladi?", [
+                    "Prompt yozish, dasturlash, pul topish va xavfsizlik (2, 3, 5, 6-bo'limlar)",
+                    "Faqat 1-bo'lim", "Faqat 6-bo'lim", "Hech qaysi bo'lim kerak emas",
+                ], 0),
+                mcq("Kursning nomi \"Sun'iy intellekt: noldan ekspertgacha\" nimani anglatadi?", [
+                    "Hech qanday bilimsiz boshlab, amaliy ekspertlikka yetish yo'li",
+                    "Faqat nazariy bilim berish", "Faqat bitta vosita o'rgatish",
+                    "Kurs tugagach hech narsa qilib bo'lmasligi",
+                ], 0),
+                mcq("Haqiqiy ekspertlik nimadan iborat, matnga ko'ra?", [
+                    "Kursning barcha bo'limlarini birga, amaliyotda qo'llash",
+                    "Faqat bitta bo'limni mukammal bilish",
+                    "Faqat nazariyani yodlash",
+                    "AI haqida hech narsa bilmaslik",
                 ], 0),
             ],
         },
