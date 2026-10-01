@@ -1,0 +1,122 @@
+{
+  "key": "m28_29", "title": "28-29-mavzular. G'aznaviylar", "start_page": 100, "end_page": 107,
+  "explanation": {
+    "goals": ["G'aznaviylar davlatining tashkil topishi va Mahmud G'aznaviy faoliyatini bilish", "G'aznaviylar davlat boshqaruvi, harbiy tuzilmasi va madaniy hayotini tushuntirish"],
+    "blocks": [
+      { "heading": "Davlatning tashkil topishi", "pages": [100, 101],
+        "text": "Somoniylar davlatidagi og'ir davrda turk hojiblaridan iborat saroy qo'shinining siyosiy nufuzi nihoyatda kuchaydi, chunki harbiy va mudofaa ishlari to'la ularning qo'lida edi. Somoniy amirlari iqtidorli lashkarboshilarni \"hojib ul-hujob\" kabi oliy mansablarga tayinladi, ayrim viloyatlarni boshqarish huquqini ham berdi.\n\n962-963-yillarda G'azna viloyatini Alptegin noib va lashkar amiri sifatida boshqardi. U G'azna va Kobul viloyatlarini mustaqil idora etishga intilib, G'aznaviylar davlat boshqaruvini qo'lga oldi; G'azna shahri poytaxt bo'ldi, sulola nomi shundan olingan. Sabuktegin (977-997) davrida siyosiy nufuz ortib, somoniylar tomonidan e'tirof etildi. Sabuktegin asli Sirdaryo bo'ylarida yashagan barsxon turkiy qabilasidan bo'lib, yoshligida asir olinib, qul qilib sotilgan; Alptegin uni o'z qaramog'iga olgan. U dushmanlarga qarshi kurashda somoniylarga yordam berib, \"Nosiriddin ad-davla\" nomiga sazovor bo'lgan." },
+      { "heading": "Mahmud G'aznaviy", "pages": [101, 103],
+        "text": "Sabukteginning o'g'li Mahmud G'aznaviy davrida davlat hududi kengaydi: u Xurosonni somoniylar davlatidan butkul ajratib oldi, G'aznaviylar davlati Sharqning eng qudratli davlatlaridan biriga aylandi. Bag'dod xalifasi unga \"Yamin ud-davla va amin ul-milla\" faxriy unvonini, Xuroson hokimligiga yorliq, bayroq va nog'ora yubordi; Mahmud ham abbosiylar xalifasini rasman tan oldi - bu davlatning to'liq mustaqilligidan darak berardi.\n\n1006-1008-yillarda qoraxoniylar Xurosonga bostirib kirdi, Mahmud ularni haydab chiqardi. 1017-yilda kuyovi xorazmshoh Ma'mun ibn Ma'munga uyushtirilgan suiqasddan so'ng Mahmud Xorazmga yurish qilib, Hazorasp yonidagi jangda Xorazm qo'shinini mag'lub etdi; Xorazmdan boyliklar bilan birga fan va madaniyat arboblari, jumladan Abu Rayhon Beruniy G'aznaga ko'chirildi, Xorazmga sobiq bosh hojib Oltuntosh noib etildi. Mahmud Chag'oniyon, Qobodiyon, Xuttalon viloyatlarini, Erondagi Ray va Jilobni ham qo'shib oldi. U 1030-yilda vafot etdi." },
+      { "heading": "Sayida Xotun", "pages": [102, 103],
+        "text": "Ray hududini voyaga yetmagan valiahd Majdiddin Davlo nomidan Sayida Xotun idora qilgan. Mahmud G'aznaviy unga elchi jo'natib, juma namozida xutbaga o'z nomini qo'shib o'qitishni va o'z nomi bilan tanga chiqarishni talab qilgan, ko'nmasa kuch ishlatishi bilan qo'rqitgan. Sayida Xotun qo'rqmay javob berib, agar g'alaba qozonsa Sulton xotin hukmdordan yengilgani haqida tarix yozilishini, agar yengilsa, hech bir tarixchi uni maqtamasligini aytgan. Sulton Mahmud bu fikrlarni tushunib, malika vafotigacha Rayga hujum qilmagan; Sayida Xotun 29 yil hukmronlik qilgan, Ray 1029-yilda g'aznaviylar hukmronligiga o'tgan." },
+      { "heading": "Madaniyat va homiylik", "pages": [104, 105],
+        "text": "Mahmud G'aznaviy Hindiston va boshqa yurtlardan olib kelingan o'ljalarni ko'p hollarda obodonchilikka sarflagan: G'aznada ilk davlat madrasasini ochib, noyob qo'lyozmalarni to'plagan, jome masjid, ulkan suv to'g'oni qurdirgan. Beruniy G'aznada hashamatli saroylar, madrasa va bozorlar ko'pligini qayd etgan. Mahmud turkiy, arab, fors tillarini mukammal bilgan. Uning saroyida Abulhasan Farruxiy, Unsuriy, Manuchehriy, Utbiy, Gardiziy, Bayhaqiy kabi shoir va tarixchilar faoliyat ko'rsatgan. Beruniy sulton bilan yurishlarda ishtirok etgan, G'aznada rasadxona ochib, 1048-yilgacha yashagan.\n\nSulton Abul Qosim ismli fors shoiriga Firdavsiy taxallusini bergan; keyin 60 000 kumush dirhamni aholiga tarqatgani va turkiy xalqlar haqidagi salbiy qarashlari sabab munosabat buzilgan. Mahmud Ibn Sinoni ham saroyiga jalb etishga urinib, Xorazmga elchilar yuborgan, ammo Masihiy va Ibn Sino Xorazmdan chiqib ketishgan." },
+      { "heading": "Davlat boshqaruvi va qo'shin", "pages": [106, 107],
+        "text": "G'aznaviylar boshqaruvi markazida dargoh va devonlar (vazirliklar) turgan. Hojiblik xizmati alohida o'rin tutgan: ulug' hojib, saroy hojibi, navbatchi hojib, hojib-jomador. Mahmuddan so'ng hokimiyat ishlarini ulug' hojib Ali Qarib qo'liga olgan. Dargohda sipohdor, davotdor, pardador, martabador, xazinachi kabi xizmatlar bo'lgan. Beshta devon: vazir devoni, harbiy ishlar devoni, elchilik va rasmiy tadbirlar devoni, moliya devoni, xat-xabar devoni. Viloyat boshlig'i \"voliy\", shahar boshlig'i \"rais\" deyilgan.\n\nOliy qo'mondonlik hukmdor ixtiyorida bo'lgan; bosh qo'mondon - sipohsolor sulolaning eng ishonchli vakili bo'lgan (Mahmud bu lavozimga ukasi Muhammad Yusufni loyiq topgan). Yuqori lashkarboshilar \"salor\", o'rta darajadagilar \"sarhang\" deyilgan. G'aznaviylar qo'shinida harbiy kemalar ham bo'lgan. Ichki va tashqi savdo, hunarmandchilik, qurilish, ganchkorlik rivojlangan." }
+    ],
+    "key_facts": [
+      { "fact": "G'aznaviylar davlati 962-963-yillarda Alptegin G'aznada hokimiyatni qo'lga olishi bilan tuzilgan", "page": 100 },
+      { "fact": "Sulola nomi poytaxt G'azna shahri nomidan olingan", "page": 100 },
+      { "fact": "Sabuktegin hukmronligi 977-997-yillarga to'g'ri keladi", "page": 100 },
+      { "fact": "Mahmud G'aznaviy Xurosonni somoniylardan butkul ajratib olgan, 1030-yilda vafot etgan", "page": 103 },
+      { "fact": "1017-yilda Mahmud Xorazmga yurish qilib, Beruniyni G'aznaga ko'chirgan", "page": 103 }
+    ],
+    "why": {
+      "causes": [
+        "Somoniylar zaiflashganda turk hojiblari harbiy ishlar va nufuz qo'lida jamlandi",
+        "Alptegin va Sabuktegin G'aznani mustaqil idora etishga intildi",
+        "Xorazmshoh Ma'mun ibn Ma'munga suiqasd uyushtirildi"
+      ],
+      "effects": [
+        "G'aznaviylar davlati tashkil topdi, G'azna poytaxt bo'ldi",
+        "Mahmud davrida Xuroson somoniylardan ajralib, davlat Sharqning eng qudratli davlatlaridan biriga aylandi",
+        "Xorazm bo'ysundirilib, Beruniy kabi olimlar G'aznaga keltirildi",
+        "G'aznada madrasa, masjid, to'g'on qurilib, saroyda shoir va olimlar homiylik topdi"
+      ]
+    },
+    "summary": "G'aznaviylar davlati somoniy turkiy hojiblari Alptegin va Sabuktegin tomonidan G'aznada tuzildi. Mahmud G'aznaviy (vafoti 1030) Xurosonni ajratib oldi, Xorazmni egalladi (1017), Beruniyni G'aznaga ko'chirdi va ilm-fanga homiylik qildi. Davlat dargoh va devonlar hamda sipohsolor boshchiligidagi qo'shinga tayangan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "28-29-mavzular. G'aznaviylar", "bullets": [], "page": null },
+      { "title": "Tashkil topishi", "bullets": ["962-963: Alptegin G'aznada", "Poytaxt - G'azna", "Sabuktegin (977-997)"], "page": 100 },
+      { "title": "Mahmud G'aznaviy", "bullets": ["Xurosonni ajratdi", "1017 - Xorazmga yurish", "1030 - vafot"], "page": 103 },
+      { "title": "Madaniyat", "bullets": ["G'aznada madrasa va rasadxona", "Beruniy, Firdavsiy, Unsuriy", "Ibn Sinoni chaqirish"], "page": 104 },
+      { "title": "Boshqaruv", "bullets": ["Dargoh va 5 devon", "Ulug' hojib", "Sipohsolor - bosh qo'mondon"], "page": 106 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Alptegin G'azna viloyatini boshqaradi (962-963-yillar)", "page": 100 },
+        { "label": "Sabuktegin hukmronligi (977-997)", "page": 100 },
+        { "label": "Qoraxoniylar Xurosonga bostirib kiradi (1006-1008)", "page": 103 },
+        { "label": "Mahmud Xorazmga yurish qiladi (1017-yil)", "page": 103 },
+        { "label": "Mahmud G'aznaviy vafoti (1030-yil)", "page": 103 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Alptegin", "right": "G'aznaviylar davlati asoschisi, somoniylarning noibi", "page": 100 },
+        { "left": "Sabuktegin", "right": "\"Nosiriddin ad-davla\" nomini olgan hukmdor", "page": 101 },
+        { "left": "Mahmud G'aznaviy", "right": "\"Yamin ud-davla\" unvonini olgan sulton", "page": 101 },
+        { "left": "Sayida Xotun", "right": "Rayni boshqargan va Mahmudning hujumiga yo'l qo'ymagan malika", "page": 102 },
+        { "left": "Oltuntosh", "right": "Xorazmga noib etilgan sobiq bosh hojib", "page": 103 },
+        { "left": "Sipohsolor", "right": "Bosh qo'mondon", "page": 106 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "G'aznaviylar davlatining poytaxti ____ shahri edi.", "options": ["G'azna", "Balx", "Buxoro", "Marv"], "correct_index": 0, "page": 100 },
+        { "question": "Mahmud G'aznaviy ____ yilda vafot etgan.", "options": ["1030", "930", "1130", "830"], "correct_index": 0, "page": 103 },
+        { "question": "Mahmud G'aznaviy ____ ni Xorazmdan G'aznaga ko'chirgan olimlar orasida bor edi.", "options": ["Beruniy", "Ibn Sino", "Xorazmiy", "Forobiy"], "correct_index": 0, "page": 103 },
+        { "question": "Bag'dod xalifasi Mahmudga ____ faxriy unvonini yuborgan.", "options": ["Yamin ud-davla", "Nosiriddin", "Shayx ul-islom", "Amir ul-umaro"], "correct_index": 0, "page": 101 },
+        { "question": "Hukmdorning bosh qo'mondoni ____ deb atalgan.", "options": ["sipohsolor", "hojib", "voliy", "rais"], "correct_index": 0, "page": 106 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "G'aznaviylar davlati tashkil topishining asosiy sababi nimada?", "answer": "Somoniylar zaiflashganda turkiy hojiblar harbiy kuch va nufuzni qo'lga oldi; Alptegin va Sabuktegin G'azna va Kobul viloyatlarini mustaqil idora etishga intilgan.", "page": 100 },
+      { "question": "Nima uchun Mahmud G'aznaviy Rayga qo'shin tortish fikridan qaytdi?", "answer": "Sayida Xotunning dadil javobi uni ishontirdi: ayol hukmdordan yengilsa sharmanda bo'lardi, yutsa ham shuhrat kelmasdi.", "page": 103 },
+      { "question": "G'aznaviylarda davlat boshqaruvining dargoh va devonga bo'linishi qaysi sulola davrida yo'lga qo'yilgan edi?", "answer": "Somoniylar davrida.", "page": 107 }
+    ],
+    "quiz": [
+      { "question": "Beruniy G'aznada qancha yashagan?", "options": ["1048-yilgacha", "1000-yilgacha", "1100-yilgacha", "1200-yilgacha"], "correct_index": 0, "page": 104 },
+      { "question": "Firdavsiy taxallusini kim bergan?", "options": ["Mahmud G'aznaviy", "Sabuktegin", "Beruniy", "Unsuriy"], "correct_index": 0, "page": 105 },
+      { "question": "G'aznaviylar davrida nechta devon nomi manbalarda uchraydi?", "options": ["Beshta", "Uchta", "O'nta", "Ikkita"], "correct_index": 0, "page": 106 }
+    ]
+  },
+  "test": [
+    { "question": "Somoniylar davlatida kimlarning siyosiy nufuzi kuchaydi?", "options": ["Turk hojiblaridan iborat saroy qo'shini", "Ruhoniylarning", "Savdogarlarning", "Dehqonlarning"], "correct_index": 0, "page": 100 },
+    { "question": "G'azna viloyatini 962-963-yillarda kim boshqargan?", "options": ["Alptegin", "Sabuktegin", "Mahmud", "Nasr"], "correct_index": 0, "page": 100 },
+    { "question": "G'aznaviylar sulolasi nomi nimadan olingan?", "options": ["Poytaxt G'azna shahri nomidan", "Asoschisi ismidan", "Daryo nomidan", "Tog' nomidan"], "correct_index": 0, "page": 100 },
+    { "question": "G'azna qayerda joylashgan?", "options": ["Afg'onistonning janubi-sharqida", "Eronning shimolida", "Hindistonda", "Xitoyda"], "correct_index": 0, "page": 100 },
+    { "question": "Sabuktegin qaysi turkiy qabilaga mansub edi?", "options": ["Barsxon", "Qarluq", "O'g'uz", "Qipchoq"], "correct_index": 0, "page": 101 },
+    { "question": "Sabuktegin yoshligida qanday holatga tushgan?", "options": ["Asir olinib, qul qilib sotilgan", "Hukmdor bo'lgan", "Savdogar bo'lgan", "Olim bo'lgan"], "correct_index": 0, "page": 101 },
+    { "question": "Sabuktegin qanday sharafli nomga sazovor bo'ldi?", "options": ["\"Nosiriddin ad-davla\"", "\"Yamin ud-davla\"", "\"Shayx ul-islom\"", "\"Hojibi buzruk\""], "correct_index": 0, "page": 101 },
+    { "question": "Xurosonni somoniylar davlatidan butkul kim ajratib oldi?", "options": ["Mahmud G'aznaviy", "Sabuktegin", "Alptegin", "Tohir"], "correct_index": 0, "page": 101 },
+    { "question": "Xalifa Mahmudga qaysi unvonni berdi?", "options": ["\"Yamin ud-davla va amin ul-milla\"", "\"Nosiriddin\"", "\"Hojib ul-hujob\"", "\"Sipohsolor\""], "correct_index": 0, "page": 101 },
+    { "question": "Mahmud G'aznaviy Raydagi kimdan talab qildi: xutbaga nomini qo'shishni?", "options": ["Sayida Xotundan", "Majdiddin Davlodan", "Faxriddin Davlodan", "Beruniydan"], "correct_index": 0, "page": 102 },
+    { "question": "Xutba nima?", "options": ["Juma namozida hukmdor nomini aytib, haqiga duo o'qish", "Namoz turi", "Qur'on surasi", "Bayram nomi"], "correct_index": 0, "page": 102 },
+    { "question": "Sayida Xotun necha yil hukmronlik qilgan?", "options": ["29 yil", "5 yil", "100 yil", "2 yil"], "correct_index": 0, "page": 103 },
+    { "question": "Qoraxoniylar Xurosonga qachon bostirib kirgan?", "options": ["1006-1008-yillarda", "906-908-yillarda", "1106-1108-yillarda", "806-808-yillarda"], "correct_index": 0, "page": 103 },
+    { "question": "Mahmud Xorazmga qaysi yili yurish qildi?", "options": ["1017-yilda", "917-yilda", "1117-yilda", "817-yilda"], "correct_index": 0, "page": 103 },
+    { "question": "Xorazm qo'shini qayerdagi jangda mag'lub bo'ldi?", "options": ["Hazorasp yonida", "Marv yonida", "Balx yonida", "Kat yonida"], "correct_index": 0, "page": 103 },
+    { "question": "Xorazmga noib qilib kim tayinlandi?", "options": ["Oltuntosh", "Ali Qarib", "Alptegin", "Samjuriy"], "correct_index": 0, "page": 103 },
+    { "question": "Mahmud Erondagi qaysi yerlarni qo'shib oldi?", "options": ["Ray va Jilob", "Nishopur va Tus", "Hirot va Marv", "Isfahon va Shiroz"], "correct_index": 0, "page": 103 },
+    { "question": "Mahmud O'ljalarni ko'p hollarda nimaga sarflagan?", "options": ["Obodonchilik va qurilish ishlariga", "Qo'shin ko'paytirishga", "Savdogarlarga", "Sovg'alarga"], "correct_index": 0, "page": 104 },
+    { "question": "G'aznada nima ochildi?", "options": ["Ilk davlat madrasasi", "Rasadxona faqat", "Universitet", "Kutubxona faqat"], "correct_index": 0, "page": 104 },
+    { "question": "Quyidagi shoirlardan qaysi biri Mahmud saroyida bo'lgan?", "options": ["Unsuriy", "Rudakiy", "Navoiy", "Hofiz"], "correct_index": 0, "page": 104 },
+    { "question": "Beruniy G'aznada qachongacha yashadi?", "options": ["1048-yilgacha", "1030-yilgacha", "1000-yilgacha", "1100-yilgacha"], "correct_index": 0, "page": 104 },
+    { "question": "Abul Qosim shoirga Firdavsiy taxallusini kim bergan?", "options": ["Mahmud G'aznaviy", "Beruniy", "Sabuktegin", "Ibn Sino"], "correct_index": 0, "page": 105 },
+    { "question": "Mahmud Ibn Sinoni o'z saroyiga jalb etishga uringanda nima bo'ldi?", "options": ["Ibn Sino Xorazmdan chiqib ketdi, xizmat qilishni istamadi", "Ibn Sino roziligini berdi", "Ibn Sino G'aznada qoldi", "Mahmud uni qatl etdi"], "correct_index": 0, "page": 105 },
+    { "question": "G'aznaviylar boshqaruvining markazida nima turgan?", "options": ["Dargoh va devonlar", "Xalq majlisi", "Qurultoy", "Senat"], "correct_index": 0, "page": 106 },
+    { "question": "Nechta devon nomi manbalarda uchraydi?", "options": ["5 ta", "3 ta", "10 ta", "20 ta"], "correct_index": 0, "page": 106 },
+    { "question": "Viloyat boshlig'i qanday atalgan?", "options": ["Voliy", "Rais", "Amid", "Kutvol"], "correct_index": 0, "page": 106 },
+    { "question": "Shahar boshlig'i qanday atalgan?", "options": ["Rais", "Voliy", "Hojib", "Salor"], "correct_index": 0, "page": 106 },
+    { "question": "Mahmud sipohsolor mansabiga kimni loyiq topgan?", "options": ["Ukasi Muhammad Yusufni", "Ali Qaribni", "Oltuntoshni", "O'g'lini"], "correct_index": 0, "page": 107 },
+    { "question": "Yuqori darajadagi lashkarboshilar qanday atalgan?", "options": ["Salor", "Sarhang", "Shod", "Tudun"], "correct_index": 0, "page": 107 },
+    { "question": "G'aznaviylar qo'shinida yana nima bo'lgan?", "options": ["Harbiy kemalar", "Fillar faqat", "Raketalar", "Tanklar"], "correct_index": 0, "page": 107 }
+  ]
+}
