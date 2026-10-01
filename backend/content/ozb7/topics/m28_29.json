@@ -97,7 +97,7 @@
     { "question": "Sabuktegin qanday sharafli nomga sazovor bo'ldi?", "options": ["\"Nosiriddin ad-davla\"", "\"Yamin ud-davla\"", "\"Shayx ul-islom\"", "\"Hojibi buzruk\""], "correct_index": 0, "page": 101 },
     { "question": "Xurosonni somoniylar davlatidan butkul kim ajratib oldi?", "options": ["Mahmud G'aznaviy", "Sabuktegin", "Alptegin", "Tohir"], "correct_index": 0, "page": 101 },
     { "question": "Xalifa Mahmudga qaysi unvonni berdi?", "options": ["\"Yamin ud-davla va amin ul-milla\"", "\"Nosiriddin\"", "\"Hojib ul-hujob\"", "\"Sipohsolor\""], "correct_index": 0, "page": 101 },
-    { "question": "Mahmud G'aznaviy Raydagi kimdan talab qildi: xutbaga nomini qo'shishni?", "options": ["Sayida Xotundan", "Majdiddin Davlodan", "Faxriddin Davlodan", "Beruniydan"], "correct_index": 0, "page": 102 },
+    { "question": "Mahmud G'aznaviy xutbaga o'z nomini qo'shishni Ray hududini idora qilgan qaysi malikadan talab qildi?", "options": ["Sayida Xotundan", "Majdiddin Davlodan", "Faxriddin Davlodan", "Beruniydan"], "correct_index": 0, "page": 102 },
     { "question": "Xutba nima?", "options": ["Juma namozida hukmdor nomini aytib, haqiga duo o'qish", "Namoz turi", "Qur'on surasi", "Bayram nomi"], "correct_index": 0, "page": 102 },
     { "question": "Sayida Xotun necha yil hukmronlik qilgan?", "options": ["29 yil", "5 yil", "100 yil", "2 yil"], "correct_index": 0, "page": 103 },
     { "question": "Qoraxoniylar Xurosonga qachon bostirib kirgan?", "options": ["1006-1008-yillarda", "906-908-yillarda", "1106-1108-yillarda", "806-808-yillarda"], "correct_index": 0, "page": 103 },

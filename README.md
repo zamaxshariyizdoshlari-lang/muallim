@@ -3,7 +3,8 @@
 **Muallim** — ommaviy onlayn ta'lim platformasi: mavzu-mavzu dars, o'yinlar, testlar, ball/reyting va
 sertifikat bilan. Har kim bepul ro'yxatdan o'tib o'qiy oladi. Hozircha ikkita yo'nalish bor:
 
-- 📜 **Tarix** — "Qadimgi dunyo tarixi" (6-sinf) darsligi asosida, betlarga aniq iqtibos bilan.
+- 📜 **Tarix** — "Qadimgi dunyo tarixi" (6-sinf) va "O'zbekiston tarixi" (7-sinf, IV asrdan XIII asr
+  boshigacha) darsliklari asosida, betlarga aniq iqtibos bilan.
 - 🇹🇷 **Turk tili (A1)** — "Yedi İklim" darsligi tuzilishi asosida: grammatika, so'z boyligi
   (kartochkalar), tinglash, o'qish, yozish va gapirish mashqlari — TYS va Milliy sertifikat
   imtihonlarining 4 ko'nikmasiga moslab qurilgan.
@@ -47,6 +48,7 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py import_book content/qd6/book.json --user <admin_foydalanuvchi_nomi>
 python manage.py import_book content/turk_a1/book.json --user <admin_foydalanuvchi_nomi>
+python manage.py import_book content/ozb7/book.json --user <admin_foydalanuvchi_nomi>
 python manage.py runserver
 ```
 

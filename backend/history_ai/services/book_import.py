@@ -7,7 +7,7 @@ from django.db import transaction
 from ..models import (
     STATUS_DONE, Book, BookExam, GeneratedAsset, Lesson, Section, SectionExam, Subject, Topic,
 )
-from .enrichment import enrich_questions
+from .enrichment import enrich_questions, shuffle_questions
 
 FORMAT_VERSION = 1
 LEVELS = ('eslash', 'tushunish', 'qollash')  # savol qiyinlik darajasi: eslash / tushunish / qo'llash
@@ -250,20 +250,24 @@ def import_book_json(data, user):
             ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]
+            seed = f"{book.key}/{t['key']}"
             Lesson.objects.update_or_create(
                 topic=topic,
                 defaults={
                     'created_by': user, 'status': STATUS_DONE, 'ai_provider': 'import', 'error_message': '',
                     'lesson_plan': lesson_plan,
                     'quiz': {
-                        'questions': (t.get('practice') or {}).get('quiz', []),
+                        'questions': shuffle_questions((t.get('practice') or {}).get('quiz', []), seed),
                         'book_questions': (t.get('practice') or {}).get('book_questions', []),
                     },
                 },
             )
 
-            test = enrich_questions(t['test'], expl['blocks'])
-            games = t.get('games') or {}
+            test = shuffle_questions(enrich_questions(t['test'], expl['blocks']), seed)
+            games = dict(t.get('games') or {})
+            if games.get('fill_blank'):
+                fb = games['fill_blank']
+                games['fill_blank'] = {**fb, 'questions': shuffle_questions(fb.get('questions', []), seed)}
             payloads = {
                 GeneratedAsset.KIND_PRESENTATION: t.get('presentation'),
                 GeneratedAsset.KIND_GAME_TIMELINE: games.get('timeline'),

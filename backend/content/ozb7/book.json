@@ -977,6 +977,61 @@
        ],
        "correct_index": 0,
        "page": 9
+      },
+      {
+       "question": "Dehqonlarning xo'jaligida kimlar mehnat qilgan?",
+       "options": [
+        "Ko'plab odamlar",
+        "Faqat oila a'zolari",
+        "Faqat qullar",
+        "Hech kim"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Chokarlar dehqon xo'jaligida ichkarida nimani saqlashga yordam bergan?",
+       "options": [
+        "Tartib-intizomni",
+        "Savdoni",
+        "Dinni",
+        "Yozuvni"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Quyidagi viloyatlardan qaysi birida o'nlab mahalliy hokimliklar tashkil topdi?",
+       "options": [
+        "Sug'diyona, Marg'iyona, Toxariston, Xorazm, Choch, Farg'ona",
+        "Faqat Xorazmda",
+        "Faqat Farg'onada",
+        "Hindistonda"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "\"O'zbek xalqining etnogenezi va etnik tarixi\" kitobi muallifi kim?",
+       "options": [
+        "Ahmadali Asqarov",
+        "Azamat Ziyo",
+        "Akbar Zamonov",
+        "Narshaxiy"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Turon hududida ham nima vujudga keldi?",
+       "options": [
+        "Katta yer egaligi",
+        "Dengiz floti",
+        "Xalq majlisi",
+        "Respublika"
+       ],
+       "correct_index": 0,
+       "page": 9
       }
      ]
     },
@@ -9269,7 +9324,7 @@
        "page": 101
       },
       {
-       "question": "Mahmud G'aznaviy Raydagi kimdan talab qildi: xutbaga nomini qo'shishni?",
+       "question": "Mahmud G'aznaviy xutbaga o'z nomini qo'shishni Ray hududini idora qilgan qaysi malikadan talab qildi?",
        "options": [
         "Sayida Xotundan",
         "Majdiddin Davlodan",
@@ -15384,6 +15439,2257 @@
        ],
        "correct_index": 0,
        "page": 171
+      }
+     ]
+    },
+    {
+     "key": "m49_50",
+     "title": "49-50-mavzular. Ahmad Farg'oniy",
+     "start_page": 172,
+     "end_page": 175,
+     "explanation": {
+      "goals": [
+       "Ahmad Farg'oniyning hayoti, asarlari va astronomiyadagi xizmatlarini bilish",
+       "\"Miqyosi Nil\" qurilmasi va uning soliq tizimidagi ahamiyatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Hayoti",
+        "pages": [
+         172
+        ],
+        "text": "Olimning to'liq ismi Abul Abbos Ahmad ibn Muhammad ibn Kasir al-Farg'oniy. Uning hayoti va ilmiy faoliyati haqida juda oz ma'lumot saqlangan. Ahmad Farg'oniy (797-865) Farg'ona vodiysining Qubo (Quva) qishlog'ida tug'ilgan. U avval Bag'doddagi rasadxonada ish olib bordi, so'ngra Damashqdagi rasadxonada osmon jismlari harakati va o'rnini aniqlash, yangicha \"Zij\" yaratish ishlariga rahbarlik qildi. Farg'oniy yunon astronomlari, jumladan Ptolemeyning \"Yulduzlar jadvali\" asaridagi ma'lumotlarni ko'rib chiqish hamda barcha asosiy joylarning geografik koordinatalarini yangidan aniqlash tadqiqotlarida faol ishtirok etdi."
+       },
+       {
+        "heading": "Asarlari va \"Alfraganus\"",
+        "pages": [
+         172,
+         173
+        ],
+        "text": "Farg'oniyning \"Astronomiya asoslari haqidagi kitob\" (\"Samoviy harakatlar va umumiy ilmi nujum\") asari o'rta asr musulmon Sharqida, so'ng Ispaniya orqali Yevropada astronomiya ilmining rivojini boshlab berdi. Asar XII asrda ikki marta lotin tiliga tarjima qilindi; XIII asrda boshqa Yevropa tillariga tarjima qilingach, uning nomi \"Alfraganus\" tarzida dunyoga tanildi. Boshqa asarlari: \"Usturlob yasash haqida kitob\", \"Al-Farg'oniy jadvallari\", \"Yetti iqlimni hisoblash haqida\", \"Oyning Yer ostida va ustida bo'lish vaqtlarini aniqlash haqida risola\".\n\nFarg'oniy arab tilidagi ilmiy atamashunoslikka, ayniqsa falakiyot, riyoziyot va geografiyaga oid atamalarni belgilashga katta hissa qo'shdi, ayrim astronomik asboblarni ixtiro etdi. 1998-yilda allomaning 1200 yillik tavalludi nishonlandi; 2007-yilda Qohirada unga haykal o'rnatildi; Oydagi kraterlardan biriga uning nomi berilgan (Yan Geveliy, 1647-yil, \"Selenografiya\")."
+       },
+       {
+        "heading": "\"Miqyosi Nil\"",
+        "pages": [
+         173,
+         174,
+         175
+        ],
+        "text": "Al-Farg'oniy 861-yilda Qohira yaqinidagi Ravzo (Roud) orolida \"nilometr\" - suv sathini belgilovchi uskuna yasagan; u ilk bor Nil daryosida sinalgani uchun shunday nom olgan. Misrda Nil hayot-mamot daryosi edi: mamlakat hududining atigi olti foizida dehqonchilik mumkin bo'lgan. Nil suv sathi tizginsiz edi: bir yil suv ko'tarilib hosil nobud bo'lsa, ikkinchi yil past bo'lib qurg'oqchilik bo'lgan; shunga qaramay soliqchilar har ikki holatda yer egalaridan birdek soliq talab qilgan.\n\nFarg'oniy Nil sathidagi o'zgarishni hisobga olib, daryodan uzoq-yaqinligiga qarab yerlar hosildorligi jadvalini tuzdi va shu asosda soliq tizimini yaratdi. \"Miqyosi Nil\" qurilmasi Misrda yangicha soliq miqdoriga asos soldi: suv ko'tarilsa daryoga yaqin dehqonlar kamroq, uzoqdagilar ko'proq, suv pasaysa aksincha soliq to'lagan. Bu qurilma sakkiz burchakli, usti doirasimon qubbali bino bo'lib, ichida marmar ustunda suv sathi chiziqlari bor; u hamon ishchi holatda saqlanadi, qoshida Farg'oniy haykali qo'yilgan. Yevropa Uyg'onish davri olimi Regiomontan XV asrda astronomiya ma'ruzalarini Farg'oniy asarlari asosida o'qigan; Farg'oniy nomi Dante va Shiller tomonidan tilga olinadi."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Ahmad Farg'oniy (797-865) Farg'onaning Quva qishlog'ida tug'ilgan",
+        "page": 172
+       },
+       {
+        "fact": "U Bag'dod va Damashq rasadxonalarida ishlab, yangi \"Zij\" yaratishga rahbarlik qilgan",
+        "page": 172
+       },
+       {
+        "fact": "Uning nomi Yevropada \"Alfraganus\" tarzida tanilgan",
+        "page": 173
+       },
+       {
+        "fact": "861-yilda Roud orolida \"nilometr\" - \"Miqyosi Nil\"ni yasagan",
+        "page": 173
+       },
+       {
+        "fact": "Oydagi kraterlardan biriga uning nomi berilgan",
+        "page": 173
+       }
+      ],
+      "why": {
+       "causes": [
+        "Nil suv sathi tizginsiz bo'lib, hosildorlik yildan-yilga o'zgargan",
+        "Soliqchilar suv sathidan qat'i nazar yer egalaridan birdek soliq talab qilgan",
+        "Farg'oniy yulduzlar harakatini va Nil sathi o'zgarishini uzluksiz kuzatgan"
+       ],
+       "effects": [
+        "\"Miqyosi Nil\" qurilmasi yaratilib, suv sathi o'lchandi",
+        "Yerlar hosildorligi jadvali va adolatli soliq tizimi joriy etildi",
+        "\"Astronomiya asoslari\" lotin va Yevropa tillariga tarjima qilinib, Yevropada astronomiya rivojiga ta'sir ko'rsatdi",
+        "Farg'oniy nomi Oy krateriga berildi, Qohirada unga haykal o'rnatildi"
+       ]
+      },
+      "summary": "Ahmad Farg'oniy (797-865) Quvada tug'ilgan, Bag'dod va Damashq rasadxonalarida ishlagan buyuk astronom. Uning \"Astronomiya asoslari haqidagi kitob\"i XII-XIII asrlarda Yevropada \"Alfraganus\" nomi bilan tarqaldi. 861-yilda Misrdagi Roud orolida \"Miqyosi Nil\"ni yaratib, suv sathiga qarab adolatli soliq tizimini joriy etdi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "49-50-mavzular. Ahmad Farg'oniy",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Hayoti",
+        "bullets": [
+         "797-865, Quva",
+         "Bag'dod va Damashq rasadxonalari",
+         "\"Zij\" yaratish"
+        ],
+        "page": 172
+       },
+       {
+        "title": "Asarlari",
+        "bullets": [
+         "\"Astronomiya asoslari haqidagi kitob\"",
+         "Lotin tiliga tarjima (XII asr)",
+         "\"Alfraganus\""
+        ],
+        "page": 173
+       },
+       {
+        "title": "Miqyosi Nil",
+        "bullets": [
+         "861 - Roud oroli",
+         "Suv sathini o'lchash",
+         "Yerlar hosildorligi va soliq"
+        ],
+        "page": 174
+       },
+       {
+        "title": "E'tirof",
+        "bullets": [
+         "Oyda krater",
+         "Qohirada haykal (2007)",
+         "1200 yillik (1998)"
+        ],
+        "page": 173
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Ahmad Farg'oniy hayoti (797-865)",
+         "page": 172
+        },
+        {
+         "label": "Roud orolida \"Miqyosi Nil\" qurilishi (861-yil)",
+         "page": 173
+        },
+        {
+         "label": "Yan Geveliy \"Selenografiya\" kitobida krater nomlaydi (1647-yil)",
+         "page": 174
+        },
+        {
+         "label": "Allomaning 1200 yilligi nishonlanadi (1998-yil)",
+         "page": 173
+        },
+        {
+         "label": "Qohirada Farg'oniyga haykal o'rnatiladi (2007-yil)",
+         "page": 173
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Alfraganus",
+         "right": "Farg'oniy nomining Yevropadagi shakli",
+         "page": 173
+        },
+        {
+         "left": "Nilometr",
+         "right": "Suv sathini belgilovchi uskuna",
+         "page": 173
+        },
+        {
+         "left": "Quva (Qubo)",
+         "right": "Farg'oniy tug'ilgan qishloq",
+         "page": 172
+        },
+        {
+         "left": "Ptolemey",
+         "right": "\"Yulduzlar jadvali\" muallifi, yunon astronomi",
+         "page": 172
+        },
+        {
+         "left": "Regiomontan",
+         "right": "Farg'oniy asarlari asosida ma'ruza o'qigan Yevropa olimi",
+         "page": 174
+        },
+        {
+         "left": "Yan Geveliy",
+         "right": "Oydagi kraterni Farg'oniy nomi bilan atagan astronom",
+         "page": 174
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Farg'oniy ____ qishlog'ida tug'ilgan.",
+         "options": [
+          "Quva",
+          "Marg'ilon",
+          "Rishton",
+          "Axsikat"
+         ],
+         "correct_index": 0,
+         "page": 172
+        },
+        {
+         "question": "Farg'oniy ____ yilda Nilda suv sathini o'lchaydigan qurilma yasagan.",
+         "options": [
+          "861",
+          "761",
+          "961",
+          "661"
+         ],
+         "correct_index": 0,
+         "page": 173
+        },
+        {
+         "question": "Farg'oniy nomi Yevropada ____ tarzida tanildi.",
+         "options": [
+          "Alfraganus",
+          "Algoritm",
+          "Avitsenna",
+          "Averroes"
+         ],
+         "correct_index": 0,
+         "page": 173
+        },
+        {
+         "question": "Misr hududining atigi ____ foizida dehqonchilik qilish mumkin bo'lgan.",
+         "options": [
+          "olti",
+          "oltmish",
+          "ellik",
+          "yigirma"
+         ],
+         "correct_index": 0,
+         "page": 174
+        },
+        {
+         "question": "\"Miqyosi Nil\" binosi ____ burchakli.",
+         "options": [
+          "sakkiz",
+          "to'rt",
+          "olti",
+          "uch"
+         ],
+         "correct_index": 0,
+         "page": 175
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Ahmad al-Farg'oniyning ilm-fan rivojidagi o'rni nimada bo'lgan?",
+        "answer": "Astronomiya rivojiga hissa qo'shgan, \"Astronomiya asoslari\" kitobi Yevropada astronomiya rivojini boshlab bergan, ilmiy atamalarni belgilagan, astronomik asboblar va \"Miqyosi Nil\"ni yaratgan.",
+        "page": 173
+       },
+       {
+        "question": "\"Miqyosi Nil\" qurilmasi haqida nimalarni bilib oldingiz?",
+        "answer": "Roud orolidagi sakkiz burchakli qubbali bino; ichida suv sathini o'lchaydigan marmar ustun bor; suv sathiga qarab soliq miqdori hisoblangan va qurilma hamon saqlanadi.",
+        "page": 175
+       },
+       {
+        "question": "Al-Farg'oniy fanning qaysi sohalarini yaxshi bilgan?",
+        "answer": "Astronomiya (falakiyot), matematika (riyoziyot), geografiya va asboblar yasash.",
+        "page": 173
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Farg'oniy avval qaysi shaharda rasadxonada ishlagan?",
+        "options": [
+         "Bag'doddagi",
+         "Samarqanddagi",
+         "Marvdagi",
+         "Qohiradagi"
+        ],
+        "correct_index": 0,
+        "page": 172
+       },
+       {
+        "question": "Farg'oniyning asari XII asrda qaysi tilga tarjima qilingan?",
+        "options": [
+         "Lotin tiliga",
+         "Rus tiliga",
+         "Fransuz tiliga",
+         "Ingliz tiliga"
+        ],
+        "correct_index": 0,
+        "page": 173
+       },
+       {
+        "question": "Soliq tizimini Farg'oniy nimaga asoslab yaratgan?",
+        "options": [
+         "Nil sathi va daryodan uzoq-yaqinlikka qarab yer hosildorligi jadvaliga",
+         "Aholi soniga",
+         "Savdo hajmiga",
+         "Qo'shin hajmiga"
+        ],
+        "correct_index": 0,
+        "page": 174
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Farg'oniyning to'liq ismi qanday?",
+       "options": [
+        "Abul Abbos Ahmad ibn Muhammad ibn Kasir al-Farg'oniy",
+        "Abu Nasr Muhammad",
+        "Abu Ali Husayn",
+        "Abu Rayhon Ahmad"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "Farg'oniy haqida qanday ma'lumotlar saqlangan?",
+       "options": [
+        "Juda oz",
+        "Juda ko'p",
+        "Hech qanday",
+        "Faqat tug'ilgan yili"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "Ahmad Farg'oniy qaysi yillarda yashagan?",
+       "options": [
+        "797-865",
+        "697-765",
+        "897-965",
+        "997-1065"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "Damashqdagi rasadxonada Farg'oniy nimaga rahbarlik qildi?",
+       "options": [
+        "Osmon jismlari o'rnini aniqlash va yangicha Zij yaratishga",
+        "Kutubxona qurishga",
+        "Madrasa ochishga",
+        "Yo'l solishga"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "Farg'oniy qaysi yunon astronomining \"Yulduzlar jadvali\"dagi ma'lumotlarini ko'rib chiqishda ishtirok etdi?",
+       "options": [
+        "Ptolemeyning",
+        "Aristotelning",
+        "Yevklidning",
+        "Pifagorning"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "Farg'oniy asari o'rta asr Yevropasiga qaysi mamlakat orqali kirib bordi?",
+       "options": [
+        "Ispaniya orqali",
+        "Italiya orqali",
+        "Fransiya orqali",
+        "Rim orqali"
+       ],
+       "correct_index": 0,
+       "page": 172
+      },
+      {
+       "question": "\"Astronomiya asoslari haqidagi kitob\" yana qanday nomlanadi?",
+       "options": [
+        "\"Samoviy harakatlar va umumiy ilmi nujum\"",
+        "\"Al-jabr\"",
+        "\"Al-Mufassal\"",
+        "\"Qonun\""
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Asar XII asrda necha marta lotin tiliga tarjima qilindi?",
+       "options": [
+        "Ikki marta",
+        "Bir marta",
+        "Besh marta",
+        "Hech qachon"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Farg'oniy nomi Yevropada qachondan \"Alfraganus\" tarzida tanildi?",
+       "options": [
+        "XIII asrda boshqa tillarga tarjimadan so'ng",
+        "X asrda",
+        "XV asrda",
+        "XVIII asrda"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Farg'oniyning asari emas?",
+       "options": [
+        "\"Qutadg'u bilig\"",
+        "\"Usturlob yasash haqida kitob\"",
+        "\"Yetti iqlimni hisoblash haqida\"",
+        "\"Al-Farg'oniy jadvallari\""
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Farg'oniy ilmiy atamashunoslikda qaysi sohalar atamalarini belgilashga hissa qo'shgan?",
+       "options": [
+        "Falakiyot, riyoziyot va geografiya",
+        "Tibbiyot va farmakologiya",
+        "Tarix va huquq",
+        "San'at va musiqa"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Nilometr qaysi orolda yasalgan?",
+       "options": [
+        "Ravzo (Roud) orolida",
+        "Krit orolida",
+        "Sitsiliyada",
+        "Kipr orolida"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Nilometr nima uchun shunday nom olgan?",
+       "options": [
+        "Ilk bor Nil daryosida sinalgani uchun",
+        "Muallifi Nil ismli bo'lgani uchun",
+        "Misr hukmdori nomi bilan",
+        "Qadimiy nom bo'lgani uchun"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Allomaning 1200 yillik tavalludi qachon nishonlandi?",
+       "options": [
+        "1998-yilda",
+        "1898-yilda",
+        "2008-yilda",
+        "1978-yilda"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Farg'oniyga haykal Qohirada qachon o'rnatildi?",
+       "options": [
+        "2007-yilda",
+        "1907-yilda",
+        "1998-yilda",
+        "2017-yilda"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Misr hududining necha foizida dehqonchilik qilish mumkin bo'lgan?",
+       "options": [
+        "Atigi olti foizida",
+        "Oltmish foizida",
+        "Yarmida",
+        "To'liq"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Nil suv sathi o'zgarishi dehqonlarga qanday ta'sir qilgan?",
+       "options": [
+        "Suv ko'tarilsa hosil nobud bo'lgan, pasaysa qurg'oqchilik bo'lgan",
+        "Hosil doim mo'l bo'lgan",
+        "Ta'sir qilmagan",
+        "Faqat savdoga ta'sir qilgan"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Soliqchilar qanday talab qilgan?",
+       "options": [
+        "Har ikki holatda yer egalaridan birdek soliq",
+        "Soliqni kamaytirgan",
+        "Faqat daryoga yaqinlardan",
+        "Hech kimdan olmagan"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Farg'oniy soliq tizimini nimaga qarab yaratdi?",
+       "options": [
+        "Yerlarning daryodan uzoq-yaqinligiga qarab hosildorlik jadvaliga",
+        "Dehqonning yoshiga",
+        "Yer maydoniga faqat",
+        "Mol soniga"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Regiomontan XV asrda astronomiya ma'ruzalarini kimning asarlari asosida o'qigan?",
+       "options": [
+        "Farg'oniyning",
+        "Xorazmiyning",
+        "Beruniyning",
+        "Ibn Sinoning"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Farg'oniy nomini qaysi shoirlar tilga olgan?",
+       "options": [
+        "Dante va Shiller",
+        "Gomer va Vergiliy",
+        "Navoiy va Hofiz",
+        "Shekspir va Gyote"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Oydagi kraterlardan biriga Farg'oniy nomini kim bergan?",
+       "options": [
+        "Yan Geveliy",
+        "Galiley",
+        "Kepler",
+        "Regiomontan"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Geveliy \"Selenografiya\"ni qaysi yili nashr qilgan?",
+       "options": [
+        "1647-yili",
+        "1547-yili",
+        "1747-yili",
+        "1447-yili"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "\"Miqyosi Nil\" binosi qanday shaklda?",
+       "options": [
+        "Sakkiz burchakli, usti doirasimon qubbali",
+        "To'rtburchak, tekis tomli",
+        "Dumaloq minora",
+        "Piramida"
+       ],
+       "correct_index": 0,
+       "page": 175
+      },
+      {
+       "question": "\"Miqyosi Nil\" ichidagi marmar ustunda nima bor?",
+       "options": [
+        "Suv sathi o'lchov chiziqlari",
+        "Hukmdor tasviri",
+        "Yulduz xaritasi",
+        "Qonunlar"
+       ],
+       "correct_index": 0,
+       "page": 175
+      },
+      {
+       "question": "Suv sathi ko'tarilsa soliq kimlardan kamroq olingan?",
+       "options": [
+        "Yeri daryoga yaqin dehqonlardan",
+        "Yeri uzoq dehqonlardan",
+        "Savdogarlardan",
+        "Hunarmandlardan"
+       ],
+       "correct_index": 0,
+       "page": 175
+      }
+     ]
+    },
+    {
+     "key": "m51_52",
+     "title": "51-52-mavzular. Abu Nasr Forobiy",
+     "start_page": 176,
+     "end_page": 179,
+     "explanation": {
+      "goals": [
+       "Forobiyning hayoti, \"Ikkinchi muallim\" unvoni va asarlarini bilish",
+       "\"Fozil odamlar shahri\" g'oyalari va Forobiyning yunon faylasuflari merosini sharhlashdagi xizmatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Hayoti va unvonlari",
+        "pages": [
+         176
+        ],
+        "text": "Abu Nasr Forobiyning (873-950) to'liq ismi Abu Nasr Muhammad ibn Muhammad ibn Uzlug' Tarxon Forobiydir. Jahon madaniyatiga katta hissa qo'shgan mashhur faylasuf, qomusiy olim 873-yilda turkiy qabilalardan bo'lgan harbiy xizmatchi oilasida, Sirdaryoning o'ng qirg'og'idagi Forob (O'tror) shahrida tug'ilgan.\n\nU o'z zamonasining barcha ilmlarini mukammal egallagani va ular rivojiga katta hissa qo'shgani uchun Sharq mamlakatlarida \"Al-muallim as-soniy\" - \"Ikkinchi muallim\" (Aristoteldan keyin) va \"Sharq Arastusi\" unvonlariga sazovor bo'lgan. Ayrim ma'lumotlarga ko'ra, u 70 dan ortiq tilni bilgan. Forobiy o'rta asrlarda ma'lum bo'lgan tabiiy va ijtimoiy sohalarda 160 dan ortiq asar yaratgan."
+       },
+       {
+        "heading": "Asarlari va fozil jamiyat",
+        "pages": [
+         177
+        ],
+        "text": "Forobiyning ijtimoiy-siyosiy hayot, davlatni boshqarish, axloqiy tarbiya, fiqhshunoslik va pedagogikaga oid asarlari bor: \"Baxt-saodatga erishuv yo'llari\", \"Shaharni boshqarish\" (\"As-siyosat an-madaniya\"), \"Urush va tinch turmush haqida kitob\", \"Fazilatli xulqlar\" va boshqalar. U nafaqat Turon mutafakkirlari, balki yevropalik olimlardan ham bir necha asr ilgari adolatli jamiyat qurish nazariyasini yaratishga katta hissa qo'shgan. \"Fozil odamlar shahri\" risolasida jamiyatning kelib chiqishi, maqsad va vazifalari izchil yoritilgan; davlatni boshqarish, ta'lim-tarbiya, axloq, ma'rifat va diniy e'tiqodga oid qimmatli fikrlar bayon etilgan."
+       },
+       {
+        "heading": "Musiqa va ta'limot",
+        "pages": [
+         178
+        ],
+        "text": "Forobiy musiqani inson tarbiyasiga ta'sir qiluvchi omillardan biri deb bilgan: u musiqani insonga nafosat, estetik zavq bag'ishlovchi, his-tuyg'u va axloqni tarbiyalovchi muhim vosita deb hisoblagan. \"Musiqa haqida katta kitob\" ko'p jildli asarida musiqa nazariyasi va tarixi, asboblar, kuylar, tovushlar, ritmlar haqida ma'lumot bergan. Ibn Sino, Umar Xayyom, Beruniy va boshqa mutafakkirlar Forobiy ta'limotini chuqur o'rganib, yangi g'oyalar bilan boyitgan.\n\nForobiyning hikmati: \"Haqiqiy baxtga erishish maqsadida o'zaro yordam qiluvchi kishilarni birlashtirgan shahar - fazilatli shahar... Barcha xalqlar baxtga erishish uchun bir-birlariga yordam bersalar, butun yer yuzi fazilatli bo'ladi.\" U shahar-davlat rahbari bo'lishning ikki sharti: rahbarlik qobiliyati (ma'naviy va aqliy yetuklik) hamda xalq orasida hurmat qozonganlik va tajribani aytgan."
+       },
+       {
+        "heading": "Yunon falsafasi sharhlovchisi",
+        "pages": [
+         179
+        ],
+        "text": "Forobiy qadimgi yunon mutafakkirlari - Platon, Aristotel, Yevklid, Ptolemey, Porfiriylar asarlariga sharhlar yozgan; ayniqsa Aristotel asarlarini (\"Metafizika\", \"Etika\", \"Ritorika\", \"Sofistika\") batafsil izohlagan. Uning sharh yozish faoliyati nafaqat Sharqni, o'rta asr Yevropasini ham yunon ilmi bilan tanishtirishda katta rol o'ynagan. Asarlarini arab tilida yozgan; arab va fors tillarida falsafiy she'rlar ham yozgan. \"Aristotel \"Metafizika\" kitobining maqsadi to'g'risida\" risolasi ayniqsa mashhur: Ibn Sino Aristotelning \"Metafizika\"sini qirq bor o'qib tushuna olmagan, kitob bozoridan Forobiy risolasini arzimagan pulga sotib olib, tushunib, xursand bo'lib sadaqa ulashgan. Metafizika - \"fizikadan so'ng\" ma'nosini beradi."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Forobiy (873-950) Sirdaryo bo'yidagi Forob (O'tror) shahrida tug'ilgan",
+        "page": 176
+       },
+       {
+        "fact": "Forobiy \"Al-muallim as-soniy\" - \"Ikkinchi muallim\" unvonini olgan",
+        "page": 176
+       },
+       {
+        "fact": "Forobiy 160 dan ortiq asar yaratgan, 70 dan ortiq tilni bilgan",
+        "page": 176
+       },
+       {
+        "fact": "\"Fozil odamlar shahri\" asarida adolatli jamiyat nazariyasi bayon etilgan",
+        "page": 177
+       },
+       {
+        "fact": "Ibn Sino Aristotel \"Metafizika\"sini Forobiy risolasi orqali tushungan",
+        "page": 179
+       }
+      ],
+      "why": {
+       "causes": [
+        "Forobiy o'z zamonasining barcha ilmlarini mukammal egallagan",
+        "Aristotel asarlarini tushunish qiyin edi, sharhlar zarur bo'ldi",
+        "Forobiy musiqani inson tarbiyasi vositasi deb bilgan"
+       ],
+       "effects": [
+        "U Sharqda \"Ikkinchi muallim\" va \"Sharq Arastusi\" unvonlarini oldi",
+        "Yunon ilmi Sharq va o'rta asr Yevropasiga tanishtirildi",
+        "Ibn Sino, Xayyom, Beruniy Forobiy ta'limotini boyitdi",
+        "Adolatli, fazilatli jamiyat qurish nazariyasi yaratildi"
+       ]
+      },
+      "summary": "Abu Nasr Forobiy (873-950) Forob (O'tror)da tug'ilgan qomusiy olim va faylasuf, \"Ikkinchi muallim\" unvoni egasi. U 160 dan ortiq asar yozdi: \"Fozil odamlar shahri\", \"Shaharni boshqarish\", \"Musiqa haqida katta kitob\". Platon va Aristotel asarlariga sharhlar yozib, yunon ilmini Sharq va Yevropaga yetkazdi; Ibn Sino Forobiy risolasi orqali \"Metafizika\"ni tushundi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "51-52-mavzular. Abu Nasr Forobiy",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Hayoti",
+        "bullets": [
+         "873-950, Forob (O'tror)",
+         "\"Ikkinchi muallim\"",
+         "160 dan ortiq asar"
+        ],
+        "page": 176
+       },
+       {
+        "title": "Asarlari",
+        "bullets": [
+         "\"Fozil odamlar shahri\"",
+         "\"Shaharni boshqarish\"",
+         "\"Musiqa haqida katta kitob\""
+        ],
+        "page": 177
+       },
+       {
+        "title": "Fozil jamiyat",
+        "bullets": [
+         "O'zaro yordam",
+         "Baxtga erishish maqsadi",
+         "Rahbar: aql va hurmat"
+        ],
+        "page": 178
+       },
+       {
+        "title": "Sharhlar",
+        "bullets": [
+         "Platon, Aristotel, Yevklid",
+         "\"Metafizika\" risolasi",
+         "Ibn Sino hikoyasi"
+        ],
+        "page": 179
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Forobiyning tug'ilishi (873-yil)",
+         "page": 176
+        },
+        {
+         "label": "Forobiyning vafoti (950-yil)",
+         "page": 176
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Forob",
+         "right": "Forobiy tug'ilgan shahar (O'tror)",
+         "page": 176
+        },
+        {
+         "left": "Al-muallim as-soniy",
+         "right": "\"Ikkinchi muallim\" unvoni",
+         "page": 176
+        },
+        {
+         "left": "Fozil odamlar shahri",
+         "right": "Adolatli jamiyat nazariyasi risolasi",
+         "page": 177
+        },
+        {
+         "left": "Musiqa haqida katta kitob",
+         "right": "Forobiyning ko'p jildli musiqa asari",
+         "page": 178
+        },
+        {
+         "left": "Metafizika",
+         "right": "\"Fizikadan so'ng\" ma'nosidagi fan",
+         "page": 179
+        },
+        {
+         "left": "Ibn Sino",
+         "right": "Forobiy risolasi orqali Aristotelni tushungan alloma",
+         "page": 179
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Forobiy ____ shahrida tug'ilgan.",
+         "options": [
+          "Forob (O'tror)",
+          "Marv",
+          "Buxoro",
+          "Xiva"
+         ],
+         "correct_index": 0,
+         "page": 176
+        },
+        {
+         "question": "Forobiyga \"____ muallim\" unvoni berilgan.",
+         "options": [
+          "Ikkinchi",
+          "Birinchi",
+          "Uchinchi",
+          "Buyuk"
+         ],
+         "correct_index": 0,
+         "page": 176
+        },
+        {
+         "question": "Forobiy ____ dan ortiq asar yaratgan.",
+         "options": [
+          "160",
+          "16",
+          "600",
+          "6"
+         ],
+         "correct_index": 0,
+         "page": 176
+        },
+        {
+         "question": "Forobiyning mashhur risolasi \"Fozil odamlar ____i\".",
+         "options": [
+          "shahri",
+          "yo'li",
+          "kitobi",
+          "ilmi"
+         ],
+         "correct_index": 0,
+         "page": 177
+        },
+        {
+         "question": "Metafizika - \"____ so'ng\" degan ma'noni bildiradi.",
+         "options": [
+          "fizikadan",
+          "riyoziyotdan",
+          "falakiyotdan",
+          "tibbiyotdan"
+         ],
+         "correct_index": 0,
+         "page": 179
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Nima sababdan Abu Nasr Forobiy \"Al-muallim as-soniy\" deb e'tirof etilgan?",
+        "answer": "U o'z zamonasining barcha ilmlarini mukammal egallab, ular rivojiga katta hissa qo'shgan (Aristoteldan keyingi ikkinchi muallim).",
+        "page": 176
+       },
+       {
+        "question": "Birinchi muallim kim bo'lgan?",
+        "answer": "Aristotel.",
+        "page": 176
+       },
+       {
+        "question": "Ibn Sino Forobiyning kitobini topganidan nega bunchalar xursand bo'lgan?",
+        "answer": "Aristotelning \"Metafizika\"sini qirq bor o'qib ham tushuna olmagan; Forobiyning risolasi kitob maqsadini tushuntirib bergan.",
+        "page": 179
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Forobiy qaysi sohada rahbar bo'lishning ikki shartini aytgan?",
+        "options": [
+         "Shahar-davlatga rahbarlik",
+         "Savdo",
+         "Harbiy ish",
+         "Dehqonchilik"
+        ],
+        "correct_index": 0,
+        "page": 178
+       },
+       {
+        "question": "Forobiy asarlarini qaysi tilda yozgan?",
+        "options": [
+         "Arab tilida",
+         "Lotin tilida",
+         "Yunon tilida",
+         "Xitoy tilida"
+        ],
+        "correct_index": 0,
+        "page": 179
+       },
+       {
+        "question": "Forobiy musiqani nima deb hisoblagan?",
+        "options": [
+         "Inson tarbiyasi vositasi",
+         "Faqat o'yin-kulgi",
+         "Savdo vositasi",
+         "Harbiy qurol"
+        ],
+        "correct_index": 0,
+        "page": 178
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Forobiy qaysi yillarda yashagan?",
+       "options": [
+        "873-950",
+        "773-850",
+        "973-1050",
+        "673-750"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Forobiy qanday oilada tug'ilgan?",
+       "options": [
+        "Turkiy qabilalardan bo'lgan harbiy xizmatchi oilasida",
+        "Savdogar oilasida",
+        "Dehqon oilasida",
+        "Hukmdor oilasida"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Forob shahri qayerda joylashgan?",
+       "options": [
+        "Sirdaryoning o'ng qirg'og'ida",
+        "Amudaryo bo'yida",
+        "Zarafshon vodiysida",
+        "Orol bo'yida"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Forob shahrining boshqa nomi?",
+       "options": [
+        "O'tror",
+        "Yangikent",
+        "Taroz",
+        "Suyob"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Forobiyga yana qanday unvon berilgan?",
+       "options": [
+        "\"Sharq Arastusi\"",
+        "\"Imomi A'zam\"",
+        "\"Hujjatul islom\"",
+        "\"Jorulloh\""
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Ayrim ma'lumotlarga ko'ra, Forobiy nechtadan ortiq tilni bilgan?",
+       "options": [
+        "70 dan ortiq",
+        "7 dan ortiq",
+        "700 dan ortiq",
+        "2"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Forobiy nechtadan ortiq asar yaratgan?",
+       "options": [
+        "160 dan ortiq",
+        "16 dan ortiq",
+        "1600 dan ortiq",
+        "6 dan ortiq"
+       ],
+       "correct_index": 0,
+       "page": 176
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Forobiyning asari?",
+       "options": [
+        "\"Shaharni boshqarish\"",
+        "\"Qutadg'u bilig\"",
+        "\"Siyosatnoma\"",
+        "\"Hidoya\""
+       ],
+       "correct_index": 0,
+       "page": 177
+      },
+      {
+       "question": "\"Baxt-saodatga erishuv yo'llari\" kimning asari?",
+       "options": [
+        "Forobiyning",
+        "Beruniyning",
+        "Ibn Sinoning",
+        "Xorazmiyning"
+       ],
+       "correct_index": 0,
+       "page": 177
+      },
+      {
+       "question": "Forobiy adolatli jamiyat nazariyasini kimdan bir necha asr ilgari yaratishga hissa qo'shgan?",
+       "options": [
+        "Yevropalik olimlardan",
+        "Xitoy olimlaridan",
+        "Hind olimlaridan",
+        "Arab olimlaridan"
+       ],
+       "correct_index": 0,
+       "page": 177
+      },
+      {
+       "question": "\"Fozil odamlar shahri\" risolasida nimalar yoritilgan?",
+       "options": [
+        "Jamiyatning kelib chiqishi, maqsad va vazifalari, davlatni boshqarish, ta'lim-tarbiya, axloq",
+        "Faqat harbiy ish",
+        "Faqat savdo",
+        "Faqat astronomiya"
+       ],
+       "correct_index": 0,
+       "page": 177
+      },
+      {
+       "question": "Forobiy musiqani nima deb hisoblagan?",
+       "options": [
+        "Nafosat, estetik zavq bag'ishlovchi va axloqni tarbiyalovchi vosita",
+        "Faqat o'yin",
+        "Din ta'qiqi",
+        "Savdo vositasi"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Forobiyning musiqaga oid asari qanday nomlanadi?",
+       "options": [
+        "\"Musiqa haqida katta kitob\"",
+        "\"Musiqa asoslari\"",
+        "\"Kuy kitobi\"",
+        "\"Ohanglar\""
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Forobiy ta'limotini qaysi mutafakkirlar o'rganib, boyitgan?",
+       "options": [
+        "Ibn Sino, Umar Xayyom, Beruniy",
+        "Navoiy, Bobur",
+        "Xorazmiy, Farg'oniy",
+        "Narshaxiy, Qoshg'ariy"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Forobiyga ko'ra, barcha xalqlar baxtga erishish uchun nima qilsa, yer yuzi fazilatli bo'ladi?",
+       "options": [
+        "Bir-birlariga yordam bersa",
+        "Birlashib urush qilsa",
+        "Savdoni to'xtatsa",
+        "Yagona hukmdorga bo'ysunsa"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Shahar-davlat rahbari bo'lishning shartlaridan biri nima?",
+       "options": [
+        "Ma'naviy va aqliy yetuklik, rahbarlik qobiliyati",
+        "Boylik",
+        "Harbiy kuch",
+        "Katta oila"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Forobiy qaysi yunon mutafakkirlari asarlariga sharh yozgan?",
+       "options": [
+        "Platon, Aristotel, Yevklid, Ptolemey, Porfiriy",
+        "Gomer va Sofokl",
+        "Gerodot va Strabon",
+        "Arximed va Gerakl"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Forobiyning sharhlari nimaga xizmat qildi?",
+       "options": [
+        "Sharqni va o'rta asr Yevropasini yunon ilmi bilan tanishtirishga",
+        "Qo'shinni kuchaytirishga",
+        "Savdoni yo'lga qo'yishga",
+        "Davlat tuzishga"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Forobiy asarlarini asosan qaysi tilda yozgan?",
+       "options": [
+        "Arab tilida",
+        "Lotin tilida",
+        "Sug'd tilida",
+        "Yunon tilida"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Ibn Sino Aristotelning \"Metafizika\"sini necha marta o'qib tushuna olmagan?",
+       "options": [
+        "Qirq marta",
+        "Besh marta",
+        "Yuz marta",
+        "Ikki marta"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Ibn Sino Forobiy risolasini qayerdan sotib olgan?",
+       "options": [
+        "Kitob bozoridan",
+        "Kutubxonadan",
+        "Madrasadan",
+        "Do'stidan"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Ibn Sino Forobiy risolasini topganida nima qilgan?",
+       "options": [
+        "Shukr qilib, ro'za tutib, sadaqa ulashgan",
+        "Kitobni yoqib yuborgan",
+        "Sotib yuborgan",
+        "Boshqaga bergan"
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Metafizika so'zining lug'aviy ma'nosi nima?",
+       "options": [
+        "\"Fizikadan so'ng\"",
+        "\"Fizika asosi\"",
+        "\"Tabiat fani\"",
+        "\"Matematika\""
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Forobiyning \"Aristotel \\\"Metafizika\\\" kitobining maqsadi to'g'risida\" risolasi nimasi bilan mashhur?",
+       "options": [
+        "Aristotel kitobini tushunishga yordam bergani bilan",
+        "Musiqa nazariyasi bilan",
+        "Davlat qonunlari bilan",
+        "Tibbiyot bilan"
+       ],
+       "correct_index": 0,
+       "page": 179
+      }
+     ]
+    },
+    {
+     "key": "m53_54",
+     "title": "53-54-mavzular. Abu Rayhon Beruniy",
+     "start_page": 180,
+     "end_page": 185,
+     "explanation": {
+      "goals": [
+       "Beruniyning hayoti, ustozlari va asosiy asarlarini bilish",
+       "Beruniyning fanga qo'shgan hissasi va G'aznadagi faoliyatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Hayoti va asarlari",
+        "pages": [
+         180
+        ],
+        "text": "Abu Rayhon Muhammad ibn Ahmad Beruniy (973-yil, qadimgi Kot shahri - 1048-yil, G'azna) - ulug' o'zbek mutafakkir olimi, o'rta asrning buyuk daholaridan biri. U o'z zamonasining hamma fanlarini, birinchi navbatda falakiyot (astronomiya), fizika, riyoziyot (matematika), ilohiyot, ma'danshunoslikni puxta egallagan. Beruniy 150 dan ortiq asar yaratgan: \"Qadimgi xalqlardan qolgan yodgorliklar\", \"Hindiston\", \"Mineralogiya\", \"Geodeziya\" va boshqalar.\n\nBeruniy yerning dumaloq shaklda ekanligini asoslab berdi; 1029 ta yulduzning koordinatalari va kattaliklari qayd etilgan yulduzlar jadvalini hamda dunyoning geografik xaritasini tuzgan."
+       },
+       {
+        "heading": "Ilmiy fikrlari va ismi",
+        "pages": [
+         181
+        ],
+        "text": "Beruniy falakiyotga oid asarlarida Yerning Quyosh atrofida aylanishi haqidagi fikrni birinchi bo'lib ilgari surdi. U o'sha paytgacha noma'lum bo'lgan Amerika qit'asi mavjudligini taxmin qilib, o'z asarlarida bir necha bor yozgan; bu fikr XV-XVI asrlarda o'z tasdig'ini topdi. Amerikalik tarixchi Jorj Sarton XI asrni \"Beruniy asri\" deb ta'rifladi.\n\n\"Abu Rayhon\" - Rayhonning otasi, \"Muhammad\" - mutafakkirning o'z ismi, \"ibn Ahmad\" - Ahmadning o'g'li. Kot (Kat) shahrining tashqarisida tug'ilgani uchun \"Beruniy\" (\"tashqarilik\") taxallusi bilan atalgan. Ilk ustozi Abu Nasr ibn Iroq bo'lib, undan astronomiya, algebra va geometriyani o'rgangan (u 12 ta asarini shogirdiga bag'ishlagan). Ikkinchi ustozi Abu Sahl Iso al-Masihiy bilan Jurjonda tanishgan, undan tibbiyot, astronomiya va falsafani o'rgangan."
+       },
+       {
+        "heading": "Asarlari va qiyinchiliklari",
+        "pages": [
+         182,
+         183
+        ],
+        "text": "\"Kitob al-tafhim\" - Beruniyning astronomiya, fizika, matematika, geometriya va geografiyaga oid yirik asari. \"Qadimgi xalqlardan qolgan yodgorliklar\", \"Hindiston\", \"Mineralogiya\", \"Saydana\" asarlari unga o'z zamonasidayoq shuhrat keltirgan.\n\nXorazmdagi siyosiy ziddiyatlar sabab Beruniy 22 yoshida ona shahrini tark etib, Kaspiy dengizi janubidagi Jurjon va Ray shaharlarida nihoyatda faqirlikda kun kechirgan; puldor olimlar uning muhtojligi ustidan kulgan. Nemis sharqshunosi Zaxau uni \"arab adabiyoti okeanida yagona qoya\" deb atagan; akademik H. Abdullayev uni geologiya va mineralogiya fanlarining nazariyotchisi va asoschisi deb baholagan. Hind olimi Hamid Rizo \"Hindiston\" asarini klassik namuna deb atagan. \"Mineralogiya\"da minerallarning narx-navosi, shifobaxshlik xususiyatlari yoritilgan; Beruniy mehnatsiz shon-shavkatga erishgan kishini yalong'ochga o'xshatgan."
+       },
+       {
+        "heading": "G'aznada",
+        "pages": [
+         184
+        ],
+        "text": "Xorazm 1017-yil Mahmud G'aznaviy tomonidan zabt etilgach, ko'pchilik olimlar qatori Beruniy ham G'aznaga olib ketilgan. Mahmud G'aznaviy Beruniy va ba'zi olimlarga dastlab yaxshi munosabatda bo'lmagan, keyinchalik vaziyat o'zgargan: Sulton Mahmud Hindistonga qilgan yurishlarida Beruniyni munajjim sifatida yonida olib yurgan, shu ma'lumotlar asosida olim mashhur \"Hindiston\" asarini yozgan.\n\nBeruniyning ilmiy faoliyati Mahmudning o'g'li Mas'ud G'aznaviy (1030-1041) davrida yanada yuksaldi; Mas'udga bag'ishlab \"Qonuni Mas'udiy\"ni yaratgan. \"Saydana\"da mingdan ortiq dorivor modda nomini 30 tilda yozgan. Birinchi astronomik tajribalarini 16 yoshda Katda boshlagan; \"Qadimgi xalqlardan qolgan yodgorliklar\"ni 1000-yili tugallagan. 2009-yilda Venadagi BMT bo'limida Ibn Sino, Beruniy, Zokiriy Roziy va Umar Xayyom nomli pavilyon taqdim etilgan."
+       },
+       {
+        "heading": "Xotirasi",
+        "pages": [
+         185
+        ],
+        "text": "1957-yilda olim yashagan shahar Beruniy nomini oldi; Toshkent metrosidagi bekatga Beruniy nomi berildi; Toshkent va Xorazmda haykallari bor; 1973-yilda tavalludining 1000 yilligi keng nishonlandi; Oydagi vulqon va asteroid Beruniy sharafiga nomlangan; O'zbekiston Fanlar akademiyasi Sharqshunoslik institutiga Abu Rayhon Beruniy nomi berilgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Beruniy 973-yilda Kot shahrida tug'ilib, 1048-yilda G'aznada vafot etgan",
+        "page": 180
+       },
+       {
+        "fact": "U 150 dan ortiq asar yaratgan va 1029 ta yulduzli jadval tuzgan",
+        "page": 180
+       },
+       {
+        "fact": "J. Sarton XI asrni \"Beruniy asri\" deb atagan",
+        "page": 181
+       },
+       {
+        "fact": "Beruniy 22 yoshida Xorazmni tark etib, Jurjon va Rayda yashagan",
+        "page": 183
+       },
+       {
+        "fact": "1017-yilda Xorazm zabt etilgach, Beruniy G'aznaga olib ketilgan",
+        "page": 184
+       }
+      ],
+      "why": {
+       "causes": [
+        "Xorazmdagi siyosiy ziddiyatlar Beruniyni 22 yoshida ona shahrini tark etishga majbur qildi",
+        "1017-yilda Mahmud G'aznaviy Xorazmni zabt etdi",
+        "Beruniy ustozlaridan astronomiya, algebra, tibbiyot va falsafani o'rgandi"
+       ],
+       "effects": [
+        "Beruniy G'aznaga olib ketilib, Mahmud yurishlarida ishtirok etdi va \"Hindiston\"ni yozdi",
+        "Mas'ud davrida ilmiy faoliyati yuksalib, \"Qonuni Mas'udiy\" yaratildi",
+        "Yer aylanishi, Amerika qit'asi va yer dumaloqligi haqidagi fikrlari keyingi asrlarda tasdiqlandi",
+        "XI asr \"Beruniy asri\" deb ataldi; olim nomi Oy vulqoniga, shaharga, institutga berildi"
+       ]
+      },
+      "summary": "Abu Rayhon Beruniy (973-1048) 150 dan ortiq asar yozgan qomusiy olim: yer dumaloqligini, Yer aylanishi va Amerika qit'asi mavjudligi haqidagi fikrlarni ilgari surdi. Xorazmni tark etib, Jurjon, Rayda faqirlikda yashadi; 1017-yildan G'aznada Mahmud va Mas'ud homiyligida \"Hindiston\", \"Qonuni Mas'udiy\" va boshqa asarlarini yaratdi. Sarton XI asrni \"Beruniy asri\" deb atagan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "53-54-mavzular. Abu Rayhon Beruniy",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Hayoti",
+        "bullets": [
+         "973 - Kot; 1048 - G'azna",
+         "150 dan ortiq asar",
+         "1029 yulduz jadvali"
+        ],
+        "page": 180
+       },
+       {
+        "title": "Ilmiy fikrlari",
+        "bullets": [
+         "Yer dumaloq",
+         "Yer Quyosh atrofida aylanadi",
+         "Amerika qit'asini taxmin qilgan"
+        ],
+        "page": 181
+       },
+       {
+        "title": "Asarlari",
+        "bullets": [
+         "\"Qadimgi xalqlardan qolgan yodgorliklar\"",
+         "\"Hindiston\", \"Mineralogiya\"",
+         "\"Saydana\", \"Qonuni Mas'udiy\""
+        ],
+        "page": 182
+       },
+       {
+        "title": "G'aznada",
+        "bullets": [
+         "1017 - G'aznaga olib ketilgan",
+         "Mahmud yurishlarida munajjim",
+         "Mas'ud homiyligi"
+        ],
+        "page": 184
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Beruniyning tug'ilishi (973-yil)",
+         "page": 180
+        },
+        {
+         "label": "\"Qadimgi xalqlardan qolgan yodgorliklar\" asari tugallanadi (1000-yil)",
+         "page": 184
+        },
+        {
+         "label": "Xorazm zabt etilib, Beruniy G'aznaga olib ketiladi (1017-yil)",
+         "page": 184
+        },
+        {
+         "label": "Beruniyning vafoti (1048-yil)",
+         "page": 180
+        },
+        {
+         "label": "Beruniy tavalludining 1000 yilligi nishonlanadi (1973-yil)",
+         "page": 185
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Abu Nasr ibn Iroq",
+         "right": "Beruniyning ilk ustozi",
+         "page": 181
+        },
+        {
+         "left": "Abu Sahl al-Masihiy",
+         "right": "Beruniyning ikkinchi ustozi",
+         "page": 181
+        },
+        {
+         "left": "Kitob al-tafhim",
+         "right": "Beruniyning astronomiya, fizika, matematikaga oid yirik asari",
+         "page": 182
+        },
+        {
+         "left": "Hindiston",
+         "right": "Mahmud yurishlari ma'lumotlari asosida yozilgan asar",
+         "page": 184
+        },
+        {
+         "left": "Qonuni Mas'udiy",
+         "right": "Mas'ud G'aznaviyga bag'ishlangan asar",
+         "page": 184
+        },
+        {
+         "left": "Saydana",
+         "right": "Mingdan ortiq dorivor modda nomi keltirilgan tibbiy asar",
+         "page": 184
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Beruniy ____ yilda Kot shahrida tug'ilgan.",
+         "options": [
+          "973",
+          "873",
+          "1073",
+          "773"
+         ],
+         "correct_index": 0,
+         "page": 180
+        },
+        {
+         "question": "Beruniy ____ dan ortiq asar yaratgan.",
+         "options": [
+          "150",
+          "15",
+          "1500",
+          "50"
+         ],
+         "correct_index": 0,
+         "page": 180
+        },
+        {
+         "question": "Amerikalik tarixchi ____ XI asrni \"Beruniy asri\" deb ta'riflagan.",
+         "options": [
+          "Jorj Sarton",
+          "Zaxau",
+          "Krachkovskiy",
+          "Hamid Rizo"
+         ],
+         "correct_index": 0,
+         "page": 181
+        },
+        {
+         "question": "Beruniy ____ yoshida ona shahrini tark etgan.",
+         "options": [
+          "22",
+          "12",
+          "32",
+          "42"
+         ],
+         "correct_index": 0,
+         "page": 183
+        },
+        {
+         "question": "Beruniy G'aznaga ____ yilda olib ketilgan.",
+         "options": [
+          "1017",
+          "917",
+          "1117",
+          "817"
+         ],
+         "correct_index": 0,
+         "page": 184
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Beruniy G'aznaga qanday borib qoldi?",
+        "answer": "1017-yilda Mahmud G'aznaviy Xorazmni zabt etgach, boshqa olimlar qatori Beruniy ham G'aznaga olib ketilgan.",
+        "page": 184
+       },
+       {
+        "question": "Nima uchun J. Sarton XI asrni \"Beruniy asri\" deb ta'riflagan?",
+        "answer": "Beruniy o'z davrining deyarli barcha fanlarida buyuk kashfiyotlar qilgan va uning ilmiy merosi asrning ilm-fanini belgilagan.",
+        "page": 181
+       },
+       {
+        "question": "Beruniyning g'arbiy yarim sharda katta quruqlik borligi haqidagi fikri qaysi qit'aga tegishli?",
+        "answer": "Amerika qit'asiga.",
+        "page": 181
+       }
+      ],
+      "quiz": [
+       {
+        "question": "\"Beruniy\" taxallusi nimani anglatadi?",
+        "options": [
+         "Tashqarilik",
+         "Ichkarilik",
+         "Shimolliklik",
+         "Hakim"
+        ],
+        "correct_index": 0,
+        "page": 181
+       },
+       {
+        "question": "\"Qadimgi xalqlardan qolgan yodgorliklar\" qachon tugallangan?",
+        "options": [
+         "1000-yili",
+         "900-yili",
+         "1100-yili",
+         "800-yili"
+        ],
+        "correct_index": 0,
+        "page": 184
+       },
+       {
+        "question": "\"Saydana\"da nechta tilda dori nomlari yozilgan?",
+        "options": [
+         "30 ta",
+         "3 ta",
+         "300 ta",
+         "10 ta"
+        ],
+        "correct_index": 0,
+        "page": 184
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Beruniy qayerda tug'ilgan?",
+       "options": [
+        "Qadimgi Kot shahrida",
+        "Samarqandda",
+        "Buxoroda",
+        "Termizda"
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Beruniy qayerda vafot etgan?",
+       "options": [
+        "G'aznada",
+        "Kotda",
+        "Jurjonda",
+        "Rayda"
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Beruniy qaysi yillarda yashagan?",
+       "options": [
+        "973-1048",
+        "873-948",
+        "1073-1148",
+        "773-848"
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Beruniyning asari emas?",
+       "options": [
+        "\"Qutadg'u bilig\"",
+        "\"Hindiston\"",
+        "\"Mineralogiya\"",
+        "\"Geodeziya\""
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Beruniy tuzgan yulduzlar jadvalida nechta yulduz koordinatalari qayd etilgan?",
+       "options": [
+        "1029 ta",
+        "129 ta",
+        "10 029 ta",
+        "29 ta"
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Beruniy yer shakli haqida nimani asoslab berdi?",
+       "options": [
+        "Dumaloq ekanligini",
+        "Tekis ekanligini",
+        "Kub ekanligini",
+        "Cho'zinchoq ekanligini"
+       ],
+       "correct_index": 0,
+       "page": 180
+      },
+      {
+       "question": "Beruniy falakiyotga oid asarlarida qaysi fikrni birinchi bo'lib ilgari surdi?",
+       "options": [
+        "Yerning Quyosh atrofida aylanishi",
+        "Quyoshning Yer atrofida aylanishi",
+        "Oyning kichrayishi",
+        "Yulduzlarning harakatsizligi"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Beruniy qaysi qit'a mavjudligini taxmin qilgan?",
+       "options": [
+        "Amerika",
+        "Avstraliya",
+        "Antarktida",
+        "Afrika"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "XI asrni \"Beruniy asri\" deb kim atagan?",
+       "options": [
+        "Jorj Sarton",
+        "Hamid Rizo",
+        "Zaxau",
+        "I. Y. Krachkovskiy"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "\"Abu Rayhon\" nimani anglatadi?",
+       "options": [
+        "Rayhonning otasi",
+        "Rayhonning o'g'li",
+        "Rayhon shahri",
+        "Rayhon hukmdori"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Beruniyning ilk ustozi kim edi?",
+       "options": [
+        "Abu Nasr ibn Iroq",
+        "Abu Sahl al-Masihiy",
+        "Ibn Sino",
+        "Forobiy"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Abu Nasr ibn Iroq nechta asarini shogirdiga bag'ishlagan?",
+       "options": [
+        "12 ta",
+        "2 ta",
+        "100 ta",
+        "5 ta"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Beruniy ikkinchi ustozi bilan qayerda tanishgan?",
+       "options": [
+        "Jurjonda",
+        "Katda",
+        "G'aznada",
+        "Buxoroda"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "\"Kitob al-tafhim\" qaysi fanlarga oid asar?",
+       "options": [
+        "Astronomiya, fizika, matematika, geometriya, geografiya",
+        "Faqat tibbiyot",
+        "Faqat tarix",
+        "Faqat she'riyat"
+       ],
+       "correct_index": 0,
+       "page": 182
+      },
+      {
+       "question": "Beruniy Xorazmni nima sababdan tark etgan?",
+       "options": [
+        "Siyosiy ziddiyatlar va notinchlik sabab",
+        "Savdo uchun",
+        "Hajga ketgani uchun",
+        "Qamoqqa tushgani uchun"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Beruniy Xorazmni necha yoshda tark etgan?",
+       "options": [
+        "22 yoshda",
+        "12 yoshda",
+        "42 yoshda",
+        "62 yoshda"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Beruniy Jurjon va Rayda qanday hayot kechirgan?",
+       "options": [
+        "Nihoyatda faqirlikda",
+        "Boy-badavlat",
+        "Saroyda",
+        "Savdogar bo'lib"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Nemis sharqshunosi Zaxau Beruniyni qanday ta'riflagan?",
+       "options": [
+        "Arab adabiyoti okeanida yagona qoya",
+        "Eng boy olim",
+        "Eng yosh olim",
+        "Faqat tarixchi"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Akademik H. Abdullayev Beruniyni qaysi fanlarning asoschisi deb bilgan?",
+       "options": [
+        "Geologiya va mineralogiya",
+        "Algebra",
+        "Tibbiyot",
+        "Falsafa"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "\"Hindiston\" asarini baholagan hind olimi kim?",
+       "options": [
+        "Hamid Rizo",
+        "Zaxau",
+        "Sarton",
+        "Krachkovskiy"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Beruniy G'aznaga qachon olib ketilgan?",
+       "options": [
+        "1017-yilda",
+        "1000-yilda",
+        "1030-yilda",
+        "1048-yilda"
+       ],
+       "correct_index": 0,
+       "page": 184
+      },
+      {
+       "question": "Mahmud G'aznaviy Beruniyni Hindistonga yurishlarida kim sifatida olib yurgan?",
+       "options": [
+        "Munajjim sifatida",
+        "Sarkarda sifatida",
+        "Vazir sifatida",
+        "Elchi sifatida"
+       ],
+       "correct_index": 0,
+       "page": 184
+      },
+      {
+       "question": "\"Qonuni Mas'udiy\" kimga bag'ishlangan?",
+       "options": [
+        "Mas'ud G'aznaviyga",
+        "Mahmud G'aznaviyga",
+        "Alptegin",
+        "Ma'mun"
+       ],
+       "correct_index": 0,
+       "page": 184
+      },
+      {
+       "question": "Mas'ud G'aznaviy qaysi yillarda hukmronlik qilgan?",
+       "options": [
+        "1030-1041",
+        "930-941",
+        "1130-1141",
+        "830-841"
+       ],
+       "correct_index": 0,
+       "page": 184
+      },
+      {
+       "question": "Beruniy birinchi astronomik tajribalarini necha yoshda boshlagan?",
+       "options": [
+        "16 yoshda",
+        "6 yoshda",
+        "26 yoshda",
+        "46 yoshda"
+       ],
+       "correct_index": 0,
+       "page": 184
+      },
+      {
+       "question": "Beruniy nomi berilgan shahar qaysi yili shunday nomlangan?",
+       "options": [
+        "1957-yilda",
+        "1857-yilda",
+        "1997-yilda",
+        "1927-yilda"
+       ],
+       "correct_index": 0,
+       "page": 185
+      },
+      {
+       "question": "Beruniy tavalludining 1000 yilligi qachon nishonlangan?",
+       "options": [
+        "1973-yilda",
+        "1873-yilda",
+        "2003-yilda",
+        "1943-yilda"
+       ],
+       "correct_index": 0,
+       "page": 185
+      },
+      {
+       "question": "Beruniy sharafiga nimalar nomlangan?",
+       "options": [
+        "Oydagi vulqon va asteroid",
+        "Okean va dengiz",
+        "Daryo va ko'l",
+        "Yulduz turkumi"
+       ],
+       "correct_index": 0,
+       "page": 185
+      }
+     ]
+    },
+    {
+     "key": "m55_56",
+     "title": "55-56-mavzular. Abu Ali ibn Sino",
+     "start_page": 186,
+     "end_page": 188,
+     "explanation": {
+      "goals": [
+       "Ibn Sinoning hayoti, unvonlari va tibbiyotdagi xizmatlarini bilish",
+       "\"Tib qonunlari\"ning Yevropa va jahon tibbiyotidagi ahamiyatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Hayoti va unvonlari",
+        "pages": [
+         186
+        ],
+        "text": "Abu Ali al-Husayn ibn Abdulloh ibn al-Hasan ibn Ali (980-yil, Afshona qishlog'i - 1037-yil, Hamadon, Eron) - jahon fani taraqqiyotiga ulkan hissa qo'shgan buyuk qomusiy olim. Sharqda \"Shayx ar-rais\" (donishmandlar sardori), \"Sharaf al-mulk\" va \"Hakim al-vazir\" deb atalgan, G'arbda Avitsenna nomi bilan mashhur. Uning tibbiyotga doir asarlarida kasalliklarning kelib chiqish sabablari, tashxis, muolaja usullari, dorivor o'simliklar, parhez va jismoniy tarbiyaning ahamiyati yoritilgan.\n\nIbn Sino o'z davridagi fanlarning qariyb barchasi bilan shug'ullanib, asarlar yozgani uchun qomusiy olim sifatida tan olingan. \"Al-qonun fit-tib\" (\"Tib qonunlari\") asari XII asrdayoq lotinchaga tarjima qilinib, XVII asrgacha Yevropa tabobatida asosiy qo'llanma bo'lgan; \"Shayx ar-rais\" nomi eng avvalo uning buyuk faylasufligiga ishoradir. Hakimlar to'rtta bo'lgan: G'arbda Arastu va Iskandar, Sharqda Abu Nasr Forobiy bilan Abu Ali ibn Sino; Ibn Sino Forobiy kitoblari orqali unga shogird sanalgan."
+       },
+       {
+        "heading": "Merosi va tibbiy qarashlari",
+        "pages": [
+         187
+        ],
+        "text": "Ibn Sino ilmiy merosini o'rganish XIII asrga kelib jadal tus oldi va maxsus ilmiy yo'nalish - sinoshunoslik vujudga keldi. \"Tib qonunlari\" lotincha tarjimasi to'liq holda 40 marta nashr qilindi. XVIII asrda shved botanigi Karl Linney doimo yashil tropik daraxtni Ibn Sino sharafiga Avitsenniya deb atadi. Buxoro shahri va Afshona qishlog'ida allomaga haykal o'rnatildi, Belgiyaning Kortreyk shahrida ham (2000); Afshonada uning muzeyi ochildi; 1999-yilda Ibn Sino xalqaro jamg'armasi tuzildi.\n\nIbn Sino tibbiyot tarixida birinchi bo'lib vabo bilan ofatni farqlagan, yuqumli kasallar bilan og'riganlarni boshqalardan ajratib saqlashni ta'kidlagan. Bemorlarni davolashda uch narsaga: parhez, dorilar bilan davolash va tibbiy tadbirlarga (qon olish, zuluk, banka) ahamiyat berish kerakligini aytgan; shaxsiy gigiyena, uyqu va jismoniy mashqlarning kattaligini uqtirgan. U 10 yoshida Qur'oni karimni to'liq yod olgan, 13 yoshidan matematika, mantiq, fiqh, falsafa bilan shug'ullangan, 16-17 yoshida mashhur tabib bo'lgan."
+       },
+       {
+        "heading": "Aql tarozisi",
+        "pages": [
+         188
+        ],
+        "text": "Ibn Sino \"Risolatun fi taqsim al-mavjudot\" kitobida: \"Aql tarozisida o'lchanmagan har qanday bilim chin bo'lolmaydi, demak, u haqiqiy bilim emas\", deb aytgan. \"Tib qonunlari\"ning hoshiyalarida ko'plab sharhlar keltirilgan; asarning nodir nusxasi 1601-yilda ko'chirilgan. Oydagi kraterlardan biriga Ibn Sino nomi berilgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Ibn Sino 980-yilda Afshona qishlog'ida tug'ilgan, 1037-yilda Hamadonda vafot etgan",
+        "page": 186
+       },
+       {
+        "fact": "G'arbda u Avitsenna nomi bilan mashhur, Sharqda \"Shayx ar-rais\" deyilgan",
+        "page": 186
+       },
+       {
+        "fact": "\"Tib qonunlari\" XII asrda lotinchaga tarjima qilinib, XVII asrgacha Yevropa tabobatida asosiy qo'llanma bo'lgan",
+        "page": 186
+       },
+       {
+        "fact": "Ibn Sino birinchi bo'lib vabo bilan ofatni farqlagan va yuqumli bemorlarni ajratishni ta'kidlagan",
+        "page": 187
+       },
+       {
+        "fact": "Ibn Sino 10 yoshida Qur'oni karimni yod olgan, 16-17 yoshida mashhur tabib bo'lgan",
+        "page": 187
+       }
+      ],
+      "why": {
+       "causes": [
+        "Ibn Sino o'z davridagi fanlarning qariyb barchasini egallagan",
+        "U tabobatda kasalliklar sabablari va muolajalarini tizimli yoritgan",
+        "U Forobiy kitoblaridan o'rgangan va falsafani chuqur bilgan"
+       ],
+       "effects": [
+        "\"Tib qonunlari\" XVII asrgacha Yevropa tabobatining asosiy qo'llanmasi bo'ldi",
+        "Sinoshunoslik maxsus ilmiy yo'nalishi vujudga keldi",
+        "Allomaga haykallar o'rnatildi, daraxt (Avitsenniya) va Oy krateri uning nomi bilan atalgan",
+        "Yuqumli kasalliklarni ajratib saqlash g'oyasi tibbiyotda qo'llana boshladi"
+       ]
+      },
+      "summary": "Abu Ali ibn Sino (980-1037) - qomusiy olim, Sharqda \"Shayx ar-rais\", G'arbda Avitsenna. Uning \"Tib qonunlari\" XII asrda lotinchaga tarjima qilinib, XVII asrgacha Yevropada asosiy tibbiy qo'llanma bo'ldi. U vabo va ofatni farqlab, yuqumli bemorlarni ajratishni, parhez, gigiyena va mashqlarni ta'kidlagan; \"aql tarozisi\" g'oyasini ilgari surgan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "55-56-mavzular. Abu Ali ibn Sino",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Hayoti",
+        "bullets": [
+         "980 - Afshona; 1037 - Hamadon",
+         "\"Shayx ar-rais\"",
+         "G'arbda - Avitsenna"
+        ],
+        "page": 186
+       },
+       {
+        "title": "Tib qonunlari",
+        "bullets": [
+         "XII asrda lotin tiliga",
+         "XVII asrgacha Yevropada qo'llanma",
+         "40 marta to'liq nashr"
+        ],
+        "page": 187
+       },
+       {
+        "title": "Tibbiy qarashlar",
+        "bullets": [
+         "Vabo va ofatni farqlagan",
+         "Yuqumlilarni ajratish",
+         "Parhez, gigiyena, mashq"
+        ],
+        "page": 187
+       },
+       {
+        "title": "E'tirof",
+        "bullets": [
+         "Avitsenniya daraxti",
+         "Haykallar, muzey",
+         "Oy krateri"
+        ],
+        "page": 187
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Ibn Sinoning tug'ilishi (980-yil)",
+         "page": 186
+        },
+        {
+         "label": "\"Tib qonunlari\" lotinchaga tarjima qilinadi (XII asr)",
+         "page": 186
+        },
+        {
+         "label": "Ibn Sinoning vafoti (1037-yil)",
+         "page": 186
+        },
+        {
+         "label": "Ibn Sino xalqaro jamg'armasi tuziladi (1999-yil)",
+         "page": 187
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Shayx ar-rais",
+         "right": "\"Donishmandlar sardori\" unvoni",
+         "page": 186
+        },
+        {
+         "left": "Avitsenna",
+         "right": "Ibn Sinoning G'arbdagi nomi",
+         "page": 186
+        },
+        {
+         "left": "Al-qonun fit-tib",
+         "right": "Ibn Sinoning \"Tib qonunlari\" asari",
+         "page": 186
+        },
+        {
+         "left": "Karl Linney",
+         "right": "Daraxtni Ibn Sino sharafiga Avitsenniya deb atagan botanik",
+         "page": 187
+        },
+        {
+         "left": "Afshona",
+         "right": "Ibn Sino tug'ilgan qishloq va muzey joyi",
+         "page": 187
+        },
+        {
+         "left": "Sinoshunoslik",
+         "right": "Ibn Sino merosini o'rganuvchi ilmiy yo'nalish",
+         "page": 187
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Ibn Sino G'arbda ____ nomi bilan mashhur.",
+         "options": [
+          "Avitsenna",
+          "Alfraganus",
+          "Algoritm",
+          "Averroes"
+         ],
+         "correct_index": 0,
+         "page": 186
+        },
+        {
+         "question": "\"Tib qonunlari\" ____ asrdayoq lotinchaga tarjima qilingan.",
+         "options": [
+          "XII",
+          "VIII",
+          "XV",
+          "XIX"
+         ],
+         "correct_index": 0,
+         "page": 186
+        },
+        {
+         "question": "Ibn Sino ____ yoshida Qur'oni karimni to'liq yod olgan.",
+         "options": [
+          "10",
+          "5",
+          "20",
+          "15"
+         ],
+         "correct_index": 0,
+         "page": 187
+        },
+        {
+         "question": "Ibn Sino tibbiyot tarixida birinchi bo'lib ____ bilan ofatni farqlagan.",
+         "options": [
+          "vabo",
+          "gripp",
+          "sil",
+          "bezgak"
+         ],
+         "correct_index": 0,
+         "page": 187
+        },
+        {
+         "question": "Ibn Sino 980-yilda ____ qishlog'ida tug'ilgan.",
+         "options": [
+          "Afshona",
+          "Zamaxshar",
+          "Narshax",
+          "Bug'"
+         ],
+         "correct_index": 0,
+         "page": 186
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Ibn Sinoning qaysi xizmatlariga ko'ra Oydagi kraterlardan biriga uning nomi berilgan?",
+        "answer": "Tibbiyot, falsafa va boshqa fanlarda qomusiy olim sifatidagi jahon ahamiyatidagi xizmatlari uchun.",
+        "page": 188
+       },
+       {
+        "question": "\"Aql tarozisida o'lchanmagan bilim haqiqiy bilim emas\" - bu yerda alloma nimani nazarda tutgan?",
+        "answer": "Har qanday bilim aql va mantiq bilan tekshirilishi kerak; tekshirilmagan bilim ishonchsiz.",
+        "page": 188
+       },
+       {
+        "question": "Ibn Sino bemorlarni davolashda nimalarga ahamiyat bergan?",
+        "answer": "Ovqatlanish tartibi (parhez), dorilar bilan davolash va tibbiy tadbirlarga (qon olish, zuluk, banka); shuningdek gigiyena, uyqu va jismoniy mashqlarga.",
+        "page": 187
+       }
+      ],
+      "quiz": [
+       {
+        "question": "\"Tib qonunlari\" to'liq holda lotincha tarjimada necha marta nashr qilingan?",
+        "options": [
+         "40 marta",
+         "4 marta",
+         "400 marta",
+         "1 marta"
+        ],
+        "correct_index": 0,
+        "page": 187
+       },
+       {
+        "question": "Ibn Sino \"Metafizika\"ni tushunishda kimning kitoblaridan foydalangan (shogird sanalgan)?",
+        "options": [
+         "Forobiyning",
+         "Beruniyning",
+         "Xorazmiyning",
+         "Zamaxshariyning"
+        ],
+        "correct_index": 0,
+        "page": 186
+       },
+       {
+        "question": "Ibn Sino nechchi yoshida mashhur tabib bo'lib tanilgan?",
+        "options": [
+         "16-17 yoshida",
+         "30 yoshida",
+         "50 yoshida",
+         "8 yoshida"
+        ],
+        "correct_index": 0,
+        "page": 187
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Ibn Sino qaysi yillarda yashagan?",
+       "options": [
+        "980-1037",
+        "880-937",
+        "1080-1137",
+        "780-837"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Ibn Sino qayerda vafot etgan?",
+       "options": [
+        "Hamadon shahrida (Eron)",
+        "Buxoroda",
+        "G'aznada",
+        "Bag'dodda"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Sharqda Ibn Sino qanday nom bilan atalgan?",
+       "options": [
+        "\"Shayx ar-rais\"",
+        "\"Ikkinchi muallim\"",
+        "\"Imomi A'zam\"",
+        "\"Hujjatul islom\""
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "\"Shayx ar-rais\" nimani anglatadi?",
+       "options": [
+        "Donishmandlar sardori",
+        "Savdogarlar boshlig'i",
+        "Sarkarda",
+        "Hukmdor"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "G'arbda Ibn Sino qanday nom bilan mashhur?",
+       "options": [
+        "Avitsenna",
+        "Alfraganus",
+        "Algoritm",
+        "Averroes"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Ibn Sinoning tibbiy asari qanday nomlanadi?",
+       "options": [
+        "\"Al-qonun fit-tib\"",
+        "\"Al-jabr val-muqobala\"",
+        "\"Siyosatnoma\"",
+        "\"Kitob al-tafhim\""
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "\"Tib qonunlari\" qachon lotinchaga tarjima qilingan?",
+       "options": [
+        "XII asrda",
+        "VIII asrda",
+        "XV asrda",
+        "XIX asrda"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "\"Tib qonunlari\" Yevropa tabobatida qancha vaqt asosiy qo'llanma bo'lgan?",
+       "options": [
+        "XVII asrgacha",
+        "XIV asrgacha",
+        "XIX asrgacha",
+        "XX asrgacha"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Sharqda to'rt hakimdan ikkitasi kimlar?",
+       "options": [
+        "Forobiy va Ibn Sino",
+        "Beruniy va Xorazmiy",
+        "Zamaxshariy va Buxoriy",
+        "Farg'oniy va Termiziy"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Abu Nasr Forobiy vafoti bilan Ibn Sino tug'ilishi orasida necha yil farq bor?",
+       "options": [
+        "Ottiz yil",
+        "Uch yil",
+        "Yuz yil",
+        "Besh yil"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Ibn Sino merosini o'rganish qachon jadal tus oldi?",
+       "options": [
+        "XIII asrga kelib",
+        "VIII asrda",
+        "XVI asrda",
+        "XX asrda"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Karl Linney tropik daraxtni Ibn Sino sharafiga qanday atadi?",
+       "options": [
+        "Avitsenniya",
+        "Sinoniya",
+        "Hakimiya",
+        "Rayisiya"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Belgiyaning qaysi shahrida Ibn Sinoga haykal qo'yilgan?",
+       "options": [
+        "Kortreykda",
+        "Bryusselda",
+        "Antverpenda",
+        "Genta"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino tibbiyot tarixida birinchi bo'lib nimani farqlagan?",
+       "options": [
+        "Vabo bilan ofatni",
+        "Gripp bilan sovuq qotishni",
+        "Sil bilan bronxitni",
+        "Bezgak bilan isitmani"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino yuqumli kasallar haqida nimani ta'kidlagan?",
+       "options": [
+        "Ularni boshqalardan ajratib saqlashni",
+        "Ularni shaharga kiritmaslikni",
+        "Sovuq suv bilan davolashni",
+        "Faqat duo bilan davolashni"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino bemorlarni davolashda qaysi uch narsaga ahamiyat berish kerakligini aytgan?",
+       "options": [
+        "Parhez, dori va tibbiy tadbirlar",
+        "Faqat dori",
+        "Faqat duo",
+        "Faqat jarrohlik"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino necha yoshida Qur'oni karimni to'liq yod olgan?",
+       "options": [
+        "10 yoshida",
+        "5 yoshida",
+        "16 yoshida",
+        "20 yoshida"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino qaysi yoshdan boshlang'ich matematika, mantiq, fiqh, falsafa bilan shug'ullana boshlagan?",
+       "options": [
+        "13 yoshdan",
+        "5 yoshdan",
+        "20 yoshdan",
+        "30 yoshdan"
+       ],
+       "correct_index": 0,
+       "page": 187
+      },
+      {
+       "question": "Ibn Sino \"Risolatun fi taqsim al-mavjudot\"da nima degan?",
+       "options": [
+        "Aql tarozisida o'lchanmagan bilim haqiqiy bilim emas",
+        "Ilm faqat kitobda",
+        "Ilm faqat tajribada",
+        "Bilim kerak emas"
+       ],
+       "correct_index": 0,
+       "page": 188
+      },
+      {
+       "question": "\"Tib qonunlari\" nodir nusxasi qaysi yili ko'chirilgan?",
+       "options": [
+        "1601-yilda",
+        "1501-yilda",
+        "1701-yilda",
+        "1401-yilda"
+       ],
+       "correct_index": 0,
+       "page": 188
       }
      ]
     }

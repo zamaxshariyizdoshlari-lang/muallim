@@ -1,0 +1,111 @@
+{
+  "key": "m51_52", "title": "51-52-mavzular. Abu Nasr Forobiy", "start_page": 176, "end_page": 179,
+  "explanation": {
+    "goals": ["Forobiyning hayoti, \"Ikkinchi muallim\" unvoni va asarlarini bilish", "\"Fozil odamlar shahri\" g'oyalari va Forobiyning yunon faylasuflari merosini sharhlashdagi xizmatini tushuntirish"],
+    "blocks": [
+      { "heading": "Hayoti va unvonlari", "pages": [176],
+        "text": "Abu Nasr Forobiyning (873-950) to'liq ismi Abu Nasr Muhammad ibn Muhammad ibn Uzlug' Tarxon Forobiydir. Jahon madaniyatiga katta hissa qo'shgan mashhur faylasuf, qomusiy olim 873-yilda turkiy qabilalardan bo'lgan harbiy xizmatchi oilasida, Sirdaryoning o'ng qirg'og'idagi Forob (O'tror) shahrida tug'ilgan.\n\nU o'z zamonasining barcha ilmlarini mukammal egallagani va ular rivojiga katta hissa qo'shgani uchun Sharq mamlakatlarida \"Al-muallim as-soniy\" - \"Ikkinchi muallim\" (Aristoteldan keyin) va \"Sharq Arastusi\" unvonlariga sazovor bo'lgan. Ayrim ma'lumotlarga ko'ra, u 70 dan ortiq tilni bilgan. Forobiy o'rta asrlarda ma'lum bo'lgan tabiiy va ijtimoiy sohalarda 160 dan ortiq asar yaratgan." },
+      { "heading": "Asarlari va fozil jamiyat", "pages": [177],
+        "text": "Forobiyning ijtimoiy-siyosiy hayot, davlatni boshqarish, axloqiy tarbiya, fiqhshunoslik va pedagogikaga oid asarlari bor: \"Baxt-saodatga erishuv yo'llari\", \"Shaharni boshqarish\" (\"As-siyosat an-madaniya\"), \"Urush va tinch turmush haqida kitob\", \"Fazilatli xulqlar\" va boshqalar. U nafaqat Turon mutafakkirlari, balki yevropalik olimlardan ham bir necha asr ilgari adolatli jamiyat qurish nazariyasini yaratishga katta hissa qo'shgan. \"Fozil odamlar shahri\" risolasida jamiyatning kelib chiqishi, maqsad va vazifalari izchil yoritilgan; davlatni boshqarish, ta'lim-tarbiya, axloq, ma'rifat va diniy e'tiqodga oid qimmatli fikrlar bayon etilgan." },
+      { "heading": "Musiqa va ta'limot", "pages": [178],
+        "text": "Forobiy musiqani inson tarbiyasiga ta'sir qiluvchi omillardan biri deb bilgan: u musiqani insonga nafosat, estetik zavq bag'ishlovchi, his-tuyg'u va axloqni tarbiyalovchi muhim vosita deb hisoblagan. \"Musiqa haqida katta kitob\" ko'p jildli asarida musiqa nazariyasi va tarixi, asboblar, kuylar, tovushlar, ritmlar haqida ma'lumot bergan. Ibn Sino, Umar Xayyom, Beruniy va boshqa mutafakkirlar Forobiy ta'limotini chuqur o'rganib, yangi g'oyalar bilan boyitgan.\n\nForobiyning hikmati: \"Haqiqiy baxtga erishish maqsadida o'zaro yordam qiluvchi kishilarni birlashtirgan shahar - fazilatli shahar... Barcha xalqlar baxtga erishish uchun bir-birlariga yordam bersalar, butun yer yuzi fazilatli bo'ladi.\" U shahar-davlat rahbari bo'lishning ikki sharti: rahbarlik qobiliyati (ma'naviy va aqliy yetuklik) hamda xalq orasida hurmat qozonganlik va tajribani aytgan." },
+      { "heading": "Yunon falsafasi sharhlovchisi", "pages": [179],
+        "text": "Forobiy qadimgi yunon mutafakkirlari - Platon, Aristotel, Yevklid, Ptolemey, Porfiriylar asarlariga sharhlar yozgan; ayniqsa Aristotel asarlarini (\"Metafizika\", \"Etika\", \"Ritorika\", \"Sofistika\") batafsil izohlagan. Uning sharh yozish faoliyati nafaqat Sharqni, o'rta asr Yevropasini ham yunon ilmi bilan tanishtirishda katta rol o'ynagan. Asarlarini arab tilida yozgan; arab va fors tillarida falsafiy she'rlar ham yozgan. \"Aristotel \"Metafizika\" kitobining maqsadi to'g'risida\" risolasi ayniqsa mashhur: Ibn Sino Aristotelning \"Metafizika\"sini qirq bor o'qib tushuna olmagan, kitob bozoridan Forobiy risolasini arzimagan pulga sotib olib, tushunib, xursand bo'lib sadaqa ulashgan. Metafizika - \"fizikadan so'ng\" ma'nosini beradi." }
+    ],
+    "key_facts": [
+      { "fact": "Forobiy (873-950) Sirdaryo bo'yidagi Forob (O'tror) shahrida tug'ilgan", "page": 176 },
+      { "fact": "Forobiy \"Al-muallim as-soniy\" - \"Ikkinchi muallim\" unvonini olgan", "page": 176 },
+      { "fact": "Forobiy 160 dan ortiq asar yaratgan, 70 dan ortiq tilni bilgan", "page": 176 },
+      { "fact": "\"Fozil odamlar shahri\" asarida adolatli jamiyat nazariyasi bayon etilgan", "page": 177 },
+      { "fact": "Ibn Sino Aristotel \"Metafizika\"sini Forobiy risolasi orqali tushungan", "page": 179 }
+    ],
+    "why": {
+      "causes": [
+        "Forobiy o'z zamonasining barcha ilmlarini mukammal egallagan",
+        "Aristotel asarlarini tushunish qiyin edi, sharhlar zarur bo'ldi",
+        "Forobiy musiqani inson tarbiyasi vositasi deb bilgan"
+      ],
+      "effects": [
+        "U Sharqda \"Ikkinchi muallim\" va \"Sharq Arastusi\" unvonlarini oldi",
+        "Yunon ilmi Sharq va o'rta asr Yevropasiga tanishtirildi",
+        "Ibn Sino, Xayyom, Beruniy Forobiy ta'limotini boyitdi",
+        "Adolatli, fazilatli jamiyat qurish nazariyasi yaratildi"
+      ]
+    },
+    "summary": "Abu Nasr Forobiy (873-950) Forob (O'tror)da tug'ilgan qomusiy olim va faylasuf, \"Ikkinchi muallim\" unvoni egasi. U 160 dan ortiq asar yozdi: \"Fozil odamlar shahri\", \"Shaharni boshqarish\", \"Musiqa haqida katta kitob\". Platon va Aristotel asarlariga sharhlar yozib, yunon ilmini Sharq va Yevropaga yetkazdi; Ibn Sino Forobiy risolasi orqali \"Metafizika\"ni tushundi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "51-52-mavzular. Abu Nasr Forobiy", "bullets": [], "page": null },
+      { "title": "Hayoti", "bullets": ["873-950, Forob (O'tror)", "\"Ikkinchi muallim\"", "160 dan ortiq asar"], "page": 176 },
+      { "title": "Asarlari", "bullets": ["\"Fozil odamlar shahri\"", "\"Shaharni boshqarish\"", "\"Musiqa haqida katta kitob\""], "page": 177 },
+      { "title": "Fozil jamiyat", "bullets": ["O'zaro yordam", "Baxtga erishish maqsadi", "Rahbar: aql va hurmat"], "page": 178 },
+      { "title": "Sharhlar", "bullets": ["Platon, Aristotel, Yevklid", "\"Metafizika\" risolasi", "Ibn Sino hikoyasi"], "page": 179 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Forobiyning tug'ilishi (873-yil)", "page": 176 },
+        { "label": "Forobiyning vafoti (950-yil)", "page": 176 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Forob", "right": "Forobiy tug'ilgan shahar (O'tror)", "page": 176 },
+        { "left": "Al-muallim as-soniy", "right": "\"Ikkinchi muallim\" unvoni", "page": 176 },
+        { "left": "Fozil odamlar shahri", "right": "Adolatli jamiyat nazariyasi risolasi", "page": 177 },
+        { "left": "Musiqa haqida katta kitob", "right": "Forobiyning ko'p jildli musiqa asari", "page": 178 },
+        { "left": "Metafizika", "right": "\"Fizikadan so'ng\" ma'nosidagi fan", "page": 179 },
+        { "left": "Ibn Sino", "right": "Forobiy risolasi orqali Aristotelni tushungan alloma", "page": 179 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Forobiy ____ shahrida tug'ilgan.", "options": ["Forob (O'tror)", "Marv", "Buxoro", "Xiva"], "correct_index": 0, "page": 176 },
+        { "question": "Forobiyga \"____ muallim\" unvoni berilgan.", "options": ["Ikkinchi", "Birinchi", "Uchinchi", "Buyuk"], "correct_index": 0, "page": 176 },
+        { "question": "Forobiy ____ dan ortiq asar yaratgan.", "options": ["160", "16", "600", "6"], "correct_index": 0, "page": 176 },
+        { "question": "Forobiyning mashhur risolasi \"Fozil odamlar ____i\".", "options": ["shahri", "yo'li", "kitobi", "ilmi"], "correct_index": 0, "page": 177 },
+        { "question": "Metafizika - \"____ so'ng\" degan ma'noni bildiradi.", "options": ["fizikadan", "riyoziyotdan", "falakiyotdan", "tibbiyotdan"], "correct_index": 0, "page": 179 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Nima sababdan Abu Nasr Forobiy \"Al-muallim as-soniy\" deb e'tirof etilgan?", "answer": "U o'z zamonasining barcha ilmlarini mukammal egallab, ular rivojiga katta hissa qo'shgan (Aristoteldan keyingi ikkinchi muallim).", "page": 176 },
+      { "question": "Birinchi muallim kim bo'lgan?", "answer": "Aristotel.", "page": 176 },
+      { "question": "Ibn Sino Forobiyning kitobini topganidan nega bunchalar xursand bo'lgan?", "answer": "Aristotelning \"Metafizika\"sini qirq bor o'qib ham tushuna olmagan; Forobiyning risolasi kitob maqsadini tushuntirib bergan.", "page": 179 }
+    ],
+    "quiz": [
+      { "question": "Forobiy qaysi sohada rahbar bo'lishning ikki shartini aytgan?", "options": ["Shahar-davlatga rahbarlik", "Savdo", "Harbiy ish", "Dehqonchilik"], "correct_index": 0, "page": 178 },
+      { "question": "Forobiy asarlarini qaysi tilda yozgan?", "options": ["Arab tilida", "Lotin tilida", "Yunon tilida", "Xitoy tilida"], "correct_index": 0, "page": 179 },
+      { "question": "Forobiy musiqani nima deb hisoblagan?", "options": ["Inson tarbiyasi vositasi", "Faqat o'yin-kulgi", "Savdo vositasi", "Harbiy qurol"], "correct_index": 0, "page": 178 }
+    ]
+  },
+  "test": [
+    { "question": "Forobiy qaysi yillarda yashagan?", "options": ["873-950", "773-850", "973-1050", "673-750"], "correct_index": 0, "page": 176 },
+    { "question": "Forobiy qanday oilada tug'ilgan?", "options": ["Turkiy qabilalardan bo'lgan harbiy xizmatchi oilasida", "Savdogar oilasida", "Dehqon oilasida", "Hukmdor oilasida"], "correct_index": 0, "page": 176 },
+    { "question": "Forob shahri qayerda joylashgan?", "options": ["Sirdaryoning o'ng qirg'og'ida", "Amudaryo bo'yida", "Zarafshon vodiysida", "Orol bo'yida"], "correct_index": 0, "page": 176 },
+    { "question": "Forob shahrining boshqa nomi?", "options": ["O'tror", "Yangikent", "Taroz", "Suyob"], "correct_index": 0, "page": 176 },
+    { "question": "Forobiyga yana qanday unvon berilgan?", "options": ["\"Sharq Arastusi\"", "\"Imomi A'zam\"", "\"Hujjatul islom\"", "\"Jorulloh\""], "correct_index": 0, "page": 176 },
+    { "question": "Ayrim ma'lumotlarga ko'ra, Forobiy nechtadan ortiq tilni bilgan?", "options": ["70 dan ortiq", "7 dan ortiq", "700 dan ortiq", "2"], "correct_index": 0, "page": 176 },
+    { "question": "Forobiy nechtadan ortiq asar yaratgan?", "options": ["160 dan ortiq", "16 dan ortiq", "1600 dan ortiq", "6 dan ortiq"], "correct_index": 0, "page": 176 },
+    { "question": "Quyidagilardan qaysi biri Forobiyning asari?", "options": ["\"Shaharni boshqarish\"", "\"Qutadg'u bilig\"", "\"Siyosatnoma\"", "\"Hidoya\""], "correct_index": 0, "page": 177 },
+    { "question": "\"Baxt-saodatga erishuv yo'llari\" kimning asari?", "options": ["Forobiyning", "Beruniyning", "Ibn Sinoning", "Xorazmiyning"], "correct_index": 0, "page": 177 },
+    { "question": "Forobiy adolatli jamiyat nazariyasini kimdan bir necha asr ilgari yaratishga hissa qo'shgan?", "options": ["Yevropalik olimlardan", "Xitoy olimlaridan", "Hind olimlaridan", "Arab olimlaridan"], "correct_index": 0, "page": 177 },
+    { "question": "\"Fozil odamlar shahri\" risolasida nimalar yoritilgan?", "options": ["Jamiyatning kelib chiqishi, maqsad va vazifalari, davlatni boshqarish, ta'lim-tarbiya, axloq", "Faqat harbiy ish", "Faqat savdo", "Faqat astronomiya"], "correct_index": 0, "page": 177 },
+    { "question": "Forobiy musiqani nima deb hisoblagan?", "options": ["Nafosat, estetik zavq bag'ishlovchi va axloqni tarbiyalovchi vosita", "Faqat o'yin", "Din ta'qiqi", "Savdo vositasi"], "correct_index": 0, "page": 178 },
+    { "question": "Forobiyning musiqaga oid asari qanday nomlanadi?", "options": ["\"Musiqa haqida katta kitob\"", "\"Musiqa asoslari\"", "\"Kuy kitobi\"", "\"Ohanglar\""], "correct_index": 0, "page": 178 },
+    { "question": "Forobiy ta'limotini qaysi mutafakkirlar o'rganib, boyitgan?", "options": ["Ibn Sino, Umar Xayyom, Beruniy", "Navoiy, Bobur", "Xorazmiy, Farg'oniy", "Narshaxiy, Qoshg'ariy"], "correct_index": 0, "page": 178 },
+    { "question": "Forobiyga ko'ra, barcha xalqlar baxtga erishish uchun nima qilsa, yer yuzi fazilatli bo'ladi?", "options": ["Bir-birlariga yordam bersa", "Birlashib urush qilsa", "Savdoni to'xtatsa", "Yagona hukmdorga bo'ysunsa"], "correct_index": 0, "page": 178 },
+    { "question": "Shahar-davlat rahbari bo'lishning shartlaridan biri nima?", "options": ["Ma'naviy va aqliy yetuklik, rahbarlik qobiliyati", "Boylik", "Harbiy kuch", "Katta oila"], "correct_index": 0, "page": 178 },
+    { "question": "Forobiy qaysi yunon mutafakkirlari asarlariga sharh yozgan?", "options": ["Platon, Aristotel, Yevklid, Ptolemey, Porfiriy", "Gomer va Sofokl", "Gerodot va Strabon", "Arximed va Gerakl"], "correct_index": 0, "page": 179 },
+    { "question": "Forobiyning sharhlari nimaga xizmat qildi?", "options": ["Sharqni va o'rta asr Yevropasini yunon ilmi bilan tanishtirishga", "Qo'shinni kuchaytirishga", "Savdoni yo'lga qo'yishga", "Davlat tuzishga"], "correct_index": 0, "page": 179 },
+    { "question": "Forobiy asarlarini asosan qaysi tilda yozgan?", "options": ["Arab tilida", "Lotin tilida", "Sug'd tilida", "Yunon tilida"], "correct_index": 0, "page": 179 },
+    { "question": "Ibn Sino Aristotelning \"Metafizika\"sini necha marta o'qib tushuna olmagan?", "options": ["Qirq marta", "Besh marta", "Yuz marta", "Ikki marta"], "correct_index": 0, "page": 179 },
+    { "question": "Ibn Sino Forobiy risolasini qayerdan sotib olgan?", "options": ["Kitob bozoridan", "Kutubxonadan", "Madrasadan", "Do'stidan"], "correct_index": 0, "page": 179 },
+    { "question": "Ibn Sino Forobiy risolasini topganida nima qilgan?", "options": ["Shukr qilib, ro'za tutib, sadaqa ulashgan", "Kitobni yoqib yuborgan", "Sotib yuborgan", "Boshqaga bergan"], "correct_index": 0, "page": 179 },
+    { "question": "Metafizika so'zining lug'aviy ma'nosi nima?", "options": ["\"Fizikadan so'ng\"", "\"Fizika asosi\"", "\"Tabiat fani\"", "\"Matematika\""], "correct_index": 0, "page": 179 },
+    { "question": "Forobiyning \"Aristotel \\\"Metafizika\\\" kitobining maqsadi to'g'risida\" risolasi nimasi bilan mashhur?", "options": ["Aristotel kitobini tushunishga yordam bergani bilan", "Musiqa nazariyasi bilan", "Davlat qonunlari bilan", "Tibbiyot bilan"], "correct_index": 0, "page": 179 }
+  ]
+}

@@ -62,6 +62,7 @@ python manage.py createcachetable   # USE_DB_CACHE=1 bo'lsa
 python manage.py collectstatic --noinput
 python manage.py createsuperuser    # sizning admin hisobingiz - /admin/ ga shu bilan kirasiz
 python manage.py import_book content/qd6/book.json --user <admin_foydalanuvchi_nomi>
+python manage.py import_book content/ozb7/book.json --user <admin_foydalanuvchi_nomi>
 gunicorn config.wsgi:application --workers 3 --bind 127.0.0.1:8000
 ```
 Tekshirish: `python manage.py check --deploy` — ogohlantirishsiz bo'lishi kerak.

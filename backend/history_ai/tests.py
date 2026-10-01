@@ -770,7 +770,7 @@ class ShippedContentTests(TestCase):
         from django.conf import settings
         from .services.book_import import import_book_json
         admin = User.objects.create_user('kontent_admin', password='admin-parol-1', is_staff=True)
-        for folder in ('qd6', 'turk_a1'):
+        for folder in ('qd6', 'ozb7', 'turk_a1'):
             data = json.loads((Path(settings.BASE_DIR) / 'content' / folder / 'book.json').read_text(encoding='utf-8'))
             self.assertGreater(import_book_json(data, admin)['topics'], 0)
         plan = Lesson.objects.get(topic__key='p05').lesson_plan
@@ -778,3 +778,28 @@ class ShippedContentTests(TestCase):
         qs = GeneratedAsset.objects.get(topic__key='p05', kind=GeneratedAsset.KIND_TOPIC_TEST).data['questions']
         self.assertTrue(all(q['level'] in ('eslash', 'tushunish', 'qollash') for q in qs))
         self.assertTrue(all(q.get('tag') for q in qs))
+
+
+class ShuffleChoicesTests(TestCase):
+    def test_correct_answer_moves_and_index_follows(self):
+        from .services.enrichment import shuffle_choices
+        q = {'question': 'Savol?', 'options': ['to\'g\'ri', 'a', 'b', 'c'], 'correct_index': 0, 'page': 1}
+        out = shuffle_choices(q, 'seed')
+        self.assertEqual(sorted(out['options']), sorted(q['options']))
+        self.assertEqual(out['options'][out['correct_index']], 'to\'g\'ri')
+        self.assertEqual(shuffle_choices(q, 'seed'), out)  # deterministik
+
+    def test_positions_are_spread_out(self):
+        from .services.enrichment import shuffle_choices
+        idx = {
+            shuffle_choices({'question': f'S{i}?', 'options': ['t', 'a', 'b', 'c'], 'correct_index': 0}, 'x')['correct_index']
+            for i in range(40)
+        }
+        self.assertGreaterEqual(len(idx), 3)
+
+    def test_order_dependent_and_manual_questions_untouched(self):
+        from .services.enrichment import shuffle_choices
+        allq = {'question': 'S?', 'options': ['a', 'b', 'v', 'Hammasi to\'g\'ri'], 'correct_index': 0}
+        self.assertEqual(shuffle_choices(allq, 's'), allq)
+        manual = {'question': 'S?', 'options': ['a', 'b', 'v', 'g'], 'correct_index': 2}
+        self.assertEqual(shuffle_choices(manual, 's'), manual)

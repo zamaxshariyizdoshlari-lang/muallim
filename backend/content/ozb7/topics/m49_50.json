@@ -1,0 +1,114 @@
+{
+  "key": "m49_50", "title": "49-50-mavzular. Ahmad Farg'oniy", "start_page": 172, "end_page": 175,
+  "explanation": {
+    "goals": ["Ahmad Farg'oniyning hayoti, asarlari va astronomiyadagi xizmatlarini bilish", "\"Miqyosi Nil\" qurilmasi va uning soliq tizimidagi ahamiyatini tushuntirish"],
+    "blocks": [
+      { "heading": "Hayoti", "pages": [172],
+        "text": "Olimning to'liq ismi Abul Abbos Ahmad ibn Muhammad ibn Kasir al-Farg'oniy. Uning hayoti va ilmiy faoliyati haqida juda oz ma'lumot saqlangan. Ahmad Farg'oniy (797-865) Farg'ona vodiysining Qubo (Quva) qishlog'ida tug'ilgan. U avval Bag'doddagi rasadxonada ish olib bordi, so'ngra Damashqdagi rasadxonada osmon jismlari harakati va o'rnini aniqlash, yangicha \"Zij\" yaratish ishlariga rahbarlik qildi. Farg'oniy yunon astronomlari, jumladan Ptolemeyning \"Yulduzlar jadvali\" asaridagi ma'lumotlarni ko'rib chiqish hamda barcha asosiy joylarning geografik koordinatalarini yangidan aniqlash tadqiqotlarida faol ishtirok etdi." },
+      { "heading": "Asarlari va \"Alfraganus\"", "pages": [172, 173],
+        "text": "Farg'oniyning \"Astronomiya asoslari haqidagi kitob\" (\"Samoviy harakatlar va umumiy ilmi nujum\") asari o'rta asr musulmon Sharqida, so'ng Ispaniya orqali Yevropada astronomiya ilmining rivojini boshlab berdi. Asar XII asrda ikki marta lotin tiliga tarjima qilindi; XIII asrda boshqa Yevropa tillariga tarjima qilingach, uning nomi \"Alfraganus\" tarzida dunyoga tanildi. Boshqa asarlari: \"Usturlob yasash haqida kitob\", \"Al-Farg'oniy jadvallari\", \"Yetti iqlimni hisoblash haqida\", \"Oyning Yer ostida va ustida bo'lish vaqtlarini aniqlash haqida risola\".\n\nFarg'oniy arab tilidagi ilmiy atamashunoslikka, ayniqsa falakiyot, riyoziyot va geografiyaga oid atamalarni belgilashga katta hissa qo'shdi, ayrim astronomik asboblarni ixtiro etdi. 1998-yilda allomaning 1200 yillik tavalludi nishonlandi; 2007-yilda Qohirada unga haykal o'rnatildi; Oydagi kraterlardan biriga uning nomi berilgan (Yan Geveliy, 1647-yil, \"Selenografiya\")." },
+      { "heading": "\"Miqyosi Nil\"", "pages": [173, 174, 175],
+        "text": "Al-Farg'oniy 861-yilda Qohira yaqinidagi Ravzo (Roud) orolida \"nilometr\" - suv sathini belgilovchi uskuna yasagan; u ilk bor Nil daryosida sinalgani uchun shunday nom olgan. Misrda Nil hayot-mamot daryosi edi: mamlakat hududining atigi olti foizida dehqonchilik mumkin bo'lgan. Nil suv sathi tizginsiz edi: bir yil suv ko'tarilib hosil nobud bo'lsa, ikkinchi yil past bo'lib qurg'oqchilik bo'lgan; shunga qaramay soliqchilar har ikki holatda yer egalaridan birdek soliq talab qilgan.\n\nFarg'oniy Nil sathidagi o'zgarishni hisobga olib, daryodan uzoq-yaqinligiga qarab yerlar hosildorligi jadvalini tuzdi va shu asosda soliq tizimini yaratdi. \"Miqyosi Nil\" qurilmasi Misrda yangicha soliq miqdoriga asos soldi: suv ko'tarilsa daryoga yaqin dehqonlar kamroq, uzoqdagilar ko'proq, suv pasaysa aksincha soliq to'lagan. Bu qurilma sakkiz burchakli, usti doirasimon qubbali bino bo'lib, ichida marmar ustunda suv sathi chiziqlari bor; u hamon ishchi holatda saqlanadi, qoshida Farg'oniy haykali qo'yilgan. Yevropa Uyg'onish davri olimi Regiomontan XV asrda astronomiya ma'ruzalarini Farg'oniy asarlari asosida o'qigan; Farg'oniy nomi Dante va Shiller tomonidan tilga olinadi." }
+    ],
+    "key_facts": [
+      { "fact": "Ahmad Farg'oniy (797-865) Farg'onaning Quva qishlog'ida tug'ilgan", "page": 172 },
+      { "fact": "U Bag'dod va Damashq rasadxonalarida ishlab, yangi \"Zij\" yaratishga rahbarlik qilgan", "page": 172 },
+      { "fact": "Uning nomi Yevropada \"Alfraganus\" tarzida tanilgan", "page": 173 },
+      { "fact": "861-yilda Roud orolida \"nilometr\" - \"Miqyosi Nil\"ni yasagan", "page": 173 },
+      { "fact": "Oydagi kraterlardan biriga uning nomi berilgan", "page": 173 }
+    ],
+    "why": {
+      "causes": [
+        "Nil suv sathi tizginsiz bo'lib, hosildorlik yildan-yilga o'zgargan",
+        "Soliqchilar suv sathidan qat'i nazar yer egalaridan birdek soliq talab qilgan",
+        "Farg'oniy yulduzlar harakatini va Nil sathi o'zgarishini uzluksiz kuzatgan"
+      ],
+      "effects": [
+        "\"Miqyosi Nil\" qurilmasi yaratilib, suv sathi o'lchandi",
+        "Yerlar hosildorligi jadvali va adolatli soliq tizimi joriy etildi",
+        "\"Astronomiya asoslari\" lotin va Yevropa tillariga tarjima qilinib, Yevropada astronomiya rivojiga ta'sir ko'rsatdi",
+        "Farg'oniy nomi Oy krateriga berildi, Qohirada unga haykal o'rnatildi"
+      ]
+    },
+    "summary": "Ahmad Farg'oniy (797-865) Quvada tug'ilgan, Bag'dod va Damashq rasadxonalarida ishlagan buyuk astronom. Uning \"Astronomiya asoslari haqidagi kitob\"i XII-XIII asrlarda Yevropada \"Alfraganus\" nomi bilan tarqaldi. 861-yilda Misrdagi Roud orolida \"Miqyosi Nil\"ni yaratib, suv sathiga qarab adolatli soliq tizimini joriy etdi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "49-50-mavzular. Ahmad Farg'oniy", "bullets": [], "page": null },
+      { "title": "Hayoti", "bullets": ["797-865, Quva", "Bag'dod va Damashq rasadxonalari", "\"Zij\" yaratish"], "page": 172 },
+      { "title": "Asarlari", "bullets": ["\"Astronomiya asoslari haqidagi kitob\"", "Lotin tiliga tarjima (XII asr)", "\"Alfraganus\""], "page": 173 },
+      { "title": "Miqyosi Nil", "bullets": ["861 - Roud oroli", "Suv sathini o'lchash", "Yerlar hosildorligi va soliq"], "page": 174 },
+      { "title": "E'tirof", "bullets": ["Oyda krater", "Qohirada haykal (2007)", "1200 yillik (1998)"], "page": 173 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Ahmad Farg'oniy hayoti (797-865)", "page": 172 },
+        { "label": "Roud orolida \"Miqyosi Nil\" qurilishi (861-yil)", "page": 173 },
+        { "label": "Yan Geveliy \"Selenografiya\" kitobida krater nomlaydi (1647-yil)", "page": 174 },
+        { "label": "Allomaning 1200 yilligi nishonlanadi (1998-yil)", "page": 173 },
+        { "label": "Qohirada Farg'oniyga haykal o'rnatiladi (2007-yil)", "page": 173 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Alfraganus", "right": "Farg'oniy nomining Yevropadagi shakli", "page": 173 },
+        { "left": "Nilometr", "right": "Suv sathini belgilovchi uskuna", "page": 173 },
+        { "left": "Quva (Qubo)", "right": "Farg'oniy tug'ilgan qishloq", "page": 172 },
+        { "left": "Ptolemey", "right": "\"Yulduzlar jadvali\" muallifi, yunon astronomi", "page": 172 },
+        { "left": "Regiomontan", "right": "Farg'oniy asarlari asosida ma'ruza o'qigan Yevropa olimi", "page": 174 },
+        { "left": "Yan Geveliy", "right": "Oydagi kraterni Farg'oniy nomi bilan atagan astronom", "page": 174 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Farg'oniy ____ qishlog'ida tug'ilgan.", "options": ["Quva", "Marg'ilon", "Rishton", "Axsikat"], "correct_index": 0, "page": 172 },
+        { "question": "Farg'oniy ____ yilda Nilda suv sathini o'lchaydigan qurilma yasagan.", "options": ["861", "761", "961", "661"], "correct_index": 0, "page": 173 },
+        { "question": "Farg'oniy nomi Yevropada ____ tarzida tanildi.", "options": ["Alfraganus", "Algoritm", "Avitsenna", "Averroes"], "correct_index": 0, "page": 173 },
+        { "question": "Misr hududining atigi ____ foizida dehqonchilik qilish mumkin bo'lgan.", "options": ["olti", "oltmish", "ellik", "yigirma"], "correct_index": 0, "page": 174 },
+        { "question": "\"Miqyosi Nil\" binosi ____ burchakli.", "options": ["sakkiz", "to'rt", "olti", "uch"], "correct_index": 0, "page": 175 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Ahmad al-Farg'oniyning ilm-fan rivojidagi o'rni nimada bo'lgan?", "answer": "Astronomiya rivojiga hissa qo'shgan, \"Astronomiya asoslari\" kitobi Yevropada astronomiya rivojini boshlab bergan, ilmiy atamalarni belgilagan, astronomik asboblar va \"Miqyosi Nil\"ni yaratgan.", "page": 173 },
+      { "question": "\"Miqyosi Nil\" qurilmasi haqida nimalarni bilib oldingiz?", "answer": "Roud orolidagi sakkiz burchakli qubbali bino; ichida suv sathini o'lchaydigan marmar ustun bor; suv sathiga qarab soliq miqdori hisoblangan va qurilma hamon saqlanadi.", "page": 175 },
+      { "question": "Al-Farg'oniy fanning qaysi sohalarini yaxshi bilgan?", "answer": "Astronomiya (falakiyot), matematika (riyoziyot), geografiya va asboblar yasash.", "page": 173 }
+    ],
+    "quiz": [
+      { "question": "Farg'oniy avval qaysi shaharda rasadxonada ishlagan?", "options": ["Bag'doddagi", "Samarqanddagi", "Marvdagi", "Qohiradagi"], "correct_index": 0, "page": 172 },
+      { "question": "Farg'oniyning asari XII asrda qaysi tilga tarjima qilingan?", "options": ["Lotin tiliga", "Rus tiliga", "Fransuz tiliga", "Ingliz tiliga"], "correct_index": 0, "page": 173 },
+      { "question": "Soliq tizimini Farg'oniy nimaga asoslab yaratgan?", "options": ["Nil sathi va daryodan uzoq-yaqinlikka qarab yer hosildorligi jadvaliga", "Aholi soniga", "Savdo hajmiga", "Qo'shin hajmiga"], "correct_index": 0, "page": 174 }
+    ]
+  },
+  "test": [
+    { "question": "Farg'oniyning to'liq ismi qanday?", "options": ["Abul Abbos Ahmad ibn Muhammad ibn Kasir al-Farg'oniy", "Abu Nasr Muhammad", "Abu Ali Husayn", "Abu Rayhon Ahmad"], "correct_index": 0, "page": 172 },
+    { "question": "Farg'oniy haqida qanday ma'lumotlar saqlangan?", "options": ["Juda oz", "Juda ko'p", "Hech qanday", "Faqat tug'ilgan yili"], "correct_index": 0, "page": 172 },
+    { "question": "Ahmad Farg'oniy qaysi yillarda yashagan?", "options": ["797-865", "697-765", "897-965", "997-1065"], "correct_index": 0, "page": 172 },
+    { "question": "Damashqdagi rasadxonada Farg'oniy nimaga rahbarlik qildi?", "options": ["Osmon jismlari o'rnini aniqlash va yangicha Zij yaratishga", "Kutubxona qurishga", "Madrasa ochishga", "Yo'l solishga"], "correct_index": 0, "page": 172 },
+    { "question": "Farg'oniy qaysi yunon astronomining \"Yulduzlar jadvali\"dagi ma'lumotlarini ko'rib chiqishda ishtirok etdi?", "options": ["Ptolemeyning", "Aristotelning", "Yevklidning", "Pifagorning"], "correct_index": 0, "page": 172 },
+    { "question": "Farg'oniy asari o'rta asr Yevropasiga qaysi mamlakat orqali kirib bordi?", "options": ["Ispaniya orqali", "Italiya orqali", "Fransiya orqali", "Rim orqali"], "correct_index": 0, "page": 172 },
+    { "question": "\"Astronomiya asoslari haqidagi kitob\" yana qanday nomlanadi?", "options": ["\"Samoviy harakatlar va umumiy ilmi nujum\"", "\"Al-jabr\"", "\"Al-Mufassal\"", "\"Qonun\""], "correct_index": 0, "page": 173 },
+    { "question": "Asar XII asrda necha marta lotin tiliga tarjima qilindi?", "options": ["Ikki marta", "Bir marta", "Besh marta", "Hech qachon"], "correct_index": 0, "page": 173 },
+    { "question": "Farg'oniy nomi Yevropada qachondan \"Alfraganus\" tarzida tanildi?", "options": ["XIII asrda boshqa tillarga tarjimadan so'ng", "X asrda", "XV asrda", "XVIII asrda"], "correct_index": 0, "page": 173 },
+    { "question": "Quyidagilardan qaysi biri Farg'oniyning asari emas?", "options": ["\"Qutadg'u bilig\"", "\"Usturlob yasash haqida kitob\"", "\"Yetti iqlimni hisoblash haqida\"", "\"Al-Farg'oniy jadvallari\""], "correct_index": 0, "page": 173 },
+    { "question": "Farg'oniy ilmiy atamashunoslikda qaysi sohalar atamalarini belgilashga hissa qo'shgan?", "options": ["Falakiyot, riyoziyot va geografiya", "Tibbiyot va farmakologiya", "Tarix va huquq", "San'at va musiqa"], "correct_index": 0, "page": 173 },
+    { "question": "Nilometr qaysi orolda yasalgan?", "options": ["Ravzo (Roud) orolida", "Krit orolida", "Sitsiliyada", "Kipr orolida"], "correct_index": 0, "page": 173 },
+    { "question": "Nilometr nima uchun shunday nom olgan?", "options": ["Ilk bor Nil daryosida sinalgani uchun", "Muallifi Nil ismli bo'lgani uchun", "Misr hukmdori nomi bilan", "Qadimiy nom bo'lgani uchun"], "correct_index": 0, "page": 173 },
+    { "question": "Allomaning 1200 yillik tavalludi qachon nishonlandi?", "options": ["1998-yilda", "1898-yilda", "2008-yilda", "1978-yilda"], "correct_index": 0, "page": 173 },
+    { "question": "Farg'oniyga haykal Qohirada qachon o'rnatildi?", "options": ["2007-yilda", "1907-yilda", "1998-yilda", "2017-yilda"], "correct_index": 0, "page": 173 },
+    { "question": "Misr hududining necha foizida dehqonchilik qilish mumkin bo'lgan?", "options": ["Atigi olti foizida", "Oltmish foizida", "Yarmida", "To'liq"], "correct_index": 0, "page": 174 },
+    { "question": "Nil suv sathi o'zgarishi dehqonlarga qanday ta'sir qilgan?", "options": ["Suv ko'tarilsa hosil nobud bo'lgan, pasaysa qurg'oqchilik bo'lgan", "Hosil doim mo'l bo'lgan", "Ta'sir qilmagan", "Faqat savdoga ta'sir qilgan"], "correct_index": 0, "page": 174 },
+    { "question": "Soliqchilar qanday talab qilgan?", "options": ["Har ikki holatda yer egalaridan birdek soliq", "Soliqni kamaytirgan", "Faqat daryoga yaqinlardan", "Hech kimdan olmagan"], "correct_index": 0, "page": 174 },
+    { "question": "Farg'oniy soliq tizimini nimaga qarab yaratdi?", "options": ["Yerlarning daryodan uzoq-yaqinligiga qarab hosildorlik jadvaliga", "Dehqonning yoshiga", "Yer maydoniga faqat", "Mol soniga"], "correct_index": 0, "page": 174 },
+    { "question": "Regiomontan XV asrda astronomiya ma'ruzalarini kimning asarlari asosida o'qigan?", "options": ["Farg'oniyning", "Xorazmiyning", "Beruniyning", "Ibn Sinoning"], "correct_index": 0, "page": 174 },
+    { "question": "Farg'oniy nomini qaysi shoirlar tilga olgan?", "options": ["Dante va Shiller", "Gomer va Vergiliy", "Navoiy va Hofiz", "Shekspir va Gyote"], "correct_index": 0, "page": 174 },
+    { "question": "Oydagi kraterlardan biriga Farg'oniy nomini kim bergan?", "options": ["Yan Geveliy", "Galiley", "Kepler", "Regiomontan"], "correct_index": 0, "page": 174 },
+    { "question": "Geveliy \"Selenografiya\"ni qaysi yili nashr qilgan?", "options": ["1647-yili", "1547-yili", "1747-yili", "1447-yili"], "correct_index": 0, "page": 174 },
+    { "question": "\"Miqyosi Nil\" binosi qanday shaklda?", "options": ["Sakkiz burchakli, usti doirasimon qubbali", "To'rtburchak, tekis tomli", "Dumaloq minora", "Piramida"], "correct_index": 0, "page": 175 },
+    { "question": "\"Miqyosi Nil\" ichidagi marmar ustunda nima bor?", "options": ["Suv sathi o'lchov chiziqlari", "Hukmdor tasviri", "Yulduz xaritasi", "Qonunlar"], "correct_index": 0, "page": 175 },
+    { "question": "Suv sathi ko'tarilsa soliq kimlardan kamroq olingan?", "options": ["Yeri daryoga yaqin dehqonlardan", "Yeri uzoq dehqonlardan", "Savdogarlardan", "Hunarmandlardan"], "correct_index": 0, "page": 175 }
+  ]
+}
