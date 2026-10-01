@@ -1,0 +1,114 @@
+{
+  "key": "m41_42", "title": "41-42-mavzular. Ta'lim", "start_page": 147, "end_page": 150,
+  "explanation": {
+    "goals": ["Turonda madrasalar, maktablar va ta'lim tizimining rivojini bilish", "G'azzoliy, Kaykovus va Istaxriy fikrlari orqali ilm-ma'rifat qadrini tushuntirish"],
+    "blocks": [
+      { "heading": "Ilm odobi", "pages": [147],
+        "text": "Abu Homid G'azzoliy (1058-1111) o'z davrida \"Hujjatul islom\" (islom dalili) nomi bilan mashhur bo'lgan; Sharq va G'arbda ilohiyotchi, faylasuf sifatida tanilgan. \"Ihyou ulumid-din\" asarining \"Ilm kitobi\" qismida ta'lim oluvchi va beruvchi odoblari haqida fikrlar bayon qilgan: \"Ilmning avvali sukut qilish, keyin tinglash, keyin uni yod olish, keyin unga amal qilish, keyin esa tarqatish - boshqalarga o'rgatishdir.\" U dunyoviy va diniy ilmlarni faqat qalbi ezgulikka limmo-lim insonlarga o'rgatish lozim, ilm faqat ezgulikka xizmat qilishi kerak, degan fikrni ilgari surgan." },
+      { "heading": "Madrasalar va savodxonlik", "pages": [148, 149],
+        "text": "Turonda islomga qadar ham bir necha asrlar davomida shakllangan ta'lim tizimi mavjud edi. Islom mafkurasi o'rnatilishi natijasida mahalliy ta'lim tizimida \"madrasa\" deb atalgan oliy ta'lim muassasalari paydo bo'ldi. Ilk oliy o'quv yurti VIII-IX asrlarda Buxoroda paydo bo'lgan; eng mashhuri Farjak madrasasi (937-yili yonib ketgan). Samarqandda X asrda 17 ta madrasa tashkil etilgan. \"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari \"majlis\" deb atalgan, ularda shayx, hakim yoki ustoz dars bergan.\n\nSavodxonlik yuksak darajada bo'lgan: Mug' tog'idan topilgan hujjat VIII asrdagi voqealar haqida so'zlaydi, uni Divashtichning quli yozgan - bu qullarning ham savodli bo'lishiga e'tibor qaratilganini ko'rsatadi. Sug'd yozuvi ish yuritish, savdo va madaniy aloqalarda katta ahamiyatga ega bo'lib, qadimgi uyg'ur, mo'g'ul va manjur yozuvlari paydo bo'lishiga asos bo'lgan. Eftaliylar davrida sug'dcha, xorazmcha, buxorocha, karoshti, eftaliycha yozuvlar mavjud bo'lgan." },
+      { "heading": "Madrasa tizimi", "pages": [149, 150],
+        "text": "Qutayba ibn Muslim davrida Buxoro hisori ichida jome masjidi va madrasa bino qilingan; Afshona qishlog'ining ekin yerlari va biyobonlari madrasa talabalariga vaqf qilingan. Madrasalar ta'minoti pul, g'alla yoki aralash holda amalga oshirilgan. Har bir madrasa huzurida boshlang'ich maktablar bo'lgan: boshlang'ich ta'limda 6 yoshdan 12 yoshgacha bolalar o'qitilgan; madrasada ta'lim 12-14 yoshdan boshlangan. Ta'lim aslida bepul bo'lgan; nizomiya madrasalarida talabalarga stipendiya berilgan.\n\nIstaxriy (850-934) \"Kitob masolik va-l-mamolik\"da xorazmliklarning ilmga o'chligini: \"Hozir Bag'dodda biror olim yo'qki, uning xorazmlik shogirdi bo'lmasin\", deb yozgan. IX asr boshlarida Balxda 400 ta madrasa va 900 ta maktab bo'lgan. Xorazmshoh Anushtegin davrida jami 4440 ta, faqat Gurganchning o'zida 700 ta madrasa bo'lgan. Turon Uyg'onish davrining xususiyati matematika, astronomiya, fizika, kimyo, geodeziya, farmakologiya, tibbiyot kabi aniq va tabiiy fanlar hamda tarix, falsafa, adabiyotning rivojlanishida namoyon bo'ldi." }
+    ],
+    "key_facts": [
+      { "fact": "G'azzoliy (1058-1111) \"Hujjatul islom\" nomi bilan mashhur bo'lgan", "page": 147 },
+      { "fact": "Ilk oliy o'quv yurti VIII-IX asrlarda Buxoroda paydo bo'lgan; Farjak madrasasi 937-yili yonib ketgan", "page": 148 },
+      { "fact": "Samarqandda X asrda 17 ta madrasa tashkil etilgan", "page": 148 },
+      { "fact": "Boshlang'ich ta'limda 6 yoshdan 12 yoshgacha bolalar o'qitilgan, ta'lim bepul bo'lgan", "page": 149 },
+      { "fact": "IX asr boshlarida Balxda 400 ta madrasa va 900 ta maktab bo'lgan", "page": 150 }
+    ],
+    "why": {
+      "causes": [
+        "Islom mafkurasi o'rnatilishi natijasida oliy ta'lim muassasalari - madrasalarga ehtiyoj tug'ildi",
+        "Turonda islomdan oldin ham bir necha asrlik ta'lim an'anasi mavjud edi",
+        "Madrasalar ta'minoti uchun yer va mablag' vaqf qilindi"
+      ],
+      "effects": [
+        "Buxoro, Samarqand, Balx, Gurganchda yuzlab madrasa va maktablar ochildi",
+        "Ta'lim bepul bo'lib, madrasalarda talabalarga stipendiya berildi",
+        "Turonda aniq va tabiiy fanlar, tarix, falsafa va adabiyot rivojlandi (Uyg'onish)",
+        "Xorazmlik shogirdlar Bag'doddagi olimlar orasida keng tarqaldi"
+      ]
+    },
+    "summary": "Turonda islomdan oldin ham ta'lim tizimi bor edi; islom bilan madrasalar - oliy o'quv yurtlari paydo bo'ldi (Buxoro VIII-IX asr, Samarqand X asr 17 ta). Madrasalar vaqf hisobidan ta'minlanib, ta'lim bepul bo'lgan; Balxda 400 madrasa va 900 maktab bo'lgan. G'azzoliy ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "41-42-mavzular. Ta'lim", "bullets": [], "page": null },
+      { "title": "G'azzoliy", "bullets": ["1058-1111", "\"Hujjatul islom\"", "Ilm ezgulikka xizmat qilsin"], "page": 147 },
+      { "title": "Madrasa", "bullets": ["VIII-IX asr Buxoro", "Farjak madrasasi (937)", "Samarqandda 17 madrasa"], "page": 148 },
+      { "title": "Ta'lim tizimi", "bullets": ["Boshlang'ich: 6-12 yosh", "Madrasa: 12-14 yoshdan", "Bepul, stipendiya"], "page": 149 },
+      { "title": "Uyg'onish", "bullets": ["Balxda 400 madrasa", "Gurganchda 700 madrasa", "Aniq va tabiiy fanlar"], "page": 150 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Ilk oliy o'quv yurti Buxoroda paydo bo'ladi (VIII-IX asrlar)", "page": 148 },
+        { "label": "Farjak madrasasi yonib ketadi (937-yil)", "page": 148 },
+        { "label": "Samarqandda 17 ta madrasa tashkil etiladi (X asr)", "page": 148 },
+        { "label": "Balxda 400 madrasa va 900 maktab bo'ladi (IX asr boshlari)", "page": 150 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "G'azzoliy", "right": "\"Hujjatul islom\" nomi bilan mashhur alloma", "page": 147 },
+        { "left": "Farjak", "right": "Buxorodagi eng mashhur madrasa", "page": 148 },
+        { "left": "Majlis", "right": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari nomi", "page": 148 },
+        { "left": "Istaxriy", "right": "\"Kitob masolik va-l-mamolik\" muallifi", "page": 149 },
+        { "left": "Mug' tog'i hujjati", "right": "VIII asr voqealari haqida, Divashtich quli yozgan", "page": 148 },
+        { "left": "Nizomiya", "right": "Talabalarga stipendiya berilgan madrasalar", "page": 149 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "G'azzoliy \"____ ulumid-din\" asarini yozgan.", "options": ["Ihyou", "Tahzib", "Tafsir", "Muqaddima"], "correct_index": 0, "page": 147 },
+        { "question": "Ilk oliy o'quv yurti ____ da paydo bo'lgan.", "options": ["Buxoro", "Samarqand", "Balx", "Marv"], "correct_index": 0, "page": 148 },
+        { "question": "Boshlang'ich ta'limda ____ yoshdan 12 yoshgacha bolalar o'qitilgan.", "options": ["6", "3", "9", "14"], "correct_index": 0, "page": 149 },
+        { "question": "IX asr boshlarida Balxda ____ ta madrasa bo'lgan.", "options": ["400", "40", "4000", "4"], "correct_index": 0, "page": 150 },
+        { "question": "Xorazmshoh Anushtegin davrida jami ____ ta madrasa bo'lgan.", "options": ["4440", "444", "40", "400"], "correct_index": 0, "page": 150 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Imom G'azzoliy ilm haqida qanday ma'lumotlar beradi?", "answer": "Ilmning avvali sukut qilish, keyin tinglash, yod olish, amal qilish va tarqatish; ilm faqat ezgulikka xizmat qilishi, ilm qalbi ezgulikka to'la insonlarga o'rgatilishi lozim.", "page": 147 },
+      { "question": "Dastlabki ta'lim muassasalari qayerlarda faoliyat ko'rsatgan?", "answer": "Buxoroda (VIII-IX asr), keyinroq Samarqand, Balx, Gurganch va boshqa shaharlarda; ibodatxonalar qoshida ham ta'lim maskanlari bo'lgan.", "page": 150 },
+      { "question": "Madrasalardagi ta'lim nima uchun vaqf hisobidan amalga oshirilgan?", "answer": "Ta'lim bepul bo'lgani uchun uning xarajatlari vaqf yerlari va mulklari daromadidan qoplangan.", "page": 149 }
+    ],
+    "quiz": [
+      { "question": "Mug' tog'idan topilgan hujjatni kim yozgan?", "options": ["Divashtichning quli", "Divashtichning o'zi", "Xoqon kotibi", "Savdogar"], "correct_index": 0, "page": 148 },
+      { "question": "Farjak madrasasi qachon yonib ketgan?", "options": ["937-yili", "737-yili", "1037-yili", "837-yili"], "correct_index": 0, "page": 148 },
+      { "question": "Nizomiya madrasalarida talabalarga nima berilgan?", "options": ["Stipendiya", "Yer", "Kitob faqat", "Qul"], "correct_index": 0, "page": 149 }
+    ]
+  },
+  "test": [
+    { "question": "G'azzoliy qaysi yillarda yashagan?", "options": ["1058-1111", "958-1011", "1158-1211", "858-911"], "correct_index": 0, "page": 147 },
+    { "question": "G'azzoliy o'z davrida qanday nom bilan mashhur edi?", "options": ["\"Hujjatul islom\"", "\"Imomi A'zam\"", "\"Shayx ul-islom\"", "\"Jorulloh\""], "correct_index": 0, "page": 147 },
+    { "question": "G'azzoliyning qaysi asarida ta'lim oluvchi va beruvchi odoblari haqida fikrlar bor?", "options": ["\"Ihyou ulumid-din\"", "\"Qutadg'u bilig\"", "\"Siyosatnoma\"", "\"Qobusnoma\""], "correct_index": 0, "page": 147 },
+    { "question": "G'azzoliyga ko'ra, ilmni kimlarga o'rgatmoq lozim?", "options": ["Qalbi ezgulikka limmo-lim insonlarga", "Faqat boylarga", "Faqat ruhoniylarga", "Hammaga farqsiz"], "correct_index": 0, "page": 147 },
+    { "question": "G'azzoliyga ko'ra, ilmning avvali nima?", "options": ["Sukut qilish", "Yod olish", "Yozish", "Bahslashish"], "correct_index": 0, "page": 147 },
+    { "question": "Mahalliy ta'lim tizimida \"madrasa\" deb atalgan oliy ta'lim muassasalari nima natijasida paydo bo'ldi?", "options": ["Islom mafkurasi o'rnatilishi natijasida", "Rim ta'siri", "Xitoy ta'siri", "Hind ta'siri"], "correct_index": 0, "page": 148 },
+    { "question": "Ilk oliy o'quv yurti qaysi shaharda va qachon paydo bo'lgan?", "options": ["VIII-IX asrlarda Buxoroda", "X asrda Samarqandda", "XI asrda Xivada", "XII asrda Balxda"], "correct_index": 0, "page": 148 },
+    { "question": "Buxorodagi eng mashhur madrasa qaysi edi?", "options": ["Farjak madrasasi", "Mir Arab", "Kukaldosh", "Nizomiya"], "correct_index": 0, "page": 148 },
+    { "question": "Samarqandda X asrda nechta madrasa tashkil etilgan?", "options": ["17 ta", "7 ta", "70 ta", "170 ta"], "correct_index": 0, "page": 148 },
+    { "question": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari qanday atalgan?", "options": ["\"Majlis\"", "\"Vihara\"", "\"Palestra\"", "\"Maktab\""], "correct_index": 0, "page": 148 },
+    { "question": "Majlislarda dars bergan ilmli kishilar qanday atalgan?", "options": ["Shayx, hakim yoki ustoz", "Hojib", "Mobad", "Tudun"], "correct_index": 0, "page": 148 },
+    { "question": "Mug' tog'idan topilgan hujjat qaysi asrga oid voqealar haqida so'zlaydi?", "options": ["VIII asr", "II asr", "XII asr", "XV asr"], "correct_index": 0, "page": 148 },
+    { "question": "Mug' tog'idagi hujjat qanday qog'ozga bitilgan?", "options": ["Kul rang, ipak tolalari aralash \"Xitoy\" qog'oziga", "Terisiga", "Papirusga", "Yog'ochga"], "correct_index": 0, "page": 148 },
+    { "question": "Sug'd yozuvi qaysi xalqlar yozuvlarining paydo bo'lishiga asos bo'lgan?", "options": ["Qadimgi uyg'ur, mo'g'ul va manjur", "Arab va fors", "Hind va tibet", "Yunon va lotin"], "correct_index": 0, "page": 148 },
+    { "question": "Qutayba davrida Buxoro hisori ichidagi qaysi joyda jome masjid va madrasa bino qilingan?", "options": ["Ilgari butxona bo'lgan joyda", "Bozor o'rnida", "Sarroy o'rnida", "Qal'a tashqarisida"], "correct_index": 0, "page": 149 },
+    { "question": "Madrasa talabalariga qaysi qishloqning yerlari vaqf qilingan?", "options": ["Afshona", "Zandana", "Vador", "Romitan"], "correct_index": 0, "page": 149 },
+    { "question": "Madrasalar ta'minoti qanday amalga oshirilgan?", "options": ["Pul, g'alla yoki aralash holda", "Faqat oltin bilan", "Faqat qul bilan", "Soliq bilan"], "correct_index": 0, "page": 149 },
+    { "question": "Madrasa huzurida qanday maktablar bo'lgan?", "options": ["Boshlang'ich maktablar", "Harbiy maktablar", "Rasadxonalar", "Kutubxonalar"], "correct_index": 0, "page": 149 },
+    { "question": "Madrasada ta'lim qaysi yoshdan boshlangan?", "options": ["12-14 yoshdan", "6 yoshdan", "20 yoshdan", "3 yoshdan"], "correct_index": 0, "page": 149 },
+    { "question": "Ta'lim haqidagi qaysi fikr to'g'ri?", "options": ["Ta'lim aslida bepul bo'lgan", "Ta'lim juda qimmat bo'lgan", "Faqat boylar o'qigan", "Qizlar o'qimagan"], "correct_index": 0, "page": 149 },
+    { "question": "Istaxriy xorazmliklar haqida nima degan?", "options": ["Bag'dodda biror olim yo'qki, uning xorazmlik shogirdi bo'lmasin", "Xorazmliklar savdoni yaxshi biladi", "Xorazmliklar jasur", "Xorazmliklar boy"], "correct_index": 0, "page": 149 },
+    { "question": "Istaxriyning asari qanday nomlanadi?", "options": ["\"Kitob masolik va-l-mamolik\"", "\"Devonu lug'otit-turk\"", "\"Buxoro tarixi\"", "\"Siyosatnoma\""], "correct_index": 0, "page": 149 },
+    { "question": "IX asr boshlarida Balxda nechta madrasa bo'lgan?", "options": ["400 ta", "40 ta", "4 ta", "4000 ta"], "correct_index": 0, "page": 150 },
+    { "question": "IX asr boshlarida Balxda nechta maktab bo'lgan?", "options": ["900 ta", "90 ta", "9 ta", "9000 ta"], "correct_index": 0, "page": 150 },
+    { "question": "Faqat Gurganchning o'zida nechta madrasa bo'lgan?", "options": ["700 ta", "70 ta", "7 ta", "7000 ta"], "correct_index": 0, "page": 150 },
+    { "question": "Turon Uyg'onish davrining o'ziga xos xususiyati nimada namoyon bo'ldi?", "options": ["Aniq va tabiiy fanlar, tarix, falsafa va adabiyotning rivojlanishida", "Faqat diniy fanlarda", "Faqat harbiy ishda", "Faqat savdoda"], "correct_index": 0, "page": 150 },
+    { "question": "Quyidagilardan qaysi biri Turon Uyg'onishida rivojlangan fan emas?", "options": ["Kemasozlik san'ati faqat", "Matematika", "Astronomiya", "Tibbiyot"], "correct_index": 0, "page": 150 }
+  ]
+}

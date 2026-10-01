@@ -1,0 +1,112 @@
+{
+  "key": "m47_48", "title": "47-48-mavzular. Muhammad ibn Muso al-Xorazmiy", "start_page": 167, "end_page": 171,
+  "explanation": {
+    "goals": ["Al-Xorazmiyning hayoti, asarlari va kashfiyotlarini bilish", "Algebra, algoritm va hind raqamlari tizimini yoyishdagi xizmatlarini tushuntirish"],
+    "blocks": [
+      { "heading": "Hayoti va algebra", "pages": [167],
+        "text": "Buyuk matematik, astronom va geograf Abu Ja'far (Abu Abdulloh) Muhammad ibn Muso al-Xorazmiy Xivada (783-850) tug'ilgan. U algebra fanining asoschisi sifatida ilm-fan tarixida yuksak nom qozondi: \"algebra\" so'zi uning \"Aljabr val-muqobala\" risolasidan olingan. Arifmetikaga oid risolasi hind raqamlariga asoslangan bo'lib, hozirgi o'nlik hisoblash sistemasi va undagi amallarning Yevropada tarqalishiga sabab bo'ldi. Olimning \"al-Xorazmiy\" nomi \"algoritm\" shaklida fanda abadiy o'rnashib qoldi.\n\nXorazmiyning aytishicha, algebrada uch xil son bilan ish ko'riladi: ildiz (jizr) yoki narsa (shay), kvadrat (mol) va oddiy son yoki dirham. Ildiz - o'z-o'ziga ko'paytiriladigan miqdor, kvadrat esa ildizni o'ziga ko'paytirishdan hosil bo'lgan kattalik. X asrda yashagan sayyoh al-Muqaddasiy: \"Xorazmliklar aql-idrok, ilm, fiqh, qobiliyat hamda bilim kishilaridir\", degan." },
+      { "heading": "Asarlari", "pages": [168, 169],
+        "text": "Xorazmiy qalamiga mansub 20 dan ortiq asarning 10 tasi bizgacha yetib kelgan: \"Al-jabr val-muqobala\", \"Hind hisobi haqida kitob\", \"Qo'shish va ayirish haqida kitob\" (arifmetik asarlar), \"Kitob surat-al-arz\" (geografiya), shuningdek \"Zij\", \"Usturlob bilan ishlash haqida kitob\", \"Usturlob yasash haqida kitob\", \"Kitob ar-ruhoma\", \"Kitob at-tarix\". U \"Al-jabr val-muqobala\"ni meros taqsimlash, vasiyatnoma, mol taqsimlash, adliya ishlari, savdo, yer o'lchash, kanallar o'tkazish kabi ishlarda zarur bo'lgani uchun yozgan. Hali G'arbda ko'pchilik yer tekislikdan iborat deb ishonayotgan paytda Xorazmiy sayyoramiz yumaloq ekanini isbotlagan.\n\nYevropalik olimlar bir necha asr davomida hisob-kitoblarning tagiga \"diksit Algoritmi\", ya'ni \"Al-Xorazmiy shunday deydi\" deb qo'shib ketishni sharaf deb bilgan. Alloma Bobildan ma'lum bo'lgan birinchi va ikkinchi darajali tenglamalarni yechish usullarini bayon qilib, qoidalar va qat'iy isbotlarni keltirgan; \"Al-jabr val-muqobala\" algebra asoslari va uni amalda qo'llashga bag'ishlangan mukammal darslik bo'lgan." },
+      { "heading": "Nol va algoritm", "pages": [170],
+        "text": "Xorazmiy ko'plab hind qo'lyozma asarlarini o'rganib chiqdi. 1 dan 9 gacha sanoq tizimini tuzgan va 0 g'oyasi ustida bosh qotirgan hind matematigi izlanishlari unga turtki bo'ldi. Lekin 0 sonini son sifatida e'tirof etgan va hind sanoq tizimidan foydalanib, arab sanoq tizimiga asos solgan shaxs aynan Xorazmiy edi. Zamondosh olimlarga hind sanoq tizimini tanishtirish va matematika markaziga nol sonini joylashtirish o'z davri matematikasi uchun inqilob bo'ldi: avval ilojsiz bo'lgan murakkab matematik masalalarni hal qilish imkonini berdi.\n\nBritaniyalik jurnalist Endryu Marr BBC uchun tayyorlagan ko'rsatuvda Xorazmiy haqida: \"Har gal mobil telefoningni qo'lga olganda, unutma, uning ichida musulmon o'zbek otaxon yashirin o'tiradi!\" deb xitob qilgan. Xorazmiyning xizmatlariga e'tirof o'laroq 1976-yili Oyning krateri Muso Xorazmiy nomi bilan atalgan." },
+      { "heading": "Geografiya va xalqaro e'tirof", "pages": [171],
+        "text": "Xorazmiy geografiyada ham muhim qadamlar qo'ygan: xalifa Ma'mun (813-833) uchun jahon xaritasini yaratishga yordam bergan, Yer atrofini topish loyihasida ishtirok etgan, Suriyadagi Sinjor tekisligida yer meridiani darajasini o'lchagan. Ma'mun akademiyasining hozirgi ko'rinishi Xorazmda saqlangan. Amerikalik tarixchi J. Sarton: \"Xorazmiy o'z davrining eng buyuk matematigi va, agar barcha shart-sharoitlar nazarga olinsa, hamma davrlarning ham eng buyuklaridan biri\", degan." }
+    ],
+    "key_facts": [
+      { "fact": "Al-Xorazmiy Xivada 783-850-yillarda yashagan", "page": 167 },
+      { "fact": "\"Algebra\" so'zi \"Aljabr val-muqobala\" risolasidan olingan", "page": 167 },
+      { "fact": "Xorazmiy 20 dan ortiq asar yozgan, 10 tasi saqlangan", "page": 168 },
+      { "fact": "Xorazmiy 0 sonini son sifatida e'tirof etib, arab sanoq tizimiga asos solgan", "page": 170 },
+      { "fact": "1976-yili Oyning krateri Muso Xorazmiy nomi bilan atalgan", "page": 170 }
+    ],
+    "why": {
+      "causes": [
+        "Meros taqsimlash, savdo, yer o'lchash va kanal qazishda hisob-kitob zarur edi",
+        "Xorazmiy hind qo'lyozmalarini o'rganib, hind sanoq tizimi va nol g'oyasidan turtki oldi"
+      ],
+      "effects": [
+        "\"Al-jabr val-muqobala\" yozilib, algebra mustaqil fan sifatida ajralib chiqdi",
+        "Hozirgi o'nlik hisoblash sistemasi Yevropada tarqaldi",
+        "\"Algoritm\" atamasi Xorazmiy nomidan kelib chiqdi",
+        "Oyning krateri Xorazmiy nomi bilan atalgan"
+      ]
+    },
+    "summary": "Muhammad ibn Muso al-Xorazmiy (783-850) algebra asoschisi: \"Aljabr val-muqobala\" asaridan \"algebra\" nomi, ismidan \"algoritm\" atamasi kelib chiqqan. U hind raqamlarini va noldan foydalanib hozirgi o'nlik sanoq tizimining Yevropada yoyilishiga sabab bo'ldi, geografiya va astronomiyada ham asarlar yaratdi. 1976-yili Oy krateri uning nomi bilan atalgan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "47-48-mavzular. Al-Xorazmiy", "bullets": [], "page": null },
+      { "title": "Hayoti", "bullets": ["Xiva, 783-850", "Matematik, astronom, geograf", "Algebra asoschisi"], "page": 167 },
+      { "title": "Asarlari", "bullets": ["\"Al-jabr val-muqobala\"", "\"Hind hisobi haqida kitob\"", "\"Kitob surat-al-arz\", \"Zij\""], "page": 168 },
+      { "title": "Kashfiyotlar", "bullets": ["Nol - son sifatida", "Algoritm atamasi", "Yer yumaloq"], "page": 170 },
+      { "title": "E'tirof", "bullets": ["Oy krateri (1976)", "J. Sarton bahosi", "BBC: mobil telefon ichida"], "page": 171 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Al-Xorazmiyning tavalludi (783-yil)", "page": 167 },
+        { "label": "Xalifa Ma'mun hukmronligi (813-833)", "page": 171 },
+        { "label": "Al-Xorazmiyning vafoti (850-yil)", "page": 167 },
+        { "label": "Oyning krateri Xorazmiy nomi bilan atalishi (1976-yil)", "page": 170 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Aljabr val-muqobala", "right": "\"Algebra\" so'zi olingan risola", "page": 167 },
+        { "left": "Algoritm", "right": "\"Al-Xorazmiy\" nomining fanda saqlangan shakli", "page": 167 },
+        { "left": "Ildiz (jizr)", "right": "O'z-o'ziga ko'paytiriladigan miqdor", "page": 167 },
+        { "left": "Kitob surat-al-arz", "right": "Geografiyaga oid asar", "page": 168 },
+        { "left": "Sinjor tekisligi", "right": "Xorazmiy yer meridiani darajasini o'lchagan joy", "page": 171 },
+        { "left": "Diksit Algoritmi", "right": "\"Al-Xorazmiy shunday deydi\" iborasi", "page": 169 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Al-Xorazmiy ____ shahrida tug'ilgan.", "options": ["Xiva", "Urganch", "Buxoro", "Samarqand"], "correct_index": 0, "page": 167 },
+        { "question": "\"Algebra\" so'zi \"Aljabr val-____\" risolasidan olingan.", "options": ["muqobala", "hisob", "qiyos", "miqdor"], "correct_index": 0, "page": 167 },
+        { "question": "Xorazmiy 20 dan ortiq asarning ____ tasi bizgacha yetib kelgan.", "options": ["10", "2", "20", "5"], "correct_index": 0, "page": 168 },
+        { "question": "Xorazmiy ____ sonini son sifatida e'tirof etgan.", "options": ["0", "1", "10", "100"], "correct_index": 0, "page": 170 },
+        { "question": "Oyning krateri ____ yili Xorazmiy nomi bilan atalgan.", "options": ["1976", "1876", "2006", "1946"], "correct_index": 0, "page": 170 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "\"Algoritm\" deganda nimani tushunasiz?", "answer": "Al-Xorazmiy nomining lotinchalashgan shakli; hisob-kitob va amallarning aniq bosqichma-bosqich tartibi.", "page": 170 },
+      { "question": "Xorazmiy matematikadan tashqari fanning yana qaysi sohalari bilan shug'ullangan?", "answer": "Astronomiya (Zij, usturlob) va geografiya (Kitob surat-al-arz, jahon xaritasi, meridian o'lchash).", "page": 171 },
+      { "question": "O'sha davrda \"Al-jabr val-muqobala\" kitobiga qanday ehtiyoj mavjud edi?", "answer": "Meros taqsimlash, vasiyatnoma, savdo, adliya, yer o'lchash va kanallar o'tkazishda hisob-kitob uchun.", "page": 168 }
+    ],
+    "quiz": [
+      { "question": "Xorazmiy qaysi xalifa uchun jahon xaritasini yaratishga yordam bergan?", "options": ["Ma'mun", "Horun ar-Rashid", "Amin", "Muoviya"], "correct_index": 0, "page": 171 },
+      { "question": "Yevropalik olimlar hisob-kitoblar tagiga qanday ibora yozgan?", "options": ["\"Diksit Algoritmi\"", "\"Sic Euclides\"", "\"Aljabr\"", "\"Zij\""], "correct_index": 0, "page": 169 },
+      { "question": "Xorazmiyni \"eng buyuk matematiklardan biri\" deb baholagan amerikalik tarixchi kim?", "options": ["J. Sarton", "E. Marr", "T. Kuhn", "S. Tolstov"], "correct_index": 0, "page": 171 }
+    ]
+  },
+  "test": [
+    { "question": "Al-Xorazmiy qaysi yillarda yashagan?", "options": ["783-850", "683-750", "883-950", "983-1050"], "correct_index": 0, "page": 167 },
+    { "question": "Al-Xorazmiy qaysi fanning asoschisi hisoblanadi?", "options": ["Algebra", "Kimyo", "Tibbiyot", "Falsafa"], "correct_index": 0, "page": 167 },
+    { "question": "\"Algebra\" so'zi qaysi asardan olingan?", "options": ["\"Aljabr val-muqobala\"", "\"Zij\"", "\"Hind hisobi\"", "\"Kitob surat-al-arz\""], "correct_index": 0, "page": 167 },
+    { "question": "Xorazmiyning arifmetikaga oid risolasi nimaga asoslangan edi?", "options": ["Hind raqamlariga", "Arab harflariga", "Rim raqamlariga", "Yunon harflariga"], "correct_index": 0, "page": 167 },
+    { "question": "Xorazmiy nomi fanda qanday shaklda abadiy qoldi?", "options": ["Algoritm", "Algebra", "Aritm", "Geometr"], "correct_index": 0, "page": 167 },
+    { "question": "Algebrada Xorazmiy uch xil sondan birini \"mol\" deb atagan. U nima?", "options": ["Kvadrat", "Ildiz", "Oddiy son", "Nol"], "correct_index": 0, "page": 167 },
+    { "question": "Ildiz (jizr) nima?", "options": ["O'z-o'ziga ko'paytiriladigan miqdor", "Kvadrat", "Dirham", "Nol"], "correct_index": 0, "page": 167 },
+    { "question": "Al-Muqaddasiy xorazmliklar haqida nima degan?", "options": ["Aql-idrok, ilm, fiqh, qobiliyat va bilim kishilaridir", "Savdogarlardir", "Jangchilardir", "Dehqonlardir"], "correct_index": 0, "page": 167 },
+    { "question": "Xorazmiyning nechta asaridan nechtasi saqlangan?", "options": ["20 dan ortiqdan 10 tasi", "100 dan 50 tasi", "5 dan 5 tasi", "30 dan 1 tasi"], "correct_index": 0, "page": 168 },
+    { "question": "Xorazmiyning geografiyaga oid asari qaysi?", "options": ["\"Kitob surat-al-arz\"", "\"Al-jabr val-muqobala\"", "\"Zij\"", "\"Kitob at-tarix\""], "correct_index": 0, "page": 168 },
+    { "question": "Quyidagilardan qaysi biri Xorazmiyning arifmetik asari?", "options": ["\"Hind hisobi haqida kitob\"", "\"Kitob surat-al-arz\"", "\"Zij\"", "\"Kitob ar-ruhoma\""], "correct_index": 0, "page": 168 },
+    { "question": "Xorazmiy qaysi astronomik asbob haqida kitoblar yozgan?", "options": ["Usturlob", "Teleskop", "Kompas", "Soat"], "correct_index": 0, "page": 168 },
+    { "question": "\"Al-jabr val-muqobala\"ni Xorazmiy nima uchun yozgan?", "options": ["Meros, savdo, yer o'lchash kabi ishlarda hisob zarur bo'lgani uchun", "Faqat dars uchun", "Xalifa buyrug'i bilan faqat", "Dinni tarqatish uchun"], "correct_index": 0, "page": 168 },
+    { "question": "G'arbda ko'pchilik yerni tekislik deb bilgan paytda Xorazmiy nimani isbotladi?", "options": ["Sayyoramiz yumaloq ekanini", "Quyosh yer atrofida aylanishini", "Yerning tekisligini", "Oy to'lishini"], "correct_index": 0, "page": 168 },
+    { "question": "\"Diksit Algoritmi\" nimani anglatadi?", "options": ["Al-Xorazmiy shunday deydi", "Algoritm tugadi", "Yangi usul", "Xorazmiy xatosi"], "correct_index": 0, "page": 169 },
+    { "question": "Xorazmiy qaysi tenglamalarni yechish usullarini bayon qilgan?", "options": ["Birinchi va ikkinchi darajali tenglamalarni", "Faqat uchinchi darajali", "Differensial tenglamalarni", "Logarifmlarni"], "correct_index": 0, "page": 169 },
+    { "question": "\"Al-jabr val-muqobala\" qanday asar bo'lgan?", "options": ["Algebra asoslari va amalda qo'llashga bag'ishlangan mukammal darslik", "She'riy devon", "Tarixiy yilnoma", "Diniy risola"], "correct_index": 0, "page": 169 },
+    { "question": "Xorazmiy qaysi sonni son sifatida e'tirof etdi?", "options": ["Nolni", "Birni", "O'nni", "Yuzni"], "correct_index": 0, "page": 170 },
+    { "question": "Nolning joriy etilishi nimaga imkon berdi?", "options": ["Murakkab matematik masalalarni hal qilishga", "Yangi kalendar tuzishga", "Qurol yasashga", "Yozuv yaratishga"], "correct_index": 0, "page": 170 },
+    { "question": "Oyning krateri qaysi yili Xorazmiy nomi bilan atalgan?", "options": ["1976-yili", "1876-yili", "2006-yili", "1946-yili"], "correct_index": 0, "page": 170 },
+    { "question": "Endryu Marr kim?", "options": ["Britaniyalik jurnalist", "Amerikalik tarixchi", "Fransuz olimi", "Rus sayyohi"], "correct_index": 0, "page": 170 },
+    { "question": "Xorazmiy qaysi xalifa (813-833) uchun jahon xaritasini yaratishga yordam berdi?", "options": ["Ma'mun", "Amin", "Horun", "Mu'tazid"], "correct_index": 0, "page": 171 },
+    { "question": "Xorazmiy Suriyada qayerda yer meridiani darajasini o'lchagan?", "options": ["Sinjor tekisligida", "Damashqda", "Halabda", "Quddusda"], "correct_index": 0, "page": 171 },
+    { "question": "J. Sarton Xorazmiyni qanday baholagan?", "options": ["O'z davrining eng buyuk matematigi, hamma davrlarning ham eng buyuklaridan biri", "Faqat faylasuf", "Astrolog", "Savdogar"], "correct_index": 0, "page": 171 }
+  ]
+}

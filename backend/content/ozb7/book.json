@@ -13023,6 +13023,2369 @@
        "page": 146
       }
      ]
+    },
+    {
+     "key": "m41_42",
+     "title": "41-42-mavzular. Ta'lim",
+     "start_page": 147,
+     "end_page": 150,
+     "explanation": {
+      "goals": [
+       "Turonda madrasalar, maktablar va ta'lim tizimining rivojini bilish",
+       "G'azzoliy, Kaykovus va Istaxriy fikrlari orqali ilm-ma'rifat qadrini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Ilm odobi",
+        "pages": [
+         147
+        ],
+        "text": "Abu Homid G'azzoliy (1058-1111) o'z davrida \"Hujjatul islom\" (islom dalili) nomi bilan mashhur bo'lgan; Sharq va G'arbda ilohiyotchi, faylasuf sifatida tanilgan. \"Ihyou ulumid-din\" asarining \"Ilm kitobi\" qismida ta'lim oluvchi va beruvchi odoblari haqida fikrlar bayon qilgan: \"Ilmning avvali sukut qilish, keyin tinglash, keyin uni yod olish, keyin unga amal qilish, keyin esa tarqatish - boshqalarga o'rgatishdir.\" U dunyoviy va diniy ilmlarni faqat qalbi ezgulikka limmo-lim insonlarga o'rgatish lozim, ilm faqat ezgulikka xizmat qilishi kerak, degan fikrni ilgari surgan."
+       },
+       {
+        "heading": "Madrasalar va savodxonlik",
+        "pages": [
+         148,
+         149
+        ],
+        "text": "Turonda islomga qadar ham bir necha asrlar davomida shakllangan ta'lim tizimi mavjud edi. Islom mafkurasi o'rnatilishi natijasida mahalliy ta'lim tizimida \"madrasa\" deb atalgan oliy ta'lim muassasalari paydo bo'ldi. Ilk oliy o'quv yurti VIII-IX asrlarda Buxoroda paydo bo'lgan; eng mashhuri Farjak madrasasi (937-yili yonib ketgan). Samarqandda X asrda 17 ta madrasa tashkil etilgan. \"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari \"majlis\" deb atalgan, ularda shayx, hakim yoki ustoz dars bergan.\n\nSavodxonlik yuksak darajada bo'lgan: Mug' tog'idan topilgan hujjat VIII asrdagi voqealar haqida so'zlaydi, uni Divashtichning quli yozgan - bu qullarning ham savodli bo'lishiga e'tibor qaratilganini ko'rsatadi. Sug'd yozuvi ish yuritish, savdo va madaniy aloqalarda katta ahamiyatga ega bo'lib, qadimgi uyg'ur, mo'g'ul va manjur yozuvlari paydo bo'lishiga asos bo'lgan. Eftaliylar davrida sug'dcha, xorazmcha, buxorocha, karoshti, eftaliycha yozuvlar mavjud bo'lgan."
+       },
+       {
+        "heading": "Madrasa tizimi",
+        "pages": [
+         149,
+         150
+        ],
+        "text": "Qutayba ibn Muslim davrida Buxoro hisori ichida jome masjidi va madrasa bino qilingan; Afshona qishlog'ining ekin yerlari va biyobonlari madrasa talabalariga vaqf qilingan. Madrasalar ta'minoti pul, g'alla yoki aralash holda amalga oshirilgan. Har bir madrasa huzurida boshlang'ich maktablar bo'lgan: boshlang'ich ta'limda 6 yoshdan 12 yoshgacha bolalar o'qitilgan; madrasada ta'lim 12-14 yoshdan boshlangan. Ta'lim aslida bepul bo'lgan; nizomiya madrasalarida talabalarga stipendiya berilgan.\n\nIstaxriy (850-934) \"Kitob masolik va-l-mamolik\"da xorazmliklarning ilmga o'chligini: \"Hozir Bag'dodda biror olim yo'qki, uning xorazmlik shogirdi bo'lmasin\", deb yozgan. IX asr boshlarida Balxda 400 ta madrasa va 900 ta maktab bo'lgan. Xorazmshoh Anushtegin davrida jami 4440 ta, faqat Gurganchning o'zida 700 ta madrasa bo'lgan. Turon Uyg'onish davrining xususiyati matematika, astronomiya, fizika, kimyo, geodeziya, farmakologiya, tibbiyot kabi aniq va tabiiy fanlar hamda tarix, falsafa, adabiyotning rivojlanishida namoyon bo'ldi."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "G'azzoliy (1058-1111) \"Hujjatul islom\" nomi bilan mashhur bo'lgan",
+        "page": 147
+       },
+       {
+        "fact": "Ilk oliy o'quv yurti VIII-IX asrlarda Buxoroda paydo bo'lgan; Farjak madrasasi 937-yili yonib ketgan",
+        "page": 148
+       },
+       {
+        "fact": "Samarqandda X asrda 17 ta madrasa tashkil etilgan",
+        "page": 148
+       },
+       {
+        "fact": "Boshlang'ich ta'limda 6 yoshdan 12 yoshgacha bolalar o'qitilgan, ta'lim bepul bo'lgan",
+        "page": 149
+       },
+       {
+        "fact": "IX asr boshlarida Balxda 400 ta madrasa va 900 ta maktab bo'lgan",
+        "page": 150
+       }
+      ],
+      "why": {
+       "causes": [
+        "Islom mafkurasi o'rnatilishi natijasida oliy ta'lim muassasalari - madrasalarga ehtiyoj tug'ildi",
+        "Turonda islomdan oldin ham bir necha asrlik ta'lim an'anasi mavjud edi",
+        "Madrasalar ta'minoti uchun yer va mablag' vaqf qilindi"
+       ],
+       "effects": [
+        "Buxoro, Samarqand, Balx, Gurganchda yuzlab madrasa va maktablar ochildi",
+        "Ta'lim bepul bo'lib, madrasalarda talabalarga stipendiya berildi",
+        "Turonda aniq va tabiiy fanlar, tarix, falsafa va adabiyot rivojlandi (Uyg'onish)",
+        "Xorazmlik shogirdlar Bag'doddagi olimlar orasida keng tarqaldi"
+       ]
+      },
+      "summary": "Turonda islomdan oldin ham ta'lim tizimi bor edi; islom bilan madrasalar - oliy o'quv yurtlari paydo bo'ldi (Buxoro VIII-IX asr, Samarqand X asr 17 ta). Madrasalar vaqf hisobidan ta'minlanib, ta'lim bepul bo'lgan; Balxda 400 madrasa va 900 maktab bo'lgan. G'azzoliy ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "41-42-mavzular. Ta'lim",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "G'azzoliy",
+        "bullets": [
+         "1058-1111",
+         "\"Hujjatul islom\"",
+         "Ilm ezgulikka xizmat qilsin"
+        ],
+        "page": 147
+       },
+       {
+        "title": "Madrasa",
+        "bullets": [
+         "VIII-IX asr Buxoro",
+         "Farjak madrasasi (937)",
+         "Samarqandda 17 madrasa"
+        ],
+        "page": 148
+       },
+       {
+        "title": "Ta'lim tizimi",
+        "bullets": [
+         "Boshlang'ich: 6-12 yosh",
+         "Madrasa: 12-14 yoshdan",
+         "Bepul, stipendiya"
+        ],
+        "page": 149
+       },
+       {
+        "title": "Uyg'onish",
+        "bullets": [
+         "Balxda 400 madrasa",
+         "Gurganchda 700 madrasa",
+         "Aniq va tabiiy fanlar"
+        ],
+        "page": 150
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Ilk oliy o'quv yurti Buxoroda paydo bo'ladi (VIII-IX asrlar)",
+         "page": 148
+        },
+        {
+         "label": "Farjak madrasasi yonib ketadi (937-yil)",
+         "page": 148
+        },
+        {
+         "label": "Samarqandda 17 ta madrasa tashkil etiladi (X asr)",
+         "page": 148
+        },
+        {
+         "label": "Balxda 400 madrasa va 900 maktab bo'ladi (IX asr boshlari)",
+         "page": 150
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "G'azzoliy",
+         "right": "\"Hujjatul islom\" nomi bilan mashhur alloma",
+         "page": 147
+        },
+        {
+         "left": "Farjak",
+         "right": "Buxorodagi eng mashhur madrasa",
+         "page": 148
+        },
+        {
+         "left": "Majlis",
+         "right": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari nomi",
+         "page": 148
+        },
+        {
+         "left": "Istaxriy",
+         "right": "\"Kitob masolik va-l-mamolik\" muallifi",
+         "page": 149
+        },
+        {
+         "left": "Mug' tog'i hujjati",
+         "right": "VIII asr voqealari haqida, Divashtich quli yozgan",
+         "page": 148
+        },
+        {
+         "left": "Nizomiya",
+         "right": "Talabalarga stipendiya berilgan madrasalar",
+         "page": 149
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "G'azzoliy \"____ ulumid-din\" asarini yozgan.",
+         "options": [
+          "Ihyou",
+          "Tahzib",
+          "Tafsir",
+          "Muqaddima"
+         ],
+         "correct_index": 0,
+         "page": 147
+        },
+        {
+         "question": "Ilk oliy o'quv yurti ____ da paydo bo'lgan.",
+         "options": [
+          "Buxoro",
+          "Samarqand",
+          "Balx",
+          "Marv"
+         ],
+         "correct_index": 0,
+         "page": 148
+        },
+        {
+         "question": "Boshlang'ich ta'limda ____ yoshdan 12 yoshgacha bolalar o'qitilgan.",
+         "options": [
+          "6",
+          "3",
+          "9",
+          "14"
+         ],
+         "correct_index": 0,
+         "page": 149
+        },
+        {
+         "question": "IX asr boshlarida Balxda ____ ta madrasa bo'lgan.",
+         "options": [
+          "400",
+          "40",
+          "4000",
+          "4"
+         ],
+         "correct_index": 0,
+         "page": 150
+        },
+        {
+         "question": "Xorazmshoh Anushtegin davrida jami ____ ta madrasa bo'lgan.",
+         "options": [
+          "4440",
+          "444",
+          "40",
+          "400"
+         ],
+         "correct_index": 0,
+         "page": 150
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Imom G'azzoliy ilm haqida qanday ma'lumotlar beradi?",
+        "answer": "Ilmning avvali sukut qilish, keyin tinglash, yod olish, amal qilish va tarqatish; ilm faqat ezgulikka xizmat qilishi, ilm qalbi ezgulikka to'la insonlarga o'rgatilishi lozim.",
+        "page": 147
+       },
+       {
+        "question": "Dastlabki ta'lim muassasalari qayerlarda faoliyat ko'rsatgan?",
+        "answer": "Buxoroda (VIII-IX asr), keyinroq Samarqand, Balx, Gurganch va boshqa shaharlarda; ibodatxonalar qoshida ham ta'lim maskanlari bo'lgan.",
+        "page": 150
+       },
+       {
+        "question": "Madrasalardagi ta'lim nima uchun vaqf hisobidan amalga oshirilgan?",
+        "answer": "Ta'lim bepul bo'lgani uchun uning xarajatlari vaqf yerlari va mulklari daromadidan qoplangan.",
+        "page": 149
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Mug' tog'idan topilgan hujjatni kim yozgan?",
+        "options": [
+         "Divashtichning quli",
+         "Divashtichning o'zi",
+         "Xoqon kotibi",
+         "Savdogar"
+        ],
+        "correct_index": 0,
+        "page": 148
+       },
+       {
+        "question": "Farjak madrasasi qachon yonib ketgan?",
+        "options": [
+         "937-yili",
+         "737-yili",
+         "1037-yili",
+         "837-yili"
+        ],
+        "correct_index": 0,
+        "page": 148
+       },
+       {
+        "question": "Nizomiya madrasalarida talabalarga nima berilgan?",
+        "options": [
+         "Stipendiya",
+         "Yer",
+         "Kitob faqat",
+         "Qul"
+        ],
+        "correct_index": 0,
+        "page": 149
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "G'azzoliy qaysi yillarda yashagan?",
+       "options": [
+        "1058-1111",
+        "958-1011",
+        "1158-1211",
+        "858-911"
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "G'azzoliy o'z davrida qanday nom bilan mashhur edi?",
+       "options": [
+        "\"Hujjatul islom\"",
+        "\"Imomi A'zam\"",
+        "\"Shayx ul-islom\"",
+        "\"Jorulloh\""
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "G'azzoliyning qaysi asarida ta'lim oluvchi va beruvchi odoblari haqida fikrlar bor?",
+       "options": [
+        "\"Ihyou ulumid-din\"",
+        "\"Qutadg'u bilig\"",
+        "\"Siyosatnoma\"",
+        "\"Qobusnoma\""
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "G'azzoliyga ko'ra, ilmni kimlarga o'rgatmoq lozim?",
+       "options": [
+        "Qalbi ezgulikka limmo-lim insonlarga",
+        "Faqat boylarga",
+        "Faqat ruhoniylarga",
+        "Hammaga farqsiz"
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "G'azzoliyga ko'ra, ilmning avvali nima?",
+       "options": [
+        "Sukut qilish",
+        "Yod olish",
+        "Yozish",
+        "Bahslashish"
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "Mahalliy ta'lim tizimida \"madrasa\" deb atalgan oliy ta'lim muassasalari nima natijasida paydo bo'ldi?",
+       "options": [
+        "Islom mafkurasi o'rnatilishi natijasida",
+        "Rim ta'siri",
+        "Xitoy ta'siri",
+        "Hind ta'siri"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Ilk oliy o'quv yurti qaysi shaharda va qachon paydo bo'lgan?",
+       "options": [
+        "VIII-IX asrlarda Buxoroda",
+        "X asrda Samarqandda",
+        "XI asrda Xivada",
+        "XII asrda Balxda"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Buxorodagi eng mashhur madrasa qaysi edi?",
+       "options": [
+        "Farjak madrasasi",
+        "Mir Arab",
+        "Kukaldosh",
+        "Nizomiya"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Samarqandda X asrda nechta madrasa tashkil etilgan?",
+       "options": [
+        "17 ta",
+        "7 ta",
+        "70 ta",
+        "170 ta"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari qanday atalgan?",
+       "options": [
+        "\"Majlis\"",
+        "\"Vihara\"",
+        "\"Palestra\"",
+        "\"Maktab\""
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Majlislarda dars bergan ilmli kishilar qanday atalgan?",
+       "options": [
+        "Shayx, hakim yoki ustoz",
+        "Hojib",
+        "Mobad",
+        "Tudun"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Mug' tog'idan topilgan hujjat qaysi asrga oid voqealar haqida so'zlaydi?",
+       "options": [
+        "VIII asr",
+        "II asr",
+        "XII asr",
+        "XV asr"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Mug' tog'idagi hujjat qanday qog'ozga bitilgan?",
+       "options": [
+        "Kul rang, ipak tolalari aralash \"Xitoy\" qog'oziga",
+        "Terisiga",
+        "Papirusga",
+        "Yog'ochga"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Sug'd yozuvi qaysi xalqlar yozuvlarining paydo bo'lishiga asos bo'lgan?",
+       "options": [
+        "Qadimgi uyg'ur, mo'g'ul va manjur",
+        "Arab va fors",
+        "Hind va tibet",
+        "Yunon va lotin"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Qutayba davrida Buxoro hisori ichidagi qaysi joyda jome masjid va madrasa bino qilingan?",
+       "options": [
+        "Ilgari butxona bo'lgan joyda",
+        "Bozor o'rnida",
+        "Sarroy o'rnida",
+        "Qal'a tashqarisida"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Madrasa talabalariga qaysi qishloqning yerlari vaqf qilingan?",
+       "options": [
+        "Afshona",
+        "Zandana",
+        "Vador",
+        "Romitan"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Madrasalar ta'minoti qanday amalga oshirilgan?",
+       "options": [
+        "Pul, g'alla yoki aralash holda",
+        "Faqat oltin bilan",
+        "Faqat qul bilan",
+        "Soliq bilan"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Madrasa huzurida qanday maktablar bo'lgan?",
+       "options": [
+        "Boshlang'ich maktablar",
+        "Harbiy maktablar",
+        "Rasadxonalar",
+        "Kutubxonalar"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Madrasada ta'lim qaysi yoshdan boshlangan?",
+       "options": [
+        "12-14 yoshdan",
+        "6 yoshdan",
+        "20 yoshdan",
+        "3 yoshdan"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Ta'lim haqidagi qaysi fikr to'g'ri?",
+       "options": [
+        "Ta'lim aslida bepul bo'lgan",
+        "Ta'lim juda qimmat bo'lgan",
+        "Faqat boylar o'qigan",
+        "Qizlar o'qimagan"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Istaxriy xorazmliklar haqida nima degan?",
+       "options": [
+        "Bag'dodda biror olim yo'qki, uning xorazmlik shogirdi bo'lmasin",
+        "Xorazmliklar savdoni yaxshi biladi",
+        "Xorazmliklar jasur",
+        "Xorazmliklar boy"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "Istaxriyning asari qanday nomlanadi?",
+       "options": [
+        "\"Kitob masolik va-l-mamolik\"",
+        "\"Devonu lug'otit-turk\"",
+        "\"Buxoro tarixi\"",
+        "\"Siyosatnoma\""
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "IX asr boshlarida Balxda nechta madrasa bo'lgan?",
+       "options": [
+        "400 ta",
+        "40 ta",
+        "4 ta",
+        "4000 ta"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "IX asr boshlarida Balxda nechta maktab bo'lgan?",
+       "options": [
+        "900 ta",
+        "90 ta",
+        "9 ta",
+        "9000 ta"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "Faqat Gurganchning o'zida nechta madrasa bo'lgan?",
+       "options": [
+        "700 ta",
+        "70 ta",
+        "7 ta",
+        "7000 ta"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "Turon Uyg'onish davrining o'ziga xos xususiyati nimada namoyon bo'ldi?",
+       "options": [
+        "Aniq va tabiiy fanlar, tarix, falsafa va adabiyotning rivojlanishida",
+        "Faqat diniy fanlarda",
+        "Faqat harbiy ishda",
+        "Faqat savdoda"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Turon Uyg'onishida rivojlangan fan emas?",
+       "options": [
+        "Kemasozlik san'ati faqat",
+        "Matematika",
+        "Astronomiya",
+        "Tibbiyot"
+       ],
+       "correct_index": 0,
+       "page": 150
+      }
+     ]
+    },
+    {
+     "key": "m43_44",
+     "title": "43-44-mavzular. Aql-zakovat bilan bunyod etilgan boy ma'naviyat",
+     "start_page": 151,
+     "end_page": 160,
+     "explanation": {
+      "goals": [
+       "Imom Buxoriy, Termiziy, Zamaxshariy, Marg'inoniy, Hakim Termiziy va Narshaxiyning hayoti va merosini bilish",
+       "Madrasalar rivoji va diniy ilmlarda yurtdoshlarimiz hissasini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Madrasalar va Imom Buxoriy",
+        "pages": [
+         151,
+         152,
+         153
+        ],
+        "text": "Yurtimiz allomalari diniy bilimlar bo'yicha ham yuksak darajaga erishgan: Ibn Sino, Zamaxshariy, Forobiy, Beruniy Qur'on, hadis, islom tarixi va huquqshunosligi bo'yicha ham asarlar yozgan. Dastlabki o'quv dargohlari - madrasalar VIII asrning oxirlarida Buxoro, Samarqand, Nasaf, Termiz, Xiva, Shosh, Marg'ilon kabi shaharlarda faoliyat ko'rsata boshlagan. Ulardan buyuk mufassirlar (Qur'on tafsirchilari) va muhaddislar (hadis to'plovchilar) yetishib chiqqan.\n\nImom Buxoriy Muhammad (s.a.v.)ning olti yuz mingga yaqin hadisini yodida saqlagan va \"Hadis ilmining sultoni\" degan unvonga sazovor bo'lgan. Uning \"al-Jome as-sahih\" asari Qur'oni karimdan keyingi ikkinchi muhim manba sifatida yuqori baholanadi. U 600 000 hadisdan faqat sahihlarini tanlab, har bir roviyning tarjimayi holini yozgan va asarni 16 yil mobaynida yozib tugatgan; sahih hadislar soni takrorlanganlari bilan 7 275 ta, takrorlanmaydigan holda 4 000 ta. Imom Buxoriy: \"Ilmdan boshqa najot yo'q va bo'lmagay!\" degan. Bag'dod muhaddislari uning xotirasini yuzta hadisning matn va isnodlarini almashtirib sinagan, u hammasini joy-joyiga qo'ygan."
+       },
+       {
+        "heading": "Imom Termiziy",
+        "pages": [
+         154,
+         155
+        ],
+        "text": "Abu Iso Muhammad Termiziy (824-892, Termiz) Bug' qishlog'i (hozirgi Sherobod tumani)da tug'ilgan buyuk o'zbek muhaddisi. U Imom Buxoriy bilan Nishopurda uchrashib, ikki alloma 5 yil birga yashagan; Buxoriy uni maqtab: \"Sen mendan bahra topganingdan ko'ra, men sendan ko'proq bahra topdim\", degan. 868-yilda tug'ilgan yurtiga qaytgan. Asarlari: \"Al-Jome' as-sahih\" (6 ta ishonchli hadis to'plamidan biri), \"Ash-Shamoil an-nabaviya\", \"Al-Ilal fil-hadis\", \"at-Ta'rix\". 1990-yili Termiziy tavalludining 1200 yilligi keng nishonlandi. Xotirasi kuchli bo'lgan: yo'lda bir muhaddisdan hadislarni yozmay, yod olib, xatosiz aytib bergan."
+       },
+       {
+        "heading": "Zamaxshariy va Marg'inoniy",
+        "pages": [
+         156,
+         157
+        ],
+        "text": "Abul Qosim Mahmud ibn Umar Zamaxshariy (1075-1144) - tilshunos, shoir, faqih; \"Jorulloh\", \"Arab va g'ayri arablar ustozi\", \"Xorazm faxri\" nomlari bilan ulug'langan. Xorazmning Zamaxshar qishlog'ida tug'ilgan; Gurganj va Buxoroda ilm olgan; 1118-yildan butun umrini ilmga bag'ishlagan; ko'hna Urganchda vafot etgan. Arab tili grammatikasiga oid \"Al-Mufassal\"ni Makkada bir yarim yilda yozgan; Qur'on tafsiri \"Kashshof\" mashhur.\n\nImom Burhoniddin Marg'inoniy 1123-yilda Rishton tumanida tug'ilgan, hanafiy mazhabi bo'yicha buyuk faqih va mujtahid darajasiga ko'tarilib, \"Shayx ul-islom\" martabasiga sazovor bo'lgan. Yuzga yaqin asar yozgan; shoh asari \"Hidoya\" 57 bobdan iborat, 1178-yili Samarqandda yozilgan, hozirgacha Sharq va G'arb o'quv yurtlarida islom shariatini o'rganishda asosiy manba. U 1197-yilda vafot etgan; 2000-yil noyabrida Marg'ilonda 910 yilligi nishonlangan."
+       },
+       {
+        "heading": "Hakim Termiziy va Narshaxiy",
+        "pages": [
+         158,
+         159,
+         160
+        ],
+        "text": "Hakim Termiziy (Abu Abdulloh Muhammad ibn Ali ibn Hasan ibn Bashir) taxminan 750/760-yillarda Termizda tug'ilgan: mutasavvuf, muhaddis, \"hofiz ul-Qur'on\" va olim; to'rt yuzga yaqin asar yozgan, oltmishga yaqini yetib kelgan. \"Al-Hakim\" nomini olgan. Mashhur asarlari \"Navodir al-usul fi ma'rifat axbor Rasul\", \"Xatm ul-avliyo\", \"Adab al-nafs\".\n\nAbu Bakr Narshaxiy (899-959) Buxoroning Narshax qishlog'ida tug'ilgan tarixchi; somoniylar saroyida kotiblik qilgan. 943-944-yillarda somoniylar amiri Nuh ibn Nasrga bag'ishlab arab tilida \"Tahqiqi viloyati Buxoro\" (\"Buxoro tarixi\")ni yozgan. Kitobda Buxoroning barpo etilishi, qadimgi nomlari, arab xalifaligi hukmronligi o'rnatilishi, xalifalikka qarshi kurashlar, somoniylar hukmronligi va shaharning topografiyasi tasvirlangan. Arabcha asl nusxa saqlanmagan; fors tiliga tarjimasi saqlangan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Imom Buxoriy 600 000 hadisdan faqat sahihlarini tanlab \"al-Jome as-sahih\"ni 16 yilda yozgan",
+        "page": 152
+       },
+       {
+        "fact": "Imom Termiziy (824-892) Termizda tug'ilgan buyuk muhaddis",
+        "page": 154
+       },
+       {
+        "fact": "Zamaxshariy (1075-1144) \"Jorulloh\" va \"Xorazm faxri\" nomlari bilan ulug'langan",
+        "page": 156
+       },
+       {
+        "fact": "Marg'inoniyning shoh asari \"Hidoya\" 1178-yili Samarqandda yozilgan",
+        "page": 157
+       },
+       {
+        "fact": "Narshaxiy \"Buxoro tarixi\"ni 943-944-yillarda yozgan",
+        "page": 160
+       }
+      ],
+      "why": {
+       "causes": [
+        "Madrasalar VIII asr oxirlaridan Buxoro, Samarqand, Termiz kabi shaharlarda ochildi",
+        "Is'hoq Rohuvaih Buxoriyga sahih hadislar to'plamini tuzishni maslahat berdi",
+        "Allomalar ilmga butun umrini bag'ishladi"
+       ],
+       "effects": [
+        "Yurtimizdan buyuk mufassir va muhaddislar yetishib chiqdi",
+        "\"Al-Jome as-sahih\" Qur'ondan keyingi ikkinchi muhim manbaga aylandi",
+        "Marg'inoniyning \"Hidoya\"si Sharq va G'arbda shariat o'rganishda asosiy manba bo'lib qoldi",
+        "Narshaxiyning \"Buxoro tarixi\" Turonning ilk o'rta asrlar tarixini o'rganishda nodir manba bo'ldi"
+       ]
+      },
+      "summary": "VIII asr oxiridan Turon shaharlarida madrasalar ochilib, buyuk mufassir va muhaddislar yetishdi: Imom Buxoriy (\"al-Jome as-sahih\"), Imom Termiziy, Hakim Termiziy. Zamaxshariy tilshunoslik va tafsirda, Marg'inoniy fiqhda (\"Hidoya\"), Narshaxiy tarixda (\"Buxoro tarixi\") mashhur bo'ldi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "43-44-mavzular. Boy ma'naviyat",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Imom Buxoriy",
+        "bullets": [
+         "600 000 hadisni yodlagan",
+         "\"Al-Jome as-sahih\"",
+         "\"Hadis ilmining sultoni\""
+        ],
+        "page": 151
+       },
+       {
+        "title": "Imom Termiziy",
+        "bullets": [
+         "824-892",
+         "Bug' qishlog'i (Sherobod)",
+         "\"Al-Jome' as-sahih\""
+        ],
+        "page": 154
+       },
+       {
+        "title": "Zamaxshariy va Marg'inoniy",
+        "bullets": [
+         "\"Al-Mufassal\", \"Kashshof\"",
+         "\"Hidoya\" (1178)",
+         "\"Shayx ul-islom\""
+        ],
+        "page": 156
+       },
+       {
+        "title": "Hakim Termiziy va Narshaxiy",
+        "bullets": [
+         "\"Xatm ul-avliyo\"",
+         "\"Buxoro tarixi\" (943-944)",
+         "Tasavvuf va tarix"
+        ],
+        "page": 158
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Imom Termiziy hayoti (824-892)",
+         "page": 154
+        },
+        {
+         "label": "Termiziy o'z yurtiga qaytadi (868-yil)",
+         "page": 154
+        },
+        {
+         "label": "Narshaxiy hayoti (899-959)",
+         "page": 160
+        },
+        {
+         "label": "Zamaxshariy hayoti (1075-1144)",
+         "page": 156
+        },
+        {
+         "label": "Marg'inoniy \"Hidoya\"ni yozadi (1178-yil)",
+         "page": 157
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Imom Buxoriy",
+         "right": "\"Hadis ilmining sultoni\"",
+         "page": 151
+        },
+        {
+         "left": "Imom Termiziy",
+         "right": "\"Ash-Shamoil an-nabaviya\" muallifi",
+         "page": 154
+        },
+        {
+         "left": "Zamaxshariy",
+         "right": "\"Kashshof\" tafsiri va \"Al-Mufassal\" muallifi",
+         "page": 156
+        },
+        {
+         "left": "Marg'inoniy",
+         "right": "\"Hidoya\" muallifi",
+         "page": 157
+        },
+        {
+         "left": "Hakim Termiziy",
+         "right": "\"Xatm ul-avliyo\" muallifi",
+         "page": 159
+        },
+        {
+         "left": "Narshaxiy",
+         "right": "\"Buxoro tarixi\" muallifi",
+         "page": 160
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Imom Buxoriyning mashhur asari \"al-Jome as-____\".",
+         "options": [
+          "sahih",
+          "kabir",
+          "saghir",
+          "ahkom"
+         ],
+         "correct_index": 0,
+         "page": 151
+        },
+        {
+         "question": "Imom Termiziy ____ qishlog'ida tug'ilgan.",
+         "options": [
+          "Bug'",
+          "Zamaxshar",
+          "Narshax",
+          "Rishton"
+         ],
+         "correct_index": 0,
+         "page": 154
+        },
+        {
+         "question": "Zamaxshariy ____ nomi bilan ulug'langan.",
+         "options": [
+          "Jorulloh",
+          "Hujjatul islom",
+          "Imomi A'zam",
+          "Qutbi zamon"
+         ],
+         "correct_index": 0,
+         "page": 156
+        },
+        {
+         "question": "Marg'inoniyning shoh asari ____.",
+         "options": [
+          "Hidoya",
+          "Kashshof",
+          "Siyosatnoma",
+          "Mufassal"
+         ],
+         "correct_index": 0,
+         "page": 157
+        },
+        {
+         "question": "Narshaxiy \"____ tarixi\"ni yozgan.",
+         "options": [
+          "Buxoro",
+          "Samarqand",
+          "Xorazm",
+          "Termiz"
+         ],
+         "correct_index": 0,
+         "page": 160
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Imom Buxoriy hadislarni qabul qilishi uchun roviy qanday talablarga javob berishi kerak edi?",
+        "answer": "Musulmon, voyaga yetgan, aqli raso, gunohdan saqlangan, ilmga amal qiladigan, rostgo'y, xotirasi kuchli, yolg'ondan uzoq bo'lishi kerak edi.",
+        "page": 152
+       },
+       {
+        "question": "Yurtimiz mutafakkirlarining ilmiy merosi jahon ilm-faniga qanday ta'sir ko'rsatdi?",
+        "answer": "Hadis, fiqh, tafsir, tilshunoslik va tarix sohalarida jahon musulmon olamida asosiy manbalar yaratildi (\"al-Jome as-sahih\", \"Hidoya\", \"Kashshof\", \"Buxoro tarixi\").",
+        "page": 160
+       },
+       {
+        "question": "Narshaxiyning \"Buxoro tarixi\" asarining ahamiyati nimada?",
+        "answer": "Turonning ilk o'rta asrlar tarixini o'rganishda nodir manba: Buxoro tarixi, arab istilosi, somoniylar davri va shahar topografiyasi haqida ma'lumot beradi.",
+        "page": 160
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Imom Buxoriy asarni necha yilda yozib tugatgan?",
+        "options": [
+         "16 yilda",
+         "6 yilda",
+         "60 yilda",
+         "1 yilda"
+        ],
+        "correct_index": 0,
+        "page": 152
+       },
+       {
+        "question": "Marg'inoniy qaysi mazhab bo'yicha buyuk faqih bo'lgan?",
+        "options": [
+         "Hanafiy",
+         "Molikiy",
+         "Shofe'iy",
+         "Hanbaliy"
+        ],
+        "correct_index": 0,
+        "page": 157
+       },
+       {
+        "question": "\"Buxoro tarixi\" qaysi tilda yozilgan?",
+        "options": [
+         "Arab tilida",
+         "Fors tilida",
+         "Turkiy tilda",
+         "Sug'd tilida"
+        ],
+        "correct_index": 0,
+        "page": 160
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Yurtimiz allomalaridan qaysi biri diniy bilimlar bo'yicha ham asarlar yozgan?",
+       "options": [
+        "Beruniy, Forobiy, Ibn Sino",
+        "Faqat Xorazmiy",
+        "Faqat Farg'oniy",
+        "Faqat Narshaxiy"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Dastlabki o'quv dargohlari - madrasalar qachon faoliyat ko'rsata boshlagan?",
+       "options": [
+        "VIII asrning oxirlarida",
+        "II asrda",
+        "XII asrda",
+        "XV asrda"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Qur'on tafsirchilari qanday atalgan?",
+       "options": [
+        "Mufassirlar",
+        "Muhaddislar",
+        "Faqihlar",
+        "Sarroflar"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Hadis to'plovchilar qanday atalgan?",
+       "options": [
+        "Muhaddislar",
+        "Mufassirlar",
+        "Faqihlar",
+        "Hojiblar"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Imom Buxoriy qaysi unvonga sazovor bo'lgan?",
+       "options": [
+        "\"Hadis ilmining sultoni\"",
+        "\"Imomi A'zam\"",
+        "\"Jorulloh\"",
+        "\"Xorazm faxri\""
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Imom Buxoriy qancha hadisni yodida saqlagan?",
+       "options": [
+        "Olti yuz mingga yaqin",
+        "Olti yuzga yaqin",
+        "Olti mingga yaqin",
+        "Olti milliongacha"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "\"Al-Jome as-sahih\" islom olamida qanday o'rinda?",
+       "options": [
+        "Qur'ondan keyingi ikkinchi muhim manba",
+        "Birinchi manba",
+        "Uchinchi manba",
+        "Qo'shimcha manba"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Imom Buxoriyga hadislar to'plamini tuzishni kim maslahat bergan?",
+       "options": [
+        "Is'hoq Rohuvaih",
+        "Termiziy",
+        "Muslim",
+        "Abu Hanifa"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "Imom Buxoriy kitobiga qanday hadislarni jamladi?",
+       "options": [
+        "Faqat sahih hadislarni",
+        "Barcha hadislarni",
+        "Faqat rivoyatlarni",
+        "Afsonalarni"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "\"Al-Jome as-sahih\" necha yil mobaynida yozib tugatildi?",
+       "options": [
+        "16 yil",
+        "6 yil",
+        "30 yil",
+        "1 yil"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "Imom Buxoriy \"Ilmdan boshqa najot yo'q va bo'lmagay\" degan. Bu gap nimani anglatadi?",
+       "options": [
+        "Ilm yagona najot ekanini",
+        "Boylik najot ekanini",
+        "Qurol najot ekanini",
+        "Savdo najot ekanini"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "Bag'dod muhaddislari Imom Buxoriyni nima bilan imtihon qilgan?",
+       "options": [
+        "Yuzta hadisning matn va isnodlarini almashtirib",
+        "Savollar to'plami bilan",
+        "Yozuv tanlovi bilan",
+        "Qur'on yodlash bilan"
+       ],
+       "correct_index": 0,
+       "page": 153
+      },
+      {
+       "question": "Imom Buxoriy imtihonda nima qilgan?",
+       "options": [
+        "Hamma hadislarning isnod va matnlarini joy-joyiga qo'ygan",
+        "Hech narsa bilmagan",
+        "Qochib ketgan",
+        "Rad etgan"
+       ],
+       "correct_index": 0,
+       "page": 153
+      },
+      {
+       "question": "Birinchi shifoxona qaysi yili musulmonlar tomonidan tashkil qilingan?",
+       "options": [
+        "707-yili",
+        "507-yili",
+        "907-yili",
+        "1107-yili"
+       ],
+       "correct_index": 0,
+       "page": 153
+      },
+      {
+       "question": "Imom Termiziy qaysi yillarda yashagan?",
+       "options": [
+        "824-892",
+        "724-792",
+        "924-992",
+        "1024-1092"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Termiziy qayerda tug'ilgan?",
+       "options": [
+        "Bug' qishlog'i (Sherobod)",
+        "Zamaxshar qishlog'i",
+        "Narshax qishlog'i",
+        "Rishton"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Termiziy Imom Buxoriy bilan qayerda uchrashgan?",
+       "options": [
+        "Nishopurda",
+        "Buxoroda",
+        "Makkada",
+        "Termizda"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Termiziy va Buxoriy necha yil birga yashagan?",
+       "options": [
+        "5 yil",
+        "1 yil",
+        "20 yil",
+        "10 yil"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Termiziy tavalludining 1200 yilligi qachon nishonlangan?",
+       "options": [
+        "1990-yili",
+        "1890-yili",
+        "2000-yili",
+        "1960-yili"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Zamaxshariy qaysi yillarda yashagan?",
+       "options": [
+        "1075-1144",
+        "975-1044",
+        "1175-1244",
+        "875-944"
+       ],
+       "correct_index": 0,
+       "page": 156
+      },
+      {
+       "question": "Zamaxshariy qaysi nomlar bilan ulug'langan?",
+       "options": [
+        "\"Jorulloh\", \"Xorazm faxri\"",
+        "\"Imomi A'zam\"",
+        "\"Hujjatul islom\"",
+        "\"Shayx ul-islom\""
+       ],
+       "correct_index": 0,
+       "page": 156
+      },
+      {
+       "question": "Zamaxshariyning arab tili grammatikasiga oid asari qaysi?",
+       "options": [
+        "\"Al-Mufassal\"",
+        "\"Hidoya\"",
+        "\"Kashshof\"",
+        "\"Siyosatnoma\""
+       ],
+       "correct_index": 0,
+       "page": 156
+      },
+      {
+       "question": "Zamaxshariyning Qur'on tafsiri qanday ataladi?",
+       "options": [
+        "\"Kashshof\"",
+        "\"Mufassal\"",
+        "\"Hidoya\"",
+        "\"Jome\""
+       ],
+       "correct_index": 0,
+       "page": 156
+      },
+      {
+       "question": "Marg'inoniy qaysi yili tug'ilgan?",
+       "options": [
+        "1123-yilda",
+        "923-yilda",
+        "1323-yilda",
+        "723-yilda"
+       ],
+       "correct_index": 0,
+       "page": 157
+      },
+      {
+       "question": "Marg'inoniy qanday martabaga sazovor bo'lgan?",
+       "options": [
+        "\"Shayx ul-islom\"",
+        "\"Imomi A'zam\"",
+        "\"Hujjatul islom\"",
+        "\"Jorulloh\""
+       ],
+       "correct_index": 0,
+       "page": 157
+      },
+      {
+       "question": "\"Hidoya\" necha bobdan iborat?",
+       "options": [
+        "57 bob",
+        "7 bob",
+        "100 bob",
+        "10 bob"
+       ],
+       "correct_index": 0,
+       "page": 157
+      },
+      {
+       "question": "\"Hidoya\" qaysi shaharda yozilgan?",
+       "options": [
+        "Samarqandda",
+        "Marg'ilonda",
+        "Buxoroda",
+        "Bag'dodda"
+       ],
+       "correct_index": 0,
+       "page": 157
+      },
+      {
+       "question": "Hakim Termiziy taxminan nechta asar yozgan?",
+       "options": [
+        "To'rt yuzga yaqin",
+        "Yetti",
+        "Yuzga yaqin",
+        "Uch minggacha"
+       ],
+       "correct_index": 0,
+       "page": 158
+      },
+      {
+       "question": "\"Al-Hakim\" nomi nimani anglatadi?",
+       "options": [
+        "Borliqdagi hikmatni anglagan zot",
+        "Hukmdor",
+        "Doktor",
+        "Shoir"
+       ],
+       "correct_index": 0,
+       "page": 159
+      },
+      {
+       "question": "Narshaxiy qaysi yillarda yashagan?",
+       "options": [
+        "899-959",
+        "799-859",
+        "999-1059",
+        "699-759"
+       ],
+       "correct_index": 0,
+       "page": 160
+      },
+      {
+       "question": "\"Buxoro tarixi\" kimga bag'ishlab yozilgan?",
+       "options": [
+        "Somoniylar amiri Nuh ibn Nasrga",
+        "Ismoil Somoniyga",
+        "Mahmud G'aznaviyga",
+        "Sulton Sanjarga"
+       ],
+       "correct_index": 0,
+       "page": 160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "s5",
+   "title": "V BO'LIM. Ilm-fan va buyuk allomalar",
+   "topics": [
+    {
+     "key": "m45_46",
+     "title": "45-46-mavzular. IX-XII asrlarda ilm-fan va madaniyatning yuksalishi",
+     "start_page": 161,
+     "end_page": 166,
+     "explanation": {
+      "goals": [
+       "IX-XII asrlarda me'morchilik va qurilish yutuqlarini bilish",
+       "Xorazm Ma'mun akademiyasining tashkil topishi va faoliyatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Madaniyatning yuksalishi",
+        "pages": [
+         161,
+         162
+        ],
+        "text": "Turon hududi jahon madaniyatining ko'hna o'choqlaridan biri bo'lgan. Islom kirib kelishidan avval ham bu yerda yashagan xalqlar boy me'morchilik va hunarmandchilik an'analariga ega edi; islom kirib kelgach, mahalliy an'analar islom madaniyati bilan uyg'unlashib, yanada yuksalish pallasiga kirdi. Ilm-fan, savdo-sotiq, qurilish va qishloq xo'jaligi misli ko'rilmagan darajada taraqqiy etdi.\n\nIX-X asrlarda me'morchilikning ajoyib yutuqlari masjid va madrasalar qurilishida ko'proq namoyon bo'ldi. Masjid binolari yonida minora, honaqoh, ulamo va avliyolar mozorlari ustiga maqbaralar qurildi; ziyoratchilar ko'p bo'lgani uchun maxsus hujralar ham bino etildi. IX asrga qadar asosan loy va xom g'ishtdan qurilgan binolar o'rniga pishiq g'isht ham ishlatila boshlandi. Moddalar solishtirma og'irligini aniqlash usuli ilk bor Xorazmda Ma'mun akademiyasida Beruniy tomonidan kashf etilgan."
+       },
+       {
+        "heading": "XI-XII asrlar me'morchiligi",
+        "pages": [
+         163
+        ],
+        "text": "Qoraxoniylar, g'aznaviylar, saljuqiylar, anushteginiylar davrida iqtisodiy va madaniy taraqqiyot yuksaldi. XI-XII asrlarda pishiq g'ishtdan bino qurish mahorati yuksak darajaga yetdi: imoratlar sakkiz burchakli, baland peshtoqli va hashamatli gumbazlar bilan yopilgan holda qurish odat tusiga kirdi, naqshinkor g'isht terish san'ati rivojlandi, g'ishtlarga o'yma naqshlar berildi. Aholi orasida \"musulmon g'isht\" deb yuritilgan qurilish ashyosi sariq loydan tayyorlanib, maxsus xumdonlarda pishirilgan. Har bir shahar va viloyatda o'ziga xos me'moriy uslublar rivojlangan; bu algebra va geometriya fanlarining rivojlanganidan ham dalolat beradi."
+       },
+       {
+        "heading": "Saljuqiylar davrida madrasalar",
+        "pages": [
+         164
+        ],
+        "text": "Saljuqiylar davrida fan va madaniyat taraqqiyoti uchun barcha shart-sharoit yaratilgan: oliy hukmdor, shahzoda yoki malika biror shaharda bir yoki bir necha madrasa qurishni o'z vazifasi deb bilgan; vazir Nizomulmulk ko'plab madrasalar qurdirgan. Ilm toliblari diniy va dunyoviy sohalarda bilim olgan, ularga oylik nafaqa berilgan, joy bilan ta'minlangan; ularning ixtiyorida minglab kitoblar jamlangan kutubxonalar bo'lgan. Nizomulmulk Bag'doddagi \"Nizomiya\" madrasalaridan birida olti ming talaba yashab, ta'lim olgan. Har bir madrasa qoshida kutubxona, ayrimlarida shifoxona bo'lgan: Nishopurdagi madrasaga shifoxona ham biriktirilgan.\n\nMarv noibi Ma'mun 813-yilda Bag'dod xalifaligi taxtiga o'tirib, Xuroson, Movarounnahr va Xorazmdagi ilm ahlini Bag'dodga olib ketgan; ular orasida Muhammad Muso Xorazmiy ham bor edi."
+       },
+       {
+        "heading": "Xorazm Ma'mun akademiyasi",
+        "pages": [
+         165,
+         166
+        ],
+        "text": "Xorazmshoh Abul Hasan Ali ibn Ma'mun ilmga katta e'tibor ko'rsatib, saroyiga olimlarni taklif qilgan va Gurganchda 1004-yilda akademiyaga asos solgan - tarixda Ma'mun akademiyasi nomi bilan qolgan. Unda Abu Rayhon Beruniy ilm ahliga boshchilik qilgan, Abu Ali ibn Sino ham faoliyat yuritgan. Akademiyada diniy bilimlar bilan birga astronomiya, matematika, fizika, kimyo, mineralogiya, kartografiya, geografiya, geometriya, tibbiyot, falsafa, tarix, arab tili, mantiq, adabiyot, islom huquqshunosligi sohasida tadqiqotlar olib borilgan. Olimlar arab, fors, hind, lotin, yunon va turkiy tillarni bilgan; Platon, Aristotel, Ptolemey, Yevklid, Pifagor va Galen asarlarini tahlil qilib, ularga sharhlar bitgan.\n\nAkademiyada Beruniyning astronomiya, Abu Nasrning matematika, Abul Xayr Hammorning kimyo maktablari bo'lgan; yoshlar Gurganch madrasalarida ta'lim olgan. Akademiyadagi olimlarning aksariyati Xorazmiy asarlarining sharhlovchilari yoki uning ilmiy an'analari davomchilari edi. Xorazmshoh Ma'munning vaziri Abu Husayn Suhayliy ma'rifatparvar va faylasuf bo'lgan. 2006-yilda Xorazm Ma'mun akademiyasining 1000 yilligi nishonlangan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "IX asrga qadar loy va xom g'isht o'rniga pishiq g'isht ishlatila boshlangan",
+        "page": 162
+       },
+       {
+        "fact": "XI-XII asrlarda sakkiz burchakli baland peshtoqli gumbazli binolar qurish odat bo'lgan",
+        "page": 163
+       },
+       {
+        "fact": "Nizomulmulk qurdirgan Bag'doddagi \"Nizomiya\" madrasalaridan birida olti ming talaba o'qigan",
+        "page": 164
+       },
+       {
+        "fact": "Xorazm Ma'mun akademiyasi Gurganchda 1004-yilda asos solingan",
+        "page": 165
+       },
+       {
+        "fact": "Ma'mun akademiyasida Beruniy ilm ahliga boshchilik qilgan, Ibn Sino ham faoliyat yuritgan",
+        "page": 165
+       }
+      ],
+      "why": {
+       "causes": [
+        "Islom kirib kelgach mahalliy an'analar islom madaniyati bilan uyg'unlashdi",
+        "Iqtisodiy ahvol yaxshilanib, shaharlar ahamiyati ortdi",
+        "Xorazmshoh Ma'mun ilmga katta e'tibor ko'rsatdi",
+        "Hukmdorlar va vazirlar madrasalar qurishni o'z vazifasi deb bildi"
+       ],
+       "effects": [
+        "Pishiq g'ishtdan masjid, madrasa, maqbara va minoralar qurildi",
+        "Ilm toliblariga nafaqa va joy berilib, madrasalarda kutubxona va shifoxonalar ochildi",
+        "Ma'mun akademiyasida aniq va tabiiy fanlar hamda falsafa, tarix, adabiyot rivojlandi",
+        "Beruniy moddalar solishtirma og'irligini aniqlash usulini kashf etdi"
+       ]
+      },
+      "summary": "IX-XII asrlarda mahalliy an'analar islom madaniyati bilan uyg'unlashib, masjid, madrasa, minora va maqbaralar pishiq g'ishtdan qurildi. Saljuqiylar davrida Nizomulmulk madrasalar (Nizomiya) qurdirdi. 1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi: Beruniy va Ibn Sino unda faoliyat yuritib, tabiiy va aniq fanlar rivojiga hissa qo'shdi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "45-46-mavzular. Ilm-fan va madaniyat yuksalishi",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Me'morchilik",
+        "bullets": [
+         "Masjid, madrasa, minora, maqbara",
+         "Pishiq g'isht (IX asrdan)",
+         "Sakkiz burchakli peshtoq"
+        ],
+        "page": 162
+       },
+       {
+        "title": "Madrasalar",
+        "bullets": [
+         "Nizomulmulk va \"Nizomiya\"",
+         "Bag'dodda 6 ming talaba",
+         "Kutubxona va shifoxona"
+        ],
+        "page": 164
+       },
+       {
+        "title": "Ma'mun akademiyasi",
+        "bullets": [
+         "Gurganch, 1004-yil",
+         "Beruniy va Ibn Sino",
+         "Aniq va tabiiy fanlar"
+        ],
+        "page": 165
+       },
+       {
+        "title": "Maktablar",
+        "bullets": [
+         "Beruniy - astronomiya",
+         "Abu Nasr - matematika",
+         "Abul Xayr Hammor - kimyo"
+        ],
+        "page": 166
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Marv noibi Ma'mun Bag'dod xalifaligi taxtiga o'tiradi (813-yil)",
+         "page": 164
+        },
+        {
+         "label": "Gurganchda Ma'mun akademiyasiga asos solinadi (1004-yil)",
+         "page": 165
+        },
+        {
+         "label": "Ma'mun akademiyasining 1000 yilligi nishonlanadi (2006-yil)",
+         "page": 166
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Nizomulmulk",
+         "right": "Bag'dodda \"Nizomiya\" madrasalarini qurdirgan vazir",
+         "page": 164
+        },
+        {
+         "left": "Abul Hasan Ali ibn Ma'mun",
+         "right": "Gurganchda akademiyaga asos solgan xorazmshoh",
+         "page": 165
+        },
+        {
+         "left": "Beruniy",
+         "right": "Ma'mun akademiyasida ilm ahliga boshchilik qilgan",
+         "page": 165
+        },
+        {
+         "left": "Abu Nasr",
+         "right": "Akademiyada matematika maktabi rahbari",
+         "page": 166
+        },
+        {
+         "left": "Abul Xayr Hammor",
+         "right": "Akademiyada kimyo maktabi rahbari",
+         "page": 166
+        },
+        {
+         "left": "Musulmon g'isht",
+         "right": "Sariq loydan pishirilgan qurilish ashyosi",
+         "page": 163
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Ma'mun akademiyasi ____ yilda Gurganchda tashkil etilgan.",
+         "options": [
+          "1004",
+          "904",
+          "1104",
+          "804"
+         ],
+         "correct_index": 0,
+         "page": 165
+        },
+        {
+         "question": "Bag'doddagi \"Nizomiya\" madrasalaridan birida ____ ming talaba o'qigan.",
+         "options": [
+          "olti",
+          "bir",
+          "yigirma",
+          "ikki"
+         ],
+         "correct_index": 0,
+         "page": 164
+        },
+        {
+         "question": "Nishopurdagi madrasaga ____ ham biriktirilgan.",
+         "options": [
+          "shifoxona",
+          "rasadxona",
+          "karvonsaroy",
+          "hammom"
+         ],
+         "correct_index": 0,
+         "page": 164
+        },
+        {
+         "question": "Moddalar solishtirma og'irligini aniqlash usulini ____ kashf etgan.",
+         "options": [
+          "Beruniy",
+          "Ibn Sino",
+          "Xorazmiy",
+          "Forobiy"
+         ],
+         "correct_index": 0,
+         "page": 162
+        },
+        {
+         "question": "XI-XII asrlarda imoratlar ____ burchakli peshtoqlar bilan qurilgan.",
+         "options": [
+          "sakkiz",
+          "to'rt",
+          "olti",
+          "uch"
+         ],
+         "correct_index": 0,
+         "page": 163
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Nima uchun xalifa Ma'mun, qoraxoniylar, somoniylar, g'aznaviylar, saljuqiylar davrida ilm-ma'rifat rivojlangan?",
+        "answer": "Hukmdorlar va vazirlar madrasalar qurishni o'z vazifasi deb bilgan, ilm toliblariga nafaqa va joy bergan, kutubxonalar va akademiyalar tashkil etgan (\"Ilmdan o'zga najot yo'q\").",
+        "page": 164
+       },
+       {
+        "question": "Ma'mun akademiyasida olimlar fanning qaysi sohalarida izlanishlar olib borgan?",
+        "answer": "Astronomiya, matematika, fizika, kimyo, mineralogiya, kartografiya, geografiya, tibbiyot, falsafa, tarix, arab tili, mantiq, adabiyot, islom huquqshunosligi va boshqalarda.",
+        "page": 165
+       },
+       {
+        "question": "Birinchi madrasa qayerda qurilgan?",
+        "answer": "Buxoroda (VIII-IX asrlarda).",
+        "page": 162
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Akademiyada olimlar yunon olimlaridan kimlarning asarlariga sharhlar bitgan?",
+        "options": [
+         "Platon, Aristotel, Ptolemey, Yevklid, Pifagor, Galen",
+         "Faqat Platon",
+         "Homer va Sofokl",
+         "Arximed faqat"
+        ],
+        "correct_index": 0,
+        "page": 165
+       },
+       {
+        "question": "Ma'mun akademiyasidagi olimlarning aksariyati kimning ilmiy an'analari davomchilari edi?",
+        "options": [
+         "Xorazmiyning",
+         "Beruniyning",
+         "Forobiyning",
+         "Ibn Sinoning"
+        ],
+        "correct_index": 0,
+        "page": 166
+       },
+       {
+        "question": "Abu Husayn Suhayliy kim bo'lgan?",
+        "options": [
+         "Xorazmshoh Ma'munning vaziri",
+         "Akademiya raisi",
+         "Xalifa",
+         "Sarkarda"
+        ],
+        "correct_index": 0,
+        "page": 166
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Turon hududi jahon madaniyatining qanday o'choqlaridan biri bo'lgan?",
+       "options": [
+        "Ko'hna o'choqlaridan",
+        "Yangi o'choqlaridan",
+        "Eng kichik o'choqlaridan",
+        "Begona o'choqlaridan"
+       ],
+       "correct_index": 0,
+       "page": 161
+      },
+      {
+       "question": "Islom kirib kelgach mahalliy an'analar qanday bo'ldi?",
+       "options": [
+        "Islom madaniyati bilan uyg'unlashib, yanada yuksaldi",
+        "Butunlay yo'q bo'ldi",
+        "O'zgarmadi",
+        "Taqiqlandi"
+       ],
+       "correct_index": 0,
+       "page": 161
+      },
+      {
+       "question": "IX-X asrlarda me'morchilik yutuqlari asosan nimalar qurilishida namoyon bo'ldi?",
+       "options": [
+        "Masjid va madrasalar",
+        "Qal'alar",
+        "Ko'priklar",
+        "Saroylar faqat"
+       ],
+       "correct_index": 0,
+       "page": 162
+      },
+      {
+       "question": "Masjid binolari yonida nimalar qurildi?",
+       "options": [
+        "Minora, honaqoh, maqbaralar",
+        "Faqat bozor",
+        "Amfiteatr",
+        "Akveduk"
+       ],
+       "correct_index": 0,
+       "page": 162
+      },
+      {
+       "question": "IX asrga qadar asosan qanday binolar qurilgan?",
+       "options": [
+        "Loy va xom g'ishtdan",
+        "Pishiq g'ishtdan",
+        "Marmardan",
+        "Yog'ochdan"
+       ],
+       "correct_index": 0,
+       "page": 162
+      },
+      {
+       "question": "Moddalar solishtirma og'irligini aniqlash usuli qayerda kashf etilgan?",
+       "options": [
+        "Xorazmda Ma'mun akademiyasida",
+        "Bag'dodda",
+        "Samarqandda",
+        "G'aznada"
+       ],
+       "correct_index": 0,
+       "page": 162
+      },
+      {
+       "question": "XI-XII asrlarda qaysi mahorat yuksak darajaga yetdi?",
+       "options": [
+        "Pishiq g'ishtdan bino qurish",
+        "Kemasozlik",
+        "Shishasozlik faqat",
+        "Qurolsozlik"
+       ],
+       "correct_index": 0,
+       "page": 163
+      },
+      {
+       "question": "\"Musulmon g'isht\" qanday tayyorlangan?",
+       "options": [
+        "Sariq loydan maxsus xumdonlarda pishirilgan",
+        "Toshdan yo'nilgan",
+        "Ohakdan quyilgan",
+        "Qamishdan"
+       ],
+       "correct_index": 0,
+       "page": 163
+      },
+      {
+       "question": "Har bir shaharda o'ziga xos me'moriy uslublar rivojlanishi qaysi fanlar rivojidan dalolat beradi?",
+       "options": [
+        "Algebra va geometriya",
+        "Kimyo va fizika",
+        "Tibbiyot",
+        "Geografiya"
+       ],
+       "correct_index": 0,
+       "page": 163
+      },
+      {
+       "question": "Saljuqiylar davrida hukmdor, shahzoda yoki malika nimani o'z vazifasi deb bilgan?",
+       "options": [
+        "Madrasa qurishni",
+        "Bozor ochishni",
+        "Qal'a qurishni",
+        "Yo'l solishni"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Ilm toliblariga nimalar berilgan?",
+       "options": [
+        "Oylik nafaqa va joy",
+        "Faqat kitob",
+        "Yer",
+        "Qul"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Bag'doddagi \"Nizomiya\" madrasalaridan birida necha talaba yashab o'qigan?",
+       "options": [
+        "Olti ming",
+        "Olti yuz",
+        "Oltmish",
+        "Olti million"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Nishopurdagi madrasa qoshida nima bor edi?",
+       "options": [
+        "Shifoxona",
+        "Rasadxona",
+        "Zarbxona",
+        "Karvonsaroy"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Ma'mun 813-yilda qaysi xalifalik taxtiga o'tirdi?",
+       "options": [
+        "Bag'dod xalifaligi",
+        "Damashq xalifaligi",
+        "Qohira xalifaligi",
+        "Kordova xalifaligi"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Ma'mun Bag'dodga olib ketgan olimlar orasida kim bor edi?",
+       "options": [
+        "Muhammad Muso Xorazmiy",
+        "Beruniy",
+        "Ibn Sino",
+        "Forobiy"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Xorazm Ma'mun akademiyasiga kim asos solgan?",
+       "options": [
+        "Xorazmshoh Abul Hasan Ali ibn Ma'mun",
+        "Mahmud G'aznaviy",
+        "Alp Arslon",
+        "Malikshoh"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Ma'mun akademiyasi qayerda asos solingan?",
+       "options": [
+        "Gurganchda",
+        "Samarqandda",
+        "Buxoroda",
+        "Balxda"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Akademiyada ilm ahliga kim boshchilik qilgan?",
+       "options": [
+        "Abu Rayhon Beruniy",
+        "Ibn Sino",
+        "Xorazmiy",
+        "Forobiy"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Akademiyada qaysi mashhur olim ham faoliyat yuritgan?",
+       "options": [
+        "Abu Ali ibn Sino",
+        "Imom Buxoriy",
+        "Firdavsiy",
+        "Zamaxshariy"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Akademiya olimlari qaysi tillarni bilgan?",
+       "options": [
+        "Arab, fors, hind, lotin, yunon va turkiy",
+        "Faqat arab",
+        "Faqat fors",
+        "Xitoy va yapon"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Akademiyada Beruniyning qaysi fan maktabi bo'lgan?",
+       "options": [
+        "Astronomiya",
+        "Matematika",
+        "Kimyo",
+        "Tibbiyot"
+       ],
+       "correct_index": 0,
+       "page": 166
+      },
+      {
+       "question": "Akademiyada kimyo maktabi kimniki edi?",
+       "options": [
+        "Abul Xayr Hammorniki",
+        "Abu Nasrniki",
+        "Beruniyniki",
+        "Xorazmiyniki"
+       ],
+       "correct_index": 0,
+       "page": 166
+      },
+      {
+       "question": "Matematika maktabi kimniki edi?",
+       "options": [
+        "Abu Nasrniki",
+        "Hammorniki",
+        "Beruniyniki",
+        "Ibn Sinoniki"
+       ],
+       "correct_index": 0,
+       "page": 166
+      },
+      {
+       "question": "Akademiya olimlarining aksariyati kimning ilmiy an'analari davomchilari edi?",
+       "options": [
+        "Muhammad Muso Xorazmiyning",
+        "Platonning",
+        "Aristotelning",
+        "Yevklidning"
+       ],
+       "correct_index": 0,
+       "page": 166
+      },
+      {
+       "question": "Ma'mun akademiyasining 1000 yilligi qaysi yili nishonlangan?",
+       "options": [
+        "2006-yilda",
+        "1996-yilda",
+        "1986-yilda",
+        "2016-yilda"
+       ],
+       "correct_index": 0,
+       "page": 166
+      }
+     ]
+    },
+    {
+     "key": "m47_48",
+     "title": "47-48-mavzular. Muhammad ibn Muso al-Xorazmiy",
+     "start_page": 167,
+     "end_page": 171,
+     "explanation": {
+      "goals": [
+       "Al-Xorazmiyning hayoti, asarlari va kashfiyotlarini bilish",
+       "Algebra, algoritm va hind raqamlari tizimini yoyishdagi xizmatlarini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Hayoti va algebra",
+        "pages": [
+         167
+        ],
+        "text": "Buyuk matematik, astronom va geograf Abu Ja'far (Abu Abdulloh) Muhammad ibn Muso al-Xorazmiy Xivada (783-850) tug'ilgan. U algebra fanining asoschisi sifatida ilm-fan tarixida yuksak nom qozondi: \"algebra\" so'zi uning \"Aljabr val-muqobala\" risolasidan olingan. Arifmetikaga oid risolasi hind raqamlariga asoslangan bo'lib, hozirgi o'nlik hisoblash sistemasi va undagi amallarning Yevropada tarqalishiga sabab bo'ldi. Olimning \"al-Xorazmiy\" nomi \"algoritm\" shaklida fanda abadiy o'rnashib qoldi.\n\nXorazmiyning aytishicha, algebrada uch xil son bilan ish ko'riladi: ildiz (jizr) yoki narsa (shay), kvadrat (mol) va oddiy son yoki dirham. Ildiz - o'z-o'ziga ko'paytiriladigan miqdor, kvadrat esa ildizni o'ziga ko'paytirishdan hosil bo'lgan kattalik. X asrda yashagan sayyoh al-Muqaddasiy: \"Xorazmliklar aql-idrok, ilm, fiqh, qobiliyat hamda bilim kishilaridir\", degan."
+       },
+       {
+        "heading": "Asarlari",
+        "pages": [
+         168,
+         169
+        ],
+        "text": "Xorazmiy qalamiga mansub 20 dan ortiq asarning 10 tasi bizgacha yetib kelgan: \"Al-jabr val-muqobala\", \"Hind hisobi haqida kitob\", \"Qo'shish va ayirish haqida kitob\" (arifmetik asarlar), \"Kitob surat-al-arz\" (geografiya), shuningdek \"Zij\", \"Usturlob bilan ishlash haqida kitob\", \"Usturlob yasash haqida kitob\", \"Kitob ar-ruhoma\", \"Kitob at-tarix\". U \"Al-jabr val-muqobala\"ni meros taqsimlash, vasiyatnoma, mol taqsimlash, adliya ishlari, savdo, yer o'lchash, kanallar o'tkazish kabi ishlarda zarur bo'lgani uchun yozgan. Hali G'arbda ko'pchilik yer tekislikdan iborat deb ishonayotgan paytda Xorazmiy sayyoramiz yumaloq ekanini isbotlagan.\n\nYevropalik olimlar bir necha asr davomida hisob-kitoblarning tagiga \"diksit Algoritmi\", ya'ni \"Al-Xorazmiy shunday deydi\" deb qo'shib ketishni sharaf deb bilgan. Alloma Bobildan ma'lum bo'lgan birinchi va ikkinchi darajali tenglamalarni yechish usullarini bayon qilib, qoidalar va qat'iy isbotlarni keltirgan; \"Al-jabr val-muqobala\" algebra asoslari va uni amalda qo'llashga bag'ishlangan mukammal darslik bo'lgan."
+       },
+       {
+        "heading": "Nol va algoritm",
+        "pages": [
+         170
+        ],
+        "text": "Xorazmiy ko'plab hind qo'lyozma asarlarini o'rganib chiqdi. 1 dan 9 gacha sanoq tizimini tuzgan va 0 g'oyasi ustida bosh qotirgan hind matematigi izlanishlari unga turtki bo'ldi. Lekin 0 sonini son sifatida e'tirof etgan va hind sanoq tizimidan foydalanib, arab sanoq tizimiga asos solgan shaxs aynan Xorazmiy edi. Zamondosh olimlarga hind sanoq tizimini tanishtirish va matematika markaziga nol sonini joylashtirish o'z davri matematikasi uchun inqilob bo'ldi: avval ilojsiz bo'lgan murakkab matematik masalalarni hal qilish imkonini berdi.\n\nBritaniyalik jurnalist Endryu Marr BBC uchun tayyorlagan ko'rsatuvda Xorazmiy haqida: \"Har gal mobil telefoningni qo'lga olganda, unutma, uning ichida musulmon o'zbek otaxon yashirin o'tiradi!\" deb xitob qilgan. Xorazmiyning xizmatlariga e'tirof o'laroq 1976-yili Oyning krateri Muso Xorazmiy nomi bilan atalgan."
+       },
+       {
+        "heading": "Geografiya va xalqaro e'tirof",
+        "pages": [
+         171
+        ],
+        "text": "Xorazmiy geografiyada ham muhim qadamlar qo'ygan: xalifa Ma'mun (813-833) uchun jahon xaritasini yaratishga yordam bergan, Yer atrofini topish loyihasida ishtirok etgan, Suriyadagi Sinjor tekisligida yer meridiani darajasini o'lchagan. Ma'mun akademiyasining hozirgi ko'rinishi Xorazmda saqlangan. Amerikalik tarixchi J. Sarton: \"Xorazmiy o'z davrining eng buyuk matematigi va, agar barcha shart-sharoitlar nazarga olinsa, hamma davrlarning ham eng buyuklaridan biri\", degan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Al-Xorazmiy Xivada 783-850-yillarda yashagan",
+        "page": 167
+       },
+       {
+        "fact": "\"Algebra\" so'zi \"Aljabr val-muqobala\" risolasidan olingan",
+        "page": 167
+       },
+       {
+        "fact": "Xorazmiy 20 dan ortiq asar yozgan, 10 tasi saqlangan",
+        "page": 168
+       },
+       {
+        "fact": "Xorazmiy 0 sonini son sifatida e'tirof etib, arab sanoq tizimiga asos solgan",
+        "page": 170
+       },
+       {
+        "fact": "1976-yili Oyning krateri Muso Xorazmiy nomi bilan atalgan",
+        "page": 170
+       }
+      ],
+      "why": {
+       "causes": [
+        "Meros taqsimlash, savdo, yer o'lchash va kanal qazishda hisob-kitob zarur edi",
+        "Xorazmiy hind qo'lyozmalarini o'rganib, hind sanoq tizimi va nol g'oyasidan turtki oldi"
+       ],
+       "effects": [
+        "\"Al-jabr val-muqobala\" yozilib, algebra mustaqil fan sifatida ajralib chiqdi",
+        "Hozirgi o'nlik hisoblash sistemasi Yevropada tarqaldi",
+        "\"Algoritm\" atamasi Xorazmiy nomidan kelib chiqdi",
+        "Oyning krateri Xorazmiy nomi bilan atalgan"
+       ]
+      },
+      "summary": "Muhammad ibn Muso al-Xorazmiy (783-850) algebra asoschisi: \"Aljabr val-muqobala\" asaridan \"algebra\" nomi, ismidan \"algoritm\" atamasi kelib chiqqan. U hind raqamlarini va noldan foydalanib hozirgi o'nlik sanoq tizimining Yevropada yoyilishiga sabab bo'ldi, geografiya va astronomiyada ham asarlar yaratdi. 1976-yili Oy krateri uning nomi bilan atalgan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "47-48-mavzular. Al-Xorazmiy",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Hayoti",
+        "bullets": [
+         "Xiva, 783-850",
+         "Matematik, astronom, geograf",
+         "Algebra asoschisi"
+        ],
+        "page": 167
+       },
+       {
+        "title": "Asarlari",
+        "bullets": [
+         "\"Al-jabr val-muqobala\"",
+         "\"Hind hisobi haqida kitob\"",
+         "\"Kitob surat-al-arz\", \"Zij\""
+        ],
+        "page": 168
+       },
+       {
+        "title": "Kashfiyotlar",
+        "bullets": [
+         "Nol - son sifatida",
+         "Algoritm atamasi",
+         "Yer yumaloq"
+        ],
+        "page": 170
+       },
+       {
+        "title": "E'tirof",
+        "bullets": [
+         "Oy krateri (1976)",
+         "J. Sarton bahosi",
+         "BBC: mobil telefon ichida"
+        ],
+        "page": 171
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Al-Xorazmiyning tavalludi (783-yil)",
+         "page": 167
+        },
+        {
+         "label": "Xalifa Ma'mun hukmronligi (813-833)",
+         "page": 171
+        },
+        {
+         "label": "Al-Xorazmiyning vafoti (850-yil)",
+         "page": 167
+        },
+        {
+         "label": "Oyning krateri Xorazmiy nomi bilan atalishi (1976-yil)",
+         "page": 170
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Aljabr val-muqobala",
+         "right": "\"Algebra\" so'zi olingan risola",
+         "page": 167
+        },
+        {
+         "left": "Algoritm",
+         "right": "\"Al-Xorazmiy\" nomining fanda saqlangan shakli",
+         "page": 167
+        },
+        {
+         "left": "Ildiz (jizr)",
+         "right": "O'z-o'ziga ko'paytiriladigan miqdor",
+         "page": 167
+        },
+        {
+         "left": "Kitob surat-al-arz",
+         "right": "Geografiyaga oid asar",
+         "page": 168
+        },
+        {
+         "left": "Sinjor tekisligi",
+         "right": "Xorazmiy yer meridiani darajasini o'lchagan joy",
+         "page": 171
+        },
+        {
+         "left": "Diksit Algoritmi",
+         "right": "\"Al-Xorazmiy shunday deydi\" iborasi",
+         "page": 169
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Al-Xorazmiy ____ shahrida tug'ilgan.",
+         "options": [
+          "Xiva",
+          "Urganch",
+          "Buxoro",
+          "Samarqand"
+         ],
+         "correct_index": 0,
+         "page": 167
+        },
+        {
+         "question": "\"Algebra\" so'zi \"Aljabr val-____\" risolasidan olingan.",
+         "options": [
+          "muqobala",
+          "hisob",
+          "qiyos",
+          "miqdor"
+         ],
+         "correct_index": 0,
+         "page": 167
+        },
+        {
+         "question": "Xorazmiy 20 dan ortiq asarning ____ tasi bizgacha yetib kelgan.",
+         "options": [
+          "10",
+          "2",
+          "20",
+          "5"
+         ],
+         "correct_index": 0,
+         "page": 168
+        },
+        {
+         "question": "Xorazmiy ____ sonini son sifatida e'tirof etgan.",
+         "options": [
+          "0",
+          "1",
+          "10",
+          "100"
+         ],
+         "correct_index": 0,
+         "page": 170
+        },
+        {
+         "question": "Oyning krateri ____ yili Xorazmiy nomi bilan atalgan.",
+         "options": [
+          "1976",
+          "1876",
+          "2006",
+          "1946"
+         ],
+         "correct_index": 0,
+         "page": 170
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "\"Algoritm\" deganda nimani tushunasiz?",
+        "answer": "Al-Xorazmiy nomining lotinchalashgan shakli; hisob-kitob va amallarning aniq bosqichma-bosqich tartibi.",
+        "page": 170
+       },
+       {
+        "question": "Xorazmiy matematikadan tashqari fanning yana qaysi sohalari bilan shug'ullangan?",
+        "answer": "Astronomiya (Zij, usturlob) va geografiya (Kitob surat-al-arz, jahon xaritasi, meridian o'lchash).",
+        "page": 171
+       },
+       {
+        "question": "O'sha davrda \"Al-jabr val-muqobala\" kitobiga qanday ehtiyoj mavjud edi?",
+        "answer": "Meros taqsimlash, vasiyatnoma, savdo, adliya, yer o'lchash va kanallar o'tkazishda hisob-kitob uchun.",
+        "page": 168
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Xorazmiy qaysi xalifa uchun jahon xaritasini yaratishga yordam bergan?",
+        "options": [
+         "Ma'mun",
+         "Horun ar-Rashid",
+         "Amin",
+         "Muoviya"
+        ],
+        "correct_index": 0,
+        "page": 171
+       },
+       {
+        "question": "Yevropalik olimlar hisob-kitoblar tagiga qanday ibora yozgan?",
+        "options": [
+         "\"Diksit Algoritmi\"",
+         "\"Sic Euclides\"",
+         "\"Aljabr\"",
+         "\"Zij\""
+        ],
+        "correct_index": 0,
+        "page": 169
+       },
+       {
+        "question": "Xorazmiyni \"eng buyuk matematiklardan biri\" deb baholagan amerikalik tarixchi kim?",
+        "options": [
+         "J. Sarton",
+         "E. Marr",
+         "T. Kuhn",
+         "S. Tolstov"
+        ],
+        "correct_index": 0,
+        "page": 171
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Al-Xorazmiy qaysi yillarda yashagan?",
+       "options": [
+        "783-850",
+        "683-750",
+        "883-950",
+        "983-1050"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Al-Xorazmiy qaysi fanning asoschisi hisoblanadi?",
+       "options": [
+        "Algebra",
+        "Kimyo",
+        "Tibbiyot",
+        "Falsafa"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "\"Algebra\" so'zi qaysi asardan olingan?",
+       "options": [
+        "\"Aljabr val-muqobala\"",
+        "\"Zij\"",
+        "\"Hind hisobi\"",
+        "\"Kitob surat-al-arz\""
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Xorazmiyning arifmetikaga oid risolasi nimaga asoslangan edi?",
+       "options": [
+        "Hind raqamlariga",
+        "Arab harflariga",
+        "Rim raqamlariga",
+        "Yunon harflariga"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Xorazmiy nomi fanda qanday shaklda abadiy qoldi?",
+       "options": [
+        "Algoritm",
+        "Algebra",
+        "Aritm",
+        "Geometr"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Algebrada Xorazmiy uch xil sondan birini \"mol\" deb atagan. U nima?",
+       "options": [
+        "Kvadrat",
+        "Ildiz",
+        "Oddiy son",
+        "Nol"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Ildiz (jizr) nima?",
+       "options": [
+        "O'z-o'ziga ko'paytiriladigan miqdor",
+        "Kvadrat",
+        "Dirham",
+        "Nol"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Al-Muqaddasiy xorazmliklar haqida nima degan?",
+       "options": [
+        "Aql-idrok, ilm, fiqh, qobiliyat va bilim kishilaridir",
+        "Savdogarlardir",
+        "Jangchilardir",
+        "Dehqonlardir"
+       ],
+       "correct_index": 0,
+       "page": 167
+      },
+      {
+       "question": "Xorazmiyning nechta asaridan nechtasi saqlangan?",
+       "options": [
+        "20 dan ortiqdan 10 tasi",
+        "100 dan 50 tasi",
+        "5 dan 5 tasi",
+        "30 dan 1 tasi"
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "Xorazmiyning geografiyaga oid asari qaysi?",
+       "options": [
+        "\"Kitob surat-al-arz\"",
+        "\"Al-jabr val-muqobala\"",
+        "\"Zij\"",
+        "\"Kitob at-tarix\""
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Xorazmiyning arifmetik asari?",
+       "options": [
+        "\"Hind hisobi haqida kitob\"",
+        "\"Kitob surat-al-arz\"",
+        "\"Zij\"",
+        "\"Kitob ar-ruhoma\""
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "Xorazmiy qaysi astronomik asbob haqida kitoblar yozgan?",
+       "options": [
+        "Usturlob",
+        "Teleskop",
+        "Kompas",
+        "Soat"
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "\"Al-jabr val-muqobala\"ni Xorazmiy nima uchun yozgan?",
+       "options": [
+        "Meros, savdo, yer o'lchash kabi ishlarda hisob zarur bo'lgani uchun",
+        "Faqat dars uchun",
+        "Xalifa buyrug'i bilan faqat",
+        "Dinni tarqatish uchun"
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "G'arbda ko'pchilik yerni tekislik deb bilgan paytda Xorazmiy nimani isbotladi?",
+       "options": [
+        "Sayyoramiz yumaloq ekanini",
+        "Quyosh yer atrofida aylanishini",
+        "Yerning tekisligini",
+        "Oy to'lishini"
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "\"Diksit Algoritmi\" nimani anglatadi?",
+       "options": [
+        "Al-Xorazmiy shunday deydi",
+        "Algoritm tugadi",
+        "Yangi usul",
+        "Xorazmiy xatosi"
+       ],
+       "correct_index": 0,
+       "page": 169
+      },
+      {
+       "question": "Xorazmiy qaysi tenglamalarni yechish usullarini bayon qilgan?",
+       "options": [
+        "Birinchi va ikkinchi darajali tenglamalarni",
+        "Faqat uchinchi darajali",
+        "Differensial tenglamalarni",
+        "Logarifmlarni"
+       ],
+       "correct_index": 0,
+       "page": 169
+      },
+      {
+       "question": "\"Al-jabr val-muqobala\" qanday asar bo'lgan?",
+       "options": [
+        "Algebra asoslari va amalda qo'llashga bag'ishlangan mukammal darslik",
+        "She'riy devon",
+        "Tarixiy yilnoma",
+        "Diniy risola"
+       ],
+       "correct_index": 0,
+       "page": 169
+      },
+      {
+       "question": "Xorazmiy qaysi sonni son sifatida e'tirof etdi?",
+       "options": [
+        "Nolni",
+        "Birni",
+        "O'nni",
+        "Yuzni"
+       ],
+       "correct_index": 0,
+       "page": 170
+      },
+      {
+       "question": "Nolning joriy etilishi nimaga imkon berdi?",
+       "options": [
+        "Murakkab matematik masalalarni hal qilishga",
+        "Yangi kalendar tuzishga",
+        "Qurol yasashga",
+        "Yozuv yaratishga"
+       ],
+       "correct_index": 0,
+       "page": 170
+      },
+      {
+       "question": "Oyning krateri qaysi yili Xorazmiy nomi bilan atalgan?",
+       "options": [
+        "1976-yili",
+        "1876-yili",
+        "2006-yili",
+        "1946-yili"
+       ],
+       "correct_index": 0,
+       "page": 170
+      },
+      {
+       "question": "Endryu Marr kim?",
+       "options": [
+        "Britaniyalik jurnalist",
+        "Amerikalik tarixchi",
+        "Fransuz olimi",
+        "Rus sayyohi"
+       ],
+       "correct_index": 0,
+       "page": 170
+      },
+      {
+       "question": "Xorazmiy qaysi xalifa (813-833) uchun jahon xaritasini yaratishga yordam berdi?",
+       "options": [
+        "Ma'mun",
+        "Amin",
+        "Horun",
+        "Mu'tazid"
+       ],
+       "correct_index": 0,
+       "page": 171
+      },
+      {
+       "question": "Xorazmiy Suriyada qayerda yer meridiani darajasini o'lchagan?",
+       "options": [
+        "Sinjor tekisligida",
+        "Damashqda",
+        "Halabda",
+        "Quddusda"
+       ],
+       "correct_index": 0,
+       "page": 171
+      },
+      {
+       "question": "J. Sarton Xorazmiyni qanday baholagan?",
+       "options": [
+        "O'z davrining eng buyuk matematigi, hamma davrlarning ham eng buyuklaridan biri",
+        "Faqat faylasuf",
+        "Astrolog",
+        "Savdogar"
+       ],
+       "correct_index": 0,
+       "page": 171
+      }
+     ]
     }
    ]
   }

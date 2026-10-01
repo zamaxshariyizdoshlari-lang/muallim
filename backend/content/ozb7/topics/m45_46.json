@@ -1,0 +1,114 @@
+{
+  "key": "m45_46", "title": "45-46-mavzular. IX-XII asrlarda ilm-fan va madaniyatning yuksalishi", "start_page": 161, "end_page": 166,
+  "explanation": {
+    "goals": ["IX-XII asrlarda me'morchilik va qurilish yutuqlarini bilish", "Xorazm Ma'mun akademiyasining tashkil topishi va faoliyatini tushuntirish"],
+    "blocks": [
+      { "heading": "Madaniyatning yuksalishi", "pages": [161, 162],
+        "text": "Turon hududi jahon madaniyatining ko'hna o'choqlaridan biri bo'lgan. Islom kirib kelishidan avval ham bu yerda yashagan xalqlar boy me'morchilik va hunarmandchilik an'analariga ega edi; islom kirib kelgach, mahalliy an'analar islom madaniyati bilan uyg'unlashib, yanada yuksalish pallasiga kirdi. Ilm-fan, savdo-sotiq, qurilish va qishloq xo'jaligi misli ko'rilmagan darajada taraqqiy etdi.\n\nIX-X asrlarda me'morchilikning ajoyib yutuqlari masjid va madrasalar qurilishida ko'proq namoyon bo'ldi. Masjid binolari yonida minora, honaqoh, ulamo va avliyolar mozorlari ustiga maqbaralar qurildi; ziyoratchilar ko'p bo'lgani uchun maxsus hujralar ham bino etildi. IX asrga qadar asosan loy va xom g'ishtdan qurilgan binolar o'rniga pishiq g'isht ham ishlatila boshlandi. Moddalar solishtirma og'irligini aniqlash usuli ilk bor Xorazmda Ma'mun akademiyasida Beruniy tomonidan kashf etilgan." },
+      { "heading": "XI-XII asrlar me'morchiligi", "pages": [163],
+        "text": "Qoraxoniylar, g'aznaviylar, saljuqiylar, anushteginiylar davrida iqtisodiy va madaniy taraqqiyot yuksaldi. XI-XII asrlarda pishiq g'ishtdan bino qurish mahorati yuksak darajaga yetdi: imoratlar sakkiz burchakli, baland peshtoqli va hashamatli gumbazlar bilan yopilgan holda qurish odat tusiga kirdi, naqshinkor g'isht terish san'ati rivojlandi, g'ishtlarga o'yma naqshlar berildi. Aholi orasida \"musulmon g'isht\" deb yuritilgan qurilish ashyosi sariq loydan tayyorlanib, maxsus xumdonlarda pishirilgan. Har bir shahar va viloyatda o'ziga xos me'moriy uslublar rivojlangan; bu algebra va geometriya fanlarining rivojlanganidan ham dalolat beradi." },
+      { "heading": "Saljuqiylar davrida madrasalar", "pages": [164],
+        "text": "Saljuqiylar davrida fan va madaniyat taraqqiyoti uchun barcha shart-sharoit yaratilgan: oliy hukmdor, shahzoda yoki malika biror shaharda bir yoki bir necha madrasa qurishni o'z vazifasi deb bilgan; vazir Nizomulmulk ko'plab madrasalar qurdirgan. Ilm toliblari diniy va dunyoviy sohalarda bilim olgan, ularga oylik nafaqa berilgan, joy bilan ta'minlangan; ularning ixtiyorida minglab kitoblar jamlangan kutubxonalar bo'lgan. Nizomulmulk Bag'doddagi \"Nizomiya\" madrasalaridan birida olti ming talaba yashab, ta'lim olgan. Har bir madrasa qoshida kutubxona, ayrimlarida shifoxona bo'lgan: Nishopurdagi madrasaga shifoxona ham biriktirilgan.\n\nMarv noibi Ma'mun 813-yilda Bag'dod xalifaligi taxtiga o'tirib, Xuroson, Movarounnahr va Xorazmdagi ilm ahlini Bag'dodga olib ketgan; ular orasida Muhammad Muso Xorazmiy ham bor edi." },
+      { "heading": "Xorazm Ma'mun akademiyasi", "pages": [165, 166],
+        "text": "Xorazmshoh Abul Hasan Ali ibn Ma'mun ilmga katta e'tibor ko'rsatib, saroyiga olimlarni taklif qilgan va Gurganchda 1004-yilda akademiyaga asos solgan - tarixda Ma'mun akademiyasi nomi bilan qolgan. Unda Abu Rayhon Beruniy ilm ahliga boshchilik qilgan, Abu Ali ibn Sino ham faoliyat yuritgan. Akademiyada diniy bilimlar bilan birga astronomiya, matematika, fizika, kimyo, mineralogiya, kartografiya, geografiya, geometriya, tibbiyot, falsafa, tarix, arab tili, mantiq, adabiyot, islom huquqshunosligi sohasida tadqiqotlar olib borilgan. Olimlar arab, fors, hind, lotin, yunon va turkiy tillarni bilgan; Platon, Aristotel, Ptolemey, Yevklid, Pifagor va Galen asarlarini tahlil qilib, ularga sharhlar bitgan.\n\nAkademiyada Beruniyning astronomiya, Abu Nasrning matematika, Abul Xayr Hammorning kimyo maktablari bo'lgan; yoshlar Gurganch madrasalarida ta'lim olgan. Akademiyadagi olimlarning aksariyati Xorazmiy asarlarining sharhlovchilari yoki uning ilmiy an'analari davomchilari edi. Xorazmshoh Ma'munning vaziri Abu Husayn Suhayliy ma'rifatparvar va faylasuf bo'lgan. 2006-yilda Xorazm Ma'mun akademiyasining 1000 yilligi nishonlangan." }
+    ],
+    "key_facts": [
+      { "fact": "IX asrga qadar loy va xom g'isht o'rniga pishiq g'isht ishlatila boshlangan", "page": 162 },
+      { "fact": "XI-XII asrlarda sakkiz burchakli baland peshtoqli gumbazli binolar qurish odat bo'lgan", "page": 163 },
+      { "fact": "Nizomulmulk qurdirgan Bag'doddagi \"Nizomiya\" madrasalaridan birida olti ming talaba o'qigan", "page": 164 },
+      { "fact": "Xorazm Ma'mun akademiyasi Gurganchda 1004-yilda asos solingan", "page": 165 },
+      { "fact": "Ma'mun akademiyasida Beruniy ilm ahliga boshchilik qilgan, Ibn Sino ham faoliyat yuritgan", "page": 165 }
+    ],
+    "why": {
+      "causes": [
+        "Islom kirib kelgach mahalliy an'analar islom madaniyati bilan uyg'unlashdi",
+        "Iqtisodiy ahvol yaxshilanib, shaharlar ahamiyati ortdi",
+        "Xorazmshoh Ma'mun ilmga katta e'tibor ko'rsatdi",
+        "Hukmdorlar va vazirlar madrasalar qurishni o'z vazifasi deb bildi"
+      ],
+      "effects": [
+        "Pishiq g'ishtdan masjid, madrasa, maqbara va minoralar qurildi",
+        "Ilm toliblariga nafaqa va joy berilib, madrasalarda kutubxona va shifoxonalar ochildi",
+        "Ma'mun akademiyasida aniq va tabiiy fanlar hamda falsafa, tarix, adabiyot rivojlandi",
+        "Beruniy moddalar solishtirma og'irligini aniqlash usulini kashf etdi"
+      ]
+    },
+    "summary": "IX-XII asrlarda mahalliy an'analar islom madaniyati bilan uyg'unlashib, masjid, madrasa, minora va maqbaralar pishiq g'ishtdan qurildi. Saljuqiylar davrida Nizomulmulk madrasalar (Nizomiya) qurdirdi. 1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi: Beruniy va Ibn Sino unda faoliyat yuritib, tabiiy va aniq fanlar rivojiga hissa qo'shdi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "45-46-mavzular. Ilm-fan va madaniyat yuksalishi", "bullets": [], "page": null },
+      { "title": "Me'morchilik", "bullets": ["Masjid, madrasa, minora, maqbara", "Pishiq g'isht (IX asrdan)", "Sakkiz burchakli peshtoq"], "page": 162 },
+      { "title": "Madrasalar", "bullets": ["Nizomulmulk va \"Nizomiya\"", "Bag'dodda 6 ming talaba", "Kutubxona va shifoxona"], "page": 164 },
+      { "title": "Ma'mun akademiyasi", "bullets": ["Gurganch, 1004-yil", "Beruniy va Ibn Sino", "Aniq va tabiiy fanlar"], "page": 165 },
+      { "title": "Maktablar", "bullets": ["Beruniy - astronomiya", "Abu Nasr - matematika", "Abul Xayr Hammor - kimyo"], "page": 166 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Marv noibi Ma'mun Bag'dod xalifaligi taxtiga o'tiradi (813-yil)", "page": 164 },
+        { "label": "Gurganchda Ma'mun akademiyasiga asos solinadi (1004-yil)", "page": 165 },
+        { "label": "Ma'mun akademiyasining 1000 yilligi nishonlanadi (2006-yil)", "page": 166 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Nizomulmulk", "right": "Bag'dodda \"Nizomiya\" madrasalarini qurdirgan vazir", "page": 164 },
+        { "left": "Abul Hasan Ali ibn Ma'mun", "right": "Gurganchda akademiyaga asos solgan xorazmshoh", "page": 165 },
+        { "left": "Beruniy", "right": "Ma'mun akademiyasida ilm ahliga boshchilik qilgan", "page": 165 },
+        { "left": "Abu Nasr", "right": "Akademiyada matematika maktabi rahbari", "page": 166 },
+        { "left": "Abul Xayr Hammor", "right": "Akademiyada kimyo maktabi rahbari", "page": 166 },
+        { "left": "Musulmon g'isht", "right": "Sariq loydan pishirilgan qurilish ashyosi", "page": 163 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Ma'mun akademiyasi ____ yilda Gurganchda tashkil etilgan.", "options": ["1004", "904", "1104", "804"], "correct_index": 0, "page": 165 },
+        { "question": "Bag'doddagi \"Nizomiya\" madrasalaridan birida ____ ming talaba o'qigan.", "options": ["olti", "bir", "yigirma", "ikki"], "correct_index": 0, "page": 164 },
+        { "question": "Nishopurdagi madrasaga ____ ham biriktirilgan.", "options": ["shifoxona", "rasadxona", "karvonsaroy", "hammom"], "correct_index": 0, "page": 164 },
+        { "question": "Moddalar solishtirma og'irligini aniqlash usulini ____ kashf etgan.", "options": ["Beruniy", "Ibn Sino", "Xorazmiy", "Forobiy"], "correct_index": 0, "page": 162 },
+        { "question": "XI-XII asrlarda imoratlar ____ burchakli peshtoqlar bilan qurilgan.", "options": ["sakkiz", "to'rt", "olti", "uch"], "correct_index": 0, "page": 163 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Nima uchun xalifa Ma'mun, qoraxoniylar, somoniylar, g'aznaviylar, saljuqiylar davrida ilm-ma'rifat rivojlangan?", "answer": "Hukmdorlar va vazirlar madrasalar qurishni o'z vazifasi deb bilgan, ilm toliblariga nafaqa va joy bergan, kutubxonalar va akademiyalar tashkil etgan (\"Ilmdan o'zga najot yo'q\").", "page": 164 },
+      { "question": "Ma'mun akademiyasida olimlar fanning qaysi sohalarida izlanishlar olib borgan?", "answer": "Astronomiya, matematika, fizika, kimyo, mineralogiya, kartografiya, geografiya, tibbiyot, falsafa, tarix, arab tili, mantiq, adabiyot, islom huquqshunosligi va boshqalarda.", "page": 165 },
+      { "question": "Birinchi madrasa qayerda qurilgan?", "answer": "Buxoroda (VIII-IX asrlarda).", "page": 162 }
+    ],
+    "quiz": [
+      { "question": "Akademiyada olimlar yunon olimlaridan kimlarning asarlariga sharhlar bitgan?", "options": ["Platon, Aristotel, Ptolemey, Yevklid, Pifagor, Galen", "Faqat Platon", "Homer va Sofokl", "Arximed faqat"], "correct_index": 0, "page": 165 },
+      { "question": "Ma'mun akademiyasidagi olimlarning aksariyati kimning ilmiy an'analari davomchilari edi?", "options": ["Xorazmiyning", "Beruniyning", "Forobiyning", "Ibn Sinoning"], "correct_index": 0, "page": 166 },
+      { "question": "Abu Husayn Suhayliy kim bo'lgan?", "options": ["Xorazmshoh Ma'munning vaziri", "Akademiya raisi", "Xalifa", "Sarkarda"], "correct_index": 0, "page": 166 }
+    ]
+  },
+  "test": [
+    { "question": "Turon hududi jahon madaniyatining qanday o'choqlaridan biri bo'lgan?", "options": ["Ko'hna o'choqlaridan", "Yangi o'choqlaridan", "Eng kichik o'choqlaridan", "Begona o'choqlaridan"], "correct_index": 0, "page": 161 },
+    { "question": "Islom kirib kelgach mahalliy an'analar qanday bo'ldi?", "options": ["Islom madaniyati bilan uyg'unlashib, yanada yuksaldi", "Butunlay yo'q bo'ldi", "O'zgarmadi", "Taqiqlandi"], "correct_index": 0, "page": 161 },
+    { "question": "IX-X asrlarda me'morchilik yutuqlari asosan nimalar qurilishida namoyon bo'ldi?", "options": ["Masjid va madrasalar", "Qal'alar", "Ko'priklar", "Saroylar faqat"], "correct_index": 0, "page": 162 },
+    { "question": "Masjid binolari yonida nimalar qurildi?", "options": ["Minora, honaqoh, maqbaralar", "Faqat bozor", "Amfiteatr", "Akveduk"], "correct_index": 0, "page": 162 },
+    { "question": "IX asrga qadar asosan qanday binolar qurilgan?", "options": ["Loy va xom g'ishtdan", "Pishiq g'ishtdan", "Marmardan", "Yog'ochdan"], "correct_index": 0, "page": 162 },
+    { "question": "Moddalar solishtirma og'irligini aniqlash usuli qayerda kashf etilgan?", "options": ["Xorazmda Ma'mun akademiyasida", "Bag'dodda", "Samarqandda", "G'aznada"], "correct_index": 0, "page": 162 },
+    { "question": "XI-XII asrlarda qaysi mahorat yuksak darajaga yetdi?", "options": ["Pishiq g'ishtdan bino qurish", "Kemasozlik", "Shishasozlik faqat", "Qurolsozlik"], "correct_index": 0, "page": 163 },
+    { "question": "\"Musulmon g'isht\" qanday tayyorlangan?", "options": ["Sariq loydan maxsus xumdonlarda pishirilgan", "Toshdan yo'nilgan", "Ohakdan quyilgan", "Qamishdan"], "correct_index": 0, "page": 163 },
+    { "question": "Har bir shaharda o'ziga xos me'moriy uslublar rivojlanishi qaysi fanlar rivojidan dalolat beradi?", "options": ["Algebra va geometriya", "Kimyo va fizika", "Tibbiyot", "Geografiya"], "correct_index": 0, "page": 163 },
+    { "question": "Saljuqiylar davrida hukmdor, shahzoda yoki malika nimani o'z vazifasi deb bilgan?", "options": ["Madrasa qurishni", "Bozor ochishni", "Qal'a qurishni", "Yo'l solishni"], "correct_index": 0, "page": 164 },
+    { "question": "Ilm toliblariga nimalar berilgan?", "options": ["Oylik nafaqa va joy", "Faqat kitob", "Yer", "Qul"], "correct_index": 0, "page": 164 },
+    { "question": "Bag'doddagi \"Nizomiya\" madrasalaridan birida necha talaba yashab o'qigan?", "options": ["Olti ming", "Olti yuz", "Oltmish", "Olti million"], "correct_index": 0, "page": 164 },
+    { "question": "Nishopurdagi madrasa qoshida nima bor edi?", "options": ["Shifoxona", "Rasadxona", "Zarbxona", "Karvonsaroy"], "correct_index": 0, "page": 164 },
+    { "question": "Ma'mun 813-yilda qaysi xalifalik taxtiga o'tirdi?", "options": ["Bag'dod xalifaligi", "Damashq xalifaligi", "Qohira xalifaligi", "Kordova xalifaligi"], "correct_index": 0, "page": 164 },
+    { "question": "Ma'mun Bag'dodga olib ketgan olimlar orasida kim bor edi?", "options": ["Muhammad Muso Xorazmiy", "Beruniy", "Ibn Sino", "Forobiy"], "correct_index": 0, "page": 164 },
+    { "question": "Xorazm Ma'mun akademiyasiga kim asos solgan?", "options": ["Xorazmshoh Abul Hasan Ali ibn Ma'mun", "Mahmud G'aznaviy", "Alp Arslon", "Malikshoh"], "correct_index": 0, "page": 165 },
+    { "question": "Ma'mun akademiyasi qayerda asos solingan?", "options": ["Gurganchda", "Samarqandda", "Buxoroda", "Balxda"], "correct_index": 0, "page": 165 },
+    { "question": "Akademiyada ilm ahliga kim boshchilik qilgan?", "options": ["Abu Rayhon Beruniy", "Ibn Sino", "Xorazmiy", "Forobiy"], "correct_index": 0, "page": 165 },
+    { "question": "Akademiyada qaysi mashhur olim ham faoliyat yuritgan?", "options": ["Abu Ali ibn Sino", "Imom Buxoriy", "Firdavsiy", "Zamaxshariy"], "correct_index": 0, "page": 165 },
+    { "question": "Akademiya olimlari qaysi tillarni bilgan?", "options": ["Arab, fors, hind, lotin, yunon va turkiy", "Faqat arab", "Faqat fors", "Xitoy va yapon"], "correct_index": 0, "page": 165 },
+    { "question": "Akademiyada Beruniyning qaysi fan maktabi bo'lgan?", "options": ["Astronomiya", "Matematika", "Kimyo", "Tibbiyot"], "correct_index": 0, "page": 166 },
+    { "question": "Akademiyada kimyo maktabi kimniki edi?", "options": ["Abul Xayr Hammorniki", "Abu Nasrniki", "Beruniyniki", "Xorazmiyniki"], "correct_index": 0, "page": 166 },
+    { "question": "Matematika maktabi kimniki edi?", "options": ["Abu Nasrniki", "Hammorniki", "Beruniyniki", "Ibn Sinoniki"], "correct_index": 0, "page": 166 },
+    { "question": "Akademiya olimlarining aksariyati kimning ilmiy an'analari davomchilari edi?", "options": ["Muhammad Muso Xorazmiyning", "Platonning", "Aristotelning", "Yevklidning"], "correct_index": 0, "page": 166 },
+    { "question": "Ma'mun akademiyasining 1000 yilligi qaysi yili nishonlangan?", "options": ["2006-yilda", "1996-yilda", "1986-yilda", "2016-yilda"], "correct_index": 0, "page": 166 }
+  ]
+}
