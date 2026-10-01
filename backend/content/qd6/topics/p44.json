@@ -22,6 +22,19 @@
       { "fact": "\"12 jadval qonunlari\" 12 ta mis lavhaga yozilib, forumga qo'yilgan; xususiy mulkni daxlsiz deb e'lon qilgan", "page": 157 },
       { "fact": "Mil. avv. III asr boshlarida barcha fuqarolar qonun oldida teng deb e'lon qilingan", "page": 157 }
     ],
+    "why": {
+      "causes": [
+        "Rim boshqaruvida faqat patritsiylar ishtirok eta olar, sudlarda ular ko'pincha adolatsiz qarorlar chiqargan",
+        "Qonunlar og'zaki bo'lgani uchun plebeylar qonunlarning yozma majmuasini talab qildi",
+        "Plebeylardan iborat qo'shinlar isyon ko'tarib, Muqaddas tog'ga chiqib ketdi"
+      ],
+      "effects": [
+        "Senat o'nta patritsiydan iborat hay'at tuzishga majbur bo'ldi: qonunlar 12 mis lavhaga yozilib, forumga qo'yildi (12 jadval qonunlari)",
+        "12 jadval qonunlari xususiy mulkni daxlsiz deb e'lon qildi, ammo plebeylar va patritsiylar tengsizligini qonunlashtirdi",
+        "Mil. avv. III asr boshlarida barcha fuqarolar qonun oldida teng deb hisoblanadigan qonunlar qabul qilindi",
+        "Davlatni boshqarish respublika shaklida bo'lib, Xalq majlisi, Senat va ikki yilga saylanadigan konsullar o'rtasida taqsimlandi"
+      ]
+    },
     "summary": "Rim respublikasida Xalq majlisi ikki konsulni bir yilga saylagan, Senat qarorlarni tasdiqlagan; boshqaruvda faqat patritsiylar ishtirok etgan. Plebeylar talabi bilan yozma \"12 jadval qonunlari\" qabul qilindi; xalq tribunlari veto huquqiga ega bo'lgan; favqulodda holda diktator olti oyga tayinlangan."
   },
   "presentation": { "slides": [

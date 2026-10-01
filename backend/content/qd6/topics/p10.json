@@ -23,6 +23,20 @@
       { "fact": "Misrliklar yilni 365 kunga, oyni 30 kunga (12 oy) bo'lib, birinchi taqvimni tuzgan; 5 kun bayram kunlari bo'lgan", "page": 42 },
       { "fact": "\"Podsho tirsagi\" 52,5 santimetrga teng yagona o'lchov birligi bo'lgan", "page": 42 }
     ],
+    "why": {
+      "causes": [
+        "Ziroatkorlar urug'likni qachon qadash va hosilni qachon yig'ishni bilishi zarur edi",
+        "Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur edi",
+        "Qo'llar uzunligi turlicha bo'lgani uchun o'lchovlar bir xil chiqmasdi"
+      ],
+      "effects": [
+        "Misrliklar yulduzlarni kuzatib astronomiyaga asos soldi: yilni 365 kun deb aniqladi va birinchi taqvimni tuzdi",
+        "Yer yuzasini o'lchash ilmi — geometriya paydo bo'ldi, matematika taraqqiy etdi",
+        "Mumiyolash jarayonida odamning ichki tuzilishi o'rganilib, tibbiyot bilimlari rivojlandi",
+        "Yagona 'podsho tirsagi' (52,5 sm) o'lchovi joriy etildi",
+        "Rozett bitiktoshi tufayli Shampolyon 1822-yilda iyerogliflarni o'qidi va tarixchilar qadimgi Misrni o'rganish uchun ishonchli manbaga ega bo'ldi"
+      ]
+    },
     "summary": "Misrliklar iyeroglif yozuvini yaratib, uni papirusga yozgan; bu yozuvni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qidi. Amaliy ehtiyojlar astronomiya, taqvim, geometriya, matematika, tibbiyot, o'lchov birliklari va suv soatining paydo bo'lishiga olib keldi."
   },
   "presentation": { "slides": [

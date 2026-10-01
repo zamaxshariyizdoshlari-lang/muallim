@@ -23,6 +23,19 @@
       { "fact": "Yuechji qabilalari mil. avv. 140-130-yillarda Yunon-Baqtriyani bosib olgan; davlat 120 yil taraqqiy etgan", "page": 131 },
       { "fact": "Baqtriya orqali Buyuk ipak yo'lining janubiy tarmog'i o'tgan", "page": 131 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. 323-yilda Aleksandr vafot etdi",
+        "Salavkiylar davlatidan Parfiya ajralib chiqdi (mil. avv. 250)",
+        "Yunon-Baqtriya davlati tinimsiz urushlar olib borishga majbur bo'ldi"
+      ],
+      "effects": [
+        "Aleksandr barpo etgan davlat Makedoniya, Misr va Suriyaga bo'linib ketdi; Salavk Suriya (Salavkiylar) hukmdori bo'ldi",
+        "Mil. avv. 250-yilda Baqtriya Salavkiylardan ajralib chiqdi va Diodot podsho deb e'lon qilindi: Yunon-Baqtriya davlati tarixi boshlandi",
+        "Parfiya va Mitridat I ning harbiy tazyiqi Yunon-Baqtriyani kuchsizlantirdi, shundan foydalangan yuechji qabilalari mil. avv. 140-130-yillarda uni bosib oldi",
+        "Yunon-Baqtriya 120 yil davomida taraqqiy etdi: hunarmandchilik va savdo rivojlandi, tangalar zarb qilindi, Buyuk ipak yo'lining janubiy tarmog'i Baqtriya orqali o'tdi"
+      ]
+    },
     "summary": "Aleksandr vafotidan (mil. avv. 323) so'ng davlati parchalandi; mil. avv. 312-yilda Salavk Salavkiylar davlatini tuzdi, O'rta Osiyo unga kirdi, o'g'li Antiox noib bo'ldi. Mil. avv. 250-yilda Diodot Baqtriyada mustaqil Yunon-Baqtriya podsholigini tuzdi (Yevtidem, Demetriy); davlat 120 yil taraqqiy etib, mil. avv. 140-130-yillarda yuechjilar tomonidan bosib olindi."
   },
   "presentation": { "slides": [

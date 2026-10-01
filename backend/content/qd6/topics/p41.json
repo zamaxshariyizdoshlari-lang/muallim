@@ -27,6 +27,20 @@
       { "fact": "Buddaviylik zardushtiylik bilan birga milodiy VIII asrgacha saqlanib qolgan", "page": 146 },
       { "fact": "Kushon san'atida mahalliy, Qadimgi Sharq va ellinistik uslublar uyg'unlashgan", "page": 147 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. 140-130-yillarda yuechji qabilalari Yunon-Baqtriyani bosib oldi, ular orasida milodiy I asrda Kushon xonadoni yuksaldi",
+        "Kushon hududiga Hindistonning shimoliy qismi qo'shib olinib, janubiy O'zbekiston bilan aloqalar o'rnatildi",
+        "To'xtovsiz urushlar davom etdi"
+      ],
+      "effects": [
+        "Kanishka davrida Kushon davlati o'z taraqqiyotining cho'qqisiga erishdi, Hindiston, Xitoy va Rim bilan savdo va elchilik aloqalari yo'lga qo'yildi",
+        "Vima Kadfiz davridagi pul islohoti xo'jalik va savdo-sotiq rivojiga ko'maklashdi",
+        "Savdo va madaniy aloqalar tufayli aramey yozuvi keng tarqaldi",
+        "Kushon davlati hududiga buddaviylik kirib keldi va zardushtiylik bilan birga milodiy VIII asrgacha saqlanib qoldi",
+        "To'xtovsiz urushlar oqibatida Kushon davlati inqirozga yuz tutdi va milodiy III asrda parchalanib ketdi"
+      ]
+    },
     "summary": "Yuechjilar Yunon-Baqtriyani bosib olgach (mil. avv. 140-130), milodiy I asrda Kushon davlati tuzildi: Kudzula Kadfiz birlashtirgan, Vima Kadfiz pul islohotini o'tkazgan, Kanishka davrida imperiya cho'qqisiga chiqqan. Buddaviylik tarqaldi, aramey asosidagi yozuvlar va haykaltaroshlik rivojlandi; davlat milodiy III asrda parchalandi."
   },
   "presentation": { "slides": [

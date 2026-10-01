@@ -22,6 +22,19 @@
       { "fact": "Mil. avv. XII asrda doriylar Lakonikaga bostirib kirib, Sparta davlatiga asos solgan", "page": 91 },
       { "fact": "Spartada ilotlar - davlat mulki bo'lgan qullar; periyeklar - to'la huquqsiz fuqarolar; 20 yoshdan hamma yigitlar jangchi", "page": 92 }
     ],
+    "why": {
+      "causes": [
+        "Dehqonchilik va hunarmandchilik rivoj topdi, bir necha manzilgoh birlashib, polislar vujudga keldi",
+        "Mil. avv. XII asrda doriylar Lakonikaga bostirib kirib, mahalliy aholini (ilotlarni) qulga aylantirdi",
+        "Ilotlar spartaliklardan qattiq nafratlanardi"
+      ],
+      "effects": [
+        "Polislar shahar-davlatlarni tashkil etib, hunarmandchilik va savdo markazlariga aylandi, goplitlar falanga safida jang qildi",
+        "Afinada davlat maktablari bo'lmagan: ota-onalar bolalarni pedagogga haq to'lab o'qitgan, oliy ta'lim faqat boylar farzandlariga nasib etgan",
+        "Hukmronlikni faqat kuch bilan saqlab qolish mumkin bo'lgani uchun Sparta qat'iy intizomli, urushga tayyorlanayotgan shaharga o'xshab qolgan",
+        "Spartaliklar faqat harbiy ish bilan shug'ullangan, ilotlar esa dalalarda ishlab, majburiyatlarni bajargan; bolalar qattiq sharoitda tarbiyalangan"
+      ]
+    },
     "summary": "Yunonlar polis (shahar-davlat)larda yashab, goplit falangasi bilan jang qilgan. Afinada hunarmand-savdogarlar, fuqaro, metek va qullar bo'lgan, ta'lim xususiy edi; Spartada doriylar ilotlarni qul qilib, hayotni harbiy intizomga bo'ysundirgan."
   },
   "presentation": { "slides": [

@@ -20,6 +20,19 @@
       { "fact": "To'rt kasta: brahmanlar (kohinlar), kshatriylar (jangchilar), vayshiylar (dehqon, hunarmand, savdogarlar), shudralar (xizmatkorlar va qullar)", "page": 60 },
       { "fact": "Tabaqalarga kirmaganlar \"chandal\" (\"hazar qilinadiganlar\") deb atalgan", "page": 61 }
     ],
+    "why": {
+      "causes": [
+        "Issiq iqlim va Hind hamda Gang daryolari dehqonchilik vujudga kelishi uchun imkoniyat yaratgan",
+        "Himolay tog'lari shimoldan keladigan sovuq shamollarni to'sib turgan",
+        "Qadimgi hindlar tabiatni ma'budlar boshqaradi deb ishongan"
+      ],
+      "effects": [
+        "Hind daryosi havzasida Mohenjodaro va Xarappa kabi yirik shaharlar vujudga keldi, aholining asosiy mashg'uloti dehqonchilik bo'ldi",
+        "Mil. avv. XVIII asrdan keyin toshqinlar, o'rmonlar va changalzorlar kengayishi tufayli Hind vodiysi shaharlari zavolga yuz tutdi",
+        "Hindlar ma'budlarni hayvon timsolida tasavvur etdi, sigirni muqaddas deb bildi va jon ko'chib o'tishiga ishondi",
+        "Aholi faoliyatiga qarab to'rt tabaqaga (kastaga) ajratildi; bir tabaqadan boshqasiga o'tishning iloji bo'lmagan"
+      ]
+    },
     "summary": "Hind va Gang vodiylarida Mohenjodaro va Xarappa kabi rejali shaharlar vujudga kelgan, ular mil. avv. XVIII asrdan keyin toshqinlar tufayli vayron bo'lgan. Hindlar ko'p ma'budga ishongan, sigirni muqaddas bilgan va jamiyat to'rt kastaga bo'lingan."
   },
   "presentation": { "slides": [

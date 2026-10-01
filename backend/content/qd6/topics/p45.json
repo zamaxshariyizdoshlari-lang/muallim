@@ -21,6 +21,18 @@
       { "fact": "Avgurlar qushlar parvozi va boshqa alomatlarga qarab bashorat qilgan", "page": 160 },
       { "fact": "Vesta ibodatxonasida muqaddas olov saqlangan; olov yonib turar ekan, hayot mavjud deb hisoblangan", "page": 160 }
     ],
+    "why": {
+      "causes": [
+        "Davlatning hududi kengayib borgani sayin shaharlar ko'paydi",
+        "Rimliklar kundalik hayotda ma'budlardan madad va homiylik istagan"
+      ],
+      "effects": [
+        "Rim shaharlari oldindan puxta rejalashtirilib, jamoat binolari, hammomlar, akveduklar va forum bilan barpo etildi",
+        "Rimliklar muhim ishni boshlashdan oldin ma'budlarga qurbonlik bag'ishlab, avgurlar yordamida bashorat qildi",
+        "Diniy marosimlar ustidan kohinlar — pontifiklar nazorat qilib, bayramlar taqvimini tuzdi",
+        "Rim bozorlarida qullarga talab ko'p bo'lib, har bir shaharda qullar savdosi bozorlari bo'lgan"
+      ]
+    },
     "summary": "Rim shaharlari puxta rejalashtirilgan, akveduk, hammom, forum, mozaika va freskalar bilan bezatilgan; qullar savdosi keng bo'lgan. Kiyim mavqeni bildirgan (toga). Rimliklar Yupiter boshchiligidagi ma'budlarga e'tiqod qilgan; marosimlarni pontifiklar nazorat qilgan, avgurlar bashorat qilgan."
   },
   "presentation": { "slides": [

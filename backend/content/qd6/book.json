@@ -79,6 +79,17 @@
         "page": 6
        }
       ],
+      "why": {
+       "causes": [
+        "Ko'pgina odamlarni uzoq o'tmish, o'z xalqi va mamlakati tarixi qiziqtiradi",
+        "Qadimiy davr odamlarining hayoti haqida arxeologik va yozma manbalar hikoya qiladi va savollarimizga javob topishga yordam beradi"
+       ],
+       "effects": [
+        "Tarix bizni zo'ravonlikka emas, o'zaro murosa va boshqalarga hurmatga o'rgatadi",
+        "Ajdodlarning jasorati va buyuk ishlari vatanparvarlik hissini uyg'otadi",
+        "Har birimiz o'z Vatanimiz va boshqa xalqlar tarixiga hurmat bilan qarashimiz kerak"
+       ]
+      },
       "summary": "Qadimgi dunyo tarixi odam paydo bo'lganidan milodiy 476-yilda G'arbiy Rim qulaguniga qadar bo'lgan davrni o'rganadi va uni o'rganishdan maqsad ajdodlar tajribasidan o'rganish, Vatanga muhabbat hamda boshqa xalqlarga hurmat tuyg'usini tarbiyalashdir."
      },
      "presentation": {
@@ -556,6 +567,16 @@
         "page": 10
        }
       ],
+      "why": {
+       "causes": [
+        "Arxeologiya ma'lumotlari qadimgi dunyo tarixi haqida to'la tasavvur berolmaydi",
+        "Mehnat qurollari va xo'jalik yuritish shakllari takomillashib borgan"
+       ],
+       "effects": [
+        "Olimlar moddiy manbalar bilan birga yozma manbalarga (Avesto, Behistun yozuvlari, Gerodot, Arrian, Strabon asarlari) ham murojaat etadilar",
+        "Jamoadagi yetakchilik asta-sekin erkak kishiga o'tdi: ona urug'i (matriarxat) o'rnini ota urug'i (patriarxat) egalladi"
+       ]
+      },
       "summary": "Qadimgi tarixni arxeologlar, antropologlar va etnograflar moddiy va yozma manbalar asosida o'rganadi. Insoniyat tarixi ibtidoiy jamoadan boshlanib, matriarxat va patriarxat urug' jamoalariga bo'lingan; qurollar materialiga ko'ra tosh davri paleolit, mezolit, neolit va eneolitga ajratiladi."
      },
      "presentation": {
@@ -1275,6 +1296,17 @@
         "page": 15
        }
       ],
+      "why": {
+       "causes": [
+        "Ilk paleolit oxirida Buyuk muzlik davri boshlanib, odamlar o'ta qattiq sinovga duch keldi",
+        "Qadimgi odamlar kun va tunning almashinishi, zilzila, momaqaldiroq kabi tabiat hodisalarini tushuna olmadi"
+       ],
+       "effects": [
+        "Odamlar yangicha iqlim va turmush sharoitlariga moslashishga, issiqroq joy izlab olis makonlarga yo'l olishga majbur bo'ldi; faqat baquvvat odamlar omon qoldi",
+        "Odamlar tabiat hodisalariga sig'ina boshladi, tabiatni jonli deb bildi: totemizm, animizm va fetishizm paydo bo'ldi",
+        "Odamning tevarak-dunyoni bilishga intilishi eng qadimgi tasviriy san'at rivojiga asos bo'ldi"
+       ]
+      },
       "summary": "Eng qadimgi odamlar \"ishbilarmon odam\", so'ng \"tik yuruvchi odam\" bosqichlaridan o'tib, muzlik davrida omon qolish uchun moslashgan. Ular meva-ildiz terib, ov qilgan (o'zlashtiruvchi xo'jalik), Teshiktoshdagi neandertal bola qabri va g'or rasmlari esa diniy e'tiqod hamda tasviriy san'at ildizlarini ko'rsatadi."
      },
      "presentation": {
@@ -2087,6 +2119,17 @@
         "page": 20
        }
       ],
+      "why": {
+       "causes": [
+        "Mezolit davri boshlanishi bilan muzlik davri poyoniga yetdi va iqlim ancha ilidi"
+       ],
+       "effects": [
+        "Inson o'q-yoy yasashni, hayvonlarni qo'lga o'rgatishni, ibtidoiy ziroatchilik va chorvachilikni o'rgandi",
+        "Neolitda odam termachilik va ovchilikdan dehqonchilik va chorvachilikka (ishlab chiqaruvchi xo'jalikka) o'ta boshladi",
+        "Kulolchilik va to'quvchilik kashf etildi, doimiy turarjoylar qurilib, odamlar o'troq turmush tarziga o'tdi",
+        "Itlar hayvonlarni ovlashni osonlashtirdi va odamlarning doimiy hamrohiga aylandi"
+       ]
+      },
       "summary": "So'nggi paleolitda urug' jamoalari va turarjoy paydo bo'lgan, mezolitda o'q-yoy yasalib, it qo'lga o'rgatilgan, neolitda esa dehqonchilik, chorvachilik, kulolchilik va to'quvchilik hamda o'troq turmush shakllangan."
      },
      "presentation": {
@@ -2804,6 +2847,18 @@
         "page": 23
        }
       ],
+      "why": {
+       "causes": [
+        "Neolit oxirida odamlar misdan foydalanishni va undan mehnat qurollari yasashni o'rganib oldi",
+        "Bronza misdan ancha qattiq bo'lgani uchun asta-sekin asosiy ashyoga aylandi"
+       ],
+       "effects": [
+        "Bronza qurollar bilan dalalarga yaxshiroq ishlov berildi, ekin maydonlari kengaydi va ortiqcha qishloq xo'jalik mahsuloti vujudga keldi",
+        "Kulolchilik charxi va g'ildirak kashf etildi, dastlabki aravalar paydo bo'ldi",
+        "Oilani mahsulot bilan ta'minlash erkaklar qo'liga o'tdi va patriarxat davri boshlandi",
+        "Dehqonchilik va hunarmandchilik rivojlanishi asosida ilk shaharlar va davlatlar vujudga keldi"
+       ]
+      },
       "summary": "Neolit oxirida mis kashf etilib, eneolit (mis-tosh asri) boshlandi; misni qalay va boshqalar bilan qotirib bronza olindi. Metall qurollar dehqonchilikni rivojlantirib, patriarxatni, ilk shahar va davlatlarni vujudga keltirdi; Sopollitepa va Jarqo'ton bronza davri yodgorliklaridir."
      },
      "presentation": {
@@ -3531,6 +3586,17 @@
         "page": 27
        }
       ],
+      "why": {
+       "causes": [
+        "Temir juda yuqori haroratda (1500 gradus) eriydi, shuning uchun uni qayta ishlash ko'p mehnat talab qilgan",
+        "Sof temir tabiatda kamyob bo'lgani uchun dastlab undan faqat bezak buyumlari tayyorlangan"
+       ],
+       "effects": [
+        "Temir uchli omochlar va boltalar paydo bo'ldi, katta maydonlarda ziroatchilik rivojlandi",
+        "Mehnat samaradorligi oshdi va ishlab chiqarishning ilg'or usuliga o'tish uchun sharoit tug'ildi",
+        "Jamiyat kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlarga bo'lindi"
+       ]
+      },
       "summary": "Temir mis va bronzadan qattiqroq bo'lsa-da, erishi qiyin bo'lgani uchun asta-sekin tarqalgan; u dehqonchilikni rivojlantirgan. O'rta Osiyoda ilk temir qurollar mil. avv. IX-VIII asrlarga oid bo'lib, jamiyat kohin, jangchi, chorvador, dehqon va hunarmandlarga bo'linib, katta patriarxal oilalar hududiy jamoalarni tashkil etgan."
      },
      "presentation": {
@@ -4049,6 +4115,18 @@
         "page": 31
        }
       ],
+      "why": {
+       "causes": [
+        "Nil daryosi dalalarni suvga bostirib, qora tuproqli serhosil yerlar hosil qilgan",
+        "Mil. avv. 4-mingyillik oxirida odamlar Nil vodiysining sermashaqqat turmush sharoitiga moslasha boshladi"
+       ],
+       "effects": [
+        "Nil keng-mo'l oqqan yillarda hosil barakali bo'lgan: bug'doy, arpa, poliz ekinlari, meva va sabzavotlar yetishtirilgan",
+        "Hunarmandchilik rivojlanib, 30 dan ziyod kasb-kor paydo bo'lgan",
+        "Tarqoq manzilgohlar nom deb atalgan kichik davlatlarga birlashdi; Menes ikki Misrni birlashtirib birinchi fir'avn bo'ldi va Memfisni barpo etdi",
+        "Nom hukmdorlari mol-mulkini ko'paytirib olgach, Misr yana mustaqil nomlarga parchalanib ketdi"
+       ]
+      },
       "summary": "Nil vodiysining serhosil qora tuprog'i Misrda dehqonchilik va hunarmandchilikni rivojlantirdi. Tarqoq manzilgohlar \"nom\"larga birlashib, mil. avv. 3000-yilda Menes Yuqori va Quyi Misrni birlashtirib, birinchi fir'avn bo'ldi va Memfisni poytaxt qildi."
      },
      "presentation": {
@@ -4757,6 +4835,18 @@
         "page": 33
        }
       ],
+      "why": {
+       "causes": [
+        "Podsholik ko'plab mayda nomlarga bo'linib ketgan edi",
+        "Mil. avv. XVIII asr oxirida ko'chmanchi giksos qabilalari Misrga hujum qildi"
+       ],
+       "effects": [
+        "Giksoslar Quyi Misrni bosib olib, shahar va qishloqlarni taladi, odamlarni asirlikka haydab ketdi",
+        "Bosqinchilar zulmidan xalos bo'lish uchun nomlar Fiva fir'avni atrofiga birlashdi; Yaxmos giksoslarni tor-mor etib, Yangi podsholik davrini boshladi",
+        "Yangi podsholik fir'avnlari Nubiya va Old Osiyoga bosqinchilik yurishlarini uyushtirdi, Old Osiyoda misrliklar hukmronligi o'rnatildi",
+        "Mil. avv. 525-yilda Misrni forslar shahanshohi Kir II ning o'g'li Kambiz II bosib oldi"
+       ]
+      },
       "summary": "Misr qo'shnilari - Nubiya, Liviya, Sinay, Falastin va Suriya. Qadimgi va O'rta podsholik fir'avnlari ularni istilo qilgan, giksoslar bosqinidan keyin Yaxmos Yangi podsholikni boshlagan, Tutmos II va III Old Osiyoni bo'ysundirgan, mil. avv. 525-yilda esa Kambiz II Misrni bosib olgan."
      },
      "presentation": {
@@ -5325,6 +5415,17 @@
         "page": 35
        }
       ],
+      "why": {
+       "causes": [
+        "Misrliklar uchun din kundalik turmushning ajralmas bo'lagi edi",
+        "Misrliklar Yer yuzida maxsus marosimlar ado etilmasa, ma'budlar odamlarga madad bermay qo'yadi deb hisoblagan"
+       ],
+       "effects": [
+        "Kohinlar ma'budlar va odamlar o'rtasida vositachi hisoblangan, kundalik turmushda ularsiz biror ish qilish mushkul edi",
+        "Barcha nomlarda ibodatxonalar bo'lgan, fir'avnlar ularga katta boylik va yerlar hadya etgan",
+        "Fir'avnlar Quyosh ma'budining o'g'illari hisoblanib, hamma ishni samoviy otasi amri bilan amalga oshiradi degan qarash paydo bo'lgan"
+       ]
+      },
       "summary": "Misr dini ko'p ma'budli bo'lib, ma'budlar hayvon qiyofasida yashaydi deb ishonilgan. Ptax (Apis), Amon-Ra, Xapi va Osiris asosiy ma'budlar; kohinlar vositachi va Nil toshqinini bilgani uchun katta nufuzga ega bo'lgan."
      },
      "presentation": {
@@ -5878,6 +5979,16 @@
         "page": 39
        }
       ],
+      "why": {
+       "causes": [
+        "Misrliklar inson vafotidan keyin marhumlar saltanatida umrini davom ettiradi, bu hayot esa Osiris sudi natijasiga bog'liq deb hisoblagan"
+       ],
+       "effects": [
+        "Fir'avnlar uchun ulkan piramidalar (maqbaralar) qurildi; ularning ichi fir'avnni himoya qiluvchi bitiklar bilan qoplangan",
+        "Osiris qarshisida go'zal qiyofada turish uchun jasad mumiyolandi (qariyb 70 kun davom etgan)",
+        "Yangi podsholikda fir'avnlar piramidalar o'rniga tog'lardagi o'yilgan tosh maqbaralarga (shohlar vodiysi) dafn etila boshladi"
+       ]
+      },
       "summary": "Piramidalar fir'avnlarning maqbarasi bo'lib, Xufu piramidasi eng katta (147 m). Yangi podsholikda fir'avnlar tog'dagi tosh maqbaralarga dafn etilgan. Misrliklar Osiris sudiga ishonib, jasadni go'zal holda saqlash uchun 70 kun davomida mumiyolagan."
      },
      "presentation": {
@@ -6571,6 +6682,20 @@
         "page": 42
        }
       ],
+      "why": {
+       "causes": [
+        "Ziroatkorlar urug'likni qachon qadash va hosilni qachon yig'ishni bilishi zarur edi",
+        "Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur edi",
+        "Qo'llar uzunligi turlicha bo'lgani uchun o'lchovlar bir xil chiqmasdi"
+       ],
+       "effects": [
+        "Misrliklar yulduzlarni kuzatib astronomiyaga asos soldi: yilni 365 kun deb aniqladi va birinchi taqvimni tuzdi",
+        "Yer yuzasini o'lchash ilmi — geometriya paydo bo'ldi, matematika taraqqiy etdi",
+        "Mumiyolash jarayonida odamning ichki tuzilishi o'rganilib, tibbiyot bilimlari rivojlandi",
+        "Yagona 'podsho tirsagi' (52,5 sm) o'lchovi joriy etildi",
+        "Rozett bitiktoshi tufayli Shampolyon 1822-yilda iyerogliflarni o'qidi va tarixchilar qadimgi Misrni o'rganish uchun ishonchli manbaga ega bo'ldi"
+       ]
+      },
       "summary": "Misrliklar iyeroglif yozuvini yaratib, uni papirusga yozgan; bu yozuvni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qidi. Amaliy ehtiyojlar astronomiya, taqvim, geometriya, matematika, tibbiyot, o'lchov birliklari va suv soatining paydo bo'lishiga olib keldi."
      },
      "presentation": {
@@ -7289,6 +7414,20 @@
         "page": 47
        }
       ],
+      "why": {
+       "causes": [
+        "Dajla va Frot daryolarining har yilgi toshqinlari dalalarga unumdor loyqa olib kelgan",
+        "Mesopotamiyada yog'och va metall bo'lmagan, ammo don mo'l-ko'l yetishtirilgan",
+        "Shahar-davlatlar bir-biri bilan tinimsiz urushlar olib borgan"
+       ],
+       "effects": [
+        "Dehqonchilik aholining asosiy mashg'uloti bo'ldi",
+        "Aholi donni oltin, mis, kumush, qalay va noyob toshlarga ayirboshlab, savdo-sotiq bilan shug'ullandi",
+        "Urush paytida saylangan sardorlarning nufuzi ortib, ular muntazam hukmronlik qiluvchi podsholarga aylandi",
+        "Urushlar natijasida Sargon I Akkad va Shumer shaharlarini birlashtirdi, birinchi muntazam qo'shinni tuzdi va yagona o'lchovlarni joriy etdi",
+        "Sargon I vafotidan keyin qo'zg'olonlar va ko'chmanchi qabilalar zarbasidan Shumer-Akkad davlati parchalanib ketdi"
+       ]
+      },
       "summary": "Dajla va Frot oralig'ida shumerlar (janubda) va akkadlar (shimolda) yashagan. Dehqonchilik, savdo va mixxat yozuvi rivojlanib, Uruk, Ur, Lagash kabi shahar-davlatlar paydo bo'lgan. Mil. avv. 3-mingyillik ikkinchi yarmida Sargon I ularni birlashtirib, Shumer-Akkad davlatini tuzgan."
      },
      "presentation": {
@@ -8073,6 +8212,18 @@
         "page": 51
        }
       ],
+      "why": {
+       "causes": [
+        "Bobil Frot va Dajla daryolari o'zanlari yaqinlashadigan hududda joylashgan, kemalarda kelgan savdogarlar shaharga to'xtab o'tardi",
+        "Mil. avv. XVIII asrda Xammurapi butun Mesopotamiyani yagona davlatga birlashtirdi",
+        "Xammurapi qonunlari qat'iy bo'lib, ma'budlar irodasi sifatida so'zsiz bajarilishi talab qilingan"
+       ],
+       "effects": [
+        "Bobilda dehqonchilik, hunarmandchilik va savdo-sotiq rivojlandi, Bobil eng qudratli davlatga aylandi",
+        "Qonunlar hamma uchun birdek bo'lib, talon-tarojlik va o'g'rilik kabi jinoyatlar deyarli sodir etilmadi",
+        "Mil. avv. 539-yilda forslar Bobilni zabt etdi va Yangi Bobil podsholigi Fors davlati tarkibiga kirdi"
+       ]
+      },
       "summary": "Bobil (\"xudolar darvozasi\") Xammurapi davrida (mil. avv. XVIII asr) butun Mesopotamiyani birlashtirib, qat'iy qonunlar chiqardi. Navuxodonosor II davrida Yangi Bobil gullab-yashnadi, ammo mil. avv. 539-yilda forslar uni zabt etdi. Mixxat, loy taxtachalar, taqvim va astronomiya Bobil madaniyatining yutuqlaridir."
      },
      "presentation": {
@@ -8774,6 +8925,18 @@
         "page": 54
        }
       ],
+      "why": {
+       "causes": [
+        "Ossuriyaliklar jangari xalq bo'lib, qo'shni yerlarga tez-tez hujum qilgan",
+        "Ossuriya hujumlaridan himoyalanish zarurati Urartu davlati tashkil topishini tezlashtirgan"
+       ],
+       "effects": [
+        "Ossuriyaning qudratli lashkari har yili yangi yerlarni zabt etgan, bo'ysundirilgan xalqlar katta o'lpon to'lagan",
+        "Mil. avv. 605-yilda Ossuriya qo'shinlari Midiya va Bobil tomonidan tor-mor etilgach, davlat zavolga yuz tutdi",
+        "Urartu podsholigini keyinchalik skiflar ishg'ol etib, Midiya bosib oldi",
+        "Finikiyaliklar savdo-sotiq bilan shug'ullanib, O'rta Yer dengizi sohilida yirik shaharlar barpo etdi va 22 undoshli alifbo yaratdi; yunonlar uni o'zlashtirib, unli harflarni qo'shdi"
+       ]
+      },
       "summary": "Old Osiyoda Ossuriya jangari davlat bo'lib, mil. avv. 605-yilda Midiya va Bobil tomonidan yengilgan; Urartu Ossuriyaga qarshi yuksalib, Midiya tomonidan bosib olingan. Finikiyaliklar dengiz savdosi bilan shug'ullanib, 22 harfli alifbo yaratgan; yahudiy afsonalari Bibliyaga jamlangan."
      },
      "presentation": {
@@ -9395,6 +9558,19 @@
         "page": 57
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. 558-yilda Kir II barcha forslarni o'z hokimiyati ostida birlashtirdi",
+        "Bosib olingan mamlakatlarda Doro I taxtga chiqqach qo'zg'olonlar alangalanib ketdi",
+        "Doro I ning yunonlar koloniyalari va Frakiyani bosib olishi"
+       ],
+       "effects": [
+        "Kir II, Kambiz II va Doro I istilolari natijasida Ahamoniylar davlati jahondagi eng yirik davlatlardan biriga aylandi",
+        "Doro I qo'zg'olonlarni bostirib, yagona oltin tanga (darik), shoh yo'li va satrapiyalar tizimini joriy etdi",
+        "Doro I ning yunonlar yerlarini bosib olishi yunon-fors urushlari boshlanishiga sabab bo'ldi",
+        "Mil. avv. 330-yilda Makedoniyalik Aleksandr Fors davlatini bosib oldi"
+       ]
+      },
       "summary": "Eron hududida Elam va Midiya bilan bir qatorda forslar davlati paydo bo'ldi. Ahamoniy Kir II (mil. avv. 558) forslarni birlashtirib, Midiya va Bobilni bo'ysundirdi; Kambiz II Misrni oldi; Doro I (mil. avv. 522) tanga, shoh yo'li va satrapiyalar bilan davlatni mustahkamladi. Mil. avv. 330-yilda uni Aleksandr bosib oldi."
      },
      "presentation": {
@@ -10103,6 +10279,19 @@
         "page": 61
        }
       ],
+      "why": {
+       "causes": [
+        "Issiq iqlim va Hind hamda Gang daryolari dehqonchilik vujudga kelishi uchun imkoniyat yaratgan",
+        "Himolay tog'lari shimoldan keladigan sovuq shamollarni to'sib turgan",
+        "Qadimgi hindlar tabiatni ma'budlar boshqaradi deb ishongan"
+       ],
+       "effects": [
+        "Hind daryosi havzasida Mohenjodaro va Xarappa kabi yirik shaharlar vujudga keldi, aholining asosiy mashg'uloti dehqonchilik bo'ldi",
+        "Mil. avv. XVIII asrdan keyin toshqinlar, o'rmonlar va changalzorlar kengayishi tufayli Hind vodiysi shaharlari zavolga yuz tutdi",
+        "Hindlar ma'budlarni hayvon timsolida tasavvur etdi, sigirni muqaddas deb bildi va jon ko'chib o'tishiga ishondi",
+        "Aholi faoliyatiga qarab to'rt tabaqaga (kastaga) ajratildi; bir tabaqadan boshqasiga o'tishning iloji bo'lmagan"
+       ]
+      },
       "summary": "Hind va Gang vodiylarida Mohenjodaro va Xarappa kabi rejali shaharlar vujudga kelgan, ular mil. avv. XVIII asrdan keyin toshqinlar tufayli vayron bo'lgan. Hindlar ko'p ma'budga ishongan, sigirni muqaddas bilgan va jamiyat to'rt kastaga bo'lingan."
      },
      "presentation": {
@@ -10810,6 +10999,18 @@
         "page": 65
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. VI asrda Siddhartha Gautama inson azob chekishi va vafot etishini angladi",
+        "Buddaviylar fikricha, har qanday xohish-istak azob-uqubatga olib keladi"
+       ],
+       "effects": [
+        "Siddhartha saroydagi farog'atli turmushdan voz kechib, hayot mazmunini izlab dunyo bo'ylab sayohatga otlandi va buddaviylik dinini yaratdi",
+        "Buddaviylar yolg'on so'zlamaslikni, mol-davlat to'plamaslikni, tirik mavjudotlar qonini to'kmaslikni va xohish-istaklardan voz kechishni talab qildi",
+        "Ko'p o'tmay buddaviylar Buddaning o'ziga sig'inishni boshladi",
+        "Qadimgi Hindistonda astronomiya, matematika va tibbiyot yuksaldi, sanskrit tili, shaxmat va yil taqvimi paydo bo'ldi"
+       ]
+      },
       "summary": "Qadimgi Hindistonda astronomiya, matematika va tibbiyot rivojlanib, shaxmat ixtiro qilindi, sanskrit va \"Mahabharata\", \"Ramayana\" dostonlari yaratildi. Mil. avv. VI asrda Siddhartha Gautama azob-uqubatdan qutulish yo'lini ko'rsatuvchi buddaviylikka asos soldi."
      },
      "presentation": {
@@ -11440,6 +11641,19 @@
         "page": 68
        }
       ],
+      "why": {
+       "causes": [
+        "Betoxtov bosqinchilik urushlari Shan davlatini zaiflashtirdi",
+        "Mil. avv. VIII-VII asrlarda Chjou davlatida markaziy hokimiyat zaiflasha boshladi",
+        "Xitoyga ko'chmanchi qabilalar hujum qila boshladi"
+       ],
+       "effects": [
+        "Chjou qabilasi Shan davlatining zaiflashuvidan foydalanib, uning yerlarini o'ziga qo'shib oldi va Chjou davlatini barpo etdi",
+        "Chekka viloyatlar ajralib chiqib o'z davlatini tashkil eta boshladi: 'ko'p podsholiklar' davri boshlandi",
+        "Mayda podsholiklar o'rtasidagi urushlar 200 yildan uzoqroq davom etdi ('kurashayotgan podsholiklar' davri)",
+        "Mil. avv. III asrda Sin hukmdori barcha raqiblarini yo'q qilib, yagona davlat tuzdi"
+       ]
+      },
       "summary": "Xitoyda ilk davlat Shan (mil. avv. 3-ming yillik oxiri) Xuanxe bo'ylarida vujudga kelib, Chjou davlati bilan almashgan. Dehqonchilik, choy va ipakchilik rivojlangan. Mil. avv. VII-V asrlarda \"ko'p podsholiklar\" davri bo'lgan; mil. avv. III asrda Sin hukmdori yagona davlat tuzgan."
      },
      "presentation": {
@@ -12055,6 +12269,18 @@
         "page": 72
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. 246-yilda Sin hukmdori Xitoyni o'z hokimiyati ostida birlashtirdi",
+        "Ko'chmanchi hunlar Xitoy davlatiga hujum qilib turgan"
+       ],
+       "effects": [
+        "Sin Shixuandi davlatni viloyatlarga bo'lib, har biriga noib tayinladi va o'ziga hashamatli maqbara qurdirdi (720 ming odam 37 yil qurgan)",
+        "Hunlar hujumidan himoyalanish uchun Buyuk Xitoy devori mustahkamlandi: otliq qo'shinlar undan oshib o'ta olmadi, ammo qurilishga yuz minglab dehqonlar majburan jalb etildi",
+        "Ziroatchilik va hunarmandchilik ehtiyojlari matematika, astronomiya va geografiya rivojini taqozo etdi",
+        "Xitoyliklar bambukdan shoyiga o'tib yozdi, mil. avv. I asrda qog'ozni, shuningdek kompas va seysmografni ixtiro qildi"
+       ]
+      },
       "summary": "Mil. avv. 246-yilda Sin Shixuandi Xitoyni birlashtirib, viloyatlar boshqaruvini joriy qildi, ulkan maqbara va Buyuk Xitoy devorini mustahkamlashni buyurdi. Xitoyliklar iyerogliflar, shoyi va bambukka yozuv, qog'oz, kompas va seysmografni ixtiro qilgan."
      },
      "presentation": {
@@ -12667,6 +12893,19 @@
         "page": 80
        }
       ],
+      "why": {
+       "causes": [
+        "Sug'd, Baqtriya va Xorazmda sun'iy sug'orishga asoslangan dehqonchilik, hunarmandchilik va savdo-sotiq rivojlandi",
+        "O'troq dehqonlar va ko'chmanchi chorvadorlar o'rtasida mahsulot ayirboshlash muvaffaqiyatli kechgan",
+        "Ossuriya podshosi Nin Baqtriyaga yurish qildi"
+       ],
+       "effects": [
+        "Hunarmandchilik va savdoning rivoji natijasida mil. avv. VII-VI asrlarda qadimgi shaharlar (Afrosiyob, Ko'ktepa, Ko'zaliqir va boshqalar) rivojlandi",
+        "Shaharlar mudofaa devorlari, burjlari, xandaqlari bilan mustahkamlangan, ichki qal'ada saroy joylashgan",
+        "Podsho Oksiart butun aholini jangga safarbar qildi: baqtriyaliklar ossuriyaliklarni chekinishga majbur qildi",
+        "Mil. avv. VII asrda Baqtriya davlati tashkil topdi, Xorazmda ham qadimiy davlat tizimi shakllandi"
+       ]
+      },
       "summary": "Mil. avv. VII-VI asrlarda O'zbekiston hududida o'troq sug'diy, baqtriyalik, xorazmlik dehqonlar va ko'chmanchi sak, massaget chorvadorlari yashagan. Sun'iy sug'orish, hunarmandchilik va savdo rivojlanib, qadimgi shaharlar hamda Baqtriya va Xorazm davlatlari vujudga kelgan."
      },
      "presentation": {
@@ -13455,6 +13694,18 @@
         "page": 83
        }
       ],
+      "why": {
+       "causes": [
+        "Zardushtiylik odamlar tabiatni ilohiylashtirgan kezlarda kurtak yoza boshladi",
+        "Zardusht turli qabilalarni istilochilarga qarshi kurashda birlikka da'vat qilgan"
+       ],
+       "effects": [
+        "Mil. avv. 1-mingyillikda O'rta Osiyoda zardushtiylik keng tarqaldi",
+        "Zardushtning vafotidan bir necha asr o'tgach, barcha marosimlar, madhiyalar va duolar muqaddas kitob \"Avesto\"ga jamlandi",
+        "Zardushtiylar o'limni yovuzlik deb bilgani uchun jasadni yerga ko'mmagan, suyaklarni ossuariylarda dafn etgan",
+        "\"Avesto\" mehnatni ulug'lab, bosqinchilik, o'g'rilik, qarzni qaytarmaslikni gunoh deb hisobladi, tabiatni asrashga, bolalar huquqini himoyalashga chaqirdi"
+       ]
+      },
       "summary": "Zardushtiylik (Zaratushtra ta'limoti) O'rta Osiyoda mil. avv. 1-mingyillikda tarqalgan; oliy xudo Ahuramazda, yovuzlik ma'budi Ahriman. \"Avesto\" jamlangan muqaddas kitob bo'lib, ezgu amal, so'z va fikrni, mehnat, adolat va tabiatni asrashni targ'ib qilgan."
      },
      "presentation": {
@@ -14173,6 +14424,19 @@
         "page": 86
        }
       ],
+      "why": {
+       "causes": [
+        "Yunoniston hududining katta qismini tog'lar egallagan, serunum dalalar tog' daryolari bo'ylarida joylashgan",
+        "Egey dengizidagi ko'p orollar, qulay qirg'oqlar va qo'ltiqlar mavjud edi",
+        "Qit'adan jangovar axeylar, so'ng doriylar bostirib kirdi"
+       ],
+       "effects": [
+        "Yunonlar dehqonchilik va chorvachilik bilan shug'ullandi",
+        "Yunonlar orasida dengizchilik rivoj topdi; kompas bo'lmagani uchun ular ko'pincha sohil yaqinida va oroldan orolga suzdi",
+        "Axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazdi",
+        "Doriylarning Janubiy Yunonistonga bostirib kirishi Miken davlatining tugatilishi va Sparta davlatining vujudga kelishiga olib keldi"
+       ]
+      },
       "summary": "Yunoniston tog'li, uni O'rta Yer va Egey dengizlari o'rab turadi; yunonlar dehqonchilik, chorvachilik va dengizchilik bilan shug'ullangan. Mil. avv. 2-mingyillikda Kritda Minoy sivilizatsiyasi paydo bo'lib, axeylar tomonidan tugatilgan; doriylar Mikenni tugatib, Spartaning vujudga kelishiga sabab bo'lgan."
      },
      "presentation": {
@@ -14736,6 +15000,19 @@
         "page": 92
        }
       ],
+      "why": {
+       "causes": [
+        "Dehqonchilik va hunarmandchilik rivoj topdi, bir necha manzilgoh birlashib, polislar vujudga keldi",
+        "Mil. avv. XII asrda doriylar Lakonikaga bostirib kirib, mahalliy aholini (ilotlarni) qulga aylantirdi",
+        "Ilotlar spartaliklardan qattiq nafratlanardi"
+       ],
+       "effects": [
+        "Polislar shahar-davlatlarni tashkil etib, hunarmandchilik va savdo markazlariga aylandi, goplitlar falanga safida jang qildi",
+        "Afinada davlat maktablari bo'lmagan: ota-onalar bolalarni pedagogga haq to'lab o'qitgan, oliy ta'lim faqat boylar farzandlariga nasib etgan",
+        "Hukmronlikni faqat kuch bilan saqlab qolish mumkin bo'lgani uchun Sparta qat'iy intizomli, urushga tayyorlanayotgan shaharga o'xshab qolgan",
+        "Spartaliklar faqat harbiy ish bilan shug'ullangan, ilotlar esa dalalarda ishlab, majburiyatlarni bajargan; bolalar qattiq sharoitda tarbiyalangan"
+       ]
+      },
       "summary": "Yunonlar polis (shahar-davlat)larda yashab, goplit falangasi bilan jang qilgan. Afinada hunarmand-savdogarlar, fuqaro, metek va qullar bo'lgan, ta'lim xususiy edi; Spartada doriylar ilotlarni qul qilib, hayotni harbiy intizomga bo'ysundirgan."
      },
      "presentation": {
@@ -15468,6 +15745,16 @@
         "page": 94
        }
       ],
+      "why": {
+       "causes": [
+        "Zodagonlardan qarzdor bo'lib qolgan, yeri-mulki yo'q ko'plab yunonlar vatanini tark etishga majbur bo'lgan"
+       ],
+       "effects": [
+        "Ko'chib kelganlar Sitsiliya, Apennin yarimoroli janubi, O'rta Yer va Qora dengiz bo'ylarida manzilgohlar barpo etdi",
+        "Koloniyalar o'z hokimlari, qo'shinlari, qonunlari va tangalari bilan shahar-davlatlarga aylanib, savdo-sotiq va hunarmandchilik rivojlandi",
+        "Koloniyalar Yunoniston polislari bilan doimiy aloqada bo'ldi; mil. avv. VIII-VI asrlar Buyuk Yunon koloniyalashtirishi nomini oldi"
+       ]
+      },
       "summary": "Qarzdor va yersiz yunonlar mil. avv. VIII-VI asrlarda (Buyuk Yunon koloniyalashtirishi) Sitsiliya, Apennin janubi, O'rta Yer va Qora dengiz bo'ylariga ko'chib, Olviya, Xersones, Pantikapey kabi koloniyalar tashkil etgan; ular o'zini ellinlar, boshqa xalqlarni varvarlar deb atagan."
      },
      "presentation": {
@@ -15973,6 +16260,19 @@
         "page": 98
        }
       ],
+      "why": {
+       "causes": [
+        "Afinada aslzodalar va oddiy xalq o'rtasida kelishmovchilik va nizolar vujudga keldi",
+        "Aslzodalar hukmronligidan norozi xalqning ahvoli tobora yomonlashdi va u qo'zg'olon ko'tardi",
+        "Drakont qonunlari juda qattiq bo'lib, bitta jazo — o'lim jazosini belgilagan"
+       ],
+       "effects": [
+        "Afinaliklar Drakont qonunlaridan norozi bo'lib, qonunchini shahardan haydab yubordi",
+        "Zodagonlar yon berishga majbur bo'ldi: Solon mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirdi, qarzdorlarni qul qilish bekor bo'ldi",
+        "Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi, barcha qarorlar ovoz berish yo'li bilan qabul qilindi",
+        "Perikl davrida Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, Parfenon va boshqa inshootlar qurildi"
+       ]
+      },
       "summary": "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan (demokratiya). Drakont (621) qattiq qonunlar bilan, Solon (594) esa islohotlar bilan aristokratiyani demokratiyaga almashtirdi. Perikl (443-429) davrida demokratiya va Afina eng yuksak darajaga chiqdi, Parfenon qurildi."
      },
      "presentation": {
@@ -16739,6 +17039,19 @@
         "page": 102
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. V asr boshlarida fors shohi Doro I Kichik Osiyodagi yunon shaharlarini bosib olib, Yunonistonga yurish qildi",
+        "Yunoniston shaharlari bir-biri bilan doimiy urushib turgan",
+        "Makedoniya podshosi Filipp II Yunonistonni bosib olishni ko'zlagan"
+       ],
+       "effects": [
+        "Yunonlar Marafon, Salamin va Plateya janglarida forslarni yengdi; urushlar mil. avv. 449-yildagi sulh bilan yunonlarning to'liq g'alabasi bilan yakunlandi",
+        "Mil. avv. 338-yilda Xeroniya jangida makedonlar harbiy hiyla va Aleksandr boshchiligidagi suvoriylar zarbasi bilan g'alaba qozondi",
+        "Mag'lubiyat oqibatida Yunoniston Makedoniyaga qaram bo'lib qoldi",
+        "Yunon shahar-davlatlari Korinfda Makedoniya hokimiyati ostida forslarga qarshi ittifoq tuzdi; Filipp II o'ldirilgach, uning o'g'li Aleksandr hukmdor bo'ldi"
+       ]
+      },
       "summary": "Mil. avv. 490-449-yillardagi yunon-fors urushlarida yunonlar Marafon, Fermopil, Salamin va Plateyada forslarni yengdi. Keyinchalik shaharlar o'zaro urushgani sabab Filipp II Makedoniyasi mil. avv. 338-yilda Xeroniyada ularni mag'lub etib, Yunonistonni qaram qildi; Filipp o'ldirilgach, hukmdor Aleksandr bo'ldi."
      },
      "presentation": {
@@ -17471,6 +17784,17 @@
         "page": 104
        }
       ],
+      "why": {
+       "causes": [
+        "Yunon maktablari faol fuqarolar va davlat himoyachilarini tarbiyalashi kerak edi",
+        "Odamlar Olimpiyaga eson-omon yetib kelishi lozim edi"
+       ],
+       "effects": [
+        "Yigitlar umumiy ta'limdan tashqari ikki yil harbiy ta'lim olgan, sport va Olimpiya o'yinlariga ommaviy qiziqish rivojlangan",
+        "Olimpiya o'yinlari o'tkazilayotgan paytda urushlar to'xtatilgan",
+        "Xristian dini tarqalishi natijasida Zevs sharafiga o'tkaziladigan o'yinlar man qilindi va milodiy 394-yilda to'xtadi; 1896-yilda qayta tiklandi"
+       ]
+      },
       "summary": "Yunon maktablari faol fuqaro va vatan himoyachisini tarbiyalagan: yigitlar ikki yil harbiy ta'lim olgan. Mil. avv. 776-yildan har to'rt yilda Zevs sharafiga Olimpiya o'yinlari o'tkazilgan, ular milodiy 394-yilda to'xtab, 1896-yilda qayta tiklangan."
      },
      "presentation": {
@@ -18051,6 +18375,18 @@
         "page": 108
        }
       ],
+      "why": {
+       "causes": [
+        "Yunonlar mil. avv. 1200-yil atrofida mo'l-ko'l o'lja ilinjida Troyaga urush boshladi",
+        "Rivoyatga ko'ra, Paris Sohibjamol Yelenani Troyaga o'g'irlab ketdi va Sparta podshosi qasos olishga ahd qildi"
+       ],
+       "effects": [
+        "Yunonlar Odisseyning maslahati bilan yog'och ot yordamida Troyani bosib oldi",
+        "Gomer 'Iliada' va 'Odisseya' dostonlarini yozdi",
+        "Yunonistonda teatr dunyoga keldi: tragediya (Sofokl) va komediya (Aristofan) janrlari shakllandi",
+        "Yunonlar hamma foydalanadigan jamoat binolari, ustunli ibodatxonalar va haykallar barpo etdi; Fidiy Parfenon qurilishiga boshchilik qildi"
+       ]
+      },
       "summary": "Gomer Troya urushi haqida \"Iliada\" va \"Odisseya\" dostonlarini yozgan; Troya yog'och ot yordamida bosib olingan. Yunonistonda teatr (tragediya va komediya), toshdan qurilgan ibodatxonalar, kolonnalar va haykaltaroshlik rivojlangan; Fidiy Parfenon qurilishiga boshchilik qilgan."
      },
      "presentation": {
@@ -18704,6 +19040,16 @@
         "page": 110
        }
       ],
+      "why": {
+       "causes": [
+        "Yunon mutafakkirlari olam tuzilishi va inson hayoti ma'nosini tushuntirishga harakat qilgan"
+       ],
+       "effects": [
+        "Geraklit hamma narsa olovdan kelib chiqqan deb uqtirdi; Demokrit unga e'tiroz bildirib, hamma narsa atomlardan iborat degan fikrni bayon etdi",
+        "Gerodot yunon-fors urushlariga bag'ishlab 'Tarix' kitobini yozdi va 'tarixning otasi' degan nomga sazovor bo'ldi",
+        "Arximed richag qonunini ishlab chiqdi va ilmiy kashfiyotlari bilan mashhur bo'ldi"
+       ]
+      },
       "summary": "Yunon mutafakkirlari olam va hayot ma'nosini tushuntirgan: Geraklit olov, Demokrit atomlar haqida o'rgatgan, Diogen bochkada yashagan. Gerodot \"Tarix\" kitobi bilan \"tarixning otasi\" bo'lgan, Arximed richag qonunini kashf etgan."
      },
      "presentation": {
@@ -19221,6 +19567,15 @@
         "page": 112
        }
       ],
+      "why": {
+       "causes": [
+        "Yunonlar hayoti va tevarak-olam ko'zga ko'rinmas sirli kuchlarga tobe deb ishongan"
+       ],
+       "effects": [
+        "Bu kuchlar xudolar deb atalib, ularning sharafiga ko'plab ibodatxonalar barpo etilgan va qurbonliklar qilingan",
+        "Afsonalar qadimgi davr, yunonlarning tabiat hodisalari va xudolar haqidagi tasavvurlarini o'rganishga imkon beradi"
+       ]
+      },
       "summary": "Afsonalar (mif) qadimgi yunonlar tasavvurlarini aks ettiradi: Okean, Atlant, Gerakl va boshqalar. Zevs (osmon), Poseydon (dengiz), Aid (marhumlar saltanati) olamga hukmronlik qilgan, ma'budlar Olimp tog'ida yashagan, yunonlar ulardan qo'rqib ibodatxonalar qurgan."
      },
      "presentation": {
@@ -19807,6 +20162,20 @@
         "page": 121
        }
       ],
+      "why": {
+       "causes": [
+        "Ahamoniylar O'rta Osiyo hududini bosib olishga harakat qildi (Kir II Parfiya, Marg'iyona, Baqtriyani oldi)",
+        "Doro I hukmronligining birinchi yili Marg'iyonada forslarga qarshi Frada boshchiligida xalq qo'zg'oloni ko'tarildi",
+        "Bosib olingan mamlakatlarni itoatda tutib turish zarur edi"
+       ],
+       "effects": [
+        "Mil. avv. 530-yilda massagetlar bilan jangda Kir II halok bo'ldi",
+        "Frada qo'zg'oloni mil. avv. 522-yilda bostirildi, Fradaning o'zi asirga olinib qatl etildi",
+        "Cho'pon Shiroq forslarni suvsiz cho'lga boshlab borib, saklarni halokatdan qutqardi; Doro I ning saklarga yurishi muvaffaqiyatsiz tugadi",
+        "Ahamoniylar davlatni satrapiyalarga bo'ldi: O'rta Osiyo uch satrapiyaga bo'linib, fors shohiga yillik o'lpon-soliq to'lagan",
+        "O'rta Osiyoning karvon yo'llari bo'ylab savdo-sotiq va hunarmandchilik rivojlandi, dastlabki tanga pullar tarqaldi"
+       ]
+      },
       "summary": "Kir II Parfiya, Marg'iyona va Baqtriyani egallab, mil. avv. 530-yilda massagetlar bilan jangda halok bo'ldi. Doro I Marg'iyona qo'zg'olonini (Frada, mil. avv. 522) bostirdi, ammo saklarga yurishi muvaffaqiyatsiz tugadi (Shiroq jasorati). Ahamoniylar viloyatni uch satrapiyaga bo'lib o'lpon olgan; O'rta Osiyoda hunarmandchilik, savdo, zargarlik rivojlangan, Amudaryo xazinasi shundan dalolat beradi."
      },
      "presentation": {
@@ -20781,6 +21150,19 @@
         "page": 127
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. 330-yilda Aleksandr Doro III qo'shinlarini tor-mor etdi va Hindistonga yurishdan oldin orqa tomonini xavfsizlantirmoqchi bo'ldi",
+        "Sug'diyona xalqi bosqinchilarga qarshi kurashga chiqdi, unga baqtriyaliklar va saklar qo'shildi"
+       ],
+       "effects": [
+        "Mil. avv. 329-yilda Maroqanda bosib olindi; Spitaman qo'zg'olonga boshchilik qilib, Zarafshon bo'yida makedonlarga pistirma qo'ydi",
+        "Spitaman mil. avv. 328-yilda yengilib, ko'chmanchilar tomonidan xoinlarcha o'ldirildi",
+        "Sug'diyonada yunon-makedonlar birinchi marta mag'lubiyatga uchradi; Aleksandr sug'd zodagonlari bilan qarindoshchilik aloqasi o'rnatdi (Roksanaga uylandi)",
+        "Aleksandr uch yilda faqat uncha katta bo'lmagan hududni bo'ysundirdi: Xorazm, Toshkent vohasi va Farg'ona mustaqilligicha qoldi",
+        "Bosqin O'rta Osiyoni xarobazorga aylantirdi, aholining katta qismi qirildi; keyin mahalliy va yunon madaniyati qo'shilib, antik davlatlar taraqqiy etdi"
+       ]
+      },
       "summary": "Aleksandr mil. avv. 334-yilda Sharqqa yurib, 330-yilda Doro III ni yengdi, 329-yilda Maroqandani oldi. Spitaman boshchiligidagi sug'd, baqtriya va sak qo'zg'oloni mil. avv. 328-yilda bostirildi, lekin makedonlar mag'lubiyat ham ko'rdi. Aleksandr uch yilda O'rta Osiyoning faqat bir qismini bo'ysundirdi; bosqin vayronagarchilik keltirdi, keyinchalik yunon va mahalliy madaniyat qo'shildi."
      },
      "presentation": {
@@ -21664,6 +22046,19 @@
         "page": 131
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. 323-yilda Aleksandr vafot etdi",
+        "Salavkiylar davlatidan Parfiya ajralib chiqdi (mil. avv. 250)",
+        "Yunon-Baqtriya davlati tinimsiz urushlar olib borishga majbur bo'ldi"
+       ],
+       "effects": [
+        "Aleksandr barpo etgan davlat Makedoniya, Misr va Suriyaga bo'linib ketdi; Salavk Suriya (Salavkiylar) hukmdori bo'ldi",
+        "Mil. avv. 250-yilda Baqtriya Salavkiylardan ajralib chiqdi va Diodot podsho deb e'lon qilindi: Yunon-Baqtriya davlati tarixi boshlandi",
+        "Parfiya va Mitridat I ning harbiy tazyiqi Yunon-Baqtriyani kuchsizlantirdi, shundan foydalangan yuechji qabilalari mil. avv. 140-130-yillarda uni bosib oldi",
+        "Yunon-Baqtriya 120 yil davomida taraqqiy etdi: hunarmandchilik va savdo rivojlandi, tangalar zarb qilindi, Buyuk ipak yo'lining janubiy tarmog'i Baqtriya orqali o'tdi"
+       ]
+      },
       "summary": "Aleksandr vafotidan (mil. avv. 323) so'ng davlati parchalandi; mil. avv. 312-yilda Salavk Salavkiylar davlatini tuzdi, O'rta Osiyo unga kirdi, o'g'li Antiox noib bo'ldi. Mil. avv. 250-yilda Diodot Baqtriyada mustaqil Yunon-Baqtriya podsholigini tuzdi (Yevtidem, Demetriy); davlat 120 yil taraqqiy etib, mil. avv. 140-130-yillarda yuechjilar tomonidan bosib olindi."
      },
      "presentation": {
@@ -22447,6 +22842,18 @@
         "page": 136
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. IV asrda Xorazm Ahamoniylar davlatidan ajralib chiqib, mustaqil davlatga aylandi",
+        "Xorazm Amudaryodan chiqarilgan keng sug'orish kanallari va muhim karvon yo'llari bo'yida joylashgan edi"
+       ],
+       "effects": [
+        "Xorazmda shaharsozlik va me'morchilik rivojlandi: mustahkam devorli shaharlar va savdo yo'llari bo'ylab qal'alar qurildi",
+        "Sun'iy sug'orma dehqonchilik va chorvachilik xo'jalikning asosini tashkil etdi, hunarmandchilik rivoj topdi",
+        "Xorazmliklar Sug'diyona, Marg'iyona, Baqtriya va dasht ko'chmanchilari bilan yaqin savdo munosabatlarini o'rnatdi, tangalar zarb qilindi",
+        "Saroy va ibodatxonalar devoriy tasvir hamda haykaltaroshlik bilan bezatildi, Aramey alifbosiga asoslangan Xorazm yozuvi paydo bo'ldi"
+       ]
+      },
       "summary": "Xorazm mil. avv. IV asrda Ahamoniylardan ajralib mustaqil bo'ldi. Sug'orma dehqonchilik, hunarmandchilik va savdo rivojlandi; Xiva, Jonbosqal'a, Bozorqal'a, Oqchaxon, Tuproqqal'a kabi qal'a-shaharlar qurildi. O'rta Osiyodagi eng qadimgi yozuv (Aramey alifbosiga asoslangan), astronomiya, taqvim va zardushtiylik (Anaxita, ossuariylar) shu yerda rivojlandi."
      },
      "presentation": {
@@ -23289,6 +23696,18 @@
         "page": 142
        }
       ],
+      "why": {
+       "causes": [
+        "Farg'onaning zotdor 'samoviy otlari' Xitoy hukmdorlarini o'ziga jalb qilgan",
+        "Davan hukmdori Xitoy elchisining talabiga rad javobini berdi"
+       ],
+       "effects": [
+        "Mil. avv. II asr oxirida Qang' qudratli davlat birlashmasiga aylandi, hukmdorlari o'z tangalarini zarb qildi",
+        "Tog'lardan keltirilgan metallar tufayli kulolchilik, qurolsozlik, to'qimachilik va zargarlik rivojlandi",
+        "Davan Xitoy va G'arb o'lkalari bilan xalqaro savdoda muhim o'rin tutdi",
+        "Rad javobi Davan bilan Xitoy o'rtasidagi urushga sabab bo'ldi"
+       ]
+      },
       "summary": "Qang' davlatiga mil. avv. III asrda saklar asos solgan (poytaxti Qang'diz), u Sirdaryo o'rta oqimida joylashib, milodiy III asrda parchalangan. Farg'onadagi Davan davlatida (poytaxti Ershi, 70 dan ortiq shahar) \"samoviy otlar\" uchun Xitoy bilan to'rt yillik urush bo'lib, sulh bilan tugadi; Davan milodiy III asrda barham topdi."
      },
      "presentation": {
@@ -24119,6 +24538,20 @@
         "page": 147
        }
       ],
+      "why": {
+       "causes": [
+        "Mil. avv. 140-130-yillarda yuechji qabilalari Yunon-Baqtriyani bosib oldi, ular orasida milodiy I asrda Kushon xonadoni yuksaldi",
+        "Kushon hududiga Hindistonning shimoliy qismi qo'shib olinib, janubiy O'zbekiston bilan aloqalar o'rnatildi",
+        "To'xtovsiz urushlar davom etdi"
+       ],
+       "effects": [
+        "Kanishka davrida Kushon davlati o'z taraqqiyotining cho'qqisiga erishdi, Hindiston, Xitoy va Rim bilan savdo va elchilik aloqalari yo'lga qo'yildi",
+        "Vima Kadfiz davridagi pul islohoti xo'jalik va savdo-sotiq rivojiga ko'maklashdi",
+        "Savdo va madaniy aloqalar tufayli aramey yozuvi keng tarqaldi",
+        "Kushon davlati hududiga buddaviylik kirib keldi va zardushtiylik bilan birga milodiy VIII asrgacha saqlanib qoldi",
+        "To'xtovsiz urushlar oqibatida Kushon davlati inqirozga yuz tutdi va milodiy III asrda parchalanib ketdi"
+       ]
+      },
       "summary": "Yuechjilar Yunon-Baqtriyani bosib olgach (mil. avv. 140-130), milodiy I asrda Kushon davlati tuzildi: Kudzula Kadfiz birlashtirgan, Vima Kadfiz pul islohotini o'tkazgan, Kanishka davrida imperiya cho'qqisiga chiqqan. Buddaviylik tarqaldi, aramey asosidagi yozuvlar va haykaltaroshlik rivojlandi; davlat milodiy III asrda parchalandi."
      },
      "presentation": {
@@ -24886,6 +25319,18 @@
         "page": 150
        }
       ],
+      "why": {
+       "causes": [
+        "Xitoy imperatori U-Di ko'chmanchi hunlarga qarshi kurashda ittifoqchi topish uchun elchi Chjan Szyanni yubordi",
+        "O'rta Osiyo Buyuk ipak yo'lining asosiy yo'nalishlari kesishgan chorrahada joylashgan edi"
+       ],
+       "effects": [
+        "Chjan Szyan yurgan yo'l bo'ylab Xitoyni Markaziy va G'arbiy Osiyo bilan bog'lovchi Buyuk ipak yo'li karvon yo'li vujudga keldi",
+        "Chjan Szyan Xitoyga Farg'ona otlari va beda urug'ini olib keldi: beda keyinchalik Xitoyning butun shimolida ekiladigan bo'ldi",
+        "Ipak yo'li orqali mahsulotlar ayirboshlandi: Sug'diyonadan matolar va gilamlar, Farg'onadan otlar, Badaxshondan lojuvard, Xitoydan guruch va ipak",
+        "Sharq va G'arb xalqlari o'rtasida madaniy va savdo aloqalari kengayib, O'rta Osiyoga savdogarlar, hunarmandlar, olimlar va san'atkorlar kelib turdi"
+       ]
+      },
       "summary": "Buyuk ipak yo'li mil. avv. II asrda vujudga kelib, Sariq dengizdan O'rta Yer dengizigacha 12 ming km cho'zilgan; nomini 1877-yilda F. Rixtgofen bergan. Chjan Szyan sayohati yo'lning shakllanishiga sabab bo'lgan. O'rta Osiyo yo'l chorrahasida joylashib, savdo va madaniy aloqalardan yuksak taraqqiy etgan."
      },
      "presentation": {
@@ -25525,6 +25970,19 @@
         "page": 153
        }
       ],
+      "why": {
+       "causes": [
+        "Italiyada iqlim iliq bo'lib, qurg'oqchilik ham, qattiq sovuq ham bo'lmagan; tuproq unumdor edi",
+        "Rim yettita tepalikda, daryo va botqoqlik himoyasida joylashgan edi",
+        "Tarkviniy saylangan hukmdorni o'ldirib, hokimiyatni egallab oldi"
+       ],
+       "effects": [
+        "Qadimgi Italiya aholisining asosiy mashg'uloti dehqonchilik va chorvachilik bo'ldi",
+        "Tibr bo'yidagi kichik manzilgohlar birlashib, Rim katta shaharga aylandi; Kapitoliy tepaligida qal'a qurildi",
+        "Aholi qo'zg'olon ko'tarib, Tarkviniyni shahardan haydab yubordi",
+        "Bir kishi qo'lida hokimiyat jamlanishiga yo'l qo'ymaslik uchun mil. avv. 509-yilda podsho hokimiyati ag'darilib, Rim respublikasi asosi yaratildi"
+       ]
+      },
       "summary": "Italiya Apennin yarimorolida iliq iqlim va unumdor yerlarga ega bo'lib, aholisi dehqonchilik bilan shug'ullangan; shimoli-g'arbda etrusklar yashagan. Rivoyatga ko'ra Rimga mil. avv. 753-yilda Romul va Rem asos solgan. Mil. avv. 509-yilda Tarkviniy quvilib, Rim respublikasi tuzildi."
      },
      "presentation": {
@@ -26171,6 +26629,19 @@
         "page": 157
        }
       ],
+      "why": {
+       "causes": [
+        "Rim boshqaruvida faqat patritsiylar ishtirok eta olar, sudlarda ular ko'pincha adolatsiz qarorlar chiqargan",
+        "Qonunlar og'zaki bo'lgani uchun plebeylar qonunlarning yozma majmuasini talab qildi",
+        "Plebeylardan iborat qo'shinlar isyon ko'tarib, Muqaddas tog'ga chiqib ketdi"
+       ],
+       "effects": [
+        "Senat o'nta patritsiydan iborat hay'at tuzishga majbur bo'ldi: qonunlar 12 mis lavhaga yozilib, forumga qo'yildi (12 jadval qonunlari)",
+        "12 jadval qonunlari xususiy mulkni daxlsiz deb e'lon qildi, ammo plebeylar va patritsiylar tengsizligini qonunlashtirdi",
+        "Mil. avv. III asr boshlarida barcha fuqarolar qonun oldida teng deb hisoblanadigan qonunlar qabul qilindi",
+        "Davlatni boshqarish respublika shaklida bo'lib, Xalq majlisi, Senat va ikki yilga saylanadigan konsullar o'rtasida taqsimlandi"
+       ]
+      },
       "summary": "Rim respublikasida Xalq majlisi ikki konsulni bir yilga saylagan, Senat qarorlarni tasdiqlagan; boshqaruvda faqat patritsiylar ishtirok etgan. Plebeylar talabi bilan yozma \"12 jadval qonunlari\" qabul qilindi; xalq tribunlari veto huquqiga ega bo'lgan; favqulodda holda diktator olti oyga tayinlangan."
      },
      "presentation": {
@@ -26889,6 +27360,18 @@
         "page": 160
        }
       ],
+      "why": {
+       "causes": [
+        "Davlatning hududi kengayib borgani sayin shaharlar ko'paydi",
+        "Rimliklar kundalik hayotda ma'budlardan madad va homiylik istagan"
+       ],
+       "effects": [
+        "Rim shaharlari oldindan puxta rejalashtirilib, jamoat binolari, hammomlar, akveduklar va forum bilan barpo etildi",
+        "Rimliklar muhim ishni boshlashdan oldin ma'budlarga qurbonlik bag'ishlab, avgurlar yordamida bashorat qildi",
+        "Diniy marosimlar ustidan kohinlar — pontifiklar nazorat qilib, bayramlar taqvimini tuzdi",
+        "Rim bozorlarida qullarga talab ko'p bo'lib, har bir shaharda qullar savdosi bozorlari bo'lgan"
+       ]
+      },
       "summary": "Rim shaharlari puxta rejalashtirilgan, akveduk, hammom, forum, mozaika va freskalar bilan bezatilgan; qullar savdosi keng bo'lgan. Kiyim mavqeni bildirgan (toga). Rimliklar Yupiter boshchiligidagi ma'budlarga e'tiqod qilgan; marosimlarni pontifiklar nazorat qilgan, avgurlar bashorat qilgan."
      },
      "presentation": {
@@ -27566,6 +28049,19 @@
         "page": 164
        }
       ],
+      "why": {
+       "causes": [
+        "Zafarli yurishlar natijasida Rimda qullar soni nihoyatda ko'payib ketdi",
+        "Qullarga haq to'lanmagani uchun ularda mehnatdan manfaatdorlik hissi bo'lmagan",
+        "Spartak qullarni Rimga qarshi qo'zg'olon ko'tarishga undadi"
+       ],
+       "effects": [
+        "Qullar mumkin qadar kamroq va yomonroq ishlab, mehnat unumdorligi kamayib ketdi",
+        "Quldorlar yerlarni kichik mulklarga bo'lib, erkin kambag'allarga ijaraga bera boshladi: kolonlar paydo bo'ldi",
+        "Gladiatorlar janglari — qullar va jinoyatchilar ishtirokidagi sevimli tomosha — Kolizey kabi amfiteatrlarda o'tkazildi",
+        "Mil. avv. 71-yilda Mark Krass boshchiligidagi qo'shin Spartak lashkarini tor-mor etdi"
+       ]
+      },
       "summary": "Rimda qullar soni juda ko'p bo'lib, qul mehnati samarasizlashgach, kolonlar va \"kulbali qullar\" paydo bo'ldi. Gladiatorlar janglari sevimli tomosha edi (Kolizey). Mil. avv. 74-yilda Spartak boshchiligida qullar qo'zg'oloni boshlanib, mil. avv. 71-yilda Mark Krass tomonidan bostirildi."
      },
      "presentation": {
@@ -28284,6 +28780,19 @@
         "page": 168
        }
       ],
+      "why": {
+       "causes": [
+        "Qullar qo'zg'olonlari quldorlarni qattiq qo'rquvga solib, kuchli hokimiyat — harbiy diktatura zarurligini yuzaga keltirdi",
+        "Senatorlar va kam sonli mansabdor shaxslar ulkan davlatni risoladagidek boshqara olmasdi",
+        "Mil. avv. I asrda yollanma qo'shinlarga tayanuvchi harbiy boshliqlar haqiqiy kuchga aylandi"
+       ],
+       "effects": [
+        "Mil. avv. 49-yilda Sezar Rubikondan kechib o'tib, yakkahokimlik uchun oshkora kurashni boshladi va cheklanmagan hokimiyatli diktatorga aylandi",
+        "Sezarning cheklanmagan hokimiyatidan norozi senatorlar fitna uyushtirib, uni o'ldirdi",
+        "Oktavian Antoniy bilan ittifoq tuzib, respublikachilarni tor-mor etdi, so'ng Antoniy va Kleopatrani yengib, butun imperiyaning yakka hukmdori bo'ldi",
+        "Mil. avv. 29-yilda Oktavian imperator unvonini oldi, Rim respublikasi imperiyaga aylandi"
+       ]
+      },
       "summary": "Qullar qo'zg'olonlaridan qo'rqqan quldorlar kuchli hokimiyat talab qildi, yollanma qo'shinlarga tayangan sarkardalar kuchaydi. Sezar mil. avv. 49-yilda Rubikondan o'tib yakkahokim bo'ldi, mil. avv. 44-yilda fitnachilar tomonidan o'ldirildi. Oktavian Antoniyni yengib, mil. avv. 29-yilda imperator Avgust nomini oldi; imperiyaning \"oltin asri\" milodiy II asrda (Trayan) bo'ldi."
      },
      "presentation": {
@@ -29006,6 +29515,19 @@
         "page": 172
        }
       ],
+      "why": {
+       "causes": [
+        "Milodiy III asrda imperiyaning kuch-qudrati zaiflasha boshladi: imperatorni armiya saylar, armiyada guruhlar kurashar edi",
+        "Imperiya chegaralarida ko'chmanchi 'varvar' qabilalar paydo bo'ldi",
+        "Ulkan imperiyani Konstantinopoldan turib boshqarish mushkul edi"
+       ],
+       "effects": [
+        "Rimliklar chegarada katta armiya saqlab turishga majbur bo'ldi",
+        "Milodiy 395-yilda imperiya G'arbiy va Sharqiy qismlarga bo'lindi; G'arbiy imperiya alohida davlatlarga parchalana boshladi",
+        "Gotlar (410), vandallar (455) Rimni talab, uning madaniy boyliklarini yo'q qildi; Attila boshchiligidagi hunlar ham hujum qildi",
+        "Milodiy 476-yilda Odoakr so'nggi imperator Romulni taxtdan ag'dardi: G'arbiy Rim qulab, qadimgi dunyo tarixi yakunlandi va o'rta asrlar boshlandi"
+       ]
+      },
       "summary": "Milodiy III asrdan Rim imperiyasi zaiflashdi; Konstantin poytaxtni Konstantinopolga ko'chirdi (330), imperiya 395-yilda G'arbiy va Sharqiy qismlarga bo'lindi. Gotlar (410), hunlar (452), vandallar (455) hujumlaridan so'ng 476-yilda Odoakr oxirgi imperatorni ag'dardi - G'arbiy Rim qulab, qadimgi dunyo tarixi yakunlandi."
      },
      "presentation": {
@@ -29700,6 +30222,18 @@
         "page": 177
        }
       ],
+      "why": {
+       "causes": [
+        "Beton ixtiro etilishidan oldin ko'priklarni butunlay toshdan qurish qimmatga tushar va uzoq davom etardi",
+        "Rim eng yirik va aholisi ko'p shaharga aylangan edi"
+       ],
+       "effects": [
+        "Beton toshdan ham mustahkam bo'lib, tez va pishiq inshootlar qurishga imkon berdi; shiftlar ustunsiz gumbaz shaklida qurila boshladi",
+        "Rimliklar suv quvurlari va akveduklar qurdi, o'rmon, tog' va botqoqlar orqali yo'llar o'tkazdi ('Barcha yo'llar Rimga boradi')",
+        "Imperatorlar poytaxt aholisi uchun termalar (hammomlar) qurdirdi; ularda sport zallari va kutubxona bo'lgan",
+        "Kambag'allar farzandlari ota-onasiga yordam bergani uchun maktabda o'qimagan, badavlat oilalar bolalari 6 yoshdan maktabga qatnagan"
+       ]
+      },
       "summary": "Rimda boylar tepaliklarda, oddiy aholi tor ko'chalarda yashagan; termalar, akveduklar, beton, Panteon va Kolizey rivojlangan me'morchilikni ko'rsatadi. Ta'lim asosan boylar uchun bo'lgan; Tit Liviy, Plutarx, Kursiy Ruf tarixiy asarlar yozgan. Xristianlik milodiy I asrda vujudga kelib, 313-yilda Konstantin farmoni bilan erkin ibodat huquqini oldi."
      },
      "presentation": {

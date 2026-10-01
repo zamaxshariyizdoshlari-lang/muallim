@@ -20,6 +20,18 @@
       { "fact": "Chjan Szyan Xitoyga Farg'ona oti va beda urug'ini olib kelgan", "page": 149 },
       { "fact": "O'rta Osiyo Buyuk ipak yo'lining asosiy yo'nalishlari kesishgan chorrahada joylashgan", "page": 150 }
     ],
+    "why": {
+      "causes": [
+        "Xitoy imperatori U-Di ko'chmanchi hunlarga qarshi kurashda ittifoqchi topish uchun elchi Chjan Szyanni yubordi",
+        "O'rta Osiyo Buyuk ipak yo'lining asosiy yo'nalishlari kesishgan chorrahada joylashgan edi"
+      ],
+      "effects": [
+        "Chjan Szyan yurgan yo'l bo'ylab Xitoyni Markaziy va G'arbiy Osiyo bilan bog'lovchi Buyuk ipak yo'li karvon yo'li vujudga keldi",
+        "Chjan Szyan Xitoyga Farg'ona otlari va beda urug'ini olib keldi: beda keyinchalik Xitoyning butun shimolida ekiladigan bo'ldi",
+        "Ipak yo'li orqali mahsulotlar ayirboshlandi: Sug'diyonadan matolar va gilamlar, Farg'onadan otlar, Badaxshondan lojuvard, Xitoydan guruch va ipak",
+        "Sharq va G'arb xalqlari o'rtasida madaniy va savdo aloqalari kengayib, O'rta Osiyoga savdogarlar, hunarmandlar, olimlar va san'atkorlar kelib turdi"
+      ]
+    },
     "summary": "Buyuk ipak yo'li mil. avv. II asrda vujudga kelib, Sariq dengizdan O'rta Yer dengizigacha 12 ming km cho'zilgan; nomini 1877-yilda F. Rixtgofen bergan. Chjan Szyan sayohati yo'lning shakllanishiga sabab bo'lgan. O'rta Osiyo yo'l chorrahasida joylashib, savdo va madaniy aloqalardan yuksak taraqqiy etgan."
   },
   "presentation": { "slides": [

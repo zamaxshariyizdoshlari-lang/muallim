@@ -20,6 +20,17 @@
       { "fact": "Tarixni sana va nomlar uchun emas, ajdodlarning yaratuvchanlik tajribasi uchun o'rganish kerak", "page": 5 },
       { "fact": "Darslik matnini yod olish kerak emas: matnni qismlarga bo'lib, mazmunini o'z so'zlar bilan aytish kerak", "page": 6 }
     ],
+    "why": {
+      "causes": [
+        "Ko'pgina odamlarni uzoq o'tmish, o'z xalqi va mamlakati tarixi qiziqtiradi",
+        "Qadimiy davr odamlarining hayoti haqida arxeologik va yozma manbalar hikoya qiladi va savollarimizga javob topishga yordam beradi"
+      ],
+      "effects": [
+        "Tarix bizni zo'ravonlikka emas, o'zaro murosa va boshqalarga hurmatga o'rgatadi",
+        "Ajdodlarning jasorati va buyuk ishlari vatanparvarlik hissini uyg'otadi",
+        "Har birimiz o'z Vatanimiz va boshqa xalqlar tarixiga hurmat bilan qarashimiz kerak"
+      ]
+    },
     "summary": "Qadimgi dunyo tarixi odam paydo bo'lganidan milodiy 476-yilda G'arbiy Rim qulaguniga qadar bo'lgan davrni o'rganadi va uni o'rganishdan maqsad ajdodlar tajribasidan o'rganish, Vatanga muhabbat hamda boshqa xalqlarga hurmat tuyg'usini tarbiyalashdir."
   },
   "presentation": { "slides": [

@@ -27,6 +27,17 @@
       { "fact": "Totemizm, animizm va fetishizm - diniy e'tiqodning dastlabki shakllari", "page": 15 },
       { "fact": "Eng qadimiy g'or rasmlari Altamira (Ispaniya), Lasko (Fransiya), Kapova (Boshqirdiston) g'orlaridan topilgan", "page": 15 }
     ],
+    "why": {
+      "causes": [
+        "Ilk paleolit oxirida Buyuk muzlik davri boshlanib, odamlar o'ta qattiq sinovga duch keldi",
+        "Qadimgi odamlar kun va tunning almashinishi, zilzila, momaqaldiroq kabi tabiat hodisalarini tushuna olmadi"
+      ],
+      "effects": [
+        "Odamlar yangicha iqlim va turmush sharoitlariga moslashishga, issiqroq joy izlab olis makonlarga yo'l olishga majbur bo'ldi; faqat baquvvat odamlar omon qoldi",
+        "Odamlar tabiat hodisalariga sig'ina boshladi, tabiatni jonli deb bildi: totemizm, animizm va fetishizm paydo bo'ldi",
+        "Odamning tevarak-dunyoni bilishga intilishi eng qadimgi tasviriy san'at rivojiga asos bo'ldi"
+      ]
+    },
     "summary": "Eng qadimgi odamlar \"ishbilarmon odam\", so'ng \"tik yuruvchi odam\" bosqichlaridan o'tib, muzlik davrida omon qolish uchun moslashgan. Ular meva-ildiz terib, ov qilgan (o'zlashtiruvchi xo'jalik), Teshiktoshdagi neandertal bola qabri va g'or rasmlari esa diniy e'tiqod hamda tasviriy san'at ildizlarini ko'rsatadi."
   },
   "presentation": { "slides": [

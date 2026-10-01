@@ -19,6 +19,18 @@
       { "fact": "Mil. avv. VI asrda shahzoda Siddhartha Gautama (Budda) buddaviylik dinini yaratgan", "page": 64 },
       { "fact": "Buddaviylar xohish-istaklar azob-uqubatga olib keladi deb hisoblagan; dastlab ular ma'budga sig'inmagan (\"xudolarsiz din\")", "page": 65 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. VI asrda Siddhartha Gautama inson azob chekishi va vafot etishini angladi",
+        "Buddaviylar fikricha, har qanday xohish-istak azob-uqubatga olib keladi"
+      ],
+      "effects": [
+        "Siddhartha saroydagi farog'atli turmushdan voz kechib, hayot mazmunini izlab dunyo bo'ylab sayohatga otlandi va buddaviylik dinini yaratdi",
+        "Buddaviylar yolg'on so'zlamaslikni, mol-davlat to'plamaslikni, tirik mavjudotlar qonini to'kmaslikni va xohish-istaklardan voz kechishni talab qildi",
+        "Ko'p o'tmay buddaviylar Buddaning o'ziga sig'inishni boshladi",
+        "Qadimgi Hindistonda astronomiya, matematika va tibbiyot yuksaldi, sanskrit tili, shaxmat va yil taqvimi paydo bo'ldi"
+      ]
+    },
     "summary": "Qadimgi Hindistonda astronomiya, matematika va tibbiyot rivojlanib, shaxmat ixtiro qilindi, sanskrit va \"Mahabharata\", \"Ramayana\" dostonlari yaratildi. Mil. avv. VI asrda Siddhartha Gautama azob-uqubatdan qutulish yo'lini ko'rsatuvchi buddaviylikka asos soldi."
   },
   "presentation": { "slides": [

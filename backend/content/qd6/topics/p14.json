@@ -19,6 +19,19 @@
       { "fact": "Mil. avv. 522-yilda Doro I taxtga chiqdi; yagona oltin tanga \"darik\" va \"shoh yo'li\"ni joriy qildi, saltanatni satrapiyalarga bo'ldi", "page": 56 },
       { "fact": "Makedoniyalik Aleksandr mil. avv. 330-yilda Fors davlatini bosib olgan", "page": 57 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. 558-yilda Kir II barcha forslarni o'z hokimiyati ostida birlashtirdi",
+        "Bosib olingan mamlakatlarda Doro I taxtga chiqqach qo'zg'olonlar alangalanib ketdi",
+        "Doro I ning yunonlar koloniyalari va Frakiyani bosib olishi"
+      ],
+      "effects": [
+        "Kir II, Kambiz II va Doro I istilolari natijasida Ahamoniylar davlati jahondagi eng yirik davlatlardan biriga aylandi",
+        "Doro I qo'zg'olonlarni bostirib, yagona oltin tanga (darik), shoh yo'li va satrapiyalar tizimini joriy etdi",
+        "Doro I ning yunonlar yerlarini bosib olishi yunon-fors urushlari boshlanishiga sabab bo'ldi",
+        "Mil. avv. 330-yilda Makedoniyalik Aleksandr Fors davlatini bosib oldi"
+      ]
+    },
     "summary": "Eron hududida Elam va Midiya bilan bir qatorda forslar davlati paydo bo'ldi. Ahamoniy Kir II (mil. avv. 558) forslarni birlashtirib, Midiya va Bobilni bo'ysundirdi; Kambiz II Misrni oldi; Doro I (mil. avv. 522) tanga, shoh yo'li va satrapiyalar bilan davlatni mustahkamladi. Mil. avv. 330-yilda uni Aleksandr bosib oldi."
   },
   "presentation": { "slides": [

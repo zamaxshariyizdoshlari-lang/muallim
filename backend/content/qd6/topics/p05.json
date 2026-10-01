@@ -17,6 +17,17 @@
       { "fact": "Temir asri boshlarida O'rta Osiyo aholisi kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlarga bo'lingan", "page": 27 },
       { "fact": "Jamiyat asosi katta patriarxal oila bo'lgan (\"Avesto\" ma'lumoti); bir necha oila hududiy qo'shnichilik jamoasini tashkil etgan", "page": 27 }
     ],
+    "why": {
+      "causes": [
+        "Temir juda yuqori haroratda (1500 gradus) eriydi, shuning uchun uni qayta ishlash ko'p mehnat talab qilgan",
+        "Sof temir tabiatda kamyob bo'lgani uchun dastlab undan faqat bezak buyumlari tayyorlangan"
+      ],
+      "effects": [
+        "Temir uchli omochlar va boltalar paydo bo'ldi, katta maydonlarda ziroatchilik rivojlandi",
+        "Mehnat samaradorligi oshdi va ishlab chiqarishning ilg'or usuliga o'tish uchun sharoit tug'ildi",
+        "Jamiyat kohinlar, jangchilar, chorvadorlar, dehqonlar va hunarmandlarga bo'lindi"
+      ]
+    },
     "summary": "Temir mis va bronzadan qattiqroq bo'lsa-da, erishi qiyin bo'lgani uchun asta-sekin tarqalgan; u dehqonchilikni rivojlantirgan. O'rta Osiyoda ilk temir qurollar mil. avv. IX-VIII asrlarga oid bo'lib, jamiyat kohin, jangchi, chorvador, dehqon va hunarmandlarga bo'linib, katta patriarxal oilalar hududiy jamoalarni tashkil etgan."
   },
   "presentation": { "slides": [

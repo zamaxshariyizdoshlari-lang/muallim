@@ -23,6 +23,19 @@
       { "fact": "Ktesiy (mil. avv. V-IV asrlar) Ossuriya podshosi Ninning Baqtriyaga yurishi haqida yozgan", "page": 79 },
       { "fact": "Mil. avv. VI asrda xorazmliklar Ko'zaliqir qal'asida katta saroy qurgan", "page": 80 }
     ],
+    "why": {
+      "causes": [
+        "Sug'd, Baqtriya va Xorazmda sun'iy sug'orishga asoslangan dehqonchilik, hunarmandchilik va savdo-sotiq rivojlandi",
+        "O'troq dehqonlar va ko'chmanchi chorvadorlar o'rtasida mahsulot ayirboshlash muvaffaqiyatli kechgan",
+        "Ossuriya podshosi Nin Baqtriyaga yurish qildi"
+      ],
+      "effects": [
+        "Hunarmandchilik va savdoning rivoji natijasida mil. avv. VII-VI asrlarda qadimgi shaharlar (Afrosiyob, Ko'ktepa, Ko'zaliqir va boshqalar) rivojlandi",
+        "Shaharlar mudofaa devorlari, burjlari, xandaqlari bilan mustahkamlangan, ichki qal'ada saroy joylashgan",
+        "Podsho Oksiart butun aholini jangga safarbar qildi: baqtriyaliklar ossuriyaliklarni chekinishga majbur qildi",
+        "Mil. avv. VII asrda Baqtriya davlati tashkil topdi, Xorazmda ham qadimiy davlat tizimi shakllandi"
+      ]
+    },
     "summary": "Mil. avv. VII-VI asrlarda O'zbekiston hududida o'troq sug'diy, baqtriyalik, xorazmlik dehqonlar va ko'chmanchi sak, massaget chorvadorlari yashagan. Sun'iy sug'orish, hunarmandchilik va savdo rivojlanib, qadimgi shaharlar hamda Baqtriya va Xorazm davlatlari vujudga kelgan."
   },
   "presentation": { "slides": [

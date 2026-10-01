@@ -17,6 +17,17 @@
       { "fact": "O'yinlar davrida urushlar to'xtatilgan", "page": 104 },
       { "fact": "Milodiy 394-yilda qadimgi Olimpiya o'yinlari to'xtagan, 1896-yilda qayta tiklangan", "page": 104 }
     ],
+    "why": {
+      "causes": [
+        "Yunon maktablari faol fuqarolar va davlat himoyachilarini tarbiyalashi kerak edi",
+        "Odamlar Olimpiyaga eson-omon yetib kelishi lozim edi"
+      ],
+      "effects": [
+        "Yigitlar umumiy ta'limdan tashqari ikki yil harbiy ta'lim olgan, sport va Olimpiya o'yinlariga ommaviy qiziqish rivojlangan",
+        "Olimpiya o'yinlari o'tkazilayotgan paytda urushlar to'xtatilgan",
+        "Xristian dini tarqalishi natijasida Zevs sharafiga o'tkaziladigan o'yinlar man qilindi va milodiy 394-yilda to'xtadi; 1896-yilda qayta tiklandi"
+      ]
+    },
     "summary": "Yunon maktablari faol fuqaro va vatan himoyachisini tarbiyalagan: yigitlar ikki yil harbiy ta'lim olgan. Mil. avv. 776-yildan har to'rt yilda Zevs sharafiga Olimpiya o'yinlari o'tkazilgan, ular milodiy 394-yilda to'xtab, 1896-yilda qayta tiklangan."
   },
   "presentation": { "slides": [

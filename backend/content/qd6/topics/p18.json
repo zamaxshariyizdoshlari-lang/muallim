@@ -19,6 +19,18 @@
       { "fact": "Xitoyda qog'oz mil. avv. I asrda ixtiro qilingan", "page": 72 },
       { "fact": "Xitoyliklar kompas va zilzilani oldindan aniqlovchi seysmografni ixtiro qilgan", "page": 72 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. 246-yilda Sin hukmdori Xitoyni o'z hokimiyati ostida birlashtirdi",
+        "Ko'chmanchi hunlar Xitoy davlatiga hujum qilib turgan"
+      ],
+      "effects": [
+        "Sin Shixuandi davlatni viloyatlarga bo'lib, har biriga noib tayinladi va o'ziga hashamatli maqbara qurdirdi (720 ming odam 37 yil qurgan)",
+        "Hunlar hujumidan himoyalanish uchun Buyuk Xitoy devori mustahkamlandi: otliq qo'shinlar undan oshib o'ta olmadi, ammo qurilishga yuz minglab dehqonlar majburan jalb etildi",
+        "Ziroatchilik va hunarmandchilik ehtiyojlari matematika, astronomiya va geografiya rivojini taqozo etdi",
+        "Xitoyliklar bambukdan shoyiga o'tib yozdi, mil. avv. I asrda qog'ozni, shuningdek kompas va seysmografni ixtiro qildi"
+      ]
+    },
     "summary": "Mil. avv. 246-yilda Sin Shixuandi Xitoyni birlashtirib, viloyatlar boshqaruvini joriy qildi, ulkan maqbara va Buyuk Xitoy devorini mustahkamlashni buyurdi. Xitoyliklar iyerogliflar, shoyi va bambukka yozuv, qog'oz, kompas va seysmografni ixtiro qilgan."
   },
   "presentation": { "slides": [

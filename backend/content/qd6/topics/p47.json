@@ -22,6 +22,19 @@
       { "fact": "Milodiy II asr boshlari - Rim imperiyasining \"oltin asri\"; milodiy 98-yilda Trayan imperator bo'lgan", "page": 168 },
       { "fact": "Trayan davrida Suriya va Mesopotamiya Rim tarkibiga kirgan; Trayan ustuni daklar urushini tasvirlaydi", "page": 168 }
     ],
+    "why": {
+      "causes": [
+        "Qullar qo'zg'olonlari quldorlarni qattiq qo'rquvga solib, kuchli hokimiyat — harbiy diktatura zarurligini yuzaga keltirdi",
+        "Senatorlar va kam sonli mansabdor shaxslar ulkan davlatni risoladagidek boshqara olmasdi",
+        "Mil. avv. I asrda yollanma qo'shinlarga tayanuvchi harbiy boshliqlar haqiqiy kuchga aylandi"
+      ],
+      "effects": [
+        "Mil. avv. 49-yilda Sezar Rubikondan kechib o'tib, yakkahokimlik uchun oshkora kurashni boshladi va cheklanmagan hokimiyatli diktatorga aylandi",
+        "Sezarning cheklanmagan hokimiyatidan norozi senatorlar fitna uyushtirib, uni o'ldirdi",
+        "Oktavian Antoniy bilan ittifoq tuzib, respublikachilarni tor-mor etdi, so'ng Antoniy va Kleopatrani yengib, butun imperiyaning yakka hukmdori bo'ldi",
+        "Mil. avv. 29-yilda Oktavian imperator unvonini oldi, Rim respublikasi imperiyaga aylandi"
+      ]
+    },
     "summary": "Qullar qo'zg'olonlaridan qo'rqqan quldorlar kuchli hokimiyat talab qildi, yollanma qo'shinlarga tayangan sarkardalar kuchaydi. Sezar mil. avv. 49-yilda Rubikondan o'tib yakkahokim bo'ldi, mil. avv. 44-yilda fitnachilar tomonidan o'ldirildi. Oktavian Antoniyni yengib, mil. avv. 29-yilda imperator Avgust nomini oldi; imperiyaning \"oltin asri\" milodiy II asrda (Trayan) bo'ldi."
   },
   "presentation": { "slides": [

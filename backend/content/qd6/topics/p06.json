@@ -20,6 +20,18 @@
       { "fact": "Tarqoq manzilgohlar \"nom\" deb atalgan kichik davlatlarga birlashgan, ularni nomarxlar boshqargan", "page": 31 },
       { "fact": "Mil. avv. 3000-yilda Yuqori Misr hukmdori Menes g'alaba qozonib, birinchi fir'avn bo'ldi; poytaxt - Memfis", "page": 31 }
     ],
+    "why": {
+      "causes": [
+        "Nil daryosi dalalarni suvga bostirib, qora tuproqli serhosil yerlar hosil qilgan",
+        "Mil. avv. 4-mingyillik oxirida odamlar Nil vodiysining sermashaqqat turmush sharoitiga moslasha boshladi"
+      ],
+      "effects": [
+        "Nil keng-mo'l oqqan yillarda hosil barakali bo'lgan: bug'doy, arpa, poliz ekinlari, meva va sabzavotlar yetishtirilgan",
+        "Hunarmandchilik rivojlanib, 30 dan ziyod kasb-kor paydo bo'lgan",
+        "Tarqoq manzilgohlar nom deb atalgan kichik davlatlarga birlashdi; Menes ikki Misrni birlashtirib birinchi fir'avn bo'ldi va Memfisni barpo etdi",
+        "Nom hukmdorlari mol-mulkini ko'paytirib olgach, Misr yana mustaqil nomlarga parchalanib ketdi"
+      ]
+    },
     "summary": "Nil vodiysining serhosil qora tuprog'i Misrda dehqonchilik va hunarmandchilikni rivojlantirdi. Tarqoq manzilgohlar \"nom\"larga birlashib, mil. avv. 3000-yilda Menes Yuqori va Quyi Misrni birlashtirib, birinchi fir'avn bo'ldi va Memfisni poytaxt qildi."
   },
   "presentation": { "slides": [

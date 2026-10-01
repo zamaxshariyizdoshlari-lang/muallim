@@ -19,6 +19,18 @@
       { "fact": "Tutmos II davrida Falastin, Finikiya va Suriyani istilo qilish boshlangan, Tutmos III bu yurishlarni davom ettirgan", "page": 33 },
       { "fact": "Forslar shahanshohi Kir II ning o'g'li Kambiz II mil. avv. 525-yilda Misrni bosib olgan", "page": 33 }
     ],
+    "why": {
+      "causes": [
+        "Podsholik ko'plab mayda nomlarga bo'linib ketgan edi",
+        "Mil. avv. XVIII asr oxirida ko'chmanchi giksos qabilalari Misrga hujum qildi"
+      ],
+      "effects": [
+        "Giksoslar Quyi Misrni bosib olib, shahar va qishloqlarni taladi, odamlarni asirlikka haydab ketdi",
+        "Bosqinchilar zulmidan xalos bo'lish uchun nomlar Fiva fir'avni atrofiga birlashdi; Yaxmos giksoslarni tor-mor etib, Yangi podsholik davrini boshladi",
+        "Yangi podsholik fir'avnlari Nubiya va Old Osiyoga bosqinchilik yurishlarini uyushtirdi, Old Osiyoda misrliklar hukmronligi o'rnatildi",
+        "Mil. avv. 525-yilda Misrni forslar shahanshohi Kir II ning o'g'li Kambiz II bosib oldi"
+      ]
+    },
     "summary": "Misr qo'shnilari - Nubiya, Liviya, Sinay, Falastin va Suriya. Qadimgi va O'rta podsholik fir'avnlari ularni istilo qilgan, giksoslar bosqinidan keyin Yaxmos Yangi podsholikni boshlagan, Tutmos II va III Old Osiyoni bo'ysundirgan, mil. avv. 525-yilda esa Kambiz II Misrni bosib olgan."
   },
   "presentation": { "slides": [

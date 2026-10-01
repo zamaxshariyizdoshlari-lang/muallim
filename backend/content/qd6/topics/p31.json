@@ -15,6 +15,16 @@
       { "fact": "Gerodot yunon-fors urushlari haqida \"Tarix\" kitobini yozgan va \"tarixning otasi\" deb atalgan", "page": 110 },
       { "fact": "Arximed richag qonunini ishlab chiqqan va \"Evrika!\" (\"Topdim!\") deb hayqirgan", "page": 110 }
     ],
+    "why": {
+      "causes": [
+        "Yunon mutafakkirlari olam tuzilishi va inson hayoti ma'nosini tushuntirishga harakat qilgan"
+      ],
+      "effects": [
+        "Geraklit hamma narsa olovdan kelib chiqqan deb uqtirdi; Demokrit unga e'tiroz bildirib, hamma narsa atomlardan iborat degan fikrni bayon etdi",
+        "Gerodot yunon-fors urushlariga bag'ishlab 'Tarix' kitobini yozdi va 'tarixning otasi' degan nomga sazovor bo'ldi",
+        "Arximed richag qonunini ishlab chiqdi va ilmiy kashfiyotlari bilan mashhur bo'ldi"
+      ]
+    },
     "summary": "Yunon mutafakkirlari olam va hayot ma'nosini tushuntirgan: Geraklit olov, Demokrit atomlar haqida o'rgatgan, Diogen bochkada yashagan. Gerodot \"Tarix\" kitobi bilan \"tarixning otasi\" bo'lgan, Arximed richag qonunini kashf etgan."
   },
   "presentation": { "slides": [

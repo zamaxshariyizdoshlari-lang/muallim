@@ -21,6 +21,16 @@
       { "fact": "Ona urug'i davri matriarxat, ota urug'i davri patriarxat deb ataladi", "page": 10 },
       { "fact": "Tosh davri bosqichlari: paleolit, mezolit, neolit, eneolit", "page": 10 }
     ],
+    "why": {
+      "causes": [
+        "Arxeologiya ma'lumotlari qadimgi dunyo tarixi haqida to'la tasavvur berolmaydi",
+        "Mehnat qurollari va xo'jalik yuritish shakllari takomillashib borgan"
+      ],
+      "effects": [
+        "Olimlar moddiy manbalar bilan birga yozma manbalarga (Avesto, Behistun yozuvlari, Gerodot, Arrian, Strabon asarlari) ham murojaat etadilar",
+        "Jamoadagi yetakchilik asta-sekin erkak kishiga o'tdi: ona urug'i (matriarxat) o'rnini ota urug'i (patriarxat) egalladi"
+      ]
+    },
     "summary": "Qadimgi tarixni arxeologlar, antropologlar va etnograflar moddiy va yozma manbalar asosida o'rganadi. Insoniyat tarixi ibtidoiy jamoadan boshlanib, matriarxat va patriarxat urug' jamoalariga bo'lingan; qurollar materialiga ko'ra tosh davri paleolit, mezolit, neolit va eneolitga ajratiladi."
   },
   "presentation": { "slides": [

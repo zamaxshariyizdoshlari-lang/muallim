@@ -21,6 +21,19 @@
       { "fact": "Kapitoliy tepaligida qal'a bunyod etilgan", "page": 152 },
       { "fact": "Tarkviniy quvilgach, mil. avv. 509-yilda podsho hokimiyati ag'darilib, Rim respublikasi asosi yaratilgan", "page": 153 }
     ],
+    "why": {
+      "causes": [
+        "Italiyada iqlim iliq bo'lib, qurg'oqchilik ham, qattiq sovuq ham bo'lmagan; tuproq unumdor edi",
+        "Rim yettita tepalikda, daryo va botqoqlik himoyasida joylashgan edi",
+        "Tarkviniy saylangan hukmdorni o'ldirib, hokimiyatni egallab oldi"
+      ],
+      "effects": [
+        "Qadimgi Italiya aholisining asosiy mashg'uloti dehqonchilik va chorvachilik bo'ldi",
+        "Tibr bo'yidagi kichik manzilgohlar birlashib, Rim katta shaharga aylandi; Kapitoliy tepaligida qal'a qurildi",
+        "Aholi qo'zg'olon ko'tarib, Tarkviniyni shahardan haydab yubordi",
+        "Bir kishi qo'lida hokimiyat jamlanishiga yo'l qo'ymaslik uchun mil. avv. 509-yilda podsho hokimiyati ag'darilib, Rim respublikasi asosi yaratildi"
+      ]
+    },
     "summary": "Italiya Apennin yarimorolida iliq iqlim va unumdor yerlarga ega bo'lib, aholisi dehqonchilik bilan shug'ullangan; shimoli-g'arbda etrusklar yashagan. Rivoyatga ko'ra Rimga mil. avv. 753-yilda Romul va Rem asos solgan. Mil. avv. 509-yilda Tarkviniy quvilib, Rim respublikasi tuzildi."
   },
   "presentation": { "slides": [

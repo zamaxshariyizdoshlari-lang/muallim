@@ -24,6 +24,19 @@
       { "fact": "Mil. avv. 338-yilda Xeroniya jangida makedonlar yunonlarni yengib, Yunonistonni o'ziga qaram qilgan; Aleksandr suvoriy qo'shinga qo'mondonlik qilgan", "page": 101 },
       { "fact": "Filipp II xoinlarcha o'ldirilgach, uning o'g'li Makedoniyalik Aleksandr hukmdor bo'lgan", "page": 102 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. V asr boshlarida fors shohi Doro I Kichik Osiyodagi yunon shaharlarini bosib olib, Yunonistonga yurish qildi",
+        "Yunoniston shaharlari bir-biri bilan doimiy urushib turgan",
+        "Makedoniya podshosi Filipp II Yunonistonni bosib olishni ko'zlagan"
+      ],
+      "effects": [
+        "Yunonlar Marafon, Salamin va Plateya janglarida forslarni yengdi; urushlar mil. avv. 449-yildagi sulh bilan yunonlarning to'liq g'alabasi bilan yakunlandi",
+        "Mil. avv. 338-yilda Xeroniya jangida makedonlar harbiy hiyla va Aleksandr boshchiligidagi suvoriylar zarbasi bilan g'alaba qozondi",
+        "Mag'lubiyat oqibatida Yunoniston Makedoniyaga qaram bo'lib qoldi",
+        "Yunon shahar-davlatlari Korinfda Makedoniya hokimiyati ostida forslarga qarshi ittifoq tuzdi; Filipp II o'ldirilgach, uning o'g'li Aleksandr hukmdor bo'ldi"
+      ]
+    },
     "summary": "Mil. avv. 490-449-yillardagi yunon-fors urushlarida yunonlar Marafon, Fermopil, Salamin va Plateyada forslarni yengdi. Keyinchalik shaharlar o'zaro urushgani sabab Filipp II Makedoniyasi mil. avv. 338-yilda Xeroniyada ularni mag'lub etib, Yunonistonni qaram qildi; Filipp o'ldirilgach, hukmdor Aleksandr bo'ldi."
   },
   "presentation": { "slides": [

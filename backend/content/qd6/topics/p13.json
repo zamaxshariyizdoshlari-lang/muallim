@@ -19,6 +19,18 @@
       { "fact": "Finikiya shaharlari: Tir, Sidon, Ugarit; mil. avv. X asrda 22 undosh harfli alifbo yaratilgan", "page": 54 },
       { "fact": "Bibliya - qadimiy yahudiy diniy kitoblari to'plami; \"kitob\" ma'nosini bildiradi", "page": 54 }
     ],
+    "why": {
+      "causes": [
+        "Ossuriyaliklar jangari xalq bo'lib, qo'shni yerlarga tez-tez hujum qilgan",
+        "Ossuriya hujumlaridan himoyalanish zarurati Urartu davlati tashkil topishini tezlashtirgan"
+      ],
+      "effects": [
+        "Ossuriyaning qudratli lashkari har yili yangi yerlarni zabt etgan, bo'ysundirilgan xalqlar katta o'lpon to'lagan",
+        "Mil. avv. 605-yilda Ossuriya qo'shinlari Midiya va Bobil tomonidan tor-mor etilgach, davlat zavolga yuz tutdi",
+        "Urartu podsholigini keyinchalik skiflar ishg'ol etib, Midiya bosib oldi",
+        "Finikiyaliklar savdo-sotiq bilan shug'ullanib, O'rta Yer dengizi sohilida yirik shaharlar barpo etdi va 22 undoshli alifbo yaratdi; yunonlar uni o'zlashtirib, unli harflarni qo'shdi"
+      ]
+    },
     "summary": "Old Osiyoda Ossuriya jangari davlat bo'lib, mil. avv. 605-yilda Midiya va Bobil tomonidan yengilgan; Urartu Ossuriyaga qarshi yuksalib, Midiya tomonidan bosib olingan. Finikiyaliklar dengiz savdosi bilan shug'ullanib, 22 harfli alifbo yaratgan; yahudiy afsonalari Bibliyaga jamlangan."
   },
   "presentation": { "slides": [

@@ -24,6 +24,18 @@
       { "fact": "Davanda beda va uzum yetishtirilgan; Xitoyda anor va o'rikning paydo bo'lishi Davan bilan bog'lanadi", "page": 142 },
       { "fact": "Milodiy III asrda Davan davlati barham topgan", "page": 142 }
     ],
+    "why": {
+      "causes": [
+        "Farg'onaning zotdor 'samoviy otlari' Xitoy hukmdorlarini o'ziga jalb qilgan",
+        "Davan hukmdori Xitoy elchisining talabiga rad javobini berdi"
+      ],
+      "effects": [
+        "Mil. avv. II asr oxirida Qang' qudratli davlat birlashmasiga aylandi, hukmdorlari o'z tangalarini zarb qildi",
+        "Tog'lardan keltirilgan metallar tufayli kulolchilik, qurolsozlik, to'qimachilik va zargarlik rivojlandi",
+        "Davan Xitoy va G'arb o'lkalari bilan xalqaro savdoda muhim o'rin tutdi",
+        "Rad javobi Davan bilan Xitoy o'rtasidagi urushga sabab bo'ldi"
+      ]
+    },
     "summary": "Qang' davlatiga mil. avv. III asrda saklar asos solgan (poytaxti Qang'diz), u Sirdaryo o'rta oqimida joylashib, milodiy III asrda parchalangan. Farg'onadagi Davan davlatida (poytaxti Ershi, 70 dan ortiq shahar) \"samoviy otlar\" uchun Xitoy bilan to'rt yillik urush bo'lib, sulh bilan tugadi; Davan milodiy III asrda barham topdi."
   },
   "presentation": { "slides": [

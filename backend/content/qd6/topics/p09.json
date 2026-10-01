@@ -22,6 +22,16 @@
       { "fact": "Yangi podsholikda fir'avnlar tog'lardagi tosh maqbaralarga dafn etilgan; eng mashhuri Tutanxamon maqbarasi", "page": 38 },
       { "fact": "Mumiyolash qariyb 70 kun davom etgan va kohin-tabiblar tomonidan bajarilgan", "page": 39 }
     ],
+    "why": {
+      "causes": [
+        "Misrliklar inson vafotidan keyin marhumlar saltanatida umrini davom ettiradi, bu hayot esa Osiris sudi natijasiga bog'liq deb hisoblagan"
+      ],
+      "effects": [
+        "Fir'avnlar uchun ulkan piramidalar (maqbaralar) qurildi; ularning ichi fir'avnni himoya qiluvchi bitiklar bilan qoplangan",
+        "Osiris qarshisida go'zal qiyofada turish uchun jasad mumiyolandi (qariyb 70 kun davom etgan)",
+        "Yangi podsholikda fir'avnlar piramidalar o'rniga tog'lardagi o'yilgan tosh maqbaralarga (shohlar vodiysi) dafn etila boshladi"
+      ]
+    },
     "summary": "Piramidalar fir'avnlarning maqbarasi bo'lib, Xufu piramidasi eng katta (147 m). Yangi podsholikda fir'avnlar tog'dagi tosh maqbaralarga dafn etilgan. Misrliklar Osiris sudiga ishonib, jasadni go'zal holda saqlash uchun 70 kun davomida mumiyolagan."
   },
   "presentation": { "slides": [

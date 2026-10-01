@@ -15,6 +15,16 @@
       { "fact": "Yunonlar o'zlarini ellinlar, vatanini Ellada, yunon bo'lmagan xalqlarni \"varvarlar\" deb atagan", "page": 94 },
       { "fact": "Mil. avv. VIII-VI asrlarda Buyuk Yunon koloniyalashtirishi bo'lgan (Olviya, Xersones, Pantikapey)", "page": 94 }
     ],
+    "why": {
+      "causes": [
+        "Zodagonlardan qarzdor bo'lib qolgan, yeri-mulki yo'q ko'plab yunonlar vatanini tark etishga majbur bo'lgan"
+      ],
+      "effects": [
+        "Ko'chib kelganlar Sitsiliya, Apennin yarimoroli janubi, O'rta Yer va Qora dengiz bo'ylarida manzilgohlar barpo etdi",
+        "Koloniyalar o'z hokimlari, qo'shinlari, qonunlari va tangalari bilan shahar-davlatlarga aylanib, savdo-sotiq va hunarmandchilik rivojlandi",
+        "Koloniyalar Yunoniston polislari bilan doimiy aloqada bo'ldi; mil. avv. VIII-VI asrlar Buyuk Yunon koloniyalashtirishi nomini oldi"
+      ]
+    },
     "summary": "Qarzdor va yersiz yunonlar mil. avv. VIII-VI asrlarda (Buyuk Yunon koloniyalashtirishi) Sitsiliya, Apennin janubi, O'rta Yer va Qora dengiz bo'ylariga ko'chib, Olviya, Xersones, Pantikapey kabi koloniyalar tashkil etgan; ular o'zini ellinlar, boshqa xalqlarni varvarlar deb atagan."
   },
   "presentation": { "slides": [

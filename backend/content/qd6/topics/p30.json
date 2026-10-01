@@ -19,6 +19,18 @@
       { "fact": "Sofokl tragediyalar (\"Shoh Edip\", \"Antigona\"), Aristofan komediyalar muallifi", "page": 107 },
       { "fact": "Fidiy Akropoldagi Parfenon qurilishiga boshchilik qilgan; u marmardan qurilgan", "page": 108 }
     ],
+    "why": {
+      "causes": [
+        "Yunonlar mil. avv. 1200-yil atrofida mo'l-ko'l o'lja ilinjida Troyaga urush boshladi",
+        "Rivoyatga ko'ra, Paris Sohibjamol Yelenani Troyaga o'g'irlab ketdi va Sparta podshosi qasos olishga ahd qildi"
+      ],
+      "effects": [
+        "Yunonlar Odisseyning maslahati bilan yog'och ot yordamida Troyani bosib oldi",
+        "Gomer 'Iliada' va 'Odisseya' dostonlarini yozdi",
+        "Yunonistonda teatr dunyoga keldi: tragediya (Sofokl) va komediya (Aristofan) janrlari shakllandi",
+        "Yunonlar hamma foydalanadigan jamoat binolari, ustunli ibodatxonalar va haykallar barpo etdi; Fidiy Parfenon qurilishiga boshchilik qildi"
+      ]
+    },
     "summary": "Gomer Troya urushi haqida \"Iliada\" va \"Odisseya\" dostonlarini yozgan; Troya yog'och ot yordamida bosib olingan. Yunonistonda teatr (tragediya va komediya), toshdan qurilgan ibodatxonalar, kolonnalar va haykaltaroshlik rivojlangan; Fidiy Parfenon qurilishiga boshchilik qilgan."
   },
   "presentation": { "slides": [

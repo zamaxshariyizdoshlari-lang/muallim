@@ -19,6 +19,17 @@
       { "fact": "Xapi - Nil ma'budi, Osiris - yerosti saltanati ma'budi", "page": 35 },
       { "fact": "Kohinlar ma'budlar va odamlar o'rtasida vositachi bo'lib, Nil toshqini va ekin muddatlarini bilgan", "page": 35 }
     ],
+    "why": {
+      "causes": [
+        "Misrliklar uchun din kundalik turmushning ajralmas bo'lagi edi",
+        "Misrliklar Yer yuzida maxsus marosimlar ado etilmasa, ma'budlar odamlarga madad bermay qo'yadi deb hisoblagan"
+      ],
+      "effects": [
+        "Kohinlar ma'budlar va odamlar o'rtasida vositachi hisoblangan, kundalik turmushda ularsiz biror ish qilish mushkul edi",
+        "Barcha nomlarda ibodatxonalar bo'lgan, fir'avnlar ularga katta boylik va yerlar hadya etgan",
+        "Fir'avnlar Quyosh ma'budining o'g'illari hisoblanib, hamma ishni samoviy otasi amri bilan amalga oshiradi degan qarash paydo bo'lgan"
+      ]
+    },
     "summary": "Misr dini ko'p ma'budli bo'lib, ma'budlar hayvon qiyofasida yashaydi deb ishonilgan. Ptax (Apis), Amon-Ra, Xapi va Osiris asosiy ma'budlar; kohinlar vositachi va Nil toshqinini bilgani uchun katta nufuzga ega bo'lgan."
   },
   "presentation": { "slides": [

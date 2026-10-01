@@ -24,6 +24,18 @@
       { "fact": "Xorazmda zardushtiylik keng yoyilgan; eng qadimgi ossuariylar (suyakdonlar) Xorazmdan topilgan", "page": 136 },
       { "fact": "Anaxita - suv va hosildorlik ma'budasi; milodiy I asrda mahalliy taqvim ishlab chiqilgan", "page": 136 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. IV asrda Xorazm Ahamoniylar davlatidan ajralib chiqib, mustaqil davlatga aylandi",
+        "Xorazm Amudaryodan chiqarilgan keng sug'orish kanallari va muhim karvon yo'llari bo'yida joylashgan edi"
+      ],
+      "effects": [
+        "Xorazmda shaharsozlik va me'morchilik rivojlandi: mustahkam devorli shaharlar va savdo yo'llari bo'ylab qal'alar qurildi",
+        "Sun'iy sug'orma dehqonchilik va chorvachilik xo'jalikning asosini tashkil etdi, hunarmandchilik rivoj topdi",
+        "Xorazmliklar Sug'diyona, Marg'iyona, Baqtriya va dasht ko'chmanchilari bilan yaqin savdo munosabatlarini o'rnatdi, tangalar zarb qilindi",
+        "Saroy va ibodatxonalar devoriy tasvir hamda haykaltaroshlik bilan bezatildi, Aramey alifbosiga asoslangan Xorazm yozuvi paydo bo'ldi"
+      ]
+    },
     "summary": "Xorazm mil. avv. IV asrda Ahamoniylardan ajralib mustaqil bo'ldi. Sug'orma dehqonchilik, hunarmandchilik va savdo rivojlandi; Xiva, Jonbosqal'a, Bozorqal'a, Oqchaxon, Tuproqqal'a kabi qal'a-shaharlar qurildi. O'rta Osiyodagi eng qadimgi yozuv (Aramey alifbosiga asoslangan), astronomiya, taqvim va zardushtiylik (Anaxita, ossuariylar) shu yerda rivojlandi."
   },
   "presentation": { "slides": [

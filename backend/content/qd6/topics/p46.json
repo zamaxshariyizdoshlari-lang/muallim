@@ -21,6 +21,19 @@
       { "fact": "Spartak Vezuviy tog'idan uzum novdalari narvonida tushib, rimliklarni tor-mor qilgan", "page": 164 },
       { "fact": "Mil. avv. 71-yil bahorida Mark Krass qo'shini Spartakni yengib, Spartak halok bo'lgan", "page": 164 }
     ],
+    "why": {
+      "causes": [
+        "Zafarli yurishlar natijasida Rimda qullar soni nihoyatda ko'payib ketdi",
+        "Qullarga haq to'lanmagani uchun ularda mehnatdan manfaatdorlik hissi bo'lmagan",
+        "Spartak qullarni Rimga qarshi qo'zg'olon ko'tarishga undadi"
+      ],
+      "effects": [
+        "Qullar mumkin qadar kamroq va yomonroq ishlab, mehnat unumdorligi kamayib ketdi",
+        "Quldorlar yerlarni kichik mulklarga bo'lib, erkin kambag'allarga ijaraga bera boshladi: kolonlar paydo bo'ldi",
+        "Gladiatorlar janglari — qullar va jinoyatchilar ishtirokidagi sevimli tomosha — Kolizey kabi amfiteatrlarda o'tkazildi",
+        "Mil. avv. 71-yilda Mark Krass boshchiligidagi qo'shin Spartak lashkarini tor-mor etdi"
+      ]
+    },
     "summary": "Rimda qullar soni juda ko'p bo'lib, qul mehnati samarasizlashgach, kolonlar va \"kulbali qullar\" paydo bo'ldi. Gladiatorlar janglari sevimli tomosha edi (Kolizey). Mil. avv. 74-yilda Spartak boshchiligida qullar qo'zg'oloni boshlanib, mil. avv. 71-yilda Mark Krass tomonidan bostirildi."
   },
   "presentation": { "slides": [

@@ -22,6 +22,18 @@
       { "fact": "Ahuramazda - oliy xudo, Mitra - Quyosh ma'budi, Ahriman - yovuzlik va o'lim ma'budi, Anaxita - hosildorlik va suv ma'budasi", "page": 83 },
       { "fact": "Zardushtiylar hayotining ma'nosi - ezgu amal, ezgu so'z va ezgu fikr", "page": 83 }
     ],
+    "why": {
+      "causes": [
+        "Zardushtiylik odamlar tabiatni ilohiylashtirgan kezlarda kurtak yoza boshladi",
+        "Zardusht turli qabilalarni istilochilarga qarshi kurashda birlikka da'vat qilgan"
+      ],
+      "effects": [
+        "Mil. avv. 1-mingyillikda O'rta Osiyoda zardushtiylik keng tarqaldi",
+        "Zardushtning vafotidan bir necha asr o'tgach, barcha marosimlar, madhiyalar va duolar muqaddas kitob \"Avesto\"ga jamlandi",
+        "Zardushtiylar o'limni yovuzlik deb bilgani uchun jasadni yerga ko'mmagan, suyaklarni ossuariylarda dafn etgan",
+        "\"Avesto\" mehnatni ulug'lab, bosqinchilik, o'g'rilik, qarzni qaytarmaslikni gunoh deb hisobladi, tabiatni asrashga, bolalar huquqini himoyalashga chaqirdi"
+      ]
+    },
     "summary": "Zardushtiylik (Zaratushtra ta'limoti) O'rta Osiyoda mil. avv. 1-mingyillikda tarqalgan; oliy xudo Ahuramazda, yovuzlik ma'budi Ahriman. \"Avesto\" jamlangan muqaddas kitob bo'lib, ezgu amal, so'z va fikrni, mehnat, adolat va tabiatni asrashni targ'ib qilgan."
   },
   "presentation": { "slides": [

@@ -22,6 +22,18 @@
       { "fact": "Sopollitepa - Surxondaryodagi (Muzrabot tumani) bronza davri manzilgohi; Jarqo'ton - Sherobod yaqinidagi qal'a", "page": 22 },
       { "fact": "Jarqo'tonda jamoa sardorining saroyi va olov hamda suvga sig'inish ibodatxonasi qoldiqlari topilgan", "page": 23 }
     ],
+    "why": {
+      "causes": [
+        "Neolit oxirida odamlar misdan foydalanishni va undan mehnat qurollari yasashni o'rganib oldi",
+        "Bronza misdan ancha qattiq bo'lgani uchun asta-sekin asosiy ashyoga aylandi"
+      ],
+      "effects": [
+        "Bronza qurollar bilan dalalarga yaxshiroq ishlov berildi, ekin maydonlari kengaydi va ortiqcha qishloq xo'jalik mahsuloti vujudga keldi",
+        "Kulolchilik charxi va g'ildirak kashf etildi, dastlabki aravalar paydo bo'ldi",
+        "Oilani mahsulot bilan ta'minlash erkaklar qo'liga o'tdi va patriarxat davri boshlandi",
+        "Dehqonchilik va hunarmandchilik rivojlanishi asosida ilk shaharlar va davlatlar vujudga keldi"
+      ]
+    },
     "summary": "Neolit oxirida mis kashf etilib, eneolit (mis-tosh asri) boshlandi; misni qalay va boshqalar bilan qotirib bronza olindi. Metall qurollar dehqonchilikni rivojlantirib, patriarxatni, ilk shahar va davlatlarni vujudga keltirdi; Sopollitepa va Jarqo'ton bronza davri yodgorliklaridir."
   },
   "presentation": { "slides": [

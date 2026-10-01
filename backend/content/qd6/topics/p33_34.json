@@ -30,6 +30,20 @@
       { "fact": "Mil. avv. V-IV asrlarda dastlabki tanga pullar tarqalgan", "page": 120 },
       { "fact": "Amudaryo xazinasi 1877-yilda Qubodiyon vodiysidan topilgan, Britaniya muzeyida saqlanadi", "page": 121 }
     ],
+    "why": {
+      "causes": [
+        "Ahamoniylar O'rta Osiyo hududini bosib olishga harakat qildi (Kir II Parfiya, Marg'iyona, Baqtriyani oldi)",
+        "Doro I hukmronligining birinchi yili Marg'iyonada forslarga qarshi Frada boshchiligida xalq qo'zg'oloni ko'tarildi",
+        "Bosib olingan mamlakatlarni itoatda tutib turish zarur edi"
+      ],
+      "effects": [
+        "Mil. avv. 530-yilda massagetlar bilan jangda Kir II halok bo'ldi",
+        "Frada qo'zg'oloni mil. avv. 522-yilda bostirildi, Fradaning o'zi asirga olinib qatl etildi",
+        "Cho'pon Shiroq forslarni suvsiz cho'lga boshlab borib, saklarni halokatdan qutqardi; Doro I ning saklarga yurishi muvaffaqiyatsiz tugadi",
+        "Ahamoniylar davlatni satrapiyalarga bo'ldi: O'rta Osiyo uch satrapiyaga bo'linib, fors shohiga yillik o'lpon-soliq to'lagan",
+        "O'rta Osiyoning karvon yo'llari bo'ylab savdo-sotiq va hunarmandchilik rivojlandi, dastlabki tanga pullar tarqaldi"
+      ]
+    },
     "summary": "Kir II Parfiya, Marg'iyona va Baqtriyani egallab, mil. avv. 530-yilda massagetlar bilan jangda halok bo'ldi. Doro I Marg'iyona qo'zg'olonini (Frada, mil. avv. 522) bostirdi, ammo saklarga yurishi muvaffaqiyatsiz tugadi (Shiroq jasorati). Ahamoniylar viloyatni uch satrapiyaga bo'lib o'lpon olgan; O'rta Osiyoda hunarmandchilik, savdo, zargarlik rivojlangan, Amudaryo xazinasi shundan dalolat beradi."
   },
   "presentation": { "slides": [

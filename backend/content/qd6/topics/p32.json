@@ -18,6 +18,15 @@
       { "fact": "Ma'budlar Shimoliy Yunonistondagi Olimp tog'ida yashagan deb tasavvur qilingan", "page": 112 },
       { "fact": "Yunonlar xudolardan qo'rqib, ularga ibodatxonalar qurgan va qurbonliklar qilgan", "page": 112 }
     ],
+    "why": {
+      "causes": [
+        "Yunonlar hayoti va tevarak-olam ko'zga ko'rinmas sirli kuchlarga tobe deb ishongan"
+      ],
+      "effects": [
+        "Bu kuchlar xudolar deb atalib, ularning sharafiga ko'plab ibodatxonalar barpo etilgan va qurbonliklar qilingan",
+        "Afsonalar qadimgi davr, yunonlarning tabiat hodisalari va xudolar haqidagi tasavvurlarini o'rganishga imkon beradi"
+      ]
+    },
     "summary": "Afsonalar (mif) qadimgi yunonlar tasavvurlarini aks ettiradi: Okean, Atlant, Gerakl va boshqalar. Zevs (osmon), Poseydon (dengiz), Aid (marhumlar saltanati) olamga hukmronlik qilgan, ma'budlar Olimp tog'ida yashagan, yunonlar ulardan qo'rqib ibodatxonalar qurgan."
   },
   "presentation": { "slides": [

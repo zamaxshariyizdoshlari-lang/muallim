@@ -22,6 +22,17 @@
       { "fact": "O'rta Osiyoda neolit mil. avv. 6-4-mingyilliklarni o'z ichiga oladi; uning boshlanishi sopol idish yasash kashfi bilan belgilanadi", "page": 20 },
       { "fact": "Neolitda kulolchilik va to'quvchilik paydo bo'ldi, odam o'troq turmushga o'tdi", "page": 20 }
     ],
+    "why": {
+      "causes": [
+        "Mezolit davri boshlanishi bilan muzlik davri poyoniga yetdi va iqlim ancha ilidi"
+      ],
+      "effects": [
+        "Inson o'q-yoy yasashni, hayvonlarni qo'lga o'rgatishni, ibtidoiy ziroatchilik va chorvachilikni o'rgandi",
+        "Neolitda odam termachilik va ovchilikdan dehqonchilik va chorvachilikka (ishlab chiqaruvchi xo'jalikka) o'ta boshladi",
+        "Kulolchilik va to'quvchilik kashf etildi, doimiy turarjoylar qurilib, odamlar o'troq turmush tarziga o'tdi",
+        "Itlar hayvonlarni ovlashni osonlashtirdi va odamlarning doimiy hamrohiga aylandi"
+      ]
+    },
     "summary": "So'nggi paleolitda urug' jamoalari va turarjoy paydo bo'lgan, mezolitda o'q-yoy yasalib, it qo'lga o'rgatilgan, neolitda esa dehqonchilik, chorvachilik, kulolchilik va to'quvchilik hamda o'troq turmush shakllangan."
   },
   "presentation": { "slides": [

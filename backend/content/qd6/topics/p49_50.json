@@ -25,6 +25,18 @@
       { "fact": "Iso rivoyatlari Yevangeliya (Injil) - \"xush xabar\" deb atalgan; shogirdlar apostollar", "page": 177 },
       { "fact": "Milodiy 313-yilda Konstantin xristianlikni boshqa dinlar bilan teng deb e'lon qilgan", "page": 177 }
     ],
+    "why": {
+      "causes": [
+        "Beton ixtiro etilishidan oldin ko'priklarni butunlay toshdan qurish qimmatga tushar va uzoq davom etardi",
+        "Rim eng yirik va aholisi ko'p shaharga aylangan edi"
+      ],
+      "effects": [
+        "Beton toshdan ham mustahkam bo'lib, tez va pishiq inshootlar qurishga imkon berdi; shiftlar ustunsiz gumbaz shaklida qurila boshladi",
+        "Rimliklar suv quvurlari va akveduklar qurdi, o'rmon, tog' va botqoqlar orqali yo'llar o'tkazdi ('Barcha yo'llar Rimga boradi')",
+        "Imperatorlar poytaxt aholisi uchun termalar (hammomlar) qurdirdi; ularda sport zallari va kutubxona bo'lgan",
+        "Kambag'allar farzandlari ota-onasiga yordam bergani uchun maktabda o'qimagan, badavlat oilalar bolalari 6 yoshdan maktabga qatnagan"
+      ]
+    },
     "summary": "Rimda boylar tepaliklarda, oddiy aholi tor ko'chalarda yashagan; termalar, akveduklar, beton, Panteon va Kolizey rivojlangan me'morchilikni ko'rsatadi. Ta'lim asosan boylar uchun bo'lgan; Tit Liviy, Plutarx, Kursiy Ruf tarixiy asarlar yozgan. Xristianlik milodiy I asrda vujudga kelib, 313-yilda Konstantin farmoni bilan erkin ibodat huquqini oldi."
   },
   "presentation": { "slides": [

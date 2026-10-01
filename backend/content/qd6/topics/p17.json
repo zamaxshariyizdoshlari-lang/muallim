@@ -19,6 +19,19 @@
       { "fact": "Xitoyliklar sholi, choy va tut daraxti yetishtirgan; pilladan shoyi tayyorlangan", "page": 67 },
       { "fact": "Mil. avv. VII-V asrlar \"ko'p podsholiklar\" davri; mil. avv. III asrda Sin davlati hukmdori Xitoyni birlashtirgan", "page": 68 }
     ],
+    "why": {
+      "causes": [
+        "Betoxtov bosqinchilik urushlari Shan davlatini zaiflashtirdi",
+        "Mil. avv. VIII-VII asrlarda Chjou davlatida markaziy hokimiyat zaiflasha boshladi",
+        "Xitoyga ko'chmanchi qabilalar hujum qila boshladi"
+      ],
+      "effects": [
+        "Chjou qabilasi Shan davlatining zaiflashuvidan foydalanib, uning yerlarini o'ziga qo'shib oldi va Chjou davlatini barpo etdi",
+        "Chekka viloyatlar ajralib chiqib o'z davlatini tashkil eta boshladi: 'ko'p podsholiklar' davri boshlandi",
+        "Mayda podsholiklar o'rtasidagi urushlar 200 yildan uzoqroq davom etdi ('kurashayotgan podsholiklar' davri)",
+        "Mil. avv. III asrda Sin hukmdori barcha raqiblarini yo'q qilib, yagona davlat tuzdi"
+      ]
+    },
     "summary": "Xitoyda ilk davlat Shan (mil. avv. 3-ming yillik oxiri) Xuanxe bo'ylarida vujudga kelib, Chjou davlati bilan almashgan. Dehqonchilik, choy va ipakchilik rivojlangan. Mil. avv. VII-V asrlarda \"ko'p podsholiklar\" davri bo'lgan; mil. avv. III asrda Sin hukmdori yagona davlat tuzgan."
   },
   "presentation": { "slides": [

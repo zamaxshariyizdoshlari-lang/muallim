@@ -32,6 +32,19 @@
       { "fact": "Zarafshon bo'yidagi pistirmada ikki ming nafar jangchi halok bo'lgan", "page": 125 },
       { "fact": "Bosqin oqibatida yerlar xarobazorga aylangan, shaharlar vayron bo'lgan; keyinchalik Salavkiylar, Yunon-Baqtriya va Parfiya davlatlari taraqqiy etgan", "page": 127 }
     ],
+    "why": {
+      "causes": [
+        "Mil. avv. 330-yilda Aleksandr Doro III qo'shinlarini tor-mor etdi va Hindistonga yurishdan oldin orqa tomonini xavfsizlantirmoqchi bo'ldi",
+        "Sug'diyona xalqi bosqinchilarga qarshi kurashga chiqdi, unga baqtriyaliklar va saklar qo'shildi"
+      ],
+      "effects": [
+        "Mil. avv. 329-yilda Maroqanda bosib olindi; Spitaman qo'zg'olonga boshchilik qilib, Zarafshon bo'yida makedonlarga pistirma qo'ydi",
+        "Spitaman mil. avv. 328-yilda yengilib, ko'chmanchilar tomonidan xoinlarcha o'ldirildi",
+        "Sug'diyonada yunon-makedonlar birinchi marta mag'lubiyatga uchradi; Aleksandr sug'd zodagonlari bilan qarindoshchilik aloqasi o'rnatdi (Roksanaga uylandi)",
+        "Aleksandr uch yilda faqat uncha katta bo'lmagan hududni bo'ysundirdi: Xorazm, Toshkent vohasi va Farg'ona mustaqilligicha qoldi",
+        "Bosqin O'rta Osiyoni xarobazorga aylantirdi, aholining katta qismi qirildi; keyin mahalliy va yunon madaniyati qo'shilib, antik davlatlar taraqqiy etdi"
+      ]
+    },
     "summary": "Aleksandr mil. avv. 334-yilda Sharqqa yurib, 330-yilda Doro III ni yengdi, 329-yilda Maroqandani oldi. Spitaman boshchiligidagi sug'd, baqtriya va sak qo'zg'oloni mil. avv. 328-yilda bostirildi, lekin makedonlar mag'lubiyat ham ko'rdi. Aleksandr uch yilda O'rta Osiyoning faqat bir qismini bo'ysundirdi; bosqin vayronagarchilik keltirdi, keyinchalik yunon va mahalliy madaniyat qo'shildi."
   },
   "presentation": { "slides": [

@@ -17,6 +17,19 @@
       { "fact": "Axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazgan", "page": 86 },
       { "fact": "Doriylar bostirib kirib, Miken davlatini tugatgan va Sparta vujudga kelgan", "page": 86 }
     ],
+    "why": {
+      "causes": [
+        "Yunoniston hududining katta qismini tog'lar egallagan, serunum dalalar tog' daryolari bo'ylarida joylashgan",
+        "Egey dengizidagi ko'p orollar, qulay qirg'oqlar va qo'ltiqlar mavjud edi",
+        "Qit'adan jangovar axeylar, so'ng doriylar bostirib kirdi"
+      ],
+      "effects": [
+        "Yunonlar dehqonchilik va chorvachilik bilan shug'ullandi",
+        "Yunonlar orasida dengizchilik rivoj topdi; kompas bo'lmagani uchun ular ko'pincha sohil yaqinida va oroldan orolga suzdi",
+        "Axeylar Minoy sivilizatsiyasi barbod bo'lishini nihoyasiga yetkazdi",
+        "Doriylarning Janubiy Yunonistonga bostirib kirishi Miken davlatining tugatilishi va Sparta davlatining vujudga kelishiga olib keldi"
+      ]
+    },
     "summary": "Yunoniston tog'li, uni O'rta Yer va Egey dengizlari o'rab turadi; yunonlar dehqonchilik, chorvachilik va dengizchilik bilan shug'ullangan. Mil. avv. 2-mingyillikda Kritda Minoy sivilizatsiyasi paydo bo'lib, axeylar tomonidan tugatilgan; doriylar Mikenni tugatib, Spartaning vujudga kelishiga sabab bo'lgan."
   },
   "presentation": { "slides": [

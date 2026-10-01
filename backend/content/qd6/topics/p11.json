@@ -24,6 +24,20 @@
       { "fact": "Shumer ibodatxonalari - zikkuratlar xom g'ishtdan qurilgan zinapoyali inshoot", "page": 45 },
       { "fact": "Akkad podshosi Sargon I mil. avv. 3-mingyillikning ikkinchi yarmida Akkad va Shumerni birlashtirib, birinchi muntazam qo'shin (5400 jangchi) tuzgan", "page": 47 }
     ],
+    "why": {
+      "causes": [
+        "Dajla va Frot daryolarining har yilgi toshqinlari dalalarga unumdor loyqa olib kelgan",
+        "Mesopotamiyada yog'och va metall bo'lmagan, ammo don mo'l-ko'l yetishtirilgan",
+        "Shahar-davlatlar bir-biri bilan tinimsiz urushlar olib borgan"
+      ],
+      "effects": [
+        "Dehqonchilik aholining asosiy mashg'uloti bo'ldi",
+        "Aholi donni oltin, mis, kumush, qalay va noyob toshlarga ayirboshlab, savdo-sotiq bilan shug'ullandi",
+        "Urush paytida saylangan sardorlarning nufuzi ortib, ular muntazam hukmronlik qiluvchi podsholarga aylandi",
+        "Urushlar natijasida Sargon I Akkad va Shumer shaharlarini birlashtirdi, birinchi muntazam qo'shinni tuzdi va yagona o'lchovlarni joriy etdi",
+        "Sargon I vafotidan keyin qo'zg'olonlar va ko'chmanchi qabilalar zarbasidan Shumer-Akkad davlati parchalanib ketdi"
+      ]
+    },
     "summary": "Dajla va Frot oralig'ida shumerlar (janubda) va akkadlar (shimolda) yashagan. Dehqonchilik, savdo va mixxat yozuvi rivojlanib, Uruk, Ur, Lagash kabi shahar-davlatlar paydo bo'lgan. Mil. avv. 3-mingyillik ikkinchi yarmida Sargon I ularni birlashtirib, Shumer-Akkad davlatini tuzgan."
   },
   "presentation": { "slides": [

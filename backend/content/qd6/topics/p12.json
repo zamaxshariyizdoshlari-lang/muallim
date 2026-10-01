@@ -20,6 +20,18 @@
       { "fact": "Mil. avv. 539-yilda forslar Bobilni zabt etgan va Yangi Bobil Fors davlati tarkibiga kirgan", "page": 51 },
       { "fact": "Shumerliklar quyosh yilini 365 kun, oy yilini 354 kun deb belgilagan", "page": 51 }
     ],
+    "why": {
+      "causes": [
+        "Bobil Frot va Dajla daryolari o'zanlari yaqinlashadigan hududda joylashgan, kemalarda kelgan savdogarlar shaharga to'xtab o'tardi",
+        "Mil. avv. XVIII asrda Xammurapi butun Mesopotamiyani yagona davlatga birlashtirdi",
+        "Xammurapi qonunlari qat'iy bo'lib, ma'budlar irodasi sifatida so'zsiz bajarilishi talab qilingan"
+      ],
+      "effects": [
+        "Bobilda dehqonchilik, hunarmandchilik va savdo-sotiq rivojlandi, Bobil eng qudratli davlatga aylandi",
+        "Qonunlar hamma uchun birdek bo'lib, talon-tarojlik va o'g'rilik kabi jinoyatlar deyarli sodir etilmadi",
+        "Mil. avv. 539-yilda forslar Bobilni zabt etdi va Yangi Bobil podsholigi Fors davlati tarkibiga kirdi"
+      ]
+    },
     "summary": "Bobil (\"xudolar darvozasi\") Xammurapi davrida (mil. avv. XVIII asr) butun Mesopotamiyani birlashtirib, qat'iy qonunlar chiqardi. Navuxodonosor II davrida Yangi Bobil gullab-yashnadi, ammo mil. avv. 539-yilda forslar uni zabt etdi. Mixxat, loy taxtachalar, taqvim va astronomiya Bobil madaniyatining yutuqlaridir."
   },
   "presentation": { "slides": [

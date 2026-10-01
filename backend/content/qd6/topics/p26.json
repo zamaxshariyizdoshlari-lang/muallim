@@ -21,6 +21,19 @@
       { "fact": "Mil. avv. 594-yilda Solon aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan", "page": 97 },
       { "fact": "Mil. avv. 443-429-yillarda Perikl 15 marta strateg saylanib, Afina eng qudratli bo'lgan; \"Perikl asri\"; Parfenon", "page": 98 }
     ],
+    "why": {
+      "causes": [
+        "Afinada aslzodalar va oddiy xalq o'rtasida kelishmovchilik va nizolar vujudga keldi",
+        "Aslzodalar hukmronligidan norozi xalqning ahvoli tobora yomonlashdi va u qo'zg'olon ko'tardi",
+        "Drakont qonunlari juda qattiq bo'lib, bitta jazo — o'lim jazosini belgilagan"
+      ],
+      "effects": [
+        "Afinaliklar Drakont qonunlaridan norozi bo'lib, qonunchini shahardan haydab yubordi",
+        "Zodagonlar yon berishga majbur bo'ldi: Solon mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirdi, qarzdorlarni qul qilish bekor bo'ldi",
+        "Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi, barcha qarorlar ovoz berish yo'li bilan qabul qilindi",
+        "Perikl davrida Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, Parfenon va boshqa inshootlar qurildi"
+      ]
+    },
     "summary": "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan (demokratiya). Drakont (621) qattiq qonunlar bilan, Solon (594) esa islohotlar bilan aristokratiyani demokratiyaga almashtirdi. Perikl (443-429) davrida demokratiya va Afina eng yuksak darajaga chiqdi, Parfenon qurildi."
   },
   "presentation": { "slides": [

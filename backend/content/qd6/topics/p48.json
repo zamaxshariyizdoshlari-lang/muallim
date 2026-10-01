@@ -22,6 +22,19 @@
       { "fact": "452-yilda Attila boshchiligidagi hunlar paydo bo'lgan; 455-yilda vandallar Rimni ikki hafta talagan", "page": 172 },
       { "fact": "Milodiy 476-yilda Odoakr oxirgi imperator Romulni ag'darib, G'arbiy Rim qulagan - qadimgi dunyo tarixi yakunlangan", "page": 172 }
     ],
+    "why": {
+      "causes": [
+        "Milodiy III asrda imperiyaning kuch-qudrati zaiflasha boshladi: imperatorni armiya saylar, armiyada guruhlar kurashar edi",
+        "Imperiya chegaralarida ko'chmanchi 'varvar' qabilalar paydo bo'ldi",
+        "Ulkan imperiyani Konstantinopoldan turib boshqarish mushkul edi"
+      ],
+      "effects": [
+        "Rimliklar chegarada katta armiya saqlab turishga majbur bo'ldi",
+        "Milodiy 395-yilda imperiya G'arbiy va Sharqiy qismlarga bo'lindi; G'arbiy imperiya alohida davlatlarga parchalana boshladi",
+        "Gotlar (410), vandallar (455) Rimni talab, uning madaniy boyliklarini yo'q qildi; Attila boshchiligidagi hunlar ham hujum qildi",
+        "Milodiy 476-yilda Odoakr so'nggi imperator Romulni taxtdan ag'dardi: G'arbiy Rim qulab, qadimgi dunyo tarixi yakunlandi va o'rta asrlar boshlandi"
+      ]
+    },
     "summary": "Milodiy III asrdan Rim imperiyasi zaiflashdi; Konstantin poytaxtni Konstantinopolga ko'chirdi (330), imperiya 395-yilda G'arbiy va Sharqiy qismlarga bo'lindi. Gotlar (410), hunlar (452), vandallar (455) hujumlaridan so'ng 476-yilda Odoakr oxirgi imperatorni ag'dardi - G'arbiy Rim qulab, qadimgi dunyo tarixi yakunlandi."
   },
   "presentation": { "slides": [
