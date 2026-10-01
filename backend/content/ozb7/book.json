@@ -1,0 +1,5755 @@
+{
+ "format_version": 1,
+ "book": {
+  "key": "ozbekiston-tarixi-7",
+  "title": "O'zbekiston tarixi (7-sinf, 2022)",
+  "language": "uz",
+  "subject": "tarix",
+  "subject_title": "Tarix",
+  "description": "Zamonov va boshq. 7-sinf darsligi (2022): IV asrdan XIII asr boshigacha, 5 bo'lim, 30 mavzu."
+ },
+ "sections": [
+  {
+   "key": "s1",
+   "title": "I BO'LIM. IV-VII asrlarda Turon",
+   "topics": [
+    {
+     "key": "m01",
+     "title": "1-mavzu. Ajdodlarimizning ma'naviy qadriyatlari - jahon sivilizatsiyasi asoslaridan biri",
+     "start_page": 3,
+     "end_page": 7,
+     "explanation": {
+      "goals": [
+       "Darslik qaysi davr tarixini yoritishini va 'o'rta asrlar' tushunchasining ma'nosini bilish",
+       "O'rta asrlarning bosqichlarini va Turon hududidagi yirik davlatlarni sanab berish"
+      ],
+      "blocks": [
+       {
+        "heading": "Darslik nimani o'rgatadi",
+        "pages": [
+         3
+        ],
+        "text": "Qadimgi Turon hududlarida azaldan o'zbek, tojik, qirg'iz, qozoq, qoraqalpoq va turkmanlarning ajdodlari yashab kelgan. Shu boisdan o'zbek xalqining o'tmishi etnik jihatdan yaqin qardosh xalqlarning tarixi bilan chambarchas bog'langan.\n\nSiz bu darslikda IV asrdan XIII asr boshlarigacha bo'lgan Vatanimizning o'rta asrlar tarixi bilan tanishasiz. Unda o'zbek xalqining shakllanishi, dunyo tamadduniga hissa qo'shgan buyuk ajdodlar va bahodirlar jasorati, xalqimizning boy madaniy merosi haqida ma'lumotlar beriladi."
+       },
+       {
+        "heading": "\"O'rta asrlar\" tushunchasi",
+        "pages": [
+         3,
+         6
+        ],
+        "text": "\"O'rta asrlar\" tushunchasini tarix faniga italyan tarixchilari olib kirgan. U xususiy mulkchilik shakli o'zgargan davrlar bilan bog'liq. Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangani uchun bu tushuncha tariximizda shartli ravishda ishlatiladi.\n\nYevropada o'rta asrlar Rim imperiyasining qulashi (476-yil), ya'ni V asr oxirlaridan boshlangan. Bizda esa bu davr IV asr oxirlari va V asr o'rtalaridan, siyosiy maydonda kidariylar, xioniylar, eftaliylar kabi qabila uyushmalari paydo bo'lgan vaqtdan boshlangan."
+       },
+       {
+        "heading": "O'rta asrlarning bosqichlari",
+        "pages": [
+         6
+        ],
+        "text": "O'rta asrlar ilk (IV-VIII asrlar), rivojlangan (IX-XV asrlar) va so'nggi (XVI-XIX asrlar) o'rta asrlarga bo'linadi.\n\nMazkur davrda Xorazm, xioniylar, kidariylar, eftaliylar, Turk xoqonligi, keyinchalik somoniylar, qoraxoniylar, xorazmshohlar, Amir Temur va temuriylar hukmronlik qilgan yirik davlatlar mavjud bo'lgan. Ilk o'rta asrlarda \"qishloq hokimlari\" deb atalgan katta yer egalari - dehqonlar va ularning yerlarida ishlovchi yersiz kadivarlar shakllandi."
+       },
+       {
+        "heading": "Islom va ilm-fan",
+        "pages": [
+         6,
+         7
+        ],
+        "text": "VIII asr boshlarida mamlakatimiz hududida arab xalifaligi hukmronligi o'rnatildi va o'lkamiz madaniyatiga islom dinining ta'siri kuchaydi. Xalifalik hukmronligidan keyingi asrlarda ilm-ma'rifat rivoji uchun sharoit yuzaga keldi.\n\nYurtimizdan Muhammad ibn Muso Xorazmiy, Ahmad Farg'oniy, Abu Rayhon Beruniy, Abu Ali ibn Sino kabi buyuk mutafakkirlar yetishib chiqdi. IX-XII asrlarda Imom Buxoriy, Imom Termiziy, Mahmud Zamahshariy, Ahmad Yassaviy, Najmiddin Kubro singari mashhur ulamolar yashadi. Qadimdan \"Turon\" deb atalgan yurt arablar davridan \"Movarounnahr\" va \"Xuroson\", XVIII-XIX asr g'arb olimlari tomonidan esa \"O'rta Osiyo\" yoki \"Markaziy Osiyo\" deb nomlangan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Darslik IV asrdan XIII asr boshigacha bo'lgan Vatanimiz tarixini yoritadi",
+        "page": 3
+       },
+       {
+        "fact": "\"O'rta asrlar\" tushunchasini tarix faniga italyan tarixchilari olib kirgan",
+        "page": 3
+       },
+       {
+        "fact": "Yevropada o'rta asrlar Rim imperiyasining qulashi (476-yil) bilan boshlangan",
+        "page": 6
+       },
+       {
+        "fact": "O'rta asrlar ilk (IV-VIII), rivojlangan (IX-XV) va so'nggi (XVI-XIX asrlar) bosqichlarga bo'linadi",
+        "page": 6
+       },
+       {
+        "fact": "VIII asr boshlarida mamlakatimizda arab xalifaligi hukmronligi o'rnatilgan",
+        "page": 6
+       }
+      ],
+      "why": {
+       "causes": [
+        "Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan",
+        "Siyosiy maydonda kidariylar, xioniylar, eftaliylar kabi qabila uyushmalari paydo bo'lgan"
+       ],
+       "effects": [
+        "\"O'rta asrlar\" tushunchasi tariximizda shartli ravishda ishlatiladi",
+        "Bizda o'rta asrlar IV asr oxirlari - V asr o'rtalaridan, Yevropadan farqli davrdan boshlangan",
+        "Xalifalikdan keyingi asrlarda ilm-ma'rifat rivoji uchun sharoit yuzaga keldi va buyuk mutafakkirlar yetishib chiqdi"
+       ]
+      },
+      "summary": "Darslik IV asrdan XIII asr boshigacha bo'lgan o'rta asrlar tarixini yoritadi. \"O'rta asrlar\" tushunchasi italyan tarixchilaridan kelgan va Turonda Yevropadan farqli davrdan, IV asr oxiri - V asr o'rtalaridan boshlanadi. U ilk, rivojlangan va so'nggi bosqichlarga bo'linadi; arab xalifaligidan keyingi asrlarda buyuk allomalar yetishib chiqdi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "1-mavzu. Ajdodlarimizning ma'naviy qadriyatlari",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Darslik davri",
+        "bullets": [
+         "IV asr - XIII asr boshi",
+         "Vatanimizning o'rta asrlar tarixi",
+         "O'zbek xalqining shakllanishi"
+        ],
+        "page": 3
+       },
+       {
+        "title": "\"O'rta asrlar\" tushunchasi",
+        "bullets": [
+         "Italyan tarixchilari kiritgan",
+         "Yevropada: 476-yildan",
+         "Bizda: IV asr oxiri - V asr o'rtalaridan"
+        ],
+        "page": 6
+       },
+       {
+        "title": "Bosqichlar",
+        "bullets": [
+         "Ilk: IV-VIII asrlar",
+         "Rivojlangan: IX-XV asrlar",
+         "So'nggi: XVI-XIX asrlar"
+        ],
+        "page": 6
+       },
+       {
+        "title": "Buyuk allomalar",
+        "bullets": [
+         "Xorazmiy, Farg'oniy",
+         "Beruniy, Ibn Sino",
+         "Imom Buxoriy, Imom Termiziy"
+        ],
+        "page": 7
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Rim imperiyasining qulashi - Yevropada o'rta asrlar boshlanishi (476-yil)",
+         "page": 6
+        },
+        {
+         "label": "Ilk o'rta asrlar davri (IV-VIII asrlar)",
+         "page": 6
+        },
+        {
+         "label": "Mamlakatimizda arab xalifaligi hukmronligi o'rnatilishi (VIII asr boshi)",
+         "page": 6
+        },
+        {
+         "label": "Rivojlangan o'rta asrlar davri (IX-XV asrlar)",
+         "page": 6
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Italyan tarixchilari",
+         "right": "\"O'rta asrlar\" tushunchasini fanga kiritganlar",
+         "page": 3
+        },
+        {
+         "left": "476-yil",
+         "right": "Rim imperiyasining qulashi",
+         "page": 6
+        },
+        {
+         "left": "Dehqonlar",
+         "right": "\"Qishloq hokimlari\" deb atalgan katta yer egalari",
+         "page": 6
+        },
+        {
+         "left": "Kadivarlar",
+         "right": "Dehqonlar yerida ishlovchi yersiz ziroatchilar",
+         "page": 6
+        },
+        {
+         "left": "Movarounnahr",
+         "right": "Arablar davridan Turonga berilgan nom",
+         "page": 6
+        },
+        {
+         "left": "O'rta Osiyo",
+         "right": "XVIII-XIX asr g'arb olimlari bergan nom",
+         "page": 6
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Darslikda IV asrdan XIII asr ____ gacha bo'lgan tarix yoritiladi.",
+         "options": [
+          "boshlari",
+          "o'rtalari",
+          "oxirlari",
+          "yarmi"
+         ],
+         "correct_index": 0,
+         "page": 3
+        },
+        {
+         "question": "O'rta asrlar ilk, ____ va so'nggi bosqichlarga bo'linadi.",
+         "options": [
+          "rivojlangan",
+          "qadimgi",
+          "yangi",
+          "oraliq"
+         ],
+         "correct_index": 0,
+         "page": 6
+        },
+        {
+         "question": "Yer-mulk munosabatlari Sharqda azaldan ____ asoslarda rivojlangan.",
+         "options": [
+          "jamoaviy",
+          "xususiy",
+          "shaxsiy",
+          "davlat"
+         ],
+         "correct_index": 0,
+         "page": 3
+        },
+        {
+         "question": "Yurtimiz arablar davridan Movarounnahr va ____ deb ham atalgan.",
+         "options": [
+          "Xuroson",
+          "Hindiston",
+          "Eron",
+          "Kavkaz"
+         ],
+         "correct_index": 0,
+         "page": 6
+        },
+        {
+         "question": "VIII asr boshlarida mamlakatimizda ____ xalifaligi hukmronligi o'rnatildi.",
+         "options": [
+          "arab",
+          "fors",
+          "rim",
+          "xitoy"
+         ],
+         "correct_index": 0,
+         "page": 6
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "IV-XIII asr boshlarida Vatanimiz tarixining o'ziga xos xususiyatlari nimadan iborat bo'lgan?",
+        "answer": "Bu davrda Xorazm, xioniylar, kidariylar, eftaliylar, Turk xoqonligi, somoniylar, qoraxoniylar, xorazmshohlar kabi yirik davlatlar mavjud bo'lgan, dehqonlar va kadivarlar tabaqasi shakllangan, VIII asr boshida arab xalifaligi hukmronligi o'rnatilib islom ta'siri kuchaygan.",
+        "page": 6
+       },
+       {
+        "question": "IX-XII asrlarda yurtimizda yetishib chiqqan buyuk mutafakkirlar va mashhur ulamolarni sanang.",
+        "answer": "Muhammad ibn Muso Xorazmiy, Ahmad Farg'oniy, Abu Rayhon Beruniy, Abu Ali ibn Sino hamda Imom Buxoriy, Imom Termiziy, Mahmud Zamahshariy, Ahmad Yassaviy, Najmiddin Kubro.",
+        "page": 7
+       },
+       {
+        "question": "Nima uchun \"o'rta asrlar\" tushunchasi tariximizda shartli ravishda ishlatiladi?",
+        "answer": "Chunki Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan, bu tushuncha esa xususiy mulkchilik shakli o'zgarishi bilan bog'liq.",
+        "page": 3
+       }
+      ],
+      "quiz": [
+       {
+        "question": "\"O'rta asrlar\" tushunchasini tarix faniga kimlar olib kirgan?",
+        "options": [
+         "Italyan tarixchilari",
+         "Yunon olimlari",
+         "Arab sayyohlari",
+         "Xitoy elchilari"
+        ],
+        "correct_index": 0,
+        "page": 3
+       },
+       {
+        "question": "Yevropada o'rta asrlar qaysi voqea bilan boshlangan?",
+        "options": [
+         "Rim imperiyasining qulashi bilan",
+         "Amir Temur davlati bilan",
+         "Islom paydo bo'lishi bilan",
+         "Turk xoqonligi bilan"
+        ],
+        "correct_index": 0,
+        "page": 6
+       },
+       {
+        "question": "Rivojlangan o'rta asrlar qaysi asrlarni o'z ichiga oladi?",
+        "options": [
+         "IX-XV asrlar",
+         "IV-VIII asrlar",
+         "XVI-XIX asrlar",
+         "I-III asrlar"
+        ],
+        "correct_index": 0,
+        "page": 6
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Qadimgi Turon hududlarida qaysi xalqlarning ajdodlari azaldan yashab kelgan?",
+       "options": [
+        "O'zbek, tojik, qirg'iz, qozoq, qoraqalpoq va turkmanlarning",
+        "Faqat o'zbeklarning",
+        "Faqat tojik va forslarning",
+        "Arab va hindlarning"
+       ],
+       "correct_index": 0,
+       "page": 3
+      },
+      {
+       "question": "Darslikda qaysi davr tarixi bilan tanishasiz?",
+       "options": [
+        "IV asrdan XIII asr boshigacha",
+        "I asrdan IV asrgacha",
+        "XIV asrdan XIX asrgacha",
+        "Miloddan avvalgi VI-IV asrlar"
+       ],
+       "correct_index": 0,
+       "page": 3
+      },
+      {
+       "question": "\"O'rta asrlar\" tushunchasi nima bilan bevosita bog'liq?",
+       "options": [
+        "Xususiy mulkchilik shakli o'zgarishi davrlari bilan",
+        "Yozuv ixtirosi bilan",
+        "Yangi shaharlar qurilishi bilan",
+        "Dengiz yo'llari ochilishi bilan"
+       ],
+       "correct_index": 0,
+       "page": 3
+      },
+      {
+       "question": "Nima uchun \"o'rta asrlar\" tushunchasi tariximizda shartli ishlatiladi?",
+       "options": [
+        "Sharqda yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan",
+        "Bu davrda hech qanday davlat bo'lmagan",
+        "Yozma manbalar saqlanmagan",
+        "Bu davr juda qisqa bo'lgan"
+       ],
+       "correct_index": 0,
+       "page": 3
+      },
+      {
+       "question": "Yevropada o'rta asrlarning boshlanishi qaysi voqeaga to'g'ri keladi?",
+       "options": [
+        "Rim imperiyasining qulashi (476-yil)",
+        "Aleksandr Makedonskiyning yurishlari",
+        "Buyuk ipak yo'lining ochilishi",
+        "Xorazmshohlar davlatining tashkil topishi"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Bizda o'rta asrlar qaysi davrdan boshlangan?",
+       "options": [
+        "IV asr oxirlari va V asr o'rtalaridan",
+        "Miloddan avvalgi III asrdan",
+        "VIII asr oxiridan",
+        "X asr boshlaridan"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Quyidagilardan qaysi biri siyosiy maydonda paydo bo'lgan qabila uyushmalariga kiradi?",
+       "options": [
+        "Kidariylar",
+        "Somoniylar",
+        "Qoraxoniylar",
+        "Saljuqiylar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "O'rta asrlar necha bosqichga bo'linadi?",
+       "options": [
+        "Uch: ilk, rivojlangan va so'nggi",
+        "Ikki: qadimgi va yangi",
+        "To'rt bosqichga",
+        "Bo'linmaydi"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Ilk o'rta asrlar qaysi asrlarni o'z ichiga oladi?",
+       "options": [
+        "IV-VIII asrlar",
+        "IX-XV asrlar",
+        "XVI-XIX asrlar",
+        "I-III asrlar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "So'nggi o'rta asrlar qaysi asrlarga to'g'ri keladi?",
+       "options": [
+        "XVI-XIX asrlar",
+        "IV-VIII asrlar",
+        "IX-XV asrlar",
+        "XIII-XIV asrlar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Quyidagilardan qaysi biri o'rta asrlarda hukmronlik qilgan yirik davlatlar qatoriga kirmaydi?",
+       "options": [
+        "Qadimgi Rim respublikasi",
+        "Turk xoqonligi",
+        "Somoniylar",
+        "Xorazmshohlar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "\"Qishloq hokimlari\" deb kimlar atalgan?",
+       "options": [
+        "Katta yer egalari - dehqonlar",
+        "Yersiz kadivarlar",
+        "Savdogarlar",
+        "Kohinlar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Kadivarlar kimlar bo'lgan?",
+       "options": [
+        "Dehqonlar yerida ishlovchi yersiz ziroatchilar",
+        "Harbiy boshliqlar",
+        "Katta yer egalari",
+        "Sayyoh savdogarlar"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Mamlakatimiz hududida arab xalifaligi hukmronligi qachon o'rnatildi?",
+       "options": [
+        "VIII asr boshlarida",
+        "IV asr oxirida",
+        "X asr o'rtalarida",
+        "XII asr boshida"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Xalifalik hukmronligidan keyingi asrlarda nima uchun sharoit yuzaga keldi?",
+       "options": [
+        "Ilm-ma'rifat rivoji uchun",
+        "Qabilalar bosqini uchun",
+        "Yozuvning yo'qolishi uchun",
+        "Savdoning to'xtashi uchun"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Quyidagilardan qaysi biri yurtimizdan chiqqan buyuk mutafakkir emas?",
+       "options": [
+        "Aristotel",
+        "Muhammad ibn Muso Xorazmiy",
+        "Abu Rayhon Beruniy",
+        "Abu Ali ibn Sino"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Turon hududi arablar davridan qanday nomlar bilan atala boshlagan?",
+       "options": [
+        "Movarounnahr va Xuroson",
+        "Sug'diyona va Baqtriya",
+        "Ellada va Rim",
+        "Hindiston va Xitoy"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "XVIII-XIX asr g'arb olimlari va sayyohlari yurtimizni qanday atagan?",
+       "options": [
+        "O'rta Osiyo yoki Markaziy Osiyo",
+        "Movarounnahr",
+        "Xuroson",
+        "Turon"
+       ],
+       "correct_index": 0,
+       "page": 6
+      },
+      {
+       "question": "Quyidagi ulamolardan qaysi biri IX-XII asrlarda yurtimizda yashagan?",
+       "options": [
+        "Imom Buxoriy",
+        "Platon",
+        "Gerodot",
+        "Konfutsiy"
+       ],
+       "correct_index": 0,
+       "page": 7
+      },
+      {
+       "question": "Ajdodlarimiz doimo nimaga intilib yashagan?",
+       "options": [
+        "Bunyodkorlik, ilm va ma'rifatga",
+        "Faqat urushlarga",
+        "Yakka hokimlikka",
+        "Boshqa yurtlarga ko'chishga"
+       ],
+       "correct_index": 0,
+       "page": 7
+      },
+      {
+       "question": "Darslik fikricha, bugungi shiddatli dunyoda yagona najotimiz nima?",
+       "options": [
+        "Ilm",
+        "Boylik",
+        "Qurol-yarog'",
+        "Savdo yo'llari"
+       ],
+       "correct_index": 0,
+       "page": 7
+      }
+     ]
+    },
+    {
+     "key": "m02",
+     "title": "2-mavzu. IV-VII asrlarda mamlakatimiz xalqlarining turmush tarzi",
+     "start_page": 8,
+     "end_page": 9,
+     "explanation": {
+      "goals": [
+       "IV-VII asrlarda dehqon xo'jaliklari va yangi ijtimoiy tabaqalar paydo bo'lishi sabablarini tushuntirish",
+       "Dehqon, kashovarz, kadivar va chokar atamalarini farqlash"
+      ],
+      "blocks": [
+       {
+        "heading": "Suv inshootlari va shaharlar",
+        "pages": [
+         8
+        ],
+        "text": "Turon, Turkiston, Movarounnahr nomlari bilan shuhrat topgan hudud tarixi va o'z mehnati bilan uni obod etgan xalqlarning o'tmishi g'oyat qiziqarli va ibratlidir. Suv tegirmoni, chig'ir va charxpalak kabi suv inshootlarining kashf etilishi qishloq xo'jalik ishlarining rivojiga ta'sir ko'rsatdi. Shaharlar hunarmandchilik, savdo-sotiq va madaniy hayotning markaziga aylandi."
+       },
+       {
+        "heading": "Dehqonlarning paydo bo'lishi",
+        "pages": [
+         9
+        ],
+        "text": "VI asrda unumdor yerlar hamda suv taqsimoti qabila boshliqlari va ishboshilarning nazoratiga o'tdi. Bu ularga qishloq aholisiga o'z ta'sirini o'tkazish, ziroatchi aholiga hukmronlik qilish imkonini berdi. Ular \"qishloq hokimi\" - dehqonlar deb atalgan.\n\nTuron hududida ham katta yer egaligi vujudga keldi. Dehqonlarning shaharda hunarmandchilik rastalari va uylari bo'lgan, xo'jaligida ko'plab odamlar mehnat qilgan."
+       },
+       {
+        "heading": "Yangi tabaqalar",
+        "pages": [
+         9
+        ],
+        "text": "Qishloq jamoalari yerlarida yashab, yer va suvdan iborat umumiy mulkka ega bo'lgan erkin ziroatchilar tabaqasi kashovarzlar deb atalgan. O'z yeri va erkidan ayrilib, dehqonlar yerida ishlovchilar kadivarlar bo'lgan.\n\nDehqonlarning xo'jaligini tashqi hujumlardan himoya qilish, ichkarida esa tartib-intizomni saqlashga yordam beradigan maxsus askariy guruh - chokarlar bo'lgan. So'nggi antik davrdan (milodiy II-IV asrlar) boshlangan o'zgarishlar tufayli O'rta Osiyoning dehqonchilik viloyatlarida (Sug'diyona, Marg'iyona, Toxariston, Xorazm, Choch, Farg'ona) o'nlab mahalliy hokimliklar tashkil topdi."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Suv tegirmoni, chig'ir va charxpalak qishloq xo'jaligi rivojiga ta'sir ko'rsatgan",
+        "page": 8
+       },
+       {
+        "fact": "VI asrda unumdor yer va suv taqsimoti qabila boshliqlari va ishboshilar nazoratiga o'tgan",
+        "page": 9
+       },
+       {
+        "fact": "Qishloq hokimlari dehqonlar deb atalgan",
+        "page": 9
+       },
+       {
+        "fact": "Kashovarzlar - umumiy yer va suvga ega erkin ziroatchilar, kadivarlar - yersiz qaram ziroatchilar",
+        "page": 9
+       },
+       {
+        "fact": "Chokarlar dehqon xo'jaligini himoya qiluvchi askariy guruh bo'lgan",
+        "page": 9
+       }
+      ],
+      "why": {
+       "causes": [
+        "Suv tegirmoni, chig'ir va charxpalak kabi suv inshootlari kashf etildi",
+        "VI asrda yer va suv taqsimoti qabila boshliqlari va ishboshilar nazoratiga o'tdi"
+       ],
+       "effects": [
+        "Qishloq xo'jalik ishlari rivojlandi, shaharlar hunarmandchilik va savdo markaziga aylandi",
+        "Dehqonlar ziroatchi aholiga hukmronlik qilish imkoniga ega bo'ldi: kashovarzlar, kadivarlar va chokarlar paydo bo'ldi",
+        "Turon hududida katta yer egaligi vujudga keldi va o'nlab mahalliy hokimliklar tashkil topdi"
+       ]
+      },
+      "summary": "IV-VII asrlarda suv inshootlari rivoji bilan qishloq xo'jaligi va shaharlar yuksaldi. Yer va suv boshliqlar qo'liga o'tib, dehqonlar (qishloq hokimlari) shakllandi; erkin kashovarzlar, qaram kadivarlar va himoyachi chokarlar tabaqalari paydo bo'ldi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "2-mavzu. IV-VII asrlarda turmush tarzi",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Suv inshootlari",
+        "bullets": [
+         "Suv tegirmoni",
+         "Chig'ir",
+         "Charxpalak"
+        ],
+        "page": 8
+       },
+       {
+        "title": "Dehqonlar",
+        "bullets": [
+         "Qishloq hokimlari",
+         "Yer va suv nazorati",
+         "Shaharda rasta va uylar"
+        ],
+        "page": 9
+       },
+       {
+        "title": "Tabaqalar",
+        "bullets": [
+         "Kashovarz - erkin ziroatchi",
+         "Kadivar - qaram ziroatchi",
+         "Chokar - harbiy posbon"
+        ],
+        "page": 9
+       },
+       {
+        "title": "Hokimliklar",
+        "bullets": [
+         "Sug'diyona, Marg'iyona",
+         "Toxariston, Xorazm",
+         "Choch, Farg'ona"
+        ],
+        "page": 9
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "So'nggi antik davr (milodiy II-IV asrlar)",
+         "page": 9
+        },
+        {
+         "label": "Yer va suv taqsimoti qabila boshliqlari nazoratiga o'tishi (VI asr)",
+         "page": 9
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Dehqon",
+         "right": "Ilk o'rta asrlarda mulkdor tabaqa (qishloq hokimi)",
+         "page": 9
+        },
+        {
+         "left": "Kashovarz",
+         "right": "Yer va suvga ega erkin ziroatchi",
+         "page": 9
+        },
+        {
+         "left": "Kadivar",
+         "right": "Dehqonlarga qaram, yersiz aholi",
+         "page": 9
+        },
+        {
+         "left": "Chokar",
+         "right": "Dehqon mulkini qo'riqlovchi harbiy posbon",
+         "page": 9
+        },
+        {
+         "left": "Chig'ir",
+         "right": "Qishloq xo'jaligiga ta'sir qilgan suv inshooti",
+         "page": 8
+        },
+        {
+         "left": "Charxpalak",
+         "right": "Suv ko'tarish inshooti",
+         "page": 8
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Qishloq hokimlari ____ deb atalgan.",
+         "options": [
+          "dehqonlar",
+          "kadivarlar",
+          "chokarlar",
+          "kashovarzlar"
+         ],
+         "correct_index": 0,
+         "page": 9
+        },
+        {
+         "question": "Dehqonlar yerida ishlovchi yersiz aholi ____ deb atalgan.",
+         "options": [
+          "kadivarlar",
+          "kashovarzlar",
+          "mobadlar",
+          "xoqonlar"
+         ],
+         "correct_index": 0,
+         "page": 9
+        },
+        {
+         "question": "Dehqonlarning xo'jaligini ____ himoya qilgan.",
+         "options": [
+          "chokarlar",
+          "kashovarzlar",
+          "kadivarlar",
+          "savdogarlar"
+         ],
+         "correct_index": 0,
+         "page": 9
+        },
+        {
+         "question": "Unumdor yerlar va suv taqsimoti ____ asrda qabila boshliqlari nazoratiga o'tgan.",
+         "options": [
+          "VI",
+          "II",
+          "X",
+          "XII"
+         ],
+         "correct_index": 0,
+         "page": 9
+        },
+        {
+         "question": "Shaharlar hunarmandchilik, savdo-sotiq va ____ hayotning markaziga aylandi.",
+         "options": [
+          "madaniy",
+          "diniy",
+          "harbiy",
+          "qishloq"
+         ],
+         "correct_index": 0,
+         "page": 8
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Qanday omillar sabab dehqon xo'jaliklari paydo bo'ldi?",
+        "answer": "VI asrda unumdor yerlar hamda suv taqsimoti qabila boshliqlari va ishboshilar nazoratiga o'tdi; bu ularga ziroatchi aholiga hukmronlik qilish imkonini berdi.",
+        "page": 9
+       },
+       {
+        "question": "Nega ziroatkor vohalardagi sug'orma yerlarning asosiy qismi qishloq jamoalarining qaramog'ida bo'lgan?",
+        "answer": "Chunki yer va suv qishloq jamoalarining umumiy mulki bo'lgan va suv taqsimoti boshliqlar nazoratida edi (dehqonchilik suvga bog'liq bo'lgan).",
+        "page": 9
+       },
+       {
+        "question": "Chokar va kadivarlar kimlar?",
+        "answer": "Chokar - dehqon mulkini qo'riqlovchi harbiy posbon; kadivar - dehqonlarga qaram, yersiz ziroatchi.",
+        "page": 9
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Kashovarzlar kimlar edi?",
+        "options": [
+         "Umumiy yer va suvga ega erkin ziroatchilar",
+         "Qaram yersiz dehqonlar",
+         "Harbiy posbonlar",
+         "Ruhoniylar"
+        ],
+        "correct_index": 0,
+        "page": 9
+       },
+       {
+        "question": "Qaysi inshootlar qishloq xo'jaligi rivojiga ta'sir ko'rsatgan?",
+        "options": [
+         "Suv tegirmoni, chig'ir, charxpalak",
+         "Amfiteatr, akveduk",
+         "Piramida, ma'bad",
+         "Qal'a devori, burj"
+        ],
+        "correct_index": 0,
+        "page": 8
+       },
+       {
+        "question": "Chokarlarning vazifasi nima edi?",
+        "options": [
+         "Dehqon xo'jaligini tashqi hujumdan himoya qilish va tartib saqlash",
+         "Savdo karvonlarini boshqarish",
+         "Marosimlar o'tkazish",
+         "Yer haydash"
+        ],
+        "correct_index": 0,
+        "page": 9
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Qaysi nomlar bilan shuhrat topgan hudud tarixi darslikda tilga olinadi?",
+       "options": [
+        "Turon, Turkiston, Movarounnahr",
+        "Ellada, Rim, Karfagen",
+        "Misr, Bobil, Ossuriya",
+        "Hindiston, Xitoy, Eron"
+       ],
+       "correct_index": 0,
+       "page": 8
+      },
+      {
+       "question": "Suv inshootlarining kashf etilishi nimaga ta'sir ko'rsatdi?",
+       "options": [
+        "Qishloq xo'jalik ishlarining rivojiga",
+        "Yozuvning yaratilishiga",
+        "Dengiz savdosiga",
+        "Harbiy yurishlar to'xtashiga"
+       ],
+       "correct_index": 0,
+       "page": 8
+      },
+      {
+       "question": "Shaharlar nimaning markaziga aylandi?",
+       "options": [
+        "Hunarmandchilik, savdo-sotiq va madaniy hayotning",
+        "Faqat dehqonchilikning",
+        "Faqat chorvachilikning",
+        "Faqat diniy hayotning"
+       ],
+       "correct_index": 0,
+       "page": 8
+      },
+      {
+       "question": "Qaysi asrda unumdor yerlar va suv taqsimoti qabila boshliqlari nazoratiga o'tdi?",
+       "options": [
+        "VI asrda",
+        "II asrda",
+        "X asrda",
+        "XIII asrda"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Yer va suv boshliqlar nazoratiga o'tishi ularga nimaga imkon berdi?",
+       "options": [
+        "Ziroatchi aholiga hukmronlik qilishga",
+        "Davlatni tark etishga",
+        "Shaharlarni yo'q qilishga",
+        "Savdoni to'xtatishga"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Qishloq hokimlari qanday nom bilan atalgan?",
+       "options": [
+        "Dehqonlar",
+        "Kadivarlar",
+        "Chokarlar",
+        "Mobadlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Erkin ziroatchilar tabaqasi qanday atalgan?",
+       "options": [
+        "Kashovarzlar",
+        "Kadivarlar",
+        "Chokarlar",
+        "Dehqonlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Kashovarzlar nimaga ega bo'lgan?",
+       "options": [
+        "Yer va suvdan iborat umumiy mulkka",
+        "Faqat shaharda rastalarga",
+        "Katta qo'shinga",
+        "Ibodatxonaga"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "O'z yeri va erkidan ayrilib, dehqonlar yerida ishlovchilar kimlar?",
+       "options": [
+        "Kadivarlar",
+        "Kashovarzlar",
+        "Chokarlar",
+        "Mobadlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Dehqonlarning xo'jaligini tashqi hujumlardan himoya qiluvchi maxsus askariy guruh kimlar?",
+       "options": [
+        "Chokarlar",
+        "Kadivarlar",
+        "Kashovarzlar",
+        "Xoqonlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Dehqonlarning shaharda nimasi bo'lgan?",
+       "options": [
+        "Hunarmandchilik rastalari va uylari",
+        "Dengiz bandargohi",
+        "Rasadxonasi",
+        "Madrasasi"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Qaysi hudud O'rta Osiyoning dehqonchilik viloyatlari qatoriga kirmaydi?",
+       "options": [
+        "Rim",
+        "Sug'diyona",
+        "Toxariston",
+        "Farg'ona"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "So'nggi antik davr qaysi asrlarni o'z ichiga oladi?",
+       "options": [
+        "Milodiy II-IV asrlar",
+        "Milodiy VIII-X asrlar",
+        "Miloddan avvalgi V-III asrlar",
+        "XII-XIII asrlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "So'nggi antik davrdan boshlangan o'zgarishlar oqibatida nima yuz berdi?",
+       "options": [
+        "Dehqonchilik viloyatlarida o'nlab mahalliy hokimliklar tashkil topdi",
+        "Barcha shaharlar vayron bo'ldi",
+        "Yagona imperiya tuzildi",
+        "Dehqonchilik to'xtadi"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "\"Dehqon\" atamasi ilk o'rta asrlarda kimni anglatgan?",
+       "options": [
+        "Mulkdor tabaqani",
+        "Qaram ziroatchini",
+        "Harbiy posbonni",
+        "Savdogarni"
+       ],
+       "correct_index": 0,
+       "page": 9
+      }
+     ]
+    },
+    {
+     "key": "m03_04",
+     "title": "3-4-mavzular. IV-VII asrlarda Xorazm",
+     "start_page": 10,
+     "end_page": 14,
+     "explanation": {
+      "goals": [
+       "Xorazmning tabiiy sharoiti va xo'jaligini bilish",
+       "Afrig'iylar sulolasi va Xorazm davlatchiligi xususiyatlarini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Amudaryo va Xorazm vohasi",
+        "pages": [
+         10
+        ],
+        "text": "Amudaryo Hindiqushning shimoliy yonbag'irlaridagi muzliklardan boshlanadi. U baland qoyali tog'lar orasidan oqib o'tib, o'zi bilan ko'p miqdorda minerallarni loyqa holda oqizib keladi. Surxon daryosi qo'shilgan joydan quyida u irmoqlarsiz jazirama sahrolar ichidan oqa boshlaydi va aynan shu yerdan uning hayotbaxsh faoliyati boshlanib, Xorazm diyorini suv bilan ta'minlaydi.\n\nXorazm vohasiga Qoraqum sahrosi tutashib ketgan. Xorazmliklar qadim zamonlardan boshlab bu qumliklardan yo'llar o'tkazgan. Olim Istaxriy: \"Xorazm Jayhunning butun foydasini ola bilgan mamlakatdir\", deb yozgan."
+       },
+       {
+        "heading": "Xo'jalik va madaniyat",
+        "pages": [
+         11
+        ],
+        "text": "Bu davrda xorazmliklar Xuroson va Eron bilan madaniy-savdo aloqalarini yo'lga qo'ygan. Xorazm diyorida sug'orma dehqonchilik, hunarmandchilik, chorvachilik va savdo-sotiq, ilm-fan, san'at, xususan, haykaltaroshlik yuqori darajada rivoj topgan.\n\nAholi chorvachilik va baliq ovlash bilan shug'ullangan. Xo'jalik turmushida asosan baliq, qovun, qovoq, yovvoyi jiyda va tut alohida o'rin tutgan. Xorazm hunarmandlari yasagan chiroyli sopol idishlar saroylarni bezab turgan."
+       },
+       {
+        "heading": "Afrig'iylar davlati",
+        "pages": [
+         12,
+         13
+        ],
+        "text": "Zaiflashib borayotgan Qang' davlati tarkibidan dastlab Xorazm ajralib chiqdi. Uni mahalliy Afrig'iylar sulolasiga mansub xorazmshohlar idora qilgan (sulola III-X asrlarda hukmronlik qilgan, asoschisi - Afrig'). Davlat poytaxti dastlab Qoraqalpog'istonning hozirgi Ellikqal'a tumanidagi qadimgi Tuproqqal'a o'rnida bo'lgan.\n\nMilodiy 305-yilda xorazmshoh Afrig' qarorgohini qadimiy poytaxt Kat shahriga ko'chirdi va Alfir qasrida yangi saroy qurdirdi. Shundan boshlab Afrig'iy podshohlari oldi tomoniga shoh, orqa tomoniga suvoriy tasviri tushirilgan kumush tangalar zarb etib, ichki va tashqi savdoda mustaqil bo'lib oldilar. Burgut va lochin Xorazmning hukmronlik ramzlari bo'lgan."
+       },
+       {
+        "heading": "Mudofaa, din va ta'lim",
+        "pages": [
+         12,
+         13,
+         14
+        ],
+        "text": "Tuproqqal'a mudofaa jihatidan nihoyatda mustahkam qurilgan: shahar devori o'rtasida darvozaxona, markazdan yuqorida ibodatxona majmuasi, burchagida balandligi 25 metrli ko'p minorali xorazmshohlar qasri bo'lgan. Poytaxtning umumiy maydoni 25 gektarni tashkil etgan.\n\nXorazmda VIII asrgacha zardushtiylikning ta'siri kuchli bo'lgan. Zardushtiylik ibodatxonalarida ruhoniylar - mobadlar diniy marosimlarni avloddan avlodga saqlab qolishgan. Ta'lim maskanlarida bolalarga asosan o'qish, yozish va jang san'ati o'rgatilgan, rost so'zlashlari uqtirilgan, yolg'on gapirish katta jinoyat hisoblangan. Xorazmda suv muqaddas sanalgan; suv ilohi Xubbi haqidagi afsona islom kirib kelguniga qadar yashagan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Amudaryo Hindiqushning shimoliy yonbag'irlaridagi muzliklardan boshlanadi",
+        "page": 10
+       },
+       {
+        "fact": "Xorazm Qang' davlatining zaiflashuvi davrida undan ajralib chiqqan",
+        "page": 12
+       },
+       {
+        "fact": "Xorazmni Afrig'iylar sulolasiga mansub xorazmshohlar boshqargan (III-X asrlar)",
+        "page": 12
+       },
+       {
+        "fact": "Milodiy 305-yilda xorazmshoh Afrig' qarorgohini Kat shahriga ko'chirgan",
+        "page": 12
+       },
+       {
+        "fact": "Xorazmda VIII asrgacha zardushtiylik ta'siri kuchli bo'lgan; ruhoniylar mobadlar deb atalgan",
+        "page": 13
+       }
+      ],
+      "why": {
+       "causes": [
+        "Amudaryo Xorazm diyorini suv bilan ta'minlagan",
+        "Qang' davlati zaiflashib borgan",
+        "Afrig' tangalar zarb ettirib, savdoda mustaqil bo'lishni xohlagan"
+       ],
+       "effects": [
+        "Xorazmda sug'orma dehqonchilik, hunarmandchilik, savdo, ilm-fan va haykaltaroshlik yuksak darajada rivojlandi",
+        "Xorazm Qang'dan ajralib chiqib, mustaqil Afrig'iylar davlatiga aylandi",
+        "Afrig'iy shohlari kumush tangalar zarb etib, ichki va tashqi savdoda mustaqil bo'ldi",
+        "Poytaxt mudofaa jihatidan juda mustahkam, devor va minorali qilib qurildi"
+       ]
+      },
+      "summary": "Amudaryo suvi Xorazm diyorida sug'orma dehqonchilik, hunarmandchilik va savdoni rivojlantirdi. Qang' zaiflashgach, Xorazm Afrig'iylar sulolasi boshchiligida mustaqil davlatga aylandi; 305-yilda poytaxt Katga ko'chirildi, o'z tangalari zarb etildi. VIII asrgacha zardushtiylik kuchli bo'lib, mobadlar bolalarga o'qish, yozish va rost so'zlilikni o'rgatgan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "3-4-mavzular. IV-VII asrlarda Xorazm",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Tabiiy sharoit",
+        "bullets": [
+         "Amudaryo - Hindiqush muzliklaridan",
+         "Qoraqum sahrosi tutashgan",
+         "Istaxriy: \"Jayhunning foydasini ola bilgan\""
+        ],
+        "page": 10
+       },
+       {
+        "title": "Xo'jalik",
+        "bullets": [
+         "Sug'orma dehqonchilik",
+         "Hunarmandchilik, savdo-sotiq",
+         "Haykaltaroshlik, ilm-fan"
+        ],
+        "page": 11
+       },
+       {
+        "title": "Afrig'iylar",
+        "bullets": [
+         "III-X asrlar sulolasi",
+         "305-yil: poytaxt Katga ko'chdi",
+         "Kumush tangalar zarbi"
+        ],
+        "page": 12
+       },
+       {
+        "title": "Din va ta'lim",
+        "bullets": [
+         "Zardushtiylik (VIII asrgacha)",
+         "Mobadlar - ruhoniylar",
+         "O'qish, yozish, jang san'ati"
+        ],
+        "page": 13
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Xorazm Qang' davlatidan ajralib chiqadi",
+         "page": 12
+        },
+        {
+         "label": "Xorazmshoh Afrig' qarorgohini Kat shahriga ko'chiradi (305-yil)",
+         "page": 12
+        },
+        {
+         "label": "Afrig'iylar sulolasi hukmronligi (III-X asrlar)",
+         "page": 13
+        },
+        {
+         "label": "Xorazmda zardushtiylik ta'siri kuchli bo'lgan davrning tugashi (VIII asr)",
+         "page": 13
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Afrig'",
+         "right": "Afrig'iylar sulolasi asoschisi",
+         "page": 13
+        },
+        {
+         "left": "Tuproqqal'a",
+         "right": "Xorazmning dastlabki poytaxti",
+         "page": 12
+        },
+        {
+         "left": "Kat",
+         "right": "Xorazmning qadimiy poytaxti, 305-yilda qarorgoh ko'chirilgan shahar",
+         "page": 12
+        },
+        {
+         "left": "Mobad",
+         "right": "Zardushtiy ruhoniysi",
+         "page": 13
+        },
+        {
+         "left": "Burgut va lochin",
+         "right": "Xorazmning hukmronlik ramzlari",
+         "page": 13
+        },
+        {
+         "left": "Xubbi",
+         "right": "Suv ilohi haqidagi afsona qahramoni",
+         "page": 14
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Amudaryo ____ muzliklaridan boshlanadi.",
+         "options": [
+          "Hindiqush",
+          "Tyanshan",
+          "Himolay",
+          "Oloy"
+         ],
+         "correct_index": 0,
+         "page": 10
+        },
+        {
+         "question": "Xorazmni ____ sulolasiga mansub xorazmshohlar boshqargan.",
+         "options": [
+          "Afrig'iylar",
+          "Somoniylar",
+          "Saljuqiylar",
+          "Tohiriylar"
+         ],
+         "correct_index": 0,
+         "page": 12
+        },
+        {
+         "question": "Xorazmshoh Afrig' qarorgohini ____ shahriga ko'chirgan.",
+         "options": [
+          "Kat",
+          "Buxoro",
+          "Samarqand",
+          "Marv"
+         ],
+         "correct_index": 0,
+         "page": 12
+        },
+        {
+         "question": "Xorazmda ____ asrgacha zardushtiylik ta'siri kuchli bo'lgan.",
+         "options": [
+          "VIII",
+          "IV",
+          "XII",
+          "XV"
+         ],
+         "correct_index": 0,
+         "page": 13
+        },
+        {
+         "question": "Xorazmda ____ muqaddas hisoblangan.",
+         "options": [
+          "suv",
+          "temir",
+          "oltin",
+          "sahro"
+         ],
+         "correct_index": 0,
+         "page": 14
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Nima uchun IV-VII asrlarda Xorazm o'zining siyosiy mustaqilligini saqlab qolishga erishdi?",
+        "answer": "Qang' davlati zaiflashgach Xorazm undan ajralib chiqib, Afrig'iylar sulolasi boshchiligida mustaqil davlatga aylandi, o'z qarorgohi va tangalariga ega bo'lib, ichki va tashqi savdoda mustaqil bo'ldi.",
+        "page": 12
+       },
+       {
+        "question": "Nima uchun poytaxt mudofaa jihatidan nihoyatda mustahkam qilib qurilgan?",
+        "answer": "Xorazmda atrofi devor bilan o'ralgan shaharlar va istehkomli qishloqlar ko'p bo'lgan; poytaxtda darvozaxonali devor, ibodatxona va balandligi 25 metrli ko'p minorali qasr qurilgan.",
+        "page": 12
+       },
+       {
+        "question": "Xorazm bolalariga qanday ta'lim berilgan?",
+        "answer": "Ta'lim maskanlarida bolalarga asosan o'qish, yozish va jang san'atidan saboq berilgan, ularga faqat rost so'zlash zarurligi uqtirilgan.",
+        "page": 13
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Afrig'iylar sulolasiga kim asos solgan?",
+        "options": [
+         "Afrig'",
+         "Shovshafar",
+         "Xubbi",
+         "Istaxriy"
+        ],
+        "correct_index": 0,
+        "page": 13
+       },
+       {
+        "question": "Afrig'iy shoh tangalarining orqa tomonida nima tasvirlangan?",
+        "options": [
+         "Suvoriy",
+         "Burgut",
+         "Daryo",
+         "Qasr"
+        ],
+        "correct_index": 0,
+        "page": 12
+       },
+       {
+        "question": "Xorazm qaysi davlat tarkibidan ajralib chiqqan?",
+        "options": [
+         "Qang' davlati",
+         "Kushon davlati",
+         "Turk xoqonligi",
+         "Eftaliylar"
+        ],
+        "correct_index": 0,
+        "page": 12
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Amudaryo qayerdan boshlanadi?",
+       "options": [
+        "Hindiqushning shimoliy yonbag'irlaridagi muzliklardan",
+        "Pomir tog'laridagi ko'ldan",
+        "Orol dengizidan",
+        "Qoraqum sahrosidan"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Amudaryo o'zi bilan nimani oqizib keladi?",
+       "options": [
+        "Ko'p miqdorda minerallarni loyqa holda",
+        "Faqat toza suvni",
+        "Tosh va qumni",
+        "Muzliklarni"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Amudaryo qaysi joydan boshlab hech qanday irmoqlarsiz oqadi?",
+       "options": [
+        "Surxon daryosi qo'shilgan joydan quyidan",
+        "Orol dengizidan",
+        "Farg'ona vodiysidan",
+        "Hindiqushdan"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Xorazm vohasiga qaysi sahro tutashib ketgan?",
+       "options": [
+        "Qoraqum",
+        "Qizilqum",
+        "Gobi",
+        "Kaspiy bo'yi"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Olim Istaxriy Xorazm haqida nima degan?",
+       "options": [
+        "Xorazm Jayhunning butun foydasini ola bilgan mamlakatdir",
+        "Xorazm cho'l o'lkasidir",
+        "Xorazm tog'li yurtdir",
+        "Xorazm dengiz bo'yidagi davlatdir"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Xorazmliklar qaysi o'lkalar bilan madaniy-savdo aloqalarini yo'lga qo'ygan?",
+       "options": [
+        "Xuroson va Eron",
+        "Rim va Misr",
+        "Hindiston va Xitoy",
+        "Yunoniston"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Xorazmda yuqori darajada rivojlangan soha emas?",
+       "options": [
+        "Dengiz kemasozligi",
+        "Sug'orma dehqonchilik",
+        "Haykaltaroshlik",
+        "Hunarmandchilik"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Xorazm xo'jalik turmushida qaysi mahsulotlar alohida o'rin tutgan?",
+       "options": [
+        "Baliq, qovun, qovoq, jiyda va tut",
+        "Sholi va paxta",
+        "Zaytun va uzum",
+        "Choy va ipak"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Saroylarni nima bezab turgan?",
+       "options": [
+        "Xorazm hunarmandlari yasagan chiroyli sopol idishlar",
+        "Hind ipaklari",
+        "Xitoy chinnilari",
+        "Rim haykallari"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Qaysi davlat zaiflashgach Xorazm undan ajralib chiqdi?",
+       "options": [
+        "Qang'",
+        "Kushon",
+        "Eftaliylar",
+        "Turk xoqonligi"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Xorazmni qaysi sulolaga mansub xorazmshohlar idora qilgan?",
+       "options": [
+        "Afrig'iylar",
+        "Somoniylar",
+        "Qoraxoniylar",
+        "G'aznaviylar"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Xorazm davlatining poytaxti dastlab qayerda joylashgan?",
+       "options": [
+        "Tuproqqal'a xarobasi o'rnida",
+        "Samarqandda",
+        "Buxoroda",
+        "Urganchda"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Afrig' o'z qarorgohini qaysi yilda Kat shahriga ko'chirdi?",
+       "options": [
+        "Milodiy 305-yilda",
+        "Milodiy 105-yilda",
+        "Milodiy 705-yilda",
+        "Milodiy 1005-yilda"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Afrig' Kat shahrida yangi saroyni qayerda qurdirdi?",
+       "options": [
+        "Alfir qasri ichida",
+        "Tuproqqal'ada",
+        "Ko'zaliqirda",
+        "Sopollitepada"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Afrig'iy podshohlari kumush tangalarning orqa tomoniga nimani tushirgan?",
+       "options": [
+        "Suvoriy tasvirini",
+        "Burgutni",
+        "Qasrni",
+        "Daryoni"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Tangalar zarb etish Afrig'iylarga nimada mustaqillik berdi?",
+       "options": [
+        "Ichki va tashqi savdo munosabatlarida",
+        "Diniy marosimlarda",
+        "Harbiy yurishlarda",
+        "Ta'lim ishlarida"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Xorazm poytaxti hisoblangan shaharning maydoni qancha bo'lgan?",
+       "options": [
+        "25 gektar",
+        "5 gektar",
+        "100 gektar",
+        "2 gektar"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Xorazmshohlar qasrining balandligi qancha bo'lgan?",
+       "options": [
+        "25 metr",
+        "5 metr",
+        "100 metr",
+        "50 metr"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "Xorazmda qaysi asrgacha zardushtiylik ta'siri kuchli bo'lgan?",
+       "options": [
+        "VIII asrgacha",
+        "II asrgacha",
+        "XII asrgacha",
+        "XV asrgacha"
+       ],
+       "correct_index": 0,
+       "page": 13
+      },
+      {
+       "question": "Zardushtiylik ibodatxonalarida diniy marosimlarni bajaruvchi ruhoniylar kimlar?",
+       "options": [
+        "Mobadlar",
+        "Chokarlar",
+        "Kadivarlar",
+        "Dehqonlar"
+       ],
+       "correct_index": 0,
+       "page": 13
+      },
+      {
+       "question": "Xorazm ta'lim maskanlarida bolalarga nimalar o'rgatilgan?",
+       "options": [
+        "O'qish, yozish va jang san'ati",
+        "Faqat dehqonchilik",
+        "Faqat savdo",
+        "Dengizchilik"
+       ],
+       "correct_index": 0,
+       "page": 13
+      },
+      {
+       "question": "Xorazmda qaysi qush va hayvonlar hukmronlik ramzlari bo'lgan?",
+       "options": [
+        "Burgut va lochin",
+        "Sher va ayiq",
+        "Ot va tuya",
+        "Bo'ri va qoplon"
+       ],
+       "correct_index": 0,
+       "page": 13
+      },
+      {
+       "question": "Xorazm diniy qarashlarida suvning saqlovchisi sifatida kim qadrlangan?",
+       "options": [
+        "Xubbi",
+        "Mitra",
+        "Ahuramazda",
+        "Afrig'"
+       ],
+       "correct_index": 0,
+       "page": 14
+      }
+     ]
+    },
+    {
+     "key": "m05",
+     "title": "5-mavzu. IV-V asrlarda xioniylar va kidariylar",
+     "start_page": 15,
+     "end_page": 17,
+     "explanation": {
+      "goals": [
+       "Xioniylar va kidariylar davlatlarining hududi va hukmdorlarini bilish",
+       "Kidariylarning sosoniylar va eftaliylar bilan munosabatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Xioniylar",
+        "pages": [
+         15
+        ],
+        "text": "IV asrda turkiy qabilalardan xioniylar dastlab Zarafshon vohasini egallagan, janub tomonga yurib, Kushon podsholigi hududida hukmronlik qilgan. Ular markazi Toxariston bo'lgan, Shimoliy Hindiston, Afg'oniston va Xurosonning bir qismini ham o'z ichiga olgan katta davlat tuzgan.\n\nXioniylar qabilalarining asl vatanini ayrim tadqiqotchilar Orol dengizi bo'yida deb hisoblaydi. G'arb tarixchilari esa xioniylarni xunnlarga qarindosh hisoblab, \"oq xunnlar\" deb ataydi. Ular bu hududda 120 yildan ortiq hukmronlik qilgan."
+       },
+       {
+        "heading": "Kidariylar davlati",
+        "pages": [
+         16
+        ],
+        "text": "V asrning 20-yillarida sharqdan Sirdaryo va Orol bo'ylari orqali Xorazm hamda Amudaryo havzasiga yana bir ko'chmanchi chorvador aholi - toxarlar kirib keldi. Toxariylar kushonlarning avlodlari bo'lgan. Ularga Kidar ismli hukmdor boshchilik qilgani uchun ular kidariylar deb ataladi.\n\nTez orada kidariylar xioniylar davlatining janubiy qismida o'z hukmronligini o'rnatdi, Balx shahri yangi davlat poytaxtiga aylantirildi. Kidar Shimoliy Hindistonga yurish qilib, Gandxaradan shimoldagi 5 ta davlatni bo'ysundirgan. Kidariylar Hindistonda Gupta davlatini egallab, 75 yil hukmronlik qilgan va Xitoyga elchilar yuborgan."
+       },
+       {
+        "heading": "Sosoniylar va eftaliylar bilan to'qnashuv",
+        "pages": [
+         17
+        ],
+        "text": "Xioniylar va kidariylarning ijtimoiy-iqtisodiy tizimi haqidagi ma'lumotlar bizgacha yetib kelmagan. Kidariylarning janubdagi Eron sosoniylari bilan munosabati yomonlashib borgan. 456-yilda kidariylar va sosoniylar o'rtasida to'qnashuv bo'lib, kidariylar yengilgan. Keyinchalik ular ko'chmanchi chorvador eftaliylar bilan to'qnashib, Shimoliy Hindistonga chekingan.\n\nKidariylar tangalari braxmiy yozuvida zarb etilgan; \"Kidara Kushon sha\" yozuvli tangalar ham topilgan. Tarixchi K. Treverga ko'ra, xioniylar IV asrning 70-yillarida kuchaygan; Turonda kidariylar va eftaliylar hukmronligi o'rnatilgach, ular eftaliylarga tobe bo'lib qolgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Xioniylar IV asrda Zarafshon vohasini egallab, markazi Toxariston bo'lgan davlat tuzgan",
+        "page": 15
+       },
+       {
+        "fact": "G'arb tarixchilari xioniylarni \"oq xunnlar\" deb ataydi; ular 120 yildan ortiq hukmronlik qilgan",
+        "page": 15
+       },
+       {
+        "fact": "Kidariylar V asrning 20-yillarida kirib kelgan; ularga hukmdor Kidar boshchilik qilgan, poytaxti Balx",
+        "page": 16
+       },
+       {
+        "fact": "Kidariylar Hindistonda Gupta davlatini egallab, 75 yil hukmronlik qilgan",
+        "page": 16
+       },
+       {
+        "fact": "456-yilda kidariylar sosoniylardan yengilgan",
+        "page": 17
+       }
+      ],
+      "why": {
+       "causes": [
+        "Kidariylar ko'chmanchi chorvador toxarlar bo'lib, Sirdaryo va Orol bo'ylaridan Amudaryo havzasiga kirib keldi",
+        "Kidariylarning Eron sosoniylari bilan munosabati yomonlashib bordi",
+        "Kidariylar eftaliylar bilan to'qnashdi"
+       ],
+       "effects": [
+        "Kidariylar xioniylar davlatining janubiy qismida hukmronlik o'rnatib, Balxni poytaxt qildi",
+        "456-yilda kidariylar sosoniylardan yengildi",
+        "Kidariylar Shimoliy Hindistonga chekindi, xioniylar esa eftaliylarga tobe bo'lib qoldi"
+       ]
+      },
+      "summary": "IV asrda xioniylar Zarafshon vohasidan janubga yurib, Toxaristonda katta davlat tuzdi. V asrda Kidar boshchiligidagi kidariylar ularning janubiy qismida Balx poytaxt bo'lgan davlat barpo etdi. Sosoniylardan (456) va eftaliylardan yengilgach, kidariylar Shimoliy Hindistonga chekindi, xioniylar eftaliylarga tobe bo'ldi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "5-mavzu. Xioniylar va kidariylar",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Xioniylar",
+        "bullets": [
+         "IV asr, Zarafshon vohasi",
+         "Markazi Toxariston",
+         "\"Oq xunnlar\"",
+         "120 yildan ortiq hukmronlik"
+        ],
+        "page": 15
+       },
+       {
+        "title": "Kidariylar",
+        "bullets": [
+         "V asr 20-yillari",
+         "Hukmdor Kidar",
+         "Poytaxti - Balx",
+         "Gupta davlatini egallagan"
+        ],
+        "page": 16
+       },
+       {
+        "title": "Tangalar",
+        "bullets": [
+         "Braxmiy yozuvi",
+         "\"Kidara Kushon sha\"",
+         "Ikki hokim zarbi"
+        ],
+        "page": 17
+       },
+       {
+        "title": "Mag'lubiyat",
+        "bullets": [
+         "456: sosoniylar bilan jang",
+         "Eftaliylar bilan to'qnashuv",
+         "Shimoliy Hindistonga chekinish"
+        ],
+        "page": 17
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Xioniylarning kuchayishi (IV asrning 70-yillari)",
+         "page": 17
+        },
+        {
+         "label": "Kidariylarning kirib kelishi (V asrning 20-yillari)",
+         "page": 16
+        },
+        {
+         "label": "Kidariylarning sosoniylardan yengilishi (456-yil)",
+         "page": 17
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Xioniylar",
+         "right": "G'arb tarixchilari \"oq xunnlar\" deb atagan qabilalar",
+         "page": 15
+        },
+        {
+         "left": "Kidar",
+         "right": "Kidariylarga boshchilik qilgan hukmdor",
+         "page": 16
+        },
+        {
+         "left": "Balx",
+         "right": "Kidariylar davlatining poytaxti",
+         "page": 16
+        },
+        {
+         "left": "Gupta davlati",
+         "right": "Kidariylar Hindistonda 75 yil hukmronlik qilgan davlat",
+         "page": 16
+        },
+        {
+         "left": "Sosoniylar",
+         "right": "456-yilda kidariylarni yengan Eron sulolasi",
+         "page": 17
+        },
+        {
+         "left": "Braxmiy yozuvi",
+         "right": "Kidariylar tangalari zarb etilgan yozuv",
+         "page": 17
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Xioniylar IV asrda dastlab ____ vohasini egallagan.",
+         "options": [
+          "Zarafshon",
+          "Farg'ona",
+          "Xorazm",
+          "Surxon"
+         ],
+         "correct_index": 0,
+         "page": 15
+        },
+        {
+         "question": "Kidariylar davlatining poytaxti ____ shahri bo'lgan.",
+         "options": [
+          "Balx",
+          "Samarqand",
+          "Buxoro",
+          "Termiz"
+         ],
+         "correct_index": 0,
+         "page": 16
+        },
+        {
+         "question": "Kidariylar Hindistonda ____ davlatini egallagan.",
+         "options": [
+          "Gupta",
+          "Maurya",
+          "Kushon",
+          "Xett"
+         ],
+         "correct_index": 0,
+         "page": 16
+        },
+        {
+         "question": "Kidariylar ____ yilda sosoniylardan yengilgan.",
+         "options": [
+          "456",
+          "256",
+          "656",
+          "756"
+         ],
+         "correct_index": 0,
+         "page": 17
+        },
+        {
+         "question": "Kidariylar tangalari ____ yozuvida zarb etilgan.",
+         "options": [
+          "braxmiy",
+          "mixxat",
+          "iyeroglif",
+          "run"
+         ],
+         "correct_index": 0,
+         "page": 17
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Xioniylar davlati hududi qayerlarni o'z ichiga olgan?",
+        "answer": "Markazi Toxariston bo'lgan; Shimoliy Hindiston, Afg'oniston va Xurosonning bir qismini ham o'z ichiga olgan.",
+        "page": 15
+       },
+       {
+        "question": "Kidariylar nima uchun shunday atalgan?",
+        "answer": "Ularga Kidar ismli hukmdor boshchilik qilgani uchun.",
+        "page": 16
+       },
+       {
+        "question": "Kidariylar nima sababdan Shimoliy Hindistonga chekingan?",
+        "answer": "Sosoniylardan yengilgan (456) va ko'chmanchi chorvador eftaliylar bilan to'qnashgach.",
+        "page": 17
+       }
+      ],
+      "quiz": [
+       {
+        "question": "G'arb tarixchilari xioniylarni qanday atagan?",
+        "options": [
+         "Oq xunnlar",
+         "Qora xunnlar",
+         "Qizil xunnlar",
+         "Sak xunnlari"
+        ],
+        "correct_index": 0,
+        "page": 15
+       },
+       {
+        "question": "Kidariylar kimlarning avlodlari bo'lgan?",
+        "options": [
+         "Kushonlarning",
+         "Saklarning",
+         "Xorazmliklarning",
+         "Eftaliylarning"
+        ],
+        "correct_index": 0,
+        "page": 16
+       },
+       {
+        "question": "Kidariylar Hindistonda necha yil hukmronlik qilgan?",
+        "options": [
+         "75 yil",
+         "120 yil",
+         "20 yil",
+         "300 yil"
+        ],
+        "correct_index": 0,
+        "page": 16
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Xioniylar IV asrda dastlab qaysi vohani egallagan?",
+       "options": [
+        "Zarafshon vohasini",
+        "Surxon vohasini",
+        "Xorazm vohasini",
+        "Farg'ona vodiysini"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Xioniylar davlatining markazi qayer bo'lgan?",
+       "options": [
+        "Toxariston",
+        "Sug'diyona",
+        "Xorazm",
+        "Choch"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Xioniylar qaysi qabilalar turkumiga mansub deb hisoblanadi?",
+       "options": [
+        "Turkiy qabilalar",
+        "Fors qabilalari",
+        "Arab qabilalari",
+        "Hind qabilalari"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Ayrim tadqiqotchilar xioniylarning asl vatanini qayerda deb hisoblaydi?",
+       "options": [
+        "Orol dengizi bo'yida",
+        "Hindistonda",
+        "Eronda",
+        "Xitoyda"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "G'arb tarixchilari xioniylarni nima deb ataydi?",
+       "options": [
+        "Oq xunnlar",
+        "Kidariylar",
+        "Sosoniylar",
+        "Eftalitlar"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Xioniylar bu hududda necha yildan ortiq hukmronlik qilgan?",
+       "options": [
+        "120 yildan",
+        "20 yildan",
+        "500 yildan",
+        "5 yildan"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Kidariylar qachon Xorazm va Amudaryo havzasiga kirib kelgan?",
+       "options": [
+        "V asrning 20-yillarida",
+        "II asrda",
+        "VII asrning oxirida",
+        "X asrda"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidariylar qaysi yo'l bilan Xorazm va Amudaryo havzasiga kelgan?",
+       "options": [
+        "Sirdaryo va Orol bo'ylari orqali",
+        "Hind daryosi orqali",
+        "Kaspiy dengizi orqali",
+        "Pomir orqali"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Toxariylar kimlarning avlodlari bo'lgan?",
+       "options": [
+        "Kushonlarning",
+        "Xioniylarning",
+        "Eftaliylarning",
+        "Sosoniylarning"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidariylar nomi qaysi hukmdor ismidan kelib chiqqan?",
+       "options": [
+        "Kidar",
+        "Eftalon",
+        "Peroz",
+        "Afrig'"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidariylar xioniylar davlatining qaysi qismida hukmronlik o'rnatgan?",
+       "options": [
+        "Janubiy qismida",
+        "Shimoliy qismida",
+        "G'arbiy qismida",
+        "Hech qaysisida"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Yangi kidariy davlatining poytaxti qaysi shahar bo'ldi?",
+       "options": [
+        "Balx",
+        "Poykent",
+        "Kat",
+        "Marv"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidar Shimoliy Hindistonda Gandxaradan shimoldagi nechta davlatni bo'ysundirgan?",
+       "options": [
+        "5 ta",
+        "2 ta",
+        "10 ta",
+        "20 ta"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidariylar Hindistonda qaysi davlatni egallagan?",
+       "options": [
+        "Gupta davlatini",
+        "Kushon davlatini",
+        "Maurya davlatini",
+        "Sosoniylar davlatini"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Kidariylar qaysi mamlakatga elchilar yuborgan?",
+       "options": [
+        "Xitoyga",
+        "Rimga",
+        "Misrga",
+        "Yunonistonga"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Xioniylar va kidariylarning ijtimoiy-iqtisodiy tizimi haqida nima deyish mumkin?",
+       "options": [
+        "Ma'lumotlar bizgacha yetib kelmagan",
+        "U to'liq o'rganilgan",
+        "Ular faqat dehqonchilik bilan shug'ullangan",
+        "Ular savdo qilmagan"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kidariylarning janubdagi qaysi davlat bilan munosabati yomonlashgan?",
+       "options": [
+        "Eron sosoniylari bilan",
+        "Rim imperiyasi bilan",
+        "Xitoy bilan",
+        "Vizantiya bilan"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kidariylar sosoniylar bilan to'qnashuvda qaysi yilda yengilgan?",
+       "options": [
+        "456-yilda",
+        "256-yilda",
+        "656-yilda",
+        "1056-yilda"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kidariylar keyinchalik qaysi ko'chmanchi chorvadorlar bilan to'qnashgan?",
+       "options": [
+        "Eftaliylar bilan",
+        "Xioniylar bilan",
+        "Saklar bilan",
+        "Massagetlar bilan"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kidariylar eftaliylar bilan to'qnashgach qayerga chekingan?",
+       "options": [
+        "Shimoliy Hindistonga",
+        "Xitoyga",
+        "Eronga",
+        "Orol bo'yiga"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kidariylar tangalari qaysi yozuvda zarb etilgan?",
+       "options": [
+        "Braxmiy yozuvida",
+        "Mixxatda",
+        "Iyerogliflarda",
+        "Arab yozuvida"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Turonda kidariylar va eftaliylar hukmronligi o'rnatilgach, xioniylar holati qanday o'zgargan?",
+       "options": [
+        "Eftaliylarga tobe bo'lib qolgan",
+        "Mustaqilligini mustahkamlagan",
+        "Davlati kengaygan",
+        "Hindistonni egallagan"
+       ],
+       "correct_index": 0,
+       "page": 17
+      }
+     ]
+    },
+    {
+     "key": "m06_07",
+     "title": "6-7-mavzular. Eftaliylar",
+     "start_page": 18,
+     "end_page": 23,
+     "explanation": {
+      "goals": [
+       "Eftaliylar davlatining tashkil topishi, boshqaruvi va xo'jaligini bilish",
+       "Eftaliylar davridagi shaharlar, tanga muomalasi va diniy e'tiqodlarni tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Eftaliylar davlati va boshqaruv",
+        "pages": [
+         18,
+         19
+        ],
+        "text": "V-VI asrlarda Eftalon sulolasiga mansub qabila Turon hududida hukmronlik qilgan. Manbalarda eftaliylar, eftallar, eftalitlar, xaytallar kabi nomlar bilan atalgan. Bu nom \"Eftalon\" degan shoh ismidan olingan; uni Vaxshunvar deb ham ataganlar. Eftaliylar V asr boshlarida Sharqdan kirib kelgan; davlatning dastlabki poytaxti Buxoro yaqinidagi Poykent va Varaxsha shaharlari bo'lgan. Davlatga O'rta Osiyodan tashqari Sharqiy Turkiston, Afg'oniston, Shimoliy Hindiston va hozirgi Pokiston hududlari kirgan.\n\nSaltanat yakka hukmdor tomonidan boshqarilgan. Taxt avloddan avlodga o'tmay, shu suloladan kim loyiq deb topilsa, o'sha o'tirgan; nomzodni sulolaning mo'tabar kishilari va a'yonlardan iborat kengash taqdim etgan. Viloyatlarni hukmdor - Sho (shoh)ga tobe mahalliy sulolalar boshqargan, ularning har biri o'z kumush yoki mis tangasini zarb etgan. Davlat harbiy kuchga tayangan. Sosoniylar shohi Peroz 484-yilda eftaliylarga qarshi urushda halok bo'lgan."
+       },
+       {
+        "heading": "Savdo, tanga va hunarmandchilik",
+        "pages": [
+         18,
+         20
+        ],
+        "text": "Iqtisodiy-savdo munosabatlarining izchil yo'lga qo'yilishi dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilikning ravnaq topishiga asos bo'ldi. Tashqi savdo bojidan manfaatdor eftaliylar Ipak yo'lini o'z nazoratlari ostida tutishga harakat qilgan; Xitoy, Hindiston, Eron va Vizantiya bilan xalqaro savdoda faol qatnashgan. Ipak yo'li savdosida sosoniy savdogarlari bilan raqobatda asosan sug'dlar vositachi rolini o'ynagan.\n\nDastlab eftaliylar sosoniy hukmdorlarining kumush tangalaridan keng foydalangan; shuningdek Buxoro, Poykand, Vardona, Naxshab, Samarqand va Xorazmda mahalliy hokimlar chiqargan chaqa tangalar muomalada bo'lgan. Turonda shishasozlik rivojlangan: shishalar rangdorligi, yarqiroqligi va tiniqligi bilan Vizantiya shishasidan ustun turgan, Xitoy imperatorlari saroylarini Turondan keltirilgan rangli shisha bilan bezagan."
+       },
+       {
+        "heading": "Til, ta'lim va din",
+        "pages": [
+         20,
+         21
+        ],
+        "text": "Turon aholisining bir qismi sug'd tilida, ikkinchi qismi turkiy tilda so'zlashgan; sug'd tili xalqaro savdo tili sifatida Yettisuv, Farg'ona, Sharqiy Turkiston va Xitoyda muomalada bo'lgan. Eftaliylar alifbosi Baqtriya yozuvi asosida shakllangan va 25 harfdan iborat bo'lgan. Bolalarga yoshligidan ta'lim va tarbiya berilgan; harbiy soha bilan faqat o'g'il bolalar emas, qizlar ham otda yurish, kamondan o'q otishga jalb qilingan.\n\nEftaliylar asosan zardushtiylikka e'tiqod qilgan; tangrichilik, buddaviylik, moniylik, mazdakiylik ham tarqalgan, shaharlarda nestorianlar va yahudiylar jamoalari bo'lgan. Davlatda shaharlar juda ko'p bo'lgan."
+       },
+       {
+        "heading": "Shaharlar va sug'orish tarmoqlari",
+        "pages": [
+         21,
+         22,
+         23
+        ],
+        "text": "V asrda Panjikentda umumiy maydoni 18 gektar bo'lgan yangi shahar barpo etildi. Poykand arab manbalarida \"Madina at-tujjor\" - \"Savdogarlar shahri\" deb ta'riflangan. Buxoro IV asrdan Turonning yirik madaniy va iqtisodiy markazi bo'lgan: shaharning asosi 21 gektar, yettita darvozasi bo'lgan. Zartepa IV-V asrlarda maydoni 17 gektar bo'lgan yirik shaharga aylandi. Qal'a va istehkomlarga Zahoki Maron, Shahri Vayron, Fir qal'asi misol bo'ladi.\n\nV asrda Zog'ariq (Zovariq), Bo'zsuv va Darg'om kabi yirik sug'orish kanallari barpo etilgan. Vizantiyalik tarixchi Prokopiy Kesariyskiy eftaliylar podshosi aholiga g'amxo'rlik qilib, adolat mezonlariga amal qilganini yozgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Eftaliylar V asr boshlarida sharqdan kirib kelgan; dastlabki poytaxti Poykent va Varaxsha",
+        "page": 19
+       },
+       {
+        "fact": "Eftaliylarda taxt avloddan avlodga o'tmagan: loyiq nomzodni kengash taqdim etgan",
+        "page": 19
+       },
+       {
+        "fact": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda 484-yilda halok bo'lgan",
+        "page": 19
+       },
+       {
+        "fact": "Eftaliylar Ipak yo'lini nazorat qilishga harakat qilgan, sug'dlar vositachi bo'lgan",
+        "page": 20
+       },
+       {
+        "fact": "Eftaliylar alifbosi Baqtriya yozuvi asosida shakllangan va 25 harfdan iborat bo'lgan",
+        "page": 20
+       }
+      ],
+      "why": {
+       "causes": [
+        "Eftaliylar tashqi savdo bojidan manfaatdor edi",
+        "Eftaliylarning kuchayishidan xavfsiragan sosoniylar ularga qarshi yurish qildi",
+        "Iqtisodiy-savdo munosabatlari izchil yo'lga qo'yildi"
+       ],
+       "effects": [
+        "Eftaliylar Ipak yo'lini o'z nazoratlarida tutishga va xalqaro savdoda faol qatnashishga harakat qildi",
+        "484-yilda sosoniylar shohi Peroz halok bo'ldi",
+        "Dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilik ravnaq topdi",
+        "Shaharlar ko'paydi, ular bilan eftaliylar sulolalari mahalliy aholi bilan aralashib ketdi"
+       ]
+      },
+      "summary": "Eftaliylar V asr boshlarida Turonga kelib, Buxoro yaqinidagi Poykent va Varaxshada dastlabki poytaxtga ega bo'lgan davlat tuzdi. Ular boshqaruvda kengashga tayangan, Ipak yo'li savdosida faol bo'lgan, 484-yilda sosoniy shohi Perozni mag'lub etgan. Davrda dehqonchilik, shaharsozlik, shishasozlik va tanga muomalasi rivojlandi, turli dinlar yonma-yon yashadi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "6-7-mavzular. Eftaliylar",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Davlat va boshqaruv",
+        "bullets": [
+         "V asr boshi, poytaxt - Poykent, Varaxsha",
+         "Yakka hukmdor - Sho",
+         "Loyiq nomzodni kengash taqdim etgan"
+        ],
+        "page": 19
+       },
+       {
+        "title": "Sosoniylar bilan urush",
+        "bullets": [
+         "Eftaliylar kuchayishidan xavfsirash",
+         "Peroz 484-yilda halok bo'ldi"
+        ],
+        "page": 19
+       },
+       {
+        "title": "Savdo va hunarmandchilik",
+        "bullets": [
+         "Ipak yo'li nazorati",
+         "Sug'dlar - vositachi",
+         "Shishasozlik"
+        ],
+        "page": 20
+       },
+       {
+        "title": "Din va madaniyat",
+        "bullets": [
+         "Zardushtiylik",
+         "Buddaviylik, moniylik, mazdakiylik",
+         "25 harfli alifbo"
+        ],
+        "page": 21
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Buxoro IV asrdan yirik madaniy va iqtisodiy markazga aylanadi (IV asr)",
+         "page": 22
+        },
+        {
+         "label": "Eftaliylar sharqdan Turonga kirib keladi (V asr boshlari)",
+         "page": 19
+        },
+        {
+         "label": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda halok bo'ladi (484-yil)",
+         "page": 19
+        },
+        {
+         "label": "Turk elchisi Vizantiya imperatori huzurida eftaliylar shaharlari haqida gapiradi (568-569-yillar)",
+         "page": 21
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Eftalon (Vaxshunvar)",
+         "right": "Eftaliylar nomi olingan shoh",
+         "page": 18
+        },
+        {
+         "left": "Poykand",
+         "right": "\"Savdogarlar shahri\" (Madina at-tujjor)",
+         "page": 21
+        },
+        {
+         "left": "Panjikent",
+         "right": "V asrda barpo etilgan 18 gektarli shahar",
+         "page": 21
+        },
+        {
+         "left": "Zartepa",
+         "right": "IV-V asrlarda 17 gektarli shaharga aylangan manzil",
+         "page": 22
+        },
+        {
+         "left": "Darg'om",
+         "right": "V asrda barpo etilgan sug'orish kanali",
+         "page": 23
+        },
+        {
+         "left": "Prokopiy Kesariyskiy",
+         "right": "Eftaliylar podshosini adolatli deb yozgan Vizantiya tarixchisi",
+         "page": 23
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Eftaliylar davlatining dastlabki poytaxti Buxoro yaqinidagi Poykent va ____ bo'lgan.",
+         "options": [
+          "Varaxsha",
+          "Panjikent",
+          "Kat",
+          "Termiz"
+         ],
+         "correct_index": 0,
+         "page": 19
+        },
+        {
+         "question": "Sosoniylar shohi Peroz ____ yilda eftaliylarga qarshi urushda halok bo'lgan.",
+         "options": [
+          "484",
+          "284",
+          "684",
+          "984"
+         ],
+         "correct_index": 0,
+         "page": 19
+        },
+        {
+         "question": "Ipak yo'li savdosida asosan ____ vositachi rolini o'ynagan.",
+         "options": [
+          "sug'dlar",
+          "xioniylar",
+          "kidariylar",
+          "yunonlar"
+         ],
+         "correct_index": 0,
+         "page": 20
+        },
+        {
+         "question": "Eftaliylar alifbosi ____ harfdan iborat bo'lgan.",
+         "options": [
+          "25",
+          "10",
+          "50",
+          "100"
+         ],
+         "correct_index": 0,
+         "page": 20
+        },
+        {
+         "question": "Eftaliylar asosan ____ dinga e'tiqod qilgan.",
+         "options": [
+          "zardushtiylik",
+          "xristian",
+          "islom",
+          "yahudiy"
+         ],
+         "correct_index": 0,
+         "page": 21
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Eftaliylar hukmronligi davrida nimaning hisobiga dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilik ravnaq topdi?",
+        "answer": "Iqtisodiy-savdo munosabatlarining izchil yo'lga qo'yilishi hisobiga.",
+        "page": 18
+       },
+       {
+        "question": "Eftaliylar davlatida taxt qanday o'tgan?",
+        "answer": "Taxt avloddan avlodga o'tmagan: shu suloladan loyiq deb topilgan kishi o'tirgan, nomzodni sulola mo'tabarlari va a'yonlardan iborat kengash taqdim etgan.",
+        "page": 19
+       },
+       {
+        "question": "Nima sababdan eftaliylar dastlabki yillarda sosoniylar tangalaridan foydalangan?",
+        "answer": "Ichki va tashqi savdo munosabatlarida dastlab sosoniy hukmdorlarining kumush tangalaridan keng foydalanilgan (ular xalqaro savdoda keng tarqalgan edi).",
+        "page": 20
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Eftaliylar nomi qaysi shoh ismidan olingan?",
+        "options": [
+         "Eftalon",
+         "Kidar",
+         "Afrig'",
+         "Peroz"
+        ],
+        "correct_index": 0,
+        "page": 18
+       },
+       {
+        "question": "Poykand arab manbalarida qanday atalgan?",
+        "options": [
+         "Savdogarlar shahri",
+         "Ipak shahri",
+         "Qal'alar shahri",
+         "Olimlar shahri"
+        ],
+        "correct_index": 0,
+        "page": 21
+       },
+       {
+        "question": "Qaysi mamlakat imperatorlari saroylarini Turondan keltirilgan rangli shisha bilan bezagan?",
+        "options": [
+         "Xitoy",
+         "Rim",
+         "Hindiston",
+         "Misr"
+        ],
+        "correct_index": 0,
+        "page": 20
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Eftaliylar qaysi asrlarda Turon hududida hukmronlik qilgan?",
+       "options": [
+        "V-VI asrlarda",
+        "II-III asrlarda",
+        "IX-X asrlarda",
+        "XII-XIII asrlarda"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Eftaliylar nomi aslida qaysi shoh ismidan olingan?",
+       "options": [
+        "Eftalon",
+        "Peroz",
+        "Kidar",
+        "Sho"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Eftalonni yana qanday nom bilan ataganlar?",
+       "options": [
+        "Vaxshunvar",
+        "Katulf",
+        "Afrig'",
+        "Gatfar"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Eftaliylar davlatiga birlashgan aholining etnik tarkibi qanday bo'lgan?",
+       "options": [
+        "Xilma-xil",
+        "Bir xil",
+        "Faqat turkiy",
+        "Faqat sug'd"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Eftaliylar davlatining dastlabki poytaxti qaysi shaharlar bo'lgan?",
+       "options": [
+        "Buxoro yaqinidagi Poykent va Varaxsha",
+        "Samarqand va Termiz",
+        "Balx va Marv",
+        "Kat va Urganch"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Eftaliylar davlatiga quyidagilardan qaysi biri kirmagan?",
+       "options": [
+        "Arabiston yarimoroli",
+        "Sharqiy Turkiston",
+        "Afg'oniston",
+        "Shimoliy Hindiston"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Eftaliylar saltanati kim tomonidan boshqarilgan?",
+       "options": [
+        "Yakka hukmdor",
+        "Respublika kengashi",
+        "Xalq majlisi",
+        "Uch hukmdor"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Taxtga nomzodni kim aniqlab taqdim etgan?",
+       "options": [
+        "Sulolaning mo'tabar kishilari va a'yonlardan iborat kengash",
+        "Sosoniy shohi",
+        "Xalq yig'ilishi",
+        "Ruhoniylar"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Viloyatlarni kimlar boshqargan?",
+       "options": [
+        "Hukmdor - Shoga tobe mahalliy sulolalar",
+        "Sosoniy noiblari",
+        "Xitoy elchilari",
+        "Ruhoniylar kengashi"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Mahalliy sulolalarning har biri nimani zarb etgan?",
+       "options": [
+        "O'zining kumush yoki mis tangalarini",
+        "Faqat oltin tanga",
+        "Qog'oz pul",
+        "Hech narsa"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Eftaliylarning kuchayishidan kim xavfsiragan?",
+       "options": [
+        "Erondagi sosoniylar",
+        "Rim imperatorlari",
+        "Kushonlar",
+        "Xorazmshohlar"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda qanday yakunga uchragan?",
+       "options": [
+        "Halok bo'lgan",
+        "G'alaba qozongan",
+        "Sulh tuzgan",
+        "Asirga olinib qo'yib yuborilgan"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Qaysi asar Vaxshunvor va Peruz davri voqealarini aks ettirgan?",
+       "options": [
+        "Firdavsiyning \"Shohnoma\"si",
+        "Avesto",
+        "Gerodotning \"Tarix\"i",
+        "Injil"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Eftaliylar nimani o'z nazoratlarida tutishga harakat qilgan?",
+       "options": [
+        "Ipak yo'lini",
+        "Dengiz yo'llarini",
+        "Hind okeanini",
+        "Qora dengizni"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Ipak yo'li savdosida vositachi rolini kimlar o'ynagan?",
+       "options": [
+        "Sug'dlar",
+        "Xioniylar",
+        "Rimliklar",
+        "Arablar"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Eftaliylar dastavval qaysi tangalardan keng foydalangan?",
+       "options": [
+        "Sosoniy hukmdorlarining kumush tangalaridan",
+        "Yunon oltin tangalaridan",
+        "Xitoy mis tangalaridan",
+        "Hind tangalaridan"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Turonda shishalar qaysi davlat shishasidan ustun turgan?",
+       "options": [
+        "Vizantiya shishasidan",
+        "Misr shishasidan",
+        "Xitoy shishasidan",
+        "Rim shishasidan"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Sug'd tili qaysi vazifani bajargan?",
+       "options": [
+        "Xalqaro savdo tili",
+        "Faqat diniy til",
+        "Harbiy buyruqlar tili",
+        "Faqat saroy tili"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Eftaliylar alifbosi qaysi yozuv asosida shakllangan?",
+       "options": [
+        "Baqtriya yozuvi",
+        "Mixxat",
+        "Braxmiy",
+        "Lotin"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Eftaliylar davrida qizlar nimaga jalb qilingan?",
+       "options": [
+        "Otda yurish va kamondan o'q otishga",
+        "Faqat uy ishlariga",
+        "Savdoga",
+        "Ruhoniylikka"
+       ],
+       "correct_index": 0,
+       "page": 20
+      },
+      {
+       "question": "Quyidagi e'tiqodlardan qaysi biri eftaliylar davlatida tarqalmagan?",
+       "options": [
+        "Islom",
+        "Zardushtiylik",
+        "Buddaviylik",
+        "Moniylik"
+       ],
+       "correct_index": 0,
+       "page": 21
+      },
+      {
+       "question": "Poykand arab manbalarida qanday ta'riflangan?",
+       "options": [
+        "\"Madina at-tujjor\" - \"Savdogarlar shahri\"",
+        "\"Qal'alar shahri\"",
+        "\"Muqaddas shahar\"",
+        "\"Poytaxt shahar\""
+       ],
+       "correct_index": 0,
+       "page": 21
+      },
+      {
+       "question": "V asrda Panjikentda barpo etilgan yangi shaharning maydoni qancha bo'lgan?",
+       "options": [
+        "18 gektar",
+        "5 gektar",
+        "50 gektar",
+        "100 gektar"
+       ],
+       "correct_index": 0,
+       "page": 21
+      },
+      {
+       "question": "Buxoro shahrining asosi necha gektar edi?",
+       "options": [
+        "21 gektar",
+        "5 gektar",
+        "150 gektar",
+        "1 gektar"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Buxoro shahrining nechta darvozasi bo'lgan?",
+       "options": [
+        "Yettita",
+        "Ikkita",
+        "O'nta",
+        "Bitta"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Zartepa IV-V asrlarda qancha maydonli yirik shaharga aylandi?",
+       "options": [
+        "17 gektar",
+        "2 gektar",
+        "70 gektar",
+        "200 gektar"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "V asrda barpo etilgan yirik sug'orish kanallariga qaysilar kiradi?",
+       "options": [
+        "Zog'ariq, Bo'zsuv va Darg'om",
+        "Amudaryo va Sirdaryo",
+        "Nil va Frot",
+        "Hind va Gang"
+       ],
+       "correct_index": 0,
+       "page": 23
+      },
+      {
+       "question": "Prokopiy Kesariyskiy eftaliylar podshosi haqida nima yozgan?",
+       "options": [
+        "Aholiga g'amxo'rlik ko'rsatib, adolat mezonlariga amal qiladi",
+        "Qo'shni davlatlarga shafqatsiz bo'lgan",
+        "Savdoga to'sqinlik qilgan",
+        "Dinni taqiqlagan"
+       ],
+       "correct_index": 0,
+       "page": 23
+      }
+     ]
+    },
+    {
+     "key": "m08_09",
+     "title": "8-9-mavzular. Turk xoqonligi",
+     "start_page": 24,
+     "end_page": 31,
+     "explanation": {
+      "goals": [
+       "Turk xoqonligining tashkil topishi, boshqaruvi va bo'linish sabablarini tushuntirish",
+       "Xoqonlikdagi diniy e'tiqodlar va qonunchilik xususiyatlarini bilish"
+      ],
+      "blocks": [
+       {
+        "heading": "Xoqonlikning tashkil topishi",
+        "pages": [
+         24
+        ],
+        "text": "VI asr o'rtalarida Oltoy va Janubiy Sibirda yashagan turkiy qabilalarni birlashtirgan yangi davlat vujudga keldi - Turk xoqonligi. Yettisuv va Sharqiy Turkistonga tutashgan yurtlardagi turkiy qabilalar bo'ysundirilib, Oltoy xoqonlik markazi qilib belgilandi. Davlat asoschisi Bumin edi, unga \"Yabg'u xoqon\" unvoni berildi.\n\nBu davrda Sirdaryo va Orol dengizi bo'ylarigacha cho'zilgan keng o'lka xoqonlik hududi bo'lgan. Eftaliylar shimoliy hududlarni mudofaa qilish bilan band bo'lgan paytda sosoniylar janubiy o'lkalar - Toxariston va Chag'oniyonni ulardan tortib oldi. Janubdan sosoniylar, shimoldan Turk xoqonligi zarbasiga uchragan Eftaliylar davlati parchalandi: Amudaryoning janubiy qirg'oqlarigacha viloyatlar Eronga, o'ng sohillari bo'ylab Kaspiy dengizigacha cho'zilgan yerlar Turk xoqonligiga o'tdi. \"Turk\" so'zi baquvvat, barkamol, odillik kabi ma'nolarni anglatadi."
+       },
+       {
+        "heading": "Bo'linish va ittifoqlar",
+        "pages": [
+         25
+        ],
+        "text": "Katta qabilalar yoki qabilalar ittifoqi markaziy hokimiyatga bo'ysunmaslikka intilgan, hokimlar mustaqil bo'lishni istagan. Bo'ysundirilgan hududlarni mahalliy hokimlar orqali boshqarish xoqonlikni tobora zaiflashtirgan; Vizantiya, Xitoy va Eron bilan doimiy raqobat ahvolni og'irlashtirgan. Oqibatda Turk xoqonligi VI asrning 80-yillari oxirlarida Sharqiy va G'arbiy turk xoqonliklariga bo'lindi.\n\nTurklarning g'arbga yurishlariga Istami boshchilik qilgan, unga ham \"Yabg'u xoqon\" unvoni berilgan. Xoqonlik sosoniylar hukmdori Xusrav I Anushervon bilan eftaliylarga qarshi harbiy ittifoq tuzgan; ittifoq Eron shohining Istamiga kuyov bo'lishi bilan mustahkamlangan. G'arbiy xoqonlik tarkibiga Yettisuv, Sharqiy Turkiston, Sirdaryo va Amudaryo havzalari, Sharqiy xoqonlikka Janubiy Sibir, Urxun havzasi (Mo'g'uliston) va Shimoliy Xitoy kirgan."
+       },
+       {
+        "heading": "Davlat boshqaruvi va mafkura",
+        "pages": [
+         25,
+         26,
+         27
+        ],
+        "text": "Xoqonlik asosini turkiy tilda so'zlashuvchi qabilalar ittifoqi tashkil etgan va uni xoqon boshqargan. Hokimiyat urug'-aymoqchilik udumlariga tayangan harbiy-ma'muriy boshqaruvga asoslangan. O'n ming suvoriyga ega tuman boshi \"shod\" deb yuritilgan; o'n o'q el sardori bir tuman suvoriylariga ega bo'lgan. O'n o'q budun yoki elning hokimi \"yabg'u\" atalgan, bu darajaga faqat xoqon urug'iga qon-qarindosh bo'lganlar ko'tarilgan. Ko'chmanchi chorvador aholi \"budun\" yoki \"qora budun\" deb atalgan. Xoqonlik eng kuchaygan davrda Oxota dengizidan Qrim yarimoroligacha, Sibirdan Hindistongacha hududni egallagan.\n\nDavlat mafkurasiga ko'ra xoqonlik \"el\" deb atalgan (\"mangu el\", \"Tangri el\", \"turk eli\"). Xoqon hokimiyati Tangri tomonidan Ashina xonadoniga in'om etilgan deb ishonilgan; agar hukmdor o'z iqtidorini ko'rsata olmasa, \"Tangri bergan hokimiyat yana Tangri tomonidan qaytarib olinadi\", deb tushunilgan."
+       },
+       {
+        "heading": "Qonunchilik va e'tiqodlar",
+        "pages": [
+         28,
+         29,
+         30
+        ],
+        "text": "Turk xoqonligida davlat urf-odatlar bilan birga yozma qonunchilik bilan ham boshqarilgan: Samarqandda \"Turk qonunnomasi\" amalda bo'lib, ibodatxonada saqlangan, jazo berishda foydalanilgan. Qadimgi Sug'dda oldi-sotdi va nikoh shartnomalari yozma shaklda tuzilib, muhr bilan tasdiqlangan. Farg'ona vodiysidagi Quva va Ajinatepadan Budda haykallari topilgan; Ajinatepa haykalining bo'yi 12 metrga boradi.\n\nXoqonlikda zardushtiylik, moniylik, nasroniylik, buddaviylik, tangrichilik va shomonlik e'tiqodlari bo'lgan. Turkiylarda bo'ri ilohiylashtirilgan. Tangrichilikda Tangri - moviy Osmon sohibi, shu sabab ko'k rang ilohiy buyuklik ramzi sanalgan. Turkiylar mutlaq o'limga ishonmagan, o'limni bir hayotdan ikkinchisiga o'tish deb bilgan, shuning uchun jasadni kiyim-kechak va zarur buyumlari bilan dafn etgan; ajdodlar ruhiga sig'inib, yetti ota-bobosini bilish an'anasi shakllangan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Turk xoqonligi VI asr o'rtalarida Oltoy va Janubiy Sibirda vujudga kelgan, asoschisi Bumin",
+        "page": 24
+       },
+       {
+        "fact": "Eftaliylar davlati sosoniylar va Turk xoqonligi zarbasidan parchalangan",
+        "page": 24
+       },
+       {
+        "fact": "Turk xoqonligi VI asrning 80-yillari oxirlarida Sharqiy va G'arbiy xoqonliklarga bo'linib ketgan",
+        "page": 25
+       },
+       {
+        "fact": "Xoqonlik sosoniy Xusrav I Anushervon bilan eftaliylarga qarshi ittifoq tuzgan",
+        "page": 25
+       },
+       {
+        "fact": "Samarqandda ibodatxonada saqlangan \"Turk qonunnomasi\" amalda bo'lgan",
+        "page": 28
+       }
+      ],
+      "why": {
+       "causes": [
+        "Qabilalar va hokimlar markaziy hokimiyatga bo'ysunmaslikka, mustaqil bo'lishga intilgan",
+        "Bo'ysundirilgan hududlar mahalliy hokimlar orqali boshqarilgan",
+        "Vizantiya, Xitoy va Eron bilan doimiy raqobat bo'lgan"
+       ],
+       "effects": [
+        "Turk xoqonligi mustahkam markazlashgan davlatga aylana olmadi",
+        "VI asrning 80-yillari oxirlarida xoqonlik Sharqiy va G'arbiy qismlarga bo'lindi",
+        "Eftaliylar davlati sosoniylar va turklar zarbasidan parchalanib, Amudaryo bo'yidagi yerlar bo'lishib olindi"
+       ]
+      },
+      "summary": "Turk xoqonligi VI asr o'rtalarida Bumin asosida Oltoyda tuzildi va sosoniylar bilan ittifoqda eftaliylarni parchaladi. Davlat qabilalar ittifoqi va harbiy-ma'muriy tizimga tayangan; Ashina xonadoni hokimiyati ilohiylashtirilgan. Markazlashmaganligi va raqobat tufayli VI asr 80-yillari oxirida Sharqiy va G'arbiy xoqonliklarga bo'lingan. Samarqandda yozma qonunnoma amalda bo'lgan, turli dinlar yonma-yon yashagan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "8-9-mavzular. Turk xoqonligi",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Tashkil topishi",
+        "bullets": [
+         "VI asr o'rtalari, Oltoy",
+         "Asoschisi - Bumin (Yabg'u xoqon)",
+         "Eftaliylar davlati parchalandi"
+        ],
+        "page": 24
+       },
+       {
+        "title": "Bo'linish",
+        "bullets": [
+         "VI asr 80-yillari oxiri",
+         "Sharqiy va G'arbiy xoqonlik",
+         "Sabab: bo'ysunmaslik, raqobat"
+        ],
+        "page": 25
+       },
+       {
+        "title": "Boshqaruv",
+        "bullets": [
+         "Qabilalar ittifoqi - xoqon",
+         "Shod - 10 ming suvoriy boshlig'i",
+         "Yabg'u - xoqon urug'idan"
+        ],
+        "page": 26
+       },
+       {
+        "title": "E'tiqodlar",
+        "bullets": [
+         "Tangrichilik, shomonlik",
+         "Zardushtiylik, buddaviylik",
+         "Bo'ri totemi"
+        ],
+        "page": 29
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Turk xoqonligining tashkil topishi (VI asr o'rtalari)",
+         "page": 24
+        },
+        {
+         "label": "Eftaliylar davlatining parchalanishi",
+         "page": 24
+        },
+        {
+         "label": "Xoqonlikning Sharqiy va G'arbiy qismlarga bo'linishi (VI asrning 80-yillari oxiri)",
+         "page": 25
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Bumin",
+         "right": "Turk xoqonligi asoschisi, Yabg'u xoqon",
+         "page": 24
+        },
+        {
+         "left": "Istami",
+         "right": "Turklarning g'arbga yurishiga boshchilik qilgan yabg'u xoqon",
+         "page": 25
+        },
+        {
+         "left": "Ashina",
+         "right": "Tangri hokimiyat in'om etgan deb hisoblangan xonadon",
+         "page": 25
+        },
+        {
+         "left": "Shod",
+         "right": "10 ming suvoriyga ega tuman boshi",
+         "page": 26
+        },
+        {
+         "left": "Qora budun",
+         "right": "Ko'chmanchi chorvador aholi",
+         "page": 26
+        },
+        {
+         "left": "Ajinatepa",
+         "right": "Bo'yi 12 metrli Budda haykali topilgan joy",
+         "page": 28
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Turk xoqonligi asoschisi ____ edi.",
+         "options": [
+          "Bumin",
+          "Istami",
+          "Kidar",
+          "Eftalon"
+         ],
+         "correct_index": 0,
+         "page": 24
+        },
+        {
+         "question": "Xoqonlik VI asrning ____ yillari oxirlarida ikkiga bo'lingan.",
+         "options": [
+          "80-",
+          "20-",
+          "50-",
+          "10-"
+         ],
+         "correct_index": 0,
+         "page": 25
+        },
+        {
+         "question": "Xoqonlikda hukmdor hokimiyati ____ xonadoniga in'om etilgan deb hisoblangan.",
+         "options": [
+          "Ashina",
+          "Afrig'iy",
+          "Sosoniy",
+          "Somoniy"
+         ],
+         "correct_index": 0,
+         "page": 25
+        },
+        {
+         "question": "Samarqandda ibodatxonada ____ qonunnomasi saqlangan.",
+         "options": [
+          "Turk",
+          "Rim",
+          "Xammurapi",
+          "Drakont"
+         ],
+         "correct_index": 0,
+         "page": 28
+        },
+        {
+         "question": "Tangrichilikda ____ rang ilohiy buyuklik ramzi hisoblangan.",
+         "options": [
+          "ko'k",
+          "qizil",
+          "yashil",
+          "oq"
+         ],
+         "correct_index": 0,
+         "page": 30
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Eftaliylarning tarix sahnasidan chiqib ketishi va Turk xoqonligining qaror topishiga qanday omillar sabab bo'lgan?",
+        "answer": "Eftaliylar shimoliy hududlarni mudofaa qilayotganda sosoniylar janubiy o'lkalarni tortib olgan; janubdan sosoniylar, shimoldan Turk xoqonligi zarbasi bilan davlat parchalangan.",
+        "page": 24
+       },
+       {
+        "question": "Turk xoqonligi qaysi davlatlar bilan chegaradosh bo'lgan?",
+        "answer": "Sosoniylar (Eron), Vizantiya, Hindiston, Tibet, Suy imperiyasi (Xitoy) va toxarlar bilan.",
+        "page": 26
+       },
+       {
+        "question": "Qanday sabablarga ko'ra hukmdor hokimiyatdan uzoqlashtirilgan?",
+        "answer": "Agar hukmdor Tangri bergan siyosiy hokimiyatga ishonchni oqlamasa, iqtidorini ko'rsata olmasa, hokimiyat undan qaytarib olingan.",
+        "page": 25
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Turk xoqonligi qaysi sulola bilan eftaliylarga qarshi ittifoq tuzgan?",
+        "options": [
+         "Sosoniylar",
+         "Kushonlar",
+         "Xioniylar",
+         "Gupta"
+        ],
+        "correct_index": 0,
+        "page": 25
+       },
+       {
+        "question": "\"Turk\" so'zi qanday ma'nolarni anglatadi?",
+        "options": [
+         "Baquvvat, barkamol, odillik",
+         "Dengizchi, savdogar",
+         "Dehqon, hunarmand",
+         "Ruhoniy, kohin"
+        ],
+        "correct_index": 0,
+        "page": 24
+       },
+       {
+        "question": "Turkiylarda qaysi hayvon ilohiylashtirilgan?",
+        "options": [
+         "Bo'ri",
+         "Burgut",
+         "Sher",
+         "Ayiq"
+        ],
+        "correct_index": 0,
+        "page": 29
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Turk xoqonligi qachon vujudga keldi?",
+       "options": [
+        "VI asr o'rtalarida",
+        "II asr o'rtalarida",
+        "IX asr o'rtalarida",
+        "XII asr o'rtalarida"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Turk xoqonligi qaysi hududda yashagan turkiy qabilalarni birlashtirgan?",
+       "options": [
+        "Oltoy va Janubiy Sibirda",
+        "Hindistonda",
+        "Eronda",
+        "Misrda"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Xoqonlik asoschisi kim edi?",
+       "options": [
+        "Bumin",
+        "Istami",
+        "Kidar",
+        "Peroz"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Bumin qanday unvon oldi?",
+       "options": [
+        "\"Yabg'u xoqon\"",
+        "\"Shohanshoh\"",
+        "\"Sho\"",
+        "\"Imperator\""
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Xoqonlik markazi qayer qilib belgilandi?",
+       "options": [
+        "Oltoy",
+        "Samarqand",
+        "Balx",
+        "Buxoro"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Sosoniylar eftaliylardan qaysi o'lkalarni tortib oldi?",
+       "options": [
+        "Toxariston va Chag'oniyon",
+        "Xorazm va Sug'd",
+        "Farg'ona va Choch",
+        "Hindiston va Xitoy"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Eftaliylar davlati nima sababdan parchalandi?",
+       "options": [
+        "Janubdan sosoniylar va shimoldan Turk xoqonligi zarbasidan",
+        "Zilziladan",
+        "Ocharchilikdan",
+        "Dengiz toshqinidan"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Amudaryoning o'ng sohillari bo'ylab Kaspiy dengizigacha bo'lgan yerlar kimning tasarrufiga o'tdi?",
+       "options": [
+        "Turk xoqonligi",
+        "Sosoniylar",
+        "Vizantiya",
+        "Kushonlar"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Turk xoqonligi qaysi yillar oxirlarida ikkiga bo'lindi?",
+       "options": [
+        "VI asrning 80-yillari oxirlarida",
+        "II asrning 20-yillarida",
+        "X asrning 50-yillarida",
+        "XIII asr boshida"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Quyidagilardan qaysi biri xoqonlik zaiflashuvining sababi emas?",
+       "options": [
+        "Yagona yozma qonunlarning mavjudligi",
+        "Qabilalarning bo'ysunmaslikka intilishi",
+        "Mahalliy hokimlar orqali boshqaruv",
+        "Vizantiya, Xitoy va Eron bilan raqobat"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Xoqonlik davlat mafkurasiga ko'ra qanday atalgan?",
+       "options": [
+        "\"El\"",
+        "\"Respublika\"",
+        "\"Polis\"",
+        "\"Satrapiya\""
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Turklar ishonishicha, hokimiyatni kimga Tangri in'om etgan?",
+       "options": [
+        "Ashina xonadoniga",
+        "Afrig'iylarga",
+        "Sosoniylarga",
+        "Somoniylarga"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Agar hukmdor iqtidorini ko'rsata olmasa, uning hokimiyati haqida nima deb tushunilgan?",
+       "options": [
+        "Tangri bergan hokimiyat yana Tangri tomonidan qaytarib olinadi",
+        "Hokimiyat avloddan avlodga o'taveradi",
+        "Hukmdor surgun qilinadi",
+        "Hokimiyat sotib olinadi"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Turklarning g'arbga yurishlariga kim boshchilik qilgan?",
+       "options": [
+        "Istami",
+        "Bumin",
+        "Eftalon",
+        "Kidar"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Eron shohi Xusrav I Anushervon turk xoqoni Istamiga kim bo'ldi?",
+       "options": [
+        "Kuyov",
+        "Qaynota",
+        "Ukasi",
+        "Elchi"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "G'arbiy xoqonlik tarkibiga qaysi hududlar kirgan?",
+       "options": [
+        "Yettisuv, Sharqiy Turkiston, Sirdaryo va Amudaryo havzalari",
+        "Janubiy Sibir va Mo'g'uliston",
+        "Hindiston va Tibet",
+        "Misr va Suriya"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Sharqiy xoqonlik tasarrufiga qaysi hududlar kirgan?",
+       "options": [
+        "Janubiy Sibir, Urxun havzasi (Mo'g'uliston), Shimoliy Xitoy",
+        "Yettisuv va Farg'ona",
+        "Eron va Iroq",
+        "Xorazm va Buxoro"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Xoqonlik asosini nima tashkil etgan?",
+       "options": [
+        "Turkiy tilda so'zlashuvchi qabilalar ittifoqi",
+        "Shahar-davlatlar ittifoqi",
+        "Savdogarlar kengashi",
+        "Ruhoniylar jamoasi"
+       ],
+       "correct_index": 0,
+       "page": 26
+      },
+      {
+       "question": "O'n ming suvoriyga ega tuman boshi qanday atalgan?",
+       "options": [
+        "Shod",
+        "Yabg'u",
+        "Budun",
+        "Xoqon"
+       ],
+       "correct_index": 0,
+       "page": 26
+      },
+      {
+       "question": "Ko'chmanchi chorvador aholi qanday atalgan?",
+       "options": [
+        "Budun yoki qora budun",
+        "Shod",
+        "Yabg'u",
+        "Chokar"
+       ],
+       "correct_index": 0,
+       "page": 26
+      },
+      {
+       "question": "Yabg'u darajasiga kimlar ko'tarilgan?",
+       "options": [
+        "Faqat xoqon urug'iga qon-qarindosh bo'lganlar",
+        "Har qanday jangchi",
+        "Boy savdogarlar",
+        "Ruhoniylar"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Xoqonlik eng kuchaygan davrda qaysi hududlarni egallagan?",
+       "options": [
+        "Oxota dengizidan Qrim yarimoroligacha, Sibirdan Hindistongacha",
+        "Faqat Oltoyni",
+        "Faqat Yettisuvni",
+        "Faqat Xorazmni"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Samarqandda amalda bo'lgan yozma hujjat qanday atalgan?",
+       "options": [
+        "Turk qonunnomasi",
+        "Avesto",
+        "Hammurapi qonunlari",
+        "Shohnoma"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "Qadimgi Sug'dda oldi-sotdi va nikoh shartnomalari qanday tasdiqlangan?",
+       "options": [
+        "Yozma shaklda tuzilib, muhr bilan",
+        "Faqat og'zaki",
+        "Qasamyod bilan",
+        "Hukmdor farmoni bilan"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "Ajinatepa Budda haykalining bo'yi qancha?",
+       "options": [
+        "12 metr",
+        "2 metr",
+        "50 metr",
+        "120 metr"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "Turkiylarda qaysi hayvon ilohiylashtirilgan?",
+       "options": [
+        "Bo'ri",
+        "Ot",
+        "Tuya",
+        "Sher"
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Qadimgi turklar o'z dinini nima deb yuritgan?",
+       "options": [
+        "\"Qam\"",
+        "\"Mobad\"",
+        "\"Mog'\"",
+        "\"Kohin\""
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Tangrichilik ta'limotiga ko'ra, Tangri kim?",
+       "options": [
+        "Moviy Osmon sohibi",
+        "Yer ma'budasi",
+        "Suv ilohi",
+        "Olov ma'budi"
+       ],
+       "correct_index": 0,
+       "page": 30
+      },
+      {
+       "question": "Qaysi rang tangrichilikda ilohiy buyuklik ramzi hisoblangan?",
+       "options": [
+        "Ko'k",
+        "Qora",
+        "Yashil",
+        "Sariq"
+       ],
+       "correct_index": 0,
+       "page": 30
+      },
+      {
+       "question": "Turkiylar o'limga qanday qaragan?",
+       "options": [
+        "Bir hayotdan ikkinchisiga o'tish deb",
+        "Butunlay yo'qolish deb",
+        "Jazo deb",
+        "Mukofot deb"
+       ],
+       "correct_index": 0,
+       "page": 30
+      },
+      {
+       "question": "Turkiylarda jasad nima bilan birga dafn etilgan?",
+       "options": [
+        "Kiyim-kechak va kundalik zarur ashyolari bilan",
+        "Faqat oltin bilan",
+        "Hech narsasiz",
+        "Faqat kitoblar bilan"
+       ],
+       "correct_index": 0,
+       "page": 30
+      }
+     ]
+    },
+    {
+     "key": "m10_11",
+     "title": "10-11-mavzular. G'arbiy Turk xoqonligi",
+     "start_page": 32,
+     "end_page": 38,
+     "explanation": {
+      "goals": [
+       "G'arbiy Turk xoqonligining boshqaruvi, mahalliy hukmdorlar unvonlarini bilish",
+       "Xoqonlik davridagi xo'jalik, madaniyat va ijtimoiy ziddiyatlarni (Abruy qo'zg'oloni) tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "G'arbiy xoqonlik va islohotlar",
+        "pages": [
+         32,
+         33
+        ],
+        "text": "G'arbiy xoqonlik ijtimoiy, iqtisodiy va madaniy jihatdan Sharqiy xoqonlikdan mutlaqo ajralib turgan: aholining katta qismi o'troq dehqonchilik, hunarmandchilik va savdo-sotiq bilan mashg'ul edi. VII asrning birinchi choragida G'arbiy xoqonlik taraqqiy etdi. Xoqon To'n yabg'u davrida boshqaruv isloh qilindi: viloyat hokimlarini xoqonlik ma'muriyati bilan bevosita bog'lash va ular ustidan nazoratni kuchaytirish maqsadida mahalliy hukmdorlarga \"yabg'u\" unvoni berildi.\n\nXoqon noiblari - tudunlar yordamida mustaqil hokimliklar ustidan nazoratni kuchaytirgan. Xoqonlik \"o'nlik\" tizimini yaratish, vassal hokimliklar hududida qarorgohlar barpo etish, boshqaruvni takomillashtirish kabi islohotlarni amalga oshirgan. Suyab (Oq Bishim), Beshbaliq (Turfan), Ek-tog' kabi shaharlar xoqonlikda qarorgoh vazifasini bajargan. Lavozim egalari harbiy unvonga ega bo'lishi shart sanalgan."
+       },
+       {
+        "heading": "Mahalliy hukmdorlar",
+        "pages": [
+         33,
+         34
+        ],
+        "text": "Markaziy boshqaruv davlat osoyishtaligi, sarhadlarni kengaytirish, soliq tizimi, savdo va diplomatik aloqalar bilan shug'ullanib, zabt etilgan hududlarga ma'lum erkinlik bergan. Shuning uchun Farg'ona, Sug'd, Choch, Toxariston, Xorazm va boshqa mulklardagi boshqaruv asosan mahalliy sulolalar qo'lida bo'lgan. Sug'd va Farg'onada oliy hukmdor - \"ixshid\", Toxaristonda - \"malikshoh\", Xorazmda - \"xorazmshoh\", Keshda - \"ixrid\", Buxoroda - \"xudot\", Ustrushonada - \"afshin\", Chochda - \"tudun\" deb atalgan. Ular markaziy hokimiyatga faqat boj to'lab turib, mustaqillikni ma'lum darajada saqlagan.\n\nTurk xoqonligi davrida Sug'd hududlariga hozirgi Panjikentdan Karmanagacha yerlar kirgan. Buxoro VII asrdan mustaqil mulklar ittifoqidan iborat bo'lgan. Farg'ona Sug'd siyosiy ittifoqiga kirmagan, alohida mustaqil davlat edi."
+       },
+       {
+        "heading": "Xo'jalik va savdo",
+        "pages": [
+         32,
+         34
+        ],
+        "text": "Xoqonlikda \"ajratib berilgan yerlar\"da dehqonlar suv manbalari va lalmikor yerlardan foydalanib, asosan donli ekinlar yetishtirgan, bog'-rog'larga alohida ahamiyat bergan. Shahar aholisi hunarmandchilik va savdo bilan mashg'ul bo'lgan: kulolchilik, to'qimachilik, sarrojlik, misgarlik, chilangarlik, temirchilik va zargarlik taraqqiy etgan.\n\nHunarmandchilik uchun Farg'ona va Sug'dda oltin, temir, mis, Iloqda qo'rg'oshin, kumush va oltin, Shahrisabzda tosh va tuz qazib olingan. Savdogarlar orasida sug'd savdogarlarining mavqeyi baland bo'lgan. VII asrning birinchi yarmida G'arbiy xoqonlik bilan Xitoy o'rtasida iqtisodiy aloqalar faollashgan: Xitoyga to'qqiz marta savdo elchiligi yuborilgan."
+       },
+       {
+        "heading": "Abruy qo'zg'oloni",
+        "pages": [
+         36
+        ],
+        "text": "Turk xoqonligi davrida dehqonlar yerlarni egallash jarayoni avj olib, zulm kuchaydi: o'z yeridan ajralgan kashovarzlar dehqonlar asoratiga tushib, qaram kadivarlarga aylandi. Qashshoqlik va zulmga qarshi aholi bosh ko'tardi. Buxoroda xoqon xonadoniga mansub Abruy boshchiligida qo'zg'olon bo'ldi.\n\nVahimaga tushgan dehqonlar va boy savdogarlar Buxoroni tark etib, Turkiston va Taroz atrofiga ko'chib, turk xoqoniga murojaat qildi. Xoqon Qorachurin o'g'li Sheri Kishvar (El Arslon) boshliq qo'shin yubordi. Abruy o'ldirilib, qo'zg'olon bostirildi, kadivarlar xo'jayinlariga qaytarildi. Voqea Narshaxiyning \"Buxoro tarixi\" kitobida bayon etilgan."
+       },
+       {
+        "heading": "Qonun, ta'lim va madaniyat",
+        "pages": [
+         35,
+         37,
+         38
+        ],
+        "text": "Turk xoqonligida jinoyatga qarshi qonunlarga amal qilingan. Jazoning asosiy turlari - qatl, a'zolarni kesish, zararni to'lash, mol-mulk tarzida tovon edi. O'lim jazosi davlatga qarshi jinoyatlar (isyon, sotqinlik) va qasddan odam o'ldirish uchun berilgan; o'g'rilik qilganning qo'li yoki oyog'i kesilgan; shaxsga qarshi boshqa jinoyatlarda zararni o'n barobar to'lash kerak bo'lgan.\n\nBola 5 yoshga to'lishi bilan xat-savod va hisob-kitobga o'rgatilgan, balog'atga yetgach, dunyoni tanish va savdo uchun vakillar homiyligida boshqa davlatlarga yuborilgan. Turk-runiy (Urxun-Yenisey) yozuvi, Kultegin bitiklari, Bilga xoqon yodnomasi turk yozma madaniyatidan guvohlik beradi; Sug'd va Xorazm yozuvlari ham qo'llangan, shaharlarda sug'd-turk ikki tilliligi rasmiy odat bo'lgan (Mahmud Qoshg'ariy ma'lumoti). Navro'z o'sha davrda ham nishonlangan. XX asr 60-yillarida Afrosiyobdan topilgan devoriy rasmlarda turli mamlakatlardan kelgan elchilar tasvirlangan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "G'arbiy xoqonlik aholisi asosan o'troq dehqonchilik, hunarmandchilik va savdo bilan mashg'ul edi",
+        "page": 32
+       },
+       {
+        "fact": "Xoqon To'n yabg'u davrida mahalliy hukmdorlarga \"yabg'u\" unvoni berilib, boshqaruv isloh qilingan",
+        "page": 32
+       },
+       {
+        "fact": "Sug'd va Farg'onada hukmdor \"ixshid\", Buxoroda \"xudot\", Ustrushonada \"afshin\", Xorazmda \"xorazmshoh\" deb atalgan",
+        "page": 33
+       },
+       {
+        "fact": "Buxoroda xoqon xonadoniga mansub Abruy boshchiligida qo'zg'olon ko'tarilgan",
+        "page": 36
+       },
+       {
+        "fact": "Bola 5 yoshdan xat-savod va hisobga o'rgatilgan",
+        "page": 37
+       }
+      ],
+      "why": {
+       "causes": [
+        "Zabt etilgan hududlarni boshqarish markaziy hokimiyatga mahalliy sulolalar orqali osonroq edi",
+        "Dehqonlar kashovarzlarni yerdan ayirib, kadivarlarga aylantirdi, zulm kuchaydi",
+        "Xoqonlikka qabila va elatlarni birlashtirish hamda soliq va o'lponlarni to'plash zarur edi"
+       ],
+       "effects": [
+        "Farg'ona, Sug'd, Xorazm va boshqa mulklarda boshqaruv mahalliy sulolalar qo'lida qoldi, ular faqat boj to'ladi",
+        "Buxoroda Abruy qo'zg'oloni ko'tarildi; xoqon yuborgan qo'shin uni bostirdi",
+        "Xoqonlik \"o'nlik\" tizimi, tudunlar va qarorgohlar orqali nazoratni kuchaytirdi",
+        "Xitoy bilan savdo elchiliklari faollashdi"
+       ]
+      },
+      "summary": "G'arbiy Turk xoqonligi o'troq dehqonchilik va savdoga tayangan, To'n yabg'u davrida boshqaruvni isloh qilgan va mahalliy sulolalarga (ixshid, xudot, afshin va b.) ichki erkinlik berib, boj olgan. Dehqonlar zulmiga qarshi Abruy qo'zg'oloni bostirilgan. Davrda turk-runiy yozuvi, qonunlar, sug'd-turk ikki tilliligi va Navro'z saqlangan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "10-11-mavzular. G'arbiy Turk xoqonligi",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Islohotlar",
+        "bullets": [
+         "To'n yabg'u davri",
+         "\"Yabg'u\" unvoni mahalliy hukmdorlarga",
+         "Tudunlar, o'nlik tizimi"
+        ],
+        "page": 32
+       },
+       {
+        "title": "Hukmdor unvonlari",
+        "bullets": [
+         "Sug'd, Farg'ona - ixshid",
+         "Buxoro - xudot, Ustrushona - afshin",
+         "Xorazm - xorazmshoh, Choch - tudun"
+        ],
+        "page": 33
+       },
+       {
+        "title": "Xo'jalik",
+        "bullets": [
+         "Donli ekinlar, bog'lar",
+         "Kulolchilik, zargarlik, temirchilik",
+         "Sug'd savdogarlari, Xitoy savdosi"
+        ],
+        "page": 34
+       },
+       {
+        "title": "Abruy qo'zg'oloni",
+        "bullets": [
+         "Buxoroda zulmga qarshi",
+         "Sheri Kishvar qo'shini bostirdi",
+         "Narshaxiy \"Buxoro tarixi\""
+        ],
+        "page": 36
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "G'arbiy xoqonlikning taraqqiyoti, To'n yabg'u islohotlari (VII asr birinchi choragi)",
+         "page": 32
+        },
+        {
+         "label": "Xitoyga to'qqiz marta savdo elchiligi yuboriladi (VII asr birinchi yarmi)",
+         "page": 34
+        },
+        {
+         "label": "Buxoroda Abruy qo'zg'oloni",
+         "page": 36
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Ixshid",
+         "right": "Sug'd va Farg'ona hukmdori unvoni",
+         "page": 33
+        },
+        {
+         "left": "Xudot",
+         "right": "Buxoro hukmdori unvoni",
+         "page": 33
+        },
+        {
+         "left": "Afshin",
+         "right": "Ustrushona hukmdori unvoni",
+         "page": 33
+        },
+        {
+         "left": "Malikshoh",
+         "right": "Toxariston hukmdori unvoni",
+         "page": 33
+        },
+        {
+         "left": "Tudun",
+         "right": "Xoqonning noibi; Choch hukmdori unvoni",
+         "page": 33
+        },
+        {
+         "left": "Abruy",
+         "right": "Buxorodagi qo'zg'olon rahbari",
+         "page": 36
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Xoqon ____ yabg'u davrida G'arbiy xoqonlik boshqaruvi isloh qilingan.",
+         "options": [
+          "To'n",
+          "Bumin",
+          "Istami",
+          "Abruy"
+         ],
+         "correct_index": 0,
+         "page": 32
+        },
+        {
+         "question": "Buxoroda hukmdor ____ deb atalgan.",
+         "options": [
+          "xudot",
+          "afshin",
+          "ixshid",
+          "malikshoh"
+         ],
+         "correct_index": 0,
+         "page": 33
+        },
+        {
+         "question": "Ustrushonada hukmdor ____ deb atalgan.",
+         "options": [
+          "afshin",
+          "ixrid",
+          "tudun",
+          "xudot"
+         ],
+         "correct_index": 0,
+         "page": 33
+        },
+        {
+         "question": "Buxorodagi qo'zg'olonga ____ boshchilik qilgan.",
+         "options": [
+          "Abruy",
+          "Kidar",
+          "Peroz",
+          "Sheri Kishvar"
+         ],
+         "correct_index": 0,
+         "page": 36
+        },
+        {
+         "question": "Bola ____ yoshga to'lishi bilan xat-savodga jalb etilgan.",
+         "options": [
+          "5",
+          "10",
+          "15",
+          "2"
+         ],
+         "correct_index": 0,
+         "page": 37
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "G'arbiy xoqonlik Sharqiy xoqonlikdan nimasi bilan farqlangan?",
+        "answer": "G'arbiy xoqonlik ijtimoiy, iqtisodiy va madaniy jihatdan Sharqiy xoqonlikdan mutlaqo ajralib turgan: aholining katta qismi o'troq dehqonchilik, hunarmandchilik va savdo-sotiq bilan mashg'ul bo'lgan.",
+        "page": 32
+       },
+       {
+        "question": "Yurtimiz hududi qaysi Turk xoqonligi tarkibida bo'lgan?",
+        "answer": "G'arbiy Turk xoqonligi tarkibida.",
+        "page": 32
+       },
+       {
+        "question": "Turk xoqonligida jinoyat uchun qanday jazolar berilgan?",
+        "answer": "Qatl etish, a'zolarni kesish, zararni to'lash, mol-mulk tarzida tovon; davlatga qarshi jinoyat va qasddan qotillik uchun o'lim jazosi.",
+        "page": 37
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Sug'd savdogarlarining mavqeyi qanday bo'lgan?",
+        "options": [
+         "Baland",
+         "Past",
+         "Yo'q edi",
+         "Faqat ichki savdo"
+        ],
+        "correct_index": 0,
+        "page": 34
+       },
+       {
+        "question": "Farg'ona Sug'd siyosiy ittifoqiga kirganmi?",
+        "options": [
+         "Yo'q, u alohida mustaqil davlat edi",
+         "Ha, markaz edi",
+         "Ha, vassal edi",
+         "Xoqonlikka kirmagan"
+        ],
+        "correct_index": 0,
+        "page": 34
+       },
+       {
+        "question": "Qaysi asarda Abruy qo'zg'oloni bayon etilgan?",
+        "options": [
+         "Narshaxiyning \"Buxoro tarixi\"",
+         "Avesto",
+         "Shohnoma",
+         "Devonu lug'otit-turk"
+        ],
+        "correct_index": 0,
+        "page": 36
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "G'arbiy xoqonlik aholisining katta qismi nima bilan mashg'ul edi?",
+       "options": [
+        "O'troq dehqonchilik, hunarmandchilik va savdo-sotiq",
+        "Faqat ko'chmanchi chorvachilik",
+        "Faqat ovchilik",
+        "Dengizchilik"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "G'arbiy xoqonlik qaysi asrning birinchi choragida taraqqiy etdi?",
+       "options": [
+        "VII asr",
+        "II asr",
+        "X asr",
+        "XIII asr"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "Boshqaruvni islohot qilgan xoqon kim edi?",
+       "options": [
+        "To'n yabg'u",
+        "Bumin",
+        "Abruy",
+        "Istami"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "Mahalliy hukmdorlarga \"yabg'u\" unvoni nima maqsadda berildi?",
+       "options": [
+        "Ularni ma'muriyat bilan bevosita bog'lash va nazoratni kuchaytirish",
+        "Ularni jazolash",
+        "Savdoni to'xtatish",
+        "Hokimiyatni cheklash uchun yagona hukmdor tayinlash"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "Xoqonning noiblari qanday atalgan?",
+       "options": [
+        "Tudunlar",
+        "Shodlar",
+        "Budunlar",
+        "Chokarlar"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Quyidagilardan qaysi biri G'arbiy xoqonlik qarorgohlaridan biri bo'lgan?",
+       "options": [
+        "Suyab (Oq Bishim)",
+        "Rim",
+        "Kat",
+        "Persepol"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Lavozim egalari uchun nima shart hisoblangan?",
+       "options": [
+        "Harbiy unvonga ega bo'lish",
+        "Yozuv bilish",
+        "Boy bo'lish",
+        "Ruhoniy bo'lish"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Mahalliy sulolalar markaziy hokimiyatga nima to'lagan?",
+       "options": [
+        "Boj",
+        "Faqat qul",
+        "Oltin tog'ora",
+        "Hech narsa"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Toxaristonda oliy hukmdor qanday atalgan?",
+       "options": [
+        "Malikshoh",
+        "Xudot",
+        "Afshin",
+        "Ixrid"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Keshda oliy hukmdor qanday atalgan?",
+       "options": [
+        "Ixrid",
+        "Xudot",
+        "Afshin",
+        "Tudun"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Chochda oliy hukmdor qanday atalgan?",
+       "options": [
+        "Tudun",
+        "Ixshid",
+        "Xorazmshoh",
+        "Malikshoh"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Xorazmda oliy hukmdor qanday atalgan?",
+       "options": [
+        "Xorazmshoh",
+        "Ixshid",
+        "Afshin",
+        "Xudot"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Turk xoqonligi davrida Sug'd hududlariga qaysi yerlar kirgan?",
+       "options": [
+        "Hozirgi Panjikentdan Karmanagacha",
+        "Faqat Samarqand",
+        "Xorazmdan Orolgacha",
+        "Termizdan Balxgacha"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Buxoro VII asrdan qanday tuzilmaga ega bo'lgan?",
+       "options": [
+        "Mustaqil mulklar ittifoqi",
+        "Yagona monarxiya",
+        "Respublika",
+        "Xitoy provinsiyasi"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Qaysi mulk Sug'd siyosiy ittifoqiga kirmagan va alohida mustaqil davlat edi?",
+       "options": [
+        "Farg'ona",
+        "Buxoro",
+        "Choch",
+        "Xorazm"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Ko'chmanchilarning asosiy mashg'uloti nima edi?",
+       "options": [
+        "Chorvachilik",
+        "Hunarmandchilik",
+        "Dehqonchilik",
+        "Savdo"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Iloqda nimalar qazib olingan?",
+       "options": [
+        "Qo'rg'oshin, kumush va oltin",
+        "Tosh va tuz",
+        "Temir va mis",
+        "Faqat ko'mir"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Shahrisabzda nimalar qazib olingan?",
+       "options": [
+        "Tosh va tuz",
+        "Oltin va kumush",
+        "Qo'rg'oshin",
+        "Nefrit"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "VII asrning birinchi yarmida Xitoyga necha marta savdo elchiligi yuborilgan?",
+       "options": [
+        "To'qqiz marta",
+        "Ikki marta",
+        "Yigirma marta",
+        "Hech qachon"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Turk-runiy (Urxun-Yenisey) yozuviga oid yodgorlik qaysi?",
+       "options": [
+        "Kultegin bitiklari",
+        "Behistun bitiklari",
+        "Rozett toshi",
+        "Hammurapi ustuni"
+       ],
+       "correct_index": 0,
+       "page": 35
+      },
+      {
+       "question": "Sug'd yozuvi qaysi yo'nalishda yozilgan?",
+       "options": [
+        "Chapdan o'ngga",
+        "O'ngdan chapga",
+        "Yuqoridan pastga",
+        "Pastdan yuqoriga"
+       ],
+       "correct_index": 0,
+       "page": 35
+      },
+      {
+       "question": "Shaharlarda sug'd-turk ikki tilliligi haqida qaysi asarda qayd etilgan?",
+       "options": [
+        "Mahmud Qoshg'ariyning \"Devonu lug'otit-turk\"i",
+        "Avesto",
+        "Shohnoma",
+        "Buxoro tarixi"
+       ],
+       "correct_index": 0,
+       "page": 35
+      },
+      {
+       "question": "Navro'z qaysi davrda ham keng nishonlangan?",
+       "options": [
+        "Turk xoqonligi davrida",
+        "Faqat Temuriylar davrida",
+        "Faqat XX asrda",
+        "Hech qachon"
+       ],
+       "correct_index": 0,
+       "page": 35
+      },
+      {
+       "question": "Abruy qo'zg'oloni qaysi shaharda yuz bergan?",
+       "options": [
+        "Buxoroda",
+        "Samarqandda",
+        "Termizda",
+        "Xivada"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Abruy kimlar xonadoniga mansub edi?",
+       "options": [
+        "Xoqon xonadoniga",
+        "Sosoniylarga",
+        "Dehqonlarga",
+        "Savdogarlarga"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Qo'zg'olonni bostirish uchun xoqon kimni qo'shin bilan yubordi?",
+       "options": [
+        "O'g'li Sheri Kishvarni",
+        "Bumin",
+        "Istamini",
+        "Kidarni"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Qo'zg'olon bostirilgach, kadivarlar kimlarga qaytarildi?",
+       "options": [
+        "O'z xo'jayinlari - dehqonlarga",
+        "Ozod qilindi",
+        "Xoqonga topshirildi",
+        "Shaharga yuborildi"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Turk xoqonligida o'lim jazosi qaysi jinoyatlar uchun berilgan?",
+       "options": [
+        "Davlatga qarshi jinoyatlar va qasddan odam o'ldirish",
+        "Qarz to'lamaslik",
+        "Soliq to'lamaslik",
+        "Savdoda aldash"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "O'g'rilik qilgan shaxsga qanday jazo berilgan?",
+       "options": [
+        "Qo'li yoki oyog'i kesilgan",
+        "Jarima solingan",
+        "Surgun qilingan",
+        "Kechirilgan"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Afrosiyob devoriy rasmlari qaysi asrda topilgan?",
+       "options": [
+        "XX asrning 60-yillarida",
+        "XV asrda",
+        "XIX asr boshida",
+        "XXI asrda"
+       ],
+       "correct_index": 0,
+       "page": 38
+      }
+     ]
+    },
+    {
+     "key": "m12_13",
+     "title": "12-13-mavzular. Mahalliy hokimliklarning tashkil topishi",
+     "start_page": 39,
+     "end_page": 47,
+     "explanation": {
+      "goals": [
+       "Turk xoqonligi davrida mahalliy hokimliklar (Toxariston, Sug'd, Farg'ona, Choch) xususiyatlarini bilish",
+       "Mahalliy sulolalar boshqaruvini saqlab qolishdan xoqonlik maqsadini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Mustaqil hokimliklar",
+        "pages": [
+         39
+        ],
+        "text": "V-VII asrlarda Turk xoqonligi bir necha hokimliklarga bo'linib, 15 dan ortiq mustaqil hokimlik tashkil topdi. Turk xoqonligi dastlabki yillarda mahalliy boshqaruv tizimiga tub o'zgarishlar kiritmagan. Xoqonlik ikkiga bo'lingach, G'arbiy Turk xoqonligi bu masalaga jiddiy e'tibor berdi: ma'muriy islohotlar xoqonlik va mahalliy boshqaruv faoliyatini muvofiqlashtirishga qaratildi.\n\nMahalliy sulolalar boshqaruvini saqlab qolishdan maqsad o'troq o'lkalarda siyosiy barqarorlikni ta'minlash, iqtisodiy rivojni to'xtatmaslik va harbiy jihatdan ko'maklashuv bo'lgan. Mahalliy hukmdorlarning aksariyati xoqonlik hukmdorlari bilan qardoshlik aloqalari o'rnatgani xoqonlik diplomatiyasi mahoratini oshirgan."
+       },
+       {
+        "heading": "Toxariston",
+        "pages": [
+         40
+        ],
+        "text": "Toxaristonda 27 ta tog' va tog'oldi viloyatlaridan iborat mustaqil hokimliklar bo'lgan, poytaxti Balx shahri edi. Hozirgi Janubiy O'zbekiston, Janubiy Tojikiston va Shimoliy Afg'onistonni o'z ichiga olgan bu viloyat shimolda Hisor tog'lari, janubda Hindikush, g'arbda Murg'ob va Xerirud vodiysi, sharqda Pomir bilan chegaralangan.\n\nAholining asosiy qismi o'troq dehqonchilik bilan shug'ullangan. Hunarmandchilikda qurolsozlik, shishasozlik, to'qimachilik yuksalgan. Toxariston Hindiston, Yaqin va Uzoq Sharq bilan savdo-madaniy aloqalar o'rnatgan, o'z chaqa-tangalari ichki savdoda yurgan."
+       },
+       {
+        "heading": "Sug'd va Farg'ona",
+        "pages": [
+         41,
+         42
+        ],
+        "text": "Mustaqil hokimliklar orasida eng yirigi Sug'd ixshidlari edi. Zarafshon vodiysidagi Samarqand, Buxoro va Qashqadaryodagi Kesh viloyatining o'n bitta yirik mulki birlashgan bo'lib, har biri o'z hokimi, harbiy chokarlari va mis pul birligiga ega edi. Sug'dliklar dehqonchilik va bog'dorchilik bilan shug'ullangan; hisori qo'ylar va tulporlar mashhur bo'lgan. Samarqandni poytaxt qilgan Sug'd Qang' tanazzulidan keyin mustaqil davlatga aylangan. U Turk xoqonligi vassali bo'lsa-da, o'z boshqaruvini saqlagan. Sug'dda davlat podsho orqali emas, yirik dehqon, savdogar va shahar amaldorlaridan iborat Oqsoqollar Kengashi orqali boshqarilgan; kengash ixshid hokimiyatini cheklagan, ixshidlar unga hisob bergan. To'n yabg'u (618-630) islohotlari bu tamoyillarni deyarli o'zgartirmadi, tudunlar va tarxonlar orqali mustahkamladi.\n\nFarg'ona hukmdorlari ixshid deb atalgan. Yerlari hosildor, aholisi paxta va sholi ekkan. Koson, Axsikat (Xushkat) va Quva yirik hunarmandchilik shaharlari bo'lgan; qo'shnilarga bo'yoq, rangli shisha buyumlar va dori-darmonlar chiqarilgan. Qurama va Qoramozor yonbag'irlarida yilqichilik rivojlangan, tulpor otlar dong'i jahonga ketgan."
+       },
+       {
+        "heading": "Choch",
+        "pages": [
+         43,
+         44,
+         45,
+         46
+        ],
+        "text": "Choch (Toshkent vohasi) Chirchiq va Ohangaron havzalarida dehqonchilik va ko'chmanchi chorvadorlar hududlari kesishgan joyda, Ipak yo'lining shimoli-sharqiy yo'nalishida strategik ahamiyatga ega bo'lgan. VI-VIII asr boshlarida o'troq manzilgohlar soni nihoyatda oshgan. Turk xoqonligi davrida turkiylar vohada yetakchi kuchga aylangan, lekin davlat ishlarida sug'diy til va yozuvdan foydalangan; VII-VIII asrlarga oid tangalarni sug'diy yozuvda zarb etgan (turk-sug'd tangalari). \"Choch\"ni arablar \"Shosh\" deb atagan, chunki arab alifbosida \"ch\" harfi bo'lmagan. Chochda zardushtiylik, tangrichilik, nestorian xristianligi va moniylik tarqalgan.\n\nVI asr ikkinchi yarmidan Chochda Turk xoqonligi hukmronligi o'rnatilgan; Istami yabg'u xoqon tasarrufida, xoqonlik bo'linganidan so'ng G'arbiy Turk xoqonligi tarkibida bo'lgan. Xoqon Chochga hokim qilib Tegin Tyanchjini tayinlagan, u Xitoy bilan diplomatik aloqa o'rnatgan. Teginlar sulolasi Chochni boshqargan, soliq yig'ish bo'yicha nozirlar - tudunlar bo'lgan. To'n yabg'u qarorgohini Choch yaqinidagi Mingbuloqqa ko'chirgan, qaram o'lkalarga eltabarlarni yuborgan. Poytaxtning ko'chirilishi Ipak yo'lida savdo nazorati va tijoratni jonlantirgan. Choch Lashkarak kumushi, Tunkat va To'qkat metalli, feruza chiqargan; Tardu xoqon va To'n yabg'u nomli tangalar muomalada bo'lgan."
+       },
+       {
+        "heading": "Shaharlar va qasrlar",
+        "pages": [
+         46,
+         47
+        ],
+        "text": "V-VII asrlarda Turonda yerga egalik munosabatlari o'rnatilib mustahkamlandi, ko'chmanchi chorvadorlarning kirib kelishi va o'troqlashuvi kuzatildi; bu shahar-qishloqlar qiyofasiga ta'sir qildi. Ziroatkor yerlar kengayib, dehqonchilik vohalarining suv ta'minoti yaxshilandi, tog'oldi maydonlari o'zlashtirildi. Qishloqlarda \"ko'shk\", \"qasr\", \"qo'rg'on\" va \"qo'rg'oncha\" deb atalgan istehkomli turar joylar qad ko'tardi: ular mudofaa inshooti, chokarlar to'planadigan joy, ma'muriy markaz va ombor vazifasini o'tagan.\n\nO'rta asrlarda shaharlar uch qismdan - \"kuhandiz\", \"shahriston\" va \"rabod\"dan iborat bo'lgan, har biri alohida devor bilan o'ralgan. X asr arab mualliflari (Ibn Havqal, Istaxriy)ga ko'ra, bir o'zi Binkatning (Toshkent) yigirma ikkita darvozasi bo'lgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "V-VII asrlarda Turk xoqonligi hududida 15 dan ortiq mustaqil hokimlik tashkil topgan",
+        "page": 39
+       },
+       {
+        "fact": "Toxaristonda 27 ta tog' va tog'oldi viloyatlari bo'lgan, poytaxti Balx",
+        "page": 40
+       },
+       {
+        "fact": "Mustaqil hokimliklar orasida eng yirigi Sug'd ixshidlari edi, poytaxti Samarqand",
+        "page": 41
+       },
+       {
+        "fact": "Sug'dda hukmdor hokimiyatini Oqsoqollar Kengashi cheklagan",
+        "page": 42
+       },
+       {
+        "fact": "Chochda tegin Tyanchji va Teginlar sulolasi boshqargan; arablar \"Shosh\" deb atagan",
+        "page": 44
+       }
+      ],
+      "why": {
+       "causes": [
+        "Xoqonlik o'troq o'lkalarda siyosiy barqarorlikni ta'minlashni va iqtisodiy rivojni to'xtatmaslikni xohlagan",
+        "Mahalliy hukmdorlar xoqonlik hukmdorlari bilan qardoshlik aloqalari o'rnatgan",
+        "Choch Ipak yo'lining shimoli-sharqiy yo'nalishida strategik joyda joylashgan"
+       ],
+       "effects": [
+        "Farg'ona, Sug'd, Choch, Toxariston va boshqa mulklar o'z mustaqilligini ma'lum darajada saqlab qoldi",
+        "Sug'dda Oqsoqollar Kengashi ixshid hokimiyatini cheklab, davlat kengash orqali boshqarildi",
+        "To'n yabg'u qarorgohini Mingbuloqqa ko'chirgach, Ipak yo'lida savdo nazorati va tijorat jonlandi",
+        "Turkiy hokimlar sug'diy yozuvli tangalar zarb etib, iqtisod va xalqaro savdoni rivojlantirdi"
+       ]
+      },
+      "summary": "Turk xoqonligi davrida Turonda 15 dan ortiq mustaqil hokimlik (Toxariston, Sug'd, Farg'ona, Choch va b.) shakllandi; xoqonlik mahalliy sulolalarga ichki erkinlik berib, ulardan boj olgan. Sug'dda Oqsoqollar Kengashi hukmdorni cheklagan; Farg'ona tulporlari va hunarmandchiligi, Chochning Ipak yo'lidagi o'rni va turk-sug'd tangalari ahamiyatli bo'lgan. Shaharlar kuhandiz, shahriston, rabod qismlaridan iborat edi."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "12-13-mavzular. Mahalliy hokimliklar",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Mustaqil hokimliklar",
+        "bullets": [
+         "15 dan ortiq hokimlik",
+         "Maqsad: barqarorlik va savdo",
+         "Qardoshlik aloqalari"
+        ],
+        "page": 39
+       },
+       {
+        "title": "Toxariston va Sug'd",
+        "bullets": [
+         "Toxariston - poytaxt Balx",
+         "Sug'd - eng yirik, Samarqand",
+         "Oqsoqollar Kengashi"
+        ],
+        "page": 41
+       },
+       {
+        "title": "Farg'ona va Choch",
+        "bullets": [
+         "Farg'ona - ixshid, tulporlar",
+         "Choch - Ipak yo'li, Shosh",
+         "Teginlar sulolasi"
+        ],
+        "page": 42
+       },
+       {
+        "title": "Shaharlar",
+        "bullets": [
+         "Kuhandiz",
+         "Shahriston",
+         "Rabod"
+        ],
+        "page": 47
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Turk xoqonligi hududida 15 dan ortiq mustaqil hokimlik tashkil topadi (V-VII asrlar)",
+         "page": 39
+        },
+        {
+         "label": "Chochda Turk xoqonligi hukmronligi o'rnatiladi (VI asr ikkinchi yarmi)",
+         "page": 44
+        },
+        {
+         "label": "To'n yabg'u hukmronligi (618-630)",
+         "page": 42
+        },
+        {
+         "label": "Choch tangalari zarb etilgan davr (625-725)",
+         "page": 45
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Toxariston",
+         "right": "27 viloyatdan iborat hokimliklar, poytaxti Balx",
+         "page": 40
+        },
+        {
+         "left": "Sug'd ixshidlari",
+         "right": "Mustaqil hokimliklar orasida eng yirigi",
+         "page": 41
+        },
+        {
+         "left": "Oqsoqollar Kengashi",
+         "right": "Sug'dda ixshid hokimiyatini cheklagan organ",
+         "page": 42
+        },
+        {
+         "left": "Koson, Axsikat, Quva",
+         "right": "Farg'onaning yirik hunarmandchilik shaharlari",
+         "page": 42
+        },
+        {
+         "left": "Shosh",
+         "right": "Arablar Chochga bergan nom",
+         "page": 43
+        },
+        {
+         "left": "Kuhandiz, shahriston, rabod",
+         "right": "O'rta asr shaharining uch qismi",
+         "page": 47
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Toxariston poytaxti ____ shahri edi.",
+         "options": [
+          "Balx",
+          "Samarqand",
+          "Buxoro",
+          "Termiz"
+         ],
+         "correct_index": 0,
+         "page": 40
+        },
+        {
+         "question": "Sug'dning poytaxti ____ edi.",
+         "options": [
+          "Samarqand",
+          "Balx",
+          "Choch",
+          "Kesh"
+         ],
+         "correct_index": 0,
+         "page": 41
+        },
+        {
+         "question": "Farg'ona hukmdorlari ____ deb atalgan.",
+         "options": [
+          "ixshid",
+          "afshin",
+          "xudot",
+          "tudun"
+         ],
+         "correct_index": 0,
+         "page": 42
+        },
+        {
+         "question": "Arablar Chochni ____ deb atagan.",
+         "options": [
+          "Shosh",
+          "Kesh",
+          "Nasaf",
+          "Marv"
+         ],
+         "correct_index": 0,
+         "page": 43
+        },
+        {
+         "question": "Shaharning uch qismi: kuhandiz, shahriston va ____.",
+         "options": [
+          "rabod",
+          "ark",
+          "minora",
+          "darvoza"
+         ],
+         "correct_index": 0,
+         "page": 47
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Turk xoqonligi davrida qaysi hududlar o'z mustaqilligini saqlab qoldi?",
+        "answer": "Farg'ona, Sug'd, Choch, Toxariston, Xorazm va boshqa mulklar; ular markaziy hokimiyatga faqat boj to'lab, mustaqillikni ma'lum darajada saqlagan.",
+        "page": 39
+       },
+       {
+        "question": "Xoqonlik nima uchun mahalliy sulolalar boshqaruvini saqlab qoldi?",
+        "answer": "O'troq o'lkalarda siyosiy barqarorlikni ta'minlash, iqtisodiy rivojni to'xtatmaslik va harbiy ko'maklashuv uchun.",
+        "page": 39
+       },
+       {
+        "question": "Sug'dda davlat qanday boshqarilgan?",
+        "answer": "Podsho (ixshid) orqali emas, yirik dehqon, savdogar va shahar amaldorlaridan iborat Oqsoqollar Kengashi orqali; kengash ixshid hokimiyatini cheklagan.",
+        "page": 42
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Mustaqil hokimliklar orasida eng yirigi qaysi edi?",
+        "options": [
+         "Sug'd ixshidlari",
+         "Toxariston",
+         "Farg'ona",
+         "Choch"
+        ],
+        "correct_index": 0,
+        "page": 41
+       },
+       {
+        "question": "Choch hukmdorlari davlat ishlarida qaysi til va yozuvdan foydalangan?",
+        "options": [
+         "Sug'diy",
+         "Yunon",
+         "Arab",
+         "Hind"
+        ],
+        "correct_index": 0,
+        "page": 43
+       },
+       {
+        "question": "Farg'onada qaysi hayvonlar dong'i jahonga ketgan?",
+        "options": [
+         "Tulpor otlar",
+         "Tuyalar",
+         "Hisori qo'ylar",
+         "Fillar"
+        ],
+        "correct_index": 0,
+        "page": 42
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "V-VII asrlarda Turk xoqonligida nechtadan ortiq mustaqil hokimlik tashkil topdi?",
+       "options": [
+        "15 dan ortiq",
+        "3 ta",
+        "100 dan ortiq",
+        "2 ta"
+       ],
+       "correct_index": 0,
+       "page": 39
+      },
+      {
+       "question": "Qaysi xoqonlik mahalliy boshqaruv masalasiga jiddiy e'tibor berdi?",
+       "options": [
+        "G'arbiy Turk xoqonligi",
+        "Sharqiy Turk xoqonligi",
+        "Eftaliylar",
+        "Xioniylar"
+       ],
+       "correct_index": 0,
+       "page": 39
+      },
+      {
+       "question": "Mahalliy sulolalar boshqaruvini saqlab qolishdan maqsad nima edi?",
+       "options": [
+        "O'troq o'lkalarda siyosiy barqarorlik va iqtisodiy rivojni ta'minlash",
+        "Savdoni to'xtatish",
+        "Yangi shaharlarni vayron qilish",
+        "Dinni o'zgartirish"
+       ],
+       "correct_index": 0,
+       "page": 39
+      },
+      {
+       "question": "Toxaristonda nechta tog' va tog'oldi viloyati bo'lgan?",
+       "options": [
+        "27 ta",
+        "5 ta",
+        "100 ta",
+        "2 ta"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Toxariston shimolda qaysi tog'lar bilan chegaralangan?",
+       "options": [
+        "Hisor tog'lari",
+        "Hindikush",
+        "Pomir",
+        "Oloy"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Toxariston aholisining asosiy qismi nima bilan shug'ullangan?",
+       "options": [
+        "O'troq dehqonchilik",
+        "Ko'chmanchi chorvachilik",
+        "Dengizchilik",
+        "Baliqchilik"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Toxaristonda qaysi hunarmandchilik sohalari yuksalgan?",
+       "options": [
+        "Qurolsozlik, shishasozlik, to'qimachilik",
+        "Faqat kulolchilik",
+        "Kemasozlik",
+        "Qog'ozsozlik"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Sug'dda ixshidlar kim oldida hisob bergan?",
+       "options": [
+        "Oqsoqollar Kengashi oldida",
+        "Sosoniy shohi oldida",
+        "Xalq majlisi oldida",
+        "Ruhoniylar oldida"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Zarafshon vodiysidagi Samarqand, Buxoro va Kesh viloyatining nechta yirik mulki birlashgan edi?",
+       "options": [
+        "O'n bitta",
+        "Uchta",
+        "Yigirma",
+        "Bitta"
+       ],
+       "correct_index": 0,
+       "page": 41
+      },
+      {
+       "question": "Sug'dning qaysi hayvonlari juda mashhur bo'lgan?",
+       "options": [
+        "Hisori qo'ylar va tulporlar",
+        "Tuyalar",
+        "Fillar",
+        "Cho'chqalar"
+       ],
+       "correct_index": 0,
+       "page": 41
+      },
+      {
+       "question": "Sug'd qaysi davlat tanazzulidan keyin mustaqil davlatga aylangan?",
+       "options": [
+        "Qang' davlati",
+        "Kushon davlati",
+        "Eftaliylar",
+        "Sosoniylar"
+       ],
+       "correct_index": 0,
+       "page": 41
+      },
+      {
+       "question": "To'n yabg'u hukmronligi qaysi yillarga to'g'ri keladi?",
+       "options": [
+        "618-630-yillar",
+        "318-330-yillar",
+        "918-930-yillar",
+        "1218-1230-yillar"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "To'n yabg'u islohotlari mahalliy boshqaruv tamoyillariga qanday ta'sir qildi?",
+       "options": [
+        "Deyarli o'zgartirmadi, tudunlar va tarxonlar orqali mustahkamladi",
+        "Butunlay bekor qildi",
+        "Xorazmga o'tkazdi",
+        "Qonunlarni qaytadan yozdi"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Farg'onada qaysi ekinlar ekilgan?",
+       "options": [
+        "Paxta va sholi",
+        "Zaytun va uzum",
+        "Choy va ipak",
+        "Kofe va shakarqamish"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Quyidagilardan qaysi biri Farg'onaning yirik shaharlariga kiradi?",
+       "options": [
+        "Quva (Qubo)",
+        "Poykent",
+        "Kat",
+        "Zartepa"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Farg'onadan qo'shni mamlakatlarga nimalar chiqarilgan?",
+       "options": [
+        "Bo'yoq, rangli shisha buyumlar va dori-darmonlar",
+        "Faqat oltin",
+        "Faqat qul",
+        "Qurol-yarog'"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Qaysi tog'lar yonbag'irlarida qadimdan yilqichilik rivojlangan?",
+       "options": [
+        "Qurama va Qoramozor",
+        "Hisor va Pomir",
+        "Oloy va Tyanshan",
+        "Kopetdog'"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Choch qaysi daryolar havzasida joylashgan?",
+       "options": [
+        "Chirchiq va Ohangaron",
+        "Amudaryo va Surxon",
+        "Zarafshon va Qashqadaryo",
+        "Murg'ob va Xerirud"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Choch Ipak yo'lining qaysi yo'nalishida strategik ahamiyatga ega bo'lgan?",
+       "options": [
+        "Shimoli-sharqiy",
+        "Janubi-g'arbiy",
+        "Janubiy",
+        "G'arbiy"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Turk-sug'd tangalari nima bilan ajralib turadi?",
+       "options": [
+        "Turkiy hokimlar tomonidan sug'diy yozuv va tilda zarb etilgan",
+        "Faqat oltindan yasalgan",
+        "Arab yozuvida bitilgan",
+        "Hind yozuvida"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Arablar Chochni nima uchun \"Shosh\" deb atagan?",
+       "options": [
+        "Arab alifbosida \"ch\" harfi bo'lmagani uchun",
+        "Shosh - hukmdor ismi bo'lgani uchun",
+        "Shosh - daryo nomi bo'lgani uchun",
+        "Shosh - tog' nomi bo'lgani uchun"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Chochga hokim etib kim tayinlangan?",
+       "options": [
+        "Tegin Tyanchji",
+        "Abruy",
+        "Afrig'",
+        "Istami"
+       ],
+       "correct_index": 0,
+       "page": 44
+      },
+      {
+       "question": "To'n yabg'u o'z qarorgohini qaysi mavzega ko'chirgan?",
+       "options": [
+        "Choch yaqinidagi Mingbuloqqa",
+        "Samarqandga",
+        "Balxga",
+        "Katga"
+       ],
+       "correct_index": 0,
+       "page": 44
+      },
+      {
+       "question": "Choch ma'muriy boshqaruvida soliq yig'ish bo'yicha nozirlar qanday atalgan?",
+       "options": [
+        "Tudunlar",
+        "Shodlar",
+        "Mobadlar",
+        "Chokarlar"
+       ],
+       "correct_index": 0,
+       "page": 44
+      },
+      {
+       "question": "To'n yabg'u qaram o'lkalarga o'z vakillari - kimlarni yuborgan?",
+       "options": [
+        "Eltabarlarni",
+        "Chokarlarni",
+        "Mobadlarni",
+        "Budunlarni"
+       ],
+       "correct_index": 0,
+       "page": 45
+      },
+      {
+       "question": "Choch tashqi savdoda nimalarni chetga chiqargan?",
+       "options": [
+        "Lashkarak kumushi, Tunkat va To'qkat metalli, feruza",
+        "Ipak va choy",
+        "Paxta va sholi",
+        "Zaytun moyi"
+       ],
+       "correct_index": 0,
+       "page": 45
+      },
+      {
+       "question": "Arab mualliflari (Ibn Havqal, Istaxriy)ga ko'ra Binkatning nechta darvozasi bo'lgan?",
+       "options": [
+        "Yigirma ikkita",
+        "Ikkita",
+        "Yetti",
+        "Yuz"
+       ],
+       "correct_index": 0,
+       "page": 47
+      },
+      {
+       "question": "O'rta asr shaharlarining uch qismi qanday atalgan?",
+       "options": [
+        "Kuhandiz, shahriston, rabod",
+        "Ark, minora, darvoza",
+        "Qasr, ko'shk, qo'rg'on",
+        "Shahar, qishloq, vohasi"
+       ],
+       "correct_index": 0,
+       "page": 47
+      },
+      {
+       "question": "Istehkomli qasr, qo'rg'on va ko'shklar qanday vazifa bajargan?",
+       "options": [
+        "Mudofaa inshooti, chokarlar joyi, ma'muriy markaz va ombor",
+        "Faqat ibodatxona",
+        "Faqat savdo rastasi",
+        "Maktab"
+       ],
+       "correct_index": 0,
+       "page": 47
+      }
+     ]
+    },
+    {
+     "key": "m14_15",
+     "title": "14-15-mavzular. Turon xalqlarining harbiy san'ati",
+     "start_page": 48,
+     "end_page": 53,
+     "explanation": {
+      "goals": [
+       "\"Turon\" atamasi va turkiy xalqlar harbiy san'ati xususiyatlarini bilish",
+       "Eftaliylar, Turk xoqonligi qo'shini, qurollari, jang taktikasi va mudofaa inshootlarini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "\"Turon\" atamasi",
+        "pages": [
+         48
+        ],
+        "text": "\"Turon\" atamasi dastlab \"Avesto\"da tilga olingan. Tarixchilar fikricha, turlar (turklar) oriy xalqlarning tarmog'i hisoblangan. VI asrda O'rta Osiyo hududi Turk xoqonligiga o'tishi bilan ikki atama uyg'unlashib, Turon nomi turklarga nisbatan beriladigan bo'ldi.\n\n\"Turon\" yoki \"Turkiston\" deyilganda Amudaryo va Sirdaryodan shimolda, sharqda Buyuk Xitoy devorigacha bo'lgan turkiylar mamlakatlari tushuniladi. Ibn Arabshoh yozishicha, Jayhun orqasidan Sharqqa cho'zilgan yerlar Turon, g'arbga cho'zilgani Eron deb atalgan."
+       },
+       {
+        "heading": "Turklarning harbiy ustunligi",
+        "pages": [
+         49
+        ],
+        "text": "Jahon harbiy san'ati taraqqiyotida turkiy xalqlar o'ziga xos o'rin egallaydi. Arab adibi Johiz \"Manoqib al-atrok\" asarida: \"Sosoniy-forslar davlatni boshqarishda, xitoyliklar hunarmandchilikda, yunonlar ilm-fanda, turklar harbiy ishda ustundirlar\", deb yozgan.\n\nUsmon Turon ma'lumotiga ko'ra, turkiylar birinchi bo'lib otdan jang vositasi sifatida foydalangan; egar-jabduq, uzangi va tizgin kabi anjomlarni kashf etgan; chodir-hammom va kasalxonalarni qo'shin bilan birga otda olib yurgan. Xitoyliklar turklardan otga minish, uzun qilichdan foydalanish va jangovar kiyim yasashni o'rgangan."
+       },
+       {
+        "heading": "Eftaliylar va xoqonlik qo'shini",
+        "pages": [
+         50,
+         51
+        ],
+        "text": "Turon hududi V asrda eftaliylar tarkibiga kirgan. Eftaliylar kushonlar siyosatini davom ettirib, O'rta Osiyo, Sharqiy Eron, Shimoliy Hindiston va Sharqiy Turkiston xalqlarini yagona davlatga birlashtirgan. Aksariyati otliqlardan iborat kuchli qo'shinga ega bo'lgan; jangda asosan gurzilar, shuningdek kamon va shamshirlardan foydalangan. Sug'diyona, Toxariston, Farg'ona, Xorazm va Choch kabi mustaqil hokimliklar ham o'z harbiy qo'shiniga ega edi.\n\nTurk xoqonligi davrida harbiy san'at yanada rivojlangan. Ibodatxona qoshidagi ta'lim dargohlarida yigitlarga otda erkin yurish, qilichbozlik, kamondan o'q otish, gurzi ishlatish, kurash, palaxmon otish o'rgatilgan; qizlarda ham chavandozlik va kamonbozlik shakllantirilgan. Qo'shinning asosiy qismi otliq jangchilardan, qisman piyodalardan iborat bo'lgan, ular parchin qoplangan sovut kiygan, qalqon, nayza, jangovar bolta va kamon bilan qurollangan. Chopuvchi qurolning yangi turi - qilich va dudama, uzun og'ir qilich - palash paydo bo'lgan. Har bir otliq kamida ikki-uch ot olib yurgan. Armiya o'nlik, yuzlik, minglik, o'n minglik - tumanlardan tashkil topgan."
+       },
+       {
+        "heading": "Jang taktikasi va mudofaa",
+        "pages": [
+         52,
+         53
+        ],
+        "text": "Har bir tuman o'zining tug'iga ega bo'lgan (nayzaga bo'ri yoki boshqa hayvon boshi va ot yoli o'rnatilgan). Turk jangchilari qat'iy intizomga rioya qilgan, hujum odatda kutilmaganda boshlangan; yolg'ondan chekinish taktikasidan keng foydalanilgan, himoyada aylana usuli qo'llanilgan, dushmanning asosiy kuchlarini ikki yoki bir necha qismga ajratib yakson qilganlar. Turkiy suvoriylar uzangini kashf etgani otliqlarga ot ustida mustahkam o'tirish va og'ir qurollanish imkonini bergan. Shaharlarda ixtisoslashgan qurol-yarog' ustaxonalari ishlagan. Xitoylik sayyoh Samarqand hokimi qabilasidan bo'lgan jangchilarni jasur, o'limni nazar-pisand qilmaydigan deb ta'riflagan.\n\nXorazm, Sug'd va Toxaristondagi yirik dehqonlarning uy-qo'rg'onlari burjli mudofaa devorlari va shinaklarga ega bo'lgan; kirish ro'parasida qo'riqlov minorasi qad rostlagan; shahar atrofidagi xandaq suv bilan to'ldirilib, ko'tarma ko'prik orqali o'tilgan. Himoyachilar dushman boshiga tosh uloqtirgan, qaynoq suv quygan, nayza va o'q yog'dirgan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "\"Turon\" atamasi dastlab \"Avesto\"da tilga olingan",
+        "page": 48
+       },
+       {
+        "fact": "Arab adibi Johiz turklarni harbiy ishda ustun deb ta'riflagan",
+        "page": 49
+       },
+       {
+        "fact": "Turklar uzangi, egar-jabduq va tizginni kashf etgan",
+        "page": 49
+       },
+       {
+        "fact": "Turk xoqonligi armiyasi o'nlik, yuzlik, minglik va o'n minglik (tuman) bo'linmalardan tashkil topgan",
+        "page": 51
+       },
+       {
+        "fact": "Turkiy suvoriylar uzangi kashf etgani otliqlarga og'ir qurollanish imkonini bergan",
+        "page": 52
+       }
+      ],
+      "why": {
+       "causes": [
+        "Turklar umrlarini ot ustida kechirgan va harbiy tayyorgarlikka yoshligidan jalb etilgan",
+        "Mamlakatni himoya qilish va qo'shni davlatlar bilan raqobatda harbiy kuch zarur edi"
+       ],
+       "effects": [
+        "Turklar otdan jang vositasi sifatida foydalanib, uzangi, egar-jabduq va tizginni kashf etdi",
+        "Uzangi otliqlarga ot ustida mustahkam o'tirish va og'ir qurollarda jang qilish imkonini berdi",
+        "Shaharlarda qurol-yarog' ustaxonalari rivojlanib, mudofaa inshootlari (burj, xandaq, ko'tarma ko'prik) puxta qurildi",
+        "Turk jangchilari qat'iy intizom va tezkor taktika (yolg'ondan chekinish) tufayli yengilmas hisoblangan"
+       ]
+      },
+      "summary": "\"Turon\" atamasi \"Avesto\"da uchraydi va VI asrdan turklar mamlakatini bildirgan. Turkiy xalqlar harbiy ishda ustun bo'lib, otdan jangda foydalangan, uzangi va egar-jabduqni kashf etgan. Xoqonlik qo'shini o'nlik, yuzlik, minglik, tumanlarga bo'lingan, otliqlarga tayangan; qalʼa va qo'rg'onlar burj, xandaq va minoralar bilan mustahkamlangan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "14-15-mavzular. Turon xalqlarining harbiy san'ati",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "\"Turon\" atamasi",
+        "bullets": [
+         "\"Avesto\"da tilga olingan",
+         "VI asrdan turklar mamlakati",
+         "Amudaryo va Sirdaryodan shimolda"
+        ],
+        "page": 48
+       },
+       {
+        "title": "Harbiy ustunlik",
+        "bullets": [
+         "Johiz: turklar harbiy ishda ustun",
+         "Uzangi, egar-jabduq, tizgin",
+         "Otda jang"
+        ],
+        "page": 49
+       },
+       {
+        "title": "Qo'shin tuzilishi",
+        "bullets": [
+         "O'nlik, yuzlik, minglik",
+         "O'n minglik - tuman",
+         "Har bir tumanning tug'i"
+        ],
+        "page": 51
+       },
+       {
+        "title": "Mudofaa",
+        "bullets": [
+         "Burjli devor, shinaklar",
+         "Suvli xandaq, ko'tarma ko'prik",
+         "Qo'riqlov minorasi"
+        ],
+        "page": 53
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "Turon hududining eftaliylar tarkibiga kirishi (V asr)",
+         "page": 50
+        },
+        {
+         "label": "O'rta Osiyo hududining Turk xoqonligiga o'tishi (VI asr)",
+         "page": 48
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "Johiz",
+         "right": "Turklarni harbiy ishda ustun deb yozgan arab adibi",
+         "page": 49
+        },
+        {
+         "left": "Uzangi",
+         "right": "Otliqlarga ot ustida mustahkam o'tirish imkonini bergan kashfiyot",
+         "page": 52
+        },
+        {
+         "left": "Palash",
+         "right": "Uzun va og'ir qilich",
+         "page": 51
+        },
+        {
+         "left": "Tug'",
+         "right": "Har bir tumanning nishoni",
+         "page": 52
+        },
+        {
+         "left": "Tuman",
+         "right": "O'n ming kishilik bo'linma",
+         "page": 51
+        },
+        {
+         "left": "Gurzi",
+         "right": "Eftaliylar jangda asosan ishlatgan qurol",
+         "page": 50
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "\"Turon\" atamasi dastlab ____ da tilga olingan.",
+         "options": [
+          "\"Avesto\"",
+          "\"Shohnoma\"",
+          "\"Injil\"",
+          "\"Tarix\""
+         ],
+         "correct_index": 0,
+         "page": 48
+        },
+        {
+         "question": "Arab adibi ____ turklarning harbiy ishdagi ustunligini yozgan.",
+         "options": [
+          "Johiz",
+          "Gerodot",
+          "Strabon",
+          "Arrian"
+         ],
+         "correct_index": 0,
+         "page": 49
+        },
+        {
+         "question": "Eftaliylar jangda asosan ____ foydalanishgan.",
+         "options": [
+          "gurzilardan",
+          "to'plardan",
+          "o'qlardan",
+          "arbalet"
+         ],
+         "correct_index": 0,
+         "page": 50
+        },
+        {
+         "question": "Turk armiyasi o'nlik, yuzlik, minglik va ____ bo'linmalardan iborat bo'lgan.",
+         "options": [
+          "o'n minglik",
+          "yuz minglik",
+          "million",
+          "ikkilik"
+         ],
+         "correct_index": 0,
+         "page": 51
+        },
+        {
+         "question": "Turkiy suvoriylar ____ ni kashf etgani og'ir qurollanishga imkon bergan.",
+         "options": [
+          "uzangi",
+          "g'ildirak",
+          "arava",
+          "qayiq"
+         ],
+         "correct_index": 0,
+         "page": 52
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Nima uchun Turon hududidagi harbiy qurol-aslahalar dunyoga mashhur bo'lgan?",
+        "answer": "Shaharlarda ixtisoslashgan qurol-yarog' ustaxonalari faoliyat olib borgan, qurollar takomillashgan va jangchini boshidan oyog'igacha muhofaza qilgan.",
+        "page": 52
+       },
+       {
+        "question": "Turk xoqonligi qo'shinining tuzilishi qanday bo'lgan?",
+        "answer": "O'nlik, yuzlik, minglik va o'n minglik (tuman) bo'linmalardan; har bir tuman o'z tug'iga ega bo'lgan.",
+        "page": 51
+       },
+       {
+        "question": "Johiz turklar haqida nima degan?",
+        "answer": "Sosoniy-forslar davlatni boshqarishda, xitoyliklar hunarmandchilikda, yunonlar ilm-fanda, turklar harbiy ishda ustundir.",
+        "page": 49
+       }
+      ],
+      "quiz": [
+       {
+        "question": "\"Manoqib al-atrok\" asarining muallifi kim?",
+        "options": [
+         "Johiz",
+         "Beruniy",
+         "Narshaxiy",
+         "Firdavsiy"
+        ],
+        "correct_index": 0,
+        "page": 49
+       },
+       {
+        "question": "Turk jangchilari qanday taktikadan keng foydalanishgan?",
+        "options": [
+         "Yolg'ondan chekinish",
+         "Dengiz blokadasi",
+         "Faqat qamal",
+         "Faqat piyoda hujum"
+        ],
+        "correct_index": 0,
+        "page": 52
+       },
+       {
+        "question": "Qasr himoyachilari dushman boshiga nima yog'dirgan?",
+        "options": [
+         "Tosh, qaynoq suv, nayza va o'q",
+         "Faqat gul",
+         "Oltin tanga",
+         "Qum"
+        ],
+        "correct_index": 0,
+        "page": 53
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "\"Turon\" atamasi qayerda dastlab tilga olingan?",
+       "options": [
+        "\"Avesto\"da",
+        "\"Shohnoma\"da",
+        "\"Tarix\" kitobida",
+        "\"Injil\"da"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Tarixchilar fikricha, turlar (turklar) kimlarning tarmog'i hisoblangan?",
+       "options": [
+        "Oriy xalqlarning",
+        "Hind xalqlarining",
+        "Arab xalqlarining",
+        "Xitoy xalqlarining"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Turon nomi qachondan turklarga nisbatan beriladigan bo'ldi?",
+       "options": [
+        "VI asrda O'rta Osiyo Turk xoqonligiga o'tishi bilan",
+        "II asrda",
+        "X asrda",
+        "XIV asrda"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "\"Turon\" yoki \"Turkiston\" deyilganda qaysi hudud tushuniladi?",
+       "options": [
+        "Amudaryo va Sirdaryodan shimolda, sharqda Buyuk Xitoy devorigacha bo'lgan turkiylar mamlakatlari",
+        "Faqat Xorazm",
+        "Faqat Farg'ona vodiysi",
+        "Eron platosi"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Ibn Arabshohga ko'ra, Jayhundan sharqqa cho'zilgan yerlar nima deb atalgan?",
+       "options": [
+        "Turon",
+        "Eron",
+        "Hindiston",
+        "Xuroson"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Johiz turklar haqida qaysi asarida yozgan?",
+       "options": [
+        "\"Manoqib al-atrok\"",
+        "\"Avesto\"",
+        "\"Shohnoma\"",
+        "\"Buxoro tarixi\""
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Johiz fikricha, davlatni boshqarish sohasida kimlar ustun?",
+       "options": [
+        "Sosoniy-forslar",
+        "Xitoyliklar",
+        "Yunonlar",
+        "Turklar"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Johiz fikricha, hunarmandchilikda qaysi xalq ustun?",
+       "options": [
+        "Xitoyliklar",
+        "Yunonlar",
+        "Turklar",
+        "Forslar"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Johizga ko'ra, ilm-fanda qaysi xalq ustun?",
+       "options": [
+        "Yunonlar",
+        "Turklar",
+        "Xitoyliklar",
+        "Forslar"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Quyidagilardan qaysi biri turklar kashfiyotlariga kiradi?",
+       "options": [
+        "Egar-jabduq, uzangi va tizgin",
+        "Qog'oz",
+        "Kompas",
+        "Mixxat"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Turklar kimlarga otga minishni, uzun qilichdan foydalanishni o'rgatgan?",
+       "options": [
+        "Xitoyliklarga",
+        "Rimliklarga",
+        "Misrliklarga",
+        "Hindlarga"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Turon hududi V asrda qaysi davlat tarkibiga kirgan?",
+       "options": [
+        "Eftaliylar",
+        "Kushonlar",
+        "Somoniylar",
+        "Xorazmshohlar"
+       ],
+       "correct_index": 0,
+       "page": 50
+      },
+      {
+       "question": "Eftaliylar jangda asosan qaysi qurollardan foydalangan?",
+       "options": [
+        "Gurzilar, shuningdek kamon va shamshirlar",
+        "To'p va miltiq",
+        "Faqat nayza",
+        "Qilich va qalqon faqat"
+       ],
+       "correct_index": 0,
+       "page": 50
+      },
+      {
+       "question": "Eftaliylar qo'shinining aksariyati qanday jangchilardan iborat bo'lgan?",
+       "options": [
+        "Otliqlardan",
+        "Piyodalardan",
+        "Dengizchilardan",
+        "Fil minuvchilardan"
+       ],
+       "correct_index": 0,
+       "page": 50
+      },
+      {
+       "question": "Turk xoqonligi davrida yigitlarga qayerlarda harbiy mashqlar o'rgatilgan?",
+       "options": [
+        "Ibodatxona qoshidagi ta'lim dargohlarida",
+        "Faqat qal'alarda",
+        "Dengiz bo'yida",
+        "Bozorlarda"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "Qizlarga qaysi ko'nikmalar o'rgatilgan?",
+       "options": [
+        "Chavandozlik va kamonbozlik",
+        "Faqat to'quvchilik",
+        "Dengizchilik",
+        "Yozuv ishlari"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "Xoqonlik qo'shinining asosiy qismi kimlardan iborat edi?",
+       "options": [
+        "Otliq jangchilardan va qisman piyoda askarlardan",
+        "Faqat piyodalardan",
+        "Faqat fil minuvchilardan",
+        "Dengizchilardan"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "Uzun va og'ir qilich nima deb atalgan?",
+       "options": [
+        "Palash",
+        "Dudama",
+        "Gurzi",
+        "Shamshir"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "Har bir otliq jangchi o'zi bilan nechta ot olib yurgan?",
+       "options": [
+        "Kamida ikki yoki uchta",
+        "Bitta",
+        "O'nta",
+        "Hech qaysisini"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "O'n minglik bo'linma qanday atalgan?",
+       "options": [
+        "Tuman",
+        "Yuzlik",
+        "Minglik",
+        "Budun"
+       ],
+       "correct_index": 0,
+       "page": 51
+      },
+      {
+       "question": "Har bir tuman nimaga ega bo'lgan?",
+       "options": [
+        "O'zining tug'iga (nishoniga)",
+        "Oltin tojiga",
+        "Alohida alifbosiga",
+        "Dengiz flotiga"
+       ],
+       "correct_index": 0,
+       "page": 52
+      },
+      {
+       "question": "Turk jangchilari qanday taktika usulidan keng foydalangan?",
+       "options": [
+        "Yolg'ondan chekinish",
+        "Dengiz hujumi",
+        "Faqat qamal",
+        "Faqat pistirma yo'q"
+       ],
+       "correct_index": 0,
+       "page": 52
+      },
+      {
+       "question": "Himoyalanish chog'ida turklar qaysi usulni qo'llagan?",
+       "options": [
+        "Aylana usulini",
+        "Falanga usulini",
+        "Kvadrat usulini",
+        "Qamal usulini"
+       ],
+       "correct_index": 0,
+       "page": 52
+      },
+      {
+       "question": "Uzangining kashf etilishi otliqlarga nima imkonini bergan?",
+       "options": [
+        "Ot ustida mustahkam o'tira olish va og'ir aslahalar bilan qurollanish",
+        "Daryodan o'tish",
+        "Yozuv yaratish",
+        "Kemada suzish"
+       ],
+       "correct_index": 0,
+       "page": 52
+      },
+      {
+       "question": "Sug'd jangchilari haqida xitoylik sayyoh qanday yozgan?",
+       "options": [
+        "Jasur va g'ayratli, o'limni nazar-pisand qilmagan",
+        "Qo'rqoq va tartibsiz",
+        "Faqat savdo bilan shug'ullangan",
+        "Qurolsiz bo'lgan"
+       ],
+       "correct_index": 0,
+       "page": 52
+      },
+      {
+       "question": "Yirik dehqonlarning uy-qo'rg'onlari qanday mudofaa inshootlariga ega bo'lgan?",
+       "options": [
+        "Burjli mudofaa devorlari va kamondan o'q otishga mo'ljallangan shinaklar",
+        "Faqat past devor",
+        "Faqat darvoza",
+        "Dengiz to'siqlari"
+       ],
+       "correct_index": 0,
+       "page": 53
+      },
+      {
+       "question": "Qo'rg'onga kirish joyining ro'parasida nima qad rostlagan?",
+       "options": [
+        "Xabar beruvchi qo'riqlov minorasi",
+        "Ibodatxona",
+        "Bozor",
+        "Hammom"
+       ],
+       "correct_index": 0,
+       "page": 53
+      },
+      {
+       "question": "Shahar atrofidagi xandaqqa nima orqali o'tilgan?",
+       "options": [
+        "Ko'tarma ko'prik orqali",
+        "Qayiqda",
+        "Suzib",
+        "Tunnel orqali"
+       ],
+       "correct_index": 0,
+       "page": 53
+      }
+     ]
+    },
+    {
+     "key": "m16_17",
+     "title": "16-17-mavzular. VI-VII asrlarda Turon xalqlari madaniy hayoti",
+     "start_page": 54,
+     "end_page": 61,
+     "explanation": {
+      "goals": [
+       "VI-VII asrlarda Turonda ta'lim, yozuv va diniy maktablar xususiyatlarini bilish",
+       "Haykaltaroshlik, devoriy suratlar, to'qimachilik va kiyinish madaniyatini tushuntirish"
+      ],
+      "blocks": [
+       {
+        "heading": "Ta'lim va yozma manbalar",
+        "pages": [
+         55
+        ],
+        "text": "Mamlakatimizda ta'lim tizimining rivojlanishi uzoq tarixiy jarayon bo'lib, yozuvning paydo bo'lishi bilan jadallashgan. Qadimgi tosh bitiklar, teri, sopol, yog'och (taxta) va keyinchalik qog'ozlarga tushirilgan ma'lumotlar ta'lim tarixidan so'zlovchi manba hisoblanadi. Tariximizdan darak beruvchi eng qadimgi yozma manba \"Avesto\"da diniy bilimlar bilan birga dunyoviy bilimlar, tarixiy voqealar hamda ma'naviy-ma'rifiy qarashlar to'plangan.\n\nXorazmdagi Jonbosqal'a va Tuproqqal'adan topilgan zardushtiylar ibodatxonasi qo'sh devor bilan qurshalgan, aylanma yo'lak orqali kiriladigan to'g'ri burchakli bino bo'lgan. Xonalardan teriga va yog'ochga yozilgan hujjatlar, haykalchalar topilgan; bu ibodatxonaga tutash binolarda ta'lim maskanlari, huquq idoralari va ma'muriy-xo'jalik ishlari bo'lganini ko'rsatadi. Xorazmda o'g'il bolalarga o'qish, yozish, hisob-kitob, shuningdek geografiya, zoologiya, botanika, astronomiya, muhandislik, tibbiyot va me'morchilik o'rgatilgan."
+       },
+       {
+        "heading": "Diniy maktablar",
+        "pages": [
+         56,
+         57
+        ],
+        "text": "Turon xalqlari tangrichilik, zardushtiylik, buddaviylik, xristianlik va boshqa dinlarga e'tiqod qilgan. Bu dinlar ibodatxonalarida maxsus maktablar bo'lib, ta'lim oluvchilarga dinning asoslari o'rgatilgan va xat-savod chiqarilgan. Buddaviy o'quv maskanlari - viharalarda asosiy fan Daxarma (diniy qonun-qoidalar) edi.\n\nYahudiylar Ossuriya quvg'inlaridan Eronga, Samarqand va Buxoroga ko'chib kelgan; ular bilan Mesopotamiya madaniyati ham kirgan, ibodatxonalar qoshida diniy maktablar tashkil qilingan. Turon savdo yo'llarida eng qimmatbaho tovar yozuv materiallari va kitoblar hisoblangan. V asrda Samarqand va Buxoroda xristianlik tarqalgan, ibodatxonalarda maktablar tashkil etilgan; Sug'ddagi katta nestoriyan jamoalarining hujjatlari sug'd tilida yozilgan."
+       },
+       {
+        "heading": "Yozuv va san'at",
+        "pages": [
+         58,
+         59
+        ],
+        "text": "Turk xoqonligida o'ziga xos yozuv - turkiy run (ko'k turk) xati bo'lgan; u 38-40 harfdan iborat bo'lib, tosh va yog'ochga o'yib yozishga qulay edi. Kultegin va Bilga xoqon bitiklari Oltoy va Sharqiy Turkistondan tashqari Yettisuv, Farg'ona va Zarafshon vodiylaridan topilgan qabrtoshlar, sopol, metall buyumlar, yog'och va tangalarda saqlangan. VIII asrga oid To'nyuquq bitiktoshi Janubiy Mo'g'ulistonda topilgan.\n\nSurxon vohasidagi Bolaliktepa, Zarafshon vodiysidagi Panjikent, Varaxsha, Afrosiyob va Farg'onadagi Quva xarobalaridan topilgan devoriy suratlar, haykallar va ganchkor naqshlar o'sha davr yuksak san'ati namunalaridir. Haykaltaroshlik rivojiga ayniqsa buddaviylik kuchli ta'sir ko'rsatgan. Mug'tog'i va Afrosiyobdan sug'd yozuvlari topilgan."
+       },
+       {
+        "heading": "To'qimachilik va kiyinish",
+        "pages": [
+         59,
+         60
+        ],
+        "text": "Bu davrda to'qimachilik yuqori darajaga erishgan: tog'li hududlarda jun, vodiylarda ipak va ip matolardan foydalanilgan; bir yoki ko'p rangli ipaklar, naqshli gazmollar, zar qo'shib to'qilgan matolar qo'llangan. Naqshlar asosan qizil, sariq, yashil, oq va qora rangda bo'lgan. \"Zandanachi\" kabi ko'k ipak matolar ishlab chiqarilgan.\n\nErkaklar kiyimi otga minib yurishga qulay: kalta kaftan, ko'ylak, keng va baland qo'njli etik. Ayollar kiyimi erkaklar kiyimiga o'xshash, shuningdek shleyfli uzun ko'ylak, kofta, yubka va po'stinlar kiyilgan. Ustki kiyim tizzagacha bo'lgan, yoqa, etak va yeng uchi boshqa rangli hoshiya bilan bezatilgan. Taqinchoqlar (zirak, bilaguzuk, marjon, kamar) shaxsning ijtimoiy holatini ko'rsatgan. Toxaristonda faqat xizmatchilar belbog' taqqan, aslzoda ayollar belini bog'lamagan."
+       }
+      ],
+      "key_facts": [
+       {
+        "fact": "Eng qadimgi yozma manba \"Avesto\"da diniy va dunyoviy bilimlar to'plangan",
+        "page": 55
+       },
+       {
+        "fact": "Xorazmda o'g'il bolalarga o'qish, yozish, hisob va turli fanlar o'rgatilgan",
+        "page": 55
+       },
+       {
+        "fact": "Buddaviy o'quv maskanlari - viharalarda asosiy fan Daxarma bo'lgan",
+        "page": 56
+       },
+       {
+        "fact": "Turkiy run (ko'k turk) xati 38-40 harfdan iborat bo'lgan",
+        "page": 58
+       },
+       {
+        "fact": "Haykaltaroshlik rivojiga buddaviylik kuchli ta'sir ko'rsatgan",
+        "page": 58
+       }
+      ],
+      "why": {
+       "causes": [
+        "Yozuvning paydo bo'lishi ta'lim jarayonini jadallashtirgan",
+        "Turli din ibodatxonalarida diniy maktablar tashkil etilgan",
+        "Savdo yo'llari orqali turli xalqlar madaniyati kirib kelgan"
+       ],
+       "effects": [
+        "Ibodatxonalar qoshida xat-savod chiqaradigan maktablar vujudga keldi",
+        "Yozuv materiallari va kitoblar savdo yo'llarida eng qimmatbaho tovarga aylandi",
+        "Buddaviylik ta'sirida haykaltaroshlik rivojlandi",
+        "To'qimachilik yuksalib, kiyim-kechak turli rang va naqshlarga boy bo'ldi"
+       ]
+      },
+      "summary": "VI-VII asrlarda Turonda ta'lim ibodatxona maktablarida (zardushtiy, buddaviy, yahudiy, xristian) berilgan, turkiy run xati va sug'd yozuvi qo'llangan. Panjikent, Varaxsha, Afrosiyob devoriy suratlari, haykaltaroshlik va ganchkorlik san'at yuksakligini ko'rsatadi; to'qimachilik va kiyinish madaniyati yuqori darajada rivojlangan."
+     },
+     "presentation": {
+      "slides": [
+       {
+        "title": "16-17-mavzular. Turon madaniy hayoti",
+        "bullets": [],
+        "page": null
+       },
+       {
+        "title": "Ta'lim",
+        "bullets": [
+         "\"Avesto\" - qadimgi manba",
+         "Xorazmda o'qish, yozish, hisob",
+         "Ibodatxonalar qoshida maktablar"
+        ],
+        "page": 55
+       },
+       {
+        "title": "Diniy maktablar",
+        "bullets": [
+         "Buddaviy vihara - Daxarma",
+         "Yahudiy, xristian, nestoriy maktablari",
+         "Kitoblar - qimmatbaho tovar"
+        ],
+        "page": 56
+       },
+       {
+        "title": "Yozuv va san'at",
+        "bullets": [
+         "Turkiy run xati: 38-40 harf",
+         "Panjikent, Varaxsha, Afrosiyob suratlari",
+         "Buddaviy haykaltaroshlik"
+        ],
+        "page": 58
+       },
+       {
+        "title": "Kiyinish",
+        "bullets": [
+         "Jun, ipak, zarli matolar",
+         "Erkaklar: kaftan va baland etik",
+         "Taqinchoqlar - ijtimoiy holat"
+        ],
+        "page": 60
+       }
+      ]
+     },
+     "games": {
+      "timeline": {
+       "items": [
+        {
+         "label": "V asrda Samarqand va Buxoroda xristianlik tarqaladi",
+         "page": 57
+        },
+        {
+         "label": "VI-VII asrlarda Turon madaniy hayotining yuksalishi",
+         "page": 54
+        },
+        {
+         "label": "To'nyuquq bitiktoshi (VIII asr)",
+         "page": 57
+        }
+       ]
+      },
+      "matching": {
+       "pairs": [
+        {
+         "left": "\"Avesto\"",
+         "right": "Eng qadimgi yozma manba",
+         "page": 55
+        },
+        {
+         "left": "Vihara",
+         "right": "Buddaviy o'quv maskani",
+         "page": 56
+        },
+        {
+         "left": "Daxarma",
+         "right": "Viharalarda o'qitiladigan diniy qonun-qoidalar",
+         "page": 56
+        },
+        {
+         "left": "Turkiy run xati",
+         "right": "38-40 harfli ko'k turk yozuvi",
+         "page": 58
+        },
+        {
+         "left": "Zandanachi",
+         "right": "Ko'k ipak mato",
+         "page": 60
+        },
+        {
+         "left": "Bolaliktepa",
+         "right": "Surxon vohasidagi devoriy suratlar topilgan joy",
+         "page": 58
+        }
+       ]
+      },
+      "fill_blank": {
+       "questions": [
+        {
+         "question": "Tariximizdan darak beruvchi eng qadimgi yozma manba ____.",
+         "options": [
+          "\"Avesto\"",
+          "\"Shohnoma\"",
+          "\"Injil\"",
+          "\"Tarix\""
+         ],
+         "correct_index": 0,
+         "page": 55
+        },
+        {
+         "question": "Buddaviy o'quv maskanlari ____ deb atalgan.",
+         "options": [
+          "viharalar",
+          "madrasalar",
+          "palestralar",
+          "akademiyalar"
+         ],
+         "correct_index": 0,
+         "page": 56
+        },
+        {
+         "question": "Turkiy run xati ____ harfdan iborat bo'lgan.",
+         "options": [
+          "38-40",
+          "10-12",
+          "100",
+          "300"
+         ],
+         "correct_index": 0,
+         "page": 58
+        },
+        {
+         "question": "Haykaltaroshlikka ayniqsa ____ kuchli ta'sir ko'rsatgan.",
+         "options": [
+          "buddaviylik",
+          "islom",
+          "zardushtiylik",
+          "tangrichilik"
+         ],
+         "correct_index": 0,
+         "page": 58
+        },
+        {
+         "question": "Vodiylarda to'qimachilikda ipak va ____ matolardan foydalanilgan.",
+         "options": [
+          "ip",
+          "jun faqat",
+          "teri",
+          "qog'oz"
+         ],
+         "correct_index": 0,
+         "page": 59
+        }
+       ]
+      }
+     },
+     "practice": {
+      "book_questions": [
+       {
+        "question": "Eng qadimgi yozma manba haqida ma'lumot bering.",
+        "answer": "\"Avesto\": unda diniy bilimlar bilan birga dunyoviy bilimlar, tarixiy voqealar va ma'naviy-ma'rifiy qarashlar to'plangan.",
+        "page": 55
+       },
+       {
+        "question": "Diniy ibodatxonalarda qanday maktablar bo'lgan?",
+        "answer": "Zardushtiy, buddaviy (vihara), yahudiy, xristian va nestoriy ibodatxonalari qoshida maktablar bo'lib, dinning asoslari o'rgatilgan va xat-savod chiqarilgan.",
+        "page": 56
+       },
+       {
+        "question": "Turon xalqlari madaniyatining o'ziga xosligi nimada?",
+        "answer": "Turli dinlar maktablari, turkiy run va sug'd yozuvlari, devoriy suratlar va haykaltaroshlik, rivojlangan to'qimachilik va kiyinish madaniyati.",
+        "page": 58
+       }
+      ],
+      "quiz": [
+       {
+        "question": "Xorazmda o'g'il bolalarga nimalar o'rgatilgan?",
+        "options": [
+         "O'qish, yozish, hisob va turli fanlar",
+         "Faqat jang san'ati",
+         "Faqat dengizchilik",
+         "Faqat savdo"
+        ],
+        "correct_index": 0,
+        "page": 55
+       },
+       {
+        "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?",
+        "options": [
+         "Yozuv materiallari va kitoblar",
+         "Oltin",
+         "Ipak",
+         "Tuz"
+        ],
+        "correct_index": 0,
+        "page": 56
+       },
+       {
+        "question": "Quyidagilardan qaysi biri Afrosiyob yoki Panjikent topilmalariga kiradi?",
+        "options": [
+         "Devoriy suratlar",
+         "Piramida",
+         "Amfiteatr",
+         "Akveduk"
+        ],
+        "correct_index": 0,
+        "page": 59
+       }
+      ]
+     },
+     "test": [
+      {
+       "question": "Ta'lim tarixidan so'zlovchi manbalarga nimalar kiradi?",
+       "options": [
+        "Tosh bitiklar, teri, sopol, yog'och va qog'ozga tushirilgan ma'lumotlar",
+        "Faqat rasmlar",
+        "Faqat afsonalar",
+        "Faqat tangalar"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Eng qadimgi yozma manba qaysi?",
+       "options": [
+        "\"Avesto\"",
+        "\"Shohnoma\"",
+        "\"Buxoro tarixi\"",
+        "\"Devonu lug'otit-turk\""
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "\"Avesto\"da nimalar haqida ma'lumot to'plangan?",
+       "options": [
+        "Diniy va dunyoviy bilimlar, tarixiy voqealar va ma'naviy qarashlar",
+        "Faqat qonunlar",
+        "Faqat dengiz sayohatlari",
+        "Faqat dorilar"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Zardushtiylar ibodatxonasi qayerlardan topilgan?",
+       "options": [
+        "Xorazmdagi Jonbosqal'a va Tuproqqal'adan",
+        "Samarqanddan",
+        "Termizdan",
+        "Farg'onadan"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Xorazm ibodatxonasiga tutash binolarda nimalar bo'lgan?",
+       "options": [
+        "Ta'lim maskanlari, huquq idoralari va ma'muriy-xo'jalik ishlari joylari",
+        "Faqat bozor",
+        "Faqat hammom",
+        "Harbiy lager"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Xorazmda o'g'il bolalarga qanday fanlar o'rgatilgan?",
+       "options": [
+        "Geografiya, zoologiya, botanika, astronomiya, muhandislik, tibbiyot va me'morchilik",
+        "Faqat jang san'ati",
+        "Faqat she'riyat",
+        "Faqat dehqonchilik"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Ibodatxonalardagi maktablarda nima o'rgatilgan?",
+       "options": [
+        "Dinning asoslari, xat-savod",
+        "Faqat dengizchilik",
+        "Faqat harbiy ish",
+        "Faqat savdo"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Buddaviy o'quv maskanlari qanday nomlangan?",
+       "options": [
+        "Viharalar",
+        "Palestralar",
+        "Madrasalar",
+        "Maktablar-ostonalar"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Viharalarda asosiy fan nima edi?",
+       "options": [
+        "Daxarma - diniy qonun-qoidalar",
+        "Astronomiya",
+        "Matematika",
+        "Tibbiyot"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Yahudiylar qaysi quvg'indan Eronga, Samarqand va Buxoroga ko'chib kelgan?",
+       "options": [
+        "Ossuriya quvg'inlaridan",
+        "Rim quvg'inlaridan",
+        "Fors quvg'inlaridan",
+        "Xitoy quvg'inlaridan"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?",
+       "options": [
+        "Yozuv materiallari va kitoblar",
+        "Ipak",
+        "Oltin",
+        "Sopol idish"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "V asrda Samarqand va Buxoroda qaysi din tarqalgan?",
+       "options": [
+        "Xristianlik",
+        "Islom",
+        "Yahudiylik",
+        "Moniylik faqat"
+       ],
+       "correct_index": 0,
+       "page": 57
+      },
+      {
+       "question": "Sug'ddagi nestoriyan jamoalari hujjatlari qaysi tilda yozilgan?",
+       "options": [
+        "Sug'd tilida",
+        "Yunon tilida",
+        "Arab tilida",
+        "Lotin tilida"
+       ],
+       "correct_index": 0,
+       "page": 57
+      },
+      {
+       "question": "To'nyuquq bitiktoshi qaysi asrga oid?",
+       "options": [
+        "VIII asr",
+        "II asr",
+        "XII asr",
+        "XV asr"
+       ],
+       "correct_index": 0,
+       "page": 57
+      },
+      {
+       "question": "Turkiy run (ko'k turk) xati necha harfdan iborat edi?",
+       "options": [
+        "38-40 ta",
+        "10 ta",
+        "100 ta",
+        "5 ta"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Turkiy run xati nimaga yozishga nihoyatda qulay bo'lgan?",
+       "options": [
+        "Tosh va yog'ochga o'yib yozishga",
+        "Qog'ozga",
+        "Ipakka",
+        "Terini bo'yashga"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Qaysi bitiklar ko'k turk yozuvining qadimgi namunalari?",
+       "options": [
+        "Kultegin va Bilga xoqon bitiklari",
+        "Behistun bitiklari",
+        "Rozett bitiktoshi",
+        "Hammurapi qonunlari"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Surxon vohasida devoriy suratlar qaysi manzilgohdan topilgan?",
+       "options": [
+        "Bolaliktepa",
+        "Quva",
+        "Varaxsha",
+        "Poykent"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Farg'ona vodiysidagi qaysi xarobadan haykallar va ganchkor naqshlar topilgan?",
+       "options": [
+        "Quva",
+        "Afrosiyob",
+        "Panjikent",
+        "Marv"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Haykaltaroshlik rivojiga qaysi din kuchli ta'sir ko'rsatgan?",
+       "options": [
+        "Buddaviylik",
+        "Islom",
+        "Yahudiylik",
+        "Zardushtiylik"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Sug'd yozuvlari qaysi joylardan topilgan?",
+       "options": [
+        "Mug' tog'i va Afrosiyobdan",
+        "Xorazmdan",
+        "Marvdan",
+        "Balxdan"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Tog'li va tog'oldi hududlarda to'qimachilikda nimalardan foydalanilgan?",
+       "options": [
+        "Jun",
+        "Ipak",
+        "Paxta",
+        "Zig'ir"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Vodiylarda to'qimachilikda qaysi matolar ishlatilgan?",
+       "options": [
+        "Ipak va ip",
+        "Faqat jun",
+        "Faqat teri",
+        "Faqat zig'ir"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Naqshlarda asosan qaysi ranglardan foydalanilgan?",
+       "options": [
+        "Qizil, sariq, yashil, oq, qora",
+        "Faqat ko'k",
+        "Faqat pushti",
+        "Faqat kulrang"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Erkaklar kiyimi qanday bo'lgan?",
+       "options": [
+        "Otga minishga qulay: kalta kaftan, ko'ylak, baland qo'njli etik",
+        "Uzun to'n va sandal",
+        "Tunika va toga",
+        "Faqat charm ko'ylak"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Ustki kiyimlar (kaftan, yopinchiq, po'stin) uzunligi qancha bo'lgan?",
+       "options": [
+        "Tizzagacha",
+        "Yergacha",
+        "Beligacha",
+        "To'pig'igacha"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Taqinchoqlar nimani ko'rsatgan?",
+       "options": [
+        "Shaxsning ijtimoiy holatini",
+        "Yoshini",
+        "Millatini",
+        "Kasbini"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Toxaristonda kimlar belbog' taqishgan?",
+       "options": [
+        "Erkak va ayol xizmatchilar",
+        "Aslzoda ayollar",
+        "Hukmdorlar",
+        "Ruhoniylar"
+       ],
+       "correct_index": 0,
+       "page": 60
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

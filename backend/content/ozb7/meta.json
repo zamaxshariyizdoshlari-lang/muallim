@@ -1,0 +1,15 @@
+{
+  "book": { "key": "ozbekiston-tarixi-7", "title": "O'zbekiston tarixi (7-sinf, 2022)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "Zamonov va boshq. 7-sinf darsligi (2022): IV asrdan XIII asr boshigacha, 5 bo'lim, 30 mavzu." },
+  "sections": [
+    { "key": "s1", "title": "I BO'LIM. IV-VII asrlarda Turon",
+      "topics": ["m01", "m02", "m03_04", "m05", "m06_07", "m08_09", "m10_11", "m12_13", "m14_15", "m16_17"] },
+    { "key": "s2", "title": "II BO'LIM. VII-X asrlar: xalifalik va mahalliy sulolalar",
+      "topics": ["m18_19", "m20_21", "m22_23", "m24_25", "m26_27", "m28_29"] },
+    { "key": "s3", "title": "III BO'LIM. XI - XIII asr boshi davlatlari",
+      "topics": ["m30_31", "m32_33", "m34_35", "m36_37"] },
+    { "key": "s4", "title": "IV BO'LIM. Xalq, din va ta'lim",
+      "topics": ["m38", "m39_40", "m41_42", "m43_44"] },
+    { "key": "s5", "title": "V BO'LIM. Ilm-fan va buyuk allomalar",
+      "topics": ["m45_46", "m47_48", "m49_50", "m51_52", "m53_54", "m55_56"] }
+  ]
+}

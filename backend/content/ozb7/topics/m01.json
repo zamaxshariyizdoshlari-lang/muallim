@@ -1,0 +1,108 @@
+{
+  "key": "m01", "title": "1-mavzu. Ajdodlarimizning ma'naviy qadriyatlari - jahon sivilizatsiyasi asoslaridan biri", "start_page": 3, "end_page": 7,
+  "explanation": {
+    "goals": ["Darslik qaysi davr tarixini yoritishini va 'o'rta asrlar' tushunchasining ma'nosini bilish", "O'rta asrlarning bosqichlarini va Turon hududidagi yirik davlatlarni sanab berish"],
+    "blocks": [
+      { "heading": "Darslik nimani o'rgatadi", "pages": [3],
+        "text": "Qadimgi Turon hududlarida azaldan o'zbek, tojik, qirg'iz, qozoq, qoraqalpoq va turkmanlarning ajdodlari yashab kelgan. Shu boisdan o'zbek xalqining o'tmishi etnik jihatdan yaqin qardosh xalqlarning tarixi bilan chambarchas bog'langan.\n\nSiz bu darslikda IV asrdan XIII asr boshlarigacha bo'lgan Vatanimizning o'rta asrlar tarixi bilan tanishasiz. Unda o'zbek xalqining shakllanishi, dunyo tamadduniga hissa qo'shgan buyuk ajdodlar va bahodirlar jasorati, xalqimizning boy madaniy merosi haqida ma'lumotlar beriladi." },
+      { "heading": "\"O'rta asrlar\" tushunchasi", "pages": [3, 6],
+        "text": "\"O'rta asrlar\" tushunchasini tarix faniga italyan tarixchilari olib kirgan. U xususiy mulkchilik shakli o'zgargan davrlar bilan bog'liq. Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangani uchun bu tushuncha tariximizda shartli ravishda ishlatiladi.\n\nYevropada o'rta asrlar Rim imperiyasining qulashi (476-yil), ya'ni V asr oxirlaridan boshlangan. Bizda esa bu davr IV asr oxirlari va V asr o'rtalaridan, siyosiy maydonda kidariylar, xioniylar, eftaliylar kabi qabila uyushmalari paydo bo'lgan vaqtdan boshlangan." },
+      { "heading": "O'rta asrlarning bosqichlari", "pages": [6],
+        "text": "O'rta asrlar ilk (IV-VIII asrlar), rivojlangan (IX-XV asrlar) va so'nggi (XVI-XIX asrlar) o'rta asrlarga bo'linadi.\n\nMazkur davrda Xorazm, xioniylar, kidariylar, eftaliylar, Turk xoqonligi, keyinchalik somoniylar, qoraxoniylar, xorazmshohlar, Amir Temur va temuriylar hukmronlik qilgan yirik davlatlar mavjud bo'lgan. Ilk o'rta asrlarda \"qishloq hokimlari\" deb atalgan katta yer egalari - dehqonlar va ularning yerlarida ishlovchi yersiz kadivarlar shakllandi." },
+      { "heading": "Islom va ilm-fan", "pages": [6, 7],
+        "text": "VIII asr boshlarida mamlakatimiz hududida arab xalifaligi hukmronligi o'rnatildi va o'lkamiz madaniyatiga islom dinining ta'siri kuchaydi. Xalifalik hukmronligidan keyingi asrlarda ilm-ma'rifat rivoji uchun sharoit yuzaga keldi.\n\nYurtimizdan Muhammad ibn Muso Xorazmiy, Ahmad Farg'oniy, Abu Rayhon Beruniy, Abu Ali ibn Sino kabi buyuk mutafakkirlar yetishib chiqdi. IX-XII asrlarda Imom Buxoriy, Imom Termiziy, Mahmud Zamahshariy, Ahmad Yassaviy, Najmiddin Kubro singari mashhur ulamolar yashadi. Qadimdan \"Turon\" deb atalgan yurt arablar davridan \"Movarounnahr\" va \"Xuroson\", XVIII-XIX asr g'arb olimlari tomonidan esa \"O'rta Osiyo\" yoki \"Markaziy Osiyo\" deb nomlangan." }
+    ],
+    "key_facts": [
+      { "fact": "Darslik IV asrdan XIII asr boshigacha bo'lgan Vatanimiz tarixini yoritadi", "page": 3 },
+      { "fact": "\"O'rta asrlar\" tushunchasini tarix faniga italyan tarixchilari olib kirgan", "page": 3 },
+      { "fact": "Yevropada o'rta asrlar Rim imperiyasining qulashi (476-yil) bilan boshlangan", "page": 6 },
+      { "fact": "O'rta asrlar ilk (IV-VIII), rivojlangan (IX-XV) va so'nggi (XVI-XIX asrlar) bosqichlarga bo'linadi", "page": 6 },
+      { "fact": "VIII asr boshlarida mamlakatimizda arab xalifaligi hukmronligi o'rnatilgan", "page": 6 }
+    ],
+    "why": {
+      "causes": [
+        "Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan",
+        "Siyosiy maydonda kidariylar, xioniylar, eftaliylar kabi qabila uyushmalari paydo bo'lgan"
+      ],
+      "effects": [
+        "\"O'rta asrlar\" tushunchasi tariximizda shartli ravishda ishlatiladi",
+        "Bizda o'rta asrlar IV asr oxirlari - V asr o'rtalaridan, Yevropadan farqli davrdan boshlangan",
+        "Xalifalikdan keyingi asrlarda ilm-ma'rifat rivoji uchun sharoit yuzaga keldi va buyuk mutafakkirlar yetishib chiqdi"
+      ]
+    },
+    "summary": "Darslik IV asrdan XIII asr boshigacha bo'lgan o'rta asrlar tarixini yoritadi. \"O'rta asrlar\" tushunchasi italyan tarixchilaridan kelgan va Turonda Yevropadan farqli davrdan, IV asr oxiri - V asr o'rtalaridan boshlanadi. U ilk, rivojlangan va so'nggi bosqichlarga bo'linadi; arab xalifaligidan keyingi asrlarda buyuk allomalar yetishib chiqdi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "1-mavzu. Ajdodlarimizning ma'naviy qadriyatlari", "bullets": [], "page": null },
+      { "title": "Darslik davri", "bullets": ["IV asr - XIII asr boshi", "Vatanimizning o'rta asrlar tarixi", "O'zbek xalqining shakllanishi"], "page": 3 },
+      { "title": "\"O'rta asrlar\" tushunchasi", "bullets": ["Italyan tarixchilari kiritgan", "Yevropada: 476-yildan", "Bizda: IV asr oxiri - V asr o'rtalaridan"], "page": 6 },
+      { "title": "Bosqichlar", "bullets": ["Ilk: IV-VIII asrlar", "Rivojlangan: IX-XV asrlar", "So'nggi: XVI-XIX asrlar"], "page": 6 },
+      { "title": "Buyuk allomalar", "bullets": ["Xorazmiy, Farg'oniy", "Beruniy, Ibn Sino", "Imom Buxoriy, Imom Termiziy"], "page": 7 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Rim imperiyasining qulashi - Yevropada o'rta asrlar boshlanishi (476-yil)", "page": 6 },
+        { "label": "Ilk o'rta asrlar davri (IV-VIII asrlar)", "page": 6 },
+        { "label": "Mamlakatimizda arab xalifaligi hukmronligi o'rnatilishi (VIII asr boshi)", "page": 6 },
+        { "label": "Rivojlangan o'rta asrlar davri (IX-XV asrlar)", "page": 6 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Italyan tarixchilari", "right": "\"O'rta asrlar\" tushunchasini fanga kiritganlar", "page": 3 },
+        { "left": "476-yil", "right": "Rim imperiyasining qulashi", "page": 6 },
+        { "left": "Dehqonlar", "right": "\"Qishloq hokimlari\" deb atalgan katta yer egalari", "page": 6 },
+        { "left": "Kadivarlar", "right": "Dehqonlar yerida ishlovchi yersiz ziroatchilar", "page": 6 },
+        { "left": "Movarounnahr", "right": "Arablar davridan Turonga berilgan nom", "page": 6 },
+        { "left": "O'rta Osiyo", "right": "XVIII-XIX asr g'arb olimlari bergan nom", "page": 6 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Darslikda IV asrdan XIII asr ____ gacha bo'lgan tarix yoritiladi.", "options": ["boshlari", "o'rtalari", "oxirlari", "yarmi"], "correct_index": 0, "page": 3 },
+        { "question": "O'rta asrlar ilk, ____ va so'nggi bosqichlarga bo'linadi.", "options": ["rivojlangan", "qadimgi", "yangi", "oraliq"], "correct_index": 0, "page": 6 },
+        { "question": "Yer-mulk munosabatlari Sharqda azaldan ____ asoslarda rivojlangan.", "options": ["jamoaviy", "xususiy", "shaxsiy", "davlat"], "correct_index": 0, "page": 3 },
+        { "question": "Yurtimiz arablar davridan Movarounnahr va ____ deb ham atalgan.", "options": ["Xuroson", "Hindiston", "Eron", "Kavkaz"], "correct_index": 0, "page": 6 },
+        { "question": "VIII asr boshlarida mamlakatimizda ____ xalifaligi hukmronligi o'rnatildi.", "options": ["arab", "fors", "rim", "xitoy"], "correct_index": 0, "page": 6 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "IV-XIII asr boshlarida Vatanimiz tarixining o'ziga xos xususiyatlari nimadan iborat bo'lgan?", "answer": "Bu davrda Xorazm, xioniylar, kidariylar, eftaliylar, Turk xoqonligi, somoniylar, qoraxoniylar, xorazmshohlar kabi yirik davlatlar mavjud bo'lgan, dehqonlar va kadivarlar tabaqasi shakllangan, VIII asr boshida arab xalifaligi hukmronligi o'rnatilib islom ta'siri kuchaygan.", "page": 6 },
+      { "question": "IX-XII asrlarda yurtimizda yetishib chiqqan buyuk mutafakkirlar va mashhur ulamolarni sanang.", "answer": "Muhammad ibn Muso Xorazmiy, Ahmad Farg'oniy, Abu Rayhon Beruniy, Abu Ali ibn Sino hamda Imom Buxoriy, Imom Termiziy, Mahmud Zamahshariy, Ahmad Yassaviy, Najmiddin Kubro.", "page": 7 },
+      { "question": "Nima uchun \"o'rta asrlar\" tushunchasi tariximizda shartli ravishda ishlatiladi?", "answer": "Chunki Sharq mamlakatlarida yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan, bu tushuncha esa xususiy mulkchilik shakli o'zgarishi bilan bog'liq.", "page": 3 }
+    ],
+    "quiz": [
+      { "question": "\"O'rta asrlar\" tushunchasini tarix faniga kimlar olib kirgan?", "options": ["Italyan tarixchilari", "Yunon olimlari", "Arab sayyohlari", "Xitoy elchilari"], "correct_index": 0, "page": 3 },
+      { "question": "Yevropada o'rta asrlar qaysi voqea bilan boshlangan?", "options": ["Rim imperiyasining qulashi bilan", "Amir Temur davlati bilan", "Islom paydo bo'lishi bilan", "Turk xoqonligi bilan"], "correct_index": 0, "page": 6 },
+      { "question": "Rivojlangan o'rta asrlar qaysi asrlarni o'z ichiga oladi?", "options": ["IX-XV asrlar", "IV-VIII asrlar", "XVI-XIX asrlar", "I-III asrlar"], "correct_index": 0, "page": 6 }
+    ]
+  },
+  "test": [
+    { "question": "Qadimgi Turon hududlarida qaysi xalqlarning ajdodlari azaldan yashab kelgan?", "options": ["O'zbek, tojik, qirg'iz, qozoq, qoraqalpoq va turkmanlarning", "Faqat o'zbeklarning", "Faqat tojik va forslarning", "Arab va hindlarning"], "correct_index": 0, "page": 3 },
+    { "question": "Darslikda qaysi davr tarixi bilan tanishasiz?", "options": ["IV asrdan XIII asr boshigacha", "I asrdan IV asrgacha", "XIV asrdan XIX asrgacha", "Miloddan avvalgi VI-IV asrlar"], "correct_index": 0, "page": 3 },
+    { "question": "\"O'rta asrlar\" tushunchasi nima bilan bevosita bog'liq?", "options": ["Xususiy mulkchilik shakli o'zgarishi davrlari bilan", "Yozuv ixtirosi bilan", "Yangi shaharlar qurilishi bilan", "Dengiz yo'llari ochilishi bilan"], "correct_index": 0, "page": 3 },
+    { "question": "Nima uchun \"o'rta asrlar\" tushunchasi tariximizda shartli ishlatiladi?", "options": ["Sharqda yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan", "Bu davrda hech qanday davlat bo'lmagan", "Yozma manbalar saqlanmagan", "Bu davr juda qisqa bo'lgan"], "correct_index": 0, "page": 3 },
+    { "question": "Yevropada o'rta asrlarning boshlanishi qaysi voqeaga to'g'ri keladi?", "options": ["Rim imperiyasining qulashi (476-yil)", "Aleksandr Makedonskiyning yurishlari", "Buyuk ipak yo'lining ochilishi", "Xorazmshohlar davlatining tashkil topishi"], "correct_index": 0, "page": 6 },
+    { "question": "Bizda o'rta asrlar qaysi davrdan boshlangan?", "options": ["IV asr oxirlari va V asr o'rtalaridan", "Miloddan avvalgi III asrdan", "VIII asr oxiridan", "X asr boshlaridan"], "correct_index": 0, "page": 6 },
+    { "question": "Quyidagilardan qaysi biri siyosiy maydonda paydo bo'lgan qabila uyushmalariga kiradi?", "options": ["Kidariylar", "Somoniylar", "Qoraxoniylar", "Saljuqiylar"], "correct_index": 0, "page": 6 },
+    { "question": "O'rta asrlar necha bosqichga bo'linadi?", "options": ["Uch: ilk, rivojlangan va so'nggi", "Ikki: qadimgi va yangi", "To'rt bosqichga", "Bo'linmaydi"], "correct_index": 0, "page": 6 },
+    { "question": "Ilk o'rta asrlar qaysi asrlarni o'z ichiga oladi?", "options": ["IV-VIII asrlar", "IX-XV asrlar", "XVI-XIX asrlar", "I-III asrlar"], "correct_index": 0, "page": 6 },
+    { "question": "So'nggi o'rta asrlar qaysi asrlarga to'g'ri keladi?", "options": ["XVI-XIX asrlar", "IV-VIII asrlar", "IX-XV asrlar", "XIII-XIV asrlar"], "correct_index": 0, "page": 6 },
+    { "question": "Quyidagilardan qaysi biri o'rta asrlarda hukmronlik qilgan yirik davlatlar qatoriga kirmaydi?", "options": ["Qadimgi Rim respublikasi", "Turk xoqonligi", "Somoniylar", "Xorazmshohlar"], "correct_index": 0, "page": 6 },
+    { "question": "\"Qishloq hokimlari\" deb kimlar atalgan?", "options": ["Katta yer egalari - dehqonlar", "Yersiz kadivarlar", "Savdogarlar", "Kohinlar"], "correct_index": 0, "page": 6 },
+    { "question": "Kadivarlar kimlar bo'lgan?", "options": ["Dehqonlar yerida ishlovchi yersiz ziroatchilar", "Harbiy boshliqlar", "Katta yer egalari", "Sayyoh savdogarlar"], "correct_index": 0, "page": 6 },
+    { "question": "Mamlakatimiz hududida arab xalifaligi hukmronligi qachon o'rnatildi?", "options": ["VIII asr boshlarida", "IV asr oxirida", "X asr o'rtalarida", "XII asr boshida"], "correct_index": 0, "page": 6 },
+    { "question": "Xalifalik hukmronligidan keyingi asrlarda nima uchun sharoit yuzaga keldi?", "options": ["Ilm-ma'rifat rivoji uchun", "Qabilalar bosqini uchun", "Yozuvning yo'qolishi uchun", "Savdoning to'xtashi uchun"], "correct_index": 0, "page": 6 },
+    { "question": "Quyidagilardan qaysi biri yurtimizdan chiqqan buyuk mutafakkir emas?", "options": ["Aristotel", "Muhammad ibn Muso Xorazmiy", "Abu Rayhon Beruniy", "Abu Ali ibn Sino"], "correct_index": 0, "page": 6 },
+    { "question": "Turon hududi arablar davridan qanday nomlar bilan atala boshlagan?", "options": ["Movarounnahr va Xuroson", "Sug'diyona va Baqtriya", "Ellada va Rim", "Hindiston va Xitoy"], "correct_index": 0, "page": 6 },
+    { "question": "XVIII-XIX asr g'arb olimlari va sayyohlari yurtimizni qanday atagan?", "options": ["O'rta Osiyo yoki Markaziy Osiyo", "Movarounnahr", "Xuroson", "Turon"], "correct_index": 0, "page": 6 },
+    { "question": "Quyidagi ulamolardan qaysi biri IX-XII asrlarda yurtimizda yashagan?", "options": ["Imom Buxoriy", "Platon", "Gerodot", "Konfutsiy"], "correct_index": 0, "page": 7 },
+    { "question": "Ajdodlarimiz doimo nimaga intilib yashagan?", "options": ["Bunyodkorlik, ilm va ma'rifatga", "Faqat urushlarga", "Yakka hokimlikka", "Boshqa yurtlarga ko'chishga"], "correct_index": 0, "page": 7 },
+    { "question": "Darslik fikricha, bugungi shiddatli dunyoda yagona najotimiz nima?", "options": ["Ilm", "Boylik", "Qurol-yarog'", "Savdo yo'llari"], "correct_index": 0, "page": 7 }
+  ]
+}

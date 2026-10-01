@@ -1,0 +1,112 @@
+{
+  "key": "m03_04", "title": "3-4-mavzular. IV-VII asrlarda Xorazm", "start_page": 10, "end_page": 14,
+  "explanation": {
+    "goals": ["Xorazmning tabiiy sharoiti va xo'jaligini bilish", "Afrig'iylar sulolasi va Xorazm davlatchiligi xususiyatlarini tushuntirish"],
+    "blocks": [
+      { "heading": "Amudaryo va Xorazm vohasi", "pages": [10],
+        "text": "Amudaryo Hindiqushning shimoliy yonbag'irlaridagi muzliklardan boshlanadi. U baland qoyali tog'lar orasidan oqib o'tib, o'zi bilan ko'p miqdorda minerallarni loyqa holda oqizib keladi. Surxon daryosi qo'shilgan joydan quyida u irmoqlarsiz jazirama sahrolar ichidan oqa boshlaydi va aynan shu yerdan uning hayotbaxsh faoliyati boshlanib, Xorazm diyorini suv bilan ta'minlaydi.\n\nXorazm vohasiga Qoraqum sahrosi tutashib ketgan. Xorazmliklar qadim zamonlardan boshlab bu qumliklardan yo'llar o'tkazgan. Olim Istaxriy: \"Xorazm Jayhunning butun foydasini ola bilgan mamlakatdir\", deb yozgan." },
+      { "heading": "Xo'jalik va madaniyat", "pages": [11],
+        "text": "Bu davrda xorazmliklar Xuroson va Eron bilan madaniy-savdo aloqalarini yo'lga qo'ygan. Xorazm diyorida sug'orma dehqonchilik, hunarmandchilik, chorvachilik va savdo-sotiq, ilm-fan, san'at, xususan, haykaltaroshlik yuqori darajada rivoj topgan.\n\nAholi chorvachilik va baliq ovlash bilan shug'ullangan. Xo'jalik turmushida asosan baliq, qovun, qovoq, yovvoyi jiyda va tut alohida o'rin tutgan. Xorazm hunarmandlari yasagan chiroyli sopol idishlar saroylarni bezab turgan." },
+      { "heading": "Afrig'iylar davlati", "pages": [12, 13],
+        "text": "Zaiflashib borayotgan Qang' davlati tarkibidan dastlab Xorazm ajralib chiqdi. Uni mahalliy Afrig'iylar sulolasiga mansub xorazmshohlar idora qilgan (sulola III-X asrlarda hukmronlik qilgan, asoschisi - Afrig'). Davlat poytaxti dastlab Qoraqalpog'istonning hozirgi Ellikqal'a tumanidagi qadimgi Tuproqqal'a o'rnida bo'lgan.\n\nMilodiy 305-yilda xorazmshoh Afrig' qarorgohini qadimiy poytaxt Kat shahriga ko'chirdi va Alfir qasrida yangi saroy qurdirdi. Shundan boshlab Afrig'iy podshohlari oldi tomoniga shoh, orqa tomoniga suvoriy tasviri tushirilgan kumush tangalar zarb etib, ichki va tashqi savdoda mustaqil bo'lib oldilar. Burgut va lochin Xorazmning hukmronlik ramzlari bo'lgan." },
+      { "heading": "Mudofaa, din va ta'lim", "pages": [12, 13, 14],
+        "text": "Tuproqqal'a mudofaa jihatidan nihoyatda mustahkam qurilgan: shahar devori o'rtasida darvozaxona, markazdan yuqorida ibodatxona majmuasi, burchagida balandligi 25 metrli ko'p minorali xorazmshohlar qasri bo'lgan. Poytaxtning umumiy maydoni 25 gektarni tashkil etgan.\n\nXorazmda VIII asrgacha zardushtiylikning ta'siri kuchli bo'lgan. Zardushtiylik ibodatxonalarida ruhoniylar - mobadlar diniy marosimlarni avloddan avlodga saqlab qolishgan. Ta'lim maskanlarida bolalarga asosan o'qish, yozish va jang san'ati o'rgatilgan, rost so'zlashlari uqtirilgan, yolg'on gapirish katta jinoyat hisoblangan. Xorazmda suv muqaddas sanalgan; suv ilohi Xubbi haqidagi afsona islom kirib kelguniga qadar yashagan." }
+    ],
+    "key_facts": [
+      { "fact": "Amudaryo Hindiqushning shimoliy yonbag'irlaridagi muzliklardan boshlanadi", "page": 10 },
+      { "fact": "Xorazm Qang' davlatining zaiflashuvi davrida undan ajralib chiqqan", "page": 12 },
+      { "fact": "Xorazmni Afrig'iylar sulolasiga mansub xorazmshohlar boshqargan (III-X asrlar)", "page": 12 },
+      { "fact": "Milodiy 305-yilda xorazmshoh Afrig' qarorgohini Kat shahriga ko'chirgan", "page": 12 },
+      { "fact": "Xorazmda VIII asrgacha zardushtiylik ta'siri kuchli bo'lgan; ruhoniylar mobadlar deb atalgan", "page": 13 }
+    ],
+    "why": {
+      "causes": [
+        "Amudaryo Xorazm diyorini suv bilan ta'minlagan",
+        "Qang' davlati zaiflashib borgan",
+        "Afrig' tangalar zarb ettirib, savdoda mustaqil bo'lishni xohlagan"
+      ],
+      "effects": [
+        "Xorazmda sug'orma dehqonchilik, hunarmandchilik, savdo, ilm-fan va haykaltaroshlik yuksak darajada rivojlandi",
+        "Xorazm Qang'dan ajralib chiqib, mustaqil Afrig'iylar davlatiga aylandi",
+        "Afrig'iy shohlari kumush tangalar zarb etib, ichki va tashqi savdoda mustaqil bo'ldi",
+        "Poytaxt mudofaa jihatidan juda mustahkam, devor va minorali qilib qurildi"
+      ]
+    },
+    "summary": "Amudaryo suvi Xorazm diyorida sug'orma dehqonchilik, hunarmandchilik va savdoni rivojlantirdi. Qang' zaiflashgach, Xorazm Afrig'iylar sulolasi boshchiligida mustaqil davlatga aylandi; 305-yilda poytaxt Katga ko'chirildi, o'z tangalari zarb etildi. VIII asrgacha zardushtiylik kuchli bo'lib, mobadlar bolalarga o'qish, yozish va rost so'zlilikni o'rgatgan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "3-4-mavzular. IV-VII asrlarda Xorazm", "bullets": [], "page": null },
+      { "title": "Tabiiy sharoit", "bullets": ["Amudaryo - Hindiqush muzliklaridan", "Qoraqum sahrosi tutashgan", "Istaxriy: \"Jayhunning foydasini ola bilgan\""], "page": 10 },
+      { "title": "Xo'jalik", "bullets": ["Sug'orma dehqonchilik", "Hunarmandchilik, savdo-sotiq", "Haykaltaroshlik, ilm-fan"], "page": 11 },
+      { "title": "Afrig'iylar", "bullets": ["III-X asrlar sulolasi", "305-yil: poytaxt Katga ko'chdi", "Kumush tangalar zarbi"], "page": 12 },
+      { "title": "Din va ta'lim", "bullets": ["Zardushtiylik (VIII asrgacha)", "Mobadlar - ruhoniylar", "O'qish, yozish, jang san'ati"], "page": 13 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Xorazm Qang' davlatidan ajralib chiqadi", "page": 12 },
+        { "label": "Xorazmshoh Afrig' qarorgohini Kat shahriga ko'chiradi (305-yil)", "page": 12 },
+        { "label": "Afrig'iylar sulolasi hukmronligi (III-X asrlar)", "page": 13 },
+        { "label": "Xorazmda zardushtiylik ta'siri kuchli bo'lgan davrning tugashi (VIII asr)", "page": 13 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Afrig'", "right": "Afrig'iylar sulolasi asoschisi", "page": 13 },
+        { "left": "Tuproqqal'a", "right": "Xorazmning dastlabki poytaxti", "page": 12 },
+        { "left": "Kat", "right": "Xorazmning qadimiy poytaxti, 305-yilda qarorgoh ko'chirilgan shahar", "page": 12 },
+        { "left": "Mobad", "right": "Zardushtiy ruhoniysi", "page": 13 },
+        { "left": "Burgut va lochin", "right": "Xorazmning hukmronlik ramzlari", "page": 13 },
+        { "left": "Xubbi", "right": "Suv ilohi haqidagi afsona qahramoni", "page": 14 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Amudaryo ____ muzliklaridan boshlanadi.", "options": ["Hindiqush", "Tyanshan", "Himolay", "Oloy"], "correct_index": 0, "page": 10 },
+        { "question": "Xorazmni ____ sulolasiga mansub xorazmshohlar boshqargan.", "options": ["Afrig'iylar", "Somoniylar", "Saljuqiylar", "Tohiriylar"], "correct_index": 0, "page": 12 },
+        { "question": "Xorazmshoh Afrig' qarorgohini ____ shahriga ko'chirgan.", "options": ["Kat", "Buxoro", "Samarqand", "Marv"], "correct_index": 0, "page": 12 },
+        { "question": "Xorazmda ____ asrgacha zardushtiylik ta'siri kuchli bo'lgan.", "options": ["VIII", "IV", "XII", "XV"], "correct_index": 0, "page": 13 },
+        { "question": "Xorazmda ____ muqaddas hisoblangan.", "options": ["suv", "temir", "oltin", "sahro"], "correct_index": 0, "page": 14 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Nima uchun IV-VII asrlarda Xorazm o'zining siyosiy mustaqilligini saqlab qolishga erishdi?", "answer": "Qang' davlati zaiflashgach Xorazm undan ajralib chiqib, Afrig'iylar sulolasi boshchiligida mustaqil davlatga aylandi, o'z qarorgohi va tangalariga ega bo'lib, ichki va tashqi savdoda mustaqil bo'ldi.", "page": 12 },
+      { "question": "Nima uchun poytaxt mudofaa jihatidan nihoyatda mustahkam qilib qurilgan?", "answer": "Xorazmda atrofi devor bilan o'ralgan shaharlar va istehkomli qishloqlar ko'p bo'lgan; poytaxtda darvozaxonali devor, ibodatxona va balandligi 25 metrli ko'p minorali qasr qurilgan.", "page": 12 },
+      { "question": "Xorazm bolalariga qanday ta'lim berilgan?", "answer": "Ta'lim maskanlarida bolalarga asosan o'qish, yozish va jang san'atidan saboq berilgan, ularga faqat rost so'zlash zarurligi uqtirilgan.", "page": 13 }
+    ],
+    "quiz": [
+      { "question": "Afrig'iylar sulolasiga kim asos solgan?", "options": ["Afrig'", "Shovshafar", "Xubbi", "Istaxriy"], "correct_index": 0, "page": 13 },
+      { "question": "Afrig'iy shoh tangalarining orqa tomonida nima tasvirlangan?", "options": ["Suvoriy", "Burgut", "Daryo", "Qasr"], "correct_index": 0, "page": 12 },
+      { "question": "Xorazm qaysi davlat tarkibidan ajralib chiqqan?", "options": ["Qang' davlati", "Kushon davlati", "Turk xoqonligi", "Eftaliylar"], "correct_index": 0, "page": 12 }
+    ]
+  },
+  "test": [
+    { "question": "Amudaryo qayerdan boshlanadi?", "options": ["Hindiqushning shimoliy yonbag'irlaridagi muzliklardan", "Pomir tog'laridagi ko'ldan", "Orol dengizidan", "Qoraqum sahrosidan"], "correct_index": 0, "page": 10 },
+    { "question": "Amudaryo o'zi bilan nimani oqizib keladi?", "options": ["Ko'p miqdorda minerallarni loyqa holda", "Faqat toza suvni", "Tosh va qumni", "Muzliklarni"], "correct_index": 0, "page": 10 },
+    { "question": "Amudaryo qaysi joydan boshlab hech qanday irmoqlarsiz oqadi?", "options": ["Surxon daryosi qo'shilgan joydan quyidan", "Orol dengizidan", "Farg'ona vodiysidan", "Hindiqushdan"], "correct_index": 0, "page": 10 },
+    { "question": "Xorazm vohasiga qaysi sahro tutashib ketgan?", "options": ["Qoraqum", "Qizilqum", "Gobi", "Kaspiy bo'yi"], "correct_index": 0, "page": 10 },
+    { "question": "Olim Istaxriy Xorazm haqida nima degan?", "options": ["Xorazm Jayhunning butun foydasini ola bilgan mamlakatdir", "Xorazm cho'l o'lkasidir", "Xorazm tog'li yurtdir", "Xorazm dengiz bo'yidagi davlatdir"], "correct_index": 0, "page": 10 },
+    { "question": "Xorazmliklar qaysi o'lkalar bilan madaniy-savdo aloqalarini yo'lga qo'ygan?", "options": ["Xuroson va Eron", "Rim va Misr", "Hindiston va Xitoy", "Yunoniston"], "correct_index": 0, "page": 11 },
+    { "question": "Quyidagilardan qaysi biri Xorazmda yuqori darajada rivojlangan soha emas?", "options": ["Dengiz kemasozligi", "Sug'orma dehqonchilik", "Haykaltaroshlik", "Hunarmandchilik"], "correct_index": 0, "page": 11 },
+    { "question": "Xorazm xo'jalik turmushida qaysi mahsulotlar alohida o'rin tutgan?", "options": ["Baliq, qovun, qovoq, jiyda va tut", "Sholi va paxta", "Zaytun va uzum", "Choy va ipak"], "correct_index": 0, "page": 11 },
+    { "question": "Saroylarni nima bezab turgan?", "options": ["Xorazm hunarmandlari yasagan chiroyli sopol idishlar", "Hind ipaklari", "Xitoy chinnilari", "Rim haykallari"], "correct_index": 0, "page": 11 },
+    { "question": "Qaysi davlat zaiflashgach Xorazm undan ajralib chiqdi?", "options": ["Qang'", "Kushon", "Eftaliylar", "Turk xoqonligi"], "correct_index": 0, "page": 12 },
+    { "question": "Xorazmni qaysi sulolaga mansub xorazmshohlar idora qilgan?", "options": ["Afrig'iylar", "Somoniylar", "Qoraxoniylar", "G'aznaviylar"], "correct_index": 0, "page": 12 },
+    { "question": "Xorazm davlatining poytaxti dastlab qayerda joylashgan?", "options": ["Tuproqqal'a xarobasi o'rnida", "Samarqandda", "Buxoroda", "Urganchda"], "correct_index": 0, "page": 12 },
+    { "question": "Afrig' o'z qarorgohini qaysi yilda Kat shahriga ko'chirdi?", "options": ["Milodiy 305-yilda", "Milodiy 105-yilda", "Milodiy 705-yilda", "Milodiy 1005-yilda"], "correct_index": 0, "page": 12 },
+    { "question": "Afrig' Kat shahrida yangi saroyni qayerda qurdirdi?", "options": ["Alfir qasri ichida", "Tuproqqal'ada", "Ko'zaliqirda", "Sopollitepada"], "correct_index": 0, "page": 12 },
+    { "question": "Afrig'iy podshohlari kumush tangalarning orqa tomoniga nimani tushirgan?", "options": ["Suvoriy tasvirini", "Burgutni", "Qasrni", "Daryoni"], "correct_index": 0, "page": 12 },
+    { "question": "Tangalar zarb etish Afrig'iylarga nimada mustaqillik berdi?", "options": ["Ichki va tashqi savdo munosabatlarida", "Diniy marosimlarda", "Harbiy yurishlarda", "Ta'lim ishlarida"], "correct_index": 0, "page": 12 },
+    { "question": "Xorazm poytaxti hisoblangan shaharning maydoni qancha bo'lgan?", "options": ["25 gektar", "5 gektar", "100 gektar", "2 gektar"], "correct_index": 0, "page": 12 },
+    { "question": "Xorazmshohlar qasrining balandligi qancha bo'lgan?", "options": ["25 metr", "5 metr", "100 metr", "50 metr"], "correct_index": 0, "page": 12 },
+    { "question": "Xorazmda qaysi asrgacha zardushtiylik ta'siri kuchli bo'lgan?", "options": ["VIII asrgacha", "II asrgacha", "XII asrgacha", "XV asrgacha"], "correct_index": 0, "page": 13 },
+    { "question": "Zardushtiylik ibodatxonalarida diniy marosimlarni bajaruvchi ruhoniylar kimlar?", "options": ["Mobadlar", "Chokarlar", "Kadivarlar", "Dehqonlar"], "correct_index": 0, "page": 13 },
+    { "question": "Xorazm ta'lim maskanlarida bolalarga nimalar o'rgatilgan?", "options": ["O'qish, yozish va jang san'ati", "Faqat dehqonchilik", "Faqat savdo", "Dengizchilik"], "correct_index": 0, "page": 13 },
+    { "question": "Xorazmda qaysi qush va hayvonlar hukmronlik ramzlari bo'lgan?", "options": ["Burgut va lochin", "Sher va ayiq", "Ot va tuya", "Bo'ri va qoplon"], "correct_index": 0, "page": 13 },
+    { "question": "Xorazm diniy qarashlarida suvning saqlovchisi sifatida kim qadrlangan?", "options": ["Xubbi", "Mitra", "Ahuramazda", "Afrig'"], "correct_index": 0, "page": 14 }
+  ]
+}

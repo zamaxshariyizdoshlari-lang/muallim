@@ -1,0 +1,118 @@
+{
+  "key": "m08_09", "title": "8-9-mavzular. Turk xoqonligi", "start_page": 24, "end_page": 31,
+  "explanation": {
+    "goals": ["Turk xoqonligining tashkil topishi, boshqaruvi va bo'linish sabablarini tushuntirish", "Xoqonlikdagi diniy e'tiqodlar va qonunchilik xususiyatlarini bilish"],
+    "blocks": [
+      { "heading": "Xoqonlikning tashkil topishi", "pages": [24],
+        "text": "VI asr o'rtalarida Oltoy va Janubiy Sibirda yashagan turkiy qabilalarni birlashtirgan yangi davlat vujudga keldi - Turk xoqonligi. Yettisuv va Sharqiy Turkistonga tutashgan yurtlardagi turkiy qabilalar bo'ysundirilib, Oltoy xoqonlik markazi qilib belgilandi. Davlat asoschisi Bumin edi, unga \"Yabg'u xoqon\" unvoni berildi.\n\nBu davrda Sirdaryo va Orol dengizi bo'ylarigacha cho'zilgan keng o'lka xoqonlik hududi bo'lgan. Eftaliylar shimoliy hududlarni mudofaa qilish bilan band bo'lgan paytda sosoniylar janubiy o'lkalar - Toxariston va Chag'oniyonni ulardan tortib oldi. Janubdan sosoniylar, shimoldan Turk xoqonligi zarbasiga uchragan Eftaliylar davlati parchalandi: Amudaryoning janubiy qirg'oqlarigacha viloyatlar Eronga, o'ng sohillari bo'ylab Kaspiy dengizigacha cho'zilgan yerlar Turk xoqonligiga o'tdi. \"Turk\" so'zi baquvvat, barkamol, odillik kabi ma'nolarni anglatadi." },
+      { "heading": "Bo'linish va ittifoqlar", "pages": [25],
+        "text": "Katta qabilalar yoki qabilalar ittifoqi markaziy hokimiyatga bo'ysunmaslikka intilgan, hokimlar mustaqil bo'lishni istagan. Bo'ysundirilgan hududlarni mahalliy hokimlar orqali boshqarish xoqonlikni tobora zaiflashtirgan; Vizantiya, Xitoy va Eron bilan doimiy raqobat ahvolni og'irlashtirgan. Oqibatda Turk xoqonligi VI asrning 80-yillari oxirlarida Sharqiy va G'arbiy turk xoqonliklariga bo'lindi.\n\nTurklarning g'arbga yurishlariga Istami boshchilik qilgan, unga ham \"Yabg'u xoqon\" unvoni berilgan. Xoqonlik sosoniylar hukmdori Xusrav I Anushervon bilan eftaliylarga qarshi harbiy ittifoq tuzgan; ittifoq Eron shohining Istamiga kuyov bo'lishi bilan mustahkamlangan. G'arbiy xoqonlik tarkibiga Yettisuv, Sharqiy Turkiston, Sirdaryo va Amudaryo havzalari, Sharqiy xoqonlikka Janubiy Sibir, Urxun havzasi (Mo'g'uliston) va Shimoliy Xitoy kirgan." },
+      { "heading": "Davlat boshqaruvi va mafkura", "pages": [25, 26, 27],
+        "text": "Xoqonlik asosini turkiy tilda so'zlashuvchi qabilalar ittifoqi tashkil etgan va uni xoqon boshqargan. Hokimiyat urug'-aymoqchilik udumlariga tayangan harbiy-ma'muriy boshqaruvga asoslangan. O'n ming suvoriyga ega tuman boshi \"shod\" deb yuritilgan; o'n o'q el sardori bir tuman suvoriylariga ega bo'lgan. O'n o'q budun yoki elning hokimi \"yabg'u\" atalgan, bu darajaga faqat xoqon urug'iga qon-qarindosh bo'lganlar ko'tarilgan. Ko'chmanchi chorvador aholi \"budun\" yoki \"qora budun\" deb atalgan. Xoqonlik eng kuchaygan davrda Oxota dengizidan Qrim yarimoroligacha, Sibirdan Hindistongacha hududni egallagan.\n\nDavlat mafkurasiga ko'ra xoqonlik \"el\" deb atalgan (\"mangu el\", \"Tangri el\", \"turk eli\"). Xoqon hokimiyati Tangri tomonidan Ashina xonadoniga in'om etilgan deb ishonilgan; agar hukmdor o'z iqtidorini ko'rsata olmasa, \"Tangri bergan hokimiyat yana Tangri tomonidan qaytarib olinadi\", deb tushunilgan." },
+      { "heading": "Qonunchilik va e'tiqodlar", "pages": [28, 29, 30],
+        "text": "Turk xoqonligida davlat urf-odatlar bilan birga yozma qonunchilik bilan ham boshqarilgan: Samarqandda \"Turk qonunnomasi\" amalda bo'lib, ibodatxonada saqlangan, jazo berishda foydalanilgan. Qadimgi Sug'dda oldi-sotdi va nikoh shartnomalari yozma shaklda tuzilib, muhr bilan tasdiqlangan. Farg'ona vodiysidagi Quva va Ajinatepadan Budda haykallari topilgan; Ajinatepa haykalining bo'yi 12 metrga boradi.\n\nXoqonlikda zardushtiylik, moniylik, nasroniylik, buddaviylik, tangrichilik va shomonlik e'tiqodlari bo'lgan. Turkiylarda bo'ri ilohiylashtirilgan. Tangrichilikda Tangri - moviy Osmon sohibi, shu sabab ko'k rang ilohiy buyuklik ramzi sanalgan. Turkiylar mutlaq o'limga ishonmagan, o'limni bir hayotdan ikkinchisiga o'tish deb bilgan, shuning uchun jasadni kiyim-kechak va zarur buyumlari bilan dafn etgan; ajdodlar ruhiga sig'inib, yetti ota-bobosini bilish an'anasi shakllangan." }
+    ],
+    "key_facts": [
+      { "fact": "Turk xoqonligi VI asr o'rtalarida Oltoy va Janubiy Sibirda vujudga kelgan, asoschisi Bumin", "page": 24 },
+      { "fact": "Eftaliylar davlati sosoniylar va Turk xoqonligi zarbasidan parchalangan", "page": 24 },
+      { "fact": "Turk xoqonligi VI asrning 80-yillari oxirlarida Sharqiy va G'arbiy xoqonliklarga bo'linib ketgan", "page": 25 },
+      { "fact": "Xoqonlik sosoniy Xusrav I Anushervon bilan eftaliylarga qarshi ittifoq tuzgan", "page": 25 },
+      { "fact": "Samarqandda ibodatxonada saqlangan \"Turk qonunnomasi\" amalda bo'lgan", "page": 28 }
+    ],
+    "why": {
+      "causes": [
+        "Qabilalar va hokimlar markaziy hokimiyatga bo'ysunmaslikka, mustaqil bo'lishga intilgan",
+        "Bo'ysundirilgan hududlar mahalliy hokimlar orqali boshqarilgan",
+        "Vizantiya, Xitoy va Eron bilan doimiy raqobat bo'lgan"
+      ],
+      "effects": [
+        "Turk xoqonligi mustahkam markazlashgan davlatga aylana olmadi",
+        "VI asrning 80-yillari oxirlarida xoqonlik Sharqiy va G'arbiy qismlarga bo'lindi",
+        "Eftaliylar davlati sosoniylar va turklar zarbasidan parchalanib, Amudaryo bo'yidagi yerlar bo'lishib olindi"
+      ]
+    },
+    "summary": "Turk xoqonligi VI asr o'rtalarida Bumin asosida Oltoyda tuzildi va sosoniylar bilan ittifoqda eftaliylarni parchaladi. Davlat qabilalar ittifoqi va harbiy-ma'muriy tizimga tayangan; Ashina xonadoni hokimiyati ilohiylashtirilgan. Markazlashmaganligi va raqobat tufayli VI asr 80-yillari oxirida Sharqiy va G'arbiy xoqonliklarga bo'lingan. Samarqandda yozma qonunnoma amalda bo'lgan, turli dinlar yonma-yon yashagan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "8-9-mavzular. Turk xoqonligi", "bullets": [], "page": null },
+      { "title": "Tashkil topishi", "bullets": ["VI asr o'rtalari, Oltoy", "Asoschisi - Bumin (Yabg'u xoqon)", "Eftaliylar davlati parchalandi"], "page": 24 },
+      { "title": "Bo'linish", "bullets": ["VI asr 80-yillari oxiri", "Sharqiy va G'arbiy xoqonlik", "Sabab: bo'ysunmaslik, raqobat"], "page": 25 },
+      { "title": "Boshqaruv", "bullets": ["Qabilalar ittifoqi - xoqon", "Shod - 10 ming suvoriy boshlig'i", "Yabg'u - xoqon urug'idan"], "page": 26 },
+      { "title": "E'tiqodlar", "bullets": ["Tangrichilik, shomonlik", "Zardushtiylik, buddaviylik", "Bo'ri totemi"], "page": 29 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Turk xoqonligining tashkil topishi (VI asr o'rtalari)", "page": 24 },
+        { "label": "Eftaliylar davlatining parchalanishi", "page": 24 },
+        { "label": "Xoqonlikning Sharqiy va G'arbiy qismlarga bo'linishi (VI asrning 80-yillari oxiri)", "page": 25 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Bumin", "right": "Turk xoqonligi asoschisi, Yabg'u xoqon", "page": 24 },
+        { "left": "Istami", "right": "Turklarning g'arbga yurishiga boshchilik qilgan yabg'u xoqon", "page": 25 },
+        { "left": "Ashina", "right": "Tangri hokimiyat in'om etgan deb hisoblangan xonadon", "page": 25 },
+        { "left": "Shod", "right": "10 ming suvoriyga ega tuman boshi", "page": 26 },
+        { "left": "Qora budun", "right": "Ko'chmanchi chorvador aholi", "page": 26 },
+        { "left": "Ajinatepa", "right": "Bo'yi 12 metrli Budda haykali topilgan joy", "page": 28 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Turk xoqonligi asoschisi ____ edi.", "options": ["Bumin", "Istami", "Kidar", "Eftalon"], "correct_index": 0, "page": 24 },
+        { "question": "Xoqonlik VI asrning ____ yillari oxirlarida ikkiga bo'lingan.", "options": ["80-", "20-", "50-", "10-"], "correct_index": 0, "page": 25 },
+        { "question": "Xoqonlikda hukmdor hokimiyati ____ xonadoniga in'om etilgan deb hisoblangan.", "options": ["Ashina", "Afrig'iy", "Sosoniy", "Somoniy"], "correct_index": 0, "page": 25 },
+        { "question": "Samarqandda ibodatxonada ____ qonunnomasi saqlangan.", "options": ["Turk", "Rim", "Xammurapi", "Drakont"], "correct_index": 0, "page": 28 },
+        { "question": "Tangrichilikda ____ rang ilohiy buyuklik ramzi hisoblangan.", "options": ["ko'k", "qizil", "yashil", "oq"], "correct_index": 0, "page": 30 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Eftaliylarning tarix sahnasidan chiqib ketishi va Turk xoqonligining qaror topishiga qanday omillar sabab bo'lgan?", "answer": "Eftaliylar shimoliy hududlarni mudofaa qilayotganda sosoniylar janubiy o'lkalarni tortib olgan; janubdan sosoniylar, shimoldan Turk xoqonligi zarbasi bilan davlat parchalangan.", "page": 24 },
+      { "question": "Turk xoqonligi qaysi davlatlar bilan chegaradosh bo'lgan?", "answer": "Sosoniylar (Eron), Vizantiya, Hindiston, Tibet, Suy imperiyasi (Xitoy) va toxarlar bilan.", "page": 26 },
+      { "question": "Qanday sabablarga ko'ra hukmdor hokimiyatdan uzoqlashtirilgan?", "answer": "Agar hukmdor Tangri bergan siyosiy hokimiyatga ishonchni oqlamasa, iqtidorini ko'rsata olmasa, hokimiyat undan qaytarib olingan.", "page": 25 }
+    ],
+    "quiz": [
+      { "question": "Turk xoqonligi qaysi sulola bilan eftaliylarga qarshi ittifoq tuzgan?", "options": ["Sosoniylar", "Kushonlar", "Xioniylar", "Gupta"], "correct_index": 0, "page": 25 },
+      { "question": "\"Turk\" so'zi qanday ma'nolarni anglatadi?", "options": ["Baquvvat, barkamol, odillik", "Dengizchi, savdogar", "Dehqon, hunarmand", "Ruhoniy, kohin"], "correct_index": 0, "page": 24 },
+      { "question": "Turkiylarda qaysi hayvon ilohiylashtirilgan?", "options": ["Bo'ri", "Burgut", "Sher", "Ayiq"], "correct_index": 0, "page": 29 }
+    ]
+  },
+  "test": [
+    { "question": "Turk xoqonligi qachon vujudga keldi?", "options": ["VI asr o'rtalarida", "II asr o'rtalarida", "IX asr o'rtalarida", "XII asr o'rtalarida"], "correct_index": 0, "page": 24 },
+    { "question": "Turk xoqonligi qaysi hududda yashagan turkiy qabilalarni birlashtirgan?", "options": ["Oltoy va Janubiy Sibirda", "Hindistonda", "Eronda", "Misrda"], "correct_index": 0, "page": 24 },
+    { "question": "Xoqonlik asoschisi kim edi?", "options": ["Bumin", "Istami", "Kidar", "Peroz"], "correct_index": 0, "page": 24 },
+    { "question": "Bumin qanday unvon oldi?", "options": ["\"Yabg'u xoqon\"", "\"Shohanshoh\"", "\"Sho\"", "\"Imperator\""], "correct_index": 0, "page": 24 },
+    { "question": "Xoqonlik markazi qayer qilib belgilandi?", "options": ["Oltoy", "Samarqand", "Balx", "Buxoro"], "correct_index": 0, "page": 24 },
+    { "question": "Sosoniylar eftaliylardan qaysi o'lkalarni tortib oldi?", "options": ["Toxariston va Chag'oniyon", "Xorazm va Sug'd", "Farg'ona va Choch", "Hindiston va Xitoy"], "correct_index": 0, "page": 24 },
+    { "question": "Eftaliylar davlati nima sababdan parchalandi?", "options": ["Janubdan sosoniylar va shimoldan Turk xoqonligi zarbasidan", "Zilziladan", "Ocharchilikdan", "Dengiz toshqinidan"], "correct_index": 0, "page": 24 },
+    { "question": "Amudaryoning o'ng sohillari bo'ylab Kaspiy dengizigacha bo'lgan yerlar kimning tasarrufiga o'tdi?", "options": ["Turk xoqonligi", "Sosoniylar", "Vizantiya", "Kushonlar"], "correct_index": 0, "page": 24 },
+    { "question": "Turk xoqonligi qaysi yillar oxirlarida ikkiga bo'lindi?", "options": ["VI asrning 80-yillari oxirlarida", "II asrning 20-yillarida", "X asrning 50-yillarida", "XIII asr boshida"], "correct_index": 0, "page": 25 },
+    { "question": "Quyidagilardan qaysi biri xoqonlik zaiflashuvining sababi emas?", "options": ["Yagona yozma qonunlarning mavjudligi", "Qabilalarning bo'ysunmaslikka intilishi", "Mahalliy hokimlar orqali boshqaruv", "Vizantiya, Xitoy va Eron bilan raqobat"], "correct_index": 0, "page": 25 },
+    { "question": "Xoqonlik davlat mafkurasiga ko'ra qanday atalgan?", "options": ["\"El\"", "\"Respublika\"", "\"Polis\"", "\"Satrapiya\""], "correct_index": 0, "page": 25 },
+    { "question": "Turklar ishonishicha, hokimiyatni kimga Tangri in'om etgan?", "options": ["Ashina xonadoniga", "Afrig'iylarga", "Sosoniylarga", "Somoniylarga"], "correct_index": 0, "page": 25 },
+    { "question": "Agar hukmdor iqtidorini ko'rsata olmasa, uning hokimiyati haqida nima deb tushunilgan?", "options": ["Tangri bergan hokimiyat yana Tangri tomonidan qaytarib olinadi", "Hokimiyat avloddan avlodga o'taveradi", "Hukmdor surgun qilinadi", "Hokimiyat sotib olinadi"], "correct_index": 0, "page": 25 },
+    { "question": "Turklarning g'arbga yurishlariga kim boshchilik qilgan?", "options": ["Istami", "Bumin", "Eftalon", "Kidar"], "correct_index": 0, "page": 25 },
+    { "question": "Eron shohi Xusrav I Anushervon turk xoqoni Istamiga kim bo'ldi?", "options": ["Kuyov", "Qaynota", "Ukasi", "Elchi"], "correct_index": 0, "page": 25 },
+    { "question": "G'arbiy xoqonlik tarkibiga qaysi hududlar kirgan?", "options": ["Yettisuv, Sharqiy Turkiston, Sirdaryo va Amudaryo havzalari", "Janubiy Sibir va Mo'g'uliston", "Hindiston va Tibet", "Misr va Suriya"], "correct_index": 0, "page": 25 },
+    { "question": "Sharqiy xoqonlik tasarrufiga qaysi hududlar kirgan?", "options": ["Janubiy Sibir, Urxun havzasi (Mo'g'uliston), Shimoliy Xitoy", "Yettisuv va Farg'ona", "Eron va Iroq", "Xorazm va Buxoro"], "correct_index": 0, "page": 25 },
+    { "question": "Xoqonlik asosini nima tashkil etgan?", "options": ["Turkiy tilda so'zlashuvchi qabilalar ittifoqi", "Shahar-davlatlar ittifoqi", "Savdogarlar kengashi", "Ruhoniylar jamoasi"], "correct_index": 0, "page": 26 },
+    { "question": "O'n ming suvoriyga ega tuman boshi qanday atalgan?", "options": ["Shod", "Yabg'u", "Budun", "Xoqon"], "correct_index": 0, "page": 26 },
+    { "question": "Ko'chmanchi chorvador aholi qanday atalgan?", "options": ["Budun yoki qora budun", "Shod", "Yabg'u", "Chokar"], "correct_index": 0, "page": 26 },
+    { "question": "Yabg'u darajasiga kimlar ko'tarilgan?", "options": ["Faqat xoqon urug'iga qon-qarindosh bo'lganlar", "Har qanday jangchi", "Boy savdogarlar", "Ruhoniylar"], "correct_index": 0, "page": 27 },
+    { "question": "Xoqonlik eng kuchaygan davrda qaysi hududlarni egallagan?", "options": ["Oxota dengizidan Qrim yarimoroligacha, Sibirdan Hindistongacha", "Faqat Oltoyni", "Faqat Yettisuvni", "Faqat Xorazmni"], "correct_index": 0, "page": 27 },
+    { "question": "Samarqandda amalda bo'lgan yozma hujjat qanday atalgan?", "options": ["Turk qonunnomasi", "Avesto", "Hammurapi qonunlari", "Shohnoma"], "correct_index": 0, "page": 28 },
+    { "question": "Qadimgi Sug'dda oldi-sotdi va nikoh shartnomalari qanday tasdiqlangan?", "options": ["Yozma shaklda tuzilib, muhr bilan", "Faqat og'zaki", "Qasamyod bilan", "Hukmdor farmoni bilan"], "correct_index": 0, "page": 28 },
+    { "question": "Ajinatepa Budda haykalining bo'yi qancha?", "options": ["12 metr", "2 metr", "50 metr", "120 metr"], "correct_index": 0, "page": 28 },
+    { "question": "Turkiylarda qaysi hayvon ilohiylashtirilgan?", "options": ["Bo'ri", "Ot", "Tuya", "Sher"], "correct_index": 0, "page": 29 },
+    { "question": "Qadimgi turklar o'z dinini nima deb yuritgan?", "options": ["\"Qam\"", "\"Mobad\"", "\"Mog'\"", "\"Kohin\""], "correct_index": 0, "page": 29 },
+    { "question": "Tangrichilik ta'limotiga ko'ra, Tangri kim?", "options": ["Moviy Osmon sohibi", "Yer ma'budasi", "Suv ilohi", "Olov ma'budi"], "correct_index": 0, "page": 30 },
+    { "question": "Qaysi rang tangrichilikda ilohiy buyuklik ramzi hisoblangan?", "options": ["Ko'k", "Qora", "Yashil", "Sariq"], "correct_index": 0, "page": 30 },
+    { "question": "Turkiylar o'limga qanday qaragan?", "options": ["Bir hayotdan ikkinchisiga o'tish deb", "Butunlay yo'qolish deb", "Jazo deb", "Mukofot deb"], "correct_index": 0, "page": 30 },
+    { "question": "Turkiylarda jasad nima bilan birga dafn etilgan?", "options": ["Kiyim-kechak va kundalik zarur ashyolari bilan", "Faqat oltin bilan", "Hech narsasiz", "Faqat kitoblar bilan"], "correct_index": 0, "page": 30 }
+  ]
+}

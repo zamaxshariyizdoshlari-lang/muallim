@@ -1,0 +1,107 @@
+{
+  "key": "m05", "title": "5-mavzu. IV-V asrlarda xioniylar va kidariylar", "start_page": 15, "end_page": 17,
+  "explanation": {
+    "goals": ["Xioniylar va kidariylar davlatlarining hududi va hukmdorlarini bilish", "Kidariylarning sosoniylar va eftaliylar bilan munosabatini tushuntirish"],
+    "blocks": [
+      { "heading": "Xioniylar", "pages": [15],
+        "text": "IV asrda turkiy qabilalardan xioniylar dastlab Zarafshon vohasini egallagan, janub tomonga yurib, Kushon podsholigi hududida hukmronlik qilgan. Ular markazi Toxariston bo'lgan, Shimoliy Hindiston, Afg'oniston va Xurosonning bir qismini ham o'z ichiga olgan katta davlat tuzgan.\n\nXioniylar qabilalarining asl vatanini ayrim tadqiqotchilar Orol dengizi bo'yida deb hisoblaydi. G'arb tarixchilari esa xioniylarni xunnlarga qarindosh hisoblab, \"oq xunnlar\" deb ataydi. Ular bu hududda 120 yildan ortiq hukmronlik qilgan." },
+      { "heading": "Kidariylar davlati", "pages": [16],
+        "text": "V asrning 20-yillarida sharqdan Sirdaryo va Orol bo'ylari orqali Xorazm hamda Amudaryo havzasiga yana bir ko'chmanchi chorvador aholi - toxarlar kirib keldi. Toxariylar kushonlarning avlodlari bo'lgan. Ularga Kidar ismli hukmdor boshchilik qilgani uchun ular kidariylar deb ataladi.\n\nTez orada kidariylar xioniylar davlatining janubiy qismida o'z hukmronligini o'rnatdi, Balx shahri yangi davlat poytaxtiga aylantirildi. Kidar Shimoliy Hindistonga yurish qilib, Gandxaradan shimoldagi 5 ta davlatni bo'ysundirgan. Kidariylar Hindistonda Gupta davlatini egallab, 75 yil hukmronlik qilgan va Xitoyga elchilar yuborgan." },
+      { "heading": "Sosoniylar va eftaliylar bilan to'qnashuv", "pages": [17],
+        "text": "Xioniylar va kidariylarning ijtimoiy-iqtisodiy tizimi haqidagi ma'lumotlar bizgacha yetib kelmagan. Kidariylarning janubdagi Eron sosoniylari bilan munosabati yomonlashib borgan. 456-yilda kidariylar va sosoniylar o'rtasida to'qnashuv bo'lib, kidariylar yengilgan. Keyinchalik ular ko'chmanchi chorvador eftaliylar bilan to'qnashib, Shimoliy Hindistonga chekingan.\n\nKidariylar tangalari braxmiy yozuvida zarb etilgan; \"Kidara Kushon sha\" yozuvli tangalar ham topilgan. Tarixchi K. Treverga ko'ra, xioniylar IV asrning 70-yillarida kuchaygan; Turonda kidariylar va eftaliylar hukmronligi o'rnatilgach, ular eftaliylarga tobe bo'lib qolgan." }
+    ],
+    "key_facts": [
+      { "fact": "Xioniylar IV asrda Zarafshon vohasini egallab, markazi Toxariston bo'lgan davlat tuzgan", "page": 15 },
+      { "fact": "G'arb tarixchilari xioniylarni \"oq xunnlar\" deb ataydi; ular 120 yildan ortiq hukmronlik qilgan", "page": 15 },
+      { "fact": "Kidariylar V asrning 20-yillarida kirib kelgan; ularga hukmdor Kidar boshchilik qilgan, poytaxti Balx", "page": 16 },
+      { "fact": "Kidariylar Hindistonda Gupta davlatini egallab, 75 yil hukmronlik qilgan", "page": 16 },
+      { "fact": "456-yilda kidariylar sosoniylardan yengilgan", "page": 17 }
+    ],
+    "why": {
+      "causes": [
+        "Kidariylar ko'chmanchi chorvador toxarlar bo'lib, Sirdaryo va Orol bo'ylaridan Amudaryo havzasiga kirib keldi",
+        "Kidariylarning Eron sosoniylari bilan munosabati yomonlashib bordi",
+        "Kidariylar eftaliylar bilan to'qnashdi"
+      ],
+      "effects": [
+        "Kidariylar xioniylar davlatining janubiy qismida hukmronlik o'rnatib, Balxni poytaxt qildi",
+        "456-yilda kidariylar sosoniylardan yengildi",
+        "Kidariylar Shimoliy Hindistonga chekindi, xioniylar esa eftaliylarga tobe bo'lib qoldi"
+      ]
+    },
+    "summary": "IV asrda xioniylar Zarafshon vohasidan janubga yurib, Toxaristonda katta davlat tuzdi. V asrda Kidar boshchiligidagi kidariylar ularning janubiy qismida Balx poytaxt bo'lgan davlat barpo etdi. Sosoniylardan (456) va eftaliylardan yengilgach, kidariylar Shimoliy Hindistonga chekindi, xioniylar eftaliylarga tobe bo'ldi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "5-mavzu. Xioniylar va kidariylar", "bullets": [], "page": null },
+      { "title": "Xioniylar", "bullets": ["IV asr, Zarafshon vohasi", "Markazi Toxariston", "\"Oq xunnlar\"", "120 yildan ortiq hukmronlik"], "page": 15 },
+      { "title": "Kidariylar", "bullets": ["V asr 20-yillari", "Hukmdor Kidar", "Poytaxti - Balx", "Gupta davlatini egallagan"], "page": 16 },
+      { "title": "Tangalar", "bullets": ["Braxmiy yozuvi", "\"Kidara Kushon sha\"", "Ikki hokim zarbi"], "page": 17 },
+      { "title": "Mag'lubiyat", "bullets": ["456: sosoniylar bilan jang", "Eftaliylar bilan to'qnashuv", "Shimoliy Hindistonga chekinish"], "page": 17 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Xioniylarning kuchayishi (IV asrning 70-yillari)", "page": 17 },
+        { "label": "Kidariylarning kirib kelishi (V asrning 20-yillari)", "page": 16 },
+        { "label": "Kidariylarning sosoniylardan yengilishi (456-yil)", "page": 17 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Xioniylar", "right": "G'arb tarixchilari \"oq xunnlar\" deb atagan qabilalar", "page": 15 },
+        { "left": "Kidar", "right": "Kidariylarga boshchilik qilgan hukmdor", "page": 16 },
+        { "left": "Balx", "right": "Kidariylar davlatining poytaxti", "page": 16 },
+        { "left": "Gupta davlati", "right": "Kidariylar Hindistonda 75 yil hukmronlik qilgan davlat", "page": 16 },
+        { "left": "Sosoniylar", "right": "456-yilda kidariylarni yengan Eron sulolasi", "page": 17 },
+        { "left": "Braxmiy yozuvi", "right": "Kidariylar tangalari zarb etilgan yozuv", "page": 17 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Xioniylar IV asrda dastlab ____ vohasini egallagan.", "options": ["Zarafshon", "Farg'ona", "Xorazm", "Surxon"], "correct_index": 0, "page": 15 },
+        { "question": "Kidariylar davlatining poytaxti ____ shahri bo'lgan.", "options": ["Balx", "Samarqand", "Buxoro", "Termiz"], "correct_index": 0, "page": 16 },
+        { "question": "Kidariylar Hindistonda ____ davlatini egallagan.", "options": ["Gupta", "Maurya", "Kushon", "Xett"], "correct_index": 0, "page": 16 },
+        { "question": "Kidariylar ____ yilda sosoniylardan yengilgan.", "options": ["456", "256", "656", "756"], "correct_index": 0, "page": 17 },
+        { "question": "Kidariylar tangalari ____ yozuvida zarb etilgan.", "options": ["braxmiy", "mixxat", "iyeroglif", "run"], "correct_index": 0, "page": 17 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Xioniylar davlati hududi qayerlarni o'z ichiga olgan?", "answer": "Markazi Toxariston bo'lgan; Shimoliy Hindiston, Afg'oniston va Xurosonning bir qismini ham o'z ichiga olgan.", "page": 15 },
+      { "question": "Kidariylar nima uchun shunday atalgan?", "answer": "Ularga Kidar ismli hukmdor boshchilik qilgani uchun.", "page": 16 },
+      { "question": "Kidariylar nima sababdan Shimoliy Hindistonga chekingan?", "answer": "Sosoniylardan yengilgan (456) va ko'chmanchi chorvador eftaliylar bilan to'qnashgach.", "page": 17 }
+    ],
+    "quiz": [
+      { "question": "G'arb tarixchilari xioniylarni qanday atagan?", "options": ["Oq xunnlar", "Qora xunnlar", "Qizil xunnlar", "Sak xunnlari"], "correct_index": 0, "page": 15 },
+      { "question": "Kidariylar kimlarning avlodlari bo'lgan?", "options": ["Kushonlarning", "Saklarning", "Xorazmliklarning", "Eftaliylarning"], "correct_index": 0, "page": 16 },
+      { "question": "Kidariylar Hindistonda necha yil hukmronlik qilgan?", "options": ["75 yil", "120 yil", "20 yil", "300 yil"], "correct_index": 0, "page": 16 }
+    ]
+  },
+  "test": [
+    { "question": "Xioniylar IV asrda dastlab qaysi vohani egallagan?", "options": ["Zarafshon vohasini", "Surxon vohasini", "Xorazm vohasini", "Farg'ona vodiysini"], "correct_index": 0, "page": 15 },
+    { "question": "Xioniylar davlatining markazi qayer bo'lgan?", "options": ["Toxariston", "Sug'diyona", "Xorazm", "Choch"], "correct_index": 0, "page": 15 },
+    { "question": "Xioniylar qaysi qabilalar turkumiga mansub deb hisoblanadi?", "options": ["Turkiy qabilalar", "Fors qabilalari", "Arab qabilalari", "Hind qabilalari"], "correct_index": 0, "page": 15 },
+    { "question": "Ayrim tadqiqotchilar xioniylarning asl vatanini qayerda deb hisoblaydi?", "options": ["Orol dengizi bo'yida", "Hindistonda", "Eronda", "Xitoyda"], "correct_index": 0, "page": 15 },
+    { "question": "G'arb tarixchilari xioniylarni nima deb ataydi?", "options": ["Oq xunnlar", "Kidariylar", "Sosoniylar", "Eftalitlar"], "correct_index": 0, "page": 15 },
+    { "question": "Xioniylar bu hududda necha yildan ortiq hukmronlik qilgan?", "options": ["120 yildan", "20 yildan", "500 yildan", "5 yildan"], "correct_index": 0, "page": 15 },
+    { "question": "Kidariylar qachon Xorazm va Amudaryo havzasiga kirib kelgan?", "options": ["V asrning 20-yillarida", "II asrda", "VII asrning oxirida", "X asrda"], "correct_index": 0, "page": 16 },
+    { "question": "Kidariylar qaysi yo'l bilan Xorazm va Amudaryo havzasiga kelgan?", "options": ["Sirdaryo va Orol bo'ylari orqali", "Hind daryosi orqali", "Kaspiy dengizi orqali", "Pomir orqali"], "correct_index": 0, "page": 16 },
+    { "question": "Toxariylar kimlarning avlodlari bo'lgan?", "options": ["Kushonlarning", "Xioniylarning", "Eftaliylarning", "Sosoniylarning"], "correct_index": 0, "page": 16 },
+    { "question": "Kidariylar nomi qaysi hukmdor ismidan kelib chiqqan?", "options": ["Kidar", "Eftalon", "Peroz", "Afrig'"], "correct_index": 0, "page": 16 },
+    { "question": "Kidariylar xioniylar davlatining qaysi qismida hukmronlik o'rnatgan?", "options": ["Janubiy qismida", "Shimoliy qismida", "G'arbiy qismida", "Hech qaysisida"], "correct_index": 0, "page": 16 },
+    { "question": "Yangi kidariy davlatining poytaxti qaysi shahar bo'ldi?", "options": ["Balx", "Poykent", "Kat", "Marv"], "correct_index": 0, "page": 16 },
+    { "question": "Kidar Shimoliy Hindistonda Gandxaradan shimoldagi nechta davlatni bo'ysundirgan?", "options": ["5 ta", "2 ta", "10 ta", "20 ta"], "correct_index": 0, "page": 16 },
+    { "question": "Kidariylar Hindistonda qaysi davlatni egallagan?", "options": ["Gupta davlatini", "Kushon davlatini", "Maurya davlatini", "Sosoniylar davlatini"], "correct_index": 0, "page": 16 },
+    { "question": "Kidariylar qaysi mamlakatga elchilar yuborgan?", "options": ["Xitoyga", "Rimga", "Misrga", "Yunonistonga"], "correct_index": 0, "page": 16 },
+    { "question": "Xioniylar va kidariylarning ijtimoiy-iqtisodiy tizimi haqida nima deyish mumkin?", "options": ["Ma'lumotlar bizgacha yetib kelmagan", "U to'liq o'rganilgan", "Ular faqat dehqonchilik bilan shug'ullangan", "Ular savdo qilmagan"], "correct_index": 0, "page": 17 },
+    { "question": "Kidariylarning janubdagi qaysi davlat bilan munosabati yomonlashgan?", "options": ["Eron sosoniylari bilan", "Rim imperiyasi bilan", "Xitoy bilan", "Vizantiya bilan"], "correct_index": 0, "page": 17 },
+    { "question": "Kidariylar sosoniylar bilan to'qnashuvda qaysi yilda yengilgan?", "options": ["456-yilda", "256-yilda", "656-yilda", "1056-yilda"], "correct_index": 0, "page": 17 },
+    { "question": "Kidariylar keyinchalik qaysi ko'chmanchi chorvadorlar bilan to'qnashgan?", "options": ["Eftaliylar bilan", "Xioniylar bilan", "Saklar bilan", "Massagetlar bilan"], "correct_index": 0, "page": 17 },
+    { "question": "Kidariylar eftaliylar bilan to'qnashgach qayerga chekingan?", "options": ["Shimoliy Hindistonga", "Xitoyga", "Eronga", "Orol bo'yiga"], "correct_index": 0, "page": 17 },
+    { "question": "Kidariylar tangalari qaysi yozuvda zarb etilgan?", "options": ["Braxmiy yozuvida", "Mixxatda", "Iyerogliflarda", "Arab yozuvida"], "correct_index": 0, "page": 17 },
+    { "question": "Turonda kidariylar va eftaliylar hukmronligi o'rnatilgach, xioniylar holati qanday o'zgargan?", "options": ["Eftaliylarga tobe bo'lib qolgan", "Mustaqilligini mustahkamlagan", "Davlati kengaygan", "Hindistonni egallagan"], "correct_index": 0, "page": 17 }
+  ]
+}

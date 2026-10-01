@@ -1,0 +1,117 @@
+{
+  "key": "m06_07", "title": "6-7-mavzular. Eftaliylar", "start_page": 18, "end_page": 23,
+  "explanation": {
+    "goals": ["Eftaliylar davlatining tashkil topishi, boshqaruvi va xo'jaligini bilish", "Eftaliylar davridagi shaharlar, tanga muomalasi va diniy e'tiqodlarni tushuntirish"],
+    "blocks": [
+      { "heading": "Eftaliylar davlati va boshqaruv", "pages": [18, 19],
+        "text": "V-VI asrlarda Eftalon sulolasiga mansub qabila Turon hududida hukmronlik qilgan. Manbalarda eftaliylar, eftallar, eftalitlar, xaytallar kabi nomlar bilan atalgan. Bu nom \"Eftalon\" degan shoh ismidan olingan; uni Vaxshunvar deb ham ataganlar. Eftaliylar V asr boshlarida Sharqdan kirib kelgan; davlatning dastlabki poytaxti Buxoro yaqinidagi Poykent va Varaxsha shaharlari bo'lgan. Davlatga O'rta Osiyodan tashqari Sharqiy Turkiston, Afg'oniston, Shimoliy Hindiston va hozirgi Pokiston hududlari kirgan.\n\nSaltanat yakka hukmdor tomonidan boshqarilgan. Taxt avloddan avlodga o'tmay, shu suloladan kim loyiq deb topilsa, o'sha o'tirgan; nomzodni sulolaning mo'tabar kishilari va a'yonlardan iborat kengash taqdim etgan. Viloyatlarni hukmdor - Sho (shoh)ga tobe mahalliy sulolalar boshqargan, ularning har biri o'z kumush yoki mis tangasini zarb etgan. Davlat harbiy kuchga tayangan. Sosoniylar shohi Peroz 484-yilda eftaliylarga qarshi urushda halok bo'lgan." },
+      { "heading": "Savdo, tanga va hunarmandchilik", "pages": [18, 20],
+        "text": "Iqtisodiy-savdo munosabatlarining izchil yo'lga qo'yilishi dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilikning ravnaq topishiga asos bo'ldi. Tashqi savdo bojidan manfaatdor eftaliylar Ipak yo'lini o'z nazoratlari ostida tutishga harakat qilgan; Xitoy, Hindiston, Eron va Vizantiya bilan xalqaro savdoda faol qatnashgan. Ipak yo'li savdosida sosoniy savdogarlari bilan raqobatda asosan sug'dlar vositachi rolini o'ynagan.\n\nDastlab eftaliylar sosoniy hukmdorlarining kumush tangalaridan keng foydalangan; shuningdek Buxoro, Poykand, Vardona, Naxshab, Samarqand va Xorazmda mahalliy hokimlar chiqargan chaqa tangalar muomalada bo'lgan. Turonda shishasozlik rivojlangan: shishalar rangdorligi, yarqiroqligi va tiniqligi bilan Vizantiya shishasidan ustun turgan, Xitoy imperatorlari saroylarini Turondan keltirilgan rangli shisha bilan bezagan." },
+      { "heading": "Til, ta'lim va din", "pages": [20, 21],
+        "text": "Turon aholisining bir qismi sug'd tilida, ikkinchi qismi turkiy tilda so'zlashgan; sug'd tili xalqaro savdo tili sifatida Yettisuv, Farg'ona, Sharqiy Turkiston va Xitoyda muomalada bo'lgan. Eftaliylar alifbosi Baqtriya yozuvi asosida shakllangan va 25 harfdan iborat bo'lgan. Bolalarga yoshligidan ta'lim va tarbiya berilgan; harbiy soha bilan faqat o'g'il bolalar emas, qizlar ham otda yurish, kamondan o'q otishga jalb qilingan.\n\nEftaliylar asosan zardushtiylikka e'tiqod qilgan; tangrichilik, buddaviylik, moniylik, mazdakiylik ham tarqalgan, shaharlarda nestorianlar va yahudiylar jamoalari bo'lgan. Davlatda shaharlar juda ko'p bo'lgan." },
+      { "heading": "Shaharlar va sug'orish tarmoqlari", "pages": [21, 22, 23],
+        "text": "V asrda Panjikentda umumiy maydoni 18 gektar bo'lgan yangi shahar barpo etildi. Poykand arab manbalarida \"Madina at-tujjor\" - \"Savdogarlar shahri\" deb ta'riflangan. Buxoro IV asrdan Turonning yirik madaniy va iqtisodiy markazi bo'lgan: shaharning asosi 21 gektar, yettita darvozasi bo'lgan. Zartepa IV-V asrlarda maydoni 17 gektar bo'lgan yirik shaharga aylandi. Qal'a va istehkomlarga Zahoki Maron, Shahri Vayron, Fir qal'asi misol bo'ladi.\n\nV asrda Zog'ariq (Zovariq), Bo'zsuv va Darg'om kabi yirik sug'orish kanallari barpo etilgan. Vizantiyalik tarixchi Prokopiy Kesariyskiy eftaliylar podshosi aholiga g'amxo'rlik qilib, adolat mezonlariga amal qilganini yozgan." }
+    ],
+    "key_facts": [
+      { "fact": "Eftaliylar V asr boshlarida sharqdan kirib kelgan; dastlabki poytaxti Poykent va Varaxsha", "page": 19 },
+      { "fact": "Eftaliylarda taxt avloddan avlodga o'tmagan: loyiq nomzodni kengash taqdim etgan", "page": 19 },
+      { "fact": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda 484-yilda halok bo'lgan", "page": 19 },
+      { "fact": "Eftaliylar Ipak yo'lini nazorat qilishga harakat qilgan, sug'dlar vositachi bo'lgan", "page": 20 },
+      { "fact": "Eftaliylar alifbosi Baqtriya yozuvi asosida shakllangan va 25 harfdan iborat bo'lgan", "page": 20 }
+    ],
+    "why": {
+      "causes": [
+        "Eftaliylar tashqi savdo bojidan manfaatdor edi",
+        "Eftaliylarning kuchayishidan xavfsiragan sosoniylar ularga qarshi yurish qildi",
+        "Iqtisodiy-savdo munosabatlari izchil yo'lga qo'yildi"
+      ],
+      "effects": [
+        "Eftaliylar Ipak yo'lini o'z nazoratlarida tutishga va xalqaro savdoda faol qatnashishga harakat qildi",
+        "484-yilda sosoniylar shohi Peroz halok bo'ldi",
+        "Dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilik ravnaq topdi",
+        "Shaharlar ko'paydi, ular bilan eftaliylar sulolalari mahalliy aholi bilan aralashib ketdi"
+      ]
+    },
+    "summary": "Eftaliylar V asr boshlarida Turonga kelib, Buxoro yaqinidagi Poykent va Varaxshada dastlabki poytaxtga ega bo'lgan davlat tuzdi. Ular boshqaruvda kengashga tayangan, Ipak yo'li savdosida faol bo'lgan, 484-yilda sosoniy shohi Perozni mag'lub etgan. Davrda dehqonchilik, shaharsozlik, shishasozlik va tanga muomalasi rivojlandi, turli dinlar yonma-yon yashadi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "6-7-mavzular. Eftaliylar", "bullets": [], "page": null },
+      { "title": "Davlat va boshqaruv", "bullets": ["V asr boshi, poytaxt - Poykent, Varaxsha", "Yakka hukmdor - Sho", "Loyiq nomzodni kengash taqdim etgan"], "page": 19 },
+      { "title": "Sosoniylar bilan urush", "bullets": ["Eftaliylar kuchayishidan xavfsirash", "Peroz 484-yilda halok bo'ldi"], "page": 19 },
+      { "title": "Savdo va hunarmandchilik", "bullets": ["Ipak yo'li nazorati", "Sug'dlar - vositachi", "Shishasozlik"], "page": 20 },
+      { "title": "Din va madaniyat", "bullets": ["Zardushtiylik", "Buddaviylik, moniylik, mazdakiylik", "25 harfli alifbo"], "page": 21 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Buxoro IV asrdan yirik madaniy va iqtisodiy markazga aylanadi (IV asr)", "page": 22 },
+        { "label": "Eftaliylar sharqdan Turonga kirib keladi (V asr boshlari)", "page": 19 },
+        { "label": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda halok bo'ladi (484-yil)", "page": 19 },
+        { "label": "Turk elchisi Vizantiya imperatori huzurida eftaliylar shaharlari haqida gapiradi (568-569-yillar)", "page": 21 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Eftalon (Vaxshunvar)", "right": "Eftaliylar nomi olingan shoh", "page": 18 },
+        { "left": "Poykand", "right": "\"Savdogarlar shahri\" (Madina at-tujjor)", "page": 21 },
+        { "left": "Panjikent", "right": "V asrda barpo etilgan 18 gektarli shahar", "page": 21 },
+        { "left": "Zartepa", "right": "IV-V asrlarda 17 gektarli shaharga aylangan manzil", "page": 22 },
+        { "left": "Darg'om", "right": "V asrda barpo etilgan sug'orish kanali", "page": 23 },
+        { "left": "Prokopiy Kesariyskiy", "right": "Eftaliylar podshosini adolatli deb yozgan Vizantiya tarixchisi", "page": 23 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Eftaliylar davlatining dastlabki poytaxti Buxoro yaqinidagi Poykent va ____ bo'lgan.", "options": ["Varaxsha", "Panjikent", "Kat", "Termiz"], "correct_index": 0, "page": 19 },
+        { "question": "Sosoniylar shohi Peroz ____ yilda eftaliylarga qarshi urushda halok bo'lgan.", "options": ["484", "284", "684", "984"], "correct_index": 0, "page": 19 },
+        { "question": "Ipak yo'li savdosida asosan ____ vositachi rolini o'ynagan.", "options": ["sug'dlar", "xioniylar", "kidariylar", "yunonlar"], "correct_index": 0, "page": 20 },
+        { "question": "Eftaliylar alifbosi ____ harfdan iborat bo'lgan.", "options": ["25", "10", "50", "100"], "correct_index": 0, "page": 20 },
+        { "question": "Eftaliylar asosan ____ dinga e'tiqod qilgan.", "options": ["zardushtiylik", "xristian", "islom", "yahudiy"], "correct_index": 0, "page": 21 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Eftaliylar hukmronligi davrida nimaning hisobiga dehqonchilik, sun'iy sug'orish, chorvachilik, bog'dorchilik va hunarmandchilik ravnaq topdi?", "answer": "Iqtisodiy-savdo munosabatlarining izchil yo'lga qo'yilishi hisobiga.", "page": 18 },
+      { "question": "Eftaliylar davlatida taxt qanday o'tgan?", "answer": "Taxt avloddan avlodga o'tmagan: shu suloladan loyiq deb topilgan kishi o'tirgan, nomzodni sulola mo'tabarlari va a'yonlardan iborat kengash taqdim etgan.", "page": 19 },
+      { "question": "Nima sababdan eftaliylar dastlabki yillarda sosoniylar tangalaridan foydalangan?", "answer": "Ichki va tashqi savdo munosabatlarida dastlab sosoniy hukmdorlarining kumush tangalaridan keng foydalanilgan (ular xalqaro savdoda keng tarqalgan edi).", "page": 20 }
+    ],
+    "quiz": [
+      { "question": "Eftaliylar nomi qaysi shoh ismidan olingan?", "options": ["Eftalon", "Kidar", "Afrig'", "Peroz"], "correct_index": 0, "page": 18 },
+      { "question": "Poykand arab manbalarida qanday atalgan?", "options": ["Savdogarlar shahri", "Ipak shahri", "Qal'alar shahri", "Olimlar shahri"], "correct_index": 0, "page": 21 },
+      { "question": "Qaysi mamlakat imperatorlari saroylarini Turondan keltirilgan rangli shisha bilan bezagan?", "options": ["Xitoy", "Rim", "Hindiston", "Misr"], "correct_index": 0, "page": 20 }
+    ]
+  },
+  "test": [
+    { "question": "Eftaliylar qaysi asrlarda Turon hududida hukmronlik qilgan?", "options": ["V-VI asrlarda", "II-III asrlarda", "IX-X asrlarda", "XII-XIII asrlarda"], "correct_index": 0, "page": 18 },
+    { "question": "Eftaliylar nomi aslida qaysi shoh ismidan olingan?", "options": ["Eftalon", "Peroz", "Kidar", "Sho"], "correct_index": 0, "page": 18 },
+    { "question": "Eftalonni yana qanday nom bilan ataganlar?", "options": ["Vaxshunvar", "Katulf", "Afrig'", "Gatfar"], "correct_index": 0, "page": 18 },
+    { "question": "Eftaliylar davlatiga birlashgan aholining etnik tarkibi qanday bo'lgan?", "options": ["Xilma-xil", "Bir xil", "Faqat turkiy", "Faqat sug'd"], "correct_index": 0, "page": 18 },
+    { "question": "Eftaliylar davlatining dastlabki poytaxti qaysi shaharlar bo'lgan?", "options": ["Buxoro yaqinidagi Poykent va Varaxsha", "Samarqand va Termiz", "Balx va Marv", "Kat va Urganch"], "correct_index": 0, "page": 19 },
+    { "question": "Eftaliylar davlatiga quyidagilardan qaysi biri kirmagan?", "options": ["Arabiston yarimoroli", "Sharqiy Turkiston", "Afg'oniston", "Shimoliy Hindiston"], "correct_index": 0, "page": 19 },
+    { "question": "Eftaliylar saltanati kim tomonidan boshqarilgan?", "options": ["Yakka hukmdor", "Respublika kengashi", "Xalq majlisi", "Uch hukmdor"], "correct_index": 0, "page": 19 },
+    { "question": "Taxtga nomzodni kim aniqlab taqdim etgan?", "options": ["Sulolaning mo'tabar kishilari va a'yonlardan iborat kengash", "Sosoniy shohi", "Xalq yig'ilishi", "Ruhoniylar"], "correct_index": 0, "page": 19 },
+    { "question": "Viloyatlarni kimlar boshqargan?", "options": ["Hukmdor - Shoga tobe mahalliy sulolalar", "Sosoniy noiblari", "Xitoy elchilari", "Ruhoniylar kengashi"], "correct_index": 0, "page": 19 },
+    { "question": "Mahalliy sulolalarning har biri nimani zarb etgan?", "options": ["O'zining kumush yoki mis tangalarini", "Faqat oltin tanga", "Qog'oz pul", "Hech narsa"], "correct_index": 0, "page": 19 },
+    { "question": "Eftaliylarning kuchayishidan kim xavfsiragan?", "options": ["Erondagi sosoniylar", "Rim imperatorlari", "Kushonlar", "Xorazmshohlar"], "correct_index": 0, "page": 19 },
+    { "question": "Sosoniylar shohi Peroz eftaliylarga qarshi urushda qanday yakunga uchragan?", "options": ["Halok bo'lgan", "G'alaba qozongan", "Sulh tuzgan", "Asirga olinib qo'yib yuborilgan"], "correct_index": 0, "page": 19 },
+    { "question": "Qaysi asar Vaxshunvor va Peruz davri voqealarini aks ettirgan?", "options": ["Firdavsiyning \"Shohnoma\"si", "Avesto", "Gerodotning \"Tarix\"i", "Injil"], "correct_index": 0, "page": 19 },
+    { "question": "Eftaliylar nimani o'z nazoratlarida tutishga harakat qilgan?", "options": ["Ipak yo'lini", "Dengiz yo'llarini", "Hind okeanini", "Qora dengizni"], "correct_index": 0, "page": 20 },
+    { "question": "Ipak yo'li savdosida vositachi rolini kimlar o'ynagan?", "options": ["Sug'dlar", "Xioniylar", "Rimliklar", "Arablar"], "correct_index": 0, "page": 20 },
+    { "question": "Eftaliylar dastavval qaysi tangalardan keng foydalangan?", "options": ["Sosoniy hukmdorlarining kumush tangalaridan", "Yunon oltin tangalaridan", "Xitoy mis tangalaridan", "Hind tangalaridan"], "correct_index": 0, "page": 20 },
+    { "question": "Turonda shishalar qaysi davlat shishasidan ustun turgan?", "options": ["Vizantiya shishasidan", "Misr shishasidan", "Xitoy shishasidan", "Rim shishasidan"], "correct_index": 0, "page": 20 },
+    { "question": "Sug'd tili qaysi vazifani bajargan?", "options": ["Xalqaro savdo tili", "Faqat diniy til", "Harbiy buyruqlar tili", "Faqat saroy tili"], "correct_index": 0, "page": 20 },
+    { "question": "Eftaliylar alifbosi qaysi yozuv asosida shakllangan?", "options": ["Baqtriya yozuvi", "Mixxat", "Braxmiy", "Lotin"], "correct_index": 0, "page": 20 },
+    { "question": "Eftaliylar davrida qizlar nimaga jalb qilingan?", "options": ["Otda yurish va kamondan o'q otishga", "Faqat uy ishlariga", "Savdoga", "Ruhoniylikka"], "correct_index": 0, "page": 20 },
+    { "question": "Quyidagi e'tiqodlardan qaysi biri eftaliylar davlatida tarqalmagan?", "options": ["Islom", "Zardushtiylik", "Buddaviylik", "Moniylik"], "correct_index": 0, "page": 21 },
+    { "question": "Poykand arab manbalarida qanday ta'riflangan?", "options": ["\"Madina at-tujjor\" - \"Savdogarlar shahri\"", "\"Qal'alar shahri\"", "\"Muqaddas shahar\"", "\"Poytaxt shahar\""], "correct_index": 0, "page": 21 },
+    { "question": "V asrda Panjikentda barpo etilgan yangi shaharning maydoni qancha bo'lgan?", "options": ["18 gektar", "5 gektar", "50 gektar", "100 gektar"], "correct_index": 0, "page": 21 },
+    { "question": "Buxoro shahrining asosi necha gektar edi?", "options": ["21 gektar", "5 gektar", "150 gektar", "1 gektar"], "correct_index": 0, "page": 22 },
+    { "question": "Buxoro shahrining nechta darvozasi bo'lgan?", "options": ["Yettita", "Ikkita", "O'nta", "Bitta"], "correct_index": 0, "page": 22 },
+    { "question": "Zartepa IV-V asrlarda qancha maydonli yirik shaharga aylandi?", "options": ["17 gektar", "2 gektar", "70 gektar", "200 gektar"], "correct_index": 0, "page": 22 },
+    { "question": "V asrda barpo etilgan yirik sug'orish kanallariga qaysilar kiradi?", "options": ["Zog'ariq, Bo'zsuv va Darg'om", "Amudaryo va Sirdaryo", "Nil va Frot", "Hind va Gang"], "correct_index": 0, "page": 23 },
+    { "question": "Prokopiy Kesariyskiy eftaliylar podshosi haqida nima yozgan?", "options": ["Aholiga g'amxo'rlik ko'rsatib, adolat mezonlariga amal qiladi", "Qo'shni davlatlarga shafqatsiz bo'lgan", "Savdoga to'sqinlik qilgan", "Dinni taqiqlagan"], "correct_index": 0, "page": 23 }
+  ]
+}

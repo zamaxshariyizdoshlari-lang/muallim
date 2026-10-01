@@ -1,0 +1,116 @@
+{
+  "key": "m16_17", "title": "16-17-mavzular. VI-VII asrlarda Turon xalqlari madaniy hayoti", "start_page": 54, "end_page": 61,
+  "explanation": {
+    "goals": ["VI-VII asrlarda Turonda ta'lim, yozuv va diniy maktablar xususiyatlarini bilish", "Haykaltaroshlik, devoriy suratlar, to'qimachilik va kiyinish madaniyatini tushuntirish"],
+    "blocks": [
+      { "heading": "Ta'lim va yozma manbalar", "pages": [55],
+        "text": "Mamlakatimizda ta'lim tizimining rivojlanishi uzoq tarixiy jarayon bo'lib, yozuvning paydo bo'lishi bilan jadallashgan. Qadimgi tosh bitiklar, teri, sopol, yog'och (taxta) va keyinchalik qog'ozlarga tushirilgan ma'lumotlar ta'lim tarixidan so'zlovchi manba hisoblanadi. Tariximizdan darak beruvchi eng qadimgi yozma manba \"Avesto\"da diniy bilimlar bilan birga dunyoviy bilimlar, tarixiy voqealar hamda ma'naviy-ma'rifiy qarashlar to'plangan.\n\nXorazmdagi Jonbosqal'a va Tuproqqal'adan topilgan zardushtiylar ibodatxonasi qo'sh devor bilan qurshalgan, aylanma yo'lak orqali kiriladigan to'g'ri burchakli bino bo'lgan. Xonalardan teriga va yog'ochga yozilgan hujjatlar, haykalchalar topilgan; bu ibodatxonaga tutash binolarda ta'lim maskanlari, huquq idoralari va ma'muriy-xo'jalik ishlari bo'lganini ko'rsatadi. Xorazmda o'g'il bolalarga o'qish, yozish, hisob-kitob, shuningdek geografiya, zoologiya, botanika, astronomiya, muhandislik, tibbiyot va me'morchilik o'rgatilgan." },
+      { "heading": "Diniy maktablar", "pages": [56, 57],
+        "text": "Turon xalqlari tangrichilik, zardushtiylik, buddaviylik, xristianlik va boshqa dinlarga e'tiqod qilgan. Bu dinlar ibodatxonalarida maxsus maktablar bo'lib, ta'lim oluvchilarga dinning asoslari o'rgatilgan va xat-savod chiqarilgan. Buddaviy o'quv maskanlari - viharalarda asosiy fan Daxarma (diniy qonun-qoidalar) edi.\n\nYahudiylar Ossuriya quvg'inlaridan Eronga, Samarqand va Buxoroga ko'chib kelgan; ular bilan Mesopotamiya madaniyati ham kirgan, ibodatxonalar qoshida diniy maktablar tashkil qilingan. Turon savdo yo'llarida eng qimmatbaho tovar yozuv materiallari va kitoblar hisoblangan. V asrda Samarqand va Buxoroda xristianlik tarqalgan, ibodatxonalarda maktablar tashkil etilgan; Sug'ddagi katta nestoriyan jamoalarining hujjatlari sug'd tilida yozilgan." },
+      { "heading": "Yozuv va san'at", "pages": [58, 59],
+        "text": "Turk xoqonligida o'ziga xos yozuv - turkiy run (ko'k turk) xati bo'lgan; u 38-40 harfdan iborat bo'lib, tosh va yog'ochga o'yib yozishga qulay edi. Kultegin va Bilga xoqon bitiklari Oltoy va Sharqiy Turkistondan tashqari Yettisuv, Farg'ona va Zarafshon vodiylaridan topilgan qabrtoshlar, sopol, metall buyumlar, yog'och va tangalarda saqlangan. VIII asrga oid To'nyuquq bitiktoshi Janubiy Mo'g'ulistonda topilgan.\n\nSurxon vohasidagi Bolaliktepa, Zarafshon vodiysidagi Panjikent, Varaxsha, Afrosiyob va Farg'onadagi Quva xarobalaridan topilgan devoriy suratlar, haykallar va ganchkor naqshlar o'sha davr yuksak san'ati namunalaridir. Haykaltaroshlik rivojiga ayniqsa buddaviylik kuchli ta'sir ko'rsatgan. Mug'tog'i va Afrosiyobdan sug'd yozuvlari topilgan." },
+      { "heading": "To'qimachilik va kiyinish", "pages": [59, 60],
+        "text": "Bu davrda to'qimachilik yuqori darajaga erishgan: tog'li hududlarda jun, vodiylarda ipak va ip matolardan foydalanilgan; bir yoki ko'p rangli ipaklar, naqshli gazmollar, zar qo'shib to'qilgan matolar qo'llangan. Naqshlar asosan qizil, sariq, yashil, oq va qora rangda bo'lgan. \"Zandanachi\" kabi ko'k ipak matolar ishlab chiqarilgan.\n\nErkaklar kiyimi otga minib yurishga qulay: kalta kaftan, ko'ylak, keng va baland qo'njli etik. Ayollar kiyimi erkaklar kiyimiga o'xshash, shuningdek shleyfli uzun ko'ylak, kofta, yubka va po'stinlar kiyilgan. Ustki kiyim tizzagacha bo'lgan, yoqa, etak va yeng uchi boshqa rangli hoshiya bilan bezatilgan. Taqinchoqlar (zirak, bilaguzuk, marjon, kamar) shaxsning ijtimoiy holatini ko'rsatgan. Toxaristonda faqat xizmatchilar belbog' taqqan, aslzoda ayollar belini bog'lamagan." }
+    ],
+    "key_facts": [
+      { "fact": "Eng qadimgi yozma manba \"Avesto\"da diniy va dunyoviy bilimlar to'plangan", "page": 55 },
+      { "fact": "Xorazmda o'g'il bolalarga o'qish, yozish, hisob va turli fanlar o'rgatilgan", "page": 55 },
+      { "fact": "Buddaviy o'quv maskanlari - viharalarda asosiy fan Daxarma bo'lgan", "page": 56 },
+      { "fact": "Turkiy run (ko'k turk) xati 38-40 harfdan iborat bo'lgan", "page": 58 },
+      { "fact": "Haykaltaroshlik rivojiga buddaviylik kuchli ta'sir ko'rsatgan", "page": 58 }
+    ],
+    "why": {
+      "causes": [
+        "Yozuvning paydo bo'lishi ta'lim jarayonini jadallashtirgan",
+        "Turli din ibodatxonalarida diniy maktablar tashkil etilgan",
+        "Savdo yo'llari orqali turli xalqlar madaniyati kirib kelgan"
+      ],
+      "effects": [
+        "Ibodatxonalar qoshida xat-savod chiqaradigan maktablar vujudga keldi",
+        "Yozuv materiallari va kitoblar savdo yo'llarida eng qimmatbaho tovarga aylandi",
+        "Buddaviylik ta'sirida haykaltaroshlik rivojlandi",
+        "To'qimachilik yuksalib, kiyim-kechak turli rang va naqshlarga boy bo'ldi"
+      ]
+    },
+    "summary": "VI-VII asrlarda Turonda ta'lim ibodatxona maktablarida (zardushtiy, buddaviy, yahudiy, xristian) berilgan, turkiy run xati va sug'd yozuvi qo'llangan. Panjikent, Varaxsha, Afrosiyob devoriy suratlari, haykaltaroshlik va ganchkorlik san'at yuksakligini ko'rsatadi; to'qimachilik va kiyinish madaniyati yuqori darajada rivojlangan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "16-17-mavzular. Turon madaniy hayoti", "bullets": [], "page": null },
+      { "title": "Ta'lim", "bullets": ["\"Avesto\" - qadimgi manba", "Xorazmda o'qish, yozish, hisob", "Ibodatxonalar qoshida maktablar"], "page": 55 },
+      { "title": "Diniy maktablar", "bullets": ["Buddaviy vihara - Daxarma", "Yahudiy, xristian, nestoriy maktablari", "Kitoblar - qimmatbaho tovar"], "page": 56 },
+      { "title": "Yozuv va san'at", "bullets": ["Turkiy run xati: 38-40 harf", "Panjikent, Varaxsha, Afrosiyob suratlari", "Buddaviy haykaltaroshlik"], "page": 58 },
+      { "title": "Kiyinish", "bullets": ["Jun, ipak, zarli matolar", "Erkaklar: kaftan va baland etik", "Taqinchoqlar - ijtimoiy holat"], "page": 60 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "V asrda Samarqand va Buxoroda xristianlik tarqaladi", "page": 57 },
+        { "label": "VI-VII asrlarda Turon madaniy hayotining yuksalishi", "page": 54 },
+        { "label": "To'nyuquq bitiktoshi (VIII asr)", "page": 57 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "\"Avesto\"", "right": "Eng qadimgi yozma manba", "page": 55 },
+        { "left": "Vihara", "right": "Buddaviy o'quv maskani", "page": 56 },
+        { "left": "Daxarma", "right": "Viharalarda o'qitiladigan diniy qonun-qoidalar", "page": 56 },
+        { "left": "Turkiy run xati", "right": "38-40 harfli ko'k turk yozuvi", "page": 58 },
+        { "left": "Zandanachi", "right": "Ko'k ipak mato", "page": 60 },
+        { "left": "Bolaliktepa", "right": "Surxon vohasidagi devoriy suratlar topilgan joy", "page": 58 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Tariximizdan darak beruvchi eng qadimgi yozma manba ____.", "options": ["\"Avesto\"", "\"Shohnoma\"", "\"Injil\"", "\"Tarix\""], "correct_index": 0, "page": 55 },
+        { "question": "Buddaviy o'quv maskanlari ____ deb atalgan.", "options": ["viharalar", "madrasalar", "palestralar", "akademiyalar"], "correct_index": 0, "page": 56 },
+        { "question": "Turkiy run xati ____ harfdan iborat bo'lgan.", "options": ["38-40", "10-12", "100", "300"], "correct_index": 0, "page": 58 },
+        { "question": "Haykaltaroshlikka ayniqsa ____ kuchli ta'sir ko'rsatgan.", "options": ["buddaviylik", "islom", "zardushtiylik", "tangrichilik"], "correct_index": 0, "page": 58 },
+        { "question": "Vodiylarda to'qimachilikda ipak va ____ matolardan foydalanilgan.", "options": ["ip", "jun faqat", "teri", "qog'oz"], "correct_index": 0, "page": 59 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Eng qadimgi yozma manba haqida ma'lumot bering.", "answer": "\"Avesto\": unda diniy bilimlar bilan birga dunyoviy bilimlar, tarixiy voqealar va ma'naviy-ma'rifiy qarashlar to'plangan.", "page": 55 },
+      { "question": "Diniy ibodatxonalarda qanday maktablar bo'lgan?", "answer": "Zardushtiy, buddaviy (vihara), yahudiy, xristian va nestoriy ibodatxonalari qoshida maktablar bo'lib, dinning asoslari o'rgatilgan va xat-savod chiqarilgan.", "page": 56 },
+      { "question": "Turon xalqlari madaniyatining o'ziga xosligi nimada?", "answer": "Turli dinlar maktablari, turkiy run va sug'd yozuvlari, devoriy suratlar va haykaltaroshlik, rivojlangan to'qimachilik va kiyinish madaniyati.", "page": 58 }
+    ],
+    "quiz": [
+      { "question": "Xorazmda o'g'il bolalarga nimalar o'rgatilgan?", "options": ["O'qish, yozish, hisob va turli fanlar", "Faqat jang san'ati", "Faqat dengizchilik", "Faqat savdo"], "correct_index": 0, "page": 55 },
+      { "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?", "options": ["Yozuv materiallari va kitoblar", "Oltin", "Ipak", "Tuz"], "correct_index": 0, "page": 56 },
+      { "question": "Quyidagilardan qaysi biri Afrosiyob yoki Panjikent topilmalariga kiradi?", "options": ["Devoriy suratlar", "Piramida", "Amfiteatr", "Akveduk"], "correct_index": 0, "page": 59 }
+    ]
+  },
+  "test": [
+    { "question": "Ta'lim tarixidan so'zlovchi manbalarga nimalar kiradi?", "options": ["Tosh bitiklar, teri, sopol, yog'och va qog'ozga tushirilgan ma'lumotlar", "Faqat rasmlar", "Faqat afsonalar", "Faqat tangalar"], "correct_index": 0, "page": 55 },
+    { "question": "Eng qadimgi yozma manba qaysi?", "options": ["\"Avesto\"", "\"Shohnoma\"", "\"Buxoro tarixi\"", "\"Devonu lug'otit-turk\""], "correct_index": 0, "page": 55 },
+    { "question": "\"Avesto\"da nimalar haqida ma'lumot to'plangan?", "options": ["Diniy va dunyoviy bilimlar, tarixiy voqealar va ma'naviy qarashlar", "Faqat qonunlar", "Faqat dengiz sayohatlari", "Faqat dorilar"], "correct_index": 0, "page": 55 },
+    { "question": "Zardushtiylar ibodatxonasi qayerlardan topilgan?", "options": ["Xorazmdagi Jonbosqal'a va Tuproqqal'adan", "Samarqanddan", "Termizdan", "Farg'onadan"], "correct_index": 0, "page": 55 },
+    { "question": "Xorazm ibodatxonasiga tutash binolarda nimalar bo'lgan?", "options": ["Ta'lim maskanlari, huquq idoralari va ma'muriy-xo'jalik ishlari joylari", "Faqat bozor", "Faqat hammom", "Harbiy lager"], "correct_index": 0, "page": 55 },
+    { "question": "Xorazmda o'g'il bolalarga qanday fanlar o'rgatilgan?", "options": ["Geografiya, zoologiya, botanika, astronomiya, muhandislik, tibbiyot va me'morchilik", "Faqat jang san'ati", "Faqat she'riyat", "Faqat dehqonchilik"], "correct_index": 0, "page": 55 },
+    { "question": "Ibodatxonalardagi maktablarda nima o'rgatilgan?", "options": ["Dinning asoslari, xat-savod", "Faqat dengizchilik", "Faqat harbiy ish", "Faqat savdo"], "correct_index": 0, "page": 56 },
+    { "question": "Buddaviy o'quv maskanlari qanday nomlangan?", "options": ["Viharalar", "Palestralar", "Madrasalar", "Maktablar-ostonalar"], "correct_index": 0, "page": 56 },
+    { "question": "Viharalarda asosiy fan nima edi?", "options": ["Daxarma - diniy qonun-qoidalar", "Astronomiya", "Matematika", "Tibbiyot"], "correct_index": 0, "page": 56 },
+    { "question": "Yahudiylar qaysi quvg'indan Eronga, Samarqand va Buxoroga ko'chib kelgan?", "options": ["Ossuriya quvg'inlaridan", "Rim quvg'inlaridan", "Fors quvg'inlaridan", "Xitoy quvg'inlaridan"], "correct_index": 0, "page": 56 },
+    { "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?", "options": ["Yozuv materiallari va kitoblar", "Ipak", "Oltin", "Sopol idish"], "correct_index": 0, "page": 56 },
+    { "question": "V asrda Samarqand va Buxoroda qaysi din tarqalgan?", "options": ["Xristianlik", "Islom", "Yahudiylik", "Moniylik faqat"], "correct_index": 0, "page": 57 },
+    { "question": "Sug'ddagi nestoriyan jamoalari hujjatlari qaysi tilda yozilgan?", "options": ["Sug'd tilida", "Yunon tilida", "Arab tilida", "Lotin tilida"], "correct_index": 0, "page": 57 },
+    { "question": "To'nyuquq bitiktoshi qaysi asrga oid?", "options": ["VIII asr", "II asr", "XII asr", "XV asr"], "correct_index": 0, "page": 57 },
+    { "question": "Turkiy run (ko'k turk) xati necha harfdan iborat edi?", "options": ["38-40 ta", "10 ta", "100 ta", "5 ta"], "correct_index": 0, "page": 58 },
+    { "question": "Turkiy run xati nimaga yozishga nihoyatda qulay bo'lgan?", "options": ["Tosh va yog'ochga o'yib yozishga", "Qog'ozga", "Ipakka", "Terini bo'yashga"], "correct_index": 0, "page": 58 },
+    { "question": "Qaysi bitiklar ko'k turk yozuvining qadimgi namunalari?", "options": ["Kultegin va Bilga xoqon bitiklari", "Behistun bitiklari", "Rozett bitiktoshi", "Hammurapi qonunlari"], "correct_index": 0, "page": 58 },
+    { "question": "Surxon vohasida devoriy suratlar qaysi manzilgohdan topilgan?", "options": ["Bolaliktepa", "Quva", "Varaxsha", "Poykent"], "correct_index": 0, "page": 58 },
+    { "question": "Farg'ona vodiysidagi qaysi xarobadan haykallar va ganchkor naqshlar topilgan?", "options": ["Quva", "Afrosiyob", "Panjikent", "Marv"], "correct_index": 0, "page": 58 },
+    { "question": "Haykaltaroshlik rivojiga qaysi din kuchli ta'sir ko'rsatgan?", "options": ["Buddaviylik", "Islom", "Yahudiylik", "Zardushtiylik"], "correct_index": 0, "page": 58 },
+    { "question": "Sug'd yozuvlari qaysi joylardan topilgan?", "options": ["Mug' tog'i va Afrosiyobdan", "Xorazmdan", "Marvdan", "Balxdan"], "correct_index": 0, "page": 59 },
+    { "question": "Tog'li va tog'oldi hududlarda to'qimachilikda nimalardan foydalanilgan?", "options": ["Jun", "Ipak", "Paxta", "Zig'ir"], "correct_index": 0, "page": 59 },
+    { "question": "Vodiylarda to'qimachilikda qaysi matolar ishlatilgan?", "options": ["Ipak va ip", "Faqat jun", "Faqat teri", "Faqat zig'ir"], "correct_index": 0, "page": 59 },
+    { "question": "Naqshlarda asosan qaysi ranglardan foydalanilgan?", "options": ["Qizil, sariq, yashil, oq, qora", "Faqat ko'k", "Faqat pushti", "Faqat kulrang"], "correct_index": 0, "page": 60 },
+    { "question": "Erkaklar kiyimi qanday bo'lgan?", "options": ["Otga minishga qulay: kalta kaftan, ko'ylak, baland qo'njli etik", "Uzun to'n va sandal", "Tunika va toga", "Faqat charm ko'ylak"], "correct_index": 0, "page": 60 },
+    { "question": "Ustki kiyimlar (kaftan, yopinchiq, po'stin) uzunligi qancha bo'lgan?", "options": ["Tizzagacha", "Yergacha", "Beligacha", "To'pig'igacha"], "correct_index": 0, "page": 60 },
+    { "question": "Taqinchoqlar nimani ko'rsatgan?", "options": ["Shaxsning ijtimoiy holatini", "Yoshini", "Millatini", "Kasbini"], "correct_index": 0, "page": 60 },
+    { "question": "Toxaristonda kimlar belbog' taqishgan?", "options": ["Erkak va ayol xizmatchilar", "Aslzoda ayollar", "Hukmdorlar", "Ruhoniylar"], "correct_index": 0, "page": 60 }
+  ]
+}
