@@ -1,0 +1,107 @@
+{
+  "key": "m38", "title": "38-mavzu. Etnik jarayonlar va o'zbek xalqining shakllanishi", "start_page": 136, "end_page": 139,
+  "explanation": {
+    "goals": ["Etnos, etnik jarayon va etnogenez tushunchalarini bilish", "O'zbek xalqining shakllanish bosqichlari va unda ishtirok etgan etnik guruhlarni sanash"],
+    "blocks": [
+      { "heading": "O'zbeklar - alohida etnik birlik", "pages": [136, 137],
+        "text": "O'zbeklar alohida etnik birlik (elat) bo'lib, Movarounnahr, Xorazm, Yettisuv va qisman Sharqiy Turkistonning g'arbiy mintaqalarida shakllangan. Ular qadimdan o'troq yashab, sug'orma dehqonchilik va hunarmandchilik bilan shug'ullangan. Turkiston - turkiy aholi o'rnashgan o'lka.\n\nBu hududda yashagan sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar, yarim chorvador qang'lar, ko'chmanchi sak-massaget kabi etnik guruhlar o'zbek xalqining etnogenezida ishtirok etgan. Janubiy Sibir, Oltoy, Yettisuv, Sharqiy Turkiston hamda Volga va Ural bo'ylaridan turli davrlarda Movarounnahrga kirib kelgan etnik guruhlar ham bu jarayonning ishtirokchilari bo'lgan. Bu etnoslar asosan turkiy va sharqiy eroniy tillarda so'zlashgan. Etnik jarayon - kelib chiqishi yaqin turli qabila va elatlarning asrlar davomida qo'shilib borishi." },
+      { "heading": "Qang' davri va Qovunchi madaniyati", "pages": [138],
+        "text": "Amudaryo va Sirdaryo oralig'ida yashagan qabila va elatlarning aralashuvi natijasida o'troq hayotga moslashgan turkiy hududiy maydon va o'zbek xalqiga xos antropologik qiyofa shakllandi. Qang' davlati davrida turkiyzabon etnoslar ustuvorlik qilib, o'ziga xos uyg'unlashgan madaniyat yuzaga keldi; arxeologik asarlarda u \"Qovunchi madaniyati\" nomini oldi. Antropologlarning fikricha, aynan shu davrlarda O'rta Osiyoning vodiy va vohalarida yashovchi aholi tashqi qiyofasida hozirgi o'zbek va voha tojiklariga xos antropologik qiyofa to'liq shakllandi.\n\nO'zbeklar etnogenezida qatnashgan navbatdagi etnik guruhlar - kushonlar, xioniylar, kidariylar va eftallar hamda turkiy qabilalar. Turkiy elatlar va mahalliy o'troq aholi o'rtasidagi munosabatlar natijasida turkiy qatlam madaniy yutuqlarining mahalliy madaniy-xo'jalik an'analari bilan uyg'unlashuvi yuz berdi. VII asrdan o'lkamiz \"Turkiston\" nomi bilan atala boshlandi." },
+      { "heading": "O'zbek xalqining tashkil topishi", "pages": [139],
+        "text": "VIII asrdan arablar va boshqa xalqlarning O'rta Osiyoga kirib kelishi mintaqadagi etnik jarayonlarga katta ta'sir etmagan. IX asrda Movarounnahrda yaxlit turkiy etnik qatlam, turkiy til muhiti vujudga kela boshladi; sug'diylar va boshqa mahalliy etnoslarda ham turkiylashish jarayoni jadallashdi. Qoraxoniylar davrida Movarounnahr va Xorazmda siyosiy hokimiyat turkiy sulolalarga o'tishi bilan sodir bo'lgan etnik jarayon o'zbek xalqining shakllanishida yakuniy bosqich bo'ldi.\n\nIX-XII asrlarda o'zbek xalqi shakllandi; uning asosini o'lkada yashab kelgan ziroatkor va chorvador tub yerli aholi tashkil etdi. Movarounnahr aholisi qadimdan ikki tilda - sug'd va turk tillarida so'zlashgan." }
+    ],
+    "key_facts": [
+      { "fact": "O'zbeklar Movarounnahr, Xorazm, Yettisuv va qisman Sharqiy Turkistonning g'arbida shakllangan elat", "page": 136 },
+      { "fact": "O'zbek xalqining asosini sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar va sak-massagetlar tashkil etgan", "page": 138 },
+      { "fact": "Qang' davlati davrida \"Qovunchi madaniyati\" yuzaga kelgan", "page": 138 },
+      { "fact": "VII asrdan o'lka \"Turkiston\" nomi bilan atala boshlagan", "page": 138 },
+      { "fact": "IX-XII asrlarda o'zbek xalqi shakllangan; qoraxoniylar davri yakuniy bosqich bo'lgan", "page": 139 }
+    ],
+    "why": {
+      "causes": [
+        "Turli qabila va elatlar asrlar davomida o'zaro aralashib borgan",
+        "Turkiy elatlar mahalliy o'troq aholi bilan madaniy-xo'jalik munosabatlarida bo'lgan",
+        "IX asrdan Movarounnahrda turkiy til muhiti vujudga kela boshlagan"
+      ],
+      "effects": [
+        "O'zbek xalqiga xos antropologik qiyofa va \"Qovunchi madaniyati\" shakllandi",
+        "Sug'diylar va boshqa mahalliy etnoslarda turkiylashish jarayoni jadallashdi",
+        "Qoraxoniylar davrida siyosiy hokimiyat turkiy sulolalarga o'tishi etnik jarayonlarni yakunladi",
+        "IX-XII asrlarda o'zbek xalqi shakllandi"
+      ]
+    },
+    "summary": "O'zbek xalqi Movarounnahr, Xorazm va Yettisuvda sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar, sak-massagetlar hamda turkiy qabilalarning asrlar davomida qo'shilishi natijasida IX-XII asrlarda shakllandi. Qang' davridagi \"Qovunchi madaniyati\" va qoraxoniylar davridagi siyosiy hokimiyatning turkiy sulolalarga o'tishi bu jarayonni yakunladi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "38-mavzu. O'zbek xalqining shakllanishi", "bullets": [], "page": null },
+      { "title": "Etnik jarayon", "bullets": ["Qabila va elatlarning qo'shilishi", "Etnos - \"xalq\" (yunoncha)", "Etnogenez - kelib chiqish tarixi"], "page": 137 },
+      { "title": "Asosiy etnoslar", "bullets": ["Sug'diylar, baqtriylar, xorazmiylar", "Farg'onaliklar, shoshliklar", "Sak-massagetlar"], "page": 138 },
+      { "title": "Qang' davri", "bullets": ["Qovunchi madaniyati", "Antropologik qiyofa shakllandi", "VII asrdan \"Turkiston\""], "page": 138 },
+      { "title": "Yakuniy bosqich", "bullets": ["IX asr - turkiy til muhiti", "Qoraxoniylar davri", "IX-XII asrlarda o'zbeklar shakllandi"], "page": 139 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Qang' davri: \"Qovunchi madaniyati\" yuzaga keladi", "page": 138 },
+        { "label": "O'lka \"Turkiston\" nomi bilan atala boshlaydi (VII asr)", "page": 138 },
+        { "label": "Movarounnahrda yaxlit turkiy etnik qatlam vujudga kela boshlaydi (IX asr)", "page": 139 },
+        { "label": "O'zbek xalqining shakllanishi yakunlanadi (IX-XII asrlar, qoraxoniylar davri)", "page": 139 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Etnos", "right": "\"Xalq\" ma'nosidagi yunoncha so'z", "page": 138 },
+        { "left": "Etnik jarayon", "right": "Yaqin qabila va elatlarning asrlar davomida qo'shilib borishi", "page": 137 },
+        { "left": "Qovunchi madaniyati", "right": "Qang' davlati davrida uyg'unlashgan madaniyat", "page": 138 },
+        { "left": "Turkiston", "right": "Turkiy aholi o'rnashgan o'lka", "page": 136 },
+        { "left": "Sug'diylar, baqtriylar, xorazmiylar", "right": "O'zbek xalqi asosini tashkil etgan etnoslar", "page": 138 },
+        { "left": "Qoraxoniylar", "right": "Davrida siyosiy hokimiyat turkiy sulolalarga o'tgan", "page": 139 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Qang' davrida yuzaga kelgan madaniyat ____ madaniyati deb ataladi.", "options": ["Qovunchi", "Sopollitepa", "Afrosiyob", "Jarqo'ton"], "correct_index": 0, "page": 138 },
+        { "question": "Etnos so'zi yunoncha ____ ma'nosini bildiradi.", "options": ["xalq", "qabila", "yurt", "til"], "correct_index": 0, "page": 138 },
+        { "question": "VII asrdan o'lkamiz ____ nomi bilan atala boshlandi.", "options": ["Turkiston", "Xuroson", "Eron", "Hindiston"], "correct_index": 0, "page": 138 },
+        { "question": "O'zbek xalqi ____ asrlarda shakllandi.", "options": ["IX-XII", "I-III", "XV-XVII", "VI-VII"], "correct_index": 0, "page": 139 },
+        { "question": "Movarounnahr aholisi sug'd va ____ tillarida so'zlashgan.", "options": ["turk", "arab", "fors", "yunon"], "correct_index": 0, "page": 139 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "O'zbek xalqining asosini qaysi etnik guruhlar tashkil etgan?", "answer": "Sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar va sak-massagetlar.", "page": 138 },
+      { "question": "Etnik jarayon nima?", "answer": "Kelib chiqishi bir-biriga yaqin turli qabila va elatlarning asrlar davomida qo'shilib borishi.", "page": 137 },
+      { "question": "O'zbek xalqi qachon shakllandi?", "answer": "IX-XII asrlarda; qoraxoniylar davrida siyosiy hokimiyat turkiy sulolalarga o'tishi yakuniy bosqich bo'ldi.", "page": 139 }
+    ],
+    "quiz": [
+      { "question": "Qaysi davlat davrida turkiyzabon etnoslar ustuvorlik qilgan?", "options": ["Qang' davlati", "Kushon davlati", "Somoniylar", "Saljuqiylar"], "correct_index": 0, "page": 138 },
+      { "question": "Etnogenez nimani o'rganadi?", "options": ["Xalqlarning kelib chiqish tarixini", "Qonunlarni", "Savdo yo'llarini", "Dinlarni"], "correct_index": 0, "page": 138 },
+      { "question": "Arablarning kirib kelishi etnik jarayonlarga qanday ta'sir qilgan?", "options": ["Katta ta'sir etmagan", "Xalqni butunlay almashtirgan", "Turkiylashuvni to'xtatgan", "Yangi xalq tug'dirgan"], "correct_index": 0, "page": 139 }
+    ]
+  },
+  "test": [
+    { "question": "O'zbeklar qaysi hududlarda shakllangan?", "options": ["Movarounnahr, Xorazm, Yettisuv va qisman Sharqiy Turkistonning g'arbida", "Faqat Hindistonda", "Eron platosida", "Kavkazda"], "correct_index": 0, "page": 136 },
+    { "question": "O'zbeklar qadimdan nima bilan shug'ullangan?", "options": ["O'troq yashab, sug'orma dehqonchilik va hunarmandchilik", "Faqat ko'chmanchi chorvachilik", "Dengizchilik", "Ovchilik"], "correct_index": 0, "page": 136 },
+    { "question": "Turkiston nima degani?", "options": ["Turkiy aholi o'rnashgan o'lka", "Tog'li o'lka", "Dengiz bo'yi", "Cho'l o'lkasi"], "correct_index": 0, "page": 136 },
+    { "question": "Etnik jarayon nima?", "options": ["Yaqin qabila va elatlarning asrlar davomida qo'shilib borishi", "Davlatlarning bo'linishi", "Yangi yozuv paydo bo'lishi", "Savdo aloqalari"], "correct_index": 0, "page": 137 },
+    { "question": "Quyidagilardan qaysi biri o'zbek xalqi etnogenezida ishtirok etmagan?", "options": ["Rimliklar", "Sug'diylar", "Baqtriylar", "Xorazmiylar"], "correct_index": 0, "page": 137 },
+    { "question": "O'zbek etnogenezida ishtirok etgan etnoslar asosan qaysi tillarda so'zlashgan?", "options": ["Turkiy va sharqiy eroniy tillarda", "Arab va yunon tillarida", "Xitoy va hind tillarida", "Lotin va slavyan tillarida"], "correct_index": 0, "page": 137 },
+    { "question": "Qang' davrida qanday madaniyat yuzaga keldi?", "options": ["Qovunchi madaniyati", "Sopollitepa madaniyati", "Kushon madaniyati", "Saka madaniyati"], "correct_index": 0, "page": 138 },
+    { "question": "Qaysi atamalar xalqlarning kelib chiqish tarixi va shakllanishini o'rganishda qo'llanadi?", "options": ["Etnos va etnik birlik", "Mazhab va tariqat", "Devon va dargoh", "Iqto va vaqf"], "correct_index": 0, "page": 138 },
+    { "question": "Antropologlarning fikricha, o'zbek va voha tojiklariga xos antropologik qiyofa qachon to'liq shakllandi?", "options": ["Qang' davri atrofida", "XV asrda", "VI asrda", "XIX asrda"], "correct_index": 0, "page": 138 },
+    { "question": "Navbatdagi o'zbeklar etnogenezida qatnashgan guruhlar qaysilar?", "options": ["Kushonlar, xioniylar, kidariylar, eftallar, turkiy qabilalar", "Rimliklar va yunonlar", "Arablar va forslar faqat", "Slavyanlar"], "correct_index": 0, "page": 138 },
+    { "question": "O'lka qaysi asrdan \"Turkiston\" deb atala boshlandi?", "options": ["VII asrdan", "II asrdan", "XI asrdan", "XV asrdan"], "correct_index": 0, "page": 138 },
+    { "question": "Etnos so'zi qaysi tildan olingan?", "options": ["Yunon tilidan", "Arab tilidan", "Lotin tilidan", "Fors tilidan"], "correct_index": 0, "page": 138 },
+    { "question": "Qabila va elat farqi nimada?", "options": ["Qabila qon-qarindoshlik va urug'larga bo'linishi bilan farq qiladi", "Qabila katta, elat kichik", "Qabila shaharda, elat qishloqda", "Farqi yo'q"], "correct_index": 0, "page": 138 },
+    { "question": "Arablarning O'rta Osiyoga kirib kelishi etnik jarayonlarga qanday ta'sir qildi?", "options": ["Katta ta'sir etmadi", "Xalqni butunlay almashtirdi", "Yangi til yaratdi", "Turkiylashuvni to'xtatdi"], "correct_index": 0, "page": 139 },
+    { "question": "IX asrda Movarounnahrda nima vujudga kela boshladi?", "options": ["Yaxlit turkiy etnik qatlam va turkiy til muhiti", "Yangi arab davlati", "Rim koloniyasi", "Xitoy provinsiyasi"], "correct_index": 0, "page": 139 },
+    { "question": "Qaysi davr o'zbek xalqi shakllanishida yakuniy bosqich bo'ldi?", "options": ["Qoraxoniylar davri", "Somoniylar davri", "Eftaliylar davri", "Arablar davri"], "correct_index": 0, "page": 139 },
+    { "question": "Qoraxoniylar davrida siyosiy hokimiyat qaysi sulolalarga o'tdi?", "options": ["Turkiy sulolalarga", "Arab sulolalariga", "Fors sulolalariga", "Xitoy sulolalariga"], "correct_index": 0, "page": 139 },
+    { "question": "O'zbek xalqi qaysi asrlarda shakllandi?", "options": ["IX-XII asrlarda", "I-IV asrlarda", "XV-XVIII asrlarda", "VI-VIII asrlarda"], "correct_index": 0, "page": 139 },
+    { "question": "O'zbek xalqining asosini kimlar tashkil etdi?", "options": ["O'lkada yashab kelgan ziroatkor va chorvador tub yerli aholi", "Ko'chib kelgan arablar", "Xitoyliklar", "Hindlar"], "correct_index": 0, "page": 139 },
+    { "question": "Movarounnahr aholisi qadimdan qaysi ikki tilda so'zlashgan?", "options": ["Sug'd va turk", "Arab va fors", "Yunon va lotin", "Xitoy va hind"], "correct_index": 0, "page": 139 }
+  ]
+}
