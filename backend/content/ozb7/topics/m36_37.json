@@ -1,0 +1,110 @@
+{
+  "key": "m36_37", "title": "36-37-mavzular. Xorazmshohlar davlat boshqaruvi va ijtimoiy-iqtisodiy hayot", "start_page": 130, "end_page": 135,
+  "explanation": {
+    "goals": ["Xorazmshohlar davlatida hukmdor, Turkon xotun va vazirning o'rni, devonlar tizimini bilish", "Xorazmshohlar davrida shaharlar, hunarmandchilik, savdo va tangalar zarbi haqida tushuncha hosil qilish"],
+    "blocks": [
+      { "heading": "Sulton Muhammad va Turkon xotun", "pages": [130, 131],
+        "text": "Iroqdan Hindistongacha, Orol dengizi atroflaridan Arab dengizi sohillarigacha o'z hukmronligini o'rnatgan Sulton Muhammad Xorazmshoh tez orada Samarqandni o'z poytaxti deb e'lon qildi. U onasi Turkon xotunga hech qachon qarshi chiqmagan; bu ko'p hollarda uning farmonlari onasi tomonidan bekor qilinishiga sabab bo'lgan. An-Nasaviy buni ikki sabab bilan izohlagan: onasining mehrini qadrlashi va mamlakatning barcha amirlari onasi urug'idan ekanligi.\n\nTurkon xotun \"Jahon hokimi\" laqabiga ega bo'lib, poytaxt Gurganchda yashagan, o'z saroyi va ulkan mulklariga ega edi. Juvayniyga ko'ra, u qang'li urug'idan bo'lgan xon Jonkishning qizi; uning rahnamoligida saroy ahli bir necha guruhga bo'linib o'zaro adovat qilgan; qipchoqlardan tashkil etilgan oliy martabali sarkardalar uning bilan yaqin bo'lgan. Mo'g'ullar hujumi davrida u mo'g'ullarga asir tushib, Qoraqurumga olib ketilgan va shu yerda vafot etgan." },
+      { "heading": "Devonlar va vazir", "pages": [132, 133],
+        "text": "Anushteginiylar davrida ham devonlar alohida o'rin tutgan; ular kichik devonlarga bo'lingan. Harbiy devon harbiy masalalarni ko'rish (devon jaysh) va maosh berish (devon ravotib) bilan shug'ullangan; boshlig'i musulmon bo'lishi shart edi. Hukumat boshqaruvi \"Oliy toj faxriy majlisi\" deb atalgan va vazirning (bosh vazirning) qo'lida bo'lgan; unga barcha devonlar bo'ysungan. Vazir davlat boshlig'ining asosiy maslahatchisi, fuqarolar va hukmdor o'rtasida vositachi, tartib-intizom uchun javobgar bo'lgan; amaldorlarni tayinlash va bo'shatish, oylik maosh belgilash huquqiga ega bo'lgan; turkiy tildan tashqari arab va fors tillarini mukammal bilishi shart edi. Vazir sadr, dastur, xojayi buzurg kabi unvonlar bilan siylangan, rasmiy qabullarda xorazmshohning o'ng tomonida o'tirgan; vazirlik mansabining takomillashgan ko'rinishi Otsiz hukmronligi bilan bog'liq.\n\nChingizxon bosqini arafasida Alovuddin Muhammad bu lavozimni bekor qilib, oliy hukmdor qoshida olti vakildan iborat kengash joriy etdi, ammo kengash birorta jiddiy qaror qabul qila olmadi. Ulug' (buyuk) hojib turkiy aslzodalardan tayinlangan, hukmdorning shaxsiy ishlari bo'yicha hisobot bergan, marosimlarni nazorat qilgan. Dargohda ustozdor (saroy ishlari boshqaruvchisi), oxur amiri (otlar), amir a'lam, choshnigir, davatdor (kotib), farrosh kabi mansablar bo'lgan." },
+      { "heading": "Urganch va hunarmandchilik", "pages": [134],
+        "text": "Poytaxt Urganch o'z davrining buyuk, boy va go'zal shahri sanalgan; mohir hunarmandlari, ayniqsa temirchilar va duradgorlar mashhur edi. Urganchlik o'ymakor duradgorlar fil suyagi va obnus yog'ochidan ajoyib buyumlar yasagan; tabiiy shoyi mato ustaxonalari bo'lgan. Qurilishda majnuntol yog'ochi keng ishlatilgan: bunday inshootlar yengil va toshdan qurilganlarga qaraganda zilzilaga chidamli sanalgan.\n\nYo'llar va karvonlarni qo'riqlash yaxshi tashkil etilgani savdoning rivojlanishiga yordam bergan; Urganch savdogarlari Bag'dod, hatto Andalusga qadar mahsulot olib borgan. Bozorlarda tartibni muhtasib ushlab turgan: mahsulot sifati, idishlar tozaligi, tarozi toshlari va uzunlik o'lchovlari to'g'riligini nazorat qilgan. Mo'g'ullar vayron etguniga qadar shahar aholisi juda zich yashagan. Xorazmning Ardaxushmisan, Xivak, Darg'an, Savakon, Kot, Hazorasp kabi kichikroq shaharlarida ham hunarmandchilik va savdo gullab-yashnagan." },
+      { "heading": "Tangalar", "pages": [135],
+        "text": "Xorazmshohlarga qaram bo'lgan mulklarda ham xorazmshoh nomi bilan xutba o'qilgan va tangalar zarb etilgan. Anushteginiylar ismi yozilgan tangalar Samarqand, Buxoro, O'tror, Termiz, Chag'oniyon, Vaxsh, Balx, Bomiyon, G'azna, G'ur, Marv, Niso, Nishopur, Peshovar kabi ko'plab hududlarda zarb qilingan. Shu orqali davlatning ulkan hududi va qudrati namoyon bo'lgan." }
+    ],
+    "key_facts": [
+      { "fact": "Sulton Muhammad Samarqandni o'z poytaxti deb e'lon qilgan", "page": 130 },
+      { "fact": "Turkon xotun \"Jahon hokimi\" laqabiga ega bo'lib, saltanat ishlarida yetakchi mavqe egallagan", "page": 130 },
+      { "fact": "Vazir barcha devonlarga boshchilik qilgan va davlat boshlig'ining asosiy maslahatchisi bo'lgan", "page": 132 },
+      { "fact": "Alovuddin Muhammad vazirlik lavozimini bekor qilib, olti vakildan iborat kengash joriy etgan", "page": 133 },
+      { "fact": "Muhtasib bozordagi tartib, sifat va o'lchovlarni nazorat qilgan", "page": 134 }
+    ],
+    "why": {
+      "causes": [
+        "Sulton Muhammad onasi Turkon xotun gapini ikki qilmagan",
+        "Chingizxon bosqini arafasida Alovuddin Muhammad vazir hokimiyatini cheklamoqchi bo'ldi",
+        "Yo'llar va karvonlar qo'riqlanishi oliy darajada tashkil etilgan"
+      ],
+      "effects": [
+        "Sulton farmonlari ko'p hollarda onasi tomonidan bekor qilinib, saroy guruhlarga bo'lindi",
+        "Vazir lavozimi bekor qilinib, olti kishilik kengash hech qanday jiddiy qaror qabul qila olmadi",
+        "Savdo rivojlanib, Urganch savdogarlari Bag'dod va Andalusgacha mahsulot olib bordi",
+        "Qaram mulklarda ham xorazmshoh nomiga xutba o'qilib, tangalar zarb etildi"
+      ]
+    },
+    "summary": "Xorazmshohlar davlatida hokimiyat dargoh va devonlar, bosh vazir (Oliy toj faxriy majlisi), ulug' hojib orqali boshqarilgan; saroyda Turkon xotunning ta'siri katta bo'lgan. Alovuddin Muhammad vazirlikni bekor qilib, olti kishilik kengash tuzgani davlatni zaiflashtirdi. Urganch hunarmandchilik va savdo markazi bo'lgan; muhtasib bozorni nazorat qilgan; tangalar ulkan hududlarda zarb etilgan."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "36-37-mavzular. Xorazmshohlar boshqaruvi va hayoti", "bullets": [], "page": null },
+      { "title": "Hukmdor va Turkon xotun", "bullets": ["Poytaxt - Samarqand", "Turkon xotun - \"Jahon hokimi\"", "Mo'g'ullarga asir tushgan"], "page": 130 },
+      { "title": "Devonlar", "bullets": ["Harbiy devon (jaysh, ravotib)", "Vazir - Oliy toj faxriy majlisi", "Ulug' hojib"], "page": 132 },
+      { "title": "Urganch", "bullets": ["Temirchi va duradgorlar", "Fil suyagi o'ymakorligi", "Muhtasib nazorati"], "page": 134 },
+      { "title": "Tangalar", "bullets": ["Xorazmshoh nomi bilan xutba", "Samarqand, Buxoro, Balx, Marv...", "Ulkan hudud qudrati"], "page": 135 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Sulton Muhammad Samarqandni poytaxt deb e'lon qiladi", "page": 130 },
+        { "label": "Otsiz davrida vazirlik mansabining takomillashuvi", "page": 133 },
+        { "label": "Alovuddin Muhammad vazirlik lavozimini bekor qiladi (Chingizxon bosqini arafasi)", "page": 133 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Turkon xotun", "right": "\"Jahon hokimi\" laqabli sulton onasi", "page": 130 },
+        { "left": "Muhtasib", "right": "Bozordagi tartib va o'lchovlarni nazorat qilgan amaldor", "page": 134 },
+        { "left": "Ustozdor", "right": "Saroy ishlari boshqaruvchisi", "page": 133 },
+        { "left": "Davatdor", "right": "Oliy hukmdor kotibi", "page": 133 },
+        { "left": "Choshnigir", "right": "Hukmdor ovqati va ichimligini ta'tib ko'ruvchi", "page": 133 },
+        { "left": "Devon jaysh", "right": "Harbiy masalalarni ko'rish devoni", "page": 132 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Sulton Muhammad ____ ni o'z poytaxti deb e'lon qildi.", "options": ["Samarqand", "Gurganch", "Buxoro", "Marv"], "correct_index": 0, "page": 130 },
+        { "question": "Turkon xotun ____ laqabiga ega bo'lgan.", "options": ["Jahon hokimi", "Ona sulton", "Malika", "Xonim"], "correct_index": 0, "page": 130 },
+        { "question": "Hukumat boshqaruvi ____ qo'lida bo'lgan.", "options": ["vazirning", "hojibning", "muhtasibning", "qozining"], "correct_index": 0, "page": 132 },
+        { "question": "Urganchlik duradgorlar fil suyagi va ____ yog'ochidan buyumlar yasagan.", "options": ["obnus", "tol", "qayin", "terak"], "correct_index": 0, "page": 134 },
+        { "question": "Bozordagi tartibni asosan ____ ushlab turgan.", "options": ["muhtasib", "hojib", "vazir", "amid"], "correct_index": 0, "page": 134 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Sulton farmonlarining onasi tomonidan bekor qilinishi qanday oqibatlarga sabab bo'lgan?", "answer": "Saroy ahli bir necha guruhga bo'linib o'zaro adovat qilgan, davlat ishlari deyarli Turkon xotun tomonidan boshqarilgan, hukmdor ishonchi pasaygan.", "page": 131 },
+      { "question": "Vazir lavozimi qanday vakolatlarga ega bo'lgan?", "answer": "Barcha devonlarga boshchilik, amaldorlarni tayinlash va bo'shatish, maosh belgilash, hukmdor va fuqarolar o'rtasida vositachilik, tartib-intizom uchun javobgarlik.", "page": 132 },
+      { "question": "Muhtasib nimalarni nazorat qilgan?", "answer": "Mahsulotlar sifati, idishlar tozaligi, yangiligi, tarozi toshlari va uzunlik o'lchovlarining to'g'riligini.", "page": 134 }
+    ],
+    "quiz": [
+      { "question": "Qaysi mansab egasi saroy ishlari uchun javobgar bo'lgan?", "options": ["Ustozdor", "Davatdor", "Farrosh", "Oxur amiri"], "correct_index": 0, "page": 133 },
+      { "question": "Urganch inshootlarida nima uchun majnuntol yog'ochidan foydalanilgan?", "options": ["Yengil va zilzilaga chidamli bo'lgani uchun", "Arzon bo'lgani uchun", "Chiroyli bo'lgani uchun", "Yong'inga chidamli bo'lgani uchun"], "correct_index": 0, "page": 134 },
+      { "question": "Chingizxon bosqini arafasida vazir lavozimi o'rniga nima joriy etildi?", "options": ["Olti vakildan iborat kengash", "Yangi devon", "Hojiblar kengashi", "Qurultoy"], "correct_index": 0, "page": 133 }
+    ]
+  },
+  "test": [
+    { "question": "Sulton Muhammad hukmronligi qaysi hududlarni qamrab olgan?", "options": ["Iroqdan Hindistongacha, Orol atroflaridan Arab dengizi sohillarigacha", "Faqat Xorazm", "Faqat Movarounnahr", "Faqat Eron"], "correct_index": 0, "page": 130 },
+    { "question": "Sulton Muhammad qaysi shaharni poytaxt deb e'lon qildi?", "options": ["Samarqandni", "Buxoroni", "Balxni", "Kat shahrini"], "correct_index": 0, "page": 130 },
+    { "question": "Sulton kimga hech qachon qarshi chiqmagan?", "options": ["Onasi Turkon xotunga", "Vaziriga", "Xalifaga", "Ukasiga"], "correct_index": 0, "page": 130 },
+    { "question": "An-Nasaviyga ko'ra, sulton onasiga qarshi chiqmasligining sabablaridan biri?", "options": ["Mamlakatning barcha amirlari onasi urug'idan ekanligi", "Onasining boyligi", "Onasining sehri", "Xalifa buyrug'i"], "correct_index": 0, "page": 130 },
+    { "question": "Turkon xotun qaysi shaharda doimiy yashagan?", "options": ["Gurganchda", "Samarqandda", "Buxoroda", "Marvda"], "correct_index": 0, "page": 130 },
+    { "question": "Juvayniyga ko'ra, Turkon xotun qaysi urug'dan?", "options": ["Qang'li urug'idan", "Qipchoq urug'idan", "O'g'uz urug'idan", "Qarluq urug'idan"], "correct_index": 0, "page": 131 },
+    { "question": "Qaysi sarkardalar Turkon xotun bilan yaqin bo'lgan?", "options": ["Qipchoqlardan tashkil etilgan oliy martabali sarkardalar", "Turkiy hojiblar", "Tojik sarkardalar", "Arab qo'mondonlar"], "correct_index": 0, "page": 131 },
+    { "question": "Turkon xotun oxir-oqibat qayerda vafot etdi?", "options": ["Qoraqurumda", "Gurganchda", "Samarqandda", "Mozandaronda"], "correct_index": 0, "page": 131 },
+    { "question": "Harbiy devon boshlig'i kim bo'lishi shart edi?", "options": ["Musulmon", "Turkiy aslzoda", "Xorazmshoh o'g'li", "Xalifa vakili"], "correct_index": 0, "page": 132 },
+    { "question": "Maosh berish bilan shug'ullangan kichik devon qanday atalgan?", "options": ["Devon ravotib", "Devon jaysh", "Devon insho", "Devon xos"], "correct_index": 0, "page": 132 },
+    { "question": "\"Oliy toj faxriy majlisi\" kimning qo'lida bo'lgan?", "options": ["Vazirning", "Hojibning", "Sultonning o'zi", "Qozi kalonning"], "correct_index": 0, "page": 132 },
+    { "question": "Vazirlar qaysi tillarni mukammal bilishlari shart edi?", "options": ["Turkiy, arab va fors", "Yunon va lotin", "Xitoy va hind", "Sug'd va baqtriy"], "correct_index": 0, "page": 132 },
+    { "question": "Vazir qaysi unvonlar bilan siylangan?", "options": ["Sadr, dastur, xojayi buzurg", "Hojib, amir, shod", "Xoqon, yabg'u", "Ixshid, afshin"], "correct_index": 0, "page": 133 },
+    { "question": "Vazirlik mansabining takomillashgan ko'rinishi kimning hukmronligi bilan bog'liq?", "options": ["Otsiz", "Takash", "Muhammad", "El Arslon"], "correct_index": 0, "page": 133 },
+    { "question": "Alovuddin Muhammad vazir lavozimini bekor qilib, nima joriy qildi?", "options": ["Olti vakildan iborat kengash", "Yangi vazirlik", "Hojiblar majlisi", "Qurultoy"], "correct_index": 0, "page": 133 },
+    { "question": "Ulug' hojib lavozimiga kimlar tayinlanishi mumkin edi?", "options": ["Turkiy aslzodalar vakillari", "Faqat tojik amaldorlar", "Faqat musulmon ruhoniylar", "Har qanday fuqaro"], "correct_index": 0, "page": 133 },
+    { "question": "Saroy ishlari boshqaruvchisi qanday lavozim edi?", "options": ["Ustozdor", "Davatdor", "Choshnigir", "Farrosh"], "correct_index": 0, "page": 133 },
+    { "question": "Poytaxt Urganchning qaysi hunarmandlari ayniqsa mashhur edi?", "options": ["Temirchilar va duradgorlar", "Zargarlar", "Kulollar", "Shishasozlar"], "correct_index": 0, "page": 134 },
+    { "question": "Urganchlik savdogarlar mahsulotlarni qaysi hududgacha olib borgan?", "options": ["Bag'dod, hatto Andalusgacha", "Faqat Buxorogacha", "Faqat Xitoygacha", "Hindistongacha"], "correct_index": 0, "page": 134 },
+    { "question": "Urganch qaysi bosqin natijasida vayron bo'ldi?", "options": ["Mo'g'ullar bosqini", "Arablar bosqini", "Saljuqiylar bosqini", "Qoraxitoylar bosqini"], "correct_index": 0, "page": 134 },
+    { "question": "Muhtasib qaysi vazifani bajargan?", "options": ["Bozordagi tartib va sifat nazorati", "Soliq yig'ish", "Harbiy qo'mondonlik", "Elchilik"], "correct_index": 0, "page": 134 },
+    { "question": "Xorazmshoh nomi bilan tangalar qaysi hududda zarb qilingan?", "options": ["Samarqand, Buxoro, Balx, Marv va boshqa hududlarda", "Faqat Gurganchda", "Faqat Samarqandda", "Faqat Eronda"], "correct_index": 0, "page": 135 }
+  ]
+}

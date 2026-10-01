@@ -1,0 +1,114 @@
+{
+  "key": "m34_35", "title": "34-35-mavzular. Xorazmshohlar davlati va uning yuksalishi", "start_page": 125, "end_page": 129,
+  "explanation": {
+    "goals": ["Anushteginiylar sulolasining tashkil topishi va Otsiz faoliyatini bilish", "Takash va Alovuddin Muhammad davrida Xorazmshohlar davlatining yuksalishini tushuntirish"],
+    "blocks": [
+      { "heading": "Anushteginiylar", "pages": [125],
+        "text": "Xorazm vohasida hukmronlik qilgan mahalliy sulolalar (afrig'iylar, ma'muniylar, oltintoshiylar) qadimdan \"xorazmshohlar\" umumiy nomi bilan yuritilgan. Xorazm doirasidan tashqariga chiqib, boshqaruvni saltanat darajasiga ko'targan sulola - anushteginiylar. Anushtegin saljuqiy Sulton Malikshohning ishonchli mansabdorlaridan edi; taxminan 1077-yili Xorazm hokimligiga tayinlandi. 1097-yili bu lavozim o'g'li Qutbiddin Muhammadga tegdi: u saljuqiylarga qaram bo'lib, har yili viloyat solig'ini poytaxt Marvga olib borib turgan." },
+      { "heading": "Otsiz va mustaqillik", "pages": [125, 126, 127],
+        "text": "Qutbiddin Muhammaddan keyin Sulton Sanjar hukmi bilan Xorazm hokimligiga o'g'li Otsiz tayinlandi. Otsiz dastlab saljuqiylarga sidqidildan xizmat qildi, ammo mavqeyi mustahkamlanib, raqobatchilari zaiflasha borayotganini sezgach, qaramlikdan bosh torta boshladi. Sulton Sanjar unga qarshi bir necha marta qo'shin yubordi; mag'lub bo'lgan Otsiz qochishga majbur bo'ldi. Sulh shartiga ko'ra Otsiz sultonga tobelik bildirib, uning oyog'i ostidagi yerni o'pishi shart edi, ammo bu urfni bajarmagan (Juvayniy).\n\nSanjar Xorazmni Otsizning jiyani Sulaymonshohga bergan, biroq u hokimiyatni mustahkamlay olmadi. Sanjar Marvga qaytishi bilan Otsiz mahalliy aholi qo'llab-quvvatlashi orqali hokimiyatni tikladi, Buxoroni, so'ng Marv va Nishopurni egalladi. Bag'dod xalifasidan Xorazm va unga qo'shilgan viloyatlar hukmdori deb tan olingan yorliq oldi va o'z ismi bitilgan oltin tangalar zarb eta boshladi. Gurganch Xorazm saltanatining birinchi va asosiy poytaxti bo'lgan." },
+      { "heading": "El Arslon va Takash", "pages": [128],
+        "text": "Otsiz o'limidan so'ng taxtga chiqqan o'g'li El Arslon ham mustaqil siyosat yurgizishga harakat qildi: Movarounnahrda qoraxitoylar bilan to'qnashib qo'li baland keldi, Nishopurni egalladi, Ozarbayjonga yurish qildi, lekin barcha tomonidan tan olingan qudratli uyushma tuzishga ulgurmadi. El Arslon vafotidan so'ng o'g'illari Takash (1172-1200) va Sultonshoh Mahmud o'rtasida o'zaro kurash bo'ldi; Mahmud vafotidan keyin Takash yakkahukmdor bo'lib, G'arbiy Eronning ayrim qismini va Kirmonni bo'ysundirdi, hukmronligi so'nggida Bag'dodni zabt etishga shaylandi, ammo yurish chog'ida vafot etdi." },
+      { "heading": "Alovuddin Muhammad", "pages": [128, 129],
+        "text": "Takashdan keyin taxtga Alovuddin Muhammad (1200-1220) chiqdi. U Movarounnahrdan qoraxitoylarni haydab chiqardi, bu uning obro'sini nihoyatda oshirdi. Ozarbayjon, Eron, Xurosondan Hindistongacha bo'lgan yerlar xorazmshohlar tasarrufiga olindi; Orol dengizidan Hind okeanigacha, Iroqdan Sharqiy Turkistongacha ulkan hudud bo'ysundirildi. Sulton Muhammadning maqsadi Suriya, Kichik Osiyo va Misrni ham bo'ysundirish edi. U \"ikkinchi Iskandar, ikkinchi Sulton Sanjar\" laqabi bilan mashhur bo'lgan.\n\nXorazmshoh majburiy umumxalq harbiy ta'lim tizimini joriy qilgan; qo'shin soni davr va yurishlarga qarab o'zgargan: Takash qo'shinida 170 ming otliq, qoraxitoylarga qarshi yurishlarda Muhammadning otliq askarlari 400 ming nafar bo'lgan. 400 mingga yaqin qo'shin Bag'dod yurishiga yo'l olganda Hulvon viloyatida to'satdan uch kecha-kunduz qor yog'ib, sovuqdan ko'p odam va hayvon qirildi; sulton qo'shinni qaytarib, xalifa nomini xutbadan chiqarib tashlashni buyurdi." }
+    ],
+    "key_facts": [
+      { "fact": "Anushtegin taxminan 1077-yili Xorazm hokimligiga tayinlangan", "page": 125 },
+      { "fact": "Otsiz Sulton Sanjarga qarshi kurashib, mustaqil siyosat yurgiza boshlagan", "page": 126 },
+      { "fact": "Takash 1172-1200-yillarda hukmronlik qilgan", "page": 128 },
+      { "fact": "Alovuddin Muhammad (1200-1220) qoraxitoylarni Movarounnahrdan haydab chiqargan", "page": 128 },
+      { "fact": "Xorazmshohlar davlati Orol dengizidan Hind okeanigacha cho'zilgan", "page": 129 }
+    ],
+    "why": {
+      "causes": [
+        "Otsiz mavqeyi mustahkamlanib, saljuqiylar zaiflasha borishini sezdi",
+        "Saljuqiylarga qaram Xorazm qoraxitoylar bostirishi natijasida kuchsizlangan saljuqiylardan foydalandi",
+        "Takash Sultonshoh Mahmud vafotidan keyin yakkahukmdor bo'ldi"
+      ],
+      "effects": [
+        "Otsiz saljuqiylarga qaramlikdan bosh tortib, o'z oltin tangalarini zarb etdi",
+        "Alovuddin Muhammad qoraxitoylarni haydab, Eron va Xurosondan Hindistongacha bo'lgan yerlarni egalladi",
+        "Xorazmshohlar davlati dunyoning eng qudratli kuchlaridan biriga aylandi",
+        "Bag'dodga yurish qor va sovuq tufayli muvaffaqiyatsiz tugadi, sulton xalifa nomini xutbadan chiqardi"
+      ]
+    },
+    "summary": "Saljuqiylarga qaram Xorazm hokimi Anushtegin avlodlari - Otsiz mustaqil siyosat yuritib, saltanatga asos soldi. Takash va Alovuddin Muhammad davrida (1200-1220) Orol dengizidan Hind okeanigacha ulkan hudud birlashdi, qoraxitoylar Movarounnahrdan haydaldi. Bag'dodga yurish ofat tufayli to'xtadi."
+  },
+  "presentation": {
+    "slides": [
+      { "title": "34-35-mavzular. Xorazmshohlar davlati", "bullets": [], "page": null },
+      { "title": "Anushteginiylar", "bullets": ["Anushtegin - Malikshohning mansabdori", "1077 - Xorazm hokimi", "Qutbiddin Muhammad"], "page": 125 },
+      { "title": "Otsiz", "bullets": ["Sanjarga qarshi kurash", "Oltin tangalar zarbi", "Gurganch - poytaxt"], "page": 126 },
+      { "title": "Takash", "bullets": ["1172-1200", "G'arbiy Eron, Kirmon", "Bag'dodga yurish rejasi"], "page": 128 },
+      { "title": "Alovuddin Muhammad", "bullets": ["1200-1220", "Qoraxitoylarni haydadi", "\"Ikkinchi Iskandar\""], "page": 128 }
+    ]
+  },
+  "games": {
+    "timeline": {
+      "items": [
+        { "label": "Anushtegin Xorazm hokimligiga tayinlanadi (taxminan 1077-yil)", "page": 125 },
+        { "label": "Qutbiddin Muhammad Xorazm hokimi bo'ladi (1097-yil)", "page": 125 },
+        { "label": "Takash hukmronligi (1172-1200)", "page": 128 },
+        { "label": "Alovuddin Muhammad hukmronligi (1200-1220)", "page": 128 }
+      ]
+    },
+    "matching": {
+      "pairs": [
+        { "left": "Anushtegin", "right": "Anushteginiylar sulolasi asoschisi", "page": 125 },
+        { "left": "Otsiz", "right": "Saljuqiylarga qaramlikdan bosh tortgan xorazmshoh", "page": 126 },
+        { "left": "Sanjar", "right": "Otsizga qarshi qo'shin yuborgan saljuqiy sulton", "page": 126 },
+        { "left": "El Arslon", "right": "Otsizning o'g'li, Nishopurni egallagan xorazmshoh", "page": 128 },
+        { "left": "Takash", "right": "1172-1200-yillarda hukmronlik qilgan xorazmshoh", "page": 128 },
+        { "left": "Gurganch", "right": "Xorazm saltanatining birinchi va asosiy poytaxti", "page": 126 }
+      ]
+    },
+    "fill_blank": {
+      "questions": [
+        { "question": "Anushtegin ____ Sulton Malikshohning ishonchli mansabdori edi.", "options": ["saljuqiy", "g'aznaviy", "qoraxoniy", "somoniy"], "correct_index": 0, "page": 125 },
+        { "question": "Saljuqiylarga qaramlikdan bosh tortgan xorazmshoh ____ edi.", "options": ["Otsiz", "Takash", "Muhammad", "Sulaymonshoh"], "correct_index": 0, "page": 126 },
+        { "question": "Alovuddin Muhammad Movarounnahrdan ____ ni haydab chiqardi.", "options": ["qoraxitoylar", "arablar", "saljuqiylar", "xitoyliklar"], "correct_index": 0, "page": 128 },
+        { "question": "Xorazmshohlar qo'shini Bag'dod yurishida ____ viloyatida qor va sovuqqa duch keldi.", "options": ["Hulvon", "Mozandaron", "Xuroson", "Kirmon"], "correct_index": 0, "page": 129 },
+        { "question": "Alovuddin Muhammad \"ikkinchi ____\" laqabi bilan mashhur bo'lgan.", "options": ["Iskandar", "Sanjar", "Mahmud", "Temur"], "correct_index": 0, "page": 129 }
+      ]
+    }
+  },
+  "practice": {
+    "book_questions": [
+      { "question": "Qanday omillar sabab Xorazmshohlar davlati yuzaga keldi?", "answer": "Saljuqiylar davlatining zaiflashuvi, Otsizning mustaqil siyosati va qoraxitoylar zarbasidan keyingi vaziyat.", "page": 126 },
+      { "question": "Alovuddin Muhammadning yutuqlariga nimalar asos bo'lgan?", "answer": "Katta qo'shin va majburiy umumxalq harbiy ta'lim, qoraxitoylar ustidan g'alaba va yirik hududlarning birlashuvi.", "page": 128 },
+      { "question": "Otsiz Sulton Sanjarga qanday munosabatda bo'lgan?", "answer": "Dastlab sodiq xizmat qilgan, keyin mavqeyi mustahkamlanib, qaramlikdan bosh torta boshlagan va tobelik urfini bajarmagan.", "page": 126 }
+    ],
+    "quiz": [
+      { "question": "Otsiz xalifadan qanday yorliq olgan?", "options": ["Xorazm va qo'shilgan viloyatlar hukmdori yorlig'i", "Xalifalik yorlig'i", "Sulton yorlig'i", "Vazirlik yorlig'i"], "correct_index": 0, "page": 127 },
+      { "question": "Takash qo'shinida nechta otliq bo'lgan?", "options": ["170 ming", "17 ming", "1 million", "5 ming"], "correct_index": 0, "page": 128 },
+      { "question": "Alovuddin Muhammad hukmronligi yillari?", "options": ["1200-1220", "1100-1120", "1300-1320", "1000-1020"], "correct_index": 0, "page": 128 }
+    ]
+  },
+  "test": [
+    { "question": "Xorazm vohasida hukmronlik qilgan mahalliy sulolalar qanday umumiy nom bilan yuritilgan?", "options": ["Xorazmshohlar", "Xoqonlar", "Amirlar", "Sultonlar"], "correct_index": 0, "page": 125 },
+    { "question": "Quyidagilardan qaysi biri Xorazmda hukmronlik qilgan mahalliy sulola emas?", "options": ["Safforiylar", "Afrig'iylar", "Ma'muniylar", "Oltintoshiylar"], "correct_index": 0, "page": 125 },
+    { "question": "Boshqaruvni saltanat darajasiga ko'targan sulola qaysi?", "options": ["Anushteginiylar", "Afrig'iylar", "Ma'muniylar", "Oltintoshiylar"], "correct_index": 0, "page": 125 },
+    { "question": "Anushtegin taxminan qaysi yili Xorazm hokimligiga tayinlangan?", "options": ["1077-yili", "977-yili", "1177-yili", "877-yili"], "correct_index": 0, "page": 125 },
+    { "question": "1097-yili Xorazm hokimligi kimga tegdi?", "options": ["O'g'li Qutbiddin Muhammadga", "Otsizga", "Takashga", "Sulaymonshohga"], "correct_index": 0, "page": 125 },
+    { "question": "Qutbiddin Muhammad viloyat solig'ini qayerga olib borgan?", "options": ["Marvga", "Bag'dodga", "Samarqandga", "Gurganchga"], "correct_index": 0, "page": 125 },
+    { "question": "Otsiz Xorazm hokimligiga kimning hukmi bilan tayinlandi?", "options": ["Sulton Sanjar", "Malikshoh", "Alp Arslon", "Xalifa"], "correct_index": 0, "page": 125 },
+    { "question": "Otsiz nima uchun saljuqiylarga qaramlikdan bosh torta boshladi?", "options": ["Mavqeyi mustahkamlanib, raqobatchilari zaiflashayotganini sezdi", "Soliq ko'payib ketdi", "Xalifa buyurdi", "Qoraxitoylar yordam berdi"], "correct_index": 0, "page": 126 },
+    { "question": "Sulton Sanjar Otsizga qarshi nima qildi?", "options": ["Bir necha marta qo'shin yubordi", "Sulh tuzdi", "Elchi yubordi", "Hech narsa qilmadi"], "correct_index": 0, "page": 126 },
+    { "question": "Xorazmni Sanjar kimga topshirgan edi?", "options": ["Otsizning jiyani Sulaymonshohga", "Otsizning ukasiga", "Anushteginga", "El Arslonga"], "correct_index": 0, "page": 127 },
+    { "question": "Otsiz xalifadan nima oldi?", "options": ["Xorazm viloyati va unga qo'shilgan yerlar hukmdori deb tan olingan yorliq", "Sultonlik unvoni", "Vazirlik", "Nikoh"], "correct_index": 0, "page": 127 },
+    { "question": "Otsiz qaysi tangalarni zarb etishni boshlab yubordi?", "options": ["O'z ismi bitilgan oltin tangalarni", "Kumush dirham", "Mis fals", "Xalifa nomli"], "correct_index": 0, "page": 127 },
+    { "question": "Otsizdan so'ng taxtga kim chiqdi?", "options": ["O'g'li El Arslon", "Takash", "Muhammad", "Sulaymonshoh"], "correct_index": 0, "page": 128 },
+    { "question": "El Arslon Movarounnahrda kim bilan to'qnashdi?", "options": ["Qoraxitoylar bilan", "Arablar bilan", "Xitoy bilan", "Saljuqiylar bilan"], "correct_index": 0, "page": 128 },
+    { "question": "Takash qaysi yillarda hukmronlik qildi?", "options": ["1172-1200", "1072-1100", "1272-1300", "972-1000"], "correct_index": 0, "page": 128 },
+    { "question": "Takash qaysi hududlarni bo'ysundirdi?", "options": ["G'arbiy Eronning ayrim qismi va Kirmon", "Hindiston", "Misr", "Suriya"], "correct_index": 0, "page": 128 },
+    { "question": "Takash hukmronligi so'nggida nimaga shaylandi?", "options": ["Bag'dodni zabt etishga", "Hindistonga yurishga", "Rimga hujumga", "Misrni egallashga"], "correct_index": 0, "page": 128 },
+    { "question": "Alovuddin Muhammad taxtga qaysi yili chiqdi?", "options": ["1200-yili", "1100-yili", "1300-yili", "1000-yili"], "correct_index": 0, "page": 128 },
+    { "question": "Alovuddin Muhammadning obro'sini nima nihoyatda oshirdi?", "options": ["Qoraxitoylarni Movarounnahrdan haydab chiqarishi", "Savdo yo'llari", "Saroy qurilishi", "Nikoh ittifoqi"], "correct_index": 0, "page": 128 },
+    { "question": "Alovuddin Muhammadning asosiy maqsadi nima edi?", "options": ["Suriya, Kichik Osiyo va Misrni ham bo'ysundirish", "Rim bilan sulh", "Dengiz yo'llarini ochish", "Hindistondan chekinish"], "correct_index": 0, "page": 128 },
+    { "question": "Xorazmshoh joriy qilgan harbiy tizim qanday edi?", "options": ["Majburiy umumxalq harbiy ta'lim", "Yollanma qo'shin", "Faqat gvardiya", "Qullardan iborat qo'shin"], "correct_index": 0, "page": 128 },
+    { "question": "Muhammadning qoraxitoylarga qarshi yurishlarida otliq askarlari soni qancha bo'lgan?", "options": ["400 ming", "40 ming", "4 ming", "4 million"], "correct_index": 0, "page": 128 },
+    { "question": "Bag'dod yurishida qo'shin nima sababdan orqaga qaytdi?", "options": ["Hulvonda uch kun qor yog'ib, qattiq sovuq bo'ldi", "Jang bo'ldi", "Xalifa sulh tuzdi", "Mo'g'ullar hujum qildi"], "correct_index": 0, "page": 129 },
+    { "question": "Sulton xalifa nomini nimadan chiqarib tashlashni buyurdi?", "options": ["Xutbadan", "Tangadan", "Yorliqdan", "Devondan"], "correct_index": 0, "page": 129 },
+    { "question": "Xorazmshohlar davlati qaysi dengizdan Hind okeanigacha cho'zilgan?", "options": ["Orol dengizi", "Kaspiy dengizi", "Qora dengiz", "O'rta dengiz"], "correct_index": 0, "page": 129 }
+  ]
+}
