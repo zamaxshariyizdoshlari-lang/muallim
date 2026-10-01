@@ -262,6 +262,14 @@ export function submitSectionExam(sectionId, answers) {
   })
 }
 
+export function getLessonFeedback(topicId) {
+  return request(`/topics/${topicId}/feedback/`)
+}
+
+export function sendLessonFeedback(topicId, rating) {
+  return jsonRequest(`/topics/${topicId}/feedback/`, 'POST', { rating })
+}
+
 export function getLeaderboard() {
   return request('/leaderboard/')
 }
@@ -345,6 +353,14 @@ export function updateAdminTopic(id, payload) {
 
 export function deleteAdminTopic(id) {
   return request(`/admin/topics/${id}/`, { method: 'DELETE' })
+}
+
+export function getAdminBookQuality(bookId) {
+  return request(`/admin/books/${bookId}/quality/`)
+}
+
+export function getBookAnalytics(bookId) {
+  return request(`/books/${bookId}/analytics/`)
 }
 
 export function getAdminTopicLesson(topicId) {

@@ -8,6 +8,16 @@ const TABS = [
   { id: 'test', label: 'Mavzu testi', icon: CheckCircle2 },
 ]
 
+// Dars sifatini oshiruvchi ixtiyoriy qismlar: JSON ko'rinishida tahrirlanadi
+const EXTRA_KEYS = ['pretest', 'why', 'source_work', 'images']
+const EXTRAS_HINT = `{
+  "pretest": [{ "question": "...", "options": ["A", "B"], "correct_index": 0 }],
+  "why": { "causes": ["Sabab 1"], "effects": ["Natija 1"] },
+  "source_work": { "quote": "Manba matni", "attribution": "Muallif", "question": "...", "options": ["A", "B"], "correct_index": 0 },
+  "images": [{ "src": "/maps/misr.svg", "caption": "Qadimgi Misr xaritasi" }]
+}`
+const pickExtras = (plan) => Object.fromEntries(EXTRA_KEYS.filter((k) => plan?.[k]).map((k) => [k, plan[k]]))
+
 const EMPTY_LESSON = { goals: [], blocks: [{ heading: '', text: '', pages: [] }], key_facts: [], summary: '' }
 
 export default function AdminTopicEditorPage({ topicId, topicTitle, onBack }) {
@@ -43,10 +53,18 @@ function LessonEditor({ topicId }) {
   const [error, setError] = useState('')
   const [saved, setSaved] = useState(false)
   const [saving, setSaving] = useState(false)
+  const [extrasText, setExtrasText] = useState('')
 
   useEffect(() => {
     setPlan(null)
-    getAdminTopicLesson(topicId).then((data) => setPlan(data?.lesson_plan || EMPTY_LESSON)).catch((err) => setError(err.message))
+    getAdminTopicLesson(topicId)
+      .then((data) => {
+        const loaded = data?.lesson_plan || EMPTY_LESSON
+        setPlan(loaded)
+        const extras = pickExtras(loaded)
+        setExtrasText(Object.keys(extras).length ? JSON.stringify(extras, null, 2) : '')
+      })
+      .catch((err) => setError(err.message))
   }, [topicId])
 
   function updateBlock(i, patch) {
@@ -58,9 +76,20 @@ function LessonEditor({ topicId }) {
     setError('')
     setSaved(false)
     try {
-      const clean = { ...plan, blocks: plan.blocks.filter((b) => b.text.trim()) }
+      let extras = {}
+      if (extrasText.trim()) {
+        try {
+          extras = JSON.parse(extrasText)
+        } catch {
+          throw new Error("Boyituvchi qismlar to'g'ri JSON emas")
+        }
+      }
+      const base = { ...plan }
+      EXTRA_KEYS.forEach((k) => delete base[k])  // o'chirilgan qism bo'sh yuboriladi
+      const clean = { ...base, ...Object.fromEntries(EXTRA_KEYS.map((k) => [k, extras[k] ?? null])), blocks: plan.blocks.filter((b) => b.text.trim()) }
       const result = await saveAdminTopicLesson(topicId, clean)
       setPlan(result.lesson_plan)
+      setExtrasText(Object.keys(pickExtras(result.lesson_plan)).length ? JSON.stringify(pickExtras(result.lesson_plan), null, 2) : '')
       setSaved(true)
     } catch (err) {
       setError(err.message)
@@ -136,6 +165,22 @@ function LessonEditor({ topicId }) {
           onChange={(e) => setPlan((p) => ({ ...p, summary: e.target.value }))}
         />
       </div>
+
+      <details className="card p-5 sm:p-6" open={Boolean(extrasText)}>
+        <summary className="cursor-pointer text-sm font-semibold text-ink-2">
+          Boyituvchi qismlar (ixtiyoriy, JSON): oldindan sinash, "Nega?", manba, rasm/xarita
+        </summary>
+        <textarea
+          className="field mt-3 min-h-[160px] font-mono text-xs"
+          placeholder={EXTRAS_HINT}
+          value={extrasText}
+          onChange={(e) => setExtrasText(e.target.value)}
+          spellCheck={false}
+        />
+        <p className="mt-2 text-xs text-muted">
+          Bo'sh qoldirsangiz, bu qismlar ko'rsatilmaydi. Blok ichidagi mini-savol bo'lmasa, mini-viktorinadan avtomatik olinadi.
+        </p>
+      </details>
 
       <div className="flex items-center gap-3">
         <button onClick={handleSave} disabled={saving} className="btn btn-primary w-fit">

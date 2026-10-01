@@ -6,7 +6,7 @@ foydalanish uchun: statistika, talabalar nazorati va fan/kitob/bo'lim/mavzu/
 dars/test kontentini yaratish-tahrirlash-o'chirish.
 """
 from django.contrib.auth import get_user_model
-from django.db.models import Count
+from django.db.models import Avg, Count, Q
 from django.shortcuts import get_object_or_404
 from rest_framework import generics
 from rest_framework import serializers as drf_serializers
@@ -14,14 +14,17 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import STATUS_DONE, Book, GeneratedAsset, Lesson, Section, Subject, Topic
+from .models import (
+    STATUS_DONE, Book, GeneratedAsset, Lesson, LessonFeedback, Section, Subject, Topic,
+)
 from .permissions import IsTeacher
 from .serializers import BookSerializer, SubjectSerializer
 from .services import gamification
 from .services.admin_stats import (
     platform_overview, student_activity_history, student_completed_topics, students_report,
 )
-from .services.book_import import _check_mcq
+from .services.book_import import _check_lesson_extras, _check_mcq
+from .services.quality import book_quality
 
 User = get_user_model()
 
@@ -177,10 +180,15 @@ class AdminTopicDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 # ---- Mavzu darsi (lesson_plan) va mavzu testi tahriri ----
 
+# Dars sifatini oshiruvchi ixtiyoriy qismlar (book_import._check_lesson_extras bilan tekshiriladi)
+EXTRA_KEYS = ('pretest', 'why', 'source_work', 'images')
+
+
 class AdminLessonBlockSerializer(drf_serializers.Serializer):
     heading = drf_serializers.CharField(required=False, allow_blank=True, default='')
     text = drf_serializers.CharField(allow_blank=False)
     pages = drf_serializers.ListField(child=drf_serializers.IntegerField(), required=False, default=list)
+    check = drf_serializers.DictField(required=False, allow_null=True)  # blok ichidagi mini-savol
 
 
 class AdminKeyFactSerializer(drf_serializers.Serializer):
@@ -193,11 +201,29 @@ class AdminLessonPlanSerializer(drf_serializers.Serializer):
     blocks = AdminLessonBlockSerializer(many=True)
     key_facts = AdminKeyFactSerializer(many=True, required=False, default=list)
     summary = drf_serializers.CharField(required=False, allow_blank=True, default='')
+    pretest = drf_serializers.ListField(child=drf_serializers.DictField(), required=False, allow_null=True)
+    why = drf_serializers.DictField(required=False, allow_null=True)
+    source_work = drf_serializers.DictField(required=False, allow_null=True)
+    images = drf_serializers.ListField(child=drf_serializers.DictField(), required=False, allow_null=True)
 
     def validate_blocks(self, value):
         if not value:
             raise drf_serializers.ValidationError("Kamida bitta blok (matn) kerak")
         return value
+
+    def validate(self, attrs):
+        # Bo'sh ixtiyoriy qism "o'chirish" ma'nosini beradi
+        for key in EXTRA_KEYS:
+            if key in attrs and not attrs[key]:
+                del attrs[key]
+        for b in attrs.get('blocks', []):
+            if not b.get('check'):
+                b.pop('check', None)
+        errors = []
+        _check_lesson_extras(attrs, 'dars', errors)
+        if errors:
+            raise drf_serializers.ValidationError(errors)
+        return attrs
 
 
 class AdminTopicLessonView(APIView):
@@ -216,11 +242,15 @@ class AdminTopicLessonView(APIView):
         topic = get_object_or_404(Topic, pk=topic_id)
         serializer = AdminLessonPlanSerializer(data=request.data.get('lesson_plan') or {})
         serializer.is_valid(raise_exception=True)
+        # Mavjud rejadagi boshqa maydonlar (masalan, til kursining so'z boyligi) tahrirda yo'qolmasin
+        existing = dict(getattr(getattr(topic, 'lesson', None), 'lesson_plan', None) or {})
+        for key in EXTRA_KEYS:
+            existing.pop(key, None)  # ixtiyoriy qismlar faqat yuborilgani bilan almashadi
         lesson, _ = Lesson.objects.update_or_create(
             topic=topic,
             defaults={
                 'created_by': request.user, 'status': STATUS_DONE, 'ai_provider': 'manual', 'error_message': '',
-                'lesson_plan': serializer.validated_data,
+                'lesson_plan': {**existing, **serializer.validated_data},
             },
         )
         return Response({'lesson_plan': lesson.lesson_plan, 'quiz': lesson.quiz, 'status': lesson.status})
@@ -253,3 +283,25 @@ class AdminTopicTestView(APIView):
             },
         )
         return Response(asset.data)
+
+
+class AdminBookQualityView(APIView):
+    """Kurs mavzularining sifat ro'yxati (to'liqlik belgilari) + talabalarning o'zini baholashi."""
+
+    permission_classes = [IsTeacher]
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, pk=book_id)
+        rows = book_quality(book)
+        fb = {
+            r['topic_id']: r
+            for r in LessonFeedback.objects.filter(topic__book=book).values('topic_id').annotate(
+                n=Count('id'), avg=Avg('rating'), hard=Count('id', filter=Q(rating=1)),
+            )
+        }
+        for row in rows:
+            f = fb.get(row['topic_id'])
+            row['feedback'] = {
+                'count': f['n'], 'avg': round(f['avg'], 2), 'hard_percent': round(f['hard'] / f['n'] * 100),
+            } if f else None
+        return Response(rows)

@@ -376,3 +376,26 @@ class DailyActivity(models.Model):
 
     def __str__(self):
         return f"{self.user} — {self.date} ({self.seconds_active}s)"
+
+
+class LessonFeedback(models.Model):
+    """Dars oxirida talabaning o'zini baholashi: 1 = qiyin, 2 = o'rtacha, 3 = tushunarli.
+
+    Test natijasidan farqli o'laroq, bu talaba o'zi qanchalik tushunganini ko'rsatadi:
+    admin panelda qaysi mavzu ko'proq qiyin ekani shundan bilinadi.
+    """
+
+    RATING_CHOICES = ((1, 'Qiyin'), (2, "O'rtacha"), (3, 'Tushunarli'))
+
+    student = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='lesson_feedback')
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name='feedback')
+    rating = models.PositiveSmallIntegerField(choices=RATING_CHOICES)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ('student', 'topic')
+        verbose_name = "Dars bahosi"
+        verbose_name_plural = "Dars baholari"
+
+    def __str__(self):
+        return f"{self.student} · {self.topic_id}: {self.rating}"

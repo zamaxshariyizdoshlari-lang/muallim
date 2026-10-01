@@ -67,6 +67,23 @@ Yangi kurs (kitob) JSON formatida tayyorlanadi va import qilinadi — batafsil f
 Mavjud namunalar: `backend/content/qd6/book.json` (tarix, betlarga iqtibos bilan) va
 `backend/content/turk_a1/book.json` (til kursi: kartochka, tinglash, o'qish, yozish, gapirish).
 
+### Darsni boyituvchi ixtiyoriy maydonlar
+
+Mavzuning `explanation` qismiga qo'shiladi (hammasi ixtiyoriy):
+
+| Maydon | Vazifasi |
+|---|---|
+| `pretest` | Dars boshidagi "oldindan sinash" savollari (bo'lmasa mini-viktorinadan olinadi) |
+| `blocks[].check` | Blok tagidagi mini-savol (bo'lmasa mini-viktorinadan bet bo'yicha olinadi) |
+| `why` | `{causes: [...], effects: [...]}` — "Nega shunday bo'ldi?" bloki |
+| `source_work` | `{quote, attribution, question, options, correct_index}` — manba bilan ishlash |
+| `images` | `[{src, caption, question?}]` — xarita/rasm (fayl `frontend/public/` ichida) |
+
+Test savollariga `level` (`eslash` / `tushunish` / `qollash`) va `tag` (qism nomi) qo'yish mumkin;
+berilmasa import paytida taxminiy qiymat qo'yiladi (`services/enrichment.py`).
+Test o'tish foizi `PASS_PERCENT` (standart 100) muhit o'zgaruvchisi bilan sozlanadi.
+Admin panelda **Sifat nazorati** tabi har mavzuning to'liqligini va talabalar bahosini ko'rsatadi.
+
 ## Serverga joylashtirish
 
 To'liq qo'llanma: [DEPLOY.md](DEPLOY.md) — Nginx, Gunicorn, PostgreSQL, HTTPS, zaxira nusxa,

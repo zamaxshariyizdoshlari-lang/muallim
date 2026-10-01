@@ -1,7 +1,42 @@
 import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
+
+const LEVEL_LABELS = { eslash: 'Eslash', tushunish: 'Tushunish', qollash: "Qo'llash" }
+
+function shuffled(items) {
+  const a = [...items]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+/**
+ * Har urinishda savollar va variantlar tartibi aralashtiriladi (yodlab olishning oldini olish).
+ * Oldingi urinishda xato qilingan savollar oldinga chiqariladi. Server asl indekslar bilan ishlaydi:
+ * `qi` - savolning asl o'rni, `oi` - variantning asl o'rni.
+ */
+function buildOrder(questions, wrongFirst = []) {
+  const wrong = new Set(wrongFirst)
+  const order = shuffled(questions.map((_, qi) => qi))
+  order.sort((a, b) => Number(wrong.has(b)) - Number(wrong.has(a)))  // barqaror: xatolar oldinda
+  return order.map((qi) => ({ qi, options: shuffled(questions[qi].options.map((_, oi) => oi)) }))
+}
+
+/** Xatolarni mavzu (tag) yoki bet bo'yicha guruhlaydi: "qaysi qismni takrorlash kerak". */
+function groupMistakes(details) {
+  const groups = new Map()
+  for (const d of details) {
+    if (d.correct) continue
+    const label = d.tag || (d.page ? `Darslikning ${d.page}-beti` : null)
+    if (!label) continue
+    groups.set(label, (groups.get(label) || 0) + 1)
+  }
+  return [...groups.entries()].sort((a, b) => b[1] - a[1])
+}
 
 /**
  * Rasmiy test (mavzu testi yoki yakuniy imtihon). Barcha savollar birdaniga ko'rsatiladi,
@@ -15,6 +50,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   const [answers, setAnswers] = useState({})
   const [result, setResult] = useState(null)
   const [submitting, setSubmitting] = useState(false)
+  const [attempt, setAttempt] = useState({ n: 0, wrong: [] })
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -49,12 +85,19 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   }
 
   function retry() {
+    const wrong = (result?.details || []).filter((d) => !d.correct).map((d) => d.index)
+    setAttempt((a) => ({ n: a.n + 1, wrong }))
     setAnswers({})
     setResult(null)
     window.scrollTo({ top: 0 })
   }
 
   const questions = test?.status === 'done' ? test.data?.questions || [] : []
+  const passPercent = result?.pass_percent ?? test?.data?.pass_percent ?? 100
+  // Tartib har urinishda yangilanadi (savollar yuklangach va "qayta urinish"da)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const layout = useMemo(() => buildOrder(questions, attempt.wrong), [test, attempt.n])
+  const mistakes = result && !result.passed ? groupMistakes(result.details || []) : []
   const answeredCount = Object.keys(answers).length
   const detailByIndex = Object.fromEntries((result?.details || []).map((d) => [d.index, d]))
 
@@ -66,7 +109,9 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
         <p className="eyebrow mb-2">Bilimni sinash</p>
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{title}</h1>
         <p className="mt-3 text-sm text-muted">
-          Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi.
+          {passPercent >= 100
+            ? "Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi."
+            : `Kamida ${passPercent}% to'g'ri javob berilganda o'tilgan hisoblanadi.`}
           {questions.length > 0 && ` Jami ${questions.length} ta savol.`}
         </p>
       </header>
@@ -140,6 +185,16 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                       ? passedLabel || "Test to'liq topshirildi!"
                       : "Hali hammasi to'g'ri emas. Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring."}
                   </p>
+                  {mistakes.length > 0 && (
+                    <div className="mt-3 text-sm text-ink-2">
+                      <p className="font-semibold text-ink">Quyidagilarni takrorlang:</p>
+                      <ul className="mt-1 flex flex-wrap gap-2">
+                        {mistakes.map(([label, n]) => (
+                          <li key={label} className="chip !border-bad/40 !bg-bad-soft !text-bad">{label} · {n} ta xato</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
                 {result.passed ? (
                   <button onClick={() => onPassed(result)} className="btn btn-primary">Davom etish</button>
@@ -153,7 +208,8 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
           )}
 
           <ol className="flex flex-col gap-5">
-            {questions.map((q, i) => {
+            {layout.map(({ qi: i, options }, pos) => {
+              const q = questions[i]
               const d = detailByIndex[i]
               return (
                 <li
@@ -162,13 +218,18 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                 >
                   <p className="mb-4 flex items-start gap-3">
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-soft text-sm font-bold text-brand">
-                      {i + 1}
+                      {pos + 1}
                     </span>
-                    <span className="flex-1 pt-0.5 font-read text-lg font-medium leading-snug text-ink">{q.question}</span>
+                    <span className="flex-1 pt-0.5 font-read text-lg font-medium leading-snug text-ink">
+                      {q.question}
+                      {q.level && LEVEL_LABELS[q.level] && (
+                        <span className="chip ml-2 align-middle !text-[0.68rem]">{LEVEL_LABELS[q.level]}</span>
+                      )}
+                    </span>
                     {d && (d.correct ? <CheckCircle2 className="shrink-0 text-ok" size={22} /> : <XCircle className="shrink-0 text-bad" size={22} />)}
                   </p>
                   <div className="flex flex-col gap-2">
-                    {q.options.map((opt, j) => (
+                    {options.map((j, k) => (
                       <button
                         key={j}
                         type="button"
@@ -177,8 +238,8 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                         className={`option ${answers[i] === j ? 'is-selected' : ''}`}
                         aria-pressed={answers[i] === j}
                       >
-                        <span className="option-key">{String.fromCharCode(65 + j)}</span>
-                        <span className="pt-0.5">{opt}</span>
+                        <span className="option-key">{String.fromCharCode(65 + k)}</span>
+                        <span className="pt-0.5">{q.options[j]}</span>
                       </button>
                     ))}
                   </div>

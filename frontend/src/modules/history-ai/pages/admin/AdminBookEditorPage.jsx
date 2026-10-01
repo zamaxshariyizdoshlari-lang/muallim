@@ -5,12 +5,14 @@ import {
   updateAdminSection, updateAdminTopic,
 } from '../../api/client'
 import { BackLink, ErrorNote, Spinner } from '../../components/ui'
+import AdminQualityPanel from './AdminQualityPanel'
 
 export default function AdminBookEditorPage({ bookId, onBack, onOpenTopic }) {
   const [sections, setSections] = useState(null)
   const [topics, setTopics] = useState(null)
   const [error, setError] = useState('')
   const [newSectionTitle, setNewSectionTitle] = useState('')
+  const [view, setView] = useState('structure')
 
   function refresh() {
     Promise.all([getSections(bookId), listTopics(bookId)])
@@ -94,7 +96,21 @@ export default function AdminBookEditorPage({ bookId, onBack, onOpenTopic }) {
       <BackLink onClick={onBack}>Fanlar va kurslarga qaytish</BackLink>
       <ErrorNote>{error}</ErrorNote>
 
-      {!sections || !topics ? (
+      <div className="mb-5 flex gap-2">
+        {[['structure', 'Tuzilma'], ['quality', 'Sifat nazorati']].map(([id, label]) => (
+          <button
+            key={id}
+            onClick={() => setView(id)}
+            className={`btn btn-sm !rounded-full ${view === id ? 'btn-primary' : 'btn-ghost'}`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {view === 'quality' ? (
+        <AdminQualityPanel bookId={bookId} onOpenTopic={onOpenTopic} />
+      ) : !sections || !topics ? (
         <Spinner>Yuklanmoqda...</Spinner>
       ) : (
         <div className="flex flex-col gap-5">

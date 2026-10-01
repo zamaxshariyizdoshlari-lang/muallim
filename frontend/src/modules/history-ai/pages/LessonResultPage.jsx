@@ -1,16 +1,19 @@
 import {
   AlertTriangle, BookMarked, BookOpenCheck, CheckCircle2, Clock, Gamepad2, HelpCircle, Layers, Lightbulb, Link2,
-  ListChecks, PencilLine, Presentation, RefreshCw, ShieldAlert, Sparkles, SpellCheck2, Target, Volume2,
+  ListChecks, PencilLine, Presentation, RefreshCw, ShieldAlert, Sparkles, SpellCheck2, Target, Timer, Volume2,
 } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { createLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
 import FlashcardDeck from '../components/FlashcardDeck'
+import { BlockCheck, ImageFigure, SelfRating, SelfSummary, SourceWork, WhyCard } from '../components/LessonExtras'
 import ListeningExercise from '../components/ListeningExercise'
 import MatchingGame from '../components/MatchingGame'
+import PreTest from '../components/PreTest'
 import PresentationViewer from '../components/PresentationViewer'
 import QuizGame from '../components/QuizGame'
 import ReadingExercise from '../components/ReadingExercise'
+import ReviewWarmup from '../components/ReviewWarmup'
 import SentencePractice from '../components/SentencePractice'
 import SpeakingPractice from '../components/SpeakingPractice'
 import TimelineGame from '../components/TimelineGame'
@@ -35,7 +38,7 @@ const LANGUAGE_STAGES = [
   { n: 6, id: 'stage-6', label: 'Mavzu testi', icon: ListChecks },
 ]
 
-export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBack, onStartTest }) {
+export default function LessonResultPage({ topicId, bookId, topicTitle, isTeacher, onBack, onStartTest }) {
   const [lesson, setLesson] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -93,6 +96,8 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
   const pageRange = ready ? pageRangeOf(lesson.lesson_plan) : null
   const isLanguage = Boolean(lesson?.lesson_plan?.vocabulary?.length)
   const stages = isLanguage ? LANGUAGE_STAGES : STAGES
+  const minutes = ready ? estimateMinutes(lesson, isLanguage) : null
+  const { pretest, blockChecks } = ready ? planExtras(lesson) : { pretest: [], blockChecks: [] }
 
   return (
     <div className="rise mx-auto max-w-3xl">
@@ -101,9 +106,16 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
       <header className="mb-6">
         <p className="eyebrow mb-2">Mavzu</p>
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{topicTitle}</h1>
-        {pageRange && (
-          <p className="mt-3 flex items-center gap-2 text-sm text-muted">
-            <Clock size={14} /> Darslikning {pageRange} betlari asosida
+        {(pageRange || minutes) && (
+          <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
+            {pageRange && (
+              <span className="flex items-center gap-2"><Clock size={14} /> Darslikning {pageRange} betlari asosida</span>
+            )}
+            {minutes && (
+              <span className="flex items-center gap-2" title="Matn hajmi va mashqlar soniga qarab hisoblangan">
+                <Timer size={14} /> O'qish ~{minutes.read} daq · Mashqlar ~{minutes.practice} daq
+              </span>
+            )}
           </p>
         )}
       </header>
@@ -172,8 +184,11 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
             </div>
           )}
 
+          <ReviewWarmup bookId={bookId} />
+          <PreTest questions={pretest} />
+
           <Stage n={1} id="stage-1" title={isLanguage ? 'Grammatika va yangi so\'zlar' : 'Mavzu tushuntirilishi'}>
-            <LessonPlanCard plan={lesson.lesson_plan} />
+            <LessonPlanCard plan={lesson.lesson_plan} topicId={topicId} blockChecks={blockChecks} />
           </Stage>
 
           {isLanguage ? (
@@ -226,7 +241,10 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
               </Stage>
 
               <Stage n={6} id="stage-6" title="Mavzu testi">
-                <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                <div className="flex flex-col gap-5">
+                  <SelfRating topicId={topicId} />
+                  <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                </div>
               </Stage>
             </>
           ) : (
@@ -262,7 +280,10 @@ export default function LessonResultPage({ topicId, topicTitle, isTeacher, onBac
               </Stage>
 
               <Stage n={4} id="stage-4" title="Mavzu testi">
-                <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                <div className="flex flex-col gap-5">
+                  <SelfRating topicId={topicId} />
+                  <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                </div>
               </Stage>
             </>
           )}
@@ -278,6 +299,41 @@ function pageRangeOf(plan) {
   const min = Math.min(...pages)
   const max = Math.max(...pages)
   return min === max ? String(min) : `${min}–${max}`
+}
+
+const WORDS_PER_MINUTE = 160  // o'rtacha o'quvchi uchun ehtiyotkor tezlik
+
+/** Matn hajmi va mashqlar soniga qarab dars davomiyligini taxminan hisoblaydi. */
+function estimateMinutes(lesson, isLanguage) {
+  const plan = lesson.lesson_plan || {}
+  const words = [
+    ...(plan.blocks || []).map((b) => b.text),
+    ...(plan.key_facts || []).map((f) => f.fact),
+    plan.summary,
+    plan.reading?.text,
+  ].filter(Boolean).join(' ').split(/\s+/).length
+  const exercises = isLanguage
+    ? (plan.vocabulary?.length || 0) * 0.25 + (plan.sentence_practice?.length || 0) * 0.5 + 4
+    : 4 + (lesson.quiz?.questions?.length || 0) * 0.5 + (lesson.quiz?.book_questions?.length || 0)
+  return { read: Math.max(1, Math.round(words / WORDS_PER_MINUTE)), practice: Math.max(1, Math.round(exercises)) }
+}
+
+const PRETEST_SIZE = 2
+
+/** Oldindan sinash savollari va blok ichidagi mini-savollar: aniq berilgan bo'lsa shuni, bo'lmasa mavjud
+ * mini-viktorinadan (bet bo'yicha mos blokka) oladi - yangi kontent yozmasdan ham ishlaydi. */
+function planExtras(lesson) {
+  const plan = lesson.lesson_plan || {}
+  const quiz = lesson.quiz?.questions || []
+  const pretest = plan.pretest?.length ? plan.pretest : quiz.slice(0, PRETEST_SIZE)
+  const used = new Set(pretest)
+  const blockChecks = (plan.blocks || []).map((b) => {
+    if (b.check) return b.check
+    const hit = quiz.find((q) => !used.has(q) && q.page && b.pages?.includes(q.page))
+    if (hit) used.add(hit)
+    return hit || null
+  })
+  return { pretest, blockChecks }
 }
 
 function FinalTestCta({ isTeacher, onStartTest }) {
@@ -330,7 +386,7 @@ function UnverifiedTag() {
   )
 }
 
-function LessonPlanCard({ plan }) {
+function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
   if (!plan) return null
   return (
     <div className="flex flex-col gap-6">
@@ -372,10 +428,21 @@ function LessonPlanCard({ plan }) {
                   ))}
                 </p>
               )}
+              <BlockCheck question={blockChecks[i]} />
             </div>
           ))}
         </article>
       )}
+
+      <WhyCard why={plan.why} />
+
+      {plan.images?.length > 0 && (
+        <div className="flex flex-col gap-4">
+          {plan.images.map((im, i) => <ImageFigure key={i} image={im} />)}
+        </div>
+      )}
+
+      <SourceWork work={plan.source_work} />
 
       {plan.key_facts?.length > 0 && (
         <div>
@@ -401,12 +468,7 @@ function LessonPlanCard({ plan }) {
         </div>
       )}
 
-      {plan.summary && (
-        <div className="rounded-2xl border border-brand/30 bg-brand-soft p-5 sm:p-6">
-          <h3 className="mb-2 font-display text-lg font-bold text-brand">Xulosa</h3>
-          <p className="font-read text-base leading-relaxed text-ink">{plan.summary}</p>
-        </div>
-      )}
+      <SelfSummary topicId={topicId} summary={plan.summary} />
     </div>
   )
 }

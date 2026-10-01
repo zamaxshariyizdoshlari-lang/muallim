@@ -1,3 +1,4 @@
+from django.conf import settings
 from rest_framework import serializers
 
 from .models import Book, BookExam, GeneratedAsset, Lesson, SectionExam, Subject, Topic
@@ -27,6 +28,8 @@ def hide_answers(data, request):
         data = {**data, 'questions': [
             {k: v for k, v in q.items() if k != 'correct_index'} for q in data.get('questions', [])
         ]}
+    if data:
+        data = {**data, 'pass_percent': settings.PASS_PERCENT}
     return data
 
 

@@ -590,3 +590,191 @@ class LanguageContentImportTests(TestCase):
         )
         errors = validate_book_json(data)
         self.assertEqual(errors, [])
+
+
+class LessonEnrichmentTests(TestCase):
+    """Dars sifatini oshiruvchi ixtiyoriy qismlar: validatsiya, import, tag/level."""
+
+    def setUp(self):
+        self.user = User.objects.create_user('admin_boy', password='admin-parol-1', is_staff=True)
+
+    def _data(self, test=None, blocks=None, **extra):
+        return {
+            'format_version': 1,
+            'book': {'key': 'boy_sinov', 'title': 'Boyitish sinovi', 'subject': 'tarix'},
+            'sections': [{'key': 's1', 'title': "1-bo'lim", 'topics': [{
+                'key': 't1', 'title': '1-mavzu', 'start_page': 1, 'end_page': 3,
+                'explanation': {
+                    'blocks': blocks or [{'heading': 'Temir', 'pages': [1], 'text': 'Matn.'}], **extra,
+                },
+                'test': test or make_questions(1, n=5),
+            }]}],
+        }
+
+    def test_extras_pass_through_to_lesson_plan(self):
+        from .services.book_import import import_book_json
+        mcq = {'question': 'S?', 'options': ['A', 'B'], 'correct_index': 0}
+        import_book_json(self._data(
+            pretest=[mcq], why={'causes': ['a'], 'effects': ['b']},
+            source_work={'quote': 'Manba', 'attribution': 'X', **mcq},
+            images=[{'src': '/maps/x.svg', 'caption': 'Xarita'}],
+            blocks=[{'heading': 'T', 'pages': [1], 'text': 'Matn.', 'check': mcq}],
+        ), self.user)
+        plan = Lesson.objects.get(topic__key='t1').lesson_plan
+        self.assertEqual(plan['why']['causes'], ['a'])
+        self.assertEqual(plan['images'][0]['src'], '/maps/x.svg')
+        self.assertEqual(len(plan['pretest']), 1)
+        self.assertEqual(plan['blocks'][0]['check']['correct_index'], 0)
+
+    def test_invalid_extras_rejected(self):
+        from .services.book_import import validate_book_json
+        bad = {'question': 'S?', 'options': ['A', 'B'], 'correct_index': 5}
+        errors = validate_book_json(self._data(pretest=[bad], why={}, images=[{'src': 'x'}]))
+        joined = ' '.join(errors)
+        self.assertIn('pretest', joined)
+        self.assertIn('why', joined)
+        self.assertIn('images', joined)
+
+    def test_invalid_level_rejected(self):
+        from .services.book_import import validate_book_json
+        qs = make_questions(1, n=5)
+        qs[0]['level'] = 'qiyin'
+        self.assertTrue(any('level' in e for e in validate_book_json(self._data(test=qs))))
+
+    def test_import_adds_level_and_tag_but_keeps_manual_values(self):
+        from .services.book_import import import_book_json
+        qs = make_questions(1, n=5)
+        qs[0]['question'] = 'Temir nima uchun asta tarqalgan?'
+        qs[1]['question'] = 'Quyidagilardan qaysi biri temir davriga kirmaydi?'
+        qs[2]['level'] = 'qollash'
+        qs[2]['question'] = 'Qachon?'
+        import_book_json(self._data(test=qs), self.user)
+        data = GeneratedAsset.objects.get(topic__key='t1', kind=GeneratedAsset.KIND_TOPIC_TEST).data
+        levels = [q['level'] for q in data['questions']]
+        self.assertEqual(levels[:4], ['tushunish', 'qollash', 'qollash', 'eslash'])
+        self.assertEqual({q['tag'] for q in data['questions']}, {'Temir'})
+
+    def test_language_questions_without_page_get_no_level(self):
+        from .services.enrichment import enrich_questions
+        q = enrich_questions([{'question': 'Merhaba?', 'options': ['a', 'b'], 'correct_index': 0}], [])
+        self.assertNotIn('level', q[0])
+
+
+class PassThresholdAndFeedbackTests(CourseFixture):
+    def login(self, user):
+        self.client.force_authenticate(user)
+
+    def _submit(self, topic, answers):
+        return self.client.post(f'{H}topics/{topic.id}/test/submit/', {'answers': answers}, format='json')
+
+    def test_default_requires_all_correct(self):
+        self.login(self.user)
+        r = self._submit(self.topics[0], {'0': 0, '1': 1})
+        self.assertFalse(r.data['passed'])
+        self.assertEqual(r.data['pass_percent'], 100)
+
+    def test_pass_percent_setting_lowers_threshold(self):
+        from django.test import override_settings
+        self.login(self.user)
+        with override_settings(PASS_PERCENT=50):
+            r = self._submit(self.topics[0], {'0': 0, '1': 1})
+        self.assertTrue(r.data['passed'])
+
+    def test_result_details_include_tag_and_level(self):
+        self.login(self.user)
+        asset = GeneratedAsset.objects.get(topic=self.topics[0], kind=GeneratedAsset.KIND_TOPIC_TEST)
+        asset.data['questions'][0].update(tag='Piramida', level='eslash')
+        asset.save()
+        r = self._submit(self.topics[0], {'0': 1, '1': 0})
+        self.assertEqual(r.data['details'][0]['tag'], 'Piramida')
+        self.assertEqual(r.data['details'][0]['level'], 'eslash')
+
+    def test_test_payload_exposes_pass_percent_without_answers(self):
+        self.login(self.user)
+        r = self.client.get(f'{H}topics/{self.topics[0].id}/assets/topic_test/')
+        self.assertEqual(r.data['data']['pass_percent'], 100)
+        self.assertNotIn('correct_index', str(r.data))
+
+    def test_feedback_saved_and_updated(self):
+        self.login(self.user)
+        t = self.topics[0]
+        self.assertIsNone(self.client.get(f'{H}topics/{t.id}/feedback/').data['rating'])
+        r = self.client.post(f'{H}topics/{t.id}/feedback/', {'rating': 1}, format='json')
+        self.assertEqual(r.status_code, 200)
+        self.client.post(f'{H}topics/{t.id}/feedback/', {'rating': 3}, format='json')
+        self.assertEqual(self.client.get(f'{H}topics/{t.id}/feedback/').data['rating'], 3)
+        self.assertEqual(t.feedback.count(), 1)
+
+    def test_feedback_rejects_bad_rating(self):
+        self.login(self.user)
+        r = self.client.post(f'{H}topics/{self.topics[0].id}/feedback/', {'rating': 7}, format='json')
+        self.assertEqual(r.status_code, 400)
+
+
+class AdminQualityTests(CourseFixture):
+    def test_quality_requires_teacher(self):
+        self.client.force_authenticate(self.user)
+        self.assertEqual(self.client.get(f'{H}admin/books/{self.book.id}/quality/').status_code, 403)
+
+    def test_quality_lists_topics_with_checks_and_feedback(self):
+        from .models import LessonFeedback
+        LessonFeedback.objects.create(student=self.user, topic=self.topics[0], rating=1)
+        self.client.force_authenticate(self.teacher)
+        r = self.client.get(f'{H}admin/books/{self.book.id}/quality/')
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(len(r.data), 3)
+        first = r.data[0]
+        self.assertEqual(first['feedback']['hard_percent'], 100)
+        self.assertLess(first['required_ok'], first['required_total'])  # fixture to'liq emas
+        self.assertIsNone(r.data[1]['feedback'])
+
+    def test_lesson_put_keeps_other_fields_and_extras_roundtrip(self):
+        t = self.topics[0]
+        lesson = t.lesson
+        lesson.lesson_plan = {**lesson.lesson_plan, 'vocabulary': [{'tr': 'a', 'uz': 'b'}]}
+        lesson.save()
+        self.client.force_authenticate(self.teacher)
+        plan = {'blocks': [{'heading': 'K', 'text': 'Matn', 'pages': [10]}],
+                'why': {'causes': ['sabab'], 'effects': []}}
+        r = self.client.put(f'{H}admin/topics/{t.id}/lesson/', {'lesson_plan': plan}, format='json')
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r.data['lesson_plan']['vocabulary'][0]['tr'], 'a')
+        self.assertEqual(r.data['lesson_plan']['why']['causes'], ['sabab'])
+        # bo'sh qism yuborilsa o'chadi
+        plan['why'] = None
+        r = self.client.put(f'{H}admin/topics/{t.id}/lesson/', {'lesson_plan': plan}, format='json')
+        self.assertNotIn('why', r.data['lesson_plan'])
+
+    def test_lesson_put_rejects_invalid_extras(self):
+        self.client.force_authenticate(self.teacher)
+        plan = {'blocks': [{'text': 'Matn'}], 'images': [{'src': 'x'}]}
+        r = self.client.put(f'{H}admin/topics/{self.topics[0].id}/lesson/', {'lesson_plan': plan}, format='json')
+        self.assertEqual(r.status_code, 400)
+
+    def test_hard_question_flagged_suspicious(self):
+        from .services.analytics import book_analytics
+        for i in range(10):
+            u = User.objects.create_user(f'u{i}', password='parol-12345')
+            TestAttempt.objects.create(
+                student=u, topic=self.topics[0], answers={'0': 1, '1': 1}, score=0, total=2, passed=False)
+        hard = book_analytics(self.book)['hard_questions']
+        self.assertTrue(hard and all(h['suspicious'] for h in hard))
+
+
+class ShippedContentTests(TestCase):
+    """Haqiqiy kurs fayllari (content/*/book.json) tekshiruvdan o'tishi va boyitilishi."""
+
+    def test_shipped_books_import_and_are_enriched(self):
+        import json
+        from pathlib import Path
+        from django.conf import settings
+        from .services.book_import import import_book_json
+        admin = User.objects.create_user('kontent_admin', password='admin-parol-1', is_staff=True)
+        for folder in ('qd6', 'turk_a1'):
+            data = json.loads((Path(settings.BASE_DIR) / 'content' / folder / 'book.json').read_text(encoding='utf-8'))
+            self.assertGreater(import_book_json(data, admin)['topics'], 0)
+        plan = Lesson.objects.get(topic__key='p05').lesson_plan
+        self.assertTrue(plan['why']['causes'] and plan['why']['effects'])
+        qs = GeneratedAsset.objects.get(topic__key='p05', kind=GeneratedAsset.KIND_TOPIC_TEST).data['questions']
+        self.assertTrue(all(q['level'] in ('eslash', 'tushunish', 'qollash') for q in qs))
+        self.assertTrue(all(q.get('tag') for q in qs))

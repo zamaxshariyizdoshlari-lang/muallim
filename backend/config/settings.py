@@ -191,6 +191,9 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 
 AI_RATE_LIMIT = os.getenv('AI_RATE_LIMIT', '20/hour')
 
+# Testdan o'tish uchun to'g'ri javoblar foizi (standart 100; yumshatish uchun masalan PASS_PERCENT=90)
+PASS_PERCENT = max(1, min(100, int(os.getenv('PASS_PERCENT', '100'))))
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

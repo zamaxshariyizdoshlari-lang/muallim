@@ -12,7 +12,7 @@ from rest_framework.views import APIView
 
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, DailyActivity, GeneratedAsset,
-    Lesson, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
+    Lesson, LessonFeedback, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
     TopicCompletion, UserSettings,
 )
 from .permissions import IsTeacher
@@ -228,11 +228,19 @@ def _grade(questions, answers, book=None, topic=None):
         correct = chosen == q['correct_index']
         score += int(correct)
         # To'g'ri javob ataylab qaytarilmaydi (yodlab olishning oldini olish) - faqat qayerdan o'qish kerakligi (bet).
-        detail = {'index': i, 'correct': correct, 'page': q.get('page')}
+        detail = {
+            'index': i, 'correct': correct, 'page': q.get('page'),
+            'tag': q.get('tag'), 'level': q.get('level'),
+        }
         if not correct and book is not None:
             detail['explain'] = review_service.explain_page(book, q.get('page'), topic=topic)
         details.append(detail)
     return score, len(questions), details
+
+
+def _is_passed(score, total):
+    """settings.PASS_PERCENT (standart 100) dan kam bo'lmagan natija o'tilgan hisoblanadi."""
+    return total > 0 and score * 100 >= settings.PASS_PERCENT * total
 
 
 def _read_answers(request):
@@ -259,7 +267,7 @@ class TopicTestSubmitView(APIView):
 
         answers = _read_answers(request)
         score, total, details = _grade(asset.data['questions'], answers, book=topic.book, topic=topic)
-        passed = total > 0 and score == total
+        passed = _is_passed(score, total)
         xp = 0
         attempt = TestAttempt.objects.create(
             student=request.user, topic=topic, answers=answers,
@@ -273,8 +281,26 @@ class TopicTestSubmitView(APIView):
             xp = gamification.award_topic(request.user, topic)
         return Response({
             'score': score, 'total': total, 'passed': passed, 'details': details,
-            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user), 'pass_percent': settings.PASS_PERCENT,
         })
+
+
+class LessonFeedbackView(APIView):
+    """Dars oxirida talabaning o'zini baholashi (1 qiyin, 2 o'rtacha, 3 tushunarli)."""
+
+    def get(self, request, topic_id):
+        fb = LessonFeedback.objects.filter(student=request.user, topic_id=topic_id).first()
+        return Response({'rating': fb.rating if fb else None})
+
+    def post(self, request, topic_id):
+        topic = get_object_or_404(Topic, id=topic_id)
+        rating = request.data.get('rating')
+        if rating not in (1, 2, 3):
+            raise ValidationError({'rating': "Baho 1, 2 yoki 3 bo'lishi kerak."})
+        LessonFeedback.objects.update_or_create(
+            student=request.user, topic=topic, defaults={'rating': rating}
+        )
+        return Response({'rating': rating})
 
 
 class BookExamByBookView(generics.RetrieveAPIView):
@@ -328,7 +354,7 @@ class BookExamSubmitView(APIView):
 
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=book)
-        passed = total > 0 and score == total
+        passed = _is_passed(score, total)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
@@ -350,7 +376,7 @@ class BookExamSubmitView(APIView):
         return Response({
             'score': score, 'total': total, 'passed': passed,
             'details': details, 'certificate': certificate,
-            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user), 'pass_percent': settings.PASS_PERCENT,
         })
 
 
@@ -542,7 +568,7 @@ class SectionExamSubmitView(APIView):
         exam = get_object_or_404(SectionExam, section=section)
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=section.book)
-        passed = total > 0 and score == total
+        passed = _is_passed(score, total)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,
@@ -553,7 +579,7 @@ class SectionExamSubmitView(APIView):
             xp = gamification.award_section(request.user, section)
         return Response({
             'score': score, 'total': total, 'passed': passed, 'details': details,
-            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user), 'pass_percent': settings.PASS_PERCENT,
         })
 
 

@@ -8,6 +8,10 @@ from ..models import Certificate, SectionCompletion, TestAttempt, Topic, TopicCo
 from .review import _questions_for_attempt, qkey
 
 
+SUSPICIOUS_MIN_SEEN = 10    # kamida shuncha marta berilgan savol
+SUSPICIOUS_ERROR_RATE = 85  # va xato foizi shundan yuqori bo'lsa: savolni qayta ko'rib chiqish kerak
+
+
 def book_analytics(book):
     User = get_user_model()
     topics = list(Topic.objects.filter(book=book))
@@ -68,6 +72,8 @@ def book_analytics(book):
             hard.append({
                 'question': q['question'], 'page': page, 'topic_title': topic.title if topic else '',
                 'wrong': wrong, 'seen': seen, 'error_rate': round(wrong / seen * 100),
+                # Deyarli hamma adashayotgan savol ko'pincha noto'g'ri yoki noaniq yozilgan bo'ladi
+                'suspicious': seen >= SUSPICIOUS_MIN_SEEN and wrong / seen * 100 >= SUSPICIOUS_ERROR_RATE,
             })
     hard.sort(key=lambda h: (-h['error_rate'], -h['seen']))
 

@@ -402,6 +402,7 @@ function LessonRoute() {
   return (
     <LessonResultPage
       topicId={topic.id}
+      bookId={bookId}
       topicTitle={topic.title}
       isTeacher={isTeacher}
       onBack={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}

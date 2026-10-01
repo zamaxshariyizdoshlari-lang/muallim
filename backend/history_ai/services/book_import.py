@@ -7,8 +7,10 @@ from django.db import transaction
 from ..models import (
     STATUS_DONE, Book, BookExam, GeneratedAsset, Lesson, Section, SectionExam, Subject, Topic,
 )
+from .enrichment import enrich_questions
 
 FORMAT_VERSION = 1
+LEVELS = ('eslash', 'tushunish', 'qollash')  # savol qiyinlik darajasi: eslash / tushunish / qo'llash
 BOOK_EXAM_SIZE = 50
 SECTION_EXAM_TARGET = 40
 
@@ -34,6 +36,48 @@ def _check_mcq(q, where, errors):
     # page ixtiyoriy: kitobga asoslangan kurslarda (tarix) bet raqami beriladi, til kursida kerak emas.
     if 'page' in q and q['page'] is not None and not _is_int(q['page']):
         errors.append(f"{where}: page berilsa, butun son bo'lishi kerak")
+    if q.get('level') is not None and q['level'] not in LEVELS:
+        errors.append(f"{where}: level {'/'.join(LEVELS)} dan biri bo'lishi kerak")
+    if q.get('tag') is not None and not (isinstance(q['tag'], str) and q['tag'].strip()):
+        errors.append(f"{where}: tag bo'sh bo'lmagan matn bo'lishi kerak")
+
+
+def _check_lesson_extras(expl, tw, errors):
+    """Dars sifatini oshiruvchi ixtiyoriy qismlar: blok ichidagi savol, oldindan sinash,
+    sabab-oqibat, manba bilan ishlash, xarita/rasm."""
+    for bi, b in enumerate(expl.get('blocks') or []):
+        if b.get('check') is not None:
+            _check_mcq(b['check'], f"{tw}.explanation.blocks[{bi}].check", errors)
+    pretest = expl.get('pretest')
+    if pretest is not None:
+        if not isinstance(pretest, list) or not pretest:
+            errors.append(f"{tw}.explanation.pretest: bo'sh bo'lmagan ro'yxat bo'lishi kerak")
+        for qi, q in enumerate(pretest or []):
+            _check_mcq(q, f"{tw}.explanation.pretest[{qi}]", errors)
+    why = expl.get('why')
+    if why is not None:
+        if not isinstance(why, dict) or not (why.get('causes') or why.get('effects')):
+            errors.append(f"{tw}.explanation.why: causes yoki effects ro'yxati kerak")
+        else:
+            for key in ('causes', 'effects'):
+                items = why.get(key) or []
+                if not isinstance(items, list) or not all(isinstance(i, str) and i.strip() for i in items):
+                    errors.append(f"{tw}.explanation.why.{key}: matnlar ro'yxati bo'lishi kerak")
+    sw = expl.get('source_work')
+    if sw is not None:
+        if not isinstance(sw, dict) or not str(sw.get('quote', '')).strip():
+            errors.append(f"{tw}.explanation.source_work: quote majburiy")
+        else:
+            _check_mcq({**sw, 'question': sw.get('question')}, f"{tw}.explanation.source_work", errors)
+    images = expl.get('images')
+    if images is not None:
+        if not isinstance(images, list):
+            errors.append(f"{tw}.explanation.images: ro'yxat bo'lishi kerak")
+        for ii, im in enumerate(images or []):
+            if not (isinstance(im, dict) and str(im.get('src', '')).strip() and str(im.get('caption', '')).strip()):
+                errors.append(f"{tw}.explanation.images[{ii}]: src va caption majburiy")
+            elif im.get('question') is not None:
+                _check_mcq(im['question'], f"{tw}.explanation.images[{ii}].question", errors)
 
 
 def validate_book_json(data):
@@ -81,6 +125,7 @@ def validate_book_json(data):
 
             # Til kursi uchun ixtiyoriy maydonlar (tarix kitobida bo'lmaydi).
             expl = t.get('explanation') or {}
+            _check_lesson_extras(expl, tw, errors)
             for wi, w in enumerate(expl.get('vocabulary') or []):
                 if not (isinstance(w, dict) and w.get('tr') and w.get('uz')):
                     errors.append(f"{tw}.explanation.vocabulary[{wi}]: tr va uz majburiy")
@@ -199,7 +244,10 @@ def import_book_json(data, user):
                 'summary': expl.get('summary', ''),
             }
             # Til kursi uchun ixtiyoriy qismlar (bo'lsa qo'shiladi - tarix kitobida bo'lmaydi).
-            for key in ('vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt'):
+            for key in (
+                'vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt',
+                'pretest', 'why', 'source_work', 'images',
+            ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]
             Lesson.objects.update_or_create(
@@ -214,13 +262,14 @@ def import_book_json(data, user):
                 },
             )
 
+            test = enrich_questions(t['test'], expl['blocks'])
             games = t.get('games') or {}
             payloads = {
                 GeneratedAsset.KIND_PRESENTATION: t.get('presentation'),
                 GeneratedAsset.KIND_GAME_TIMELINE: games.get('timeline'),
                 GeneratedAsset.KIND_GAME_MATCHING: games.get('matching'),
                 GeneratedAsset.KIND_GAME_FILL_BLANK: games.get('fill_blank'),
-                GeneratedAsset.KIND_TOPIC_TEST: {'questions': t['test']},
+                GeneratedAsset.KIND_TOPIC_TEST: {'questions': test},
             }
             for kind, payload in payloads.items():
                 if payload:
@@ -234,9 +283,9 @@ def import_book_json(data, user):
                 else:
                     GeneratedAsset.objects.filter(topic=topic, kind=kind).delete()
 
-            topic_tests[topic.title] = t['test']
+            topic_tests[topic.title] = test
             counts['topics'] += 1
-            counts['questions'] += len(t['test'])
+            counts['questions'] += len(test)
 
     # JSON'da yo'q (kalitli) mavzu/bo'limlar o'chiriladi: JSON - yagona manba.
     Topic.objects.filter(book=book).exclude(key='').exclude(id__in=seen_topics).delete()
