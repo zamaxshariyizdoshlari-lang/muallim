@@ -27,6 +27,7 @@ sifatida saqlanadi — foydalanuvchi o'qiyotganda hech qanday AI so'rovi yuboril
 - **Ikki panel**: foydalanuvchi ilovasi (React) va to'liq nazorat uchun Django admin paneli
   (foydalanuvchilar, statistika, sertifikatlar, kontent).
 - **PWA**: ko'rilgan darslar offline ochiladi.
+- **Yon menyu (sidebar)**: Asosiy, Fanlar, joriy kurs menyusi (yo'l xaritasi, takrorlash, aralash mashq, imtihon) va bo'limlar bo'yicha mavzular daraxti (holat belgilari bilan), o'qituvchiga Boshqaruv. Katta ekranda doimiy, telefonda hamburger orqali ochiladi.
 - **Qulaylik**: matn o'lchamini o'zgartirish, klaviatura navigatsiyasi, ekran o'quvchi bilan mos.
 
 ## Texnologiyalar

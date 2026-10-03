@@ -1,4 +1,4 @@
-import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Star, UserRound, WifiOff } from 'lucide-react'
+import { Flame, GraduationCap, Home, LayoutDashboard, LogOut, Menu, Star, UserRound, WifiOff, X } from 'lucide-react'
 import { useCallback, useEffect, useState } from 'react'
 import {
   Link, Navigate, Outlet, Route, Routes, useLocation, useNavigate, useOutletContext, useParams,
@@ -9,6 +9,7 @@ import {
   submitSectionExam, getTopicTestHint,
   submitTopicTest,
 } from './api/client'
+import Sidebar from './components/Sidebar'
 import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
 import AdminBookEditorPage from './pages/admin/AdminBookEditorPage'
 import AdminContentPage from './pages/admin/AdminContentPage'
@@ -155,7 +156,23 @@ export default function HistoryAIModule() {
 function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }) {
   const [stats, setStats] = useState(null)
   const [online, setOnline] = useState(navigator.onLine)
+  const [subjects, setSubjects] = useState([])
+  const [course, setCourse] = useState(null)  // ochiq kurs ma'lumoti (BookLayout to'ldiradi) - yon menyu uchun
+  const [drawer, setDrawer] = useState(false)
   const location = useLocation()
+
+  useEffect(() => {
+    listSubjects().then(setSubjects).catch(() => {})
+  }, [])
+
+  // Sahifa almashganda yoki Esc bosilganda kichik ekrandagi menyu yopiladi.
+  useEffect(() => { setDrawer(false) }, [location.pathname])
+  useEffect(() => {
+    if (!drawer) return undefined
+    const onKey = (e) => { if (e.key === 'Escape') setDrawer(false) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [drawer])
 
   useEffect(() => {
     const up = () => setOnline(true)
@@ -190,7 +207,16 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
         Asosiy kontentga o'tish
       </a>
       <header className="sticky top-0 z-30 border-b border-line bg-paper/85 backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3">
+          <button
+            type="button"
+            onClick={() => setDrawer(true)}
+            className="btn btn-ghost btn-sm !px-2 lg:hidden"
+            aria-label="Menyuni ochish"
+            aria-expanded={drawer}
+          >
+            <Menu size={18} />
+          </button>
           <Link to="/" className="flex items-center gap-2.5 text-left" aria-label="Bosh sahifa">
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-brand-ink">
               <GraduationCap size={18} />
@@ -226,9 +252,32 @@ function Shell({ me, dark, onToggleTheme, fontSize, onChangeFontSize, onLogout }
         )}
       </header>
 
-      <main id="main-content" className="mx-auto max-w-5xl px-4 pb-24 pt-8">
-        <Outlet context={{ me, isTeacher: me.is_staff }} />
-      </main>
+      <div className="mx-auto flex max-w-7xl gap-8 px-4">
+        <aside className="sticky top-[76px] hidden h-[calc(100vh-76px)] w-64 shrink-0 overflow-y-auto py-6 pr-1 lg:block">
+          <Sidebar me={me} subjects={subjects} course={course} stats={stats} />
+        </aside>
+        <main id="main-content" className="min-w-0 flex-1 pb-24 pt-8">
+          <Outlet context={{ me, isTeacher: me.is_staff, setCourse }} />
+        </main>
+      </div>
+
+      {drawer && (
+        <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Menyu">
+          <button type="button" className="absolute inset-0 bg-black/50" onClick={() => setDrawer(false)} aria-label="Menyuni yopish" />
+          <div className="rise absolute inset-y-0 left-0 flex w-72 max-w-[85vw] flex-col overflow-y-auto bg-paper p-4 shadow-xl">
+            <div className="mb-4 flex items-center justify-between">
+              <span className="font-display text-lg font-bold text-ink">Menyu</span>
+              <button type="button" onClick={() => setDrawer(false)} className="btn btn-ghost btn-sm !px-2" aria-label="Yopish">
+                <X size={18} />
+              </button>
+            </div>
+            <Sidebar me={me} subjects={subjects} course={course} stats={stats} />
+            <button type="button" onClick={onLogout} className="btn btn-ghost btn-sm mt-auto w-full justify-start">
+              <LogOut size={14} /> Chiqish
+            </button>
+          </div>
+        </div>
+      )}
 
       <MobileNav stats={stats} />
     </div>
@@ -246,7 +295,7 @@ function NavMenu({ isTeacher }) {
   const location = useLocation()
   const items = isTeacher ? [...NAV_ITEMS, ADMIN_NAV_ITEM] : NAV_ITEMS
   return (
-    <nav aria-label="Asosiy menyu" className="hidden items-center gap-1 sm:flex">
+    <nav aria-label="Asosiy menyu" className="hidden items-center gap-1 sm:flex lg:hidden">
       {items.map(({ to, label, icon: Icon, end }) => {
         const active = end ? location.pathname === to : location.pathname.startsWith(to)
         return (
@@ -348,6 +397,13 @@ function BookLayout() {
     setError('')
     refresh().catch((err) => setError(err.message))
   }, [refresh])
+
+  // Yon menyu ochiq kursning bo'limlari/mavzularini ko'rsatishi uchun ma'lumotni Shell'ga uzatamiz.
+  const { setCourse } = outer
+  useEffect(() => {
+    setCourse(data && data.book ? data : null)
+    return () => setCourse(null)
+  }, [data, setCourse])
 
   if (error) return <p className="text-bad">{error}</p>
   if (!data) return <Spinner>Kurs yuklanmoqda...</Spinner>
