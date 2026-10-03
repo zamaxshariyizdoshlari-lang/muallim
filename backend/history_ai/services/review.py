@@ -7,12 +7,13 @@ Xato javob kartochkani darhol yana bugungi kunga qaytaradi. Savol matni bo'yicha
 hisoblanadi, shuning uchun test qayta yaratilsa ham izchil qoladi.
 """
 import hashlib
+import random
 import re
 from datetime import timedelta
 
 from django.utils import timezone
 
-from ..models import STATUS_DONE, BookExam, GeneratedAsset, Lesson, ReviewCard, SectionExam, Topic
+from ..models import STATUS_DONE, BookExam, GeneratedAsset, Lesson, ReviewCard, SectionExam, Topic, TopicCompletion
 
 INTERVALS = [1, 3, 7, 14, 30]  # kun: har to'g'ri javobdan keyingi keyingi "sana"gacha
 
@@ -68,6 +69,8 @@ def _reset(user, book, key, q, topic):
         'question': q['question'], 'options': q['options'], 'correct_index': q['correct_index'],
         'page': q.get('page'), 'topic_id': topic.id if topic else None, 'topic_title': topic.title if topic else '',
     }
+    if q.get('explanation'):
+        data['explanation'] = q['explanation']
     ReviewCard.objects.update_or_create(
         user=user, book=book, qkey=key,
         defaults={'data': data, 'interval_idx': 0, 'due_date': timezone.localdate()},
@@ -129,7 +132,75 @@ def answer_card(user, book, key, choice):
     if not correct:
         topic = Topic.objects.filter(id=card.data.get('topic_id')).first() if card.data.get('topic_id') else None
         explain = explain_page(book, page, topic=topic)
-    return {'correct': correct, 'page': page, 'mastered': mastered, 'next_in_days': next_in_days, 'explain': explain}
+    return {
+        'correct': correct, 'page': page, 'mastered': mastered, 'next_in_days': next_in_days, 'explain': explain,
+        'why': card.data.get('explanation'),
+    }
+
+
+MIXED_SIZE = 10
+MIXED_RECENT_DAYS = 7
+MIXED_RECENT_SHARE = 0.6  # savollarning shuncha ulushi oxirgi haftada o'tilgan mavzulardan
+
+
+def _completed_pool(user, book):
+    """[(topic, recent, question)] - talaba o'tgan mavzularning test savollari."""
+    since = timezone.now() - timedelta(days=MIXED_RECENT_DAYS)
+    pool = []
+    for c in TopicCompletion.objects.filter(student=user, topic__book=book).select_related('topic'):
+        asset = GeneratedAsset.objects.filter(
+            topic=c.topic, kind=GeneratedAsset.KIND_TOPIC_TEST, status=STATUS_DONE
+        ).first()
+        for q in (asset.data or {}).get('questions', []) if asset else []:
+            pool.append((c.topic, c.completed_at >= since, q))
+    return pool
+
+
+def mixed_available(user, book):
+    return TopicCompletion.objects.filter(student=user, topic__book=book).exists()
+
+
+def mixed_questions(user, book, size=MIXED_SIZE, rng=None):
+    """Aralash mashq (interleaving): o'tilgan mavzulardan aralash savollar, oxirgi hafta ko'proq.
+
+    Mavzular aralashib keladi, shu sababli talaba "bu qaysi mavzu" degan ishoraga tayanmasdan
+    bilimni o'zi eslashga majbur bo'ladi. To'g'ri javob qaytarilmaydi.
+    """
+    rng = rng or random.Random()
+    pool = _completed_pool(user, book)
+    recent = [x for x in pool if x[1]]
+    older = [x for x in pool if not x[1]]
+    rng.shuffle(recent)
+    rng.shuffle(older)
+    want_recent = round(size * MIXED_RECENT_SHARE) if older else size
+    picked = recent[:want_recent]
+    picked += older[:size - len(picked)]
+    picked += recent[want_recent:][:size - len(picked)]
+    rng.shuffle(picked)
+    return [
+        {
+            'key': qkey(q['question']), 'question': q['question'], 'options': q['options'],
+            'page': q.get('page'), 'topic_id': t.id, 'topic_title': t.title,
+        }
+        for t, _, q in picked
+    ]
+
+
+def answer_mixed(user, book, key, choice):
+    """Aralash mashqda javob: kartochkalar yangilanadi (xato -> takrorlash, to'g'ri -> ilgarilash)."""
+    found = next(((t, q) for t, _, q in _completed_pool(user, book) if qkey(q['question']) == key), None)
+    if not found:
+        return None
+    topic, q = found
+    correct = choice == q['correct_index']
+    if correct:
+        _advance(user, book, key)
+    else:
+        _reset(user, book, key, q, topic)
+    return {
+        'correct': correct, 'page': q.get('page'), 'why': q.get('explanation'),
+        'explain': None if correct else explain_page(book, q.get('page'), topic=topic),
+    }
 
 
 def explain_page(book, page, topic=None):

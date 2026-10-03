@@ -1,6 +1,7 @@
 {
   "key": "m49_50", "title": "49-50-mavzular. Ahmad Farg'oniy", "start_page": 172, "end_page": 175,
   "explanation": {
+    "takeaways": ["Ahmad Farg'oniy (797-865) Quvada tug'ilgan, Bag'dod va Damashq rasadxonalarida ishlagan buyuk astronom.", "Uning asari Yevropada \"Alfraganus\" nomi bilan tarqaldi.", "861-yilda Misrdagi Roud orolida \"Miqyosi Nil\"ni yaratib, suv sathiga qarab adolatli soliq tizimini joriy etdi."],
     "goals": ["Ahmad Farg'oniyning hayoti, asarlari va astronomiyadagi xizmatlarini bilish", "\"Miqyosi Nil\" qurilmasi va uning soliq tizimidagi ahamiyatini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti", "pages": [172],

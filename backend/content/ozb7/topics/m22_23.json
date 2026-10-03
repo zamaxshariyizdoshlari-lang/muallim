@@ -1,6 +1,8 @@
 {
   "key": "m22_23", "title": "22-23-mavzular. Qarluqlar. O'g'uzlar. Tohiriylar", "start_page": 80, "end_page": 85,
   "explanation": {
+    "takeaways": ["Xalifalik zaiflashgach, Yettisuvda qarluqlar, Sirdaryo bo'yida o'g'uzlar davlati va Xurosonda Tohiriylar paydo bo'ldi.", "Tohiriylar sulolasi (821-873) Tohir ibn Husayn tomonidan asos solingan; u Ma'munga yordam bergan.", "873-yilda hunarmand Layslar boshchiligida safforiylar tohiriylarni ag'dardi."],
+    "mnemonics": [{ "title": "813 -> 821 -> 873", "text": "813 Ma'mun Bag'dodni egalladi; 821 unga yordam bergan Tohir ibn Husayn Tohiriylar sulolasini boshladi; 873 safforiylar uni tugatdi." }],
     "goals": ["Qarluqlar, o'g'uzlar davlatlari va ularning etnogenezdagi o'rnini bilish", "Tohiriylar va safforiylar davlatlarining tashkil topishi sabablarini tushuntirish"],
     "blocks": [
       { "heading": "Mustaqil davlatlarning paydo bo'lishi", "pages": [80],

@@ -660,6 +660,50 @@ class LessonEnrichmentTests(TestCase):
         self.assertNotIn('level', q[0])
 
 
+class MixedPracticeTests(CourseFixture):
+    def _mixed(self):
+        return self.client.get(f'{H}books/{self.book.id}/mixed/')
+
+    def _answer(self, key, choice):
+        return self.client.post(f'{H}books/{self.book.id}/mixed/answer/', {'key': key, 'choice': choice}, format='json')
+
+    def test_empty_until_a_topic_is_completed(self):
+        self.login(self.user)
+        self.assertEqual(self._mixed().data['items'], [])
+        r = self.client.get(f'{H}books/{self.book.id}/progress/')
+        self.assertFalse(r.data['mixed_available'])
+
+    def test_mixed_draws_from_completed_topics_without_answers(self):
+        self.login(self.user)
+        self.submit(self.topics[0], correct=True)
+        r = self.client.get(f'{H}books/{self.book.id}/progress/')
+        self.assertTrue(r.data['mixed_available'])
+        items = self._mixed().data['items']
+        self.assertEqual(len(items), 2)
+        self.assertEqual({i['topic_id'] for i in items}, {self.topics[0].id})
+        self.assertNotIn('correct_index', str(items))
+
+    def test_answering_wrong_creates_review_card_and_correct_does_not(self):
+        from .models import ReviewCard
+        self.login(self.user)
+        self.submit(self.topics[0], correct=True)
+        items = self._mixed().data['items']
+        wrong = self._answer(items[0]['key'], 3)
+        self.assertFalse(wrong.data['correct'])
+        self.assertEqual(wrong.data['page'], 10)
+        self.assertTrue(ReviewCard.objects.filter(user=self.user, qkey=items[0]['key']).exists())
+        ok = self._answer(items[1]['key'], 0)
+        self.assertTrue(ok.data['correct'])
+        self.assertFalse(ReviewCard.objects.filter(user=self.user, qkey=items[1]['key']).exists())
+
+    def test_cannot_answer_question_from_uncompleted_topic(self):
+        from .services.review import qkey
+        self.login(self.user)
+        self.submit(self.topics[0], correct=True)
+        r = self._answer(qkey(make_questions(20)[0]['question']), 0)
+        self.assertEqual(r.status_code, 400)
+
+
 class PassThresholdAndFeedbackTests(CourseFixture):
     def login(self, user):
         self.client.force_authenticate(user)

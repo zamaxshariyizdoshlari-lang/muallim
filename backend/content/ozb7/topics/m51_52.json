@@ -1,6 +1,7 @@
 {
   "key": "m51_52", "title": "51-52-mavzular. Abu Nasr Forobiy", "start_page": 176, "end_page": 179,
   "explanation": {
+    "takeaways": ["Abu Nasr Forobiy (873-950) Forob (O'tror)da tug'ilgan qomusiy olim va faylasuf, \"Ikkinchi muallim\" unvoni egasi.", "160 dan ortiq asar yozdi: \"Fozil odamlar shahri\", \"Shaharni boshqarish\", \"Musiqa haqida katta kitob\".", "Platon va Aristotel asarlariga sharhlar yozib, yunon ilmini Sharq va Yevropaga yetkazdi."],
     "goals": ["Forobiyning hayoti, \"Ikkinchi muallim\" unvoni va asarlarini bilish", "\"Fozil odamlar shahri\" g'oyalari va Forobiyning yunon faylasuflari merosini sharhlashdagi xizmatini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti va unvonlari", "pages": [176],

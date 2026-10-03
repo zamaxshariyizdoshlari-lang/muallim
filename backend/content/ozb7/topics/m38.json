@@ -1,6 +1,7 @@
 {
   "key": "m38", "title": "38-mavzu. Etnik jarayonlar va o'zbek xalqining shakllanishi", "start_page": 136, "end_page": 139,
   "explanation": {
+    "takeaways": ["O'zbek xalqi sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar, sak-massagetlar va turkiy qabilalarning qo'shilishidan shakllangan.", "Shakllanish jarayoni IX-XII asrlarda yakunlandi; qoraxoniylar davri yakuniy bosqich bo'ldi.", "Qang' davridagi \"Qovunchi madaniyati\" va VII asrdan o'lkaning \"Turkiston\" atalishi bu jarayonning belgilaridir."],
     "goals": ["Etnos, etnik jarayon va etnogenez tushunchalarini bilish", "O'zbek xalqining shakllanish bosqichlari va unda ishtirok etgan etnik guruhlarni sanash"],
     "blocks": [
       { "heading": "O'zbeklar - alohida etnik birlik", "pages": [136, 137],

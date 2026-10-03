@@ -1,6 +1,7 @@
 {
   "key": "m43_44", "title": "43-44-mavzular. Aql-zakovat bilan bunyod etilgan boy ma'naviyat", "start_page": 151, "end_page": 160,
   "explanation": {
+    "takeaways": ["VIII asr oxiridan shaharlarda madrasalar ochilib, buyuk mufassir va muhaddislar yetishdi.", "Imom Buxoriy \"al-Jome as-sahih\"ni yozdi; Imom Termiziy va Hakim Termiziy ham mashhur bo'ldi.", "Zamaxshariy tilshunoslik va tafsirda, Marg'inoniy fiqhda (\"Hidoya\"), Narshaxiy tarixda (\"Buxoro tarixi\") ulug' bo'ldi."],
     "goals": ["Imom Buxoriy, Termiziy, Zamaxshariy, Marg'inoniy, Hakim Termiziy va Narshaxiyning hayoti va merosini bilish", "Madrasalar rivoji va diniy ilmlarda yurtdoshlarimiz hissasini tushuntirish"],
     "blocks": [
       { "heading": "Madrasalar va Imom Buxoriy", "pages": [151, 152, 153],

@@ -1,6 +1,7 @@
 {
   "key": "m39_40", "title": "39-40-mavzular. Mintaqada islom dinining yoyilishi", "start_page": 140, "end_page": 146,
   "explanation": {
+    "takeaways": ["Islom Turonga arab istilosi bilan kirib, Abu Hanifa g'oyalari, hadis allomalari va madrasalar orqali tarqaldi.", "Buxoro \"Qubbatul islom\" bo'ldi; Moturidiy va Ash'ariy kalom ta'limotlarini yaratdi.", "Yassaviya, Kubraviya va Naqshbandiya tariqatlari yurtimizda yuzaga keldi."],
     "goals": ["Islom dinining Turonda yoyilishiga ta'sir qilgan omillarni bilish", "Fiqhiy mazhablar, kalom maktablari (moturidiya, ash'ariya) va tasavvuf tariqatlarining mohiyatini tushuntirish"],
     "blocks": [
       { "heading": "Islomning Turonga kirib kelishi", "pages": [140],

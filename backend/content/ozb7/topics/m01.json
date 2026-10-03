@@ -1,6 +1,8 @@
 {
   "key": "m01", "title": "1-mavzu. Ajdodlarimizning ma'naviy qadriyatlari - jahon sivilizatsiyasi asoslaridan biri", "start_page": 3, "end_page": 7,
   "explanation": {
+    "takeaways": ["Darslik IV asrdan XIII asr boshigacha bo'lgan o'rta asrlar tarixini o'rgatadi.", "\"O'rta asrlar\" tushunchasi italyan tarixchilaridan kelgan; bizda u Yevropadan oldinroq (IV asr oxiri - V asr o'rtalari) boshlangan va shartli ishlatiladi.", "Davr uch bosqichga bo'linadi: ilk (IV-VIII), rivojlangan (IX-XV), so'nggi (XVI-XIX asrlar). Arab xalifaligidan keyin ilm-fan gullab-yashnadi."],
+    "mnemonics": [{ "title": "Uch bosqich: I-R-S", "text": "Ilk, Rivojlangan, So'nggi: IV-VIII, IX-XV, XVI-XIX. Birinchi bosqich 8 bilan tugaydi, keyingisi 9 dan boshlanadi; ikkinchisi 15 da tugaydi, uchinchisi 16 dan boshlanadi." }],
     "goals": ["Darslik qaysi davr tarixini yoritishini va 'o'rta asrlar' tushunchasining ma'nosini bilish", "O'rta asrlarning bosqichlarini va Turon hududidagi yirik davlatlarni sanab berish"],
     "blocks": [
       { "heading": "Darslik nimani o'rgatadi", "pages": [3],

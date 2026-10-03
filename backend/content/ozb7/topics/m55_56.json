@@ -1,6 +1,8 @@
 {
   "key": "m55_56", "title": "55-56-mavzular. Abu Ali ibn Sino", "start_page": 186, "end_page": 188,
   "explanation": {
+    "takeaways": ["Abu Ali ibn Sino (980-1037) - qomusiy olim, Sharqda \"Shayx ar-rais\", G'arbda Avitsenna.", "\"Tib qonunlari\" XII asrda lotinchaga tarjima qilinib, XVII asrgacha Yevropada asosiy tibbiy qo'llanma bo'ldi.", "U yuqumli bemorlarni ajratishni, parhez, gigiyena va mashqlarni ta'kidlagan."],
+    "mnemonics": [{ "title": "Qaysi nom qaysi olimniki?", "text": "Sharqda Shayx ar-rais, G'arbda Avitsenna (Ibn Sino); Alfraganus - Farg'oniy; Ikkinchi muallim - Forobiy." }],
     "goals": ["Ibn Sinoning hayoti, unvonlari va tibbiyotdagi xizmatlarini bilish", "\"Tib qonunlari\"ning Yevropa va jahon tibbiyotidagi ahamiyatini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti va unvonlari", "pages": [186],

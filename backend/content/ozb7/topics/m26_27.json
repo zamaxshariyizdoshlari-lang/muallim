@@ -1,6 +1,7 @@
 {
   "key": "m26_27", "title": "26-27-mavzular. Somoniylar davrida ijtimoiy-iqtisodiy hayot", "start_page": 93, "end_page": 99,
   "explanation": {
+    "takeaways": ["Dehqonchilik, bog'dorchilik, hunarmandchilik (qog'oz, charm) va savdo yuksaldi; xirojdan davlat daromadi tushgan.", "Pul tizimi: ichki bozorda mis fals, xalqaro savdoda kumush dirham; sarroflik cheklari ishlatilgan.", "Me'morchilik yutug'i - Somoniylar maqbarasi; Buxoro islom markaziga aylanib, ilk madrasa qurildi."],
     "goals": ["Somoniylar davrida dehqonchilik, hunarmandchilik va savdo rivojini bilish", "Pul muomalasi, me'morchilik va islom madaniyati markazlarini tushuntirish"],
     "blocks": [
       { "heading": "Dehqonchilik", "pages": [93],

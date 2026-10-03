@@ -1,6 +1,8 @@
 {
   "key": "m47_48", "title": "47-48-mavzular. Muhammad ibn Muso al-Xorazmiy", "start_page": 167, "end_page": 171,
   "explanation": {
+    "takeaways": ["Al-Xorazmiy (783-850) algebra asoschisi: \"algebra\" nomi uning \"Aljabr val-muqobala\" asaridan, \"algoritm\" esa ismidan kelib chiqqan.", "U hind raqamlari va nolni qo'llab, o'nlik sanoq tizimining Yevropada yoyilishiga sabab bo'ldi.", "Geografiya va astronomiyada ham asarlar yaratgan; 1976-yili Oy krateri uning nomi bilan atalgan."],
+    "mnemonics": [{ "title": "Allomalar tug'ilgan yillar tartibi", "text": "Xorazmiy 783 -> Farg'oniy 797 -> Forobiy 873 -> Beruniy 973 -> Ibn Sino 980. Dastlabki ikkitasi VIII asr oxirida, Forobiy IX asrda, oxirgi ikkitasi X asrda tug'ilgan." }],
     "goals": ["Al-Xorazmiyning hayoti, asarlari va kashfiyotlarini bilish", "Algebra, algoritm va hind raqamlari tizimini yoyishdagi xizmatlarini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti va algebra", "pages": [167],

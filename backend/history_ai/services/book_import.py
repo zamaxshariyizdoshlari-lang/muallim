@@ -47,7 +47,7 @@ def _check_mcq(q, where, errors):
 
 def _check_lesson_extras(expl, tw, errors):
     """Dars sifatini oshiruvchi ixtiyoriy qismlar: blok ichidagi savol, oldindan sinash,
-    sabab-oqibat, manba bilan ishlash, xarita/rasm."""
+    sabab-oqibat, manba bilan ishlash, xarita/rasm, asosiy fikrlar va eslab qolish usullari."""
     for bi, b in enumerate(expl.get('blocks') or []):
         if b.get('check') is not None:
             _check_mcq(b['check'], f"{tw}.explanation.blocks[{bi}].check", errors)
@@ -72,6 +72,19 @@ def _check_lesson_extras(expl, tw, errors):
             errors.append(f"{tw}.explanation.source_work: quote majburiy")
         else:
             _check_mcq({**sw, 'question': sw.get('question')}, f"{tw}.explanation.source_work", errors)
+    takeaways = expl.get('takeaways')
+    if takeaways is not None:
+        if not isinstance(takeaways, list) or not 2 <= len(takeaways) <= 5 or not all(
+            isinstance(t, str) and t.strip() for t in takeaways
+        ):
+            errors.append(f"{tw}.explanation.takeaways: 2-5 ta bo'sh bo'lmagan matn bo'lishi kerak")
+    mnemonics = expl.get('mnemonics')
+    if mnemonics is not None:
+        if not isinstance(mnemonics, list) or not mnemonics:
+            errors.append(f"{tw}.explanation.mnemonics: bo'sh bo'lmagan ro'yxat bo'lishi kerak")
+        for mi, m in enumerate(mnemonics or []):
+            if not (isinstance(m, dict) and str(m.get('title', '')).strip() and str(m.get('text', '')).strip()):
+                errors.append(f"{tw}.explanation.mnemonics[{mi}]: title va text majburiy")
     images = expl.get('images')
     if images is not None:
         if not isinstance(images, list):
@@ -249,7 +262,7 @@ def import_book_json(data, user):
             # Til kursi uchun ixtiyoriy qismlar (bo'lsa qo'shiladi - tarix kitobida bo'lmaydi).
             for key in (
                 'vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt',
-                'pretest', 'why', 'source_work', 'images',
+                'pretest', 'why', 'source_work', 'images', 'takeaways', 'mnemonics',
             ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]

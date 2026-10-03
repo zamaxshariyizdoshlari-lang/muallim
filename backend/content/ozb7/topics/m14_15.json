@@ -1,6 +1,7 @@
 {
   "key": "m14_15", "title": "14-15-mavzular. Turon xalqlarining harbiy san'ati", "start_page": 48, "end_page": 53,
   "explanation": {
+    "takeaways": ["\"Turon\" atamasi \"Avesto\"da uchraydi va VI asrdan turklar mamlakatini bildirgan.", "Turklar uzangi, egar-jabduq va tizginni kashf etib, otliq jangda ustun bo'lgan.", "Qo'shin o'nlik, yuzlik, minglik va tumanlarga bo'lingan; qal'alar burj, xandaq va minoralar bilan mustahkamlangan."],
     "goals": ["\"Turon\" atamasi va turkiy xalqlar harbiy san'ati xususiyatlarini bilish", "Eftaliylar, Turk xoqonligi qo'shini, qurollari, jang taktikasi va mudofaa inshootlarini tushuntirish"],
     "blocks": [
       { "heading": "\"Turon\" atamasi", "pages": [48],

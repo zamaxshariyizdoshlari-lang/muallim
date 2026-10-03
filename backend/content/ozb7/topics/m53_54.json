@@ -1,6 +1,8 @@
 {
   "key": "m53_54", "title": "53-54-mavzular. Abu Rayhon Beruniy", "start_page": 180, "end_page": 185,
   "explanation": {
+    "takeaways": ["Abu Rayhon Beruniy (973-1048) 150 dan ortiq asar yozgan qomusiy olim.", "U yer dumaloqligini, Yer aylanishi va Amerika qit'asi mavjudligi haqidagi fikrlarni ilgari surdi.", "1017-yildan G'aznada \"Hindiston\" va \"Qonuni Mas'udiy\" asarlarini yaratdi; Sarton XI asrni \"Beruniy asri\" deb atadi."],
+    "mnemonics": [{ "title": "Beruniy va Ibn Sino zamondosh", "text": "Beruniy 973-yilda, Ibn Sino 980-yilda tug'ilgan: atigi 7 yil farq. Ikkalasi Ma'mun akademiyasida ishlagan." }],
     "goals": ["Beruniyning hayoti, ustozlari va asosiy asarlarini bilish", "Beruniyning fanga qo'shgan hissasi va G'aznadagi faoliyatini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti va asarlari", "pages": [180],

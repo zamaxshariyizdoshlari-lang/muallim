@@ -1,6 +1,8 @@
 {
   "key": "m18_19", "title": "18-19-mavzular. VII-VIII asr boshlarida Turonda siyosiy vaziyat", "start_page": 62, "end_page": 71,
   "explanation": {
+    "takeaways": ["Arablar 651-yilda Xurosonni egalladi, 654-yildan Movarounnahrga yurishlar boshladi; Qutayba ibn Muslim (705-715) uni bosib oldi.", "Istilo sababi: Turon mulklarining tarqoqligi va turk xoqonliklarining zaiflashuvi.", "Istilo islomlashtirish va soliqlar (xiroj, jiz'ya) bilan kechdi, xalq qarshilik ko'rsatdi (720-yil)."],
+    "mnemonics": [{ "title": "Arablar yurishi zinapoyasi", "text": "651 (Xuroson, Marv) -> 654 (Movarounnahrga yurishlar boshlandi) -> 705-715 (Qutayba yurishlari) -> 720 (qarshilik)." }],
     "goals": ["Arablarning Movarounnahrni bosib olish sabablari va bosqichlarini bilish", "Qutayba ibn Muslim faoliyati, islomlashuv jarayoni va mahalliy aholining qarshiligini tushuntirish"],
     "blocks": [
       { "heading": "Istiloning sabablari", "pages": [62, 63],

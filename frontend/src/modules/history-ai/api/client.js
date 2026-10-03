@@ -58,6 +58,18 @@ export function answerReview(bookId, key, choice) {
   })
 }
 
+export function getMixedPractice(bookId) {
+  return request(`/books/${bookId}/mixed/`)
+}
+
+export function answerMixedPractice(bookId, key, choice) {
+  return request(`/books/${bookId}/mixed/answer/`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ key, choice }),
+  })
+}
+
 export function searchBook(bookId, q) {
   return request(`/books/${bookId}/search/?q=${encodeURIComponent(q)}`)
 }

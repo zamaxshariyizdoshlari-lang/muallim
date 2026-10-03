@@ -1,6 +1,8 @@
 {
   "key": "m34_35", "title": "34-35-mavzular. Xorazmshohlar davlati va uning yuksalishi", "start_page": 125, "end_page": 129,
   "explanation": {
+    "takeaways": ["Saljuqiylarga qaram Xorazm hokimi Anushtegin avlodlari (Otsiz) mustaqil siyosat yuritib, davlatga asos soldi.", "Takash (1172-1200) va Alovuddin Muhammad (1200-1220) davrida davlat Orol dengizidan Hind okeanigacha cho'zildi.", "Alovuddin Muhammad qoraxitoylarni Movarounnahrdan haydab chiqardi."],
+    "mnemonics": [{ "title": "1200 - ota va o'g'il chegarasi", "text": "Takash 1172-1200, Alovuddin Muhammad 1200-1220: bir asr chegarasida hokimiyat otadan o'g'ilga o'tdi." }],
     "goals": ["Anushteginiylar sulolasining tashkil topishi va Otsiz faoliyatini bilish", "Takash va Alovuddin Muhammad davrida Xorazmshohlar davlatining yuksalishini tushuntirish"],
     "blocks": [
       { "heading": "Anushteginiylar", "pages": [125],

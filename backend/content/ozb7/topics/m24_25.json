@@ -1,6 +1,8 @@
 {
   "key": "m24_25", "title": "24-25-mavzular. Somoniylar", "start_page": 86, "end_page": 92,
   "explanation": {
+    "takeaways": ["Ismoil Somoniy Movarounnahr va Xurosonni birlashtirib, Buxoroni poytaxt qildi.", "Boshqaruv devonlar (vazir devoni asosiy) va muntazam qo'shinga tayangan; iqto yer shakli paydo bo'lgan.", "Ismoildan keyingi tarqoqlik va iqtisodiy tanglik tufayli X asr oxirida hokimiyat qoraxoniylar va g'aznaviylarga o'tdi."],
+    "mnemonics": [{ "title": "888 va 892", "text": "888 - Ismoil akasi Nasrni yengdi; 892 - Ismoil Movarounnahr va Xurosonni birlashtirdi (Buxoro poytaxt)." }],
     "goals": ["Somoniylar davlatining kelib chiqishi, kuchayishi va Ismoil Somoniy faoliyatini bilish", "Somoniylar davlat boshqaruvi, harbiy tuzilmasi va yer egaligi shakllarini tushuntirish"],
     "blocks": [
       { "heading": "Somoniylarning kuchayishi", "pages": [86],

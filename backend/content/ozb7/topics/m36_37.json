@@ -1,6 +1,7 @@
 {
   "key": "m36_37", "title": "36-37-mavzular. Xorazmshohlar davlat boshqaruvi va ijtimoiy-iqtisodiy hayot", "start_page": 130, "end_page": 135,
   "explanation": {
+    "takeaways": ["Davlat dargoh, devonlar, vazir va ulug' hojib orqali boshqarilgan; Turkon xotunning ta'siri katta bo'lgan.", "Alovuddin Muhammad vazirlikni bekor qilib, olti kishilik kengash tuzdi - bu davlatni zaiflashtirdi.", "Urganch hunarmandchilik va savdo markazi bo'lgan; muhtasib bozor tartibi, sifat va o'lchovlarni nazorat qilgan."],
     "goals": ["Xorazmshohlar davlatida hukmdor, Turkon xotun va vazirning o'rni, devonlar tizimini bilish", "Xorazmshohlar davrida shaharlar, hunarmandchilik, savdo va tangalar zarbi haqida tushuncha hosil qilish"],
     "blocks": [
       { "heading": "Sulton Muhammad va Turkon xotun", "pages": [130, 131],

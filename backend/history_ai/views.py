@@ -213,6 +213,7 @@ class BookProgressView(APIView):
             'exam_exists': BookExam.objects.filter(book=book, status=STATUS_DONE).exists(),
             'certificate': bool(cert),
             'weak_count': len(review_service.due_cards(request.user, book)),
+            'mixed_available': review_service.mixed_available(request.user, book),
         })
 
 
@@ -656,8 +657,25 @@ class ReviewAnswerView(APIView):
         return Response({
             'correct': result['correct'], 'page': result['page'], 'mastered': result['mastered'],
             'next_in_days': result['next_in_days'], 'explain': result['explain'], 'xp_gained': xp,
-            'remaining': remaining,
+            'remaining': remaining, 'why': result['why'],
         })
+
+
+class MixedPracticeView(APIView):
+    """Aralash mashq: o'tilgan mavzulardan 10 ta aralash savol (to'g'ri javobsiz)."""
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        return Response({'items': review_service.mixed_questions(request.user, book)})
+
+
+class MixedPracticeAnswerView(APIView):
+    def post(self, request, book_id):
+        book = get_object_or_404(Book, id=book_id)
+        result = review_service.answer_mixed(request.user, book, request.data.get('key'), request.data.get('choice'))
+        if result is None:
+            raise ValidationError({'detail': "Bu savol aralash mashqda yo'q."})
+        return Response({**result, 'xp_gained': 0, 'mastered': False, 'next_in_days': None})
 
 
 class BookSearchView(APIView):

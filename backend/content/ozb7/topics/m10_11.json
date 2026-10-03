@@ -1,6 +1,7 @@
 {
   "key": "m10_11", "title": "10-11-mavzular. G'arbiy Turk xoqonligi", "start_page": 32, "end_page": 38,
   "explanation": {
+    "takeaways": ["G'arbiy xoqonlik o'troq dehqonchilik va savdoga tayangan.", "To'n yabg'u mahalliy hukmdorlarga ichki erkinlik berib, ulardan boj olgan (ixshid, xudot, afshin, xorazmshoh).", "Dehqonlar zulmiga qarshi Abruy qo'zg'oloni ko'tarildi; turk-runiy yozuvi, sug'd-turk ikki tilliligi va Navro'z saqlandi."],
     "goals": ["G'arbiy Turk xoqonligining boshqaruvi, mahalliy hukmdorlar unvonlarini bilish", "Xoqonlik davridagi xo'jalik, madaniyat va ijtimoiy ziddiyatlarni (Abruy qo'zg'oloni) tushuntirish"],
     "blocks": [
       { "heading": "G'arbiy xoqonlik va islohotlar", "pages": [32, 33],

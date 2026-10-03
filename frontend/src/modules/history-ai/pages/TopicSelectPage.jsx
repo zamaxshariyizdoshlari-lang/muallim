@@ -1,4 +1,4 @@
-import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Trophy } from 'lucide-react'
+import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Shuffle, Trophy } from 'lucide-react'
 import SearchBox from '../components/SearchBox'
 import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
@@ -13,7 +13,7 @@ function splitSectionTitle(title = '', fallbackIndex = 0) {
 
 export default function TopicSelectPage({
   book, topics, sections = [], onOpenSectionExam, isTeacher, progress, onSelect, onBack, onOpenExam, onDownloadCertificate,
-  onOpenReview, onOpenTopic,
+  onOpenReview, onOpenMixed, onOpenTopic,
 }) {
   const showPages = book.subject_slug === 'tarix'
   const completedCount = topics.filter((t) => t.completed).length
@@ -65,6 +65,21 @@ export default function TopicSelectPage({
               <span className="text-sm text-muted">{progress.weak_count} ta savol takrorlashni kutmoqda</span>
             </span>
             <span className="chip chip-gold">Boshlash →</span>
+          </button>
+        )}
+        {!isTeacher && progress?.mixed_available && (
+          <button
+            onClick={onOpenMixed}
+            className="card card-hover flex w-full items-center gap-4 px-5 py-4 text-left"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand text-white">
+              <Shuffle size={20} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-display text-lg font-bold text-ink">Aralash mashq</span>
+              <span className="text-sm text-muted">O'tilgan mavzulardan 10 ta aralash savol: esda qolishi uchun eng yaxshi usul</span>
+            </span>
+            <span className="chip">Boshlash →</span>
           </button>
         )}
       </div>

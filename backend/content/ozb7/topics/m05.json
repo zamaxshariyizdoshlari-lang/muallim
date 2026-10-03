@@ -1,6 +1,8 @@
 {
   "key": "m05", "title": "5-mavzu. IV-V asrlarda xioniylar va kidariylar", "start_page": 15, "end_page": 17,
   "explanation": {
+    "takeaways": ["IV asrda xioniylar Zarafshondan janubga yurib, Toxaristonda davlat tuzdi.", "V asrda Kidar boshchiligidagi kidariylar Balxni poytaxt qilgan davlat barpo etdi.", "Kidariylar 456-yilda sosoniylardan va eftaliylardan yengilib Hindistonga chekindi, xioniylar eftaliylarga tobe bo'ldi."],
+    "mnemonics": [{ "title": "456 va 484 ni ajrating", "text": "Avval kidariylar sosoniylardan yengildi (456), 28 yildan keyin sosoniy shohi Peroz eftaliylar bilan urushda halok bo'ldi (484)." }],
     "goals": ["Xioniylar va kidariylar davlatlarining hududi va hukmdorlarini bilish", "Kidariylarning sosoniylar va eftaliylar bilan munosabatini tushuntirish"],
     "blocks": [
       { "heading": "Xioniylar", "pages": [15],

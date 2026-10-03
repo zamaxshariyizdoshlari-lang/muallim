@@ -1,6 +1,7 @@
 {
   "key": "m16_17", "title": "16-17-mavzular. VI-VII asrlarda Turon xalqlari madaniy hayoti", "start_page": 54, "end_page": 61,
   "explanation": {
+    "takeaways": ["Ta'lim ibodatxona maktablarida (zardushtiy, buddaviy, yahudiy, xristian) berilgan.", "Turkiy run (ko'k turk) xati va sug'd yozuvi qo'llangan.", "Panjikent, Varaxsha, Afrosiyob devoriy suratlari, haykaltaroshlik va ganchkorlik san'at yuksakligini ko'rsatadi."],
     "goals": ["VI-VII asrlarda Turonda ta'lim, yozuv va diniy maktablar xususiyatlarini bilish", "Haykaltaroshlik, devoriy suratlar, to'qimachilik va kiyinish madaniyatini tushuntirish"],
     "blocks": [
       { "heading": "Ta'lim va yozma manbalar", "pages": [55],

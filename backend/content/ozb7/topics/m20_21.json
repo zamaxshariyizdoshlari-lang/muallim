@@ -1,6 +1,8 @@
 {
   "key": "m20_21", "title": "20-21-mavzular. VIII asrda Xuroson va Movarounnahr", "start_page": 72, "end_page": 79,
   "explanation": {
+    "takeaways": ["Abu Muslim boshchiligidagi Xuroson harakati umaviylarni ag'dardi; 750-yilda abbosiylar hokimiyatga keldi.", "751-yilda Talas jangida arablar xitoylarni yengdi va qog'oz ishlab chiqarish Samarqandda yoyildi.", "Muqanna (783) va Rofe ibn Lays (806) qo'zg'olonlari bo'ldi; arab tili va islom asta-sekin yoyildi."],
+    "mnemonics": [{ "title": "750 va 751: bir yil farq", "text": "750 - abbosiylar hokimiyatga keldi, ertasi yili 751 - Talas jangi va qog'oz sirini o'rganish. Qo'zg'olonlar: Muqanna 783, Rofe 806." }],
     "goals": ["Abu Muslim boshchiligidagi harakat va abbosiylar hokimiyati o'rnatilishini bilish", "Talas jangi, qog'oz ishlab chiqarish, Muqanna va Rofe ibn Lays qo'zg'olonlarini tushuntirish"],
     "blocks": [
       { "heading": "Umaviylarga qarshi harakat", "pages": [72, 73],

@@ -137,6 +137,7 @@ export default function HistoryAIModule() {
           <Route path="bolim/:sectionId" element={<SectionExamRoute />} />
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
+          <Route path="aralash" element={<ReviewRoute mixed />} />
         </Route>
         <Route path="boshqaruv" element={<AdminGate />}>
           <Route index element={<AdminDashboardRoute />} />
@@ -370,17 +371,20 @@ function TopicsRoute() {
       onBack={() => navigate(book.subject_slug ? `/fan/${book.subject_slug}` : '/')}
       onOpenExam={() => navigate(`/kurs/${bookId}/imtihon`)}
       onOpenReview={() => navigate(`/kurs/${bookId}/takrorlash`)}
+      onOpenMixed={() => navigate(`/kurs/${bookId}/aralash`)}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}
       onDownloadCertificate={() => downloadCertificate(bookId)}
     />
   )
 }
 
-function ReviewRoute() {
+function ReviewRoute({ mixed = false }) {
   const { bookId, refresh } = useOutletContext()
   const navigate = useNavigate()
   return (
     <ReviewPage
+      key={mixed ? 'mixed' : 'review'}
+      mixed={mixed}
       bookId={bookId}
       onBack={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}
       onOpenTopic={(id) => navigate(`/kurs/${bookId}/mavzu/${id}`)}

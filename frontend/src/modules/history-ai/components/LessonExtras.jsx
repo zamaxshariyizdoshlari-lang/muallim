@@ -1,7 +1,49 @@
-import { Gauge, HelpCircle, Image as ImageIcon, MessageSquareQuote, PenLine, Route } from 'lucide-react'
+import { Brain, Flag, Gauge, HelpCircle, Image as ImageIcon, MessageSquareQuote, PenLine, Route } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { getLessonFeedback, sendLessonFeedback } from '../api/client'
 import MiniCheck from './MiniCheck'
+
+/** Mavzuning 2-5 ta asosiy fikri: o'qishdan oldin "katta rasm", oxirida xulosa sifatida. */
+export function Takeaways({ items, title = 'Mavzuning asosiy fikrlari', closing = false }) {
+  if (!items?.length) return null
+  return (
+    <section className={`card p-5 sm:p-6 ${closing ? '' : 'border-brand/30 bg-brand-soft/40'}`}>
+      <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
+        <Flag size={18} className="text-brand" /> {title}
+      </h3>
+      <ol className="flex flex-col gap-2.5">
+        {items.map((t, i) => (
+          <li key={i} className="flex gap-3 text-[0.95rem] leading-relaxed text-ink-2">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand text-xs font-bold text-white">
+              {i + 1}
+            </span>
+            <span className="pt-0.5">{t}</span>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}
+
+/** "Eslab qol": sanalar, ketma-ketliklar uchun qisqa eslab qolish usullari. */
+export function Mnemonics({ items }) {
+  if (!items?.length) return null
+  return (
+    <section>
+      <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
+        <Brain size={18} className="text-gold" /> Eslab qolish usuli
+      </h3>
+      <ul className="grid gap-3 sm:grid-cols-2">
+        {items.map((m, i) => (
+          <li key={i} className="card border-l-4 !border-l-brand p-4 text-sm leading-relaxed text-ink-2">
+            <p className="mb-1 font-semibold text-ink">{m.title}</p>
+            {m.text}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
 
 /** "Nega?": sabab va oqibat. Tarixiy voqeani faktlar to'plami emas, zanjir sifatida ko'rsatadi. */
 export function WhyCard({ why }) {

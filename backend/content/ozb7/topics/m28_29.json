@@ -1,6 +1,8 @@
 {
   "key": "m28_29", "title": "28-29-mavzular. G'aznaviylar", "start_page": 100, "end_page": 107,
   "explanation": {
+    "takeaways": ["G'aznaviylar davlati somoniy hojiblari Alptegin va Sabuktegin tomonidan G'aznada tuzilgan.", "Mahmud G'aznaviy Xurosonni somoniylardan ajratib oldi, 1017-yilda Xorazmni egalladi va Beruniyni G'aznaga ko'chirdi.", "Mahmud ilm-fanga homiylik qildi; davlat dargoh, devonlar va sipohsolor boshchiligidagi qo'shinga tayangan."],
+    "mnemonics": [{ "title": "G'aznaviylar sanalari", "text": "962-963 Alptegin G'aznada, 977-997 Sabuktegin, 1017 Mahmud Xorazmni olib Beruniyni G'aznaga ko'chirdi, 1030 Mahmud vafoti." }],
     "goals": ["G'aznaviylar davlatining tashkil topishi va Mahmud G'aznaviy faoliyatini bilish", "G'aznaviylar davlat boshqaruvi, harbiy tuzilmasi va madaniy hayotini tushuntirish"],
     "blocks": [
       { "heading": "Davlatning tashkil topishi", "pages": [100, 101],

@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 import { createLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
 import FlashcardDeck from '../components/FlashcardDeck'
-import { BlockCheck, ImageFigure, SelfRating, SelfSummary, SourceWork, WhyCard } from '../components/LessonExtras'
+import { BlockCheck, ImageFigure, Mnemonics, SelfRating, SelfSummary, SourceWork, Takeaways, WhyCard } from '../components/LessonExtras'
 import ListeningExercise from '../components/ListeningExercise'
 import MatchingGame from '../components/MatchingGame'
 import PreTest from '../components/PreTest'
@@ -406,6 +406,8 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
         </div>
       )}
 
+      <Takeaways items={plan.takeaways} title="Katta rasm: mavzuning asosiy fikrlari" />
+
       {plan.blocks?.length > 0 && (
         <article className="card p-6 sm:p-9">
           {plan.blocks.map((b, i) => (
@@ -461,12 +463,16 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
         </div>
       )}
 
+      <Mnemonics items={plan.mnemonics} />
+
       {plan.explanation && (
         <div className="card p-5 sm:p-6">
           <h3 className="mb-2 font-display text-lg font-bold text-ink">Tushuntirish</h3>
           <p className="read !text-base">{plan.explanation}</p>
         </div>
       )}
+
+      <Takeaways items={plan.takeaways} title="Xulosa: esda saqlang" closing />
 
       <SelfSummary topicId={topicId} summary={plan.summary} />
     </div>

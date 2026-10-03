@@ -1,14 +1,17 @@
 import { CheckCircle2, RotateCcw, Sparkles } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { answerReview, getReview } from '../api/client'
+import { answerMixedPractice, answerReview, getMixedPractice, getReview } from '../api/client'
 import { BackLink, ErrorNote, ProgressBar, Spinner } from '../components/ui'
 
 /**
  * Xatolarni takrorlash (oraliq takrorlash): bugun "sana"si kelgan kartochkalar. To'g'ri javob
  * ko'rsatilmaydi - faqat to'g'ri/xato va qaysi betni qayta o'qish kerakligi (rasmiy testdagi kabi).
  * To'g'ri javob kartochkani uzoqroq muddatga o'tkazadi (+5 ball); oxirgi bosqichda o'zlashtiriladi.
+ * `mixed` rejimida (aralash mashq) o'tilgan mavzulardan aralash 10 ta savol beriladi.
  */
-export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
+export default function ReviewPage({ bookId, onBack, onOpenTopic, mixed = false }) {
+  const loadItems = mixed ? getMixedPractice : getReview
+  const answerItem = mixed ? answerMixedPractice : answerReview
   const [items, setItems] = useState(null)
   const [total, setTotal] = useState(0)
   const [index, setIndex] = useState(0)
@@ -18,10 +21,11 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
-    getReview(bookId)
+    loadItems(bookId)
       .then((d) => { setItems(d.items); setTotal(d.items.length) })
       .catch((err) => setError(err.message))
-  }, [bookId])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bookId, mixed])
 
   if (error) return <ErrorNote>{error}</ErrorNote>
   if (!items) return <Spinner>Yuklanmoqda...</Spinner>
@@ -32,10 +36,10 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
   async function pick(choice) {
     if (feedback) return
     try {
-      const r = await answerReview(bookId, q.key, choice)
+      const r = await answerItem(bookId, q.key, choice)
       setFeedback({
         choice, correct: r.correct, page: r.page, xp: r.xp_gained,
-        mastered: r.mastered, nextInDays: r.next_in_days, explain: r.explain,
+        mastered: r.mastered, nextInDays: r.next_in_days, explain: r.explain, why: r.why,
       })
       if (r.correct) setMasteredCount((m) => m + 1)
     } catch (err) {
@@ -53,26 +57,35 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
     setIndex(0)
     setMasteredCount(0)
     setItems(null)
-    getReview(bookId).then((d) => { setItems(d.items); setTotal(d.items.length) })
+    loadItems(bookId).then((d) => { setItems(d.items); setTotal(d.items.length) })
   }
 
   return (
     <div className="rise mx-auto max-w-2xl">
       <BackLink onClick={onBack}>Kursga qaytish</BackLink>
       <header className="mb-8">
-        <p className="eyebrow mb-2">Takrorlash</p>
-        <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">Xatolar ustida ishlash</h1>
+        <p className="eyebrow mb-2">{mixed ? 'Aralash mashq' : 'Takrorlash'}</p>
+        <h1 className="font-display text-3xl font-extrabold text-ink sm:text-4xl">
+          {mixed ? "O'tilgan mavzular aralashmasi" : 'Xatolar ustida ishlash'}
+        </h1>
         <p className="mt-3 text-sm text-muted">
-          Testlarda xato qilgan savollaringiz kartochka sifatida shu yerda qaytadi: to'g'ri javob bersangiz
-          kartochka uzoqroq muddatga "uxlaydi" (+5 ball), xato qilsangiz darhol yana bugungiga qaytadi.
+          {mixed
+            ? "O'tgan mavzulardan aralash 10 ta savol, oxirgi hafta mavzulari ko'proq. Mavzular aralashib kelgani uchun bilimni o'zingiz eslashingiz kerak: shunda u uzoqroq esda qoladi. Xato qilganlaringiz takrorlash kartochkasiga tushadi."
+            : 'Testlarda xato qilgan savollaringiz kartochka sifatida shu yerda qaytadi: to\'g\'ri javob bersangiz kartochka uzoqroq muddatga "uxlaydi" (+5 ball), xato qilsangiz darhol yana bugungiga qaytadi.'}
         </p>
       </header>
 
       {total === 0 && (
         <div className="card p-8 text-center">
           <Sparkles className="mx-auto mb-3 text-gold" size={32} />
-          <p className="font-display text-xl font-bold text-ink">Bugun takrorlaydigan kartochka yo'q!</p>
-          <p className="mt-1 text-sm text-muted">Testlarda xato qilsangiz, savollar shu yerga tushadi.</p>
+          <p className="font-display text-xl font-bold text-ink">
+            {mixed ? "Hali aralash mashq uchun mavzu yo'q." : "Bugun takrorlaydigan kartochka yo'q!"}
+          </p>
+          <p className="mt-1 text-sm text-muted">
+            {mixed
+              ? "Birinchi mavzu testini topshiring, shundan keyin shu yerda aralash savollar chiqadi."
+              : 'Testlarda xato qilsangiz, savollar shu yerga tushadi.'}
+          </p>
         </div>
       )}
 
@@ -138,6 +151,11 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
                   )}
                 </div>
               )}
+              {feedback.why && (
+                <p className="mt-3 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-relaxed text-ink-2">
+                  <span className="font-semibold text-ink">Nega? </span>{feedback.why}
+                </p>
+              )}
               <button onClick={next} className="btn btn-primary mt-4">
                 {index + 1 === items.length ? 'Yakunlash' : 'Keyingi savol'}
               </button>
@@ -153,12 +171,14 @@ export default function ReviewPage({ bookId, onBack, onOpenTopic }) {
             {masteredCount} <span className="text-muted">/ {total}</span>
           </p>
           <p className="mt-2 text-sm text-ink-2">
-            {masteredCount === total ? "Ajoyib! Bugungi kartochkalar tugadi." : "Qolganlarini yana bir bor takrorlang."}
+            {mixed
+              ? (masteredCount === total ? 'Ajoyib! Hammasi esingizda.' : 'Xato qilganlaringiz takrorlash kartochkasiga tushdi.')
+              : (masteredCount === total ? 'Ajoyib! Bugungi kartochkalar tugadi.' : 'Qolganlarini yana bir bor takrorlang.')}
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
-            {masteredCount < total && (
+            {(mixed || masteredCount < total) && (
               <button onClick={again} className="btn btn-gold">
-                <RotateCcw size={14} /> Qolganlarini takrorlash
+                <RotateCcw size={14} /> {mixed ? 'Yangi aralash mashq' : 'Qolganlarini takrorlash'}
               </button>
             )}
             <button onClick={onBack} className="btn btn-ghost">Kursga qaytish</button>
