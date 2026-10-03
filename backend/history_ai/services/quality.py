@@ -41,7 +41,10 @@ def topic_quality(topic, lesson, assets):
         _check('pretest', 'Oldindan sinash savollari bor', plan.get('pretest'), required=False),
         _check('block_checks', 'Bloklar ichida mini-savol bor', any(b.get('check') for b in blocks), required=False),
         _check('why', '"Nega?" (sabab-oqibat) bloki bor', plan.get('why'), required=False),
-        _check('images', 'Xarita yoki rasm bor', plan.get('images'), required=False),
+        _check('images', 'Xarita yoki rasm bor', plan.get('images') or plan.get('maps'), required=False),
+        _check('takeaways', 'Asosiy fikrlar ("Katta rasm") bor', plan.get('takeaways'), required=False),
+        _check('explanations', '"Nega?" izohlari savollarning kamida yarmida bor',
+               test_qs and sum(bool(q.get('explanation')) for q in test_qs) * 2 >= len(test_qs), required=False),
         _check('levels', 'Test savollari darajalangan', test_qs and all(q.get('level') for q in test_qs), required=False),
     ]
     required = [c for c in checks if c['required']]

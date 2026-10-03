@@ -702,6 +702,34 @@ class LessonEnrichmentTests(TestCase):
         self.assertNotIn('level', q[0])
 
 
+class QuestionLintTests(TestCase):
+    def _q(self, correct, *wrong, **extra):
+        return {'question': extra.pop('question', 'Savol?'), 'options': [correct, *wrong], 'correct_index': 0, **extra}
+
+    def test_detects_longest_correct_bias_and_summary(self):
+        from .services.question_lint import lint_questions
+        qs = [self._q("Uzun to'g'ri javob matni", 'a', 'b', 'c', question=f'S{i}?') for i in range(10)]
+        res = lint_questions([('t1', 'T', qs)])
+        self.assertEqual(res['summary']['longest_correct_share'], 1.0)
+        self.assertTrue(any('eng uzun' in w[1] for w in res['warnings']))
+
+    def test_detects_duplicates_and_all_of_the_above(self):
+        from .services.question_lint import lint_questions
+        a = self._q('Bir', 'Ikki', 'Uch', "Barchasi to'g'ri", question='Bir xil savol?')
+        b = self._q('Bir', 'Ikki', 'Uch', "To'rt", question='bir xil  savol')
+        res = lint_questions([('t1', 'T', [a]), ('t2', 'T', [b])])
+        msgs = ' '.join(w[1] for w in res['warnings'])
+        self.assertIn('takrorlangan', msgs)
+        self.assertIn('barchasi', msgs)
+
+    def test_balanced_questions_have_no_warnings(self):
+        from .services.question_lint import lint_questions
+        qs = [self._q('Aaaa', 'Bbbbb', 'Ccc', 'Dddd', question=f'S{i}?') for i in range(10)]
+        res = lint_questions([('t1', 'T', qs)])
+        self.assertEqual(res['warnings'], [])
+        self.assertEqual(res['summary']['explanation_share'], 0)
+
+
 class MixedPracticeTests(CourseFixture):
     def _mixed(self):
         return self.client.get(f'{H}books/{self.book.id}/mixed/')
