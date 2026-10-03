@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Somoniylar zaiflashgach, Bilgakul avlodlari boshchiligida qoraxoniylar Movarounnahrni egalladi.", "Sotuq Bug'roxon davrida islomni qabul qildilar; 1008-yilda Mahmud G'aznaviydan yengildilar.", "XI asrda davlat G'arbiy va Sharqiy xoqonliklarga bo'lindi; Minorai Kalon, Qoshg'ariy va Yusuf Xos Hojib asarlari yaratildi."],
     "mnemonics": [{ "title": "Ikki Mahmud, bitta 1008", "text": "Qoraxoniylar qo'shini 1008-yilda Mahmud G'aznaviydan yengildi. Mahmud Qoshg'ariy esa (XI asr) \"Devonu lug'otit-turk\" muallifi, ularni adashtirmang." }],
+    "maps": [{"title": "Qoraxoniylar: Yettisuv va Qoshg'ardan Movarounnahrgacha", "caption": "Qoraxoniylar Yettisuv va Qoshg'ardagi turkiy qabilalarga tayanib Movarounnahrni egallagan.", "points": ["balasogun", "qoshgar", "samarqand", "buxoro"], "regions": ["yettisuv"], "arrows": [{"from": "qoshgar", "to": "samarqand"}, {"from": "samarqand", "to": "buxoro"}]}],
+    "persons": [{"name": "Sotuq Bug'roxon", "years": "X asr", "role": "qoraxoniy hukmdor", "facts": ["Uning davrida qoraxoniylar islomni qabul qilgan."]}, {"name": "Mahmud Qoshg'ariy", "years": "XI asr", "role": "tilshunos olim", "facts": ["\"Devonu lug'otit-turk\" asarini yozgan."]}],
     "goals": ["Qoraxoniylar davlatining tashkil topishi, hududi va boshqaruvini bilish", "Qoraxoniylar davrida xo'jalik, savdo, me'morchilik va madaniyat yutuqlarini tushuntirish"],
     "blocks": [
       { "heading": "Davlatning tashkil topishi", "pages": [108, 109],

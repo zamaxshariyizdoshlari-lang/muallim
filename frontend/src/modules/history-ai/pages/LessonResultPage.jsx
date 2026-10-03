@@ -6,7 +6,8 @@ import { useEffect, useRef, useState } from 'react'
 import { createLesson, getLessonByTopic } from '../api/client'
 import AssetPanel from '../components/AssetPanel'
 import FlashcardDeck from '../components/FlashcardDeck'
-import { BlockCheck, ImageFigure, Mnemonics, SelfRating, SelfSummary, SourceWork, Takeaways, WhyCard } from '../components/LessonExtras'
+import { BlockCheck, ClassifyGame, ImageFigure, Mnemonics, PersonCards, SelfRating, SelfSummary, SourceWork, Takeaways, WhyCard } from '../components/LessonExtras'
+import SchemeMap from '../components/SchemeMap'
 import ListeningExercise from '../components/ListeningExercise'
 import MatchingGame from '../components/MatchingGame'
 import PreTest from '../components/PreTest'
@@ -438,6 +439,12 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
 
       <WhyCard why={plan.why} />
 
+      {plan.maps?.length > 0 && (
+        <div className="flex flex-col gap-4">
+          {plan.maps.map((m, i) => <SchemeMap key={i} map={m} />)}
+        </div>
+      )}
+
       {plan.images?.length > 0 && (
         <div className="flex flex-col gap-4">
           {plan.images.map((im, i) => <ImageFigure key={i} image={im} />)}
@@ -463,7 +470,11 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
         </div>
       )}
 
+      <PersonCards persons={plan.persons} />
+
       <Mnemonics items={plan.mnemonics} />
+
+      <ClassifyGame game={plan.classify} />
 
       {plan.explanation && (
         <div className="card p-5 sm:p-6">

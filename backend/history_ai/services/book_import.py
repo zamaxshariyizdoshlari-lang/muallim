@@ -85,6 +85,53 @@ def _check_lesson_extras(expl, tw, errors):
         for mi, m in enumerate(mnemonics or []):
             if not (isinstance(m, dict) and str(m.get('title', '')).strip() and str(m.get('text', '')).strip()):
                 errors.append(f"{tw}.explanation.mnemonics[{mi}]: title va text majburiy")
+    maps = expl.get('maps')
+    if maps is not None:
+        if not isinstance(maps, list) or not maps:
+            errors.append(f"{tw}.explanation.maps: bo'sh bo'lmagan ro'yxat bo'lishi kerak")
+        for mi, m in enumerate(maps or []):
+            w = f"{tw}.explanation.maps[{mi}]"
+            if not isinstance(m, dict) or not str(m.get('title', '')).strip():
+                errors.append(f"{w}: title majburiy")
+                continue
+            pts = m.get('points')
+            if not isinstance(pts, list) or not pts or not all(isinstance(p, str) for p in pts):
+                errors.append(f"{w}.points: joy id lari ro'yxati kerak")
+            for a in m.get('arrows') or []:
+                if not (isinstance(a, dict) and isinstance(a.get('from'), str) and isinstance(a.get('to'), str)):
+                    errors.append(f"{w}.arrows: from va to majburiy")
+                elif a['from'] not in (pts or []) or a['to'] not in (pts or []):
+                    errors.append(f"{w}.arrows: from/to points ichida bo'lishi kerak")
+            quiz = m.get('quiz')
+            if quiz is not None and not (
+                isinstance(quiz, dict) and str(quiz.get('question', '')).strip() and quiz.get('answer') in (pts or [])
+            ):
+                errors.append(f"{w}.quiz: question va points ichidagi answer kerak")
+    persons = expl.get('persons')
+    if persons is not None:
+        if not isinstance(persons, list) or not persons:
+            errors.append(f"{tw}.explanation.persons: bo'sh bo'lmagan ro'yxat bo'lishi kerak")
+        for pi, p in enumerate(persons or []):
+            facts = p.get('facts') if isinstance(p, dict) else None
+            if not (isinstance(p, dict) and str(p.get('name', '')).strip()) or not (
+                isinstance(facts, list) and 1 <= len(facts) <= 5 and all(isinstance(f, str) and f.strip() for f in facts)
+            ):
+                errors.append(f"{tw}.explanation.persons[{pi}]: name va 1-5 ta facts kerak")
+    cg = expl.get('classify')
+    if cg is not None:
+        cats, items = (cg.get('categories'), cg.get('items')) if isinstance(cg, dict) else (None, None)
+        if not (isinstance(cats, list) and 2 <= len(cats) <= 6 and all(isinstance(c, str) and c.strip() for c in cats)):
+            errors.append(f"{tw}.explanation.classify.categories: 2-6 ta matn kerak")
+        elif not (isinstance(items, list) and len(items) >= 4):
+            errors.append(f"{tw}.explanation.classify.items: kamida 4 ta element kerak")
+        else:
+            n_before = len(errors)
+            for ii, it in enumerate(items):
+                if not (isinstance(it, dict) and str(it.get('text', '')).strip()
+                        and _is_int(it.get('category')) and 0 <= it['category'] < len(cats)):
+                    errors.append(f"{tw}.explanation.classify.items[{ii}]: text va to'g'ri category kerak")
+            if len(errors) == n_before and len({it['category'] for it in items}) < 2:
+                errors.append(f"{tw}.explanation.classify: elementlar kamida 2 ta toifaga tegishli bo'lishi kerak")
     images = expl.get('images')
     if images is not None:
         if not isinstance(images, list):
@@ -262,7 +309,7 @@ def import_book_json(data, user):
             # Til kursi uchun ixtiyoriy qismlar (bo'lsa qo'shiladi - tarix kitobida bo'lmaydi).
             for key in (
                 'vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt',
-                'pretest', 'why', 'source_work', 'images', 'takeaways', 'mnemonics',
+                'pretest', 'why', 'source_work', 'images', 'takeaways', 'mnemonics', 'maps', 'persons', 'classify',
             ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]

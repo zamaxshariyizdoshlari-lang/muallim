@@ -20,6 +20,7 @@ sifatida saqlanadi — foydalanuvchi o'qiyotganda hech qanday AI so'rovi yuboril
   haftalik reyting, nishonlar.
 - **Maslahat va izohlar**: testda bosqichli maslahat (darslik joyi → 2 ta noto'g'ri variantni olib tashlash), savollarda ixtiyoriy `explanation` ("Nega?" izohi, o'tilgach ko'rsatiladi), 2 marta o'tolmasa darsga qaytish tavsiyasi.
 - **Asosiy fikrlar va eslab qolish**: har mavzuda "Katta rasm" (o'qishdan oldin) va oxirida xulosa uchun 3 ta asosiy fikr (`takeaways`), sanalar va ketma-ketliklar uchun "Eslab qolish usuli" (`mnemonics`).
+- **Xarita, shaxslar, tasniflash**: sxematik xarita (shaharlar, daryolar, yo'nalish o'qlari; davlat chegaralari chizilmaydi) va xaritadagi savol (`maps`), "Kim kim?" shaxslar kartochkalari (`persons`), tasniflash o'yini (`classify`). Xarita joylari `frontend/.../utils/gazetteer.js` da.
 - **Aralash mashq**: o'tilgan mavzulardan aralash 10 savol (oxirgi hafta ko'proq) - interleaving; xatolar takrorlash kartochkasiga tushadi.
 - **Xatolarni takrorlash**: oraliq takrorlash (spaced repetition) — xato javob kartochka sifatida
   saqlanadi va 1→3→7→14→30 kunlik oraliqda qaytadi.

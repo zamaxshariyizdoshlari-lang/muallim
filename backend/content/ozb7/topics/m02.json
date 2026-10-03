@@ -5,6 +5,7 @@
   "end_page": 9,
   "explanation": {
     "takeaways": ["Suv inshootlari (tegirmon, chig'ir, charxpalak) qishloq xo'jaligi va shaharlarni rivojlantirdi.", "Yer va suv boshliqlar qo'liga o'tib, qishloq hokimlari - dehqonlar shakllandi.", "Aholi tabaqalarga bo'lindi: erkin kashovarzlar, yersiz qaram kadivarlar va himoyachi chokarlar."],
+    "classify": {"title": "Qishloq aholisi tabaqalari", "instruction": "Ta'rifni tegishli tabaqaga joylang.", "categories": ["Dehqonlar", "Kashovarzlar", "Kadivarlar", "Chokarlar"], "items": [{"text": "Qishloq hokimlari, katta yer egalari", "category": 0}, {"text": "Umumiy yer va suvga ega erkin ziroatchilar", "category": 1}, {"text": "Yersiz qaram ziroatchilar", "category": 2}, {"text": "Dehqon xo'jaligini himoya qiluvchi askariy guruh", "category": 3}, {"text": "Yerlarida kadivarlar ishlagan", "category": 0}]},
     "goals": [
       "IV-VII asrlarda dehqon xo'jaliklari va yangi ijtimoiy tabaqalar paydo bo'lishi sabablarini tushuntirish",
       "Dehqon, kashovarz, kadivar va chokar atamalarini farqlash"

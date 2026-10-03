@@ -1,4 +1,4 @@
-import { Brain, Flag, Gauge, HelpCircle, Image as ImageIcon, MessageSquareQuote, PenLine, Route } from 'lucide-react'
+import { Brain, CheckCircle2, Flag, Gauge, HelpCircle, Image as ImageIcon, MessageSquareQuote, PenLine, RotateCcw, Route, UserRound } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { getLessonFeedback, sendLessonFeedback } from '../api/client'
 import MiniCheck from './MiniCheck'
@@ -41,6 +41,141 @@ export function Mnemonics({ items }) {
           </li>
         ))}
       </ul>
+    </section>
+  )
+}
+
+/** "Kim kim?": tarixiy shaxslar kartochkalari (nomi, yillari, vazifasi, asosiy ishlari). */
+export function PersonCards({ persons }) {
+  if (!persons?.length) return null
+  return (
+    <section>
+      <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
+        <UserRound size={18} className="text-brand" /> Kim kim?
+      </h3>
+      <ul className="grid gap-3 sm:grid-cols-2">
+        {persons.map((p, i) => (
+          <li key={i} className="card p-4">
+            <p className="font-display text-base font-bold text-ink">{p.name}</p>
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
+              {[p.years, p.role].filter(Boolean).join(' · ')}
+            </p>
+            <ul className="flex flex-col gap-1.5">
+              {p.facts.map((f, j) => (
+                <li key={j} className="flex gap-2 text-sm leading-relaxed text-ink-2">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" /> {f}
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+/**
+ * Tasniflash o'yini: elementni tanlab, keyin toifani bosing (sichqoncha va telefonda bir xil ishlaydi).
+ * Tekshirilganda noto'g'ri joylashganlari qizil bo'ladi va qayta urinish mumkin.
+ */
+export function ClassifyGame({ game }) {
+  const [placed, setPlaced] = useState({})  // {itemIndex: categoryIndex}
+  const [selected, setSelected] = useState(null)
+  const [checked, setChecked] = useState(false)
+  if (!game?.items?.length || !game.categories?.length) return null
+
+  const unplaced = game.items.map((_, i) => i).filter((i) => placed[i] === undefined)
+  const wrong = checked ? game.items.map((_, i) => i).filter((i) => placed[i] !== undefined && placed[i] !== game.items[i].category) : []
+  const allCorrect = checked && unplaced.length === 0 && wrong.length === 0
+
+  function place(cat) {
+    if (selected === null) return
+    setPlaced((p) => ({ ...p, [selected]: cat }))
+    setSelected(null)
+    setChecked(false)
+  }
+
+  function unplace(i) {
+    if (allCorrect) return
+    setPlaced((p) => { const { [i]: _drop, ...rest } = p; return rest })
+    setChecked(false)
+  }
+
+  function reset() {
+    setPlaced({})
+    setSelected(null)
+    setChecked(false)
+  }
+
+  return (
+    <section className="card p-5 sm:p-6">
+      <h3 className="mb-1 flex items-center gap-2 font-display text-lg font-bold text-ink">
+        <CheckCircle2 size={18} className="text-brand" /> {game.title || 'Tasniflang'}
+      </h3>
+      <p className="mb-4 text-sm text-muted">{game.instruction || "Elementni tanlang, so'ng u tegishli bo'lgan toifani bosing."}</p>
+
+      {unplaced.length > 0 && (
+        <div className="mb-4 flex flex-wrap gap-2" aria-label="Joylashtirilmagan elementlar">
+          {unplaced.map((i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setSelected(selected === i ? null : i)}
+              aria-pressed={selected === i}
+              className={`option !w-auto !py-2 text-sm ${selected === i ? 'is-selected' : ''}`}
+            >
+              {game.items[i].text}
+            </button>
+          ))}
+        </div>
+      )}
+
+      <div className={`grid gap-3 ${game.categories.length > 2 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'}`}>
+        {game.categories.map((c, ci) => (
+          <div
+            key={ci}
+            role="group"
+            aria-label={c}
+            className={`rounded-xl border p-3 ${selected !== null ? 'border-brand/60 bg-brand-soft/30' : 'border-line bg-surface-2'}`}
+          >
+            <button
+              type="button"
+              disabled={selected === null}
+              onClick={() => place(ci)}
+              className="mb-2 w-full text-left font-display text-sm font-bold text-brand disabled:cursor-default"
+            >
+              {c}{selected !== null && <span className="ml-2 text-xs font-normal text-muted">(shu yerga qo'yish)</span>}
+            </button>
+            <ul className="flex flex-col gap-1.5">
+              {game.items.map((it, i) => placed[i] === ci && (
+                <li key={i}>
+                  <button
+                    type="button"
+                    onClick={() => unplace(i)}
+                    className={`w-full rounded-lg border px-2.5 py-1.5 text-left text-sm ${
+                      checked ? (it.category === ci ? 'border-ok bg-ok-soft text-ink' : 'border-bad bg-bad-soft text-ink') : 'border-line bg-surface text-ink-2'
+                    }`}
+                  >
+                    {it.text}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-4 flex flex-wrap items-center gap-3">
+        <button type="button" onClick={() => setChecked(true)} disabled={unplaced.length > 0 || allCorrect} className="btn btn-primary btn-sm">
+          Tekshirish
+        </button>
+        <button type="button" onClick={reset} className="btn btn-ghost btn-sm"><RotateCcw size={13} /> Boshidan</button>
+        {checked && (
+          <p role="status" className={`text-sm font-semibold ${allCorrect ? 'text-ok' : 'text-bad'}`}>
+            {allCorrect ? "Ajoyib! Hammasi to'g'ri." : `${wrong.length} ta xato. Qizil elementni bosib olib tashlang va qayta joylashtiring.`}
+          </p>
+        )}
+      </div>
     </section>
   )
 }

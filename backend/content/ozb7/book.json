@@ -30,6 +30,49 @@
         "text": "Ilk, Rivojlangan, So'nggi: IV-VIII, IX-XV, XVI-XIX. Birinchi bosqich 8 bilan tugaydi, keyingisi 9 dan boshlanadi; ikkinchisi 15 da tugaydi, uchinchisi 16 dan boshlanadi."
        }
       ],
+      "classify": {
+       "title": "O'rta asrlar bosqichlari",
+       "instruction": "Elementni tanlab, u qaysi bosqichga tegishli ekanini belgilang.",
+       "categories": [
+        "Ilk o'rta asrlar (IV-VIII)",
+        "Rivojlangan (IX-XV)",
+        "So'nggi (XVI-XIX)"
+       ],
+       "items": [
+        {
+         "text": "V asr",
+         "category": 0
+        },
+        {
+         "text": "VII asr",
+         "category": 0
+        },
+        {
+         "text": "XI asr",
+         "category": 1
+        },
+        {
+         "text": "XIV asr",
+         "category": 1
+        },
+        {
+         "text": "XVII asr",
+         "category": 2
+        },
+        {
+         "text": "XVIII asr",
+         "category": 2
+        },
+        {
+         "text": "Turk xoqonligi davri",
+         "category": 0
+        },
+        {
+         "text": "Somoniylar davri",
+         "category": 1
+        }
+       ]
+      },
       "goals": [
        "Darslik qaysi davr tarixini yoritishini va 'o'rta asrlar' tushunchasining ma'nosini bilish",
        "O'rta asrlarning bosqichlarini va Turon hududidagi yirik davlatlarni sanab berish"
@@ -576,6 +619,38 @@
        "Yer va suv boshliqlar qo'liga o'tib, qishloq hokimlari - dehqonlar shakllandi.",
        "Aholi tabaqalarga bo'lindi: erkin kashovarzlar, yersiz qaram kadivarlar va himoyachi chokarlar."
       ],
+      "classify": {
+       "title": "Qishloq aholisi tabaqalari",
+       "instruction": "Ta'rifni tegishli tabaqaga joylang.",
+       "categories": [
+        "Dehqonlar",
+        "Kashovarzlar",
+        "Kadivarlar",
+        "Chokarlar"
+       ],
+       "items": [
+        {
+         "text": "Qishloq hokimlari, katta yer egalari",
+         "category": 0
+        },
+        {
+         "text": "Umumiy yer va suvga ega erkin ziroatchilar",
+         "category": 1
+        },
+        {
+         "text": "Yersiz qaram ziroatchilar",
+         "category": 2
+        },
+        {
+         "text": "Dehqon xo'jaligini himoya qiluvchi askariy guruh",
+         "category": 3
+        },
+        {
+         "text": "Yerlarida kadivarlar ishlagan",
+         "category": 0
+        }
+       ]
+      },
       "goals": [
        "IV-VII asrlarda dehqon xo'jaliklari va yangi ijtimoiy tabaqalar paydo bo'lishi sabablarini tushuntirish",
        "Dehqon, kashovarz, kadivar va chokar atamalarini farqlash"
@@ -1077,6 +1152,27 @@
        "Amudaryo suvi Xorazmda sug'orma dehqonchilik, hunarmandchilik va savdoni rivojlantirdi.",
        "Qang' zaiflashgach, Xorazm Afrig'iylar (xorazmshohlar) sulolasi boshchiligida mustaqil davlatga aylandi; 305-yilda poytaxt Katga ko'chirildi.",
        "VIII asrgacha zardushtiylik kuchli bo'lgan; ruhoniylar - mobadlar bolalarga o'qish, yozish va rost so'zlilikni o'rgatgan."
+      ],
+      "maps": [
+       {
+        "title": "Xorazm: Amudaryo etagi",
+        "caption": "Xorazm Amudaryoning quyi oqimida joylashgan; 305-yilda poytaxt Katga ko'chirilgan.",
+        "points": [
+         "kat",
+         "urganch",
+         "xiva"
+        ],
+        "emphasis": [
+         "kat"
+        ],
+        "regions": [
+         "xorazm"
+        ],
+        "quiz": {
+         "question": "305-yilda xorazmshoh Afrig' qarorgohini qaysi shaharga ko'chirgan?",
+         "answer": "kat"
+        }
+       }
       ],
       "goals": [
        "Xorazmning tabiiy sharoiti va xo'jaligini bilish",
@@ -2170,6 +2266,45 @@
        "Ular kengashga tayanib boshqargan, Ipak yo'li savdosida faol bo'lgan va 484-yilda sosoniy shohi Perozni mag'lub etgan.",
        "Davrda dehqonchilik, shaharsozlik, shishasozlik va tanga muomalasi rivojlandi, turli dinlar yonma-yon yashadi."
       ],
+      "classify": {
+       "title": "Kim kimga tegishli?",
+       "instruction": "Voqea yoki belgi qaysi davlatga tegishli?",
+       "categories": [
+        "Xioniylar",
+        "Kidariylar",
+        "Eftaliylar"
+       ],
+       "items": [
+        {
+         "text": "\"Oq xunnlar\" deb atalgan",
+         "category": 0
+        },
+        {
+         "text": "Hukmdori Kidar, poytaxti Balx",
+         "category": 1
+        },
+        {
+         "text": "Taxtga nomzodni kengash taqdim etgan",
+         "category": 2
+        },
+        {
+         "text": "456-yilda sosoniylardan yengilgan",
+         "category": 1
+        },
+        {
+         "text": "484-yilda Peroz ular bilan urushda halok bo'lgan",
+         "category": 2
+        },
+        {
+         "text": "Markazi Toxariston bo'lgan davlat tuzgan",
+         "category": 0
+        },
+        {
+         "text": "Dastlabki poytaxti Poykent va Varaxsha",
+         "category": 2
+        }
+       ]
+      },
       "goals": [
        "Eftaliylar davlatining tashkil topishi, boshqaruvi va xo'jaligini bilish",
        "Eftaliylar davridagi shaharlar, tanga muomalasi va diniy e'tiqodlarni tushuntirish"
@@ -2780,6 +2915,17 @@
        "Turk xoqonligi VI asr o'rtalarida Bumin tomonidan Oltoyda tuzildi va sosoniylar bilan ittifoqda eftaliylarni parchaladi.",
        "Davlat qabilalar ittifoqi va harbiy-ma'muriy tizimga tayangan, Ashina xonadoni hokimiyati ilohiylashtirilgan.",
        "Markazlashmaganlik tufayli VI asr 80-yillari oxirida Sharqiy va G'arbiy xoqonliklarga bo'lingan."
+      ],
+      "persons": [
+       {
+        "name": "Bumin",
+        "years": "VI asr o'rtalari",
+        "role": "Turk xoqonligi asoschisi",
+        "facts": [
+         "Xoqonlikni Oltoy va Janubiy Sibirda tuzgan.",
+         "Sosoniy Xusrav I Anushervon bilan ittifoq tuzib, eftaliylar davlatini parchalagan."
+        ]
+       }
       ],
       "goals": [
        "Turk xoqonligining tashkil topishi, boshqaruvi va bo'linish sabablarini tushuntirish",
@@ -4056,6 +4202,27 @@
        "Turk xoqonligi davrida Turonda 15 dan ortiq mustaqil hokimlik shakllandi (Toxariston, Sug'd, Farg'ona, Choch...).",
        "Eng yirigi Sug'd ixshidlari edi (poytaxti Samarqand); ularning hokimiyatini Oqsoqollar Kengashi cheklagan.",
        "Shaharlar kuhandiz, shahriston va rabod qismlaridan iborat bo'lgan; Chochning Ipak yo'lidagi o'rni katta edi."
+      ],
+      "maps": [
+       {
+        "title": "Turk xoqonligi davridagi hokimliklar markazlari",
+        "caption": "Toxariston poytaxti Balx, Sug'dniki Samarqand; Choch hududi hozirgi Toshkent atrofida.",
+        "points": [
+         "balx",
+         "samarqand",
+         "toshkent",
+         "buxoro"
+        ],
+        "regions": [
+         "toxariston",
+         "sugd",
+         "fargona"
+        ],
+        "quiz": {
+         "question": "Mustaqil hokimliklar orasida eng yirigi - Sug'd ixshidlarining poytaxti qaysi shahar?",
+         "answer": "samarqand"
+        }
+       }
       ],
       "goals": [
        "Turk xoqonligi davrida mahalliy hokimliklar (Toxariston, Sug'd, Farg'ona, Choch) xususiyatlarini bilish",
@@ -5905,6 +6072,50 @@
         "text": "651 (Xuroson, Marv) -> 654 (Movarounnahrga yurishlar boshlandi) -> 705-715 (Qutayba yurishlari) -> 720 (qarshilik)."
        }
       ],
+      "maps": [
+       {
+        "title": "Arablarning Turonga yurishi (sxema)",
+        "caption": "651-yilda Marv egallandi; keyinchalik Qutayba ibn Muslim Movarounnahr shaharlarini bosib oldi (705-715).",
+        "points": [
+         "marv",
+         "balx",
+         "buxoro",
+         "samarqand"
+        ],
+        "emphasis": [
+         "marv"
+        ],
+        "regions": [
+         "xuroson"
+        ],
+        "arrows": [
+         {
+          "from": "marv",
+          "to": "buxoro",
+          "label": "Qutayba yurishlari"
+         },
+         {
+          "from": "buxoro",
+          "to": "samarqand"
+         }
+        ],
+        "quiz": {
+         "question": "651-yilda arablar egallagan va Xuroson markazi bo'lgan shahar qaysi?",
+         "answer": "marv"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Qutayba ibn Muslim",
+        "years": "705-715",
+        "role": "arab sarkardasi",
+        "facts": [
+         "705-715-yillarda Movarounnahrning asosiy hududlarini bosib olgan.",
+         "Istilo islomlashtirish va soliqlar (xiroj, jiz'ya) bilan birga bordi."
+        ]
+       }
+      ],
       "goals": [
        "Arablarning Movarounnahrni bosib olish sabablari va bosqichlarini bilish",
        "Qutayba ibn Muslim faoliyati, islomlashuv jarayoni va mahalliy aholining qarshiligini tushuntirish"
@@ -6558,6 +6769,50 @@
         "text": "750 - abbosiylar hokimiyatga keldi, ertasi yili 751 - Talas jangi va qog'oz sirini o'rganish. Qo'zg'olonlar: Muqanna 783, Rofe 806."
        }
       ],
+      "maps": [
+       {
+        "title": "Talas jangi va qog'oz sirining tarqalishi",
+        "caption": "751-yilda Talas jangidan keyin xitoylik asirlar Samarqandda qog'oz ishlab chiqarishni o'rgatgan. Jang joyi taxminiy ko'rsatilgan.",
+        "points": [
+         "taraz",
+         "samarqand"
+        ],
+        "emphasis": [
+         "samarqand"
+        ],
+        "arrows": [
+         {
+          "from": "taraz",
+          "to": "samarqand",
+          "label": "qog'oz sirini o'rgatgan asirlar"
+         }
+        ],
+        "quiz": {
+         "question": "Xitoylik asirlar qog'oz ishlab chiqarishni qaysi shaharda o'rgatgan?",
+         "answer": "samarqand"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Abu Muslim",
+        "years": "VIII asr",
+        "role": "Xuroson harakati rahbari",
+        "facts": [
+         "Xurosonda umaviylarga qarshi harakatga rahbarlik qilib, Marvni egallagan.",
+         "Harakat g'alabasi bilan 750-yilda abbosiylar (Abul Abbos Saffoh) hokimiyatga keldi."
+        ]
+       },
+       {
+        "name": "Muqanna",
+        "years": "VIII asr",
+        "role": "qo'zg'olon rahbari",
+        "facts": [
+         "Abu Muslim qatl etilgach ko'tarilgan qo'zg'olonlardan biriga rahbarlik qilgan.",
+         "Qo'zg'olon 783-yilgacha davom etgan."
+        ]
+       }
+      ],
       "goals": [
        "Abu Muslim boshchiligidagi harakat va abbosiylar hokimiyati o'rnatilishini bilish",
        "Talas jangi, qog'oz ishlab chiqarish, Muqanna va Rofe ibn Lays qo'zg'olonlarini tushuntirish"
@@ -7188,6 +7443,40 @@
         "text": "813 Ma'mun Bag'dodni egalladi; 821 unga yordam bergan Tohir ibn Husayn Tohiriylar sulolasini boshladi; 873 safforiylar uni tugatdi."
        }
       ],
+      "maps": [
+       {
+        "title": "Tohiriylar va safforiylar hududlari",
+        "caption": "873-yilda safforiylar Nishopurni egallab, tohiriylar hukmronligini tugatgan.",
+        "points": [
+         "nishopur",
+         "marv",
+         "hirot",
+         "buxoro",
+         "samarqand"
+        ],
+        "emphasis": [
+         "nishopur"
+        ],
+        "regions": [
+         "xuroson"
+        ],
+        "quiz": {
+         "question": "873-yilda safforiylar qaysi shaharni egallab, tohiriylar hukmronligini tugatgan?",
+         "answer": "nishopur"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Tohir ibn Husayn",
+        "years": "821-yildan",
+        "role": "Tohiriylar sulolasi asoschisi",
+        "facts": [
+         "Ma'mun va Amin o'rtasidagi kurashda Ma'munga yordam bergan va noib bo'lgan.",
+         "821-yilda asos solingan Tohiriylar sulolasi 873-yilgacha hukmronlik qilgan."
+        ]
+       }
+      ],
       "goals": [
        "Qarluqlar, o'g'uzlar davlatlari va ularning etnogenezdagi o'rnini bilish",
        "Tohiriylar va safforiylar davlatlarining tashkil topishi sabablarini tushuntirish"
@@ -7798,6 +8087,41 @@
        {
         "title": "888 va 892",
         "text": "888 - Ismoil akasi Nasrni yengdi; 892 - Ismoil Movarounnahr va Xurosonni birlashtirdi (Buxoro poytaxt)."
+       }
+      ],
+      "maps": [
+       {
+        "title": "Somoniylar davlatining asosiy shaharlari",
+        "caption": "Ismoil Somoniy Movarounnahr va Xurosonni birlashtirib, Buxoroni poytaxt qilgan.",
+        "points": [
+         "buxoro",
+         "samarqand",
+         "marv",
+         "nishopur",
+         "balx"
+        ],
+        "emphasis": [
+         "buxoro"
+        ],
+        "regions": [
+         "xuroson"
+        ],
+        "quiz": {
+         "question": "Ismoil Somoniy davlat poytaxtini qaysi shaharda belgilagan?",
+         "answer": "buxoro"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Ismoil Somoniy",
+        "years": "IX asr oxiri",
+        "role": "Somoniylar davlatining yirik hukmdori",
+        "facts": [
+         "888-yilgi jangda akasi Nasrni yengib g'olib chiqqan.",
+         "Movarounnahr va Xurosonni birlashtirib, safforiylarni yengib, Buxoroni poytaxt qilgan.",
+         "Boshqaruvda o'nta devon (asosiysi vazir devoni) tizimi shakllangan."
+        ]
        }
       ],
       "goals": [
@@ -8442,6 +8766,39 @@
        "Pul tizimi: ichki bozorda mis fals, xalqaro savdoda kumush dirham; sarroflik cheklari ishlatilgan.",
        "Me'morchilik yutug'i - Somoniylar maqbarasi; Buxoro islom markaziga aylanib, ilk madrasa qurildi."
       ],
+      "maps": [
+       {
+        "title": "Ipak yo'li va savdo shaharlari (sxema)",
+        "caption": "Savdo shaharlari orasida Buxoro, Samarqand, Marv, Choch muhim edi. O'qlar umumiy yo'nalishni ko'rsatadi, aniq marshrut emas.",
+        "points": [
+         "ray",
+         "nishopur",
+         "marv",
+         "buxoro",
+         "samarqand",
+         "toshkent",
+         "qoshgar"
+        ],
+        "arrows": [
+         {
+          "from": "nishopur",
+          "to": "marv"
+         },
+         {
+          "from": "marv",
+          "to": "buxoro"
+         },
+         {
+          "from": "buxoro",
+          "to": "samarqand"
+         },
+         {
+          "from": "samarqand",
+          "to": "qoshgar"
+         }
+        ]
+       }
+      ],
       "goals": [
        "Somoniylar davrida dehqonchilik, hunarmandchilik va savdo rivojini bilish",
        "Pul muomalasi, me'morchilik va islom madaniyati markazlarini tushuntirish"
@@ -9058,6 +9415,60 @@
        {
         "title": "G'aznaviylar sanalari",
         "text": "962-963 Alptegin G'aznada, 977-997 Sabuktegin, 1017 Mahmud Xorazmni olib Beruniyni G'aznaga ko'chirdi, 1030 Mahmud vafoti."
+       }
+      ],
+      "maps": [
+       {
+        "title": "G'aznaviylar va Xorazm",
+        "caption": "1017-yilda Mahmud G'aznaviy Xorazmga yurish qilib, Beruniyni G'aznaga ko'chirgan.",
+        "points": [
+         "gazna",
+         "urganch",
+         "balx",
+         "hirot"
+        ],
+        "emphasis": [
+         "gazna"
+        ],
+        "arrows": [
+         {
+          "from": "urganch",
+          "to": "gazna",
+          "label": "Beruniy G'aznaga ko'chirildi"
+         }
+        ],
+        "quiz": {
+         "question": "G'aznaviylar davlati poytaxti qaysi shahar edi (sulola shu nom bilan atalgan)?",
+         "answer": "gazna"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Alptegin",
+        "years": "962-963",
+        "role": "G'aznaviylar davlati asoschisi",
+        "facts": [
+         "Somoniy turkiy hojibi bo'lgan; G'aznada hokimiyatni qo'lga olgan."
+        ]
+       },
+       {
+        "name": "Sabuktegin",
+        "years": "977-997",
+        "role": "g'aznaviy hukmdor",
+        "facts": [
+         "Somoniy turkiy hojibi bo'lib, G'aznaviylar davlatini mustahkamlagan; hukmronligi 977-997-yillarga to'g'ri keladi."
+        ]
+       },
+       {
+        "name": "Mahmud G'aznaviy",
+        "years": "vafoti 1030",
+        "role": "g'aznaviy sulton",
+        "facts": [
+         "Xurosonni somoniylardan butunlay ajratib olgan.",
+         "1017-yilda Xorazmga yurish qilib, Beruniyni G'aznaga ko'chirgan.",
+         "Ilm-fanga homiylik qilgan."
+        ]
        }
       ],
       "goals": [
@@ -9715,6 +10126,49 @@
        {
         "title": "Ikki Mahmud, bitta 1008",
         "text": "Qoraxoniylar qo'shini 1008-yilda Mahmud G'aznaviydan yengildi. Mahmud Qoshg'ariy esa (XI asr) \"Devonu lug'otit-turk\" muallifi, ularni adashtirmang."
+       }
+      ],
+      "maps": [
+       {
+        "title": "Qoraxoniylar: Yettisuv va Qoshg'ardan Movarounnahrgacha",
+        "caption": "Qoraxoniylar Yettisuv va Qoshg'ardagi turkiy qabilalarga tayanib Movarounnahrni egallagan.",
+        "points": [
+         "balasogun",
+         "qoshgar",
+         "samarqand",
+         "buxoro"
+        ],
+        "regions": [
+         "yettisuv"
+        ],
+        "arrows": [
+         {
+          "from": "qoshgar",
+          "to": "samarqand"
+         },
+         {
+          "from": "samarqand",
+          "to": "buxoro"
+         }
+        ]
+       }
+      ],
+      "persons": [
+       {
+        "name": "Sotuq Bug'roxon",
+        "years": "X asr",
+        "role": "qoraxoniy hukmdor",
+        "facts": [
+         "Uning davrida qoraxoniylar islomni qabul qilgan."
+        ]
+       },
+       {
+        "name": "Mahmud Qoshg'ariy",
+        "years": "XI asr",
+        "role": "tilshunos olim",
+        "facts": [
+         "\"Devonu lug'otit-turk\" asarini yozgan."
+        ]
        }
       ],
       "goals": [
@@ -10375,6 +10829,77 @@
        "Malikshoh davrida saltanat Sharqiy Turkistondan O'rta dengizgacha cho'zildi; Nizomulmulk \"Siyosatnoma\"ni yozdi va \"Nizomiya\" madrasalarini qurdirdi.",
        "XI asr ikkinchi yarmidan saltanat parchalandi, Sanjar o'limidan keyin sharqiy qism tugadi va Xorazm yuksaldi."
       ],
+      "persons": [
+       {
+        "name": "Alp Arslon",
+        "years": "XI asr",
+        "role": "saljuqiy sulton",
+        "facts": [
+         "Kichik Osiyoda Vizantiya podshosi Roman IV Diogenni yengan."
+        ]
+       },
+       {
+        "name": "Malikshoh",
+        "years": "XI asr",
+        "role": "saljuqiy sulton",
+        "facts": [
+         "Uning davrida saltanat Sharqiy Turkistondan O'rta dengizgacha cho'zilgan."
+        ]
+       },
+       {
+        "name": "Nizomulmulk",
+        "years": "XI asr",
+        "role": "vazir va olim",
+        "facts": [
+         "\"Siyosatnoma\" asarining muallifi.",
+         "\"Nizomiya\" madrasalarini qurdirgan; Bag'doddagisida olti ming talaba o'qigan."
+        ]
+       }
+      ],
+      "classify": {
+       "title": "Sulolalar va ularning belgilari",
+       "instruction": "Shaxs yoki voqeani tegishli sulolaga joylang.",
+       "categories": [
+        "Somoniylar",
+        "G'aznaviylar",
+        "Qoraxoniylar",
+        "Saljuqiylar"
+       ],
+       "items": [
+        {
+         "text": "Ismoil Somoniy",
+         "category": 0
+        },
+        {
+         "text": "Mahmud G'aznaviy",
+         "category": 1
+        },
+        {
+         "text": "Sotuq Bug'roxon",
+         "category": 2
+        },
+        {
+         "text": "Alp Arslon",
+         "category": 3
+        },
+        {
+         "text": "Poytaxti Buxoro bo'lgan",
+         "category": 0
+        },
+        {
+         "text": "Sulola nomi poytaxt G'azna nomidan olingan",
+         "category": 1
+        },
+        {
+         "text": "Malikshoh davrida saltanat O'rta dengizgacha cho'zilgan",
+         "category": 3
+        },
+        {
+         "text": "1008-yilda yengilgan",
+         "category": 2
+        }
+       ]
+      },
       "goals": [
        "Saljuqiylar davlatining tashkil topishi, kuchayishi va parchalanishi sabablarini bilish",
        "Nizomulmulk faoliyati, davlat boshqaruvi va iqtisodiy hayotni tushuntirish"
@@ -10993,6 +11518,52 @@
         "text": "Takash 1172-1200, Alovuddin Muhammad 1200-1220: bir asr chegarasida hokimiyat otadan o'g'ilga o'tdi."
        }
       ],
+      "maps": [
+       {
+        "title": "Xorazmshohlar: Gurganchdan Samarqandgacha",
+        "caption": "Sulton Muhammad Samarqandni o'z poytaxti deb e'lon qilgan; Xorazmshohlarning asl markazi Xorazm edi.",
+        "points": [
+         "urganch",
+         "samarqand",
+         "buxoro",
+         "nishopur"
+        ],
+        "regions": [
+         "xorazm"
+        ],
+        "quiz": {
+         "question": "Sulton Muhammad qaysi shaharni o'z poytaxti deb e'lon qilgan?",
+         "answer": "samarqand"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Anushtegin",
+        "years": "taxminan 1077",
+        "role": "Xorazm hokimi",
+        "facts": [
+         "Taxminan 1077-yili Saljuqiylar tomonidan Xorazm hokimligiga tayinlangan."
+        ]
+       },
+       {
+        "name": "Takash",
+        "years": "1172-1200",
+        "role": "xorazmshoh",
+        "facts": [
+         "1172-1200-yillarda hukmronlik qilgan."
+        ]
+       },
+       {
+        "name": "Alovuddin Muhammad",
+        "years": "1200-1220",
+        "role": "xorazmshoh",
+        "facts": [
+         "Qoraxitoylarni Movarounnahrdan haydab chiqargan.",
+         "Davlat Orol dengizidan Hind okeanigacha cho'zilgan."
+        ]
+       }
+      ],
       "goals": [
        "Anushteginiylar sulolasining tashkil topishi va Otsiz faoliyatini bilish",
        "Takash va Alovuddin Muhammad davrida Xorazmshohlar davlatining yuksalishini tushuntirish"
@@ -11569,6 +12140,17 @@
        "Davlat dargoh, devonlar, vazir va ulug' hojib orqali boshqarilgan; Turkon xotunning ta'siri katta bo'lgan.",
        "Alovuddin Muhammad vazirlikni bekor qilib, olti kishilik kengash tuzdi - bu davlatni zaiflashtirdi.",
        "Urganch hunarmandchilik va savdo markazi bo'lgan; muhtasib bozor tartibi, sifat va o'lchovlarni nazorat qilgan."
+      ],
+      "persons": [
+       {
+        "name": "Turkon xotun",
+        "years": "XIII asr boshi",
+        "role": "xorazmshoh onasi",
+        "facts": [
+         "\"Jahon hokimi\" laqabiga ega bo'lgan.",
+         "Saltanat ishlarida yetakchi mavqe egallagan."
+        ]
+       }
       ],
       "goals": [
        "Xorazmshohlar davlatida hukmdor, Turkon xotun va vazirning o'rni, devonlar tizimini bilish",
@@ -12628,6 +13210,43 @@
        "Buxoro \"Qubbatul islom\" bo'ldi; Moturidiy va Ash'ariy kalom ta'limotlarini yaratdi.",
        "Yassaviya, Kubraviya va Naqshbandiya tariqatlari yurtimizda yuzaga keldi."
       ],
+      "maps": [
+       {
+        "title": "Islom ilmi markazlari",
+        "caption": "Buxoro \"Qubbatul islom\" nomi bilan shuhrat topgan; Imom Termiziy Termizda tug'ilgan.",
+        "points": [
+         "buxoro",
+         "samarqand",
+         "termiz",
+         "balx"
+        ],
+        "emphasis": [
+         "buxoro"
+        ],
+        "quiz": {
+         "question": "Qaysi shahar \"Qubbatul islom\" (Islom dinining gumbazi) nomi bilan shuhrat topgan?",
+         "answer": "buxoro"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Abu Hanifa",
+        "years": "699-767",
+        "role": "faqih",
+        "facts": [
+         "Hanafiylik mazhabi asoschisi, \"Imomi A'zam\" deb ataladi."
+        ]
+       },
+       {
+        "name": "Abu Mansur Moturidiy",
+        "years": "870-944",
+        "role": "kalom olimi",
+        "facts": [
+         "Moturidiya ta'limotiga asos solgan."
+        ]
+       }
+      ],
       "goals": [
        "Islom dinining Turonda yoyilishiga ta'sir qilgan omillarni bilish",
        "Fiqhiy mazhablar, kalom maktablari (moturidiya, ash'ariya) va tasavvuf tariqatlarining mohiyatini tushuntirish"
@@ -13270,6 +13889,17 @@
        "Madrasalar vaqf hisobidan ta'minlanib, ta'lim bepul bo'lgan (Balxda 400 madrasa va 900 maktab).",
        "G'azzoliy ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."
       ],
+      "persons": [
+       {
+        "name": "G'azzoliy",
+        "years": "1058-1111",
+        "role": "mutafakkir",
+        "facts": [
+         "\"Hujjatul islom\" nomi bilan mashhur bo'lgan.",
+         "Ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."
+        ]
+       }
+      ],
       "goals": [
        "Turonda madrasalar, maktablar va ta'lim tizimining rivojini bilish",
        "G'azzoliy, Kaykovus va Istaxriy fikrlari orqali ilm-ma'rifat qadrini tushuntirish"
@@ -13860,6 +14490,66 @@
        "VIII asr oxiridan shaharlarda madrasalar ochilib, buyuk mufassir va muhaddislar yetishdi.",
        "Imom Buxoriy \"al-Jome as-sahih\"ni yozdi; Imom Termiziy va Hakim Termiziy ham mashhur bo'ldi.",
        "Zamaxshariy tilshunoslik va tafsirda, Marg'inoniy fiqhda (\"Hidoya\"), Narshaxiy tarixda (\"Buxoro tarixi\") ulug' bo'ldi."
+      ],
+      "maps": [
+       {
+        "title": "Allomalar bilan bog'liq shaharlar",
+        "caption": "Imom Termiziy Termizda tug'ilgan; Marg'inoniyning \"Hidoya\" asari 1178-yili Samarqandda yozilgan; Narshaxiy \"Buxoro tarixi\"ni yozgan.",
+        "points": [
+         "termiz",
+         "samarqand",
+         "buxoro"
+        ],
+        "regions": [
+         "xorazm"
+        ],
+        "quiz": {
+         "question": "Imom Termiziy qaysi shaharda tug'ilgan?",
+         "answer": "termiz"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Imom Buxoriy",
+        "years": "IX asr",
+        "role": "muhaddis",
+        "facts": [
+         "600 000 hadisdan faqat sahihlarini tanlab, \"al-Jome as-sahih\"ni 16 yilda yozgan."
+        ]
+       },
+       {
+        "name": "Imom Termiziy",
+        "years": "824-892",
+        "role": "muhaddis",
+        "facts": [
+         "Termizda tug'ilgan buyuk muhaddis."
+        ]
+       },
+       {
+        "name": "Zamaxshariy",
+        "years": "1075-1144",
+        "role": "tilshunos va mufassir",
+        "facts": [
+         "\"Jorulloh\" va \"Xorazm faxri\" nomlari bilan ulug'langan."
+        ]
+       },
+       {
+        "name": "Marg'inoniy",
+        "years": "XII asr",
+        "role": "faqih",
+        "facts": [
+         "Shoh asari \"Hidoya\" 1178-yili Samarqandda yozilgan."
+        ]
+       },
+       {
+        "name": "Narshaxiy",
+        "years": "X asr",
+        "role": "tarixchi",
+        "facts": [
+         "\"Buxoro tarixi\"ni 943-944-yillarda yozgan."
+        ]
+       }
       ],
       "goals": [
        "Imom Buxoriy, Termiziy, Zamaxshariy, Marg'inoniy, Hakim Termiziy va Narshaxiyning hayoti va merosini bilish",
@@ -14517,6 +15207,27 @@
        "Nizomulmulk \"Nizomiya\" madrasalarini qurdirdi; Bag'doddagi madrasalaridan birida olti ming talaba o'qigan.",
        "1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi; Beruniy va Ibn Sino unda faoliyat yuritdi."
       ],
+      "maps": [
+       {
+        "title": "Ma'mun akademiyasi - Gurganch",
+        "caption": "1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi; Beruniy va Ibn Sino unda faoliyat yuritgan.",
+        "points": [
+         "urganch",
+         "kat",
+         "buxoro"
+        ],
+        "emphasis": [
+         "urganch"
+        ],
+        "regions": [
+         "xorazm"
+        ],
+        "quiz": {
+         "question": "Ma'mun akademiyasi qaysi shaharda tashkil topgan?",
+         "answer": "urganch"
+        }
+       }
+      ],
       "goals": [
        "IX-XII asrlarda me'morchilik va qurilish yutuqlarini bilish",
        "Xorazm Ma'mun akademiyasining tashkil topishi va faoliyatini tushuntirish"
@@ -15096,6 +15807,18 @@
         "text": "Xorazmiy 783 -> Farg'oniy 797 -> Forobiy 873 -> Beruniy 973 -> Ibn Sino 980. Dastlabki ikkitasi VIII asr oxirida, Forobiy IX asrda, oxirgi ikkitasi X asrda tug'ilgan."
        }
       ],
+      "persons": [
+       {
+        "name": "Muhammad ibn Muso al-Xorazmiy",
+        "years": "783-850",
+        "role": "matematik, astronom, geograf",
+        "facts": [
+         "Xivada yashagan; 20 dan ortiq asar yozgan, 10 tasi saqlangan.",
+         "\"Algebra\" nomi \"Aljabr val-muqobala\" asaridan olingan.",
+         "0 sonini son sifatida e'tirof etib, o'nlik sanoq tizimiga asos solgan."
+        ]
+       }
+      ],
       "goals": [
        "Al-Xorazmiyning hayoti, asarlari va kashfiyotlarini bilish",
        "Algebra, algoritm va hind raqamlari tizimini yoyishdagi xizmatlarini tushuntirish"
@@ -15658,6 +16381,18 @@
        "Ahmad Farg'oniy (797-865) Quvada tug'ilgan, Bag'dod va Damashq rasadxonalarida ishlagan buyuk astronom.",
        "Uning asari Yevropada \"Alfraganus\" nomi bilan tarqaldi.",
        "861-yilda Misrdagi Roud orolida \"Miqyosi Nil\"ni yaratib, suv sathiga qarab adolatli soliq tizimini joriy etdi."
+      ],
+      "persons": [
+       {
+        "name": "Ahmad Farg'oniy",
+        "years": "797-865",
+        "role": "astronom",
+        "facts": [
+         "Quva qishlog'ida tug'ilgan; Bag'dod va Damashq rasadxonalarida ishlagan.",
+         "Yevropada \"Alfraganus\" nomi bilan tanilgan.",
+         "861-yilda Roud orolida \"Miqyosi Nil\"ni yasagan."
+        ]
+       }
       ],
       "goals": [
        "Ahmad Farg'oniyning hayoti, asarlari va astronomiyadagi xizmatlarini bilish",
@@ -16244,6 +16979,36 @@
        "160 dan ortiq asar yozdi: \"Fozil odamlar shahri\", \"Shaharni boshqarish\", \"Musiqa haqida katta kitob\".",
        "Platon va Aristotel asarlariga sharhlar yozib, yunon ilmini Sharq va Yevropaga yetkazdi."
       ],
+      "maps": [
+       {
+        "title": "Forobiy tug'ilgan yurt",
+        "caption": "Forobiy Sirdaryo bo'yidagi Forob (O'tror) shahrida tug'ilgan.",
+        "points": [
+         "otror",
+         "toshkent",
+         "samarqand",
+         "taraz"
+        ],
+        "emphasis": [
+         "otror"
+        ],
+        "quiz": {
+         "question": "Forobiy qaysi shaharda tug'ilgan (Sirdaryo bo'yida)?",
+         "answer": "otror"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Abu Nasr Forobiy",
+        "years": "873-950",
+        "role": "faylasuf, \"Ikkinchi muallim\"",
+        "facts": [
+         "Forob (O'tror)da tug'ilgan; 160 dan ortiq asar yozgan, 70 dan ortiq tilni bilgan.",
+         "\"Fozil odamlar shahri\" asarida adolatli jamiyat nazariyasini bayon etgan."
+        ]
+       }
+      ],
       "goals": [
        "Forobiyning hayoti, \"Ikkinchi muallim\" unvoni va asarlarini bilish",
        "\"Fozil odamlar shahri\" g'oyalari va Forobiyning yunon faylasuflari merosini sharhlashdagi xizmatini tushuntirish"
@@ -16803,6 +17568,51 @@
        {
         "title": "Beruniy va Ibn Sino zamondosh",
         "text": "Beruniy 973-yilda, Ibn Sino 980-yilda tug'ilgan: atigi 7 yil farq. Ikkalasi Ma'mun akademiyasida ishlagan."
+       }
+      ],
+      "maps": [
+       {
+        "title": "Beruniyning hayot yo'li",
+        "caption": "Kotda tug'ilgan, Jurjon va Rayda yashagan, 1017-yildan G'aznada ijod qilgan va 1048-yilda o'sha yerda vafot etgan.",
+        "points": [
+         "kat",
+         "jurjon",
+         "ray",
+         "gazna"
+        ],
+        "emphasis": [
+         "gazna"
+        ],
+        "arrows": [
+         {
+          "from": "kat",
+          "to": "jurjon"
+         },
+         {
+          "from": "jurjon",
+          "to": "ray"
+         },
+         {
+          "from": "ray",
+          "to": "gazna"
+         }
+        ],
+        "quiz": {
+         "question": "Beruniy 1017-yildan umrining oxirigacha qaysi shaharda yashab ijod qilgan?",
+         "answer": "gazna"
+        }
+       }
+      ],
+      "persons": [
+       {
+        "name": "Abu Rayhon Beruniy",
+        "years": "973-1048",
+        "role": "qomusiy olim",
+        "facts": [
+         "Kotda tug'ilgan, G'aznada vafot etgan; 150 dan ortiq asar yozgan.",
+         "1029 ta yulduzli jadval tuzgan.",
+         "J. Sarton XI asrni \"Beruniy asri\" deb atagan."
+        ]
        }
       ],
       "goals": [
@@ -17426,10 +18236,75 @@
       ],
       "mnemonics": [
        {
-        "title": "Qaysi nom qaysi olimniki?",
-        "text": "Sharqda Shayx ar-rais, G'arbda Avitsenna (Ibn Sino); Alfraganus - Farg'oniy; Ikkinchi muallim - Forobiy."
+        "title": "Ibn Sino va Beruniy: umr yillari",
+        "text": "Ibn Sino 980-1037, Beruniy 973-1048: Beruniy 7 yil oldin tug'ilgan va 11 yil keyin vafot etgan. Ikkalasi bir davr (X-XI asr) allomalari."
        }
       ],
+      "persons": [
+       {
+        "name": "Abu Ali ibn Sino",
+        "years": "980-1037",
+        "role": "tabib va faylasuf",
+        "facts": [
+         "Afshona qishlog'ida tug'ilgan, Hamadonda vafot etgan; Sharqda \"Shayx ar-rais\", G'arbda Avitsenna.",
+         "\"Tib qonunlari\" XVII asrgacha Yevropada asosiy tibbiy qo'llanma bo'lgan.",
+         "Vabo bilan ofatni birinchi bo'lib farqlagan va yuqumli bemorlarni ajratishni ta'kidlagan."
+        ]
+       }
+      ],
+      "classify": {
+       "title": "Kim qaysi olim?",
+       "instruction": "Asar yoki nomni tegishli allomaga joylang.",
+       "categories": [
+        "Xorazmiy",
+        "Farg'oniy",
+        "Forobiy",
+        "Beruniy",
+        "Ibn Sino"
+       ],
+       "items": [
+        {
+         "text": "\"Algoritm\" atamasi ismidan kelib chiqqan",
+         "category": 0
+        },
+        {
+         "text": "\"Alfraganus\" nomi bilan tanilgan",
+         "category": 1
+        },
+        {
+         "text": "\"Ikkinchi muallim\" unvoni",
+         "category": 2
+        },
+        {
+         "text": "\"Hindiston\" asari muallifi",
+         "category": 3
+        },
+        {
+         "text": "\"Tib qonunlari\"",
+         "category": 4
+        },
+        {
+         "text": "\"Miqyosi Nil\"ni yasagan",
+         "category": 1
+        },
+        {
+         "text": "\"Fozil odamlar shahri\"",
+         "category": 2
+        },
+        {
+         "text": "\"Qonuni Mas'udiy\"",
+         "category": 3
+        },
+        {
+         "text": "\"Aljabr val-muqobala\"",
+         "category": 0
+        },
+        {
+         "text": "\"Shayx ar-rais\" va Avitsenna",
+         "category": 4
+        }
+       ]
+      },
       "goals": [
        "Ibn Sinoning hayoti, unvonlari va tibbiyotdagi xizmatlarini bilish",
        "\"Tib qonunlari\"ning Yevropa va jahon tibbiyotidagi ahamiyatini tushuntirish"

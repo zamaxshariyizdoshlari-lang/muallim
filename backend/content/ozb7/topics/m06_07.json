@@ -2,6 +2,7 @@
   "key": "m06_07", "title": "6-7-mavzular. Eftaliylar", "start_page": 18, "end_page": 23,
   "explanation": {
     "takeaways": ["Eftaliylar V asr boshlarida Turonga kelib, Poykent va Varaxshada dastlabki poytaxtga ega davlat tuzdi.", "Ular kengashga tayanib boshqargan, Ipak yo'li savdosida faol bo'lgan va 484-yilda sosoniy shohi Perozni mag'lub etgan.", "Davrda dehqonchilik, shaharsozlik, shishasozlik va tanga muomalasi rivojlandi, turli dinlar yonma-yon yashadi."],
+    "classify": {"title": "Kim kimga tegishli?", "instruction": "Voqea yoki belgi qaysi davlatga tegishli?", "categories": ["Xioniylar", "Kidariylar", "Eftaliylar"], "items": [{"text": "\"Oq xunnlar\" deb atalgan", "category": 0}, {"text": "Hukmdori Kidar, poytaxti Balx", "category": 1}, {"text": "Taxtga nomzodni kengash taqdim etgan", "category": 2}, {"text": "456-yilda sosoniylardan yengilgan", "category": 1}, {"text": "484-yilda Peroz ular bilan urushda halok bo'lgan", "category": 2}, {"text": "Markazi Toxariston bo'lgan davlat tuzgan", "category": 0}, {"text": "Dastlabki poytaxti Poykent va Varaxsha", "category": 2}]},
     "goals": ["Eftaliylar davlatining tashkil topishi, boshqaruvi va xo'jaligini bilish", "Eftaliylar davridagi shaharlar, tanga muomalasi va diniy e'tiqodlarni tushuntirish"],
     "blocks": [
       { "heading": "Eftaliylar davlati va boshqaruv", "pages": [18, 19],

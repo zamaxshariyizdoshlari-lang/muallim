@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Abu Rayhon Beruniy (973-1048) 150 dan ortiq asar yozgan qomusiy olim.", "U yer dumaloqligini, Yer aylanishi va Amerika qit'asi mavjudligi haqidagi fikrlarni ilgari surdi.", "1017-yildan G'aznada \"Hindiston\" va \"Qonuni Mas'udiy\" asarlarini yaratdi; Sarton XI asrni \"Beruniy asri\" deb atadi."],
     "mnemonics": [{ "title": "Beruniy va Ibn Sino zamondosh", "text": "Beruniy 973-yilda, Ibn Sino 980-yilda tug'ilgan: atigi 7 yil farq. Ikkalasi Ma'mun akademiyasida ishlagan." }],
+    "maps": [{"title": "Beruniyning hayot yo'li", "caption": "Kotda tug'ilgan, Jurjon va Rayda yashagan, 1017-yildan G'aznada ijod qilgan va 1048-yilda o'sha yerda vafot etgan.", "points": ["kat", "jurjon", "ray", "gazna"], "emphasis": ["gazna"], "arrows": [{"from": "kat", "to": "jurjon"}, {"from": "jurjon", "to": "ray"}, {"from": "ray", "to": "gazna"}], "quiz": {"question": "Beruniy 1017-yildan umrining oxirigacha qaysi shaharda yashab ijod qilgan?", "answer": "gazna"}}],
+    "persons": [{"name": "Abu Rayhon Beruniy", "years": "973-1048", "role": "qomusiy olim", "facts": ["Kotda tug'ilgan, G'aznada vafot etgan; 150 dan ortiq asar yozgan.", "1029 ta yulduzli jadval tuzgan.", "J. Sarton XI asrni \"Beruniy asri\" deb atagan."]}],
     "goals": ["Beruniyning hayoti, ustozlari va asosiy asarlarini bilish", "Beruniyning fanga qo'shgan hissasi va G'aznadagi faoliyatini tushuntirish"],
     "blocks": [
       { "heading": "Hayoti va asarlari", "pages": [180],

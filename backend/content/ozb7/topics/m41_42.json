@@ -2,6 +2,7 @@
   "key": "m41_42", "title": "41-42-mavzular. Ta'lim", "start_page": 147, "end_page": 150,
   "explanation": {
     "takeaways": ["Turonda islomdan oldin ham ta'lim tizimi bo'lgan; islom bilan madrasalar - oliy o'quv yurtlari paydo bo'ldi.", "Madrasalar vaqf hisobidan ta'minlanib, ta'lim bepul bo'lgan (Balxda 400 madrasa va 900 maktab).", "G'azzoliy ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."],
+    "persons": [{"name": "G'azzoliy", "years": "1058-1111", "role": "mutafakkir", "facts": ["\"Hujjatul islom\" nomi bilan mashhur bo'lgan.", "Ilm ezgulikka xizmat qilishi kerakligini ta'kidlagan."]}],
     "goals": ["Turonda madrasalar, maktablar va ta'lim tizimining rivojini bilish", "G'azzoliy, Kaykovus va Istaxriy fikrlari orqali ilm-ma'rifat qadrini tushuntirish"],
     "blocks": [
       { "heading": "Ilm odobi", "pages": [147],

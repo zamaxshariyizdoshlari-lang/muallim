@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Arablar 651-yilda Xurosonni egalladi, 654-yildan Movarounnahrga yurishlar boshladi; Qutayba ibn Muslim (705-715) uni bosib oldi.", "Istilo sababi: Turon mulklarining tarqoqligi va turk xoqonliklarining zaiflashuvi.", "Istilo islomlashtirish va soliqlar (xiroj, jiz'ya) bilan kechdi, xalq qarshilik ko'rsatdi (720-yil)."],
     "mnemonics": [{ "title": "Arablar yurishi zinapoyasi", "text": "651 (Xuroson, Marv) -> 654 (Movarounnahrga yurishlar boshlandi) -> 705-715 (Qutayba yurishlari) -> 720 (qarshilik)." }],
+    "maps": [{"title": "Arablarning Turonga yurishi (sxema)", "caption": "651-yilda Marv egallandi; keyinchalik Qutayba ibn Muslim Movarounnahr shaharlarini bosib oldi (705-715).", "points": ["marv", "balx", "buxoro", "samarqand"], "emphasis": ["marv"], "regions": ["xuroson"], "arrows": [{"from": "marv", "to": "buxoro", "label": "Qutayba yurishlari"}, {"from": "buxoro", "to": "samarqand"}], "quiz": {"question": "651-yilda arablar egallagan va Xuroson markazi bo'lgan shahar qaysi?", "answer": "marv"}}],
+    "persons": [{"name": "Qutayba ibn Muslim", "years": "705-715", "role": "arab sarkardasi", "facts": ["705-715-yillarda Movarounnahrning asosiy hududlarini bosib olgan.", "Istilo islomlashtirish va soliqlar (xiroj, jiz'ya) bilan birga bordi."]}],
     "goals": ["Arablarning Movarounnahrni bosib olish sabablari va bosqichlarini bilish", "Qutayba ibn Muslim faoliyati, islomlashuv jarayoni va mahalliy aholining qarshiligini tushuntirish"],
     "blocks": [
       { "heading": "Istiloning sabablari", "pages": [62, 63],

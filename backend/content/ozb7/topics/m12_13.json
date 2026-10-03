@@ -2,6 +2,7 @@
   "key": "m12_13", "title": "12-13-mavzular. Mahalliy hokimliklarning tashkil topishi", "start_page": 39, "end_page": 47,
   "explanation": {
     "takeaways": ["Turk xoqonligi davrida Turonda 15 dan ortiq mustaqil hokimlik shakllandi (Toxariston, Sug'd, Farg'ona, Choch...).", "Eng yirigi Sug'd ixshidlari edi (poytaxti Samarqand); ularning hokimiyatini Oqsoqollar Kengashi cheklagan.", "Shaharlar kuhandiz, shahriston va rabod qismlaridan iborat bo'lgan; Chochning Ipak yo'lidagi o'rni katta edi."],
+    "maps": [{"title": "Turk xoqonligi davridagi hokimliklar markazlari", "caption": "Toxariston poytaxti Balx, Sug'dniki Samarqand; Choch hududi hozirgi Toshkent atrofida.", "points": ["balx", "samarqand", "toshkent", "buxoro"], "regions": ["toxariston", "sugd", "fargona"], "quiz": {"question": "Mustaqil hokimliklar orasida eng yirigi - Sug'd ixshidlarining poytaxti qaysi shahar?", "answer": "samarqand"}}],
     "goals": ["Turk xoqonligi davrida mahalliy hokimliklar (Toxariston, Sug'd, Farg'ona, Choch) xususiyatlarini bilish", "Mahalliy sulolalar boshqaruvini saqlab qolishdan xoqonlik maqsadini tushuntirish"],
     "blocks": [
       { "heading": "Mustaqil hokimliklar", "pages": [39],

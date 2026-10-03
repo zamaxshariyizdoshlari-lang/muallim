@@ -2,6 +2,7 @@
   "key": "m45_46", "title": "45-46-mavzular. IX-XII asrlarda ilm-fan va madaniyatning yuksalishi", "start_page": 161, "end_page": 166,
   "explanation": {
     "takeaways": ["IX-XII asrlarda mahalliy an'analar islom madaniyati bilan uyg'unlashib, pishiq g'ishtdan masjid, madrasa, minora va maqbaralar qurildi.", "Nizomulmulk \"Nizomiya\" madrasalarini qurdirdi; Bag'doddagi madrasalaridan birida olti ming talaba o'qigan.", "1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi; Beruniy va Ibn Sino unda faoliyat yuritdi."],
+    "maps": [{"title": "Ma'mun akademiyasi - Gurganch", "caption": "1004-yilda Gurganchda Ma'mun akademiyasi tashkil topdi; Beruniy va Ibn Sino unda faoliyat yuritgan.", "points": ["urganch", "kat", "buxoro"], "emphasis": ["urganch"], "regions": ["xorazm"], "quiz": {"question": "Ma'mun akademiyasi qaysi shaharda tashkil topgan?", "answer": "urganch"}}],
     "goals": ["IX-XII asrlarda me'morchilik va qurilish yutuqlarini bilish", "Xorazm Ma'mun akademiyasining tashkil topishi va faoliyatini tushuntirish"],
     "blocks": [
       { "heading": "Madaniyatning yuksalishi", "pages": [161, 162],

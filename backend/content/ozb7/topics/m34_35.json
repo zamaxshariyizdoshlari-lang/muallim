@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Saljuqiylarga qaram Xorazm hokimi Anushtegin avlodlari (Otsiz) mustaqil siyosat yuritib, davlatga asos soldi.", "Takash (1172-1200) va Alovuddin Muhammad (1200-1220) davrida davlat Orol dengizidan Hind okeanigacha cho'zildi.", "Alovuddin Muhammad qoraxitoylarni Movarounnahrdan haydab chiqardi."],
     "mnemonics": [{ "title": "1200 - ota va o'g'il chegarasi", "text": "Takash 1172-1200, Alovuddin Muhammad 1200-1220: bir asr chegarasida hokimiyat otadan o'g'ilga o'tdi." }],
+    "maps": [{"title": "Xorazmshohlar: Gurganchdan Samarqandgacha", "caption": "Sulton Muhammad Samarqandni o'z poytaxti deb e'lon qilgan; Xorazmshohlarning asl markazi Xorazm edi.", "points": ["urganch", "samarqand", "buxoro", "nishopur"], "regions": ["xorazm"], "quiz": {"question": "Sulton Muhammad qaysi shaharni o'z poytaxti deb e'lon qilgan?", "answer": "samarqand"}}],
+    "persons": [{"name": "Anushtegin", "years": "taxminan 1077", "role": "Xorazm hokimi", "facts": ["Taxminan 1077-yili Saljuqiylar tomonidan Xorazm hokimligiga tayinlangan."]}, {"name": "Takash", "years": "1172-1200", "role": "xorazmshoh", "facts": ["1172-1200-yillarda hukmronlik qilgan."]}, {"name": "Alovuddin Muhammad", "years": "1200-1220", "role": "xorazmshoh", "facts": ["Qoraxitoylarni Movarounnahrdan haydab chiqargan.", "Davlat Orol dengizidan Hind okeanigacha cho'zilgan."]}],
     "goals": ["Anushteginiylar sulolasining tashkil topishi va Otsiz faoliyatini bilish", "Takash va Alovuddin Muhammad davrida Xorazmshohlar davlatining yuksalishini tushuntirish"],
     "blocks": [
       { "heading": "Anushteginiylar", "pages": [125],

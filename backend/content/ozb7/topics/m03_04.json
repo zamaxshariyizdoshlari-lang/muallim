@@ -2,6 +2,7 @@
   "key": "m03_04", "title": "3-4-mavzular. IV-VII asrlarda Xorazm", "start_page": 10, "end_page": 14,
   "explanation": {
     "takeaways": ["Amudaryo suvi Xorazmda sug'orma dehqonchilik, hunarmandchilik va savdoni rivojlantirdi.", "Qang' zaiflashgach, Xorazm Afrig'iylar (xorazmshohlar) sulolasi boshchiligida mustaqil davlatga aylandi; 305-yilda poytaxt Katga ko'chirildi.", "VIII asrgacha zardushtiylik kuchli bo'lgan; ruhoniylar - mobadlar bolalarga o'qish, yozish va rost so'zlilikni o'rgatgan."],
+    "maps": [{"title": "Xorazm: Amudaryo etagi", "caption": "Xorazm Amudaryoning quyi oqimida joylashgan; 305-yilda poytaxt Katga ko'chirilgan.", "points": ["kat", "urganch", "xiva"], "emphasis": ["kat"], "regions": ["xorazm"], "quiz": {"question": "305-yilda xorazmshoh Afrig' qarorgohini qaysi shaharga ko'chirgan?", "answer": "kat"}}],
     "goals": ["Xorazmning tabiiy sharoiti va xo'jaligini bilish", "Afrig'iylar sulolasi va Xorazm davlatchiligi xususiyatlarini tushuntirish"],
     "blocks": [
       { "heading": "Amudaryo va Xorazm vohasi", "pages": [10],

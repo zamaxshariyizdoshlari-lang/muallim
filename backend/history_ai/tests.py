@@ -635,6 +635,48 @@ class LessonEnrichmentTests(TestCase):
         self.assertIn('why', joined)
         self.assertIn('images', joined)
 
+    def test_maps_persons_classify_pass_through_and_validate(self):
+        from .services.book_import import import_book_json, validate_book_json
+        good = dict(
+            takeaways=['bir', 'ikki'], mnemonics=[{'title': 'T', 'text': 'X'}],
+            maps=[{'title': 'Xarita', 'points': ['buxoro', 'marv'], 'arrows': [{'from': 'marv', 'to': 'buxoro'}],
+                   'quiz': {'question': 'Q?', 'answer': 'marv'}}],
+            persons=[{'name': 'Ismoil', 'facts': ['a']}],
+            classify={'categories': ['A', 'B'], 'items': [
+                {'text': 'x', 'category': 0}, {'text': 'y', 'category': 1}, {'text': 'z', 'category': 0}, {'text': 'w', 'category': 1}]},
+        )
+        self.assertEqual(validate_book_json(self._data(**good)), [])
+        import_book_json(self._data(**good), self.user)
+        plan = Lesson.objects.get(topic__key='t1').lesson_plan
+        for key in ('maps', 'persons', 'classify', 'takeaways', 'mnemonics'):
+            self.assertIn(key, plan)
+        bad = self._data(
+            maps=[{'title': 'X', 'points': ['a'], 'arrows': [{'from': 'a', 'to': 'q'}], 'quiz': {'question': 'Q', 'answer': 'z'}}],
+            persons=[{'name': 'N', 'facts': []}],
+            classify={'categories': ['A', 'B'], 'items': [{'text': 'x', 'category': 0}] * 4},
+            takeaways=['faqat bitta'],
+        )
+        joined = ' '.join(validate_book_json(bad))
+        for part in ('arrows', 'quiz', 'persons', 'classify', 'takeaways'):
+            self.assertIn(part, joined)
+
+    def test_bundled_course_content_uses_known_map_places(self):
+        import json
+        import re
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[2]
+        js = (root / 'frontend/src/modules/history-ai/utils/gazetteer.js').read_text(encoding='utf8')
+        places = set(re.findall(r'^  (\w+): \{ name:', js.split('export const REGIONS')[0], re.M))
+        regions = set(re.findall(r'^  (\w+): \{ name:', js.split('export const REGIONS')[1].split('export const SEAS')[0], re.M))
+        self.assertGreater(len(places), 10)
+        for book in (root / 'backend/content').glob('*/book.json'):
+            data = json.loads(book.read_text(encoding='utf8'))
+            for sec in data['sections']:
+                for t in sec['topics']:
+                    for m in t['explanation'].get('maps', []):
+                        self.assertTrue(set(m['points']) <= places, (t['key'], set(m['points']) - places))
+                        self.assertTrue(set(m.get('regions', [])) <= regions, (t['key'], m.get('regions')))
+
     def test_invalid_level_rejected(self):
         from .services.book_import import validate_book_json
         qs = make_questions(1, n=5)

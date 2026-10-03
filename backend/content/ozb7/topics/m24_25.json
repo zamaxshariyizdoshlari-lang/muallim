@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Ismoil Somoniy Movarounnahr va Xurosonni birlashtirib, Buxoroni poytaxt qildi.", "Boshqaruv devonlar (vazir devoni asosiy) va muntazam qo'shinga tayangan; iqto yer shakli paydo bo'lgan.", "Ismoildan keyingi tarqoqlik va iqtisodiy tanglik tufayli X asr oxirida hokimiyat qoraxoniylar va g'aznaviylarga o'tdi."],
     "mnemonics": [{ "title": "888 va 892", "text": "888 - Ismoil akasi Nasrni yengdi; 892 - Ismoil Movarounnahr va Xurosonni birlashtirdi (Buxoro poytaxt)." }],
+    "maps": [{"title": "Somoniylar davlatining asosiy shaharlari", "caption": "Ismoil Somoniy Movarounnahr va Xurosonni birlashtirib, Buxoroni poytaxt qilgan.", "points": ["buxoro", "samarqand", "marv", "nishopur", "balx"], "emphasis": ["buxoro"], "regions": ["xuroson"], "quiz": {"question": "Ismoil Somoniy davlat poytaxtini qaysi shaharda belgilagan?", "answer": "buxoro"}}],
+    "persons": [{"name": "Ismoil Somoniy", "years": "IX asr oxiri", "role": "Somoniylar davlatining yirik hukmdori", "facts": ["888-yilgi jangda akasi Nasrni yengib g'olib chiqqan.", "Movarounnahr va Xurosonni birlashtirib, safforiylarni yengib, Buxoroni poytaxt qilgan.", "Boshqaruvda o'nta devon (asosiysi vazir devoni) tizimi shakllangan."]}],
     "goals": ["Somoniylar davlatining kelib chiqishi, kuchayishi va Ismoil Somoniy faoliyatini bilish", "Somoniylar davlat boshqaruvi, harbiy tuzilmasi va yer egaligi shakllarini tushuntirish"],
     "blocks": [
       { "heading": "Somoniylarning kuchayishi", "pages": [86],

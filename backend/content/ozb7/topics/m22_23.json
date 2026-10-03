@@ -3,6 +3,8 @@
   "explanation": {
     "takeaways": ["Xalifalik zaiflashgach, Yettisuvda qarluqlar, Sirdaryo bo'yida o'g'uzlar davlati va Xurosonda Tohiriylar paydo bo'ldi.", "Tohiriylar sulolasi (821-873) Tohir ibn Husayn tomonidan asos solingan; u Ma'munga yordam bergan.", "873-yilda hunarmand Layslar boshchiligida safforiylar tohiriylarni ag'dardi."],
     "mnemonics": [{ "title": "813 -> 821 -> 873", "text": "813 Ma'mun Bag'dodni egalladi; 821 unga yordam bergan Tohir ibn Husayn Tohiriylar sulolasini boshladi; 873 safforiylar uni tugatdi." }],
+    "maps": [{"title": "Tohiriylar va safforiylar hududlari", "caption": "873-yilda safforiylar Nishopurni egallab, tohiriylar hukmronligini tugatgan.", "points": ["nishopur", "marv", "hirot", "buxoro", "samarqand"], "emphasis": ["nishopur"], "regions": ["xuroson"], "quiz": {"question": "873-yilda safforiylar qaysi shaharni egallab, tohiriylar hukmronligini tugatgan?", "answer": "nishopur"}}],
+    "persons": [{"name": "Tohir ibn Husayn", "years": "821-yildan", "role": "Tohiriylar sulolasi asoschisi", "facts": ["Ma'mun va Amin o'rtasidagi kurashda Ma'munga yordam bergan va noib bo'lgan.", "821-yilda asos solingan Tohiriylar sulolasi 873-yilgacha hukmronlik qilgan."]}],
     "goals": ["Qarluqlar, o'g'uzlar davlatlari va ularning etnogenezdagi o'rnini bilish", "Tohiriylar va safforiylar davlatlarining tashkil topishi sabablarini tushuntirish"],
     "blocks": [
       { "heading": "Mustaqil davlatlarning paydo bo'lishi", "pages": [80],

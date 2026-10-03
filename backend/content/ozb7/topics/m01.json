@@ -3,6 +3,7 @@
   "explanation": {
     "takeaways": ["Darslik IV asrdan XIII asr boshigacha bo'lgan o'rta asrlar tarixini o'rgatadi.", "\"O'rta asrlar\" tushunchasi italyan tarixchilaridan kelgan; bizda u Yevropadan oldinroq (IV asr oxiri - V asr o'rtalari) boshlangan va shartli ishlatiladi.", "Davr uch bosqichga bo'linadi: ilk (IV-VIII), rivojlangan (IX-XV), so'nggi (XVI-XIX asrlar). Arab xalifaligidan keyin ilm-fan gullab-yashnadi."],
     "mnemonics": [{ "title": "Uch bosqich: I-R-S", "text": "Ilk, Rivojlangan, So'nggi: IV-VIII, IX-XV, XVI-XIX. Birinchi bosqich 8 bilan tugaydi, keyingisi 9 dan boshlanadi; ikkinchisi 15 da tugaydi, uchinchisi 16 dan boshlanadi." }],
+    "classify": {"title": "O'rta asrlar bosqichlari", "instruction": "Elementni tanlab, u qaysi bosqichga tegishli ekanini belgilang.", "categories": ["Ilk o'rta asrlar (IV-VIII)", "Rivojlangan (IX-XV)", "So'nggi (XVI-XIX)"], "items": [{"text": "V asr", "category": 0}, {"text": "VII asr", "category": 0}, {"text": "XI asr", "category": 1}, {"text": "XIV asr", "category": 1}, {"text": "XVII asr", "category": 2}, {"text": "XVIII asr", "category": 2}, {"text": "Turk xoqonligi davri", "category": 0}, {"text": "Somoniylar davri", "category": 1}]},
     "goals": ["Darslik qaysi davr tarixini yoritishini va 'o'rta asrlar' tushunchasining ma'nosini bilish", "O'rta asrlarning bosqichlarini va Turon hududidagi yirik davlatlarni sanab berish"],
     "blocks": [
       { "heading": "Darslik nimani o'rgatadi", "pages": [3],
