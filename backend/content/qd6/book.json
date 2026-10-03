@@ -15215,6 +15215,11 @@
      "start_page": 85,
      "end_page": 87,
      "explanation": {
+      "takeaways": [
+       "Yunoniston tog'li (eng baland cho'qqisi Olimp), O'rta Yer va Egey dengizlari bilan o'ralgan; yunonlar dehqonchilik, chorvachilik va dengizchilik bilan shug'ullangan.",
+       "Mil. avv. 2-mingyillikda Kritda Minoy sivilizatsiyasi paydo bo'lgan; uni axeylar tugatgan.",
+       "Doriylar bostirib kirib, Miken davlatini tugatgan va Sparta vujudga kelgan."
+      ],
       "goals": [
        "Qadimgi Yunonistonning geografik o'rni va mashg'ulotlarini bilish",
        "Minoy va Miken sivilizatsiyalari, axeylar hamda doriylarning o'rnini tushuntirish"
@@ -15481,23 +15486,25 @@
         "question": "Nima uchun yunonlar sohildan yiroqqa suzmagan?",
         "options": [
          "Katta kemalari yo'q, kompas yo'q, kichik qayiqda xatarli edi",
-         "Suzishni bilmasdi",
-         "Dengizdan qo'rqardi",
-         "Fir'avn taqiqlagan"
+         "Suzishni umuman bilmagani uchun",
+         "Dengizdan qattiq qo'rqqani uchun",
+         "Fir'avn taqiqlab qo'ygani uchun"
         ],
         "correct_index": 0,
-        "page": 87
+        "page": 87,
+        "explanation": "Yunonlar sohildan yiroqqa suzmagan, chunki katta kemalar va kompas yo'q, kichik qayiqda esa xatarli edi."
        },
        {
         "question": "Krit sivilizatsiyasi vayron bo'lgach nima bo'lgan?",
         "options": [
          "Ko'p o'tmay qayta tiklangan",
-         "Butunlay yo'q bo'lgan",
-         "Misr tarkibiga kirgan",
-         "Forslarga o'tgan"
+         "Butunlay yo'q bo'lib ketgan",
+         "Misr tarkibiga kirib ketgan",
+         "Forslar qo'liga o'tgan"
         ],
         "correct_index": 0,
-        "page": 86
+        "page": 86,
+        "explanation": "Krit sivilizatsiyasi vayron bo'lgach, ko'p o'tmay qayta tiklangan."
        },
        {
         "question": "Peloponnes yarimorolida qanday o'rmonlar o'sgan?",
@@ -15508,7 +15515,8 @@
          "Palma o'rmonlari"
         ],
         "correct_index": 0,
-        "page": 85
+        "page": 85,
+        "explanation": "Peloponnes yarimorolida ninabargli o'rmonlar o'sgan."
        }
       ]
      },
@@ -15517,12 +15525,13 @@
        "question": "Qadimgi Yunoniston nimalarni o'z ichiga olgan?",
        "options": [
         "Bolqon yarimoroli va O'rta Yer dengizi orollarini",
-        "Faqat Krit orolini",
-        "Kichik Osiyoni",
-        "Italiyani"
+        "Faqat Krit orolini va unga yaqin orollarni",
+        "Kichik Osiyo qirg'oqlari va Misrni",
+        "Italiya yarimoroli va Sitsiliyani"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Qadimgi Yunoniston Bolqon yarimoroli va O'rta Yer dengizi orollarini o'z ichiga olgan."
       },
       {
        "question": "Qadimgi Yunonistonni qaysi dengizlar o'rab turgan?",
@@ -15533,7 +15542,8 @@
         "Boltiq va Shimoliy"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Qadimgi Yunonistonni O'rta Yer va Egey dengizlari o'rab turgan."
       },
       {
        "question": "Yunoniston hududining katta qismini nima egallagan?",
@@ -15544,7 +15554,8 @@
         "Botqoqliklar"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Yunoniston hududining katta qismini tog'lar egallagan."
       },
       {
        "question": "Yunonistonning eng baland cho'qqisi qaysi?",
@@ -15555,7 +15566,8 @@
         "Ararat"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Yunonistonning eng baland cho'qqisi Olimp tog'i."
       },
       {
        "question": "Olimp tog'i mamlakatning qaysi qismida joylashgan?",
@@ -15566,18 +15578,20 @@
         "Sharqida orolda"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Olimp tog'i mamlakatning shimoli-sharqida joylashgan."
       },
       {
        "question": "Serunum dalalar qayerlarda joylashgan?",
        "options": [
         "Tog' daryolari bo'ylarida",
-        "Sahroda",
-        "Qirg'oqda faqat",
-        "Cho'qqilarda"
+        "Sahro o'rtasidagi vohalarda",
+        "Dengiz qirg'og'ining past joylarida",
+        "Tog' cho'qqilarida va qoyalarda"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Serunum dalalar tog' daryolari bo'ylarida joylashgan."
       },
       {
        "question": "Peloponnes yarimorolida qanday o'rmonlar o'sgan?",
@@ -15588,18 +15602,20 @@
         "Bambuk"
        ],
        "correct_index": 0,
-       "page": 85
+       "page": 85,
+       "explanation": "Peloponnes yarimorolida ninabargli o'rmonlar o'sgan."
       },
       {
        "question": "Yunonlar qadim zamonlardan nima bilan shug'ullangan?",
        "options": [
         "Dehqonchilik va chorvachilik",
-        "Faqat ovchilik",
-        "Faqat savdo",
-        "Konchilik"
+        "Faqat ovchilik va termachilik bilan",
+        "Faqat savdo va dengiz talonchiligi bilan",
+        "Konchilik va metall eritish bilan"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Yunonlar qadim zamonlardan dehqonchilik va chorvachilik bilan shug'ullangan."
       },
       {
        "question": "Ilk shahar-davlatlar qachon vujudga kela boshlagan?",
@@ -15610,7 +15626,8 @@
         "Mil. avv. 500-yilda"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Ilk shahar-davlatlar mil. avv. 2-mingyillikda vujudga kela boshlagan."
       },
       {
        "question": "Krit orolidagi sivilizatsiya qanday atalgan?",
@@ -15621,40 +15638,44 @@
         "Afina sivilizatsiyasi"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Krit orolidagi sivilizatsiya Minoy sivilizatsiyasi deb atalgan."
       },
       {
        "question": "Minoy sivilizatsiyasi kimning nomi bilan atalgan?",
        "options": [
         "Afsonaviy podsho Minos",
-        "Podsho Nin",
-        "Sargon I",
-        "Gilgamish"
+        "Ossuriya podshosi Nin nomi bilan",
+        "Akkad podshosi Sargon I nomi bilan",
+        "Uruk podshosi Gilgamish nomi bilan"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Minoy sivilizatsiyasi afsonaviy podsho Minos nomi bilan atalgan."
       },
       {
        "question": "Krit davlatining shahar va manzilgohlari nimalar oqibatida vayron bo'lgan?",
        "options": [
         "Zilzila, kuchli dengiz to'lqinlari va vulqon otilishi",
-        "Faqat urush",
-        "Kasallik",
-        "Qurg'oqchilik"
+        "Faqat uzoq davom etgan urushlar natijasida",
+        "Kasalliklar va keng tarqalgan o'lat tufayli",
+        "Uzoq qurg'oqchilik va ochlik oqibatida"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Krit shahar va manzilgohlari zilzila, kuchli dengiz to'lqinlari va vulqon otilishi oqibatida vayron bo'lgan."
       },
       {
        "question": "Vayron bo'lgan Krit shaharlari keyin nima bo'lgan?",
        "options": [
         "Ko'p o'tmay qayta tiklangan",
-        "Tashlab ketilgan",
-        "Bosib olingan",
-        "Unutilgan"
+        "Butunlay tashlab ketilgan",
+        "Boshqa xalq tomonidan bosib olingan",
+        "Butunlay unutilib ketgan"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Vayron bo'lgan Krit shaharlari ko'p o'tmay qayta tiklangan."
       },
       {
        "question": "Qit'adagi Yunonistondan bostirib kirgan jangovar qabilalar qanday atalgan?",
@@ -15665,7 +15686,8 @@
         "Finikiyaliklar"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Qit'adagi Yunonistondan bostirib kirgan jangovar qabilalar axeylar deb atalgan."
       },
       {
        "question": "Minoy sivilizatsiyasi barbod bo'lishini kim nihoyasiga yetkazgan?",
@@ -15676,18 +15698,20 @@
         "Misrliklar"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Minoy sivilizatsiyasi barbod bo'lishini axeylar nihoyasiga yetkazgan."
       },
       {
        "question": "Doriy qabilalarining bostirib kirishi nimalarga olib keldi?",
        "options": [
         "Miken davlatining tugatilishi va Sparta vujudga kelishiga",
-        "Kritning tiklanishiga",
-        "Afinaning qulashiga",
-        "Misr zabt etilishiga"
+        "Kritning qayta tiklanishiga va gullab-yashnashiga",
+        "Afinaning qulashi va vayron bo'lishiga",
+        "Misrning zabt etilishiga va bo'ysundirilishiga"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Doriy qabilalarining bostirib kirishi Miken davlatining tugatilishi va Sparta vujudga kelishiga olib kelgan."
       },
       {
        "question": "Doriylar Yunonistonning qaysi qismiga bostirib kirgan?",
@@ -15698,7 +15722,8 @@
         "Kichik Osiyoga"
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Doriylar Janubiy Yunonistonga bostirib kirgan."
       },
       {
        "question": "Mikendagi mashhur yodgorlik qaysi?",
@@ -15709,40 +15734,44 @@
         "\"Sfinks\""
        ],
        "correct_index": 0,
-       "page": 86
+       "page": 86,
+       "explanation": "Mikendagi mashhur yodgorlik 'Arslonlar darvozasi'."
       },
       {
        "question": "Yunonlar orasida dengizchilik rivojlanishiga nima imkon bergan?",
        "options": [
         "Egey dengizidagi orollar, qulay qirg'oqlar va qo'ltiqlar",
-        "Katta daryolar",
-        "Baland tog'lar",
-        "Cho'llar"
+        "Ulkan daryolar va ularning suv yo'llari",
+        "Baland tog'lar va dovonlar",
+        "Keng cho'llar va qumli yo'llar"
        ],
        "correct_index": 0,
-       "page": 87
+       "page": 87,
+       "explanation": "Yunonlarda dengizchilik rivojlanishiga Egey dengizidagi orollar, qulay qirg'oqlar va qo'ltiqlar imkon bergan."
       },
       {
        "question": "Yunonlarda qanday muammo bor edi?",
        "options": [
         "Katta kemalar bo'lmagan, kichik eshkakli qayiqlarda uzoqqa suzish xatarli edi",
-        "Dengizga chiqish taqiqlangan",
-        "Dengiz muzlagan",
-        "Kemalar bor edi, ammo suvsiz"
+        "Dengizga chiqish qonun bilan taqiqlangan edi",
+        "Dengiz qishda to'liq muzlab qolar edi",
+        "Kemalar bor edi, lekin ularda suv yetishmasdi"
        ],
        "correct_index": 0,
-       "page": 87
+       "page": 87,
+       "explanation": "Yunonlarda katta kemalar bo'lmagan, kichik eshkakli qayiqlarda uzoqqa suzish xatarli edi."
       },
       {
        "question": "Yunonlar qisqa masofalarga suzishining sababi nima edi?",
        "options": [
         "Kompas yo'q, adashib qolishdan xavfsirashgan",
-        "Vaqt yo'q edi",
-        "Soliq to'lash",
-        "Dushman kuzatgan"
+        "Dengizchilarda vaqt yetishmagani sababli",
+        "Soliq to'lash zarurati sababli",
+        "Dushman kuzatib turgani sababli"
        ],
        "correct_index": 0,
-       "page": 87
+       "page": 87,
+       "explanation": "Kompas bo'lmagani uchun adashib qolishdan xavfsirab, yunonlar qisqa masofalarga suzgan."
       },
       {
        "question": "Tajribali dengizchilar nimadan foydalanib olis yurtlarga suzgan?",
@@ -15753,18 +15782,20 @@
         "Xaritadan faqat"
        ],
        "correct_index": 0,
-       "page": 87
+       "page": 87,
+       "explanation": "Tajribali dengizchilar yelkanlardan foydalanib olis yurtlarga suzgan."
       },
       {
        "question": "Yunon dengizchilari qayerlarga suzib borgan?",
        "options": [
         "Misrga hamda O'rta Yer va Qora dengiz sohillaridagi shaharlarga",
-        "Hindistonga",
-        "Amerikaga",
-        "Xitoyga"
+        "Hindiston va Xitoy qirg'oqlariga",
+        "Amerika va Afrika janubiga",
+        "Britaniya va Skandinaviyaga"
        ],
        "correct_index": 0,
-       "page": 87
+       "page": 87,
+       "explanation": "Yunon dengizchilari Misrga hamda O'rta Yer va Qora dengiz sohillaridagi shaharlarga suzib borgan."
       }
      ]
     },
@@ -15774,6 +15805,11 @@
      "start_page": 88,
      "end_page": 92,
      "explanation": {
+      "takeaways": [
+       "Yunonlar polis (shahar-davlat)larda yashagan; qo'shin asosini goplitlar (og'ir qurollangan askarlar, falanga) tashkil etgan.",
+       "Afina aholisi fuqarolar, meteklar va qullarga bo'lingan; davlat maktablari bo'lmagan, faqat o'g'il bolalar o'qigan.",
+       "Spartada doriylar ilotlarni qul qilgan; hayot harbiy intizomga bo'ysungan, 20 yoshdan hamma yigitlar jangchi bo'lgan."
+      ],
       "goals": [
        "Polis, goplit va falanga tushunchalarini bilish",
        "Afina va Sparta davlatlarining tuzilishi va ta'lim tizimini taqqoslash"
@@ -16063,23 +16099,25 @@
         "question": "Afinada fuqaro bo'lish uchun nima talab qilingan?",
         "options": [
          "Ota-onasi ozod afinalik bo'lgan erkak bo'lish",
-         "Boy bo'lish",
-         "Askar bo'lish",
-         "Pirey aholisi bo'lish"
+         "Boy bo'lib, katta mol-mulkka ega bo'lish",
+         "Askar bo'lib, qo'shinda xizmat qilish",
+         "Pirey aholisi bo'lib, bandargohda yashash"
         ],
         "correct_index": 0,
-        "page": 89
+        "page": 89,
+        "explanation": "Afinada fuqaro bo'lish uchun ota-onasi ozod afinalik bo'lgan erkak bo'lish talab qilingan."
        },
        {
         "question": "Nima uchun Spartada hukmronlikni faqat kuch bilan saqlash mumkin bo'lgan?",
         "options": [
          "Ilotlar spartaliklardan qattiq nafratlangan",
-         "Savdo yo'q edi",
-         "Chet elliklar ko'p edi",
-         "Dengiz yaqin edi"
+         "Savdo butunlay yo'q bo'lgani uchun",
+         "Chet elliklar ko'p bo'lgani uchun",
+         "Dengiz yaqin bo'lgani uchun"
         ],
         "correct_index": 0,
-        "page": 91
+        "page": 91,
+        "explanation": "Spartada hukmronlikni faqat kuch bilan saqlash mumkin bo'lgan, chunki ilotlar spartaliklardan qattiq nafratlangan."
        },
        {
         "question": "Spartalik yigitlar necha yoshda qo'shinga qabul qilingan?",
@@ -16090,7 +16128,8 @@
          "O'ttiz yoshda"
         ],
         "correct_index": 0,
-        "page": 92
+        "page": 92,
+        "explanation": "Spartalik yigitlar yigirma yoshda qo'shinga qabul qilingan."
        }
       ]
      },
@@ -16099,34 +16138,37 @@
        "question": "Yunon shaharlarining ko'pchiligi qanday tashkil topgan?",
        "options": [
         "Bir qancha manzilgohlarning birlashishi yo'li bilan",
-        "Bir qal'a atrofida",
-        "Bosqin natijasida",
-        "Dengiz bo'yida"
+        "Bitta qal'a atrofida to'planish yo'li bilan",
+        "Qo'shni yerlarni bosqin yo'li bilan egallash natijasida",
+        "Faqat dengiz bo'yida kema qurib"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Yunon shaharlarining ko'pchiligi bir qancha manzilgohlarning birlashishi yo'li bilan tashkil topgan."
       },
       {
        "question": "Polislar qanday markazlar bo'lgan?",
        "options": [
         "Hunarmandchilik va savdo-sotiq markazlari",
-        "Faqat harbiy markazlar",
-        "Diniy markazlar",
-        "Ilm markazlari"
+        "Faqat harbiy qal'a va sarbozlar markazi",
+        "Faqat diniy marosimlar markazi",
+        "Faqat ilm-fan va falsafa markazi"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Polislar hunarmandchilik va savdo-sotiq markazlari bo'lgan."
       },
       {
        "question": "Bozor polisda qayerda joylashgan?",
        "options": [
         "Shaharning katta maydonida",
-        "Devor tashqarisida",
-        "Portda",
-        "Ibodatxona ichida"
+        "Shahar devori tashqarisida, daryo bo'yida",
+        "Port yaqinida, dengiz sohilida",
+        "Ibodatxona ichida, ma'bud oldida"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Bozor polisda shaharning katta maydonida joylashgan."
       },
       {
        "question": "Barcha shahar-davlatlar nimaga ega bo'lgan?",
@@ -16137,106 +16179,116 @@
         "Qo'shinsiz"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Barcha shahar-davlatlar o'z qo'shinlariga ega bo'lgan."
       },
       {
        "question": "Qo'shinlarning asosini kimlar tashkil etgan?",
        "options": [
         "Goplitlar - og'ir qurollangan askarlar",
-        "Kamonchilar",
-        "Otliqlar",
-        "Dengizchilar"
+        "Kamonchilar va yengil qurollangan jangchilar",
+        "Otliqlar va aravakashlar",
+        "Dengizchilar va eshkakchilar"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Qo'shinlarning asosini goplitlar - og'ir qurollangan askarlar tashkil etgan."
       },
       {
        "question": "Goplitlar qanday shaklda jang qilgan?",
        "options": [
         "To'rt burchak shaklni hosil qiluvchi zich qatorda",
-        "Doira shaklida",
-        "Tarqoq holda",
-        "Uch qator ochiq safda"
+        "Doira shaklida, yon-yonma turib",
+        "Tarqoq holda, har kim o'zicha",
+        "Uch qator ochiq safda, orasi ochiq"
        ],
        "correct_index": 0,
-       "page": 88
+       "page": 88,
+       "explanation": "Goplitlar to'rt burchak shaklini hosil qiluvchi zich qatorda jang qilgan."
       },
       {
        "question": "Attika yarimoroli qayerda joylashgan?",
        "options": [
         "O'rta Yunonistonning janubi-sharqiy qismida",
-        "Krit oroli yonida",
-        "Shimoliy Yunonistonda",
-        "Kichik Osiyoda"
+        "Krit oroli yonida, dengiz o'rtasida",
+        "Shimoliy Yunonistonda, tog'lar orasida",
+        "Kichik Osiyoda, Egey sohilida"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Attika yarimoroli O'rta Yunonistonning janubi-sharqiy qismida joylashgan."
       },
       {
        "question": "Akropol nima?",
        "options": [
         "\"Yuqori shahar\" deb atalgan qal'a",
-        "Port",
-        "Bozor maydoni",
-        "Ibodatxona nomi"
+        "Afina porti va kemalar to'xtash joyi",
+        "Shahar bozori joylashgan keng maydon",
+        "Ibodatxonaning asosiy nomi"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Akropol - 'Yuqori shahar' deb atalgan qal'a."
       },
       {
        "question": "Afina shahri qanday vujudga kelgan?",
        "options": [
         "Akropol tevaragiga odamlar o'rnashishi bilan",
-        "Dengiz bo'yida qishloqdan",
-        "Sparta bosqini natijasida",
-        "Krit ko'chib kelganlaridan"
+        "Dengiz bo'yidagi baliqchilar qishlog'idan o'sib chiqqan",
+        "Sparta bosqini natijasida qurilgan",
+        "Kritdan ko'chib kelganlar tomonidan barpo etilgan"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Afina shahri Akropol tevaragiga odamlar o'rnashishi bilan vujudga kelgan."
       },
       {
        "question": "Afinada aholining asosiy qismini kimlar tashkil etgan?",
        "options": [
         "Hunarmandlar va savdogarlar",
-        "Dehqonlar",
-        "Harbiylar",
-        "Kohinlar"
+        "Dehqonlar va chorvadorlar",
+        "Harbiylar va sarkardalar",
+        "Kohinlar va ruhoniylar"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Afinada aholining asosiy qismini hunarmandlar va savdogarlar tashkil etgan."
       },
       {
        "question": "Afina aholisi nechta guruhga bo'lingan?",
        "options": [
         "Uchta: fuqarolar, meteklar, qullar",
-        "Ikkita",
-        "To'rtta",
-        "Beshta"
+        "Ikkita: fuqarolar va qullarga",
+        "To'rtta: zodagon, fuqaro, metek va qullarga",
+        "Beshta: har kasbga ko'ra alohida"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Afina aholisi uchta guruhga: fuqarolar, meteklar va qullarga bo'lingan."
       },
       {
        "question": "Metek kim?",
        "options": [
         "Afinadagi chet ellik",
-        "Afina fuqarosi",
-        "Qul",
-        "Harbiy"
+        "Afina fuqarosi va saylov huquqiga ega kishi",
+        "Afinadagi qul va xizmatkor",
+        "Afina qo'shinidagi harbiy"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Metek - Afinada yashovchi chet ellik."
       },
       {
        "question": "Afina fuqarosi kim bo'la olgan?",
        "options": [
         "Ota-onasi ozod afinalik bo'lgan erkaklar",
-        "Har qanday ozod odam",
-        "Boy chet elliklar",
-        "Ayollar"
+        "Har qanday ozod odam, qaerdan kelishidan qat'i nazar",
+        "Boy chet elliklar va savdogarlar",
+        "Ayollar va qizlar, ota-onasidan qat'i nazar"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Afina fuqarosi bo'lishi uchun ota-onasi ozod afinalik bo'lgan erkak bo'lish kerak edi."
       },
       {
        "question": "Faqat fuqarolar nimalardan foydalangan?",
@@ -16247,40 +16299,44 @@
         "Hech qaysidan"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Faqat fuqarolar barcha huquqlardan foydalangan."
       },
       {
        "question": "Pirey bandargohidan mamlakatga nimalar keltirilgan?",
        "options": [
         "Qullar va xilma-xil tovarlar",
-        "Faqat g'alla",
-        "Faqat qurol",
-        "Faqat ipak"
+        "Faqat g'alla va un mahsulotlari",
+        "Faqat qurol-yarog' va zirh",
+        "Faqat ipak va ziravorlar"
        ],
        "correct_index": 0,
-       "page": 89
+       "page": 89,
+       "explanation": "Pirey bandargohidan mamlakatga qullar va xilma-xil tovarlar keltirilgan."
       },
       {
        "question": "Afinada davlat maktablari bo'lganmi?",
        "options": [
         "Yo'q, ota-onalar haq to'lab o'qitgan",
-        "Ha, hamma uchun",
-        "Ha, faqat qizlar uchun",
-        "Ha, faqat boylar uchun"
+        "Ha, hamma bolalar uchun bepul maktablar bor edi",
+        "Ha, faqat qizlar uchun maktablar bor edi",
+        "Ha, faqat boylar uchun maktablar bor edi"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Afinada davlat maktablari bo'lmagan, ota-onalar haq to'lab o'qitgan."
       },
       {
        "question": "Pedagog so'zi yunonchada nima ma'noni anglatadi?",
        "options": [
         "\"Bolani yo'lda kuzatib boruvchi\"",
-        "\"O'qituvchi\"",
-        "\"Bilim egasi\"",
-        "\"Maktab boshlig'i\""
+        "'O'qituvchi va murabbiy' degan ma'noni",
+        "'Bilim egasi va olim' degan ma'noni",
+        "'Maktab boshlig'i va direktor' degan ma'noni"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "'Pedagog' so'zi yunonchada 'bolani yo'lda kuzatib boruvchi' degan ma'noni anglatadi."
       },
       {
        "question": "Qonun bo'yicha kimlar uchun ta'lim olish majburiy bo'lgan?",
@@ -16291,7 +16347,8 @@
         "Faqat boylar farzandlari"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Qonun bo'yicha faqat o'g'il bolalar uchun ta'lim olish majburiy bo'lgan."
       },
       {
        "question": "Bolalarga qaysi yoshdan yozuv va hisob o'rgatilgan?",
@@ -16302,40 +16359,44 @@
         "O'n oltida"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Bolalarga yetti yoshdan yozuv va hisob o'rgatilgan."
       },
       {
        "question": "Harflar nima bilan yozilgan?",
        "options": [
         "Bronza tayoqcha - stil bilan mum surkalgan taxtachalarga",
         "Qamish qalam bilan papirusga",
-        "Mo'yqalam bilan shoyiga",
-        "Tayoqcha bilan loyga"
+        "Mo'yqalam bilan shoyi matoga",
+        "Tayoqcha bilan nam loy taxtachaga"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Harflar bronza tayoqcha - stil bilan mum surkalgan taxtachalarga yozilgan."
       },
       {
        "question": "Palestra nima?",
        "options": [
         "Xususiy gimnastika maktabi",
-        "Davlat maktabi",
-        "Oliy o'quv yurti",
-        "Sport maydoni faqat"
+        "Davlat tomonidan qurilgan oliy maktab",
+        "Falsafa o'rgatiladigan oliy o'quv yurti",
+        "Faqat jangchilar mashq qiladigan sport maydoni"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Palestra - xususiy gimnastika maktabi."
       },
       {
        "question": "Palestrada nimalar o'qitilgan?",
        "options": [
         "Adabiyot, she'r yozish va musiqa san'ati",
-        "Faqat kurash",
-        "Faqat dengizchilik",
-        "Faqat sanoq"
+        "Faqat kurash va sport mashqlari",
+        "Faqat dengizchilik va suzish san'ati",
+        "Faqat sanoq va hisob ishlari"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Palestrada adabiyot, she'r yozish va musiqa san'ati o'qitilgan."
       },
       {
        "question": "O'g'il bolalar qaysi yoshdan gimnastika bilan shug'ullangan?",
@@ -16346,29 +16407,32 @@
         "10 yoshdan"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "O'g'il bolalar 14 yoshdan gimnastika bilan shug'ullangan."
       },
       {
        "question": "Oliy ma'lumot beradigan o'quv yurtlarida kimlar o'qigan?",
        "options": [
         "Faqat o'ta boy ota-onalarning farzandlari",
-        "Hamma fuqarolar",
-        "Qullar",
-        "Kambag'allar"
+        "Hamma fuqarolarning farzandlari, boy-kambag'alligidan qat'i nazar",
+        "Qullarning farzandlari va chet elliklar",
+        "Kambag'al dehqonlarning farzandlari"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Oliy ma'lumot beradigan o'quv yurtlarida faqat o'ta boy ota-onalarning farzandlari o'qigan."
       },
       {
        "question": "Oliy o'quv yurtlarida qaysi fanlar o'qitilgan?",
        "options": [
         "Astronomiya, geometriya, geografiya va tarix",
-        "Faqat falsafa",
-        "Faqat tibbiyot",
-        "Faqat huquq"
+        "Faqat falsafa va mantiq",
+        "Faqat tibbiyot va davolash",
+        "Faqat huquq va notiqlik san'ati"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Oliy o'quv yurtlarida astronomiya, geometriya, geografiya va tarix o'qitilgan."
       },
       {
        "question": "Oliy ta'lim olish muddati qancha davom etgan?",
@@ -16379,7 +16443,8 @@
         "20 yil"
        ],
        "correct_index": 0,
-       "page": 90
+       "page": 90,
+       "explanation": "Oliy ta'lim olish muddati 3-4 yil davom etgan."
       },
       {
        "question": "Sparta davlatiga qaysi qabila asos solgan?",
@@ -16390,7 +16455,8 @@
         "Misrliklar"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Sparta davlatiga doriylar asos solgan."
       },
       {
        "question": "Doriylar Lakonikaga qachon bostirib kirgan?",
@@ -16401,29 +16467,32 @@
         "Mil. avv. XX asrda"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Doriylar Lakonikaga mil. avv. XII asrda bostirib kirgan."
       },
       {
        "question": "Ilotlar kimlar edi?",
        "options": [
         "Spartaliklar qulga aylantirgan mahalliy aholi",
-        "Spartalik jangchilar",
-        "Chet ellik savdogarlar",
-        "Periyeklar"
+        "Spartalik jangchilar va ularning qo'mondonlari",
+        "Chet ellik savdogarlar va dengizchilar",
+        "Spartada huquqi cheklangan periyeklar"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Ilotlar spartaliklar qulga aylantirgan mahalliy aholi edi."
       },
       {
        "question": "Ilotlar qaysi tilda so'zlashgan?",
        "options": [
         "Spartaliklar bilan bir tilda - yunon tilida",
-        "Fors tilida",
-        "Fin tilida",
-        "Misr tilida"
+        "Fors tilida, shimoliy qabilalar kabi",
+        "Fin tilida, uzoq xalqlar kabi",
+        "Misr tilida, qullar kabi"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Ilotlar spartaliklar bilan bir tilda - yunon tilida so'zlashgan."
       },
       {
        "question": "Spartada hukmronlik qanday saqlab qolingan?",
@@ -16434,40 +16503,44 @@
         "Diniy yo'l bilan"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Spartada hukmronlik faqat kuch bilan saqlab qolingan."
       },
       {
        "question": "Sparta qanday shaharga o'xshab qolgan edi?",
        "options": [
         "Urushga tayyorgarlik ko'rayotgan shaharga",
-        "Savdo shahriga",
-        "Ilm markaziga",
-        "Bandargohga"
+        "Savdo shahriga va bozorlar markaziga",
+        "Ilm markaziga va kutubxonalar shahriga",
+        "Bandargohga va kemasozlik markaziga"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Sparta urushga tayyorgarlik ko'rayotgan shaharga o'xshab qolgan edi."
       },
       {
        "question": "Spartaga kimlar kiritilmagan?",
        "options": [
         "Chet elliklar",
-        "Periyeklar",
-        "Ilotlar",
-        "Ayollar"
+        "Periyeklar kiritilmagan",
+        "Ilotlar kiritilmagan",
+        "Ayollar kiritilmagan"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Spartaga chet elliklar kiritilmagan."
       },
       {
        "question": "Spartada qaysi narsalar bo'lmagan?",
        "options": [
         "San'at asarlari va chiroyli ibodatxonalar",
-        "Qo'shin",
-        "Uylar",
-        "Qurollar"
+        "Qo'shin va jangchilar",
+        "Uylar va turarjoylar",
+        "Qurol-aslahalar va dubulg'alar"
        ],
        "correct_index": 0,
-       "page": 91
+       "page": 91,
+       "explanation": "Spartada san'at asarlari va chiroyli ibodatxonalar bo'lmagan."
       },
       {
        "question": "Ilotlar kimning mulki hisoblangan?",
@@ -16478,7 +16551,8 @@
         "Periyeklarning"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Ilotlar butun boshli davlatning mulki hisoblangan."
       },
       {
        "question": "Spartaliklar nima bilan shug'ullangan?",
@@ -16489,29 +16563,32 @@
         "Hunarmandchilik bilan"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Spartaliklar faqat harbiy ish bilan shug'ullangan."
       },
       {
        "question": "Periyeklar kimlar edi?",
        "options": [
         "Spartada to'la-to'kis huquqlarga ega bo'lmagan fuqarolar",
-        "Qullar",
-        "Jangchilar",
-        "Kohinlar"
+        "Spartaning ilotlar deb atalgan qullari",
+        "Spartaning asosiy jangchilari va qo'mondonlari",
+        "Spartaning kohinlari va ruhoniylari"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Periyeklar Spartada to'la-to'kis huquqlarga ega bo'lmagan fuqarolar edi."
       },
       {
        "question": "Spartalik o'smirlar qanday yashagan?",
        "options": [
         "Ota-onalaridan alohida",
-        "Oilada",
-        "Ibodatxonada",
-        "Dalada"
+        "Oilada, ota-onalari qaramog'ida",
+        "Ibodatxonada, kohinlar tarbiyasida",
+        "Dalada, dehqonlar orasida"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Spartalik o'smirlar ota-onalaridan alohida yashagan."
       },
       {
        "question": "Spartalik yigitlar necha yoshdan jangchi bo'lgan?",
@@ -16522,18 +16599,20 @@
         "Qirq yoshdan"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Spartalik yigitlar yigirma yoshdan jangchi bo'lgan."
       },
       {
        "question": "Spartaliklar qo'shinda qancha xizmat qilgan?",
        "options": [
         "Keksa yoshga qadar",
-        "Besh yil",
-        "O'n yil",
-        "Yigirma yil"
+        "Atigi besh yil xizmat qilgan",
+        "Taxminan o'n yil xizmat qilgan",
+        "Yigirma yil xizmat qilib, nafaqaga chiqqan"
        ],
        "correct_index": 0,
-       "page": 92
+       "page": 92,
+       "explanation": "Spartaliklar qo'shinda keksa yoshga qadar xizmat qilgan."
       }
      ]
     },
@@ -16543,6 +16622,11 @@
      "start_page": 93,
      "end_page": 94,
      "explanation": {
+      "takeaways": [
+       "Qarzdor va yer-mulksiz yunonlar mil. avv. VIII-VI asrlarda (Buyuk Yunon koloniyalashtirishi) Sitsiliya, Apennin janubi, O'rta Yer va Qora dengiz bo'ylariga ko'chib, koloniyalar tashkil etgan.",
+       "Koloniyalar shahar-davlatlarga aylanib, o'z hokimlari, qo'shinlari, qonunlari va tangalariga ega bo'lgan (Olviya, Xersones, Pantikapey).",
+       "Yunonlar o'zlarini ellinlar, vatanini Ellada, boshqa xalqlarni 'varvarlar' deb atagan."
+      ],
       "goals": [
        "Yunonlarning nima uchun yangi hududlarni o'zlashtirganini tushuntirish",
        "Koloniyalar, ellinlar va varvarlar tushunchalarini bilish"
@@ -16775,12 +16859,13 @@
         "question": "Nima uchun ko'plab yunonlar vatanini tark etgan?",
         "options": [
          "Zodagonlardan qarzdor, yer-mulksiz bo'lib qolgani uchun",
-         "Fir'avn buyurgani uchun",
-         "Ochlik uchun",
-         "Dushman bosqini uchun"
+         "Fir'avn shunday buyruq bergani uchun",
+         "Ochlik va qahatchilik tufayli",
+         "Dushman bosqini va urush tufayli"
         ],
         "correct_index": 0,
-        "page": 93
+        "page": 93,
+        "explanation": "Ko'plab yunonlar zodagonlardan qarzdor, yer-mulksiz bo'lib qolgani uchun vatanini tark etgan."
        },
        {
         "question": "Koloniyalar sekin-asta nimaga aylana borgan?",
@@ -16791,18 +16876,20 @@
          "Harbiy lagerlarga"
         ],
         "correct_index": 0,
-        "page": 93
+        "page": 93,
+        "explanation": "Koloniyalar sekin-asta shahar-davlatlarga aylanib borgan."
        },
        {
         "question": "Koloniyalarning aholisi kim bilan doimiy aloqada bo'lgan?",
         "options": [
          "Yunoniston polislari bilan",
-         "Fors shohi bilan",
-         "Misr bilan",
-         "Faqat bir-biri bilan"
+         "Fors shohi bilan doimiy ittifoqda",
+         "Misr davlati bilan doimiy aloqada",
+         "Faqat bir-biri bilan aloqada"
         ],
         "correct_index": 0,
-        "page": 94
+        "page": 94,
+        "explanation": "Koloniyalarning aholisi Yunoniston polislari bilan doimiy aloqada bo'lgan."
        }
       ]
      },
@@ -16811,12 +16898,13 @@
        "question": "Qadimgi Yunonistonda kimlar vatanini tark etishga majbur bo'lgan?",
        "options": [
         "Zodagonlardan qarzdor bo'lgan, yer-mulksiz ko'plab odamlar",
-        "Faqat harbiylar",
-        "Faqat kohinlar",
-        "Faqat savdogarlar"
+        "Faqat harbiylar va jangchilar",
+        "Faqat kohinlar va ruhoniylar",
+        "Faqat savdogarlar va hunarmandlar"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Zodagonlardan qarzdor bo'lgan, yer-mulksiz ko'plab odamlar vatanini tark etishga majbur bo'lgan."
       },
       {
        "question": "Olis yo'l qanday edi?",
@@ -16827,18 +16915,20 @@
         "Tekis"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Olis yo'l xavfli edi."
       },
       {
        "question": "Jo'nab ketish oldidan yunonlar nima qilgan?",
        "options": [
         "Ma'budlarga qurbonliklar bag'ishlagan",
-        "Ziyofat bergan",
-        "Xarita chizgan",
-        "Hech narsa qilmagan"
+        "Katta ziyofat uyushtirib",
+        "Yangi yerlar xaritasini chizib",
+        "Hech qanday marosim o'tkazmay"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Jo'nab ketish oldidan yunonlar ma'budlarga qurbonliklar bag'ishlagan."
       },
       {
        "question": "Yunonlar savatchalarda o'zlari bilan nimani olishgan?",
@@ -16849,51 +16939,56 @@
         "Donni"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Yunonlar savatchalarda o'zlari bilan olovni olgan."
       },
       {
        "question": "Savatchalar nimadan tayyorlangan edi?",
        "options": [
         "Loy surtilgan, qamishdan to'qilgan",
-        "Charmdan",
-        "Sopoldan",
-        "Metalldan"
+        "Qalin charmdan tikilgan",
+        "Sopoldan yasalgan",
+        "Metalldan quyilgan"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Savatchalar loy surtilgan, qamishdan to'qilgan edi."
       },
       {
        "question": "Olov ko'chib ketganlar uchun nimani anglatgan?",
        "options": [
         "Umrbod tark etilgan vatanning bir parchasi",
-        "Isinish vositasi faqat",
-        "Ma'bud belgisi",
-        "Kemani yoritish"
+        "Faqat isinish va ovqat pishirish vositasi",
+        "Ma'budning kuchini bildiruvchi belgi",
+        "Kemani kechasi yoritish vositasi"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Olov ko'chib ketganlar uchun umrbod tark etilgan vatanning bir parchasi edi."
       },
       {
        "question": "Yunonistondan ko'chib kelganlar qaysi hududlarga o'rnashgan?",
        "options": [
         "Sitsiliya oroli sohili va Apennin yarimoroli janubiga",
-        "Hindistonga",
-        "Xitoyga",
-        "Amerikaga"
+        "Hindiston va Xitoy qirg'oqlariga",
+        "Amerika qit'asiga",
+        "Skandinaviya yarimoroliga"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Ko'chib kelganlar Sitsiliya oroli sohili va Apennin yarimoroli janubiga o'rnashgan."
       },
       {
        "question": "Yunon manzilgohlari yana qayerlarda vujudga kelgan?",
        "options": [
         "O'rta Yer va Qora dengiz bo'ylarida",
-        "Nil vodiysida",
-        "Sahroda",
-        "Himolayda"
+        "Nil vodiysi va Misr ichkarisida",
+        "Sahroning chuqur ichida",
+        "Himolay tog'lari etagida"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Yunon manzilgohlari O'rta Yer va Qora dengiz bo'ylarida ham vujudga kelgan."
       },
       {
        "question": "Koloniyalar sekin-asta nimaga aylana bordi?",
@@ -16904,40 +16999,44 @@
         "Qal'alarga"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Koloniyalar sekin-asta shahar-davlatlarga aylana borgan."
       },
       {
        "question": "Koloniya shaharlarining nimalari bo'lgan?",
        "options": [
         "O'z hokimlari, qo'shinlari, qonunlari va tangalari",
-        "Faqat qo'shini",
-        "Faqat tangasi",
-        "Hech narsasi"
+        "Faqat o'z qo'shini bo'lgan, boshqasi yo'q",
+        "Faqat o'z tangasi bo'lgan, boshqasi yo'q",
+        "Hech narsasi bo'lmagan, ona shaharga qaragan"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Koloniya shaharlarining o'z hokimlari, qo'shinlari, qonunlari va tangalari bo'lgan."
       },
       {
        "question": "Koloniyalarda nimalar rivojlandi?",
        "options": [
         "Savdo-sotiq va hunarmandchilik",
-        "Faqat dehqonchilik",
-        "Faqat harbiy ish",
-        "Faqat ilm"
+        "Faqat dehqonchilik va chorvachilik",
+        "Faqat harbiy ish va jangchilik",
+        "Faqat ilm-fan va falsafa"
        ],
        "correct_index": 0,
-       "page": 93
+       "page": 93,
+       "explanation": "Koloniyalarda savdo-sotiq va hunarmandchilik rivojlangan."
       },
       {
        "question": "Koloniyalar aholisi kim bilan doimiy aloqada bo'lgan?",
        "options": [
         "Yunoniston polislari bilan",
-        "Fors shohi bilan",
-        "Misr fir'avni bilan",
-        "Hech kim bilan"
+        "Fors shohi bilan sulh asosida",
+        "Misr fir'avni bilan ittifoq asosida",
+        "Hech kim bilan aloqa qilmasdan"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Koloniyalar aholisi Yunoniston polislari bilan doimiy aloqada bo'lgan."
       },
       {
        "question": "Yunonlar o'zini qanday xalq deb hisoblagan?",
@@ -16948,7 +17047,8 @@
         "Varvarlar"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Yunonlar o'zini yagona xalq - ellinlar deb hisoblagan."
       },
       {
        "question": "Yunonlar o'z vatanini nima deb atagan?",
@@ -16959,7 +17059,8 @@
         "Lakonika"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Yunonlar o'z vatanini Ellada deb atagan."
       },
       {
        "question": "Yunonlar yunon bo'lmagan xalqlarni qanday atagan?",
@@ -16970,7 +17071,8 @@
         "\"Meteklar\""
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Yunonlar yunon bo'lmagan xalqlarni 'varvarlar' deb atagan."
       },
       {
        "question": "Quyidagilardan qaysi biri yunon koloniyasi?",
@@ -16981,7 +17083,8 @@
         "Memfis"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Olviya yunon koloniyasi bo'lgan."
       },
       {
        "question": "Xersones va Pantikapey qaysi dengiz bo'yida edi?",
@@ -16992,7 +17095,8 @@
         "Egey dengizi"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Xersones va Pantikapey Qora dengiz bo'yida joylashgan edi."
       },
       {
        "question": "Yunon koloniyalari qachon tashkil topgan?",
@@ -17003,7 +17107,8 @@
         "Milodiy II asrda"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Yunon koloniyalari mil. avv. VIII-VI asrlarda tashkil topgan."
       },
       {
        "question": "Bu davr tarixda qanday nom olgan?",
@@ -17014,7 +17119,8 @@
         "Klassik davr"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Bu davr tarixda Buyuk Yunon koloniyalashtirishi deb nomlangan."
       },
       {
        "question": "Koloniya nomlari orasida qaysi biri darslikda keltirilgan?",
@@ -17025,7 +17131,8 @@
         "Uruk"
        ],
        "correct_index": 0,
-       "page": 94
+       "page": 94,
+       "explanation": "Koloniyalar orasida Pantikapey darslikda keltirilgan."
       }
      ]
     },
@@ -17035,6 +17142,11 @@
      "start_page": 95,
      "end_page": 98,
      "explanation": {
+      "takeaways": [
+       "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan; demokratiya - 'xalq hokimiyati' (demos - xalq, kratos - hokimiyat).",
+       "Drakont (mil. avv. 621) qattiq qonunlar yozgan; Solon (594) aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan.",
+       "Perikl davrida (443-429) Afina eng qudratli bo'lgan; Parfenon qurilgan; ayollar va chet elliklar Xalq majlisida qatnasha olmagan."
+      ],
       "goals": [
        "Demokratiya tushunchasi va Afinada uning shakllanishini bilish",
        "Drakont, Solon va Perikl davri o'zgarishlarini tartib bilan tushuntirish"
@@ -17348,34 +17460,37 @@
         "question": "Nima uchun afinaliklar Drakont qonunlarini \"siyoh qolib, qon bilan yozilgan\" deb atagan?",
         "options": [
          "Qonunlar shu qadar qattiq va ayovsiz ediki",
-         "Ular qon bilan yozilgani uchun",
-         "Ular qizil siyohda yozilgan",
-         "Qonunlar urushda yozilgan"
+         "Ular haqiqatan ham qon bilan yozilgani uchun",
+         "Ular qizil siyohda yozilgani uchun",
+         "Ular qirmizi rangli toshga o'yib yozilgani uchun"
         ],
         "correct_index": 0,
-        "page": 96
+        "page": 96,
+        "explanation": "Drakont qonunlari shu qadar qattiq va ayovsiz ediki, afinaliklar ularni 'siyoh qolib, qon bilan yozilgan' deb atagan."
        },
        {
         "question": "Kim Xalq majlisida qatnasha olmagan?",
         "options": [
          "Ayollar va chet elliklar",
-         "Dehqonlar",
-         "Hunarmandlar",
-         "Savdogarlar"
+         "Dehqonlar va ziroatchilar",
+         "Hunarmandlar va ustalar",
+         "Savdogarlar va yollanma ishchilar"
         ],
         "correct_index": 0,
-        "page": 97
+        "page": 97,
+        "explanation": "Xalq majlisida ayollar va chet elliklar qatnasha olmagan."
        },
        {
         "question": "Sudda ayblanuvchi nima qilishi kerak edi?",
         "options": [
          "O'zini himoya qilishi yoki so'zga usta odamni yollashi",
-         "Faqat jim turishi",
-         "Podshoga murojaat qilishi",
-         "Qurbonlik keltirishi"
+         "Faqat jim turib, hukmni kutishi",
+         "Podshoga yozma ravishda murojaat qilishi",
+         "Ma'budlarga qurbonlik keltirishi"
         ],
         "correct_index": 0,
-        "page": 98
+        "page": 98,
+        "explanation": "Sudda ayblanuvchi o'zini himoya qilishi yoki so'zga usta odamni yollashi kerak edi."
        }
       ]
      },
@@ -17389,7 +17504,8 @@
         "Portda"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Afina shahrida muhim masalalar xalq yig'inida muhokama qilingan."
       },
       {
        "question": "Xalq yig'ilgan shahar maydoni qanday atalgan?",
@@ -17400,7 +17516,8 @@
         "Palestra"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Xalq yig'ilgan shahar maydoni agora deb atalgan."
       },
       {
        "question": "Agora shaharning qayerida joylashgan edi?",
@@ -17411,18 +17528,20 @@
         "Tog' cho'qqisida"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Agora shaharning Akropol tevaragida joylashgan edi."
       },
       {
        "question": "Afinada davlatni qanday boshqarish haqida kimlar fikr bildira olgan?",
        "options": [
         "Barcha erkak fuqarolar",
-        "Faqat zodagonlar",
-        "Faqat kohinlar",
-        "Barcha aholi"
+        "Faqat zodagonlar va ularning vakillari",
+        "Faqat kohinlar va ruhoniylar",
+        "Barcha aholi, jumladan ayollar va qullar"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Afinada davlatni qanday boshqarish haqida barcha erkak fuqarolar fikr bildira olgan."
       },
       {
        "question": "Xalq yig'ini oyiga necha marta yig'ilgan?",
@@ -17433,7 +17552,8 @@
         "Har kuni"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Xalq yig'ini oyiga to'rt marta yig'ilgan."
       },
       {
        "question": "Qarorlar qanday qabul qilingan?",
@@ -17444,7 +17564,8 @@
         "Kohinlar aytishi bilan"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Qarorlar ovoz berish yo'li bilan qabul qilingan."
       },
       {
        "question": "\"Demokratiya\" atamasi nimani anglatadi?",
@@ -17455,7 +17576,8 @@
         "\"Kohinlar hokimiyati\""
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "'Demokratiya' atamasi 'xalq hokimiyati' degan ma'noni anglatadi."
       },
       {
        "question": "\"Demos\" so'zi nima degani?",
@@ -17466,7 +17588,8 @@
         "Qonun"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "'Demos' so'zi xalq degani."
       },
       {
        "question": "\"Kratos\" so'zi nima degani?",
@@ -17477,7 +17600,8 @@
         "Shahar"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "'Kratos' so'zi hokimiyat degani."
       },
       {
        "question": "Hokimlar va sudyalarni kim saylagan?",
@@ -17488,29 +17612,32 @@
         "Strateg"
        ],
        "correct_index": 0,
-       "page": 95
+       "page": 95,
+       "explanation": "Hokimlar va sudyalarni oqsoqollar kengashi saylagan."
       },
       {
        "question": "Oqsoqollar kengashi a'zolari kimlardan bo'lgan?",
        "options": [
         "Faqat Afina aslzodalaridan",
-        "Butun xalqdan",
-        "Hunarmandlardan",
-        "Chet elliklardan"
+        "Butun xalqdan, saylov orqali tanlanganlar",
+        "Hunarmandlar va savdogarlardan iborat vakillar",
+        "Chet elliklar va metek savdogarlaridan"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Oqsoqollar kengashi a'zolari faqat Afina aslzodalaridan bo'lgan."
       },
       {
        "question": "Afina aholisi o'rtasida nizolar nima sababdan vujudga kelgan?",
        "options": [
         "Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun",
-        "Diniy kelishmovchilik tufayli",
-        "Qo'shni davlat bosqini tufayli",
-        "Qurg'oqchilik tufayli"
+        "Diniy kelishmovchilik va ibodat tafovutlari tufayli",
+        "Qo'shni davlat bosqini va urush xavfi tufayli",
+        "Qurg'oqchilik va ochlik sababli"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun Afina aholisi o'rtasida nizolar vujudga kelgan."
       },
       {
        "question": "Adolat xohlagan tomonlar kimga murojaat etgan?",
@@ -17521,7 +17648,8 @@
         "Minosga"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Adolat xohlagan tomonlar Drakontga murojaat etgan."
       },
       {
        "question": "Drakont qonunlari qachon amalga kiritilgan?",
@@ -17532,40 +17660,44 @@
         "Mil. avv. 500-yilda"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Drakont qonunlari mil. avv. 621-yilda amalga kiritilgan."
       },
       {
        "question": "Drakont qonunlariga afinaliklar qanday ta'rif berishgan?",
        "options": [
         "\"Siyoh qolib, qon bilan yozilgan\"",
-        "\"Adolat qonunlari\"",
-        "\"Oltin qonunlar\"",
-        "\"Yumshoq qonunlar\""
+        "\"Adolat qonunlari\" deb",
+        "\"Oltin qonunlar\" deb",
+        "\"Yumshoq qonunlar\" deb"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Afinaliklar Drakont qonunlarini 'siyoh qolib, qon bilan yozilgan' deb atagan."
       },
       {
        "question": "Drakont qonunlarni buzganlik uchun qanday jazo belgilagan?",
        "options": [
         "Bitta jazo - o'lim jazosi",
-        "Jarima",
-        "Surgun",
-        "Qullikka sotish"
+        "Jarima solishni va mol-mulkni tortib olishni",
+        "Shahardan surgun qilishni",
+        "Qullikka sotib yuborishni"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Drakont qonunlarni buzganlik uchun bitta jazo - o'lim jazosini belgilagan."
       },
       {
        "question": "Drakontning oxiri nima bilan tugagan?",
        "options": [
         "Afinaliklar norozi bo'lib, uni shahardan haydab yuborishgan",
-        "U taxtga o'tirgan",
+        "U taxtga o'tirib, podsho bo'lgan",
         "U qatl etilgan",
-        "U Sparta ga ketgan"
+        "U Spartaga ketib qolgan"
        ],
        "correct_index": 0,
-       "page": 96
+       "page": 96,
+       "explanation": "Drakontning oxiri afinaliklar norozi bo'lib, uni shahardan haydab yuborishi bilan tugagan."
       },
       {
        "question": "Zodagonlarga qarshi kim qo'zg'olon ko'targan?",
@@ -17576,18 +17708,20 @@
         "Qo'shni davlat"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Zodagonlarga qarshi xalq qo'zg'olon ko'targan."
       },
       {
        "question": "Solon kim edi?",
        "options": [
         "Xalqqa yon berish tarafdori bo'lgan bilimdon zodagon",
-        "Sparta shohi",
-        "Fors satrapi",
-        "Metek savdogar"
+        "Sparta shohi va jangchi sarkarda",
+        "Fors satrapi va noibi",
+        "Metek savdogar va boy hunarmand"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Solon xalqqa yon berish tarafdori bo'lgan bilimdon zodagon edi."
       },
       {
        "question": "Solon qachon davlatni idora qilish tizimini o'zgartirdi?",
@@ -17598,7 +17732,8 @@
         "Mil. avv. 330-yilda"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Solon davlatni idora qilish tizimini mil. avv. 594-yilda o'zgartirgan."
       },
       {
        "question": "Solon qaysi boshqaruvni qaysisiga almashtirdi?",
@@ -17609,7 +17744,8 @@
         "Tiraniyani oligarxiyaga"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Solon aristokratiyani demokratiyaga almashtirgan."
       },
       {
        "question": "Aristokratiya nima?",
@@ -17620,18 +17756,20 @@
         "Kohinlar hokimiyati"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Aristokratiya - aslzodalar hokimiyati."
       },
       {
        "question": "Solon taklifi bilan nima bekor bo'ldi?",
        "options": [
         "Dehqonlar qarzdorlarni qul qilishi",
-        "Xalq majlisi",
-        "Soliqlar",
-        "Sud"
+        "Xalq majlisi va uning yig'inlari",
+        "Soliqlar va bojlar",
+        "Sud va sudyalar tizimi"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Solon taklifi bilan dehqonlarning qarzdorlarni qul qilishi bekor bo'lgan."
       },
       {
        "question": "Solondan keyin davlat boshqaruvining oliy tashkilotiga nima aylandi?",
@@ -17642,18 +17780,20 @@
         "Xalq sudi"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Solondan keyin davlat boshqaruvining oliy tashkilotiga Xalq majlisi aylangan."
       },
       {
        "question": "Davlatni boshqarishda kimlar ishtirok eta olmagan?",
        "options": [
         "Ayollar va chet elliklar",
-        "Dehqonlar",
-        "Hunarmandlar",
-        "Savdogarlar"
+        "Dehqonlar va ziroatkorlar",
+        "Hunarmandlar va ustalar",
+        "Savdogarlar va ularning vakillari"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Davlatni boshqarishda ayollar va chet elliklar ishtirok eta olmagan."
       },
       {
        "question": "Erkak fuqarolar necha yoshdan Xalq majlisida ishtirok etgan?",
@@ -17664,29 +17804,32 @@
         "40 yoshdan"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Erkak fuqarolar 20 yoshdan Xalq majlisida ishtirok etgan."
       },
       {
        "question": "Xalq majlisining katta qismi kimlardan iborat bo'lgan?",
        "options": [
         "Hunarmandlar, savdogarlar, yollanma ishlovchilar, dehqonlar",
-        "Faqat zodagonlar",
-        "Faqat harbiylar",
-        "Kohinlar"
+        "Faqat zodagonlar va ularning vakillari",
+        "Faqat harbiylar va sarkardalar",
+        "Kohinlar va ibodatxona xizmatchilari"
        ],
        "correct_index": 0,
-       "page": 97
+       "page": 97,
+       "explanation": "Xalq majlisining katta qismini hunarmandlar, savdogarlar, yollanma ishlovchilar va dehqonlar tashkil etgan."
       },
       {
        "question": "Xalq majlisi nimalarga qaror qabul qilgan?",
        "options": [
         "Yangi qonunlarni tasdiqlash, eskilarini bekor qilish, mablag' ajratish",
-        "Faqat urush e'lon qilish",
-        "Faqat soliq undirish",
-        "Faqat sud qilish"
+        "Faqat urush e'lon qilish haqida",
+        "Faqat soliq undirish haqida",
+        "Faqat sud hukmlarini chiqarish haqida"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Xalq majlisi yangi qonunlarni tasdiqlash, eskilarini bekor qilish va mablag' ajratishga qaror qabul qilgan."
       },
       {
        "question": "Beshyuzlar kengashi qanday saylangan?",
@@ -17697,7 +17840,8 @@
         "Meros orqali"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Beshyuzlar kengashi har yili saylangan."
       },
       {
        "question": "Beshyuzlar kengashiga kim rahbarlik qilgan?",
@@ -17708,7 +17852,8 @@
         "Metek"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Beshyuzlar kengashiga strateg rahbarlik qilgan."
       },
       {
        "question": "Xalq sudi faoliyatida necha yoshdan fuqarolar ishtirok etgan?",
@@ -17719,7 +17864,8 @@
         "50 yoshdan"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Xalq sudi faoliyatida 30 yoshdan fuqarolar ishtirok etgan."
       },
       {
        "question": "\"Perikl asri\" qaysi yillarni o'z ichiga oladi?",
@@ -17730,7 +17876,8 @@
         "Mil. avv. 700-yillar"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "'Perikl asri' mil. avv. 443-429-yillarni o'z ichiga oladi."
       },
       {
        "question": "Perikl necha marta strateg lavozimiga saylangan?",
@@ -17741,29 +17888,32 @@
         "30 marotaba"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Perikl 15 marotaba strateg lavozimiga saylangan."
       },
       {
        "question": "Perikl davrida Afinaning holati qanday edi?",
        "options": [
         "Eng qudratli davlat, demokratiya ravnaq topgan",
-        "Zaiflashgan",
-        "Sparta qo'l ostida",
-        "Fors tarkibida"
+        "Kuchsizlanib, tanazzulga yuz tutgan",
+        "Sparta qo'li ostida qolgan",
+        "Fors davlati tarkibiga kirib ketgan"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Perikl davrida Afina eng qudratli davlat bo'lgan va demokratiya ravnaq topgan."
       },
       {
        "question": "Perikl qaysi mashhur kishilar bilan do'st bo'lgan?",
        "options": [
         "Tarixchi Gerodot va haykaltarosh Fidiy",
-        "Xammurapi va Sargon",
-        "Kir II va Doro I",
-        "Budda va Zardusht"
+        "Xammurapi va Sargon I bilan",
+        "Kir II va Doro I bilan",
+        "Budda va Zardusht bilan"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Perikl tarixchi Gerodot va haykaltarosh Fidiy bilan do'st bo'lgan."
       },
       {
        "question": "Perikl Xalq majlisidagi lavozimlarga nimani joriy qildi?",
@@ -17774,29 +17924,32 @@
         "Umrbod lavozimni"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Perikl Xalq majlisidagi lavozimlarga ish haqi to'lashni joriy qilgan."
       },
       {
        "question": "Parfenon nima?",
        "options": [
         "Akropolda qurilgan ma'buda Afina ibodatxonasi",
-        "Afina porti",
-        "Xalq majlisi binosi",
-        "Sud binosi"
+        "Afinadagi Pirey porti nomi",
+        "Xalq majlisi yig'iladigan bino",
+        "Sud majlisi o'tkaziladigan bino"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Parfenon - Akropolda qurilgan ma'buda Afina ibodatxonasi."
       },
       {
        "question": "Kam ta'minlangan oilalar uchun qanday pul jamg'armasi tashkil etilgan?",
        "options": [
         "Teatr-spektakllarni borib ko'rish uchun",
-        "Qurol sotib olish uchun",
-        "Kema qurish uchun",
-        "Maktab uchun"
+        "Qurol-yarog' sotib olish uchun jamg'arma",
+        "Yangi kemalar qurish uchun jamg'arma",
+        "Maktablar qurish uchun jamg'arma"
        ],
        "correct_index": 0,
-       "page": 98
+       "page": 98,
+       "explanation": "Kam ta'minlangan oilalar uchun teatr-spektakllarni borib ko'rish uchun maxsus pul jamg'armasi tashkil etilgan."
       }
      ]
     },
@@ -17806,6 +17959,11 @@
      "start_page": 99,
      "end_page": 102,
      "explanation": {
+      "takeaways": [
+       "Yunon-fors urushlari (mil. avv. 490-449): Marafon, Fermopil (Leonid), Salamin va Plateyada yunonlar g'alaba qozongan.",
+       "Yunon shaharlari o'zaro urushgani sabab Filipp II Makedoniyasi Xeroniya jangida (mil. avv. 338) yunonlarni yengib, ularni o'ziga qaram qilgan.",
+       "Filipp II ning o'g'li Aleksandr suvoriy qo'shinga qo'mondonlik qilgan; Filipp II xoinlarcha o'ldirilgach, Aleksandr hukmdor bo'lgan."
+      ],
       "goals": [
        "Yunon-fors urushlarining asosiy janglarini (Marafon, Fermopil, Salamin, Plateya) tartib bilan bilish",
        "Makedoniyaning Yunonistonni bosib olishi va Xeroniya jangini tushuntirish"
@@ -18140,34 +18298,37 @@
         "question": "Nima uchun yunonlar Salamin jangida g'alaba qozondi?",
         "options": [
          "Birlashgan yunon floti forslar flotidan kuchli bo'lgan",
-         "Forslar kemalari ko'p edi",
-         "Yunonlar temir qurol ishlatgan",
-         "Kserks jangga kelmagan"
+         "Fors kemalari ko'p, ammo og'ir edi",
+         "Yunonlar temir qurol ishlatgan edi",
+         "Kserks jangga umuman kelmagan"
         ],
         "correct_index": 0,
-        "page": 99
+        "page": 99,
+        "explanation": "Salamin jangida yunonlar g'alaba qozongan, chunki birlashgan yunon floti forslar flotidan kuchli edi."
        },
        {
         "question": "Xeroniya jangida makedonlar g'alabani qanday qo'lga kiritdi?",
         "options": [
          "Chekinish hiylasi va Aleksandr suvoriylarining zarbasi bilan",
-         "Dengiz jangi bilan",
-         "Ko'p sonli fillar bilan",
-         "Sulh orqali"
+         "Katta dengiz jangi bilan",
+         "Ko'p sonli jangovar fillar bilan",
+         "Sulh va diplomatik kelishuv orqali"
         ],
         "correct_index": 0,
-        "page": 101
+        "page": 101,
+        "explanation": "Xeroniyada makedonlar g'alabani chekinish hiylasi va Aleksandr suvoriylarining zarbasi bilan qo'lga kiritgan."
        },
        {
         "question": "Filipp II Yunoniston ustidan g'alabadan keyin nima qildi?",
         "options": [
          "O'zini yunonlar podshosi deb e'lon qilmadi, forslarga qarshi ittifoq tuzdi",
-         "O'zini podsho deb e'lon qildi",
-         "Yunonistonni tark etdi",
-         "Shaharlarni buzib tashladi"
+         "O'zini darhol yunonlar podshosi deb e'lon qildi",
+         "Yunonistonni tark etib, Makedoniyaga qaytib ketdi",
+         "Shaharlarni yoqib, aholini qul qilib sotdi"
         ],
         "correct_index": 0,
-        "page": 102
+        "page": 102,
+        "explanation": "Filipp II g'alabadan keyin o'zini yunonlar podshosi deb e'lon qilmadi, forslarga qarshi ittifoq tuzdi."
        }
       ]
      },
@@ -18176,34 +18337,37 @@
        "question": "Yunonistonga forslar qachon tahdid sola boshladi?",
        "options": [
         "Mil. avv. V asr boshlarida",
-        "Mil. avv. XX asrda",
-        "Mil. avv. II asrda",
-        "Milodiy I asrda"
+        "Mil. avv. XX asrda, Misr podsholigi davrida",
+        "Mil. avv. II asrda, Rim davrida",
+        "Milodiy I asrda, imperiya davrida"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Yunonistonga forslar mil. avv. V asr boshlarida tahdid sola boshlagan."
       },
       {
        "question": "Yunonistonga yurishdan oldin Doro I nimani bosib oldi?",
        "options": [
         "Kichik Osiyodagi yunon shahar-davlatlarini",
-        "Misrni",
-        "Hindistonni",
-        "Italiyani"
+        "Misrni va Nil vodiysini",
+        "Hindistonning shimolini",
+        "Italiyaning janubini"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Yunonistonga yurishdan oldin Doro I Kichik Osiyodagi yunon shahar-davlatlarini bosib olgan."
       },
       {
        "question": "Marafon jangi qayerda bo'lgan?",
        "options": [
         "Attika yarimorolining Marafon tekisligida",
-        "Salamin bo'g'ozida",
-        "Fermopil darasida",
-        "Plateya yaqinida"
+        "Salamin bo'g'ozida, dengizda",
+        "Fermopil darasida, tor yo'lda",
+        "Plateya shahri yaqinida, tekislikda"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Marafon jangi Attika yarimorolining Marafon tekisligida bo'lgan."
       },
       {
        "question": "Marafon jangida kim g'alaba qozongan?",
@@ -18214,18 +18378,20 @@
         "Spartaliklar yolg'iz"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Marafon jangida yunonlar g'alaba qozongan."
       },
       {
        "question": "G'alaba xabarini Afinaga kim yetkazgan?",
        "options": [
         "Yaxshi jangchilardan biri, yugurib",
-        "Otliq elchi",
-        "Kema orqali xabarchi",
-        "Kohin"
+        "Otliq elchi tez chopib borib",
+        "Kemada xabarchi suzib kelib",
+        "Kohin ibodatxonadan chiqib"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "G'alaba xabarini Afinaga yaxshi jangchilardan biri yugurib yetkazgan."
       },
       {
        "question": "Jangchi Afinaga necha kilometr yugurgan?",
@@ -18236,7 +18402,8 @@
         "12 kilometr"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Jangchi Afinaga 42 kilometr yugurgan."
       },
       {
        "question": "Uzoq masofaga yugurish nima deb atala boshlagan?",
@@ -18247,51 +18414,56 @@
         "Sparta yugurishi"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Uzoq masofaga yugurish 'marafon yugurishi' deb atala boshlagan."
       },
       {
        "question": "Yunonistonga qarshi mil. avv. 480-yilda kim yurish boshladi?",
        "options": [
         "Doro I ning o'g'li Kserks",
-        "Kir II",
-        "Kambiz II",
-        "Artakserks"
+        "Kir II ning o'g'li Kambiz II",
+        "Doro I ning nabirasi Artakserks",
+        "Midiya podshosi Kiaksar"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Mil. avv. 480-yilda Yunonistonga qarshi Doro I ning o'g'li Kserks yurish boshlagan."
       },
       {
        "question": "Fermopil darasi nima uchun muhim edi?",
        "options": [
         "Yunoniston shimolidan janubiga olib boradigan birdan bir yo'l edi",
-        "U dengizga chiqar edi",
-        "U oltin konlari yonida edi",
-        "U Afinaga yaqin edi"
+        "U to'g'ridan-to'g'ri ochiq dengizga chiqar edi",
+        "U oltin konlari va xazina yonida edi",
+        "U Afina shahriga eng yaqin joyda edi"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Fermopil darasi Yunoniston shimolidan janubiga olib boradigan birdan bir yo'l bo'lgani uchun muhim edi."
       },
       {
        "question": "Fermopilda yunonlar qo'shiniga kim boshchilik qilgan?",
        "options": [
         "Sparta podshosi Leonid",
-        "Perikl",
-        "Solon",
-        "Demosfen"
+        "Afina stratega Perikl",
+        "Qonunchi Solon",
+        "Notiq Demosfen"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Fermopilda yunonlar qo'shiniga Sparta podshosi Leonid boshchilik qilgan."
       },
       {
        "question": "Fermopil jangi tarixda qanday nom bilan qolgan?",
        "options": [
         "\"Uch yuz spartalik jasorati\"",
-        "\"Yunon qahramonligi\"",
-        "\"Qizil dara\"",
-        "\"Leonid yurishi\""
+        "\"Yunon qahramonligi\" nomi bilan",
+        "\"Qizil dara\" nomi bilan",
+        "\"Leonid yurishi\" nomi bilan"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Fermopil jangi tarixda 'uch yuz spartalik jasorati' nomi bilan qolgan."
       },
       {
        "question": "Hal qiluvchi dengiz jangi qayerda bo'lgan?",
@@ -18302,62 +18474,68 @@
         "Krit yonida"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Hal qiluvchi dengiz jangi tor Salamin bo'g'ozida bo'lgan."
       },
       {
        "question": "Salamin jangida kim kuchli bo'lgan?",
        "options": [
         "Yunon shahar-davlatlarining birlashgan floti",
-        "Fors floti",
-        "Fenikiya floti",
-        "Krit floti"
+        "Fors floti, kemalari ko'p edi",
+        "Fenikiya floti, tajribali dengizchilar",
+        "Krit floti, qadimiy kemalar"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Salamin jangida yunon shahar-davlatlarining birlashgan floti kuchli bo'lgan."
       },
       {
        "question": "Salamin mag'lubiyatidan so'ng Kserks nima qildi?",
        "options": [
         "Flot qoldiqlari bilan Yunonistonni tark etdi",
-        "Afinani oldi",
-        "Sulh tuzdi",
-        "Sparta bilan ittifoq qildi"
+        "Afinani egallab, shaharni yoqib yuborgan",
+        "Yunonlar bilan sulh tuzib, tinchlik o'rnatgan",
+        "Sparta bilan ittifoq tuzib, jangni davom ettirgan"
        ],
        "correct_index": 0,
-       "page": 99
+       "page": 99,
+       "explanation": "Salamin mag'lubiyatidan so'ng Kserks flot qoldiqlari bilan Yunonistonni tark etgan."
       },
       {
        "question": "Mil. avv. 479-yilda forslar qayerda tor-mor etildi?",
        "options": [
         "Plateya shahri yaqinida",
-        "Marafonda",
-        "Xeroniyada",
-        "Fermopilda"
+        "Marafon tekisligida",
+        "Xeroniya yaqinida",
+        "Fermopil darasida"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Mil. avv. 479-yilda forslar Plateya shahri yaqinida tor-mor etilgan."
       },
       {
        "question": "Yunon-fors urushlari qachon yakunlandi?",
        "options": [
         "Mil. avv. 449-yildagi sulh natijasida",
-        "Mil. avv. 490-yilda",
-        "Mil. avv. 338-yilda",
-        "Mil. avv. 330-yilda"
+        "Mil. avv. 490-yilda Marafon jangi bilan",
+        "Mil. avv. 338-yilda Xeroniya jangi bilan",
+        "Mil. avv. 330-yilda Fors qulashi bilan"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Yunon-fors urushlari mil. avv. 449-yildagi sulh natijasida yakunlangan."
       },
       {
        "question": "Yunon-fors urushlari qanday natija bilan tugadi?",
        "options": [
         "Yunonlarning to'liq g'alabasi bilan",
-        "Forslar g'alabasi bilan",
-        "Durang bilan",
-        "Makedoniya g'alabasi bilan"
+        "Forslarning to'liq g'alabasi bilan",
+        "Ikki tomonning durangi bilan",
+        "Makedoniyaning g'alabasi bilan"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Yunon-fors urushlari yunonlarning to'liq g'alabasi bilan tugagan."
       },
       {
        "question": "Yunoniston shaharlari o'zaro qanday bo'lgan?",
@@ -18368,29 +18546,32 @@
         "Savdoni to'xtatgan"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Yunoniston shaharlari o'zaro doimiy urushgan."
       },
       {
        "question": "Yunonistonni bosib olishni kim ko'zlagan?",
        "options": [
         "Makedoniya podshosi Filipp II",
-        "Kserks",
-        "Doro I",
-        "Kambiz II"
+        "Fors shohi Kserks",
+        "Fors shohi Doro I",
+        "Fors shohi Kambiz II"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Yunonistonni bosib olishni Makedoniya podshosi Filipp II ko'zlagan."
       },
       {
        "question": "Filipp II qo'shinlari nimalardan tashkil topgan?",
        "options": [
         "Suvoriylar va piyodalardan",
         "Faqat piyodalardan",
-        "Faqat kemalardan",
+        "Faqat dengiz kemalaridan",
         "Faqat kamonchilardan"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Filipp II qo'shinlari suvoriylar va piyodalardan tashkil topgan."
       },
       {
        "question": "Makedoniya piyodalari falangasi necha qatordan iborat edi?",
@@ -18401,7 +18582,8 @@
         "60 qatordan"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Makedoniya piyodalari falangasi 16 qatordan iborat edi."
       },
       {
        "question": "Falanga qanotlarini kimlar himoya qilgan?",
@@ -18412,7 +18594,8 @@
         "Fil qo'shini"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Falanga qanotlarini otliqlar himoya qilgan."
       },
       {
        "question": "Demosfen kim edi?",
@@ -18423,29 +18606,32 @@
         "Haykaltarosh"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Demosfen mashhur notiq edi."
       },
       {
        "question": "Demosfen Ellada aholisini nimaga da'vat etgan?",
        "options": [
         "Birlashib, makedonlarga qarshi kurashishga",
-        "Forslar bilan ittifoqqa",
-        "Sulhga",
-        "Koloniyalar qurishga"
+        "Forslar bilan ittifoq tuzishga",
+        "Makedoniya bilan sulh tuzishga",
+        "Yangi koloniyalar qurishga"
        ],
        "correct_index": 0,
-       "page": 100
+       "page": 100,
+       "explanation": "Demosfen Ellada aholisini birlashib, makedonlarga qarshi kurashishga da'vat etgan."
       },
       {
        "question": "Fiva shahri Filipp II ga qarshi kim bilan ittifoqqa qo'shilgan?",
        "options": [
         "Afina shaharlari ittifoqi bilan",
-        "Sparta bilan",
-        "Fors bilan",
-        "Misr bilan"
+        "Sparta davlati bilan",
+        "Fors davlati bilan",
+        "Misr davlati bilan"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Fiva shahri Filipp II ga qarshi Afina shaharlari ittifoqi bilan ittifoqqa qo'shilgan."
       },
       {
        "question": "Xeroniya jangi qachon bo'lgan?",
@@ -18456,7 +18642,8 @@
         "Mil. avv. 449-yilda"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Xeroniya jangi mil. avv. 338-yilda bo'lgan."
       },
       {
        "question": "Xeroniya qaysi hududda joylashgan?",
@@ -18467,40 +18654,44 @@
         "Peloponnesda"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Xeroniya Beotiyada joylashgan."
       },
       {
        "question": "Xeroniyada makedonlar nima uchun ustunlikni qo'lga olgan?",
        "options": [
         "Harbiy hiyla qo'llab, chekinganday tuyulgan",
-        "Sonlari ko'p edi",
-        "Qurollari temir edi",
-        "Yunonlar jangga kelmadi"
+        "Soni juda ko'p bo'lgani uchun",
+        "Temir qurollar bilan qurollangani uchun",
+        "Yunonlar jangga kelmagani uchun"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Xeroniyada makedonlar chekingandek ko'rinib, harbiy hiyla qo'llab ustunlikni qo'lga olgan."
       },
       {
        "question": "Xeroniya jangida qaqshatqich zarbani kim bergan?",
        "options": [
         "Filipp II ning o'g'li Aleksandr qo'mondonlik qilgan suvoriy qo'shinlar",
-        "Filipp II shaxsan",
-        "Otliq Demosfen",
-        "Makedoniya floti"
+        "Filipp II shaxsan o'zi bergan",
+        "Otliq Demosfen bergan",
+        "Makedoniya floti bergan"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Xeroniya jangida qaqshatqich zarbani Filipp II ning o'g'li Aleksandr qo'mondonlik qilgan suvoriy qo'shinlar bergan."
       },
       {
        "question": "Xeroniya jangidan so'ng Yunoniston qanday holatga tushdi?",
        "options": [
         "Makedoniyaga qaram bo'lib qoldi",
-        "Mustaqil qoldi",
-        "Fors tarkibiga kirdi",
-        "Rim tarkibiga kirdi"
+        "Mustaqil qolib, hech narsa o'zgarmagan",
+        "Fors davlati tarkibiga kirib ketgan",
+        "Rim davlati tarkibiga kirib ketgan"
        ],
        "correct_index": 0,
-       "page": 101
+       "page": 101,
+       "explanation": "Xeroniya jangidan so'ng Yunoniston Makedoniyaga qaram bo'lib qolgan."
       },
       {
        "question": "Filipp II g'alabadan keyin o'zini kim deb e'lon qilmagan?",
@@ -18511,7 +18702,8 @@
         "Ittifoq boshlig'i"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Filipp II g'alabadan keyin o'zini yunonlar podshosi deb e'lon qilmagan."
       },
       {
        "question": "Filipp II yunonlar bilan birlashib nimani tuzgan?",
@@ -18522,7 +18714,8 @@
         "Savdo ittifoqi"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Filipp II yunonlar bilan birlashib forslarga qarshi ittifoq tuzgan."
       },
       {
        "question": "Korinfga qaysi shahar-davlat vakillari kelmagan?",
@@ -18533,40 +18726,44 @@
         "Korinf"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Korinfga Sparta vakillari kelmagan."
       },
       {
        "question": "Korinf ittifoqi a'zolari nimaga kelishgan?",
        "options": [
         "Tinch-totuv yashash, o'zaro urushmaslik, ichki ishlarga aralashmaslikka",
-        "Forslarga o'lpon to'lashga",
-        "Sparta ga qarshi urushga",
+        "Forslarga o'lpon to'lab turishga",
+        "Spartaga qarshi umumiy urush boshlashga",
         "Bir-birini bosib olishga"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Korinf ittifoqi a'zolari tinch-totuv yashash, o'zaro urushmaslik va ichki ishlarga aralashmaslikka kelishgan."
       },
       {
        "question": "Filipp II ning oxiri nima bo'lgan?",
        "options": [
         "Forslarga qarshi yurishni amalga oshira olmay, xoinlarcha o'ldirildi",
-        "Jangda halok bo'ldi",
-        "Kasal bo'lib vafot etdi",
-        "Taxtdan voz kechdi"
+        "Forslar bilan jangda halok bo'lgan",
+        "Uzoq kasallikdan so'ng tabiiy vafot etgan",
+        "Taxtdan o'z ixtiyori bilan voz kechgan"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Filipp II forslarga qarshi yurishni amalga oshira olmay, xoinlarcha o'ldirilgan."
       },
       {
        "question": "Filipp II dan keyin kim hukmdor bo'ldi?",
        "options": [
         "Uning o'g'li Makedoniyalik Aleksandr",
-        "Demosfen",
-        "Leonid",
-        "Kserks"
+        "Notiq Demosfen",
+        "Sparta podshosi Leonid",
+        "Fors shohi Kserks"
        ],
        "correct_index": 0,
-       "page": 102
+       "page": 102,
+       "explanation": "Filipp II dan keyin uning o'g'li Makedoniyalik Aleksandr hukmdor bo'lgan."
       }
      ]
     },
@@ -18576,6 +18773,11 @@
      "start_page": 103,
      "end_page": 104,
      "explanation": {
+      "takeaways": [
+       "Yunon maktablari faol fuqaro va vatan himoyachisini tarbiyalagan; yigitlar ikki yil harbiy ta'lim olgan.",
+       "Olimpiya o'yinlari mil. avv. 776-yildan har to'rt yilda Zevs sharafiga o'tkazilgan; g'oliblar zaytun novdasidan gulchambar olgan.",
+       "O'yinlar davrida urushlar to'xtatilgan; milodiy 394-yilda o'yinlar to'xtagan, 1896-yilda qayta tiklangan."
+      ],
       "goals": [
        "Qadimgi yunonlarda fuqaro tarbiyasi va harbiy ta'limni bilish",
        "Olimpiya o'yinlarining tarixi va an'analarini tushuntirish"
@@ -18843,23 +19045,25 @@
         "question": "Nima uchun o'yinlar davrida urushlar to'xtatilgan?",
         "options": [
          "Odamlar va sportchilar Olimpiyaga eson-omon yetib kelishi uchun",
-         "Zevs buyurgani uchun",
-         "Askarlar toliqqani uchun",
+         "Zevs shunday buyurgani uchun",
+         "Askarlar charchagani uchun",
          "Kohinlar talab qilgani uchun"
         ],
         "correct_index": 0,
-        "page": 104
+        "page": 104,
+        "explanation": "O'yinlar davrida urushlar to'xtatilgan, chunki odamlar va sportchilar Olimpiyaga eson-omon yetib kelishi kerak edi."
        },
        {
         "question": "Olimpiya o'yinlarida kimlar ishtirok etishi mumkin bo'lgan?",
         "options": [
          "Jinoyat sodir etmagan, sha'niga dog' tushmagan ozod yunon",
-         "Har qanday odam",
-         "Faqat boylar",
-         "Faqat spartaliklar"
+         "Har qanday odam, ozod yoki qul bo'lishidan qat'i nazar",
+         "Faqat boy-badavlat zodagonlar",
+         "Faqat spartalik jangchilar"
         ],
         "correct_index": 0,
-        "page": 104
+        "page": 104,
+        "explanation": "Olimpiya o'yinlarida jinoyat sodir etmagan, sha'niga dog' tushmagan ozod yunon ishtirok etishi mumkin edi."
        },
        {
         "question": "Olimpiya o'yinlari nima sababdan man qilingan?",
@@ -18870,7 +19074,8 @@
          "Zevs ibodatxonasi buzilgani uchun"
         ],
         "correct_index": 0,
-        "page": 104
+        "page": 104,
+        "explanation": "Olimpiya o'yinlari xristian dini tarqalishi natijasida man qilingan."
        }
       ]
      },
@@ -18879,23 +19084,25 @@
        "question": "Yunon maktablari kimlarni tarbiyalashi kerak edi?",
        "options": [
         "Faol fuqarolar va davlat himoyachilarini",
-        "Faqat kohinlarni",
-        "Faqat savdogarlarni",
-        "Faqat hunarmandlarni"
+        "Faqat kohinlar va ruhoniylarni",
+        "Faqat savdogarlar va hunarmandlarni",
+        "Faqat zodagonlar va hukmdorlarni"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Yunon maktablari faol fuqarolar va davlat himoyachilarini tarbiyalashi kerak edi."
       },
       {
        "question": "Fuqaro tarbiyasiga yana nima xizmat qilgan?",
        "options": [
         "Sportni rivojlantirish va Olimpiya o'yinlariga ommaviy qiziqish",
-        "Diniy marosimlar",
-        "Dengiz savdosi",
-        "Teatr faqat"
+        "Diniy marosimlar va qurbonliklar",
+        "Dengiz savdosi va koloniyalar",
+        "Faqat teatr tomoshalari"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Fuqaro tarbiyasiga sportni rivojlantirish va Olimpiya o'yinlariga ommaviy qiziqish xizmat qilgan."
       },
       {
        "question": "O'g'il bolalarga bolalikdanoq nimaga muhabbat singdirilgan?",
@@ -18906,7 +19113,8 @@
         "Konchilikka"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "O'g'il bolalarga bolalikdanoq she'riyat va musiqaga muhabbat singdirilgan."
       },
       {
        "question": "Yigitlar umumiy ta'limdan tashqari necha yil harbiy ta'lim olgan?",
@@ -18917,18 +19125,20 @@
         "Uch oy"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Yigitlar umumiy ta'limdan tashqari ikki yil harbiy ta'lim olgan."
       },
       {
        "question": "Harbiy ta'limning birinchi yilida yigitlar nimalarni o'rgangan?",
        "options": [
         "Safda yurish, qurol taqib yurish, ochlik va sovuqqa chidamlilik",
-        "Dengizchilik",
+        "Dengizchilik va kema boshqarish",
         "Chegara qal'alarini himoya qilish",
-        "Savdo"
+        "Savdo va hisob-kitob ishlari"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Harbiy ta'limning birinchi yilida yigitlar safda yurish, qurol taqib yurish, ochlik va sovuqqa chidamlilikni o'rgangan."
       },
       {
        "question": "Birinchi yil yigitlar qayerda yashagan?",
@@ -18939,51 +19149,56 @@
         "Portda"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Birinchi yil yigitlar uylarida yashagan."
       },
       {
        "question": "Ikkinchi yili ayrim yigitlar qayerda harbiy xizmatni o'tagan?",
        "options": [
         "Attika chegara qal'alarida",
         "Sparta chegarasida",
-        "Kritda",
-        "Makedoniyada"
+        "Krit orolida",
+        "Makedoniya hududida"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Ikkinchi yili ayrim yigitlar Attika chegara qal'alarida harbiy xizmatni o'tagan."
       },
       {
        "question": "Boshqa yigitlar ikkinchi yili nimani o'rgangan?",
        "options": [
         "Pirey portida dengizchilik san'ati asoslarini",
-        "Otlarni o'rgatishni",
-        "Qal'a qurishni",
-        "Yozuvni"
+        "Otlarni o'rgatish va chavandozlik",
+        "Qal'a va devor qurish",
+        "Yozuv va hisob ishlarini"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Boshqa yigitlar ikkinchi yili Pirey portida dengizchilik san'ati asoslarini o'rgangan."
       },
       {
        "question": "Mudofaa zarurati tug'ilganda qaysi erkaklar ko'rikka kelishi shart edi?",
        "options": [
         "30 yoshga to'lmaganlarning barchasi",
-        "Faqat boylar",
-        "Faqat qariyalar",
-        "Faqat harbiylar"
+        "Faqat boy zodagonlar va ularning o'g'illari",
+        "Faqat keksa fuqarolar va qariyalar",
+        "Faqat kasbi harbiy bo'lganlar"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Mudofaa zarurati tug'ilganda 30 yoshga to'lmagan erkaklarning barchasi ko'rikka kelishi shart edi."
       },
       {
        "question": "Vatanga muhabbat nimada aks etgan?",
        "options": [
         "Har bir fuqaroning fidoyiligi va jasoratida",
-        "Soliq to'lashda",
-        "Boylikda",
-        "Ibodatda"
+        "Soliqlarni o'z vaqtida to'lashda",
+        "Katta boylik yig'ishda",
+        "Faqat ibodat va qurbonlikda"
        ],
        "correct_index": 0,
-       "page": 103
+       "page": 103,
+       "explanation": "Vatanga muhabbat har bir fuqaroning fidoyiligi va jasoratida aks etgan."
       },
       {
        "question": "Birinchi Olimpiya o'yinlari qayerda va qachon o'tkazilgan?",
@@ -18994,18 +19209,20 @@
         "Korinfda, mil. avv. 338-yilda"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Birinchi Olimpiya o'yinlari Olimpiya shahrida mil. avv. 776-yilda o'tkazilgan."
       },
       {
        "question": "Olimpiya o'yinlari qanday muddatda o'tkazilgan?",
        "options": [
         "Har to'rt yilda bir marta",
-        "Har yili",
-        "Har ikki yilda",
-        "Har o'n yilda"
+        "Har yili bahor kunlarida",
+        "Har ikki yilda bir marta",
+        "Har o'n yilda bir marta"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiya o'yinlari har to'rt yilda bir marta o'tkazilgan."
       },
       {
        "question": "Olimpiada olovi nima bilan yondirilgan?",
@@ -19016,7 +19233,8 @@
         "Toshlarni urib"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiada olovi quyosh nurlarida yondirilgan."
       },
       {
        "question": "Sportchilar qaysi turda bellashgan?",
@@ -19027,18 +19245,20 @@
         "Faqat yugurishda"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Sportchilar beshkurashda bellashgan."
       },
       {
        "question": "Otchopar nima?",
        "options": [
         "Aravalarda va otlarda poyga",
-        "Kurash turi",
-        "Suzish musobaqasi",
-        "Nayza uloqtirish"
+        "Kurash turi va uning qoidalari",
+        "Suzish musobaqasi va uning turi",
+        "Nayza uloqtirish musobaqasi"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Otchopar - aravalarda va otlarda poyga."
       },
       {
        "question": "Olimpiya o'yinlari qaysi xudo sharafiga bag'ishlangan?",
@@ -19049,7 +19269,8 @@
         "Posidon"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiya o'yinlari Zevs sharafiga bag'ishlangan."
       },
       {
        "question": "Afsonalarga ko'ra, Olimpiya o'yinlari asoschisi kim?",
@@ -19060,29 +19281,32 @@
         "Minos"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Afsonalarga ko'ra, Olimpiya o'yinlari asoschisi Gerakl."
       },
       {
        "question": "Olimpiya o'yinlarida kim ishtirok etishi mumkin bo'lgan?",
        "options": [
         "Jinoyat sodir etmagan, sha'niga dog' tushirmagan ozod yunon",
-        "Har qanday odam",
-        "Qullar ham",
-        "Chet elliklar"
+        "Har qanday odam, qul bo'lsa ham",
+        "Qullar ham, xo'jayinining ruxsati bilan",
+        "Chet elliklar va varvarlar ham"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiya o'yinlarida jinoyat sodir etmagan, sha'niga dog' tushirmagan ozod yunon ishtirok etishi mumkin bo'lgan."
       },
       {
        "question": "Uch karra g'alaba qozongan sportchi nimaga haqli bo'lgan?",
        "options": [
         "Olimpiya shahrida o'z haykalini o'rnattirishga",
-        "Podsho bo'lishga",
-        "Soliqdan ozod bo'lishga",
-        "Mulk olishga"
+        "Podsho bo'lib, taxtga o'tirishga",
+        "Umrbod soliqdan ozod bo'lishga",
+        "Katta yer mulkiga ega bo'lishga"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Uch karra g'alaba qozongan sportchi Olimpiya shahrida o'z haykalini o'rnattirishga haqli bo'lgan."
       },
       {
        "question": "Yunonlar yil hisobini nimaga qarab yuritgan?",
@@ -19093,18 +19317,20 @@
         "Nil toshqiniga qarab"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Yunonlar yil hisobini Olimpiya o'yinlariga qarab yuritgan."
       },
       {
        "question": "G'oliblar nima bilan taqdirlangan?",
        "options": [
         "Muqaddas zaytun daraxti novdalaridan to'qilgan gulchambar bilan",
-        "Oltin medal bilan",
-        "Kumush toj bilan",
-        "Pul bilan"
+        "Oltin medal va tilla toj bilan",
+        "Kumush toj va qimmatbaho tosh bilan",
+        "Katta miqdordagi pul mukofoti bilan"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "G'oliblar muqaddas zaytun daraxti novdalaridan to'qilgan gulchambar bilan taqdirlangan."
       },
       {
        "question": "Olimpiya o'yinlari nima sababdan man qilingan?",
@@ -19115,7 +19341,8 @@
         "Sportchilar yetishmagani uchun"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiya o'yinlari xristian dini tarqalishi natijasida man qilingan."
       },
       {
        "question": "Qadimgi Olimpiya o'yinlari qachon butunlay to'xtagan?",
@@ -19126,7 +19353,8 @@
         "1896-yilda"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Qadimgi Olimpiya o'yinlari milodiy 394-yilda butunlay to'xtagan."
       },
       {
        "question": "Olimpiya o'yinlari qachon qayta tiklandi?",
@@ -19137,18 +19365,20 @@
         "1996-yilda"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Olimpiya o'yinlari 1896-yilda qayta tiklangan."
       },
       {
        "question": "Hozirgacha qaysi odat saqlanib qolgan?",
        "options": [
         "O'yinlar ochiladigan kuni mash'ala yoqish",
-        "Zaytun gulchambari faqat",
-        "Otchopar musobaqasi",
-        "Urushlarni to'xtatish faqat"
+        "Faqat zaytun gulchambari berish odati",
+        "Otchopar musobaqasi o'tkazish odati",
+        "Faqat urushlarni to'xtatish odati"
        ],
        "correct_index": 0,
-       "page": 104
+       "page": 104,
+       "explanation": "Bugungacha o'yinlar ochiladigan kuni mash'ala yoqish odati saqlanib qolgan."
       }
      ]
     },
