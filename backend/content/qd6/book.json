@@ -24975,6 +24975,11 @@
      "start_page": 137,
      "end_page": 142,
      "explanation": {
+      "takeaways": [
+       "Qang' davlatiga mil. avv. III asrda saklar asos solgan (Xitoy manbalarida Qang'yuy, poytaxti Qang'diz - Bityan); u o'rta Sirdaryo bo'yida joylashib, milodiy III asrda parchalangan.",
+       "Davan davlati Farg'ona vodiysida paydo bo'lgan (poytaxti Ershi); xitoyliklar uning zotdor 'samoviy otlari' uchun urush qilgan.",
+       "Davanning beda va uzumi Xitoyga tarqalgan; Davan milodiy III asrda barham topgan."
+      ],
       "goals": [
        "Qang' davlatining tashkil topishi, xo'jaligi va dinini bilish",
        "Davan davlati va \"samoviy otlar\" urushi haqida so'zlash"
@@ -25350,34 +25355,37 @@
         "question": "Xitoy imperatori nima uchun \"samoviy otlar\"ga intilgan?",
         "options": [
          "O'zining ilohiy nasl-nasabini va zavol bilmasligini ko'rsatmoqchi bo'lgan",
-         "Savdo qilish uchun",
-         "Ov uchun",
-         "Sport uchun"
+         "Savdo qilib, foyda olish uchun",
+         "Ov qilish va ov san'ati uchun",
+         "Sport musobaqalari uchun"
         ],
         "correct_index": 0,
-        "page": 140
+        "page": 140,
+        "explanation": "Xitoy imperatori 'samoviy otlar'ga o'zining ilohiy nasl-nasabini va zavol bilmasligini ko'rsatmoqchi bo'lgani uchun intilgan."
        },
        {
         "question": "Xitoyliklar nima uchun Ershiga bostirib kirmay sulhga rozi bo'lgan?",
         "options": [
          "Qang' davlatidan madad yetib kelishidan cho'chib",
-         "Qo'shin charchagani uchun faqat",
-         "Suv tugagani uchun",
-         "Ershi taslim bo'lgani uchun"
+         "Qo'shin charchagani va oziq-ovqat tugagani uchun",
+         "Suv tugagani va qamal og'irlashgani uchun",
+         "Imperator buyruq bergani uchun"
         ],
         "correct_index": 0,
-        "page": 141
+        "page": 141,
+        "explanation": "Xitoyliklar Qang' davlatidan madad yetib kelishidan cho'chib, Ershiga bostirib kirmay sulhga rozi bo'lgan."
        },
        {
         "question": "Xitoyliklarni Davanda nima hayratga solgan?",
         "options": [
          "Beda va uzum",
-         "Paxta",
-         "Guruch",
-         "Zaytun"
+         "Paxta va paxta matolari",
+         "Guruch va sholi",
+         "Zaytun va zaytun moyi"
         ],
         "correct_index": 0,
-        "page": 142
+        "page": 142,
+        "explanation": "Xitoyliklarni Davanda beda va uzum hayratga solgan."
        }
       ]
      },
@@ -25391,7 +25399,8 @@
         "Davan"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' davlati Xitoy manbalarida Qang'yuy deb atalgan."
       },
       {
        "question": "Qang' davlatiga qachon va kim asos solgan?",
@@ -25402,18 +25411,20 @@
         "Mil. avv. V asrda yunonlar"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' davlatiga mil. avv. III asrda saklar asos solgan."
       },
       {
        "question": "Qanqa shahar-qal'asi qayerda joylashgan?",
        "options": [
         "Toshkent vohasining Oqqo'rg'on tumanida",
-        "Farg'ona vodiysida",
-        "Xorazmda",
-        "Zarafshon vohasida"
+        "Farg'ona vodiysining markazida",
+        "Xorazm vohasining quyi oqimida",
+        "Zarafshon vohasining Samarqand yaqinida"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qanqa shahar-qal'asi Toshkent vohasining Oqqo'rg'on tumanida joylashgan."
       },
       {
        "question": "Qang' poytaxti Qang'diz Xitoy manbalarida qanday atalgan?",
@@ -25424,29 +25435,32 @@
         "Samoviy"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' poytaxti Qang'diz Xitoy manbalarida Bityan deb atalgan."
       },
       {
        "question": "Qang' davlati qaysi hududlarni qamrab olgan?",
        "options": [
         "O'rta Sirdaryo sohillari bo'ylab yerlarni",
-        "Amudaryo quyi oqimini",
-        "Zarafshon vodiysini",
-        "Surxon vohasini"
+        "Amudaryoning quyi oqimini va Orol bo'yini",
+        "Zarafshon vodiysini va Samarqand atrofini",
+        "Surxon vohasini va Baqtriya yerlarini"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' davlati o'rta Sirdaryo sohillari bo'ylab yerlarni qamrab olgan."
       },
       {
        "question": "Qang' mil. avv. II asr oxirida qanday davlatga aylangan?",
        "options": [
         "Qudratli davlat birlashmasiga",
-        "Kichik amirlikka",
-        "Xitoy viloyatiga",
-        "Parfiya satrapiyasiga"
+        "Kichik amirlikka va Xitoy qaramog'idagi viloyatga",
+        "Xitoy imperiyasining oddiy viloyatiga",
+        "Parfiya davlatining bir satrapiyasiga"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' mil. avv. II asr oxirida qudratli davlat birlashmasiga aylangan."
       },
       {
        "question": "Qang' hukmdorlari nimani zarb qildirgan?",
@@ -25457,40 +25471,44 @@
         "Xaritalarni"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' hukmdorlari o'z tangalarini zarb qildirgan."
       },
       {
        "question": "Qang' davlatining madaniy markazlaridan biri qaysi hudud edi?",
        "options": [
         "Toshkent vohasi",
-        "Xorazm",
-        "Baqtriya",
-        "Marg'iyona"
+        "Xorazm vohasi va Quyi Amudaryo",
+        "Baqtriya va Surxon vohasi",
+        "Marg'iyona va Mari vohasi"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' davlatining madaniy markazlaridan biri Toshkent vohasi edi."
       },
       {
        "question": "Qang' aholisi qaysi ekinlarni ekkan?",
        "options": [
         "Bug'doy, arpa va sholi",
-        "Paxta va zaytun",
-        "Tariq faqat",
-        "Makkajo'xori"
+        "Paxta va zaytun, uzum",
+        "Faqat tariq va arpa",
+        "Makkajo'xori va kartoshka"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Qang' aholisi bug'doy, arpa va sholi ekkan."
       },
       {
        "question": "Vohani o'rab olgan tog'lardan shaharlarga nimalar yetkazilgan?",
        "options": [
         "Temir, mis, qalay va kumush",
-        "Faqat oltin",
-        "Marmar",
-        "Tuz"
+        "Faqat oltin va qimmatbaho toshlar",
+        "Marmar va qurilish toshlari",
+        "Faqat tuz va gips"
        ],
        "correct_index": 0,
-       "page": 137
+       "page": 137,
+       "explanation": "Vohani o'rab olgan tog'lardan shaharlarga temir, mis, qalay va kumush yetkazilgan."
       },
       {
        "question": "Qang'liklar nimalarga sig'ingan?",
@@ -25501,7 +25519,8 @@
         "Tog'larga"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Qang'liklar olov va quyoshga sig'ingan."
       },
       {
        "question": "Shoshtepadagi ibodatxona qanday shaklda edi?",
@@ -25512,40 +25531,44 @@
         "Yulduz shaklida"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Shoshtepadagi ibodatxona doira shaklida edi."
       },
       {
        "question": "Dumaloq shakl nimaning ramzi hisoblangan?",
        "options": [
         "Quyoshning",
-        "Oyning",
-        "Suvning",
-        "Yerning"
+        "Oyning va tun ramzi",
+        "Suvning va daryolar ramzi",
+        "Yerning va hosildorlik ramzi"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Dumaloq shakl quyoshning ramzi hisoblangan."
       },
       {
        "question": "Ko'chmanchi qabilalar qaysi hayvonlarni boqishgan?",
        "options": [
         "Qo'y-echki, tuya va otlarni",
-        "Faqat sigirlarni",
-        "Fillarni",
-        "Cho'chqalarni"
+        "Faqat sigirlarni boqishgan",
+        "Fillar va karkidonlarni boqishgan",
+        "Cho'chqa va yovvoyi to'ng'izlarni boqishgan"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Ko'chmanchi qabilalar qo'y-echki, tuya va otlarni boqishgan."
       },
       {
        "question": "Qang' hududidan qaysi yo'l o'tgan?",
        "options": [
         "Buyuk ipak yo'lining shimoliy tarmog'i",
-        "Janubiy tarmog'i",
-        "Qirol yo'li",
-        "Dengiz yo'li"
+        "Janubiy tarmog'i o'tgan",
+        "Fors qirol yo'li o'tgan",
+        "Dengiz yo'li o'tgan"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Qang' hududidan Buyuk ipak yo'lining shimoliy tarmog'i o'tgan."
       },
       {
        "question": "Qang' davlati qachon parchalanib ketgan?",
@@ -25556,7 +25579,8 @@
         "Mil. avv. I asrda"
        ],
        "correct_index": 0,
-       "page": 138
+       "page": 138,
+       "explanation": "Qang' davlati milodiy III asrda parchalanib ketgan."
       },
       {
        "question": "Davan davlati qayerda joylashgan?",
@@ -25567,7 +25591,8 @@
         "Sug'diyonada"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Davan davlati Farg'ona vodiysida joylashgan."
       },
       {
        "question": "Davan davlati taxminan qachon paydo bo'lgan?",
@@ -25578,7 +25603,8 @@
         "Mil. avv. V asrda"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Davan davlati taxminan mil. avv. III asrda paydo bo'lgan."
       },
       {
        "question": "Chjan Szyan kim edi?",
@@ -25589,7 +25615,8 @@
         "Xitoy imperatori"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Chjan Szyan Xitoy elchisi edi."
       },
       {
        "question": "Chjan Szyan yozishicha, Davanda nechta shahar bor edi?",
@@ -25600,40 +25627,44 @@
         "115 ta"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Chjan Szyan yozishicha, Davanda 70 ta shahar bor edi."
       },
       {
        "question": "Davanliklar haqida elchi nima deb yozgan?",
        "options": [
         "Mehmondo'st va ko'ngli ochiq odamlar",
-        "Urushqoq va qo'pol",
-        "Xasis",
-        "Yovuz"
+        "Urushqoq va qo'pol odamlar deb",
+        "Xasis va xudbin odamlar deb",
+        "Yovuz va ayyor odamlar deb"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Davanliklar haqida elchi ularni mehmondo'st va ko'ngli ochiq odamlar deb yozgan."
       },
       {
        "question": "Xitoyliklar harbiy yurishlarning birida Davanning qaysi shahrini olgan, lekin tashlab chiqqan?",
        "options": [
         "Poytaxt Ershini",
-        "Bityanni",
-        "Qanqani",
-        "Axsikentni"
+        "Bityan shahrini",
+        "Qanqa shahrini",
+        "Axsikent shahrini"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Xitoyliklar harbiy yurishlarning birida Davanning poytaxt Ershi shahrini olgan, lekin tashlab chiqqan."
       },
       {
        "question": "Xitoylarni Davanda ayniqsa nima jalb qilgan?",
        "options": [
         "Zotdor otlar",
-        "Oltin",
-        "Ipak",
-        "Tuz"
+        "Oltin va qimmatbaho toshlar",
+        "Ipak va shoyi matolar",
+        "Tuz va mineral suvlar"
        ],
        "correct_index": 0,
-       "page": 139
+       "page": 139,
+       "explanation": "Xitoylarni Davanda ayniqsa zotdor otlar jalb qilgan."
       },
       {
        "question": "\"Tyanshan\" xitoy tilida nima deb tarjima qilinadi?",
@@ -25644,7 +25675,8 @@
         "\"Qorli cho'qqi\""
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "'Tyanshan' xitoy tilida 'samoviy tog'lar' deb tarjima qilinadi."
       },
       {
        "question": "Samoviy otlarni yana qanday atashgan?",
@@ -25655,51 +25687,56 @@
         "\"Shamol otlari\""
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "Samoviy otlarni yana 'qanotli otlar' deb atashgan."
       },
       {
        "question": "Chopganda samoviy otlarning badanida ter o'rniga nima ko'ringan?",
        "options": [
         "Qon tomchilari",
-        "Suv",
-        "Ko'pik",
-        "Chang"
+        "Oddiy suv va namlik",
+        "Oppoq ko'pik va kir",
+        "Chang va tuproq zarralari"
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "Chopganda samoviy otlarning badanida ter o'rniga qon tomchilari ko'ringan."
       },
       {
        "question": "Imperator Davanga kimni elchi qilib jo'natgan?",
        "options": [
         "Pahlavon Che Lin",
-        "Chjan Szyan",
-        "Farasman",
-        "Diodot"
+        "Chjan Szyanni qayta yuborgan",
+        "Farasmanni yuborgan",
+        "Diodotni yuborgan"
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "Imperator Davanga pahlavon Che Linni elchi qilib jo'natgan."
       },
       {
        "question": "Elchi Davanga nimalar olib borgan?",
        "options": [
         "Sovg'a-salomlar va oltindan yasalgan ot haykalini",
-        "Qurol-yarog'ni",
-        "Ipak va choyni",
-        "Zargarlik buyumlarini faqat"
+        "Qurol-yarog' va zirhlarni",
+        "Ipak va choyni ko'p miqdorda",
+        "Faqat zargarlik buyumlarini"
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "Elchi Davanga sovg'a-salomlar va oltindan yasalgan ot haykalini olib borgan."
       },
       {
        "question": "Davan-Xitoy urushiga nima sabab bo'lgan?",
        "options": [
         "Davan hukmdorining otlarni berishdan bosh tortishi",
-        "Chegara nizosi",
-        "Diniy kelishmovchilik",
-        "Savdo yo'lining yopilishi"
+        "Chegara yerlari bo'yicha nizo",
+        "Diniy kelishmovchilik va e'tiqod nizosi",
+        "Savdo yo'lining yopilib qolishi"
        ],
        "correct_index": 0,
-       "page": 140
+       "page": 140,
+       "explanation": "Davan-Xitoy urushiga Davan hukmdorining otlarni berishdan bosh tortishi sabab bo'lgan."
       },
       {
        "question": "Xitoy lashkarining birinchi yurishi qanday tugagan?",
@@ -25710,7 +25747,8 @@
         "Yurish bo'lmagan"
        ],
        "correct_index": 0,
-       "page": 141
+       "page": 141,
+       "explanation": "Xitoy lashkarining birinchi yurishi mag'lubiyat bilan tugagan."
       },
       {
        "question": "Ershi shahri qamalining qaysi kunida tashqi devor buzilgan?",
@@ -25721,29 +25759,32 @@
         "O'ninchi kunida"
        ],
        "correct_index": 0,
-       "page": 141
+       "page": 141,
+       "explanation": "Ershi shahri qamalining qirqinchi kunida tashqi devor buzilgan."
       },
       {
        "question": "Davan hukmdori qamaldan keyin nima qilgan?",
        "options": [
         "Qal'aga berkinib, sulh muzokaralarini boshlagan",
-        "Qochib ketgan",
-        "Taslim bo'lgan",
-        "Qarshi hujum qilgan"
+        "Qochib ketib, boshqa yurtga yashiringan",
+        "Darhol taslim bo'lib, taxtdan tushgan",
+        "Qarshi hujum qilib, qamalni yorgan"
        ],
        "correct_index": 0,
-       "page": 141
+       "page": 141,
+       "explanation": "Davan hukmdori qamaldan keyin qal'aga berkinib, sulh muzokaralarini boshlagan."
       },
       {
        "question": "Xitoy lashkari tovon sifatida nima olib qaytgan?",
        "options": [
         "Zarur miqdordagi otlarni",
-        "Oltinni",
-        "Qullarni",
-        "Ipakni"
+        "Katta miqdordagi oltinni",
+        "Ko'plab qullarni",
+        "Ipak mato va gazlamalarni"
        ],
        "correct_index": 0,
-       "page": 141
+       "page": 141,
+       "explanation": "Xitoy lashkari tovon sifatida zarur miqdordagi otlarni olib qaytgan."
       },
       {
        "question": "\"Samoviy otlar\" uchun urush necha yil davom etgan?",
@@ -25754,7 +25795,8 @@
         "Bir yil"
        ],
        "correct_index": 0,
-       "page": 142
+       "page": 142,
+       "explanation": "'Samoviy otlar' uchun urush to'rt yil davom etgan."
       },
       {
        "question": "Xitoy hukmdori Davandan olib borilgan urug'lardan nimalar ekkan?",
@@ -25765,7 +25807,8 @@
         "Anor va o'rik"
        ],
        "correct_index": 0,
-       "page": 142
+       "page": 142,
+       "explanation": "Xitoy hukmdori Davandan olib borilgan urug'lardan beda va uzum ekkan."
       },
       {
        "question": "Xitoyda qaysi mevalarning paydo bo'lishi Davan bilan bog'lanadi?",
@@ -25776,18 +25819,20 @@
         "Banan"
        ],
        "correct_index": 0,
-       "page": 142
+       "page": 142,
+       "explanation": "Xitoyda anor va o'rik paydo bo'lishi Davan bilan bog'lanadi."
       },
       {
        "question": "Farg'ona vodiysida qaysi shahar xarobalari o'rganilgan?",
        "options": [
         "Sho'rabashot, Axsikent, Uchqo'rg'on",
-        "Bityan, Qanqa",
-        "Baqtra, Termiz",
-        "Xiva, Tuproqqal'a"
+        "Bityan va Qanqa xarobalari",
+        "Baqtra va Termiz xarobalari",
+        "Xiva va Tuproqqal'a xarobalari"
        ],
        "correct_index": 0,
-       "page": 142
+       "page": 142,
+       "explanation": "Farg'ona vodiysida Sho'rabashot, Axsikent va Uchqo'rg'on xarobalari o'rganilgan."
       },
       {
        "question": "Davan davlati qachon barham topgan?",
@@ -25798,7 +25843,8 @@
         "Mil. avv. II asrda"
        ],
        "correct_index": 0,
-       "page": 142
+       "page": 142,
+       "explanation": "Davan davlati milodiy III asrda barham topgan."
       }
      ]
     },
@@ -25808,6 +25854,11 @@
      "start_page": 143,
      "end_page": 147,
      "explanation": {
+      "takeaways": [
+       "Yuechjilar Yunon-Baqtriyani bosib olgach, milodiy I asrda Kushon davlati tuzilgan; birinchi hukmdor Kudzula Kadfiz, Vima Kadfiz pul islohotini o'tkazgan.",
+       "Kanishka davrida Kushon ulkan imperiyaga aylanib, Hindiston, Xitoy va Rim bilan aloqa o'rnatgan; milodiy III asrda urushlar oqibatida parchalangan.",
+       "Kushon-baqtriya yozuvi aramey alifbosi asosida paydo bo'lgan; buddaviylik Surxon vohasi orqali tarqalgan (Dalvarzintepa, Ayritom, Eski Termiz)."
+      ],
       "goals": [
        "Kushon davlatining tashkil topishi va yuksalishini bilish",
        "Kushon xo'jaligi, yozuvi, dini, me'morchiligi va san'atini tavsiflash"
@@ -26191,23 +26242,25 @@
         "question": "Kushon davlati nima sababdan inqirozga yuz tutgan?",
         "options": [
          "To'xtovsiz urushlar oqibatida",
-         "Qurg'oqchilik tufayli",
-         "Savdo to'xtagani uchun",
-         "Diniy nizolar tufayli"
+         "Uzoq davom etgan qurg'oqchilik tufayli",
+         "Savdo butunlay to'xtagani uchun",
+         "Diniy nizolar va ichki tortishuvlar tufayli"
         ],
         "correct_index": 0,
-        "page": 143
+        "page": 143,
+        "explanation": "Kushon davlati to'xtovsiz urushlar oqibatida inqirozga yuz tutgan."
        },
        {
         "question": "Aramey yozuvining O'rta Osiyoda keng tarqalishiga nima sabab bo'lgan?",
         "options": [
          "Alohida harflarga asoslangani uchun uni o'zlashtirish oson bo'lgan",
-         "U majburan kiritilgani uchun",
-         "Xitoy talab qilgani uchun",
-         "Faqat kohinlar o'rgangani uchun"
+         "U majburan joriy etilgani uchun",
+         "Xitoy imperatori buyurgani uchun",
+         "Faqat kohinlar uni bilgani uchun"
         ],
         "correct_index": 0,
-        "page": 145
+        "page": 145,
+        "explanation": "Aramey yozuvi alohida harflarga asoslangani uchun uni o'zlashtirish oson bo'lgan va u keng tarqalgan."
        }
       ]
      },
@@ -26216,23 +26269,25 @@
        "question": "Yuechji qabilalari kim edi?",
        "options": [
         "Ko'chmanchi qabilalar",
-        "Yunon qo'shini",
-        "Fors satraplari",
-        "Xitoy elchilari"
+        "Yunon qo'shini va ularning jangchilari",
+        "Fors satraplari va ularning noiblari",
+        "Xitoy elchilari va sayohatchilari"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Yuechji qabilalari ko'chmanchi qabilalar edi."
       },
       {
        "question": "Yuechjilar qaysi davlatni bosib olgan?",
        "options": [
         "Yunon-Baqtriyani",
-        "Parfiyani",
-        "Davanni",
-        "Qang'ni"
+        "Parfiya davlatini",
+        "Davan davlatini",
+        "Qang' davlatini"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Yuechjilar Yunon-Baqtriyani bosib olgan."
       },
       {
        "question": "Yuechjilar Yunon-Baqtriyani qachon bosib olgan?",
@@ -26243,7 +26298,8 @@
         "Mil. avv. 323-yilda"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Yuechjilar Yunon-Baqtriyani mil. avv. 140-130-yillar oralig'ida bosib olgan."
       },
       {
        "question": "Kushon davlatiga qachon asos solingan?",
@@ -26254,7 +26310,8 @@
         "Mil. avv. I asrda"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kushon davlatiga milodiy I asrda asos solingan."
       },
       {
        "question": "Kushon xonadoni qaysi qabilalar orasida yuksalgan?",
@@ -26265,18 +26322,20 @@
         "Baqtriyaliklar orasida"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kushon xonadoni yuechjilar orasida yuksalgan."
       },
       {
        "question": "Yuechji qabilalari mulklarini birlashtirgan birinchi kushon hukmdori kim?",
        "options": [
         "Kudzula Kadfiz",
-        "Vima Kadfiz",
-        "Kanishka",
-        "Demetriy"
+        "Vima Kadfiz, ikkinchi hukmdor",
+        "Kanishka, ulkan imperiya hukmdori",
+        "Demetriy, Yunon-Baqtriya hukmdori"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Yuechji qabilalari mulklarini birlashtirgan birinchi kushon hukmdori Kudzula Kadfiz edi."
       },
       {
        "question": "Kudzula Kadfiz davrida qaysi hududlar qo'shib olingan?",
@@ -26287,7 +26346,8 @@
         "Eron va Mesopotamiya"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kudzula Kadfiz davrida Afg'oniston va Kashmir qo'shib olingan."
       },
       {
        "question": "Qaysi podsho davrida Kushon ulkan imperiyaga aylangan?",
@@ -26298,18 +26358,20 @@
         "Diodot"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kanishka davrida Kushon ulkan imperiyaga aylangan."
       },
       {
        "question": "Kanishka davrida Kushon hududiga qaysi yerlar kirgan?",
        "options": [
         "Hindiston, Afg'oniston va O'zbekistonning janubi",
-        "Faqat Baqtriya",
-        "Misr va Yunoniston",
-        "Xorazm va Farg'ona"
+        "Faqat Baqtriya va uning atrofi",
+        "Misr va Yunoniston yerlari",
+        "Xorazm va Farg'ona vohalari"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kanishka davrida Kushon hududiga Hindiston, Afg'oniston va O'zbekistonning janubi kirgan."
       },
       {
        "question": "Kushon podsholigi qaysi davlatlar qatori ulkan imperiya bo'lgan?",
@@ -26320,7 +26382,8 @@
         "Makedoniya, Suriya"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kushon podsholigi Rim, Parfiya va Xitoy qatori ulkan imperiya bo'lgan."
       },
       {
        "question": "Kushon davlati qachon parchalanib ketgan?",
@@ -26331,7 +26394,8 @@
         "Milodiy VIII asrda"
        ],
        "correct_index": 0,
-       "page": 143
+       "page": 143,
+       "explanation": "Kushon davlati milodiy III asrda parchalanib ketgan."
       },
       {
        "question": "Pul islohoti qaysi podsho davrida amalga oshirilgan?",
@@ -26342,29 +26406,32 @@
         "Yevtidem"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Pul islohoti Vima Kadfiz davrida amalga oshirilgan."
       },
       {
        "question": "Pul islohotida tangalarda nima bitilgan?",
        "options": [
         "Hukmdor nomi",
-        "Xudo nomi",
-        "Shahar nomi",
-        "Yil"
+        "Xudo nomi va tasviri bitilgan",
+        "Shahar nomi va uning belgisi bitilgan",
+        "Zarb etilgan yil va sanasi bitilgan"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Pul islohotida tangalarda hukmdor nomi bitilgan."
       },
       {
        "question": "Kushon tangalari nimalardan tayyorlangan?",
        "options": [
         "Oltin, kumush va misdan",
-        "Faqat oltindan",
+        "Faqat sof oltindan",
         "Faqat misdan",
-        "Bronzadan"
+        "Faqat bronzadan"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Kushon tangalari oltin, kumush va misdan tayyorlangan."
       },
       {
        "question": "Kanishka davrida qaysi imperiyalar bilan savdo va elchilik aloqalari o'rnatilgan?",
@@ -26375,51 +26442,56 @@
         "Makedoniya va Suriya"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Kanishka davrida Hindiston, Xitoy va Rim bilan savdo va elchilik aloqalari o'rnatilgan."
       },
       {
        "question": "Kushon xo'jaligining asosi nima edi?",
        "options": [
         "Sug'orma dehqonchilik, savdo-sotiq va hunarmandchilik",
-        "Faqat chorvachilik",
-        "Dengiz savdosi",
-        "Konchilik"
+        "Faqat ko'chmanchi chorvachilik",
+        "Dengiz savdosi va kemasozlik",
+        "Konchilik va metall qazib olish"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Kushon xo'jaligining asosi sug'orma dehqonchilik, savdo-sotiq va hunarmandchilik edi."
       },
       {
        "question": "Kushonlar davrida qaysi ekinlar yetishtirilgan?",
        "options": [
         "Bug'doy, arpa va sholi",
         "Paxta va zaytun",
-        "Tariq",
-        "Makkajo'xori"
+        "Faqat tariq",
+        "Makkajo'xori va kartoshka"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Kushonlar davrida bug'doy, arpa va sholi yetishtirilgan."
       },
       {
        "question": "Kushonlar davrida keng foydalanilgan qurilmalar qaysilar?",
        "options": [
         "Suv tegirmoni va chig'ir",
-        "Bug' mashinasi",
-        "Shamol tegirmoni",
-        "Zambarak"
+        "Bug' mashinasi va uning qismlari",
+        "Shamol tegirmoni va uning parraklari",
+        "Zambarak va uning o'q-dorilari"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Kushonlar davrida suv tegirmoni va chig'irdan keng foydalanilgan."
       },
       {
        "question": "Chig'ir nima?",
        "options": [
         "Suv chiqaradigan moslama",
-        "Qurol",
-        "Kiyim",
-        "Idish"
+        "Jangovar qurol turi",
+        "Kiyim tikish uskunasi",
+        "Idish-tovoq turi"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Chig'ir - suv chiqaradigan moslama."
       },
       {
        "question": "Qaysi biri Kushon davri yodgorligi?",
@@ -26430,18 +26502,20 @@
         "Shoshtepa"
        ],
        "correct_index": 0,
-       "page": 144
+       "page": 144,
+       "explanation": "Dalvarzintepa Kushon davri yodgorligi."
       },
       {
        "question": "Aramey yozuvi nima uchun keng tarqalgan?",
        "options": [
         "Alohida harflarga asoslangani uchun o'zlashtirish oson bo'lgan",
-        "Majburiy edi",
-        "Diniy ahamiyatga ega edi",
-        "Xitoydan kelgan"
+        "Majburan joriy etilgani uchun",
+        "Diniy ahamiyatga ega bo'lgani uchun",
+        "Xitoydan kelgan yozuv bo'lgani uchun"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Aramey yozuvi alohida harflarga asoslangani uchun o'zlashtirish oson bo'lgan va keng tarqalgan."
       },
       {
        "question": "Kushon-baqtriya alifbosi qaysi yozuv asosida paydo bo'lgan?",
@@ -26452,7 +26526,8 @@
         "Ieroglif"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Kushon-baqtriya alifbosi aramey yozuvi asosida paydo bo'lgan."
       },
       {
        "question": "Kushon shaklli yozuvda harflar qanday yozilgan?",
@@ -26463,40 +26538,44 @@
         "Yuqoridan pastga"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Kushon shaklli yozuvda harflar burchakli va aylana shaklida yozilgan."
       },
       {
        "question": "Yunon alifbosidagi kushon bitiklari qayerdan topilgan?",
        "options": [
         "Surxko'tal va Kampirtepadan",
-        "Xolchayondan",
-        "Ayritomdan",
-        "Oqchaxondan"
+        "Xolchayon va Ayritomdan",
+        "Oqchaxon va Tuproqqal'adan",
+        "Baqtra va Termizdan"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Yunon alifbosidagi kushon bitiklari Surxko'tal va Kampirtepadan topilgan."
       },
       {
        "question": "Surxko'tal qayerda joylashgan?",
        "options": [
         "Afg'onistonda, Qunduz shahri yaqinida",
-        "Termiz yaqinida",
-        "Toshkentda",
-        "Xorazmda"
+        "Termiz yaqinida, Amudaryo bo'yida",
+        "Toshkent shahri yaqinida",
+        "Xorazm vohasining markazida"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Surxko'tal Afg'onistonda, Qunduz shahri yaqinida joylashgan."
       },
       {
        "question": "Zarafshon va Qashqadaryo vohalarida qaysi yozuvlar tarqalgan?",
        "options": [
         "Xorazmiy va sug'diy yozuvlar",
-        "Faqat yunon yozuvi",
-        "Kushon shaklli yozuv",
-        "Xitoy yozuvi"
+        "Faqat yunon yozuvi va alifbosi",
+        "Faqat kushon shaklli yozuv",
+        "Xitoy iyeroglif yozuvi"
        ],
        "correct_index": 0,
-       "page": 145
+       "page": 145,
+       "explanation": "Zarafshon va Qashqadaryo vohalarida xorazmiy va sug'diy yozuvlar tarqalgan."
       },
       {
        "question": "Kushon davlati tashkil topayotganda Baqtriya va Sug'diyonaning asosiy aholisi qaysi dinda edi?",
@@ -26507,18 +26586,20 @@
         "Yahudiy"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Kushon davlati tashkil topayotganda Baqtriya va Sug'diyonaning asosiy aholisi zardushtiylik dinida edi."
       },
       {
        "question": "Buddaviylik O'rta Osiyoga qanday kirib kela boshlagan?",
        "options": [
         "Hindistonning shimoliy qismi qo'shib olingach va janubiy hududlar bilan aloqalar o'rnatilgach",
-        "Yunon elchilari orqali",
-        "Fors bosqini orqali",
-        "Xitoy karvonlari orqali faqat"
+        "Yunon elchilari orqali shu yerga kelgan",
+        "Xitoy savdogarlari orqali shu yerga kelgan",
+        "Fors kohinlari orqali shu yerga kelgan"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Buddaviylik O'rta Osiyoga Hindistonning shimoliy qismi qo'shib olingach va janubiy hududlar bilan aloqalar o'rnatilgach kirib kela boshlagan."
       },
       {
        "question": "Qaysi voha orqali buddaviylik O'rta Osiyo bo'ylab tarqala boshlagan?",
@@ -26529,18 +26610,20 @@
         "Zarafshon vohasi"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Buddaviylik O'rta Osiyo bo'ylab Surxon vohasi orqali tarqala boshlagan."
       },
       {
        "question": "Qaysi biri buddaviylik ibodatxonalari bo'lgan joy?",
        "options": [
         "Eski Termiz, Ayritom, Dalvarzintepa",
-        "Oqchaxon, Tuproqqal'a",
-        "Shoshtepa",
-        "Baqtra"
+        "Oqchaxon va Tuproqqal'a Xorazmda",
+        "Shoshtepa Toshkent vohasida",
+        "Baqtra Afg'onistonda"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Eski Termiz, Ayritom va Dalvarzintepa buddaviylik ibodatxonalari bo'lgan joylar."
       },
       {
        "question": "Dalvarzintepa va Eski Termiz shaharlari nimadan qurilgan devorlar bilan o'ralgan?",
@@ -26551,62 +26634,68 @@
         "Yog'ochdan"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Dalvarzintepa va Eski Termiz shaharlari xom g'isht devorlar bilan o'ralgan."
       },
       {
        "question": "Mudofaa devorlari ortida nima joylashgan?",
        "options": [
         "Hukmdor qarorgohi",
-        "Bozor",
-        "Dala",
-        "Qabriston"
+        "Katta bozor va savdo rastalari",
+        "Dalalar va ekinzorlar",
+        "Qabriston va maqbaralar"
        ],
        "correct_index": 0,
-       "page": 146
+       "page": 146,
+       "explanation": "Mudofaa devorlari ortida hukmdor qarorgohi joylashgan."
       },
       {
        "question": "Xolchayonda nima joylashgan?",
        "options": [
         "Kushon hukmdorlari saroyi",
-        "Buddaviylik ibodatxonasi",
-        "Bozor",
-        "Kutubxona"
+        "Buddaviylik ibodatxonasi va stupa",
+        "Katta bozor va do'konlar",
+        "Kutubxona va kitoblar xazinasi"
        ],
        "correct_index": 0,
-       "page": 147
+       "page": 147,
+       "explanation": "Xolchayonda Kushon hukmdorlari saroyi joylashgan."
       },
       {
        "question": "Ayritomda nimalar topilgan?",
        "options": [
         "Do'mbirachi va ud chalayotgan musiqachilar tasviri",
-        "Shaxmat donalari",
-        "Tangalar xazinasi",
-        "Qo'lyozmalar"
+        "Shaxmat donalari va taxtasi",
+        "Tangalar xazinasi va oltin buyumlar",
+        "Qo'lyozmalar va yozma hujjatlar"
        ],
        "correct_index": 0,
-       "page": 147
+       "page": 147,
+       "explanation": "Ayritomda do'mbirachi va ud chalayotgan musiqachilar tasviri topilgan."
       },
       {
        "question": "Dalvarzintepadan nimalar topilgan?",
        "options": [
         "Fil suyagidan yasalgan shaxmat donalari",
-        "Oltin haykal",
-        "Yozuvli teri o'ramalar",
-        "Sopol ossuariylar"
+        "Oltin haykal va uning bezaklari",
+        "Yozuvli teri o'ramalar va hujjatlar",
+        "Sopol ossuariylar va suyakdonlar"
        ],
        "correct_index": 0,
-       "page": 147
+       "page": 147,
+       "explanation": "Dalvarzintepadan fil suyagidan yasalgan shaxmat donalari topilgan."
       },
       {
        "question": "Kushon san'atida qanday uslublar muvofiqlashgan?",
        "options": [
         "Mahalliy, Qadimgi Sharq va ellinistik uslublar",
-        "Faqat fors uslubi",
-        "Faqat xitoy uslubi",
-        "Faqat rim uslubi"
+        "Faqat fors uslubi va naqshlari",
+        "Faqat xitoy uslubi va rasmlari",
+        "Faqat rim uslubi va haykaltaroshligi"
        ],
        "correct_index": 0,
-       "page": 147
+       "page": 147,
+       "explanation": "Kushon san'atida mahalliy, Qadimgi Sharq va ellinistik uslublar muvofiqlashgan."
       }
      ]
     },
@@ -26616,6 +26705,11 @@
      "start_page": 148,
      "end_page": 150,
      "explanation": {
+      "takeaways": [
+       "Buyuk ipak yo'li mil. avv. II asrda vujudga kelib, Sariq dengizdan O'rta Yer dengizigacha 12 ming km cho'zilgan; nomini 1877-yilda F. Rixtgofen bergan.",
+       "Chjan Szyan sayohati yo'lning shakllanishiga sabab bo'lgan: u Farg'ona otlari va beda urug'ini Xitoyga olib borgan.",
+       "Yo'l orqali ipak, otlar, lojuvard, paxta, guruch, uzum va anor almashilgan; O'rta Osiyo yo'lning chorrahasida turgan."
+      ],
       "goals": [
        "Buyuk ipak yo'lining vujudga kelishi va tarmoqlarini bilish",
        "Chjan Szyan sayohati va yo'lning ahamiyatini tushuntirish"
@@ -26920,23 +27014,25 @@
         "question": "Chjan Szyan nima maqsadda yuborilgan?",
         "options": [
          "Hunlarga qarshi ittifoqchi va hamkorlar topish uchun",
-         "Savdo qilish uchun",
-         "Ipak sotish uchun",
-         "Yangi shahar qurish uchun"
+         "Savdo qilish va tovar sotish uchun",
+         "Ipak sotish va narx belgilash uchun",
+         "Yangi shahar qurish va aholi joylashtirish uchun"
         ],
         "correct_index": 0,
-        "page": 149
+        "page": 149,
+        "explanation": "Chjan Szyan hunlarga qarshi ittifoqchi va hamkorlar topish uchun yuborilgan."
        },
        {
         "question": "O'rta Osiyo Buyuk ipak yo'lida qanday o'rinda turgan?",
         "options": [
          "Asosiy yo'nalishlar kesishgan chorrahada",
          "Yo'lning boshlanishida faqat",
-         "Yo'ldan chetda",
-         "Yo'lning oxirida"
+         "Yo'ldan chetda, uzoqda",
+         "Yo'lning oxirida, so'nggi nuqtada"
         ],
         "correct_index": 0,
-        "page": 150
+        "page": 150,
+        "explanation": "O'rta Osiyo Buyuk ipak yo'lida asosiy yo'nalishlar kesishgan chorrahada turgan."
        }
       ]
      },
@@ -26950,7 +27046,8 @@
         "XVI asrda"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'li mil. avv. II asrda vujudga kelgan."
       },
       {
        "question": "Buyuk ipak yo'li qaysi asrga qadar muhim o'rin tutgan?",
@@ -26961,18 +27058,20 @@
         "III asrga qadar"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'li XVI asrga qadar muhim o'rin tutgan."
       },
       {
        "question": "\"Ipak yo'li\" nomini kim bergan?",
        "options": [
         "Nemis geografi F. Rixtgofen",
-        "Chjan Szyan",
-        "Imperator U-Di",
-        "Gerodot"
+        "Xitoy elchisi Chjan Szyan",
+        "Xitoy imperatori U-Di",
+        "Qadimgi yunon tarixchisi Gerodot"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "'Ipak yo'li' nomini nemis geografi F. Rixtgofen bergan."
       },
       {
        "question": "\"Ipak yo'li\" nomi qaysi yilda berilgan?",
@@ -26983,18 +27082,20 @@
         "1880-yilda"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "'Ipak yo'li' nomi 1877-yilda berilgan."
       },
       {
        "question": "Buyuk ipak yo'lidan oldin nima mavjud bo'lgan?",
        "options": [
         "Savdo va madaniy ayirboshlash uchun turli qadimiy yo'llar",
-        "Hech qanday yo'l bo'lmagan",
-        "Faqat dengiz yo'llari",
-        "Faqat harbiy yo'llar"
+        "Hech qanday yo'l bo'lmagan, odamlar yakka yashagan",
+        "Faqat dengiz yo'llari bo'lgan",
+        "Faqat harbiy yo'llar bo'lgan"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'lidan oldin savdo va madaniy ayirboshlash uchun turli qadimiy yo'llar mavjud bo'lgan."
       },
       {
        "question": "Buyuk ipak yo'lining uzunligi qancha edi?",
@@ -27005,40 +27106,44 @@
         "120 kilometr"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'lining uzunligi 12 ming kilometr edi."
       },
       {
        "question": "Buyuk ipak yo'li qayerdan boshlangan?",
        "options": [
         "Sariq dengiz qirg'og'idan",
-        "Qora dengizdan",
-        "Kaspiy dengizidan",
-        "Hind okeanidan"
+        "Qora dengiz qirg'og'idan",
+        "Kaspiy dengizi qirg'og'idan",
+        "Hind okeani sohilidan"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'li Sariq dengiz qirg'og'idan boshlangan."
       },
       {
        "question": "Buyuk ipak yo'li qayergacha borgan?",
        "options": [
         "O'rta Yer dengizi sohillarigacha",
-        "Atlantika okeanigacha",
-        "Hind okeanigacha",
-        "Baltika dengizigacha"
+        "Atlantika okeani sohillarigacha",
+        "Hind okeani sohillarigacha",
+        "Baltika dengizi sohillarigacha"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Buyuk ipak yo'li O'rta Yer dengizi sohillarigacha borgan."
       },
       {
        "question": "Sug'diyonadan Xitoyga nimalar olib borilgan?",
        "options": [
         "Junli matolar, gilamlar, zeb-ziynat va qimmatbaho toshlar",
-        "Guruch",
-        "Tuyalar",
-        "Chigit"
+        "Guruch va sholi mahsulotlari",
+        "Tuyalar va ot-ulov",
+        "Chigit va paxta tolalari"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Sug'diyonadan Xitoyga junli matolar, gilamlar, zeb-ziynat va qimmatbaho toshlar olib borilgan."
       },
       {
        "question": "Baqtriyadan nima olib borilgan?",
@@ -27049,40 +27154,44 @@
         "Guruch"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Baqtriyadan tuyalar olib borilgan."
       },
       {
        "question": "Farg'onadan nima olib borilgan?",
        "options": [
         "Zotli otlar",
-        "Lojuvard",
-        "Gilamlar",
-        "Tuyalar"
+        "Lojuvard va qimmatbaho toshlar",
+        "Gilamlar va junli matolar",
+        "Tuyalar va ot-ulov"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Farg'onadan zotli otlar olib borilgan."
       },
       {
        "question": "Badaxshondan nima olib borilgan?",
        "options": [
         "Lojuvard",
-        "Otlar",
-        "Paxta",
-        "Uzum"
+        "Otlar va zotli ulov",
+        "Paxta va paxta matolari",
+        "Uzum va quritilgan mevalar"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Badaxshondan lojuvard olib borilgan."
       },
       {
        "question": "Hindistondan O'rta Osiyoga nimalar kelgan?",
        "options": [
         "Paxtadan tayyorlangan matolar va chigit",
-        "Guruch",
-        "Otlar",
-        "Yong'oq"
+        "Guruch va sholi donlari",
+        "Otlar va zotli ulov",
+        "Yong'oq va quruq mevalar"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Hindistondan O'rta Osiyoga paxtadan tayyorlangan matolar va chigit kelgan."
       },
       {
        "question": "Xitoydan nima keltirilgan?",
@@ -27093,40 +27202,44 @@
         "Uzum"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "Xitoydan guruch keltirilgan."
       },
       {
        "question": "O'rta Osiyodan Xitoyga nimalar yetkazilgan?",
        "options": [
         "Uzum, yong'oq, anor va boshqa dehqonchilik mahsulotlari",
-        "Guruch",
-        "Paxta matosi",
-        "Nefrit"
+        "Guruch va sholi donlari",
+        "Paxta matolari va chigit",
+        "Nefrit va qimmatbaho toshlar"
        ],
        "correct_index": 0,
-       "page": 148
+       "page": 148,
+       "explanation": "O'rta Osiyodan Xitoyga uzum, yong'oq, anor va boshqa dehqonchilik mahsulotlari yetkazilgan."
       },
       {
        "question": "Chjan Szyanni kim yuborgan?",
        "options": [
         "Xitoy imperatori U-Di",
-        "Kushon podshosi",
-        "Davan hukmdori",
-        "Rixtgofen"
+        "Kushon podshosi Kanishka",
+        "Davan hukmdori Yevtidem",
+        "Nemis geografi Rixtgofen"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyanni Xitoy imperatori U-Di yuborgan."
       },
       {
        "question": "Chjan Szyan yuborilishining sababi nima edi?",
        "options": [
         "Hunlarga qarshi ittifoqchilar topish",
-        "Ot sotib olish",
-        "Ipak sotish",
-        "Din tarqatish"
+        "Ot sotib olish va ot-ulov olib kelish uchun",
+        "Ipak sotish va savdo qilish uchun",
+        "Yangi din tarqatish uchun"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan hunlarga qarshi ittifoqchilar topish uchun yuborilgan."
       },
       {
        "question": "Chjan Szyan kimlarning qo'liga asir tushgan?",
@@ -27137,7 +27250,8 @@
         "Davanliklarning"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan hunlarning qo'liga asir tushgan."
       },
       {
        "question": "Chjan Szyan asirlikda qancha vaqt bo'lgan?",
@@ -27148,7 +27262,8 @@
         "Bir oy"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan asirlikda o'n yilcha bo'lgan."
       },
       {
        "question": "Chjan Szyan Farg'onaga qaysi daryo bo'ylab kelgan?",
@@ -27159,7 +27274,8 @@
         "Nil bo'ylab"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan Farg'onaga Norin daryosi bo'ylab kelgan."
       },
       {
        "question": "Chjan Szyan Xitoyga qaytishda qaysi vodiydan o'tgan?",
@@ -27170,84 +27286,92 @@
         "Xorazm vohasidan"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan Xitoyga qaytishda Oloy vodiysidan o'tgan."
       },
       {
        "question": "Chjan Szyan Xitoyga nimalarni olib kelgan?",
        "options": [
         "Farg'ona otlaridan birini va beda urug'ini",
-        "Ipak qurtini",
-        "Uzum va anorni faqat",
-        "Oltin tangalarni"
+        "Ipak qurti va tut urug'ini",
+        "Uzum va anor ko'chatlarini",
+        "Oltin tangalar va zargarlik buyumlarini"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Chjan Szyan Xitoyga Farg'ona otlaridan birini va beda urug'ini olib kelgan."
       },
       {
        "question": "Imperator U-Di beda urug'ini qayerga ektirgan?",
        "options": [
         "O'z saroyi yaqiniga",
-        "Chegarada",
-        "Dengiz bo'yiga",
-        "Tog'ga"
+        "Chegara hududidagi dalalarga",
+        "Dengiz bo'yidagi yerlarga",
+        "Tog' yonbag'irlariga"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Imperator U-Di beda urug'ini o'z saroyi yaqiniga ektirgan."
       },
       {
        "question": "Buyuk ipak yo'li qaysi yo'l asosida shakllangan?",
        "options": [
         "Chjan Szyan yurgan yo'l asosida",
-        "Aleksandr yo'li asosida",
-        "Qirol yo'li asosida",
-        "Gerodot yo'li asosida"
+        "Aleksandr yurishi yo'li asosida",
+        "Fors qirol yo'li asosida",
+        "Gerodot tasvirlagan yo'l asosida"
        ],
        "correct_index": 0,
-       "page": 149
+       "page": 149,
+       "explanation": "Buyuk ipak yo'li Chjan Szyan yurgan yo'l asosida shakllangan."
       },
       {
        "question": "Buyuk ipak yo'li nimalarga xizmat qilgan?",
        "options": [
         "Sharq va G'arb o'rtasidagi madaniy va savdo aloqalarini kengaytirishga",
-        "Faqat harbiy yurishlarga",
-        "Faqat ipak sotishga",
-        "Diniy ziyoratlarga"
+        "Faqat harbiy yurishlarni tashkil etishga",
+        "Faqat ipak mahsulotini sotishga",
+        "Faqat diniy ziyoratchilar yurishiga"
        ],
        "correct_index": 0,
-       "page": 150
+       "page": 150,
+       "explanation": "Buyuk ipak yo'li Sharq va G'arb o'rtasidagi madaniy va savdo aloqalarini kengaytirishga xizmat qilgan."
       },
       {
        "question": "Buyuk ipak yo'li tarixi nimaning asosini tashkil etgan?",
        "options": [
         "Tinchlik va taraqqiyotning",
-        "Urushlarning",
-        "Mustamlakaning",
-        "Qullikning"
+        "Urushlar va bosqinlarning asosini",
+        "Mustamlaka va talonchilikning asosini",
+        "Qullik va asirlikning asosini"
        ],
        "correct_index": 0,
-       "page": 150
+       "page": 150,
+       "explanation": "Buyuk ipak yo'li tarixi tinchlik va taraqqiyotning asosini tashkil etgan."
       },
       {
        "question": "O'rta Osiyo yo'lning qayerida joylashgan edi?",
        "options": [
         "Asosiy yo'nalishlar kesib o'tadigan chorrahada",
-        "Boshlanish nuqtasida",
-        "Oxirgi nuqtasida",
-        "Yo'ldan uzoqda"
+        "Yo'lning boshlanish nuqtasida",
+        "Yo'lning oxirgi nuqtasida",
+        "Yo'ldan chetda, uzoqda"
        ],
        "correct_index": 0,
-       "page": 150
+       "page": 150,
+       "explanation": "O'rta Osiyo yo'lning asosiy yo'nalishlar kesib o'tadigan chorrahasida joylashgan edi."
       },
       {
        "question": "O'rta Osiyoga turli mamlakatlardan kimlar kelib turgan?",
        "options": [
         "Savdogarlar, hunarmandlar, olimlar va san'atkorlar",
-        "Faqat askarlar",
-        "Faqat kohinlar",
-        "Faqat dehqonlar"
+        "Faqat askarlar va qo'shin boshliqlari",
+        "Faqat kohinlar va ruhoniylar",
+        "Faqat dehqonlar va chorvadorlar"
        ],
        "correct_index": 0,
-       "page": 150
+       "page": 150,
+       "explanation": "O'rta Osiyoga turli mamlakatlardan savdogarlar, hunarmandlar, olimlar va san'atkorlar kelib turgan."
       }
      ]
     }
@@ -27263,6 +27387,11 @@
      "start_page": 151,
      "end_page": 153,
      "explanation": {
+      "takeaways": [
+       "Italiya Apennin yarimorolida joylashgan ('buzoqchalar mamlakati'); iqlimi iliq, tuprog'i unumdor, aholi dehqonchilik va chorvachilik bilan shug'ullangan.",
+       "Shimoli-g'arbda etrusklar yashagan (12 shahar-davlat); Rim Tibr daryosi bo'yida yettita tepalikda joylashgan.",
+       "Rivoyatga ko'ra, Rimga mil. avv. 753-yilda Romul va Rem asos solgan; mil. avv. 509-yilda Tarkviniy haydalgach, respublika tuzilgan."
+      ],
       "goals": [
        "Italiyaning tabiiy sharoiti va qadimgi aholisini bilish",
        "Rimga asos solinishi haqidagi rivoyatni hikoya qilish",
@@ -27569,23 +27698,25 @@
         "question": "Rimning yettita tepalikda joylashishi nima uchun qulay bo'lgan?",
         "options": [
          "Harbiy nuqtayi nazardan qulay bo'lgan",
-         "Savdo uchun",
-         "Dehqonchilik uchun",
-         "Dengizga yaqin bo'lgani uchun"
+         "Savdo uchun qulay bo'lgan",
+         "Dehqonchilik uchun qulay bo'lgan",
+         "Dengizga yaqin bo'lgani uchun qulay"
         ],
         "correct_index": 0,
-        "page": 152
+        "page": 152,
+        "explanation": "Rimning yettita tepalikda joylashishi harbiy nuqtayi nazardan qulay bo'lgan."
        },
        {
         "question": "Rimliklar Tarkviniyni nima uchun haydab yuborgan?",
         "options": [
          "U saylangan hukmdorni o'ldirib, hokimiyatni egallagani uchun",
-         "U soliq oshirgani uchun",
-         "U urushda yengilgani uchun",
-         "U dinni o'zgartirgani uchun"
+         "U soliqlarni oshirib yuborgani uchun",
+         "U urushda yengilib qolgani uchun",
+         "U dinni o'zgartirmoqchi bo'lgani uchun"
         ],
         "correct_index": 0,
-        "page": 153
+        "page": 153,
+        "explanation": "Rimliklar Tarkviniyni saylangan hukmdorni o'ldirib, hokimiyatni egallagani uchun haydab yuborgan."
        }
       ]
      },
@@ -27599,40 +27730,44 @@
         "Pireney yarimorolida"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Italiya Apennin yarimorolida joylashgan."
       },
       {
        "question": "Italiya iqlimi qanday edi?",
        "options": [
         "Iliq, qurg'oqchilik ham, qattiq sovuq ham bo'lmagan",
-        "Quruq va issiq",
+        "Quruq va juda issiq",
         "Sovuq va qorli",
         "Nam va issiq"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Italiya iqlimi iliq bo'lib, na qurg'oqchilik, na qattiq sovuq bo'lgan."
       },
       {
        "question": "Qadimgi Italiya aholisining asosiy mashg'uloti nima edi?",
        "options": [
         "Dehqonchilik va chorvachilik",
-        "Dengiz savdosi",
-        "Konchilik",
-        "Baliq ovi"
+        "Dengiz savdosi va kemachilik",
+        "Konchilik va metall qazish",
+        "Baliq ovi va dengiz mahsulotlari"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Qadimgi Italiya aholisining asosiy mashg'uloti dehqonchilik va chorvachilik edi."
       },
       {
        "question": "\"Italiya\" so'zi qanday ma'noni bildiradi?",
        "options": [
         "\"Buzoqchalar mamlakati\"",
-        "\"Quyosh yurti\"",
-        "\"Tog'lar yurti\"",
-        "\"Dengiz mamlakati\""
+        "'Quyosh yurti' degan ma'noni",
+        "'Tog'lar yurti' degan ma'noni",
+        "'Dengiz mamlakati' degan ma'noni"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "'Italiya' so'zi 'buzoqchalar mamlakati' degan ma'noni bildiradi."
       },
       {
        "question": "Yunonlar Italiya sohillarida nima uchun ajoyib o'tloqlar topgan?",
@@ -27643,7 +27778,8 @@
         "Uzum yetishtirish uchun"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Yunonlar Italiya sohillarida sigirlarni o'tlatish uchun ajoyib o'tloqlar topgan."
       },
       {
        "question": "Apennin yarimorolidagi eng katta daryo qaysi?",
@@ -27654,7 +27790,8 @@
         "Dajla"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Apennin yarimorolidagi eng katta daryo Po."
       },
       {
        "question": "Yarimorol qabilalari qanday atalgan?",
@@ -27665,18 +27802,20 @@
         "Finikiyaliklar"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Yarimorol qabilalari italiklar deb atalgan."
       },
       {
        "question": "Etrusklar Italiyaning qaysi qismida yashagan?",
        "options": [
         "Shimoli-g'arbiy qismida",
-        "Janubiy qismida",
-        "Sharqiy qismida",
-        "Markaziy orolda"
+        "Janubiy qismida, Sitsiliya yonida",
+        "Sharqiy qismida, Adriatika bo'yida",
+        "Markaziy orolda, dengiz o'rtasida"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklar Italiyaning shimoli-g'arbiy qismida yashagan."
       },
       {
        "question": "Etrusklarning asosiy mashg'uloti nima edi?",
@@ -27687,7 +27826,8 @@
         "Hunarmandchilik"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklarning asosiy mashg'uloti dehqonchilik edi."
       },
       {
        "question": "Etrusklar mil. avv. VIII asrda nechta shahar-davlat tuzgan?",
@@ -27698,40 +27838,44 @@
         "30 ta"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklar mil. avv. VIII asrda 12 ta shahar-davlat tuzgan."
       },
       {
        "question": "Etrusklar yunon koloniyalari bilan nima uchun kurash boshlagan?",
        "options": [
         "Sharq mamlakatlari bilan erkin savdo qilish uchun",
-        "Yer olish uchun",
-        "Dinni tarqatish uchun",
-        "Qullar uchun"
+        "Yangi yerlar olish va ularni egallash uchun",
+        "Dinni tarqatish va ibodatxonalar qurish uchun",
+        "Qullar olish va ularni sotish uchun"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklar sharq mamlakatlari bilan erkin savdo qilish uchun yunon koloniyalari bilan kurash boshlagan."
       },
       {
        "question": "Etrusklarga qaysi shahar-davlat qo'shilgan?",
        "options": [
         "Karfagen",
-        "Sparta",
-        "Afina",
-        "Troya"
+        "Sparta davlati",
+        "Afina davlati",
+        "Troya davlati"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklarga Karfagen shahar-davlati qo'shilgan."
       },
       {
        "question": "Karfagen qayerda joylashgan Finikiya koloniyasi edi?",
        "options": [
         "Afrikaning shimoliy sohilida",
-        "Sitsiliyada",
-        "Kritda",
-        "Kichik Osiyoda"
+        "Sitsiliya orolida, Italiya yonida",
+        "Krit orolida, Egey dengizida",
+        "Kichik Osiyoda, Egey sohilida"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Karfagen Afrikaning shimoliy sohilida joylashgan Finikiya koloniyasi edi."
       },
       {
        "question": "Etrusklar va karfagenliklarni kim tor-mor qilgan?",
@@ -27742,7 +27886,8 @@
         "Makedon qo'shini"
        ],
        "correct_index": 0,
-       "page": 151
+       "page": 151,
+       "explanation": "Etrusklar va karfagenliklarni yunon qo'shini tor-mor qilgan."
       },
       {
        "question": "Rim shahri qaysi daryo bo'yida joylashgan?",
@@ -27753,7 +27898,8 @@
         "Dunay"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Rim shahri Tibr daryosi bo'yida joylashgan."
       },
       {
        "question": "Rim nechta tepalikda joylashgan?",
@@ -27764,18 +27910,20 @@
         "Beshta"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Rim yettita tepalikda joylashgan."
       },
       {
        "question": "Daryo va botqoqlik aholiga nima xizmat qilgan?",
        "options": [
         "Qo'shni qabilalar hujumidan himoya qilgan",
-        "Suv ichish uchun",
-        "Sug'orish uchun",
-        "Savdo uchun"
+        "Suv ichish va uy hayvonlarini sug'orish uchun",
+        "Dalalarni sug'orish va ekin ekish uchun",
+        "Savdo kemalarini suzdirish uchun"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Daryo va botqoqlik aholini qo'shni qabilalar hujumidan himoya qilgan."
       },
       {
        "question": "Rimga rivoyatga ko'ra qachon asos solingan?",
@@ -27786,29 +27934,32 @@
         "Mil. avv. 1200-yilda"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Rimga rivoyatga ko'ra mil. avv. 753-yilda asos solingan."
       },
       {
        "question": "Rimga kimlar asos solgan?",
        "options": [
         "Aka-uka Romul va Rem",
-        "Tarkviniy",
-        "Aleksandr",
-        "Salavk"
+        "Etrusk hukmdori Tarkviniy",
+        "Makedoniyalik Aleksandr",
+        "Salavkiylar asoschisi Salavk"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Rimga aka-uka Romul va Rem asos solgan."
       },
       {
        "question": "Romul va Rem chaqaloq paytida nima qilingan?",
        "options": [
         "Savatga solib, Tibr bo'yiga tashlab ketishgan",
-        "Cho'ponga topshirishgan",
-        "Saroyda tarbiyalashgan",
-        "Yunonistonga jo'natishgan"
+        "Cho'ponga topshirilib, uning uyiga yuborilgan",
+        "Saroyda tarbiyalash uchun olib ketilgan",
+        "Yunonistonga kema bilan jo'natilgan"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Romul va Rem chaqaloq paytida savatga solinib, Tibr bo'yiga tashlab ketilgan."
       },
       {
        "question": "Egizaklarni kim emizib boqqan?",
@@ -27819,29 +27970,32 @@
         "Malika"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Egizaklarni ona bo'ri emizib boqqan."
       },
       {
        "question": "Rimning timsoli hisoblangan hayvon qaysi?",
        "options": [
         "Ona bo'ri",
-        "Burgut",
-        "Sher",
-        "Buqa"
+        "Burgut, qushlar shohi",
+        "Sher, hayvonlar shohi",
+        "Buqa, kuch ramzi"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Rimning timsoli hisoblangan hayvon ona bo'ri edi."
       },
       {
        "question": "Kapitoliy tepaligida nima bunyod etilgan?",
        "options": [
         "Dushmanlardan himoyalanish uchun qal'a",
-        "Ibodatxona faqat",
-        "Bozor",
-        "Teatr"
+        "Faqat ibodatxona va qurbongoh",
+        "Katta bozor va savdo maydoni",
+        "Teatr va tomosha maydoni"
        ],
        "correct_index": 0,
-       "page": 152
+       "page": 152,
+       "explanation": "Kapitoliy tepaligida dushmanlardan himoyalanish uchun qal'a bunyod etilgan."
       },
       {
        "question": "Ilgari rimliklar hukmdorlarini qanday tanlashgan?",
@@ -27852,51 +28006,56 @@
         "Urush bilan"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Ilgari rimliklar hukmdorlarini saylashgan."
       },
       {
        "question": "Ilk hukmdorlar qanday vazifalarni bajargan?",
        "options": [
         "Harbiy boshliq, sudya va kohin",
-        "Faqat kohin",
-        "Faqat sudya",
-        "Faqat savdogar"
+        "Faqat kohin vazifasini bajargan",
+        "Faqat sudya vazifasini bajargan",
+        "Faqat savdogar vazifasini bajargan"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Ilk hukmdorlar harbiy boshliq, sudya va kohin vazifalarini bajargan."
       },
       {
        "question": "Tarkviniy nima qilgan?",
        "options": [
         "Saylangan hukmdorni o'ldirib, hokimiyatni egallagan",
-        "Rimni tark etgan",
-        "Respublika tuzgan",
-        "Etrusklarni yengan"
+        "Rimni tark etib, boshqa yerga ketgan",
+        "Respublika tuzib, saylov o'tkazgan",
+        "Etrusklarni yengib, Rimni himoya qilgan"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Tarkviniy saylangan hukmdorni o'ldirib, hokimiyatni egallagan."
       },
       {
        "question": "Aholi Tarkviniyga qanday javob bergan?",
        "options": [
         "Qo'zg'olon ko'tarib, uni shahardan haydab yuborgan",
-        "Uni taxtga o'tqazgan",
-        "Unga soliq to'lagan",
-        "Unga taslim bo'lgan"
+        "Uni taxtga o'tqazib, tantana qilgan",
+        "Unga soliq to'lashga rozi bo'lgan",
+        "Unga taslim bo'lib, itoat qilgan"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Aholi Tarkviniyga qarshi qo'zg'olon ko'tarib, uni shahardan haydab yuborgan."
       },
       {
        "question": "Aholi qanday boshqaruv shakliga o'tishga qaror qilgan?",
        "options": [
         "Hokimiyat bir kishi qo'lida jamlanmaydigan shaklga",
-        "Podsholikka",
-        "Ruhoniylar hukmronligiga",
-        "Harbiy diktaturaga"
+        "Qaytadan podsholikka o'tishga",
+        "Ruhoniylar hukmronligiga o'tishga",
+        "Harbiy diktaturaga o'tishga"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Aholi hokimiyat bir kishi qo'lida jamlanmaydigan boshqaruv shakliga o'tishga qaror qilgan."
       },
       {
        "question": "Rim respublikasi qachon tashkil topgan?",
@@ -27907,7 +28066,8 @@
         "Mil. avv. 330-yilda"
        ],
        "correct_index": 0,
-       "page": 153
+       "page": 153,
+       "explanation": "Rim respublikasi mil. avv. 509-yilda tashkil topgan."
       }
      ]
     },
@@ -27917,6 +28077,11 @@
      "start_page": 154,
      "end_page": 157,
      "explanation": {
+      "takeaways": [
+       "Rim respublikasida Xalq majlisi ikki konsulni bir yilga saylagan, Senat ('oqsoqollar kengashi') qarorlarni tasdiqlagan; boshqaruvda faqat patritsiylar ishtirok etgan.",
+       "Diktator urush yoki qo'zg'olon paytida olti oygacha cheklanmagan hokimiyat bilan tayinlangan; xalq tribunlari plebeylar manfaatini himoya qilgan va 'veto' huquqiga ega bo'lgan.",
+       "Plebeylar talabi bilan yozma '12 jadval qonunlari' yaratilgan (mis lavhalar, forum); mil. avv. III asr boshlarida barcha fuqarolar qonun oldida teng deb e'lon qilingan."
+      ],
       "goals": [
        "Rim respublikasi boshqaruvi va mansabdor shaxslarini bilish",
        "Patritsiy va plebeylar farqini tushuntirish",
@@ -28262,23 +28427,25 @@
         "question": "Nima uchun plebeylar yozma qonunlar talab qilgan?",
         "options": [
          "Patritsiy sudyalar ko'pincha adolatsiz qarorlar chiqargani uchun",
-         "Qonunlar yo'qolgani uchun",
-         "Qullarni ozod qilish uchun",
-         "Soliqni kamaytirish uchun"
+         "Qonunlar yo'qolib qolgani va unutilgani uchun",
+         "Qullarni ozod qilishni xohlagani uchun",
+         "Soliqlarni kamaytirishni xohlagani uchun"
         ],
         "correct_index": 0,
-        "page": 157
+        "page": 157,
+        "explanation": "Patritsiy sudyalar ko'pincha adolatsiz qarorlar chiqargani uchun plebeylar yozma qonunlar talab qilgan."
        },
        {
         "question": "\"Kandidat\" so'zi qayerdan kelib chiqqan?",
         "options": [
          "Nomzodlar kiygan oq libos \"kandida\"dan",
-         "Konsul nomidan",
-         "Senat nomidan",
-         "Liktorlar nomidan"
+         "Konsul nomidan, 'kandid' degan ismdan",
+         "Senat nomidan, 'kandit' degan so'zdan",
+         "Liktorlar nomidan, 'kandir' degan so'zdan"
         ],
         "correct_index": 0,
-        "page": 155
+        "page": 155,
+        "explanation": "'Kandidat' so'zi nomzodlar kiygan oq libos 'kandida'dan kelib chiqqan."
        }
       ]
      },
@@ -28287,12 +28454,13 @@
        "question": "Xalq majlisi qanday vakolatlarga ega edi?",
        "options": [
         "Urush e'lon qilish, sulh tuzish, qonunlarni tasdiqlash va mansabdorlarni tayinlash",
-        "Faqat soliq yig'ish",
-        "Faqat sud qilish",
-        "Faqat ibodat"
+        "Faqat soliq yig'ish va hisobotlarni tasdiqlash vakolatiga",
+        "Faqat sud qilish va hukm chiqarish vakolatiga",
+        "Faqat qo'shin uchun yurishlarni boshqarish vakolatiga"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Xalq majlisi urush e'lon qilish, sulh tuzish, qonunlarni tasdiqlash va mansabdorlarni tayinlash vakolatiga ega edi."
       },
       {
        "question": "Xalq majlisi qarorini kim tasdiqlagan?",
@@ -28303,7 +28471,8 @@
         "Tribun"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Xalq majlisi qarorini Senat tasdiqlagan."
       },
       {
        "question": "\"Senat\" lotinchadan qanday tarjima qilinadi?",
@@ -28314,7 +28483,8 @@
         "Kohinlar guruhi"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "'Senat' lotinchadan 'oqsoqollar kengashi' deb tarjima qilinadi."
       },
       {
        "question": "Rimning tub aholisi qanday atalgan?",
@@ -28325,18 +28495,20 @@
         "Senatorlar"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Rimning tub aholisi patritsiylar deb atalgan."
       },
       {
        "question": "Plebeylar kimlar edi?",
        "options": [
         "Rimga ko'chib kelgan odamlar va ularning avlodlari",
-        "Tub aholi",
-        "Kohinlar",
-        "Qullar"
+        "Rimning tub aholisi va aslzodalar",
+        "Ibodatxonalarning kohinlari va ruhoniylari",
+        "Qullar va xizmatkorlar"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Plebeylar Rimga ko'chib kelgan odamlar va ularning avlodlari edi."
       },
       {
        "question": "Rim boshqaruvida kimlar ishtirok eta olgan?",
@@ -28347,7 +28519,8 @@
         "Qullar ham"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Rim boshqaruvida faqat patritsiylar ishtirok eta olgan."
       },
       {
        "question": "Rim davlati qachondan respublika deb yuritila boshlangan?",
@@ -28358,7 +28531,8 @@
         "Mil. avv. VIII asrdan"
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "Rim davlati mil. avv. VI asr oxiridan respublika deb yuritila boshlagan."
       },
       {
        "question": "\"Respublika\" so'zi nimani bildiradi?",
@@ -28369,7 +28543,8 @@
         "\"Kuchli davlat\""
        ],
        "correct_index": 0,
-       "page": 154
+       "page": 154,
+       "explanation": "'Respublika' so'zi 'xalq ishi, umumiy ish' degan ma'noni bildiradi."
       },
       {
        "question": "Konsullar necha kishi va qancha muddatga saylangan?",
@@ -28380,150 +28555,164 @@
         "Besh kishi, ikki yilga"
        ],
        "correct_index": 0,
-       "page": 155
+       "page": 155,
+       "explanation": "Konsullar ikki kishi bo'lib, bir yilga saylangan."
       },
       {
        "question": "Badavlat odamlar saylovchilarni qanday jalb qilgan?",
        "options": [
         "Bepul tushlik va sovg'a-salomlar bilan",
-        "Qurol bilan",
-        "Qonunlar bilan",
-        "Diniy va'zlar bilan"
+        "Qurol-yarog' va jangchilar kuchi bilan",
+        "Yangi qonunlar va va'dalar bilan",
+        "Diniy va'zlar va qurbonliklar bilan"
        ],
        "correct_index": 0,
-       "page": 155
+       "page": 155,
+       "explanation": "Badavlat odamlar saylovchilarni bepul tushlik va sovg'a-salomlar bilan jalb qilgan."
       },
       {
        "question": "Nomzodlar saylov kuni qanday libos kiygan?",
        "options": [
         "Oq harir libos - \"kandida\"",
-        "Qizil toga",
-        "Qora libos",
-        "Zirh"
+        "Qizil toga va ipak ko'ylak",
+        "Qora libos va motam kiyimi",
+        "Zirh va dubulg'a"
        ],
        "correct_index": 0,
-       "page": 155
+       "page": 155,
+       "explanation": "Nomzodlar saylov kuni oq harir libos - 'kandida' kiygan."
       },
       {
        "question": "Oq rang nimani bildirgan?",
        "options": [
         "Nomzodning vijdoni beg'ubor va pokiza ekanligini",
-        "Boylikni",
-        "Urushni",
-        "Sof qonni"
+        "Nomzodning boyligi va mol-davlatini",
+        "Nomzodning urushga tayyorligini",
+        "Nomzodning sof qonli ekanini"
        ],
        "correct_index": 0,
-       "page": 155
+       "page": 155,
+       "explanation": "Oq rang nomzodning vijdoni beg'ubor va pokiza ekanligini bildirgan."
       },
       {
        "question": "Senat qonunlar qabul qilinishida qanday rol o'ynagan?",
        "options": [
         "Birorta qonun Senatda muhokama etilmay qabul qilinmas edi",
-        "Hech qanday rol o'ynamagan",
-        "Faqat maslahat bergan",
-        "Qonunlarni yozgan"
+        "Hech qanday rol o'ynamagan, faqat kuzatgan",
+        "Faqat maslahat bergan, ovoz bermagan",
+        "Qonunlarni yagona o'zi tasdiqlagan"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Senat qonunlar qabul qilinishida katta rol o'ynagan: birorta qonun Senatda muhokama etilmay qabul qilinmas edi."
       },
       {
        "question": "Konsullar vaqt o'tishi bilan qanday mavqega erishgan?",
        "options": [
         "Saylovsiz Senatga kirib, umrbod senatorga aylangan",
-        "Konsullikdan chetlatilgan",
-        "Diktatorga aylangan",
-        "Tribunga aylangan"
+        "Konsullikdan chetlatilib, surgun qilingan",
+        "Diktatorga aylanib, umrbod hokimiyatda qolgan",
+        "Tribunga aylanib, plebeylar himoyachisi bo'lgan"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Konsullar vaqt o'tishi bilan saylovsiz Senatga kirib, umrbod senatorga aylangan."
       },
       {
        "question": "Diktator qachon tayinlangan?",
        "options": [
         "Urush boshlanganda yoki xalq qo'zg'oloni ro'y berganda",
-        "Har yili",
-        "Saylovda g'alaba qilganda",
+        "Har yili saylov bo'lganda",
+        "Saylovda g'alaba qozonganda",
         "Konsul vafot etganda"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Diktator urush boshlanganda yoki xalq qo'zg'oloni ro'y berganda tayinlangan."
       },
       {
        "question": "Diktator qancha muddat hokimiyatda tura olgan?",
        "options": [
         "Olti oydan ko'p emas",
-        "Bir yil",
-        "Umrbod",
-        "Ikki yil"
+        "Bir yil muddatga",
+        "Umrbod, to vafotigacha",
+        "Ikki yil muddatga"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Diktator olti oydan ko'p bo'lmagan muddat hokimiyatda tura olgan."
       },
       {
        "question": "Diktatorning o'rinbosari kim edi?",
        "options": [
         "Otliq qo'shinlar boshlig'i",
-        "Konsul",
-        "Tribun",
-        "Pontifik"
+        "Konsul va uning o'rinbosari",
+        "Tribun va uning yordamchisi",
+        "Pontifik va uning hay'ati"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Diktatorning o'rinbosari otliq qo'shinlar boshlig'i edi."
       },
       {
        "question": "Liktorlar kimlar edi?",
        "options": [
         "Konsulni qo'riqlagan 12 kishilik faxriy qorovul",
-        "Senat a'zolari",
-        "Qullar",
-        "Kohinlar"
+        "Senat a'zolari va ularning yordamchilari",
+        "Qullar va xizmatkorlar",
+        "Kohinlar va ibodatxona xizmatchilari"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Liktorlar konsulni qo'riqlagan 12 kishilik faxriy qorovul edi."
       },
       {
        "question": "Liktorlar yelkasidagi boltachali bog'lama nimani bildirgan?",
        "options": [
         "Konsulning jinoyatchilarni jazolash imkoniyatini",
-        "Harbiy unvonni",
-        "Dinga xizmatni",
-        "Boylikni"
+        "Harbiy unvon va mansabni",
+        "Dinga xizmat va ruhoniylikni",
+        "Boylik va mol-davlatni"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Liktorlar yelkasidagi boltachali bog'lama konsulning jinoyatchilarni jazolash imkoniyatini bildirgan."
       },
       {
        "question": "Konsullar muhim masalalarni qanday hal qilgan?",
        "options": [
         "Bir-birlari bilan maslahatlashib",
-        "Yakka o'zi",
-        "Senat buyrug'i bilan",
-        "Qur'a tashlab"
+        "Yakka o'zi, hech kimsiz",
+        "Senat buyrug'i bilan, so'zsiz",
+        "Qur'a tashlab, tasodif bilan"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Konsullar muhim masalalarni bir-birlari bilan maslahatlashib hal qilgan."
       },
       {
        "question": "Konsullar har yili kimga hisobot bergan?",
        "options": [
         "Xalq majlisiga",
-        "Senatga",
-        "Diktatorga",
-        "Tribunga"
+        "Senatga, uning a'zolariga",
+        "Diktatorga, hokimiyat boshlig'iga",
+        "Tribunga, plebeylar himoyachisiga"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Konsullar har yili Xalq majlisiga hisobot bergan."
       },
       {
        "question": "Xalq tribunlari kimlarning manfaatini ifodalagan?",
        "options": [
         "Qashshoq rimliklarning",
-        "Patritsiylarning",
-        "Senatorlarning",
-        "Quldorlarning"
+        "Patritsiylar va ularning mulkdorlarini",
+        "Senatorlar va ularning guruhini",
+        "Quldorlar va yer egalarini"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Xalq tribunlari qashshoq rimliklarning manfaatini ifodalagan."
       },
       {
        "question": "\"Veto\" so'zi nimani anglatadi?",
@@ -28534,7 +28723,8 @@
         "\"Kechiraman\""
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "'Veto' so'zi 'taqiqlayman' degan ma'noni anglatadi."
       },
       {
        "question": "Xalq tribuni veto aytsa, nima bo'lgan?",
@@ -28545,7 +28735,8 @@
         "Konsul almashtirilgan"
        ],
        "correct_index": 0,
-       "page": 156
+       "page": 156,
+       "explanation": "Xalq tribuni veto aytsa, qonun qabul qilinmagan."
       },
       {
        "question": "Qadimgi Rim qonunchiligi dastlab nimaga asoslangan edi?",
@@ -28556,7 +28747,8 @@
         "Yunon qonunlariga"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Qadimgi Rim qonunchiligi dastlab og'zaki qonunlarga asoslangan edi."
       },
       {
        "question": "Yozma qonunlar yaratilishini kim talab qilgan?",
@@ -28567,7 +28759,8 @@
         "Kohinlar"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Yozma qonunlar yaratilishini plebeylar talab qilgan."
       },
       {
        "question": "Senat qonunlar majmuasini yaratish uchun nechta patritsiydan iborat hay'at tuzgan?",
@@ -28578,40 +28771,44 @@
         "Uchta"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Senat qonunlar majmuasini yaratish uchun o'nta patritsiydan iborat hay'at tuzgan."
       },
       {
        "question": "Plebeylardan iborat qo'shinlar norozilik bildirib qayerga ketib qolgan?",
        "options": [
         "Rim atrofidagi Muqaddas tog'ga",
-        "Kapitoliyga",
-        "Tibr bo'yiga",
-        "Karfagenga"
+        "Kapitoliy tepaligidagi qal'aga",
+        "Tibr daryosi bo'yiga",
+        "Karfagen shahriga"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Plebeylardan iborat qo'shinlar norozilik bildirib Rim atrofidagi Muqaddas tog'ga ketib qolgan."
       },
       {
        "question": "\"12 jadval qonunlari\" nimaga yozilgan?",
        "options": [
         "12 ta mis lavhaga",
-        "Papirusga",
-        "Marmar toshga",
-        "Charmga"
+        "Papirus o'ramlariga yozilgan",
+        "Marmar tosh lavhalarga o'yilgan",
+        "Hayvon terisiga bitilgan"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "'12 jadval qonunlari' 12 ta mis lavhaga yozilgan."
       },
       {
        "question": "Qonunlar qayerga joylashtirilgan?",
        "options": [
         "Rimning markaziy maydoni - forumga",
-        "Ibodatxonaga",
-        "Senat binosiga",
-        "Kapitoliyga"
+        "Ibodatxona devoriga",
+        "Senat binosi ichiga",
+        "Kapitoliy tepaligiga"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Qonunlar lavhalari Rimning markaziy maydoni - forumga joylashtirilgan."
       },
       {
        "question": "\"12 jadval qonunlari\" nimani daxlsiz deb e'lon qildi?",
@@ -28622,29 +28819,32 @@
         "Diktator hokimiyatini"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "'12 jadval qonunlari' xususiy mulkni daxlsiz deb e'lon qilgan."
       },
       {
        "question": "Bu qonunlar nimani qonunlashtirgan?",
        "options": [
         "Plebeylar va patritsiylar tengsizligini",
-        "Barcha fuqarolar tengligini",
-        "Qullikni bekor qilishni",
-        "Soliqlarni kamaytirishni"
+        "Barcha fuqarolarning tengligini",
+        "Qullikni to'liq bekor qilishni",
+        "Soliqlarni sezilarli kamaytirishni"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Bu qonunlar plebeylar va patritsiylar tengsizligini qonunlashtirgan."
       },
       {
        "question": "Barcha fuqarolar qonun oldida teng deb qachon e'lon qilingan?",
        "options": [
         "Mil. avv. III asr boshlarida",
-        "Mil. avv. VI asrda",
-        "Mil. avv. 753-yilda",
-        "Mil. avv. I asrda"
+        "Mil. avv. VI asr oxirida respublika tuzilganda",
+        "Mil. avv. 753-yilda Rim asos solinganda",
+        "Mil. avv. I asrda Sezar davrida"
        ],
        "correct_index": 0,
-       "page": 157
+       "page": 157,
+       "explanation": "Barcha fuqarolar qonun oldida teng deb mil. avv. III asr boshlarida e'lon qilingan."
       }
      ]
     },
@@ -28654,6 +28854,11 @@
      "start_page": 158,
      "end_page": 160,
      "explanation": {
+      "takeaways": [
+       "Rim shaharlari puxta reja bilan qurilgan: akveduk, hammom, forum, mozaika va freskalar; qullar savdosi keng bo'lgan.",
+       "Kiyim mavqeni bildirgan: o'g'il bolalar 14 yoshgacha pushti yo'lli, keyin oppoq toga kiygan; senatorlar ham oppoq toga kiygan.",
+       "Bosh ma'bud Yupiter (osmon), Mars (urush), Neptun (dengiz), Merkuriy (savdo), Vulqon (olov), Vesta (o'choq); avgurlar qushlar parvoziga qarab bashorat qilgan."
+      ],
       "goals": [
        "Rim shaharlari va aholisi hayotini tasvirlash",
        "Rimliklarning kiyimi, ma'budlari va diniy marosimlarini bilish"
@@ -28971,23 +29176,25 @@
         "question": "Rimliklar jangda mag'lub bo'lishsa, nimani sabab deb hisoblagan?",
         "options": [
          "Urush ma'budi Marsning jahli chiqqan",
-         "Yupiter g'azablangan",
-         "Neptun jazolagan",
-         "Vesta yordam bermagan"
+         "Oliy ma'bud Yupiter g'azablangan deb",
+         "Dengiz ma'budi Neptun jazolagan deb",
+         "Vesta homiylik qilmagan deb"
         ],
         "correct_index": 0,
-        "page": 159
+        "page": 159,
+        "explanation": "Rimliklar jangda mag'lub bo'lishsa, urush ma'budi Marsning jahli chiqqan deb hisoblagan."
        },
        {
         "question": "Vesta ibodatxonasidagi olov nimani bildirgan?",
         "options": [
          "Olov yonib turar ekan, hayot mavjud",
-         "Urush boshlanishini",
-         "Bayramni",
-         "Boylikni"
+         "Urush boshlanayotganini bildirgan",
+         "Bayram kelayotganini bildirgan",
+         "Boylik ortayotganini bildirgan"
         ],
         "correct_index": 0,
-        "page": 160
+        "page": 160,
+        "explanation": "Vesta ibodatxonasidagi olov yonib turar ekan, hayot mavjud deb hisoblangan."
        }
       ]
      },
@@ -28996,56 +29203,61 @@
        "question": "Rim shaharlari qanday barpo etilgan?",
        "options": [
         "Oldindan puxta ishlangan reja asosida",
-        "Tasodifan",
-        "Faqat qal'a atrofida",
-        "Daryo bo'ylab"
+        "Tasodifan, hech qanday rejasiz",
+        "Faqat qal'a atrofida to'planib",
+        "Faqat daryo bo'ylab chiziqli"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Rim shaharlari oldindan puxta ishlangan reja asosida barpo etilgan."
       },
       {
        "question": "Rim shaharlarida qaysi binolar bo'lgan?",
        "options": [
         "Ibodatxonalar, hammomlar, savdo rastalari va dorixonalar",
-        "Faqat saroylar",
-        "Faqat qal'alar",
-        "Faqat bozorlar"
+        "Faqat saroylar va qal'alar",
+        "Faqat qal'alar va mudofaa minoralari",
+        "Faqat bozorlar va omborlar"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Rim shaharlarida ibodatxonalar, hammomlar, savdo rastalari va dorixonalar bo'lgan."
       },
       {
        "question": "Ko'pchilik rimliklar qanday uylarda yashagan?",
        "options": [
         "2-3 qavatli binolarda",
-        "Chodirlarda",
-        "Koshonalarda",
-        "G'orlarda"
+        "Chodirlarda, ko'chmanchi kabi",
+        "Koshonalarda, saroy kabi",
+        "G'orlarda, tog' bag'rida"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Ko'pchilik rimliklar 2-3 qavatli binolarda yashagan."
       },
       {
        "question": "Badavlat rimliklar uylarida nima bo'lgan?",
        "options": [
         "Markaziy isitish tizimi va quvurlarda suv",
-        "Faqat mash'al",
-        "Yog'och pech",
-        "Hech narsa"
+        "Faqat mash'al va yog' chiroqlari",
+        "Yog'och pech va tandir",
+        "Hech narsa, hamma hovlida yashagan"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Badavlat rimliklar uylarida markaziy isitish tizimi va quvurlarda suv bo'lgan."
       },
       {
        "question": "Mozaika nima?",
        "options": [
         "Shisha yoki tosh parchalaridan ishlangan surat",
         "Xom suvoqqa ishlangan rasm",
-        "Haykal",
-        "Gilam"
+        "Devorga o'yilgan haykal",
+        "Matodan to'qilgan gilam"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Mozaika - shisha yoki tosh parchalaridan ishlangan surat."
       },
       {
        "question": "Fresk nima?",
@@ -29056,7 +29268,8 @@
         "Sopol idish"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Fresk - xom suvoqqa ishlangan rasm."
       },
       {
        "question": "Villa nima?",
@@ -29067,18 +29280,20 @@
         "Bozor"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Villa - shohona uy-joy."
       },
       {
        "question": "Forumda nimalar bo'lgan?",
        "options": [
         "Bozor maydoni, xalq yig'ilishlari joyi va markaziy ibodatxona",
-        "Faqat saroy",
-        "Harbiy qarorgoh",
-        "Qullar bozori faqat"
+        "Faqat saroy va qirol xonasi",
+        "Faqat harbiy qarorgoh va qal'a",
+        "Faqat qullar bozori va omborlar"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Forumda bozor maydoni, xalq yig'ilishlari joyi va markaziy ibodatxona bo'lgan."
       },
       {
        "question": "Suv shaharga nima orqali oqib kelgan?",
@@ -29089,7 +29304,8 @@
         "Xandaq orqali"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Suv shaharga akveduk orqali oqib kelgan."
       },
       {
        "question": "Rim bozorlarida qaysi tovarga talab ko'p edi?",
@@ -29100,18 +29316,20 @@
         "Fillarga"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Rim bozorlarida qullarga talab ko'p edi."
       },
       {
        "question": "O'g'il bolalar 14 yoshgacha qanday toga kiyishgan?",
        "options": [
         "Pushti yo'lli toga",
-        "Oppoq toga",
-        "Qizil toga",
-        "Qora toga"
+        "Oppoq toga, katta kishilar kabi",
+        "Qizil toga, jangchilar kabi",
+        "Qora toga, motam kabi"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "O'g'il bolalar 14 yoshgacha pushti yo'lli toga kiyishgan."
       },
       {
        "question": "14 yoshga kirganda o'g'il bolalar qanday toga kiya boshlagan?",
@@ -29122,7 +29340,8 @@
         "Toga kiymagan"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "14 yoshga kirganda o'g'il bolalar oppoq toga kiya boshlagan."
       },
       {
        "question": "Oppoq harir togani yana kimlar kiygan?",
@@ -29133,18 +29352,20 @@
         "Kohinlar"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Oppoq harir togani senatorlar ham kiygan."
       },
       {
        "question": "Rimlik ayollar qanday kiyingan?",
        "options": [
         "Turli rangdagi ko'ylaklar, bosh va yelkasiga ro'mol",
-        "Faqat toga",
-        "Faqat oq libos",
-        "Zirh"
+        "Faqat erkaklarnikiga o'xshash toga",
+        "Faqat oq libos va oq ro'mol",
+        "Zirh va dubulg'a, jangchilar kabi"
        ],
        "correct_index": 0,
-       "page": 158
+       "page": 158,
+       "explanation": "Rimlik ayollar turli rangdagi ko'ylaklar kiyib, bosh va yelkasiga ro'mol tashlagan."
       },
       {
        "question": "Rimliklar ma'budlariga nima maqsadda murojaat etgan?",
@@ -29155,29 +29376,32 @@
         "Soliq to'lash uchun"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Rimliklar ma'budlariga madad va homiylik istab murojaat etgan."
       },
       {
        "question": "Rimliklar dini qaysi dinni eslatadi?",
        "options": [
         "Yunonlar diniy e'tiqodini",
-        "Misr dinini",
-        "Zardushtiylikni",
-        "Buddaviylikni"
+        "Misr dinini va ularning ma'budlarini",
+        "Zardushtiylikni va olov kultini",
+        "Buddaviylikni va ularning ta'limotini"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Rimliklar dini yunonlar diniy e'tiqodini eslatadi."
       },
       {
        "question": "Muhim ishni boshlashdan oldin rimliklar nima qilgan?",
        "options": [
         "Ma'budlarga qurbonliklar bag'ishlagan",
-        "Urush e'lon qilgan",
-        "Senatga murojaat qilgan",
-        "Ro'za tutgan"
+        "Urush e'lon qilib, jangga tayyorgarlik ko'rgan",
+        "Senatga murojaat qilib, ruxsat so'ragan",
+        "Ro'za tutib, parhezga rioya qilgan"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Muhim ishni boshlashdan oldin rimliklar ma'budlarga qurbonliklar bag'ishlagan."
       },
       {
        "question": "Rimliklarning bosh ma'budi kim edi?",
@@ -29188,18 +29412,20 @@
         "Vulqon"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Rimliklarning bosh ma'budi Yupiter edi."
       },
       {
        "question": "Yupiter nimaning ma'budi edi?",
        "options": [
         "Osmon, momaqaldiroq va yashin",
-        "Dengiz",
-        "Ov",
-        "Savdo"
+        "Dengiz va to'lqinlar ma'budi",
+        "Ov va o'rmon ma'budi",
+        "Savdo va yo'lovchilar ma'budi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Yupiter osmon, momaqaldiroq va yashin ma'budi edi."
       },
       {
        "question": "Neptun qaysi ma'bud?",
@@ -29210,7 +29436,8 @@
         "Ov ma'budasi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Neptun dengiz ma'budi edi."
       },
       {
        "question": "Diana kim edi?",
@@ -29221,40 +29448,44 @@
         "Sevgi ma'budasi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Diana ov ma'budasi edi."
       },
       {
        "question": "Merkuriy nimaning homiysi edi?",
        "options": [
         "Savdo-sotiqning",
-        "Urushning",
-        "Ovning",
-        "Olovning"
+        "Urush va jang homiysi",
+        "Ov va o'rmon homiysi",
+        "Olov va temirchilik homiysi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Merkuriy savdo-sotiqning homiysi edi."
       },
       {
        "question": "Vulqon nimaning ma'budi edi?",
        "options": [
         "Olov va temirchilikning",
-        "Dengizning",
-        "Ovning",
-        "Adolatning"
+        "Dengiz va kemachilikning ma'budi",
+        "Ov va o'rmonning ma'budi",
+        "Adolat va qonunning ma'budi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Vulqon olov va temirchilikning ma'budi edi."
       },
       {
        "question": "Vesta nimaning homiysi edi?",
        "options": [
         "Xonadon uchog'ining",
-        "Urushning",
-        "Dengizning",
-        "Savdoning"
+        "Urush va jangning homiysi",
+        "Dengiz va kemachilikning homiysi",
+        "Savdo va bozorning homiysi"
        ],
        "correct_index": 0,
-       "page": 159
+       "page": 159,
+       "explanation": "Vesta xonadon uchog'ining homiysi edi."
       },
       {
        "question": "Diniy marosimlar ustidan kimlar nazorat qilgan?",
@@ -29265,29 +29496,32 @@
         "Senatorlar"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Diniy marosimlar ustidan pontifiklar nazorat qilgan."
       },
       {
        "question": "Pontifiklar hay'ati nechta ruhoniydan iborat bo'lgan?",
        "options": [
         "5 nafardan 15 nafargacha",
-        "12 nafar",
-        "100 nafar",
-        "3 nafar"
+        "Aniq 12 nafar ruhoniydan",
+        "Yuzdan ortiq ruhoniydan",
+        "Atigi 3 nafar ruhoniydan"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Pontifiklar hay'ati 5 nafardan 15 nafargacha ruhoniydan iborat bo'lgan."
       },
       {
        "question": "Pontifiklar hay'atiga kim rahbarlik qilgan?",
        "options": [
         "Buyuk pontifik",
-        "Konsul",
-        "Diktator",
-        "Avgur"
+        "Konsul, davlat boshlig'i",
+        "Diktator, favqulodda hukmdor",
+        "Avgur, bashoratchi"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Pontifiklar hay'atiga Buyuk pontifik rahbarlik qilgan."
       },
       {
        "question": "Rimliklar barcha muhim ishlarni nimadan boshlashgan?",
@@ -29298,40 +29532,44 @@
         "Bayramdan"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Rimliklar barcha muhim ishlarni bashorat qilishdan boshlagan."
       },
       {
        "question": "Avgurlar nimaga qarab bashorat qilgan?",
        "options": [
         "Qushlar parvozi, momaqaldiroq, chaqmoq va boshqa alomatlarga",
-        "Yulduzlarga faqat",
-        "Tushlarga",
-        "Qo'l chiziqlariga"
+        "Faqat yulduzlarning joylashuviga qarab",
+        "Odamlarning tushlariga qarab",
+        "Qo'l chiziqlari va kaftga qarab"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Avgurlar qushlar parvozi, momaqaldiroq, chaqmoq va boshqa alomatlarga qarab bashorat qilgan."
       },
       {
        "question": "Alomatlar ko'ngildagidek bo'lmasa, ishlar nima bo'lgan?",
        "options": [
         "Ma'lum muddatga kechiktirilgan",
-        "Bekor qilingan",
-        "Darhol bajarilgan",
+        "Butunlay bekor qilingan",
+        "Darhol, shoshilinch bajarilgan",
         "Senatga topshirilgan"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Alomatlar ko'ngildagidek bo'lmasa, ishlar ma'lum muddatga kechiktirilgan."
       },
       {
        "question": "Vesta ibodatxonasida nima saqlangan?",
        "options": [
         "Muqaddas olov",
-        "Xazina",
-        "Qonunlar",
-        "Qurol"
+        "Davlat xazinasi va qimmatbaho tangalar",
+        "Davlat qonunlari yozilgan lavhalar",
+        "Qurol-yarog' va jangovar nayzalar"
        ],
        "correct_index": 0,
-       "page": 160
+       "page": 160,
+       "explanation": "Vesta ibodatxonasida muqaddas olov saqlangan."
       }
      ]
     },
@@ -29341,6 +29579,11 @@
      "start_page": 161,
      "end_page": 164,
      "explanation": {
+      "takeaways": [
+       "Rimda qullar soni zafarli yurishlar natijasida juda ko'payib, qul mehnati samarasizlashgach, kolonlar va 'kulbali qullar' paydo bo'lgan.",
+       "Gladiatorlar (qullar yoki jinoyatchilar) janglari sevimli tomosha bo'lgan; Kolizeyga 50 ming tomoshabin sig'gan.",
+       "Mil. avv. 74-yilda frakiyalik Spartak Kapuya maktabidan qochib, Vezuviyda qo'zg'olon boshlagan; mil. avv. 71-yilda Mark Krass uni tor-mor qilgan."
+      ],
       "goals": [
        "Rimda quldorlik va qullar mavqeini bilish",
        "Kolonlar va \"kulbali qullar\"ni farqlash",
@@ -29676,23 +29919,25 @@
         "question": "Nima uchun zamindorlar yerni ijaraga bera boshlagan?",
         "options": [
          "Qullar qo'zg'olonidan qo'rqib va hosildorlikni oshirish uchun",
-         "Qullar yetishmagani uchun",
-         "Soliq kamaygani uchun",
+         "Qullar yetishmay qolgani uchun",
+         "Soliqlar kamayib ketgani uchun",
          "Senat buyurgani uchun"
         ],
         "correct_index": 0,
-        "page": 162
+        "page": 162,
+        "explanation": "Zamindorlar qullar qo'zg'olonidan qo'rqib va hosildorlikni oshirish uchun yerni ijaraga bera boshlagan."
        },
        {
         "question": "Gladiatorning tirik qolishini kim hal qilgan?",
         "options": [
          "Tomoshabinlar",
-         "Konsul",
-         "Sudya",
-         "Quldor"
+         "Konsul, hukumat boshlig'i",
+         "Sudya, tomosha nazoratchisi",
+         "Quldor, gladiator egasi"
         ],
         "correct_index": 0,
-        "page": 163
+        "page": 163,
+        "explanation": "Gladiatorning tirik qolishini tomoshabinlar hal qilgan."
        }
       ]
      },
@@ -29701,34 +29946,37 @@
        "question": "Rimda qullar soni nima uchun nihoyatda ko'payib ketgan?",
        "options": [
         "Zafarli yurishlar natijasida",
-        "Aholi o'sishi tufayli",
-        "Savdo tufayli",
-        "Soliq tufayli"
+        "Aholi tez o'sishi tufayli",
+        "Savdo kengayishi tufayli",
+        "Soliqlar oshirilishi tufayli"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Rimda qullar soni zafarli yurishlar natijasida nihoyatda ko'payib ketgan."
       },
       {
        "question": "Qaysi mamlakatlarda qullar Rimdagichalik ko'p bo'lmagan?",
        "options": [
         "Qadimgi Misr va Qadimgi Yunonistonda",
-        "Xitoyda",
-        "Hindistonda",
-        "Fors davlatida"
+        "Qadimgi Xitoy va Hindiston",
+        "Fors davlati va Bobil",
+        "Mesopotamiya va Ossuriya"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Qullar Rimdagichalik ko'p bo'lmagan mamlakatlar Qadimgi Misr va Qadimgi Yunoniston edi."
       },
       {
        "question": "Erkin rimliklar qulni kim deb bilgan?",
        "options": [
         "Quldorning ixtiyoridagi buyum",
-        "Oila a'zosi",
-        "Ishchi",
-        "Erkin fuqaro"
+        "Oila a'zosi, teng huquqli kishi",
+        "Ishchi, mehnat haqi oladigan",
+        "Erkin fuqaro, ovoz beruvchi"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Erkin rimliklar qulni quldorning ixtiyoridagi buyum deb bilgan."
       },
       {
        "question": "Qullarning qadri nima uchun bo'lmagan?",
@@ -29739,7 +29987,8 @@
         "Ular chet ellik bo'lgani uchun"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Qullarning qadri bo'lmagan, chunki ular juda arzon turardi."
       },
       {
        "question": "Qullarning mehnatdan manfaatdorlik hissi nima uchun bo'lmagan?",
@@ -29750,7 +29999,8 @@
         "Ular ko'p ishlagani uchun"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Qullarning mehnatdan manfaatdorlik hissi bo'lmagan, chunki ularga haq to'lanmas edi."
       },
       {
        "question": "Qullar mehnatining unumdorligi nima bo'ldi?",
@@ -29761,18 +30011,20 @@
         "Ikki baravar oshdi"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Qullar mehnatining unumdorligi kamayib ketdi."
       },
       {
        "question": "Ko'plab quldorlar qullarni kimlarga aylantira boshlagan?",
        "options": [
         "Yer ijarachilariga",
-        "Askarlarga",
-        "Gladiatorlarga",
-        "Kohinlarga"
+        "Askarlarga va jangchilarga",
+        "Gladiatorlarga va tomoshabinlarga",
+        "Kohinlarga va ruhoniylarga"
        ],
        "correct_index": 0,
-       "page": 161
+       "page": 161,
+       "explanation": "Ko'plab quldorlar qullarni yer ijarachilariga aylantira boshlagan."
       },
       {
        "question": "Zamindorlar yerlarini kimlarga ijaraga bera boshlagan?",
@@ -29783,40 +30035,44 @@
         "Chet ellik savdogarlarga"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "Zamindorlar yerlarini erkin kambag'allarga ijaraga bera boshlagan."
       },
       {
        "question": "Kolonlar yer egasiga qanday to'lov to'lagan?",
        "options": [
         "O'zlari yetishtirgan mahsulotlar bilan",
-        "Pul bilan",
-        "Mehnat bilan faqat",
-        "Qurol bilan"
+        "Pul bilan, oltin va kumush tangalarda",
+        "Faqat mehnat bilan, yerda ishlab",
+        "Qurol va jangovar anjomlar bilan"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "Kolonlar yer egasiga o'zlari yetishtirgan mahsulotlar bilan to'lov to'lagan."
       },
       {
        "question": "Kolonlar yerga qancha yaxshi ishlov bersa, nima bo'lgan?",
        "options": [
         "Hosilning shuncha ko'p ulushi o'zlariga tegardi",
-        "Soliq oshardi",
-        "Yer tortib olinardi",
-        "Hech nima o'zgarmasdi"
+        "Soliq shuncha ko'payib, yer egasiga oshardi",
+        "Yer tortib olinib, boshqasiga berilardi",
+        "Hech narsa o'zgarmas, ulush bir xil qolardi"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "Kolonlar yerga qancha yaxshi ishlov bersa, hosilning shuncha ko'p ulushi o'zlariga tegardi."
       },
       {
        "question": "\"Kulbali qullar\" kimlar edi?",
        "options": [
         "Kichik yerni mustaqil yuritgan, oilasi bilan yashagan uy-joyli qullar",
-        "Gladiator qullar",
-        "Ozod qilingan qullar",
-        "Saroy qullari"
+        "Maydonda jang qiladigan gladiator qullar",
+        "Xo'jayini ozod qilgan qullar",
+        "Saroyda xizmat qiladigan qullar"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "'Kulbali qullar' kichik yerni mustaqil yuritgan, oilasi bilan yashagan uy-joyli qullar edi."
       },
       {
        "question": "\"Kulbali qullar\"ning taqdiri kimning qo'lida edi?",
@@ -29827,7 +30083,8 @@
         "Konsulning"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "'Kulbali qullar'ning taqdiri xo'jayinlarning qo'lida edi."
       },
       {
        "question": "Rim davlatining eng mazlum aholisi kimlar edi?",
@@ -29838,40 +30095,44 @@
         "Askarlar"
        ],
        "correct_index": 0,
-       "page": 162
+       "page": 162,
+       "explanation": "Rim davlatining eng mazlum aholisi qullar va kolonlar edi."
       },
       {
        "question": "Rimliklarning sevimli tomoshalaridan biri nima edi?",
        "options": [
         "Gladiatorlar jangi",
-        "Teatr",
-        "Otchopar",
+        "Teatr sahnasidagi tomosha",
+        "Otchopar poygalari",
         "Olimpiya o'yinlari"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Rimliklarning sevimli tomoshalaridan biri gladiatorlar jangi edi."
       },
       {
        "question": "Gladiatorlar asosan kimlar bo'lgan?",
        "options": [
         "Qullar yoki jinoyatchilar",
-        "Askarlar",
-        "Senatorlar",
-        "Erkin dehqonlar"
+        "Askarlar va jangchilar",
+        "Senatorlar va aslzodalar",
+        "Erkin dehqonlar va hunarmandlar"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Gladiatorlar asosan qullar yoki jinoyatchilar bo'lgan."
       },
       {
        "question": "Gladiatorlarga qayerda ta'lim berilgan?",
        "options": [
         "Maxsus yopiq maktablarda",
-        "Harbiy lagerlarda",
-        "Kolizeyda",
-        "Ibodatxonalarda"
+        "Harbiy lagerlarda, askarlar bilan",
+        "Kolizey ichida, tomoshabin oldida",
+        "Ibodatxonalarda, kohinlar qo'lida"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Gladiatorlarga maxsus yopiq maktablarda ta'lim berilgan."
       },
       {
        "question": "Yengilgan gladiatorning taqdirini kim hal qilgan?",
@@ -29882,29 +30143,32 @@
         "Ma'bud"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Yengilgan gladiatorning taqdirini tomoshabinlar hal qilgan."
       },
       {
        "question": "Bosh barmoq yuqoriga ko'tarilsa nimani bildirgan?",
        "options": [
         "Yengilgan gladiator tirik qolgan",
-        "U o'ldirilgan",
-        "Jang davom etgan",
-        "Jang bekor bo'lgan"
+        "U o'ldirilgan degan ma'noni bildirgan",
+        "Jang davom etishi kerakligini bildirgan",
+        "Jang bekor bo'lganini bildirgan"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Bosh barmoq yuqoriga ko'tarilsa, yengilgan gladiator tirik qolgan."
       },
       {
        "question": "Bosh barmoq pastga qaratilsa nima bo'lgan?",
        "options": [
         "Gladiator o'ldirilgan",
-        "Tirik qolgan",
-        "Ozod qilingan",
-        "Sotilgan"
+        "Tirik qoldirilgan",
+        "Ozod qilib yuborilgan",
+        "Boshqa quldorga sotilgan"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Bosh barmoq pastga qaratilsa, gladiator o'ldirilgan."
       },
       {
        "question": "Gladiatorlar janglari o'tadigan ulkan tosh stadionlar nima deyilgan?",
@@ -29915,7 +30179,8 @@
         "Villalar"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Gladiatorlar janglari o'tadigan ulkan tosh stadionlar amfiteatrlar deyilgan."
       },
       {
        "question": "Kolizeyga nechta tomoshabin sig'gan?",
@@ -29926,29 +30191,32 @@
         "1 million"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Kolizeyga 50 ming tomoshabin sig'gan."
       },
       {
        "question": "To'r va changak bilan qurollangan gladiator raqibini nima qilishi mumkin edi?",
        "options": [
         "To'r bilan o'rab, changak bilan o'ldirishi",
-        "Qalqon bilan urishi",
-        "Qochib ketishi",
-        "Nayza otishi"
+        "Qalqon bilan urib, yiqitishi",
+        "Qochib ketib, yashirinishi",
+        "Nayza otib, uzoqdan urishi"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "To'r va changak bilan qurollangan gladiator raqibini to'r bilan o'rab, changak bilan o'ldirishi mumkin edi."
       },
       {
        "question": "Gladiatorlar qaysi hayvonlar bilan janglar o'tkazgan?",
        "options": [
         "Yovvoyi arslonlar, qoplonlar va darg'azab ho'kizlar bilan",
-        "Fillar bilan",
-        "Ayiqlar bilan faqat",
-        "Timsohlar bilan"
+        "Fillar va karkidonlar bilan",
+        "Ayiqlar va bo'rilar bilan faqat",
+        "Timsohlar va ilonlar bilan"
        ],
        "correct_index": 0,
-       "page": 163
+       "page": 163,
+       "explanation": "Gladiatorlar yovvoyi arslonlar, qoplonlar va darg'azab ho'kizlar bilan janglar o'tkazgan."
       },
       {
        "question": "Spartak qo'zg'oloni qachon boshlangan?",
@@ -29959,7 +30227,8 @@
         "Mil. avv. 44-yilda"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak qo'zg'oloni mil. avv. 74-yilda boshlangan."
       },
       {
        "question": "Spartak qaysi xalqdan bo'lgan?",
@@ -29970,18 +30239,20 @@
         "Makedoniyalik"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak frakiyalik edi."
       },
       {
        "question": "Spartak nima uchun gladiatorlik maktabiga sotilgan?",
        "options": [
         "Rim armiyasida xizmat qilishdan bosh tortgani uchun",
-        "Jinoyat qilgani uchun",
-        "Qarz tufayli",
-        "Qo'zg'olon ko'targani uchun"
+        "Jinoyat qilgani va qamoqdan qochgani uchun",
+        "Katta qarz olgani va qaytara olmagani uchun",
+        "Qo'zg'olon ko'targani va asir tushgani uchun"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak Rim armiyasida xizmat qilishdan bosh tortgani uchun gladiatorlik maktabiga sotilgan."
       },
       {
        "question": "Spartak gladiatorlik maktabi qaysi shaharda edi?",
@@ -29992,7 +30263,8 @@
         "Sirakuzada"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak gladiatorlik maktabi Kapuyada edi."
       },
       {
        "question": "Spartak necha tarafdori bilan maktabdan qochgan?",
@@ -30003,7 +30275,8 @@
         "Taxminan 5 nafar"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak taxminan 200 tarafdori bilan maktabdan qochgan."
       },
       {
        "question": "Qochganlar qaysi tog'ga chiqib olgan?",
@@ -30014,29 +30287,32 @@
         "Kapitoliy tepaligiga"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Qochganlar Vezuviy tog'iga chiqib olgan."
       },
       {
        "question": "Qullar Vezuviydan qamaldan qanday chiqqan?",
        "options": [
         "Uzum novdalaridan to'qilgan narvon bilan",
-        "Arqon bilan",
-        "Tunnel orqali",
-        "Kechasi yashirinib"
+        "Uzun arqon va yog'och narvon bilan",
+        "Yer osti tunnel qazib, yashirin",
+        "Kechasi, qorong'ida yashirinib"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Qullar Vezuviydan qamaldan uzum novdalaridan to'qilgan narvon bilan chiqqan."
       },
       {
        "question": "Spartakka qarshi qaysi sarkarda jo'natilgan?",
        "options": [
         "Mark Krass",
-        "Pompey",
-        "Sezar",
-        "Antoniy"
+        "Pompey, mashhur sarkarda",
+        "Sezar, yosh sarkarda",
+        "Antoniy, mashhur jangchi"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartakka qarshi sarkarda Mark Krass jo'natilgan."
       },
       {
        "question": "Spartak lashkari qachon tor-mor etilgan?",
@@ -30047,18 +30323,20 @@
         "Mil. avv. 44-yilda"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak lashkari mil. avv. 71-yil bahorida tor-mor etilgan."
       },
       {
        "question": "Spartak qanday holatda halok bo'lgan?",
        "options": [
         "Hal qiluvchi jangda",
-        "Asirlikda",
-        "Qamalda",
-        "Xiyonat tufayli"
+        "Asirlikda qatl qilingan",
+        "Qamal paytida ochlikdan",
+        "Xiyonat tufayli o'ldirilgan"
        ],
        "correct_index": 0,
-       "page": 164
+       "page": 164,
+       "explanation": "Spartak hal qiluvchi jangda halok bo'lgan."
       }
      ]
     },
