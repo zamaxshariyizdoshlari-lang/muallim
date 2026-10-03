@@ -9391,6 +9391,11 @@
      "start_page": 52,
      "end_page": 54,
      "explanation": {
+      "takeaways": [
+       "Ossuriya jangari davlat bo'lib, poytaxti Ashshur, keyin Nineviya edi; mil. avv. 605-yilda Midiya va Bobil tomonidan tor-mor etilgan.",
+       "Urartu Kavkazortida joylashgan, poytaxti Tushpa; uni Midiya bosib olgan.",
+       "Finikiyaliklar dengiz savdosi bilan shug'ullanib, mil. avv. X asrda 22 undosh harfli alifbo yaratgan; Bibliya - yahudiylarning qadimiy kitoblari to'plami."
+      ],
       "goals": [
        "Ossuriya, Urartu, Finikiya va Falastin davlatlari haqida bilish",
        "Finikiya alifbosi va Bibliyaning ahamiyatini tushuntirish"
@@ -9692,7 +9697,8 @@
          "Hech narsa"
         ],
         "correct_index": 0,
-        "page": 52
+        "page": 52,
+        "explanation": "Bo'ysundirilgan xalqlar Ossuriya hukmdoriga katta miqdorda o'lpon to'lagan."
        },
        {
         "question": "Yunonlar Finikiya alifbosini qanday o'zlashtirgan?",
@@ -9703,18 +9709,20 @@
          "Iyerogliflarga aralashtirib"
         ],
         "correct_index": 0,
-        "page": 54
+        "page": 54,
+        "explanation": "Yunonlar Finikiya alifbosini unli harflarni ham qo'shib o'zlashtirgan."
        },
        {
         "question": "Bibliyada nimalar haqida rivoyatlar mavjud?",
         "options": [
          "Olam yaratilishi, Odam Ato va Momo Havo, to'fon",
-         "Faqat qonunlar",
-         "Faqat urushlar",
-         "Faqat savdo qoidalari"
+         "Faqat qonunlar va jazo tartiblari",
+         "Faqat urushlar va hukmdorlar tarixi",
+         "Faqat savdo qoidalari va narxlar"
         ],
         "correct_index": 0,
-        "page": 54
+        "page": 54,
+        "explanation": "Bibliyada olam yaratilishi, Odam Ato va Momo Havo hamda to'fon haqida rivoyatlar bor."
        }
       ]
      },
@@ -9728,18 +9736,20 @@
         "Milodiy 1-asrda"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriya podsholigi mil. avv. 2-mingyillikda vujudga kelgan."
       },
       {
        "question": "Ossuriya qayerda joylashgan edi?",
        "options": [
         "Frot va Dajla yuqori oqimida (hozirgi Iroq)",
-        "Nil vodiysida",
-        "Kavkazortida",
-        "Livanda"
+        "Nil daryosi vodiysida, Misr yonida",
+        "Kavkazorti tog'liklarida, Turkiya sharqida",
+        "Livan tog'larida, O'rta Yer dengizi bo'yida"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriya Frot va Dajla yuqori oqimida, hozirgi Iroq hududida joylashgan edi."
       },
       {
        "question": "Ossuriyaning dastlabki poytaxti qaysi shahar edi?",
@@ -9750,7 +9760,8 @@
         "Tushpa"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriyaning dastlabki poytaxti Ashshur shahri edi."
       },
       {
        "question": "Keyinchalik Ossuriya poytaxti qaysi shahar bo'ldi?",
@@ -9761,18 +9772,20 @@
         "Sidon"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Keyinchalik Ossuriya poytaxti Nineviya shahri bo'lgan."
       },
       {
        "question": "Ossuriya aholisining asosiy mashg'ulotlari nima edi?",
        "options": [
         "Dehqonchilik va savdo-sotiq",
-        "Dengizchilik",
-        "Konchilik",
-        "Faqat chorvachilik"
+        "Dengizchilik va baliq ovlash",
+        "Konchilik va metall qazib olish",
+        "Faqat ko'chmanchi chorvachilik"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriya aholisining asosiy mashg'ulotlari dehqonchilik va savdo-sotiq edi."
       },
       {
        "question": "Ossuriyaliklar qanday xalq bo'lgan?",
@@ -9783,7 +9796,8 @@
         "Ko'chmanchi chorvadorlar"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriyaliklar jangari xalq edi."
       },
       {
        "question": "Ossuriya qo'shini har yili nima qilishga otlanar edi?",
@@ -9794,18 +9808,20 @@
         "Savdo qilishga"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriya qo'shini har yili yangi yerlarni zabt etishga otlanar edi."
       },
       {
        "question": "Ashshurbanipal hukmronligi davrida Nineviyada nima jamlangan edi?",
        "options": [
         "Sopol taxtachalardan iborat yirik kutubxona",
-        "Oltin xazina",
-        "Kema flotiliyasi",
-        "Rasadxona"
+        "Katta oltin xazina va qimmatbaho toshlar",
+        "Savdo kemalari flotiliyasi",
+        "Yirik rasadxona va astronomik asboblar"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ashshurbanipal davrida Nineviyada sopol taxtachalardan iborat yirik kutubxona jamlangan."
       },
       {
        "question": "Ossuriya qachon Midiya va Bobil tomonidan tor-mor etildi?",
@@ -9816,18 +9832,20 @@
         "Mil. avv. 331-yilda"
        ],
        "correct_index": 0,
-       "page": 52
+       "page": 52,
+       "explanation": "Ossuriya mil. avv. 605-yilda Midiya va Bobil tomonidan tor-mor etilgan."
       },
       {
        "question": "Urartu davlati qayerda joylashgan?",
        "options": [
         "Kavkazortida, hozirgi Turkiyaning sharqiy qismi va Armaniston hududlarida",
-        "Misrda",
-        "Hindistonda",
-        "Livanda"
+        "Misr hududida, Nil daryosi bo'yida",
+        "Hindiston hududida, Hind vodiysida",
+        "Livan hududida, dengiz sohilida"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu Kavkazortida, hozirgi Turkiyaning sharqiy qismi va Armaniston hududlarida joylashgan."
       },
       {
        "question": "Urartu aholisi qanday atalgan?",
@@ -9838,18 +9856,20 @@
         "Midiyaliklar"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu aholisi urartlar deb atalgan."
       },
       {
        "question": "Urartu davlati tashkil topishini nima tezlashtirdi?",
        "options": [
         "Ossuriya hujumlaridan himoyalanish zarurati",
-        "Savdo yo'llari",
-        "Dehqonchilik",
-        "Dengiz yaqinligi"
+        "Savdo yo'llarini nazorat qilish istagi",
+        "Dehqonchilik rivoji va yerlarning kengayishi",
+        "Dengiz yaqinligi va bandargohlar qurilishi"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu davlati Ossuriya hujumlaridan himoyalanish zarurati tufayli tashkil topishi tezlashgan."
       },
       {
        "question": "Urartu davlati qachon gullab-yashnadi?",
@@ -9860,7 +9880,8 @@
         "Milodiy I asrda"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu davlati mil. avv. IX-VIII asr boshlarida gullab-yashnagan."
       },
       {
        "question": "Urartu poytaxti qaysi shahar edi?",
@@ -9871,7 +9892,8 @@
         "Karxemish"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu poytaxti Tushpa shahri edi."
       },
       {
        "question": "Teyshebaini qal'asini kim ishg'ol qilib vayron etdi?",
@@ -9882,7 +9904,8 @@
         "Yunonlar"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Teyshebaini qal'asini ko'chmanchi skif qabilalari ishg'ol qilib vayron etgan."
       },
       {
        "question": "Urartu podsholigini oxir-oqibat kim bosib oldi?",
@@ -9893,18 +9916,20 @@
         "Finikiya"
        ],
        "correct_index": 0,
-       "page": 53
+       "page": 53,
+       "explanation": "Urartu podsholigini oxir-oqibat Midiya bosib olgan."
       },
       {
        "question": "Finikiya qayerda joylashgan edi?",
        "options": [
         "O'rta Yer dengizining sharqiy qirg'og'ida, hozirgi Livan hududida",
-        "Nil bo'ylarida",
-        "Mesopotamiya markazida",
-        "Kavkaz tog'larida"
+        "Nil daryosi bo'ylarida, Misrning shimolida",
+        "Mesopotamiya markazida, ikki daryo orasida",
+        "Kavkaz tog'larida, Urartu yonida"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Finikiya O'rta Yer dengizining sharqiy qirg'og'ida, hozirgi Livan hududida joylashgan edi."
       },
       {
        "question": "Finikiyaliklarning asosiy mashg'uloti nima edi?",
@@ -9915,18 +9940,20 @@
         "Konchilik"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Finikiyaliklarning asosiy mashg'uloti savdo-sotiq edi."
       },
       {
        "question": "Finikiyaliklar qo'shnilariga nimalar sotgan?",
        "options": [
         "Yog'och, metallar va gazlamalar",
-        "Faqat don",
-        "Faqat qullar",
-        "Faqat tuz"
+        "Faqat don va un mahsulotlari",
+        "Faqat qullar va xizmatkorlar",
+        "Faqat tuz va baliq mahsulotlari"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Finikiyaliklar qo'shnilariga yog'och, metallar va gazlamalar sotgan."
       },
       {
        "question": "Quyidagilardan qaysi biri Finikiya shahri?",
@@ -9937,18 +9964,20 @@
         "Memfis"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Tir Finikiya shaharlaridan biri."
       },
       {
        "question": "Finikiyada mil. avv. X asrda nima yaratildi?",
        "options": [
         "22 undosh harfdan iborat alifbo",
-        "Mixxat",
-        "Iyeroglif",
-        "Taqvim"
+        "Mixxat yozuvi va uning belgilari",
+        "Iyeroglif yozuvi va rasm-belgilar",
+        "Yagona taqvim va yil hisobi"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Finikiyada mil. avv. X asrda 22 undosh harfdan iborat alifbo yaratilgan."
       },
       {
        "question": "Yunonlar Finikiya alifbosiga nima qo'shdi?",
@@ -9959,7 +9988,8 @@
         "Tinish belgilarini"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Yunonlar Finikiya alifbosiga unli harflarni qo'shgan."
       },
       {
        "question": "Falastin hududida mil. avv. XI asrda qaysi podsholik vujudga keldi?",
@@ -9970,18 +10000,20 @@
         "Urartu"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Falastin hududida mil. avv. XI asrda Isroil podsholigi vujudga kelgan."
       },
       {
        "question": "Yahudiy podsholigini kim bosib oldi?",
        "options": [
         "Bobil podsholigi",
-        "Misr",
-        "Finikiya",
-        "Urartu"
+        "Qadimgi Misr fir'avnlari davlati",
+        "Finikiya shaharlari ittifoqi",
+        "Urartu podsholigi qo'shinlari"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Yahudiy podsholigini Bobil podsholigi bosib olgan."
       },
       {
        "question": "Qadimiy yahudiylarning afsonalari qayerga jamlangan?",
@@ -9992,7 +10024,8 @@
         "Papiruslarga"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Qadimiy yahudiylarning afsonalari Bibliyaga jamlangan."
       },
       {
        "question": "Bibliya so'zi yunonchada nimani anglatadi?",
@@ -10003,18 +10036,20 @@
         "Xudo"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Bibliya so'zi yunonchada 'kitob' degani."
       },
       {
        "question": "Bibliyada quyidagilardan qaysi biri haqida so'z boradi?",
        "options": [
         "Odam Ato va Momo Havoning yaratilishi, to'fon",
-        "Xammurapi qonunlari",
-        "Piramidalar qurilishi",
-        "Ossuriya yurishlari"
+        "Xammurapi qonunlari va ularning matni",
+        "Piramidalar qurilishi va fir'avnlar",
+        "Ossuriya yurishlari va qo'shin tarkibi"
        ],
        "correct_index": 0,
-       "page": 54
+       "page": 54,
+       "explanation": "Bibliyada Odam Ato va Momo Havoning yaratilishi hamda to'fon haqida so'z boradi."
       }
      ]
     },
@@ -10024,6 +10059,11 @@
      "start_page": 55,
      "end_page": 57,
      "explanation": {
+      "takeaways": [
+       "Eronda Elam (poytaxti Suza) va Midiya bilan bir qatorda forslar davlati paydo bo'lgan; Kir II mil. avv. 558-yilda forslarni birlashtirgan.",
+       "Kambiz II Misrni bosib olgan; Doro I (mil. avv. 522) 'darik' tangasi, 'shoh yo'li' va satrapiyalarni joriy etgan.",
+       "Persepol saroyi ahamiyatli; mil. avv. 330-yilda Fors davlatini Makedoniyalik Aleksandr bosib olgan."
+      ],
       "goals": [
        "Qadimgi Eron davlatlari (Elam, Midiya, Fors) va Ahamoniylar sulolasini bilish",
        "Kir II, Kambiz II va Doro I ning faoliyati va Doro I islohotlarini tushuntirish"
@@ -10330,18 +10370,20 @@
          "Hindistonning zabt etilishiga"
         ],
         "correct_index": 0,
-        "page": 56
+        "page": 56,
+        "explanation": "Doro I ning yunon koloniyalari va Frakiyani bosib olishi yunon-fors urushlari boshlanishiga sabab bo'lgan."
        },
        {
         "question": "Persepol saroyi devoridagi bo'rtma naqshlarda nimalar tasvirlangan?",
         "options": [
          "Bo'ysundirilgan elatlar Fors shohiga o'lpon keltirayotgan holda",
-         "Faqat urush jang manzarasi",
-         "Faqat ma'budlar",
+         "Faqat urush va jang manzarasi",
+         "Faqat ma'budlar tasvirlari",
          "Dehqonchilik manzaralari"
         ],
         "correct_index": 0,
-        "page": 57
+        "page": 57,
+        "explanation": "Persepol devoridagi bo'rtma naqshlarda bo'ysundirilgan elatlar Fors shohiga o'lpon keltirayotgani tasvirlangan."
        },
        {
         "question": "Midiya Ossuriyani qanday bosib olgan?",
@@ -10352,7 +10394,8 @@
          "Misr yordamida"
         ],
         "correct_index": 0,
-        "page": 55
+        "page": 55,
+        "explanation": "Midiya Ossuriyani Bobil bilan ittifoq bo'lib bosib olgan."
        }
       ]
      },
@@ -10366,7 +10409,8 @@
         "Xettlar va finikiyaliklar"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Hozirgi Eron hududida qadim zamonlarda kassiylar va elamiylar yashagan."
       },
       {
        "question": "Keyinchalik bu mamlakatga qaysi xalqlar ko'chib o'rnashadi?",
@@ -10377,7 +10421,8 @@
         "Turklar va mo'g'ullar"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Keyinchalik Eron hududiga midiyaliklar va forslar ko'chib o'rnashgan."
       },
       {
        "question": "Tog'oldi vodiylarda aholi nima bilan shug'ullangan?",
@@ -10388,7 +10433,8 @@
         "Konchilik bilan"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Tog'oldi vodiylarda aholi dehqonchilik bilan shug'ullangan."
       },
       {
        "question": "Dasht mintaqalarida kimlar kun kechirgan?",
@@ -10399,18 +10445,20 @@
         "Hunarmandlar"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Dasht mintaqalarida chorvadorlar kun kechirgan."
       },
       {
        "question": "Elam davlati qayerda vujudga kelgan?",
        "options": [
         "Eronning janubi-g'arbida, Mesopotamiya bilan chegarada",
-        "Eronning shimolida",
-        "Kaspiy bo'ylarida",
-        "Hindiston yonida"
+        "Eronning shimolida, Kaspiy bo'yida",
+        "Eronning sharqida, Hindiston yonida",
+        "Eronning markazida, cho'l o'rtasida"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Elam davlati Eronning janubi-g'arbida, Mesopotamiya bilan chegarada vujudga kelgan."
       },
       {
        "question": "Elam davlatining poytaxti qaysi shahar edi?",
@@ -10421,29 +10469,32 @@
         "Bobil"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Elam davlatining poytaxti Suza shahri edi."
       },
       {
        "question": "Elamda nima yaratilgan?",
        "options": [
         "Jahondagi eng qadimiy yozuvlardan biri",
-        "Alifbo",
-        "Piramida",
-        "Tanga"
+        "Jahondagi birinchi alifbo",
+        "Katta piramidalar qurilishi",
+        "Oltin tanga pullar"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Elamda jahondagi eng qadimiy yozuvlardan biri yaratilgan."
       },
       {
        "question": "Midiya qayerda joylashgan edi?",
        "options": [
         "Kaspiy dengizidan janubi-g'arbda",
         "Fors ko'rfazi bo'ylarida",
-        "Misrda",
-        "Kavkazortida"
+        "Misr hududida",
+        "Kavkazorti hududida"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Midiya Kaspiy dengizidan janubi-g'arbda joylashgan edi."
       },
       {
        "question": "Midiya qaysi podsho davrida qudratli davlatga aylandi?",
@@ -10454,7 +10505,8 @@
         "Kambiz II"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Midiya Kiaksar davrida qudratli davlatga aylangan."
       },
       {
        "question": "Midiya qachon qudratli davlatga aylandi?",
@@ -10465,7 +10517,8 @@
         "Mil. avv. XV asrda"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Midiya mil. avv. VII asrda qudratli davlatga aylangan."
       },
       {
        "question": "Midiya Bobil bilan ittifoq bo'lib qaysi davlatni bosib oldi?",
@@ -10476,18 +10529,20 @@
         "Finikiyani"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Midiya Bobil bilan ittifoq bo'lib Ossuriyani bosib olgan."
       },
       {
        "question": "Fors viloyati qayerda joylashgan?",
        "options": [
         "Eronning janubida, Fors ko'rfaziga tutashgan yerlarda",
-        "Eronning shimolida",
-        "Mesopotamiyada",
-        "Hindistonda"
+        "Eronning shimolida, Kaspiy yonida",
+        "Mesopotamiya hududida",
+        "Hindiston shimolida"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Fors viloyati Eronning janubida, Fors ko'rfaziga tutashgan yerlarda joylashgan."
       },
       {
        "question": "Kir II qaysi sulolaga mansub edi?",
@@ -10498,7 +10553,8 @@
         "Salavkiylar"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Kir II Ahamoniylar sulolasiga mansub edi."
       },
       {
        "question": "Kir II barcha forslarni qachon birlashtirdi?",
@@ -10509,40 +10565,44 @@
         "Mil. avv. 605-yilda"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Kir II barcha forslarni mil. avv. 558-yilda birlashtirgan."
       },
       {
        "question": "Kir II Midiyani bo'ysundirgach nima qildi?",
        "options": [
         "Ulkan lashkar tuzib, bosqinchilik yurishlarini davom ettirdi",
-        "Sulh tuzdi",
-        "Poytaxtni ko'chirdi",
-        "Taxtdan voz kechdi"
+        "Sulh tuzib, urushni to'xtatgan",
+        "Poytaxtni boshqa shaharga ko'chirgan",
+        "Taxtdan voz kechib, o'g'liga qoldirgan"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Kir II Midiyani bo'ysundirgach, ulkan lashkar tuzib, bosqinchilik yurishlarini davom ettirgan."
       },
       {
        "question": "Quyidagilardan qaysi biri Kir II zabt etgan mamlakat EMAS?",
        "options": [
-        "Armaniston",
-        "Midiya",
-        "Bobil",
-        "Misr (Kambiz II zabt etgan)"
+        "Misr (Kambiz II zabt etgan)",
+        "Armaniston, Kir II zabt etgan mamlakat",
+        "Midiya, Kir II zabt etgan mamlakat",
+        "Bobil, Kir II zabt etgan mamlakat"
        ],
-       "correct_index": 3,
-       "page": 55
+       "correct_index": 0,
+       "page": 55,
+       "explanation": "Misrni Kir II emas, uning o'g'li Kambiz II zabt etgan; Armaniston, Midiya va Bobilni Kir II bo'ysundirgan."
       },
       {
        "question": "Forslar O'rta Yer dengizi sohiliga chiqib qaysi hududlarni bo'ysundirdi?",
        "options": [
         "Falastin va Finikiyani",
-        "Yunonistonni",
-        "Italiyani",
-        "Liviyani"
+        "Yunonistonni va Egey dengizi orollarini",
+        "Italiyani va Sitsiliya orolini",
+        "Liviyani va Shimoliy Afrikani"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Forslar O'rta Yer dengizi sohiliga chiqib, Falastin va Finikiyani bo'ysundirgan."
       },
       {
        "question": "Kir II ning istilochilik siyosatini kimlar davom ettirdi?",
@@ -10553,7 +10613,8 @@
         "Tutmos va Yaxmos"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Kir II ning istilochilik siyosatini Kambiz II va Doro I davom ettirgan."
       },
       {
        "question": "Kambiz II qaysi mamlakatni zabt etdi?",
@@ -10564,7 +10625,8 @@
         "Frakiyani"
        ],
        "correct_index": 0,
-       "page": 55
+       "page": 55,
+       "explanation": "Kambiz II Misrni zabt etgan."
       },
       {
        "question": "Doro I qachon Fors taxtiga chiqdi?",
@@ -10575,73 +10637,80 @@
         "Mil. avv. 605-yilda"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Doro I mil. avv. 522-yilda Fors taxtiga chiqqan."
       },
       {
        "question": "Doro I taxtga chiqqach bosib olingan mamlakatlarda nima yuz berdi?",
        "options": [
         "Qo'zg'olonlar alangalanib ketdi",
-        "Tinchlik o'rnatildi",
-        "Ular mustaqil bo'ldi",
-        "Soliqlar to'xtadi"
+        "Tinchlik o'rnatilib, soliqlar kamaygan",
+        "Bosib olingan yerlar darhol mustaqil bo'lgan",
+        "Soliqlar to'xtab, aholi ko'chib ketgan"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Doro I taxtga chiqqach, bosib olingan mamlakatlarda qo'zg'olonlar alangalanib ketgan."
       },
       {
        "question": "Doro I ning qaysi harakati yunon-fors urushlari boshlanishiga sabab bo'ldi?",
        "options": [
         "Kichik Osiyodagi yunon koloniyalari va Frakiyani bosib olishi",
-        "Misrni zabt etishi",
-        "Bobilga yurishi",
-        "Hindistonga yurishi"
+        "Misrni zabt etib, fir'avnlarni quvib chiqarishi",
+        "Bobilga yurish qilib, uni vayron etishi",
+        "Hindistonga yurish qilib, uni bo'ysundirishi"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Doro I ning Kichik Osiyodagi yunon koloniyalari va Frakiyani bosib olishi yunon-fors urushlariga sabab bo'lgan."
       },
       {
        "question": "Doro I hukmronligi davrida davlat qaysi hududlar orasida yastangan?",
        "options": [
         "Hindiston shimolidan O'rta Yer dengiziga qadar",
-        "Faqat Eron platosida",
-        "Misrdan Yunonistongacha",
-        "Xitoydan Rimgacha"
+        "Faqat Eron platosi va uning tog'oldilari",
+        "Misrdan Yunonistongacha cho'zilgan",
+        "Xitoydan Rimgacha cho'zilgan"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Doro I davrida davlat Hindiston shimolidan O'rta Yer dengiziga qadar yastangan."
       },
       {
        "question": "\"Darik\" nima?",
        "options": [
         "Doro I joriy etgan yagona oltin tanga",
-        "Fors satrapiyasi",
-        "Saroy nomi",
-        "Shoh yo'li nomi"
+        "Fors satrapiyasining nomi",
+        "Doro I saroyining nomi",
+        "'Shoh yo'li' yo'lining nomi"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "'Darik' - Doro I joriy etgan yagona oltin tanga."
       },
       {
        "question": "\"Shoh yo'li\" qaysi shaharlarni bog'lagan?",
        "options": [
         "Persepol va O'rta Yer dengizini",
-        "Suza va Bobilni",
+        "Suza va Bobil shaharlarini",
         "Ekbatana va Hindistonni",
         "Fiva va Memfisni"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "'Shoh yo'li' Persepol va O'rta Yer dengizini bog'lagan."
       },
       {
        "question": "Satrapiya nima?",
        "options": [
         "Alohida harbiy-ma'muriy o'lka",
-        "Fors shohining saroyi",
-        "Soliq turi",
-        "Harbiy unvon"
+        "Fors shohining saroy majmuasi",
+        "Soliqning alohida bir turi",
+        "Harbiy unvonlardan biri"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Satrapiya - alohida harbiy-ma'muriy o'lka."
       },
       {
        "question": "Ahamoniylar davlati qanday davlat bo'lgan?",
@@ -10649,21 +10718,23 @@
         "Jahondagi eng yirik davlatlardan biri",
         "Kichik shahar-davlat",
         "Faqat dengiz davlati",
-        "Ko'chmanchi qabila ittifoqi"
+        "Ko'chmanchi qabilalar ittifoqi"
        ],
        "correct_index": 0,
-       "page": 56
+       "page": 56,
+       "explanation": "Ahamoniylar davlati jahondagi eng yirik davlatlardan biri bo'lgan."
       },
       {
        "question": "Ahamoniylar davlatidagi muhim savdo markazlari qaysilar?",
        "options": [
         "Suza, Ekbatana va boshqa shaharlar",
-        "Faqat Persepol",
-        "Uruk va Ur",
-        "Tir va Sidon"
+        "Faqat Persepol shahri",
+        "Uruk va Ur shaharlari",
+        "Tir va Sidon shaharlari"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Suza, Ekbatana va boshqa shaharlar Ahamoniylar davlatidagi muhim savdo markazlari edi."
       },
       {
        "question": "Persepolda qaysi shohlarning saroyi qoldiqlari saqlanib qolgan?",
@@ -10674,7 +10745,8 @@
         "Kiaksar va Xufu"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Persepolda Doro I va Kserks saroylarining qoldiqlari saqlangan."
       },
       {
        "question": "Persepol saroyida nechta ustunli zal bo'lgan?",
@@ -10685,40 +10757,44 @@
         "Ellik ustunli"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Persepol saroyida yuz ustunli zal bo'lgan."
       },
       {
        "question": "Persepol saroyi devorlaridagi bo'rtma naqshlarda nimalar tasvirlangan?",
        "options": [
         "Bo'ysundirilgan elatlarning Fors shohlariga o'lpon keltirishi",
-        "Faqat hayvonlar",
-        "Faqat ma'budlar",
-        "Dehqonchilik"
+        "Faqat hayvonlar va ovchilik manzaralari",
+        "Faqat ma'budlar va ularning tasvirlari",
+        "Dehqonchilik va hosil yig'ish manzaralari"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Persepol devorlaridagi bo'rtma naqshlarda bo'ysundirilgan elatlarning Fors shohlariga o'lpon keltirishi tasvirlangan."
       },
       {
        "question": "Qadimgi forslar qaysi yozuvdan foydalangan?",
        "options": [
         "Mixxat belgi-yozuvidan",
-        "Iyeroglifdan",
+        "Iyeroglif yozuvidan",
         "Lotin alifbosidan",
         "Yunon alifbosidan"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Qadimgi forslar mixxat belgi-yozuvidan foydalangan."
       },
       {
        "question": "Fors shohlarining bitiklari qayerlarga o'yib yozilgan?",
        "options": [
         "Behistun va Naqshi Rustam qoyalariga hamda Persepol saroyi devorlariga",
-        "Papirusga",
-        "Sopol idishlarga",
-        "Faqat tangalarga"
+        "Faqat papirus varaqlariga",
+        "Faqat sopol idishlarga",
+        "Faqat tangalar sirtiga"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Fors shohlarining bitiklari Behistun va Naqshi Rustam qoyalariga hamda Persepol saroyi devorlariga o'yib yozilgan."
       },
       {
        "question": "Fors davlatini qachon va kim bosib oldi?",
@@ -10729,7 +10805,8 @@
         "Mil. avv. 605-yilda Midiya"
        ],
        "correct_index": 0,
-       "page": 57
+       "page": 57,
+       "explanation": "Fors davlatini mil. avv. 330-yilda Makedoniyalik Aleksandr bosib olgan."
       }
      ]
     },
@@ -10739,6 +10816,11 @@
      "start_page": 58,
      "end_page": 61,
      "explanation": {
+      "takeaways": [
+       "Hindiston Hind va Gang vodiylarida joylashgan; Himolay shimoldan keladigan sovuq shamollarni to'sadi.",
+       "Mohenjodaro va Xarappa rejali, mudofaa devorli shaharlar edi; mil. avv. XVIII asrdan keyin toshqinlar tufayli zavolga yuz tutgan.",
+       "Hindlar ko'p ma'budga ishongan, sigirni muqaddas bilgan; jamiyat to'rt kastaga (brahman, kshatriy, vayshiy, shudra) bo'lingan, tabaqasizlar 'chandal' deyilgan."
+      ],
       "goals": [
        "Hindistonning tabiiy sharoiti va ilk shaharlari (Mohenjodaro, Xarappa)ni bilish",
        "Diniy e'tiqodlar va kasta tizimini tushuntirish"
@@ -11040,34 +11122,37 @@
         "question": "Hind vodiysi shaharlari nima sababdan vayron bo'lgan?",
         "options": [
          "Toshqinlar, o'rmonlar va changalzorlar kengayishi natijasida",
-         "Fors bosqini tufayli",
-         "Zilzila tufayli",
-         "Odamlar ko'chib ketgani uchun"
+         "Fors qo'shinlari bosqini tufayli",
+         "Kuchli zilzila tufayli",
+         "Aholining boshqa yerga ko'chib ketishi sababli"
         ],
         "correct_index": 0,
-        "page": 59
+        "page": 59,
+        "explanation": "Hind vodiysi shaharlari toshqinlar, o'rmonlar va changalzorlar kengayishi natijasida vayron bo'lgan."
        },
        {
         "question": "Kasta tizimida bir tabaqadan boshqasiga o'tish mumkinmi?",
         "options": [
          "Yo'q, iloji bo'lmagan",
-         "Ha, boylik bilan",
+         "Ha, katta boylik to'plab",
          "Ha, nikoh orqali",
          "Ha, kohinlar ruxsati bilan"
         ],
         "correct_index": 0,
-        "page": 61
+        "page": 61,
+        "explanation": "Kasta tizimida bir tabaqadan boshqasiga o'tish iloji bo'lmagan."
        },
        {
         "question": "Chandallar kimlar?",
         "options": [
          "Tabaqalarga mansub bo'lmaganlar, \"hazar qilinadiganlar\"",
-         "Kohinlar",
-         "Jangchilar",
-         "Savdogarlar"
+         "Kohinlar - ruhoniylar tabaqasi",
+         "Jangchilar - kshatriylar tabaqasi",
+         "Savdogarlar - vayshiylar tabaqasi"
         ],
         "correct_index": 0,
-        "page": 61
+        "page": 61,
+        "explanation": "Chandallar tabaqalarga mansub bo'lmagan 'hazar qilinadiganlar' edi."
        }
       ]
      },
@@ -11081,29 +11166,32 @@
         "Xuanxe va Yanszi"
        ],
        "correct_index": 0,
-       "page": 58
+       "page": 58,
+       "explanation": "Hindiston Hind va Gang daryolari vodiylarida joylashgan."
       },
       {
        "question": "Hindistonning tabiiy sharoiti nimaga imkon yaratgan?",
        "options": [
         "Dehqonchilik vujudga kelishi va rivojiga",
-        "Faqat ovchilikka",
-        "Dengizchilikka",
-        "Konchilikka"
+        "Faqat ovchilik va termachilikka",
+        "Dengizchilik va dengiz savdosiga",
+        "Konchilik va metall qazib olishga"
        ],
        "correct_index": 0,
-       "page": 58
+       "page": 58,
+       "explanation": "Hindistonning tabiiy sharoiti dehqonchilik vujudga kelishi va rivojiga imkon yaratgan."
       },
       {
        "question": "Himolay tog'lari Hindistonni nimadan himoya qiladi?",
        "options": [
         "Shimoldan keladigan sovuq shamollardan",
-        "Dengiz toshqinidan",
-        "Bosqinchilardan",
-        "Qumli bo'ronlardan"
+        "Dengiz toshqini va bo'ronlaridan",
+        "Bosqinchilarning hujumidan",
+        "Qumli bo'ronlar va changlardan"
        ],
        "correct_index": 0,
-       "page": 58
+       "page": 58,
+       "explanation": "Himolay tog'lari Hindistonni shimoldan keladigan sovuq shamollardan himoya qiladi."
       },
       {
        "question": "Gang vodiysida qanday o'rmonlar bo'lgan?",
@@ -11114,29 +11202,32 @@
         "Zaytun bog'lari"
        ],
        "correct_index": 0,
-       "page": 58
+       "page": 58,
+       "explanation": "Gang vodiysida tropik o'rmonlar bo'lgan."
       },
       {
        "question": "Hind daryosi havzasining eng yirik qadimgi shaharlari qaysilar?",
        "options": [
         "Mohenjodaro va Xarappa",
-        "Uruk va Ur",
-        "Memfis va Fiva",
-        "Suza va Persepol"
+        "Uruk va Ur shaharlari",
+        "Memfis va Fiva shaharlari",
+        "Suza va Persepol shaharlari"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Hind daryosi havzasining eng yirik qadimgi shaharlari Mohenjodaro va Xarappa edi."
       },
       {
        "question": "Mohenjodaro va Xarappa qanday himoyalangan?",
        "options": [
         "Mustahkam mudofaa devorlari bilan, ichki qasri bo'lgan",
-        "Xandaq bilan",
-        "Tog'lar bilan",
-        "Faqat daryo bilan"
+        "Chuqur xandaq va suv bilan to'ldirilgan zovur bilan",
+        "Atrofdagi baland tog'lar bilan",
+        "Faqat Hind daryosining kengligi bilan"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Mohenjodaro va Xarappa mustahkam mudofaa devorlari bilan o'ralgan, ichki qasri bo'lgan."
       },
       {
        "question": "Shahar mavzelari nima bilan ajratilgan?",
@@ -11147,29 +11238,32 @@
         "Daraxtlar bilan"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Shahar mavzelari ko'chalar bilan ajratilgan."
       },
       {
        "question": "Binolar nimadan qurilgan?",
        "options": [
         "Pishiq va xom g'ishtdan",
-        "Faqat toshdan",
-        "Faqat yog'ochdan",
-        "Faqat loydan"
+        "Faqat toshdan va marmardan",
+        "Faqat yog'ochdan va qamishdan",
+        "Faqat loydan va somondan"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Binolar pishiq va xom g'ishtdan qurilgan."
       },
       {
        "question": "Mohenjodaro qanday markaz bo'lgan?",
        "options": [
         "Hunarmandchilik va savdo markazi",
-        "Harbiy markaz",
-        "Diniy markaz faqat",
-        "Ilm markazi"
+        "Harbiy markaz va qal'a",
+        "Faqat diniy marosimlar markazi",
+        "Ilm va kutubxona markazi"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Mohenjodaro hunarmandchilik va savdo markazi bo'lgan."
       },
       {
        "question": "Hind vodiysi aholisining asosiy mashg'uloti nima edi?",
@@ -11180,7 +11274,8 @@
         "Chorvachilik faqat"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Hind vodiysi aholisining asosiy mashg'uloti dehqonchilik edi."
       },
       {
        "question": "Qadimgi hindlar qaysi o'simliklarni yetishtirgan?",
@@ -11191,7 +11286,8 @@
         "Choy va kofe"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Qadimgi hindlar shakarqamish va paxta yetishtirgan."
       },
       {
        "question": "Qadimgi hindlar qaysi hayvonni qo'lga o'rgatgan?",
@@ -11202,7 +11298,8 @@
         "Bug'ularni"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Qadimgi hindlar fillarni qo'lga o'rgatgan."
       },
       {
        "question": "Hind vodiysi shaharlari qachondan keyin zavolga yuz tutdi?",
@@ -11213,29 +11310,32 @@
         "Mil. avv. V asrdan keyin"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Hind vodiysi shaharlari mil. avv. XVIII asrdan keyin zavolga yuz tutgan."
       },
       {
        "question": "Hind vodiysi shaharlari zavolining sabablaridan biri nima?",
        "options": [
         "Tez-tez ro'y beruvchi toshqinlar",
-        "Bosqinchilarning hujumi",
-        "Ochlik",
-        "Yong'in"
+        "Qo'shni xalqlarning bosqinchilik hujumlari",
+        "Keng tarqalgan ochlik va qahatchilik",
+        "Katta yong'inlar va vayronagarchiliklar"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Hind vodiysi shaharlari zavoliga tez-tez ro'y beruvchi toshqinlar sabab bo'lgan."
       },
       {
        "question": "Qadimgi hind rivoyatlariga ko'ra, Quyosh ma'budi har tongda nimada osmon bo'ylab yo'lga tushadi?",
        "options": [
         "Oltin aravada",
-        "Kemada",
-        "Ot ustida",
-        "Fil ustida"
+        "Kemada, daryo bo'ylab suzib",
+        "Ot ustida, tez chopib",
+        "Fil ustida, sekin yurib"
        ],
        "correct_index": 0,
-       "page": 59
+       "page": 59,
+       "explanation": "Qadimgi hind rivoyatlariga ko'ra, Quyosh ma'budi har tongda oltin aravada osmon bo'ylab yo'lga tushadi."
       },
       {
        "question": "Momaqaldiroq ma'budi kim edi?",
@@ -11246,29 +11346,32 @@
         "Ra"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Momaqaldiroq ma'budi Indra edi."
       },
       {
        "question": "Indra osmondagi suvni tutqunlikdan xalos etgach nima bo'lgan?",
        "options": [
         "Yer yuzida qurg'oqchilik poyoniga yetgan",
-        "Toshqin boshlangan",
-        "Tun tugagan",
-        "Yomg'ir to'xtagan"
+        "Yer yuzida katta toshqin boshlangan",
+        "Tun tugab, quyosh chiqqan",
+        "Yomg'ir to'xtab, qahatchilik boshlangan"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Indra osmondagi suvni tutqunlikdan xalos etgach, yer yuzida qurg'oqchilik poyoniga yetgan."
       },
       {
        "question": "Ganesha qaysi ma'bud?",
        "options": [
         "Boshi filnikiga o'xshash donishmandlik ma'budi",
-        "Urush ma'budi",
-        "Suv ma'budi",
-        "O'lim ma'budi"
+        "Urush va jang ma'budi",
+        "Suv va daryolar ma'budi",
+        "O'lim va yerosti ma'budi"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Ganesha boshi filnikiga o'xshash donishmandlik ma'budi."
       },
       {
        "question": "Hindlar qaysi hayvonni muqaddas hisoblagan?",
@@ -11279,7 +11382,8 @@
         "Otni"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Hindlar sigirni muqaddas hayvon deb hisoblagan."
       },
       {
        "question": "Sigirni o'ldirish hindlar orasida nima hisoblangan?",
@@ -11290,18 +11394,20 @@
         "Qurbonlik"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Sigirni o'ldirish hindlar orasida jinoyat hisoblangan."
       },
       {
        "question": "Hindlar jon haqida nimaga ishongan?",
        "options": [
         "Bir tanadan boshqasiga ko'chib o'tishiga",
-        "Odam butunlay yo'q bo'lishiga",
-        "Jon yulduzga aylanishiga",
-        "Jon suvda qolishiga"
+        "Odam o'lgach butunlay yo'q bo'lishiga",
+        "Jon yulduzga aylanib ketishiga",
+        "Jon suvda va daryoda qolishiga"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Hindlar jon bir tanadan boshqasiga ko'chib o'tishiga ishongan."
       },
       {
        "question": "Qadimgi Hindistonda aholi nechta tabaqaga bo'lingan?",
@@ -11312,7 +11418,8 @@
         "Oltita"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Qadimgi Hindistonda aholi to'rtta tabaqaga bo'lingan."
       },
       {
        "question": "Tabaqalar boshqacha qanday atalgan?",
@@ -11323,18 +11430,20 @@
         "Sulola yoki qabila"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Tabaqalar kasta yoki varna deb atalgan."
       },
       {
        "question": "Brahmanlar kimlar?",
        "options": [
         "Kohinlar - hind ruhoniylari",
-        "Jangchilar",
-        "Dehqonlar",
-        "Qullar"
+        "Jangchilar va qo'shin sarkardalari",
+        "Dehqonlar va ziroatkorlar",
+        "Qullar va xizmatkorlar"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Brahmanlar - kohinlar, ya'ni hind ruhoniylari."
       },
       {
        "question": "Kshatriylar kimlar?",
@@ -11345,40 +11454,44 @@
         "Xizmatkorlar"
        ],
        "correct_index": 0,
-       "page": 60
+       "page": 60,
+       "explanation": "Kshatriylar jangchilar edi."
       },
       {
        "question": "Vayshiylar kimlar?",
        "options": [
         "Dehqon, hunarmand va savdogarlar",
-        "Kohinlar",
-        "Jangchilar",
-        "Qullar"
+        "Kohinlar va ruhoniylar",
+        "Jangchilar va sarkardalar",
+        "Qullar va xizmatkorlar"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Vayshiylar - dehqon, hunarmand va savdogarlar."
       },
       {
        "question": "Shudralar kimlar?",
        "options": [
         "Xizmatkorlar va qullar",
-        "Jangchilar",
-        "Kohinlar",
-        "Savdogarlar"
+        "Jangchilar va sarkardalar",
+        "Kohinlar va ruhoniylar",
+        "Savdogarlar va hunarmandlar"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Shudralar xizmatkorlar va qullar edi."
       },
       {
        "question": "Hindlarning e'tiqodicha, tabaqalarni kim yaratgan?",
        "options": [
         "Oliy ma'bud Brahma o'z jismidan",
-        "Indra",
-        "Quyosh ma'budi",
-        "Ganesha"
+        "Momaqaldiroq ma'budi Indra",
+        "Quyosh ma'budi va oltin arava egasi",
+        "Filbosh donishmand Ganesha"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Hindlarning e'tiqodicha, tabaqalarni oliy ma'bud Brahma o'z jismidan yaratgan."
       },
       {
        "question": "E'tiqodga ko'ra, kohinlar Brahmaning qaysi a'zosidan chiqqan?",
@@ -11389,7 +11502,8 @@
         "Tovonidan"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "E'tiqodga ko'ra, kohinlar Brahmaning og'zidan chiqqan."
       },
       {
        "question": "E'tiqodga ko'ra, jangchilar Brahmaning qaysi a'zosidan yaratilgan?",
@@ -11400,7 +11514,8 @@
         "Boshidan"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "E'tiqodga ko'ra, jangchilar Brahmaning qo'llaridan yaratilgan."
       },
       {
        "question": "E'tiqodga ko'ra, xizmatkorlar Brahmaning qaysi a'zosidan yaratilgan?",
@@ -11411,7 +11526,8 @@
         "Qovurg'asidan"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "E'tiqodga ko'ra, xizmatkorlar Brahmaning tovonidan yaratilgan."
       },
       {
        "question": "Bolalar qaysi tabaqaga mansub deb topilgan?",
@@ -11422,40 +11538,44 @@
         "Eng yuqori tabaqaga"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Bolalar ota-onalari tabaqasiga mansub deb topilgan."
       },
       {
        "question": "\"Chandal\" so'zi nimani anglatadi?",
        "options": [
         "\"Hazar qilinadiganlar\"",
-        "\"Ezgu kishilar\"",
-        "\"Jangchilar\"",
-        "\"Kohinlar\""
+        "'Ezgu kishilar' ma'nosini",
+        "'Jangchilar' ma'nosini",
+        "'Kohinlar' ma'nosini"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "'Chandal' so'zi 'hazar qilinadiganlar' degan ma'noni bildiradi."
       },
       {
        "question": "Chandallar uchun qanday taqiqlar bo'lgan?",
        "options": [
         "Kastalar bilan bir uyda yashash va bir dasturxonga o'tirish taqiqlangan",
-        "Dehqonchilik qilish taqiqlangan",
-        "Savdo qilish taqiqlangan",
-        "Ibodatxonaga kirish taqiqlangan faqat"
+        "Dehqonchilik bilan shug'ullanish taqiqlangan",
+        "Savdo qilish va bozorga chiqish taqiqlangan",
+        "Faqat ibodatxonaga kirish taqiqlangan"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Chandallarga kastalar bilan bir uyda yashash va bir dasturxonga o'tirish taqiqlangan."
       },
       {
        "question": "Chandallar nima kiyishi shart edi?",
        "options": [
         "Uzoqdan ko'rinadigan alohida kiyim",
-        "Oq libos",
-        "Oltin bezak",
-        "Charm etik"
+        "Oq libos va oq sarpo",
+        "Oltin bezak va zeb-ziynat",
+        "Charm etik va kamar"
        ],
        "correct_index": 0,
-       "page": 61
+       "page": 61,
+       "explanation": "Chandallar uzoqdan ko'rinadigan alohida kiyim kiyishi shart bo'lgan."
       }
      ]
     },
@@ -11465,6 +11585,11 @@
      "start_page": 62,
      "end_page": 65,
      "explanation": {
+      "takeaways": [
+       "Hindlar 360 kunlik taqvim tuzgan, shaxmatni ixtiro qilgan; sanskrit tilida 'Mahabharata' va 'Ramayana' yozilgan.",
+       "Mil. avv. VI asrda shahzoda Siddhartha Gautama (Budda) buddaviylikni yaratgan.",
+       "Buddaviylar xohish-istaklar azob-uqubatga olib keladi deb hisoblagan va dastlab ma'budga sig'inmagan."
+      ],
       "goals": [
        "Hindistonning fan va madaniyat yutuqlarini bilish",
        "Buddaviylikning paydo bo'lishi va asosiy g'oyalarini tushuntirish"
@@ -11737,34 +11862,37 @@
         "question": "Siddhartha Gautama hayotini nima o'zgartirib yubordi?",
         "options": [
          "Inson azob chekishi va vafot etishini anglashi",
-         "Urushdagi mag'lubiyat",
-         "Otasining vafoti",
-         "Kasallikka chalinishi"
+         "Urushdagi katta mag'lubiyat",
+         "Otasining to'satdan vafot etishi",
+         "Og'ir kasallikka chalinishi"
         ],
         "correct_index": 0,
-        "page": 64
+        "page": 64,
+        "explanation": "Siddhartha Gautama hayotini inson azob chekishi va vafot etishini anglashi o'zgartirib yuborgan."
        },
        {
         "question": "Nima uchun buddaviylar dastlab ma'budga sig'inmagan?",
         "options": [
          "Ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblagan",
-         "Ma'budlar yo'q edi",
-         "Kohinlar taqiqlagan",
-         "Podsho taqiqlagan"
+         "Ma'budlar umuman yo'q deb o'ylagani uchun",
+         "Kohinlar sig'inishni taqiqlagani uchun",
+         "Podsho sig'inishni taqiqlagani uchun"
         ],
         "correct_index": 0,
-        "page": 65
+        "page": 65,
+        "explanation": "Buddaviylar dastlab ma'budga sig'inmagan, chunki ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblagan."
        },
        {
         "question": "Budda qanday holatda tasvirlanadi?",
         "options": [
          "Nilufar gulida chordana qurib, teran o'ylarga cho'mgan",
-         "Ot ustida",
-         "Taxtda tik turgan",
-         "Jang kiyimida"
+         "Ot ustida, jangga shay holda",
+         "Taxtda tik turib, qo'lida sher ushlab",
+         "Jang kiyimida, qo'lida nayza ushlab"
         ],
         "correct_index": 0,
-        "page": 65
+        "page": 65,
+        "explanation": "Budda nilufar gulida chordana qurib, teran o'ylarga cho'mgan holda tasvirlanadi."
        }
       ]
      },
@@ -11773,12 +11901,13 @@
        "question": "Qadimiy Hindistonda qaysi fanlar yuksalgan?",
        "options": [
         "Astronomiya va matematika",
-        "Faqat kimyo",
-        "Faqat geografiya",
-        "Faqat mantiq"
+        "Faqat kimyo va metallurgiya",
+        "Faqat geografiya va xaritashunoslik",
+        "Faqat mantiq va falsafa"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Qadimiy Hindistonda astronomiya va matematika yuksalgan."
       },
       {
        "question": "Hindlar tuzgan taqvim necha kundan iborat edi?",
@@ -11789,7 +11918,8 @@
         "300 kun"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Hindlar 360 kundan iborat taqvim tuzgan."
       },
       {
        "question": "Hindlar juda katta raqamlarni qanday ifodalagan?",
@@ -11800,18 +11930,20 @@
         "Hisoblab bo'lmagan"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Hindlar juda katta raqamlarni alohida belgilar bilan ifodalagan."
       },
       {
        "question": "Hind astronomlari nimalar harakatini o'rgangan?",
        "options": [
         "Quyosh, yulduzlar va sayyoralar",
-        "Faqat Oy",
-        "Faqat kometalar",
-        "Faqat Quyosh"
+        "Faqat Oy va uning fazalarini",
+        "Faqat kometalar va meteoritlarni",
+        "Faqat Quyosh va uning tutilishini"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Hind astronomlari Quyosh, yulduzlar va sayyoralar harakatini o'rgangan."
       },
       {
        "question": "Astronomik kuzatuvlar nimani aniqlashga imkon bergan?",
@@ -11822,40 +11954,44 @@
         "Soliq miqdorini"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Astronomik kuzatuvlar yil uzunligini aniqlashga imkon bergan."
       },
       {
        "question": "Oy yog'dusi hindlarga qanday ma'lum bo'lgan?",
        "options": [
         "Quyosh nurining akslanishi sifatida",
-        "Oyning o'z nuri sifatida",
-        "Xudo nuri sifatida",
-        "Yulduz nuri sifatida"
+        "Oyning o'z nuri va issiqligi sifatida",
+        "Xudo yuborgan nur sifatida",
+        "Yulduzlarning nuri sifatida"
        ],
        "correct_index": 0,
-       "page": 62
+       "page": 62,
+       "explanation": "Hindlarga Oy yog'dusi Quyosh nurining akslanishi sifatida ma'lum bo'lgan."
       },
       {
        "question": "Qadimgi Hindistonda tibbiyot haqida yozma manbalarda nimalar tilga olingan?",
        "options": [
         "Turli kasalliklar va jarrohlik asboblari",
-        "Faqat dorilar narxi",
-        "Faqat shifokorlar ismi",
-        "Faqat kasalxonalar"
+        "Faqat dorilar narxi va shifokorlar maoshi",
+        "Faqat shifokorlar ismi va ularning kastasi",
+        "Faqat kasalxonalar qurilishi va ularning joyi"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "Qadimgi Hindistonda tibbiyot haqida yozma manbalarda turli kasalliklar va jarrohlik asboblari tilga olingan."
       },
       {
        "question": "Hindlar kasalliklarni davolashda nimadan foydalangan?",
        "options": [
         "Shifobaxsh dorilardan",
-        "Faqat duodan",
-        "Faqat suvdan",
-        "Faqat tuzdan"
+        "Faqat duo va ibodatdan",
+        "Faqat toza suv va sutdan",
+        "Faqat tuz va asaldan"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "Hindlar kasalliklarni davolashda shifobaxsh dorilardan foydalangan."
       },
       {
        "question": "Hindistonda ixtiro qilingan qaysi o'yin bugun butun jahonda mashhur?",
@@ -11866,29 +12002,32 @@
         "Shashka"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "Hindistonda ixtiro qilingan o'yin shaxmat bo'lib, u bugun butun jahonda mashhur."
       },
       {
        "question": "Hindlar shaxmatni qanday atagan?",
        "options": [
         "\"Qo'shinlarning to'rt turi\"",
-        "\"Shoh o'yini\"",
-        "\"Aql sinovi\"",
-        "\"Fil jangi\""
+        "'Shoh o'yini' deb",
+        "'Aql sinovi' deb",
+        "'Fil jangi' deb"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "Hindlar shaxmatni 'qo'shinlarning to'rt turi' deb atagan."
       },
       {
        "question": "Sanskrit nima?",
        "options": [
         "Qadimiy hind tillari asosida ishlab chiqilgan yangi adabiy til",
-        "Hind daryosi nomi",
-        "Kasta nomi",
-        "Ibodatxona turi"
+        "Hind daryosining qadimiy nomi",
+        "Kasta tizimidagi tabaqa nomi",
+        "Ibodatxona va unga ruhoniy turi"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "Sanskrit - qadimiy hind tillari asosida ishlab chiqilgan yangi adabiy til."
       },
       {
        "question": "Quyidagi dostonlardan qaysi biri sanskrit tilida yozilgan?",
@@ -11899,29 +12038,32 @@
         "\"Avesto\""
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "'Mahabharata' sanskrit tilida yozilgan doston."
       },
       {
        "question": "\"Ramayana\" nima?",
        "options": [
         "Sanskritda yozilgan doston",
-        "Shahar nomi",
+        "Qadimiy shahar nomi",
         "Ma'bud nomi",
         "O'yin nomi"
        ],
        "correct_index": 0,
-       "page": 63
+       "page": 63,
+       "explanation": "'Ramayana' sanskritda yozilgan doston."
       },
       {
        "question": "Hindlarning diniy e'tiqodlari nima ta'sirida o'zgarib borgan?",
        "options": [
         "Jamiyatdagi o'zgarishlar ta'sirida",
-        "Bosqinlar ta'sirida",
-        "Iqlim o'zgarishi ta'sirida",
-        "Savdo ta'sirida"
+        "Bosqinlar va jangovar yurishlar ta'sirida",
+        "Iqlim o'zgarishi va qurg'oqchilik ta'sirida",
+        "Savdo aloqalari va dengiz yo'llari ta'sirida"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Hindlarning diniy e'tiqodlari jamiyatdagi o'zgarishlar ta'sirida o'zgarib borgan."
       },
       {
        "question": "Buddaviylik dini qachon yaratilgan?",
@@ -11932,128 +12074,140 @@
         "Mil. avv. III asrda"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Buddaviylik dini mil. avv. VI asrda yaratilgan."
       },
       {
        "question": "Buddaviylik dinini kim yaratgan?",
        "options": [
         "Shahzoda Siddhartha Gautama",
-        "Brahma",
-        "Indra",
-        "Ganesha"
+        "Oliy ma'bud Brahma",
+        "Momaqaldiroq ma'budi Indra",
+        "Filbosh ma'bud Ganesha"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Buddaviylik dinini shahzoda Siddhartha Gautama yaratgan."
       },
       {
        "question": "\"Budda\" nima?",
        "options": [
         "Siddhartha Gautamaning taxallusi",
-        "Shahar nomi",
-        "Tog' nomi",
-        "Kasta nomi"
+        "Hindistondagi shahar nomi",
+        "Himolaydagi tog' nomi",
+        "Kasta tizimidagi tabaqa nomi"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "'Budda' Siddhartha Gautamaning taxallusi."
       },
       {
        "question": "Siddhartha Gautama 20 yoshga qadar qayerda yashagan?",
        "options": [
         "Hukmdor otasining saroyida betashvish",
-        "Ibodatxonada",
-        "G'orda",
-        "Dengiz bo'yida"
+        "Ibodatxonada kohinlar qo'lida tarbiyalanib",
+        "Tog'dagi g'orda yolg'iz yashab",
+        "Dengiz bo'yidagi qishloqda baliqchi bo'lib"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Siddhartha Gautama 20 yoshga qadar hukmdor otasining saroyida betashvish yashagan."
       },
       {
        "question": "Sayr paytida shahzoda nimalarni ko'rdi?",
        "options": [
         "Munkillagan kishi, bedavo dardga yo'liqqan kishi va dafn marosimini",
-        "Urush manzarasini",
-        "Ibodatxonani",
-        "Bozorni"
+        "Urush manzarasi va jangchilarni",
+        "Katta ibodatxona va ruhoniylarni",
+        "Gavjum bozor va savdogarlarni"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Sayr paytida shahzoda munkillagan kishi, bedavo dardga yo'liqqan kishi va dafn marosimini ko'rgan."
       },
       {
        "question": "Shahzoda ko'rgan manzaralardan nimani angladi?",
        "options": [
         "Inson azob chekishi va vaqti kelib vafot etishini",
-        "Boylikning ahamiyatini",
-        "Urush zarurligini",
-        "Taxt qadrini"
+        "Boylikning hayotdagi ahamiyatini",
+        "Urush zarurligi va jang san'atini",
+        "Taxt qadri va hukmdorlik burchini"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Ko'rgan manzaralardan shahzoda inson azob chekishi va vaqti kelib vafot etishini anglagan."
       },
       {
        "question": "Shundan keyin Siddhartha Gautama nima qildi?",
        "options": [
         "Saroy turmushidan voz kechib, hayot mazmunini izlab sayohatga otlandi",
-        "Taxtga o'tirdi",
-        "Qo'shin tuzdi",
-        "Ibodatxona qurdi"
+        "Taxtga o'tirib, davlat boshqarishni boshlagan",
+        "Qo'shin tuzib, qo'shni yurtlarga yurgan",
+        "Katta ibodatxona qurib, kohin bo'lgan"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Siddhartha Gautama saroy turmushidan voz kechib, hayot mazmunini izlab sayohatga otlangan."
       },
       {
        "question": "Budda insonning tug'ilishi haqida qanday xulosaga kelgan?",
        "options": [
         "Inson son-sanoqsiz marotaba tug'iladi va vafot etadi",
-        "Inson bir marta yashaydi",
-        "Inson yulduzga aylanadi",
-        "Inson qaytib kelmaydi"
+        "Inson bir marta yashaydi va o'ladi",
+        "Inson o'lgach yulduzga aylanadi",
+        "Inson o'lgach qaytib kelmaydi"
        ],
        "correct_index": 0,
-       "page": 64
+       "page": 64,
+       "explanation": "Budda inson son-sanoqsiz marotaba tug'ilib, vafot etadi degan xulosaga kelgan."
       },
       {
        "question": "Keyingi hayotda odamning kim bo'lib tug'ilishi nimaga bog'liq?",
        "options": [
         "Uning sa'y-harakatlari va amallariga",
-        "Ota-onasiga",
-        "Tabaqasiga",
-        "Boyligiga"
+        "Ota-onasining tabaqasi va boyligiga",
+        "Tug'ilgan joyi va shahriga",
+        "Ma'budlarning xohish-irodasiga"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Keyingi hayotda odamning kim bo'lib tug'ilishi uning sa'y-harakatlari va amallariga bog'liq."
       },
       {
        "question": "Buddaviylar insondan nimani talab qiladi?",
        "options": [
         "Yolg'on so'zlamaslik, mol-davlat to'plamaslik, tirik mavjudotlar qonini to'kmaslik",
-        "Faqat ro'za tutish",
-        "Ko'proq qurbonlik keltirish",
-        "Boy bo'lish"
+        "Faqat ro'za tutish va ibodat qilish",
+        "Ko'proq qurbonlik keltirish va nazr berish",
+        "Boy bo'lish va xayriya qilish"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Buddaviylar insondan yolg'on so'zlamaslik, mol-davlat to'plamaslik va tirik mavjudotlar qonini to'kmaslikni talab qilgan."
       },
       {
        "question": "Buddaviylikka ko'ra inson nimadan voz kechishi zarur?",
        "options": [
         "Har qanday xohish-istaklardan",
-        "Faqat go'shtdan",
-        "Faqat oiladan",
-        "Faqat mehnatdan"
+        "Faqat go'sht yeyishdan voz kechishi",
+        "Faqat oila va farzandlardan voz kechishi",
+        "Faqat mehnat va kasbdan voz kechishi"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Buddaviylikka ko'ra inson har qanday xohish-istaklardan voz kechishi zarur."
       },
       {
        "question": "Nima uchun xohish-istaklardan voz kechish kerak?",
        "options": [
         "Har qanday xohish-istak azob-uqubatga olib keladi",
-        "U gunoh sanaladi",
-        "Ma'bud taqiqlagan",
-        "U qimmatga tushadi"
+        "U gunoh sanalgani uchun",
+        "Ma'bud taqiqlagani uchun",
+        "U qimmatga tushgani uchun"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Buddaviylar fikricha, har qanday xohish-istak azob-uqubatga olib keladi."
       },
       {
        "question": "Avvaliga buddaviylar e'tiqodida ma'bud bo'lganmi?",
@@ -12064,40 +12218,44 @@
         "Ha, Quyosh"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Avvaliga buddaviylar e'tiqodida ma'bud bo'lmagan."
       },
       {
        "question": "Avvaliga ma'budsiz din nima uchun shunday bo'lgan?",
        "options": [
         "Ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblangan",
-        "Ma'budlar qo'rqitgan",
-        "Kohinlar yo'q edi",
-        "Ibodatxona qurilmagan"
+        "Ma'budlar qo'rqitib turgani uchun",
+        "Kohinlar yo'q bo'lgani uchun",
+        "Ibodatxonalar qurilmagani uchun"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Avvaliga ma'budsiz din bo'lgan, chunki ma'budlar inson azob-uqubatlarini yengillashtira olmaydi deb hisoblangan."
       },
       {
        "question": "Keyinchalik nima boshlandi?",
        "options": [
         "Buddaning o'ziga sig'inish",
-        "Quyoshga sig'inish",
-        "Sigirga sig'inish",
-        "Olovga sig'inish"
+        "Quyoshga va oltin aravaga",
+        "Sigirga va muqaddas hayvonlarga",
+        "Olovga va suvga"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Keyinchalik buddaviylar Buddaning o'ziga sig'ina boshlagan."
       },
       {
        "question": "Budda qanday tasvirlanadi?",
        "options": [
         "Nilufar gulida chordana qurib, qovoqlarini tushirgan holda",
-        "Taxtda, qo'lida qilich bilan",
-        "Filga minib",
-        "Tik turgan holda"
+        "Taxtda, qo'lida qilich ushlagan holda",
+        "Filga minib, bayroq ko'targan holda",
+        "Tik turib, qo'llarini ko'targan holda"
        ],
        "correct_index": 0,
-       "page": 65
+       "page": 65,
+       "explanation": "Budda nilufar gulida chordana qurib, qovoqlarini tushirgan holda tasvirlanadi."
       }
      ]
     },
@@ -12107,6 +12265,11 @@
      "start_page": 66,
      "end_page": 68,
      "explanation": {
+      "takeaways": [
+       "Xitoyda ilk sivilizatsiyalar Xuanxe va Yanszi bo'ylarida vujudga kelgan; ilk davlat Shan (mil. avv. 3-mingyillik oxiri), keyin Chjou.",
+       "Xitoyliklar dehqonchilik bilan shug'ullanib, sholi, choy yetishtirgan va ipak qurtidan shoyi tayyorlagan.",
+       "Mil. avv. VII-V asrlarda 'ko'p podsholiklar' davri bo'lgan; mil. avv. III asrda Sin hukmdori Xitoyni birlashtirgan."
+      ],
       "goals": [
        "Xitoyda ilk davlatlar (Shan, Chjou) va ularning tashkil topishini bilish",
        "Xitoy aholisining mashg'ulotlari (choy, ipak) va \"ko'p podsholiklar\" davrini tushuntirish"
@@ -12398,23 +12561,25 @@
         "question": "Shan davlatini zaiflashtirgan nima?",
         "options": [
          "Betoxtov olib borilgan bosqinchilik urushlari",
-         "Toshqinlar",
-         "Ochlik",
-         "Kasallik"
+         "Daryolarning tez-tez toshib turishi",
+         "Qahatchilik va aholining ochligi",
+         "Keng tarqalgan yuqumli kasallik"
         ],
         "correct_index": 0,
-        "page": 66
+        "page": 66,
+        "explanation": "Shan davlatini betoxtov olib borilgan bosqinchilik urushlari zaiflashtirgan."
        },
        {
         "question": "\"Ko'p podsholiklar\" davri nima sababdan boshlandi?",
         "options": [
          "Chjouda markaziy hokimiyat zaiflashib, viloyatlar ajralib chiqa boshladi",
-         "Sin hukmdori vafot etdi",
-         "Xitoy Hindistonga qo'shildi",
-         "Yangi din paydo bo'ldi"
+         "Sin hukmdori vafot etgani sababli",
+         "Xitoy Hindistonga qo'shilgani sababli",
+         "Yangi din paydo bo'lgani sababli"
         ],
         "correct_index": 0,
-        "page": 68
+        "page": 68,
+        "explanation": "'Ko'p podsholiklar' davri Chjouda markaziy hokimiyat zaiflashib, viloyatlar ajralib chiqa boshlagani sababli boshlangan."
        },
        {
         "question": "Xitoyni mil. avv. III asrda kim birlashtirdi?",
@@ -12425,7 +12590,8 @@
          "Xan hukmdori"
         ],
         "correct_index": 0,
-        "page": 68
+        "page": 68,
+        "explanation": "Xitoyni mil. avv. III asrda Sin davlatining hukmdori birlashtirgan."
        }
       ]
      },
@@ -12439,7 +12605,8 @@
         "Amudaryo va Sirdaryo"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Xitoyda ilk sivilizatsiyalar Xuanxe va Yanszi daryolari bo'ylarida vujudga kelgan."
       },
       {
        "question": "Xitoyda ilk davlat qachon paydo bo'ldi?",
@@ -12450,7 +12617,8 @@
         "Milodiy 1-asrda"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Xitoyda ilk davlat mil. avv. 3-mingyillikning oxirlarida paydo bo'lgan."
       },
       {
        "question": "Ilk davlat daryoning qaysi qismida paydo bo'ldi?",
@@ -12461,7 +12629,8 @@
         "Tog'lar orasida"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Ilk davlat Xuanxe havzasining o'rta qismida paydo bo'lgan."
       },
       {
        "question": "Shan davlati nima uchun shunday nom olgan?",
@@ -12472,7 +12641,8 @@
         "Ma'bud nomi tufayli"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Shan davlati bosh shahri nomi bilan atalgan."
       },
       {
        "question": "Shan davlatini kim o'ziga bo'ysundirgan?",
@@ -12483,7 +12653,8 @@
         "Xan sarkardasi"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Shan davlatini Shan qabilasining boshlig'i o'ziga bo'ysundirgan."
       },
       {
        "question": "Shan davlatini zaiflashtirgan narsa nima?",
@@ -12494,7 +12665,8 @@
         "Ochlik"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Shan davlatini betoxtov bosqinchilik urushlari zaiflashtirgan."
       },
       {
        "question": "Shan zaiflashuvidan qaysi qo'shni qabila foydalangan?",
@@ -12505,18 +12677,20 @@
         "Xitan qabilasi"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Shan zaiflashuvidan qo'shni Chjou qabilasi foydalangan."
       },
       {
        "question": "Chjou davlati qanday tashkil topgan?",
        "options": [
         "Chjou qabilasi Shan yerlarini o'zinikiga qo'shib olishi natijasida",
-        "Ikki davlat sulh tuzib",
-        "Xalq qo'zg'oloni bilan",
-        "Savdogarlar ittifoqidan"
+        "Ikki davlat o'zaro sulh tuzib, birlashgan",
+        "Xalq qo'zg'oloni natijasida podsho ag'darilgan",
+        "Savdogarlar ittifoqi davlat tuzgan"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Chjou davlati Chjou qabilasi Shan yerlarini o'zinikiga qo'shib olishi natijasida tashkil topgan."
       },
       {
        "question": "Chjou hukmdorlari davlatni qanday atagan?",
@@ -12527,7 +12701,8 @@
         "\"Yer markazi\""
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Chjou hukmdorlari davlatni 'Osmon ostidagi podsholik' deb atagan."
       },
       {
        "question": "Chjou hukmdorlari o'zlarini qanday atagan?",
@@ -12538,7 +12713,8 @@
         "\"Xudolar\""
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Chjou hukmdorlari o'zlarini 'Osmon o'g'illari' deb atagan."
       },
       {
        "question": "Chjou davlati qaysi hududni o'z ichiga olgan?",
@@ -12549,7 +12725,8 @@
         "Hindistonni"
        ],
        "correct_index": 0,
-       "page": 66
+       "page": 66,
+       "explanation": "Chjou davlati butun Shimoliy Xitoyni o'z ichiga olgan."
       },
       {
        "question": "Xitoyda qaysi kasb azaldan e'tiborli va faxrli hisoblangan?",
@@ -12560,7 +12737,8 @@
         "Hunarmandchilik"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Xitoyda dehqonchilik azaldan e'tiborli va faxrli kasb hisoblangan."
       },
       {
        "question": "Xitoyning asosiy dehqonchilik ekinlari qaysilar bo'lgan?",
@@ -12571,7 +12749,8 @@
         "Arpa va no'xat"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Xitoyning asosiy dehqonchilik ekinlari javdar va bug'doy bo'lgan."
       },
       {
        "question": "Xitoyliklar keyinchalik qaysi ekinni yetishtira boshladi?",
@@ -12582,7 +12761,8 @@
         "Zig'ir"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Xitoyliklar keyinchalik sholi yetishtira boshlagan."
       },
       {
        "question": "Sholi urug'i Xitoyga qayerdan keltirilgan?",
@@ -12593,29 +12773,32 @@
         "Yunonistondan"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Sholi urug'i Xitoyga Hindistondan keltirilgan."
       },
       {
        "question": "Choy nima?",
        "options": [
         "Choy daraxti barglaridan tayyorlanadigan shifobaxsh ichimlik",
-        "Sut mahsuloti",
-        "Sharbat turi",
-        "Yog'"
+        "Sut va qaymoqdan tayyorlangan mahsulot turi",
+        "Mevalardan siqib olingan sharbat turi",
+        "O'simlik urug'laridan olingan yog' turi"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Choy - choy daraxti barglaridan tayyorlanadigan shifobaxsh ichimlik."
       },
       {
        "question": "Choy qanday tarqaldi?",
        "options": [
         "Tez orada butun jahonga tarqaldi",
-        "Faqat Xitoyda qoldi",
-        "Faqat Hindistonga",
-        "Sekin tarqaldi"
+        "Faqat Xitoyda qolib, tashqariga chiqmagan",
+        "Faqat Hindistongagina tarqalgan",
+        "Juda sekin va bir necha asrda tarqalgan"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Choy tez orada butun jahonga tarqalgan."
       },
       {
        "question": "Ipak qurti nima bilan boqiladi?",
@@ -12626,7 +12809,8 @@
         "Uzum bargi bilan"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Ipak qurti tut bargi bilan boqiladi."
       },
       {
        "question": "Ipak qurtlari nimaga tolalarni o'raydi?",
@@ -12637,51 +12821,56 @@
         "Shoxlarga"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Ipak qurtlari tolalarni pillalarga o'raydi."
       },
       {
        "question": "Pilladan qanday mato tayyorlanadi?",
        "options": [
         "Nihoyatda yengil va nafis shoyi",
-        "Qalin jun mato",
-        "Zig'ir mato",
-        "Paxta mato"
+        "Qalin jun mato va po'stin",
+        "Qo'pol zig'ir mato va arqon",
+        "Oddiy paxta mato va ip"
        ],
        "correct_index": 0,
-       "page": 67
+       "page": 67,
+       "explanation": "Pilladan nihoyatda yengil va nafis shoyi mato tayyorlanadi."
       },
       {
        "question": "Chjou davlatida markaziy hokimiyat qachon zaiflasha boshladi?",
        "options": [
         "Mil. avv. VIII-VII asrlarda",
-        "Mil. avv. III asrda",
-        "Mil. avv. XV asrda",
-        "Milodiy I asrda"
+        "Mil. avv. III asrda Sin hukmdori davrida",
+        "Mil. avv. XV asrda Shan sulolasi davrida",
+        "Milodiy I asrda Xan sulolasi davrida"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "Chjou davlatida markaziy hokimiyat mil. avv. VIII-VII asrlarda zaiflasha boshlagan."
       },
       {
        "question": "Ayrim viloyatlar noiblari nimaga intilgan?",
        "options": [
         "Podsho hokimiyatidan ozod bo'lishga",
-        "Soliqlarni oshirishga",
-        "Urushga to'xtatishga",
-        "Ko'chib ketishga"
+        "Soliqlarni oshirib, xazinani to'ldirishga",
+        "Urushni to'xtatib, sulh tuzishga",
+        "Boshqa o'lkalarga ko'chib ketishga"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "Ayrim viloyatlar noiblari podsho hokimiyatidan ozod bo'lishga intilgan."
       },
       {
        "question": "Chekka viloyatlar aholisi ajralib chiqishidan qaysi hodisa foydalangan?",
        "options": [
         "Ko'chmanchi qabilalar hujumidan",
-        "Toshqindan",
-        "Ochlikdan",
-        "Dengiz savdosidan"
+        "Daryo toshqinlaridan va suv bosishidan",
+        "Qahatchilik va ochlikdan",
+        "Dengiz savdosi va bandargohlardan"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "Chekka viloyatlar aholisi ajralib chiqishidan ko'chmanchi qabilalar hujumidan foydalangan."
       },
       {
        "question": "\"Ko'p podsholiklar\" davri qaysi asrlarni o'z ichiga oladi?",
@@ -12692,40 +12881,44 @@
         "Milodiy I-V asrlar"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "'Ko'p podsholiklar' davri mil. avv. VII-V asrlarni o'z ichiga oladi."
       },
       {
        "question": "Mayda podsholiklar o'rtasidagi urushlar qancha davom etdi?",
        "options": [
         "200 yildan uzoqroq",
-        "10 yil",
-        "50 yil",
-        "1000 yil"
+        "Atigi 10 yil davom etgan",
+        "Taxminan 50 yil davom etgan",
+        "Ming yildan ortiq davom etgan"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "Mayda podsholiklar o'rtasidagi urushlar 200 yildan uzoqroq davom etgan."
       },
       {
        "question": "\"Kurashayotgan podsholiklar\" davri nima bilan yakunlandi?",
        "options": [
         "Sin hukmdorining mil. avv. III asrda yagona davlat tuzishi bilan",
-        "Chjouning qayta tiklanishi bilan",
-        "Shanning qaytishi bilan",
-        "Ko'chmanchilar bosqini bilan"
+        "Chjou davlatining qayta tiklanishi bilan",
+        "Shan davlatining qaytib kelishi bilan",
+        "Ko'chmanchilarning umumiy bosqini bilan"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "'Kurashayotgan podsholiklar' davri Sin hukmdorining mil. avv. III asrda yagona davlat tuzishi bilan yakunlangan."
       },
       {
        "question": "Sin hukmdori yagona davlatni qanday tuzgan?",
        "options": [
         "O'zining barcha raqiblarini yo'q qilib",
-        "Sulh tuzib",
-        "Saylov orqali",
-        "Meros orqali"
+        "Raqiblari bilan sulh tuzib, ittifoq qilib",
+        "Xalq saylovi orqali tanlanib",
+        "Taxtni meros qilib olib"
        ],
        "correct_index": 0,
-       "page": 68
+       "page": 68,
+       "explanation": "Sin hukmdori yagona davlatni o'zining barcha raqiblarini yo'q qilib tuzgan."
       }
      ]
     },
@@ -12735,6 +12928,11 @@
      "start_page": 69,
      "end_page": 72,
      "explanation": {
+      "takeaways": [
+       "Mil. avv. 246-yilda Sin Shixuandi Xitoyni birlashtirib, viloyatlarga noiblar tayinlagan; maqbarasidan 6 ming sopol askar topilgan.",
+       "Buyuk Xitoy devori (uzunligi qariyb 4000 km) ko'chmanchi hunlardan himoya uchun qurilgan.",
+       "Xitoyliklar qog'oz (mil. avv. I asr), kompas va seysmografni ixtiro qilgan."
+      ],
       "goals": [
        "Sin Shixuandi tomonidan Xitoy birlashtirilishini va uning maqbarasini bilish",
        "Buyuk Xitoy devori va xitoyliklarning ixtirolarini tushuntirish"
@@ -13013,34 +13211,37 @@
         "question": "Sin Shixuandi o'z davlatini qanday boshqargan?",
         "options": [
          "Viloyatlarga bo'lib, har biriga noiblarini tayinlagan",
-         "Hamma yerni o'zi boshqargan",
-         "Kohinlarga topshirgan",
-         "Saylangan kengash orqali"
+         "Hamma yerni to'g'ridan-to'g'ri o'zi boshqargan",
+         "Boshqaruvni kohinlarga topshirgan",
+         "Saylangan kengash orqali boshqargan"
         ],
         "correct_index": 0,
-        "page": 69
+        "page": 69,
+        "explanation": "Sin Shixuandi davlatni viloyatlarga bo'lib, har biriga o'z noiblarini tayinlagan."
        },
        {
         "question": "Devor qurilishida kimlar majburan ishlatilgan?",
         "options": [
          "Yuz minglab dehqonlar",
-         "Qullar faqat",
-         "Harbiy asirlar faqat",
-         "Kohinlar"
+         "Faqat qullar va asirlar",
+         "Faqat jangchilar va sarkardalar",
+         "Faqat kohinlar va ruhoniylar"
         ],
         "correct_index": 0,
-        "page": 70
+        "page": 70,
+        "explanation": "Devor qurilishida yuz minglab dehqonlar majburan ishlatilgan."
        },
        {
         "question": "Kompas qanday tuzilgan edi?",
         "options": [
          "Magnitlangan temirdan yasalgan uzun dastali qoshiq",
-         "Suzuvchi igna",
-         "Aylanuvchi disk",
-         "Simob idishi"
+         "Aylanuvchi arrali g'ildirak shaklida",
+         "Suv bilan to'ldirilgan idish shaklida",
+         "Yulduzlar xaritasi shaklida"
         ],
         "correct_index": 0,
-        "page": 72
+        "page": 72,
+        "explanation": "Kompas magnitlangan temirdan yasalgan uzun dastali qoshiq shaklida bo'lgan."
        }
       ]
      },
@@ -13049,12 +13250,13 @@
        "question": "Xitoyni birlashtirgan hukmdor qanday nom olgan?",
        "options": [
         "Sin Shixuandi",
-        "Chjou Vani",
-        "Shan Vani",
-        "Xan Udi"
+        "Chjou Vani nomini",
+        "Shan Vani nomini",
+        "Xan Udi nomini"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Xitoyni birlashtirgan hukmdor Sin Shixuandi nomini olgan."
       },
       {
        "question": "Xitoy qachon birlashtirilgan?",
@@ -13065,29 +13267,32 @@
         "Milodiy 100-yilda"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Xitoy mil. avv. 246-yilda birlashtirilgan."
       },
       {
        "question": "\"Sin Shixuandi\" nomi qanday ma'noni bildiradi?",
        "options": [
         "\"Sinning birinchi hukmdori\"",
-        "\"Osmon o'g'li\"",
-        "\"Buyuk sarkarda\"",
-        "\"Devor quruvchisi\""
+        "'Osmon o'g'li' degan ma'noni",
+        "'Buyuk sarkarda' degan ma'noni",
+        "'Devor quruvchisi' degan ma'noni"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "'Sin Shixuandi' nomi 'Sinning birinchi hukmdori' degan ma'noni bildiradi."
       },
       {
        "question": "Sin Shixuandi davlatni qanday taqsimlagan?",
        "options": [
         "Alohida viloyatlarga, har biriga noib tayinlagan",
-        "Nomlarga",
-        "Satrapiyalarga",
-        "Polislarga"
+        "Nomlarga bo'lib, nomarxlar tayinlagan",
+        "Satrapiyalarga bo'lib, satraplar tayinlagan",
+        "Polislarga bo'lib, arxontlar tayinlagan"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Sin Shixuandi davlatni alohida viloyatlarga bo'lib, har biriga noib tayinlagan."
       },
       {
        "question": "Sin Shixuandi maqbara qurishga qachon farmon bergan?",
@@ -13098,18 +13303,20 @@
         "Taxtga chiqmasdan oldin"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Sin Shixuandi maqbara qurishga tirikligidayoq farmon bergan."
       },
       {
        "question": "Sin Shixuandi maqbarasi qaysi yodgorlik bilan bellasha oladi?",
        "options": [
         "Misr piramidalari bilan",
-        "Parfenon bilan",
-        "Zikkurat bilan",
-        "Persepol bilan"
+        "Afinadagi Parfenon ibodatxonasi bilan",
+        "Mesopotamiyadagi zikkurat bilan",
+        "Persepol saroyi bilan"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Sin Shixuandi maqbarasi Misr piramidalari bilan bellasha oladi."
       },
       {
        "question": "Maqbarani necha kishi necha yilda qurgan?",
@@ -13120,29 +13327,32 @@
         "1 million odam 10 yilda"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Maqbarani 720 ming odam 37 yilda qurgan."
       },
       {
        "question": "Maqbaradan nima topilgan?",
        "options": [
         "Hukmdorni \"qo'riqlash\" uchun 6 mingta sopol askar haykali",
-        "Oltin xazina",
-        "Papirus kitoblari",
-        "Kema"
+        "Katta oltin xazina va zargarlik buyumlari",
+        "Papirus kitoblari va yozma hujjatlar",
+        "Savdo kemasining qoldiqlari"
        ],
        "correct_index": 0,
-       "page": 69
+       "page": 69,
+       "explanation": "Maqbaradan hukmdorni 'qo'riqlash' uchun 6 mingta sopol askar haykali topilgan."
       },
       {
        "question": "Buyuk Xitoy devori nimadan himoya qilish uchun qurilgan?",
        "options": [
         "Ko'chmanchi hunlarning hujumlaridan",
-        "Dengiz toshqinidan",
-        "Forslardan",
-        "Hind qo'shinidan"
+        "Dengiz toshqinlaridan himoya qilish uchun",
+        "Forslarning bosqinidan himoya qilish uchun",
+        "Hind qo'shinining hujumidan himoya qilish uchun"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Buyuk Xitoy devori ko'chmanchi hunlarning hujumlaridan himoya qilish uchun qurilgan."
       },
       {
        "question": "Devor qayerda qurilgan?",
@@ -13153,7 +13363,8 @@
         "Dengiz qirg'og'ida"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Devor Shimoliy Xitoy bo'ylab qurilgan."
       },
       {
        "question": "Devorni qurish ishlari dastlab qachon boshlangan?",
@@ -13164,7 +13375,8 @@
         "Mil. avv. I asrda"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Devorni qurish ishlari dastlab mil. avv. IV asrda boshlangan."
       },
       {
        "question": "Buyuk Xitoy devorining balandligi qancha?",
@@ -13175,7 +13387,8 @@
         "60-100 metr"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Buyuk Xitoy devorining balandligi 6-10 metr."
       },
       {
        "question": "Buyuk Xitoy devorining qalinligi qancha?",
@@ -13186,7 +13399,8 @@
         "50-80 metr"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Buyuk Xitoy devorining qalinligi 5-8 metr."
       },
       {
        "question": "Buyuk Xitoy devorining uzunligi qancha?",
@@ -13197,51 +13411,56 @@
         "Qariyb 40000 kilometr"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Buyuk Xitoy devorining uzunligi qariyb 4000 kilometr."
       },
       {
        "question": "Nima uchun devor ko'chmanchilar uchun to'siq bo'lgan?",
        "options": [
         "Otliq qo'shinlar oshib o'ta olmagan, qal'alarni zabt etishni uddalay olmagan",
-        "U suv bilan to'lgan edi",
-        "Uni qo'riqchilar himoya qilgan faqat",
-        "Uning ustida qal'a bo'lmagan"
+        "U suv bilan to'ldirilgan chuqur xandaq edi",
+        "Uni faqat qo'riqchilar tashqaridan himoya qilgan",
+        "Uning ustida doimiy olov yoqib turilgan"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Devor ko'chmanchilar uchun to'siq bo'lgan, chunki otliq qo'shinlar oshib o'ta olmagan va qal'alarni zabt etishni uddalay olmagan."
       },
       {
        "question": "Devor qurilishida kimlar majburan ishlatilgan?",
        "options": [
         "Yuz minglab dehqonlar",
-        "Faqat qullar",
-        "Jangchilar",
-        "Kohinlar"
+        "Faqat qullar va asirlar",
+        "Faqat jangchilar va sarkardalar",
+        "Faqat kohinlar va ruhoniylar"
        ],
        "correct_index": 0,
-       "page": 70
+       "page": 70,
+       "explanation": "Devor qurilishida yuz minglab dehqonlar majburan ishlatilgan."
       },
       {
        "question": "Qadimgi Xitoyda qaysi fanlar rivoj topgan?",
        "options": [
         "Matematika, astronomiya va geografiya",
-        "Faqat tibbiyot",
-        "Faqat mantiq",
-        "Faqat kimyo"
+        "Faqat tibbiyot va davolash ilmi",
+        "Faqat mantiq va falsafa",
+        "Faqat kimyo va metallurgiya"
        ],
        "correct_index": 0,
-       "page": 71
+       "page": 71,
+       "explanation": "Qadimgi Xitoyda matematika, astronomiya va geografiya rivoj topgan."
       },
       {
        "question": "Xitoyliklar qaysi sohalarda katta yutuqlarga erishgan?",
        "options": [
         "Me'morchilik va haykaltaroshlikda",
-        "Dengizchilikda faqat",
-        "Konchilikda faqat",
-        "Zargarlikda faqat"
+        "Faqat dengizchilik va kemasozlikda",
+        "Faqat konchilik va metall eritishda",
+        "Faqat zargarlik va taqinchoq yasashda"
        ],
        "correct_index": 0,
-       "page": 71
+       "page": 71,
+       "explanation": "Xitoyliklar me'morchilik va haykaltaroshlikda katta yutuqlarga erishgan."
       },
       {
        "question": "Qadimgi Xitoyda so'z va jumlalarni nima ifodalagan?",
@@ -13252,7 +13471,8 @@
         "Raqamlar"
        ],
        "correct_index": 0,
-       "page": 71
+       "page": 71,
+       "explanation": "Qadimgi Xitoyda so'z va jumlalarni iyerogliflar ifodalagan."
       },
       {
        "question": "Dastlab xitoyliklar nimaga yozgan?",
@@ -13263,7 +13483,8 @@
         "Teriga"
        ],
        "correct_index": 0,
-       "page": 71
+       "page": 71,
+       "explanation": "Dastlab xitoyliklar bambuk taxtachalarga yozgan."
       },
       {
        "question": "Keyinchalik yozish uchun nimadan foydalanishga o'tilgan?",
@@ -13274,7 +13495,8 @@
         "Toshdan"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Keyinchalik yozish uchun shoyidan foydalanishga o'tilgan."
       },
       {
        "question": "Shoyi matolarga nima bilan yozilgan?",
@@ -13285,7 +13507,8 @@
         "Temir uchli qalam bilan"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Shoyi matolarga mo'yqalam bilan yozilgan."
       },
       {
        "question": "Qog'oz qachon ixtiro qilingan?",
@@ -13296,18 +13519,20 @@
         "Mil. avv. XX asrda"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Qog'oz mil. avv. I asrda ixtiro qilingan."
       },
       {
        "question": "Kompas qanday tuzilgan edi?",
        "options": [
         "Magnitlangan temirdan yasalgan uzun dastali qoshiq",
-        "Aylanuvchi arrali g'ildirak",
-        "Suv bilan to'ldirilgan idish",
-        "Yulduz xaritasi"
+        "Aylanuvchi arrali g'ildirak shaklida",
+        "Suv bilan to'ldirilgan idish shaklida",
+        "Yulduzlar xaritasi shaklida"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Kompas magnitlangan temirdan yasalgan uzun dastali qoshiq shaklida bo'lgan."
       },
       {
        "question": "Kompasning dastasi qaysi tomonni ko'rsatgan?",
@@ -13318,18 +13543,20 @@
         "G'arbni"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Kompasning dastasi janubni ko'rsatgan."
       },
       {
        "question": "Seysmograf nima uchun kerak edi?",
        "options": [
         "Zilzilani oldindan aniqlash uchun",
-        "Vaqtni o'lchash uchun",
-        "Yo'nalishni bilish uchun",
-        "Ob-havoni aniqlash uchun"
+        "Vaqtni aniq o'lchash uchun kerak edi",
+        "Yo'nalishni bilish uchun kerak edi",
+        "Ob-havoni oldindan aytish uchun kerak edi"
        ],
        "correct_index": 0,
-       "page": 72
+       "page": 72,
+       "explanation": "Seysmograf zilzilani oldindan aniqlash uchun kerak edi."
       }
      ]
     },
@@ -13339,6 +13566,11 @@
      "start_page": 73,
      "end_page": 80,
      "explanation": {
+      "takeaways": [
+       "Mil. avv. VII-VI asrlarda O'zbekiston hududida o'troq sug'diy, baqtriyalik, xorazmlik dehqonlar va ko'chmanchi sak hamda massaget chorvadorlari yashagan.",
+       "Sun'iy sug'orishga asoslangan dehqonchilik, hunarmandchilik va savdo rivojlanib, Afrosiyob, Ko'zaliqir kabi qadimgi shaharlar vujudga kelgan.",
+       "Baqtriya davlati mil. avv. VII asrda tashkil topgan (poytaxti Baqtra, podshosi Oksiart); Ko'zaliqirda xorazmliklarning katta saroyi qurilgan."
+      ],
       "goals": [
        "Mil. avv. VII-VI asrlarda O'zbekiston hududida yashagan elatlarni bilish",
        "Sug'd, Baqtriya va Xorazmning xo'jaligi, shaharlari va qadimiy davlatlarini tushuntirish"
@@ -13669,12 +13901,13 @@
         "question": "O'troq dehqonlar va ko'chmanchilar o'rtasida qanday aloqa bo'lgan?",
         "options": [
          "Mahsulot ayirboshlash muvaffaqiyatli kechgan",
-         "Doimiy urushlar",
+         "Doimiy urushlar va talonchilik",
          "Hech qanday aloqa bo'lmagan",
-         "Faqat soliq to'lash"
+         "Faqat soliq to'lash va o'lpon"
         ],
         "correct_index": 0,
-        "page": 76
+        "page": 76,
+        "explanation": "O'troq dehqonlar va ko'chmanchilar o'rtasida mahsulot ayirboshlash muvaffaqiyatli kechgan."
        },
        {
         "question": "Ktesiy hikoyasiga ko'ra, jangda kim g'alaba qozondi?",
@@ -13685,18 +13918,20 @@
          "Saklar"
         ],
         "correct_index": 0,
-        "page": 79
+        "page": 79,
+        "explanation": "Ktesiy hikoyasiga ko'ra, jangda baqtriyaliklar g'alaba qozongan."
        },
        {
         "question": "Ko'zaliqir saroyi yonida nima qurilgan?",
         "options": [
          "Arpa va bug'doy saqlash uchun yirik g'alla omborxonasi",
-         "Rasadxona",
-         "Ibodatxona",
-         "Kutubxona"
+         "Rasadxona va astronomik minora",
+         "Ibodatxona va qurbongoh",
+         "Kutubxona va xattotlar xonasi"
         ],
         "correct_index": 0,
-        "page": 80
+        "page": 80,
+        "explanation": "Ko'zaliqir saroyi yonida arpa va bug'doy saqlash uchun yirik g'alla omborxonasi qurilgan."
        }
       ]
      },
@@ -13710,7 +13945,8 @@
         "Xettlar va finikiyaliklar"
        ],
        "correct_index": 0,
-       "page": 73
+       "page": 73,
+       "explanation": "Mil. avv. VII-VI asrlarda O'zbekiston hududida sug'diylar, baqtriyaliklar va xorazmliklar yashagan."
       },
       {
        "question": "Ko'chmanchi qabilalardan qaysilari yashagan?",
@@ -13721,7 +13957,8 @@
         "Kimmeriylar va lidiyaliklar"
        ],
        "correct_index": 0,
-       "page": 73
+       "page": 73,
+       "explanation": "Ko'chmanchi qabilalardan sak va massagetlar yashagan."
       },
       {
        "question": "Zarafshon va Qashqa daryo vohasi aholisi nima bilan shug'ullangan?",
@@ -13732,7 +13969,8 @@
         "Faqat chorvachilik"
        ],
        "correct_index": 0,
-       "page": 73
+       "page": 73,
+       "explanation": "Zarafshon va Qashqa daryo vohasi aholisi dehqonchilik bilan shug'ullangan."
       },
       {
        "question": "Yunon manbalarida Zarafshon va Qashqa daryo vohasi qanday atalgan?",
@@ -13743,7 +13981,8 @@
         "Parfiya"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Yunon manbalarida Zarafshon va Qashqa daryo vohasi Sug'diyona deb atalgan."
       },
       {
        "question": "Sug'diylarning eng yaqin qo'shnilari kimlar edi?",
@@ -13754,40 +13993,44 @@
         "Forslar"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Sug'diylarning eng yaqin qo'shnilari baqtriyaliklar edi."
       },
       {
        "question": "Baqtriyaliklar qayerlarda joylashgan?",
        "options": [
         "Surxon vohasi, shimoliy Afg'oniston va janubiy Tojikiston",
-        "Farg'ona vodiysi",
-        "Xorazm vohasi",
-        "Kaspiy bo'yi"
+        "Farg'ona vodiysi va Toshkent atrofida",
+        "Xorazm vohasi va Amudaryo deltasida",
+        "Kaspiy dengizi bo'ylarida"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Baqtriyaliklar Surxon vohasi, shimoliy Afg'oniston va janubiy Tojikistonda joylashgan."
       },
       {
        "question": "Yunon-rim muarrixlari Baqtriyani qanday atagan?",
        "options": [
         "Baqtriana yoki Baqtriya",
-        "Sug'diyona",
-        "Xorasmiya",
-        "Parfiya"
+        "Sug'diyona deb",
+        "Xorasmiya deb",
+        "Parfiya deb"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Yunon-rim muarrixlari Baqtriyani Baqtriana yoki Baqtriya deb atagan."
       },
       {
        "question": "Amudaryoning quyi oqimida kimlar yashagan?",
        "options": [
         "O'troq dehqon xorazmliklar",
-        "Ko'chmanchi saklar",
-        "Baqtriyaliklar",
-        "Massagetlar"
+        "Ko'chmanchi sak chorvadorlari",
+        "Baqtriyalik hunarmandlar",
+        "Massaget jangchilari"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Amudaryoning quyi oqimida o'troq dehqon xorazmliklar yashagan."
       },
       {
        "question": "Xorazmliklar yurti yunon manbalarida qanday atalgan?",
@@ -13798,7 +14041,8 @@
         "Parfiya"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Xorazmliklar yurti yunon manbalarida Xorasmiya deb atalgan."
       },
       {
        "question": "Cho'llar va Amudaryo bo'ylarida qaysi ko'chmanchilar yashagan?",
@@ -13809,7 +14053,8 @@
         "Baqtriyaliklar"
        ],
        "correct_index": 0,
-       "page": 74
+       "page": 74,
+       "explanation": "Cho'llar va Amudaryo bo'ylarida massagetlar yashagan."
       },
       {
        "question": "Tog'lik, dasht va cho'l yerlarda asosiy mashg'uloti chorvachilik bo'lganlar kimlar?",
@@ -13820,40 +14065,44 @@
         "Baqtriyaliklar"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Tog'lik, dasht va cho'l yerlarda chorvachilik bilan asosan saklar shug'ullangan."
       },
       {
        "question": "Sug'd, Baqtriya va Xorazm aholisining asosiy mashg'uloti nima edi?",
        "options": [
         "Sun'iy sug'orishga asoslangan dehqonchilik",
-        "Ovchilik",
-        "Dengizchilik",
-        "Chorvachilik faqat"
+        "Ovchilik va termachilik",
+        "Dengizchilik va baliqchilik",
+        "Faqat ko'chmanchi chorvachilik"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Sug'd, Baqtriya va Xorazm aholisining asosiy mashg'uloti sun'iy sug'orishga asoslangan dehqonchilik edi."
       },
       {
        "question": "Manzilgohlardan qanday buyumlar topilgan?",
        "options": [
         "Yuqori sifatli kulolchilik idishlari, temir va bronza buyumlar",
-        "Faqat tosh qurollar",
-        "Faqat mis buyumlar",
-        "Faqat oltin tangalar"
+        "Faqat tosh qurollar va suyak buyumlar",
+        "Faqat mis qurol va zeb-ziynatlar",
+        "Faqat oltin tangalar va muhrlar"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Manzilgohlardan yuqori sifatli kulolchilik idishlari, temir va bronza buyumlar topilgan."
       },
       {
        "question": "Tog'lardan qaysi ma'danlar qazib olingan?",
        "options": [
         "Mis, qalay, kumush va oltin",
-        "Faqat temir",
-        "Faqat ko'mir",
-        "Faqat tuz"
+        "Faqat temir rudasi",
+        "Faqat ko'mir va neft",
+        "Faqat tuz va gips"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Tog'lardan mis, qalay, kumush va oltin qazib olingan."
       },
       {
        "question": "Zargarlik buyumlari uchun qaysi qimmatbaho toshlar qazib olingan?",
@@ -13864,7 +14113,8 @@
         "Kahrabo va oniks"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Zargarlik uchun lojuvard (la'l) va feruza qazib olingan."
       },
       {
        "question": "Lojuvard qayerda bo'lgan?",
@@ -13875,18 +14125,20 @@
         "Sirdaryo bo'yida"
        ],
        "correct_index": 0,
-       "page": 75
+       "page": 75,
+       "explanation": "Lojuvard Baqtriya tog'larida bo'lgan."
       },
       {
        "question": "Sak va massagetlar qanday hayvonlar podalarini boqqan?",
        "options": [
         "Tuya, ot, qo'y va echki",
-        "Faqat sigir",
-        "Fil va tuya",
-        "Faqat ot"
+        "Faqat sigir va buqa podalarini",
+        "Fil va tuya podalarini",
+        "Faqat ot podalarini"
        ],
        "correct_index": 0,
-       "page": 76
+       "page": 76,
+       "explanation": "Sak va massagetlar tuya, ot, qo'y va echki podalarini boqqan."
       },
       {
        "question": "Chorvadorlar hayvon terisidan nimalar tayyorlagan?",
@@ -13897,7 +14149,8 @@
         "Sopol"
        ],
        "correct_index": 0,
-       "page": 76
+       "page": 76,
+       "explanation": "Chorvadorlar hayvon terisidan charm tayyorlagan."
       },
       {
        "question": "Ko'chmanchilar mahsulotlarini kimlarga sotgan?",
@@ -13908,18 +14161,20 @@
         "Hech kimga"
        ],
        "correct_index": 0,
-       "page": 76
+       "page": 76,
+       "explanation": "Ko'chmanchilar mahsulotlarini o'troq dehqonlarga sotgan."
       },
       {
        "question": "Mil. avv. VII-VI asrlarda qadimgi shaharlar nima natijasida rivojlangan?",
        "options": [
         "Hunarmandchilik va savdoning rivojlanishi natijasida",
-        "Urushlar natijasida",
-        "Diniy markazlar natijasida",
-        "Dengiz savdosi natijasida"
+        "Doimiy urushlar va bosqinlar natijasida",
+        "Katta diniy markazlar qurilishi natijasida",
+        "Dengiz savdosining kengayishi natijasida"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Qadimgi shaharlar hunarmandchilik va savdoning rivojlanishi natijasida rivojlangan."
       },
       {
        "question": "Quyidagilardan qaysi biri Surxondaryo vohasidagi qadimiy shahar?",
@@ -13930,7 +14185,8 @@
         "Uzunqir"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Qiziltepa Surxondaryo vohasidagi qadimiy shahar."
       },
       {
        "question": "Afrosiyob qaysi shahar hududida joylashgan?",
@@ -13941,7 +14197,8 @@
         "Toshkent"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Afrosiyob Samarqand hududida joylashgan."
       },
       {
        "question": "Ko'zaliqir qayerda joylashgan?",
@@ -13952,7 +14209,8 @@
         "Zarafshon vohasida"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Ko'zaliqir Xorazmda joylashgan."
       },
       {
        "question": "Yerqo'rg'on va Uzunqir qaysi vohada joylashgan?",
@@ -13963,29 +14221,32 @@
         "Farg'ona vodiysida"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Yerqo'rg'on va Uzunqir Qashqadaryo vohasida joylashgan."
       },
       {
        "question": "Shahar ichki qal'asi qanday ko'rinishda edi?",
        "options": [
         "Xonadonlar va ustaxonalardan ancha balandda viqorli turardi",
-        "Devor tashqarisida past joyda",
-        "Yer ostida",
-        "Faqat yog'ochdan"
+        "Devor tashqarisida, past joyda turgan",
+        "Yer ostida, yashirin joyda joylashgan",
+        "Faqat yog'ochdan qurilgan alohida minora edi"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Shaharning ichki qal'asi xonadonlar va ustaxonalardan ancha balandda viqorli turgan."
       },
       {
        "question": "Shahar darvozasiga kirish yo'lini nima to'sib turgan?",
        "options": [
         "Suv bilan to'ldirilgan xandaq",
-        "Temir zanjir",
-        "Tikanli devor",
-        "Daryo"
+        "Temir zanjir va og'ir to'siq",
+        "Tikanli devor va butalar",
+        "Keng oqar daryo"
        ],
        "correct_index": 0,
-       "page": 77
+       "page": 77,
+       "explanation": "Shahar darvozasiga kirish yo'lini suv bilan to'ldirilgan xandaq to'sib turgan."
       },
       {
        "question": "Devorning burjlari va shinaklari nima uchun kerak edi?",
@@ -13996,18 +14257,20 @@
         "Bezak uchun"
        ],
        "correct_index": 0,
-       "page": 78
+       "page": 78,
+       "explanation": "Devorning burjlari va shinaklari o'q otish uchun kerak edi."
       },
       {
        "question": "Turarjoy devorlari nimadan qurilgan?",
        "options": [
         "Xom g'isht, somonli loy bilan suvalgan",
-        "Tosh",
-        "Pishgan g'isht",
-        "Yog'och"
+        "Qattiq toshdan, yo'nib",
+        "Pishgan g'ishtdan, ohak bilan",
+        "Yog'och taxtalardan"
        ],
        "correct_index": 0,
-       "page": 78
+       "page": 78,
+       "explanation": "Turarjoy devorlari xom g'ishtdan qurilib, somonli loy bilan suvalgan."
       },
       {
        "question": "Baqtriya davlati qachon tashkil topgan?",
@@ -14018,7 +14281,8 @@
         "Milodiy I asrda"
        ],
        "correct_index": 0,
-       "page": 78
+       "page": 78,
+       "explanation": "Baqtriya davlati mil. avv. VII asrda tashkil topgan."
       },
       {
        "question": "Baqtriyaning siyosiy va madaniy ta'sirida qaysi hududlar bo'lgan?",
@@ -14029,29 +14293,32 @@
         "Bobil va Ossuriya"
        ],
        "correct_index": 0,
-       "page": 78
+       "page": 78,
+       "explanation": "Baqtriyaning siyosiy va madaniy ta'sirida Marg'iyona va Sug'd bo'lgan."
       },
       {
        "question": "Baqtriyaning Ossuriya bilan aloqalari haqida kim yozib qoldirgan?",
        "options": [
         "Yunon tarixchisi Ktesiy",
-        "Gerodot",
-        "Arrian",
-        "Strabon"
+        "Yunon tarixchisi Gerodot",
+        "Rim tarixchisi Arrian",
+        "Yunon geografi Strabon"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Baqtriyaning Ossuriya bilan aloqalari haqida yunon tarixchisi Ktesiy yozib qoldirgan."
       },
       {
        "question": "Ktesiy qaysi shoh saroyida saroy tabibi bo'lgan?",
        "options": [
         "Fors shohi Artakserks",
-        "Doro I",
-        "Kir II",
-        "Kambiz II"
+        "Fors shohi Doro I saroyida",
+        "Fors shohi Kir II saroyida",
+        "Fors shohi Kambiz II saroyida"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Ktesiy Fors shohi Artakserks saroyida saroy tabibi bo'lgan."
       },
       {
        "question": "Baqtriya poytaxti qanday atalgan?",
@@ -14062,7 +14329,8 @@
         "Qiziltepa"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Baqtriya poytaxti Baqtra deb atalgan."
       },
       {
        "question": "Baqtriya podshosi kim edi?",
@@ -14073,7 +14341,8 @@
         "Kir"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Baqtriya podshosi Oksiart edi."
       },
       {
        "question": "Ktesiyga ko'ra Baqtriyaga yurish qilgan Ossuriya podshosi kim?",
@@ -14084,18 +14353,20 @@
         "Xammurapi"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Ktesiyga ko'ra Baqtriyaga yurish qilgan Ossuriya podshosi Nin edi."
       },
       {
        "question": "Baqtriya va Ossuriya jangida nima yuz berdi?",
        "options": [
         "Baqtriyaliklar ossuriyaliklarni chekinishga majbur qildi",
-        "Ossuriyaliklar g'alaba qozondi",
-        "Sulh tuzildi",
-        "Jang bo'lmadi"
+        "Ossuriyaliklar g'alaba qozonib, shaharni olgan",
+        "Ikki tomon sulh tuzib, jang to'xtagan",
+        "Jang umuman bo'lmagan, tomonlar kelishgan"
        ],
        "correct_index": 0,
-       "page": 79
+       "page": 79,
+       "explanation": "Baqtriya va Ossuriya jangida baqtriyaliklar ossuriyaliklarni chekinishga majbur qilgan."
       },
       {
        "question": "Ko'zaliqirda xorazmliklar qachon katta saroy qurgan?",
@@ -14106,40 +14377,44 @@
         "Milodiy III asrda"
        ],
        "correct_index": 0,
-       "page": 80
+       "page": 80,
+       "explanation": "Ko'zaliqirda xorazmliklar mil. avv. VI asrda katta saroy qurgan."
       },
       {
        "question": "Ko'zaliqir saroyi qanday zallardan iborat edi?",
        "options": [
         "Turli xonalar va yog'och ustunli zallardan",
-        "Faqat toshdan zallardan",
-        "Faqat bitta zaldan",
-        "Yer osti zallaridan"
+        "Faqat toshdan qurilgan keng zallardan",
+        "Faqat bitta katta zaldan",
+        "Yer osti zallari va yo'laklaridan"
        ],
        "correct_index": 0,
-       "page": 80
+       "page": 80,
+       "explanation": "Ko'zaliqir saroyi turli xonalar va yog'och ustunli zallardan iborat edi."
       },
       {
        "question": "Xorazm aholisi nima bilan shug'ullangan?",
        "options": [
         "Dehqonchilik va chorvachilik",
-        "Dengizchilik",
-        "Ovchilik",
-        "Konchilik faqat"
+        "Dengizchilik va baliq ovlash bilan",
+        "Ovchilik va termachilik bilan",
+        "Faqat konchilik bilan"
        ],
        "correct_index": 0,
-       "page": 80
+       "page": 80,
+       "explanation": "Xorazm aholisi dehqonchilik va chorvachilik bilan shug'ullangan."
       },
       {
        "question": "Xorazmda qaysi sohalar yuksak darajada rivojlangan?",
        "options": [
         "Hunarmandchilik, binokorlik va savdo-sotiq",
-        "Faqat harbiy ish",
-        "Faqat dengizchilik",
-        "Faqat ilm-fan"
+        "Faqat harbiy ish va qurolsozlik",
+        "Faqat dengizchilik va kemasozlik",
+        "Faqat ilm-fan va astronomiya"
        ],
        "correct_index": 0,
-       "page": 80
+       "page": 80,
+       "explanation": "Xorazmda hunarmandchilik, binokorlik va savdo-sotiq yuksak darajada rivojlangan."
       }
      ]
     },
@@ -14149,6 +14424,11 @@
      "start_page": 81,
      "end_page": 84,
      "explanation": {
+      "takeaways": [
+       "Zardushtiylik (asoschisi Zaratushtra) mil. avv. 1-mingyillikda O'rta Osiyoda keng tarqalgan; oliy xudo Ahuramazda, yovuzlik ma'budi Ahriman.",
+       "'Avesto' - zardushtiylarning muqaddas kitobi ('qat'iy belgilangan qonun-qoidalar'), Zardusht vafotidan bir necha asr o'tgach jamlangan.",
+       "Hayot ma'nosi - ezgu amal, ezgu so'z va ezgu fikr; mehnat, adolat, oila va tabiat pokligi qadrlangan."
+      ],
       "goals": [
        "Zardushtiylikning paydo bo'lishi va Zardusht haqida bilish",
        "Zardushtiylik xudolari, marosimlari va \"Avesto\" qonun-qoidalarini tushuntirish"
@@ -14454,12 +14734,13 @@
         "question": "Nima uchun zardushtiylar o'liklarni yerga ko'mmagan?",
         "options": [
          "O'lim yovuzlik ifodasi hisoblangan va yer, olov, suv pok saqlangan",
-         "Yer qattiq bo'lgani uchun",
-         "Ko'mish qimmat bo'lgani uchun",
-         "Kohinlar taqiqlagani uchun"
+         "Yer juda qattiq va qazish qiyin bo'lgani uchun",
+         "Ko'mish juda qimmatga tushgani uchun",
+         "Kohinlar taqiqlab qo'ygani uchun"
         ],
         "correct_index": 0,
-        "page": 83
+        "page": 83,
+        "explanation": "Zardushtiylar o'lim yovuzlik ifodasi hisoblanib, yer, olov va suv pok saqlanishi uchun o'liklarni yerga ko'mmagan."
        },
        {
         "question": "\"Avesto\" qarzni qaytarmaslikni nimaga tenglashtirgan?",
@@ -14470,18 +14751,20 @@
          "Ibodatsizlikka"
         ],
         "correct_index": 0,
-        "page": 84
+        "page": 84,
+        "explanation": "'Avesto' qarzni qaytarmaslikni o'g'rilikka tenglashtirgan."
        },
        {
         "question": "\"Avesto\"da bolalar haqida nima deyilgan?",
         "options": [
          "\"O'qish - ko'zning nuri\"",
-         "Bolalar hunar o'rganmasligi kerak",
-         "Bolalar ota-onadan ajratilishi kerak",
-         "Bilim faqat kohinlarga mumkin"
+         "Bolalar hunar o'rganmasligi kerak deyilgan",
+         "Bolalar ota-onadan ajratilishi kerak deyilgan",
+         "Bilim faqat kohinlarga mumkin deyilgan"
         ],
         "correct_index": 0,
-        "page": 84
+        "page": 84,
+        "explanation": "'Avesto'da bilim haqida 'o'qish - ko'zning nuri' deyilgan."
        }
       ]
      },
@@ -14495,18 +14778,20 @@
         "Mil. avv. 10-mingyillikda"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardushtiylik O'rta Osiyoda mil. avv. 1-mingyillikda keng tarqalgan."
       },
       {
        "question": "Zardushtiylar qaysi narsalarga sig'ingan?",
        "options": [
         "Olov (quyosh), yer, suv va yulduzlarga",
-        "Hayvonlarga faqat",
-        "Haykallarga",
-        "Ajdodlarga faqat"
+        "Faqat hayvonlarga va ularning ruhiga",
+        "Haykallarga va ularning tasvirlariga",
+        "Faqat ajdodlar ruhiga"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardushtiylar olov (quyosh), yer, suv va yulduzlarga sig'ingan."
       },
       {
        "question": "\"Zardushtiylik\" so'zi kimning nomi bilan bog'liq?",
@@ -14517,7 +14802,8 @@
         "Ahriman"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "'Zardushtiylik' so'zi Zaratushtra (Zardusht) nomi bilan bog'liq."
       },
       {
        "question": "Zardusht qachon yashab o'tgan?",
@@ -14528,7 +14814,8 @@
         "Mil. avv. 300-yillarda"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardusht mil. avv. 1-mingyillikning birinchi choragida yashab o'tgan."
       },
       {
        "question": "Yunonistonda Zardushtning ismini qanday atashgan?",
@@ -14539,18 +14826,20 @@
         "Ahura"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Yunonistonda Zardushtning ismi Zoroastr deb atalgan."
       },
       {
        "question": "Nima uchun yunonlar uni Zoroastr deb atagan?",
        "options": [
         "Uni donishmand va munajjim deb hisoblagani uchun",
-        "U yulduz kabi go'zal bo'lgani uchun",
-        "U sarkarda bo'lgani uchun",
-        "U dengizchi bo'lgani uchun"
+        "U yulduz kabi go'zal va nurli bo'lgani uchun",
+        "U buyuk sarkarda bo'lgani uchun",
+        "U dengizchi va sayyoh bo'lgani uchun"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Yunonlar uni donishmand va munajjim deb hisoblagani uchun Zoroastr deb atagan."
       },
       {
        "question": "Zardushtiylikning yunoncha boshqa nomi nima?",
@@ -14561,29 +14850,32 @@
         "Animizm"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardushtiylikning yunoncha nomi zoroastrizm."
       },
       {
        "question": "Afsonaga ko'ra, Zardusht daryo bo'yida nimani ko'rgan?",
        "options": [
         "Zilol suvda Ahuramazda vakillaridan birining siymosini",
-        "Oltin baliqni",
-        "Ilonni",
-        "Yulduzni"
+        "Suvda suzib yurgan oltin baliqni",
+        "Qirg'oq bo'ylab o'rmalagan ilonni",
+        "Osmondan tushgan yorqin yulduzni"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Afsonaga ko'ra, Zardusht daryo bo'yida zilol suvda Ahuramazda vakillaridan birining siymosini ko'rgan."
       },
       {
        "question": "Zardusht sehrli nur izidan borib kimning huzuriga yetib kelgan?",
        "options": [
         "Oliy iloh Ahuramazda",
-        "Ahriman",
-        "Mitra",
-        "Anaxita"
+        "Yovuzlik ma'budi Ahriman",
+        "Quyosh ma'budi Mitra",
+        "Suv ma'budasi Anaxita"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardusht sehrli nur izidan borib oliy iloh Ahuramazda huzuriga yetib kelgan."
       },
       {
        "question": "Zardusht necha yoshida targ'ibotchiga aylangan?",
@@ -14594,40 +14886,44 @@
         "50 yoshida"
        ],
        "correct_index": 0,
-       "page": 81
+       "page": 81,
+       "explanation": "Zardusht 30 yoshida targ'ibotchiga aylangan."
       },
       {
        "question": "Zardushtiylik tarqala boshlagan paytda diniy marosimlar qayerda o'tkazilgan?",
        "options": [
         "Ochiq osmon ostida, gulxan yonida yoki uydagi o'choq olovi atrofida",
-        "Ibodatxonalarda",
-        "Saroylarda",
-        "G'orlarda"
+        "Katta ibodatxonalarda, ruhoniylar boshchiligida",
+        "Shoh saroylarida, hukmdorlar ishtirokida",
+        "Tog'dagi g'orlarda, yashirin holda"
        ],
        "correct_index": 0,
-       "page": 82
+       "page": 82,
+       "explanation": "Zardushtiylik tarqala boshlaganda diniy marosimlar ochiq osmon ostida, gulxan yonida yoki uydagi o'choq olovi atrofida o'tkazilgan."
       },
       {
        "question": "Zardusht qabilalarni nima uchun birlikka da'vat qilgan?",
        "options": [
         "Istilochilarga qarshi kurashga birlashtirish uchun",
-        "Soliq yig'ish uchun",
-        "Ibodatxona qurish uchun",
-        "Savdo uchun"
+        "Soliq yig'ishni osonlashtirish uchun",
+        "Katta ibodatxona qurish uchun",
+        "Savdo yo'llarini ochish uchun"
        ],
        "correct_index": 0,
-       "page": 82
+       "page": 82,
+       "explanation": "Zardusht qabilalarni istilochilarga qarshi kurashga birlashtirish uchun birlikka da'vat qilgan."
       },
       {
        "question": "Zardushtning so'nggi va'zlari qanday saqlangan?",
        "options": [
         "Kohinlar yod olib, dindorlarga o'qib bergan",
-        "Papirusda",
-        "Toshga yozilgan",
-        "Yozib qo'yilmagan va unutilgan"
+        "Papirusga yozib, ibodatxonada saqlagan",
+        "Toshga o'yib, qoyalarga bitgan",
+        "Yozib qo'ymagan, shuning uchun unutilgan"
        ],
        "correct_index": 0,
-       "page": 82
+       "page": 82,
+       "explanation": "Zardushtning so'nggi va'zlarini kohinlar yod olib, dindorlarga o'qib bergan."
       },
       {
        "question": "\"Avesto\" qachon jamlangan?",
@@ -14638,84 +14934,92 @@
         "Mil. avv. II mingyillikda"
        ],
        "correct_index": 0,
-       "page": 82
+       "page": 82,
+       "explanation": "'Avesto' Zardusht vafotidan bir necha asr o'tgach jamlangan."
       },
       {
        "question": "\"Avesto\" so'zi nimani anglatadi?",
        "options": [
         "\"Qat'iy belgilangan qonun-qoidalar\"",
-        "\"Muqaddas olov\"",
-        "\"Ezgu so'z\"",
-        "\"Nur kitobi\""
+        "'Muqaddas olov' degan ma'noni",
+        "'Ezgu so'z' degan ma'noni",
+        "'Nur kitobi' degan ma'noni"
        ],
        "correct_index": 0,
-       "page": 82
+       "page": 82,
+       "explanation": "'Avesto' so'zi 'qat'iy belgilangan qonun-qoidalar' degan ma'noni anglatadi."
       },
       {
        "question": "Zardushtiylarning ulug' va donishmand oliy xudosi kim edi?",
        "options": [
         "Ahuramazda",
-        "Mitra",
-        "Ahriman",
-        "Anaxita"
+        "Quyosh ma'budi Mitra",
+        "Yovuzlik ma'budi Ahriman",
+        "Suv ma'budasi Anaxita"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Zardushtiylarning ulug' va donishmand oliy xudosi Ahuramazda edi."
       },
       {
        "question": "Mitra qaysi ma'bud edi?",
        "options": [
         "Quyosh va yorug'lik ma'budi",
-        "Yovuzlik ma'budi",
-        "Suv ma'budasi",
-        "Oliy xudo"
+        "Yovuzlik va o'lim ma'budi",
+        "Suv va hosildorlik ma'budasi",
+        "Oliy xudo va dunyo yaratuvchisi"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Mitra Quyosh va yorug'lik ma'budi edi."
       },
       {
        "question": "Mitra kim bilan jang qiladi?",
        "options": [
         "Yovuzlik va o'lim ma'budi Ahriman bilan",
-        "Anaxita bilan",
-        "Ahuramazda bilan",
-        "Indra bilan"
+        "Hosildorlik ma'budasi Anaxita bilan",
+        "Oliy xudo Ahuramazda bilan",
+        "Hindlarning Indra ma'budi bilan"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Mitra yovuzlik va o'lim ma'budi Ahriman bilan jang qiladi."
       },
       {
        "question": "Zardushtiylar kamalakni nima deb hisoblagan?",
        "options": [
         "Mitraning o'q uzayotgan yoyi",
-        "Anaxita kamari",
-        "Ahuramazda ko'prigi",
-        "Ahriman izi"
+        "Anaxitaning ipak kamari deb",
+        "Ahuramazdaning osmon ko'prigi deb",
+        "Ahrimanning qoldirgan izi deb"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Zardushtiylar kamalakni Mitraning o'q uzayotgan yoyi deb hisoblagan."
       },
       {
        "question": "Anaxita qaysi ma'buda edi?",
        "options": [
         "Hosildorlik va suv ma'budasi",
-        "Urush ma'budasi",
-        "Yorug'lik ma'budasi",
-        "O'lim ma'budasi"
+        "Urush va g'alaba ma'budasi",
+        "Yorug'lik va nur ma'budasi",
+        "O'lim va yerosti ma'budasi"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Anaxita hosildorlik va suv ma'budasi edi."
       },
       {
        "question": "Zardushtiylar hayotining tub ma'nosi nimadan iborat?",
        "options": [
         "Ezgu amal, ezgu so'z va ezgu fikrdan",
-        "Boylikdan",
-        "G'alabadan",
-        "Qurbonlikdan"
+        "Boylik to'plash va xazina yig'ishdan",
+        "Urushda g'alaba qozonishdan",
+        "Ko'p qurbonlik keltirishdan"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Zardushtiylar hayotining tub ma'nosi ezgu amal, ezgu so'z va ezgu fikrdan iborat."
       },
       {
        "question": "Insonning asosiy burchi nima hisoblangan?",
@@ -14726,18 +15030,20 @@
         "Boylik to'plash"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Insonning asosiy burchi adolatli turmush tarzi hisoblangan."
       },
       {
        "question": "Zardushtiylik e'tiqodiga ko'ra nima qilish kerak edi?",
        "options": [
         "Yolg'on so'zlamaslik, aldamaslik, va'daga vafo qilish",
-        "Ko'p qurbonlik keltirish",
-        "Faqat ro'za tutish",
-        "Dunyodan uzoqlashish"
+        "Ko'p qurbonlik keltirib, ma'budlarni rozi qilish",
+        "Faqat ro'za tutib, ibodat qilish",
+        "Dunyodan uzoqlashib, zohid bo'lib yashash"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Zardushtiylik e'tiqodiga ko'ra yolg'on so'zlamaslik, aldamaslik va va'daga vafo qilish kerak edi."
       },
       {
        "question": "Zardushtiylar ta'limotida o'lim nima deb hisoblangan?",
@@ -14748,62 +15054,68 @@
         "Yangi hayot boshlanishi"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Zardushtiylar ta'limotida o'lim yovuzlik ifodasi hisoblangan."
       },
       {
        "question": "O'lgan odamni qaysi usulda dafn qilish mumkin bo'lmagan?",
        "options": [
         "Yerga ko'mish, yondirish, suvga oqizish",
-        "Tepalikda qoldirish",
-        "Ossuariyga solish",
-        "Barchasi mumkin edi"
+        "Tepalikda qoldirish mumkin bo'lmagan usul",
+        "Ossuariyga solish mumkin bo'lmagan usul",
+        "Barcha usullar ruxsat etilgan"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "O'lgan odamni yerga ko'mish, yondirish yoki suvga oqizish mumkin bo'lmagan, chunki yer, olov va suv pok saqlangan."
       },
       {
        "question": "Jasad qayerda qoldirilgan?",
        "options": [
         "Toshli va qumli tepaliklarda",
-        "G'orda",
-        "Daryo bo'yida",
-        "Ibodatxonada"
+        "Chuqur g'orlarda",
+        "Daryo bo'yidagi sayoz qirg'oqda",
+        "Ibodatxona hovlisida"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Jasad toshli va qumli tepaliklarda qoldirilgan."
       },
       {
        "question": "Suyaklar qayerda dafn etilgan?",
        "options": [
         "Maxsus sopol tobutchalar - ossuariylarda",
-        "Yerga ko'milgan",
-        "Yoqilgan",
-        "Suvga tashlangan"
+        "Yerga ko'milgan va ustiga tosh qo'yilgan",
+        "Yoqib, kuli sochib yuborilgan",
+        "Suvga tashlab oqizib yuborilgan"
        ],
        "correct_index": 0,
-       "page": 83
+       "page": 83,
+       "explanation": "Suyaklar maxsus sopol tobutchalar - ossuariylarda dafn etilgan."
       },
       {
        "question": "\"Avesto\"ga ko'ra og'ir jinoyat hisoblangan harakat qaysi?",
        "options": [
         "Bosqinchilik, talon-taroj va turarjoylarni vayron qilish",
-        "Savdo qilish",
-        "Ekin ekish",
-        "Sayohat"
+        "Savdo qilish va bozorga chiqish",
+        "Ekin ekish va sug'orish ishlari",
+        "Uzoq o'lkalarga sayohat qilish"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto'ga ko'ra bosqinchilik, talon-taroj va turarjoylarni vayron qilish og'ir jinoyat hisoblangan."
       },
       {
        "question": "\"Avesto\" nimani gunoh deb hisoblaydi?",
        "options": [
         "O'g'rilik va qarzdorlikni",
-        "Mehnatni",
-        "Bilim olishni",
-        "Sayohatni"
+        "Mehnat qilish va ishlab topishni",
+        "Bilim olish va o'qishni",
+        "Sayohat qilish va yurtlarni ko'rishni"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto' o'g'rilik va qarzdorlikni gunoh deb hisoblaydi."
       },
       {
        "question": "Olgan qarzni qaytarmaslik nimaga tenglashtirilgan?",
@@ -14814,29 +15126,32 @@
         "Xiyonatga"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "Olgan qarzni qaytarmaslik o'g'rilikka tenglashtirilgan."
       },
       {
        "question": "\"Avesto\"da mehnatga munosabat qanday?",
        "options": [
         "Yuksak ehtirom bilan qadrlangan",
-        "Past baholangan",
-        "Faqat qullarga mos",
-        "Ahamiyatsiz"
+        "Past baholangan va xor qilingan",
+        "Faqat qullarga mos deb hisoblangan",
+        "Hech qanday ahamiyatga ega emas deyilgan"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto'da mehnat yuksak ehtirom bilan qadrlangan."
       },
       {
        "question": "\"Avesto\"ga ko'ra inson nimani ta'minlashi lozim?",
        "options": [
         "Suv, o'simliklar va zaminning pokligini",
-        "Faqat oziq-ovqatni",
-        "Faqat qo'shinni",
-        "Faqat soliqni"
+        "Faqat oziq-ovqat zaxirasini to'ldirishni",
+        "Faqat qo'shin va qurol sonini ko'paytirishni",
+        "Faqat soliq va o'lponni o'z vaqtida to'lashni"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto'ga ko'ra inson suv, o'simliklar va zaminning pokligini ta'minlashi lozim."
       },
       {
        "question": "\"Avesto\" nimani qat'iy muhofaza qiladi?",
@@ -14847,7 +15162,8 @@
         "Savdogarlar manfaatini"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto' oila va bolalar huquqlarini qat'iy muhofaza qiladi."
       },
       {
        "question": "\"Avesto\"da bilim haqida qanday deyilgan?",
@@ -14858,29 +15174,32 @@
         "\"Bilim faqat kohinlar uchun\""
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto'da bilim haqida 'o'qish - ko'zning nuri' deyilgan."
       },
       {
        "question": "\"Quyosh madhi\" qaysi kitobdagi/qasidadagi kuylar?",
        "options": [
         "Zardushtiylar kuylagan qasidalardan biri",
-        "Bibliyadan parcha",
-        "Iyeroglif matn",
-        "Sanskrit doston"
+        "Bibliyadan olingan bir parcha",
+        "Iyeroglif bilan yozilgan matn",
+        "Sanskritdagi qadimiy doston"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Quyosh madhi' zardushtiylar kuylagan qasidalardan biri."
       },
       {
        "question": "\"Avesto\" kishilarni nimaga chorlagan?",
        "options": [
         "Tinchlikka, adolat va ezgulikka",
-        "Urushga",
-        "Bosqinchilikka",
-        "Boylik yig'ishga"
+        "Urush va bosqinchilikka",
+        "Doimiy yurishlar va talonchilikka",
+        "Boylik yig'ish va mol-dunyo to'plashga"
        ],
        "correct_index": 0,
-       "page": 84
+       "page": 84,
+       "explanation": "'Avesto' kishilarni tinchlikka, adolat va ezgulikka chorlagan."
       }
      ]
     }
