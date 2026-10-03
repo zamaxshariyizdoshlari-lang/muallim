@@ -19388,6 +19388,11 @@
      "start_page": 105,
      "end_page": 108,
      "explanation": {
+      "takeaways": [
+       "Taxminan mil. avv. 1200-yilda yunonlar Troyaga qarshi urush boshlagan; Gomer 'Iliada' va 'Odisseya'ni yozgan; Troya yog'och ot yordamida bosib olingan.",
+       "Axilles tovoniga tekkan o'qdan halok bo'lgan ('Axilles tovoni' - nozik joy); 'Troya oti' - xosiyatsiz sovg'a.",
+       "Yunonlar teatr (tragediya, komediya - Sofokl, Aristofan) va kolonnali tosh ibodatxonalar (Parfenon) yaratgan."
+      ],
       "goals": [
        "Gomerning \"Iliada\" va \"Odisseya\" dostonlari mazmunini bilish",
        "Yunon teatri, arxitekturasi va haykaltaroshligi haqida so'zlab berish"
@@ -19715,7 +19720,8 @@
          "Xavfli yo'l"
         ],
         "correct_index": 0,
-        "page": 106
+        "page": 106,
+        "explanation": "'Troya oti' iborasi hozirgi tillarda xosiyatsiz sovg'a-salomni anglatadi."
        },
        {
         "question": "\"Axilles tovoni\" iborasi nimani bildiradi?",
@@ -19726,7 +19732,8 @@
          "Qadimiy odatni"
         ],
         "correct_index": 0,
-        "page": 106
+        "page": 106,
+        "explanation": "'Axilles tovoni' iborasi nozik joyni bildiradi."
        },
        {
         "question": "Teatrda sahnada rollarni kimlar ijro etgan?",
@@ -19737,7 +19744,8 @@
          "Qullar"
         ],
         "correct_index": 0,
-        "page": 107
+        "page": 107,
+        "explanation": "Teatrda sahnada rollarni faqat erkaklar ijro etgan."
        }
       ]
      },
@@ -19751,18 +19759,20 @@
         "Milodiy 394-yilda"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Yunonlar taxminan mil. avv. 1200-yilda Troyaga qarshi urush boshlagan."
       },
       {
        "question": "Troya qayerda joylashgan edi?",
        "options": [
         "Egey dengizi qirg'og'idagi Kichik Osiyoda",
-        "Kritda",
-        "Misrda",
-        "Attikada"
+        "Krit orolida, Minoy sivilizatsiyasi hududida",
+        "Misrda, Nil daryosi vodiysida",
+        "Attika yarimorolida, Afina yaqinida"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Troya Egey dengizi qirg'og'idagi Kichik Osiyoda joylashgan edi."
       },
       {
        "question": "Yunonlar Troyaga urush boshlashning asosiy sababi nima edi?",
@@ -19773,7 +19783,8 @@
         "Yer solig'i"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Yunonlar Troyaga urush boshlashining asosiy sababi mo'l-ko'l o'lja ilinji edi."
       },
       {
        "question": "Rivoyatga ko'ra, Yelena kimning rafiqasi edi?",
@@ -19784,18 +19795,20 @@
         "Kritning"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Rivoyatga ko'ra, Yelena Sparta podshosining rafiqasi edi."
       },
       {
        "question": "Yelenani Troyaga kim o'g'irlab ketgan?",
        "options": [
         "Troya podshosining o'g'li Paris",
-        "Odissey",
-        "Axilles",
-        "Gomer"
+        "Qurol-aslahali jangchi Odissey",
+        "Yunonlarning eng kuchli jangchisi Axilles",
+        "Doston muallifi Gomer"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Yelenani Troyaga Troya podshosining o'g'li Paris o'g'irlab ketgan."
       },
       {
        "question": "Yunonlar Troyani necha yil behuda qamal qilgan?",
@@ -19806,7 +19819,8 @@
         "Yigirma yil"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Yunonlar Troyani to'qqiz yil behuda qamal qilgan."
       },
       {
        "question": "\"Iliada\" urushning qaysi qismi haqida hikoya qiladi?",
@@ -19817,7 +19831,8 @@
         "Urushdan keyingi hayot haqida"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "'Iliada' urushning oxirgi o'ninchi yili haqida hikoya qiladi."
       },
       {
        "question": "\"Iliada\" va \"Odisseya\" dostonlarini kim yozgan?",
@@ -19828,7 +19843,8 @@
         "Fidiy"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "'Iliada' va 'Odisseya' dostonlarini Gomer yozgan."
       },
       {
        "question": "Yog'och ot yasash haqida kim maslahat bergan?",
@@ -19839,7 +19855,8 @@
         "Dedal"
        ],
        "correct_index": 0,
-       "page": 105
+       "page": 105,
+       "explanation": "Yog'och ot yasash haqida Odissey maslahat bergan."
       },
       {
        "question": "Troyaliklar yog'och otni nima deb o'ylab shaharga olib kirgan?",
@@ -19850,18 +19867,20 @@
         "Qamalni to'xtatish belgisi emas, tuzoq"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "Troyaliklar yog'och otni Troya homiysi Afina Palladaga sovg'a deb o'ylab shaharga olib kirgan."
       },
       {
        "question": "Troya qanday bosib olingan?",
        "options": [
         "Kechasi ot ichidan chiqqan jangchilar darvozalarni ochgan",
-        "Dengizdan hujum bilan",
-        "Ochlik tufayli",
-        "Zilzila tufayli"
+        "Dengizdan katta hujum uyushtirib",
+        "Uzoq qamal natijasidagi ochlik tufayli",
+        "Kuchli zilzila va shahar devorlari qulashi tufayli"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "Troya kechasi ot ichidan chiqqan jangchilar darvozalarni ochgani sababli bosib olingan."
       },
       {
        "question": "\"Iliada\" dostonining bosh qahramoni kim?",
@@ -19872,7 +19891,8 @@
         "Gerakl"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "'Iliada' dostonining bosh qahramoni Axilles."
       },
       {
        "question": "Axillesning onasi uni qaysi daryoga botirgan?",
@@ -19883,7 +19903,8 @@
         "Furl daryosiga"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "Axillesning onasi uni Stiks daryosiga botirgan."
       },
       {
        "question": "Nima uchun Axillesning tovoniga suv tegmay qolgan?",
@@ -19894,7 +19915,8 @@
         "Suv issiq bo'lgan"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "Axillesning tovoniga suv tegmay qolgan, chunki onasi uni tovonidan ushlab turgan."
       },
       {
        "question": "Axilles qanday halok bo'lgan?",
@@ -19905,7 +19927,8 @@
         "Nayza zarbidan yurakka"
        ],
        "correct_index": 0,
-       "page": 106
+       "page": 106,
+       "explanation": "Axilles tovoniga tekkan o'qdan halok bo'lgan."
       },
       {
        "question": "Yunonistonda teatr qachon paydo bo'lgan?",
@@ -19916,18 +19939,20 @@
         "Bundan yuz yil muqaddam"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Yunonistonda teatr bundan ikki yarim ming yil muqaddam paydo bo'lgan."
       },
       {
        "question": "Yunon tomoshalari qachon uyushtirilgan?",
        "options": [
         "Faqat bayramlarda",
-        "Har kuni",
-        "Har oyda",
-        "Faqat qishda"
+        "Har kuni, ertalabdan kechgacha",
+        "Har oyning birinchi kunida",
+        "Faqat qish mavsumida"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Yunon tomoshalari faqat bayramlarda uyushtirilgan."
       },
       {
        "question": "Qashshoq fuqarolarga teatrga borishi uchun nima berilgan?",
@@ -19938,29 +19963,32 @@
         "Otlar"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Qashshoq fuqarolarga teatrga borishi uchun pul berilgan."
       },
       {
        "question": "Teatrda niqoblar nima uchun ishlatilgan?",
        "options": [
         "Quvnoq, qayg'uli va yovuz qiyofalarni ifodalash uchun",
-        "Sovuqdan saqlanish uchun",
-        "Ovozni kuchaytirish uchun faqat",
-        "Xudolarni yashirish uchun"
+        "Sovuqdan saqlanish va yuzni isitish uchun",
+        "Ovozni kuchaytirish va uzoqqa eshittirish uchun",
+        "Xudolarning yuzini yashirish uchun"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Teatrda niqoblar quvnoq, qayg'uli va yovuz qiyofalarni ifodalash uchun ishlatilgan."
       },
       {
        "question": "Tragediya deb qanday pyesalar atalgan?",
        "options": [
         "Odatda qatnashuvchilar halok bo'lishi bilan tugaydiganlari",
         "Quvnoq va kulgili pyesalar",
-        "Diniy qo'shiqlar",
+        "Diniy qo'shiqlar va ibodatlar",
         "Sport haqidagi pyesalar"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Tragediya deb odatda qatnashuvchilar halok bo'lishi bilan tugaydigan pyesalar atalgan."
       },
       {
        "question": "\"Shoh Edip\" va \"Antigona\" tragediyalarini kim yozgan?",
@@ -19971,7 +19999,8 @@
         "Fidiy"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "'Shoh Edip' va 'Antigona' tragediyalarini Sofokl yozgan."
       },
       {
        "question": "Komediyalarning eng mashhur muallifi kim?",
@@ -19982,7 +20011,8 @@
         "Dedal"
        ],
        "correct_index": 0,
-       "page": 107
+       "page": 107,
+       "explanation": "Komediyalarning eng mashhur muallifi Aristofan edi."
       },
       {
        "question": "Ibodatxonalar va jamoat binolari nimadan qurilgan?",
@@ -19993,29 +20023,32 @@
         "Yog'ochdan"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Ibodatxonalar va jamoat binolari toshdan qurilgan."
       },
       {
        "question": "Xususiy uylar nimadan qurilgan?",
        "options": [
         "G'isht va paxsadan",
-        "Marmardan",
-        "Toshdan",
-        "Metalldan"
+        "Marmar va granitdan",
+        "Katta tosh bloklaridan",
+        "Metall va bronza plitalardan"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Xususiy uylar g'isht va paxsadan qurilgan."
       },
       {
        "question": "Ibodatxonalarga alohida ko'rk bergan narsa nima?",
        "options": [
         "Ustunlar - kolonnalar",
-        "Minoralar",
-        "Gumbazlar",
-        "Zinapoyalar"
+        "Baland minoralar",
+        "Katta gumbazlar",
+        "Keng zinapoyalar"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Ibodatxonalarga alohida ko'rk bergan narsa ustunlar - kolonnalar edi."
       },
       {
        "question": "Rivoyatga ko'ra, Minos uchun Labirint saroyini kim barpo etgan?",
@@ -20026,7 +20059,8 @@
         "Sofokl"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Rivoyatga ko'ra, Minos uchun Labirint saroyini Dedal barpo etgan."
       },
       {
        "question": "Parfenon qurilishiga kim boshchilik qilgan?",
@@ -20037,7 +20071,8 @@
         "Aristofan"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Parfenon qurilishiga haykaltarosh Fidiy boshchilik qilgan."
       },
       {
        "question": "Parfenon qayerda joylashgan ibodatxona?",
@@ -20048,18 +20083,20 @@
         "Spartada"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Parfenon Akropolda joylashgan ibodatxona."
       },
       {
        "question": "Ibodatxona peshtoqining yuqori qismi nima bilan bezatilgan?",
        "options": [
         "Yunon ma'budlarining haykallari bilan",
-        "Oltin plitalar bilan",
-        "Gulchambarlar bilan",
-        "Niqoblar bilan"
+        "Oltin plitalar va tillali naqshlar bilan",
+        "Gulchambarlar va o'simlik naqshlari bilan",
+        "Niqoblar va teatr tasvirlari bilan"
        ],
        "correct_index": 0,
-       "page": 108
+       "page": 108,
+       "explanation": "Ibodatxona peshtoqining yuqori qismi yunon ma'budlarining haykallari bilan bezatilgan."
       }
      ]
     },
@@ -20069,6 +20106,11 @@
      "start_page": 109,
      "end_page": 110,
      "explanation": {
+      "takeaways": [
+       "Geraklit hamma narsa olovdan kelib chiqqan deb o'rgatgan; Demokrit hamma narsa atomlardan tashkil topgan deb hisoblagan; Diogen bochkada yashagan.",
+       "Gerodot 'Tarix' kitobi bilan 'tarixning otasi' bo'lgan.",
+       "Arximed fizik va matematik: richag qonunini ishlab chiqqan, 'Evrika!' degan, Sirakuzani rimliklardan himoya qilgan."
+      ],
       "goals": [
        "Yunon olimlari va mutafakkirlarining qarashlarini bilish",
        "Gerodot va Arximedning xizmatlarini tushuntirish"
@@ -20319,18 +20361,20 @@
          "Fan homiysi"
         ],
         "correct_index": 0,
-        "page": 110
+        "page": 110,
+        "explanation": "Gerodotga 'tarixning otasi' degan nom berilgan."
        },
        {
         "question": "Diogen Aleksandrga nima deb javob bergan?",
         "options": [
          "\"Nariroq tur, quyoshni to'syapsan!\"",
-         "\"Menga oltin ber!\"",
-         "\"Meni himoya qil!\"",
-         "\"Yerni ber!\""
+         "\"Menga oltin va saroy ber!\"",
+         "\"Meni himoya qil va asra!\"",
+         "\"Menga yer va qullar ber!\""
         ],
         "correct_index": 0,
-        "page": 109
+        "page": 109,
+        "explanation": "Diogen Aleksandrga 'Nariroq tur, quyoshni to'syapsan!' deb javob bergan."
        }
       ]
      },
@@ -20339,23 +20383,25 @@
        "question": "Qadimgi Yunonistonda olimlar kim sifatida bilingan?",
        "options": [
         "Donishmandlar, hayot murabbiylari",
-        "Kohinlar",
-        "Askarboshilar",
-        "Savdogarlar"
+        "Kohinlar va ibodatxona xizmatchilari",
+        "Askarboshilar va qo'shin sarkardalari",
+        "Savdogarlar va dengiz sayohatchilari"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Qadimgi Yunonistonda olimlar donishmandlar, hayot murabbiylari sifatida bilingan."
       },
       {
        "question": "Yunon mutafakkirlari nimani tushuntirishga harakat qilgan?",
        "options": [
         "Olam tuzilishi va inson hayoti ma'nosini",
-        "Faqat dehqonchilik usullarini",
-        "Urush san'atini",
-        "Soliq tizimini"
+        "Faqat dehqonchilik usullari va ekin navlarini",
+        "Urush san'ati va qo'shin tuzilishini",
+        "Soliq tizimi va davlat daromadini"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Yunon mutafakkirlari olam tuzilishi va inson hayoti ma'nosini tushuntirishga harakat qilgan."
       },
       {
        "question": "Geraklit hamma narsa nimadan kelib chiqqan deb uqtirgan?",
@@ -20366,18 +20412,20 @@
         "Tuproqdan"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Geraklit hamma narsa olovdan kelib chiqqan deb uqtirgan."
       },
       {
        "question": "Qaysi hikmat Geraklitga tegishli?",
        "options": [
         "\"Bir daryoga ikki marta tushish mumkin emas\"",
-        "\"Nariroq tur, quyoshni to'syapsan\"",
-        "\"Evrika!\"",
-        "\"Tarixning otasi\""
+        "\"Nariroq tur, quyoshni to'syapsan\" hikmati",
+        "\"Evrika!\" degan hayqiriq",
+        "\"Tarixning otasi\" degan laqab"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "'Bir daryoga ikki marta tushish mumkin emas' hikmati Geraklitga tegishli."
       },
       {
        "question": "Geraklitning fikricha, hamma narsa qanday?",
@@ -20388,7 +20436,8 @@
         "Xudolarga tobedir"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Geraklitning fikricha, hamma narsa oqadi va o'zgaruvchandir."
       },
       {
        "question": "Demokrit qayerlik edi?",
@@ -20399,40 +20448,44 @@
         "Kritlik"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Demokrit Frakiyalik edi."
       },
       {
        "question": "Demokrit nimaga e'tiroz bildirgan?",
        "options": [
         "Faylasuf Geraklitning fikriga",
-        "Gerodotning kitobiga",
-        "Arximedning qonuniga",
-        "Diogenning bochkasiga"
+        "Gerodotning 'Tarix' kitobiga",
+        "Arximedning richag qonuniga",
+        "Diogenning bochkada yashashiga"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Demokrit faylasuf Geraklitning fikriga e'tiroz bildirgan."
       },
       {
        "question": "Demokritga ko'ra, atomlar qanday zarralar?",
        "options": [
         "Ko'zga ko'rinmaydigan mayda-mayda zarralar",
-        "Katta toshlar",
-        "Olov uchqunlari",
-        "Suv tomchilari"
+        "Katta tosh bo'laklari va qoyalar",
+        "Olovdan sachragan uchqunlar",
+        "Suvning mayda tomchilari"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Demokritga ko'ra, atomlar ko'zga ko'rinmaydigan mayda-mayda zarralar."
       },
       {
        "question": "Diogen ta'limotining asosi nima edi?",
        "options": [
         "Insonda hech qanday ehtiyojlar bo'lmasligi shart",
-        "Boylik to'plash",
-        "Xudolarga qurbonlik",
-        "Urushda g'alaba qilish"
+        "Boylik to'plash va xazina yig'ish zarur",
+        "Xudolarga qurbonlik keltirib yashash",
+        "Urushda g'alaba qilish va nom qozonish"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Diogen ta'limotining asosi insonda hech qanday ehtiyojlar bo'lmasligi shart degan fikr edi."
       },
       {
        "question": "Diogen qayerda kun kechirgan?",
@@ -20443,29 +20496,32 @@
         "Qal'ada"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Diogen bir bochkada kun kechirgan."
       },
       {
        "question": "Afsonaga ko'ra, Diogendan yordam kerakmi deb kim so'ragan?",
        "options": [
         "Makedoniyalik Aleksandr",
-        "Gerodot",
-        "Arximed",
-        "Demokrit"
+        "Tarixchi Gerodot",
+        "Fizik Arximed",
+        "Faylasuf Demokrit"
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Afsonaga ko'ra, Diogendan yordam kerakmi deb Makedoniyalik Aleksandr so'ragan."
       },
       {
        "question": "Diogen Aleksandrning taklifiga qanday javob bergan?",
        "options": [
         "\"Nariroq tur, quyoshni to'syapsan!\"",
-        "\"Menga saroy ber!\"",
-        "\"Ketishga ruxsat ber!\"",
-        "\"Yordam kerak!\""
+        "\"Menga saroy va xazina ber!\"",
+        "\"Meni bu yerdan ketishga qo'yma!\"",
+        "\"Menga yordam kerak, rahmat!\""
        ],
        "correct_index": 0,
-       "page": 109
+       "page": 109,
+       "explanation": "Diogen Aleksandrga 'Nariroq tur, quyoshni to'syapsan!' deb javob bergan."
       },
       {
        "question": "Gerodot qaysi asrda yashagan?",
@@ -20476,7 +20532,8 @@
         "Mil. avv. X asrda"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Gerodot mil. avv. V asrda yashagan."
       },
       {
        "question": "Gerodot qaysi voqealarga bag'ishlab kitob yozgan?",
@@ -20487,7 +20544,8 @@
         "Makedoniya yurishlariga"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Gerodot yunon-fors urushlariga bag'ishlab kitob yozgan."
       },
       {
        "question": "Gerodotning kitobi qanday nomlangan?",
@@ -20498,7 +20556,8 @@
         "\"Antigona\""
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Gerodotning kitobi 'Tarix' deb nomlangan."
       },
       {
        "question": "Gerodotga qadimda qanday nom berilgan?",
@@ -20509,18 +20568,20 @@
         "\"Kitoblar otasi\""
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Gerodotga qadimda 'tarixning otasi' nomi berilgan."
       },
       {
        "question": "Arximed kim edi?",
        "options": [
         "Yunon fizigi va matematigi",
-        "Yunon shoiri",
-        "Yunon dramaturgi",
-        "Yunon haykaltaroshi"
+        "Yunon shoiri va doston muallifi",
+        "Yunon dramaturgi va tragediya yozuvchisi",
+        "Yunon haykaltaroshi va me'mori"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Arximed yunon fizigi va matematigi edi."
       },
       {
        "question": "\"Evrika!\" so'zi nimani anglatadi?",
@@ -20531,51 +20592,56 @@
         "\"Tinch bo'ling!\""
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "'Evrika!' so'zi 'topdim, topdim!' degan ma'noni anglatadi."
       },
       {
        "question": "Arximed haqidagi hikoyaga ko'ra, u nima qilgan?",
        "options": [
         "Yorug'likni ko'zgu orqali jamlab, rimliklar kemalarini yondirgan",
-        "Troyani bosib olgan",
-        "Parfenonni qurgan",
-        "Bochkada yashagan"
+        "Troyani yog'och ot yordamida bosib olgan",
+        "Parfenon ibodatxonasini qurishga boshchilik qilgan",
+        "Bochkada yashab, boylikdan voz kechgan"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Hikoyaga ko'ra, Arximed yorug'likni ko'zgu orqali jamlab, rimliklar kemalarini yondirgan."
       },
       {
        "question": "Arximed qaysi shahar ustiga hujum qilgan rimliklarga qarshi kurashgan?",
        "options": [
         "Sirakuza",
-        "Troya",
-        "Sparta",
-        "Afina"
+        "Troya shahriga",
+        "Sparta shahriga",
+        "Afina shahriga"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Arximed Sirakuza ustiga hujum qilgan rimliklarga qarshi kurashgan."
       },
       {
        "question": "Arximed qanday qonunni ishlab chiqqan?",
        "options": [
         "Richag (dastak) qonunini",
-        "Atomlar qonunini",
+        "Atomlar harakati qonunini",
         "Suv oqimi qonunini",
-        "Olov qonunini"
+        "Olov va issiqlik qonunini"
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Arximed richag (dastak) qonunini ishlab chiqqan."
       },
       {
        "question": "Arximed nima deb aytgan?",
        "options": [
         "\"Menga tayanch nuqtasini topib bering, Yerni o'z o'qidan chiqarib yuboraman!\"",
-        "\"Hamma narsa oqadi!\"",
-        "\"Nariroq tur!\"",
-        "\"Tarix - hayot ustozi!\""
+        "\"Hamma narsa oqadi va o'zgaruvchandir!\"",
+        "\"Nariroq tur, quyoshni to'syapsan!\"",
+        "\"Tarix - hayot ustozi va otasi!\""
        ],
        "correct_index": 0,
-       "page": 110
+       "page": 110,
+       "explanation": "Arximed 'Menga tayanch nuqtasini topib bering, Yerni o'z o'qidan chiqarib yuboraman!' degan."
       }
      ]
     },
@@ -20585,6 +20651,11 @@
      "start_page": 111,
      "end_page": 113,
      "explanation": {
+      "takeaways": [
+       "Mif - yunoncha 'afsona'; afsonalar qadimgi davr haqida ko'p narsani bilishga imkon beradi (Okean, Atlant, Gerakl).",
+       "Uch ilohi olamga hukmronlik qilgan: Zevs (osmon), Poseydon (dengiz), Aid (marhumlar saltanati); ma'budlar Olimp tog'ida yashagan deb tasavvur qilingan.",
+       "Yunonlar xudolardan qo'rqib, ibodatxonalar qurgan va qurbonliklar qilgan; sirenalar, kentavrlar, sikloplar afsonaviy mavjudotlar."
+      ],
       "goals": [
        "Afsonalarda haqiqat va uydirmani ajratish",
        "Yunon xudolari va afsonaviy qahramonlarni bilish"
@@ -20850,18 +20921,20 @@
          "Yer ostida"
         ],
         "correct_index": 0,
-        "page": 112
+        "page": 112,
+        "explanation": "Zevs osmonda hukmronlik qilgan."
        },
        {
         "question": "Yunonlar nima uchun xudolardan qo'rqqan?",
         "options": [
          "Ularni qizg'anchiq va shafqatsiz, xohishiga qarshi borganlarni jazolaydi deb hisoblagan",
-         "Ular ko'rinmas bo'lgani uchun faqat",
-         "Ular urush boshlagani uchun",
-         "Ular soliq olgani uchun"
+         "Xudolar ko'rinmas bo'lgani uchungina qo'rqqan",
+         "Xudolar urush boshlab yuborishi mumkinligidan qo'rqqan",
+         "Xudolar solig'ini to'lamagani uchun jazolashidan"
         ],
         "correct_index": 0,
-        "page": 112
+        "page": 112,
+        "explanation": "Yunonlar xudolardan qo'rqqan, chunki ularni qizg'anchiq va shafqatsiz, xohishiga qarshi borganlarni jazolaydi deb hisoblagan."
        }
       ]
      },
@@ -20875,40 +20948,44 @@
         "Qonun"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Yunon tilida 'mif' afsona degani."
       },
       {
        "question": "Afsonalar nimani bilishga imkon beradi?",
        "options": [
         "Yunonlar tarixidagi qadimgi davr haqida ko'p narsani",
-        "Faqat kelajakni",
-        "Faqat urush yillarini",
-        "Faqat savdo yo'llarini"
+        "Faqat kelajak va bashoratlarni",
+        "Faqat urush yillari va jangchilarni",
+        "Faqat savdo yo'llari va narxlarni"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Afsonalar yunonlar tarixidagi qadimgi davr haqida ko'p narsani bilishga imkon beradi."
       },
       {
        "question": "Afsonalar qaysi mavzular haqida hikoya qiladi?",
        "options": [
         "Olamning yaratilishi, hayot va odamning paydo bo'lishi, qahramonlar jasorati, dengiz sayohatlari",
-        "Faqat soliqlar",
-        "Faqat kasalliklar",
-        "Faqat qurilish"
+        "Faqat soliqlar va qonunlar haqida",
+        "Faqat kasalliklar va davolash haqida",
+        "Faqat savdo qoidalari va hisob haqida"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Afsonalar olamning yaratilishi, hayot va odamning paydo bo'lishi, qahramonlar jasorati va dengiz sayohatlari haqida hikoya qiladi."
       },
       {
        "question": "Afsonalarga ko'ra, azalda Yer nima bilan o'ralgan edi?",
        "options": [
         "Hamma tomondan dengizlar bilan",
-        "Tog'lar bilan",
-        "Cho'llar bilan",
-        "Muz bilan"
+        "Baland tog'lar va muzliklar bilan",
+        "Qumli cho'llar va dashtlar bilan",
+        "Qalin muz va qor bilan"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Afsonalarga ko'ra, azalda Yer hamma tomondan dengizlar bilan o'ralgan edi."
       },
       {
        "question": "Dengizlarning dastlabki hukmdori kim bo'lgan?",
@@ -20919,7 +20996,8 @@
         "Aid"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Dengizlarning dastlabki hukmdori titan Okean bo'lgan."
       },
       {
        "question": "Osmon gumbazini yelkasida kim suyab turgan?",
@@ -20930,62 +21008,68 @@
         "Axilles"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Osmon gumbazini yelkasida titan Atlant suyab turgan."
       },
       {
        "question": "Qahramonlar qanday fazilatlarga ega bo'lgan?",
        "options": [
         "Matonat, kuch-qudrat va aql-zakovat",
-        "Boylik va shuhrat",
-        "Ayyorlik va xiyonat",
-        "Xudolik va o'lmaslik"
+        "Boylik va shuhrat, mol-dunyo",
+        "Ayyorlik va xiyonat, makr",
+        "Xudolik va o'lmaslik, abadiylik"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Qahramonlar matonat, kuch-qudrat va aql-zakovatga ega bo'lgan."
       },
       {
        "question": "Gerakl nechta jasorat ko'rsatgan?",
        "options": [
         "O'n ikkita",
-        "Yettita",
-        "Uchta",
-        "O'nta"
+        "Yettita jasorat ko'rsatgan",
+        "Uchta jasorat ko'rsatgan",
+        "O'nta jasorat ko'rsatgan"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Gerakl o'n ikkita jasorat ko'rsatgan."
       },
       {
        "question": "Gerakl jasoratlari tufayli qayerda faxrli o'ringa ega bo'lgan?",
        "options": [
         "Olimp tog'idagi xudolar saltanatida",
-        "Sparta qo'shinida",
-        "Troya saroyida",
-        "Afinada"
+        "Sparta qo'shinida eng kuchli jangchi sifatida",
+        "Troya saroyida podsho maslahatchisi sifatida",
+        "Afinada xalq yig'inida notiq sifatida"
        ],
        "correct_index": 0,
-       "page": 111
+       "page": 111,
+       "explanation": "Gerakl jasoratlari tufayli Olimp tog'idagi xudolar saltanatida faxrli o'ringa ega bo'lgan."
       },
       {
        "question": "Yunonlar xudolar deb nimani atagan?",
        "options": [
         "Hayoti va olamni boshqaradigan ko'rinmas sirli kuchlarni",
-        "Podsholarni",
-        "Kohinlarni",
-        "Qahramonlarni"
+        "Hukmdorlar va ularning avlodlarini",
+        "Kohinlar va ruhoniylarni",
+        "Qahramonlar va jangchilarni"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Yunonlar xudolar deb hayoti va olamni boshqaradigan ko'rinmas sirli kuchlarni atagan."
       },
       {
        "question": "Zevs qanday xudo hisoblangan?",
        "options": [
         "Oliy xudo, osmon hukmdori",
-        "Dengiz xudosi",
-        "Marhumlar xudosi",
-        "Urush xudosi"
+        "Dengiz xudosi va to'lqinlar egasi",
+        "Marhumlar xudosi va yerosti hukmdori",
+        "Urush xudosi va jangchilar homiysi"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Zevs oliy xudo, osmon hukmdori hisoblangan."
       },
       {
        "question": "Dengizda kim hukmronlik qilgan?",
@@ -20996,7 +21080,8 @@
         "Apollon"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Dengizda Poseydon hukmronlik qilgan."
       },
       {
        "question": "Marhumlar saltanatida kim hukmronlik qilgan?",
@@ -21007,73 +21092,80 @@
         "Ares"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Marhumlar saltanatida Aid hukmronlik qilgan."
       },
       {
        "question": "Qolgan ma'budlar nimalarning homiylari hisoblangan?",
        "options": [
         "Dehqonchilik, hunarmandchilik, san'at, she'riyat, muhabbat va go'zallik",
-        "Faqat urush",
-        "Faqat dengiz",
-        "Faqat savdo"
+        "Faqat urush va jangchilarning",
+        "Faqat dengiz va kemachilikning",
+        "Faqat savdo va bozorlarning"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Qolgan ma'budlar dehqonchilik, hunarmandchilik, san'at, she'riyat, muhabbat va go'zallikning homiylari hisoblangan."
       },
       {
        "question": "Satirlar va nimfalar qayerda yashagan deb tasavvur qilingan?",
        "options": [
         "O'rmonlar, daryolar va tog'larda",
-        "Osmonda",
-        "Dengiz tubida",
-        "Shaharlarda"
+        "Osmonda, bulutlar ustida",
+        "Dengiz tubida, tosh g'orlarda",
+        "Shaharlarda, ibodatxona hovlilarida"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Satirlar va nimfalar o'rmonlar, daryolar va tog'larda yashagan deb tasavvur qilingan."
       },
       {
        "question": "Ma'budlar qayerda yashagan deb hisoblangan?",
        "options": [
         "Shimoliy Yunonistondagi Olimp tog'ida",
-        "Kritda",
-        "Troyada",
-        "Akropolda"
+        "Krit orolida, Minoy saroyida",
+        "Troya shahrida, qal'ada",
+        "Akropolda, Afina ibodatxonasida"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Ma'budlar Shimoliy Yunonistondagi Olimp tog'ida yashagan deb hisoblangan."
       },
       {
        "question": "Yunonlar Olimp ma'budlarini qanday tasavvur qilgan?",
        "options": [
         "Odamlardek qizg'anchiq va shafqatsiz, bazmu o'yin-kulgida yashaydigan",
-        "Mehribon va kechirimli",
-        "Faqat ibodat qiladigan",
-        "Jismsiz va sokin"
+        "Faqat mehribon va kechirimli mavjudotlar",
+        "Faqat ibodat va ro'za bilan band mavjudotlar",
+        "Jismsiz va ko'rinmas mavjudotlar"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Yunonlar Olimp ma'budlarini odamlardek qizg'anchiq va shafqatsiz, bazmu o'yin-kulgida yashaydigan deb tasavvur qilgan."
       },
       {
        "question": "Yunonlar xudolarga nima qilgan?",
        "options": [
         "Ibodatxonalar barpo etib, qurbonliklar qilgan",
         "Ularga qarshi urush olib borgan",
-        "Ularni e'tiborsiz qoldirgan",
-        "Ularni haykalga aylantirgan faqat"
+        "Ularni butunlay e'tiborsiz qoldirgan",
+        "Faqat haykal yasab qo'ygan"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Yunonlar xudolarga ibodatxonalar barpo etib, qurbonliklar qilgan."
       },
       {
        "question": "Sirenalar kimlar?",
        "options": [
         "Yarim qush, yarim ayol mavjudotlar",
-        "Yarim ot, yarim odam",
-        "Bitta ko'zli bahaybatlar",
-        "Gigant titanlar"
+        "Yarim ot, yarim odam mavjudotlar",
+        "Peshanasida bitta ko'zi bor bahaybatlar",
+        "Gigant titanlar va dev odamlar"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Sirenalar yarim qush, yarim ayol mavjudotlar edi."
       },
       {
        "question": "Kentavrlar kimlar?",
@@ -21084,18 +21176,20 @@
         "Yarim baliq, yarim odam"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Kentavrlar yarim ot, yarim odam edi."
       },
       {
        "question": "Sikloplar qanday mavjudotlar?",
        "options": [
         "Peshanasida bitta ko'zi bo'lgan bahaybat mavjudotlar",
-        "Yarim ot, yarim odam",
-        "Qanotli ayollar",
-        "Ilon sochli ayollar"
+        "Yarim ot, yarim odam mavjudotlar",
+        "Qanotli ayollar va qushlar",
+        "Ilon sochli dahshatli ayollar"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Sikloplar peshanasida bitta ko'zi bo'lgan bahaybat mavjudotlar edi."
       },
       {
        "question": "Titanlar boshqacha qanday ataladi?",
@@ -21106,18 +21200,20 @@
         "Nimfalar"
        ],
        "correct_index": 0,
-       "page": 112
+       "page": 112,
+       "explanation": "Titanlar boshqacha gigantlar deb ataladi."
       },
       {
        "question": "Geraklning jasoratlari sahifada qanday berilgan?",
        "options": [
         "Rasmlarda tasvirlangan",
-        "Faqat jadvalda",
-        "Xaritada",
-        "Qo'shiq matnida"
+        "Faqat jadvalda sanab o'tilgan",
+        "Faqat xaritada belgilangan",
+        "Faqat qo'shiq matni sifatida"
        ],
        "correct_index": 0,
-       "page": 113
+       "page": 113,
+       "explanation": "Geraklning jasoratlari sahifada rasmlarda tasvirlangan."
       }
      ]
     }
@@ -21133,6 +21229,11 @@
      "start_page": 114,
      "end_page": 121,
      "explanation": {
+      "takeaways": [
+       "Kir II Parfiya, Marg'iyona va Baqtriyani bosib olgan, mil. avv. 530-yilda massagetlar bilan jangda halok bo'lgan (malika To'maris).",
+       "Doro I Marg'iyona qo'zg'olonini (Frada, mil. avv. 522) bostirgan, lekin saklarga yurishi muvaffaqiyatsiz tugagan (cho'pon Shiroq).",
+       "Ahamoniylar davlatni satrapiyalarga bo'lgan (O'rta Osiyo - uchta); saklar Marafon jangida fors qo'shinida jang qilgan; Amudaryo xazinasi topilgan."
+      ],
       "goals": [
        "Kir II va Doro I ning O'rta Osiyodagi yurishlarini bilish",
        "To'maris, Frada va Shiroq jasoratini hikoya qilish",
@@ -21572,18 +21673,20 @@
          "Hindiston va Xitoyni"
         ],
         "correct_index": 0,
-        "page": 114
+        "page": 114,
+        "explanation": "Kir II Parfiya, Marg'iyona va Baqtriyani bosib olgan."
        },
        {
         "question": "Shiroq forslarni nega suvsiz sahroga boshlagan?",
         "options": [
          "Saklarni halokatdan qutqarish uchun",
-         "Pul olish uchun",
-         "Yo'lni bilmagani uchun",
+         "Pul olish va boylik orttirish uchun",
+         "Yo'lni yaxshi bilmagani uchun adashib",
          "Xudo buyurgani uchun"
         ],
         "correct_index": 0,
-        "page": 116
+        "page": 116,
+        "explanation": "Shiroq forslarni suvsiz sahroga saklarni halokatdan qutqarish uchun boshlagan."
        },
        {
         "question": "\"Satrapiya\" so'zi qanday ma'noni bildiradi?",
@@ -21594,7 +21697,8 @@
          "Qal'a"
         ],
         "correct_index": 0,
-        "page": 117
+        "page": 117,
+        "explanation": "'Satrapiya' so'zi viloyat degan ma'noni bildiradi."
        }
       ]
      },
@@ -21603,12 +21707,13 @@
        "question": "Kir II qanday fors hukmdori edi?",
        "options": [
         "O'rta Osiyoni bosib olishga harakat qilgan birinchi fors hukmdorlaridan",
-        "Fors davlatining oxirgi shohi",
-        "Yunonlar ittifoqchisi",
-        "Faqat Misrni bosib olgan shoh"
+        "Fors davlatining oxirgi shohi va taxtdan tushgan hukmdori",
+        "Yunonlarning ittifoqchisi va do'sti bo'lgan hukmdor",
+        "Faqat Misrni bosib olgan va boshqa o'lkaga yurmagan hukmdor"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Kir II O'rta Osiyoni bosib olishga harakat qilgan birinchi fors hukmdorlaridan biri edi."
       },
       {
        "question": "Kir II qaysi hududlarni bosib oldi?",
@@ -21619,7 +21724,8 @@
         "Hind vodiysini"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Kir II Parfiya, Marg'iyona va Baqtriyani bosib olgan."
       },
       {
        "question": "Kir II massagetlar ustiga qachon yurish qildi?",
@@ -21630,7 +21736,8 @@
         "Mil. avv. 776-yilda"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Kir II massagetlar ustiga mil. avv. 530-yilda yurish qilgan."
       },
       {
        "question": "Massagetlar qabilalarining malikasi kim edi?",
@@ -21641,7 +21748,8 @@
         "Yelena"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Massagetlar qabilalarining malikasi To'maris edi."
       },
       {
        "question": "Kir II bilan massagetlar jangi haqida kim hikoya qiladi?",
@@ -21652,29 +21760,32 @@
         "Demokrit"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Kir II bilan massagetlar jangi haqida Gerodot hikoya qiladi."
       },
       {
        "question": "Kir II bilan massagetlar jangi qanday yakunlandi?",
        "options": [
         "Massagetlar g'alaba qozondi, Kir II halok bo'ldi",
-        "Kir II g'alaba qozondi",
-        "Sulh tuzildi",
-        "Jang bo'lmadi"
+        "Kir II g'alaba qozonib, To'marisni asir qilgan",
+        "Ikki tomon sulh tuzib, jangni to'xtatgan",
+        "Jang bo'lmagan, tomonlar kelishgan"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Kir II bilan massagetlar jangi massagetlar g'alabasi bilan yakunlangan, Kir II halok bo'lgan."
       },
       {
        "question": "Jang boshida ikki tomon nima bilan olishgan?",
        "options": [
         "Kamondan o'q otib",
-        "Filda",
-        "Toshlar bilan",
-        "Kemalarda"
+        "Fillarda, jangovar hayvonlar bilan",
+        "Katta toshlar uloqtirib",
+        "Kemalarda, dengiz jangida"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Jang boshida ikki tomon kamondan o'q otib olishgan."
       },
       {
        "question": "Doro I hukmronligining birinchi yilida qayerda qo'zg'olon ko'tarildi?",
@@ -21685,7 +21796,8 @@
         "Sug'diyonada"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Doro I hukmronligining birinchi yilida Marg'iyonada qo'zg'olon ko'tarilgan."
       },
       {
        "question": "Marg'iyona qo'zg'olonining rahbari kim edi?",
@@ -21696,7 +21808,8 @@
         "Ranosbat"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Marg'iyona qo'zg'olonining rahbari Frada edi."
       },
       {
        "question": "Frada qo'zg'olonidagi hal qiluvchi jang qachon bo'lgan?",
@@ -21707,29 +21820,32 @@
         "Mil. avv. 338-yilda"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Frada qo'zg'olonidagi hal qiluvchi jang mil. avv. 522-yilda bo'lgan."
       },
       {
        "question": "Fradaning taqdiri nima bo'ldi?",
        "options": [
         "Asirga olinib, qatl etildi",
-        "Qochib ketdi",
-        "Shoh bo'ldi",
-        "Kechirildi"
+        "Qochib ketib, jon saqlagan",
+        "Shoh bo'lib, taxtga o'tirgan",
+        "Kechirilib, ozod qilingan"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Frada asirga olinib, qatl etilgan."
       },
       {
        "question": "Frada qo'zg'oloni haqidagi ma'lumotlar qayerda qayd etilgan?",
        "options": [
         "Behistun qoyatosh yozuvlarida",
-        "Suza saroyi devorlarida",
-        "Gomer dostonlarida",
-        "Amudaryo xazinasida"
+        "Suza saroyi devoridagi bitiklarda",
+        "Gomer dostonlari sahifalarida",
+        "Amudaryo xazinasi yozuvlarida"
        ],
        "correct_index": 0,
-       "page": 114
+       "page": 114,
+       "explanation": "Frada qo'zg'oloni haqidagi ma'lumotlar Behistun qoyatosh yozuvlarida qayd etilgan."
       },
       {
        "question": "Baqtriya satrapi kim edi (Doro I yozuviga ko'ra)?",
@@ -21740,51 +21856,56 @@
         "Kserks"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Doro I yozuviga ko'ra, Baqtriya satrapi Dadarshish edi."
       },
       {
        "question": "Doro I saklar ustiga qaysi yili yurish qildi?",
        "options": [
         "Hukmronligining uchinchi yilida",
-        "Birinchi yilida",
-        "Oxirgi yilida",
-        "O'ninchi yilida"
+        "Taxtga chiqqan birinchi yilidayoq",
+        "Hukmronligining oxirgi yilida",
+        "Hukmronligining o'ninchi yilida"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Doro I saklar ustiga hukmronligining uchinchi yilida yurish qilgan."
       },
       {
        "question": "Saklarga yurish haqida boshqa rivoyatni kim keltirgan?",
        "options": [
         "Tarixchi Poliyen (mil. avv. II asr)",
-        "Gerodot",
-        "Fidiy",
-        "Diogen"
+        "Tarixchi Gerodot",
+        "Haykaltarosh Fidiy",
+        "Faylasuf Diogen"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Saklarga yurish haqida boshqa rivoyatni mil. avv. II asr tarixchisi Poliyen keltirgan."
       },
       {
        "question": "Shiroq kim edi?",
        "options": [
         "Sak qabilasidan bo'lgan cho'pon",
-        "Massaget malikasi",
-        "Fors mingboshisi",
+        "Massaget qabilasi malikasi",
+        "Fors qo'shini mingboshisi",
         "Baqtriya satrapi"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Shiroq sak qabilasidan bo'lgan cho'pon edi."
       },
       {
        "question": "Forslar suvsiz cho'lda necha kun yo'l bosgan?",
        "options": [
         "Yetti kun",
-        "Uch kun",
-        "O'n kun",
-        "Bir kun"
+        "Uch kun yo'l bosgan",
+        "O'n kun yo'l bosgan",
+        "Bir kun yo'l bosgan"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Forslar suvsiz cho'lda yetti kun yo'l bosgan."
       },
       {
        "question": "Doro I ning saklarga yurishi qanday yakunlandi?",
@@ -21795,18 +21916,20 @@
         "To'xtatildi, lekin g'alaba"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Doro I ning saklarga yurishi muvaffaqiyatsiz tugagan."
       },
       {
        "question": "Forslar Shiroqni nima uchun o'ldirgan?",
        "options": [
         "Aldanganliklarini sezib qolganlari uchun",
         "U qochmoqchi bo'lgani uchun",
-        "U pul so'ragani uchun",
-        "U jang qilgani uchun"
+        "U ko'p pul so'ragani uchun",
+        "U jangda qatnashgani uchun"
        ],
        "correct_index": 0,
-       "page": 115
+       "page": 115,
+       "explanation": "Forslar Shiroqni aldanganliklarini sezib qolganlari uchun o'ldirgan."
       },
       {
        "question": "Ranosbat kim edi?",
@@ -21817,7 +21940,8 @@
         "Tarixchi"
        ],
        "correct_index": 0,
-       "page": 116
+       "page": 116,
+       "explanation": "Ranosbat fors mingboshisi edi."
       },
       {
        "question": "Ahamoniylar bosib olingan mamlakatlarni itoatda tutish uchun nima qilgan?",
@@ -21828,18 +21952,20 @@
         "Aholini ko'chirgan"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Ahamoniylar bosib olingan mamlakatlarni itoatda tutish uchun davlatni satrapiyalarga bo'lgan."
       },
       {
        "question": "\"Satrapiya\" so'zi qaysi forscha so'zdan kelib chiqqan?",
        "options": [
         "\"Xshatra\" - viloyat",
-        "\"Satr\" - qal'a",
-        "\"Ahura\" - xudo",
-        "\"Doro\" - shoh"
+        "'Satr' - qal'a so'zidan",
+        "'Ahura' - xudo so'zidan",
+        "'Doro' - shoh so'zidan"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "'Satrapiya' so'zi forscha 'xshatra' - viloyat so'zidan kelib chiqqan."
       },
       {
        "question": "Satraplarga qanday hokimiyat berilgan edi?",
@@ -21850,7 +21976,8 @@
         "Hech qanday"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Satraplarga cheklanmagan hokimiyat berilgan edi."
       },
       {
        "question": "O'rta Osiyo viloyatlari nechta satrapiyaga bo'lingan?",
@@ -21861,7 +21988,8 @@
         "Yettita"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "O'rta Osiyo viloyatlari uchta satrapiyaga bo'lingan."
       },
       {
        "question": "Satrapiyalardan fors shohiga nima yetkazib berilgan?",
@@ -21872,7 +22000,8 @@
         "Hech narsa"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Satrapiyalardan fors shohiga yillik o'lpon-soliq yetkazib berilgan."
       },
       {
        "question": "Marafon jangida fors qo'shinlari markazida qaysi xalq jang qilgan?",
@@ -21883,7 +22012,8 @@
         "Baqtriyaliklar"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Marafon jangida fors qo'shinlari markazida saklar jang qilgan."
       },
       {
        "question": "Kserks qo'shinidagi eng yaxshi jangchilar kimlar hisoblangan?",
@@ -21894,29 +22024,32 @@
         "Yunon yollanma askarlari"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Kserks qo'shinidagi eng yaxshi jangchilar saklar va baqtriya suvoriylari hisoblangan."
       },
       {
        "question": "Saklar qanday qurol bilan jang qilgan?",
        "options": [
         "Xanjar va jangovar boltalar bilan",
-        "Faqat kamon bilan",
-        "Faqat qilich bilan",
-        "Faqat nayza bilan"
+        "Faqat kamon va o'qlar bilan",
+        "Faqat qilich va qalqon bilan",
+        "Faqat nayza va dubulg'a bilan"
        ],
        "correct_index": 0,
-       "page": 117
+       "page": 117,
+       "explanation": "Saklar xanjar va jangovar boltalar bilan jang qilgan."
       },
       {
        "question": "Massagetlar nima bilan kun kechirgan?",
        "options": [
         "Chorvachilik va baliq ovlash bilan",
-        "G'alla ekish bilan",
-        "Dengiz savdosi bilan",
-        "Konchilik bilan"
+        "G'alla ekib, dehqonchilik qilish bilan",
+        "Dengiz savdosi va kemachilik bilan",
+        "Konchilik va metall eritish bilan"
        ],
        "correct_index": 0,
-       "page": 118
+       "page": 118,
+       "explanation": "Massagetlar chorvachilik va baliq ovlash bilan kun kechirgan."
       },
       {
        "question": "Massagetlarning nayza uchlari va boltalari nimadan yasalgan?",
@@ -21927,18 +22060,20 @@
         "Oltindan"
        ],
        "correct_index": 0,
-       "page": 118
+       "page": 118,
+       "explanation": "Massagetlarning nayza uchlari va boltalari misdan yasalgan."
       },
       {
        "question": "Massagetlar Quyosh xudosiga nimani qurbonlik qilgan?",
        "options": [
         "Tezchopar otni",
-        "Qo'yni",
-        "Buqani",
-        "Baliqni"
+        "Qo'yni va echkini",
+        "Buqani va sigirni",
+        "Baliqni va qushni"
        ],
        "correct_index": 0,
-       "page": 118
+       "page": 118,
+       "explanation": "Massagetlar Quyosh xudosiga tezchopar otni qurbonlik qilgan."
       },
       {
        "question": "Amudaryoning qadimgi nomi Gerodotda qanday?",
@@ -21949,7 +22084,8 @@
         "Dajla"
        ],
        "correct_index": 0,
-       "page": 118
+       "page": 118,
+       "explanation": "Amudaryoning qadimgi nomi Gerodotda Araks deb berilgan."
       },
       {
        "question": "Daratepa qaysi vohada joylashgan hunarmandchilik markazi?",
@@ -21960,7 +22096,8 @@
         "Sirdaryo"
        ],
        "correct_index": 0,
-       "page": 119
+       "page": 119,
+       "explanation": "Daratepa Qashqadaryo vohasida joylashgan hunarmandchilik markazi."
       },
       {
        "question": "Ko'ktepa qaysi hududda rivojlangan?",
@@ -21971,7 +22108,8 @@
         "Baqtriyada"
        ],
        "correct_index": 0,
-       "page": 119
+       "page": 119,
+       "explanation": "Ko'ktepa Zarafshon vohasida rivojlangan."
       },
       {
        "question": "Yozma manbalarga ko'ra, O'rta Osiyoda qanday ma'danlar qazib olingan?",
@@ -21982,51 +22120,56 @@
         "Qalay"
        ],
        "correct_index": 0,
-       "page": 119
+       "page": 119,
+       "explanation": "Yozma manbalarga ko'ra, O'rta Osiyoda mis va temir qazib olingan."
       },
       {
        "question": "Savdo yo'llaridagi daryo kechuvlari va tog' dovonlarida nima qurilgan?",
        "options": [
         "Harbiy istehkomlar",
-        "Ibodatxonalar",
-        "Bozorlar",
-        "Maqbaralar"
+        "Ibodatxonalar va qurbongohlar",
+        "Bozorlar va karvonsaroylar",
+        "Maqbaralar va qabrlar"
        ],
        "correct_index": 0,
-       "page": 119
+       "page": 119,
+       "explanation": "Savdo yo'llaridagi daryo kechuvlari va tog' dovonlarida harbiy istehkomlar qurilgan."
       },
       {
        "question": "Doro I yozuviga ko'ra, Suzadagi saroy uchun Xorazmdan nima keltirilgan?",
        "options": [
         "To'q ko'k yoqut",
-        "Oltin",
-        "Olmos",
-        "Kumush"
+        "Sof oltin va oltin buyumlar",
+        "Yirik olmos va qimmatbaho toshlar",
+        "Kumush va qimmatbaho metallar"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Doro I yozuviga ko'ra, Suzadagi saroy uchun Xorazmdan to'q ko'k yoqut keltirilgan."
       },
       {
        "question": "Suzadagi saroy uchun Sug'diyonadan nimalar keltirilgan?",
        "options": [
         "Olmos, la'l va yoqut",
-        "Oltin",
-        "Kumush va jez",
-        "Yog'och"
+        "Oltin va kumush quymalari",
+        "Kumush va jez buyumlari",
+        "Qimmatbaho yog'och va fil suyagi"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Suzadagi saroy uchun Sug'diyonadan olmos, la'l va yoqut keltirilgan."
       },
       {
        "question": "Dastlabki tanga pullar O'rta Osiyoda qachon tarqalgan?",
        "options": [
         "Mil. avv. V-IV asrlarda",
-        "Mil. avv. I asrda",
-        "Milodiy II asrda",
-        "Mil. avv. X asrda"
+        "Mil. avv. I asrda, Rim davrida",
+        "Milodiy II asrda, kushonlar davrida",
+        "Mil. avv. X asrda, temir asrida"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Dastlabki tanga pullar O'rta Osiyoda mil. avv. V-IV asrlarda tarqalgan."
       },
       {
        "question": "Har bir shaharda nima bo'lgan?",
@@ -22037,51 +22180,56 @@
         "Stadion"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Har bir shaharda ichki qal'a bo'lgan."
       },
       {
        "question": "Arxeologlar dalalar atrofida nimalarning izlarini topgan?",
        "options": [
         "Anhorlar va ariqlar",
-        "Ibodatxonalar",
-        "Yo'llar",
-        "Qal'alar"
+        "Ibodatxonalar va ularning poydevorlarini",
+        "Yo'llar va karvon izlarini",
+        "Qal'alar va ularning devorlarini"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Arxeologlar dalalar atrofida anhorlar va ariqlarning izlarini topgan."
       },
       {
        "question": "Amudaryo xazinasi qayerda saqlanmoqda?",
        "options": [
         "Britaniya muzeyida",
-        "Buxoroda",
-        "Kobulda",
-        "Suzada"
+        "Buxoro muzeyida",
+        "Kobul muzeyida",
+        "Suza muzeyida"
        ],
        "correct_index": 0,
-       "page": 120
+       "page": 120,
+       "explanation": "Amudaryo xazinasi Britaniya muzeyida saqlanmoqda."
       },
       {
        "question": "Karvonga hujum qilgan qaroqchilarni kim ta'qib qilgan?",
        "options": [
         "Angliyalik kapitan Berton",
-        "Buxorolik savdogar",
-        "Kir II",
-        "Frada"
+        "Buxorolik savdogar va uning hamrohlari",
+        "Fors shohi Kir II ning jangchilari",
+        "Marg'iyona qo'zg'olonchisi Frada"
        ],
        "correct_index": 0,
-       "page": 121
+       "page": 121,
+       "explanation": "Karvonga hujum qilgan qaroqchilarni angliyalik kapitan Berton ta'qib qilgan."
       },
       {
        "question": "\"Oks xazinasi\" kitobini kim yozgan?",
        "options": [
         "Britaniya muzeyi xazinachisi O. Dalton",
         "Kapitan Berton",
-        "Gerodot",
-        "Poliyen"
+        "Tarixchi Gerodot",
+        "Tarixchi Poliyen"
        ],
        "correct_index": 0,
-       "page": 121
+       "page": 121,
+       "explanation": "'Oks xazinasi' kitobini Britaniya muzeyi xazinachisi O. Dalton yozgan."
       },
       {
        "question": "Savdogarlar so'ziga ko'ra, xazina qaysi vodiydan topilgan?",
@@ -22092,18 +22240,20 @@
         "Nil vodiysidan"
        ],
        "correct_index": 0,
-       "page": 121
+       "page": 121,
+       "explanation": "Savdogarlar so'ziga ko'ra, xazina Qubodiyon vodiysidan topilgan."
       },
       {
        "question": "\"Amudaryo (Oks) xazinasi\" nimalardan iborat?",
        "options": [
         "Oltin va kumush buyumlar hamda tangalar",
-        "Faqat qurol-yarog'",
-        "Qo'lyozmalar",
-        "Sopol idishlar"
+        "Faqat qurol-yarog' va jangovar zirhlar",
+        "Faqat qo'lyozmalar va kitoblar",
+        "Faqat sopol idishlar va guldonlar"
        ],
        "correct_index": 0,
-       "page": 121
+       "page": 121,
+       "explanation": "'Amudaryo (Oks) xazinasi' oltin va kumush buyumlar hamda tangalardan iborat."
       }
      ]
     },
@@ -22113,6 +22263,11 @@
      "start_page": 122,
      "end_page": 127,
      "explanation": {
+      "takeaways": [
+       "Aleksandr mil. avv. 334-yilda Sharqqa yurib, 330-yilda Doro III ni yengdi, 329-yilda Maroqandani egalladi.",
+       "Spitaman boshchiligida sug'diylar, baqtriyaliklar va saklar qo'zg'olon ko'targan; Zarafshon bo'yidagi pistirmada makedonlar ikki ming jangchisini yo'qotgan.",
+       "Bosqin Sug'diyona va Baqtriyani xarobazorga aylantirgan; keyin Salavkiylar, Yunon-Baqtriya va Parfiya taraqqiy etgan."
+      ],
       "goals": [
        "Aleksandrning Sharqqa yurishi va O'rta Osiyoni bosib olishini bilish",
        "Spitaman qo'zg'olonini tavsiflash",
@@ -22562,34 +22717,37 @@
         "question": "Aleksandr Xo'jand yaqinida qurdirgan qal'a qanday nomlangan?",
         "options": [
          "Aleksandriya Esxata (Chekka Aleksandriya)",
-         "Baqtra",
-         "Maroqanda",
-         "Kurushkat"
+         "Baqtra deb",
+         "Maroqanda deb",
+         "Kurushkat deb"
         ],
         "correct_index": 0,
-        "page": 124
+        "page": 124,
+        "explanation": "Aleksandr Xo'jand yaqinida qurdirgan qal'a Aleksandriya Esxata (Chekka Aleksandriya) deb nomlangan."
        },
        {
         "question": "Bosqindan keyin qaysi davlatlar taraqqiy etgan?",
         "options": [
          "Salavkiylar, Yunon-Baqtriya va Parfiya",
-         "Ahamoniylar davlati",
-         "Rim imperiyasi",
-         "Misr podsholigi"
+         "Ahamoniylar davlati qayta tiklangan",
+         "Rim imperiyasi shu yerda paydo bo'lgan",
+         "Misr podsholigi kengaygan"
         ],
         "correct_index": 0,
-        "page": 127
+        "page": 127,
+        "explanation": "Bosqindan keyin Salavkiylar, Yunon-Baqtriya va Parfiya davlatlari taraqqiy etgan."
        },
        {
         "question": "Spitaman qo'zg'oloni bostirilgach ham Sug'diyonada nima yuz bergan?",
         "options": [
          "Yunon-makedonlar birinchi marta mag'lubiyatga uchragan",
-         "Aleksandr Xorazmni olgan",
-         "Baqtra qulagan",
-         "Doro III qaytib kelgan"
+         "Aleksandr Xorazmni zabt etgan va uni bo'ysundirgan",
+         "Baqtra shahri qulab, aholisi qirilgan",
+         "Doro III qayta taxtga o'tirgan"
         ],
         "correct_index": 0,
-        "page": 124
+        "page": 124,
+        "explanation": "Spitaman qo'zg'oloni bostirilgach ham Sug'diyonada yunon-makedonlar birinchi marta mag'lubiyatga uchragan."
        }
       ]
      },
@@ -22603,7 +22761,8 @@
         "Mil. avv. 490-yilda"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandr Makedoniya podshosi mil. avv. 336-yilda bo'lgan."
       },
       {
        "question": "Aleksandr taxtga chiqqanda necha yoshda edi?",
@@ -22614,7 +22773,8 @@
         "40 yoshda"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandr taxtga chiqqanda 20 yoshda edi."
       },
       {
        "question": "Aleksandrning otasi kim edi?",
@@ -22625,7 +22785,8 @@
         "Kir II"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandrning otasi Filipp II edi."
       },
       {
        "question": "Aleksandr Sharqqa yurishni qachon boshlagan?",
@@ -22636,29 +22797,32 @@
         "Mil. avv. 328-yilda"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandr Sharqqa yurishni mil. avv. 334-yilda boshlagan."
       },
       {
        "question": "Aleksandr yurishi davomida qaysi hududlarni bosib olgan?",
        "options": [
         "Kichik Osiyo, Suriya, Misr, Eron va Hindiston",
-        "Faqat Yunoniston",
-        "Faqat Misr",
-        "Faqat Rim"
+        "Faqat Yunoniston va Makedoniyani",
+        "Faqat Misr va Nil vodiysini",
+        "Faqat Rim va Italiyani"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandr yurishi davomida Kichik Osiyo, Suriya, Misr, Eron va Hindistonni bosib olgan."
       },
       {
        "question": "Aleksandr bosib olingan shaharlarga yunonlarni nima uchun joylashtirgan?",
        "options": [
         "Yunon madaniyati tarqalishi uchun",
-        "Soliq yig'ish uchun",
-        "Qullar olish uchun",
-        "Ibodatxonalar qurish uchun"
+        "Soliq yig'ish va xazinani to'ldirish uchun",
+        "Qullar olish va ularni sotish uchun",
+        "Ibodatxonalar qurish va din tarqatish uchun"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Aleksandr bosib olingan shaharlarga yunon madaniyati tarqalishi uchun yunonlarni joylashtirgan."
       },
       {
        "question": "Akinak nima?",
@@ -22669,7 +22833,8 @@
         "Sovut"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Akinak - xanjar."
       },
       {
        "question": "O'rta Osiyo jangchilari dushmanga qarshi hujumni qanday boshlagan?",
@@ -22680,29 +22845,32 @@
         "Fillar bilan"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "O'rta Osiyo jangchilari dushmanga qarshi hujumni suvoriylar bilan boshlagan."
       },
       {
        "question": "Qal'a va shaharlarni himoya qilishda nimalardan foydalanilgan?",
        "options": [
         "O'q-yoy, palaxmon, tosh va pishirilgan loy yadrolar",
-        "Faqat qilichlar",
-        "Faqat nayzalar",
-        "Zambaraklar"
+        "Faqat qilich va xanjarlardan",
+        "Faqat nayza va qalqonlardan",
+        "Katta zambaraklar va o'qlardan"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Qal'a va shaharlarni himoya qilishda o'q-yoy, palaxmon, tosh va pishirilgan loy yadrolardan foydalanilgan."
       },
       {
        "question": "Qal'aga boradigan yo'lni nima to'sib turgan?",
        "options": [
         "Suv to'ldirilgan chuqur va keng xandaq",
-        "Tog'lar",
-        "Botqoqlik",
-        "Yog'och to'siq"
+        "Baland tog' qoyalari va dovonlar",
+        "Chuqur botqoqlik va qamishzor",
+        "Qalin yog'och to'siq va devor"
        ],
        "correct_index": 0,
-       "page": 122
+       "page": 122,
+       "explanation": "Qal'aga boradigan yo'lni suv to'ldirilgan chuqur va keng xandaq to'sib turgan."
       },
       {
        "question": "Aleksandr qaysi shohning qo'shinini mil. avv. 330-yilda tor-mor keltirdi?",
@@ -22713,18 +22881,20 @@
         "Kserks"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Aleksandr mil. avv. 330-yilda Doro III ning qo'shinini tor-mor keltirgan."
       },
       {
        "question": "Aleksandr Hindistonga yurishdan oldin nimaga qaror qildi?",
        "options": [
         "Oks ortidagi elatlarni bo'ysundirishga",
-        "Yunonistonga qaytishga",
-        "Misrni tark etishga",
-        "Sulh tuzishga"
+        "Yunonistonga qaytib, hukmronlik qilishga",
+        "Misrni tark etib, Suriyaga ketishga",
+        "Qo'shni davlatlar bilan sulh tuzishga"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Aleksandr Hindistonga yurishdan oldin Oks ortidagi elatlarni bo'ysundirishga qaror qilgan."
       },
       {
        "question": "Aleksandrning yo'lini to'sgan birinchi shahar qaysi edi?",
@@ -22735,7 +22905,8 @@
         "Bagi"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Aleksandrning yo'lini to'sgan birinchi shahar Baqtra edi."
       },
       {
        "question": "Baqtriya satrapi Bess nima qilgan?",
@@ -22746,7 +22917,8 @@
         "Qo'zg'olon boshlagan"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Baqtriya satrapi Bess Baqtrani tashlab, Oks ortiga qochgan."
       },
       {
        "question": "Yunon-makedonlar Maroqandani qachon egalladi?",
@@ -22757,18 +22929,20 @@
         "Mil. avv. 334-yilda"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Yunon-makedonlar Maroqandani mil. avv. 329-yilda egallagan."
       },
       {
        "question": "Rivoyatga ko'ra, Kurushkat (Kiropolis) ga kim asos solgan?",
        "options": [
         "Fors shohi Kir II",
-        "Aleksandr",
-        "Spitaman",
-        "Doro I"
+        "Makedoniyalik Aleksandr",
+        "Sug'd qo'zg'olonchisi Spitaman",
+        "Fors shohi Doro I"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Rivoyatga ko'ra, Kurushkat (Kiropolis) ga fors shohi Kir II asos solgan."
       },
       {
        "question": "Bosqinchilarga qarshi qo'zg'olon qaysi xalq orasida boshlangan?",
@@ -22779,40 +22953,44 @@
         "Parfiya xalqi"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Bosqinchilarga qarshi qo'zg'olon Sug'diyona xalqi orasida boshlangan."
       },
       {
        "question": "Spitamanga sug'diylardan tashqari kimlar qo'shilgan?",
        "options": [
         "Baqtriyaliklar va saklar",
-        "Xorazmiylar va yunonlar",
-        "Forslar",
-        "Misrliklar"
+        "Xorazmiylar va yunon yollanma askarlari",
+        "Forslar va midiyaliklar",
+        "Misrliklar va nubiyaliklar"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Spitamanga sug'diylardan tashqari baqtriyaliklar va saklar qo'shilgan."
       },
       {
        "question": "Zarafshon daryosi manbalarda qanday atalgan?",
        "options": [
         "Politimet",
-        "Araks",
-        "Yaksart",
-        "Stiks"
+        "Araks deb",
+        "Yaksart deb",
+        "Stiks deb"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Zarafshon daryosi manbalarda Politimet deb atalgan."
       },
       {
        "question": "Spitaman Zarafshon bo'yida nima qilgan?",
        "options": [
         "Makedoniyaliklarga pistirma qo'ygan",
         "Aleksandrga taslim bo'lgan",
-        "Shahar qurgan",
-        "Sulh tuzgan"
+        "Yangi shahar qurib, joylashgan",
+        "Sulh tuzib, tinchlik o'rnatgan"
        ],
        "correct_index": 0,
-       "page": 123
+       "page": 123,
+       "explanation": "Spitaman Zarafshon bo'yida makedoniyaliklarga pistirma qo'ygan."
       },
       {
        "question": "Yaksart qaysi daryoning nomi?",
@@ -22823,18 +23001,20 @@
         "Nil"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Yaksart - Sirdaryoning qadimgi nomi."
       },
       {
        "question": "Aleksandriya Esxata qayerda barpo etilgan?",
        "options": [
         "Sirdaryo bo'yida, Xo'jand yaqinida",
-        "Amudaryo bo'yida",
-        "Baqtrada",
-        "Maroqandada"
+        "Amudaryo bo'yida, Termiz yaqinida",
+        "Baqtra shahrining o'zida",
+        "Maroqanda shahri markazida"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Aleksandriya Esxata Sirdaryo bo'yida, Xo'jand yaqinida barpo etilgan."
       },
       {
        "question": "\"Esxata\" so'zi nimani bildiradi?",
@@ -22845,7 +23025,8 @@
         "Muqaddas"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "'Esxata' so'zi 'chekka' degan ma'noni bildiradi."
       },
       {
        "question": "Spitamanning Aleksandr bilan hal qiluvchi jangi qachon bo'lgan?",
@@ -22856,18 +23037,20 @@
         "Mil. avv. 336-yilda"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Spitamanning Aleksandr bilan hal qiluvchi jangi mil. avv. 328-yil kuzida bo'lgan."
       },
       {
        "question": "Spitamanni kim o'ldirgan?",
        "options": [
         "Ko'chmanchi qabilalar boshliqlari",
-        "Aleksandr",
-        "Krater",
-        "Bess"
+        "Aleksandr shaxsan jangda o'ldirgan",
+        "Krater boshchiligidagi qo'shin o'ldirgan",
+        "Baqtriya satrapi Bess o'ldirgan"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Spitamanni ko'chmanchi qabilalar boshliqlari o'ldirgan."
       },
       {
        "question": "Aleksandr sug'd zodagonlari bilan munosabatni qanday yaxshilagan?",
@@ -22878,40 +23061,44 @@
         "Soliqdan ozod qilib faqat"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Aleksandr sug'd zodagonlari bilan munosabatni Oksiartning qiziga uylanib yaxshilagan."
       },
       {
        "question": "Aleksandr Oksiartni kim etib tayinlagan?",
        "options": [
         "Baqtriya viloyatlaridan birining hokimi",
-        "Makedoniya podshosi",
-        "Sirdaryo sarkardasi",
-        "Maroqanda satrapi"
+        "Makedoniya podshosi va yunonlar hukmdori",
+        "Sirdaryo bo'yidagi qo'shin sarkardasi",
+        "Maroqanda shahri satrapi va noibi"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Aleksandr Oksiartni Baqtriya viloyatlaridan birining hokimi etib tayinlagan."
       },
       {
        "question": "Aleksandr O'rta Osiyoda qaysi hududlarni bo'ysundirgan?",
        "options": [
         "Marg'iyona, Baqtriya, Sug'diyona va Sirdaryo bo'ylarini",
-        "Xorazm va Farg'onani",
-        "Toshkent vohasini",
-        "Hammasini"
+        "Xorazm va Farg'ona vohalarini",
+        "Toshkent vohasi va Yettisuvni",
+        "Butun O'rta Osiyoni bir yo'la"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Aleksandr O'rta Osiyoda Marg'iyona, Baqtriya, Sug'diyona va Sirdaryo bo'ylarini bo'ysundirgan."
       },
       {
        "question": "Qaysi hududlar mustaqilligicha qoldi?",
        "options": [
         "Xorazm, Toshkent vohasi va Farg'ona",
-        "Marg'iyona va Baqtriya",
-        "Sug'diyona",
-        "Parfiya"
+        "Marg'iyona va Baqtriya hududlari",
+        "Sug'diyona va Zarafshon vohasi",
+        "Parfiya va Kopetdog' hududi"
        ],
        "correct_index": 0,
-       "page": 124
+       "page": 124,
+       "explanation": "Xorazm, Toshkent vohasi va Farg'ona mustaqilligicha qolgan."
       },
       {
        "question": "Zarafshon bo'yidagi pistirmada nechta jangchi halok bo'lgan?",
@@ -22922,40 +23109,44 @@
         "Besh yuz"
        ],
        "correct_index": 0,
-       "page": 125
+       "page": 125,
+       "explanation": "Zarafshon bo'yidagi pistirmada ikki ming nafar jangchi halok bo'lgan."
       },
       {
        "question": "Bu mag'lubiyat qanday afsonani chippakka chiqargan?",
        "options": [
         "Yunon-makedon qo'shinlarining yengilmasligi haqidagi afsonani",
-        "Gerakl afsonasini",
-        "Troya afsonasini",
-        "Atlant afsonasini"
+        "Geraklning o'n ikki jasorati haqidagi afsonani",
+        "Troya urushi haqidagi qadimiy afsonani",
+        "Atlant va osmon gumbazi haqidagi afsonani"
        ],
        "correct_index": 0,
-       "page": 125
+       "page": 125,
+       "explanation": "Bu mag'lubiyat yunon-makedon qo'shinlarining yengilmasligi haqidagi afsonani chippakka chiqargan."
       },
       {
        "question": "Krater suvoriylarga qarshi qanday qurol ishlatgan?",
        "options": [
         "Toshotar qurollarini",
-        "Kamonlarni",
-        "Fillarni",
-        "Kemalarni"
+        "Kamon va o'qlarni, uzoqdan",
+        "Jangovar fillarni, sonli",
+        "Dengiz kemalarini, flot"
        ],
        "correct_index": 0,
-       "page": 126
+       "page": 126,
+       "explanation": "Krater suvoriylarga qarshi toshotar qurollarini ishlatgan."
       },
       {
        "question": "Dunyoning eng sara otliqlari kim hisoblangan?",
        "options": [
         "Fessaliya jangchilari",
-        "Saklar",
-        "Baqtriyaliklar",
-        "Massagetlar"
+        "Saklar va massagetlar",
+        "Baqtriyaliklar va sug'diylar",
+        "Xorazmiylar va forslar"
        ],
        "correct_index": 0,
-       "page": 126
+       "page": 126,
+       "explanation": "Dunyoning eng sara otliqlari Fessaliya jangchilari hisoblangan."
       },
       {
        "question": "Ellinlar kamondan o'q uzishda kimni tengi yo'q deb hisoblagan?",
@@ -22966,40 +23157,44 @@
         "Aleksandrni"
        ],
        "correct_index": 0,
-       "page": 126
+       "page": 126,
+       "explanation": "Ellinlar kamondan o'q uzishda Geraklni tengi yo'q deb hisoblagan."
       },
       {
        "question": "Bosqinning eng og'ir oqibati nima bo'lgan?",
        "options": [
         "Yerlar xarobazorga aylanib, aholining katta qismi qirilgan",
-        "Savdo kengaygan",
-        "Qo'shni davlatlar birlashgan",
-        "Yangi dinlar tarqalgan"
+        "Savdo kengayib, shaharlar boyigan",
+        "Qo'shni davlatlar birlashib, kuchaygan",
+        "Yangi dinlar tarqalib, aholi ko'paygan"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Bosqinning eng og'ir oqibati yerlar xarobazorga aylanib, aholining katta qismi qirilishi bo'lgan."
       },
       {
        "question": "Aleksandr qurdirgan shaharlar qanday atalgan?",
        "options": [
         "Uning nomi bilan - Aleksandriya",
-        "Kir nomi bilan",
-        "Doro nomi bilan",
-        "Roksana nomi bilan"
+        "Kir II nomi bilan Kiropolis",
+        "Doro nomi bilan Dorapolis",
+        "Roksana nomi bilan Roksanagrad"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Aleksandr qurdirgan shaharlar uning nomi bilan - Aleksandriya deb atalgan."
       },
       {
        "question": "Mahalliy aslzoda yoshlar qaysi gvardiyaga qabul qilingan?",
        "options": [
         "Agemaga - sara otliq gvardiyaga",
-        "Piyoda falangaga",
-        "Dengiz flotiga",
-        "Qal'a garnizoniga"
+        "Piyoda falangaga, oddiy jangchi sifatida",
+        "Dengiz flotiga, eshkakchi sifatida",
+        "Qal'a garnizoniga, qorovul sifatida"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Mahalliy aslzoda yoshlar Agemaga - sara otliq gvardiyaga qabul qilingan."
       },
       {
        "question": "Roksananing ukasi kim edi?",
@@ -23010,29 +23205,32 @@
         "Karan"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Roksananing ukasi Itan edi."
       },
       {
        "question": "Yosh jangchilarga harbiy ishdan tashqari nima o'rgatilgan?",
        "options": [
         "Yunoncha o'qish-yozish",
-        "Dengizchilik",
-        "Dehqonchilik",
-        "Zargarlik"
+        "Dengizchilik va kema boshqarish",
+        "Dehqonchilik va sug'orish",
+        "Zargarlik va taqinchoq yasash"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Yosh jangchilarga harbiy ishdan tashqari yunoncha o'qish-yozish o'rgatilgan."
       },
       {
        "question": "Yunon va mahalliy madaniyatning qo'shilishi asosida qaysi davlatlar taraqqiy etgan?",
        "options": [
         "Salavkiylar, Yunon-Baqtriya va Parfiya",
-        "Ahamoniylar",
-        "Rim",
-        "Misr"
+        "Ahamoniylar davlati va uning satrapiyalari",
+        "Rim respublikasi va uning provinsiyalari",
+        "Misr podsholigi va fir'avnlar davlati"
        ],
        "correct_index": 0,
-       "page": 127
+       "page": 127,
+       "explanation": "Yunon va mahalliy madaniyatning qo'shilishi asosida Salavkiylar, Yunon-Baqtriya va Parfiya taraqqiy etgan."
       }
      ]
     },
@@ -23042,6 +23240,11 @@
      "start_page": 128,
      "end_page": 131,
      "explanation": {
+      "takeaways": [
+       "Aleksandr vafotidan (mil. avv. 323) so'ng davlati Makedoniya, Misr va Suriyaga bo'lingan; mil. avv. 312-yilda Salavk Salavkiylar davlatini tuzgan va O'rta Osiyo unga kirgan.",
+       "Salavkning o'g'li Antiox (onasi Spitaman qizi Apama) Sharqiy viloyatlarga noib bo'lgan; Baqtra, Maroqanda, Marv, Termiz madaniyat markazlariga aylangan.",
+       "Mil. avv. 250-yilda Diodot Baqtriyada mustaqil Yunon-Baqtriya podsholigini tuzgan; uni mil. avv. 140-130-yillar orasida yuechjilar bosib olgan."
+      ],
       "goals": [
        "Aleksandr davlatining parchalanishi va Salavkiylar davlatini bilish",
        "Salavk va Antiox haqida so'zlash",
@@ -23408,23 +23611,25 @@
         "question": "Yunon-Baqtriya davlati nima uchun kuchsizlangan?",
         "options": [
          "Tinimsiz urushlar olib borishga majbur bo'lgani uchun",
-         "Savdo to'xtagani uchun",
-         "Aholi ko'chib ketgani uchun",
-         "Zilzila tufayli"
+         "Savdo to'xtab qolgani uchun",
+         "Aholi boshqa yerlarga ko'chib ketgani uchun",
+         "Kuchli zilzila tufayli"
         ],
         "correct_index": 0,
-        "page": 130
+        "page": 130,
+        "explanation": "Yunon-Baqtriya davlati tinimsiz urushlar olib borishga majbur bo'lgani uchun kuchsizlangan."
        },
        {
         "question": "Yunon-Baqtriyada savdo-sotiqning jonlanishiga nima sabab bo'lgan?",
         "options": [
          "Salavkiyadan Baqtriyaga qadar yo'l qurilishi tugatilgani",
-         "Yangi tangalar yo'qligi",
-         "Urushlar",
-         "Soliqlar oshgani"
+         "Yangi tangalar muomalada yo'qligi",
+         "Davom etgan urushlar va talonchilik",
+         "Soliqlar oshirilgani va bojlar"
         ],
         "correct_index": 0,
-        "page": 131
+        "page": 131,
+        "explanation": "Yunon-Baqtriyada savdo-sotiqning jonlanishiga Salavkiyadan Baqtriyaga qadar yo'l qurilishi tugatilgani sabab bo'lgan."
        }
       ]
      },
@@ -23433,12 +23638,13 @@
        "question": "Aleksandr qachon vafot etgan?",
        "options": [
         "Mil. avv. 323-yil 13-iyunda",
-        "Mil. avv. 330-yilda",
-        "Mil. avv. 312-yilda",
-        "Mil. avv. 250-yilda"
+        "Mil. avv. 330-yilda Doro III ni yengganidan so'ng",
+        "Mil. avv. 312-yilda Salavk davlat tuzgan yili",
+        "Mil. avv. 250-yilda Diodot davrida"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Aleksandr mil. avv. 323-yil 13-iyunda vafot etgan."
       },
       {
        "question": "Aleksandr vafotidan keyin uning davlati nechta qismga bo'lingan?",
@@ -23449,7 +23655,8 @@
         "Bo'linmagan"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Aleksandr vafotidan keyin uning davlati uch qismga bo'lingan."
       },
       {
        "question": "Aleksandr davlati qaysi qismlarga bo'linib ketgan?",
@@ -23460,18 +23667,20 @@
         "Baqtriya, Sug'diyona va Parfiya"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Aleksandr davlati Makedoniya, Misr va Suriya qismlariga bo'linib ketgan."
       },
       {
        "question": "Bu davlatlarni kimlar boshqargan?",
        "options": [
         "Aleksandrning eng yaqin lashkarboshilari",
-        "Aleksandrning o'g'illari",
-        "Mahalliy zodagonlar",
-        "Yunon kohinlari"
+        "Aleksandrning o'g'illari va merosxo'rlari",
+        "Mahalliy zodagonlar va ularning vakillari",
+        "Yunon kohinlari va donishmandlari"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Bu davlatlarni Aleksandrning eng yaqin lashkarboshilari boshqargan."
       },
       {
        "question": "Salavk qachon Bobil (Suriya davlati) hukmdori bo'ldi?",
@@ -23482,29 +23691,32 @@
         "Mil. avv. 280-yilda"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Salavk mil. avv. 312-yilda Bobil (Suriya davlati) hukmdori bo'lgan."
       },
       {
        "question": "Salavk kim edi?",
        "options": [
         "Aleksandrning lashkarboshilaridan biri",
-        "Fors shohi",
-        "Yunon faylasufi",
-        "Baqtriya podshosi"
+        "Fors davlatining oxirgi shohi",
+        "Yunon faylasufi va donishmandi",
+        "Baqtriya podshosi va davlat boshlig'i"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Salavk Aleksandrning lashkarboshilaridan biri edi."
       },
       {
        "question": "Salavkiylar davlati tarkibiga qaysi hududlar kirgan?",
        "options": [
         "Mesopotamiya, Eron, Parfiya, Baqtriya, Sug'diyona va Marg'iyona",
-        "Faqat Misr va Suriya",
-        "Yunoniston va Kichik Osiyo",
-        "Hindiston va Xitoy"
+        "Faqat Misr va Suriya hududlari",
+        "Yunoniston va Kichik Osiyo hududlari",
+        "Hindiston va Xitoy hududlari"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Salavkiylar davlati tarkibiga Mesopotamiya, Eron, Parfiya, Baqtriya, Sug'diyona va Marg'iyona kirgan."
       },
       {
        "question": "Salavk O'rta Osiyo viloyatlarini nimalarga ajratgan?",
@@ -23515,18 +23727,20 @@
         "Amirliklarga"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Salavk O'rta Osiyo viloyatlarini satrapiyalarga ajratgan."
       },
       {
        "question": "Strateglar nima bilan shug'ullangan?",
        "options": [
         "Davlat mudofaasi va qo'shinlarni tashkil etish bilan",
-        "Soliq yig'ish bilan",
-        "Savdo bilan",
-        "Ibodatxonalar qurish bilan"
+        "Soliq yig'ish va xazinani to'ldirish bilan",
+        "Savdo yo'llarini nazorat qilish bilan",
+        "Ibodatxonalar qurish va din tarqatish bilan"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Strateglar davlat mudofaasi va qo'shinlarni tashkil etish bilan shug'ullangan."
       },
       {
        "question": "Salavkning o'g'li kim edi?",
@@ -23537,29 +23751,32 @@
         "Mitridat"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Salavkning o'g'li Antiox edi."
       },
       {
        "question": "Antiox Salavkning vafotidan keyin necha yil boshqargan?",
        "options": [
         "20 yilga yaqin",
-        "5 yil",
-        "50 yil",
-        "120 yil"
+        "Atigi 5 yil boshqargan",
+        "Taxminan 50 yil boshqargan",
+        "Yuz yildan ko'proq boshqargan"
        ],
        "correct_index": 0,
-       "page": 128
+       "page": 128,
+       "explanation": "Antiox Salavkning vafotidan keyin 20 yilga yaqin boshqargan."
       },
       {
        "question": "Antioxning onasi kim edi?",
        "options": [
         "Spitaman qizi Apama",
-        "Roksana",
-        "To'maris",
-        "Yelena"
+        "Roksana, Aleksandrning rafiqasi",
+        "To'maris, massagetlar malikasi",
+        "Yelena, Sparta podshosining rafiqasi"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Antioxning onasi Spitaman qizi Apama edi."
       },
       {
        "question": "Apameya shahri kim sharafiga nomlangan?",
@@ -23570,7 +23787,8 @@
         "Antiox"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Apameya shahri malika Apama sharafiga nomlangan."
       },
       {
        "question": "Antioxning mashhur bobosi kim edi?",
@@ -23581,7 +23799,8 @@
         "Diodot"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Antioxning mashhur bobosi Spitaman edi."
       },
       {
        "question": "\"Spitamana\" nomi avesto tilida qanday ma'noni anglatgan?",
@@ -23592,18 +23811,20 @@
         "\"Oltin qon\""
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "'Spitamana' nomi avesto tilida 'muqaddas ruh' degan ma'noni anglatgan."
       },
       {
        "question": "Spitama qaysi dinga asos solgan qavmning nomi?",
        "options": [
         "Zardushtiylik (Zaratushtra)",
-        "Xristian",
-        "Buddaviylik",
-        "Islom"
+        "Xristianlik dinining nomi",
+        "Buddaviylik dinining nomi",
+        "Islom dinining nomi"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Spitama Zardushtiylik (Zaratushtra) asoschisi qavmining nomi."
       },
       {
        "question": "Qaysi shaharlar yirik shahar va madaniyat markazlariga aylangan?",
@@ -23614,29 +23835,32 @@
         "Xo'jand, Kobul, Peshovar"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Baqtra, Maroqanda, Marv va Termiz yirik shahar va madaniyat markazlariga aylangan."
       },
       {
        "question": "Kampirtepa qal'asi qayerda joylashgan?",
        "options": [
         "Termiz yaqinida, Amudaryoning o'ng qirg'og'ida",
-        "Boysun tog'larida",
-        "Sirdaryo bo'yida",
-        "Zarafshon vohasida"
+        "Boysun tog'larining baland qoyalarida",
+        "Sirdaryo bo'yidagi Xo'jand yonida",
+        "Zarafshon vohasidagi Maroqanda yonida"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Kampirtepa qal'asi Termiz yaqinida, Amudaryoning o'ng qirg'og'ida joylashgan."
       },
       {
        "question": "Kampirtepa ichida savdo karvonlariga xizmat qilish uchun nima bo'lgan?",
        "options": [
         "G'alla ombori",
-        "Bozor",
-        "Ibodatxona",
-        "Kutubxona"
+        "Katta bozor va savdo rastalari",
+        "Ibodatxona va qurbongoh",
+        "Kutubxona va yozuv xonasi"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Kampirtepa ichida savdo karvonlariga xizmat qilish uchun g'alla ombori bo'lgan."
       },
       {
        "question": "Uzundara qal'asi qayerda joylashgan?",
@@ -23647,29 +23871,32 @@
         "Xorazmda"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Uzundara qal'asi Boysun tog'larida joylashgan."
       },
       {
        "question": "Uzundara qal'asida kimlar garnizoni joylashgan?",
        "options": [
         "Yunon-makedon jangchilari",
-        "Saklar",
-        "Massagetlar",
-        "Forslar"
+        "Sak ko'chmanchilari",
+        "Massaget jangchilari",
+        "Fors qo'shinlari"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Uzundara qal'asida yunon-makedon jangchilari garnizoni joylashgan."
       },
       {
        "question": "Arxeologik topilmalar qal'a jangchilari turmushi haqida nimalarni ko'rsatadi?",
        "options": [
         "Sopol qozon, suvdon, xum, maishiy buyumlar va tangalar",
-        "Faqat qurollar",
-        "Faqat zargarlik buyumlari",
-        "Qo'lyozma kitoblar"
+        "Faqat qurol-yarog' va zirhlarni",
+        "Faqat zargarlik buyumlari va taqinchoqlarni",
+        "Faqat yozma hujjatlar va matnlarni"
        ],
        "correct_index": 0,
-       "page": 129
+       "page": 129,
+       "explanation": "Arxeologik topilmalar qal'a jangchilari turmushi haqida sopol qozon, suvdon, xum, maishiy buyumlar va tangalar orqali ko'rsatadi."
       },
       {
        "question": "Baqtriya Salavkiylar davlati tarkibidan qachon ajralib chiqqan?",
@@ -23680,18 +23907,20 @@
         "Mil. avv. 140-yilda"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Baqtriya Salavkiylar davlati tarkibidan mil. avv. 250-yilda ajralib chiqqan."
       },
       {
        "question": "Yunon-Baqtriya tarixi qaysi voqeadan boshlanadi?",
        "options": [
         "Diodotning o'zini podsho deb e'lon qilishidan",
-        "Salavkning vafotidan",
-        "Antioxning taxtga chiqishidan",
-        "Yuechji bosqinidan"
+        "Salavkning vafotidan va Antiox taxtga chiqishidan",
+        "Antioxning taxtga chiqishi va Apama bilan nikohidan",
+        "Yuechji qabilalari bosqinidan"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Yunon-Baqtriya tarixi Diodotning o'zini podsho deb e'lon qilishidan boshlanadi."
       },
       {
        "question": "Salavkiylardan ajralib chiqib, Baqtriyaning raqibiga aylangan davlat qaysi?",
@@ -23702,7 +23931,8 @@
         "Xorazm"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Salavkiylardan ajralib chiqib, Baqtriyaning raqibiga aylangan davlat Parfiya edi."
       },
       {
        "question": "Yunon-Baqtriya tarkibiga Baqtriyadan tashqari yana qaysi hududlar kirgan?",
@@ -23713,7 +23943,8 @@
         "Eron va Mesopotamiya"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Yunon-Baqtriya tarkibiga Baqtriyadan tashqari Sug'diyona va Marg'iyona ham kirgan."
       },
       {
        "question": "Diodotdan keyin kim hukmronlik qilgan?",
@@ -23724,7 +23955,8 @@
         "Antiox"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Diodotdan keyin Yevtidem hukmronlik qilgan."
       },
       {
        "question": "Qaysi podsho davrida Yunon-Baqtriya eng katta sarhadlarga ega bo'lgan?",
@@ -23735,51 +23967,56 @@
         "Antiox"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Demetriy davrida Yunon-Baqtriya eng katta sarhadlarga ega bo'lgan."
       },
       {
        "question": "Demetriy davrida Yunon-Baqtriyaga nima qo'shib olingan?",
        "options": [
         "Hindistonning bir qismi",
-        "Misr",
-        "Xorazm",
-        "Makedoniya"
+        "Misr va Nil vodiysi",
+        "Xorazm va Orol bo'yi",
+        "Makedoniya va Yunoniston"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Demetriy davrida Yunon-Baqtriyaga Hindistonning bir qismi qo'shib olingan."
       },
       {
        "question": "Parfiyada Mitridat I hokimiyatga kelgach nima bo'ldi?",
        "options": [
         "Baqtriyaga harbiy tazyiq kuchaydi",
-        "Sulh tuzildi",
-        "Parfiya bo'ysundi",
-        "Savdo boshlandi"
+        "Sulh tuzilib, ittifoq o'rnatilgan",
+        "Parfiya Baqtriyaga bo'ysunib qolgan",
+        "Savdo boshlanib, aloqalar kengaygan"
        ],
        "correct_index": 0,
-       "page": 130
+       "page": 130,
+       "explanation": "Parfiyada Mitridat I hokimiyatga kelgach, Baqtriyaga harbiy tazyiq kuchaygan."
       },
       {
        "question": "Yunon-Baqtriya davlatini kim bosib olgan?",
        "options": [
         "Ko'chmanchi yuechji qabilalari",
-        "Parfiya",
-        "Salavkiylar",
-        "Rimliklar"
+        "Parfiya davlatining qo'shinlari",
+        "Salavkiylar davlatining qo'shinlari",
+        "Rimliklar va ularning legionlari"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Yunon-Baqtriya davlatini ko'chmanchi yuechji qabilalari bosib olgan."
       },
       {
        "question": "Yuechjilar Yunon-Baqtriyani qachon bosib olgan?",
        "options": [
         "Mil. avv. 140-130-yillar oralig'ida",
-        "Mil. avv. 250-yilda",
-        "Mil. avv. 323-yilda",
-        "Mil. avv. 312-yilda"
+        "Mil. avv. 250-yilda Diodot davrida",
+        "Mil. avv. 323-yilda Aleksandr vafotidan keyin",
+        "Mil. avv. 312-yilda Salavk davrida"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Yuechjilar Yunon-Baqtriyani mil. avv. 140-130-yillar oralig'ida bosib olgan."
       },
       {
        "question": "Yunon-Baqtriya davlati necha yil taraqqiy etgan?",
@@ -23790,7 +24027,8 @@
         "10 yil"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Yunon-Baqtriya davlati 120 yil taraqqiy etgan."
       },
       {
        "question": "Yunon-Baqtriyada tangalarga nima tushirilgan?",
@@ -23801,29 +24039,32 @@
         "Qal'alar"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Yunon-Baqtriyada tangalarga hukmdorlar tasviri tushirilgan."
       },
       {
        "question": "Qaysi yo'l qurilishi tugatilgach, savdo aloqalari jonlangan?",
        "options": [
         "Dajladagi Salavkiyadan Baqtriyaga qadar yo'l",
-        "Nildan Misrgacha",
-        "Xitoydan Rimgacha",
-        "Marvdan Termizgacha"
+        "Nildan Misrgacha bo'lgan suv yo'li",
+        "Xitoydan Rimgacha cho'zilgan katta yo'l",
+        "Marvdan Termizgacha cho'zilgan yo'l"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Dajladagi Salavkiyadan Baqtriyaga qadar yo'l qurilishi tugatilgach, savdo aloqalari jonlangan."
       },
       {
        "question": "Baqtriya orqali qaysi yo'lning tarmog'i o'tgan?",
        "options": [
         "Buyuk ipak yo'lining janubiy tarmog'i",
-        "Shimoliy tarmog'i",
-        "Dengiz yo'li",
-        "Qirol yo'li"
+        "Shimoliy tarmog'i o'tgan",
+        "Dengiz yo'li o'tgan",
+        "Fors qirol yo'li o'tgan"
        ],
        "correct_index": 0,
-       "page": 131
+       "page": 131,
+       "explanation": "Baqtriya orqali Buyuk ipak yo'lining janubiy tarmog'i o'tgan."
       }
      ]
     },
@@ -23833,6 +24074,11 @@
      "start_page": 132,
      "end_page": 136,
      "explanation": {
+      "takeaways": [
+       "Xorazm mil. avv. IV asrda Ahamoniylardan ajralib mustaqil bo'lgan; Xiva, Jonbosqal'a, Bozorqal'a kabi devor va burjlar bilan o'ralgan shaharlar qurilgan.",
+       "Xo'jalik asosi sun'iy sug'orma dehqonchilik va chorvachilik bo'lgan (Amudaryodan 40-50 km kanallar); kumush va mis tangalar zarb qilingan.",
+       "Oqchaxon va Tuproqqal'a ahamiyatli yodgorliklar; zardushtiylik tarqalgan, ossuariylar va mahalliy taqvim bo'lgan."
+      ],
       "goals": [
        "Xorazm davlati va shaharlari haqida so'zlash",
        "Xorazm xo'jaligi, hunarmandchiligi va savdosini bilish",
@@ -24218,34 +24464,37 @@
         "question": "Xorazmdagi qaysi yodgorlikdan eng qadimgi yozuv namunasi topilgan?",
         "options": [
          "Oybo'yirqal'a",
-         "Tuproqqal'a",
-         "Oqchaxon",
-         "Xiva"
+         "Tuproqqal'adan",
+         "Oqchaxondan",
+         "Xivadan"
         ],
         "correct_index": 0,
-        "page": 134
+        "page": 134,
+        "explanation": "Eng qadimgi yozuv namunasi Oybo'yirqal'adan topilgan."
        },
        {
         "question": "Xorazm kohin-astronomlari nimani belgilab berishgan?",
         "options": [
          "Amudaryo suv sathining ko'tarilishi va ekin mavsumlari vaqtini",
-         "Urush vaqtini",
-         "Soliq muddatini",
-         "Bayram sanasini faqat"
+         "Urush boshlanish vaqtini",
+         "Soliq to'lash muddatini",
+         "Bayram sanalarini faqat"
         ],
         "correct_index": 0,
-        "page": 135
+        "page": 135,
+        "explanation": "Xorazm kohin-astronomlari Amudaryo suv sathining ko'tarilishi va ekin mavsumlari vaqtini belgilab berishgan."
        },
        {
         "question": "Xorazmda ibodatxonalar qoshidagi maktablarda nima o'rgatilgan?",
         "options": [
          "Xat-savod va arifmetika hisobi",
-         "Harbiy san'at",
-         "Musiqa",
-         "Chet tillari"
+         "Harbiy san'at va qurol ishlatish",
+         "Musiqa va raqs san'ati",
+         "Chet tillari va tarjima"
         ],
         "correct_index": 0,
-        "page": 135
+        "page": 135,
+        "explanation": "Xorazmda ibodatxonalar qoshidagi maktablarda xat-savod va arifmetika hisobi o'rgatilgan."
        }
       ]
      },
@@ -24259,18 +24508,20 @@
         "Mil. avv. VI asrda"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Xorazm mil. avv. IV asrda mustaqil davlatga aylangan."
       },
       {
        "question": "Xorazm qaysi davlatdan ajralib chiqqan?",
        "options": [
         "Ahamoniylar davlatidan",
-        "Salavkiylardan",
+        "Salavkiylar davlatidan",
         "Yunon-Baqtriyadan",
-        "Parfiyadan"
+        "Parfiya davlatidan"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Xorazm Ahamoniylar davlatidan ajralib chiqqan."
       },
       {
        "question": "Aleksandr davrida Xorazm qanday holatda edi?",
@@ -24281,40 +24532,44 @@
         "Parfiyaga qaram edi"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Aleksandr davrida Xorazm mustaqil edi."
       },
       {
        "question": "Xorazmda Aleksandr davrida podsholik qilgan hukmdorni kim yozgan?",
        "options": [
         "Yunon tarixchisi Arrian",
-        "Gerodot",
-        "Poliyen",
-        "Gomer"
+        "Tarixchi Gerodot",
+        "Tarixchi Poliyen",
+        "Shoir Gomer"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Xorazmda Aleksandr davrida podsholik qilgan hukmdor haqida yunon tarixchisi Arrian yozgan."
       },
       {
        "question": "Mil. avv. IV-III asrlarda Xorazm nimaning markaziga aylangan?",
        "options": [
         "Shaharsozlik va me'morchilik",
-        "Dengiz savdosi",
-        "Konchilik",
-        "Kemasozlik"
+        "Dengiz savdosi va dengizchilikning",
+        "Konchilik va metall qazib olishning",
+        "Kemasozlik va kema qurishning"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Mil. avv. IV-III asrlarda Xorazm shaharsozlik va me'morchilikning markaziga aylangan."
       },
       {
        "question": "Qaysi biri Xorazm shahri?",
        "options": [
         "Jonbosqal'a",
-        "Tuproq",
-        "Baqtra",
-        "Termiz"
+        "Tuproq shahri",
+        "Baqtra shahri",
+        "Termiz shahri"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Jonbosqal'a Xorazm shaharlaridan biri."
       },
       {
        "question": "Xorazm shaharlari devorlarining burchaklarida nima qurilgan?",
@@ -24325,7 +24580,8 @@
         "Bog'lar"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Xorazm shaharlari devorlarining burchaklarida burjlar qurilgan."
       },
       {
        "question": "Shahar markazidan o'tgan ko'cha shaharni nechta qismga bo'lgan?",
@@ -24336,29 +24592,32 @@
         "Bo'lmagan"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Shahar markazidan o'tgan ko'cha shaharni ikki qismga bo'lgan."
       },
       {
        "question": "Markaziy maydonda nimalar joylashgan?",
        "options": [
         "Muhtasham saroy va ibodatxonalar",
         "Bozor va karvonsaroy",
-        "Stadion",
-        "Mudofaa minorasi"
+        "Stadion va sport maydoni",
+        "Mudofaa minorasi va harbiy lager"
        ],
        "correct_index": 0,
-       "page": 132
+       "page": 132,
+       "explanation": "Markaziy maydonda muhtasham saroy va ibodatxonalar joylashgan."
       },
       {
        "question": "Xorazm xo'jaligining asosi nima edi?",
        "options": [
         "Sun'iy sug'orma dehqonchilik va chorvachilik",
-        "Dengiz baliqchiligi",
-        "Ovchilik",
-        "Konchilik"
+        "Dengiz baliqchiligi va baliq savdosi",
+        "Ovchilik va termachilik",
+        "Konchilik va metall qazib olish"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Xorazm xo'jaligining asosi sun'iy sug'orma dehqonchilik va chorvachilik edi."
       },
       {
        "question": "Amudaryodan chiqarilgan kanallar qanchalik uzun bo'lgan?",
@@ -24369,73 +24628,80 @@
         "1 kilometr"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Amudaryodan chiqarilgan kanallar 40-50 kilometr uzunlikda bo'lgan."
       },
       {
        "question": "Xorazmliklar qaysi ekinlarni ekishgan?",
        "options": [
         "Bug'doy, arpa va tariq",
         "Guruch va paxta",
-        "Makkajo'xori",
-        "Kartoshka"
+        "Makkajo'xori va kartoshka",
+        "Kartoshka va pomidor"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Xorazmliklar bug'doy, arpa va tariq ekkan."
       },
       {
        "question": "Alohida qal'alarda nima saqlangan?",
        "options": [
         "G'alla omborlari",
-        "Xazina",
-        "Qullar",
-        "Kutubxona"
+        "Xazina va oltin zaxirasi",
+        "Qullar va asirlar",
+        "Kutubxona va xattotlar"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Alohida qal'alarda g'alla omborlari bo'lgan."
       },
       {
        "question": "Xorazmda qaysi hunarmandchilik turlari rivojlangan?",
        "options": [
         "Kulolchilik, temir va mis asboblar, qurol-yarog', zargarlik",
-        "Faqat kemasozlik",
-        "Faqat to'quvchilik",
-        "Faqat shishasozlik"
+        "Faqat kemasozlik va yelkan tikish",
+        "Faqat to'quvchilik va mato to'qish",
+        "Faqat shishasozlik va oyna yasash"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Xorazmda kulolchilik, temir va mis asboblar, qurol-yarog' va zargarlik rivojlangan."
       },
       {
        "question": "Xorazm aholisi kimlar bilan yaqin savdo munosabatlarini o'rnatgan?",
        "options": [
         "Sug'diyona, Marg'iyona, Baqtriya va dasht ko'chmanchilari bilan",
-        "Faqat Yunoniston bilan",
-        "Faqat Misr bilan",
-        "Hech kim bilan"
+        "Faqat Yunoniston va Rim bilan",
+        "Faqat Misr va Mesopotamiya bilan",
+        "Hech kim bilan, yakka yashagan"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Xorazm aholisi Sug'diyona, Marg'iyona, Baqtriya va dasht ko'chmanchilari bilan yaqin savdo munosabatlarini o'rnatgan."
       },
       {
        "question": "Xorazmda qaysi tangalar zarb qilingan?",
        "options": [
         "Kumush va mis tangalar",
         "Oltin tangalar",
-        "Faqat mis",
+        "Faqat mis tangalar",
         "Qog'oz pullar"
        ],
        "correct_index": 0,
-       "page": 133
+       "page": 133,
+       "explanation": "Xorazmda kumush va mis tangalar zarb qilingan."
       },
       {
        "question": "Oqchaxon qal'asi qayerda joylashgan?",
        "options": [
         "Amudaryoning o'ng qirg'og'ida",
         "Sirdaryo bo'yida",
-        "Zarafshonda",
+        "Zarafshon vohasida",
         "Boysun tog'larida"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Oqchaxon qal'asi Amudaryoning o'ng qirg'og'ida joylashgan."
       },
       {
        "question": "Oqchaxon qal'asi qaysi davrga oid?",
@@ -24446,7 +24712,8 @@
         "Milodiy VIII asr"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Oqchaxon qal'asi mil. avv. II-I asrlarga oid."
       },
       {
        "question": "Oqchaxon ibodatxonasida nechta qahramon portreti ajralib turadi?",
@@ -24457,51 +24724,56 @@
         "12 ta"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Oqchaxon ibodatxonasida 30 ta qahramon portreti ajralib turadi."
       },
       {
        "question": "Qahramonlarning aksariyati qanday tasvirlangan?",
        "options": [
         "Qush shaklidagi toj kiydirilgan holda",
-        "Qilich bilan",
-        "Otda",
-        "Niqobda"
+        "Qilich ushlagan va dubulg'a kiygan holda",
+        "Otda, jangovar holatda",
+        "Niqob kiygan va yuzi yashirilgan holda"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Qahramonlarning aksariyati qush shaklidagi toj kiydirilgan holda tasvirlangan."
       },
       {
        "question": "Xorazmdagi binolar qurilishida asosan nima ishlatilgan?",
        "options": [
         "Xom g'isht",
-        "Marmar",
-        "Yog'och",
-        "Granit"
+        "Marmar va silliqlangan tosh",
+        "Yog'och va uning taxtalari",
+        "Granit va qora tosh"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Xorazmdagi binolar qurilishida asosan xom g'isht ishlatilgan."
       },
       {
        "question": "Tuproqqal'a qaysi davrda bunyod etilgan?",
        "options": [
         "Milodiy II-III asrlarda",
-        "Mil. avv. IV asrda",
-        "Milodiy VIII asrda",
-        "Mil. avv. II asrda"
+        "Mil. avv. IV asrda, Aleksandr davrida",
+        "Milodiy VIII asrda, arab davrida",
+        "Mil. avv. II asrda, Oqchaxon bilan bir vaqtda"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Tuproqqal'a milodiy II-III asrlarda bunyod etilgan."
       },
       {
        "question": "Tuproqqal'a nima edi?",
        "options": [
         "Xorazm hukmdorlarining qarorgohi",
-        "Savdo porti",
-        "Harbiy garnizon",
-        "Diniy maktab"
+        "Xorazmning savdo porti",
+        "Qo'shin garnizoni",
+        "Diniy maktab va kutubxona"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Tuproqqal'a Xorazm hukmdorlarining qarorgohi edi."
       },
       {
        "question": "Tuproqqal'a zalidagi loy haykallar soni nechta edi?",
@@ -24512,7 +24784,8 @@
         "200 ta"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Tuproqqal'a zalidagi loy haykallar soni 115 ta edi."
       },
       {
        "question": "O'rta Osiyodagi eng qadimgi yozuv qayerdan topilgan?",
@@ -24523,7 +24796,8 @@
         "Marg'iyonadan"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "O'rta Osiyodagi eng qadimgi yozuv Xorazm hududidan topilgan."
       },
       {
        "question": "Eng qadimgi yozuv namunasi nimaga bitilgan?",
@@ -24534,7 +24808,8 @@
         "Bronza plitaga"
        ],
        "correct_index": 0,
-       "page": 134
+       "page": 134,
+       "explanation": "Eng qadimgi yozuv namunasi xum sirtiga bitilgan."
       },
       {
        "question": "Qadimgi Xorazm yozuvi qaysi alifboga asoslangan?",
@@ -24545,7 +24820,8 @@
         "Xitoy iyerogliflariga"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Qadimgi Xorazm yozuvi aramey alifbosiga asoslangan."
       },
       {
        "question": "Xorazm yozuvi nechta harfdan iborat edi?",
@@ -24556,29 +24832,32 @@
         "28 ta"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Xorazm yozuvi 20 ta harfdan iborat edi."
       },
       {
        "question": "Keyingi davrlarda yozuvlar nimalarga bitilgan?",
        "options": [
         "Sopol, suyak, yog'och taxtachalar va charmga",
-        "Faqat toshga",
-        "Faqat qog'ozga",
-        "Papirusga"
+        "Faqat toshga va qoyatoshga",
+        "Faqat qog'ozga va shoyiga",
+        "Faqat papirusga va pergamentga"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Keyingi davrlarda yozuvlar sopol, suyak, yog'och taxtachalar va charmga bitilgan."
       },
       {
        "question": "Xorazmda qaysi aniq fanlar taraqqiy etgan?",
        "options": [
         "Astronomiya, geometriya, matematika",
         "Tibbiyot va kimyo",
-        "Adabiyot",
-        "Tarix"
+        "Adabiyot va she'riyat",
+        "Tarix va falsafa"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Xorazmda astronomiya, geometriya va matematika taraqqiy etgan."
       },
       {
        "question": "Qo'yqirilganqal'a qachon qurilgan?",
@@ -24589,29 +24868,32 @@
         "Mil. avv. V asrda"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Qo'yqirilganqal'a mil. avv. III asrda qurilgan."
       },
       {
        "question": "Qo'yqirilganqal'a ibodatxonasidan kohinlar nimani kuzatgan?",
        "options": [
         "Osmon jismlarining harakatini",
-        "Dushman qo'shinini",
-        "Suv oqimini",
-        "Bozorni"
+        "Dushman qo'shinining harakatini",
+        "Daryo suvi oqimini",
+        "Bozor va savdo karvonlarini"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Qo'yqirilganqal'a ibodatxonasidan kohinlar osmon jismlarining harakatini kuzatgan."
       },
       {
        "question": "Xorazmlik kohin-astronomlar kimga o'xshash tarzda vaqtni aniqlagan?",
        "options": [
         "Nil toshqini vaqtini bilgan Misr kohinlariga",
-        "Yunon faylasuflariga",
-        "Fors satraplariga",
-        "Rim senatorlariga"
+        "Yunon faylasuflariga o'xshab",
+        "Fors satraplariga o'xshab",
+        "Rim senatorlariga o'xshab"
        ],
        "correct_index": 0,
-       "page": 135
+       "page": 135,
+       "explanation": "Xorazmlik kohin-astronomlar Nil toshqini vaqtini bilgan Misr kohinlariga o'xshash tarzda vaqtni aniqlagan."
       },
       {
        "question": "Xorazm vohasida qaysi ta'limot keng yoyilgan?",
@@ -24622,7 +24904,8 @@
         "Islom"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Xorazm vohasida zardushtiylik keng yoyilgan."
       },
       {
        "question": "Ossuariy nima?",
@@ -24633,29 +24916,32 @@
         "Taqvim"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Ossuariy - suyakdon."
       },
       {
        "question": "Xorazmliklar qaysi muqaddas unsurlarga sajda qilgan?",
        "options": [
         "Yer, suv va olovga",
         "Quyosh va oyga",
-        "Tog'larga",
-        "Hayvonlarga"
+        "Tog'lar va qoyalarga",
+        "Hayvonlar va daraxtlarga"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Xorazmliklar yer, suv va olovga sajda qilgan."
       },
       {
        "question": "Anaxita kim edi?",
        "options": [
         "Suv va hosildorlik ma'budasi",
-        "Urush ma'budasi",
-        "Muhabbat ma'budasi",
-        "Qahramon malika"
+        "Urush va g'alaba ma'budasi",
+        "Muhabbat va go'zallik ma'budasi",
+        "Qahramon malika va jangchi"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Anaxita suv va hosildorlik ma'budasi edi."
       },
       {
        "question": "Xorazmda mahalliy taqvim qachon ishlab chiqilgan?",
@@ -24666,7 +24952,8 @@
         "Mil. avv. II asrda"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Xorazmda mahalliy taqvim milodiy I asrda ishlab chiqilgan."
       },
       {
        "question": "Mahalliy taqvimdan xorazmliklar qaysi asrga qadar foydalangan?",
@@ -24677,7 +24964,8 @@
         "II asrga qadar"
        ],
        "correct_index": 0,
-       "page": 136
+       "page": 136,
+       "explanation": "Mahalliy taqvimdan xorazmliklar VIII asrga qadar foydalangan."
       }
      ]
     },
