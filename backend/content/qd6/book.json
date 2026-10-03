@@ -30346,6 +30346,11 @@
      "start_page": 165,
      "end_page": 168,
      "explanation": {
+      "takeaways": [
+       "Qullar qo'zg'olonlaridan qo'rqqan quldorlar kuchli hokimiyat talab qildi; yollanma qo'shinlarga tayangan harbiy boshliqlar kuchaydi.",
+       "Sezar mil. avv. 49-yilda Rubikondan o'tib ('Qur'a tashlandi!') yakkahokim bo'ldi; mil. avv. 44-yilda Brut boshchiligidagi senatorlar fitnasida o'ldirildi.",
+       "Oktavian Antoniy va Kleopatrani yengib, mil. avv. 29-yilda imperator Avgust bo'ldi; milodiy II asrda Trayan davrida imperiya eng kengaydi."
+      ],
       "goals": [
        "Respublika qulashining sabablarini bilish",
        "Sezar hokimiyatining qaror topishi va o'ldirilishini hikoya qilish",
@@ -30683,18 +30688,20 @@
          "Din"
         ],
         "correct_index": 0,
-        "page": 165
+        "page": 165,
+        "explanation": "Yollanma askarlarni faqat o'lja qiziqtirgan."
        },
        {
         "question": "Nima uchun senatorlar respublikani tiklashni istamagan?",
         "options": [
          "O'z boyligini Sezar davrida qo'lga kiritgan edi",
-         "Ular Sezarni sevgan",
-         "Ular qo'rqqan",
-         "Sezar tirik edi"
+         "Ular Sezarni sevib, ardoqlagani uchun",
+         "Ular fuqarolar urushidan qo'rqqani uchun",
+         "Sezar hali tirik va kuchli bo'lgani uchun"
         ],
         "correct_index": 0,
-        "page": 167
+        "page": 167,
+        "explanation": "Senatorlar respublikani tiklashni istamagan, chunki o'z boyligini Sezar davrida qo'lga kiritgan edi."
        }
       ]
      },
@@ -30703,34 +30710,37 @@
        "question": "Qullar qo'zg'olonlari quldorlarga qanday ta'sir qilgan?",
        "options": [
         "Ularni qattiq qo'rquvga solgan",
-        "Xursand qilgan",
-        "Ta'sir qilmagan",
-        "Ularni ozod qilgan"
+        "Ularni xursand qilib, tinchlantirgan",
+        "Ularga hech qanday ta'sir qilmagan",
+        "Ularni ozod qilib, qullarga aylantirgan"
        ],
        "correct_index": 0,
-       "page": 165
+       "page": 165,
+       "explanation": "Qullar qo'zg'olonlari quldorlarni qattiq qo'rquvga solgan."
       },
       {
        "question": "Quldorlar qarshisida qanday masala ko'ndalang turgan?",
        "options": [
         "Kuchli hokimiyat - harbiy diktatura o'rnatish zarurati",
-        "Qullarni ozod qilish",
-        "Yangi shahar qurish",
-        "Senatni kengaytirish"
+        "Qullarni ozod qilib, ularga yer berish zarurati",
+        "Yangi shaharlar qurib, aholini ko'chirish zarurati",
+        "Senatni kengaytirib, unga yangi a'zolar kiritish zarurati"
        ],
        "correct_index": 0,
-       "page": 165
+       "page": 165,
+       "explanation": "Quldorlar qarshisida kuchli hokimiyat - harbiy diktatura o'rnatish zarurati ko'ndalang turgan."
       },
       {
        "question": "Mil. avv. I asrda qanday kuch haqiqiy kuchga aylangan?",
        "options": [
         "Yollanma qo'shinlarga tayanuvchi harbiy boshliqlar",
-        "Senatorlar",
-        "Xalq tribunlari",
-        "Kohinlar"
+        "Senatorlar va ularning yig'inlari",
+        "Xalq tribunlari va ularning vetosi",
+        "Kohinlar va ularning hay'ati"
        ],
        "correct_index": 0,
-       "page": 165
+       "page": 165,
+       "explanation": "Mil. avv. I asrda yollanma qo'shinlarga tayanuvchi harbiy boshliqlar haqiqiy kuchga aylangan."
       },
       {
        "question": "Rim hukmdorlari ramzi qaysi?",
@@ -30741,7 +30751,8 @@
         "Buqa"
        ],
        "correct_index": 0,
-       "page": 165
+       "page": 165,
+       "explanation": "Rim hukmdorlari ramzi Rim burguti edi."
       },
       {
        "question": "Spartak qo'zg'oloni bostirilgach, hokimiyat uchun kimlar kurashgan?",
@@ -30752,18 +30763,20 @@
         "Trayan va Neron"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Spartak qo'zg'oloni bostirilgach, hokimiyat uchun Krass va Pompey kurashgan."
       },
       {
        "question": "Krass qanday halok bo'lgan?",
        "options": [
         "Rim uchun olib borilgan urushlardan birida",
-        "Fitna tufayli",
-        "Kasallikdan",
-        "Qamalda"
+        "Senatorlar fitnasi natijasida",
+        "Og'ir kasallikdan o'lgan",
+        "Uzoq qamal paytida ochlikdan"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Krass Rim uchun olib borilgan urushlardan birida halok bo'lgan."
       },
       {
        "question": "Pompey uchun kim birdan-bir xavfli raqib bo'lib qolgan?",
@@ -30774,7 +30787,8 @@
         "Trayan"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Pompey uchun birdan-bir xavfli raqib Sezar bo'lib qolgan."
       },
       {
        "question": "Sezar qaysi urushdan keyin Rubikondan o'tgan?",
@@ -30785,7 +30799,8 @@
         "Parfiya urushidan keyin"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Sezar Galliyadagi zafarli urushdan keyin Rubikondan o'tgan."
       },
       {
        "question": "Rubikon daryosidan o'tayotib Sezar nima degan?",
@@ -30796,7 +30811,8 @@
         "\"Veto!\""
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Rubikon daryosidan o'tayotib Sezar 'Qur'a tashlandi!' degan."
       },
       {
        "question": "Pompeyning qo'shinlari qayerda edi?",
@@ -30807,29 +30823,32 @@
         "Rimda"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Pompeyning qo'shinlari Ispaniyada edi."
       },
       {
        "question": "Sezar qanday hukmdorga aylangan?",
        "options": [
         "Cheklanmagan hokimiyatga ega imperator va diktator",
-        "Konsul",
-        "Xalq tribuni",
-        "Senator"
+        "Oddiy konsul va uning o'rinbosari",
+        "Xalq tribuni va plebeylar himoyachisi",
+        "Senator va Senat a'zosi"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Sezar cheklanmagan hokimiyatga ega imperator va diktator bo'lgan."
       },
       {
        "question": "Sezar mansabdor shaxslarni qanday tayinlagan?",
        "options": [
         "Hech qanday saylovlarsiz",
-        "Senat orqali",
-        "Xalq majlisi orqali",
-        "Qur'a orqali"
+        "Senat orqali, uning ma'qullashi bilan",
+        "Xalq majlisi orqali, ovoz berib",
+        "Qur'a tashlab, tasodif bilan"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Sezar mansabdor shaxslarni hech qanday saylovlarsiz tayinlagan."
       },
       {
        "question": "Senatorlar Sezarga qarshi nima uyushtirgan?",
@@ -30840,51 +30859,56 @@
         "Bojxona"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Senatorlar Sezarga qarshi fitna uyushtirgan."
       },
       {
        "question": "Fitnaga kim boshchilik qilgan?",
        "options": [
         "Sezarning yaqin do'sti Brut",
-        "Antoniy",
-        "Oktavian",
-        "Pompey"
+        "Mark Antoniy, harbiy sarkarda",
+        "Oktavian, Sezarning jiyani",
+        "Pompey, Sezarning raqibi"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Fitnaga Sezarning yaqin do'sti Brut boshchilik qilgan."
       },
       {
        "question": "Sezar qayerda o'ldirilgan?",
        "options": [
         "Senatdagi majlis paytida",
-        "Jang maydonida",
-        "Uyida",
-        "Rubikon bo'yida"
+        "Jang maydonida, qo'shin oldida",
+        "Uyida, uyqu paytida",
+        "Rubikon daryosi bo'yida"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Sezar Senatdagi majlis paytida o'ldirilgan."
       },
       {
        "question": "Sezarning o'ldirilishidan keyin nima boshlangan?",
        "options": [
         "Sarkardalar o'rtasida kurash va fuqarolar urushi",
-        "Tinchlik",
-        "Respublika tiklangan",
-        "Qullar ozod qilingan"
+        "Uzoq muddatli tinchlik va barqarorlik",
+        "Respublika qayta tiklanib, gullab-yashnagan",
+        "Qullar ozod qilinib, yer olgan"
        ],
        "correct_index": 0,
-       "page": 166
+       "page": 166,
+       "explanation": "Sezarning o'ldirilishidan keyin sarkardalar o'rtasida kurash va fuqarolar urushi boshlangan."
       },
       {
        "question": "Brut oldin nimaga urinib ko'rgan?",
        "options": [
         "Respublikani qayta tiklashga",
-        "Imperator bo'lishga",
-        "Misrni bosib olishga",
-        "Pompeyni qo'llashga"
+        "Imperator bo'lib, yakkahokim bo'lishga",
+        "Misrni bosib olib, Kleopatrani yengishga",
+        "Pompeyni qo'llab, Sezarga qarshi chiqishga"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Brut oldin respublikani qayta tiklashga urinib ko'rgan."
       },
       {
        "question": "Oktavian kim edi?",
@@ -30895,18 +30919,20 @@
         "Brutning do'sti"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Oktavian Sezarning jiyani edi."
       },
       {
        "question": "Oktavian kim bilan ittifoq tuzib Brutni yengdi?",
        "options": [
         "Mark Antoniy bilan",
-        "Krass bilan",
-        "Pompey bilan",
-        "Trayan bilan"
+        "Krass bilan, boy sarkarda",
+        "Pompey bilan, mashhur sarkarda",
+        "Trayan bilan, keyingi imperator"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Oktavian Mark Antoniy bilan ittifoq tuzib Brutni yengdi."
       },
       {
        "question": "Rimning G'arbiy qismini kim boshqargan?",
@@ -30917,62 +30943,68 @@
         "Pompey"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Rimning G'arbiy qismini Oktavian boshqargan."
       },
       {
        "question": "Antoniy Kleopatraga nikoh sovg'asi sifatida nimani bergan?",
        "options": [
         "Rimning sharqiy provinsiyalarini",
-        "G'arbiy provinsiyalarini",
-        "Oltinni",
-        "Flotni"
+        "G'arbiy provinsiyalar va Italiyani",
+        "Katta miqdordagi oltin va xazinani",
+        "Butun flot va jangovar kemalarni"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Antoniy Kleopatraga nikoh sovg'asi sifatida Rimning sharqiy provinsiyalarini bergan."
       },
       {
        "question": "Antoniy va Kleopatra flotlari jangda nima qilgan?",
        "options": [
         "Aleksandriyaga qochgan",
-        "Taslim bo'lgan",
-        "G'alaba qilgan",
-        "Halok bo'lgan"
+        "Taslim bo'lib, qurolni tashlagan",
+        "G'alaba qilib, dushmanni quvgan",
+        "Butunlay halok bo'lib, cho'kib ketgan"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Antoniy va Kleopatra flotlari jangda Aleksandriyaga qochgan."
       },
       {
        "question": "Antoniy va Kleopatra taqdiri nima bo'ldi?",
        "options": [
         "O'z-o'zini o'ldirdilar",
-        "Asirga olindi",
-        "Surgun qilindi",
-        "Ozod etildi"
+        "Asirga olinib, Rimga olib ketilgan",
+        "Surgun qilinib, uzoq orolga yuborilgan",
+        "Ozod etilib, Misrda qolgan"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Antoniy va Kleopatra o'z-o'zini o'ldirgan."
       },
       {
        "question": "Misr nimaga aylandi?",
        "options": [
         "Rim davlati provinsiyasiga",
-        "Mustaqil davlatga",
-        "Parfiya tarkibiga",
-        "Kushon tarkibiga"
+        "Mustaqil davlat bo'lib qolgan",
+        "Parfiya tarkibiga kirgan",
+        "Kushon tarkibiga kirgan"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Misr Rim davlati provinsiyasiga aylangan."
       },
       {
        "question": "Oktavian Senatdan qanday unvon oldi?",
        "options": [
         "Imperator unvoni va Avgust nomini",
-        "Diktator unvonini",
-        "Konsul unvonini",
-        "Tribun unvonini"
+        "Diktator unvonini va umrbod hokimiyatni",
+        "Konsul unvonini va bir yillik hokimiyatni",
+        "Tribun unvonini va veto huquqini"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Oktavian Senatdan imperator unvoni va Avgust nomini olgan."
       },
       {
        "question": "Oktavian Avgust qachon imperator bo'ldi?",
@@ -30983,7 +31015,8 @@
         "Milodiy 98-yilda"
        ],
        "correct_index": 0,
-       "page": 167
+       "page": 167,
+       "explanation": "Oktavian Avgust mil. avv. 29-yilda imperator bo'lgan."
       },
       {
        "question": "Avgustning vorislari davrida nima boshlandi?",
@@ -30994,7 +31027,8 @@
         "Qullar ozodligi"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Avgustning vorislari davrida imperiya inqirozi boshlangan."
       },
       {
        "question": "Qaysi imperatorlar davrida inqiroz boshlangan?",
@@ -31005,7 +31039,8 @@
         "Brut va Antoniy"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Kaligula va Neron imperatorlari davrida inqiroz boshlangan."
       },
       {
        "question": "Rim imperiyasining \"oltin asri\" qaysi asr?",
@@ -31016,7 +31051,8 @@
         "Mil. avv. III asr"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Rim imperiyasining 'oltin asri' milodiy II asr hisoblanadi."
       },
       {
        "question": "Trayan qachon imperator bo'ldi?",
@@ -31027,18 +31063,20 @@
         "Mil. avv. 44-yilda"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Trayan milodiy 98-yilda imperator bo'lgan."
       },
       {
        "question": "Trayan zamonida qaysi xalq bilan urushlar olib borilgan?",
        "options": [
         "Dunay bo'ylaridagi daklar bilan",
-        "Etrusklar bilan",
-        "Kushonlar bilan",
-        "Karfagen bilan"
+        "Etrusklar bilan, Italiya shimolida",
+        "Kushonlar bilan, O'rta Osiyoda",
+        "Karfagen bilan, Afrika shimolida"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Trayan zamonida Dunay bo'ylaridagi daklar bilan urushlar olib borilgan."
       },
       {
        "question": "Trayan ustunining balandligi qancha?",
@@ -31049,7 +31087,8 @@
         "14 metr"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Trayan ustunining balandligi 40 metr."
       },
       {
        "question": "Trayan davrida qaysi hududlar Rim tarkibiga kirgan?",
@@ -31060,7 +31099,8 @@
         "Hindiston va Xitoy"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Trayan davrida Suriya va Mesopotamiya Rim tarkibiga kirgan."
       },
       {
        "question": "Trayan qaysi podsholik bilan muvaffaqiyatli urush olib borgan?",
@@ -31071,7 +31111,8 @@
         "Qang'"
        ],
        "correct_index": 0,
-       "page": 168
+       "page": 168,
+       "explanation": "Trayan Parfiya bilan muvaffaqiyatli urush olib borgan."
       }
      ]
     },
@@ -31081,6 +31122,11 @@
      "start_page": 169,
      "end_page": 172,
      "explanation": {
+      "takeaways": [
+       "Milodiy III asrdan Rim imperiyasi zaiflashdi; Konstantin 330-yilda poytaxtni Konstantinopolga ko'chirdi, 395-yilda imperiya G'arbiy va Sharqiy qismlarga bo'lindi.",
+       "Gotlar (Alarix, 410), vandallar (455) va hunlar (Attila) Rimni talagan; qullar gotlarga darvozani ochgan.",
+       "476-yilda Odoakr so'nggi G'arbiy Rim imperatori Romulni taxtdan tushirgan; qadimgi dunyo tarixi tugab, o'rta asrlar boshlangan."
+      ],
       "goals": [
        "Imperiya tanazzulining sabablarini bilish",
        "G'arbiy va Sharqiy Rim imperiyalariga bo'linishni tushuntirish",
@@ -31418,22 +31464,24 @@
         "options": [
          "Shimoli-g'arbdagi ko'chmanchi qabilalardan himoyalanish uchun",
          "Yangi yerlarni bosib olish uchun",
-         "Savdo yo'lini qo'riqlash uchun",
-         "Qullar qo'zg'olonidan qo'rqib"
+         "Savdo yo'llarini qo'riqlash uchun",
+         "Qullarni nazorat qilish uchun"
         ],
         "correct_index": 0,
-        "page": 169
+        "page": 169,
+        "explanation": "Rimliklar chegarada katta armiya saqlagan, chunki shimoli-g'arbdagi ko'chmanchi qabilalardan himoyalanishi kerak edi."
        },
        {
         "question": "476-yil nima uchun muhim sana?",
         "options": [
          "G'arbiy Rim qulagan va o'rta asrlar tarixi boshlangan",
-         "Rim asos solingan",
-         "Respublika tuzilgan",
-         "Konstantin poytaxt ko'chirgan"
+         "Shu yili Rim shahriga asos solingan",
+         "Shu yili Rim respublikasi tuzilgan",
+         "Shu yili Konstantin poytaxtni ko'chirgan"
         ],
         "correct_index": 0,
-        "page": 172
+        "page": 172,
+        "explanation": "476-yil muhim sana: G'arbiy Rim qulagan va o'rta asrlar tarixi boshlangan."
        }
       ]
      },
@@ -31442,12 +31490,13 @@
        "question": "Trayan davridan keyin rimliklar nimani olib borolmagan?",
        "options": [
         "Yirik bosqinchilik urushlarini",
-        "Savdoni",
-        "Qurilishni",
-        "Diniy marosimlarni"
+        "Savdo kemalarini yo'lga qo'yishni",
+        "Katta shaharlar qurishni",
+        "Diniy marosimlarni o'tkazishni"
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Trayan davridan keyin rimliklar yirik bosqinchilik urushlarini olib borolmagan."
       },
       {
        "question": "Rim imperiyasining kuch-qudrati qachon zaiflasha boshlagan?",
@@ -31458,7 +31507,8 @@
         "Milodiy V asrda"
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Rim imperiyasining kuch-qudrati milodiy III asrda zaiflasha boshlagan."
       },
       {
        "question": "Imperatorni endilikda kim saylagan?",
@@ -31469,7 +31519,8 @@
         "Kohinlar"
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Imperatorni endilikda armiya saylagan."
       },
       {
        "question": "Chegaraning shimoli-g'arbida kimlar paydo bo'lgan?",
@@ -31480,7 +31531,8 @@
         "Kushonlar"
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Chegaraning shimoli-g'arbida ko'chmanchi qabilalar paydo bo'lgan."
       },
       {
        "question": "Rimliklar ko'chmanchi qabilalarga qanday laqab bergan?",
@@ -31491,18 +31543,20 @@
         "\"Plebeylar\""
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Rimliklar ko'chmanchi qabilalarga 'varvarlar' laqabini bergan."
       },
       {
        "question": "Dastlab \"varvarlar\" deb kimlarni atashgan?",
        "options": [
         "Tillari yunonlarga tushunarsiz bo'lgan barcha qabila va xalqlarni",
-        "Faqat german qabilalarini",
-        "Faqat hunlarni",
-        "Faqat forslarni"
+        "Faqat german qabilalarini va ularning jangchilarini",
+        "Faqat hunlarni va ularning otliqlarini",
+        "Faqat forslarni va ularning qo'shinini"
        ],
        "correct_index": 0,
-       "page": 169
+       "page": 169,
+       "explanation": "Dastlab 'varvarlar' deb tillari yunonlarga tushunarsiz bo'lgan barcha qabila va xalqlarni atashgan."
       },
       {
        "question": "Konstantin qaysi shaharni poytaxt deb e'lon qilgan?",
@@ -31513,51 +31567,56 @@
         "Aleksandriyani"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Konstantin Vizantiyni poytaxt deb e'lon qilgan."
       },
       {
        "question": "Vizantiy qayerda joylashgan?",
        "options": [
         "Bosfor bo'g'ozida",
-        "Nil bo'yida",
-        "Tibr bo'yida",
-        "Sitsiliyada"
+        "Nil daryosi bo'yida, Misrda",
+        "Tibr daryosi bo'yida, Italiyada",
+        "Sitsiliya orolida, dengiz o'rtasida"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Vizantiy Bosfor bo'g'ozida joylashgan."
       },
       {
        "question": "Yangi shahar qanday nom oldi?",
        "options": [
         "Konstantinopol",
-        "Vizantiya",
-        "Feodosiya",
-        "Neapol"
+        "Vizantiya deb, eski nomi bilan",
+        "Feodosiya deb, imperator nomi bilan",
+        "Neapol deb, yangi shahar nomi bilan"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Yangi shahar Konstantinopol deb nom olgan."
       },
       {
        "question": "Rim imperiyasi milodiy 395-yilda qanday o'zgarish ko'rdi?",
        "options": [
         "G'arbiy va Sharqiy qismlarga bo'lindi",
-        "Yagona bo'lib qoldi",
-        "Respublika bo'ldi",
-        "Parchalanib ketdi"
+        "Yagona bo'lib qolgan, hech narsa o'zgarmagan",
+        "Respublikaga aylangan, senat boshqargan",
+        "Mayda mulklarga parchalanib ketgan"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Rim imperiyasi milodiy 395-yilda G'arbiy va Sharqiy qismlarga bo'lingan."
       },
       {
        "question": "Imperiyani ikki o'g'li o'rtasida kim bo'lib bergan?",
        "options": [
         "Imperator Feodosiy o'limidan so'ng",
-        "Konstantin",
-        "Trayan",
-        "Avgust"
+        "Imperator Konstantin o'limidan so'ng",
+        "Imperator Trayan o'limidan so'ng",
+        "Imperator Avgust o'limidan so'ng"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Imperiyani ikki o'g'li o'rtasida imperator Feodosiy o'limidan so'ng bo'lib bergan."
       },
       {
        "question": "G'arbiy qismga qaysi hududlar kirgan?",
@@ -31565,21 +31624,23 @@
         "Italiya, G'arbiy Yevropa va Shimoliy Afrika",
         "Bolqon, Kichik Osiyo va Misr",
         "Suriya va Mesopotamiya",
-        "Britaniya faqat"
+        "Faqat Britaniya va Irlandiya"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "G'arbiy qismga Italiya, G'arbiy Yevropa va Shimoliy Afrika kirgan."
       },
       {
        "question": "Sharqiy qismga qaysi hududlar kirgan?",
        "options": [
         "Bolqon yarimoroli, Kichik Osiyo va Misr",
         "Italiya va Ispaniya",
-        "Galliya",
-        "Britaniya"
+        "Galliya va Germaniya",
+        "Britaniya va Shimoliy Afrika"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Sharqiy qismga Bolqon yarimoroli, Kichik Osiyo va Misr kirgan."
       },
       {
        "question": "Qaysi imperiyada imperatorning yagona hokimiyati saqlanib qolgan?",
@@ -31590,7 +31651,8 @@
         "Hech birida"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Sharqiy Rim imperiyasida imperatorning yagona hokimiyati saqlanib qolgan."
       },
       {
        "question": "Gotlar Rimni qachon qurshab olgan?",
@@ -31601,7 +31663,8 @@
         "Milodiy 455-yilda"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Gotlar Rimni milodiy 410-yilda qurshab olgan."
       },
       {
        "question": "Gotlar boshlig'i kim edi?",
@@ -31612,40 +31675,44 @@
         "Romul"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Gotlar boshlig'i Alarix edi."
       },
       {
        "question": "Gotlar Rimga qanday kirib olgan?",
        "options": [
         "Tunda qullar darvozalarni ochib bergan",
-        "Devorni buzib",
-        "Dengizdan",
-        "Muzokara orqali"
+        "Devorni buzib, devor yorig'idan",
+        "Dengizdan kemalarda hujum qilib",
+        "Muzokara qilib, kelishuv orqali"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Gotlar Rimga tunda qullar darvozalarni ochib bergani sababli kirib olgan."
       },
       {
        "question": "Gotlar Rimni necha kun talagan?",
        "options": [
         "Roppa-rosa uch kun",
-        "Ikki hafta",
-        "Bir oy",
-        "Bir kun"
+        "Ikki hafta davomida",
+        "Bir oy davomida",
+        "Faqat bir kun davomida"
        ],
        "correct_index": 0,
-       "page": 170
+       "page": 170,
+       "explanation": "Gotlar Rimni roppa-rosa uch kun talagan."
       },
       {
        "question": "Germanlar Rim ibodatxonalari va kutubxonalari toshlarini nima uchun ko'chirib olgan?",
        "options": [
         "Qo'rg'onchalari devorlarini mustahkamlash uchun",
         "Yangi shahar qurish uchun",
-        "Sotish uchun",
-        "Yodgorlik uchun"
+        "Sotib, boylik orttirish uchun",
+        "Ibodat qilish uchun"
        ],
        "correct_index": 0,
-       "page": 171
+       "page": 171,
+       "explanation": "Germanlar Rim ibodatxonalari va kutubxonalari toshlarini qo'rg'onchalari devorlarini mustahkamlash uchun ko'chirib olgan."
       },
       {
        "question": "Rimni qanday ta'riflashgan?",
@@ -31656,7 +31723,8 @@
         "\"Yetti tepalik shahri\""
        ],
        "correct_index": 0,
-       "page": 171
+       "page": 171,
+       "explanation": "Rim 'Boqiy shahar' deb ta'riflangan."
       },
       {
        "question": "Hunlar rahbari kim edi?",
@@ -31667,7 +31735,8 @@
         "Konstantin"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Hunlar rahbari Attila edi."
       },
       {
        "question": "Attila qachon paydo bo'lgan?",
@@ -31678,7 +31747,8 @@
         "330-yilda"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Attila 452-yilda paydo bo'lgan."
       },
       {
        "question": "Attila qaysi imperiyaga hujum uyushtira boshlagan?",
@@ -31689,40 +31759,44 @@
         "Kushonga"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Attila Sharqiy Rim imperiyasiga hujum uyushtira boshlagan."
       },
       {
        "question": "Rimga 455-yilda kim hujum qilgan?",
        "options": [
         "Germanlarning vandal qabilalari",
-        "Gotlar",
-        "Hunlar",
-        "Etrusklar"
+        "Gotlar va ularning boshlig'i Alarix",
+        "Hunlar va ularning rahbari Attila",
+        "Etrusklar va ularning shahar-davlatlari"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Rimga 455-yilda germanlarning vandal qabilalari hujum qilgan."
       },
       {
        "question": "Vandallar Rimni qancha vaqt talagan?",
        "options": [
         "Ikki hafta",
-        "Uch kun",
-        "Bir oy",
-        "Bir yil"
+        "Atigi uch kun talagan",
+        "Taxminan bir oy talagan",
+        "Bir yil davomida talagan"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Vandallar Rimni ikki hafta talagan."
       },
       {
        "question": "Odoakr kim edi?",
        "options": [
         "German qabilalarining Rimdagi yollangan qo'shini sarkardasi",
-        "Hunlar rahbari",
-        "Sharqiy Rim imperatori",
-        "Gotlar podshosi"
+        "Hunlar rahbari va Attilaning vorisi",
+        "Sharqiy Rim imperatori va Konstantinopol hukmdori",
+        "Gotlar podshosi va Alarixning o'g'li"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Odoakr german qabilalarining Rimdagi yollangan qo'shini sarkardasi edi."
       },
       {
        "question": "So'nggi G'arbiy Rim imperatorining ismi nima edi?",
@@ -31733,18 +31807,20 @@
         "Trayan"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "So'nggi G'arbiy Rim imperatorining ismi Romul edi."
       },
       {
        "question": "Odoakr imperator unvoni nishonini qayerga jo'natgan?",
        "options": [
         "Konstantinopolga",
-        "Rimga",
-        "Karfagenga",
-        "Afinaga"
+        "Rimga, Senatga qaytargan",
+        "Karfagenga, vandallarga topshirgan",
+        "Afinaga, yunon hukmdoriga bergan"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Odoakr imperator unvoni nishonini Konstantinopolga jo'natgan."
       },
       {
        "question": "Qadimgi dunyo tarixining yakunlanish sanasi qaysi?",
@@ -31755,7 +31831,8 @@
         "Milodiy 330-yil"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "Qadimgi dunyo tarixining yakunlanish sanasi milodiy 476-yil."
       },
       {
        "question": "476-yildan boshlab qaysi davr boshlanadi?",
@@ -31766,7 +31843,8 @@
         "Antik davr"
        ],
        "correct_index": 0,
-       "page": 172
+       "page": 172,
+       "explanation": "476-yildan boshlab o'rta asrlar davri boshlanadi."
       }
      ]
     },
@@ -31776,6 +31854,11 @@
      "start_page": 173,
      "end_page": 177,
      "explanation": {
+      "takeaways": [
+       "Rimda boylar tepaliklarda, oddiy aholi tor ko'chalarda yashagan; termalar, akveduklar, beton, Panteon va Kolizey me'morchilik yutuqlari.",
+       "Ta'lim asosan boylar uchun bo'lgan (6 yoshdan; mum taxtachalar, stil); 'Barcha yo'llar Rimga boradi' maqoli paydo bo'lgan.",
+       "Iso (Vifleyemda tug'ilgan, 30 yoshda va'z aytgan) ta'limotidan xristianlik tarqalgan; Konstantin 313-yilda xristianlikni boshqa dinlar bilan teng deb e'lon qilgan."
+      ],
       "goals": [
        "Rimliklarning turmush tarzi va ta'limini tavsiflash",
        "Rim me'morchiligi va tarixiy asarlarini bilish",
@@ -32142,23 +32225,25 @@
         "question": "Konstantin farmoni xristianlarga nimaga imkon bergan?",
         "options": [
          "Ibodatxonalar qurish va oshkora ibodat qilishga",
-         "Rimni boshqarishga",
-         "Senatga kirishga",
-         "Askarlikdan ozod bo'lishga"
+         "Rimni boshqarish va hokimiyatga kirish huquqini",
+         "Senatga kirib, qonun chiqarishni",
+         "Askarlikdan butunlay ozod bo'lishni"
         ],
         "correct_index": 0,
-        "page": 177
+        "page": 177,
+        "explanation": "Konstantin farmoni xristianlarga ibodatxonalar qurish va oshkora ibodat qilish imkonini bergan."
        },
        {
         "question": "Iso payg'ambarni kim o'lim jazosiga mahkum etgan?",
         "options": [
          "Mahalliy ruhoniylar, hukmni Rim noibi tasdiqlagan",
-         "Senat",
-         "Konstantin",
-         "Qullar"
+         "Rim Senati va uning a'zolari",
+         "Imperator Konstantin shaxsan",
+         "Qullar va gladiatorlar"
         ],
         "correct_index": 0,
-        "page": 176
+        "page": 176,
+        "explanation": "Iso payg'ambarni mahalliy ruhoniylar o'lim jazosiga mahkum etgan, hukmni Rim noibi tasdiqlagan."
        }
       ]
      },
@@ -32167,45 +32252,49 @@
        "question": "Qadimgi zamonlarda patritsiylar qanday uylarda yashagan?",
        "options": [
         "Bir qavatli oddiy uylarda",
-        "Koshonalarda",
-        "Ko'p qavatli uylarda",
-        "Chodirlarda"
+        "Koshonalarda, ko'p xonali saroylarda",
+        "Ko'p qavatli uylarda, balandda",
+        "Chodirlarda, ko'chmanchi kabi"
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "Qadimgi zamonlarda patritsiylar bir qavatli oddiy uylarda yashagan."
       },
       {
        "question": "Tepaliklar bag'rida nima paydo bo'lgan?",
        "options": [
         "Tomoshabog'lar va chorbog'lar",
-        "Bozorlar",
-        "Qullar uylari",
-        "Dalalar"
+        "Bozorlar va savdo rastalari",
+        "Qullar uylari va ularning omborlari",
+        "Dalalar va ekinzorlar"
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "Tepaliklar bag'rida tomoshabog'lar va chorbog'lar paydo bo'lgan."
       },
       {
        "question": "Oddiy rimliklar qayerda yashagan?",
        "options": [
         "Tepaliklar o'rtasidagi tekis joylarda, tor ko'chalarda",
-        "Tepaliklarda",
-        "Shahar tashqarisida",
-        "Kolizey yonida"
+        "Tepaliklarning yuqori qismlarida",
+        "Shahar tashqarisida, dalalarda",
+        "Kolizey yonida, tomosha maydonida"
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "Oddiy rimliklar tepaliklar o'rtasidagi tekis joylarda, tor ko'chalarda yashagan."
       },
       {
        "question": "Termalar nima?",
        "options": [
         "Ko'rkam jamoat hammomlari",
-        "Amfiteatrlar",
-        "Ibodatxonalar",
-        "Bozorlar"
+        "Katta amfiteatrlar va tomosha maydonlari",
+        "Muqaddas ibodatxonalar va qurbongohlar",
+        "Gavjum bozorlar va savdo maydonlari"
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "Termalar - ko'rkam jamoat hammomlari."
       },
       {
        "question": "\"Termos\" yunoncha nimani bildiradi?",
@@ -32216,117 +32305,128 @@
         "\"Tosh\""
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "'Termos' yunoncha 'issiq' degan ma'noni bildiradi."
       },
       {
        "question": "Termalarda nimalar mavjud edi?",
        "options": [
         "Basseynlar, sport zallari va kutubxona",
-        "Faqat hammom",
-        "Teatr",
-        "Bozor"
+        "Faqat hammom xonalari, boshqasi yo'q",
+        "Teatr va musiqa zallari",
+        "Bozor va savdo rastalari"
        ],
        "correct_index": 0,
-       "page": 173
+       "page": 173,
+       "explanation": "Termalarda basseynlar, sport zallari va kutubxona mavjud edi."
       },
       {
        "question": "Kambag'al rimliklarning farzandlari nima uchun maktabda o'qimagan?",
        "options": [
         "Xo'jalik ishlarida ota-onalariga yordam bergani uchun",
-        "Maktab yo'q edi",
-        "Taqiqlangan edi",
-        "Qullar edi"
+        "Maktab umuman bo'lmagani uchun",
+        "Maktab taqiqlangani uchun",
+        "Ular qul bo'lgani uchun"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Kambag'al rimliklarning farzandlari xo'jalik ishlarida ota-onalariga yordam bergani uchun maktabda o'qimagan."
       },
       {
        "question": "Bolalar harflarni nimaga yozgan?",
        "options": [
         "Mum qoplangan taxtachalarga",
-        "Qog'ozga",
-        "Toshga",
-        "Charmga"
+        "Qog'ozga, siyoh bilan",
+        "Toshga, o'yib",
+        "Charmga, bo'yoq bilan"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Bolalar harflarni mum qoplangan taxtachalarga yozgan."
       },
       {
        "question": "Stil nima?",
        "options": [
         "Metall tayoqcha",
-        "Taxtacha",
-        "Qalam",
-        "Siyoh"
+        "Mum qoplangan taxtacha",
+        "Qalam va siyohdon",
+        "Qora siyoh va qamish"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Stil - metall tayoqcha."
       },
       {
        "question": "Grammatika maktabida qaysi fan o'qitilgan?",
        "options": [
         "Tarix, geografiya, geometriya, musiqa va astronomiya",
-        "Faqat yozuv",
-        "Tibbiyot",
-        "Falsafa"
+        "Faqat yozuv va hisob",
+        "Tibbiyot va farmakologiya",
+        "Falsafa va mantiq"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Grammatika maktabida tarix, geografiya, geometriya, musiqa va astronomiya o'qitilgan."
       },
       {
        "question": "Rim me'morchiligi yunon me'morchiligidan nimasi bilan farqlangan?",
        "options": [
         "Imoratlari rang-barangligi va muhtashamligi bilan",
-        "Ustunlar yo'qligi bilan",
-        "Kichikligi bilan",
-        "Yog'ochdan qurilgani bilan"
+        "Ustunlar umuman yo'qligi bilan",
+        "Imoratlar kichikligi va oddiyligi bilan",
+        "Faqat yog'ochdan qurilganligi bilan"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Rim me'morchiligi imoratlarining rang-barangligi va muhtashamligi bilan yunon me'morchiligidan farqlangan."
       },
       {
        "question": "Milodiy I asrda Rim qanday shaharga aylangan?",
        "options": [
         "Eng yirik va aholisi ko'p shaharga",
-        "Kichik shaharga",
-        "Qal'aga",
-        "Portga"
+        "Kichik shaharcha va qal'aga",
+        "Faqat harbiy qal'aga",
+        "Kichik port shahriga"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Milodiy I asrda Rim eng yirik va aholisi ko'p shaharga aylangan."
       },
       {
        "question": "Qaysi maqol o'sha davrda to'qilgan?",
        "options": [
         "\"Barcha yo'llar Rimga boradi\"",
-        "\"Qur'a tashlandi\"",
-        "\"Evrika\"",
-        "\"Veto\""
+        "\"Qur'a tashlandi!\" maqoli",
+        "\"Evrika!\" so'zi",
+        "\"Veto!\" so'zi"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "O'sha davrda 'Barcha yo'llar Rimga boradi' maqoli to'qilgan."
       },
       {
        "question": "Suv quvurlari qanday qurilgan?",
        "options": [
         "Nishablik asosida, suv tog' buloqlaridan o'zi oqib kelgan",
-        "Nasos yordamida",
-        "Otlar bilan",
-        "Kanallar orqali"
+        "Nasos yordamida, mexanik kuch bilan",
+        "Otlar bilan tortib, idishlarda",
+        "Kanallar orqali, daryodan"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Suv quvurlari nishablik asosida qurilgan, suv tog' buloqlaridan o'zi oqib kelgan."
       },
       {
        "question": "Akveduk nima?",
        "options": [
         "Suv quvurlarini jarlar va vodiylardan o'tkazuvchi ko'prik",
-        "Hammom",
-        "Qal'a",
-        "Yo'l"
+        "Jamoat hammomi va uning xonalari",
+        "Mudofaa qal'asi va uning devori",
+        "Katta yo'l va uning yo'laklari"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Akveduk - suv quvurlarini jarlar va vodiylardan o'tkazuvchi ko'prik."
       },
       {
        "question": "Rimliklar qaysi yangi qurilish materialini ixtiro qilgan?",
@@ -32337,40 +32437,44 @@
         "Temirni"
        ],
        "correct_index": 0,
-       "page": 174
+       "page": 174,
+       "explanation": "Rimliklar yangi qurilish materiali - betonni ixtiro qilgan."
       },
       {
        "question": "Beton qotganidan keyin qanday bo'lgan?",
        "options": [
         "Toshdan ham mustahkam",
-        "Mo'rt",
-        "Yumshoq",
-        "Suvda erib ketadigan"
+        "Mo'rt va tez sinadigan bo'lgan",
+        "Yumshoq va egiluvchan bo'lgan",
+        "Suvda erib ketadigan bo'lgan"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "Beton qotganidan keyin toshdan ham mustahkam bo'lgan."
       },
       {
        "question": "Beton ixtirosidan keyin shiftlar qanday quriladigan bo'ldi?",
        "options": [
         "Gumbaz shaklida, ustunlarsiz",
-        "Yassi",
-        "Ustunli",
-        "Yog'ochdan"
+        "Yassi shaklda, ustunlar bilan",
+        "Ustunli va yog'och to'sinli",
+        "Faqat yog'ochdan va qamishdan"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "Beton ixtirosidan keyin shiftlar gumbaz shaklida, ustunlarsiz qurila boshlagan."
       },
       {
        "question": "Panteon nimani anglatadi?",
        "options": [
         "\"Barcha xudolar ibodatxonasi\"",
-        "\"Hammom\"",
-        "\"Amfiteatr\"",
-        "\"Saroy\""
+        "'Hammom' degan ma'noni",
+        "'Amfiteatr' degan ma'noni",
+        "'Saroy' degan ma'noni"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "'Panteon' 'barcha xudolar ibodatxonasi' degan ma'noni anglatadi."
       },
       {
        "question": "Rimning eng katta amfiteatri qaysi?",
@@ -32381,7 +32485,8 @@
         "Termalar"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "Rimning eng katta amfiteatri Kolizey edi."
       },
       {
        "question": "\"Rim tarixi\"ni kim yozgan?",
@@ -32392,7 +32497,8 @@
         "Gerodot"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "'Rim tarixi'ni Tit Liviy yozgan."
       },
       {
        "question": "Yunon-rim sarkardalari hayoti haqida kim yozgan?",
@@ -32403,18 +32509,20 @@
         "Arrian"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "Yunon-rim sarkardalari hayoti haqida Plutarx yozgan."
       },
       {
        "question": "\"Makedoniyalik Aleksandr tarixi\" asarini kim yaratgan?",
        "options": [
         "Kvint Kursiy Ruf",
-        "Plutarx",
-        "Tit Liviy",
-        "Poliyen"
+        "Plutarx, tarixchi",
+        "Tit Liviy, tarixchi",
+        "Poliyen, tarixchi"
        ],
        "correct_index": 0,
-       "page": 175
+       "page": 175,
+       "explanation": "'Makedoniyalik Aleksandr tarixi' asarini Kvint Kursiy Ruf yaratgan."
       },
       {
        "question": "Iso qaysi shaharda tug'ilgan?",
@@ -32425,7 +32533,8 @@
         "Konstantinopolda"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Iso Vifleyem shahrida tug'ilgan."
       },
       {
        "question": "Falastin qaysi hokimiyat ostida edi?",
@@ -32436,7 +32545,8 @@
         "Misr hokimiyati ostida"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Falastin Rim hokimiyati ostida edi."
       },
       {
        "question": "Iso necha yoshida sayohat qilib va'z aytgan?",
@@ -32447,40 +32557,44 @@
         "20 yoshida"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Iso 30 yoshida sayohat qilib va'z aytgan."
       },
       {
        "question": "Isoning nechta shogirdi bo'lgan?",
        "options": [
         "O'n ikki nafar",
-        "Yetti nafar",
-        "Uch nafar",
-        "O'n nafar"
+        "Yetti nafar shogirdi",
+        "Uch nafar shogirdi",
+        "O'n nafar shogirdi"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Isoning o'n ikki nafar shogirdi bo'lgan."
       },
       {
        "question": "Isoga o'lim hukmini kim tasdiqlagan?",
        "options": [
         "Rim noibi Pontiy Pilat",
-        "Konstantin",
-        "Avgust",
-        "Trayan"
+        "Imperator Konstantin tasdiqlagan",
+        "Imperator Avgust tasdiqlagan",
+        "Imperator Trayan tasdiqlagan"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Isoga o'lim hukmini Rim noibi Pontiy Pilat tasdiqlagan."
       },
       {
        "question": "Iso jasadi qayerga dafn qilingan?",
        "options": [
         "Golgofa tog'idagi g'orga",
-        "Vifleyemga",
-        "Rimga",
-        "Olimp tog'iga"
+        "Vifleyem shahridagi maqbaraga",
+        "Rim shahridagi ibodatxonaga",
+        "Olimp tog'idagi qabrga"
        ],
        "correct_index": 0,
-       "page": 176
+       "page": 176,
+       "explanation": "Iso jasadi Golgofa tog'idagi g'orga dafn qilingan."
       },
       {
        "question": "Yevangeliya (Injil) so'zi qanday ma'noni anglatadi?",
@@ -32491,18 +32605,20 @@
         "\"Yo'l\""
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Yevangeliya (Injil) so'zi 'xush xabar' degan ma'noni anglatadi."
       },
       {
        "question": "Isoning shogirdlari qanday atalgan?",
        "options": [
         "Apostollar (havoriylar)",
-        "Pontifiklar",
-        "Avgurlar",
-        "Liktorlar"
+        "Pontifiklar, ruhoniylar hay'ati",
+        "Avgurlar, bashoratchilar",
+        "Liktorlar, konsul qo'riqchilari"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Isoning shogirdlari apostollar (havoriylar) deb atalgan."
       },
       {
        "question": "Xristian jamoalariga kimlar peshvolik qilgan?",
@@ -32513,7 +32629,8 @@
         "Pontifiklar"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Xristian jamoalariga yepiskoplar peshvolik qilgan."
       },
       {
        "question": "Xristianlik qaysi asrda vujudga kelgan deb hisoblanadi?",
@@ -32524,7 +32641,8 @@
         "Milodiy IV asrda"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Xristianlik milodiy I asrda vujudga kelgan deb hisoblanadi."
       },
       {
        "question": "Rim hukmdorlari xristianlarga qanday munosabatda bo'lgan?",
@@ -32535,7 +32653,8 @@
         "Senatga chaqirgan"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Rim hukmdorlari xristianlarni ta'qib etib, qiynoqqa solgan."
       },
       {
        "question": "Imperator Konstantin qachon xristianlik haqida farmon chiqardi?",
@@ -32546,18 +32665,20 @@
         "Milodiy 476-yilda"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Imperator Konstantin xristianlik haqida farmonni milodiy 313-yilda chiqargan."
       },
       {
        "question": "Konstantin farmonida xristianlik qanday din deb e'lon qilindi?",
        "options": [
         "Boshqa dinlar bilan teng bir din",
-        "Yagona davlat dini",
-        "Taqiqlangan din",
-        "Faqat qullar dini"
+        "Yagona davlat dini deb, boshqalar taqiqlangan",
+        "Butunlay taqiqlangan din deb",
+        "Faqat qullar dini deb"
        ],
        "correct_index": 0,
-       "page": 177
+       "page": 177,
+       "explanation": "Konstantin farmonida xristianlik boshqa dinlar bilan teng bir din deb e'lon qilingan."
       }
      ]
     }
