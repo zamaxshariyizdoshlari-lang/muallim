@@ -388,9 +388,17 @@ function UnverifiedTag() {
 }
 
 function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
+  const [quick, setQuick] = useState(false)  // qisqa ko'rinish: faqat asosiy fikr, faktlar va eslab qolish usullari
   if (!plan) return null
   return (
     <div className="flex flex-col gap-6">
+      {plan.blocks?.length > 0 && (plan.takeaways?.length > 0 || plan.key_facts?.length > 0) && (
+        <div className="flex justify-end">
+          <button type="button" onClick={() => setQuick((q) => !q)} aria-pressed={quick} className="btn btn-ghost btn-sm">
+            {quick ? "To'liq matnni ko'rsatish" : "Qisqa ko'rinish (imtihon oldidan)"}
+          </button>
+        </div>
+      )}
       {plan.goals?.length > 0 && (
         <div className="card border-gold/40 bg-gold-soft/40 p-5 sm:p-6">
           <h3 className="mb-3 flex items-center gap-2 font-display text-lg font-bold text-ink">
@@ -409,7 +417,7 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
 
       <Takeaways items={plan.takeaways} title="Katta rasm: mavzuning asosiy fikrlari" />
 
-      {plan.blocks?.length > 0 && (
+      {!quick && plan.blocks?.length > 0 && (
         <article className="card p-6 sm:p-9">
           {plan.blocks.map((b, i) => (
             <div key={i} className={i > 0 ? 'mt-9' : ''}>
@@ -476,7 +484,7 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
 
       <ClassifyGame game={plan.classify} />
 
-      {plan.explanation && (
+      {!quick && plan.explanation && (
         <div className="card p-5 sm:p-6">
           <h3 className="mb-2 font-display text-lg font-bold text-ink">Tushuntirish</h3>
           <p className="read !text-base">{plan.explanation}</p>

@@ -55,6 +55,8 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
   // Maslahatlar: {savol_indeksi: {level, page, explain, eliminate}}; urinish almashganda tozalanadi.
   const [hints, setHints] = useState({})
   const [hintBusy, setHintBusy] = useState(false)
+  const draftKey = `muallim:test-draft:${title}`
+  const [draftLoaded, setDraftLoaded] = useState(false)
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -64,6 +66,24 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
       .finally(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  // Qoralama: yarim qolgan javoblar brauzerda saqlanadi (savollar soni o'zgargan bo'lsa tashlab yuboriladi).
+  useEffect(() => {
+    if (draftLoaded || test?.status !== 'done') return
+    try {
+      const saved = JSON.parse(localStorage.getItem(draftKey) || 'null')
+      if (saved && saved.n === (test.data?.questions || []).length && saved.answers) setAnswers(saved.answers)
+    } catch { /* localStorage mavjud emas */ }
+    setDraftLoaded(true)
+  }, [test, draftLoaded, draftKey])
+
+  useEffect(() => {
+    if (!draftLoaded || test?.status !== 'done') return
+    try {
+      if (result?.passed || Object.keys(answers).length === 0) localStorage.removeItem(draftKey)
+      else if (!result) localStorage.setItem(draftKey, JSON.stringify({ n: (test.data?.questions || []).length, answers }))
+    } catch { /* localStorage mavjud emas */ }
+  }, [answers, result, draftLoaded, test, draftKey])
 
   async function handleCreate() {
     setError('')
