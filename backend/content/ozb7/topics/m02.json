@@ -4,8 +4,43 @@
   "start_page": 8,
   "end_page": 9,
   "explanation": {
-    "takeaways": ["Suv inshootlari (tegirmon, chig'ir, charxpalak) qishloq xo'jaligi va shaharlarni rivojlantirdi.", "Yer va suv boshliqlar qo'liga o'tib, qishloq hokimlari - dehqonlar shakllandi.", "Aholi tabaqalarga bo'lindi: erkin kashovarzlar, yersiz qaram kadivarlar va himoyachi chokarlar."],
-    "classify": {"title": "Qishloq aholisi tabaqalari", "instruction": "Ta'rifni tegishli tabaqaga joylang.", "categories": ["Dehqonlar", "Kashovarzlar", "Kadivarlar", "Chokarlar"], "items": [{"text": "Qishloq hokimlari, katta yer egalari", "category": 0}, {"text": "Umumiy yer va suvga ega erkin ziroatchilar", "category": 1}, {"text": "Yersiz qaram ziroatchilar", "category": 2}, {"text": "Dehqon xo'jaligini himoya qiluvchi askariy guruh", "category": 3}, {"text": "Yerlarida kadivarlar ishlagan", "category": 0}]},
+    "takeaways": [
+      "Suv inshootlari (tegirmon, chig'ir, charxpalak) qishloq xo'jaligi va shaharlarni rivojlantirdi.",
+      "Yer va suv boshliqlar qo'liga o'tib, qishloq hokimlari - dehqonlar shakllandi.",
+      "Aholi tabaqalarga bo'lindi: erkin kashovarzlar, yersiz qaram kadivarlar va himoyachi chokarlar."
+    ],
+    "classify": {
+      "title": "Qishloq aholisi tabaqalari",
+      "instruction": "Ta'rifni tegishli tabaqaga joylang.",
+      "categories": [
+        "Dehqonlar",
+        "Kashovarzlar",
+        "Kadivarlar",
+        "Chokarlar"
+      ],
+      "items": [
+        {
+          "text": "Qishloq hokimlari, katta yer egalari",
+          "category": 0
+        },
+        {
+          "text": "Umumiy yer va suvga ega erkin ziroatchilar",
+          "category": 1
+        },
+        {
+          "text": "Yersiz qaram ziroatchilar",
+          "category": 2
+        },
+        {
+          "text": "Dehqon xo'jaligini himoya qiluvchi askariy guruh",
+          "category": 3
+        },
+        {
+          "text": "Yerlarida kadivarlar ishlagan",
+          "category": 0
+        }
+      ]
+    },
     "goals": [
       "IV-VII asrlarda dehqon xo'jaliklari va yangi ijtimoiy tabaqalar paydo bo'lishi sabablarini tushuntirish",
       "Dehqon, kashovarz, kadivar va chokar atamalarini farqlash"
@@ -243,34 +278,37 @@
         "question": "Kashovarzlar kimlar edi?",
         "options": [
           "Umumiy yer va suvga ega erkin ziroatchilar",
-          "Qaram yersiz dehqonlar",
-          "Harbiy posbonlar",
-          "Ruhoniylar"
+          "Yersiz va qaram ziroatchilar guruhi",
+          "Dehqonlarni himoya qiluvchi harbiylar",
+          "Zardushtiy ibodatxona ruhoniylari"
         ],
         "correct_index": 0,
-        "page": 9
+        "page": 9,
+        "explanation": "Kashovarzlar jamoa yerida yashagan va umumiy yer-suvga ega bo'lgan erkin ziroatchilardir."
       },
       {
         "question": "Qaysi inshootlar qishloq xo'jaligi rivojiga ta'sir ko'rsatgan?",
         "options": [
           "Suv tegirmoni, chig'ir, charxpalak",
-          "Amfiteatr, akveduk",
-          "Piramida, ma'bad",
-          "Qal'a devori, burj"
+          "Amfiteatr, akveduk, tosh yo'llar",
+          "Piramida, ma'bad, obelisk",
+          "Qal'a devori, burj, xandaq"
         ],
         "correct_index": 0,
-        "page": 8
+        "page": 8,
+        "explanation": "Suv tegirmoni, chig'ir va charxpalak suv inshootlari bo'lib, qishloq xo'jaligini rivojlantirgan."
       },
       {
         "question": "Chokarlarning vazifasi nima edi?",
         "options": [
           "Dehqon xo'jaligini tashqi hujumdan himoya qilish va tartib saqlash",
-          "Savdo karvonlarini boshqarish",
-          "Marosimlar o'tkazish",
-          "Yer haydash"
+          "Savdo karvonlarini boshqarish va soliq yig'ish",
+          "Diniy marosimlarni o'tkazish va ibodatxona qurish",
+          "Yerni haydash va ekin ekish ishlarini bajarish"
         ],
         "correct_index": 0,
-        "page": 9
+        "page": 9,
+        "explanation": "Chokarlar dehqon xo'jaligini tashqi hujumdan himoya qilgan va ichkarida tartib-intizomni saqlagan."
       }
     ]
   },
@@ -279,34 +317,37 @@
       "question": "Qaysi nomlar bilan shuhrat topgan hudud tarixi darslikda tilga olinadi?",
       "options": [
         "Turon, Turkiston, Movarounnahr",
-        "Ellada, Rim, Karfagen",
-        "Misr, Bobil, Ossuriya",
-        "Hindiston, Xitoy, Eron"
+        "Ellada, Rim, Karfagen nomlari",
+        "Misr, Bobil, Ossuriya nomlari",
+        "Hindiston, Xitoy, Eron nomlari"
       ],
       "correct_index": 0,
-      "page": 8
+      "page": 8,
+      "explanation": "Darslik shu hududni Turon, Turkiston va Movarounnahr nomlari bilan tilga oladi."
     },
     {
       "question": "Suv inshootlarining kashf etilishi nimaga ta'sir ko'rsatdi?",
       "options": [
         "Qishloq xo'jalik ishlarining rivojiga",
-        "Yozuvning yaratilishiga",
-        "Dengiz savdosiga",
+        "Yozuvning yaratilishi va tarqalishiga",
+        "Dengiz savdosining rivojlanishiga",
         "Harbiy yurishlar to'xtashiga"
       ],
       "correct_index": 0,
-      "page": 8
+      "page": 8,
+      "explanation": "Suv tegirmoni, chig'ir va charxpalak kabi suv inshootlari qishloq xo'jaligi ishlarini rivojlantirgan."
     },
     {
       "question": "Shaharlar nimaning markaziga aylandi?",
       "options": [
         "Hunarmandchilik, savdo-sotiq va madaniy hayotning",
-        "Faqat dehqonchilikning",
-        "Faqat chorvachilikning",
-        "Faqat diniy hayotning"
+        "Faqat dehqonchilik va chorvachilikning",
+        "Faqat diniy marosimlar va ibodatning",
+        "Faqat harbiy va qo'riqchilik ishlarining"
       ],
       "correct_index": 0,
-      "page": 8
+      "page": 8,
+      "explanation": "Shaharlar hunarmandchilik, savdo va madaniy hayotning markazi bo'lgan; ular faqat dehqonchilik markazi emas edi."
     },
     {
       "question": "Qaysi asrda unumdor yerlar va suv taqsimoti qabila boshliqlari nazoratiga o'tdi?",
@@ -317,18 +358,20 @@
         "XIII asrda"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "VI asrda yer va suv taqsimoti qabila boshliqlari va ishboshilar nazoratiga o'tgan; bu qishloq hokimlari - dehqonlar tabaqasining shakllanishiga olib kelgan."
     },
     {
       "question": "Yer va suv boshliqlar nazoratiga o'tishi ularga nimaga imkon berdi?",
       "options": [
         "Ziroatchi aholiga hukmronlik qilishga",
-        "Davlatni tark etishga",
-        "Shaharlarni yo'q qilishga",
-        "Savdoni to'xtatishga"
+        "Boshqa davlatlarga yer sotishga",
+        "Shaharlardagi savdoni to'xtatishga",
+        "Xalq majlisini chaqirishga"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Yer va suv boshliqlar qo'liga o'tgach, ular ziroatchi aholiga ta'sir o'tkazish va hukmronlik qilish imkoniga ega bo'lgan."
     },
     {
       "question": "Qishloq hokimlari qanday nom bilan atalgan?",
@@ -339,7 +382,8 @@
         "Mobadlar"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Qishloq hokimlari dehqonlar deb atalgan; kadivarlar ularning yerida ishlagan, chokarlar esa ularni himoya qilgan."
     },
     {
       "question": "Erkin ziroatchilar tabaqasi qanday atalgan?",
@@ -350,18 +394,20 @@
         "Dehqonlar"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Qishloq jamoalari yerlarida yashab, yer va suvdan iborat umumiy mulkka ega bo'lgan erkin ziroatchilar kashovarzlar deb atalgan."
     },
     {
       "question": "Kashovarzlar nimaga ega bo'lgan?",
       "options": [
         "Yer va suvdan iborat umumiy mulkka",
-        "Faqat shaharda rastalarga",
-        "Katta qo'shinga",
-        "Ibodatxonaga"
+        "Faqat shahardagi hunarmandchilik rastalariga",
+        "Katta qo'shin va qal'alarga",
+        "Ibodatxona va diniy mulkka"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Kashovarzlar jamoa yerida yashab, yer va suvdan iborat umumiy mulkka ega bo'lgan erkin ziroatchilar edi."
     },
     {
       "question": "O'z yeri va erkidan ayrilib, dehqonlar yerida ishlovchilar kimlar?",
@@ -372,7 +418,8 @@
         "Mobadlar"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "O'z yeri va erkidan ayrilib dehqon yerida ishlaganlar kadivarlar edi; erkin ziroatchilar esa kashovarzlar."
     },
     {
       "question": "Dehqonlarning xo'jaligini tashqi hujumlardan himoya qiluvchi maxsus askariy guruh kimlar?",
@@ -383,18 +430,20 @@
         "Xoqonlar"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Chokarlar dehqon xo'jaligini tashqi hujumlardan himoya qilgan va ichkarida tartibni saqlagan askariy guruh edi."
     },
     {
       "question": "Dehqonlarning shaharda nimasi bo'lgan?",
       "options": [
         "Hunarmandchilik rastalari va uylari",
-        "Dengiz bandargohi",
-        "Rasadxonasi",
-        "Madrasasi"
+        "Dengiz bandargohi va kema ustaxonasi",
+        "Rasadxona va kutubxona binosi",
+        "Madrasa va diniy maktab majmuasi"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Dehqonlarning shaharda hunarmandchilik rastalari va uylari bo'lgan."
     },
     {
       "question": "Qaysi hudud O'rta Osiyoning dehqonchilik viloyatlari qatoriga kirmaydi?",
@@ -405,7 +454,8 @@
         "Farg'ona"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Rim - Italiyadagi shahar va davlat. Sug'diyona, Marg'iyona, Toxariston, Xorazm, Choch va Farg'ona esa O'rta Osiyoning dehqonchilik viloyatlari."
     },
     {
       "question": "So'nggi antik davr qaysi asrlarni o'z ichiga oladi?",
@@ -416,18 +466,20 @@
         "XII-XIII asrlar"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "So'nggi antik davr milodiy II-IV asrlarni o'z ichiga oladi."
     },
     {
       "question": "So'nggi antik davrdan boshlangan o'zgarishlar oqibatida nima yuz berdi?",
       "options": [
         "Dehqonchilik viloyatlarida o'nlab mahalliy hokimliklar tashkil topdi",
-        "Barcha shaharlar vayron bo'ldi",
-        "Yagona imperiya tuzildi",
-        "Dehqonchilik to'xtadi"
+        "Barcha shaharlar vayron bo'lib, aholi ko'chib ketdi",
+        "Butun hudud yagona imperiyaga birlashtirildi",
+        "Dehqonchilik to'xtab, aholi chorvachilikka o'tdi"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "So'nggi antik davrdagi o'zgarishlar natijasida O'rta Osiyo dehqonchilik viloyatlarida o'nlab mahalliy hokimliklar paydo bo'lgan."
     },
     {
       "question": "\"Dehqon\" atamasi ilk o'rta asrlarda kimni anglatgan?",
@@ -438,7 +490,8 @@
         "Savdogarni"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Ilk o'rta asrlarda dehqon - mulkdor, katta yer egasi tabaqa edi; qaram ziroatchilar esa kadivarlar."
     },
     {
       "question": "Dehqonlarning xo'jaligida kimlar mehnat qilgan?",
@@ -449,29 +502,32 @@
         "Hech kim"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Dehqonlarning xo'jaligida ko'plab odamlar mehnat qilgan."
     },
     {
       "question": "Chokarlar dehqon xo'jaligida ichkarida nimani saqlashga yordam bergan?",
       "options": [
         "Tartib-intizomni",
-        "Savdoni",
-        "Dinni",
-        "Yozuvni"
+        "Savdo-sotiqni",
+        "Diniy odatlarni",
+        "Yozuv an'anasini"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Chokarlar tashqi hujumlardan himoya qilishdan tashqari, ichkarida tartib-intizomni saqlashga yordam bergan."
     },
     {
       "question": "Quyidagi viloyatlardan qaysi birida o'nlab mahalliy hokimliklar tashkil topdi?",
       "options": [
         "Sug'diyona, Marg'iyona, Toxariston, Xorazm, Choch, Farg'ona",
-        "Faqat Xorazmda",
-        "Faqat Farg'onada",
-        "Hindistonda"
+        "Faqat Xorazm, Choch va Farg'ona viloyatlarida",
+        "Faqat Sug'diyona, Marg'iyona va Toxaristonda",
+        "Hindiston, Xitoy va Eron viloyatlarida"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Hokimliklar Sug'diyona, Marg'iyona, Toxariston, Xorazm, Choch va Farg'onaning hammasida paydo bo'lgan, shu sababli 'faqat' deyilgan variantlar noto'g'ri."
     },
     {
       "question": "\"O'zbek xalqining etnogenezi va etnik tarixi\" kitobi muallifi kim?",
@@ -482,18 +538,20 @@
         "Narshaxiy"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "Bu kitobning muallifi Ahmadali Asqarov."
     },
     {
       "question": "Turon hududida ham nima vujudga keldi?",
       "options": [
         "Katta yer egaligi",
-        "Dengiz floti",
-        "Xalq majlisi",
-        "Respublika"
+        "Dengiz floti va bandargohlar",
+        "Xalq majlisi tizimi",
+        "Respublika tuzumi"
       ],
       "correct_index": 0,
-      "page": 9
+      "page": 9,
+      "explanation": "VI asrdan boshlab Turon hududida ham katta yer egaligi vujudga kelgan."
     }
   ]
 }
