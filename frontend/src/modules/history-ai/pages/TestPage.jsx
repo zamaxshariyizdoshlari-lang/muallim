@@ -1,4 +1,4 @@
-import { AlertTriangle, CheckCircle2, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
+import { AlertTriangle, BookOpen, CheckCircle2, Lightbulb, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
@@ -39,11 +39,12 @@ function groupMistakes(details) {
 }
 
 /**
- * Rasmiy test (mavzu testi yoki yakuniy imtihon). Barcha savollar birdaniga ko'rsatiladi,
- * 100% to'g'ri bo'lsa o'tiladi. To'g'ri javob ko'rsatilmaydi - faqat qaysi savol xato
- * va qaysi betdan qayta o'qish kerakligi.
+ * Rasmiy test (mavzu testi, bo'lim testi yoki yakuniy imtihon). Barcha savollar birdaniga ko'rsatiladi;
+ * to'g'ri javoblar foizi o'tish chegarasidan kam bo'lmasa o'tiladi. To'g'ri javob ko'rsatilmaydi -
+ * faqat qaysi savol xato va qaysi betdan qayta o'qish kerakligi (o'tilgach "nega?" izohi ham).
+ * `hint(index, level)` berilsa, har savolda bosqichli maslahat tugmasi chiqadi.
  */
-export default function TestPage({ title, load, create, submit, isTeacher, onBack, onPassed, passedLabel }) {
+export default function TestPage({ title, load, create, submit, hint, isTeacher, onBack, onPassed, passedLabel }) {
   const [test, setTest] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -51,6 +52,9 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
   const [result, setResult] = useState(null)
   const [submitting, setSubmitting] = useState(false)
   const [attempt, setAttempt] = useState({ n: 0, wrong: [] })
+  // Maslahatlar: {savol_indeksi: {level, page, explain, eliminate}}; urinish almashganda tozalanadi.
+  const [hints, setHints] = useState({})
+  const [hintBusy, setHintBusy] = useState(false)
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -84,10 +88,29 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
     }
   }
 
+  async function askHint(i) {
+    const level = (hints[i]?.level || 0) + 1
+    if (level > 2 || hintBusy) return
+    setHintBusy(true)
+    setError('')
+    try {
+      const h = await hint(i, level)
+      setHints((all) => ({ ...all, [i]: { ...all[i], ...h } }))
+      if (level === 2 && h.eliminate?.includes(answers[i])) {
+        setAnswers((a) => { const { [i]: _drop, ...rest } = a; return rest })
+      }
+    } catch (err) {
+      setError(err.message)
+    } finally {
+      setHintBusy(false)
+    }
+  }
+
   function retry() {
     const wrong = (result?.details || []).filter((d) => !d.correct).map((d) => d.index)
     setAttempt((a) => ({ n: a.n + 1, wrong }))
     setAnswers({})
+    setHints({})
     setResult(null)
     window.scrollTo({ top: 0 })
   }
@@ -111,7 +134,7 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
         <p className="mt-3 text-sm text-muted">
           {passPercent >= 100
             ? "Barcha savollarga to'g'ri javob (100%) berilganda o'tilgan hisoblanadi."
-            : `Kamida ${passPercent}% to'g'ri javob berilganda o'tilgan hisoblanadi.`}
+            : `Kamida ${passPercent}% to'g'ri javob berilganda o'tilgan hisoblanadi. Xato qilganlaringiz keyinroq takrorlash uchun saqlanadi.`}
           {questions.length > 0 && ` Jami ${questions.length} ta savol.`}
         </p>
       </header>
@@ -183,8 +206,16 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                   <p className="mt-1 text-sm leading-relaxed text-ink-2">
                     {result.passed
                       ? passedLabel || "Test to'liq topshirildi!"
-                      : "Hali hammasi to'g'ri emas. Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring."}
+                      : `Hali yetarli emas (kamida ${passPercent}% kerak). Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring.`}
                   </p>
+                  {!result.passed && attempt.n >= 1 && (
+                    <p className="mt-2 text-sm text-ink-2">
+                      Qiyin bo'layaptimi? Darsga qaytib, tushuntirishni qayta ko'rib chiqing, so'ng yana urinib ko'ring.
+                      <button onClick={onBack} className="ml-2 inline-flex items-center gap-1 font-semibold text-brand underline">
+                        <BookOpen size={14} /> Darsga qaytish
+                      </button>
+                    </p>
+                  )}
                   {mistakes.length > 0 && (
                     <div className="mt-3 text-sm text-ink-2">
                       <p className="font-semibold text-ink">Quyidagilarni takrorlang:</p>
@@ -229,20 +260,59 @@ export default function TestPage({ title, load, create, submit, isTeacher, onBac
                     {d && (d.correct ? <CheckCircle2 className="shrink-0 text-ok" size={22} /> : <XCircle className="shrink-0 text-bad" size={22} />)}
                   </p>
                   <div className="flex flex-col gap-2">
-                    {options.map((j, k) => (
-                      <button
-                        key={j}
-                        type="button"
-                        disabled={Boolean(result)}
-                        onClick={() => setAnswers((a) => ({ ...a, [i]: j }))}
-                        className={`option ${answers[i] === j ? 'is-selected' : ''}`}
-                        aria-pressed={answers[i] === j}
-                      >
-                        <span className="option-key">{String.fromCharCode(65 + k)}</span>
-                        <span className="pt-0.5">{q.options[j]}</span>
-                      </button>
-                    ))}
+                    {options.map((j, k) => {
+                      const gone = hints[i]?.eliminate?.includes(j)
+                      return (
+                        <button
+                          key={j}
+                          type="button"
+                          disabled={Boolean(result) || gone}
+                          onClick={() => setAnswers((a) => ({ ...a, [i]: j }))}
+                          className={`option ${answers[i] === j ? 'is-selected' : ''} ${gone ? 'opacity-40 line-through' : ''}`}
+                          aria-pressed={answers[i] === j}
+                        >
+                          <span className="option-key">{String.fromCharCode(65 + k)}</span>
+                          <span className="pt-0.5">{q.options[j]}</span>
+                        </button>
+                      )
+                    })}
                   </div>
+                  {hint && !result && (
+                    <div className="mt-3">
+                      {hints[i]?.level >= 1 && (
+                        <p className="mb-2 flex items-start gap-2 rounded-lg bg-gold-soft px-3 py-2 text-sm text-ink-2">
+                          <Lightbulb size={16} className="mt-0.5 shrink-0 text-gold" />
+                          <span>
+                            {hints[i].page ? `Darslikning ${hints[i].page}-betiga qarang. ` : ''}
+                            {hints[i].explain && (
+                              <>
+                                {hints[i].explain.heading && <span className="font-semibold">{hints[i].explain.heading}: </span>}
+                                {hints[i].explain.snippet}
+                              </>
+                            )}
+                            {hints[i].level >= 2 && " Ikkita noto'g'ri variant olib tashlandi."}
+                          </span>
+                        </p>
+                      )}
+                      {(hints[i]?.level || 0) < 2 && (
+                        <button
+                          type="button"
+                          onClick={() => askHint(i)}
+                          disabled={hintBusy}
+                          className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand underline-offset-2 hover:underline"
+                        >
+                          <Lightbulb size={14} />
+                          {hints[i]?.level ? "Yana maslahat (2 ta variantni olib tashlash)" : 'Maslahat'}
+                        </button>
+                      )}
+                    </div>
+                  )}
+                  {d?.why && (
+                    <p className="mt-3 flex items-start gap-2 rounded-lg bg-ok-soft px-3 py-2 text-sm text-ink-2">
+                      <Lightbulb size={16} className="mt-0.5 shrink-0 text-ok" />
+                      <span><span className="font-semibold text-ink">Nega? </span>{d.why}</span>
+                    </p>
+                  )}
                   {d && !d.correct && (d.page || d.explain) && (
                     <div className="mt-3 rounded-lg bg-bad-soft px-3 py-2 text-sm text-bad">
                       {d.page && <p className="font-medium">Qayta o'qing: darslikning {d.page}-beti</p>}

@@ -1,3 +1,5 @@
+import random
+
 from django.conf import settings
 from django.core.files.base import ContentFile
 from django.http import FileResponse
@@ -232,6 +234,8 @@ def _grade(questions, answers, book=None, topic=None):
             'index': i, 'correct': correct, 'page': q.get('page'),
             'tag': q.get('tag'), 'level': q.get('level'),
         }
+        if not correct and q.get('explanation'):
+            detail['why'] = q['explanation']
         if not correct and book is not None:
             detail['explain'] = review_service.explain_page(book, q.get('page'), topic=topic)
         details.append(detail)
@@ -239,8 +243,15 @@ def _grade(questions, answers, book=None, topic=None):
 
 
 def _is_passed(score, total):
-    """settings.PASS_PERCENT (standart 100) dan kam bo'lmagan natija o'tilgan hisoblanadi."""
+    """settings.PASS_PERCENT (standart 80) dan kam bo'lmagan natija o'tilgan hisoblanadi."""
     return total > 0 and score * 100 >= settings.PASS_PERCENT * total
+
+
+def _strip_why(details, passed):
+    """Izoh to'g'ri javobni ochib qo'yadi: o'tilmagan urinishda yashiriladi (qayta urinish uchun)."""
+    if not passed:
+        for d in details:
+            d.pop('why', None)
 
 
 def _read_answers(request):
@@ -251,7 +262,7 @@ def _read_answers(request):
 
 
 class TopicTestSubmitView(APIView):
-    """Talaba mavzu testini topshiradi. 100% bo'lsa mavzu "o'tildi" deb belgilanadi."""
+    """Talaba mavzu testini topshiradi. PASS_PERCENT dan kam bo'lmasa mavzu "o'tildi" deb belgilanadi."""
 
     def post(self, request, topic_id):
         topic = get_object_or_404(Topic, id=topic_id)
@@ -268,6 +279,7 @@ class TopicTestSubmitView(APIView):
         answers = _read_answers(request)
         score, total, details = _grade(asset.data['questions'], answers, book=topic.book, topic=topic)
         passed = _is_passed(score, total)
+        _strip_why(details, passed)
         xp = 0
         attempt = TestAttempt.objects.create(
             student=request.user, topic=topic, answers=answers,
@@ -283,6 +295,40 @@ class TopicTestSubmitView(APIView):
             'score': score, 'total': total, 'passed': passed, 'details': details,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user), 'pass_percent': settings.PASS_PERCENT,
         })
+
+
+class TopicTestHintView(APIView):
+    """Test savoli uchun bosqichli maslahat (to'g'ri javobni ochmasdan).
+
+    1-bosqich: darslikning tegishli joyi (bet, sarlavha, boshlanishi).
+    2-bosqich: ikkita noto'g'ri variantni chiqarib tashlash (`eliminate` - variant indekslari).
+    """
+
+    def post(self, request, topic_id):
+        topic = get_object_or_404(Topic, id=topic_id)
+        state = topic_states(request.user, topic.book.topics.all())[topic.id]
+        if not state['unlocked']:
+            raise PermissionDenied("Bu mavzu hali ochilmagan.")
+        asset = GeneratedAsset.objects.filter(
+            topic=topic, kind=GeneratedAsset.KIND_TOPIC_TEST, status=STATUS_DONE
+        ).first()
+        if not asset:
+            raise ValidationError({'detail': "Bu mavzu uchun test hali yaratilmagan."})
+        questions = asset.data['questions']
+        index, level = request.data.get('index'), request.data.get('level')
+        if not isinstance(index, int) or isinstance(index, bool) or not 0 <= index < len(questions):
+            raise ValidationError({'index': "Savol indeksi noto'g'ri."})
+        if level not in (1, 2):
+            raise ValidationError({'level': "Maslahat bosqichi 1 yoki 2 bo'lishi kerak."})
+        q = questions[index]
+        if level == 1:
+            return Response({'level': 1, 'page': q.get('page'),
+                             'explain': review_service.explain_page(topic.book, q.get('page'), topic=topic)})
+        wrong = [i for i in range(len(q['options'])) if i != q['correct_index']]
+        # Savol uchun barqaror tanlov: har bosishda boshqa variantlar chiqmasin.
+        rng = random.Random(f"hint-{topic.id}-{index}")
+        rng.shuffle(wrong)
+        return Response({'level': 2, 'eliminate': sorted(wrong[:max(0, min(2, len(wrong) - 1))])})
 
 
 class LessonFeedbackView(APIView):
@@ -355,6 +401,7 @@ class BookExamSubmitView(APIView):
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=book)
         passed = _is_passed(score, total)
+        _strip_why(details, passed)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
@@ -569,6 +616,7 @@ class SectionExamSubmitView(APIView):
         answers = _read_answers(request)
         score, total, details = _grade(exam.data['questions'], answers, book=section.book)
         passed = _is_passed(score, total)
+        _strip_why(details, passed)
         xp = 0
         TestAttempt.objects.create(
             student=request.user, section=section, answers=answers, score=score, total=total, passed=passed,

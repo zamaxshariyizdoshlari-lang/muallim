@@ -53,6 +53,7 @@ urlpatterns = [
     path('books/<int:book_id>/certificate/', views.CertificateDownloadView.as_view(), name='certificate'),
     path('certificates/verify/<str:code>/', views.CertificateVerifyView.as_view(), name='certificate-verify'),
     path('topics/<int:topic_id>/feedback/', views.LessonFeedbackView.as_view(), name='lesson-feedback'),
+    path('topics/<int:topic_id>/test/hint/', views.TopicTestHintView.as_view(), name='topic-test-hint'),
     path('topics/<int:topic_id>/test/submit/', views.TopicTestSubmitView.as_view(), name='topic-test-submit'),
     path('books/<int:book_id>/topics/', views.TopicListView.as_view(), name='topic-list'),
     path('topics/<int:topic_id>/lesson/', views.LessonByTopicView.as_view(), name='lesson-by-topic'),

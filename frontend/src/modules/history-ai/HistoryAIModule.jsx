@@ -6,7 +6,8 @@ import {
 import {
   clearToken, createAsset, createBookExam, downloadCertificate, getAssetByTopic, getBookExam, getBookProgress, getMe,
   getProfile, getSectionExam, getSections, getToken, listBooks, listSubjects, listTopics, sendHeartbeat, submitBookExam,
-  submitSectionExam, submitTopicTest,
+  submitSectionExam, getTopicTestHint,
+  submitTopicTest,
 } from './api/client'
 import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
 import AdminBookEditorPage from './pages/admin/AdminBookEditorPage'
@@ -424,6 +425,7 @@ function TopicTestRoute() {
       load={() => getAssetByTopic(topic.id, 'topic_test')}
       create={() => createAsset(topic.id, 'topic_test', { regenerate: true })}
       submit={(answers) => submitTopicTest(topic.id, answers)}
+      hint={(index, level) => getTopicTestHint(topic.id, index, level)}
       passedLabel="Mavzu to'liq o'zlashtirildi. Keyingi mavzu ochildi!"
       onBack={() => navigate(`/kurs/${bookId}/mavzu/${topic.id}`)}
       onPassed={async () => { await refresh(); navigate(`/kurs/${bookId}`) }}

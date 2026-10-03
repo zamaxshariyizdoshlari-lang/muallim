@@ -198,6 +198,14 @@ export function getBookProgress(bookId) {
   return request(`/books/${bookId}/progress/`)
 }
 
+export function getTopicTestHint(topicId, index, level) {
+  return request(`/topics/${topicId}/test/hint/`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ index, level }),
+  })
+}
+
 export function submitTopicTest(topicId, answers) {
   return request(`/topics/${topicId}/test/submit/`, {
     method: 'POST',

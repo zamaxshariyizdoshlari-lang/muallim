@@ -278,7 +278,8 @@
          "Xitoy elchilari"
         ],
         "correct_index": 0,
-        "page": 3
+        "page": 3,
+        "explanation": "Bu tushunchani italyan tarixchilari kiritgan va u Yevropa tarixiga xos davrlashtirishdan kelib chiqqan. Shuning uchun bizning tariximizda u shartli ishlatiladi."
        },
        {
         "question": "Yevropada o'rta asrlar qaysi voqea bilan boshlangan?",
@@ -289,7 +290,8 @@
          "Turk xoqonligi bilan"
         ],
         "correct_index": 0,
-        "page": 6
+        "page": 6,
+        "explanation": "Yevropada o'rta asrlar Rim imperiyasi qulagach (476-yil) boshlangan. Bu voqea qadimgi davrning tugashi hisoblanadi."
        },
        {
         "question": "Rivojlangan o'rta asrlar qaysi asrlarni o'z ichiga oladi?",
@@ -300,7 +302,8 @@
          "I-III asrlar"
         ],
         "correct_index": 0,
-        "page": 6
+        "page": 6,
+        "explanation": "Davr uch bosqichga bo'linadi: ilk (IV-VIII), rivojlangan (IX-XV), so'nggi (XVI-XIX asrlar). Rivojlangan davr o'rtadagi bosqich, IX-XV asrlar."
        }
       ]
      },
@@ -325,7 +328,8 @@
         "Miloddan avvalgi VI-IV asrlar"
        ],
        "correct_index": 0,
-       "page": 3
+       "page": 3,
+       "explanation": "Darslik IV asrdan XIII asr boshigacha bo'lgan davrni qamrab oladi, ya'ni ilk va rivojlangan o'rta asrlarni."
       },
       {
        "question": "\"O'rta asrlar\" tushunchasi nima bilan bevosita bog'liq?",
@@ -347,7 +351,8 @@
         "Bu davr juda qisqa bo'lgan"
        ],
        "correct_index": 0,
-       "page": 3
+       "page": 3,
+       "explanation": "Chunki Sharqda yer-mulk munosabatlari azaldan jamoaviy asoslarda rivojlangan. Yevropadagi kabi mulkchilik shakli keskin o'zgarmagan, shu sababli bu tushuncha bizda shartli."
       },
       {
        "question": "Yevropada o'rta asrlarning boshlanishi qaysi voqeaga to'g'ri keladi?",
@@ -358,7 +363,8 @@
         "Xorazmshohlar davlatining tashkil topishi"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Qadimgi Rim imperiyasining qulashi (476-yil) Yevropada qadimgi davr tugab, o'rta asrlar boshlanganini bildiradi. Boshqa variantlar boshqa davrlarga tegishli."
       },
       {
        "question": "Bizda o'rta asrlar qaysi davrdan boshlangan?",
@@ -369,7 +375,8 @@
         "X asr boshlaridan"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Bizda o'rta asrlar IV asr oxirlari va V asr o'rtalaridan boshlangan. Shu sababli darslik IV asrdan boshlanadi."
       },
       {
        "question": "Quyidagilardan qaysi biri siyosiy maydonda paydo bo'lgan qabila uyushmalariga kiradi?",
@@ -391,7 +398,8 @@
         "Bo'linmaydi"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "O'rta asrlar uch bosqichga bo'linadi: ilk, rivojlangan va so'nggi o'rta asrlar."
       },
       {
        "question": "Ilk o'rta asrlar qaysi asrlarni o'z ichiga oladi?",
@@ -402,7 +410,8 @@
         "I-III asrlar"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Uch bosqichning birinchisi ilk o'rta asrlar: IV-VIII asrlar. Undan keyin IX-XV asrlar (rivojlangan) keladi."
       },
       {
        "question": "So'nggi o'rta asrlar qaysi asrlarga to'g'ri keladi?",
@@ -413,7 +422,8 @@
         "XIII-XIV asrlar"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "So'nggi o'rta asrlar bosqichlarning oxirgisi: XVI-XIX asrlar. IX-XV asrlar esa rivojlangan o'rta asrlardir."
       },
       {
        "question": "Quyidagilardan qaysi biri o'rta asrlarda hukmronlik qilgan yirik davlatlar qatoriga kirmaydi?",
@@ -424,7 +434,8 @@
         "Xorazmshohlar"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Qadimgi Rim respublikasi o'rta asrlardan ancha oldin, qadimgi davrda mavjud bo'lgan. Boshqa uchtasi o'rta asrlar davlatlari."
       },
       {
        "question": "\"Qishloq hokimlari\" deb kimlar atalgan?",
@@ -435,7 +446,8 @@
         "Kohinlar"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Qishloq hokimlari katta yer egalari bo'lgan dehqonlar. Yersiz ziroatchilar esa kadivarlar deyilgan."
       },
       {
        "question": "Kadivarlar kimlar bo'lgan?",
@@ -446,7 +458,8 @@
         "Sayyoh savdogarlar"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Kadivarlar yersiz ziroatchilar bo'lib, dehqonlarning yerida ishlagan. Yer egalari esa dehqonlar edi."
       },
       {
        "question": "Mamlakatimiz hududida arab xalifaligi hukmronligi qachon o'rnatildi?",
@@ -457,7 +470,8 @@
         "XII asr boshida"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Arab xalifaligi hukmronligi VIII asr boshlarida o'rnatildi va islom dinining madaniyatimizga ta'siri kuchaydi."
       },
       {
        "question": "Xalifalik hukmronligidan keyingi asrlarda nima uchun sharoit yuzaga keldi?",
@@ -468,7 +482,8 @@
         "Savdoning to'xtashi uchun"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Xalifalik hukmronligidan keyingi asrlarda ilm-ma'rifat rivoji uchun sharoit yuzaga keldi. Shu davrda Xorazmiy, Beruniy, Ibn Sino kabi allomalar yetishdi."
       },
       {
        "question": "Quyidagilardan qaysi biri yurtimizdan chiqqan buyuk mutafakkir emas?",
@@ -479,7 +494,8 @@
         "Abu Ali ibn Sino"
        ],
        "correct_index": 0,
-       "page": 6
+       "page": 6,
+       "explanation": "Aristotel qadimgi Yunon faylasufi. Xorazmiy, Beruniy va Ibn Sino esa yurtimizdan chiqqan allomalardir."
       },
       {
        "question": "Turon hududi arablar davridan qanday nomlar bilan atala boshlagan?",

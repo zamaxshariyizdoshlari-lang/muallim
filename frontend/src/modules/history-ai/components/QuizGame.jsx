@@ -72,6 +72,12 @@ export default function QuizGame({ questions }) {
         })}
       </div>
 
+      {selected !== null && question.explanation && (
+        <p className="rise mt-3 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-relaxed text-ink-2">
+          <span className="font-semibold text-ink">Nega? </span>{question.explanation}
+        </p>
+      )}
+
       {selected !== null && (
         <button onClick={next} className="btn btn-primary mt-5">
           {index + 1 === questions.length ? 'Yakunlash' : 'Keyingi savol'}

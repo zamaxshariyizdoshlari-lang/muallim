@@ -667,11 +667,11 @@ class PassThresholdAndFeedbackTests(CourseFixture):
     def _submit(self, topic, answers):
         return self.client.post(f'{H}topics/{topic.id}/test/submit/', {'answers': answers}, format='json')
 
-    def test_default_requires_all_correct(self):
+    def test_default_pass_percent_is_80(self):
         self.login(self.user)
         r = self._submit(self.topics[0], {'0': 0, '1': 1})
         self.assertFalse(r.data['passed'])
-        self.assertEqual(r.data['pass_percent'], 100)
+        self.assertEqual(r.data['pass_percent'], 80)
 
     def test_pass_percent_setting_lowers_threshold(self):
         from django.test import override_settings
@@ -692,8 +692,48 @@ class PassThresholdAndFeedbackTests(CourseFixture):
     def test_test_payload_exposes_pass_percent_without_answers(self):
         self.login(self.user)
         r = self.client.get(f'{H}topics/{self.topics[0].id}/assets/topic_test/')
-        self.assertEqual(r.data['data']['pass_percent'], 100)
+        self.assertEqual(r.data['data']['pass_percent'], 80)
         self.assertNotIn('correct_index', str(r.data))
+
+    def test_why_hidden_when_failed_and_shown_when_passed(self):
+        from django.test import override_settings
+        self.login(self.user)
+        asset = GeneratedAsset.objects.get(topic=self.topics[0], kind=GeneratedAsset.KIND_TOPIC_TEST)
+        asset.data['questions'][0]['explanation'] = 'Chunki shunday.'
+        asset.save()
+        r = self._submit(self.topics[0], {'0': 1, '1': 1})
+        self.assertNotIn('why', r.data['details'][0])
+        with override_settings(PASS_PERCENT=50):
+            r = self._submit(self.topics[0], {'0': 1, '1': 0})
+        self.assertTrue(r.data['passed'])
+        self.assertEqual(r.data['details'][0]['why'], 'Chunki shunday.')
+
+    def _hint(self, topic, index, level):
+        return self.client.post(f'{H}topics/{topic.id}/test/hint/', {'index': index, 'level': level}, format='json')
+
+    def test_hint_level1_points_to_page_without_answer(self):
+        self.login(self.user)
+        r = self._hint(self.topics[0], 0, 1)
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r.data['page'], 10)
+        self.assertNotIn('correct_index', str(r.data))
+
+    def test_hint_level2_eliminates_two_wrong_options(self):
+        self.login(self.user)
+        asset = GeneratedAsset.objects.get(topic=self.topics[0], kind=GeneratedAsset.KIND_TOPIC_TEST)
+        q = asset.data['questions'][0]
+        r = self._hint(self.topics[0], 0, 2)
+        self.assertEqual(r.status_code, 200)
+        gone = r.data['eliminate']
+        self.assertEqual(len(gone), 2)
+        self.assertNotIn(q['correct_index'], gone)
+        self.assertEqual(self._hint(self.topics[0], 0, 2).data['eliminate'], gone)
+
+    def test_hint_validates_input_and_lock(self):
+        self.login(self.user)
+        self.assertEqual(self._hint(self.topics[0], 99, 1).status_code, 400)
+        self.assertEqual(self._hint(self.topics[0], 0, 3).status_code, 400)
+        self.assertEqual(self._hint(self.topics[1], 0, 1).status_code, 403)
 
     def test_feedback_saved_and_updated(self):
         self.login(self.user)

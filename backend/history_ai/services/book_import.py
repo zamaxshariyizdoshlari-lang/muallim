@@ -40,6 +40,9 @@ def _check_mcq(q, where, errors):
         errors.append(f"{where}: level {'/'.join(LEVELS)} dan biri bo'lishi kerak")
     if q.get('tag') is not None and not (isinstance(q['tag'], str) and q['tag'].strip()):
         errors.append(f"{where}: tag bo'sh bo'lmagan matn bo'lishi kerak")
+    # explanation ixtiyoriy: "nega aynan shu javob to'g'ri / boshqalari nega xato" - qisqa matn.
+    if q.get('explanation') is not None and not (isinstance(q['explanation'], str) and q['explanation'].strip()):
+        errors.append(f"{where}: explanation bo'sh bo'lmagan matn bo'lishi kerak")
 
 
 def _check_lesson_extras(expl, tw, errors):

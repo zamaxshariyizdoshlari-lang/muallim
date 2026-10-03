@@ -14,10 +14,11 @@ sifatida saqlanadi — foydalanuvchi o'qiyotganda hech qanday AI so'rovi yuboril
 
 ## Xususiyatlar
 
-- **O'rganish yo'li**: tushuntirish → kartochka/o'yinlar → mavzu testi (100%) → bo'lim testi (100%) →
+- **O'rganish yo'li**: tushuntirish → kartochka/o'yinlar → mavzu testi (80%+) → bo'lim testi (80%+) →
   yakuniy imtihon → PDF sertifikat (ochiq havola orqali tekshiriladigan).
 - **Gamifikatsiya**: ball, daraja, kunlik ketma-ketlik (streak, "muzlatish" bilan), kunlik maqsad,
   haftalik reyting, nishonlar.
+- **Maslahat va izohlar**: testda bosqichli maslahat (darslik joyi → 2 ta noto'g'ri variantni olib tashlash), savollarda ixtiyoriy `explanation` ("Nega?" izohi, o'tilgach ko'rsatiladi), 2 marta o'tolmasa darsga qaytish tavsiyasi.
 - **Xatolarni takrorlash**: oraliq takrorlash (spaced repetition) — xato javob kartochka sifatida
   saqlanadi va 1→3→7→14→30 kunlik oraliqda qaytadi.
 - **Ikki panel**: foydalanuvchi ilovasi (React) va to'liq nazorat uchun Django admin paneli
