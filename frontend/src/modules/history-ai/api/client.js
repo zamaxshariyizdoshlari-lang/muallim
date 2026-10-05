@@ -307,6 +307,18 @@ function jsonRequest(path, method, payload) {
   return request(path, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
 }
 
+export function getAdminOverview(days = 30) {
+  return request(`/admin/overview/?days=${days}`)
+}
+
+export function getAdminCourses() {
+  return request('/admin/courses/')
+}
+
+export function getAdminCourse(bookId) {
+  return request(`/admin/courses/${bookId}/`)
+}
+
 export function getAdminStats() {
   return request('/admin/stats/')
 }

@@ -9,11 +9,14 @@ import {
   submitSectionExam, getTopicTestHint,
   submitTopicTest,
 } from './api/client'
+import AdminShell from './components/admin/AdminShell'
 import Sidebar from './components/Sidebar'
 import { FontSizeToggle, Spinner, ThemeToggle, useFontSize, useTheme } from './components/ui'
 import AdminBookEditorPage from './pages/admin/AdminBookEditorPage'
 import AdminContentPage from './pages/admin/AdminContentPage'
-import AdminDashboardPage from './pages/admin/AdminDashboardPage'
+import { AdminCourseDetailPage, AdminCoursesPage } from './pages/admin/AdminCoursesPage'
+import AdminOverviewPage from './pages/admin/AdminOverviewPage'
+import AdminStudentsPage from './pages/admin/AdminStudentsPage'
 import AdminStudentDetailPage from './pages/admin/AdminStudentDetailPage'
 import AdminTopicEditorPage from './pages/admin/AdminTopicEditorPage'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
@@ -121,6 +124,23 @@ export default function HistoryAIModule() {
         element={<CertificateVerifyPage dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize} />}
       />
       <Route
+        path="boshqaruv"
+        element={
+          me.is_staff
+            ? <AdminShell me={me} dark={dark} onToggleTheme={toggleTheme} onLogout={handleLogout} />
+            : <Navigate to="/" replace />
+        }
+      >
+        <Route index element={<AdminOverviewPage />} />
+        <Route path="talabalar" element={<AdminStudentsPage />} />
+        <Route path="talaba/:userId" element={<AdminStudentDetailRoute />} />
+        <Route path="kurslar" element={<AdminCoursesPage />} />
+        <Route path="kurslar/:bookId" element={<AdminCourseDetailPage />} />
+        <Route path="kontent" element={<AdminContentRoute />} />
+        <Route path="kontent/kitob/:bookId" element={<AdminBookEditorRoute />} />
+        <Route path="kontent/kitob/:bookId/mavzu/:topicId" element={<AdminTopicEditorRoute />} />
+      </Route>
+      <Route
         element={
           <Shell
             me={me} dark={dark} onToggleTheme={toggleTheme} fontSize={fontSize} onChangeFontSize={setFontSize}
@@ -139,13 +159,6 @@ export default function HistoryAIModule() {
           <Route path="imtihon" element={<ExamRoute />} />
           <Route path="takrorlash" element={<ReviewRoute />} />
           <Route path="aralash" element={<ReviewRoute mixed />} />
-        </Route>
-        <Route path="boshqaruv" element={<AdminGate />}>
-          <Route index element={<AdminDashboardRoute />} />
-          <Route path="talaba/:userId" element={<AdminStudentDetailRoute />} />
-          <Route path="kontent" element={<AdminContentRoute />} />
-          <Route path="kontent/kitob/:bookId" element={<AdminBookEditorRoute />} />
-          <Route path="kontent/kitob/:bookId/mavzu/:topicId" element={<AdminTopicEditorRoute />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
@@ -536,26 +549,10 @@ function ExamRoute() {
 
 /* ───────── Boshqaruv paneli (faqat is_staff) ───────── */
 
-function AdminGate() {
-  const outer = useOutletContext()
-  if (!outer.isTeacher) return <Navigate to="/" replace />
-  return <Outlet context={outer} />
-}
-
-function AdminDashboardRoute() {
-  const navigate = useNavigate()
-  return (
-    <AdminDashboardPage
-      onOpenStudent={(id) => navigate(`/boshqaruv/talaba/${id}`)}
-      onOpenContent={() => navigate('/boshqaruv/kontent')}
-    />
-  )
-}
-
 function AdminStudentDetailRoute() {
   const { userId } = useParams()
   const navigate = useNavigate()
-  return <AdminStudentDetailPage userId={Number(userId)} onBack={() => navigate('/boshqaruv')} />
+  return <AdminStudentDetailPage userId={Number(userId)} onBack={() => navigate('/boshqaruv/talabalar')} />
 }
 
 function AdminContentRoute() {

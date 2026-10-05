@@ -55,10 +55,10 @@ class AdminCourseDetailView(APIView):
         book = get_object_or_404(Book, pk=book_id)
         summary = next((b for b in admin_overview.book_summaries() if b['id'] == book.id), None)
         return Response({
+            **book_analytics(book),
             'book': {'id': book.id, 'title': book.title},
             'summary': summary,
             'funnel': admin_overview.course_funnel(book),
-            **book_analytics(book),
         })
 
 

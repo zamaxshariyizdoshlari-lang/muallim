@@ -1,6 +1,6 @@
 import {
   Award, BookOpen, Check, ChevronDown, ClipboardCheck, Home, LayoutDashboard, Library, Lock, Map as MapIcon,
-  RotateCcw, Settings2, Shuffle, UserRound,
+  RotateCcw, Shuffle, UserRound,
 } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
@@ -206,10 +206,7 @@ export default function Sidebar({ me, subjects, course, stats }) {
 
       {isTeacher && (
         <Group title="Boshqaruv">
-          <ItemLink to="/boshqaruv" icon={LayoutDashboard} active={pathname === '/boshqaruv' || pathname.startsWith('/boshqaruv/talaba')}>
-            Statistika
-          </ItemLink>
-          <ItemLink to="/boshqaruv/kontent" icon={Settings2} active={pathname.startsWith('/boshqaruv/kontent')}>Kontent</ItemLink>
+          <ItemLink to="/boshqaruv" icon={LayoutDashboard}>Admin paneliga o'tish</ItemLink>
         </Group>
       )}
 
