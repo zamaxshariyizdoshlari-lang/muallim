@@ -19,7 +19,8 @@ from .models import (
 )
 from .permissions import IsTeacher
 from .serializers import BookSerializer, SubjectSerializer
-from .services import gamification
+from .services import admin_overview, gamification
+from .services.analytics import book_analytics
 from .services.admin_stats import (
     platform_overview, student_activity_history, student_completed_topics, students_report,
 )
@@ -27,6 +28,38 @@ from .services.book_import import _check_lesson_extras, _check_mcq
 from .services.quality import book_quality
 
 User = get_user_model()
+
+
+class AdminOverviewView(APIView):
+    permission_classes = [IsTeacher]
+
+    def get(self, request):
+        try:
+            days = min(90, max(7, int(request.query_params.get('days', 30))))
+        except ValueError:
+            days = 30
+        return Response(admin_overview.overview(days))
+
+
+class AdminCourseListView(APIView):
+    permission_classes = [IsTeacher]
+
+    def get(self, request):
+        return Response(admin_overview.book_summaries())
+
+
+class AdminCourseDetailView(APIView):
+    permission_classes = [IsTeacher]
+
+    def get(self, request, book_id):
+        book = get_object_or_404(Book, pk=book_id)
+        summary = next((b for b in admin_overview.book_summaries() if b['id'] == book.id), None)
+        return Response({
+            'book': {'id': book.id, 'title': book.title},
+            'summary': summary,
+            'funnel': admin_overview.course_funnel(book),
+            **book_analytics(book),
+        })
 
 
 class AdminStatsView(APIView):

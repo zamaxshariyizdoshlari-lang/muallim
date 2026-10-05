@@ -5,6 +5,9 @@ from . import admin_api, views
 app_name = 'history_ai'
 
 urlpatterns = [
+    path('admin/overview/', admin_api.AdminOverviewView.as_view(), name='admin-overview'),
+    path('admin/courses/', admin_api.AdminCourseListView.as_view(), name='admin-courses'),
+    path('admin/courses/<int:book_id>/', admin_api.AdminCourseDetailView.as_view(), name='admin-course-detail'),
     path('admin/stats/', admin_api.AdminStatsView.as_view(), name='admin-stats'),
     path('admin/students/', admin_api.AdminStudentListView.as_view(), name='admin-students'),
     path('admin/students/<int:user_id>/', admin_api.AdminStudentDetailView.as_view(), name='admin-student-detail'),

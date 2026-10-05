@@ -504,6 +504,48 @@ class AdminStatsTests(CourseFixture):
         self.assertIsNone(o['most_popular_book'])
 
 
+class AdminOverviewTests(CourseFixture):
+    def test_overview_shape_and_counts(self):
+        from .services.admin_overview import overview
+        self.login(self.user)
+        self.submit(self.topics[0])
+        o = overview(30)
+        self.assertEqual(o['kpis']['students_total'], 1)
+        self.assertEqual(o['kpis']['attempts_7d'], 1)
+        self.assertEqual(len(o['series']['attempts']), 30)
+        self.assertEqual(sum(p['value'] for p in o['series']['attempts']), 1)
+        self.assertEqual(o['courses'][0]['students'], 1)
+        self.assertTrue(any(e['kind'] in ('pass', 'fail') for e in o['feed']))
+
+    def test_overview_empty(self):
+        from .services.admin_overview import overview
+        o = overview(7)
+        self.assertEqual(o['kpis']['attempts_7d'], 0)
+        self.assertIsNone(o['kpis']['pass_rate_7d'])
+        self.assertEqual(o['at_risk'], [])
+
+    def _paths(self):
+        return [f'{H}admin/overview/', f'{H}admin/courses/', f'{H}admin/courses/{self.book.id}/']
+
+    def test_endpoints_require_staff(self):
+        self.login(self.user)
+        for p in self._paths():
+            self.assertEqual(self.client.get(p).status_code, 403, p)
+
+    def test_endpoints_for_teacher(self):
+        self.login(self.user)
+        for _ in range(3):
+            self.submit(self.topics[0], correct=False)
+        self.login(self.teacher)
+        for p in self._paths():
+            self.assertEqual(self.client.get(p).status_code, 200, p)
+        d = self.client.get(self._paths()[2]).json()
+        self.assertEqual(d['funnel'][0]['attempts'], 3)
+        self.assertEqual(d['funnel'][0]['completions'], 0)
+        risk = self.client.get(self._paths()[0]).json()['at_risk']
+        self.assertEqual(risk[0]['reason'], 'stuck')
+
+
 class LanguageContentImportTests(TestCase):
     """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
 
