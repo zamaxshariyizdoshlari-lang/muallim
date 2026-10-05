@@ -546,6 +546,21 @@ class AdminOverviewTests(CourseFixture):
         self.assertEqual(risk[0]['reason'], 'stuck')
 
 
+class StudentDashboardTests(CourseFixture):
+    def test_dashboard_continue_and_progress(self):
+        self.login(self.user)
+        d = self.client.get(f'{H}dashboard/').json()
+        self.assertEqual(d['courses'][0]['percent'], 0)
+        self.assertFalse(d['courses'][0]['started'])
+        self.assertIsNone(d['continue'])
+        self.submit(self.topics[0])
+        d = self.client.get(f'{H}dashboard/').json()
+        c = d['courses'][0]
+        self.assertTrue(c['started'])
+        self.assertEqual(c['topics_done'], 1)
+        self.assertEqual(d['continue']['topic']['id'], self.topics[1].id)
+
+
 class LanguageContentImportTests(TestCase):
     """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
 

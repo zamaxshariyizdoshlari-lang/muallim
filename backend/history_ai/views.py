@@ -156,6 +156,14 @@ class LeaderboardView(APIView):
         return Response(gamification.leaderboard(request.user))
 
 
+class DashboardView(APIView):
+    """Bosh sahifa: kurslar progressi, davom etish mavzusi, bugungi takrorlash."""
+
+    def get(self, request):
+        from .services.dashboard import student_dashboard
+        return Response(student_dashboard(request.user))
+
+
 class ProfileView(APIView):
     """Talaba profili: ball, daraja, ketma-ketlik, nishonlar, statistika."""
 

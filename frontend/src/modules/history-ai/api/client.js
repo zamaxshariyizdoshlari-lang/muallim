@@ -290,6 +290,10 @@ export function sendLessonFeedback(topicId, rating) {
   return jsonRequest(`/topics/${topicId}/feedback/`, 'POST', { rating })
 }
 
+export function getDashboard() {
+  return request('/dashboard/')
+}
+
 export function getLeaderboard() {
   return request('/leaderboard/')
 }
