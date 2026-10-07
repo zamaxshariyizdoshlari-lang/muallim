@@ -1,5 +1,5 @@
 {
-  "book": { "key": "ozbekiston-tarixi-7", "title": "O'zbekiston tarixi (7-sinf, 2022)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "Zamonov va boshq. 7-sinf darsligi (2022): IV asrdan XIII asr boshigacha, 5 bo'lim, 30 mavzu." },
+  "book": { "key": "ozbekiston-tarixi-7", "title": "O'zbekiston tarixi (7-sinf)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "IV asrdan XIII asr boshigacha: 5 bo'lim, 30 mavzu." },
   "sections": [
     { "key": "s1", "title": "I BO'LIM. IV-VII asrlarda Turon",
       "topics": ["m01", "m02", "m03_04", "m05", "m06_07", "m08_09", "m10_11", "m12_13", "m14_15", "m16_17"] },
