@@ -13,10 +13,12 @@ from ..models import Book, GeneratedAsset, PlacementResult, Subject, Topic
 PASS_RATIO = 0.6       # bosqich "o'zlashtirilgan" hisoblanishi uchun to'g'ri javoblar ulushi
 PER_STAGE = 8          # har bosqichdan savollar soni
 
-# fan slug -> bosqichlar (osondan qiyinga). `book` - Book.key; kurs bazada bo'lmasa bosqich o'tkazib yuboriladi.
+# fan slug -> bosqichlar (osondan qiyinga). Kurs `book` (Book.key) yoki `title_has` (sarlavhada so'z) bo'yicha
+# topiladi; kurs bazada bo'lmasa bosqich o'tkazib yuboriladi.
 PLACEMENTS = {
     'turk-tili': [
         {'key': 'A1', 'label': 'A1 (boshlang\'ich)', 'book': 'turk_a1'},
+        {'key': 'A2', 'label': 'A2 (elementar)', 'title_has': 'A2'},
         {'key': 'B1', 'label': 'B1 (o\'rta)', 'book': 'turk_b1'},
     ],
     'tarix': [
@@ -30,7 +32,11 @@ def _stages(slug):
     """Bazada kursi bor bosqichlar: [(stage, Book)]."""
     out = []
     for st in PLACEMENTS.get(slug, []):
-        book = Book.objects.filter(key=st['book'], subject__slug=slug).first()
+        books = Book.objects.filter(subject__slug=slug)
+        book = (
+            books.filter(key=st['book']).first() if 'book' in st
+            else books.filter(title__icontains=st['title_has']).first()
+        )
         if book:
             out.append((st, book))
     return out
