@@ -537,6 +537,7 @@ function ExamRoute() {
   return (
     <TestPage
       key="exam"
+      reloadOnRetry
       title={`Yakuniy imtihon: ${book.title}`}
       isTeacher={isTeacher}
       load={() => getBookExam(bookId)}

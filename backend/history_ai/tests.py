@@ -5,7 +5,7 @@ from datetime import timedelta
 from django.contrib.auth import get_user_model
 from django.core import mail
 from django.core.cache import cache
-from django.test import TestCase
+from django.test import TestCase, override_settings
 from django.utils import timezone
 from rest_framework.authtoken.models import Token
 from rest_framework.test import APIClient
@@ -424,7 +424,11 @@ class CertificateVerifyTests(CourseFixture):
             data={'questions': make_questions(99, n=1)},
         )
         self.login(self.user)
-        return self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': {'0': 0}}, format='json')
+        from .models import ExamSession
+        self.client.get(f'{H}books/{self.book.id}/exam/')
+        sess = ExamSession.objects.filter(user=self.user, finished=False).first()
+        answers = {str(i): q['correct_index'] for i, q in enumerate(sess.questions)}
+        return self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': answers}, format='json')
 
     def test_certificate_verify_public_and_unknown_code(self):
         from .models import Certificate
@@ -617,6 +621,48 @@ class PlacementTests(CourseFixture):
     def test_bad_input_and_unknown_subject(self):
         self.assertEqual(self.client.post(f'{H}placement/sinov-fan/', {'answers': {}}, format='json').status_code, 400)
         self.assertEqual(self.client.get(f'{H}placement/yoq-fan/').status_code, 404)
+
+
+class FinalExamTests(CourseFixture):
+    def setUp(self):
+        super().setUp()
+        from .models import BookExam
+        BookExam.objects.create(book=self.book, created_by=self.teacher, status=STATUS_DONE, data={'questions': []})
+        self.login(self.user)
+        from .models import SectionCompletion, TopicCompletion
+        for t in self.topics:
+            TopicCompletion.objects.create(student=self.user, topic=t)
+        for s in self.sections:
+            SectionCompletion.objects.create(student=self.user, section=s)
+
+    def _start(self):
+        from .models import ExamSession
+        r = self.client.get(f'{H}books/{self.book.id}/exam/')
+        self.assertEqual(r.status_code, 200, r.content)
+        qs = r.json()['data']['questions']
+        self.assertNotIn('correct_index', qs[0])
+        return ExamSession.objects.filter(user=self.user, finished=False).first()
+
+    def test_draw_covers_all_topics_and_is_fresh(self):
+        s = self._start()
+        self.assertEqual({q['topic_id'] for q in s.questions}, {t.id for t in self.topics})
+
+    @override_settings(FINAL_EXAM_PASS_PERCENT=50)
+    def test_pass_requires_all_sections(self):
+        s = self._start()
+        sec_bad = self.sections[1].id
+        answers = {str(i): (1 if q['section_id'] == sec_bad else q['correct_index']) for i, q in enumerate(s.questions)}
+        r = self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': answers}, format='json').json()
+        self.assertFalse(r['passed'])
+        self.assertIn("bo'lim", r['fail_reason'])
+
+    def test_full_marks_pass_and_new_draw_after(self):
+        s = self._start()
+        answers = {str(i): q['correct_index'] for i, q in enumerate(s.questions)}
+        r = self.client.post(f'{H}books/{self.book.id}/exam/submit/', {'answers': answers}, format='json').json()
+        self.assertTrue(r['passed'])
+        self.assertTrue(r['certificate'])
+        self.assertIsNotNone(self._start())
 
 
 class LanguageContentImportTests(TestCase):

@@ -421,3 +421,16 @@ class PlacementResult(models.Model):
 
     def __str__(self):
         return f"{self.user} — {self.subject}: {self.level_label}"
+
+
+class ExamSession(models.Model):
+    """Talabaga yakuniy imtihon uchun tasodifiy tuzilgan savollar to'plami (har urinishda yangi)."""
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='exam_sessions')
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='exam_sessions')
+    questions = models.JSONField()  # [{question, options, correct_index, page, topic_id, section_id, ...}]
+    finished = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']

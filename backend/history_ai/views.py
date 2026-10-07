@@ -7,14 +7,14 @@ from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from django.db.models import Count, F
 from rest_framework import generics, status
-from rest_framework.exceptions import PermissionDenied, ValidationError
+from rest_framework.exceptions import NotFound, PermissionDenied, ValidationError
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import (
     STATUS_DONE, STATUS_FAILED, STATUS_PENDING, Book, BookExam, Certificate, DailyActivity, GeneratedAsset,
-    Lesson, LessonFeedback, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
+    ExamSession, Lesson, LessonFeedback, Page, ReviewAnswer, Section, SectionCompletion, SectionExam, Subject, TestAttempt, Topic,
     TopicCompletion, UserSettings,
 )
 from .permissions import IsTeacher
@@ -358,11 +358,26 @@ class LessonFeedbackView(APIView):
         return Response({'rating': rating})
 
 
-class BookExamByBookView(generics.RetrieveAPIView):
-    serializer_class = BookExamSerializer
+class BookExamByBookView(APIView):
+    """O'qituvchi uchun saqlangan imtihon; talabaga har safar yangi tasodifiy to'plam (final_exam.draw)."""
 
-    def get_object(self):
-        return get_object_or_404(BookExam, book_id=self.kwargs['book_id'])
+    def get(self, request, book_id):
+        from .services import final_exam
+        book = get_object_or_404(Book, id=book_id)
+        if request.user.is_staff:
+            exam = get_object_or_404(BookExam, book_id=book_id)
+            return Response(BookExamSerializer(exam, context={'request': request}).data)
+        exam = BookExam.objects.filter(book=book, status=STATUS_DONE).first()
+        if not exam:
+            raise NotFound("Yakuniy imtihon hali yaratilmagan.")
+        if not all_topics_completed(request.user, book):
+            raise PermissionDenied("Yakuniy imtihon uchun avval barcha mavzu testlarini topshiring.")
+        session = final_exam.draw(request.user, book)
+        return Response({
+            'id': exam.id, 'book': book.id, 'status': exam.status, 'session': session.id,
+            'data': {'questions': final_exam.public_questions(session)},
+            'pass_percent': final_exam.final_pass_percent(), 'section_min': final_exam.SECTION_MIN_PERCENT,
+        })
 
 
 class BookExamCreateView(APIView):
@@ -407,15 +422,26 @@ class BookExamSubmitView(APIView):
         if not exam:
             raise ValidationError({'detail': "Yakuniy imtihon hali yaratilmagan."})
 
+        from .services import final_exam
         answers = _read_answers(request)
-        score, total, details = _grade(exam.data['questions'], answers, book=book)
-        passed = _is_passed(score, total)
-        _strip_why(details, passed)
+        session = ExamSession.objects.filter(user=request.user, book=book, finished=False).first()
+        if session:
+            questions = session.questions
+            score, total, details, per_section, passed, reason = final_exam.evaluate(session, answers)
+            for d, q in zip(details, questions):
+                if not d['correct']:
+                    d['explain'] = review_service.explain_page(book, q.get('page'), topic=None)
+                    if passed and q.get('explanation'):
+                        d['why'] = q['explanation']
+            session.finished = True
+            session.save(update_fields=['finished'])
+        else:
+            raise ValidationError({'detail': "Imtihon boshlanmagan: sahifani yangilab, imtihonni qaytadan oching."})
         xp = 0
         TestAttempt.objects.create(
             student=request.user, book=book, answers=answers, score=score, total=total, passed=passed,
         )
-        review_service.record_grading(request.user, book, exam.data['questions'], answers)
+        review_service.record_grading(request.user, book, questions, answers)
 
         certificate = False
         if passed:
@@ -431,8 +457,9 @@ class BookExamSubmitView(APIView):
 
         return Response({
             'score': score, 'total': total, 'passed': passed,
-            'details': details, 'certificate': certificate,
-            'xp_gained': xp, 'streak': gamification.streak_info(request.user), 'pass_percent': settings.PASS_PERCENT,
+            'details': details, 'certificate': certificate, 'sections': per_section, 'fail_reason': reason,
+            'xp_gained': xp, 'streak': gamification.streak_info(request.user),
+            'pass_percent': final_exam.final_pass_percent(),
         })
 
 

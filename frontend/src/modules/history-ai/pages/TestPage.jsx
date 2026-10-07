@@ -44,7 +44,7 @@ function groupMistakes(details) {
  * faqat qaysi savol xato va qaysi betdan qayta o'qish kerakligi (o'tilgach "nega?" izohi ham).
  * `hint(index, level)` berilsa, har savolda bosqichli maslahat tugmasi chiqadi.
  */
-export default function TestPage({ title, load, create, submit, hint, isTeacher, onBack, onPassed, passedLabel }) {
+export default function TestPage({ title, load, create, submit, hint, isTeacher, onBack, onPassed, passedLabel, reloadOnRetry }) {
   const [test, setTest] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -126,7 +126,25 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
     }
   }
 
-  function retry() {
+  async function retry() {
+    if (reloadOnRetry) {
+      // Yakuniy imtihon: har urinishda butunlay yangi savollar
+      try { localStorage.removeItem(draftKey) } catch { /* ignore */ }
+      setLoading(true)
+      try {
+        setTest(await load())
+        setAttempt((a) => ({ n: a.n + 1, wrong: [] }))
+        setAnswers({})
+        setHints({})
+        setResult(null)
+        window.scrollTo({ top: 0 })
+      } catch (err) {
+        setError(err.message)
+      } finally {
+        setLoading(false)
+      }
+      return
+    }
     const wrong = (result?.details || []).filter((d) => !d.correct).map((d) => d.index)
     setAttempt((a) => ({ n: a.n + 1, wrong }))
     setAnswers({})
@@ -226,7 +244,9 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
                   <p className="mt-1 text-sm leading-relaxed text-ink-2">
                     {result.passed
                       ? passedLabel || "Test to'liq topshirildi!"
-                      : `Hali yetarli emas (kamida ${passPercent}% kerak). Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring.`}
+                      : result.fail_reason
+                        ? `${result.fail_reason} Zaif mavzularni takrorlab, yangi savollar bilan yana urinib ko'ring.`
+                        : `Hali yetarli emas (kamida ${passPercent}% kerak). Xato savollarning tagidagi betlarni qayta o'qib chiqing va yana urinib ko'ring.`}
                   </p>
                   {!result.passed && attempt.n >= 1 && (
                     <p className="mt-2 text-sm text-ink-2">
