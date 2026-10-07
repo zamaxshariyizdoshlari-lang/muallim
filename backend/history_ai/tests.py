@@ -561,6 +561,64 @@ class StudentDashboardTests(CourseFixture):
         self.assertEqual(d['continue']['topic']['id'], self.topics[1].id)
 
 
+class PlacementTests(CourseFixture):
+    def setUp(self):
+        super().setUp()
+        from unittest import mock
+        from .models import Subject
+        self.subject = Subject.objects.create(slug='sinov-fan', title='Sinov fani')
+        self.books = []
+        for key in ('b_easy', 'b_hard'):
+            b = Book.objects.create(title=key, key=key, subject=self.subject, uploaded_by=self.teacher)
+            sec = Section.objects.create(book=b, key='s', title='s', order=1)
+            tp = Topic.objects.create(book=b, section=sec, key='t', title='t', start_page=1, end_page=2, order=0)
+            GeneratedAsset.objects.create(
+                topic=tp, created_by=self.teacher, kind=GeneratedAsset.KIND_TOPIC_TEST, status=STATUS_DONE,
+                data={'questions': make_questions(1, 10)},
+            )
+            self.books.append(b)
+        patcher = mock.patch.dict('history_ai.services.placement.PLACEMENTS', {'sinov-fan': [
+            {'key': 'E', 'label': 'Oson', 'book': 'b_easy'}, {'key': 'H', 'label': 'Qiyin', 'book': 'b_hard'},
+        ]}, clear=True)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.login(self.user)
+
+    def _answer(self, qs, right_stages):
+        return {q['id']: (0 if q['stage'] in right_stages else 1) for q in qs}
+
+    def test_list_and_test_hide_answers(self):
+        r = self.client.get(f'{H}placement/').json()
+        self.assertEqual(r[0]['subject_slug'], 'sinov-fan')
+        self.assertIsNone(r[0]['result'])
+        qs = self.client.get(f'{H}placement/sinov-fan/').json()['questions']
+        self.assertEqual(len(qs), 16)
+        self.assertNotIn('correct_index', qs[0])
+
+    def test_beginner_gets_first_course(self):
+        qs = self.client.get(f'{H}placement/sinov-fan/').json()['questions']
+        res = self.client.post(f'{H}placement/sinov-fan/', {'answers': self._answer(qs, set())}, format='json').json()
+        self.assertEqual(res['recommended']['book_id'], self.books[0].id)
+        self.assertEqual(res['level_label'], "Boshlang'ich")
+
+    def test_intermediate_gets_second_course(self):
+        qs = self.client.get(f'{H}placement/sinov-fan/').json()['questions']
+        res = self.client.post(f'{H}placement/sinov-fan/', {'answers': self._answer(qs, {'E'})}, format='json').json()
+        self.assertEqual(res['recommended']['book_id'], self.books[1].id)
+        self.assertEqual(res['level_key'], 'E')
+
+    def test_advanced_gets_last_course_and_result_saved(self):
+        qs = self.client.get(f'{H}placement/sinov-fan/').json()['questions']
+        res = self.client.post(f'{H}placement/sinov-fan/', {'answers': self._answer(qs, {'E', 'H'})}, format='json').json()
+        self.assertEqual(res['recommended']['book_id'], self.books[1].id)
+        self.assertEqual(res['percent'], 100)
+        self.assertEqual(self.client.get(f'{H}placement/').json()[0]['result']['percent'], 100)
+
+    def test_bad_input_and_unknown_subject(self):
+        self.assertEqual(self.client.post(f'{H}placement/sinov-fan/', {'answers': {}}, format='json').status_code, 400)
+        self.assertEqual(self.client.get(f'{H}placement/yoq-fan/').status_code, 404)
+
+
 class LanguageContentImportTests(TestCase):
     """Til kursi uchun ixtiyoriy maydonlar (vocabulary/listening/sentence_practice/...) import qilinishi."""
 

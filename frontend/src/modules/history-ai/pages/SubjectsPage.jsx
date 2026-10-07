@@ -1,7 +1,7 @@
-import { ArrowRight, BookOpen, Flame, Landmark, Languages, Play, RotateCcw, Star, Trophy } from 'lucide-react'
+import { ArrowRight, BookOpen, Compass, Flame, Landmark, Languages, Play, RotateCcw, Star, Trophy } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getDashboard, getLeaderboard, getProfile, listSubjects } from '../api/client'
+import { getDashboard, getLeaderboard, getProfile, listPlacements, listSubjects } from '../api/client'
 import DailyGoalCard from '../components/DailyGoalCard'
 import { ErrorNote, Spinner } from '../components/ui'
 
@@ -50,6 +50,7 @@ export default function SubjectsPage({ me, onOpenSubject }) {
   const [dash, setDash] = useState(null)
   const [prof, setProf] = useState(null)
   const [board, setBoard] = useState(null)
+  const [placements, setPlacements] = useState([])
   const [error, setError] = useState('')
 
   useEffect(() => {
@@ -57,6 +58,7 @@ export default function SubjectsPage({ me, onOpenSubject }) {
     getDashboard().then(setDash).catch(() => {})
     getProfile().then(setProf).catch(() => {})
     getLeaderboard().then(setBoard).catch(() => {})
+    listPlacements().then(setPlacements).catch(() => {})
   }, [])
 
   const name = me?.first_name || me?.username
@@ -102,6 +104,26 @@ export default function SubjectsPage({ me, onOpenSubject }) {
           <span className="flex-1 text-sm font-semibold">Bugun takrorlash uchun {dash.due_reviews_total} ta savol sizni kutmoqda</span>
           <ArrowRight size={16} className="text-gold" />
         </Link>
+      )}
+
+      {placements.length > 0 && (
+        <section className="mb-5 grid gap-3 sm:grid-cols-2" aria-label="Daraja aniqlash">
+          {placements.map((p) => (
+            <Link
+              key={p.subject_slug} to={`/daraja/${p.subject_slug}`}
+              className={`card card-hover flex items-center gap-4 p-4 ${p.result ? '' : 'border-brand/50 bg-brand-soft/40'}`}
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand text-brand-ink"><Compass size={20} /></span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-display text-base font-bold text-ink">{p.subject_title}: darajangizni aniqlang</span>
+                <span className="block text-xs text-muted">
+                  {p.result ? `Natijangiz: ${p.result.level_label} · qayta topshirish` : `${p.questions} ta savol · mos kursni tavsiya qilamiz`}
+                </span>
+              </span>
+              <ArrowRight size={18} className="text-brand" />
+            </Link>
+          ))}
+        </section>
       )}
 
       {prof && (

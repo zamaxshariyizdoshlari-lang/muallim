@@ -707,3 +707,36 @@ class BookAnalyticsView(APIView):
     def get(self, request, book_id):
         book = get_object_or_404(Book, id=book_id)
         return Response(analytics.book_analytics(book))
+
+
+class PlacementListView(APIView):
+    """Daraja testi bor fanlar va foydalanuvchining oxirgi natijalari."""
+
+    def get(self, request):
+        from .services import placement
+        return Response(placement.available(request.user))
+
+
+class PlacementTestView(APIView):
+    """GET: savollar (to'g'ri javobsiz). POST {answers: {id: indeks}}: baholash va kurs tavsiyasi."""
+
+    def get(self, request, slug):
+        from .services import placement
+        questions = placement.build_test(slug)
+        if not questions:
+            return Response({'detail': "Bu fan uchun daraja testi yo'q."}, status=404)
+        return Response({'subject_slug': slug, 'questions': questions})
+
+    def post(self, request, slug):
+        from .services import placement
+        answers = request.data.get('answers')
+        if not isinstance(answers, dict) or not answers:
+            return Response({'detail': "Javoblar yuborilmadi."}, status=400)
+        try:
+            clean = {str(k): int(v) for k, v in answers.items()}
+        except (TypeError, ValueError):
+            return Response({'detail': "Javoblar noto'g'ri formatda."}, status=400)
+        if not Subject.objects.filter(slug=slug).exists():
+            return Response({'detail': 'Fan topilmadi.'}, status=404)
+        result = placement.submit(request.user, slug, clean)
+        return Response(placement.serialize_result(result))

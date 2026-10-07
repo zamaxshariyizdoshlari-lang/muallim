@@ -290,6 +290,20 @@ export function sendLessonFeedback(topicId, rating) {
   return jsonRequest(`/topics/${topicId}/feedback/`, 'POST', { rating })
 }
 
+export function listPlacements() {
+  return request('/placement/')
+}
+
+export function getPlacementTest(slug) {
+  return request(`/placement/${slug}/`)
+}
+
+export function submitPlacement(slug, answers) {
+  return request(`/placement/${slug}/`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ answers }),
+  })
+}
+
 export function getDashboard() {
   return request('/dashboard/')
 }

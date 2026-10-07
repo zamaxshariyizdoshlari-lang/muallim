@@ -399,3 +399,25 @@ class LessonFeedback(models.Model):
 
     def __str__(self):
         return f"{self.student} · {self.topic_id}: {self.rating}"
+
+
+class PlacementResult(models.Model):
+    """Daraja aniqlash testi natijasi: foydalanuvchi qaysi darajada va qaysi kursdan boshlashi tavsiya etilgani."""
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='placement_results')
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE, related_name='placement_results')
+    score = models.PositiveIntegerField()
+    total = models.PositiveIntegerField()
+    per_stage = models.JSONField(default=dict)  # {"A1": {"right": 7, "total": 8}, ...}
+    level_key = models.CharField(max_length=20, blank=True)
+    level_label = models.CharField(max_length=100, blank=True)
+    recommended_book = models.ForeignKey(Book, on_delete=models.SET_NULL, null=True, blank=True, related_name='+')
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']
+        verbose_name = "Daraja natijasi"
+        verbose_name_plural = "Daraja natijalari"
+
+    def __str__(self):
+        return f"{self.user} — {self.subject}: {self.level_label}"

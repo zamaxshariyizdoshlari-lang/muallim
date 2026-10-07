@@ -22,6 +22,7 @@ import AdminTopicEditorPage from './pages/admin/AdminTopicEditorPage'
 import CertificateVerifyPage from './pages/CertificateVerifyPage'
 import LessonResultPage from './pages/LessonResultPage'
 import LoginPage from './pages/LoginPage'
+import PlacementPage from './pages/PlacementPage'
 import ProfilePage from './pages/ProfilePage'
 import ResetPasswordPage from './pages/ResetPasswordPage'
 import ReviewPage from './pages/ReviewPage'
@@ -150,6 +151,7 @@ export default function HistoryAIModule() {
       >
         <Route index element={<SubjectsRoute />} />
         <Route path="profil" element={<ProfileRoute />} />
+        <Route path="daraja/:slug" element={<PlacementPage />} />
         <Route path="fan/:slug" element={<CoursesRoute />} />
         <Route path="kurs/:bookId" element={<BookLayout />}>
           <Route index element={<TopicsRoute />} />
