@@ -123,36 +123,56 @@
        }
       ],
       "reading": {
-       "title": "Yaşın önemi yok",
-       "text": "Hasan Bey yetmiş iki yaşında ama koşu yarışlarında hâlâ birinci geliyor. Odası madalya ve kupalarla dolu. Spor salonundayken herkes onun performansına şaşırıyor. Her sabah spora gidiyor ve sağlıklı besleniyor.\n\nBaşka bir haberde, yüz yirmi yaşını geçmiş bir amca bir reklam filminde oynamış. Çekim yapılırken çok heyecanlanmış ama bunu belli etmemeye çalışmış. Herkes onu ayakta alkışlamış.",
+       "title": "Mahalledeki fısıltı",
+       "text": "Küçük bir mahallede yaşayan Selma Hanım, sabah pencereden dışarı bakarken karşı apartmana yeni bir ailenin taşındığını fark etti. Henüz kimseyle tanışmamıştı, ama o gün öğlene kadar komşuların yarısı yeni aile hakkında bir şeyler söylüyordu. Kimisine göre aile yurt dışından dönmüştü, kimisine göre ise babanın işi yüzünden sık sık şehir değiştiriyorlardı.\n\nFırının önünde sıra beklerken Selma Hanım bu konuşmaları dinledi. Bir komşu, yeni gelenlerin çok zengin olduğunu söyledi; çünkü eşyaları büyük bir kamyonla taşınmıştı. Bir başkası ise çocukların sürekli ağladığını duyduğunu iddia etti. Selma Hanım bunların hiçbirinin kendi gözleriyle görülmüş bir şey olmadığını biliyordu. Yine de merak etmekten kendini alamadı.\n\nAkşam üstü çay demlerken kapı çaldı. Kapıda elinde küçük bir kutu tatlı tutan genç bir kadın duruyordu. “Ben yan daireye taşınan Elif. Tanışmak istedim,” dedi gülümseyerek. Selma Hanım onu içeri aldı ve bir saat boyunca sohbet ettiler. Elif'in ailesi, babasının üniversitede öğretmenlik yapmaya başlaması nedeniyle bu şehre gelmişti. Çocuklar ise gayet sakindi; ağlayan tek kişi, yeni evde ilk gecesini geçirirken korkan küçük kedileriydi.\n\nSelma Hanım o akşam eve dönerken kendi kendine şunu düşündü: Duyduğumuz her şeye inanırsak, yanlış kişileri yargılarız. Ertesi sabah fırında yine aynı konuşmalar başladığında, bu kez sessiz kalmadı ve gerçeği anlattı.",
        "questions": [
         {
-         "question": "Hasan Bey necha yoshda?",
+         "question": "Selma Hanım yeni aile hakkında nasıl öğrendi?",
          "options": [
-          "27 yoshda",
-          "62 yoshda",
-          "72 yoshda",
-          "120 yoshda"
+          "Önce komşulardan duydu, sonra Elif anlattı",
+          "Hiçbir şey öğrenmedi",
+          "Sadece gazeteden okudu",
+          "Yeni ailenin evini ziyaret etti"
          ],
-         "correct_index": 2
+         "correct_index": 0
         },
         {
-         "question": "U sport zalida bo'lganda nima bo'ladi?",
+         "question": "Komşulara göre aile neden zengindi?",
          "options": [
-          "U charchab qoladi",
-          "Hamma uning natijasiga hayron qoladi",
-          "Mashg'ulot bekor bo'ladi",
-          "Hech kim ko'rmaydi"
+          "Babası işadamı olduğu için",
+          "Büyük bir evde oturdukları için",
+          "Arabaları pahalı olduğu için",
+          "Eşyaları büyük bir kamyonla taşındığı için"
          ],
-         "correct_index": 1
+         "correct_index": 3
         },
         {
-         "question": "Reklama filmida kim o'ynagan?",
+         "question": "Elif'in ailesi neden bu şehre geldi?",
          "options": [
-          "Bola",
-          "Juda keksa bir amaki",
-          "Mashhur qo'shiqchi",
-          "Yosh sportchi"
+          "Babası üniversitede öğretmenlik yapacağı için",
+          "Yurt dışından döndükleri için",
+          "Daha ucuz ev bulduklarından",
+          "Akrabaları burada olduğu için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Metindeki ağlayan 'çocuklar' gerçekte kimdi?",
+         "options": [
+          "Korkan küçük kediler",
+          "Elif'in kardeşleri",
+          "Komşunun çocukları",
+          "Hiç kimse"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Selma Hanım'ın çıkardığı ders nedir?",
+         "options": [
+          "Yeni gelenlerden uzak durulmalı",
+          "Duyduğumuz her şeye inanmamalıyız",
+          "Komşularla konuşmamak gerekir",
+          "Tatlı almak iyi bir fikirdir"
          ],
          "correct_index": 1
         }
@@ -504,38 +524,58 @@
        }
       ],
       "reading": {
-       "title": "Eskiden ve şimdi",
-       "text": "Eskiden insanlar haberleşmek için mektup kullanıyordu. Bir mektup günlerce, hatta haftalarca yolda kalıyordu. Evlerde telefon yoktu, haberleri radyodan dinliyorduk. Internet yokken bilgiye ulaşmak da çok zordu; insanlar kitapları ve gazeteleri satın alıyordu.\n\nBugün ise cep telefonuyla saniyeler içinde dünyanın öbür ucundaki akrabamıza ulaşabiliyoruz. Akşam haberlerini beklemek zorunda değiliz; son dakika haberlerini telefonumuzdan anında okuyoruz.",
+       "title": "Haber bülteni nasıl hazırlanır?",
+       "text": "Televizyonda akşam haberlerini izlerken ekrana gelen birkaç dakikalık bölümün arkasında aslında günler süren bir çalışma vardır. Bir haberin ekrana çıkması için önce muhabirin olay yerine gitmesi, bilgileri doğrulaması ve görüntü toplaması gerekir. Daha sonra bu bilgiler yazı işlerine gönderilir; orada editörler haberin doğru, kısa ve anlaşılır olup olmadığını kontrol eder.\n\nHaber merkezinde en önemli kural, bir bilgiyi yayınlamadan önce en az iki farklı kaynaktan teyit etmektir. “Son dakika” yazısı ise yalnızca gerçekten acil ve önemli gelişmeler için kullanılır. Eskiden insanlar bu gelişmeleri ertesi sabah gazetelerden öğreniyordu. Bugün ise telefonlarına gelen bildirimler sayesinde olaylardan saniyeler içinde haberdar olabiliyorlar.\n\nBu hız bazı sorunları da beraberinde getirdi. Sosyal medyada yayılan bilgilerin çoğu doğrulanmadan paylaşılıyor ve yanlış haberler çok kısa sürede binlerce kişiye ulaşıyor. Gazeteciler bu yüzden artık sadece haber yazmakla kalmıyor, aynı zamanda yanlış bilgilerle de mücadele ediyor.\n\nUzmanlar, okuyuculara şu önerileri veriyor: Haberin kaynağını kontrol edin, başlığın dışında metnin tamamını okuyun ve duygularınızı çok fazla harekete geçiren paylaşımlara karşı dikkatli olun. Çünkü doğru bilgiye ulaşmak, onu yaymaktan çok daha önemlidir.",
        "questions": [
         {
-         "question": "Ilgari odamlar nima bilan aloqa qilar edi?",
+         "question": "Bir haberin ekrana çıkması için ilk adım nedir?",
          "options": [
-          "Elektron pochta bilan",
-          "Messenjer bilan",
-          "Telefon bilan",
-          "Xat bilan"
+          "Bildirim göndermek",
+          "Muhabirin olay yerine gidip bilgi toplaması",
+          "Editörün haberi silmesi",
+          "Gazete basmak"
          ],
-         "correct_index": 3
+         "correct_index": 1
         },
         {
-         "question": "Xat qancha vaqt yo'lda qolardi?",
+         "question": "Haber merkezinin temel kuralı nedir?",
          "options": [
-          "Bir oy",
-          "Bir daqiqa",
-          "Kunlab, hatto haftalab",
-          "Bir necha soat"
+          "Haberi mümkün olduğunca uzun yazmak",
+          "Her haberi 'son dakika' yapmak",
+          "Bilgiyi en az iki kaynaktan teyit etmek",
+          "Sadece sosyal medyaya güvenmek"
          ],
          "correct_index": 2
         },
         {
-         "question": "Hozir so'nggi daqiqa xabarlarini qanday o'qiymiz?",
+         "question": "Eskiden insanlar haberleri nereden öğreniyordu?",
          "options": [
-          "Gazetadan",
-          "Telefondan darhol",
-          "Faqat televizordan",
-          "Radiodan kechqurun"
+          "Hiç öğrenmiyorlardı",
+          "Telefon bildirimlerinden",
+          "Ertesi sabah gazetelerden",
+          "Sosyal medyadan"
          ],
-         "correct_index": 1
+         "correct_index": 2
+        },
+        {
+         "question": "Hızın getirdiği sorun nedir?",
+         "options": [
+          "Muhabirlerin azalması",
+          "Haberlerin çok yavaş gelmesi",
+          "Yanlış bilgilerin hızla yayılması",
+          "Gazetelerin kapanması"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Metne göre okuyucu ne yapmalı?",
+         "options": [
+          "Kaynağı kontrol edip metnin tamamını okumalı",
+          "Hiç haber okumamalı",
+          "Her paylaşımı paylaşmalı",
+          "Sadece başlığa bakmalı"
+         ],
+         "correct_index": 0
         }
        ]
       },
@@ -885,38 +925,58 @@
        }
       ],
       "reading": {
-       "title": "Sosyal medya: dost mu düşman mı?",
-       "text": "Zeynep'e göre sosyal paylaşım siteleri çok faydalı. Her gün milyonlarca insan hayatındaki önemli olayları arkadaşlarıyla paylaşıyor. Hatta birçok kurum bu sayfalar aracılığıyla vatandaşlara ulaşıyor.\n\nEmre ise başka düşünüyor: \"Sanal ortam insanları yalnızlaştırıyor. Aynı evde oturan aile üyeleri bile birbirleriyle konuşmak yerine telefonlarıyla ilgileniyor. Yüz yüze sohbet etmek çok daha güzel.\" İkisinin de haklı olduğu noktalar var.",
+       "title": "Sosyal medya: dost mu, düşman mı?",
+       "text": "Zeynep ile Emre aynı üniversitede okuyan iki arkadaş, ama sosyal medya konusunda hiç anlaşamıyorlar. Zeynep'e göre bu platformlar hayatı kolaylaştırıyor: yurt dışında yaşayan akrabalarıyla her gün konuşabiliyor, derslerle ilgili duyuruları anında öğreniyor ve fotoğraf sevdiği için yeteneklerini binlerce kişiye gösterebiliyor. Hatta geçen yıl paylaştığı bir fotoğraf sayesinde küçük bir sergiye davet edildi.\n\nEmre ise başka düşünüyor. Ona göre insanlar ekrana o kadar çok bakıyorlar ki gerçek hayattaki ilişkilerini ihmal ediyorlar. Geçen hafta bir kafede oturan beş arkadaştan dördünün telefonuyla ilgilendiğini, konuşan tek kişinin garson olduğunu anlattı. Üstelik sürekli başkalarının mutlu fotoğraflarını görmek, insanda kendi hayatıyla ilgili yetersizlik duygusu yaratabiliyormuş.\n\nKonuşma uzayınca ikisi de haklı olduklarını fark etti. Sosyal medya, doğru kullanıldığında bilgi ve fırsat kapısı; ama kontrolsüz kullanıldığında vakit kaybı ve yalnızlık kaynağı olabiliyor. Sonunda şu kararı verdiler: Her gün bir saat boyunca telefonlarını kapatıp birlikte yürüyüşe çıkacaklar. İlk gün yürürken Zeynep güldü: “Bu yürüyüşün fotoğrafını çekmemem gerekiyor, değil mi?” Emre de gülerek cevap verdi: “Çek ama paylaşma!”",
        "questions": [
         {
-         "question": "Zaynabga ko'ra ijtimoiy tarmoq qanday?",
+         "question": "Zeynep sosyal medyayı neden faydalı buluyor?",
          "options": [
-          "Juda foydali",
-          "Qimmat",
-          "Zerikarli",
-          "Zararli"
+          "Para kazandırdığı için",
+          "Hiç vakit almadığı için",
+          "Akrabalarla iletişim, duyuru takibi ve yeteneğini gösterme imkânı verdiği için",
+          "Ders çalışmayı bıraktırdığı için"
          ],
-         "correct_index": 0
+         "correct_index": 2
         },
         {
-         "question": "Emre nima deb o'ylaydi?",
+         "question": "Emre'ye göre sosyal medyanın en büyük zararı nedir?",
          "options": [
-          "Hech narsa o'zgartirmaydi",
-          "Odamlarni yaqinlashtiradi",
-          "Faqat bolalar uchun",
-          "Odamlarni yolg'izlantiradi"
+          "İnternetin yavaş olması",
+          "Fotoğrafların kötü çıkması",
+          "Gerçek ilişkilerin ihmal edilmesi",
+          "Çok pahalı olması"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Kafedeki örnekle Emre ne anlatmak istiyor?",
+         "options": [
+          "Kafe çok kalabalık",
+          "Garson çok hızlı çalışıyor",
+          "Arkadaşlar yemek yemiyor",
+          "İnsanlar birlikteyken bile ekrana bakıyor"
          ],
          "correct_index": 3
         },
         {
-         "question": "Emre nimani afzal ko'radi?",
+         "question": "Metinde 'yetersizlik duygusu' ne anlama gelir?",
          "options": [
-          "Yuzma-yuz suhbatni",
-          "Telefonni",
-          "Video ko'rishni",
-          "Xabar yozishni"
+          "Zamanın yetmemesi",
+          "Kendini başkalarından daha kötü hissetme",
+          "Uyku yetersizliği",
+          "Para yetmemesi"
          ],
-         "correct_index": 0
+         "correct_index": 1
+        },
+        {
+         "question": "Arkadaşların aldığı karar nedir?",
+         "options": [
+          "Fotoğraf sergisi açmak",
+          "Her gün bir saat telefonsuz yürüyüşe çıkmak",
+          "Sosyal medyayı tamamen bırakmak",
+          "Hiçbir şey yapmamak"
+         ],
+         "correct_index": 1
         }
        ]
       },
@@ -1272,38 +1332,58 @@
        }
       ],
       "reading": {
-       "title": "Türkü Baba",
-       "text": "Neşet Ertaş 1938'de Kırşehir'de doğdu. Çocukken babasıyla birlikte düğünlerde saz çalıp türkü söyledi. On beş yaşında İstanbul'a gitmek istedi ama parası sadece yarı yola yetti. Otobüste ayakta yolculuk karşılığında saz çalıp türkü söyledi.\n\nBir plak şirketinde sesi çok beğenildi ve ilk plağını çıkardı. Daha sonra Ankara'da bir kızla tanıştı; ilk başta kızın babası evliliğe izin vermedi, sonra ikna oldu. Yıllar sonra sahnelere döndü, UNESCO onu \"Yaşayan İnsan Hazinesi\" seçti.",
+       "title": "İki kardeşin hikâyesi",
+       "text": "Orhan ile Semra, İzmir'de aynı apartmanda büyüyen iki yakın arkadaştı. Küçükken her gün birlikte oynar, okulda aynı sıraya otururlardı. Büyüdükçe farklı üniversitelere gittiler ve birbirlerini yılda sadece birkaç kez görebildiler. Yine de her bayramda buluşup saatlerce konuşuyor, birbirlerinin hayatındaki değişiklikleri öğreniyorlardı.\n\nBir gün Orhan, Semra'yı arayıp önemli bir haber verdi: Kendi tasarladığı oyun programı bir yarışmada birinci olmuştu. Semra sevincinden ne diyeceğini bilemedi. “Seninle gurur duyuyorum,” dedi. “Ama sen de bana yardım etmişsin, çünkü bu fikir bizim çocukluk oyunumuzdan çıktı.” İkisi de güldü, çünkü gerçekten de program, sokakta oynadıkları saklambaç oyunundan esinlenmişti.\n\nBirkaç ay sonra Semra yeni bir iş buldu ve Orhan'ın şehrine taşındı. İlk gün kapıda karşılaştıklarında birbirlerine sarılıp uzun uzun bakıştılar. Arkadaşlık, aslında böyle bir şeydi: Zaman ve mesafe değişse de iki insanın birbirini anlaması.\n\nOrhan sonra şöyle dedi: “İnsan, hayatında yalnızca birkaç gerçek arkadaş edinebilir. Biz birbirimizi yıllarca kaybetmeden koruduk.” Semra onaylar gibi başını salladı. O akşam birlikte yemek yaptılar, eski fotoğraflara baktılar ve gelecek için yeni planlar kurdular.",
        "questions": [
         {
-         "question": "Neşet Ertaş qayerda tug'ilgan?",
+         "question": "Orhan ve Semra'yı büyürken ne ayırdı?",
          "options": [
-          "Izmirda",
-          "Kirshehirda",
-          "Istanbulda",
-          "Ankarada"
+          "Farklı üniversitelere gitmeleri",
+          "Aynı okulda okumaları",
+          "Başka şehre taşınmaları",
+          "Kavga etmeleri"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Orhan'ın başarısı neydi?",
+         "options": [
+          "Sınavı kazandı",
+          "Tasarladığı oyun programı yarışmada birinci oldu",
+          "İş buldu",
+          "Üniversiteyi bitirdi"
          ],
          "correct_index": 1
         },
         {
-         "question": "Otobusda yo'lga u nima qildi?",
+         "question": "Semra'ya göre program nasıl ortaya çıktı?",
          "options": [
-          "Ovqat sotdi",
-          "Pul so'radi",
-          "Saz chalib qo'shiq aytdi",
-          "Hech narsa"
+          "Çocukluk oyunlarından esinlenerek",
+          "Yabancı bir filmden",
+          "Bir kitaptan",
+          "Okulda öğrenilen bir dersten"
          ],
-         "correct_index": 2
+         "correct_index": 0
         },
         {
-         "question": "UNESCO uni nima deb tanidi?",
+         "question": "'Bakıştılar' kelimesinin anlamı nedir?",
          "options": [
-          "Xalq qahramoni",
-          "Yilning san'atkori",
-          "Eng yaxshi ozon",
-          "Yashayotgan inson xazinasi"
+          "Birini aradılar",
+          "Uzaktan baktılar",
+          "Hiç bakmadılar",
+          "Birbirine karşılıklı baktılar"
          ],
          "correct_index": 3
+        },
+        {
+         "question": "Hikâyenin ana düşüncesi nedir?",
+         "options": [
+          "Gerçek dostluk zaman ve mesafeye rağmen sürer",
+          "Çocukluk arkadaşları kaybolur",
+          "Başarı için mesafe şarttır",
+          "Dostluk kısa sürelidir"
+         ],
+         "correct_index": 0
         }
        ]
       },
@@ -1653,36 +1733,56 @@
        }
       ],
       "reading": {
-       "title": "İş görüşmesi",
-       "text": "Derya, Turizm ve Otel İşletmeciliği bölümünde son sınıf öğrencisi. Gazetede bir seyahat danışmanı ilanı gördü ve başvurmak istedi. İş görüşmesine gitmeden önce üniversitedeki hocasından tavsiye aldı.\n\nGörüşmede insan kaynakları müdürü ona kendisinden kısaca bahsetmesini ve neden orada çalışmak istediğini sordu. Derya, bölümüyle ilgili deneyim kazanmak istediğini söyledi. Müdür, özgeçmiş formunu doldurup referans mektubuyla birlikte yarın teslim etmesini istedi.",
+       "title": "Ayşe'nin ilk iş görüşmesi",
+       "text": "Ayşe üniversiteden yeni mezun olmuştu ve bir şirketin insan kaynakları departmanından görüşme çağrısı aldığında hem heyecanlandı hem de endişelendi. Bu onun ilk iş tecrübesi olacaktı. Görüşmeden önceki hafta boyunca şirketin internet sitesini inceledi, ürünleri hakkında bilgi topladı ve olası soruları kendi kendine cevaplamaya çalıştı.\n\nGörüşme günü sabah erken kalktı, düzgün bir kıyafet giydi ve yarım saat önce şirkete vardı. Resepsiyondaki görevli onu nazikçe karşıladı ve bekleme salonuna yönlendirdi. Birkaç dakika sonra insan kaynakları müdürü kapıyı açıp onu içeri davet etti.\n\nMüdür önce Ayşe'den kendisinden kısaca bahsetmesini istedi. Ayşe eğitimini, yabancı dil bilgisini ve gönüllü çalışmalarını anlattı. Sonra müdür sordu: “Neden bizim şirketimizde çalışmak istiyorsunuz?” Ayşe bir an düşündü ve dürüstçe cevap verdi: “Sektörümde deneyim kazanmak istiyorum ve sizin şirketiniz yeni mezunlara öğrenme fırsatı veriyor.” Müdür bu cevaptan memnun kaldı.\n\nGörüşmenin sonunda müdür, “Özgeçmişinizi ve referans mektubunuzu önümüzdeki hafta bize gönderirseniz kararımızı bildiririz,” dedi. Ayşe teşekkür ederek dışarı çıktı. Yolda yürürken ilk kez rahatça nefes aldı. Bir hafta sonra şirketten gelen e-posta, onun yarı zamanlı stajyer olarak işe kabul edildiğini bildiriyordu.",
        "questions": [
         {
-         "question": "Derya qaysi bo'limda o'qiydi?",
+         "question": "Ayşe görüşmeye nasıl hazırlandı?",
          "options": [
-          "Tibbiyot",
-          "Huquq",
-          "Muhandislik",
-          "Turizm va mehmonxona boshqaruvi"
+          "Hiç hazırlanmadı",
+          "Sadece kıyafet seçti",
+          "Şirket hakkında bilgi toplayıp soruları düşündü",
+          "Arkadaşlarından yardım istedi"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Görüşmeden önce Ayşe ne yaptı?",
+         "options": [
+          "Yarım saat önce şirkete geldi",
+          "Telefonla konuştu",
+          "Eve döndü",
+          "Geç kaldı"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Müdür Ayşe'den ilk ne istedi?",
+         "options": [
+          "Maaş talebini söylemesini",
+          "Başka şirketleri anlatmasını",
+          "Evraklarını getirmesini",
+          "Kendinden kısaca bahsetmesini"
          ],
          "correct_index": 3
         },
         {
-         "question": "Derya nega ishlamoqchi?",
+         "question": "Ayşe 'neden burada çalışmak istiyorsunuz' sorusuna ne cevap verdi?",
          "options": [
-          "Faqat pul uchun",
-          "Do'sti taklif qilgani uchun",
-          "Vaqt o'tkazish uchun",
-          "Sohasi bo'yicha tajriba orttirish uchun"
+          "Hiç cevap vermedi",
+          "Deneyim kazanmak istediğini söyledi",
+          "Başka işi olmadığını",
+          "Çok para kazanmak istediğini"
          ],
-         "correct_index": 3
+         "correct_index": 1
         },
         {
-         "question": "Direktor undan nimani talab qildi?",
+         "question": "Görüşmenin sonucu ne oldu?",
          "options": [
-          "Rezyume formasi va tavsiyanomani",
-          "Pasportini",
-          "Fotosuratini",
-          "Diplomini"
+          "Yarı zamanlı stajyer olarak kabul edildi",
+          "Reddedildi",
+          "Sonuç bildirilmedi",
+          "Tam zamanlı işe alındı"
          ],
          "correct_index": 0
         }
@@ -2034,38 +2134,58 @@
        }
       ],
       "reading": {
-       "title": "Babam ve Oğlum",
-       "text": "Sadık üniversite için başka şehre gider. Babası çiftlikte yardımcı olması için onun ziraat mühendisliği okumasını ister. Sadık babasına karşı çıkar ve gazetecilik okur. Hüseyin Bey buna çok kızar. Yıllar sonra Sadık hastalanır ve oğlu Deniz'i babasının evine götürmeye karar verir.\n\nBaba önce oğluna sert davranır ama gerçeği öğrenince pişman olur. Film, baba ile oğul arasındaki uzun ve zor barışmayı anlatıyor. İzleyenlerin çoğu filmin sonunda ağlıyor.",
+       "title": "Film kritiği: Babam ve Oğlum",
+       "text": "“Babam ve Oğlum”, Türk sinemasının en çok izlenen ve en çok konuşulan filmlerinden biridir. Film, 1960'ların sonunda Ege'de geçen bir aile hikâyesini anlatıyor. Sadık, genç yaşta köyünden ayrılıp İstanbul'da gazetecilik okumak ister. Babası Hüseyin Bey ise oğlunun çiftlikte kendisine yardım etmesini istemektedir. Bu görüş ayrılığı, iki kuşak arasındaki derin kopukluğun başlangıcı olur.\n\nYıllar geçer; Sadık hasta olur ve küçük oğlu Deniz'i babasının yanına bırakmaya karar verir. Hüseyin Bey torununu önce soğuk karşılar, çünkü oğluna olan kırgınlığını hâlâ unutmamıştır. Ancak zamanla küçük çocuğun masumiyeti, yaşlı adamın kalbindeki duvarları yıkar. Film, bağışlamanın ve ailenin gücünün ne kadar büyük olduğunu çok etkileyici bir şekilde gösterir.\n\nSenaryo ve oyunculuk filmin en güçlü yönleridir. Özellikle başrol oyuncusu, kelimelere ihtiyaç duymadan sadece bakışlarıyla duygularını aktarmayı başarır. Müzik de filmin atmosferini tamamlar; sahnelerdeki sessizlik bile bir şeyler anlatır. Filmin zayıf yanı ise bazı sahnelerin biraz uzun tutulmasıdır, ama bu durum etkiyi bozmaz.\n\nSonuç olarak “Babam ve Oğlum”, aile bağlarına önem veren herkesin izlemesi gereken bir yapımdır. Film bittiğinde izleyicilerin çoğunun gözleri doludur ve kimse hemen salonu terk etmez.",
        "questions": [
         {
-         "question": "Sadiqning otasi nima xohlagan?",
+         "question": "Filmin ana konusu nedir?",
          "options": [
-          "O'qimasligini",
-          "Shifokor bo'lishini",
-          "Qishloq xo'jaligi muhandisligini o'qishini",
-          "Jurnalist bo'lishini"
-         ],
-         "correct_index": 2
-        },
-        {
-         "question": "Sadiq nimani tanladi?",
-         "options": [
-          "Jurnalistikani",
-          "San'atni",
-          "Huquqni",
-          "Muhandislikni"
+          "Baba ile oğul arasındaki kopukluk ve barışma",
+          "Bir polis hikâyesi",
+          "Bir macera yolculuğu",
+          "Bir savaş filmi"
          ],
          "correct_index": 0
         },
         {
-         "question": "Film nima haqida?",
+         "question": "Sadık neden köyünden ayrılmak ister?",
          "options": [
-          "Sport",
-          "Sayohat",
-          "Ota va o'g'il o'rtasidagi yarashuv",
-          "Urush"
+          "Çiftçilik yapmak için",
+          "Gazetecilik okumak istediği için",
+          "Para kazanmak için",
+          "Evlenmek için"
          ],
-         "correct_index": 2
+         "correct_index": 1
+        },
+        {
+         "question": "Hüseyin Bey torununa önce nasıl davranır?",
+         "options": [
+          "Çok sevecen",
+          "Hediyeler verir",
+          "Hiç görmez",
+          "Soğuk ve mesafeli"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Eleştirmen filmin zayıf yönü olarak neyi görüyor?",
+         "options": [
+          "Oyuncuların azlığını",
+          "Bazı sahnelerin uzun olmasını",
+          "Senaryonun zayıflığını",
+          "Müziğin kötü olmasını"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Yazar filmi kimlere tavsiye ediyor?",
+         "options": [
+          "Sadece çocuklara",
+          "Kimseye",
+          "Sadece gençlere",
+          "Aile bağlarına değer verenlere"
+         ],
+         "correct_index": 3
         }
        ]
       },
@@ -2418,38 +2538,58 @@
        }
       ],
       "reading": {
-       "title": "Büyük heyecan",
-       "text": "Yaren bu sabah erken kalktı. Bütün gece doğru dürüst uyuyamadı; yatağında dönüp durdu ve hayaller kurdu. Bugün üniversiteye giriş sınavının sonuçları açıklanacak. İstediği bölümü kazanırsa annesi, babası ve kardeşi çok sevinecek.\n\nYaren doktor olmak istiyor ve sadece tıp fakültelerini tercih etti. İlk sırada Hacettepe, Gazi ve Ankara üniversiteleri var. Ailesi İstanbul'da oturuyor; İstanbul dışında bir üniversiteyi kazanırsa yurtta kalacak. Annesinin kahvaltılarını çok özleyecek.",
+       "title": "Üniversite sınavı sabahı",
+       "text": "Yaren bu sabah erken kalktı. Bütün gece doğru dürüst uyuyamamış, yatağında dönüp durmuş ve geleceğini hayal etmişti. Bugün üniversiteye giriş sınavının sonuçları açıklanacaktı ve bu sonuçlar hayatının önümüzdeki dört yılını belirleyecekti. Annesi ona kahvaltı hazırlamıştı ama Yaren boğazından bir şey geçiremedi.\n\nDoktor olmak istiyordu ve sadece tıp fakültelerini tercih etmişti. Ankara'daki üç üniversite listesinin ilk sırasındaydı. Ailesi İstanbul'da oturduğu için, eğer Ankara'yı kazanırsa yurtta kalacaktı. Bu düşünce hem heyecan verici hem de korkutucuydu; çünkü hayatında ilk defa ailesinden uzakta yaşayacaktı.\n\nSaat on ikiye doğru bilgisayarın başına oturdu. Elleri titriyordu. Kimlik numarasını ve şifresini yazdı, “Sorgula” düğmesine bastı. Birkaç saniye süren bekleme ona saatler gibi geldi. Sonra ekranda sonucu gördü: Hacettepe Üniversitesi Tıp Fakültesi'ni kazanmıştı.\n\nÖnce sessizce baktı, sonra yerinden fırladı ve mutfağa koştu. Annesi ve babası haberi duyunca sevinçten ağladılar. Yaren o gün telefonda bütün akrabalarıyla konuştu. Akşam yatarken kendi kendine şöyle düşündü: “Keşke bu yolculukta bana yardım eden herkese teşekkür edebilsem.” Ertesi sabah, öğretmenlerine bir teşekkür mektubu yazmaya karar verdi.",
        "questions": [
         {
-         "question": "Yaren bugun nimani kutayapti?",
+         "question": "Yaren neden gece uyuyamadı?",
          "options": [
-          "Tug'ilgan kunni",
-          "Sayohatni",
-          "Ish suhbatini",
-          "Imtihon natijalarini"
-         ],
-         "correct_index": 3
-        },
-        {
-         "question": "Yaren qaysi fakultetlarni tanladi?",
-         "options": [
-          "Huquqni",
-          "Faqat tibbiyotni",
-          "Muhandislikni",
-          "Iqtisodni"
+          "Gürültü olduğu için",
+          "Sınav sonuçları için heyecanlıydı",
+          "Ders çalıştığı için",
+          "Hasta olduğu için"
          ],
          "correct_index": 1
         },
         {
-         "question": "Istanbuldan tashqarida o'qisa qayerda yashaydi?",
+         "question": "Yaren hangi bölümleri tercih etmişti?",
          "options": [
-          "Yotoqxonada",
-          "Uyda",
-          "Mehmonxonada",
-          "Qarindoshnikida"
+          "Sadece tıp fakültelerini",
+          "Edebiyat bölümlerini",
+          "Hukuk fakültelerini",
+          "Mühendislik bölümlerini"
          ],
          "correct_index": 0
+        },
+        {
+         "question": "Ankara'yı kazanırsa nerede kalacaktı?",
+         "options": [
+          "Yurtta",
+          "Otelde",
+          "Evde",
+          "Akrabasında"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Sonucu öğrendiğinde Yaren ne yaptı?",
+         "options": [
+          "Sınavı iptal etti",
+          "Hiçbir şey yapmadı",
+          "Ağladı ve kapıyı kapattı",
+          "Mutfağa koşup ailesine haber verdi"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Yaren'in son düşüncesi neydi?",
+         "options": [
+          "Telefonu kapatmak istiyordu",
+          "Hemen okula gitmek istiyordu",
+          "Yardım edenlere teşekkür etmek istiyordu",
+          "Tatile çıkmak istiyordu"
+         ],
+         "correct_index": 2
         }
        ]
       },
@@ -2802,36 +2942,56 @@
        }
       ],
       "reading": {
-       "title": "Dil ne taşır?",
-       "text": "Dil, bir milletin ait olduğu her şeyi taşır. Hatıralar, duygular, düşünceler, deneyimler, maddi ve manevi değerler dilin içindedir. Bu yüzden dil bir hafıza ve bir hazinedir. Değerli varlıklarımızı koruyacaksak ve gelecek nesillere taşıyacaksak bunu dil sayesinde yaparız.\n\nYabancı bir dil öğrendiyseniz o dili konuşan milleti de öğrenirsiniz. Eğer bir dili öğrenmemişseniz o milleti anlamak zorlaşır. Bu yüzden \"Bir lisan, bir insan; iki lisan, iki insan\" denir. Kaşgarlı Mahmut 11. yüzyılda Arapların Türkçeyi kolay öğrenmesi için bir sözlük yazmıştır.",
+       "title": "Dil bir hazinedir",
+       "text": "Dil yalnızca insanların birbirleriyle anlaşmasını sağlayan bir araç değil, aynı zamanda bir milletin hafızasıdır. Bir toplumun yüzyıllar boyunca biriktirdiği düşünceler, duygular, deneyimler ve değerler dil sayesinde saklanır ve gelecek kuşaklara aktarılır. Bu yüzden bir dilin ölmesi, aslında bir kültürün büyük bir bölümünün kaybolması anlamına gelir.\n\nYabancı bir dil öğrenmek de çok yönlü bir kazançtır. Önce yeni kelimeler, kurallar ve ifadeler öğrenirsiniz. Ancak zamanla o dili konuşan insanların nasıl düşündüğünü, neye değer verdiğini ve dünyaya nasıl baktığını da anlamaya başlarsınız. “Bir lisan, bir insan; iki lisan, iki insan” sözü de tam olarak bunu anlatır: Her yeni dil, size yeni bir bakış açısı kazandırır.\n\nDil öğrenmenin faydaları yalnızca kültürel değildir. Araştırmalar, birden fazla dil bilen kişilerin hafızalarının daha güçlü olduğunu, dikkatlerini daha iyi toplayabildiklerini ve problem çözmede daha esnek davrandıklarını gösteriyor. Hatta bazı çalışmalar, ikinci bir dil bilmenin yaşlılıkta bazı hastalıkların başlamasını geciktirebileceğini öne sürüyor.\n\nBir dili öğrenmenin tek bir yolu yoktur. Kimileri konuşarak, kimileri okuyarak, kimileri de müzik dinleyerek öğrenir. Önemli olan, düzenli çalışmak ve hata yapmaktan korkmamaktır. Çünkü her hata, yeni bir öğrenme fırsatıdır.",
        "questions": [
         {
-         "question": "Matnga ko'ra til nima?",
+         "question": "Metne göre dil ne anlama gelir?",
          "options": [
-          "Faqat qoidalar",
-          "Hech narsa",
-          "Xotira va xazina",
-          "Faqat so'zlar"
-         ],
-         "correct_index": 2
-        },
-        {
-         "question": "Chet tilini o'rgansangiz yana nimani o'rganasiz?",
-         "options": [
-          "Pulni",
-          "O'sha xalqni",
-          "Ob-havoni",
-          "Faqat grammatikani"
+          "Sadece iletişim aracıdır",
+          "Bir milletin hafızasıdır",
+          "Sadece yazı sistemidir",
+          "Sadece okul dersidir"
          ],
          "correct_index": 1
         },
         {
-         "question": "Qoshg'ariy nima yozgan?",
+         "question": "Bir dilin ölmesinin sonucu nedir?",
          "options": [
-          "She'r",
-          "Roman",
-          "Xarita",
-          "Lug'at"
+          "Kültürün bir kısmının kaybolması",
+          "Yeni kelimelerin doğması",
+          "Hiçbir şey olmaz",
+          "Nüfusun artması"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "'Bir lisan, bir insan' sözü neyi anlatır?",
+         "options": [
+          "Her yeni dil yeni bir bakış açısı kazandırır",
+          "İnsanların aynı olduğunu",
+          "Tek dilin yeterli olduğunu",
+          "Dilin gereksiz olduğunu"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Araştırmalara göre çok dil bilenlerin avantajı nedir?",
+         "options": [
+          "Hafızaları ve dikkatleri daha iyidir",
+          "Daha az uyurlar",
+          "Daha uzun boylu olurlar",
+          "Daha çok para kazanırlar"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Metne göre dil öğrenirken en önemli şey nedir?",
+         "options": [
+          "Çok pahalı kurslara gitmek",
+          "Sadece kitap okumak",
+          "Hiç hata yapmamak",
+          "Düzenli çalışmak ve hatadan korkmamak"
          ],
          "correct_index": 3
         }
@@ -3187,38 +3347,58 @@
        }
       ],
       "reading": {
-       "title": "Kitap okumanın faydaları",
-       "text": "Okumak, insanın kişisel gelişimini sağlayan en önemli unsurlardan biridir. Kitap okuyan insanın zihni gelişir, kelime hazinesi artar ve düşünce dünyası genişler. Okuyan insan iletişim becerisini de geliştirir.\n\nKitaplar sayesinde bilmediğimiz yerlere yolculuk eder, yeni arkadaşlıklar kurarız. Eğer her gün biraz okursak, zamanla hızlı okumayı da öğreniriz. Önemli olan düzenli çalışmaktır. Bu yüzden okulda en çok kitap okuyan öğrenciye \"Kitap Kurdu Belgesi\" verilir.",
+       "title": "Kitap okumanın hayatımıza katkıları",
+       "text": "Okumak, insanın kişisel gelişimini sağlayan en önemli unsurlardan biridir. Kitap okuyan kişinin düşünce yapısı gelişir, hayal dünyası zenginleşir ve kelime dağarcığı artar. Bir roman okurken kendimizi başka bir ülkede, başka bir çağda ya da bambaşka biri olarak bulabiliriz; bu da bizi farklı bakış açılarını anlamaya hazırlar.\n\nKitaplar sayesinde bilmediğimiz diyarlara yolculuk eder, yeni arkadaşlıklar kurarız. Tarih sayfalarında koşar, destanlara ve trajedilere tanıklık ederiz. Geçmişin hatalarını değiştirmeye gücümüz yetmese de, geleceğimizi kitaplardan edindiğimiz tecrübelerle inşa edebiliriz.\n\nHızlı okuma konusu da son yıllarda dikkat çekiyor. Uzmanlar, hızlı okumanın doğuştan gelen bir yetenek olmadığını, belirli yöntemlerle geliştirilebilen bir beceri olduğunu söylüyor. Türkiye Hızlı Okuma Şampiyonları da başlangıçta dakikada yaklaşık üç yüz kelime okuyordu; kurslara devam edip düzenli çalışarak bu hızı bine yaklaştırdılar. Önemli olan, hızlı okurken anlamayı kaybetmemektir.\n\nKitap okumak için büyük bir zaman ayırmak gerekmez. Günde sadece yirmi dakika okuyan biri, yılda yirmiden fazla kitap bitirebilir. Hatta bazı okullar, en çok kitap okuyan öğrencilere “Kitap Kurdu Belgesi” vererek bu alışkanlığı teşvik eder. Böyle bir belge, çocuklar için en değerli ödüllerden biri hâline gelebilir.",
        "questions": [
         {
-         "question": "Kitob o'qigan odamning nimasi rivojlanadi?",
+         "question": "Metne göre kitap okumanın faydası nedir?",
          "options": [
-          "Pul",
-          "Zehni va so'z boyligi",
-          "Faqat kuchi",
-          "Faqat ovozi"
+          "Zayıflatır",
+          "Para kazandırır",
+          "Düşünceyi ve kelime dağarcığını geliştirir",
+          "Sadece vakit geçirtir"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Kitaplar bize nasıl yardımcı olur?",
+         "options": [
+          "Sadece eğlenmemize",
+          "Geleceğimizi tecrübelerle inşa etmemize",
+          "Hiçbir şeye",
+          "Geçmişi değiştirmemize"
          ],
          "correct_index": 1
         },
         {
-         "question": "Tez o'qishni o'rganish uchun nima muhim?",
+         "question": "Hızlı okuma konusunda uzmanlar ne söylüyor?",
          "options": [
-          "Kam o'qish",
-          "Ko'p uxlash",
-          "Tug'ma iste'dod",
-          "Muntazam mashq"
+          "Zararlıdır",
+          "Sadece doğuştan gelir",
+          "Yöntemlerle geliştirilebilen bir beceridir",
+          "Gereksizdir"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Günde yirmi dakika okuyan biri ne yapabilir?",
+         "options": [
+          "Bir kitap bitirir",
+          "Beş kitap bitirir",
+          "Hiç kitap bitiremez",
+          "Yılda yirmiden fazla kitap bitirebilir"
          ],
          "correct_index": 3
         },
         {
-         "question": "Maktabda kimga 'Kitap Kurdu Belgesi' beriladi?",
+         "question": "'Kitap Kurdu Belgesi' neden verilir?",
          "options": [
-          "Eng ko'p kitob o'qigan o'quvchiga",
-          "Rahbarga",
-          "Eng baland o'quvchiga",
-          "O'qituvchiga"
+          "Okulları kapatmak için",
+          "Kitap satmak için",
+          "Öğrencileri cezalandırmak için",
+          "Okuma alışkanlığını teşvik etmek için"
          ],
-         "correct_index": 0
+         "correct_index": 3
         }
        ]
       },
@@ -3572,38 +3752,58 @@
        }
       ],
       "reading": {
-       "title": "Kafede",
-       "text": "Mariya ve Sofya bir kafede oturuyor. Sofya, oturduklarından beri kitap okuyor. Mariya, \"Kurs başlayalı kaç ay oldu?\" diye soruyor. Sofya, \"Üç ay oldu. Eylülden beri gidiyorum,\" diyor. Sofya A1 kurunu başarıyla tamamlamış ve şimdi A2 kurunda.\n\nMariya da Türkçe öğrenmek istiyor. Ertesi gün birlikte Yunus Emre Enstitüsü Türk Kültür Merkezi'ne gidiyorlar. Müdür onlara bir broşür veriyor ve yeni kurun on beş gün sonra başlayacağını söylüyor. Kayıt bürosunda kimlik fotokopisi ve iki vesikalık fotoğraf gerekiyor.",
+       "title": "Türkçe kursuna kayıt",
+       "text": "Mariya üç aydır Türkçe öğreniyor. Arkadaşı Sofya ona kursun çok faydalı olduğunu söyleyince, kendisi de Yunus Emre Enstitüsü Türk Kültür Merkezi'ne kayıt yaptırmaya karar verdi. İki arkadaş cumartesi sabahı birlikte merkeze gittiler.\n\nKayıt bürosundaki görevli onları güler yüzle karşıladı ve kurs hakkında bilgi verdi. Kurslar altı seviyeden oluşuyordu: A1, A2, B1, B2, C1 ve C2. Her seviyenin sonunda öğrenciler bir sınava girer, başarılı olanlar bir üst seviyeye geçer. Sınıflar en fazla on altı kişiliktir; böylece öğretmen her öğrenciyle yeterince ilgilenebilir.\n\nKayıt için gerekli belgeler ise şunlardı: kimlik fotokopisi, iki adet vesikalık fotoğraf ve doldurulmuş başvuru formu. Görevli, fotoğrafları bir gün sonra getirmelerinin mümkün olduğunu ama geç kalmamalarını söyledi. Ayrıca devam zorunluluğunun yüzde yetmiş olduğunu, bu sınırı aşan öğrencilerin dönem sonu sınavına alınmadığını hatırlattı.\n\nMariya her şeyi dikkatle not aldı. Çıkarken Sofya'ya şöyle dedi: “Bu kadar düzenli bir sistem olduğunu bilmiyordum. Eğer kurs bu kadar iyi organize ediliyorsa, Türkçeyi çok daha hızlı öğreneceğim.” Sofya gülümsedi: “Önemli olan düzenli çalışmak. Ben üç ay içinde A1'i bitirdim, sen de yapabilirsin.”",
        "questions": [
         {
-         "question": "Sofya qachondan beri kursga boradi?",
+         "question": "Mariya neden merkeze gitti?",
          "options": [
-          "Sentyabrdan beri",
-          "Bir yildan beri",
-          "Iyundan beri",
-          "Kechadan beri"
+          "Türkçe kursuna kayıt olmak için",
+          "Fotoğraf çektirmek için",
+          "Sofya'yı görmek için",
+          "İş aramak için"
          ],
          "correct_index": 0
         },
         {
-         "question": "Mariya nima qilishni xohlaydi?",
+         "question": "Kurslar kaç seviyeden oluşuyor?",
          "options": [
-          "Turkcha kursga yozilishni",
-          "Kitob sotishni",
-          "Ishga kirishni",
-          "Sayohatni"
-         ],
-         "correct_index": 0
-        },
-        {
-         "question": "Yangi kur qachon boshlanadi?",
-         "options": [
-          "Bir yildan keyin",
-          "Ertaga",
-          "Hozir",
-          "O'n besh kundan keyin"
+          "İki",
+          "On",
+          "Dört",
+          "Altı"
          ],
          "correct_index": 3
+        },
+        {
+         "question": "Bir sınıfta en fazla kaç kişi olabilir?",
+         "options": [
+          "Beş",
+          "Elli",
+          "Yüz",
+          "Onaltı"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Devam zorunluluğunu aşan öğrenciye ne olur?",
+         "options": [
+          "Hiçbir şey olmaz",
+          "Dönem sonu sınavına alınmaz",
+          "Para ödüllendirilir",
+          "Kursu bitirir"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Sofya Mariya'ya hangi öneriyi verdi?",
+         "options": [
+          "Kursu bırakmasını",
+          "Düzenli çalışmasını",
+          "Sadece kitap okumasını",
+          "Kayıt olmamasını"
+         ],
+         "correct_index": 1
         }
        ]
       },
@@ -3958,36 +4158,56 @@
        }
       ],
       "reading": {
-       "title": "Bir ömür",
-       "text": "Mustafa Bey otuz yıl Anadolu'nun birçok şehrinde görev yaptı ve emekli oldu. Eşi Asuman Hanım da onunla birlikte şehir şehir dolaştı. Şimdiye kadar bir yerde uzun süre kalmadıkları için henüz bir ev alamadılar. Artık sakin, huzurlu bir hayat yaşamak istiyorlar.\n\nTorunları Yaren ile birlikte emlakçıya gitmeye karar verdiler. Asuman Hanım şehir merkezine yakın bir daire, Mustafa Bey ise bahçeli müstakil bir ev istiyor. İkisi de kendi seçimini haklı gösteriyor, bu yüzden anlaşamıyorlar.",
+       "title": "Ev arayışı",
+       "text": "Mustafa Bey ile Asuman Hanım otuz yıl boyunca farklı şehirlerde görev yaptı. Mustafa Bey emekli olduğunda ikisi de artık bir yere yerleşmek istedi. Ancak bu karar kolay çıkmadı; çünkü iki farklı hayal vardı. Asuman Hanım, şehir merkezine yakın, hastane ve çarşıya yürüme mesafesinde bir daire istiyordu. Mustafa Bey ise gürültüden uzak, bahçesinde meyve ağaçları olan müstakil bir ev hayal ediyordu.\n\nTorunları Yaren bu tartışmayı dinleyip onlara yardımcı olmaya karar verdi. Üç emlakçıyı gezdiler, internetteki ilanları incelediler ve komşulara sordular. Bir daire çok büyüktü, ama kat yüksek olduğu için asansör kullanmak zorundaydılar. Bahçeli ev ise hem çok pahalıydı hem de şehre uzaktı.\n\nBir gün Asuman Hanım şöyle dedi: “Belki ikimiz de biraz fedakârlık yapmalıyız.” Mustafa Bey ona baktı ve ilk kez haklı olduğunu kabul etti. Birkaç gün sonra emlakçı, şehir merkezine yirmi dakika uzaklıkta, küçük bir bahçesi olan iki katlı bir ev buldu. Ev ne tam olarak Asuman Hanım'ın istediği gibiydi ne de Mustafa Bey'in; ama ikisi de memnun kaldı.\n\nEv satın alındıktan sonra Mustafa Bey bahçeye hemen iki elma fidanı dikti. Asuman Hanım ise balkona çiçekler koydu. Yaren onlara baktı ve düşündü: Uzlaşmak, vazgeçmek değil; ikisinin de kazanabileceği üçüncü bir yol bulmaktır.",
        "questions": [
         {
-         "question": "Mustafa Bey necha yil ishlagan?",
+         "question": "Asuman Hanım nasıl bir ev istiyordu?",
          "options": [
-          "Besh yil",
-          "Ikki yil",
-          "O'n yil",
-          "O'ttiz yil"
+          "Bahçeli müstakil ev",
+          "Şehir merkezine yakın bir daire",
+          "Köy evi",
+          "Dağ evi"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Mustafa Bey nasıl bir ev istiyordu?",
+         "options": [
+          "Merkezi bir daire",
+          "Yüksek katlı apartman",
+          "Lüks bir otel",
+          "Bahçesinde ağaçları olan müstakil bir ev"
          ],
          "correct_index": 3
         },
         {
-         "question": "Asuman xonim qanday uy istaydi?",
+         "question": "İlk bulunan evlerin sorunu neydi?",
          "options": [
-          "Qishloqdagi uy",
-          "Bog'li hovli",
-          "Shahar markazidagi kvartira",
-          "Yotoqxona"
+          "Çok büyük/pahalı ve uzak olmaları",
+          "Çok küçük olmaları",
+          "Çok ucuz olmaları",
+          "Hiç sorun yoktu"
          ],
-         "correct_index": 2
+         "correct_index": 0
         },
         {
-         "question": "Nega ular kelisha olmayapti?",
+         "question": "Sonunda hangi ev satın alındı?",
          "options": [
-          "Pul yo'q",
-          "Har biri o'z tanloviga tarafdor",
-          "Emlakchi yo'q",
-          "Yaren xohlamaydi"
+          "Merkezde bir daire",
+          "Kiralık ev",
+          "Köydeki bir ev",
+          "Şehre yirmi dakika uzaklıkta küçük bahçeli iki katlı ev"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Yaren'in çıkardığı ders nedir?",
+         "options": [
+          "Ev almak zordur",
+          "Uzlaşmak iki tarafın da kazandığı bir yol bulmaktır",
+          "Tartışmak yararsızdır",
+          "Her zaman biri haklıdır"
          ],
          "correct_index": 1
         }
@@ -4341,38 +4561,58 @@
        }
       ],
       "reading": {
-       "title": "Sürpriz!",
-       "text": "Asuman Hanım, Mustafa Bey ve torunları uzun araştırma yaptılar ama istedikleri gibi bir ev bulamadılar. O sabah kahvaltı sofrasında yine ev meselesini tartışıyorlardı. Tam bu sırada kapı çalındı. Gelen oğulları Kemal'di; elindeki çantadan bir tapu belgesi çıkardı ve annesine verdi.\n\nKemal bir apartmandan bir daire satın almıştı ve bu daireyi anne ve babasına hediye etti. Anne ve baba hem çok şaşırdılar hem çok mutlu oldular. Birkaç gün sonra buzdolabını servis görevlisine yerleştirttiler. Görevli, garanti belgesini de imzalattı.",
+       "title": "Sürpriz hediye",
+       "text": "Asuman Hanım, Mustafa Bey ve torunları Yaren, ev almak için aylarca araştırma yapmışlardı. Birçok emlakçıyı gezmiş, internet ve gazete ilanlarına bakmış, komşularına sormuş, ama bir türlü istedikleri gibi bir ev bulamamışlardı. Her akşam kahvaltı sofrasında yine aynı konu konuşuluyor, kimse uzlaşamıyordu.\n\nO sabah da böyle başladı. Tam bu sırada kapı çalındı. Kapıda oğulları Kemal duruyordu; elinde küçük bir çanta vardı. Kemal çantadan bir tapu belgesi çıkarıp annesine uzattı. “Bir apartmandan daire satın aldım. Bu daireyi size hediye etmek istiyorum,” dedi.\n\nAnne ve baba önce ne diyeceklerini bilemediler. Asuman Hanım gözyaşlarını tutamadı, Mustafa Bey ise oğluna sımsıkı sarıldı. Yaren bu manzarayı izlerken telefonuyla fotoğraf çekmeyi ihmal etmedi. Birkaç dakika sonra herkes aynı anda konuşmaya başladı: Hangi kat, kaç oda, hangi renk?\n\nBirkaç gün sonra yeni evlerine yerleşmeye başladılar. Mutfak eşyalarından başladıkları alışverişte, en önce bir buzdolabı aldılar. Servis görevlisi buzdolabını yerleştirip beş yıllık garanti belgesini imzalattı. Asuman Hanım garanti belgesini dikkatle okudu: Kullanma kılavuzuna uygun kullanıldığı sürece, arızalar ücretsiz onarılacaktı. Mustafa Bey ise gülerek, “Asıl garanti,” dedi, “bu ailenin birbirine olan bağlılığı.” ",
        "questions": [
         {
-         "question": "Kemal ota-onasiga nima sovg'a qildi?",
+         "question": "Aile neden ev bulamıyordu?",
          "options": [
-          "Mashina",
-          "Sayohat",
-          "Kvartira",
-          "Tort"
-         ],
-         "correct_index": 2
-        },
-        {
-         "question": "Ular avval nima qilishdi?",
-         "options": [
-          "Uzoq izlanishdi, uy topolmadi",
-          "Pul yig'ishdi",
-          "Ko'chib ketishdi",
-          "Emlakchi bo'lishdi"
-         ],
-         "correct_index": 0
-        },
-        {
-         "question": "Servis xodimi nimani imzolatdi?",
-         "options": [
-          "Ijara shartnomasini",
-          "Kafolat hujjatini",
-          "Pasportni",
-          "Qarz xatini"
+          "Ev istemiyorlardı",
+          "İstedikleri gibi bir ev çıkmıyordu",
+          "Emlakçı yoktu",
+          "Para yoktu"
          ],
          "correct_index": 1
+        },
+        {
+         "question": "Kemal anne babasına ne verdi?",
+         "options": [
+          "Para",
+          "Bir daireye ait tapu belgesi",
+          "Bir mektup",
+          "Bir araba"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Yaren o sırada ne yaptı?",
+         "options": [
+          "Ağlamaya başladı",
+          "Fotoğraf çekmeyi ihmal etmedi",
+          "Odadan çıktı",
+          "Kapıyı kapadı"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Buzdolabının garantisi kaç yıldır?",
+         "options": [
+          "İki yıl",
+          "Beş yıl",
+          "On yıl",
+          "Bir yıl"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Mustafa Bey'in son cümlesi ne anlama geliyor?",
+         "options": [
+          "Buzdolabı iyi değildir",
+          "Garanti belgesi gereksizdir",
+          "Asıl güven ailenin birbirine bağlılığıdır",
+          "Ev alınmamalıdır"
+         ],
+         "correct_index": 2
         }
        ]
       },
@@ -4729,37 +4969,57 @@
       ],
       "reading": {
        "title": "Parmaklarıyla gören adam",
-       "text": "Eşref Armağan doğuştan görme engelli bir ressam. Hiçbir zaman gün batımını, baharın renklerini görmedi ama mükemmel eserler yarattı. İstanbul'da, Fatih'te doğdu. Yazmayı kendi kendine öğrendi. Bütün gün dükkânda çalışarak babasına yardım etti, boş zamanında da resim yaptı.\n\nOn sekiz yaşında parmaklarıyla yağlı boya resim yapmaya başladı. Eserleri Türkiye'de ve yurt dışındaki sergilerde yer aldı. Harvard Üniversitesi onu özel olarak davet etti. Eserlerini gören herkes büyüleniyor.",
+       "text": "Eşref Armağan, dünya çapında çok özel bir ressamdır. Eserleri hem Türkiye'de hem de yurt dışındaki sergilerde yer almıştır. Onu diğer sanatçılardan ayıran özellik, doğuştan görme engelli olmasına rağmen mükemmel resimler yapabilmesidir. Hiçbir zaman gün batımını, baharın renklerini ya da çiçek açan doğayı görmedi; ama bütün bunları fırça darbeleriyle tuvale taşıdı.\n\nİstanbul'da, Fatih'in mütevazı mahallelerinden birinde dünyaya geldi. Ne çocukluğunda ne de yetişkinliğinde kimse ona resim yapmayı öğretti. Yazmayı da kendi kendine öğrendi. Gün boyunca babasının dükkânında baca boruları keserek çalışır, boş zamanlarında ise kâğıt üzerine kalemle resim çizerdi. On sekiz yaşında parmaklarıyla yağlı boya resim yapmaya başladı. Zamanla yağlı boyadan akrilik boyaya ve tuvale geçti. Elleri artık onun gözü olmuştu.\n\nÜnü yayıldıkça, dünyanın önemli üniversiteleri ve müzeleri onu davet etmeye başladı. Harvard Üniversitesi, bir sanatçının görmeden perspektifi nasıl öğrendiğini araştırmak için onu özel olarak çağırdı. Bilim insanları, Armağan'ın beyninin görme duyusu olmadan da görüntü oluşturabildiğini fark ettiler. Bu keşif, insan beyninin ne kadar esnek olduğunu gösterdi.\n\nArmağan bugün sadece resim yapmakla kalmıyor, aynı zamanda binlerce kişiye ilham veriyor. Gençlere sık sık şunu söylüyor: “Engel, çoğu zaman dışımızda değil, kafamızdadır. Eğer bir şeyi gerçekten istiyorsak, yolunu mutlaka buluruz.” ",
        "questions": [
         {
-         "question": "Eshref Armag'an qanday rassom?",
+         "question": "Eşref Armağan'ı diğer ressamlardan ayıran özellik nedir?",
          "options": [
-          "Haykaltarosh",
-          "Tug'ma ko'rmaydigan rassom",
-          "Yozuvchi",
-          "Karnay chaluvchi"
+          "Çok zengin olması",
+          "Doğuştan görme engelli olmasına rağmen resim yapması",
+          "Yurt dışında yaşaması",
+          "Çok genç olması"
          ],
          "correct_index": 1
         },
         {
-         "question": "U 18 yoshida nima qila boshladi?",
+         "question": "Resim yapmayı nasıl öğrendi?",
          "options": [
-          "Suzishni",
-          "Barmoqlari bilan yog'li bo'yoqda rasm chizishni",
-          "Yozishni",
-          "Musiqa chalishni"
+          "Kendi kendine, kimse öğretmeden",
+          "Babasından",
+          "Üniversitede",
+          "Özel kurstan"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Harvard Üniversitesi onu neden davet etti?",
+         "options": [
+          "Görmeden perspektifi nasıl öğrendiğini araştırmak için",
+          "Ona burs vermek için",
+          "Resim satın almak için",
+          "Ona ders vermesi için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "'Elleri artık onun gözü olmuştu' cümlesi ne anlama gelir?",
+         "options": [
+          "Elleri hastaydı",
+          "Elleriyle dünyayı algılıyor ve resmediyordu",
+          "Gözlük taktı",
+          "Gözleri iyileşti"
          ],
          "correct_index": 1
         },
         {
-         "question": "Garvard universiteti nima qildi?",
+         "question": "Armağan gençlere ne söylüyor?",
          "options": [
-          "Hech narsa",
-          "Uni maxsus taklif qildi",
-          "Uni rad etdi",
-          "Unga pul berdi"
+          "Engelli olanlar resim yapamaz",
+          "Hiç çalışmamak gerekir",
+          "Çok para kazanmak gerekir",
+          "Engel çoğu zaman kafamızdadır, istersek yolunu buluruz"
          ],
-         "correct_index": 1
+         "correct_index": 3
         }
        ]
       },
@@ -5111,36 +5371,56 @@
        }
       ],
       "reading": {
-       "title": "Yağmur Adam",
-       "text": "Charlie bencil bir şehir çocuğudur. Los Angeles'ta yaşar ve ithal araba satar. Senelerdir babasını görmemiştir. Babası ölünce cenazesinde kendisine miras olarak sadece eski bir araba kaldığını öğrenir. Babası bütün parayı ağabeyi Raymond'a bırakmıştır. Raymond otistik bir dâhidir ve bakıma muhtaçtır.\n\nCharlie mirastan vazgeçmek niyetinde değildir. Raymond'u klinikten alıp ülke çapında bir seyahate çıkar. Yol boyunca ağabeyinin takıntıları onu çileden çıkarır ama matematikteki olağanüstü yeteneği karşısında hayrete düşer. Bu yolculukta Charlie hem Raymond'u hem de kendini tanır.",
+       "title": "Yağmur Adam: iki kardeşin yolculuğu",
+       "text": "“Yağmur Adam”, dünya sinemasının en çok konuşulan filmlerinden biridir. Hikâyenin kahramanı Charlie, Los Angeles'ta yaşayan bencil bir genç adamdır; ithal araba satarak para kazanır ve yıllardır babasıyla görüşmemiştir. Babası ölünce cenazeye katılır ve kendisine miras olarak yalnızca eski bir arabanın kaldığını öğrenir. Babası bütün parasını, Charlie'nin hiç haberi olmayan bir ağabeyine bırakmıştır.\n\nBu ağabey Raymond, otistik bir dâhidir. Matematik ve ezberleme konusundaki yeteneği olağanüstüdür, ama günlük hayatta yardıma muhtaçtır ve bir klinikte yaşamaktadır. Charlie önce miras hakkından vazgeçmeyi düşünmez; Raymond'u klinikten izinsiz alıp ülke çapında bir yolculuğa çıkarır. Amacı, kardeşi üzerinden paranın bir kısmını almaktır.\n\nYol boyunca Raymond'un takıntıları Charlie'yi çileden çıkarır: Her akşam aynı saatte aynı televizyon programını izlemek zorundadır, belirli yiyeceklerden başkasını yemez. Ancak Charlie, ağabeyinin sayıları nasıl hatırladığını görünce hayrete düşer ve bu yeteneği kumarhanelerde kullanmaya karar verir. Yavaş yavaş, bu yolculukta sadece para kazanmakla kalmayıp bir kardeş de kazandığını anlar.\n\nFilmin sonunda Charlie artık parayı değil, ağabeyini kaybetmemeyi düşünür. Hikâye, bencil bir insanın bile sevgi ve sabır sayesinde nasıl değişebileceğini çok etkileyici bir şekilde anlatır. Bu yüzden film hâlâ izleyicilere ilham vermeye devam ediyor.",
        "questions": [
         {
-         "question": "Charli kim?",
+         "question": "Charlie filmin başında nasıl biridir?",
          "options": [
-          "Xudbin shahar yigiti",
-          "Muallim",
-          "Shifokor",
-          "Politsiyachi"
+          "Yardımsever bir doktor",
+          "Çok çalışkan bir öğrenci",
+          "Bencil ve parayı düşünen biri",
+          "Cömert bir iş adamı"
          ],
-         "correct_index": 0
+         "correct_index": 2
         },
         {
-         "question": "Charli nima meros oladi?",
+         "question": "Charlie babasından ne miras alır?",
          "options": [
-          "Hamma pulni",
-          "Hech narsa",
-          "Uyni",
-          "Faqat eski mashina"
+          "Büyük bir ev",
+          "Hiçbir şey",
+          "Bütün para",
+          "Eski bir araba"
          ],
          "correct_index": 3
         },
         {
-         "question": "Raymondning qanday qobiliyati bor?",
+         "question": "Raymond'un özelliği nedir?",
          "options": [
-          "Rassomlik",
-          "Musiqa",
-          "Matematika va yodlashda g'ayrioddiy",
-          "Sport"
+          "Çok güçlü bir sporcu",
+          "Ünlü bir müzisyen",
+          "Zengin bir iş adamı",
+          "Otistik bir dâhi, matematik ve ezber yeteneği olağanüstü"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Charlie neden Raymond'u klinikten alır?",
+         "options": [
+          "Miras parasının bir kısmını almak için",
+          "Doktorların isteği olduğu için",
+          "Onu gezdirmek için",
+          "Ona ders vermek için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Filmin ana mesajı nedir?",
+         "options": [
+          "Yalnız yaşamak daha iyidir",
+          "Para her şeydir",
+          "Sevgi ve sabır insanı değiştirebilir",
+          "Kardeşlik önemsizdir"
          ],
          "correct_index": 2
         }
@@ -5493,38 +5773,58 @@
        }
       ],
       "reading": {
-       "title": "Zirveye tırmanan adam",
-       "text": "On üç yaşında görme yetisini tamamen kaybeden Erik Weihenmayer, ülkesinde öğretmenlik ve güreş antrenörlüğü yapıyordu. Adını tarihe 2001 yılında Everest'e tırmanarak yazdırdı. Böylece dünyanın en yüksek zirvesine tırmanan ilk görme engelli oldu. Bu onu durdurmadı: 2008'de yedi kıtanın en yüksek zirvelerine çıkan dünya çapında bir sporcu oldu.\n\nEngelli bireylerle karşılaştığımızda onlara nasıl yardım edeceğimizi bilmek gerekir. Görme engelli birine adres tarif ederken açık konuşmalı, tekerlekli sandalye kullanan birine yardım ederken önce ona sormalıyız. Engelleri aşmak için hem kendimiz çalışmak hem de toplum olarak destek olmak şart.",
+       "title": "Zorlukların üstesinden gelmek",
+       "text": "On üç yaşında görme yetisini tamamen kaybeden Erik Weihenmayer, ülkesinde öğretmenlik ve güreş antrenörlüğü yapıyordu. Adını tarihe ilk olarak 2001 yılında yazdırdı: Dünyanın en yüksek zirvesi Everest'e tırmanan ilk görme engelli kişi oldu. Ancak bu başarı onu durdurmadı. Hong Kong, İsviçre, Tayland ve Şili'deki zirvelere de tırmandı ve 2008 yılında yedi kıtanın en yüksek zirvesine ulaşmayı başardı.\n\nErik, bu yolculuklarda zorluklarla başa çıkabilmek için özel yöntemler geliştirdi. Ekip arkadaşları onun önünde zil takarak yürüyor, böylece zil sesinden yönünü buluyordu. Ayrıca her tırmanıştan önce aylarca sıkı bir fiziksel hazırlık yapıyor, zihinsel olarak da kendini eğitiyordu. Ona göre başarının sırrı, zor olduğunu bilmek ama yine de denemekten vazgeçmemekti.\n\nErik'in hikâyesi sadece dağcılıkla ilgili değildir. Dünyada milyonlarca engelli birey, her gün sokakta, okulda ve iş yerinde çeşitli engellerle karşılaşıyor. Tekerlekli sandalye kullanan biri için bir basamak bile aşılmaz bir duvar olabilir. Bu yüzden toplum olarak rampalar, asansörler ve görme engelliler için özel yollar yapmak zorundayız.\n\nEngelli bir kişiye yardım etmek isteyenler ise şunlara dikkat etmelidir: Önce yardımın gerekip gerekmediğini sormalı, sonra nasıl yardım edebileceğini öğrenmelidir. Çünkü iyi niyetli ama yanlış bir yardım, bazen yardımsızlıktan daha zor olabilir.",
        "questions": [
         {
-         "question": "Erik necha yoshida ko'rish qobiliyatini yo'qotgan?",
+         "question": "Erik Weihenmayer neyi ilk kez başardı?",
          "options": [
-          "50 yoshida",
-          "3 yoshida",
-          "30 yoshida",
-          "13 yoshida"
+          "Denizi yüzerek geçti",
+          "Roman yazdı",
+          "Dünya turu yaptı",
+          "Everest'e tırmanan ilk görme engelli oldu"
          ],
          "correct_index": 3
         },
         {
-         "question": "U qaysi cho'qqiga 2001 yilda chiqdi?",
+         "question": "Erik tırmanışlarda yönünü nasıl buluyordu?",
          "options": [
-          "Kilimanjaroga",
-          "Elbrusga",
-          "Everestga",
-          "Alpga"
+          "Haritayla",
+          "Gözlükle",
+          "Rehberi kitapla",
+          "Arkadaşlarının taktığı zillerin sesiyle"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Erik'e göre başarının sırrı nedir?",
+         "options": [
+          "Zorluğu bilip yine de denemekten vazgeçmemek",
+          "Tek başına çalışmak",
+          "Çok para harcamak",
+          "Hiç zorlanmamak"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Metne göre tekerlekli sandalye kullanan biri için ne büyük sorun olabilir?",
+         "options": [
+          "Kalabalık",
+          "Hava durumu",
+          "Bir basamak",
+          "Sinema"
          ],
          "correct_index": 2
         },
         {
-         "question": "Yordam berishdan oldin nima qilish kerak?",
+         "question": "Engelli bir kişiye yardım ederken önce ne yapılmalı?",
          "options": [
-          "Avval so'rash",
-          "Bosh silkitish",
-          "Hech narsa",
-          "Qochish"
+          "Hemen kolundan tutulmalı",
+          "Başkasına söylenmeli",
+          "Yardıma ihtiyacı olup olmadığı sorulmalı",
+          "Yardım edilmemeli"
          ],
-         "correct_index": 0
+         "correct_index": 2
         }
        ]
       },
@@ -5882,36 +6182,56 @@
        }
       ],
       "reading": {
-       "title": "Uykudaki dünyamız: rüyalar",
-       "text": "Rüya, çağlar boyunca insanlar tarafından hep merak edilmiş. Peki niçin rüya görürüz? Kimilerine göre insan, rüyalarında korkularını, mutluluklarını, üzüntülerini görür. Kimileri rüyaların zihnimizi temizlediğini düşünüyor. Rüyalar çok kısa sürede görülür. Dr. Klein bir araştırmasında en uzun rüyanın 90 saniye sürdüğünü açıklamıştır.\n\nUyandığınızda rüyanızı tamamen hatırlamayabilirsiniz. Bu vücudumuzun kendini korumaya yönelik bir önlemidir. Her rüyanın yorumu aynı değildir; çünkü rüyalar yaşantımızla ilgilidir. Her insanın yaşantısı farklıdır, bu nedenle aynı rüyaların yorumları farklı olur.",
+       "title": "Uykunun gizemli dünyası",
+       "text": "İnsanlar yüzyıllardır rüyaların ne olduğunu ve neden gördüğümüzü anlamaya çalışıyor. Bilim henüz kesin bir cevap vermiyor, ama farklı kuramlar var. Bir kuramı savunanlara göre rüyalar, gün boyunca zihnimize dolan bilgilerin gece düzenlenmesi sırasında ortaya çıkar. Başka bir görüşe göre ise rüya, korku, sevinç ve üzüntü gibi duygularımızın güvenli bir ortamda yaşanmasıdır.\n\nRüyaların ilginç bir yönü de sürelerinin çok kısa olmasıdır. Sabah on beş dakika boyunca anlattığımız rüya, aslında birkaç saniye içinde görülmüş olabilir. Araştırmacılara göre en uzun rüya bile bir buçuk dakikayı geçmez. Uyandığımızda çoğu rüyayı unutmamız ise doğal bir durumdur. Eğer bütün rüyaları hatırlasaydık, gerçekte yaşadıklarımızı rüyada gördüklerimizden ayırmakta zorlanabilirdik.\n\nTarihte rüyaların geleceği önceden gösterdiğine inanılan örnekler vardır. En çok anlatılan hikâyelerden biri, Amerikan başkanı Abraham Lincoln'e aittir. Rivayete göre Lincoln, suikasta uğramadan günler önce, sarayda herkesin yas tuttuğu bir rüya görmüş ve bunu yakınlarına anlatmıştır. Bu hikâyenin ne kadarının doğru olduğu tartışılsa da insanların rüyalara verdiği önemi gösterir.\n\nRüyaları yorumlamak ise kolay değildir; çünkü her insanın deneyimleri farklıdır. Bir kişi için denizin görülmesi huzur anlamına gelirken, başka biri için korkuyu hatırlatabilir. Bu yüzden uzmanlar, hazır rüya sözlüklerinden çok kişinin kendi hayatını ve duygularını dikkate almayı öneriyor.",
        "questions": [
         {
-         "question": "Tush qancha davom etadi?",
+         "question": "Metne göre rüyalar hakkında bilim ne diyor?",
          "options": [
-          "Bir necha soniya, eng uzuni ~90 soniya",
-          "Butun kecha",
-          "Bir necha soat",
-          "Bir hafta"
+          "Her şeyi biliyor",
+          "Sadece çocuklar görür",
+          "Rüya diye bir şey yok",
+          "Kesin bir cevap yok, farklı kuramlar var"
          ],
-         "correct_index": 0
+         "correct_index": 3
         },
         {
-         "question": "Nega tushni to'liq eslay olmaymiz?",
+         "question": "Rüyaların süresi hakkında doğru olan hangisi?",
          "options": [
-          "Uyqusizlik",
-          "Bu tananing o'zini himoya qilish usuli",
-          "Yoshlik",
-          "Kasallik"
+          "Hiç ölçülemez",
+          "Bir gün sürer",
+          "Saatlerce sürer",
+          "Çok kısadır, en uzunu bile bir buçuk dakikayı geçmez"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Bütün rüyaları hatırlasaydık ne olabilirdi?",
+         "options": [
+          "Hiç unutmazdık",
+          "Gerçek ile rüyayı ayırmak zorlaşırdı",
+          "Hiç uyuyamazdık",
+          "Daha mutlu olurduk"
          ],
          "correct_index": 1
         },
         {
-         "question": "Nega bir xil tushning sharhlari farq qiladi?",
+         "question": "Lincoln hikâyesi metinde nasıl sunuluyor?",
          "options": [
-          "Tushlar yolg'on",
-          "Sharhlovchilar bilmaydi",
-          "Tushlar bir xil emas",
-          "Har kimning hayot tajribasi boshqa"
+          "Hiç anlatılmıyor",
+          "Kesin bir bilimsel gerçek olarak",
+          "Bir roman olarak",
+          "Rivayet olarak, doğruluğu tartışmalı"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Uzmanlar rüya yorumlarken ne yapmayı öneriyor?",
+         "options": [
+          "Sadece başkalarına sormayı",
+          "Hazır sözlük kullanmayı",
+          "Hiç yorumlamamayı",
+          "Kişinin kendi hayatını ve duygularını dikkate almayı"
          ],
          "correct_index": 3
         }
@@ -6263,38 +6583,58 @@
        }
       ],
       "reading": {
-       "title": "Anket sonuçları",
-       "text": "İnsanlar zevklerine ve ilgilerine göre çeşitli hobiler bulurlar. Hobiler insanları günlük hayatın stresinden kurtarır. Bazı kitaplar sinema perdesine aktarılır. Türkiye'de bir internet sayfası tarafından yapılan ankette, \"Bir kitabın filmi çıkınca kitap değil, kitabın filmi tercih ediliyor\" sonucuna ulaşılmış.\n\nAynı ankette insanlara \"Hangi filmleri tercih ediyorsunuz?\" sorusu da sorulmuş. Türkiye'nin yüzde 26'sı aksiyon filmlerini, yüzde 24'ü macera filmlerini, yüzde 21'i romantik filmleri, yüzde 20'si bilim-kurgu filmlerini, yüzde 9'u diğer filmleri tercih ediyor.",
+       "title": "Film dünyası ve anket sonuçları",
+       "text": "İnsanlar hobi seçerken zevklerini, ihtiyaçlarını ve ilgilerini göz önünde bulundururlar. Kimileri fotoğraf çekmekten, kimileri gezip yeni yerler görmekten, kimileri de spor yapmaktan büyük keyif alır. Hobiler insanları günlük hayatın stresinden kurtarır ve kendilerini ifade etmelerine yardımcı olur.\n\nHobiler arasında en çok tercih edilenlerden biri kitap okumak ve film izlemektir. Çünkü bu iki etkinlik için fazla enerji harcamak gerekmez; kitap okurken ya da film izlerken günlük hayattaki sıkıntılardan uzaklaşırsınız. Bazı kitaplar zamanla sinema perdesine aktarılır. Türkiye'de bir internet sayfası tarafından yapılan bir ankette “Bir kitabın filmi çıkınca insanlar kitabı değil, filmi tercih ediyor” sonucuna ulaşılmıştır.\n\nAynı ankette katılımcılara hangi film türlerini sevdikleri de sorulmuş. Sonuçlara göre Türkiye'de insanların yüzde 26'sı aksiyon filmlerini, yüzde 24'ü macera filmlerini, yüzde 21'i romantik filmleri, yüzde 20'si bilim-kurgu filmlerini tercih ediyor. Geriye kalan yüzde dokuz ise diğer türlerden hoşlanıyor.\n\nUzmanlar, film türünün seçilmesinde duygusal ihtiyacın etkili olduğunu söylüyor. Gülmek ve eğlenmek isteyenler komedi izliyor, geçmişin gerçeklerini öğrenmek isteyenler tarihî filmlere yöneliyor, heyecan arayanlar ise korku ve gerilim filmlerini seçiyor. Ayrıca insanların yeni teknolojiyi merak ettikleri dönemlerde bilim-kurgu filmlerine ilgi artıyor.",
        "questions": [
         {
-         "question": "Aksiyon filmlarni necha foiz afzal ko'radi?",
+         "question": "Hobiler insanlara ne sağlar?",
          "options": [
-          "9%",
-          "26%",
-          "21%",
-          "50%"
+          "Daha çok para",
+          "Daha çok iş",
+          "Daha az arkadaş",
+          "Günlük hayatın stresinden kurtulmayı"
          ],
-         "correct_index": 1
+         "correct_index": 3
         },
         {
-         "question": "Kitobdan film chiqsa nimani afzal ko'rishadi?",
+         "question": "Ankete göre kitabın filmi çıkınca insanlar neyi tercih ediyor?",
          "options": [
-          "Filmni",
-          "Ikkalasini",
-          "Kitobni",
-          "Hech narsani"
+          "Filmi",
+          "İkisini de",
+          "Hiçbirini",
+          "Kitabı"
          ],
          "correct_index": 0
         },
         {
-         "question": "Hobbilar nimadan qutqaradi?",
+         "question": "Türkiye'de en çok tercih edilen film türü hangisidir?",
          "options": [
-          "Uyqudan",
-          "Maktabdan",
-          "Ishdan",
-          "Kundalik hayot stressidan"
+          "Aksiyon (yüzde 26)",
+          "Bilim-kurgu",
+          "Komedi",
+          "Romantik"
          ],
-         "correct_index": 3
+         "correct_index": 0
+        },
+        {
+         "question": "Geçmişteki gerçekleri öğrenmek isteyenler hangi tür filmi izler?",
+         "options": [
+          "Bilim-kurgu",
+          "Komedi filmleri",
+          "Tarihî filmler",
+          "Korku filmleri"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Metinde film türü seçimini ne etkiliyor?",
+         "options": [
+          "Sinemanın fiyatı",
+          "Havanın durumu",
+          "Duygusal ihtiyaçlar",
+          "Filmin uzunluğu"
+         ],
+         "correct_index": 2
         }
        ]
       },
@@ -6644,36 +6984,56 @@
        }
       ],
       "reading": {
-       "title": "Çiçek festivali",
-       "text": "Sincan, Ankara'nın en köklü ilçelerinden biridir. Şehir merkezine 27 kilometre uzaklıktadır. İnsanlar Sincan'a göç ederken buraya lale soğanları getirir ve lale soğanları ekilir. O gün bu gündür Sincan'da lale yetiştirilir; lale Sincan'ın sembolü olmaya başlar.\n\nSincan'da her yıl 22-25 Nisan tarihleri Lale Haftası olarak kutlanır. Bu tarihlerde Lale Meydanı'nda \"Uluslararası Lale Festivali\" düzenlenir. Çiçekçiler lalelerini yarıştırır; \"En Güzel Lale\", \"En Güzel Lale Bahçesi\" ve \"En İyi Lale Üreticisi\" ödülleri verilir.",
+       "title": "İki çiçek festivali",
+       "text": "Ankara'nın Sincan ilçesi, lale festivaliyle tanınır. İlçe, şehir merkezine yaklaşık yirmi yedi kilometre uzaktadır ve çok eski bir yerleşimdir. Bir zamanlar küçük bir kasaba olan Sincan'a yıllar içinde başka yerlerden insanlar göç etti. Hikâyeye göre göçmenler yanlarında lale soğanları getirdiler ve bunları bahçelere ektiler. Zamanla lale, ilçenin simgesi hâline geldi.\n\nHer yıl nisan ayında, dört gün süren Lale Haftası kutlanır. Bu günlerde meydanda büyük bir festival düzenlenir. Çiçek yetiştiriciler en güzel laleleri için yarışır; kazananlara “En Güzel Lale”, “En Güzel Lale Bahçesi” ve “En İyi Lale Üreticisi” ödülleri verilir. Festivalde ayrıca yöresel müzik dinlenir ve halk oyunları oynanır.\n\nİzmir'in Bayındır ilçesinde ise başka bir festival yapılır. Bayındır'ın toprakları çok verimli olduğu için halk yüzyıllardır tarım ve çiçekçilikle uğraşıyor. Osmanlı döneminden beri çiçek üretimi bölgenin önemli geçim kaynaklarından biridir. Çiçekle ilgili şenlikler eskiden beri yapılıyordu; 2009'da bunlar festival hâline getirildi, 2010'dan itibaren de uluslararası nitelik kazandı.\n\nBayındır Çiçek Festivali her yıl nisan ayının ortalarında yapılır. Programda konserler, yarışmalar, halk oyunları ve uçurtma şenlikleri bulunur; misafirlere yöresel yemekler ikram edilir. Festival her yıl daha fazla ilgi görüyor. Örneğin 2011 yılında bölgeyi yedi yüz bin kişi ziyaret etti.",
        "questions": [
         {
-         "question": "Lola festivali qachon o'tkaziladi?",
+         "question": "Sincan'ın simgesi nedir?",
          "options": [
-          "10 mayda",
-          "22–25 aprelda",
-          "Har yozda",
-          "1 yanvarda"
+          "Papatya",
+          "Lale",
+          "Gül",
+          "Zambak"
          ],
          "correct_index": 1
         },
         {
-         "question": "Sincan markazdan qancha uzoqda?",
+         "question": "Lale Haftası ne zaman kutlanır?",
          "options": [
-          "27 km",
-          "270 km",
-          "7 km",
-          "100 km"
+          "Ağustos ayında",
+          "Aralık ayında",
+          "Nisan ayında",
+          "Ocak ayında"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Lale festivalinde hangi ödüller verilir?",
+         "options": [
+          "En iyi film",
+          "En iyi roman",
+          "En güzel lale, bahçe ve üretici ödülleri",
+          "En iyi şarkı"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Bayındır'da çiçekçiliğin gelişme nedeni nedir?",
+         "options": [
+          "Toprakların verimli olması",
+          "İklimin soğuk olması",
+          "Fabrikaların varlığı",
+          "Çok turist gelmesi"
          ],
          "correct_index": 0
         },
         {
-         "question": "Qaysi mukofotlar beriladi?",
+         "question": "2011'de Bayındır festivalini kaç kişi ziyaret etti?",
          "options": [
-          "Eng chiroyli lola, bog' va yetishtiruvchi",
-          "Eng yaxshi qo'shiq",
-          "Eng yaxshi film",
-          "Eng yaxshi rasm"
+          "Yedi yüz bin",
+          "Yetmiş bin",
+          "Yedi milyon",
+          "Yedi bin"
          ],
          "correct_index": 0
         }
@@ -7031,38 +7391,58 @@
        }
       ],
       "reading": {
-       "title": "Haka dansı",
-       "text": "Haka dansı Yeni Zelanda'ya özgü bir dans türüdür. Maori kabilesinin dansı olan Haka ilk kez 1810 yılında ortaya çıkar. Efsaneye göre kabilenin savaş şeflerinden Rauparaha, rakip kabile savaşçılarının kendisini öldürmeye geldiğini öğrenir ve kaçmaya başlar. Bir çukura girerek saklanır. Çukurun başında onu vücudu kıllarla kaplı bir savaşçı lider bekler; bu kişi ona acır ve özgürlüğünü verir.\n\nRauparaha çukurdan çıkar ve Haka dansının sözleriyle dans etmeye başlar. Daha sonra bu dansı tüm Maorilere öğretir. Günümüzde spor salonlarında ve sahalarda bu dansın kullanımı yaygınlaşıyor. Haka dansı yapan sporcular, eğlenerek ısındıkları için mutludurlar.",
+       "title": "Savaş dansından spor sahasına: Haka",
+       "text": "Yeni Zelanda'nın yerlisi olan Maori halkının en bilinen geleneklerinden biri Haka adı verilen danstır. Eskiden savaşa gitmeden önce yapılan bu dans, bugün ülkenin kültürel kimliğini temsil eden bir sembole dönüşmüştür. Bu dansın tarihçesiyle ilgili anlatılan en meşhur hikâye, Rauparaha adlı bir kabile liderine aittir.\n\nRivayete göre Rauparaha düşmanlarından kaçarken bir çukurda saklanır. Çukurun ağzında yabancı bir adam belirir; ancak o, saklanan lideri teslim etmek yerine ona yardım eder. Güvene kavuşan Rauparaha çukurdan çıkar ve sevinçle bir dans yapar. Bu dans, Haka'nın temel hareketlerinin ve sözlerinin ilk örneği sayılır.\n\nHaka sırasında dansçılar gözlerini iri iri açarak, dillerini çıkararak ve ellerini vücutlarına vurarak sert hareketler yaparlar. Dansın en bilinen sözü, “Ka mate, ka mate” yani “Ölüyorum, ölüyorum”dur; bunu hemen ardından gelen “Ka ora, ka ora” yani “Yaşıyorum, yaşıyorum” izler. Bu sözler, ölümden kurtulmanın sevincini anlatır.\n\nGünümüzde Haka yalnızca bir savaş geleneği değildir. Yeni Zelanda'nın ünlü ragbi takımı, maçlardan önce rakiplerine karşı Haka yaparak hem kendini motive eder hem de seyircileri etkiler. Ancak bazı insanlar dansın çok saldırgan göründüğünü düşünüyor. Buna karşılık Maoriler, Haka'nın aslında saygıyı ve birlik duygusunu ifade ettiğini vurguluyor.",
        "questions": [
         {
-         "question": "Haka qaysi mamlakatga tegishli?",
+         "question": "Haka kimin geleneğidir?",
          "options": [
-          "Ispaniya",
-          "Hindiston",
-          "Yangi Zelandiya",
-          "Yaponiya"
+          "Yeni Zelanda'nın Maori halkının",
+          "İspanyolların",
+          "Hintlilerin",
+          "Japonların"
          ],
-         "correct_index": 2
+         "correct_index": 0
         },
         {
-         "question": "Haka qachon paydo bo'lgan?",
+         "question": "Rauparaha çukurda neden saklanıyordu?",
          "options": [
-          "2000-yilda",
-          "1950-yilda",
-          "1500-yilda",
-          "1810-yilda"
+          "Düşmanlarından kaçtığı için",
+          "Oyun oynadığı için",
+          "Dinlendiği için",
+          "Yemek aradığı için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "'Ka ora, ka ora' ne anlama gelir?",
+         "options": [
+          "Merhaba",
+          "Yaşıyorum, yaşıyorum",
+          "Hoşça kal",
+          "Ölüyorum"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Yeni Zelanda ragbi takımı Haka'yı neden yapar?",
+         "options": [
+          "Para kazanmak için",
+          "Yemek için",
+          "Hakeme saygı için",
+          "Kendini motive etmek ve rakibi etkilemek için"
          ],
          "correct_index": 3
         },
         {
-         "question": "Bugun Haka nima uchun ishlatiladi?",
+         "question": "Maorilere göre Haka neyi ifade eder?",
          "options": [
-          "Musiqada",
-          "Sportchilarni ruhlantirish va isitish",
-          "Kasalni davolashda",
-          "Faqat to'yda"
+          "Sadece saldırganlığı",
+          "Hiçbir şeyi",
+          "Sadece eğlenceyi",
+          "Saygıyı ve birlik duygusunu"
          ],
-         "correct_index": 1
+         "correct_index": 3
         }
        ]
       },
@@ -7414,38 +7794,58 @@
        }
       ],
       "reading": {
-       "title": "Şeker gibi bir bayram",
-       "text": "Bayramlar yaklaştığında insanlar alışverişe çıkar. Evlerde hazırlıklar başlar: temizlik yapılır, börekler ve tatlılar pişirilir. Bayram sabahı büyüklerin elleri öpülür, çocuklar harçlık alır. Gelen misafirlere çikolata ve tatlı ikram edilir.\n\nBirbirine küsen insanlar bayramlarda barışır. Şehirlerin meydanlarında kutlamalar yapılır. Hıdırellez de baharın gelişini kutlayan bir bayramdır; insanlar dileklerini kırmızı kurdeleye bağlayıp gül ağacına asar ve bir yıl boyunca dileklerinin yerine gelmesini beklerler.",
+       "title": "Bayram sevinci ve Hıdırellez",
+       "text": "Bayramlar yaklaştığında evlerde büyük bir hazırlık başlar. İnsanlar yeni kıyafetler alır, evlerini temizler, tatlı ve börek hazırlar. Bayram günü sabahleyin aile büyüklerinin elleri öpülür, çocuklara harçlık verilir ve gelen misafirlere çikolata ile tatlı ikram edilir. Küs olan insanların bayramda barışması ise çok güzel bir gelenek olarak sürdürülür.\n\nTürkiye'de kutlanan mevsim bayramlarından biri de baharın gelişini müjdeleyen Hıdırellez'dir. Her yıl 6 Mayıs'ta kutlanan bu gün, halk inanışına göre Hızır adlı iyilik sever bir kişinin yeryüzüne uğradığı gündür. Hızır'ın gittiği yerlere bolluk ve bereket getirdiğine inanılır.\n\nHıdırellez'de insanlar çeşitli dileklerde bulunur. En yaygın uygulama, dileğin kâğıda yazılıp ya da bir kurdeleye bağlanıp gül ağacının dalına asılmasıdır. Bir yıl içinde dileğin gerçekleşeceğine inanılır. Kimileri evde yiyecek kaplarının ve para keselerinin ağzını açık bırakır; çünkü bunun bereket getireceğini düşünürler. Bazı yerlerde ise gençler yakılan ateşin üzerinden atlar ve bu şekilde kötülüklerden kurtulacaklarına inanırlar.\n\nBu geleneklerin birçoğu bilimsel bir temele dayanmaz; ama insanlara umut verir ve toplumu bir araya getirir. Bayramlarda ve Hıdırellez'de herkesin ortak amacı, yeni dönemin iyilik, sağlık ve bereketle gelmesini dilemektir.",
        "questions": [
         {
-         "question": "Bayram yaqinlashganda odamlar nima qiladi?",
+         "question": "Bayram sabahı çocuklara ne verilir?",
          "options": [
-          "Ishlaydi",
-          "Uyda yotadi",
-          "Sayohatga ketadi",
-          "Xaridga chiqadi"
-         ],
-         "correct_index": 3
-        },
-        {
-         "question": "Bayramda arazlashganlar nima qiladi?",
-         "options": [
-          "Hech narsa",
-          "Yarashadi",
-          "Janjallashadi",
-          "Ketib qoladi"
+          "Kitap",
+          "Harçlık",
+          "Oyuncak",
+          "Elbise"
          ],
          "correct_index": 1
         },
         {
-         "question": "Hıdırellezda tilak nimaga bog'lanadi?",
+         "question": "Hıdırellez hangi tarihte kutlanır?",
          "options": [
-          "Toshga",
-          "Suvga",
-          "Eshikka",
-          "Qizil lentaga, gul daraxtiga"
+          "6 Mayıs'ta",
+          "1 Ocak'ta",
+          "29 Ekim'de",
+          "23 Nisan'da"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Hıdırellez'de dilekler nasıl dilenir?",
+         "options": [
+          "Yakılır",
+          "Suya atılır",
+          "Duvara yazılır",
+          "Dilek kurdeleye bağlanıp gül ağacına asılır"
          ],
          "correct_index": 3
+        },
+        {
+         "question": "Yiyecek kaplarının ağzının açık bırakılma sebebi nedir?",
+         "options": [
+          "Bereket getireceğine inanıldığı için",
+          "Yemek soğusun diye",
+          "Misafirler gelsin diye",
+          "Temizlenmesi için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Yazar bu geleneklerin önemini nasıl açıklıyor?",
+         "options": [
+          "İnsanlara umut verir ve toplumu birleştirir",
+          "Para kazandırır",
+          "Hiç önemi yoktur",
+          "Sadece çocuklar için önemlidir"
+         ],
+         "correct_index": 0
         }
        ]
       },
@@ -7795,38 +8195,58 @@
        }
       ],
       "reading": {
-       "title": "Türk düğünü",
-       "text": "Türkiye'de düğünler genellikle cuma gününden başlar ve üç gün sürer. İlk gün, damadın evine bayrak asılır ve bir sonraki gün için hazırlıklara başlanır. İkinci günün akşamı gelin evinde kına gecesi yapılır. Kına gecesinde bir eğlence düzenlenir; türküler eşliğinde geline kına yakılır.\n\nÜçüncü gün düğün günüdür. Damat ve ailesi gelini alır ve oğlan evine getirir. Damadın evinde düğün yapılır, herkes eğlenir. Düğün sonunda damat gelinin duvağını açar ve geline yüz görümlüğü takar. Böylece düğün biter.",
+       "title": "Geleneksel Türk düğünü",
+       "text": "Türkiye'de düğünler çoğu yerde birkaç gün sürer ve her günün kendine özgü âdetleri vardır. Düğünün ilk gününde damadın evinde hazırlıklar yapılır; ev süslenir ve bayrak asılır. Böylece mahalleliye yakında bir düğün olacağı duyurulur.\n\nİkinci gün, genellikle gelinin evinde kına gecesi düzenlenir. Bu gecede kadınlar bir araya gelir, türküler söylenir ve gelinin eline kına yakılır. Kınanın özelliği, ailenin gelini evlenmeden önce uğurlayışının duygusal bir töreni olmasıdır. Birçok kişi bu gecede gözyaşı döker; çünkü gelin ailesinden ayrılmaktadır.\n\nÜçüncü gün asıl düğün günüdür. Damat ve yakınları, gelini almak için kız evine gider. Gelinin ailesi, genellikle kızın ağabeyi ya da babası eliyle onu damada teslim eder. Gelin evden çıkarken kırmızı bir kuşak bağlanması, bazı yörelerde mutluluk ve uğur anlamı taşır. Daha sonra herkes damadın evine ya da düğün salonuna geçer; müzik çalınır, halay çekilir, yemekler yenir.\n\nDüğünün sonunda damat, gelinin yüzündeki duvağı açar ve ona takı ya da altın hediye eder. Buna yüz görümlüğü denir. Geleneklerin ayrıntıları bölgeden bölgeye değişse de düğünlerin ortak amacı hep aynıdır: İki aileyi birleştirmek ve bu mutluluğu birlikte kutlamak.",
        "questions": [
         {
-         "question": "Turk to'yi odatda necha kun davom etadi?",
+         "question": "Düğünün ilk günü ne yapılır?",
          "options": [
-          "Bir kun",
-          "Uch kun",
-          "Besh kun",
-          "Yetti kun"
+          "Düğün biter",
+          "Damadın evinde hazırlık yapılır ve bayrak asılır",
+          "Kına yakılır",
+          "Gelin alınır"
          ],
          "correct_index": 1
         },
         {
-         "question": "Xina kechasi qayerda o'tkaziladi?",
+         "question": "Kına gecesi neden duygusaldır?",
          "options": [
-          "Restoranda",
-          "Kelinning uyida",
-          "Masjidda",
-          "Kuyovning uyida"
+          "Müzik yüksek olduğu için",
+          "Hediye alındığı için",
+          "Yemekler güzel olduğu için",
+          "Gelin ailesinden ayrılacağı için"
          ],
-         "correct_index": 1
+         "correct_index": 3
         },
         {
-         "question": "To'y oxirida kuyov nima qiladi?",
+         "question": "Gelini kim damada teslim eder?",
          "options": [
-          "Raqsga tushadi",
-          "Duvakni ochib yuz ko'rdi taqadi",
-          "Ketib qoladi",
-          "Taklifnoma yozadi"
+          "Rehberi",
+          "Öğretmeni",
+          "Komşular",
+          "Gelinin ağabeyi veya babası"
          ],
-         "correct_index": 1
+         "correct_index": 3
+        },
+        {
+         "question": "'Yüz görümlüğü' nedir?",
+         "options": [
+          "Damadın duvağı açıp geline takı hediye etmesi",
+          "Düğün davetiyesi",
+          "Düğün yemeği",
+          "Gelinlik elbise"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Düğünlerin ortak amacı nedir?",
+         "options": [
+          "İki aileyi birleştirmek ve mutluluğu kutlamak",
+          "Yarışmak",
+          "Para kazanmak",
+          "Hediye toplamak"
+         ],
+         "correct_index": 0
         }
        ]
       },
@@ -8184,38 +8604,58 @@
        }
       ],
       "reading": {
-       "title": "Tahir ile Zühre",
-       "text": "Eski zamanlarda bir padişah vardır. Bu padişahın malı, mülkü, her şeyi vardır ama ne yazık ki çocuğu yoktur. Vezirin de çocuğu yoktur. Bir gün bir dervişle karşılaşırlar. Derviş, koynundan çıkardığı bir elmayı ikiye bölüp onlara verir. Dokuz ay on gün sonra padişahın bir kızı, vezirin de bir oğlu olur. Çocukların adını Zühre ve Tahir koyarlar. İkisi sarayda birlikte büyür, günler geçer; Zühre Tahir'e, Tahir de Zühre'ye âşık olur.\n\nAncak Zühre'nin annesi, kızını bir vezirin oğluyla değil bir padişahla evlendirmek istemektedir. Türlü hilelerle Tahir'i Mardin Kalesi'ne hapse gönderir. Tahir hapisten kaçar ve düğün evine varır. Zühre, Tahir'i görür ve çok sevinir. Kaçmaya karar verirler ama Karadiken adlı köle onları görüp padişaha haber verir. Tahir öldürülür; Zühre de onun yanında can verir.",
+       "title": "Tahir ile Zühre: bir halk hikâyesi",
+       "text": "Anadolu'nun en bilinen halk hikâyelerinden biri Tahir ile Zühre'dir. Hikâye, çocuğu olmayan bir padişahla veziri arasında başlar. İkisi de çok varlıklıdır, ama evlat hasretiyle yaşamaktadır. Bir gün yolda karşılaştıkları derviş, onlara bir elma verir; elmanın yarısını padişah, yarısını vezir yer. Kısa süre sonra padişahın bir kızı, vezirin bir oğlu olur ve çocuklara Zühre ile Tahir adı verilir.\n\nİki çocuk aynı sarayda büyür ve zamanla birbirlerine âşık olur. Ancak padişahın karısı kızını bir vezirin oğluyla değil, güçlü bir hükümdarla evlendirmek ister. Bu yüzden Tahir'e iftira atılır ve uzak bir kaleye hapsedilir. Yıllar sonra Tahir kaçmayı başarır ve âşık kılığında, sazıyla düğün evine gelir. İki sevgili kaçmaya karar verir.\n\nFakat Karadiken adlı bir köle, onları gizlice izleyip padişaha haber verir. Tahir yakalanır ve idam edilir. Zühre, Tahir'in cansız bedenini görünce dayanamaz ve onun yanında hayatını kaybeder. Karadiken de yaptığına pişman olarak hayatına son verir.\n\nHikâyenin sonunda Tahir ile Zühre yan yana gömülür. Halk anlatısına göre mezarlarından iki gül biter, ama Karadiken'in mezarından çıkan dikenli bir çalı bu iki gülün birleşmesini engeller. Bu motif, sevginin ölümden sonra bile engellerle karşılaşabileceğini anlatır. Halk hikâyeleri böyle olaylarla yüzyıllardır insanları duygulandırır.",
        "questions": [
         {
-         "question": "Podshohning nima yo'q edi?",
+         "question": "Padişah ve vezirin ortak sorunu neydi?",
          "options": [
-          "Moli",
-          "Farzandi",
-          "Saroyi",
-          "Mulki"
+          "Düşmanları vardı",
+          "Hasta idiler",
+          "İkisinin de çocuğu yoktu",
+          "Paraları yoktu"
+         ],
+         "correct_index": 2
+        },
+        {
+         "question": "Derviş onlara ne verdi?",
+         "options": [
+          "Bir yüzük",
+          "Bir elma",
+          "Bir kitap",
+          "Bir altın"
          ],
          "correct_index": 1
         },
         {
-         "question": "Dervish ularga nima berdi?",
+         "question": "Tahir neden hapse gönderildi?",
          "options": [
-          "Bitta kitob",
-          "Bitta qilich",
-          "Bitta uzuk",
-          "Bitta olma"
+          "Zühre'nin annesi onları ayırmak istediği için",
+          "Kaçtığı için",
+          "Hırsızlık yaptığı için",
+          "Savaşa gitmediği için"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Karadiken hikâyede ne yaptı?",
+         "options": [
+          "Hapisten kaçtı",
+          "Onlara yardım etti",
+          "Sarayı terk etti",
+          "Kaçışı padişaha haber verdi"
          ],
          "correct_index": 3
         },
         {
-         "question": "Tohirni kim topshirdi?",
+         "question": "Mezardaki dikenli çalı neyi simgeler?",
          "options": [
-          "Dervish",
-          "Zuhraning onasi",
-          "Qoradiken ismli qul",
-          "Vazir"
+          "Zenginliği",
+          "Doğanın güzelliğini",
+          "Baharın geldiğini",
+          "Sevginin ölümden sonra bile engellerle karşılaşmasını"
          ],
-         "correct_index": 2
+         "correct_index": 3
         }
        ]
       },
@@ -8571,38 +9011,58 @@
        }
       ],
       "reading": {
-       "title": "Çobanlıktan ÖSS zaferine",
-       "text": "Şanlıurfa'da çobanlık yapan Güleç ailesinin yedi çocuğundan üçü Üniversite Giriş Sınavı'nda başarılı oldu. Güleç kardeşler, kendilerini başarıya ulaştıran en önemli özelliğin düzenli çalışmaları olduğunu söylediler. Gündüzleri babamızla birlikte gidip koyunları evden alıp meralara götürüyoruz; akşam olunca ders çalışıyoruz, dediler.\n\nOkuma-yazma bilmeyen 55 yaşındaki baba Hasan Güleç, çocuklarının kendisi gibi cahil kalmamasına seviniyor. \"Ben okula hiç gitmedik; çocuklarımı okutacağım diye söz verdim. Hayatım boyunca çok çalıştım ve şimdi başardım,\" diyor.",
+       "title": "Çobanlıktan üniversiteye",
+       "text": "Şanlıurfa'da çobanlık yapan Güleç ailesinin yedi çocuğundan üçü, Üniversite Giriş Sınavı'nda başarılı oldu. Bu başarı, sadece ailenin değil bütün bölgenin gurur kaynağı oldu. Çünkü Güleç kardeşler, ders çalışmak için ne özel bir odaya ne de pahalı bir kursa sahipti.\n\nGüleç kardeşler, kendilerini başarıya ulaştıran en önemli özelliğin düzenli çalışmaları olduğunu söylediler. Gündüzleri babalarıyla birlikte gidip koyunları meralara götürüyor, akşam olunca da çadırlarının önünde ders çalışıyorlardı. Bahar aylarında bölgedeki meralarda çadırlarda kalıp çobanlık yapıyorlardı. Zehra, koyunları sağdıktan sonra da düzenli olarak çalışmaya devam ediyordu.\n\nOkuma yazma bilmeyen elli beş yaşındaki baba Hasan Güleç, çocuklarının kendisi gibi cahil kalmamasına seviniyor. “Ben okula hiç gitmedim, ama çocuklarımı okutacağım diye kendime söz verdim. Hayatım boyunca çok çalıştım ve şimdi başardım,” diyor. Anneleri ise çocuklarının sınav sabahı hiç uyuyamadığını anlatıyor.\n\nUzmanlar, bu hikâyeden çıkarılacak dersin açık olduğunu söylüyor: Başarı, imkânların çokluğundan değil, istekten ve düzenli çalışmadan gelir. Ayrıca ailenin desteği, çocukların hedeflerine ulaşmasında çok önemli bir rol oynar.",
        "questions": [
         {
-         "question": "Gulech oilasi nima bilan shug'ullanadi?",
+         "question": "Güleç ailesinin kaç çocuğu sınavda başarılı oldu?",
          "options": [
-          "Savdo",
-          "Cho'ponlik",
-          "Dehqonchilik",
-          "O'qituvchilik"
-         ],
-         "correct_index": 1
-        },
-        {
-         "question": "Bolalar muvaffaqiyat sirini nima deb bilishadi?",
-         "options": [
-          "Muntazam darsga tayyorlanishni",
-          "Omadni",
-          "Pulni",
-          "Maktabni"
+          "Üç",
+          "Bir",
+          "Hiçbiri",
+          "Yedi"
          ],
          "correct_index": 0
         },
         {
-         "question": "Ota nimadan xursand?",
+         "question": "Güleç kardeşler başarılarını neye bağlıyor?",
          "options": [
-          "Pul topganidan",
-          "Uy qurganidan",
-          "Farzandlarining savodsiz qolmaganidan",
-          "Mol-mulkdan"
+          "Pahalı kursa gitmelerine",
+          "Düzenli çalışmalarına",
+          "Şansa",
+          "Zengin olmalarına"
          ],
-         "correct_index": 2
+         "correct_index": 1
+        },
+        {
+         "question": "Baba neden mutlu?",
+         "options": [
+          "Para kazandığı için",
+          "Okula gittiği için",
+          "Ev aldığı için",
+          "Çocukları kendisi gibi cahil kalmadığı için"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Baba hayatı boyunca ne yaptı?",
+         "options": [
+          "Hiç çalışmadı",
+          "Çok çalıştı ve çocuklarını okutmaya söz verdi",
+          "Okula gitti",
+          "Yurt dışına gitti"
+         ],
+         "correct_index": 1
+        },
+        {
+         "question": "Metinden çıkan ders nedir?",
+         "options": [
+          "Şans önemlidir",
+          "Başarı istek ve düzenli çalışmadan gelir",
+          "Para her şeydir",
+          "Okul gereksizdir"
+         ],
+         "correct_index": 1
         }
        ]
       },
@@ -8956,37 +9416,57 @@
       ],
       "reading": {
        "title": "Kompozisyon",
-       "text": "Ayşe Kulin küçükken çok hayalperest bir çocuktu. Bir gün öğretmeni sınıfta kompozisyon yazdırdı. Ayşe, hayalleri hakkında uzun uzun yazdı. Birkaç gün sonra öğretmen kompozisyonları dağıttı ama Ayşe'nin yazısını diğer öğrencilere örnek olsun diye sınıfta yüksek sesle okudu.\n\nAyşe önce inanamadı: Öğretmeni onun yazısını okuyordu! Çok heyecanlandı ve sevindi. O günden sonra yazmanın kendisi için çok önemli olduğunu anladı. Bu anıyı hâlâ çok iyi hatırlıyor ve öğretmenine minnettar.",
+       "text": "Ayşe Kulin küçükken çok hayalperest bir çocuktu. Bir gün öğretmeni sınıfta kompozisyon yazdırdı. Konu, “Büyüyünce ne olmak istiyorsun?” idi. Ayşe, hayallerini uzun uzun yazdı: Bir gün kitaplar yazacak, dünyanın dört bir yanını gezecek ve insanlara hikâyeler anlatacaktı.\n\nBirkaç gün sonra öğretmen kompozisyonları dağıttı. Ayşe heyecanla bekledi, ama öğretmen onun yazısını vermeyip sınıfta yüksek sesle okumaya başladı. Ayşe önce kendi kompozisyonunu tanımadı; sonra öğretmenin onu diğer öğrencilere örnek olsun diye okuduğunu anladı. Sınıftaki öğrenciler sessizce dinledi. Bazıları kıskançlıkla baktı, bazıları ise hayranlıkla.\n\nAyşe o gün evine dönerken yolda yürüyemeyecek kadar sevinçliydi. Kendi kendine, “Keşke annem de beni şimdi görseydi,” diye düşündü. Eve gelince annesine her şeyi anlattı. Annesi onu sımsıkı sardı ve gözleri doldu.\n\nO günden sonra Ayşe yazmanın kendisi için çok önemli olduğunu anladı. Yıllar sonra ünlü bir yazar oldu ve çok sayıda roman yazdı. Röportajlarda, o günü hâlâ çok iyi hatırladığını ve öğretmenine minnettar olduğunu söylüyor. Ona göre bir çocuğa yönelik tek bir iyi söz, onun bütün hayatını değiştirebilir.",
        "questions": [
         {
-         "question": "Ayshe Kulin kichikligida qanday bola edi?",
+         "question": "Ayşe Kulin küçükken nasıl bir çocuktu?",
          "options": [
-          "Jahldor",
-          "Uyatchan",
-          "Xayolparast",
-          "Dangasa"
+          "Hayalperest",
+          "Kavgacı",
+          "Tembel",
+          "Utangaç"
+         ],
+         "correct_index": 0
+        },
+        {
+         "question": "Kompozisyonun konusu neydi?",
+         "options": [
+          "Okulun tarihi",
+          "Aile",
+          "Büyüyünce ne olmak istediği",
+          "Bayram"
          ],
          "correct_index": 2
         },
         {
-         "question": "O'qituvchi inshoni nima uchun o'qib berdi?",
+         "question": "Öğretmen Ayşe'nin yazısını neden yüksek sesle okudu?",
          "options": [
-          "Xato topish uchun",
-          "Boshqa o'quvchilarga namuna bo'lsin deb",
-          "Jazolash uchun",
-          "Hech narsa"
-         ],
-         "correct_index": 1
-        },
-        {
-         "question": "Voqeadan keyin Ayshe nimani tushundi?",
-         "options": [
-          "Yozish unga juda muhimligini",
-          "Hech narsa",
-          "Maktabni tashlashni",
-          "Yozish qiyinligini"
+          "Diğer öğrencilere örnek olsun diye",
+          "Ceza vermek için",
+          "Kayboldu diye",
+          "Hatalarını göstermek için"
          ],
          "correct_index": 0
+        },
+        {
+         "question": "'Kıskançlıkla baktılar' ifadesi ne anlama gelir?",
+         "options": [
+          "Gülümseyerek baktılar",
+          "Hiç bakmadılar",
+          "Korkarak baktılar",
+          "Ayşe'nin başarısına imrenerek baktılar"
+         ],
+         "correct_index": 3
+        },
+        {
+         "question": "Ayşe'nin hayatındaki değişikliğin nedeni nedir?",
+         "options": [
+          "Annesinin parası",
+          "Öğretmenin yazısını takdir etmesi",
+          "Okulun taşınması",
+          "Yeni bir arkadaş"
+         ],
+         "correct_index": 1
         }
        ]
       },
