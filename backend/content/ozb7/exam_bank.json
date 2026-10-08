@@ -233,16 +233,6 @@
    "correct_index": 1
   },
   {
-   "question": "Dehqonlarning shaharda nimasi bo'lgan?",
-   "options": [
-    "Hunarmandchilik rastalari va uylari",
-    "Hech narsasi yo'q",
-    "Faqat qal'alari",
-    "Faqat bog'lari"
-   ],
-   "correct_index": 0
-  },
-  {
    "question": "Mahalliy hokimliklar qaysi davr o'zgarishlari natijasida tashkil topgan?",
    "options": [
     "Qadimgi Rim davri",
@@ -304,16 +294,6 @@
   }
  ],
  "m03_04": [
-  {
-   "question": "Amudaryo qayerdan boshlanadi?",
-   "options": [
-    "Hindiqushning shimoliy yonbag'irlaridagi muzliklardan",
-    "Pomirdan",
-    "Tyanshandan",
-    "Oltoydan"
-   ],
-   "correct_index": 0
-  },
   {
    "question": "Xorazm qaysi davlat tarkibidan ajralib chiqqan?",
    "options": [
@@ -405,16 +385,6 @@
    "correct_index": 2
   },
   {
-   "question": "Olim Istaxriy Xorazm haqida nima degan?",
-   "options": [
-    "Tog'li o'lka",
-    "Cho'l o'lkasi",
-    "Jayhunning butun foydasini ola bilgan mamlakat",
-    "Dengiz bo'yi mamlakati"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Xorazm aholisi xo'jalik hayotida asosan nimalar muhim edi?",
    "options": [
     "Baliq, qovun, qovoq, jiyda va tut",
@@ -463,16 +433,6 @@
     "Farg'ona vodiysini",
     "Xorazmni",
     "Choch vohasini"
-   ],
-   "correct_index": 0
-  },
-  {
-   "question": "G'arb tarixchilari xioniylarni nima deb ataydi?",
-   "options": [
-    "Oq xunnlar",
-    "Qora xunnlar",
-    "Qizil xunnlar",
-    "Sariq xunnlar"
    ],
    "correct_index": 0
   },
@@ -545,26 +505,6 @@
     "Arablar"
    ],
    "correct_index": 1
-  },
-  {
-   "question": "Kidariylar tangalari qaysi yozuvda zarb etilgan?",
-   "options": [
-    "Run yozuvi",
-    "Arab yozuvi",
-    "Yunon yozuvi",
-    "Braxmiy yozuvi"
-   ],
-   "correct_index": 3
-  },
-  {
-   "question": "Toxariylar kimlarning avlodlari bo'lgan?",
-   "options": [
-    "Xioniylarning",
-    "Eftaliylarning",
-    "Kushonlarning",
-    "Saklarning"
-   ],
-   "correct_index": 2
   },
   {
    "question": "Xioniylar davlatining markazi qayer edi?",
@@ -667,16 +607,6 @@
     "Buyuk Ipak yo'lini"
    ],
    "correct_index": 3
-  },
-  {
-   "question": "Ipak yo'li savdosida vositachi rolini kimlar o'ynagan?",
-   "options": [
-    "Hindlar",
-    "Xitoyliklar",
-    "Sug'dlar",
-    "Arablar"
-   ],
-   "correct_index": 2
   },
   {
    "question": "Eftaliylar alifbosi nima asosida shakllangan?",
@@ -1075,16 +1005,6 @@
    "correct_index": 3
   },
   {
-   "question": "Toxaristonda nechta tog' va tog'oldi viloyati bo'lgan?",
-   "options": [
-    "40 ta",
-    "15 ta",
-    "27 ta",
-    "11 ta"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Toxariston poytaxti qaysi shahar edi?",
    "options": [
     "Kesh",
@@ -1287,16 +1207,6 @@
    "correct_index": 3
   },
   {
-   "question": "Eftaliylar jangda asosan qaysi qurollardan foydalangan?",
-   "options": [
-    "Gurzi, kamon, shamshir",
-    "Faqat nayza",
-    "To'p va miltiq",
-    "Faqat pichoq"
-   ],
-   "correct_index": 0
-  },
-  {
    "question": "Turk xoqonligida yigitlarga ta'lim dargohlarida nimalar o'rgatilgan?",
    "options": [
     "Faqat yozuv",
@@ -1399,16 +1309,6 @@
    "correct_index": 2
   },
   {
-   "question": "Viharalarda asosiy fan nima edi?",
-   "options": [
-    "Geometriya",
-    "Tibbiyot",
-    "Daxarma (diniy qonun-qoidalar)",
-    "Astronomiya"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Turkiy run (ko'k turk) xati necha harfdan iborat?",
    "options": [
     "28",
@@ -1449,36 +1349,6 @@
    "correct_index": 0
   },
   {
-   "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?",
-   "options": [
-    "Ziravorlar",
-    "Yozuv materiallari va kitoblar",
-    "Ipak",
-    "Oltin"
-   ],
-   "correct_index": 1
-  },
-  {
-   "question": "V asrda Samarqand va Buxoroda qaysi din tarqalgan?",
-   "options": [
-    "Islom",
-    "Konfutsiylik",
-    "Yahudiylik faqat",
-    "Xristianlik"
-   ],
-   "correct_index": 3
-  },
-  {
-   "question": "Sug'ddagi nestoriyan jamoalari hujjatlari qaysi tilda yozilgan?",
-   "options": [
-    "Arab tilida",
-    "Xitoy tilida",
-    "Sug'd tilida",
-    "Fors tilida"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Jonbosqal'a va Tuproqqal'adagi ibodatxona qanday qurshalgan?",
    "options": [
     "Bog' bilan",
@@ -1487,16 +1357,6 @@
     "Qo'sh devor bilan"
    ],
    "correct_index": 3
-  },
-  {
-   "question": "Haykaltaroshlik rivojiga qaysi din kuchli ta'sir ko'rsatgan?",
-   "options": [
-    "Buddaviylik",
-    "Zardushtiylik",
-    "Xristianlik",
-    "Islom"
-   ],
-   "correct_index": 0
   },
   {
    "question": "Yahudiylar Turonga qayerdan ko'chib kelgan?",
@@ -1651,16 +1511,6 @@
    "correct_index": 3
   },
   {
-   "question": "Arablar Movarounnahrni qancha vaqt davomida bosib olgan?",
-   "options": [
-    "Bir yil",
-    "Ikki yuz yil",
-    "Deyarli yuz yil",
-    "O'n yil"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Nima uchun arab istilosi tezlashgan?",
    "options": [
     "Turon mulklari va xoqonlikdagi vaziyat yomonlashgani va Tan hujumlari",
@@ -1739,16 +1589,6 @@
     "Porox tayyorlash",
     "Shisha yasash",
     "Qog'oz ishlab chiqarish"
-   ],
-   "correct_index": 3
-  },
-  {
-   "question": "Qog'oz asosan nimadan tayyorlangan?",
-   "options": [
-    "Yog'ochdan",
-    "Teridan",
-    "Paxtadan",
-    "Tut po'stlog'idan"
    ],
    "correct_index": 3
   },
@@ -1945,26 +1785,6 @@
    "correct_index": 1
   },
   {
-   "question": "Qarluqlar qaysi xalqlar etnogenezida muhim rol o'ynagan?",
-   "options": [
-    "Arab, fors",
-    "Turkman, ozarbayjon",
-    "Xitoy, hind",
-    "O'zbek va tojiklar"
-   ],
-   "correct_index": 3
-  },
-  {
-   "question": "O'g'uzlar qaysi xalqlar etnogenezida muhim rol o'ynagan?",
-   "options": [
-    "Turkman, ozarbayjon, qoraqalpoq",
-    "Arab, kurd",
-    "O'zbek, tojik",
-    "Hind, afg'on"
-   ],
-   "correct_index": 0
-  },
-  {
    "question": "Saljuqiylar qaysi etnos boshchiligida chiqqan?",
    "options": [
     "Xioniylar",
@@ -2007,16 +1827,6 @@
    "correct_index": 2
   },
   {
-   "question": "Ismoil Somoniy qayerda tug'ilgan?",
-   "options": [
-    "Xorazmda",
-    "Buxoroda",
-    "Farg'onada",
-    "Samarqandda"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Ismoil butun Movarounnahr hukmini qachon o'z qo'liga oldi?",
    "options": [
     "888-yilda",
@@ -2055,16 +1865,6 @@
     "Mulk devoni"
    ],
    "correct_index": 2
-  },
-  {
-   "question": "Devonlar uchun saroy qaysi amir davrida qurilgan?",
-   "options": [
-    "Ismoil",
-    "Nuh",
-    "Ahmad",
-    "Nasr II (Nasr ibn Ahmad)"
-   ],
-   "correct_index": 3
   },
   {
    "question": "Somonxudotlar shajarasi kimga borib taqaladi?",
@@ -2145,16 +1945,6 @@
     "Kumush",
     "Qog'oz",
     "Ipak"
-   ],
-   "correct_index": 2
-  },
-  {
-   "question": "Shosh qaysi mahsulotlari bilan mashhur edi?",
-   "options": [
-    "Qog'oz",
-    "Kumush",
-    "Ko'nchilik va charm mollari",
-    "Gilam"
    ],
    "correct_index": 2
   },
@@ -2473,16 +2263,6 @@
    "correct_index": 1
   },
   {
-   "question": "Qoraxoniylar siyosiy markaz sifatida qaysi shaharlarni tanlagan?",
-   "options": [
-    "Urganch va Kat",
-    "Bolosog'un va Qoshg'ar",
-    "Marv va Nishopur",
-    "Samarqand va Buxoro"
-   ],
-   "correct_index": 1
-  },
-  {
    "question": "1008-yilda Mahmud G'aznaviy qoraxoniylarni qanday yengdi?",
    "options": [
     "500 ta jangovar fili bor qo'shin bilan",
@@ -2625,16 +2405,6 @@
    "correct_index": 1
   },
   {
-   "question": "Xalifa Tug'rulbekka qanday nom bergan?",
-   "options": [
-    "Nosiriddin",
-    "Imomi A'zam",
-    "Malik al-Mashriq (Sharq hukmdori)",
-    "Yamin ud-davla"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Nizomulmulk qaysi asarning muallifi?",
    "options": [
     "\"Devonu lug'otit-turk\"",
@@ -2723,16 +2493,6 @@
     "Xalifa tayinlagani uchun"
    ],
    "correct_index": 2
-  },
-  {
-   "question": "Saljuqiylar dastlab qayerda ko'chmanchi hayot kechirgan?",
-   "options": [
-    "Xorazmda",
-    "Anadoluda",
-    "Hindistonda",
-    "Janubiy Qozog'iston yaylovlarida"
-   ],
-   "correct_index": 3
   }
  ],
  "m34_35": [
@@ -3091,26 +2851,6 @@
    "correct_index": 2
   },
   {
-   "question": "Etnik jarayon nima?",
-   "options": [
-    "Urush",
-    "Ko'chish",
-    "Kelib chiqishi yaqin qabila va elatlarning asrlar davomida qo'shilib borishi",
-    "Soliq tizimi"
-   ],
-   "correct_index": 2
-  },
-  {
-   "question": "O'zbek xalqi qaysi asrlarda shakllandi?",
-   "options": [
-    "I–IV asrlarda",
-    "IX–XII asrlarda",
-    "XVIII–XIX asrlarda",
-    "XV–XVII asrlarda"
-   ],
-   "correct_index": 1
-  },
-  {
    "question": "Shakllanishning yakuniy bosqichi qaysi davr?",
    "options": [
     "Qoraxoniylar davri",
@@ -3223,16 +2963,6 @@
    "correct_index": 0
   },
   {
-   "question": "Abu Hanifa qachon yashagan?",
-   "options": [
-    "1000–1050",
-    "699–767-yillar",
-    "870–944",
-    "810–870"
-   ],
-   "correct_index": 1
-  },
-  {
    "question": "Abu Hanifa qanday ataladi?",
    "options": [
     "Shayx ul-islom",
@@ -3291,16 +3021,6 @@
     "Hanafiylik"
    ],
    "correct_index": 0
-  },
-  {
-   "question": "Buxoro qanday nom bilan shuhrat topgan?",
-   "options": [
-    "Madinat ul-ilm",
-    "Shahri Kalon",
-    "Qubbatul islom (Islom dinining gumbazi)",
-    "Dor ul-xilofa"
-   ],
-   "correct_index": 2
   },
   {
    "question": "Quyidagilardan qaysi tariqat yurtimizda yuzaga kelgan?",
@@ -3395,26 +3115,6 @@
    "correct_index": 3
   },
   {
-   "question": "Samarqandda X asrda nechta madrasa tashkil etilgan?",
-   "options": [
-    "900 ta",
-    "4 ta",
-    "17 ta",
-    "400 ta"
-   ],
-   "correct_index": 2
-  },
-  {
-   "question": "IX asr boshlarida Balxda nechta madrasa bo'lgan?",
-   "options": [
-    "17 ta",
-    "400 ta",
-    "900 ta",
-    "40 ta"
-   ],
-   "correct_index": 1
-  },
-  {
    "question": "Boshlang'ich ta'limda bolalar necha yoshdan necha yoshgacha o'qitilgan?",
    "options": [
     "6 yoshdan 12 yoshgacha",
@@ -3431,16 +3131,6 @@
     "Faqat boylar uchun",
     "Majburiy emas",
     "Bepul"
-   ],
-   "correct_index": 3
-  },
-  {
-   "question": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari qanday atalgan?",
-   "options": [
-    "Maktab-i ali",
-    "Vihara",
-    "Hujra",
-    "Majlis"
    ],
    "correct_index": 3
   },
@@ -3931,16 +3621,6 @@
    "correct_index": 0
   },
   {
-   "question": "Al-Muqaddasiy xorazmliklar haqida nima degan?",
-   "options": [
-    "Faqat savdogarlar",
-    "Faqat dehqonlar",
-    "Jangchi xalq",
-    "Aql-idrok, ilm, fiqh va bilim kishilari"
-   ],
-   "correct_index": 3
-  },
-  {
    "question": "Xorazmiyning astronomik asarlaridan biri:",
    "options": [
     "\"Mezon\"",
@@ -4267,16 +3947,6 @@
    "correct_index": 1
   },
   {
-   "question": "Beruniy qayerda vafot etgan?",
-   "options": [
-    "Rayda",
-    "Gurganchda",
-    "G'aznada",
-    "Kotda"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "\"Beruniy\" taxallusi nimani bildiradi?",
    "options": [
     "Tog'lik",
@@ -4357,16 +4027,6 @@
    "correct_index": 0
   },
   {
-   "question": "Beruniy ikkinchi ustozi bilan qayerda tanishgan?",
-   "options": [
-    "Rayda",
-    "Buxoroda",
-    "Jurjonda",
-    "G'aznada"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Beruniy G'aznaga qanday borgan?",
    "options": [
     "Ixtiyoriy ravishda",
@@ -4429,26 +4089,6 @@
    "correct_index": 3
   },
   {
-   "question": "Ibn Sino qayerda vafot etgan?",
-   "options": [
-    "Buxoroda",
-    "Bag'dodda",
-    "Hamadonda",
-    "G'aznada"
-   ],
-   "correct_index": 2
-  },
-  {
-   "question": "G'arbda Ibn Sino qanday nom bilan mashhur?",
-   "options": [
-    "Alfraganus",
-    "Averroes",
-    "Avitsenna",
-    "Algoritm"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "Sharqda Ibn Sino qanday atalgan?",
    "options": [
     "Imomi A'zam",
@@ -4475,26 +4115,6 @@
     "X asrda; XII asrgacha",
     "XIII asrda; XIV asrgacha",
     "XVI asrda; XIX asrgacha"
-   ],
-   "correct_index": 0
-  },
-  {
-   "question": "Ibn Sino tibbiyot tarixida birinchi bo'lib nimani farqlagan?",
-   "options": [
-    "Vabo bilan ofatni",
-    "Qizamiq va chechakni",
-    "Qand kasalini",
-    "Gripp va shamollashni"
-   ],
-   "correct_index": 0
-  },
-  {
-   "question": "Ibn Sino yuqumli kasallar haqida nimani ta'kidlagan?",
-   "options": [
-    "Ularni boshqalardan ajratib saqlashni",
-    "Bepul tarqatishni",
-    "Yashirishni",
-    "Qamashni"
    ],
    "correct_index": 0
   },

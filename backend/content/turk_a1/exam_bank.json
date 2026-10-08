@@ -1,0 +1,2930 @@
+{
+ "u1a": [
+  {
+   "question": "Ertalab salomlashish uchun qaysi ibora?",
+   "options": [
+    "Hoşça kal!",
+    "İyi geceler!",
+    "Günaydın!",
+    "İyi akşamlar!"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kechqurun salomlashish uchun:",
+   "options": [
+    "İyi akşamlar!",
+    "Merhaba yok",
+    "Güle güle!",
+    "Günaydın!"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ketayotgan odam xayrlashganda nima deydi?",
+   "options": [
+    "Hoş geldiniz!",
+    "Hoşça kal!",
+    "Güle güle!",
+    "Günaydın!"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qoluvchi kishi javobi:",
+   "options": [
+    "Merhaba!",
+    "Hoş bulduk!",
+    "Güle güle!",
+    "Hoşça kal!"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Xush kelibsiz\" ga javob:",
+   "options": [
+    "Memnun oldum!",
+    "Hoş geldiniz!",
+    "Güle güle!",
+    "Hoş bulduk!"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Mening ismim Ali\" turkchada:",
+   "options": [
+    "Benim adım Ali.",
+    "Senin adın Ali.",
+    "Benim yaşım Ali.",
+    "Adın Ali mi?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Ismingiz nima?\" turkchada:",
+   "options": [
+    "Adınız ne?",
+    "Nasılsınız?",
+    "Nerelisiniz?",
+    "Kimsiniz yok."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Tanishganimdan xursandman\" turkchada:",
+   "options": [
+    "Memnun oldum.",
+    "Hoş geldiniz.",
+    "Güle güle.",
+    "İyi günler."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yaqin narsa uchun qaysi olmosh?",
+   "options": [
+    "şu",
+    "ben",
+    "bu",
+    "o"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Uzoqdagi narsa uchun qaysi olmosh?",
+   "options": [
+    "sen",
+    "bu",
+    "şu",
+    "o"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Bu nima?\" turkchada:",
+   "options": [
+    "Bu nasıl?",
+    "Bu nerede?",
+    "Bu ne?",
+    "Bu kim?"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"U kim?\" turkchada:",
+   "options": [
+    "O nerede?",
+    "O kim?",
+    "O ne?",
+    "O kaç?"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u1b": [
+  {
+   "question": "\"Men o'zbekistonlikman\" turkchada:",
+   "options": [
+    "Sen Özbekistanlısın.",
+    "Ben Özbekistan'dayım.",
+    "Ben Özbekistanlıyım.",
+    "Ben Özbekistan."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qayerlik ekanini aytish uchun nima qo'shiladi?",
+   "options": [
+    "-ler",
+    "-im",
+    "-lI",
+    "-de"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men Toshkentda yashayman\" turkchada:",
+   "options": [
+    "Taşkent'e yaşıyorum.",
+    "Taşkent yaşıyor.",
+    "Taşkent'ten yaşıyorum.",
+    "Taşkent'te yaşıyorum."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Qayerliksiz?\" turkchada:",
+   "options": [
+    "Kimsiniz?",
+    "Nerelisiniz?",
+    "Nasılsınız?",
+    "Neredesiniz?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Türkiye' + -li:",
+   "options": [
+    "Türkiyeli yoki Türk",
+    "Türkiyeler",
+    "Türkiyeden",
+    "Türkiyede"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Ikkita kitob\" turkchada:",
+   "options": [
+    "iki kitapı",
+    "iki kitap",
+    "iki kitaplar",
+    "ikiler kitap"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Son bilan ot ko'plik oladimi?",
+   "options": [
+    "Faqat so'roqda",
+    "Ha: iki kitaplar",
+    "Faqat ba'zan",
+    "Yo'q: iki kitap"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Burada' ma'nosi:",
+   "options": [
+    "u yerdan",
+    "bu yerda",
+    "qayerda",
+    "u yerda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Orada' ma'nosi:",
+   "options": [
+    "u yerda",
+    "qayerga",
+    "bu yerda",
+    "hech qayerda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Ülke' ma'nosi:",
+   "options": [
+    "shahar",
+    "qishloq",
+    "mamlakat, davlat",
+    "ko'cha"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men Istanbulda yashayman\" turkchada:",
+   "options": [
+    "İstanbul'a yaşıyorum.",
+    "İstanbul'da yaşıyorum.",
+    "İstanbul'dan yaşıyorum.",
+    "İstanbullu yaşıyorum yok."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Şehir' ma'nosi:",
+   "options": [
+    "shahar",
+    "daryo",
+    "uy",
+    "mamlakat"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u1c": [
+  {
+   "question": "Do'stga murojaatda qaysi olmosh?",
+   "options": [
+    "o",
+    "sen",
+    "siz",
+    "biz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Notanish yoki rasmiy murojaat:",
+   "options": [
+    "siz",
+    "ben",
+    "o",
+    "sen"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qalaysan?\" (samimiy):",
+   "options": [
+    "Nasılsın?",
+    "Nasılsınız?",
+    "Nerelisin?",
+    "Kimsin?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Yaxshiman\" turkchada:",
+   "options": [
+    "İyidir.",
+    "İyiyiz.",
+    "İyisin.",
+    "İyiyim."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Yomon emasman\" turkchada:",
+   "options": [
+    "Fena iyiyim.",
+    "Fena değilim.",
+    "Fena yok.",
+    "Fena değilsin."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ko'rishguncha\" turkchada:",
+   "options": [
+    "Görüşürüz.",
+    "Güle güle.",
+    "Günaydın.",
+    "Hoş geldin."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Xayrli tun\" turkchada:",
+   "options": [
+    "Günaydın.",
+    "İyi geceler.",
+    "İyi günler.",
+    "İyi akşamlar."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kechirasiz\" (e'tiborni tortish) turkchada:",
+   "options": [
+    "Memnun oldum.",
+    "Affedersiniz.",
+    "Teşekkürler.",
+    "Buyurun."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Marhamat\" turkchada:",
+   "options": [
+    "Buyurun.",
+    "Lütfen yok.",
+    "Affedersiniz.",
+    "Görüşürüz."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Besh talaba\" turkchada:",
+   "options": [
+    "beş öğrencisi",
+    "beş öğrenciler",
+    "beş öğrenci",
+    "beşler öğrenci"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Talabalar\" turkchada:",
+   "options": [
+    "öğrenci",
+    "öğrenciler",
+    "öğrencim",
+    "öğrencilik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Do'stlar\" turkchada:",
+   "options": [
+    "arkadaşa",
+    "arkadaşta",
+    "arkadaşlar",
+    "arkadaşım"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u2a": [
+  {
+   "question": "\"Mening onam\" turkchada:",
+   "options": [
+    "annem",
+    "anne",
+    "annen",
+    "anneler"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Mening otam\" turkchada:",
+   "options": [
+    "babalar",
+    "baba",
+    "baban",
+    "babam"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sening onang\" turkchada:",
+   "options": [
+    "annemiz",
+    "annem",
+    "annen",
+    "annesi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Singlim\" turkchada:",
+   "options": [
+    "ağabeyim",
+    "erkek kardeşim",
+    "ablam",
+    "kız kardeşim"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ukam\" turkchada:",
+   "options": [
+    "ağabeyim",
+    "erkek kardeşim",
+    "kız kardeşim",
+    "dayım"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Akam\" turkchada:",
+   "options": [
+    "kız kardeşim",
+    "ablam",
+    "amcam",
+    "ağabeyim"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Xolam\" (onaning singlisi) turkchada:",
+   "options": [
+    "teyzem",
+    "halam",
+    "annem",
+    "ablam"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Amakim\" (otaning akasi) turkchada:",
+   "options": [
+    "dayım",
+    "amcam",
+    "ağabeyim",
+    "babam"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kimning?\" turkchada:",
+   "options": [
+    "Nerede?",
+    "Kimin?",
+    "Kim?",
+    "Ne?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Mening\" turkchada:",
+   "options": [
+    "bizim",
+    "senin",
+    "benim",
+    "onun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Mening ikkita ukam bor\" turkchada:",
+   "options": [
+    "İki erkek kardeşim var.",
+    "Ben iki kardeşim.",
+    "İki erkek kardeşler var.",
+    "İki erkek kardeşim yok."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Singlim yo'q\" turkchada:",
+   "options": [
+    "Kız kardeşim yok.",
+    "Kız kardeşim var.",
+    "Kız kardeşim mi.",
+    "Kız kardeş yoktur var."
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u2b": [
+  {
+   "question": "\"Oshxonada\" turkchada:",
+   "options": [
+    "mutfakta",
+    "mutfağa",
+    "mutfak",
+    "mutfaktan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Uyga\" (yo'nalish) turkchada:",
+   "options": [
+    "evden",
+    "evde",
+    "eve",
+    "ev"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Maktabga\" turkchada:",
+   "options": [
+    "okuldan",
+    "okula",
+    "okul",
+    "okulda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "-de/-da qaysi savolga javob?",
+   "options": [
+    "qachon",
+    "qayerdan",
+    "qayerga",
+    "qayerda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "-e/-a qaysi savolga javob?",
+   "options": [
+    "qayerda",
+    "qayerga",
+    "qayerdan",
+    "nima"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Bog'da\" turkchada:",
+   "options": [
+    "bahçede",
+    "bahçeden",
+    "bahçe",
+    "bahçeye"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Hammom\" turkchada:",
+   "options": [
+    "mutfak",
+    "salon",
+    "balkon",
+    "banyo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Yotoqxona\" turkchada:",
+   "options": [
+    "yatak odası",
+    "salon",
+    "oturma odası",
+    "mutfak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Eshik\" turkchada:",
+   "options": [
+    "masa",
+    "pencere",
+    "kapı",
+    "sandalye"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Deraza\" turkchada:",
+   "options": [
+    "çatı",
+    "duvar",
+    "kapı",
+    "pencere"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men oshxonadaman\" turkchada:",
+   "options": [
+    "Ben mutfak.",
+    "Ben mutfaktayım.",
+    "Ben mutfağa gidiyorum.",
+    "Ben mutfaktan geliyorum."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Biz uyga ketyapmiz\" turkchada:",
+   "options": [
+    "Evden gidiyoruz.",
+    "Eve gidiyoruz.",
+    "Evde gidiyoruz.",
+    "Ev gidiyoruz."
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u2c": [
+  {
+   "question": "-den/-dan qaysi savolga javob?",
+   "options": [
+    "qayerda",
+    "nima",
+    "qayerdan",
+    "qayerga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Maktabdan\" turkchada:",
+   "options": [
+    "okul",
+    "okula",
+    "okulda",
+    "okuldan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Uydan\" turkchada:",
+   "options": [
+    "evden",
+    "eve",
+    "ev",
+    "evde"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qayerdansiz?\" turkchada:",
+   "options": [
+    "Neredensiniz?",
+    "Nereye gidiyorsunuz?",
+    "Neredesiniz?",
+    "Kimsiniz?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Manzilingiz nima?\" turkchada:",
+   "options": [
+    "Adresiniz ne?",
+    "Neredesiniz ne?",
+    "Numaranız kaç?",
+    "Adınız ne?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Iltimos\" turkchada:",
+   "options": [
+    "Teşekkürler",
+    "Lütfen",
+    "Affedersiniz",
+    "Buyurun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kel!\" turkchada:",
+   "options": [
+    "Gel!",
+    "Git!",
+    "Dur!",
+    "Otur!"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"O'tir!\" turkchada:",
+   "options": [
+    "Kalk!",
+    "Git!",
+    "Gel!",
+    "Otur!"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Cadde' va 'sokak' farqi:",
+   "options": [
+    "cadde katta ko'cha, sokak kichik",
+    "sokak shosse",
+    "cadde kichik",
+    "bir xil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men Toshkentdanman\" turkchada:",
+   "options": [
+    "Taşkent'e geliyorum.",
+    "Taşkent geliyor.",
+    "Taşkent'teyim yok.",
+    "Taşkentliyim yoki Taşkent'ten geliyorum."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Numara' ma'nosi:",
+   "options": [
+    "mahalla",
+    "raqam",
+    "ko'cha",
+    "manzil"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Mahalle' ma'nosi:",
+   "options": [
+    "ko'cha",
+    "mahalla",
+    "uy",
+    "shahar"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u3a": [
+  {
+   "question": "\"Soat necha?\" turkchada:",
+   "options": [
+    "Saat kaç?",
+    "Saat kaçta?",
+    "Saat ne?",
+    "Saat nerede?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Soat nechada?\" turkchada:",
+   "options": [
+    "Saat kaç?",
+    "Saat ne zaman yok",
+    "Saat kim?",
+    "Saat kaçta?"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Uchda\" (soat) turkchada:",
+   "options": [
+    "üçten",
+    "üçe",
+    "üçü",
+    "üçte"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ertalab\" turkchada:",
+   "options": [
+    "akşam",
+    "öğle",
+    "gece",
+    "sabah"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Kechqurun\" turkchada:",
+   "options": [
+    "sabah",
+    "gece",
+    "akşam",
+    "öğle"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men soat yettida turaman\" turkchada:",
+   "options": [
+    "Saat yediden kalkarım.",
+    "Saat yedide kalkarım.",
+    "Saat yediye kalkarım.",
+    "Saat yedi kalkıyor."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Har kuni\" turkchada:",
+   "options": [
+    "yarın",
+    "bazen",
+    "bugün",
+    "her gün"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ba'zan\" turkchada:",
+   "options": [
+    "her gün",
+    "hiçbir zaman",
+    "hep",
+    "bazen"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Yatmak' ma'nosi:",
+   "options": [
+    "turmoq",
+    "uxlamoq faqat",
+    "yemoq",
+    "yotmoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Kalkmak' ma'nosi:",
+   "options": [
+    "yotmoq",
+    "kelmoq",
+    "turmoq",
+    "ketmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men ishga ketyapman\" turkchada:",
+   "options": [
+    "İşten gidiyorum.",
+    "İşe gidiyorum.",
+    "İş gidiyorum.",
+    "İşte gidiyorum."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Gece' ma'nosi:",
+   "options": [
+    "ertalab",
+    "tun",
+    "peshin",
+    "kun"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u3b": [
+  {
+   "question": "\"Qancha?\" turkchada:",
+   "options": [
+    "Ne kadar?",
+    "Ne zaman?",
+    "Nerede?",
+    "Kaç yaş?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Necha lira?\" turkchada:",
+   "options": [
+    "Kaç lira?",
+    "Ne kadar kim?",
+    "Kaç kişi?",
+    "Kaç saat?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Yigirma\" turkchada:",
+   "options": [
+    "kırk",
+    "on",
+    "otuz",
+    "yirmi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"O'ttiz\" turkchada:",
+   "options": [
+    "otuz",
+    "kırk",
+    "elli",
+    "yirmi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qirq\" turkchada:",
+   "options": [
+    "altmış",
+    "kırk",
+    "otuz",
+    "elli"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ellik\" turkchada:",
+   "options": [
+    "yirmi",
+    "elli",
+    "altmış",
+    "kırk"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yuz\" turkchada:",
+   "options": [
+    "on",
+    "elli",
+    "bin",
+    "yüz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Qimmat\" turkchada:",
+   "options": [
+    "yeni",
+    "büyük",
+    "pahalı",
+    "ucuz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Arzon\" turkchada:",
+   "options": [
+    "küçük",
+    "ucuz",
+    "eski",
+    "pahalı"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Para' ma'nosi:",
+   "options": [
+    "narx",
+    "do'kon",
+    "pul",
+    "chek"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Bu ellik lira\" turkchada:",
+   "options": [
+    "Bu elli lirayı.",
+    "Bu lira elli?",
+    "Bu elli liradan.",
+    "Bu elli lira."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Oltmish\" turkchada:",
+   "options": [
+    "yetmiş",
+    "altmış",
+    "elli",
+    "seksen"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u3c": [
+  {
+   "question": "\"Qayerda?\" turkchada:",
+   "options": [
+    "Nasıl?",
+    "Nerede?",
+    "Ne zaman?",
+    "Kim?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Qachon?\" turkchada:",
+   "options": [
+    "Ne zaman?",
+    "Kaç?",
+    "Nerede?",
+    "Kim?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dushanba\" turkchada:",
+   "options": [
+    "pazartesi",
+    "pazar",
+    "cuma",
+    "salı"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Juma\" turkchada:",
+   "options": [
+    "perşembe",
+    "pazar",
+    "cumartesi",
+    "cuma"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Yakshanba\" turkchada:",
+   "options": [
+    "cuma",
+    "cumartesi",
+    "pazar",
+    "pazartesi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Haftada necha kun bor?",
+   "options": [
+    "7",
+    "8",
+    "5",
+    "6"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Darsdan oldin\" turkchada:",
+   "options": [
+    "derste önce",
+    "dersten önce",
+    "ders önce",
+    "dersten sonra"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ishdan keyin\" turkchada:",
+   "options": [
+    "işte sonra",
+    "işten sonra",
+    "işe sonra",
+    "işten önce"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Shanba\" turkchada:",
+   "options": [
+    "cuma",
+    "perşembe",
+    "pazar",
+    "cumartesi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Seshanba\" turkchada:",
+   "options": [
+    "pazartesi",
+    "çarşamba",
+    "perşembe",
+    "salı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Payshanba\" turkchada:",
+   "options": [
+    "salı",
+    "perşembe",
+    "cuma",
+    "çarşamba"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Hafta' ma'nosi:",
+   "options": [
+    "hafta",
+    "oy",
+    "yil",
+    "kun"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u4a": [
+  {
+   "question": "\"Bormi?\" turkchada:",
+   "options": [
+    "Yok mu?",
+    "Kim?",
+    "Ne?",
+    "Var mı?"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ha, bor\" turkchada:",
+   "options": [
+    "Evet, var.",
+    "Hayır, yok.",
+    "Evet, yok.",
+    "Hayır, var."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dorixona\" turkchada:",
+   "options": [
+    "banka",
+    "market",
+    "eczane",
+    "hastane"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Kasalxona\" turkchada:",
+   "options": [
+    "okul",
+    "eczane",
+    "hastane",
+    "park"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Masjid\" turkchada:",
+   "options": [
+    "cami",
+    "park",
+    "banka",
+    "durak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Bekat\" turkchada:",
+   "options": [
+    "market",
+    "park",
+    "durak",
+    "cami"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Bizning ko'chada bank bor\" turkchada:",
+   "options": [
+    "Sokağımızda banka yok.",
+    "Sokağımızda banka var.",
+    "Biz banka sokakta.",
+    "Sokağımız banka."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yaqinda\" turkchada:",
+   "options": [
+    "burada",
+    "yakında",
+    "orada",
+    "uzakta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yaqinda park bormi?\" turkchada:",
+   "options": [
+    "Park yakında mı var?",
+    "Yakında park yok mu?",
+    "Yakında park var mı?",
+    "Yakın park."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Market' ma'nosi:",
+   "options": [
+    "dorixona",
+    "do'kon",
+    "bank",
+    "bozor-narx"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yo'q, yo'q\" (javob) turkchada:",
+   "options": [
+    "Hayır, yok.",
+    "Belki var.",
+    "Evet, yok.",
+    "Evet, var."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Restoran' ma'nosi:",
+   "options": [
+    "restoran",
+    "park",
+    "bank",
+    "do'kon"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u4b": [
+  {
+   "question": "\"Yonida\" turkchada:",
+   "options": [
+    "yanında",
+    "arkasında",
+    "içinde",
+    "önünde"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Oldida\" turkchada:",
+   "options": [
+    "karşısında",
+    "yanında",
+    "arkasında",
+    "önünde"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Orqasida\" turkchada:",
+   "options": [
+    "arkasında",
+    "arasında",
+    "önünde",
+    "içinde"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Ichida\" turkchada:",
+   "options": [
+    "dışında",
+    "yanında",
+    "önünde",
+    "içinde"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Qarshisida\" turkchada:",
+   "options": [
+    "yanında",
+    "arkasında",
+    "karşısında",
+    "içinde"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"O'ngga burul\" turkchada:",
+   "options": [
+    "Sağa dön.",
+    "Düz git.",
+    "Dur.",
+    "Sola dön."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Chapga burul\" turkchada:",
+   "options": [
+    "Sola dön.",
+    "Sağa dön.",
+    "Geri dön.",
+    "Düz git."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"To'g'riga bor\" turkchada:",
+   "options": [
+    "Düz git.",
+    "Dur.",
+    "Sola dön.",
+    "Sağa dön."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Kitob stolning ustida\" turkchada:",
+   "options": [
+    "Kitap masaya.",
+    "Kitap masadan.",
+    "Kitap masanın üstünde.",
+    "Kitap masanın altında."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Maktabning yonida park bor\" turkchada:",
+   "options": [
+    "Okul park yanında var.",
+    "Okulun yanında park yok.",
+    "Okulun yanında park var.",
+    "Park okul var."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Dışında' ma'nosi:",
+   "options": [
+    "yonida",
+    "ichida",
+    "oldida",
+    "tashqarisida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Arasında' ma'nosi:",
+   "options": [
+    "orqasida",
+    "yonida",
+    "orasida",
+    "ichida"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u4c": [
+  {
+   "question": "Kelasi zamon qo'shimchasi:",
+   "options": [
+    "-mış",
+    "-yor",
+    "-di",
+    "-ecek/-acak"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men ertaga boraman\" turkchada:",
+   "options": [
+    "Yarın gidiyorum.",
+    "Yarın giderim yok.",
+    "Yarın gideceğim.",
+    "Yarın gittim."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Nima qilasan (kelajakda)?\" turkchada:",
+   "options": [
+    "Ne yapıyorsun?",
+    "Ne yapacaksın?",
+    "Ne yapar?",
+    "Ne yaptın?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kelasi hafta\" turkchada:",
+   "options": [
+    "her hafta",
+    "gelecek hafta",
+    "geçen hafta",
+    "bu hafta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kelasi oy\" turkchada:",
+   "options": [
+    "gelecek ay",
+    "geçen ay",
+    "her ay",
+    "bu ay"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Plan' ma'nosi:",
+   "options": [
+    "reja",
+    "vaqt",
+    "dars",
+    "xarita"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men dam olaman (kelajakda)\" turkchada:",
+   "options": [
+    "Dinleneceğim.",
+    "Dinlenme.",
+    "Dinlendim.",
+    "Dinleniyorum."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"U o'qiydi (kelajakda)\" turkchada:",
+   "options": [
+    "Okuma.",
+    "Okuyor.",
+    "Okuyacak.",
+    "Okudu."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Biz ishlaymiz (kelajakda)\" turkchada:",
+   "options": [
+    "Çalıştık.",
+    "Çalışacağız.",
+    "Çalışırız yok.",
+    "Çalışıyoruz."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Toplantı' ma'nosi:",
+   "options": [
+    "yig'ilish",
+    "uchrashuv-ziyofat",
+    "dam olish",
+    "dars"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men sport bilan shug'ullanaman\" turkchada:",
+   "options": [
+    "Spor yapıyorum yok.",
+    "Spor yapacağım.",
+    "Spor yap.",
+    "Spor yaptım."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kelasi zamon nimani bildiradi?",
+   "options": [
+    "reja va niyat",
+    "o'tgan voqea",
+    "buyruq",
+    "odat"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u5a": [
+  {
+   "question": "\"Men shifokorman\" turkchada:",
+   "options": [
+    "Doktorum.",
+    "Doktoru.",
+    "Doktor.",
+    "Doktorsun."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"U o'qituvchi\" turkchada:",
+   "options": [
+    "O öğretmenim.",
+    "O öğretmenin.",
+    "O öğretmen.",
+    "O öğretmenler."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Qanday ish qilasan?\" turkchada:",
+   "options": [
+    "Ne yer yiyorsun?",
+    "Ne iş yapıyorsun?",
+    "Nerede yaşıyorsun?",
+    "Kim yapıyorsun?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kasbing nima?\" turkchada:",
+   "options": [
+    "Mesleğin ne?",
+    "Adın ne?",
+    "Adresin ne?",
+    "Yaşın ne?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men maktabda ishlayman\" turkchada:",
+   "options": [
+    "Okula çalışıyorum.",
+    "Okulda çalışıyorum.",
+    "Okul çalışıyorum.",
+    "Okuldan çalışıyorum."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Oshpaz\" turkchada:",
+   "options": [
+    "şoför",
+    "polis",
+    "hemşire",
+    "aşçı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Haydovchi\" turkchada:",
+   "options": [
+    "avukat",
+    "şoför",
+    "polis",
+    "aşçı"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Muhandis\" turkchada:",
+   "options": [
+    "avukat",
+    "doktor",
+    "çiftçi",
+    "mühendis"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Dehqon\" turkchada:",
+   "options": [
+    "şoför",
+    "çiftçi",
+    "işçi",
+    "aşçı"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Hamshira\" turkchada:",
+   "options": [
+    "öğretmen",
+    "doktor",
+    "hemşire",
+    "polis"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Advokat\" turkchada:",
+   "options": [
+    "polis",
+    "avukat",
+    "mühendis",
+    "doktor"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Men muhandisman\" turkchada:",
+   "options": [
+    "Mühendis.",
+    "Mühendisiz.",
+    "Mühendissin.",
+    "Mühendisim."
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u5b": [
+  {
+   "question": "\"Kim bo'lishni xohlaysan?\" turkchada:",
+   "options": [
+    "Ne olmak istiyorsun?",
+    "Nerelisin?",
+    "Kimsin?",
+    "Ne yapıyorsun?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Shifokor bo'lishni xohlayman\" turkchada:",
+   "options": [
+    "Doktor olmak istemiyorum.",
+    "Doktor oldum istiyorum.",
+    "Doktor olmak istiyorum.",
+    "Doktor olacak."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Chunki\" turkchada:",
+   "options": [
+    "ama",
+    "belki",
+    "ve",
+    "çünkü"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Orzu\" turkchada:",
+   "options": [
+    "hayal",
+    "gelecek",
+    "hedef",
+    "sebep"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Kelajakda\" turkchada:",
+   "options": [
+    "bugün",
+    "gelecekte",
+    "şimdi",
+    "geçmişte"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yordam bermoq\" turkchada:",
+   "options": [
+    "istemek",
+    "yardım etmek",
+    "sevmek",
+    "çalışmak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Mashhur\" turkchada:",
+   "options": [
+    "ünlü",
+    "zengin",
+    "başarılı",
+    "fakir"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Muvaffaqiyatli\" turkchada:",
+   "options": [
+    "zengin",
+    "çalışkan",
+    "başarılı",
+    "ünlü"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Maqsad\" turkchada:",
+   "options": [
+    "sebep",
+    "hayal",
+    "gelecek",
+    "hedef"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men o'qishni xohlayman\" turkchada:",
+   "options": [
+    "Okuyor istiyorum.",
+    "Okumak istiyorum.",
+    "Okuma istiyorum.",
+    "Okudum istiyorum."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Xohlamoq\" turkchada:",
+   "options": [
+    "istemek",
+    "olmak",
+    "yapmak",
+    "gitmek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Mehnatkash\" turkchada:",
+   "options": [
+    "zengin",
+    "ünlü",
+    "tembel",
+    "çalışkan"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u5c": [
+  {
+   "question": "\"Sevimli mashg'ulot\" turkchada:",
+   "options": [
+    "meslek",
+    "hobi",
+    "okul",
+    "iş"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Hobbing nima?\" turkchada:",
+   "options": [
+    "Yaşın kaç?",
+    "Adın ne?",
+    "Mesleğin ne?",
+    "Hobin ne?"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men kitob o'qishni yaxshi ko'raman\" turkchada:",
+   "options": [
+    "Kitap okumak seviyorum.",
+    "Kitap oku seviyorum.",
+    "Kitap okur seviyorum.",
+    "Kitap okumayı seviyorum."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Futbol o'ynash\" turkchada:",
+   "options": [
+    "futbol oynamak",
+    "futbol okumak",
+    "futbol koşmak",
+    "futbol yüzmek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Suzmoq\" turkchada:",
+   "options": [
+    "yüzmek",
+    "koşmak",
+    "okumak",
+    "oynamak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Yugurmoq\" turkchada:",
+   "options": [
+    "koşmak",
+    "dans",
+    "yüzmek",
+    "yürümek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Rasm\" turkchada:",
+   "options": [
+    "film",
+    "dans",
+    "müzik",
+    "resim"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Musiqa\" turkchada:",
+   "options": [
+    "müzik",
+    "resim",
+    "dans",
+    "fotoğraf"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Raqs\" turkchada:",
+   "options": [
+    "resim",
+    "dans",
+    "müzik",
+    "futbol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Sayohat\" turkchada:",
+   "options": [
+    "seyahat",
+    "spor",
+    "yemek",
+    "fotoğraf"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men musiqa tinglashni yaxshi ko'raman\" turkchada:",
+   "options": [
+    "Müzik dinler seviyorum.",
+    "Müzik dinlemek seviyorum.",
+    "Müzik dinlemeyi seviyorum.",
+    "Müzik dinle seviyorum."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Ovqat pishirmoq\" turkchada:",
+   "options": [
+    "yemek pişirmek",
+    "yemek yemek",
+    "yemek içmek",
+    "yemek yıkamak"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u6a": [
+  {
+   "question": "\"Avtobus bilan\" turkchada:",
+   "options": [
+    "otobüste",
+    "otobüsle",
+    "otobüse",
+    "otobüsten"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Poyezd bilan\" turkchada:",
+   "options": [
+    "trenle",
+    "trene",
+    "trende",
+    "trenden"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Samolyot\" turkchada:",
+   "options": [
+    "tren",
+    "otobüs",
+    "uçak",
+    "gemi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Chipta\" turkchada:",
+   "options": [
+    "yol",
+    "para",
+    "istasyon",
+    "bilet"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Vokzal\" turkchada:",
+   "options": [
+    "bilet",
+    "durak",
+    "havalimanı",
+    "istasyon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Aeroport\" turkchada:",
+   "options": [
+    "havalimanı",
+    "liman",
+    "durak",
+    "istasyon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qachon jo'naydi?\" turkchada:",
+   "options": [
+    "Kim kalkıyor?",
+    "Ne zaman kalkıyor?",
+    "Ne kalkıyor?",
+    "Nerede kalkıyor?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kema\" turkchada:",
+   "options": [
+    "uçak",
+    "tren",
+    "gemi",
+    "taksi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Velosiped\" turkchada:",
+   "options": [
+    "taksi",
+    "bisiklet",
+    "motosiklet",
+    "araba"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Men avtobus bilan ishga boraman\" turkchada:",
+   "options": [
+    "Otobüsten işe giderim.",
+    "Otobüste işe giderim.",
+    "Otobüsle işe giderim.",
+    "Otobüse işe giderim."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Stoldagi kitob\" turkchada:",
+   "options": [
+    "masada kitap",
+    "masaya kitap",
+    "masadaki kitap",
+    "masa kitap"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Varmak' ma'nosi:",
+   "options": [
+    "qaytmoq",
+    "yetib bormoq",
+    "to'xtamoq",
+    "jo'namoq"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u6b": [
+  {
+   "question": "\"Kerak\" turkchada:",
+   "options": [
+    "hızlı",
+    "güzel",
+    "lazım",
+    "pahalı"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qizil chiroq nimani bildiradi?",
+   "options": [
+    "tayyorlan",
+    "to'xta",
+    "o't",
+    "tezlash"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yashil chiroq nimani bildiradi?",
+   "options": [
+    "to'xta",
+    "o't",
+    "orqaga qayt",
+    "qo'ng'iroq qil"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ehtiyot bo'l!\" turkchada:",
+   "options": [
+    "Hızlı git!",
+    "Gel!",
+    "Dikkatli ol!",
+    "Dur!"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Piyoda\" turkchada:",
+   "options": [
+    "araba",
+    "yaya",
+    "yolcu",
+    "şoför"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Tezlik\" turkchada:",
+   "options": [
+    "kaza",
+    "yol",
+    "ışık",
+    "hız"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Svetofor\" turkchada:",
+   "options": [
+    "yol işareti",
+    "durak",
+    "trafik ışığı",
+    "araba"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"To'xtamoq\" turkchada:",
+   "options": [
+    "durmak",
+    "gelmek",
+    "gitmek",
+    "geçmek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"O'tmoq\" (yo'ldan) turkchada:",
+   "options": [
+    "geçmek",
+    "bakmak",
+    "dönmek",
+    "durmak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Sariq\" turkchada:",
+   "options": [
+    "yeşil",
+    "mavi",
+    "sarı",
+    "kırmızı"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men ketishim kerak\" turkchada:",
+   "options": [
+    "Gidiyorum lazım.",
+    "Gitmek yok.",
+    "Gittim lazım.",
+    "Gitmem lazım."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Tirbandlik\" ma'nosi:",
+   "options": [
+    "chiroq",
+    "yo'l belgisi",
+    "yo'l narxi",
+    "yo'ldagi tiqilinch"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u6c": [
+  {
+   "question": "\"Ob-havo qanday?\" turkchada:",
+   "options": [
+    "Hava nerede?",
+    "Hava nasıl?",
+    "Hava kim?",
+    "Hava kaç?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Quyoshli\" turkchada:",
+   "options": [
+    "karlı",
+    "yağmurlu",
+    "bulutlu",
+    "güneşli"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Yomg'irli\" turkchada:",
+   "options": [
+    "yağmurlu",
+    "karlı",
+    "rüzgarlı",
+    "güneşli"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qorli\" turkchada:",
+   "options": [
+    "güneşli",
+    "karlı",
+    "yağmurlu",
+    "sıcak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Shamolli\" turkchada:",
+   "options": [
+    "rüzgarlı",
+    "bulutlu",
+    "sıcak",
+    "karlı"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Bulutli\" turkchada:",
+   "options": [
+    "ılık",
+    "karlı",
+    "güneşli",
+    "bulutlu"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Issiq\" turkchada:",
+   "options": [
+    "ılık",
+    "soğuk",
+    "serin",
+    "sıcak"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sovuq\" turkchada:",
+   "options": [
+    "güneşli",
+    "soğuk",
+    "ılık",
+    "sıcak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Bahor\" turkchada:",
+   "options": [
+    "yaz",
+    "ilkbahar",
+    "sonbahar",
+    "kış"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kuz\" turkchada:",
+   "options": [
+    "sonbahar",
+    "ilkbahar",
+    "kış",
+    "yaz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dengizdek ko'k\" turkchada:",
+   "options": [
+    "denize gibi mavi",
+    "deniz gibi kırmızı",
+    "deniz kadar kırmızı",
+    "deniz gibi mavi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Bugun havo sovuq\" turkchada:",
+   "options": [
+    "Bugün hava soğuk mu?",
+    "Bugün hava soğuk.",
+    "Bugün soğuk hava.",
+    "Hava bugün sıcak yok."
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u7a": [
+  {
+   "question": "Telefonda salom:",
+   "options": [
+    "Merhaba?",
+    "Günaydın?",
+    "Alo?",
+    "Buyurun?"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Telefon raqamingiz nima?\" turkchada:",
+   "options": [
+    "Numaranız ne?",
+    "Yaşınız kaç?",
+    "Adresiniz ne?",
+    "Adınız ne?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Menimcha\" turkchada:",
+   "options": [
+    "sence",
+    "onca",
+    "bence",
+    "bizce"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Bana göre\" ma'nosi:",
+   "options": [
+    "menga uchun",
+    "menimcha",
+    "menga qarshi",
+    "menga qadar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Qo'ng'iroq qilmoq\" turkchada:",
+   "options": [
+    "kapatmak",
+    "açmak",
+    "duymak",
+    "aramak"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Xabar\" (SMS) turkchada:",
+   "options": [
+    "alo",
+    "mesaj",
+    "telefon",
+    "numara"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Gaplashmoq\" turkchada:",
+   "options": [
+    "aramak",
+    "konuşmak",
+    "kapatmak",
+    "duymak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Eshitmoq\" turkchada:",
+   "options": [
+    "konuşmak",
+    "bakmak",
+    "okumak",
+    "duymak"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Telefonni yopmoq\" turkchada:",
+   "options": [
+    "telefonu duymak",
+    "telefonu aramak",
+    "telefonu kapatmak",
+    "telefonu açmak"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Band\" (telefon) turkchada:",
+   "options": [
+    "boş",
+    "meşgul",
+    "kapalı",
+    "uzak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Men sizga qo'ng'iroq qilaman\" turkchada:",
+   "options": [
+    "Size arayacağım.",
+    "Sizi aramak.",
+    "Siz arayacağım.",
+    "Size aradım yok."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Telefonim yo'q\" turkchada:",
+   "options": [
+    "Telefon mu.",
+    "Telefonum yok.",
+    "Telefonum var.",
+    "Telefon yok sen."
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u7b": [
+  {
+   "question": "\"Kompyuter\" turkchada:",
+   "options": [
+    "radyo",
+    "televizyon",
+    "bilgisayar",
+    "telefon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Parol\" turkchada:",
+   "options": [
+    "site",
+    "numara",
+    "şifre",
+    "dosya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Fayl\" turkchada:",
+   "options": [
+    "dosya",
+    "şifre",
+    "mesaj",
+    "site"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Tez\" turkchada:",
+   "options": [
+    "yavaş",
+    "uzun",
+    "hızlı",
+    "küçük"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Sekin\" turkchada:",
+   "options": [
+    "yeni",
+    "hızlı",
+    "büyük",
+    "yavaş"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Bundan ko'ra tezroq\" ifodasi:",
+   "options": [
+    "-de hızlı",
+    "-e kadar hızlı",
+    "-den daha hızlı",
+    "-den en hızlı"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Eng yaxshi\" turkchada:",
+   "options": [
+    "iyi",
+    "çok iyi",
+    "en iyi",
+    "daha iyi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Eng tez\" turkchada:",
+   "options": [
+    "daha hızlı",
+    "en hızlı",
+    "hızlı",
+    "çok hızlı"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"U mendan tezroq\" turkchada:",
+   "options": [
+    "O benden en hızlı.",
+    "O benden daha hızlı.",
+    "O beni daha hızlı.",
+    "O bende daha hızlı."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yuklab olmoq\" turkchada:",
+   "options": [
+    "açmak",
+    "indirmek",
+    "silmek",
+    "yüklemek"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Elektron pochta\" turkchada:",
+   "options": [
+    "mektup",
+    "dosya",
+    "mesaj",
+    "e-posta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sayt\" turkchada:",
+   "options": [
+    "ekran",
+    "dosya",
+    "site",
+    "şifre"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u7c": [
+  {
+   "question": "\"Yuzma-yuz\" turkchada:",
+   "options": [
+    "yüz yüze",
+    "yan yana",
+    "göz göze",
+    "baş başa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Xat\" turkchada:",
+   "options": [
+    "mesaj",
+    "mektup",
+    "numara",
+    "e-posta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"-dan beri\" turkchada:",
+   "options": [
+    "-den beri",
+    "-de",
+    "-den önce",
+    "-e kadar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Besh yildan beri\" turkchada:",
+   "options": [
+    "beş yıldan önce",
+    "beş yılda",
+    "beş yıldan beri",
+    "beş yıla kadar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Uch oydan beri o'qiyman\" turkchada:",
+   "options": [
+    "Üç aydan beri okuyorum.",
+    "Üç aydan önce okuyorum.",
+    "Üç ayda okudum.",
+    "Üç aya kadar okuyorum."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Tushunmoq\" turkchada:",
+   "options": [
+    "demek",
+    "duymak",
+    "anlamak",
+    "bilmek"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Noto'g'ri tushunmoq\" turkchada:",
+   "options": [
+    "yanlış anlamak",
+    "unutmak",
+    "doğru anlamak",
+    "duymak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Samimiy\" turkchada:",
+   "options": [
+    "samimi",
+    "resmi",
+    "kısa",
+    "uzak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Muhim\" turkchada:",
+   "options": [
+    "küçük",
+    "önemli",
+    "kolay",
+    "gereksiz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Aloqa\" turkchada:",
+   "options": [
+    "yol",
+    "iletişim",
+    "mektup",
+    "telefon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "-dir/-dır rasmiy tilda nimani bildiradi?",
+   "options": [
+    "buyruq",
+    "taxmin yoki umumiy haqiqat",
+    "inkor",
+    "o'tgan zamon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Suhbat\" turkchada:",
+   "options": [
+    "dosya",
+    "konuşma",
+    "mesaj",
+    "mektup"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u8a": [
+  {
+   "question": "O'tgan zamon qo'shimchasi:",
+   "options": [
+    "-di/-dı/-du/-dü",
+    "-yor",
+    "-ir",
+    "-ecek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men bordim\" turkchada:",
+   "options": [
+    "Gittim.",
+    "Gideceğim.",
+    "Giderim.",
+    "Gidiyorum."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"U keldi\" turkchada:",
+   "options": [
+    "Geldi.",
+    "Gelecek.",
+    "Geliyor.",
+    "Gelir."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Biz uchrashdik\" turkchada:",
+   "options": [
+    "Buluşacağız.",
+    "Buluşuruz.",
+    "Buluşuyoruz.",
+    "Buluştuk."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men uxladim\" turkchada:",
+   "options": [
+    "Uyudum.",
+    "Uyuyacağım.",
+    "Uyuyorum.",
+    "Uyurum."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Siz ko'rdingiz\" turkchada:",
+   "options": [
+    "Gördünüz.",
+    "Göreceksiniz.",
+    "Görürsünüz.",
+    "Görüyorsunuz."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"O'tgan dam olish kunida\" turkchada:",
+   "options": [
+    "Bu hafta sonu",
+    "Geçen hafta sonu",
+    "Her hafta sonu",
+    "Gelecek hafta sonu"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Men film tomosha qildim\" turkchada:",
+   "options": [
+    "Film izleyeceğim.",
+    "Film izlerim.",
+    "Film izliyorum.",
+    "Film izledim."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men kitob o'qidim\" turkchada:",
+   "options": [
+    "Kitap okudum.",
+    "Kitap okuyacağım.",
+    "Kitap okurum.",
+    "Kitap okuyorum."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Sayr qildim\" turkchada:",
+   "options": [
+    "Gezdim.",
+    "Gezerim.",
+    "Geziyorum.",
+    "Gezeceğim."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dam oldim\" turkchada:",
+   "options": [
+    "Dinleneceğim.",
+    "Dinleniyorum.",
+    "Dinlendim.",
+    "Dinlenirim."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Qildim\" turkchada:",
+   "options": [
+    "yaparım",
+    "yapıyorum",
+    "yaptım",
+    "yapacağım"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u8b": [
+  {
+   "question": "\"Ta'tiling qanday o'tdi?\" turkchada:",
+   "options": [
+    "Tatilin nasıldı?",
+    "Tatilin nerede?",
+    "Tatilin nasıl olacak?",
+    "Tatilin kaç?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dengiz\" turkchada:",
+   "options": [
+    "plaj",
+    "deniz",
+    "kum",
+    "otel"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Plyaj\" turkchada:",
+   "options": [
+    "deniz",
+    "plaj",
+    "kum",
+    "otel"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Quyoshda toblanmoq\" turkchada:",
+   "options": [
+    "güneşlenmek",
+    "uyumak",
+    "gezmek",
+    "yüzmek"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Dengizga tushmoq\" turkchada:",
+   "options": [
+    "denizi görmek",
+    "denize bakmak",
+    "denize girmek",
+    "denizden çıkmak"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Mehmonxona\" turkchada:",
+   "options": [
+    "tatil köyü",
+    "plaj",
+    "ev",
+    "otel"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ajoyib edi\" turkchada:",
+   "options": [
+    "Harikadır.",
+    "Harikaydı.",
+    "Harika mı.",
+    "Harika olacak."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Xotira\" turkchada:",
+   "options": [
+    "manzara",
+    "tatil",
+    "kum",
+    "anı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Manzara\" turkchada:",
+   "options": [
+    "anı",
+    "otel",
+    "manzara",
+    "deniz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men dengizda suzdim\" turkchada:",
+   "options": [
+    "Denizde yüzüyorum.",
+    "Denizde yüzdüm.",
+    "Denizde yüzerim.",
+    "Denizde yüzeceğim."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kurort\" turkchada:",
+   "options": [
+    "tatil köyü",
+    "şehir",
+    "otel faqat",
+    "plaj"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Qum\" turkchada:",
+   "options": [
+    "taş",
+    "su",
+    "kum",
+    "deniz"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u8c": [
+  {
+   "question": "\"Bayramingiz muborak bo'lsin!\" turkchada:",
+   "options": [
+    "Bayramınız kutlu olsun!",
+    "Bayramınız geçmiş olsun!",
+    "Bayramınız güle güle!",
+    "Bayramınız afiyet olsun!"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Yangi yil\" turkchada:",
+   "options": [
+    "hediye",
+    "bayram",
+    "gelenek",
+    "yılbaşı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sovg'a bermoq\" turkchada:",
+   "options": [
+    "hediye bozmak",
+    "hediye almak",
+    "hediye vermek",
+    "hediye aramak"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Ziyorat qilmoq\" turkchada:",
+   "options": [
+    "davet etmek",
+    "ziyaret etmek",
+    "kutlamak",
+    "gitmek faqat"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Qarindosh\" turkchada:",
+   "options": [
+    "misafir",
+    "komşu",
+    "arkadaş",
+    "akraba"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Shirinlik\" turkchada:",
+   "options": [
+    "acı",
+    "ekşi",
+    "tuzlu",
+    "tatlı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Quvonch\" turkchada:",
+   "options": [
+    "öfke",
+    "korku",
+    "üzüntü",
+    "sevinç"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"An'ana\" turkchada:",
+   "options": [
+    "gelenek",
+    "hediye",
+    "bayram",
+    "akraba"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Nishonlamoq\" turkchada:",
+   "options": [
+    "unutmak",
+    "kutlamak",
+    "gitmek",
+    "beklemek"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Baxtli\" turkchada:",
+   "options": [
+    "mutlu",
+    "üzgün",
+    "kızgın",
+    "yorgun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turkiyaning asosiy bayramlaridan biri:",
+   "options": [
+    "Cadılar Bayramı",
+    "Hıdırellez Yılbaşı",
+    "Karnaval",
+    "Ramazan Bayramı"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Oilaviy yig'in\" turkchada:",
+   "options": [
+    "aile toplantısı",
+    "aile yemeği",
+    "aile bayramı",
+    "aile planı"
+   ],
+   "correct_index": 0
+  }
+ ]
+}

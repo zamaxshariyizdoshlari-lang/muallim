@@ -579,16 +579,6 @@
    "correct_index": 3
   },
   {
-   "question": "'Geri dönüşüm' nima?",
-   "options": [
-    "qayta ishlash",
-    "chiqindi",
-    "o'rmon",
-    "ifloslanish"
-   ],
-   "correct_index": 0
-  },
-  {
    "question": "'Kirlenmek' ma'nosi:",
    "options": [
     "o'smoq",
@@ -1221,16 +1211,6 @@
  ],
  "u4b": [
   {
-   "question": "Turkiyada nechta mavsum bor?",
-   "options": [
-    "Ikki",
-    "Uch",
-    "Olti",
-    "To'rt"
-   ],
-   "correct_index": 3
-  },
-  {
    "question": "'Ilkbahar' ma'nosi:",
    "options": [
     "bahor",
@@ -1587,16 +1567,6 @@
  ],
  "u5b": [
   {
-   "question": "'İş yemeği' nima?",
-   "options": [
-    "ko'cha ovqati",
-    "oilaviy tushlik",
-    "hamkorlar bilan rasmiy ovqatlanish",
-    "bayram ziyofati"
-   ],
-   "correct_index": 2
-  },
-  {
    "question": "\"Menyuni olsam bo'ladimi?\" turkchada:",
    "options": [
     "Menüyü aldım mı?",
@@ -1615,16 +1585,6 @@
     "Hesap nerede?"
    ],
    "correct_index": 1
-  },
-  {
-   "question": "'Afiyet olsun' qachon aytiladi?",
-   "options": [
-    "bayramda",
-    "kasalga",
-    "ovqat vaqtida",
-    "xayrlashganda"
-   ],
-   "correct_index": 2
   },
   {
    "question": "\"Men stolni band qilib qo'ygandim\" turkchada:",
@@ -1675,16 +1635,6 @@
     "menyu"
    ],
    "correct_index": 0
-  },
-  {
-   "question": "'Garson' kim?",
-   "options": [
-    "oshpaz",
-    "mijoz",
-    "ofitsiant",
-    "direktor"
-   ],
-   "correct_index": 2
   },
   {
    "question": "-abilir miyim? qanday so'rov?",
