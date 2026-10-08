@@ -434,3 +434,10 @@ class ExamSession(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+
+
+class ExamBank(models.Model):
+    """Faqat yakuniy imtihon uchun savollar: mavzu testida ko'rinmaydi, talabaga API orqali berilmaydi."""
+
+    topic = models.OneToOneField(Topic, on_delete=models.CASCADE, related_name='exam_bank')
+    questions = models.JSONField(default=list)

@@ -5,7 +5,7 @@ import random
 from django.db import transaction
 
 from ..models import (
-    STATUS_DONE, Book, BookExam, GeneratedAsset, Lesson, Section, SectionExam, Subject, Topic,
+    STATUS_DONE, Book, BookExam, ExamBank, GeneratedAsset, Lesson, Section, SectionExam, Subject, Topic,
 )
 from .enrichment import enrich_questions, shuffle_questions
 
@@ -170,6 +170,8 @@ def validate_book_json(data):
 
         for ti, t in enumerate(sec.get('topics') or []):
             tw = f"{sw}.topics[{ti}] ({t.get('key')})"
+            for qi, q in enumerate(t.get('exam_bank') or []):
+                _check_mcq(q, f"{tw}.exam_bank[{qi}]", errors)
             if not t.get('key') or not t.get('title'):
                 errors.append(f"{tw}: key va title majburiy")
             if t.get('key') in topic_keys:
@@ -350,6 +352,10 @@ def import_book_json(data, user):
                 else:
                     GeneratedAsset.objects.filter(topic=topic, kind=kind).delete()
 
+            if t.get('exam_bank'):
+                ExamBank.objects.update_or_create(topic=topic, defaults={'questions': t['exam_bank']})
+            else:
+                ExamBank.objects.filter(topic=topic).delete()
             topic_tests[topic.title] = test
             counts['topics'] += 1
             counts['questions'] += len(test)

@@ -10,7 +10,7 @@ from collections import defaultdict
 
 from django.conf import settings
 
-from ..models import ExamSession, GeneratedAsset, Lesson, Topic
+from ..models import ExamBank, ExamSession, GeneratedAsset, Lesson, Topic
 
 EXAM_SIZE = 60
 SECTION_MIN_PERCENT = 60
@@ -32,6 +32,12 @@ def _mcq(q, topic):
 
 def topic_pool(topic):
     out = []
+    bank = ExamBank.objects.filter(topic=topic).first()
+    for q in (bank.questions if bank else []):
+        m = _mcq(q, topic)
+        if m:
+            m['bank'] = True
+            out.append(m)
     asset = GeneratedAsset.objects.filter(topic=topic, kind=GeneratedAsset.KIND_TOPIC_TEST).first()
     for q in ((asset.data or {}).get('questions') or []) if asset else []:
         m = _mcq(q, topic)
@@ -59,7 +65,7 @@ def draw(user, book, size=EXAM_SIZE, rng=None):
     for t in Topic.objects.filter(book=book).order_by('order'):
         pool = topic_pool(t)
         rng.shuffle(pool)
-        pool.sort(key=lambda q: q['question'] in seen)  # ko'rilmaganlari oldinda
+        pool.sort(key=lambda q: (q['question'] in seen, not q.get('bank')))  # ko'rilmagan va imtihon bankidagilar oldinda
         if pool:
             pools[t.id] = pool
     chosen, i = [], 0
