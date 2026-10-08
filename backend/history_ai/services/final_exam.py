@@ -13,6 +13,27 @@ from django.conf import settings
 from ..models import ExamBank, ExamSession, GeneratedAsset, Lesson, Topic
 
 EXAM_SIZE = 60
+SECONDS_PER_QUESTION = 60
+GRACE_SECONDS = 30
+MAX_TAB_SWITCHES = 5  # undan oshsa imtihon "shubhali" deb belgilanadi va o'tilmaydi
+
+# Milliy sertifikat darajalari (foiz bo'yicha, taxminiy shkala)
+LEVELS = [(90, 'A+'), (80, 'A'), (70, 'B+'), (60, 'B'), (50, 'C+'), (40, 'C')]
+
+
+def level_for(percent):
+    for lo, name in LEVELS:
+        if percent >= lo:
+            return name
+    return 'Daraja yo'q'
+
+
+def _shuffle_options(q, rng):
+    order = list(range(len(q['options'])))
+    rng.shuffle(order)
+    q['options'] = [q['options'][i] for i in order]
+    q['correct_index'] = order.index(q['correct_index'])
+    return q
 SECTION_MIN_PERCENT = 60
 
 
@@ -79,7 +100,12 @@ def draw(user, book, size=EXAM_SIZE, rng=None):
             continue
         i += 1
     rng.shuffle(chosen)
-    session = ExamSession.objects.create(user=user, book=book, questions=chosen)
+    chosen = [_shuffle_options(dict(q), rng) for q in chosen]
+    # tugallanmagan eski sessiyalar yopiladi: har doim faqat bitta faol sessiya
+    ExamSession.objects.filter(user=user, book=book, finished=False).update(finished=True)
+    session = ExamSession.objects.create(
+        user=user, book=book, questions=chosen, duration_seconds=len(chosen) * SECONDS_PER_QUESTION,
+    )
     return session
 
 

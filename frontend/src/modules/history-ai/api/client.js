@@ -240,12 +240,16 @@ export function createBookExam(bookId) {
   return request(`/books/${bookId}/exam/create/`, { method: 'POST' })
 }
 
-export function submitBookExam(bookId, answers) {
+export function submitBookExam(bookId, answers, meta = {}) {
   return request(`/books/${bookId}/exam/submit/`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ answers }),
+    body: JSON.stringify({ answers, ...meta }),
   })
+}
+
+export function getStudentAnalytics(bookId) {
+  return request(`/books/${bookId}/analytics/`)
 }
 
 export async function downloadCertificate(bookId) {

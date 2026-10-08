@@ -542,7 +542,7 @@ function ExamRoute() {
       isTeacher={isTeacher}
       load={() => getBookExam(bookId)}
       create={() => createBookExam(bookId)}
-      submit={(answers) => submitBookExam(bookId, answers)}
+      submit={(answers, meta) => submitBookExam(bookId, answers, meta)}
       passedLabel="Kurs muvaffaqiyatli tugatildi! Sertifikatingiz tayyor."
       onBack={back}
       onPassed={back}

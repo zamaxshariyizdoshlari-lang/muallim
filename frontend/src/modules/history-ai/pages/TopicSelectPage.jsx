@@ -1,4 +1,5 @@
 import { Award, BookOpen, Check, ClipboardCheck, Lock, RotateCcw, Shuffle, Trophy } from 'lucide-react'
+import StudentAnalytics from '../components/StudentAnalytics'
 import SearchBox from '../components/SearchBox'
 import { BackLink, ProgressBar, ProgressRing } from '../components/ui'
 
@@ -208,6 +209,8 @@ export default function TopicSelectPage({
             <span className="chip"><Lock size={12} /> Qulflangan</span>
           )}
         </div>
+
+        {!isTeacher && <StudentAnalytics bookId={book.id} onOpenTopic={onOpenTopic} />}
 
         {progress?.certificate && (
           <button onClick={onDownloadCertificate} className="btn btn-gold mt-5">

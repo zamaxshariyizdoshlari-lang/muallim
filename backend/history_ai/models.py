@@ -430,6 +430,9 @@ class ExamSession(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='exam_sessions')
     questions = models.JSONField()  # [{question, options, correct_index, page, topic_id, section_id, ...}]
     finished = models.BooleanField(default=False)
+    duration_seconds = models.PositiveIntegerField(default=0)  # 0 = vaqt chegarasiz
+    tab_switches = models.PositiveIntegerField(default=0)
+    timed_out = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

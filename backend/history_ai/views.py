@@ -377,6 +377,7 @@ class BookExamByBookView(APIView):
             'id': exam.id, 'book': book.id, 'status': exam.status, 'session': session.id,
             'data': {'questions': final_exam.public_questions(session)},
             'pass_percent': final_exam.final_pass_percent(), 'section_min': final_exam.SECTION_MIN_PERCENT,
+            'duration_seconds': session.duration_seconds,
         })
 
 
@@ -433,8 +434,19 @@ class BookExamSubmitView(APIView):
                     d['explain'] = review_service.explain_page(book, q.get('page'), topic=None)
                     if passed and q.get('explanation'):
                         d['why'] = q['explanation']
+            elapsed = (timezone.now() - session.created_at).total_seconds()
+            if session.duration_seconds and elapsed > session.duration_seconds + final_exam.GRACE_SECONDS:
+                session.timed_out = True
+                if passed:
+                    passed, reason = False, "Imtihon vaqti tugagan."
+            try:
+                session.tab_switches = max(0, int(request.data.get('tab_switches') or 0))
+            except (TypeError, ValueError):
+                session.tab_switches = 0
+            if passed and session.tab_switches > final_exam.MAX_TAB_SWITCHES:
+                passed, reason = False, "Imtihon vaqtida sahifadan ko'p marta chiqildi."
             session.finished = True
-            session.save(update_fields=['finished'])
+            session.save(update_fields=['finished', 'timed_out', 'tab_switches'])
         else:
             raise ValidationError({'detail': "Imtihon boshlanmagan: sahifani yangilab, imtihonni qaytadan oching."})
         xp = 0
@@ -460,7 +472,16 @@ class BookExamSubmitView(APIView):
             'details': details, 'certificate': certificate, 'sections': per_section, 'fail_reason': reason,
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
             'pass_percent': final_exam.final_pass_percent(),
+            'percent': round(score / total * 100) if total else 0,
+            'level': final_exam.level_for(score / total * 100 if total else 0),
         })
+
+
+class StudentAnalyticsView(APIView):
+    def get(self, request, book_id):
+        from .services.student_stats import student_analytics
+        book = get_object_or_404(Book, id=book_id)
+        return Response(student_analytics(request.user, book))
 
 
 class CertificateDownloadView(APIView):

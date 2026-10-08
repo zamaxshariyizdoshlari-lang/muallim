@@ -1,5 +1,5 @@
-import { AlertTriangle, BookOpen, CheckCircle2, Lightbulb, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
-import { useEffect, useMemo, useState } from 'react'
+import { AlertTriangle, BookOpen, CheckCircle2, Clock, Lightbulb, Loader2, PartyPopper, RotateCcw, Sparkles, XCircle } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Confetti from '../components/Confetti'
 import { BackLink, ErrorNote, ProgressBar } from '../components/ui'
 
@@ -57,6 +57,37 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
   const [hintBusy, setHintBusy] = useState(false)
   const draftKey = `muallim:test-draft:${title}`
   const [draftLoaded, setDraftLoaded] = useState(false)
+  const [deadline, setDeadline] = useState(null)
+  const [left, setLeft] = useState(null)
+  const [tabSwitches, setTabSwitches] = useState(0)
+  const answersRef = useRef({})
+  answersRef.current = answers
+  const tabRef = useRef(0)
+  tabRef.current = tabSwitches
+  const timed = Boolean(test?.duration_seconds)
+
+  useEffect(() => {
+    if (test?.duration_seconds) setDeadline(Date.now() + test.duration_seconds * 1000)
+  }, [test])
+
+  useEffect(() => {
+    if (!deadline || result) return undefined
+    const tick = () => {
+      const s = Math.max(0, Math.round((deadline - Date.now()) / 1000))
+      setLeft(s)
+      if (s === 0) handleSubmit(true)
+    }
+    tick()
+    const id = setInterval(tick, 1000)
+    return () => clearInterval(id)
+  }, [deadline, result])
+
+  useEffect(() => {
+    if (!timed || result) return undefined
+    const onHide = () => { if (document.hidden) setTabSwitches((n) => n + 1) }
+    document.addEventListener('visibilitychange', onHide)
+    return () => document.removeEventListener('visibilitychange', onHide)
+  }, [timed, result])
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
@@ -95,11 +126,12 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
     }
   }
 
-  async function handleSubmit() {
+  async function handleSubmit(auto = false) {
+    if (submitting) return
     setError('')
     setSubmitting(true)
     try {
-      setResult(await submit(answers))
+      setResult(await submit(auto === true ? answersRef.current : answers, { tab_switches: tabRef.current }))
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
       setError(err.message)
@@ -178,6 +210,12 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
       </header>
 
       <ErrorNote>{error}</ErrorNote>
+      {timed && !result && left !== null && (
+        <div className={`sticky top-2 z-10 mb-4 flex items-center justify-between rounded-xl border px-4 py-2 text-sm font-semibold ${left < 300 ? 'border-bad/40 bg-bad-soft text-bad' : 'border-gold/40 bg-gold-soft text-gold'}`}>
+          <span className="inline-flex items-center gap-2"><Clock size={16} /> Qolgan vaqt: {String(Math.floor(left / 60)).padStart(2, '0')}:{String(left % 60).padStart(2, '0')}</span>
+          {tabSwitches > 0 && <span className="text-xs">Sahifadan chiqish: {tabSwitches}</span>}
+        </div>
+      )}
       {loading && <Loader2 className="animate-spin text-gold" size={22} />}
 
       {!loading && !test && (
@@ -230,6 +268,12 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
                 >
                   {result.score}/{result.total}
                 </div>
+                {result.level && (
+                  <div className="text-center">
+                    <p className="font-display text-3xl font-extrabold text-ink">{result.level}</p>
+                    <p className="text-xs text-muted">{result.percent}% daraja</p>
+                  </div>
+                )}
                 <div className="min-w-0 flex-1">
                   <p className="font-display text-2xl font-bold text-ink">
                     {result.passed ? (
@@ -378,7 +422,7 @@ export default function TestPage({ title, load, create, submit, hint, isTeacher,
                 <ProgressBar value={answeredCount} max={questions.length} />
               </div>
               <button
-                onClick={handleSubmit}
+                onClick={() => handleSubmit()}
                 disabled={submitting || answeredCount < questions.length}
                 className="btn btn-primary"
               >
