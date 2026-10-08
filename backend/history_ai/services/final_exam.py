@@ -17,8 +17,8 @@ SECONDS_PER_QUESTION = 60
 GRACE_SECONDS = 30
 MAX_TAB_SWITCHES = 5  # undan oshsa imtihon "shubhali" deb belgilanadi va o'tilmaydi
 
-# Milliy sertifikat darajalari (foiz bo'yicha, taxminiy shkala)
-LEVELS = [(90, 'A+'), (80, 'A'), (70, 'B+'), (60, 'B'), (50, 'C+'), (40, 'C')]
+# Milliy sertifikat darajalari (100 ballik shkala): A+ 70+, A 65, B+ 60, B 55, C+ 50, C 46
+LEVELS = [(70, 'A+'), (65, 'A'), (60, 'B+'), (55, 'B'), (50, 'C+'), (46, 'C')]
 
 
 def level_for(percent):
