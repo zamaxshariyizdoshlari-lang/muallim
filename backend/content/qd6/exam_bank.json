@@ -1,0 +1,4840 @@
+{
+ "p00": [
+  {
+   "question": "Qadimgi dunyo tarixi qaysi davrni qamrab oladi?",
+   "options": [
+    "Miloddan avval IV asrdan",
+    "Faqat piramidalar davri",
+    "Arab istilosigacha",
+    "Odam paydo bo'lganidan milodiy 476-yilgacha"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qadimgi tarix qanday manbalarda aks etgan?",
+   "options": [
+    "Faqat rivoyatlarda",
+    "Faqat suratlarda",
+    "Faqat xaritalarda",
+    "Arxeologik va yozma manbalarda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tarixni nima uchun o'rganish kerak (darslik fikricha)?",
+   "options": [
+    "Faqat imtihon uchun",
+    "Ajdodlarning yaratuvchanlik tajribasi uchun",
+    "Faqat sanalarni yodlash uchun",
+    "Urush uchun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Darslik matni bilan qanday ishlash tavsiya qilinadi?",
+   "options": [
+    "So'zma-so'z yod olish",
+    "Faqat sarlavhani o'qish",
+    "Faqat rasmlarni ko'rish",
+    "Qismlarga bo'lib, mazmunini o'z so'zlari bilan aytish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Inson qadimda qaysi kashfiyotlardan o'tdi?",
+   "options": [
+    "Faqat elektr",
+    "Faqat bosmaxona",
+    "Faqat porox",
+    "Tosh qurollardan metallgacha, uy-joydan shaharlargacha"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qadimgi dunyo tarixi qaysi fanning bo'limi?",
+   "options": [
+    "Geografiyaning",
+    "Tarix fanining",
+    "Adabiyotning",
+    "Biologiyaning"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Insondagi qaysi sifat doimo qadrlangan?",
+   "options": [
+    "Tezlik",
+    "Yaratuvchanlik",
+    "Boylik",
+    "Kuch"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tarix fani nimani o'rganadi?",
+   "options": [
+    "O'tmish voqealari va ajdodlar hayotini",
+    "Faqat kelajakni",
+    "O'simliklarni",
+    "Yulduzlar harakatini"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qadimgi odamlar hayoti haqida ma'lumot beradigan manbalar:",
+   "options": [
+    "Arxeologik topilmalar va yozma yodgorliklar",
+    "Televizor",
+    "Zamonaviy gazetalar",
+    "Internet"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Darslikdagi 'Kirish' qismi nima uchun kerak?",
+   "options": [
+    "Reklama uchun",
+    "Rasm ko'rsatish uchun",
+    "Fan va uni o'rganish usuli bilan tanishtirish uchun",
+    "Imtihon savollari uchun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Qadimgi dunyo' atamasi qaysi davrni anglatadi?",
+   "options": [
+    "Yangi davr",
+    "Qadimiy davr (odam paydo bo'lishidan 476-yilgacha)",
+    "O'rta asrlar",
+    "Hozirgi zamon"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p01": [
+  {
+   "question": "Arxeologlar nima bilan shug'ullanadi?",
+   "options": [
+    "Yozuvlarni o'qish",
+    "Suyaklarni o'rganish",
+    "Qazishma ishlari bilan",
+    "Urf-odatlarni o'rganish"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Antropologlar nimani o'rganadi?",
+   "options": [
+    "Urf-odatlarni",
+    "Xaritalarni",
+    "Suyak qoldiqlarini",
+    "Qazishmalarni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Etnograflar nimani o'rganadi?",
+   "options": [
+    "Suyaklarni",
+    "Yulduzlarni",
+    "Hozirgi qabilalarning urf-odatlarini",
+    "Qadimiy shaharlarni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta Osiyo tarixi bo'yicha eng qadimgi yozma manba:",
+   "options": [
+    "\"Qutadg'u bilig\"",
+    "Behistun yozuvi",
+    "\"Shohnoma\"",
+    "\"Avesto\" kitobi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Behistun qoyasi yozuvlari kimning buyrug'i bilan yozilgan?",
+   "options": [
+    "Aleksandr",
+    "Kambiz",
+    "Fors shohi Doro I",
+    "Kir II"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tosh davri bosqichlari ketma-ketligi:",
+   "options": [
+    "Neolit, paleolit, mezolit",
+    "Paleolit, mezolit, neolit, eneolit",
+    "Mezolit, paleolit, eneolit",
+    "Eneolit, neolit, paleolit"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qadimshunoslar qadimiy shaharlarni qanday topadi?",
+   "options": [
+    "Kitobdan o'qiydi",
+    "Xaritadan topadi",
+    "Suvdan topadi",
+    "Tuproq ostidan qazib ochadi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Paleolit' nima?",
+   "options": [
+    "Yangi tosh davri",
+    "Bronza davri",
+    "Mis-tosh davri",
+    "Qadimgi tosh davri"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Neolit' nima?",
+   "options": [
+    "Yangi tosh davri",
+    "O'rta tosh davri",
+    "Qadimgi tosh davri",
+    "Temir davri"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tarixiy manbalar qanday guruhlanadi?",
+   "options": [
+    "Faqat xaritalar",
+    "Faqat tasviriy",
+    "Faqat og'zaki",
+    "Moddiy (arxeologik) va yozma"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p02": [
+  {
+   "question": "Eng qadimgi odam suyaklari qayerdan topilgan?",
+   "options": [
+    "Amerikadan",
+    "Sharqiy Afrikadan",
+    "Yevropadan",
+    "Osiyodan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eng qadimgi odam yoshi qancha edi?",
+   "options": [
+    "5 ming yil",
+    "200 yil",
+    "2 million yildan oshiq",
+    "20 ming yil"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng qadimgi odam 'ishbilarmon odam' deb nega atalgan?",
+   "options": [
+    "Toshdan sodda qurollar yasashni bilgani uchun",
+    "Savdo qilgani uchun",
+    "Ekin ekkani uchun",
+    "Shahar qurgani uchun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Tik yuruvchi odam' nimani o'rgangan?",
+   "options": [
+    "Tabiiy olovdan foydalanishni",
+    "Metall eritishni",
+    "Yozishni",
+    "Ekin ekishni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buyuk muzlik davri qachon boshlangan?",
+   "options": [
+    "Bronza davrida",
+    "Ilk paleolit oxirlarida",
+    "Neolitda",
+    "Temir davrida"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'zlashtiruvchi xo'jalik nima?",
+   "options": [
+    "Hunarmandchilik",
+    "Savdo",
+    "Dehqonchilik",
+    "Meva-ildiz terish va ov qilish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Teshiktosh g'ori qayerda?",
+   "options": [
+    "Pomirda",
+    "Farg'onada",
+    "Nurotada",
+    "Boysun tog'larida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Teshiktoshdan nima topilgan?",
+   "options": [
+    "Bronza qurollar",
+    "Piramida",
+    "Yozuvli taxta",
+    "8–9 yashar neandertal bola qabri"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Diniy e'tiqodning dastlabki shakllari:",
+   "options": [
+    "Xristianlik",
+    "Buddaviylik",
+    "Totemizm, animizm, fetishizm",
+    "Islom"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng qadimiy g'or rasmlari qayerlardan topilgan?",
+   "options": [
+    "Misrdan",
+    "Xitoydan",
+    "Hindistondan",
+    "Altamira, Lasko, Kapova g'orlaridan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Teshiktosh qaysi davr yodgorligi?",
+   "options": [
+    "O'rta paleolit",
+    "Bronza",
+    "Neolit",
+    "Temir"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Odam bilan hayvonning asosiy farqi (matnga ko'ra):",
+   "options": [
+    "Qurol yasash va ishlatishni bilishi",
+    "Tezligi",
+    "Uzoq yashashi",
+    "Kuchliligi"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p03": [
+  {
+   "question": "So'nggi paleolit qaysi davrni qamrab oladi?",
+   "options": [
+    "Mil. avv. 6–4-mingyillik",
+    "Mil. avv. 4–3-mingyillik",
+    "Mil. avv. 40–12-mingyilliklar",
+    "Mil. avv. 1-mingyillik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "So'nggi paleolitda yashagan odam turi:",
+   "options": [
+    "Neandertal",
+    "Kromanyon",
+    "Tik yuruvchi odam",
+    "Ishbilarmon odam"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Urug' jamoasi qanday tuzilgan?",
+   "options": [
+    "Boylardan",
+    "Qarindoshlardan",
+    "Askarlardan",
+    "Savdogarlardan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qabila nima?",
+   "options": [
+    "Bitta oila",
+    "Davlat",
+    "Shahar",
+    "Bir joyda yashagan bir necha urug'lar birlashmasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mezolit qaysi davr?",
+   "options": [
+    "Mis-tosh davri",
+    "O'rta tosh davri (mil. avv. 12–7-mingyillik)",
+    "Yangi tosh davri",
+    "Temir davri"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mezolitda qaysi qurol yasalgan?",
+   "options": [
+    "Arava",
+    "Omoch",
+    "Qilich",
+    "O'q-yoy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ovchilar mezolitda qaysi hayvonni qo'lga o'rgatgan?",
+   "options": [
+    "Itni",
+    "Tuyani",
+    "Qo'yni",
+    "Otni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'rta Osiyoda neolit qaysi davr?",
+   "options": [
+    "12–7 mingyillik",
+    "3–1 mingyillik",
+    "Mil. avv. 6–4-mingyilliklar",
+    "40–12 mingyillik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Neolit boshlanishi qaysi kashfiyot bilan belgilanadi?",
+   "options": [
+    "G'ildirak",
+    "Sopol idish yasash",
+    "Metall eritish",
+    "Yozuv"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Neolitda paydo bo'lgan hunarlar:",
+   "options": [
+    "Kulolchilik va to'quvchilik",
+    "Zargarlik",
+    "Temirchilik",
+    "Qurolsozlik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Neolitda odamlar qanday turmushga o'tdi?",
+   "options": [
+    "Ko'chmanchi",
+    "Dengizchi",
+    "Askar",
+    "O'troq turmushga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "So'nggi paleolitda odam nimani o'rgandi?",
+   "options": [
+    "Olov hosil qilish, taqinchoq, boshpana qurish",
+    "Yozuvni",
+    "Temir eritishni",
+    "Shahar qurishni"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p04": [
+  {
+   "question": "Eneolit nima?",
+   "options": [
+    "Temir asri",
+    "Mis-tosh asri",
+    "Bronza asri",
+    "Tosh asri"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eneolit qaysi davr?",
+   "options": [
+    "Mil. avv. 4–3-mingyilliklarning o'rtalari",
+    "Mil. avv. 12–7",
+    "Milodiy I asr",
+    "Mil. avv. 1-mingyillik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bronza nima?",
+   "options": [
+    "Sof mis",
+    "Oltin",
+    "Temir qotishmasi",
+    "Misning qalay, qo'rg'oshin yoki rux bilan qotishmasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bronza qachondan asosiy ashyoga aylandi?",
+   "options": [
+    "Milodiy I asrdan",
+    "Mil. avv. 3-mingyillik o'rtalaridan",
+    "Mil. avv. 10-mingyillikdan",
+    "Mil. avv. 1-mingyillikdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bronza davrida qaysi kashfiyotlar qilindi?",
+   "options": [
+    "Kulolchilik charxi va g'ildirak",
+    "Bosmaxona",
+    "Porox",
+    "Yozuv va qog'oz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Patriarxat nima uchun boshlandi?",
+   "options": [
+    "Ayollar ketgani uchun",
+    "Ta'minot omoch, chorva va hunar orqali erkaklar qo'liga o'tgani uchun",
+    "Urush uchun",
+    "Din uchun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sopollitepa qayerda?",
+   "options": [
+    "Buxoroda",
+    "Surxondaryoning Muzrabot tumanida",
+    "Xorazmda",
+    "Samarqandda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Jarqo'ton qayerda?",
+   "options": [
+    "Sherobod yaqinida",
+    "Urganchda",
+    "Qarshida",
+    "Termizda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Jarqo'tonda nima topilgan?",
+   "options": [
+    "Kema",
+    "Yozuvli taxta",
+    "Jamoa sardori saroyi va olov-suvga sig'inish ibodatxonasi",
+    "Piramida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta Osiyo janubida eneolitda nima vujudga keldi?",
+   "options": [
+    "Temir sanoati",
+    "Dengiz savdosi",
+    "Sun'iy sug'orishga asoslangan dehqonchilik",
+    "Shaharlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eneolitda uylar nimadan qurila boshlandi?",
+   "options": [
+    "Toshdan",
+    "Xom g'ishtdan ko'p xonali",
+    "Pishiq g'ishtdan",
+    "Yog'ochdan faqat"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sopol idishlar nima bilan bezatilgan?",
+   "options": [
+    "Hayvon, qush tasvirlari va o'simlik naqshlari",
+    "Oltin bilan",
+    "Mato bilan",
+    "Yozuv bilan"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p05": [
+  {
+   "question": "Temir qanday haroratda eriydi?",
+   "options": [
+    "Taxminan 1500 gradusda",
+    "100 gradusda",
+    "800 gradusda",
+    "300 gradusda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Temirdan birinchi bo'lib kimlar foydalangan?",
+   "options": [
+    "Forslar",
+    "Kichik Osiyodagi xettlar",
+    "Misrliklar",
+    "Shumerlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'rta Osiyoda ilk temir qurollar qaysi davrga oid?",
+   "options": [
+    "II asr",
+    "Mil. avv. IX–VIII asrlar",
+    "XIV–XIII asrlar",
+    "IV asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Temir bezaklar qayerdan topilgan?",
+   "options": [
+    "Nineviyadan",
+    "Babil devoridan",
+    "Xufu piramidasidan",
+    "Tutanxamon maqbarasidan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Temir qurollar eng avvalo nimaga ta'sir qildi?",
+   "options": [
+    "Dehqonchilik rivojiga",
+    "Yozuvga",
+    "Savdoga",
+    "Dengizchilikka"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Temir asri boshida O'rta Osiyo aholisi qanday guruhlarga bo'lingan?",
+   "options": [
+    "Faqat dehqon va chorvador",
+    "Faqat qul va xo'jayin",
+    "Kohinlar, jangchilar, chorvadorlar, dehqonlar, hunarmandlar",
+    "Hunarmand va savdogar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Avesto\"ga ko'ra jamiyat asosi:",
+   "options": [
+    "Shahar",
+    "Davlat",
+    "Katta patriarxal oila",
+    "Qabila"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Hududiy qo'shnichilik jamoasi nima?",
+   "options": [
+    "Bir necha oilaning birlashuvi",
+    "Bitta urug'",
+    "Qo'shin",
+    "Davlat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Temir nima uchun dastlab bezak sifatida ishlatilgan?",
+   "options": [
+    "Yumshoq bo'lgani uchun",
+    "Chiroyli bo'lgani uchun",
+    "Arzon bo'lgani uchun",
+    "Tabiatda sof temir kamyob bo'lgani uchun"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Temirning misdan afzalligi:",
+   "options": [
+    "Past haroratda eriydi",
+    "Ancha qattiq",
+    "Arzonroq",
+    "Yengilroq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Temirdan nima yasalgan?",
+   "options": [
+    "Omoch uchlari, boltalar",
+    "Kemalar",
+    "Faqat tangalar",
+    "Faqat qalamlar"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p06": [
+  {
+   "question": "Nil daryosining uzunligi:",
+   "options": [
+    "600 km",
+    "Taxminan 6 ming km",
+    "60 ming km",
+    "1 ming km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Misr qanday nom bilan atalgan?",
+   "options": [
+    "\"Qum mamlakati\"",
+    "\"Dengiz yurti\"",
+    "\"Oq yurt\"",
+    "\"Qora tuproq\" yoki \"Nil in'omi\""
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Odamlar Nil qirg'oqlarini qachon o'zlashtira boshlagan?",
+   "options": [
+    "Mil. avv. 10-mingyillikda",
+    "Milodiy I asrda",
+    "Mil. avv. 4-mingyillik boshlarida",
+    "Mil. avv. 1-mingyillikda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Nil vodiysi dastlab qanday edi?",
+   "options": [
+    "Tog'li",
+    "Cho'l",
+    "Papirus botqoqliklari, timsohlar, yirtqichlar bilan to'la",
+    "Muzlik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qadimgi Misrda hunarmandlarning nechta kasbi bo'lgan?",
+   "options": [
+    "30 dan ziyod",
+    "100 ta",
+    "5 ta",
+    "10 ta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Nom\" nima?",
+   "options": [
+    "Daryo nomi",
+    "Fir'avn nomi",
+    "Ma'bud nomi",
+    "Tarqoq manzilgohlar birlashgan kichik davlat"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Misrning birinchi fir'avni kim?",
+   "options": [
+    "Tutmos",
+    "Yaxmos",
+    "Xufu",
+    "Menes"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Menes qachon fir'avn bo'ldi?",
+   "options": [
+    "Mil. avv. 2600",
+    "Mil. avv. 3000-yilda",
+    "Mil. avv. 1500",
+    "Mil. avv. 525"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Menes qaysi hududning hukmdori edi?",
+   "options": [
+    "Nubiya",
+    "Yuqori Misr",
+    "Liviya",
+    "Quyi Misr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Misr poytaxti qaysi shahar edi?",
+   "options": [
+    "Fiva",
+    "Aleksandriya",
+    "Suza",
+    "Memfis"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Misrliklar qaysi ekinlarni yetishtirgan?",
+   "options": [
+    "Kartoshka",
+    "Bug'doy, arpa, poliz ekinlari",
+    "Paxta va guruch",
+    "Choy va kofe"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p07": [
+  {
+   "question": "Misr janubda qaysi mamlakat bilan chegaradosh edi?",
+   "options": [
+    "Liviya",
+    "Suriya",
+    "Nubiya (Shimoliy Sudan)",
+    "Falastin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Giksoslar kim edi?",
+   "options": [
+    "Rim legionlari",
+    "Fors qo'shini",
+    "Misr fir'avnlari",
+    "Quyi Misrni bosib olgan ko'chmanchi qabilalar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Giksoslar Quyi Misrni qachon bosib oldi?",
+   "options": [
+    "Mil. avv. XV asr",
+    "Mil. avv. 525",
+    "Mil. avv. 3000",
+    "Mil. avv. XVIII asr oxirida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Giksoslarni kim haydab chiqardi?",
+   "options": [
+    "Tutmos III",
+    "Xufu",
+    "Menes",
+    "Fir'avn Yaxmos"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yaxmos qaysi davrni boshlab berdi?",
+   "options": [
+    "Qadimgi podsholik",
+    "Fors hukmronligi",
+    "Yangi podsholik",
+    "O'rta podsholik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Falastin, Finikiya va Suriyani istilo qilish kim davrida boshlandi?",
+   "options": [
+    "Xufu",
+    "Menes",
+    "Kambiz",
+    "Tutmos II"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bu yurishlarni kim davom ettirdi?",
+   "options": [
+    "Kir",
+    "Doro",
+    "Yaxmos",
+    "Tutmos III"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kambiz II kimning o'g'li?",
+   "options": [
+    "Kir II ning",
+    "Menes ning",
+    "Kiaksar ning",
+    "Doro I ning"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Misr g'arbida qaysi mamlakat bor edi?",
+   "options": [
+    "Sinay",
+    "Nubiya",
+    "Suriya",
+    "Liviya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Misr nega Falastin va Suriyaga qiziqqan?",
+   "options": [
+    "Yer uchun",
+    "Mis, temir rudasi va nodir buyumlar uchun",
+    "Dengiz uchun",
+    "Din uchun"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p08": [
+  {
+   "question": "Misrliklar ma'budlar qanday qiyofada yashaydi deb hisoblagan?",
+   "options": [
+    "Hayvon qiyofasida",
+    "Daraxt qiyofasida",
+    "Faqat odam qiyofasida",
+    "Tosh qiyofasida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Memfis ma'budi:",
+   "options": [
+    "Ptax",
+    "Osiris",
+    "Xapi",
+    "Amon-Ra"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ptaxning Yer yuzidagi qiyofasi:",
+   "options": [
+    "Sher",
+    "Oq sigir",
+    "Qora ho'kiz Apis",
+    "Mushuk"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Fir'avnlarning bosh ilohi va homiysi:",
+   "options": [
+    "Osiris",
+    "Ptax",
+    "Xapi",
+    "Quyosh ma'budi Amon-Ra"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xapi qaysi ma'bud?",
+   "options": [
+    "Nil ma'budi",
+    "Yerosti ma'budi",
+    "Quyosh ma'budi",
+    "G'alaba ma'budi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Osiris qaysi ma'bud?",
+   "options": [
+    "Nil ma'budi",
+    "Quyosh ma'budi",
+    "Yerosti saltanati ma'budi",
+    "Urush ma'budi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kohinlar nimani bilgan?",
+   "options": [
+    "Faqat yozuvni",
+    "Faqat tibbiyotni",
+    "Nil toshqini va ekin muddatlarini",
+    "Urush rejalarini"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Fir'avnlar o'zlarini kim deb hisoblagan?",
+   "options": [
+    "Odamlarning",
+    "Quyosh ma'budining o'g'illari",
+    "Daryo ma'budining",
+    "Kohinlarning"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Misrliklar fikricha ma'budning joni qayerda yashaydi?",
+   "options": [
+    "Hayvon tanasida va haykalida",
+    "Faqat tuproqda",
+    "Faqat suvda",
+    "Faqat osmonda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ptax olamni yaratayotganda nimani o'rgatgan?",
+   "options": [
+    "Jangni",
+    "Yozishni",
+    "Har bir narsaning nomini",
+    "Dehqonchilikni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Din misrliklar uchun nima edi?",
+   "options": [
+    "Faqat bayram",
+    "Ixtiyoriy narsa",
+    "Siyosat vositasi faqat",
+    "Kundalik turmushning ajralmas bo'lagi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p09": [
+  {
+   "question": "Piramidalar nima uchun qurilgan?",
+   "options": [
+    "Qal'a sifatida",
+    "Rasadxona sifatida",
+    "Fir'avnlar uchun maqbara sifatida",
+    "Ibodatxona sifatida faqat"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng mashhur uch piramida kimlar uchun qurilgan?",
+   "options": [
+    "Tutanxamon, Doro, Kir",
+    "Ramzes, Amon, Ptax",
+    "Menes, Tutmos, Yaxmos",
+    "Xufu, Xafra, Menkaura"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xufu piramidasi balandligi:",
+   "options": [
+    "500 metr",
+    "20 metr",
+    "147 metr",
+    "70 metr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xufu piramidasi nechta tosh bo'lagidan iborat?",
+   "options": [
+    "250",
+    "25 million",
+    "2,5 million",
+    "25 ming"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sfinks nima?",
+   "options": [
+    "Fir'avn mumiyasi",
+    "Quyosh ma'budi",
+    "Ibodatxona",
+    "Tanasi sher, boshi odam bo'lgan tosh haykal"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sfinks balandligi:",
+   "options": [
+    "147 metr",
+    "20 metr",
+    "200 metr",
+    "2 metr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eng mashhur maqbara:",
+   "options": [
+    "Xufu maqbarasi",
+    "Tutanxamon maqbarasi",
+    "Menes maqbarasi",
+    "Ptax maqbarasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mumiyolash qancha davom etgan?",
+   "options": [
+    "Taxminan 70 kun",
+    "7 kun",
+    "1 kun",
+    "1 yil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mumiyolashni kim bajargan?",
+   "options": [
+    "Kohin-tabiblar",
+    "Dehqonlar",
+    "Askarlar",
+    "Qullar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Piramidalar qaysi mo'jizaga kiradi?",
+   "options": [
+    "Qadimgi shahar",
+    "Jahonning o'n mo'jizasi",
+    "Jahonning yetti mo'jizasidan biri",
+    "Hech qaysi"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p10": [
+  {
+   "question": "Misr yozuvi qanday ataladi?",
+   "options": [
+    "Mixxat",
+    "Alifbo-fors",
+    "Iyeroglif",
+    "Run"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Misr alifbosi nechta iyeroglifdan iborat edi?",
+   "options": [
+    "22",
+    "750",
+    "25",
+    "5000"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iyeroglif so'zi nimani anglatadi?",
+   "options": [
+    "Qirol yozuvi",
+    "Qadimgi kitob",
+    "Chiroyli yozuv",
+    "Muqaddas bitiklar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Papirus nimadan ishlangan?",
+   "options": [
+    "Paxtadan",
+    "Papirus poyasidan",
+    "Terida",
+    "Daraxt po'stlog'idan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iyerogliflarni kim o'qishga muvaffaq bo'ldi?",
+   "options": [
+    "Jak-Fransua Shampolyon",
+    "Gerodot",
+    "Napoleon",
+    "Aleksandr"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shampolyon iyerogliflarni qachon o'qidi?",
+   "options": [
+    "1799-yilda",
+    "1500-yilda",
+    "1900-yilda",
+    "1822-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shampolyonga qaysi topilma yordam berdi?",
+   "options": [
+    "Sfinks",
+    "Tutanxamon niqobi",
+    "Rozett bitiktoshi",
+    "Xufu piramidasi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Misrliklar yilni necha kunga bo'lgan?",
+   "options": [
+    "365 kunga",
+    "354",
+    "400",
+    "300"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Misr taqvimida oy necha kun va yilda nechta oy?",
+   "options": [
+    "28 kun, 13 oy",
+    "30 kun, 12 oy",
+    "30 kun, 10 oy",
+    "31 kun, 12 oy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Taqvimda 5 qo'shimcha kun nima edi?",
+   "options": [
+    "Bayram kunlari",
+    "Urush kunlari",
+    "Dam olish kuni",
+    "Soliq kunlari"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Podsho tirsagi\" nima?",
+   "options": [
+    "Vaqt birligi",
+    "Vazn birligi",
+    "Pul birligi",
+    "52,5 sm ga teng o'lchov birligi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p11": [
+  {
+   "question": "Mesopotamiya nimani anglatadi?",
+   "options": [
+    "Qum yurti",
+    "Dengiz bo'yi",
+    "Ikki daryo oralig'i",
+    "Tog'lar yurti"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mesopotamiya qaysi daryolar oralig'ida?",
+   "options": [
+    "Dajla va Frot",
+    "Amudaryo va Sirdaryo",
+    "Nil va Eufrat",
+    "Hind va Gang"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mesopotamiya janubi nima deb atalgan?",
+   "options": [
+    "Ossuriya",
+    "Bobil",
+    "Shumer",
+    "Akkad"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mesopotamiya shimoli nima deb atalgan?",
+   "options": [
+    "Elam",
+    "Shumer",
+    "Akkad",
+    "Bobil"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mixxat nimaga yozilgan?",
+   "options": [
+    "Teriga",
+    "Papirusga",
+    "Toshga faqat",
+    "Loy taxtachalarga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shumer shahar-davlatlari:",
+   "options": [
+    "Suza, Persepol",
+    "Memfis, Fiva",
+    "Uruk, Umma, Lagash, Ur",
+    "Tir, Sidon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Akkad podshosi Sargon I nimani tuzdi?",
+   "options": [
+    "Birinchi alifbo",
+    "Birinchi kema",
+    "Birinchi qonunlar",
+    "Birinchi muntazam qo'shin (5400 jangchi)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sargon qaysi mamlakatlarni birlashtirdi?",
+   "options": [
+    "Misr va Nubiyani",
+    "Bobil va Ossuriyani",
+    "Akkad va Shumerni",
+    "Eron va Hindni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mesopotamiya aholisining asosiy mashg'uloti:",
+   "options": [
+    "Dehqonchilik",
+    "Savdo",
+    "Ovchilik",
+    "Dengizchilik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mesopotamiyada nima yetishmasdi?",
+   "options": [
+    "Don",
+    "Suv",
+    "Yog'och va metall",
+    "Yer"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p12": [
+  {
+   "question": "\"Bobil\" so'zi nimani bildiradi?",
+   "options": [
+    "Katta shahar",
+    "Xudolar darvozasi",
+    "Ikki daryo",
+    "Qora tuproq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xammurapi qachon hukmronlik qilgan?",
+   "options": [
+    "Mil. avv. XVIII asrda",
+    "Milodiy I asr",
+    "Mil. avv. VII asrda",
+    "Mil. avv. 3000"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xammurapi nimani amalga oshirdi?",
+   "options": [
+    "Piramida qurdi",
+    "Butun Mesopotamiyani yagona davlatga birlashtirdi",
+    "Alifbo yaratdi",
+    "Misrni bosib oldi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xammurapi qonunlari qanday yozilgan?",
+   "options": [
+    "Papirusga",
+    "Teriga",
+    "Loy kitoblarga faqat",
+    "Tosh ustunlarga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xammurapi qonunlari kimlar uchun edi?",
+   "options": [
+    "Faqat kohinlar uchun",
+    "Hamma uchun birdek",
+    "Faqat qullar uchun",
+    "Faqat boylar uchun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yangi Bobil podsholigi qaysi podsho davrida cho'qqiga chiqdi?",
+   "options": [
+    "Xammurapi",
+    "Ashshurbanipal",
+    "Navuxodonosor II",
+    "Sargon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Navuxodonosor II qaysi shaharni vayron qildi?",
+   "options": [
+    "Iyerusalimni",
+    "Memfisni",
+    "Ninevyani",
+    "Suzani"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bobilni forslar qachon zabt etdi?",
+   "options": [
+    "Mil. avv. 605",
+    "Mil. avv. 1750",
+    "Mil. avv. 539-yilda",
+    "Mil. avv. 330"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shumerliklar quyosh yilini necha kun deb belgilagan?",
+   "options": [
+    "354",
+    "365 kun",
+    "300",
+    "400"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bobil nima uchun qulay joyda edi?",
+   "options": [
+    "Cho'lda",
+    "Dengiz qirg'og'ida",
+    "Dajla va Frot yaqinlashgan joyda, savdo yo'lida",
+    "Tog' etagida"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p13": [
+  {
+   "question": "Ossuriya podsholigi qaysi davrda vujudga keldi?",
+   "options": [
+    "Milodiy I asr",
+    "Mil. avv. 2-mingyillikda",
+    "Mil. avv. 5-mingyillik",
+    "Mil. avv. 1-mingyillik oxiri"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ossuriya poytaxti avval qaysi shahar edi?",
+   "options": [
+    "Bobil",
+    "Suza",
+    "Ashshur",
+    "Nineviya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Keyingi poytaxt:",
+   "options": [
+    "Tushpa",
+    "Ashshur",
+    "Bobil",
+    "Nineviya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ashshurbanipal davrida Nineviyada nima to'plangan?",
+   "options": [
+    "Armiya",
+    "Qal'a",
+    "Piramida",
+    "Sopol taxtachalardan yirik kutubxona"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ossuriya qachon tor-mor etildi?",
+   "options": [
+    "Mil. avv. 1800",
+    "Mil. avv. 330",
+    "Mil. avv. 605-yilda",
+    "Mil. avv. 539"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ossuriyani kimlar tor-mor qildi?",
+   "options": [
+    "Midiya va Bobil",
+    "Fors va Misr",
+    "Makedoniya",
+    "Rim va Yunon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Urartu qayerda joylashgan?",
+   "options": [
+    "Kavkazortida",
+    "Eronda",
+    "Mesopotamiyada",
+    "Misrda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Urartu poytaxti:",
+   "options": [
+    "Suza",
+    "Tushpa",
+    "Tir",
+    "Nineviya"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Finikiya shaharlari:",
+   "options": [
+    "Suza, Ekbatana",
+    "Memfis, Fiva",
+    "Uruk, Ur",
+    "Tir, Sidon, Ugarit"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Finikiyaliklar nimani yaratdi?",
+   "options": [
+    "Mixxat",
+    "Run",
+    "Iyeroglif",
+    "22 undosh harfli alifbo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bibliya nima?",
+   "options": [
+    "Yunon dostoni",
+    "Fors qonunlari",
+    "Qadimiy yahudiy diniy kitoblari to'plami",
+    "Misr kitobi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Bibliya\" so'zining ma'nosi:",
+   "options": [
+    "Dua",
+    "Tarix",
+    "Kitob",
+    "Qonun"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p14": [
+  {
+   "question": "Elam davlati poytaxti:",
+   "options": [
+    "Suza",
+    "Nineviya",
+    "Ekbatana",
+    "Persepol"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Midiya qaysi podsho davrida qudratli bo'ldi?",
+   "options": [
+    "Kambiz",
+    "Doro I",
+    "Kir II",
+    "Kiaksar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Midiya Bobil bilan ittifoqda kimni bosib oldi?",
+   "options": [
+    "Elamni",
+    "Ossuriyani",
+    "Misrni",
+    "Lidiyani"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kir II qaysi sulolaga mansub?",
+   "options": [
+    "Midiya",
+    "Sosoniylar",
+    "Elam",
+    "Ahamoniylar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Doro I qachon taxtga chiqdi?",
+   "options": [
+    "Mil. avv. 330",
+    "Mil. avv. 558",
+    "Mil. avv. 539",
+    "Mil. avv. 522-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Doro I joriy qilgan yagona oltin tanga:",
+   "options": [
+    "Dirham",
+    "Darik",
+    "Dinor",
+    "Obol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Doro I saltanatni nimaga bo'ldi?",
+   "options": [
+    "Nomlarga",
+    "Viloyatlarga teng",
+    "Satrapiyalarga",
+    "Qabilalarga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Shoh yo'li\" nima?",
+   "options": [
+    "Daryo",
+    "Ibodatxona",
+    "Qal'a devori",
+    "Doro I qurdirgan katta davlat yo'li"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Fors davlatini Aleksandr qachon bosib oldi?",
+   "options": [
+    "Mil. avv. 522",
+    "Mil. avv. 330-yilda",
+    "Mil. avv. 605",
+    "Mil. avv. 539"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Fors viloyati qaerda?",
+   "options": [
+    "Misrda",
+    "Eronning janubida, Fors ko'rfaziga tutash",
+    "Mesopotamiyada",
+    "Eronning shimolida"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p15": [
+  {
+   "question": "Himolay tog'lari nimadan to'sadi?",
+   "options": [
+    "Dushmandan",
+    "Shimoldan keladigan sovuq shamollardan",
+    "Yomg'irdan",
+    "Qumdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hind daryosi havzasining eng yirik shaharlari:",
+   "options": [
+    "Mohenjodaro va Xarappa",
+    "Memfis va Fiva",
+    "Ur va Uruk",
+    "Tir va Sidon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mohenjodaro nima markazi edi?",
+   "options": [
+    "Faqat dehqonchilik",
+    "Faqat harbiy",
+    "Faqat diniy",
+    "Hunarmandchilik va savdo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Hind vodiysi shaharlari nega zavolga yuz tutgan?",
+   "options": [
+    "Toshqinlar va o'rmonlar kengayishi tufayli",
+    "Urush",
+    "Zilzila",
+    "Epidemiya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hindistonda qaysi hayvon muqaddas hisoblangan?",
+   "options": [
+    "Sigir",
+    "Ot",
+    "Fil",
+    "Sher"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Jon ko'chib o'tishiga ishonish nima deyiladi (hindlar e'tiqodi)?",
+   "options": [
+    "Hindlar jon ko'chib o'tishiga ishongan",
+    "Jon yo'qligiga",
+    "Jon yo'qolishiga",
+    "Jon osmonga ketishiga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hindistonda nechta kasta bo'lgan?",
+   "options": [
+    "To'rt",
+    "Ikki",
+    "Besh",
+    "Uch"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Chandal\" kimlar?",
+   "options": [
+    "Kohinlar",
+    "Jangchilar",
+    "Tabaqalarga kirmagan, hazar qilinadiganlar",
+    "Eng boy kasta"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p16": [
+  {
+   "question": "Hindlar yil taqvimi necha kundan iborat edi?",
+   "options": [
+    "300",
+    "365",
+    "360 kun",
+    "354"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shaxmat qayerda ixtiro qilingan?",
+   "options": [
+    "Misrda",
+    "Yunonistonda",
+    "Hindistonda",
+    "Xitoyda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sanskritda yozilgan dostonlar:",
+   "options": [
+    "\"Shohnoma\"",
+    "\"Iliada\" va \"Odisseya\"",
+    "\"Mahabharata\" va \"Ramayana\"",
+    "\"Avesto\""
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Buddaviylik dini asoschisi kim?",
+   "options": [
+    "Siddhartha Gautama (Budda)",
+    "Gomer",
+    "Konfutsiy",
+    "Zardusht"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buddaviylik qachon yaratilgan?",
+   "options": [
+    "Mil. avv. III asr",
+    "Mil. avv. VI asrda",
+    "Milodiy I asr",
+    "Mil. avv. XVIII asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Buddaviylar fikricha azob-uqubatga nima olib keladi?",
+   "options": [
+    "Xohish-istaklar",
+    "Kamtarlik",
+    "Ibodat",
+    "Mehnat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dastlabki buddaviylik qanday din edi?",
+   "options": [
+    "Quyoshga sig'inish",
+    "Ma'budga sig'inmaydigan (\"xudolarsiz\")",
+    "Yagona xudoli",
+    "Ko'p xudoli"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hindlar Oy haqida nimani bilgan?",
+   "options": [
+    "Oy Yer markazi ekanini",
+    "Oy yorug' sayyora ekanini",
+    "Oy yog'dusi quyosh nuri akslanishi ekanini",
+    "Hech narsani"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qadimgi Hindistonda qaysi fanlar rivojlandi?",
+   "options": [
+    "Astronomiya, matematika, tibbiyot",
+    "Faqat adabiyot",
+    "Faqat musiqa",
+    "Faqat harbiy ish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hindlar nimani alohida belgilar bilan yozgan?",
+   "options": [
+    "Faqat nolni",
+    "Juda katta raqamlarni",
+    "Faqat birlikni",
+    "Kasr sonlarni"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p17": [
+  {
+   "question": "Xitoyda ilk sivilizatsiyalar qaysi daryolar bo'yida vujudga kelgan?",
+   "options": [
+    "Nil va Eufrat",
+    "Dajla va Frot",
+    "Xuanxe va Yanszi",
+    "Hind va Gang"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xitoydagi ilk davlat:",
+   "options": [
+    "Sin",
+    "Shan",
+    "Chjou",
+    "Xan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shan davlatini kim bosib oldi?",
+   "options": [
+    "Forslar",
+    "Xunlar",
+    "Sin qabilasi",
+    "Chjou qabilasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xitoyda nima yetishtirilgan?",
+   "options": [
+    "Sholi, choy va tut daraxti",
+    "Zaytun va uzum",
+    "Paxta va kofe",
+    "Kartoshka va makkajo'xori"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shoyi nimadan tayyorlangan?",
+   "options": [
+    "Paxtadan",
+    "Zig'irdan",
+    "Junidan",
+    "Pilladan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mil. avv. VII–V asrlar Xitoyda qanday davr?",
+   "options": [
+    "Yagona imperiya davri",
+    "Mo'g'ul davri",
+    "Dehqonlar qo'zg'oloni",
+    "\"Ko'p podsholiklar\" davri"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xitoyni mil. avv. III asrda kim birlashtirdi?",
+   "options": [
+    "Shan hukmdori",
+    "Chjou hukmdori",
+    "Xan hukmdori",
+    "Sin davlati hukmdori"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shan davlati qachon paydo bo'lgan?",
+   "options": [
+    "Milodiy I asr",
+    "Mil. avv. 3-mingyillik oxirlarida",
+    "Mil. avv. 10-mingyillik",
+    "Mil. avv. 1-mingyillik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shan davlati nimadan zaiflashgan?",
+   "options": [
+    "Tinimsiz bosqinchilik urushlaridan",
+    "Epidemiyadan",
+    "Qurg'oqchilikdan",
+    "Zilziladan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xitoy davlatlari qaysi daryo havzasida vujudga kelgan?",
+   "options": [
+    "Xuanxe havzasi o'rta qismida",
+    "Dajla",
+    "Nil",
+    "Hind"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Shoyi\" qadimda qayerga olib borilgan?",
+   "options": [
+    "Ipak yo'li orqali boshqa mamlakatlarga",
+    "Faqat Xitoy ichiga",
+    "Faqat Hindistonga",
+    "Hech qayerga"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p18": [
+  {
+   "question": "Xitoyni mil. avv. 246-yilda kim birlashtirdi?",
+   "options": [
+    "Doro I",
+    "Sin Shixuandi",
+    "Menes",
+    "Kir II"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Sin Shixuandi\" nimani bildiradi?",
+   "options": [
+    "Sinning birinchi hukmdori",
+    "Quyosh shohi",
+    "Osmon o'g'li",
+    "Buyuk xoqon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sin Shixuandi maqbarasini necha kishi necha yilda qurgan?",
+   "options": [
+    "72 ming kishi 7 yilda",
+    "7 ming kishi 3 yilda",
+    "720 kishi 37 yilda",
+    "720 ming kishi 37 yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Maqbaradan nechta sopol askar haykali topilgan?",
+   "options": [
+    "600",
+    "60 ming",
+    "60",
+    "6 ming"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Buyuk Xitoy devori nimadan himoya uchun qurilgan?",
+   "options": [
+    "Hindlardan",
+    "Rimliklardan",
+    "Forslardan",
+    "Ko'chmanchi hunlardan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xitoy devori uzunligi:",
+   "options": [
+    "40 km",
+    "400 km",
+    "Qariyb 4000 km",
+    "14 000 km"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xitoy devori balandligi:",
+   "options": [
+    "100 m",
+    "60 m",
+    "6–10 m",
+    "1 m"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qog'oz Xitoyda qachon ixtiro qilingan?",
+   "options": [
+    "Milodiy X asr",
+    "Mil. avv. I asrda",
+    "Mil. avv. 1000",
+    "Mil. avv. 3000"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xitoyliklar yana nimani ixtiro qilgan?",
+   "options": [
+    "Porox va kitob",
+    "Bosmaxona va telegraf",
+    "Soat va kema",
+    "Kompas va seysmograf"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Seysmograf nima uchun?",
+   "options": [
+    "Zilzilani oldindan aniqlash uchun",
+    "Vaqtni o'lchash",
+    "Suvni o'lchash",
+    "Shamolni o'lchash"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sin Shixuandi davlatni nimaga bo'ldi?",
+   "options": [
+    "Viloyatlarga, noiblar boshchiligida",
+    "Polislarga",
+    "Satrapiyalarga",
+    "Nomlarga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sin maqbarasi nimalar bilan taqqoslanadi?",
+   "options": [
+    "Parfenon bilan",
+    "Misr piramidalari bilan",
+    "Zikkurat bilan",
+    "Kolizey bilan"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p19_20": [
+  {
+   "question": "Mil. avv. VII–VI asrlarda O'zbekiston hududida kimlar yashagan?",
+   "options": [
+    "Forslar faqat",
+    "Arablar",
+    "Faqat sug'diylar",
+    "Sug'diylar, baqtriyaliklar, xorazmliklar, saklar, massagetlar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sug'diyona qaysi hududni egallagan?",
+   "options": [
+    "Amudaryo quyi oqimi",
+    "Farg'ona",
+    "Zarafshon va Qashqadaryo vohalari",
+    "Surxon vohasi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Baqtriya qayerda joylashgan?",
+   "options": [
+    "Amudaryo quyi oqimi",
+    "Sirdaryo bo'yi",
+    "Surxon vohasi, shimoliy Afg'oniston, janubiy Tojikiston",
+    "Zarafshon vohasi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorasmiya qayerda?",
+   "options": [
+    "Zarafshonda",
+    "Amudaryoning quyi oqimida",
+    "Surxon vohasida",
+    "Farg'onada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Lojuvard (la'l) qayerdan qazib olingan?",
+   "options": [
+    "Sug'd tog'laridan",
+    "Baqtriya tog'laridan",
+    "Misrdan",
+    "Xorazmdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Baqtriya poytaxti:",
+   "options": [
+    "Afrosiyob",
+    "Samarqand",
+    "Marakanda",
+    "Baqtra"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Baqtriya podshosi:",
+   "options": [
+    "Doro",
+    "Oksiart",
+    "Spitamen",
+    "Kir"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ktesiy nima haqida yozgan?",
+   "options": [
+    "Piramidalar",
+    "Ossuriya podshosi Ninning Baqtriyaga yurishi haqida",
+    "Aleksandr yurishlari",
+    "Troya urushi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ko'zaliqir qal'asi qaysi davrda katta saroy qurildi?",
+   "options": [
+    "Mil. avv. 3000",
+    "Mil. avv. VI asrda (xorazmliklar)",
+    "Milodiy I asr",
+    "Mil. avv. III asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Quyidagilardan qaysi biri qadimiy shahar?",
+   "options": [
+    "Troya",
+    "Afrosiyob",
+    "Memfis",
+    "Xarappa"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Quyidagilardan qaysi biri Xorazmdagi qadimiy qal'a?",
+   "options": [
+    "Afrosiyob",
+    "Jarqo'ton",
+    "Ko'zaliqir",
+    "Xufu"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunon manbalarida Zarafshon hududi qanday atalgan?",
+   "options": [
+    "Baqtriya",
+    "Aryana",
+    "Sug'diyona",
+    "Xorasmiya"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p21": [
+  {
+   "question": "Zardushtiylik asoschisi kim?",
+   "options": [
+    "Zaratushtra (Zardusht)",
+    "Konfutsiy",
+    "Budda",
+    "Gomer"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yunonlar Zardushtni nima deb atagan?",
+   "options": [
+    "Doro",
+    "Zevs",
+    "Kir",
+    "Zoroastr"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Zoroastr\" so'zi nimadan (yunoncha 'astron')?",
+   "options": [
+    "Olov so'zidan",
+    "Yulduz so'zidan",
+    "Quyosh so'zidan",
+    "Suv so'zidan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Zardusht necha yoshda yangi ta'limot targ'ibotchisiga aylangan?",
+   "options": [
+    "30 yoshda",
+    "20 yoshda",
+    "10 yoshda",
+    "60 yoshda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Avesto\" nimani anglatadi?",
+   "options": [
+    "Qat'iy belgilangan qonun-qoidalar",
+    "Olov kitobi",
+    "Quyosh kitobi",
+    "Muqaddas kitob"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ahuramazda kim?",
+   "options": [
+    "Yovuzlik xudosi",
+    "Quyosh ma'budi",
+    "Suv ma'budasi",
+    "Oliy xudo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mitra kim?",
+   "options": [
+    "Yovuzlik xudosi",
+    "Quyosh ma'budi",
+    "Hosildorlik ma'budasi",
+    "Oliy xudo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ahriman kim?",
+   "options": [
+    "Suv ma'budasi",
+    "Oliy xudo",
+    "Yovuzlik va o'lim ma'budi",
+    "Quyosh ma'budi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Anaxita kim?",
+   "options": [
+    "Hosildorlik va suv ma'budasi",
+    "Quyosh ma'budasi",
+    "Urush ma'budasi",
+    "Dengiz ma'budasi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zardushtiylar hayotining ma'nosi nima?",
+   "options": [
+    "Taxt egallash",
+    "Boylik yig'ish",
+    "Ezgu amal, ezgu so'z va ezgu fikr",
+    "Urushda g'alaba"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Zardushtiylar nimaga sig'ingan?",
+   "options": [
+    "Olov (quyosh), yer, suv va yulduzlarga",
+    "Daraxtlarga faqat",
+    "Haykallarga",
+    "Hayvonlarga"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p22": [
+  {
+   "question": "Qadimgi Yunoniston qayerda joylashgan?",
+   "options": [
+    "Apennin yarimorolida",
+    "Kichik Osiyoda",
+    "Bolqon yarimoroli va O'rta Yer dengizi orollarida",
+    "Afrikada"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunonistonning eng baland cho'qqisi:",
+   "options": [
+    "Olimp tog'i",
+    "Elbrus",
+    "Himolay",
+    "Ararat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Olimp tog'i qayerda?",
+   "options": [
+    "Mamlakatning shimoli-sharqida",
+    "Janubida",
+    "G'arbida",
+    "Markazida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Krit orolidagi sivilizatsiya nima deb atalgan?",
+   "options": [
+    "Miken sivilizatsiyasi",
+    "Fors sivilizatsiyasi",
+    "Minoy sivilizatsiyasi",
+    "Troya sivilizatsiyasi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Minoy sivilizatsiyasi qaysi podsho nomi bilan atalgan?",
+   "options": [
+    "Minos",
+    "Perikl",
+    "Aleksandr",
+    "Agamemnon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Minoy sivilizatsiyasi qaysi davrga oid?",
+   "options": [
+    "Mil. avv. 1-mingyillik oxiri",
+    "Mil. avv. 2-mingyillik",
+    "Milodiy I asr",
+    "Mil. avv. 6-mingyillik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Minoy sivilizatsiyasi tanazzulini kimlar tugatdi?",
+   "options": [
+    "Forslar",
+    "Makedonlar",
+    "Axeylar",
+    "Doriylar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Miken davlatini kimlar tugatdi?",
+   "options": [
+    "Forslar",
+    "Axeylar",
+    "Doriylar",
+    "Misrliklar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Doriylar bostirib kirgach qaysi davlat vujudga keldi?",
+   "options": [
+    "Fiva",
+    "Afina",
+    "Sparta",
+    "Korinf"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunonlar qadimdan nima bilan shug'ullangan?",
+   "options": [
+    "Faqat savdo",
+    "Faqat urush",
+    "Dehqonchilik va chorvachilik",
+    "Faqat ov"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunonistonni qaysi dengizlar o'rab turadi?",
+   "options": [
+    "O'rta Yer va Egey",
+    "Boltiq va Shimoliy",
+    "Qizil va Arab",
+    "Qora va Kaspiy"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p23_24": [
+  {
+   "question": "\"Polis\" so'zi nimani anglatadi?",
+   "options": [
+    "Xalq",
+    "Davlat",
+    "Qo'shin",
+    "Shahar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Goplitlar kimlar?",
+   "options": [
+    "Og'ir qurollangan askarlar",
+    "Kohinlar",
+    "Dengizchilar",
+    "Savdogarlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Goplitlarning zich jangovar safi nima deb atalgan?",
+   "options": [
+    "Falanga",
+    "Legion",
+    "Polk",
+    "Armiya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Meteklar kimlar?",
+   "options": [
+    "Qullar",
+    "Askarlar",
+    "Chet elliklar",
+    "Fuqarolar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Afina porti:",
+   "options": [
+    "Salamin",
+    "Pirey",
+    "Pireyya",
+    "Korinf"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afinada ta'lim qanday edi?",
+   "options": [
+    "Davlat maktablari bo'lmagan, faqat o'g'il bolalarga majburiy",
+    "Hamma uchun bepul",
+    "Faqat boylar uchun",
+    "Faqat qizlar uchun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sparta davlatiga qaysi asrda asos solingan?",
+   "options": [
+    "Mil. avv. III asr",
+    "Mil. avv. XII asrda (doriylar)",
+    "Milodiy I asr",
+    "Mil. avv. V asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Spartada ilotlar kimlar?",
+   "options": [
+    "Erkin fuqarolar",
+    "Davlat mulki bo'lgan qullar",
+    "Hunarmandlar",
+    "Askarlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Periyeklar kimlar?",
+   "options": [
+    "Qullar",
+    "Kohinlar",
+    "Askarlar",
+    "To'la huquqsiz fuqarolar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Spartada necha yoshdan hamma yigitlar jangchi bo'lgan?",
+   "options": [
+    "10 yoshdan",
+    "20 yoshdan",
+    "40 yoshdan",
+    "30 yoshdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Polislarda bozor qayerda joylashgan?",
+   "options": [
+    "Portda",
+    "Shahar tashqarisida",
+    "Shaharning katta maydonida",
+    "Ibodatxonada"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p25": [
+  {
+   "question": "Yunonlar nima uchun vatanini tark etgan?",
+   "options": [
+    "Urush uchun",
+    "Qarzdor va yer-mulksiz bo'lib qolgani uchun",
+    "Din uchun",
+    "Epidemiya uchun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yunonlar koloniyalar qayerlarda barpo etgan?",
+   "options": [
+    "Faqat Afrikada",
+    "Sitsiliya, Apennin janubi, O'rta Yer va Qora dengiz bo'ylarida",
+    "Faqat Hindistonda",
+    "Faqat Eronda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Koloniyalar nimaga aylangan?",
+   "options": [
+    "Qal'alarga",
+    "Qo'shinlarga",
+    "Shahar-davlatlarga",
+    "Qishloqlarga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunonlar o'zlarini qanday atagan?",
+   "options": [
+    "Ellinlar",
+    "Varvarlar",
+    "Axeylar",
+    "Doriylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yunonlar o'z vatanini qanday atagan?",
+   "options": [
+    "Ellada",
+    "Afina",
+    "Gresiya",
+    "Sparta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Varvarlar\" kimlar?",
+   "options": [
+    "Yunon bo'lmagan xalqlar",
+    "Yunonlar",
+    "Spartaliklar",
+    "Doriylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buyuk Yunon koloniyalashtirishi qaysi davrda?",
+   "options": [
+    "Mil. avv. III asr",
+    "Mil. avv. VIII–VI asrlarda",
+    "Milodiy I asr",
+    "Mil. avv. XII asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ketayotganda yunonlar olovni nima uchun olgan?",
+   "options": [
+    "Savdo uchun",
+    "Tark etilgan vatanning bir parchasi sifatida",
+    "Pishirish uchun",
+    "Qal'a yoqish uchun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Koloniyalar nimaga ega bo'lgan?",
+   "options": [
+    "O'z hokimlari, qo'shinlari, qonunlari, tangalari",
+    "Faqat qo'shin",
+    "Hech narsa",
+    "Faqat bozor"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yo'lga chiqishdan oldin yunonlar nima qilgan?",
+   "options": [
+    "Soliq to'lagan",
+    "Ma'budlarga qurbonliklar bag'ishlagan",
+    "Urush e'lon qilgan",
+    "Qal'a qurgan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xersones va Pantikapey qaysi dengiz bo'yida?",
+   "options": [
+    "Kaspiy",
+    "Qora dengiz",
+    "Egey",
+    "O'rta Yer dengizi"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p26": [
+  {
+   "question": "Afinada xalq yig'ini o'tadigan maydon:",
+   "options": [
+    "Parfenon",
+    "Agora",
+    "Pirey",
+    "Akropol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Agora qayerda joylashgan?",
+   "options": [
+    "Qal'ada",
+    "Portda",
+    "Shahar tashqarisida",
+    "Akropol tevaragida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xalq yig'ini qancha tez-tez o'tgan?",
+   "options": [
+    "Haftada bir",
+    "Oyiga to'rt marta",
+    "Yiliga bir marta",
+    "Har kuni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Demokratiya nimani anglatadi?",
+   "options": [
+    "Harbiylar hokimiyati",
+    "Xalq hokimiyati",
+    "Shoh hokimiyati",
+    "Zodagonlar hokimiyati"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Demos va kratos nima?",
+   "options": [
+    "Xalq va hokimiyat",
+    "Qul va xo'jayin",
+    "Shahar va davlat",
+    "Qonun va sud"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Drakont qonunlari qachon yozilgan?",
+   "options": [
+    "Mil. avv. 594",
+    "Mil. avv. 621-yilda",
+    "Mil. avv. 490",
+    "Mil. avv. 443"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Drakont qonunlari nega mashhur?",
+   "options": [
+    "Juda qattiq, jazo — o'lim",
+    "Qullarga ozodlik berdi",
+    "Soliqni bekor qildi",
+    "Juda yumshoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Solon qachon islohot o'tkazgan?",
+   "options": [
+    "Mil. avv. 490",
+    "Mil. avv. 594-yilda",
+    "Mil. avv. 621",
+    "Mil. avv. 443"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Solon nimani bekor qildi?",
+   "options": [
+    "Fuqarolikni",
+    "Xalq yig'inini",
+    "Qarzdorlarni qul qilishni",
+    "Qo'shinni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Perikl necha marta strateg saylangan?",
+   "options": [
+    "50 marta",
+    "15 marta",
+    "bir marta",
+    "3 marta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Perikl asri\" qaysi davr?",
+   "options": [
+    "Mil. avv. 490–479",
+    "Mil. avv. 621–594",
+    "Mil. avv. 443–429-yillar",
+    "Mil. avv. 338"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Perikl davrida qurilgan mashhur ibodatxona:",
+   "options": [
+    "Zikkurat",
+    "Kolizey",
+    "Piramida",
+    "Parfenon"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p27_28": [
+  {
+   "question": "Marafon jangi qachon bo'lgan?",
+   "options": [
+    "Mil. avv. 490-yilda",
+    "Mil. avv. 479",
+    "Mil. avv. 480",
+    "Mil. avv. 338"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Marafon jangida kim g'alaba qozondi?",
+   "options": [
+    "Yunonlar",
+    "Makedonlar",
+    "Forslar",
+    "Misrliklar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Marafon yugurishi\" nimadan kelib chiqqan?",
+   "options": [
+    "Afina bayramidan",
+    "Sparta urushidan",
+    "Olimpiya o'yinidan",
+    "Jangchi 42 km chopib g'alaba xabarini yetkazgani"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Fermopil dovonini kim himoya qilgan?",
+   "options": [
+    "Filipp II",
+    "Sparta podshosi Leonid",
+    "Perikl",
+    "Aleksandr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Uch yuz spartalik jasorati\" qaysi jang?",
+   "options": [
+    "Marafon",
+    "Fermopil",
+    "Salamin",
+    "Plateya"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Salamin dengiz jangida kim yengildi?",
+   "options": [
+    "Yunonlar",
+    "Spartaliklar",
+    "Forslar",
+    "Makedonlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Plateya yaqinida fors qo'shinlari qachon tor-mor etildi?",
+   "options": [
+    "Mil. avv. 480",
+    "Mil. avv. 449",
+    "Mil. avv. 490",
+    "Mil. avv. 479-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yunon-fors urushlari qachon sulh bilan tugagan?",
+   "options": [
+    "Mil. avv. 490",
+    "Mil. avv. 338",
+    "Mil. avv. 330",
+    "Mil. avv. 449-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mil. avv. 480-yilda Yunonistonga qarshi kim yurish boshladi?",
+   "options": [
+    "Doro III",
+    "Kir II",
+    "Kambiz",
+    "Kserks (Doro I ning o'g'li)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Makedoniya falangasi necha qatorli edi (Filipp II)?",
+   "options": [
+    "4 qatorli",
+    "1 qatorli",
+    "16 qatorli",
+    "50 qatorli"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xeroniya jangida suvoriy qo'shinga kim qo'mondonlik qilgan?",
+   "options": [
+    "Aleksandr",
+    "Filipp II",
+    "Perikl",
+    "Leonid"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p29": [
+  {
+   "question": "Birinchi Olimpiya o'yinlari qachon o'tkazilgan?",
+   "options": [
+    "Milodiy 394",
+    "Mil. avv. 490",
+    "1896",
+    "Mil. avv. 776-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Olimpiya o'yinlari qaysi xudo sharafiga?",
+   "options": [
+    "Poseydon",
+    "Apollon",
+    "Gerakl",
+    "Zevs"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Olimpiya o'yinlari qancha vaqtda bir marta o'tkazilgan?",
+   "options": [
+    "Har to'rt yilda",
+    "Har yili",
+    "Har ikki yilda",
+    "Har o'n yilda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'yinlar vaqtida nima to'xtatilgan?",
+   "options": [
+    "Maktab",
+    "Urushlar",
+    "Dehqonchilik",
+    "Savdo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qadimgi Olimpiya o'yinlari qachon to'xtagan?",
+   "options": [
+    "Milodiy 394-yilda",
+    "Mil. avv. 490",
+    "Mil. avv. 776",
+    "1896"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zamonaviy Olimpiya o'yinlari qachon tiklangan?",
+   "options": [
+    "1950-yilda",
+    "394-yilda",
+    "1776-yilda",
+    "1896-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yunon maktablari qanday odamlarni tarbiyalashi kerak edi?",
+   "options": [
+    "Faol fuqarolar va davlat himoyachilarini",
+    "Faqat kohinlarni",
+    "Faqat savdogarlarni",
+    "Faqat hunarmandlarni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bolalikdan o'g'il bolalarga nima singdirilgan?",
+   "options": [
+    "She'riyat va musiqaga muhabbat",
+    "Faqat din",
+    "Faqat savdo",
+    "Faqat jang"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Harbiy ta'limning birinchi yili nimalarni o'rgangan?",
+   "options": [
+    "Savdo",
+    "Qal'a qurish",
+    "Safda yurish, qurol taqish, chidamlilik",
+    "Dengizchilik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Harbiy ta'limning ikkinchi yili ba'zilar qayerda o'tgan?",
+   "options": [
+    "Sparta kazarmasida",
+    "Misrda",
+    "Attika chegara qal'alarida",
+    "Rimda"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p30": [
+  {
+   "question": "Troya urushi taxminan qachon boshlangan?",
+   "options": [
+    "Mil. avv. 776",
+    "Mil. avv. 1200-yil atrofida",
+    "Mil. avv. 2600",
+    "Mil. avv. 490"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Troya urushining afsonaviy sababi nima?",
+   "options": [
+    "Oltin topilgani",
+    "Daryo toshqini",
+    "Paris Sohibjamol Yelenani o'g'irlagani",
+    "Soliq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Gomer qaysi dostonlarni yozgan?",
+   "options": [
+    "\"Iliada\" va \"Odisseya\"",
+    "\"Mahabharata\"",
+    "\"Avesto\"",
+    "\"Shohnoma\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Iliada\" qaysi voqea haqida?",
+   "options": [
+    "Odisseyning sayohati haqida",
+    "Marafon jangi haqida",
+    "Troya urushining oxirgi o'ninchi yili haqida",
+    "Aleksandr yurishlari haqida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunonlar Troyani qanday bosib olgan?",
+   "options": [
+    "Qamal bilan",
+    "Dengizdan",
+    "Ichi bo'sh yog'och ot yordamida",
+    "Ittifoq bilan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yog'och ot g'oyasi kimning maslahati?",
+   "options": [
+    "Parisning",
+    "Odisseyning",
+    "Gerakning",
+    "Axillesning"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Axilles tovoni\" iborasi ma'nosi:",
+   "options": [
+    "Kuchli joy",
+    "Nozik, zaif joy",
+    "Tez yugurish",
+    "G'alaba"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yunon teatrida rollarni kimlar ijro etgan?",
+   "options": [
+    "Faqat ayollar",
+    "Bolalar",
+    "Hayvonlar",
+    "Faqat erkaklar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sofokl qaysi janrda yozgan?",
+   "options": [
+    "Tarixiy asar",
+    "Doston",
+    "Tragediya",
+    "Komediya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Aristofan qaysi janr muallifi?",
+   "options": [
+    "Doston",
+    "Tragediya",
+    "Ilmiy asar",
+    "Komediya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Fidiy qaysi inshootga boshchilik qilgan?",
+   "options": [
+    "Akropoldagi Parfenon qurilishiga",
+    "Piramidaga",
+    "Kolizeyga",
+    "Zikkuratga"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p31": [
+  {
+   "question": "Geraklit hamma narsa nimadan kelib chiqqan deb o'ylagan?",
+   "options": [
+    "Suvdan",
+    "Yerdan",
+    "Olovdan",
+    "Havodan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Geraklit hikmati:",
+   "options": [
+    "\"Hamma narsa oqadi, o'zgaruvchandir\"",
+    "\"Hamma narsa atomdan\"",
+    "\"Tarix takrorlanadi\"",
+    "\"Bilgan bilmaydi\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Demokrit nimani ilgari surgan?",
+   "options": [
+    "Hamma narsa atomlardan tashkil topgan",
+    "Hamma narsa suvdan",
+    "Hamma narsa sondan",
+    "Hamma narsa olovdan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Atom so'zi nimani anglatadi (ta'limotga ko'ra)?",
+   "options": [
+    "Olov uchquni",
+    "Ko'zga ko'rinmaydigan mayda zarralar",
+    "Katta tosh",
+    "Havo bo'lagi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Diogen qanday yashagan?",
+   "options": [
+    "Kemada",
+    "Ehtiyojlardan voz kechib, bochkada",
+    "Saroyda",
+    "Qal'ada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Gerodot qaysi kitobni yozgan?",
+   "options": [
+    "\"Tarix\" (yunon-fors urushlari haqida)",
+    "\"Iliada\"",
+    "\"Fizika\"",
+    "\"Qonunlar\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Gerodot qanday nom bilan atalgan?",
+   "options": [
+    "Tibbiyotning otasi",
+    "Tarixning otasi",
+    "Falsafaning otasi",
+    "Teatrning otasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Arximed qaysi qonunni ishlab chiqqan?",
+   "options": [
+    "Qonunlar to'plamini",
+    "Tortishish qonunini",
+    "Richag qonunini",
+    "Harakat qonunini"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Arximed nima deb hayqirgan?",
+   "options": [
+    "\"Evrika!\" (\"Topdim!\")",
+    "\"Marafon!\"",
+    "\"Troya!\"",
+    "\"Olimpiya!\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yunon olimlari qanday ko'rilgan?",
+   "options": [
+    "Kohinlar",
+    "Donishmandlar va hayot murabbiylari sifatida",
+    "Savdogarlar",
+    "Jangchilar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Demokrit qaysi mamlakatlik?",
+   "options": [
+    "Frakiyalik",
+    "Misrlik",
+    "Hindistonlik",
+    "Forsiy"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p32": [
+  {
+   "question": "\"Mif\" yunoncha nimani anglatadi?",
+   "options": [
+    "Qonun",
+    "Afsona",
+    "Tarix",
+    "Qo'shiq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afsonalarga ko'ra azalda Yer nima bilan o'ralgan edi?",
+   "options": [
+    "Dengizlar bilan",
+    "Tog'lar bilan",
+    "Cho'llar bilan",
+    "O'rmonlar bilan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dengizlar hukmdori titan:",
+   "options": [
+    "Aid",
+    "Zevs",
+    "Atlant",
+    "Okean"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Osmon gumbazini yelkasida tutib turgan titan:",
+   "options": [
+    "Atlant",
+    "Poseydon",
+    "Okean",
+    "Gerakl"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Gerakl xudolar saltanatida nima uchun faxrli o'ringa ega bo'lgan?",
+   "options": [
+    "Boyligi tufayli",
+    "Sulolasi tufayli",
+    "O'n ikki jasorati tufayli",
+    "Donoligi tufayli"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Zevs qayerda hukmronlik qilgan?",
+   "options": [
+    "Yerosti saltanatida",
+    "Osmonda",
+    "Daryolarda",
+    "Dengizda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Poseydon qayerda hukmronlik qilgan?",
+   "options": [
+    "Osmonda",
+    "O'rmonda",
+    "Dengizda",
+    "Yerosti saltanatida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Aid qayerda hukmronlik qilgan?",
+   "options": [
+    "Dengizda",
+    "Tog'larda",
+    "Marhumlar saltanatida",
+    "Osmonda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ma'budlar qayerda yashagan deb tasavvur qilingan?",
+   "options": [
+    "Delfida",
+    "Olimp tog'ida",
+    "Parfenonda",
+    "Troyada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afsonalar nimadan hikoya qiladi?",
+   "options": [
+    "Faqat soliqdan",
+    "Olamning yaratilishi, qahramonlar jasorati",
+    "Faqat savdodan",
+    "Faqat qonunlardan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Axilles va Gerakl qanday qahramonlar?",
+   "options": [
+    "Savdogarlar",
+    "Bahodir qahramonlar",
+    "Kohinlar",
+    "Olimlar"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p33_34": [
+  {
+   "question": "Kir II qaysi hududlarni bosib olgan?",
+   "options": [
+    "Hindiston, Xitoy",
+    "Rim, Yunoniston",
+    "Misr, Nubiya",
+    "Parfiya, Marg'iyona, Baqtriya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kir II qachon massagetlarga yurish qilib halok bo'lgan?",
+   "options": [
+    "Mil. avv. 522",
+    "Mil. avv. 330",
+    "Mil. avv. 530-yilda",
+    "Mil. avv. 490"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Massagetlar malikasi kim edi?",
+   "options": [
+    "Kleopatra",
+    "Apama",
+    "To'maris",
+    "Roksana"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Marg'iyonada Doro I ga qarshi qo'zg'olonga kim boshchilik qilgan?",
+   "options": [
+    "Spitamen",
+    "Frada",
+    "Shiroq",
+    "Oksiart"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Doro I ning saklarga yurishi qanday tugagan?",
+   "options": [
+    "Sulh bilan",
+    "Muvaffaqiyatsiz",
+    "G'alaba bilan",
+    "Hech yurilmagan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sak cho'poni Shiroq forslarni qayerga boshlab borgan?",
+   "options": [
+    "Suvsiz sahroga",
+    "Daryo bo'yiga",
+    "Tog'ga",
+    "Qal'aga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'rta Osiyo Ahamoniylar davrida nechta satrapiyaga bo'lingan?",
+   "options": [
+    "Bitta",
+    "Ikkita",
+    "O'nta",
+    "Uchta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Marafon jangida fors qo'shini markazida kimlar jang qilgan?",
+   "options": [
+    "Baqtriyaliklar",
+    "Saklar",
+    "Hindlar",
+    "Misrliklar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Massagetlar nima bilan shug'ullangan?",
+   "options": [
+    "Dehqonchilik",
+    "Chorvachilik va baliq ovi",
+    "Hunarmandchilik",
+    "Savdo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Massagetlarning yagona tangrisi:",
+   "options": [
+    "Suv",
+    "Yer",
+    "Quyosh",
+    "Olov"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Amudaryo xazinasi qayerdan topilgan?",
+   "options": [
+    "Xorazmdan",
+    "Qubodiyon vodiysidan (1877-y.)",
+    "Samarqanddan",
+    "Misrdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Amudaryo xazinasi hozir qayerda saqlanadi?",
+   "options": [
+    "Britaniya muzeyida",
+    "Luvrda",
+    "Toshkent muzeyida",
+    "Ermitajda"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p35_36": [
+  {
+   "question": "Aleksandr necha yoshda Makedoniya podshosi bo'ldi?",
+   "options": [
+    "20 yoshda",
+    "30 yoshda",
+    "10 yoshda",
+    "40 yoshda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Aleksandr Sharqqa yurishni qachon boshladi?",
+   "options": [
+    "Mil. avv. 334-yilda",
+    "Mil. avv. 323",
+    "Mil. avv. 330",
+    "Mil. avv. 336"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Aleksandr Doro III ni qachon tor-mor qildi?",
+   "options": [
+    "Mil. avv. 329",
+    "Mil. avv. 334",
+    "Mil. avv. 323",
+    "Mil. avv. 330-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Maroqanda qachon egallandi?",
+   "options": [
+    "Mil. avv. 330",
+    "Mil. avv. 323",
+    "Mil. avv. 328",
+    "Mil. avv. 329-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yunon-makedonlarga qarshi qo'zg'olonga kim boshchilik qildi?",
+   "options": [
+    "Shiroq",
+    "Spitaman",
+    "Oksiart",
+    "Frada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xo'jand yaqinida qaysi qal'a barpo etildi?",
+   "options": [
+    "Aleksandriya Esxata (Chekka Aleksandriya)",
+    "Aleksandriya Misr",
+    "Baqtra",
+    "Maroqanda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Spitaman qachon yengilgan?",
+   "options": [
+    "Mil. avv. 330",
+    "Mil. avv. 328-yil kuzida",
+    "Mil. avv. 323",
+    "Mil. avv. 329"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aleksandr kimning qiziga uylandi?",
+   "options": [
+    "Doro qiziga",
+    "Oksiartning qizi Roksanaga",
+    "Spitaman qiziga",
+    "Kir qiziga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aleksandr qaysi hududlarni bo'ysundira olmadi?",
+   "options": [
+    "Baqtriya",
+    "Sug'diyona",
+    "Xorazm, Toshkent vohasi, Farg'ona",
+    "Marg'iyona"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta Osiyo jangchilari qanday qurollanishgan?",
+   "options": [
+    "To'p",
+    "Akinak, sagaris, nayza, kamon",
+    "Qilich-qalqon faqat",
+    "Miltiq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aleksandr vafot etganda (mil. avv. 323) nima bo'ldi?",
+   "options": [
+    "Hamma birlashdi",
+    "Davlati bo'linib ketdi",
+    "Qo'zg'olon tugadi",
+    "Davlat kengaydi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bosqin oqibatida nima bo'ldi?",
+   "options": [
+    "Shaharlar o'sdi",
+    "Aholi ko'paydi",
+    "Yerlar xarobazorga aylandi, shaharlar vayron bo'ldi",
+    "Savdo rivojlandi"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p37": [
+  {
+   "question": "Aleksandr davlati qaysi qismlarga bo'linib ketdi?",
+   "options": [
+    "Eron, Hindiston, Xitoy",
+    "Baqtriya, Sug'd, Xorazm",
+    "Makedoniya, Misr, Suriya",
+    "Yunoniston, Rim, Karfagen"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Salavk qaysi mamlakat hukmdori bo'ldi (mil. avv. 312)?",
+   "options": [
+    "Bobil (Suriya)",
+    "Misr",
+    "Makedoniya",
+    "Baqtriya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Salavk Sharqiy viloyatlarga kimni noib etdi?",
+   "options": [
+    "Spitamanni",
+    "Diodotni",
+    "Demetriyni",
+    "O'g'li Antioxni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Antiox kimlarning farzandi?",
+   "options": [
+    "Doro va Roksana",
+    "Salavk va Spitaman qizi Apama",
+    "Aleksandr va Roksana",
+    "Kir va To'maris"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kampirtepa qal'asi qayerda?",
+   "options": [
+    "Boysunda",
+    "Samarqandda",
+    "Xorazmda",
+    "Termiz yaqinida, Oks o'tish joyida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Uzundara qal'asi qayerda?",
+   "options": [
+    "Farg'onada",
+    "Buxoroda",
+    "Termizda",
+    "Boysun tog'larida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Baqtriya Salavkiylardan qachon ajralib chiqdi?",
+   "options": [
+    "Mil. avv. 323",
+    "Mil. avv. 250-yilda",
+    "Mil. avv. 140",
+    "Mil. avv. 312"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yunon-Baqtriya davlati asoschisi:",
+   "options": [
+    "Demetriy",
+    "Antiox",
+    "Diodot",
+    "Salavk"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yunon-Baqtriya qaysi podsho davrida eng katta sarhadga yetdi?",
+   "options": [
+    "Diodot",
+    "Antiox",
+    "Salavk",
+    "Demetriy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yunon-Baqtriyani kimlar bosib oldi?",
+   "options": [
+    "Yuechji qabilalari",
+    "Rimliklar",
+    "Forslar",
+    "Saklar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Baqtriya orqali Buyuk ipak yo'lining qaysi tarmog'i o'tgan?",
+   "options": [
+    "Dengiz tarmog'i",
+    "Janubiy tarmog'i",
+    "Shimoliy tarmog'i",
+    "Hech qaysi"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p38_39": [
+  {
+   "question": "Xorazm mil. avv. IV asrda qaysi davlatdan ajralib chiqdi?",
+   "options": [
+    "Parfiya",
+    "Ahamoniylar davlatidan",
+    "Kushon",
+    "Salavkiylar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xorazm shaharlari:",
+   "options": [
+    "Taroz, Suyab",
+    "Termiz, Buxoro",
+    "Marv, Nisa",
+    "Xiva, Jonbosqal'a, Bozorqal'a"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazm xo'jaligi asosi nima edi?",
+   "options": [
+    "Dengiz savdosi",
+    "Ovchilik",
+    "Konchilik",
+    "Sun'iy sug'orma dehqonchilik va chorvachilik"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Amudaryodan chiqarilgan kanallar uzunligi:",
+   "options": [
+    "4–5 km",
+    "400 km",
+    "1 km",
+    "40–50 km"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazmliklar qaysi ekinlarni ekkan?",
+   "options": [
+    "Kartoshka",
+    "Bug'doy, arpa, tariq",
+    "Paxta, guruch",
+    "Zaytun, uzum"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oqchaxon qal'asi devoriy rasmlari nimani tasvirlaydi?",
+   "options": [
+    "30 ta qahramon portretini",
+    "Ma'budlar",
+    "Ov manzarasi",
+    "Hayvonlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tuproqqal'a zalida nechta loy haykal bo'lgan?",
+   "options": [
+    "1150 ta",
+    "15 ta",
+    "11 ta",
+    "115 ta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazm yozuvi nechta harfdan iborat?",
+   "options": [
+    "20 ta",
+    "30",
+    "25",
+    "22"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qo'yqirilganqal'a nima uchun qurilgan?",
+   "options": [
+    "Savdo uchun",
+    "Qal'a sifatida faqat",
+    "Ombor uchun",
+    "Kohinlar osmonni kuzatgan joy"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p40": [
+  {
+   "question": "Qang' davlatiga kimlar asos solgan?",
+   "options": [
+    "Xitoyliklar",
+    "Forslar",
+    "Saklar (mil. avv. III asr)",
+    "Kushonlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xitoy manbalarida Qang' qanday atalgan?",
+   "options": [
+    "Qang'yuy",
+    "Yuechji",
+    "Shan",
+    "Davan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qang' poytaxti:",
+   "options": [
+    "Baqtra",
+    "Samarqand",
+    "Qang'diz (Bityan)",
+    "Ershi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qang'diz (Qanqa) qayerda joylashgan?",
+   "options": [
+    "Samarqand",
+    "Toshkent vohasi, Oqqo'rg'on tumani",
+    "Termiz",
+    "Buxoro"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qang'liklar nimaga sig'ingan?",
+   "options": [
+    "Olov va quyoshga",
+    "Daryolarga",
+    "Hayvonlarga",
+    "Haykallarga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shoshtepada nima qurilgan?",
+   "options": [
+    "Piramida",
+    "Qal'a devori",
+    "Doira shaklidagi olov ibodatxonasi",
+    "Zikkurat"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qang' hududidan qaysi tarmoq o'tgan?",
+   "options": [
+    "Buyuk ipak yo'lining shimoliy tarmog'i",
+    "Qirol yo'li",
+    "Dengiz yo'li",
+    "Janubiy tarmog'i"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qang' qachon mayda mulklarga parchalangan?",
+   "options": [
+    "Milodiy I asr",
+    "Milodiy X asr",
+    "Milodiy III asrda",
+    "Mil. avv. III asr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Davan davlati qayerda paydo bo'lgan?",
+   "options": [
+    "Surxonda",
+    "Farg'ona vodiysida",
+    "Toshkentda",
+    "Xorazmda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Davan poytaxti:",
+   "options": [
+    "Baqtra",
+    "Qang'diz",
+    "Ershi",
+    "Maroqanda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xitoy elchisi Chjan Szyan Davanda nechta shahar borligini yozgan?",
+   "options": [
+    "700 ta",
+    "7 ta",
+    "17 ta",
+    "70 ta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Davan Xitoy bilan nega urushgan?",
+   "options": [
+    "Hukmdori zotdor otlarni berishdan bosh tortgani uchun",
+    "Din uchun",
+    "Soliq uchun",
+    "Yer uchun"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p41": [
+  {
+   "question": "Yuechji qabilalari Yunon-Baqtriyani qachon bosib oldi?",
+   "options": [
+    "Milodiy I asr",
+    "Mil. avv. 250",
+    "Milodiy III asr",
+    "Mil. avv. 140–130-yillarda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kushon davlatiga qachon asos solindi?",
+   "options": [
+    "Milodiy I asrda",
+    "Mil. avv. 140",
+    "Milodiy III asr",
+    "Milodiy X asr"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Birinchi kushon hukmdori kim?",
+   "options": [
+    "Diodot",
+    "Kanishka",
+    "Vima Kadfiz",
+    "Kudzula Kadfiz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kushon davlati qaysi hukmdor davrida cho'qqiga chiqdi?",
+   "options": [
+    "Diodot",
+    "Kanishka",
+    "Vima",
+    "Kudzula"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Vima Kadfiz davrida nima o'tkazilgan?",
+   "options": [
+    "Yer islohoti",
+    "Harbiy islohot",
+    "Pul islohoti (hukmdor nomi bitilgan tangalar)",
+    "Soliq islohoti"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kushon davlati qachon parchalangan?",
+   "options": [
+    "Milodiy X asr",
+    "Mil. avv. 140",
+    "Milodiy I asr",
+    "Milodiy III asrda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kanishka davrida qaysi mamlakatlar bilan savdo va elchilik aloqalari bo'lgan?",
+   "options": [
+    "Misr, Yunon",
+    "Hindiston, Xitoy, Rim",
+    "Rus, Polsha",
+    "Arab, Fors"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kushonlar davrida nimadan keng foydalanilgan?",
+   "options": [
+    "Parovozdan",
+    "Suv tegirmoni va chig'irdan",
+    "Tuyadan",
+    "Porohdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kushon davlatida qaysi yozuvlar bo'lgan?",
+   "options": [
+    "Aramey, kushon-baqtriya, yunon alifbosi",
+    "Faqat run",
+    "Faqat mixxat",
+    "Faqat iyeroglif"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buddaviylik O'rta Osiyoga qaysi davrda kirib kelgan?",
+   "options": [
+    "Kushon davrida",
+    "Ahamoniylar davrida",
+    "Arab davrida",
+    "Rim davrida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buddaviy ibodatxonalari qayerda bo'lgan?",
+   "options": [
+    "Eski Termiz, Ayritom, Dalvarzintepa",
+    "Toshkent, Qo'qon",
+    "Samarqand, Buxoro",
+    "Xiva, Urganch"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kushon san'atida qanday uslublar uyg'unlashgan?",
+   "options": [
+    "Faqat rim",
+    "Faqat xitoy",
+    "Mahalliy, Qadimgi Sharq va ellinistik",
+    "Faqat fors"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p42": [
+  {
+   "question": "Buyuk ipak yo'li uzunligi:",
+   "options": [
+    "500 km",
+    "120 ming km",
+    "12 ming km",
+    "1,2 ming km"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ipak yo'li qaysi dengizlarni bog'lagan?",
+   "options": [
+    "Boltiq va Shimoliy",
+    "Qizil va Arab",
+    "Sariq dengizdan O'rta Yer dengizigacha",
+    "Qora va Kaspiy"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sug'diyonadan nimalar olib borilgan?",
+   "options": [
+    "Junli matolar, gilamlar, zeb-ziynat",
+    "Choy",
+    "Ipak",
+    "Ziravor"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hindistondan nima keltirilgan?",
+   "options": [
+    "Uzum",
+    "Guruch",
+    "Paxta matolari va chigit",
+    "Anor"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta Osiyodan Xitoyga nima yetkazilgan?",
+   "options": [
+    "Shisha",
+    "Uzum, yong'oq, anor",
+    "Choy",
+    "Paxta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Imperator U-Di Chjan Szyanni nima uchun yubordi?",
+   "options": [
+    "Dam olish uchun",
+    "Din uchun",
+    "Savdo uchun",
+    "Hunlarga qarshi ittifoqchi topish uchun"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chjan Szyan Xitoyga nimalarni olib keldi?",
+   "options": [
+    "Kompas",
+    "Ipak",
+    "Farg'ona oti va beda urug'ini",
+    "Qog'oz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta Osiyo ipak yo'lining qayerida joylashgan?",
+   "options": [
+    "Oxirida faqat",
+    "Asosiy yo'nalishlar kesishgan chorrahada",
+    "Boshida faqat",
+    "Chekkasida"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p43": [
+  {
+   "question": "Italiya qayerda joylashgan?",
+   "options": [
+    "Kichik Osiyoda",
+    "Bolqon yarimorolida",
+    "Iberiya yarimorolida",
+    "Apennin yarimorolida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Italiya\" so'zi nimani bildiradi?",
+   "options": [
+    "Quyosh yurti",
+    "Daryo yurti",
+    "Tog'lar yurti",
+    "Buzoqchalar mamlakati"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Apennin yarimorolidagi eng katta daryo:",
+   "options": [
+    "Tibr",
+    "Nil",
+    "Arno",
+    "Po"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shimoli-g'arbda kimlar yashagan?",
+   "options": [
+    "Yunonlar",
+    "Italiklar",
+    "Karfagenliklar",
+    "Etrusklar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rim qaysi daryo bo'yida joylashgan?",
+   "options": [
+    "Nil",
+    "Po",
+    "Tibr",
+    "Arno"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rimga qachon asos solingan (rivoyat)?",
+   "options": [
+    "Mil. avv. 509",
+    "Mil. avv. 753-yilda",
+    "Mil. avv. 1200",
+    "Mil. avv. 476"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Romul va Remni kim emizgan?",
+   "options": [
+    "Sher",
+    "Ona bo'ri",
+    "Sigir",
+    "Echki"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Rim respublikasi qachon asos solindi?",
+   "options": [
+    "Mil. avv. 509-yilda (Tarkviniy quvilgach)",
+    "Mil. avv. 27",
+    "Mil. avv. 476",
+    "Mil. avv. 753"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p44": [
+  {
+   "question": "\"Senat\" nimani bildiradi?",
+   "options": [
+    "Xalq yig'ini",
+    "Oqsoqollar kengashi",
+    "Sud",
+    "Qo'shin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Respublika\" nimani bildiradi?",
+   "options": [
+    "Zodagonlar ishi",
+    "Shoh hokimiyati",
+    "Qo'shin ishi",
+    "Xalq ishi, umumiy ish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rimning tub aholisi kimlar?",
+   "options": [
+    "Patritsiylar",
+    "Meteklar",
+    "Kolonlar",
+    "Plebeylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ko'chib kelganlar va avlodlari qanday atalgan?",
+   "options": [
+    "Plebeylar",
+    "Patritsiylar",
+    "Periyeklar",
+    "Ilotlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Boshqaruvda kimlar ishtirok etgan?",
+   "options": [
+    "Faqat patritsiylar",
+    "Faqat qullar",
+    "Hamma",
+    "Faqat plebeylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xalq majlisi nechta konsulni necha muddatga saylagan?",
+   "options": [
+    "Bitta konsulni besh yilga",
+    "To'rt konsulni ikki yilga",
+    "Konsul saylamagan",
+    "Ikki konsulni bir yilga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Kandidat\" so'zi nimadan kelib chiqqan?",
+   "options": [
+    "Yoydan",
+    "Nomzodlar kiygan oq libos \"kandida\"dan",
+    "Qalpoqdan",
+    "Qizil libosdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Diktator hokimiyati qancha muddatga?",
+   "options": [
+    "O'n yil",
+    "Olti oydan ko'p emas",
+    "Umrbod",
+    "Bir yil"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Har bir konsulni nechta liktor qo'riqlagan?",
+   "options": [
+    "12 ta",
+    "2 ta",
+    "100 ta",
+    "6 ta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xalq tribunlari qanday huquqqa ega bo'lgan?",
+   "options": [
+    "Qonun yozish",
+    "\"Veto\" huquqi",
+    "Soliq solish",
+    "Urush e'lon qilish"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "p45": [
+  {
+   "question": "Rim shaharlari qanday qurilgan?",
+   "options": [
+    "Tasodifiy",
+    "Daryo bo'ylab",
+    "Oldindan puxta ishlangan reja asosida",
+    "Qal'a atrofida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shaharga suv qanday keltirilgan?",
+   "options": [
+    "Quduqdan",
+    "Daryodan",
+    "Yomg'irdan",
+    "Akveduk orqali"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Forum nima?",
+   "options": [
+    "Qal'a",
+    "Bozor, xalq yig'ilishi va markaziy ibodatxona joyi",
+    "Maqbara",
+    "Kazarma"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yupiter qaysi ma'bud?",
+   "options": [
+    "Ov ma'budasi",
+    "Urush ma'budi",
+    "Dengiz ma'budi",
+    "Bosh ma'bud, Rim davlati homiysi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mars qaysi ma'bud?",
+   "options": [
+    "Dengiz ma'budi",
+    "Ov ma'budasi",
+    "Urush ma'budi",
+    "Savdo ma'budi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Diana qaysi ma'buda?",
+   "options": [
+    "Savdo ma'budasi",
+    "Ov ma'budasi",
+    "Dengiz ma'budasi",
+    "Xonadon o'chog'i ma'budasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Vesta qaysi ma'buda?",
+   "options": [
+    "Ov ma'budasi",
+    "G'alaba ma'budasi",
+    "Urush ma'budasi",
+    "Xonadon o'chog'i ma'budasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Avgurlar kimlar?",
+   "options": [
+    "Askarlar",
+    "Hakamlar",
+    "Savdogarlar",
+    "Qushlar parvozi va alomatlarga qarab bashorat qiluvchilar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'g'il bolalar 14 yoshgacha qanday toga kiygan?",
+   "options": [
+    "Pushti yo'lli toga",
+    "Qora toga",
+    "Qizil toga",
+    "Oppoq toga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Rim boylari uylarida nimalar bo'lgan?",
+   "options": [
+    "Telefon",
+    "Ayna-gaz",
+    "Markaziy isitish, suv quvurlari, mozaika",
+    "Elektr"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p46": [
+  {
+   "question": "Rimda qullar soni Misr va Yunonistonga qaraganda qanday?",
+   "options": [
+    "Teng",
+    "Ancha kam",
+    "Ancha ko'p",
+    "Yo'q"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qullar soni nimaning natijasida ko'paygan?",
+   "options": [
+    "Zafarli yurishlar",
+    "Tug'ilish",
+    "Savdo",
+    "Dehqonchilik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Rimliklar qulni qanday ko'rgan?",
+   "options": [
+    "Quldorning ixtiyoridagi buyum deb",
+    "Xizmatkor deb",
+    "Odam deb",
+    "Hamkor deb"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kolonlar kimlar?",
+   "options": [
+    "Yerni ijaraga olgan erkin kambag'allar",
+    "Askarlar",
+    "Gladiatorlar",
+    "Qullar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Kulbali qullar\" kimlar?",
+   "options": [
+    "Kichik yerni mustaqil yuritgan, o'z uy-joyi bor qullar",
+    "Eng og'ir mehnat qiluvchilar",
+    "Hunarmandlar",
+    "Askarlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Gladiatorlar aksariyat kimlar bo'lgan?",
+   "options": [
+    "Savdogarlar",
+    "Askarlar",
+    "Kohinlar",
+    "Qullar yoki jinoyatchilar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Gladiator janglari qayerda o'tgan?",
+   "options": [
+    "Forumda",
+    "Termalarda",
+    "Ibodatxonada",
+    "Amfiteatrlarda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kolizey nechta tomoshabin sig'dirgan?",
+   "options": [
+    "50 ming",
+    "5 ming",
+    "5 million",
+    "500"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Spartak qayerlik edi?",
+   "options": [
+    "Yunon",
+    "Rimlik patritsiy",
+    "Misrlik",
+    "Frakiyalik qul"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Spartak qo'zg'oloni qayerdan boshlangan?",
+   "options": [
+    "Kapuya gladiatorlik maktabidan",
+    "Sitsiliyadan",
+    "Rim forumidan",
+    "Kolizeydan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Spartakni kim yengdi (mil. avv. 71)?",
+   "options": [
+    "Sezar",
+    "Oktavian",
+    "Pompey",
+    "Mark Krass"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "p47": [
+  {
+   "question": "Qullar qo'zg'olonlari quldorlarda nimaga ehtiyoj tug'dirdi?",
+   "options": [
+    "Soliqni bekor qilish",
+    "Demokratiya",
+    "Qullarga erkinlik",
+    "Kuchli hokimiyat — harbiy diktatura"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sezar Rubikon daryosidan qachon kechib o'tdi?",
+   "options": [
+    "Mil. avv. 49-yilda",
+    "Mil. avv. 44",
+    "Mil. avv. 29",
+    "Mil. avv. 509"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sezar nima degan?",
+   "options": [
+    "\"Rim abadiy!\"",
+    "\"Keldim, ko'rdim, yengdim!\"",
+    "\"Men — shohman!\"",
+    "\"Qur'a tashlandi!\""
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sezar qachon o'ldirilgan?",
+   "options": [
+    "Mil. avv. 49",
+    "Mil. avv. 44-yilda",
+    "Mil. avv. 71",
+    "Mil. avv. 29"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sezarni o'ldirgan fitnaga kim boshchilik qilgan?",
+   "options": [
+    "Brut",
+    "Antoniy",
+    "Pompey",
+    "Oktavian"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Antoniy kimga uylangan?",
+   "options": [
+    "Roksanaga",
+    "Kleopatraga",
+    "Apamaga",
+    "Yelenaga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oktavian Antoniy va Kleopatrani qanday yengdi?",
+   "options": [
+    "Flotlar jangida",
+    "Pistirmada",
+    "Muzokarada",
+    "Quruqlikda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Oktavian Avgust nomini qachon oldi?",
+   "options": [
+    "Mil. avv. 29-yilda",
+    "Mil. avv. 44",
+    "Mil. avv. 49",
+    "Milodiy 98"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Oktavian kim sifatida tarixda qoldi?",
+   "options": [
+    "Gladiator",
+    "Rim imperiyasi asoschisi",
+    "Qullar yetakchisi",
+    "Respublika asoschisi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Rim imperiyasining \"oltin asri\" qachon?",
+   "options": [
+    "Mil. avv. I asr",
+    "Milodiy V asr",
+    "Milodiy II asr boshlari",
+    "Milodiy IX asr"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "p48": [
+  {
+   "question": "Imperiya III asrda nega zaiflashgan?",
+   "options": [
+    "Yirik bosqinchilik urushlari olib borilmagani, ichki inqirozlar",
+    "Qullar ozod bo'lgani",
+    "Epidemiya faqat",
+    "Dengiz yo'qolgani"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Imperatorni nima saylagan (III asr)?",
+   "options": [
+    "Xalq majlisi",
+    "Kohinlar",
+    "Armiya",
+    "Senat"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Konstantin poytaxtni qayerga ko'chirdi (330)?",
+   "options": [
+    "Aleksandriya",
+    "Antiox",
+    "Milan",
+    "Vizantiyaga (Konstantinopol)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Imperiya G'arbiy va Sharqiy qismlarga qachon bo'lingan?",
+   "options": [
+    "Milodiy 410",
+    "Milodiy 476",
+    "Milodiy 330",
+    "Milodiy 395-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rimni 410-yilda kim taladi?",
+   "options": [
+    "Hunlar",
+    "Forslar",
+    "Alarix boshchiligidagi gotlar",
+    "Vandallar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rimni 455-yilda kim taladi?",
+   "options": [
+    "Gotlar",
+    "Vandallar",
+    "Slavyanlar",
+    "Hunlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hunlar boshlig'i kim edi?",
+   "options": [
+    "Alarix",
+    "Odoakr",
+    "Attila",
+    "Konstantin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "G'arbiy Rim imperiyasi qachon qulagan?",
+   "options": [
+    "Milodiy 476-yilda",
+    "Milodiy 410",
+    "Milodiy 330",
+    "Milodiy 395"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Oxirgi G'arbiy Rim imperatorini kim ag'dardi?",
+   "options": [
+    "Odoakr",
+    "Alarix",
+    "Konstantin",
+    "Attila"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Oxirgi imperator kim edi?",
+   "options": [
+    "Trayan",
+    "Romul",
+    "Avgust",
+    "Feodosiy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "476-yildan keyin qaysi tarix boshlandi?",
+   "options": [
+    "O'rta asrlar tarixi",
+    "Yangi davr",
+    "Qadimgi davr",
+    "Yangi tosh davri"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Germanlar Rimda nimalarni yo'q qilgan?",
+   "options": [
+    "Kutubxonalar, haykallar, ibodatxonalar",
+    "Faqat yo'llar",
+    "Faqat bozorlar",
+    "Faqat qal'alar"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "p49_50": [
+  {
+   "question": "Boy oilalarning bolalari necha yoshdan maktabga borgan?",
+   "options": [
+    "12 yoshdan",
+    "3 yoshdan",
+    "16 yoshdan",
+    "6 yoshdan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rim maktabida yozuv nimaga yozilgan?",
+   "options": [
+    "Papirusga",
+    "Loy taxtaga",
+    "Teriga",
+    "Mum qoplangan taxtachalarga stil bilan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Barcha yo'llar Rimga boradi\" maqoli qachon paydo bo'lgan?",
+   "options": [
+    "Mil. avv. 509",
+    "Milodiy I asr, Rim eng yirik shahar bo'lganda",
+    "Milodiy V asr",
+    "Mil. avv. 753"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Rimliklar nimani ixtiro qilgan?",
+   "options": [
+    "Qog'ozni",
+    "Betonni",
+    "Porohni",
+    "Kompasni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Beton nimaga imkon bergan?",
+   "options": [
+    "Piramida qurishga",
+    "Gumbazli shiftlar (Panteon) qurishga",
+    "Tosh kesishga",
+    "Kema yasashga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tit Liviy qaysi asarni yozgan?",
+   "options": [
+    "\"Iliada\"",
+    "\"Rim tarixi\"",
+    "\"Sarkardalar hayoti\"",
+    "\"Aleksandr tarixi\""
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Plutarx nima yozgan?",
+   "options": [
+    "Rim tarixi",
+    "Aleksandr tarixi",
+    "Sarkardalar hayoti",
+    "Tragediyalar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xristianlik qachon va qayerda vujudga kelgan?",
+   "options": [
+    "Milodiy VII asr Arabistonda",
+    "Milodiy I asrda Falastinda",
+    "Mil. avv. 1-mingyillik Eronda",
+    "Mil. avv. VI asr Hindistonda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iso qayerda tug'ilgan?",
+   "options": [
+    "Quddusda",
+    "Vifleyemda",
+    "Rimda",
+    "Nazaretda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iso shogirdlari nima deb atalgan va nechta bo'lgan?",
+   "options": [
+    "Kohinlar, 7 ta",
+    "Liktorlar, 6 ta",
+    "Avgurlar, 12 ta",
+    "Apostollar, 12 ta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yevangeliya (Injil) nimani bildiradi?",
+   "options": [
+    "Qonun",
+    "Tarix",
+    "Duo",
+    "Xush xabar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Konstantin xristianlikni qachon teng deb e'lon qildi?",
+   "options": [
+    "Milodiy 313-yilda",
+    "Milodiy 476",
+    "Milodiy 330",
+    "Milodiy 395"
+   ],
+   "correct_index": 0
+  }
+ ]
+}
