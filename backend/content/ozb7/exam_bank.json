@@ -1,0 +1,4562 @@
+{
+ "m01": [
+  {
+   "question": "\"O'rta asrlar\" tushunchasini tarix faniga kimlar olib kirgan?",
+   "options": [
+    "Xitoy tarixchilari",
+    "Arab tarixchilari",
+    "Italyan tarixchilari",
+    "Yunon tarixchilari"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yevropada o'rta asrlar qaysi voqea bilan boshlangan hisoblanadi?",
+   "options": [
+    "Islomning paydo bo'lishi",
+    "Buyuk ko'chish tugashi",
+    "Rim imperiyasining qulashi (476-yil)",
+    "Amerikaning kashf etilishi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'rta asrlar qanday bosqichlarga bo'linadi?",
+   "options": [
+    "Ilk, rivojlangan va so'nggi o'rta asrlarga",
+    "Ikki bosqichga: ilk va kech",
+    "To'rt bosqichga teng",
+    "Qadimgi va yangi davrga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ilk o'rta asrlar qaysi asrlarni qamrab oladi?",
+   "options": [
+    "XVI–XIX asrlar",
+    "IV–VIII asrlar",
+    "IX–XV asrlar",
+    "I–III asrlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Rivojlangan o'rta asrlar qaysi davrni qamrab oladi?",
+   "options": [
+    "X–XII asrlar faqat",
+    "IV–VIII asrlar",
+    "XVI–XIX asrlar",
+    "IX–XV asrlar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nega Sharq mamlakatlari tarixida \"o'rta asrlar\" tushunchasi shartli ishlatiladi?",
+   "options": [
+    "Yer-mulk munosabatlari azaldan jamoaviy asoslarda bo'lgani uchun",
+    "Xususiy mulk yo'qligi uchun faqat",
+    "Sharqda o'rta asrlar bo'lmagani uchun",
+    "Yozuv bo'lmagani uchun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mamlakatimizda o'rta asrlar qaysi qabila uyushmalarining siyosiy maydonga chiqishi bilan boshlangan?",
+   "options": [
+    "Xorazmshohlar, temuriylar",
+    "Kidariylar, xioniylar, eftaliylar",
+    "Somoniylar, qoraxoniylar",
+    "Saklar, massagetlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "VIII asr boshida mamlakatimizda qaysi hukmronlik o'rnatildi?",
+   "options": [
+    "Kushonlar",
+    "Sosoniylar",
+    "Arab xalifaligi",
+    "Turk xoqonligi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xalifalik hukmronligidan keyingi asrlarda nima uchun sharoit yaratildi?",
+   "options": [
+    "Urushlar",
+    "Ko'chmanchilik",
+    "Ilm-ma'rifat rivoji",
+    "Savdo to'xtashi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyidagilardan qaysi biri o'rta asrlarda hukmronlik qilgan davlat emas?",
+   "options": [
+    "Kushon podsholigi",
+    "Somoniylar",
+    "Turk xoqonligi",
+    "Xorazmshohlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ilk o'rta asrlarda \"qishloq hokimlari\" nima deb atalgan?",
+   "options": [
+    "Kashovarzlar",
+    "Dehqonlar",
+    "Chokarlar",
+    "Kadivarlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yersiz, yer egalarining yerida ishlovchi ziroatchilar qanday atalgan?",
+   "options": [
+    "Mobadlar",
+    "Dehqonlar",
+    "Kadivarlar",
+    "Chokarlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Darslik qaysi davr tarixini yoritadi?",
+   "options": [
+    "I–IV asrlar",
+    "XVII–XIX asrlar",
+    "IV asrdan XIII asr boshigacha",
+    "XIV–XVI asrlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qadimgi Turon hududlarida kimlarning ajdodlari yashagan?",
+   "options": [
+    "O'zbek, tojik, qirg'iz, qozoq, qoraqalpoq, turkmanlar",
+    "Arab va forslar",
+    "Xitoy va hindlar",
+    "Faqat o'zbeklar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Quyidagilardan qaysi biri xalifalik davrida yetishgan buyuk olim?",
+   "options": [
+    "Amir Temur",
+    "Mirzo Ulug'bek",
+    "Muhammad ibn Muso Xorazmiy",
+    "Alisher Navoiy"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "m02": [
+  {
+   "question": "Qaysi inshootlar qishloq xo'jaligi rivojiga katta ta'sir qilgan?",
+   "options": [
+    "Karvonsaroylar",
+    "Qal'alar",
+    "Suv tegirmoni, chig'ir va charxpalak",
+    "Minoralar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "VI asrda unumdor yer va suv taqsimoti kimlar nazoratiga o'tgan?",
+   "options": [
+    "Savdogarlar",
+    "Qabila boshliqlari va ishboshilar",
+    "Kadivarlar",
+    "Ruhoniylar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Dehqon\" so'zi o'sha davrda nimani anglatgan?",
+   "options": [
+    "Oddiy ziroatchi",
+    "Yersiz qul",
+    "Askar",
+    "Qishloq hokimi, yirik yer egasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kashovarzlar kimlar?",
+   "options": [
+    "Ruhoniylar",
+    "Umumiy yer va suvga ega erkin ziroatchilar",
+    "Askarlar",
+    "Yersiz qaram ziroatchilar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kadivarlar kimlar?",
+   "options": [
+    "Hunarmandlar",
+    "Erkin jamoa a'zolari",
+    "O'z yeri va erkidan ayrilib, dehqon yerida ishlovchilar",
+    "Savdogarlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Chokarlarning vazifasi nima edi?",
+   "options": [
+    "Savdo qilish",
+    "Dehqon xo'jaligini himoya qilish va tartibni saqlash",
+    "Yer ekish",
+    "Ibodat qilish"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shaharlar o'sha davrda nimaning markaziga aylangan?",
+   "options": [
+    "Faqat chorvachilik",
+    "Faqat dehqonchilik",
+    "Hunarmandchilik, savdo va madaniy hayot",
+    "Faqat harbiy"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyidagilardan qaysi biri dehqonchilik viloyati emas?",
+   "options": [
+    "Farg'ona",
+    "Yettisuv",
+    "Xorazm",
+    "Sug'diyona"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Dehqonlarning shaharda nimasi bo'lgan?",
+   "options": [
+    "Hunarmandchilik rastalari va uylari",
+    "Hech narsasi yo'q",
+    "Faqat qal'alari",
+    "Faqat bog'lari"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahalliy hokimliklar qaysi davr o'zgarishlari natijasida tashkil topgan?",
+   "options": [
+    "Qadimgi Rim davri",
+    "Mo'g'ul istilosi",
+    "So'nggi antik davr (milodiy II–IV asrlar)",
+    "Arab istilosi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turon, Turkiston, Movarounnahr nomlari nimani bildiradi?",
+   "options": [
+    "Uch xil davlat",
+    "Bir hudud nomlari",
+    "Faqat shahar nomlari",
+    "Faqat daryo nomlari"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Katta yer egaligining paydo bo'lishi nimaga olib keldi?",
+   "options": [
+    "Ijtimoiy tabaqalanishga",
+    "Tenglikka",
+    "Yer yo'q bo'lishiga",
+    "Savdo to'xtashiga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer va suvdan iborat umumiy mulkka ega bo'lgan tabaqa:",
+   "options": [
+    "kashovarzlar",
+    "chokarlar",
+    "kadivarlar",
+    "dehqonlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Charxpalak nima uchun xizmat qilgan?",
+   "options": [
+    "Don tuyish uchun faqat",
+    "Mudofaa uchun",
+    "Yuk tashish uchun",
+    "Daryodan suv ko'tarib sug'orish uchun"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Dehqonlarning xo'jaligida ko'plab odamlar nima qilgan?",
+   "options": [
+    "Ibodat qilgan",
+    "Savdo qilgan",
+    "Jang qilgan",
+    "Mehnat qilgan"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m03_04": [
+  {
+   "question": "Amudaryo qayerdan boshlanadi?",
+   "options": [
+    "Hindiqushning shimoliy yonbag'irlaridagi muzliklardan",
+    "Pomirdan",
+    "Tyanshandan",
+    "Oltoydan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazm qaysi davlat tarkibidan ajralib chiqqan?",
+   "options": [
+    "Turk xoqonligi",
+    "Kushon",
+    "Qang' davlati",
+    "Eftaliylar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorazmni qaysi sulola boshqargan (III–X asrlar)?",
+   "options": [
+    "Qoraxoniylar",
+    "Somoniylar",
+    "Afrig'iylar",
+    "G'aznaviylar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Afrig' qarorgohini qaysi shaharga ko'chirgan (305-yil)?",
+   "options": [
+    "Xiva",
+    "Urganch",
+    "Tuproqqal'a",
+    "Kat"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Afrig'iylar sulolasi asoschisi kim?",
+   "options": [
+    "Peroz",
+    "Kidar",
+    "Afrig'",
+    "Bumin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorazmning hukmronlik ramzlari qaysi qushlar edi?",
+   "options": [
+    "Kaptar va qaldirg'och",
+    "Laylak va turna",
+    "Burgut va lochin",
+    "Qirg'ovul va bedana"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Afrig'iy tangalarining old tomonida nima tasvirlangan?",
+   "options": [
+    "Shoh",
+    "Suvoriy",
+    "Burgut",
+    "Quyosh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Afrig'iy tangalarining orqa tomonida nima tasvirlangan?",
+   "options": [
+    "Burgut",
+    "Suvoriy",
+    "Shoh",
+    "Hech narsa"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xorazmda VIII asrgacha qaysi din ta'siri kuchli bo'lgan?",
+   "options": [
+    "Zardushtiylik",
+    "Nasroniylik",
+    "Buddizm",
+    "Islom"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zardushtiy ruhoniylar nima deb atalgan?",
+   "options": [
+    "Dehqonlar",
+    "Chokarlar",
+    "Mobadlar",
+    "Tudunlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Olim Istaxriy Xorazm haqida nima degan?",
+   "options": [
+    "Tog'li o'lka",
+    "Cho'l o'lkasi",
+    "Jayhunning butun foydasini ola bilgan mamlakat",
+    "Dengiz bo'yi mamlakati"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorazm aholisi xo'jalik hayotida asosan nimalar muhim edi?",
+   "options": [
+    "Baliq, qovun, qovoq, jiyda va tut",
+    "Paxta va ipak",
+    "Uzum va anor",
+    "Guruch va bug'doy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazm hunarmandlari nima bilan mashhur edi?",
+   "options": [
+    "Qurol-yarog'",
+    "Chiroyli sopol idishlar",
+    "Gilamlar",
+    "Shisha buyumlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Dastlabki poytaxt Tuproqqal'a qayerda joylashgan?",
+   "options": [
+    "Ellikqal'a tumanida",
+    "Kat shahrida",
+    "Xiva yonida",
+    "Toshkentda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazm qaysi sahro bilan tutashgan?",
+   "options": [
+    "Qizilqum",
+    "Sahroi Kabir",
+    "Qoraqum",
+    "Gobi"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "m05": [
+  {
+   "question": "Xioniylar IV asrda qaysi vohani egallagan?",
+   "options": [
+    "Zarafshon vohasini",
+    "Farg'ona vodiysini",
+    "Xorazmni",
+    "Choch vohasini"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "G'arb tarixchilari xioniylarni nima deb ataydi?",
+   "options": [
+    "Oq xunnlar",
+    "Qora xunnlar",
+    "Qizil xunnlar",
+    "Sariq xunnlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xioniylar necha yildan ortiq hukmronlik qilgan?",
+   "options": [
+    "20 yil",
+    "50 yil",
+    "300 yil",
+    "120 yildan ortiq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kidariylar qaysi asrning 20-yillarida kirib kelgan?",
+   "options": [
+    "VI asr",
+    "V asr",
+    "IV asr",
+    "III asr"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kidariylar nomi kimning ismidan olingan?",
+   "options": [
+    "Eftalon",
+    "Kidar",
+    "Afrig'",
+    "Bumin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kidariylar poytaxti qaysi shahar edi?",
+   "options": [
+    "Kat",
+    "Samarqand",
+    "Balx",
+    "Buxoro"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kidariylar Hindistonda qaysi davlatni egallab, 75 yil hukmronlik qilgan?",
+   "options": [
+    "Gupta davlatini",
+    "Sosoniyni",
+    "Kushonni",
+    "Maurya davlatini"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kidariylar sosoniylar bilan 456-yilda to'qnashuvda nima bo'ldi?",
+   "options": [
+    "Yengildi",
+    "Ittifoq tuzdi",
+    "G'alaba qozondi",
+    "Poytaxtni ko'chirdi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Keyinchalik kidariylar kim bilan to'qnashib, Shimoliy Hindistonga chekingan?",
+   "options": [
+    "Turk xoqonligi",
+    "Eftaliylar",
+    "Xitoyliklar",
+    "Arablar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kidariylar tangalari qaysi yozuvda zarb etilgan?",
+   "options": [
+    "Run yozuvi",
+    "Arab yozuvi",
+    "Yunon yozuvi",
+    "Braxmiy yozuvi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toxariylar kimlarning avlodlari bo'lgan?",
+   "options": [
+    "Xioniylarning",
+    "Eftaliylarning",
+    "Kushonlarning",
+    "Saklarning"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xioniylar davlatining markazi qayer edi?",
+   "options": [
+    "Choch",
+    "Toxariston",
+    "Sug'd",
+    "Xorazm"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xioniylarning asl vatanini ayrim tadqiqotchilar qayerda deb hisoblaydi?",
+   "options": [
+    "Qora dengiz bo'yida",
+    "Pomirda",
+    "Orol dengizi bo'yida",
+    "Oltoyda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kidariylar Xitoyga nima yuborgan?",
+   "options": [
+    "Qo'shin",
+    "Elchilar",
+    "Olim",
+    "Ipak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xioniylar va kidariylar haqida nima deyiladi?",
+   "options": [
+    "Hammasi to'liq ma'lum",
+    "Ijtimoiy-iqtisodiy tizimi haqida ma'lumotlar yetib kelmagan",
+    "Yozma qonunlari bor",
+    "Tanga zarb qilmagan"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m06_07": [
+  {
+   "question": "Eftaliylar qaysi asr boshlarida kirib kelgan?",
+   "options": [
+    "IX asr",
+    "III asr",
+    "V asr",
+    "VII asr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar nomi kimning ismidan olingan?",
+   "options": [
+    "Bumin",
+    "Eftalon",
+    "Afrig'",
+    "Kidar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eftaliylarning dastlabki poytaxti qaysi shaharlar edi?",
+   "options": [
+    "Poykent va Varaxsha",
+    "Balx va Termiz",
+    "Kat va Urganch",
+    "Samarqand va Kesh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eftaliylarda taxt qanday o'tgan?",
+   "options": [
+    "Loyiq nomzodni kengash taqdim etgan",
+    "Avloddan avlodga",
+    "Jang bilan",
+    "Qur'a bilan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sosoniylar shohi Peroz qachon halok bo'lgan?",
+   "options": [
+    "500-yilda",
+    "476-yilda",
+    "456-yilda",
+    "484-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eftaliylar qaysi yo'lni nazorat qilishga harakat qilgan?",
+   "options": [
+    "Qirol yo'lini",
+    "Dengiz yo'lini",
+    "Hind yo'lini",
+    "Buyuk Ipak yo'lini"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ipak yo'li savdosida vositachi rolini kimlar o'ynagan?",
+   "options": [
+    "Hindlar",
+    "Xitoyliklar",
+    "Sug'dlar",
+    "Arablar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar alifbosi nima asosida shakllangan?",
+   "options": [
+    "Arab yozuvi",
+    "Run yozuvi",
+    "Yunon yozuvi faqat",
+    "Baqtriya yozuvi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eftaliylar alifbosi nechta harfdan iborat?",
+   "options": [
+    "25",
+    "32",
+    "28",
+    "22"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turonda qaysi hunar yuksalgan, Vizantiya shishasidan ustun turgan?",
+   "options": [
+    "To'quvchilik",
+    "Temirchilik",
+    "Shishasozlik",
+    "Kulolchilik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar davlatiga qaysi hududlar kirgan?",
+   "options": [
+    "O'rta Osiyo, Sharqiy Turkiston, Afg'oniston, Shimoliy Hindiston",
+    "Faqat Sug'd",
+    "Faqat Xorazm",
+    "Faqat Farg'ona"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eftaliylar viloyatlarni kimlar boshqargan?",
+   "options": [
+    "Qullar",
+    "Shohga tobe mahalliy sulolalar",
+    "Chet el elchilari",
+    "Ruhoniylar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eftaliylar boshqa nomlar bilan qanday ataladi?",
+   "options": [
+    "Xioniylar",
+    "Kidariylar",
+    "Eftallar, xaytallar",
+    "Toxarlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar davlatida asosiy tayanch nima edi?",
+   "options": [
+    "Din",
+    "Savdo",
+    "Harbiy kuch",
+    "Qishloq jamoasi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar sosoniylarning qaysi tangalaridan keng foydalangan?",
+   "options": [
+    "Tangalardan foydalanmagan",
+    "Kumush tangalaridan",
+    "Mis tangalaridan",
+    "Oltin tangalaridan"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m08_09": [
+  {
+   "question": "Turk xoqonligi qaysi asrda tashkil topgan?",
+   "options": [
+    "VI asr o'rtalarida",
+    "VIII asr",
+    "IV asr",
+    "X asr"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turk xoqonligi asoschisi kim?",
+   "options": [
+    "Istami",
+    "Bumin",
+    "Kidar",
+    "Tonyuquq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bumin qanday unvon olgan?",
+   "options": [
+    "Afshin",
+    "Tegin",
+    "Yabg'u xoqon",
+    "Ixshid"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xoqonlik markazi qayerda belgilangan?",
+   "options": [
+    "Samarqandda",
+    "Buxoroda",
+    "Oltoyda",
+    "Balxda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xoqonlik VI asr oxirida nechaga bo'linib ketgan?",
+   "options": [
+    "Bo'linmagan",
+    "Uch xoqonlikka",
+    "To'rt xoqonlikka",
+    "Sharqiy va G'arbiy xoqonlikka"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "G'arbga yurishlarga kim boshchilik qilgan?",
+   "options": [
+    "Istami",
+    "Bumin",
+    "Peroz",
+    "To'n yabg'u"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turk xoqonligi eftaliylarga qarshi kim bilan ittifoq tuzgan?",
+   "options": [
+    "Vizantiya imperatori",
+    "Arab xalifasi",
+    "Xitoy imperatori",
+    "Sosoniy Xusrav I Anushervon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ittifoq qanday mustahkamlangan?",
+   "options": [
+    "Qo'shin almashinuvi",
+    "Savdo shartnomasi bilan",
+    "Eron shohining Istamiga kuyov bo'lishi bilan",
+    "Yer berish bilan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eftaliylar davlati nima sababli parchalandi?",
+   "options": [
+    "Sosoniylar va Turk xoqonligi zarbasidan",
+    "Kasallik",
+    "Zilzila",
+    "Ichki g'alayondan faqat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Samarqandda ibodatxonada saqlangan qonunnoma:",
+   "options": [
+    "Shariat",
+    "Turk qonunnomasi",
+    "Hammurapi qonunlari",
+    "Avesto"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Turk\" so'zi nimani anglatadi?",
+   "options": [
+    "Baquvvat, barkamol, odillik",
+    "Ko'chmanchi",
+    "Jangchi faqat",
+    "Dehqon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sharqiy xoqonlikka qaysi hududlar kirgan?",
+   "options": [
+    "Janubiy Sibir, Urxun havzasi, Shimoliy Xitoy",
+    "Amudaryo havzasi",
+    "Kavkaz",
+    "Yettisuv va Sirdaryo"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "G'arbiy xoqonlikka qaysi hududlar kirgan?",
+   "options": [
+    "Janubiy Sibir",
+    "Mo'g'uliston",
+    "Shimoliy Xitoy",
+    "Yettisuv, Sharqiy Turkiston, Sirdaryo va Amudaryo havzalari"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xoqonlikni zaiflashtirgan omil qaysi?",
+   "options": [
+    "Yangi shaharlar",
+    "Bo'ysundirilgan hududlarni mahalliy hokimlar orqali boshqarish",
+    "Savdoning rivoji",
+    "Qishloq xo'jaligi o'sishi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xoqonlik asosini qaysi qabilalar ittifoqi tashkil etgan?",
+   "options": [
+    "Arab qabilalari",
+    "Turkiy tilda so'zlashuvchi qabilalar",
+    "Fors qabilalari",
+    "Xitoy qabilalari"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m10_11": [
+  {
+   "question": "G'arbiy xoqonlik aholisi asosan nima bilan shug'ullangan?",
+   "options": [
+    "O'troq dehqonchilik, hunarmandchilik, savdo",
+    "Faqat ko'chmanchi chorvachilik",
+    "Faqat ovchilik",
+    "Faqat dengizchilik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Boshqaruv qaysi xoqon davrida isloh qilingan?",
+   "options": [
+    "To'n yabg'u",
+    "Abruy",
+    "Istami",
+    "Bumin"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahalliy hukmdorlar nazoratini kuchaytirgan xoqon noiblari qanday atalgan?",
+   "options": [
+    "Ixshidlar",
+    "Tudunlar",
+    "Mobadlar",
+    "Afshinlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sug'd va Farg'onada oliy hukmdor qanday atalgan?",
+   "options": [
+    "Tudun",
+    "Ixshid",
+    "Xudot",
+    "Afshin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Buxoroda hukmdor qanday atalgan?",
+   "options": [
+    "Ixrid",
+    "Xudot",
+    "Ixshid",
+    "Afshin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ustrushonada hukmdor qanday atalgan?",
+   "options": [
+    "Xudot",
+    "Malikshoh",
+    "Afshin",
+    "Tudun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorazmda hukmdor qanday atalgan?",
+   "options": [
+    "Tegin",
+    "Xorazmshoh",
+    "Ixshid",
+    "Afshin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toxaristonda hukmdor qanday atalgan?",
+   "options": [
+    "Ixrid",
+    "Xudot",
+    "Malikshoh",
+    "Ixshid"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Keshda hukmdor qanday atalgan?",
+   "options": [
+    "Afshin",
+    "Tudun",
+    "Ixshid",
+    "Ixrid"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chochda hukmdor qanday atalgan?",
+   "options": [
+    "Tudun",
+    "Afshin",
+    "Xudot",
+    "Xorazmshoh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Quyidagilardan qaysi shahar G'arbiy xoqonlikda qarorgoh vazifasini bajargan?",
+   "options": [
+    "Suyab (Oq Bishim)",
+    "Samarqand",
+    "Buxoro",
+    "Termiz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahalliy hukmdorlar markaziy hokimiyatga nima to'lab turgan?",
+   "options": [
+    "Boj",
+    "Oltin",
+    "Qul",
+    "Qo'shin"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buxoroda xoqon xonadoniga mansub kim boshchiligida qo'zg'olon ko'tarilgan?",
+   "options": [
+    "Afrig'",
+    "Tonyuquq",
+    "Abruy",
+    "Bumin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bola necha yoshdan xat-savod va hisobga o'rgatilgan?",
+   "options": [
+    "10 yoshdan",
+    "5 yoshdan",
+    "15 yoshdan",
+    "3 yoshdan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'ona haqida to'g'ri fikr:",
+   "options": [
+    "Xorazmga tobe edi",
+    "Sug'd ittifoqiga kirmagan, alohida mustaqil davlat edi",
+    "Sug'd tarkibida edi",
+    "Davlat bo'lmagan"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m12_13": [
+  {
+   "question": "V–VII asrlarda Turk xoqonligi hududida nechta mustaqil hokimlik tashkil topdi?",
+   "options": [
+    "100 dan ortiq",
+    "3 ta",
+    "7 ta",
+    "15 dan ortiq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toxaristonda nechta tog' va tog'oldi viloyati bo'lgan?",
+   "options": [
+    "40 ta",
+    "15 ta",
+    "27 ta",
+    "11 ta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Toxariston poytaxti qaysi shahar edi?",
+   "options": [
+    "Kesh",
+    "Samarqand",
+    "Termiz",
+    "Balx"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mustaqil hokimliklar orasida eng yirigi qaysi?",
+   "options": [
+    "Xorazm",
+    "Toxariston",
+    "Sug'd ixshidlari hokimligi",
+    "Choch"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sug'd poytaxti qaysi shahar?",
+   "options": [
+    "Samarqand",
+    "Kesh",
+    "Buxoro",
+    "Panjikent"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sug'dda hukmdor hokimiyatini nima cheklagan?",
+   "options": [
+    "Ruhoniylar",
+    "Xoqon",
+    "Qo'shin",
+    "Oqsoqollar Kengashi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chochni arablar qanday atagan?",
+   "options": [
+    "Sug'd",
+    "Shosh",
+    "Toxariston",
+    "Kesh"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Chochda hokimiyat qaysi sulolada edi?",
+   "options": [
+    "Teginlar sulolasi",
+    "Ixshidlar",
+    "Somoniylar",
+    "Afrig'iylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kesh viloyati qaysi daryo havzasida joylashgan?",
+   "options": [
+    "Zarafshon",
+    "Sirdaryo",
+    "Qashqadaryo",
+    "Surxondaryo"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sug'diy mulklar soni (Kesh va Zarafshon birlashmasi) nechta?",
+   "options": [
+    "Beshta",
+    "O'n bitta yirik mulk",
+    "O'ttizta",
+    "Uchta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xoqonlik mahalliy sulolalar boshqaruvini saqlab qolishdan maqsad nima edi?",
+   "options": [
+    "Soliqni bekor qilish",
+    "Mahalliy aholini quvish",
+    "Savdoni to'xtatish",
+    "Siyosiy barqarorlik va iqtisodiy rivojni ta'minlash"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toxariston qaysi chegaralar orasida joylashgan (shimolda)?",
+   "options": [
+    "Kopetdog",
+    "Tyanshan",
+    "Pomir",
+    "Hisor tog'lari"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toxariston aholisi asosan nima bilan shug'ullangan?",
+   "options": [
+    "Dengizchilik",
+    "O'troq dehqonchilik",
+    "Ko'chmanchi chorva",
+    "Ovchilik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sug'dlik dehqonlar va tulporlar bilan qaysi qo'y zoti mashhur?",
+   "options": [
+    "Qorako'l",
+    "Jaydari",
+    "Merinos",
+    "Hisori qo'ylar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mahalliy hukmdorlar xoqonlik hukmdorlari bilan nima o'rnatgan?",
+   "options": [
+    "Dushmanlik",
+    "Qardoshlik aloqalari",
+    "Savdo monopoliyasi",
+    "Hech narsa"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m14_15": [
+  {
+   "question": "\"Turon\" atamasi dastlab qaysi manbada tilga olingan?",
+   "options": [
+    "\"Avesto\"da",
+    "\"Shohnoma\"da",
+    "Bitiktoshlarda",
+    "\"Qutadg'u bilig\"da"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Johiz asarida turklar qaysi sohada ustun deb ta'riflangan?",
+   "options": [
+    "Hunarmandchilikda",
+    "Davlat boshqaruvida",
+    "Harbiy ishda",
+    "Ilm-fanda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Johizga ko'ra yunonlar nimada ustun?",
+   "options": [
+    "Hunarmandchilikda",
+    "Ilm-fanda",
+    "Harbiy ishda",
+    "Savdoda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Turkiy xalqlar kashf etgan harbiy anjomlar:",
+   "options": [
+    "Tank va zirh",
+    "Katapulta",
+    "Qal'a devori",
+    "Uzangi, egar-jabduq, tizgin"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Uzangi kashf etilishi otliqlarga nimaga imkon bergan?",
+   "options": [
+    "Qal'a qurishga",
+    "Piyoda yurishga",
+    "Og'ir qurollanishga",
+    "Dengizda jang qilishga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turk xoqonligi armiyasi qanday bo'linmalardan iborat edi?",
+   "options": [
+    "Faqat minglik",
+    "Faqat yuzlik",
+    "Bo'linmalarsiz",
+    "O'nlik, yuzlik, minglik, o'n minglik (tuman)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'n minglik harbiy bo'linma qanday atalgan?",
+   "options": [
+    "Chokar",
+    "Yuzlik",
+    "Tudun",
+    "Tuman"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eftaliylar jangda asosan qaysi qurollardan foydalangan?",
+   "options": [
+    "Gurzi, kamon, shamshir",
+    "Faqat nayza",
+    "To'p va miltiq",
+    "Faqat pichoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turk xoqonligida yigitlarga ta'lim dargohlarida nimalar o'rgatilgan?",
+   "options": [
+    "Faqat yozuv",
+    "Faqat savdo",
+    "Otda yurish, qilichbozlik, kamon, gurzi, kurash",
+    "Faqat dehqonchilik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Har bir otliq kamida nechta ot olib yurgan?",
+   "options": [
+    "Ikki-uchta",
+    "Ot olib yurmagan",
+    "O'nta",
+    "Bitta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turon deganda qanday hudud tushuniladi?",
+   "options": [
+    "Misr",
+    "Hindiston",
+    "Faqat Eron",
+    "Amudaryo va Sirdaryodan shimol, sharqda Xitoy devorigacha turkiylar yurti"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ibn Arabshohga ko'ra Jayhundan g'arbga cho'zilgan yerlar nima deb atalgan?",
+   "options": [
+    "Xuroson",
+    "Turon",
+    "Hind",
+    "Eron"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xitoyliklar turklardan nimani o'rgangan?",
+   "options": [
+    "Yozuv",
+    "Ipak to'qish",
+    "Otga minish, uzun qilich ishlatish, jangovar kiyim yasash",
+    "Qog'oz yasash"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turk xoqonligida qizlar ham nimaga o'rgatilgan?",
+   "options": [
+    "Faqat ibodat",
+    "Chavandozlik va kamonbozlik",
+    "Hech narsa",
+    "Faqat to'qish"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sug'diyona, Toxariston, Farg'ona, Xorazm va Choch hokimliklari haqida to'g'ri fikr:",
+   "options": [
+    "Ularning o'z harbiy qo'shini bo'lgan",
+    "Qo'shini bo'lmagan",
+    "Qo'shin yollagan",
+    "Faqat Xoqonlik qo'shini bo'lgan"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m16_17": [
+  {
+   "question": "Tariximizdan darak beruvchi eng qadimgi yozma manba:",
+   "options": [
+    "\"Qutadg'u bilig\"",
+    "\"Devonu lug'otit turk\"",
+    "\"Shohnoma\"",
+    "\"Avesto\""
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazmda o'g'il bolalarga qaysi fanlar o'rgatilgan?",
+   "options": [
+    "Faqat dehqonchilik",
+    "Faqat diniy qoidalar",
+    "Faqat jang san'ati",
+    "O'qish, yozish, hisob, astronomiya, tibbiyot, me'morchilik va boshqalar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Buddaviy o'quv maskanlari qanday atalgan?",
+   "options": [
+    "Maktab-i qadim",
+    "Ibodatxona-chorsu",
+    "Vihara",
+    "Madrasa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Viharalarda asosiy fan nima edi?",
+   "options": [
+    "Geometriya",
+    "Tibbiyot",
+    "Daxarma (diniy qonun-qoidalar)",
+    "Astronomiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turkiy run (ko'k turk) xati necha harfdan iborat?",
+   "options": [
+    "28",
+    "60",
+    "38–40",
+    "22"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Run yozuvi nimaga o'yib yozishga qulay edi?",
+   "options": [
+    "Tosh va yog'ochga",
+    "Qog'ozga",
+    "Teriga bo'yoq bilan",
+    "Matoga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kultegin va Bilga xoqon bitiklari qaysi yozuvda?",
+   "options": [
+    "Arab yozuvida",
+    "Turkiy run yozuvida",
+    "Sug'd yozuvida",
+    "Lotin yozuvida"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "To'nyuquq bitiktoshi qayerda topilgan?",
+   "options": [
+    "Janubiy Mo'g'ulistonda",
+    "Xorazmda",
+    "Farg'onada",
+    "Samarqandda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turon savdo yo'llarida eng qimmatbaho tovar nima hisoblangan?",
+   "options": [
+    "Ziravorlar",
+    "Yozuv materiallari va kitoblar",
+    "Ipak",
+    "Oltin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "V asrda Samarqand va Buxoroda qaysi din tarqalgan?",
+   "options": [
+    "Islom",
+    "Konfutsiylik",
+    "Yahudiylik faqat",
+    "Xristianlik"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sug'ddagi nestoriyan jamoalari hujjatlari qaysi tilda yozilgan?",
+   "options": [
+    "Arab tilida",
+    "Xitoy tilida",
+    "Sug'd tilida",
+    "Fors tilida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Jonbosqal'a va Tuproqqal'adagi ibodatxona qanday qurshalgan?",
+   "options": [
+    "Bog' bilan",
+    "Xandaq bilan",
+    "Daryo bilan",
+    "Qo'sh devor bilan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Haykaltaroshlik rivojiga qaysi din kuchli ta'sir ko'rsatgan?",
+   "options": [
+    "Buddaviylik",
+    "Zardushtiylik",
+    "Xristianlik",
+    "Islom"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yahudiylar Turonga qayerdan ko'chib kelgan?",
+   "options": [
+    "Hindistondan",
+    "Misrdan",
+    "Rimdan",
+    "Ossuriya quvg'inlaridan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Turon xalqlari qaysi dinlarga e'tiqod qilgan?",
+   "options": [
+    "Faqat islom",
+    "Tangrichilik, zardushtiylik, buddaviylik, xristianlik va boshqalar",
+    "Faqat buddaviylik",
+    "Dinsiz bo'lgan"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m18_19": [
+  {
+   "question": "Arablar Marvni qachon istilo qilgan?",
+   "options": [
+    "651-yilda",
+    "705-yilda",
+    "632-yilda",
+    "751-yilda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xuroson markazi qaysi shahar edi?",
+   "options": [
+    "Marv",
+    "Balx",
+    "Nishopur",
+    "Buxoro"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Movarounnahr\" so'zi nimani bildiradi?",
+   "options": [
+    "Tog'lar yurti",
+    "Daryoning narigi tomoni",
+    "Quyosh yurti",
+    "Ikki daryo oralig'i"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qutayba ibn Muslim Movarounnahrni qaysi yillarda bosib olgan?",
+   "options": [
+    "705–715-yillar",
+    "651–660",
+    "750–760",
+    "720–730"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Arablarga qarshi 720-yilda harbiy harakatlarga kimlar boshchilik qilgan?",
+   "options": [
+    "G'urak va Divashtich",
+    "Muqanna va Abu Muslim",
+    "Afshin va Xudot",
+    "Tarxun va Sulu"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Arablar Amudaryodan o'tib Buxoro hududiga qachon kirgan?",
+   "options": [
+    "751-yilda",
+    "673-yil kuzida",
+    "705-yilda",
+    "651-yilda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sosoniylar saltanati qulashiga olib kelgan omil:",
+   "options": [
+    "Ichki nizolar va tinimsiz urushlar",
+    "Savdo to'xtashi",
+    "Qurg'oqchilik",
+    "Zilzila"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahalliy hukmdorlarning arablarga qarshi birlasha olmasligiga sabab:",
+   "options": [
+    "Arablar kuchli bo'lgani",
+    "Qo'shin yo'qligi",
+    "Din farqi",
+    "Ular o'zlarini markazga tobe deb hisoblamagan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Arablarga qarshi kurashda yordam bergan Turkash xoqonligi hukmdori:",
+   "options": [
+    "Istami",
+    "Qutayba",
+    "Bumin",
+    "Suluxon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Arablar nima sababli ittifoqni bo'lib tashladi?",
+   "options": [
+    "Pul berib faqat",
+    "Turk xoqonlari va sug'd hokimliklari o'rtasiga nifoq solib",
+    "Din orqali faqat",
+    "Savdo orqali"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Arablar istilosigacha Sug'd va Toxariston qanday edi?",
+   "options": [
+    "Mulklarga bo'lingan edi",
+    "Xoqonlik tarkibida bevosita",
+    "Arablarga tobe",
+    "Yagona davlat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xuroson noibi kim bo'lgan?",
+   "options": [
+    "Qutayba ibn Muslim",
+    "Abu Muslim",
+    "Suluxon",
+    "G'urak"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dastlabki arab hujumlari 654-yilda qayerdan boshlangan?",
+   "options": [
+    "Samarqanddan",
+    "Buxorodan",
+    "Termizdan",
+    "Maymurg'dan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Arablar Movarounnahrni qancha vaqt davomida bosib olgan?",
+   "options": [
+    "Bir yil",
+    "Ikki yuz yil",
+    "Deyarli yuz yil",
+    "O'n yil"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Nima uchun arab istilosi tezlashgan?",
+   "options": [
+    "Turon mulklari va xoqonlikdagi vaziyat yomonlashgani va Tan hujumlari",
+    "Ittifoq tuzilgani",
+    "Sosoniylar yordam bergani",
+    "Turon kuchli bo'lgani"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m20_21": [
+  {
+   "question": "Xurosonda umaviylarga qarshi harakatga kim rahbarlik qilgan?",
+   "options": [
+    "Ma'mun",
+    "Qutayba",
+    "Abu Muslim",
+    "Muqanna"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Abu Muslim tarafdorlari qaysi rangdagi libos kiyganlar?",
+   "options": [
+    "Yashil",
+    "Qora",
+    "Qizil",
+    "Oq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Abul Abbos Saffoh qachon taxtga o'tirgan?",
+   "options": [
+    "751-yilda",
+    "783-yilda",
+    "651-yilda",
+    "750-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Talas jangi qachon bo'lgan?",
+   "options": [
+    "750-yilda",
+    "783-yilda",
+    "705-yilda",
+    "751-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Talas jangida kim kim bilan jang qilgan?",
+   "options": [
+    "Xitoy va hindlar",
+    "Arablar sosoniylar bilan",
+    "Turklar uyg'urlar bilan",
+    "Arab-turon qo'shini xitoylar bilan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Talas jangida arablar g'alabasiga nima sabab bo'lgan?",
+   "options": [
+    "Zilzila",
+    "Xitoyliklarning qochishi",
+    "Arablarning ko'pligi",
+    "Qarluqlarning xitoylarga zarba berishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Talas jangidan keyin Samarqandda nima o'rgatilgan?",
+   "options": [
+    "Ipak yasash",
+    "Porox tayyorlash",
+    "Shisha yasash",
+    "Qog'oz ishlab chiqarish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qog'oz asosan nimadan tayyorlangan?",
+   "options": [
+    "Yog'ochdan",
+    "Teridan",
+    "Paxtadan",
+    "Tut po'stlog'idan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xitoy qo'shinini Choch yurishida kim boshqargan?",
+   "options": [
+    "Istami",
+    "Ziyod ibn Solih",
+    "Abu Muslim",
+    "Gao Syanchji"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Arab-turon qo'shiniga kim qo'mondonlik qilgan?",
+   "options": [
+    "Ziyod ibn Solih",
+    "Gao Syanchji",
+    "Qutayba",
+    "Muqanna"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Muqanna qo'zg'oloni qachongacha davom etgan?",
+   "options": [
+    "783-yilgacha",
+    "800-yilgacha",
+    "750-yilgacha",
+    "700-yilgacha"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Umaviylarga norozilik sabablari:",
+   "options": [
+    "Xiroj solig'i oshirilishi va majburiy hasharlar",
+    "Yangi shaharlar qurilishi",
+    "Savdoning taqiqlanishi",
+    "Dinning bekor qilinishi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Talas jangi qaysi siyosatga chek qo'ydi?",
+   "options": [
+    "Qog'oz ishlab chiqarishga",
+    "Arab istilosiga",
+    "Tan imperiyasining O'rta Osiyoni egallash siyosatiga",
+    "Ipak yo'liga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Samarqand qog'ozi qaysi bozorlarni egallagan?",
+   "options": [
+    "Butun Sharq va G'arb bozorlarini",
+    "Faqat mahalliy",
+    "Faqat Xitoy",
+    "Faqat Hindiston"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Abbosiylar poytaxti Damashqni kim qo'lga kiritdi?",
+   "options": [
+    "Qutayba",
+    "Suluxon",
+    "Abu Muslim qo'shinlari",
+    "Muqanna"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "m22_23": [
+  {
+   "question": "Qarluqlar davlati qachon tashkil topgan?",
+   "options": [
+    "IV asrda",
+    "XIII asrda",
+    "X asr oxirida",
+    "VIII asr o'rtalarida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qarluqlar davlati poytaxti qaysi shahar?",
+   "options": [
+    "Suyob",
+    "Taroz",
+    "Kashg'ar",
+    "Yangikent"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qarluqlar hukmdori qanday atalgan?",
+   "options": [
+    "Yabg'u (jabg'u)",
+    "Ixshid",
+    "Xoqon",
+    "Afshin"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'g'uzlar davlati qachon tuzilgan?",
+   "options": [
+    "VIII asrda",
+    "VI asrda",
+    "XII asrda",
+    "IX asr oxiri – X asr boshida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'g'uzlar poytaxti qayer edi?",
+   "options": [
+    "Samarqand",
+    "Yangikent",
+    "Kat",
+    "Suyob"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'g'uzlar davlati qaysi xalqdan zarba yeb bo'linib ketgan?",
+   "options": [
+    "Qipchoqlardan",
+    "Xitoylardan",
+    "Arablardan",
+    "Mo'g'ullardan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tohiriylar sulolasi qachon asos solingan?",
+   "options": [
+    "888-yilda",
+    "813-yilda",
+    "821-yilda",
+    "873-yilda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tohiriylar asoschisi kim?",
+   "options": [
+    "Tohir ibn Husayn",
+    "Amr ibn Lays",
+    "Ismoil Somoniy",
+    "Ma'mun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tohiriylar hukmronligini kim tugatgan?",
+   "options": [
+    "Safforiylar (873-yil, Nishopur)",
+    "Arablar",
+    "Qoraxoniylar",
+    "Somoniylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "813-yilda Bag'dodni egallab xalifa bo'lgan:",
+   "options": [
+    "Abu Muslim",
+    "Saffoh",
+    "Ma'mun",
+    "Harun ar-Rashid"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qarluqlar chetga asosan nimalarni chiqargan?",
+   "options": [
+    "Shisha",
+    "Ipak",
+    "Qog'oz",
+    "Jun va junli mahsulotlar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "X asrda qarluqlarning katta qismi qaysi dinni qabul qildi?",
+   "options": [
+    "Zardushtiylik",
+    "Islom",
+    "Buddaviylik",
+    "Xristianlik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qarluqlar qaysi xalqlar etnogenezida muhim rol o'ynagan?",
+   "options": [
+    "Arab, fors",
+    "Turkman, ozarbayjon",
+    "Xitoy, hind",
+    "O'zbek va tojiklar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'g'uzlar qaysi xalqlar etnogenezida muhim rol o'ynagan?",
+   "options": [
+    "Turkman, ozarbayjon, qoraqalpoq",
+    "Arab, kurd",
+    "O'zbek, tojik",
+    "Hind, afg'on"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Saljuqiylar qaysi etnos boshchiligida chiqqan?",
+   "options": [
+    "Xioniylar",
+    "Qipchoqlar",
+    "Qarluqlar",
+    "O'g'uzlar"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m24_25": [
+  {
+   "question": "Somoniylar poytaxti qaysi shahar edi?",
+   "options": [
+    "Nishopur",
+    "Buxoro",
+    "Samarqand",
+    "Marv"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aka-uka Nasr va Ismoil o'rtasidagi hal qiluvchi jang qachon bo'lgan?",
+   "options": [
+    "900-yilda",
+    "821-yilda",
+    "888-yilda",
+    "892-yilda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Jangda kim g'olib chiqqan?",
+   "options": [
+    "Nasr",
+    "Amr ibn Lays",
+    "Ismoil",
+    "Ahmad"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ismoil Somoniy qayerda tug'ilgan?",
+   "options": [
+    "Xorazmda",
+    "Buxoroda",
+    "Farg'onada",
+    "Samarqandda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ismoil butun Movarounnahr hukmini qachon o'z qo'liga oldi?",
+   "options": [
+    "888-yilda",
+    "892-yilda",
+    "900-yilda",
+    "849-yilda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ismoil Somoniy shimoli-sharqqa yurish qilib qaysi shaharni zabt etgan?",
+   "options": [
+    "Isfijob",
+    "Kashg'ar",
+    "Taroz",
+    "Suyob"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Somoniylar davlati nechta devon orqali boshqarilgan?",
+   "options": [
+    "O'nta",
+    "O'n ikkita",
+    "Beshta",
+    "Uchta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bosh boshqaruv mahkamasi qaysi devon edi?",
+   "options": [
+    "Moliya devoni",
+    "Qo'shin devoni",
+    "Vazir devoni",
+    "Mulk devoni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Devonlar uchun saroy qaysi amir davrida qurilgan?",
+   "options": [
+    "Ismoil",
+    "Nuh",
+    "Ahmad",
+    "Nasr II (Nasr ibn Ahmad)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Somonxudotlar shajarasi kimga borib taqaladi?",
+   "options": [
+    "Bumin",
+    "Afrig'",
+    "Bahrom Chubin",
+    "Kidar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Iqto nima?",
+   "options": [
+    "Soliq turi",
+    "Qo'shin bo'linmasi",
+    "Xizmat evaziga beriladigan yer mulklari",
+    "Tanga turi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xalifa Mu'tazid Amr ibn Laysga nima huquqini bergan?",
+   "options": [
+    "Xuroson bilan birga Movarounnahr ustidan hukm yuritish",
+    "Buxoroni egallash",
+    "Solik olmaslik",
+    "Ismoilni taxtdan tushirish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ismoil safforiylar bilan urushda nima bo'ldi?",
+   "options": [
+    "G'alaba qozondi va Xuroson somoniylar qo'liga o'tdi",
+    "Yengildi",
+    "Sulh tuzdi",
+    "Poytaxtni yo'qotdi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Nasr I qaysi shaharni markazga aylantirgan?",
+   "options": [
+    "Buxoroni",
+    "Marvni",
+    "Toshkentni",
+    "Samarqandni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Narshaxiy qaysi masalada ma'lumot beradi?",
+   "options": [
+    "Devonlar tizimi haqida",
+    "Arab yurishlari",
+    "Qog'oz ishlab chiqarish",
+    "Xorazm qasrlari"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m26_27": [
+  {
+   "question": "Davlat kirim-chiqimining katta qismini qaysi daromad qoplagan?",
+   "options": [
+    "Zakot",
+    "Jarima",
+    "Xiroj (yer solig'i)",
+    "Bojxona"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Samarqandda qaysi mahsulot yuqori navli ishlab chiqarilgan?",
+   "options": [
+    "Shisha",
+    "Kumush",
+    "Qog'oz",
+    "Ipak"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shosh qaysi mahsulotlari bilan mashhur edi?",
+   "options": [
+    "Qog'oz",
+    "Kumush",
+    "Ko'nchilik va charm mollari",
+    "Gilam"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Iloq nima bilan mashhur edi?",
+   "options": [
+    "Shisha",
+    "Paxta",
+    "Kumush va qo'rg'oshin konlari, kumush zarbxona",
+    "Ipak"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ichki bozorda qaysi pul ishlatilgan?",
+   "options": [
+    "Oltin dinor",
+    "Qog'oz pul",
+    "Mis fals (chaqa)",
+    "Kumush dirham"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xalqaro savdoda qaysi pul ishlatilgan?",
+   "options": [
+    "Oltin tanga",
+    "Teri pul",
+    "Kumush dirham",
+    "Mis fals"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Ismoiliy\" dirhami qanday edi?",
+   "options": [
+    "Sof kumushdan, xalqaro savdoda ishlatilgan",
+    "Qalay",
+    "Oltin",
+    "Mis"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kumush tangalar qayerda zarb etilgan?",
+   "options": [
+    "Har qishloqda",
+    "Davlat zarbxonalarida (Marv, Samarqand, Buxoro, Shosh)",
+    "Faqat Xorazmda",
+    "Savdogarlar tomonidan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sarroflik cheklari nima uchun ishlatilgan?",
+   "options": [
+    "Soliq uchun",
+    "Qo'shin maoshi uchun",
+    "Sovg'a uchun",
+    "Pulni olib yurmasdan tashqi savdo qilish uchun"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Zandanichi\" matolari qayerda to'qilgan?",
+   "options": [
+    "Xorazmda",
+    "Buxoroning Zandana qishlog'ida",
+    "Farg'onada",
+    "Samarqand Vadorida"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Vadoriy\" matolari qayerda tayyorlangan?",
+   "options": [
+    "Termizda",
+    "Samarqandning Vador qishlog'ida",
+    "Keshda",
+    "Zandanada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Movarounnahrda eng nufuzli hudud qaysi edi?",
+   "options": [
+    "Farg'ona vodiysi",
+    "Qashqadaryo",
+    "Zarafshon",
+    "Xorazm"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Farg'ona vodiysi poytaxti:",
+   "options": [
+    "Marg'ilon",
+    "Uzgand",
+    "Axsikent",
+    "Qo'qon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Somoniylar maqbarasi qaysi shaharda?",
+   "options": [
+    "Marvda",
+    "Buxoroda",
+    "Xivada",
+    "Samarqandda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Turondagi ilk madrasa qayerda bunyod etilgan?",
+   "options": [
+    "Buxoroda",
+    "Toshkentda",
+    "Marvda",
+    "Samarqandda"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m28_29": [
+  {
+   "question": "G'aznaviylar davlati qachon tuzilgan?",
+   "options": [
+    "1040-yilda",
+    "1017-yilda",
+    "888-yilda",
+    "962–963-yillarda Alptegin hokimiyatni qo'lga olgach"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sulola nomi qayerdan olingan?",
+   "options": [
+    "Poytaxt G'azna shahri nomidan",
+    "Qabila nomidan",
+    "Asoschi ismidan",
+    "Daryo nomidan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sabuktegin qachon hukmronlik qilgan?",
+   "options": [
+    "962–977",
+    "997–1030",
+    "977–997-yillarda",
+    "1030–1040"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sabuktegin qaysi qabiladan bo'lgan?",
+   "options": [
+    "Qangli",
+    "Barsxon turkiy qabilasidan",
+    "Qarluq",
+    "Xioniy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sabuktegin qanday faxriy nomga sazovor bo'lgan?",
+   "options": [
+    "Rukn ad-din",
+    "Yamin ud-davla",
+    "Nosiriddin ad-davla",
+    "Malik al-Mashriq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mahmud G'aznaviy qanday faxriy unvon olgan?",
+   "options": [
+    "Yamin ud-davla va amin ul-milla",
+    "Malik al-Mashriq",
+    "Nosiriddin ad-davla",
+    "Imomi A'zam"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahmud G'aznaviy nimani somoniylardan butkul ajratib oldi?",
+   "options": [
+    "Farg'onani",
+    "Kobulni",
+    "Xorazmni",
+    "Xurosonni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "1017-yilda Mahmud qayerga yurish qildi?",
+   "options": [
+    "Hindistonga",
+    "Xorazmga",
+    "Buxoroga",
+    "Samarqandga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mahmud Xorazmdan qaysi olimni G'aznaga ko'chirgan?",
+   "options": [
+    "Abu Rayhon Beruniyni",
+    "Farobiyni",
+    "Xorazmiyni",
+    "Ibn Sinoni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mahmud G'aznaviy qachon vafot etgan?",
+   "options": [
+    "997-yilda",
+    "1017-yilda",
+    "1030-yilda",
+    "1040-yilda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Xorazmga Mahmud kimni noib etdi?",
+   "options": [
+    "Oltuntoshni",
+    "Sabuktegini",
+    "Alptegini",
+    "Beruniyni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Somoniylar davlatida kimlarning nufuzi kuchaygan?",
+   "options": [
+    "Dehqonlarning",
+    "Savdogarlarning",
+    "Ruhoniylarning",
+    "Turk hojiblaridan iborat saroy qo'shinining"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mahmud G'aznaviy xalifani rasman tan olishi nimani ko'rsatadi?",
+   "options": [
+    "Urush boshlanishini",
+    "Zaifligini",
+    "Tobeligini",
+    "Davlatning to'liq mustaqilligini"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "1006–1008-yillarda Xurosonga kimlar bostirib kirdi?",
+   "options": [
+    "Qoraxoniylar",
+    "Arablar",
+    "Mo'g'ullar",
+    "Saljuqiylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hazorasp yonidagi jangda kim mag'lub bo'ldi?",
+   "options": [
+    "Qoraxoniylar",
+    "Xorazm qo'shini",
+    "Saljuqiylar",
+    "G'aznaviylar"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m30_31": [
+  {
+   "question": "Qoraxoniylar qaysi hududlarda yashagan turkiy qabilalar tomonidan tuzilgan?",
+   "options": [
+    "Xorazm",
+    "Yettisuv va Qoshg'ar",
+    "Xuroson",
+    "Kavkaz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'zini xoqon deb atagan Isfijob hokimi:",
+   "options": [
+    "Tohir",
+    "Mahmud",
+    "Sotuq",
+    "Bilgakul"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qoraxoniylar sulolasi qachon islomni qabul qilgan?",
+   "options": [
+    "Sotuq Bug'roxon davrida",
+    "Ismoil Somoniy davrida",
+    "Sanjar davrida",
+    "Tohir davrida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qoraxoniylar Turonda necha yilga yaqin hukmronlik qilgan?",
+   "options": [
+    "500 yil",
+    "200 yilga yaqin",
+    "20 yil",
+    "50 yil"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qoraxoniylar siyosiy markaz sifatida qaysi shaharlarni tanlagan?",
+   "options": [
+    "Urganch va Kat",
+    "Bolosog'un va Qoshg'ar",
+    "Marv va Nishopur",
+    "Samarqand va Buxoro"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "1008-yilda Mahmud G'aznaviy qoraxoniylarni qanday yengdi?",
+   "options": [
+    "500 ta jangovar fili bor qo'shin bilan",
+    "Zirhli otliqlar bilan",
+    "Dengiz flotida",
+    "Ittifoq tuzib"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qoraxoniylar davlatini qanday xon boshqargan?",
+   "options": [
+    "Amir",
+    "Shoh",
+    "Sulton",
+    "\"Qoraxon\" unvonli buyuk xon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xonlik taxtiga kim o'tirgan?",
+   "options": [
+    "Eng kuchli sarkarda",
+    "Qur'a tashlab",
+    "Katta o'g'il",
+    "Og'a-inichilik udumiga ko'ra sulolaning eng yoshi ulug' kishisi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mahmud Qoshg'ariy XI asrda qaysi asarni yozgan?",
+   "options": [
+    "\"Tafsir\"",
+    "\"Devonu lug'otit-turk\"",
+    "\"Qutadg'u bilig\"",
+    "\"Siyosatnoma\""
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "XI asrning uchinchi choragida davlat nimaga bo'lindi?",
+   "options": [
+    "G'arbiy va Sharqiy xoqonliklarga",
+    "Bo'linmadi",
+    "Uch qismga",
+    "Viloyatlarga teng"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "X asr oxirida Somoniylar o'rnida qaysi ikki davlat vujudga keldi?",
+   "options": [
+    "Qoraxoniylar va G'aznaviylar",
+    "Tohiriylar va safforiylar",
+    "Saljuqiylar va xorazmshohlar",
+    "Qarluqlar va o'g'uzlar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Termiz, Qabodiyon, Xuttalon kimning tasarrufida qoldi?",
+   "options": [
+    "Xorazmshohlar",
+    "G'aznaviylar",
+    "Saljuqiylar",
+    "Qoraxoniylar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qoraxoniylarning Movarounnahrga to'liq hukmronligi qaysi yillarda qaror topdi?",
+   "options": [
+    "X asrning 40-yillarida",
+    "XII asrda",
+    "XI asr oxirida",
+    "IX asrda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qoraxoniylar G'aznaviylar bilan qanday aloqada bo'lgan?",
+   "options": [
+    "Doimiy ittifoq",
+    "Elchilik aloqalari, ammo uzoqqa cho'zilmagan",
+    "Qardosh sulola",
+    "Hech aloqa yo'q"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qoraxoniylar nomi nimadan kelib chiqqan deb taxmin qilinadi?",
+   "options": [
+    "Qora dengizdan",
+    "Qora liboslardan",
+    "Qora tog'lardan",
+    "Bilgakulning \"qora\" laqabidan"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m32_33": [
+  {
+   "question": "Saljuqiylar qaysi turkiy qavm tarkibida chiqqan?",
+   "options": [
+    "Qarluqlar",
+    "Xioniylar",
+    "O'g'uzlar",
+    "Qipchoqlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Saljuqiylar g'aznaviylarni qachon va qayerda mag'lub etgan?",
+   "options": [
+    "1040-yilda Dandanaqonda",
+    "1008-yilda Hazorasp",
+    "1141-yilda Qatvon",
+    "751-yilda Talas"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sulton Alp Arslon Kichik Osiyoda kimni yengdi?",
+   "options": [
+    "Vizantiya podshosi Roman IV Diogenni",
+    "Qutaybani",
+    "Sanjarni",
+    "Mahmud G'aznaviyni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Saltanat Sharqiy Turkistondan O'rta dengizgacha qaysi sulton davrida cho'zilgan?",
+   "options": [
+    "Tug'rulbek",
+    "Malikshoh",
+    "Sanjar",
+    "Alp Arslon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xalifa Tug'rulbekka qanday nom bergan?",
+   "options": [
+    "Nosiriddin",
+    "Imomi A'zam",
+    "Malik al-Mashriq (Sharq hukmdori)",
+    "Yamin ud-davla"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Nizomulmulk qaysi asarning muallifi?",
+   "options": [
+    "\"Devonu lug'otit-turk\"",
+    "\"Qutadg'u bilig\"",
+    "\"Siyosatnoma\"",
+    "\"Shohnoma\""
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Nizomulmulk qurdirgan madrasalar nomi:",
+   "options": [
+    "Sherdor",
+    "Nizomiya",
+    "Mir Arab",
+    "Ko'kaldosh"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Saltanat parchalanishining asosiy sababi:",
+   "options": [
+    "Xalifaning urushi",
+    "Savdo to'xtashi",
+    "Haddan tashqari ulkan hududda yoyilganligi",
+    "Qurg'oqchilik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Saltanat XII asr boshlarida nimaga bo'linib ketdi?",
+   "options": [
+    "Uch qismga",
+    "Sharqiy va g'arbiy qismlarga",
+    "Bo'linmadi",
+    "To'rt qismga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sulton Sanjarning kuchini kim qirqdi?",
+   "options": [
+    "Qoraxitoylar",
+    "Mo'g'ullar",
+    "Xorazmshohlar",
+    "G'aznaviylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Saljuqiylar qaysi shahar Bag'dodni egalladi?",
+   "options": [
+    "Istanbulni",
+    "Xalifalik poytaxti Bag'dodni",
+    "Qohirani",
+    "Damashqni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Saljuqiylarga qaram qaysi davlat yuksalishi uchun sharoit yaratildi?",
+   "options": [
+    "Xorazmning",
+    "G'aznaviylarning",
+    "Qoraxoniylarning",
+    "Somoniylarning"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Saljuqiylar Xurosonga qanday o'tgan?",
+   "options": [
+    "Arablar yordamida",
+    "Qurolli bosqin bilan",
+    "Hech kim rozi bo'lmagan",
+    "Mahmud G'aznaviyning roziligi va shartlar bilan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Saljuq ismli shaxs nima uchun obro' qozongan?",
+   "options": [
+    "Boyligi tufayli",
+    "Qo'shini ko'pligi uchun",
+    "Fazilatlari, bilimdonligi, abjirligi va mardligi tufayli",
+    "Xalifa tayinlagani uchun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Saljuqiylar dastlab qayerda ko'chmanchi hayot kechirgan?",
+   "options": [
+    "Xorazmda",
+    "Anadoluda",
+    "Hindistonda",
+    "Janubiy Qozog'iston yaylovlarida"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m34_35": [
+  {
+   "question": "Xorazmshohlar davlatini qaysi sulola saltanat darajasiga ko'targan?",
+   "options": [
+    "Afrig'iylar",
+    "Oltintoshiylar",
+    "Anushteginiylar",
+    "Ma'muniylar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Anushtegin Xorazm hokimligiga taxminan qachon tayinlangan?",
+   "options": [
+    "1097-yilda",
+    "1172-yilda",
+    "1200-yilda",
+    "1077-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Anushtegin kimning mansabdori edi?",
+   "options": [
+    "Saljuqiy Sulton Malikshohning",
+    "G'aznaviy Mahmudning",
+    "Qoraxoniy xonning",
+    "Somoniy amirning"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazm solig'ini har yili qayerga olib borib turgan?",
+   "options": [
+    "Bag'dodga",
+    "G'aznaga",
+    "Buxoroga",
+    "Marvga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Saljuqiylardan qaramlikdan bosh torta boshlagan hokim:",
+   "options": [
+    "El Arslon",
+    "Qutbiddin",
+    "Takash",
+    "Otsiz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazmning birinchi va asosiy poytaxti:",
+   "options": [
+    "Kat",
+    "Xiva",
+    "Marv",
+    "Gurganch"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Takash qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1172–1200",
+    "1200–1220",
+    "1097–1127",
+    "1077–1097"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Takash qaysi viloyatlarni bo'ysundirgan?",
+   "options": [
+    "Misr",
+    "Hindiston",
+    "Vizantiya",
+    "G'arbiy Eronning ayrim qismi va Kirmon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Alovuddin Muhammad qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1220–1231",
+    "1077–1127",
+    "1172–1200",
+    "1200–1220"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Alovuddin Muhammad kimni Movarounnahrdan haydab chiqargan?",
+   "options": [
+    "Qoraxitoylarni",
+    "G'aznaviylarni",
+    "Saljuqiylarni",
+    "Arablarni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmshohlar davlati qayergacha cho'zilgan?",
+   "options": [
+    "Kaspiygacha",
+    "Faqat Xorazm",
+    "Orol dengizidan Hind okeanigacha",
+    "Xitoygacha"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Otsiz Bag'dod xalifasidan nima oldi?",
+   "options": [
+    "Xorazm hukmdori deb tan olgan yorliq",
+    "Qo'shin",
+    "Yer",
+    "Oltin toj"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Otsiz o'z ismi bitilgan qaysi tangalarni zarb eta boshladi?",
+   "options": [
+    "Oltin tangalar",
+    "Qog'oz pul",
+    "Mis chaqalar",
+    "Tanga zarb etmadi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmda hukmronlik qilgan mahalliy sulolalar umumiy nomi:",
+   "options": [
+    "Xonlar",
+    "Xorazmshohlar",
+    "Xoqonlar",
+    "Amirlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sulton Sanjar Xorazmni kimga bergan edi?",
+   "options": [
+    "Otsizning jiyani Sulaymonshohga",
+    "Takashga",
+    "Qutbiddinga",
+    "El Arslonga"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m36_37": [
+  {
+   "question": "Sulton Muhammad Xorazmshoh qaysi shaharni poytaxt deb e'lon qildi?",
+   "options": [
+    "Gurganchni",
+    "Marvni",
+    "Buxoroni",
+    "Samarqandni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Turkon xotun qanday laqabga ega edi?",
+   "options": [
+    "Jahon hokimi",
+    "Malika",
+    "Ona xon",
+    "Sultona"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turkon xotun qaysi urug'dan edi?",
+   "options": [
+    "Qang'li",
+    "Qarluq",
+    "Qipchoq",
+    "O'g'uz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mo'g'ullar hujumi davrida Turkon xotun nima bo'ldi?",
+   "options": [
+    "Taslim bo'lmadi",
+    "Jangda halok bo'ldi",
+    "Asir tushib Qoraqurumga olib ketildi",
+    "Qochib Hindistonga ketdi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Anushteginiylar davrida devonlar qanday bo'lgan?",
+   "options": [
+    "Bo'lmagan",
+    "Faqat bitta",
+    "Kichik devonlarga bo'lingan",
+    "Faqat harbiy"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Harbiy devon nimalar bilan shug'ullangan?",
+   "options": [
+    "Harbiy masalalar (devon jaysh) va maosh berish (devon ravotib)",
+    "Ta'lim",
+    "Savdo",
+    "Soliq yig'ish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Vazir kim edi?",
+   "options": [
+    "Elchi",
+    "Barcha devonlarga boshchilik qiluvchi, davlat boshlig'ining asosiy maslahatchisi",
+    "Harbiy qo'mondon",
+    "Ruhoniy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Vazir qaysi tillarni mukammal bilishi shart edi?",
+   "options": [
+    "Turkiy, arab va fors",
+    "Faqat arab",
+    "Lotin va yunon",
+    "Xitoy va hind"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Alovuddin Muhammad vazirlik lavozimini bekor qilib nimani joriy etdi?",
+   "options": [
+    "Bitta xon",
+    "Olti vakildan iborat kengash",
+    "Hech narsa",
+    "Sakkiz devon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Muhtasib nimani nazorat qilgan?",
+   "options": [
+    "Soliqni",
+    "Bozordagi tartib, sifat va o'lchovlarni",
+    "Qo'shinni",
+    "Sudni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hukumat boshqaruvi qanday atalgan?",
+   "options": [
+    "Devoni ali",
+    "Katta kengash",
+    "Oliy toj faxriy majlisi",
+    "Oqsoqollar kengashi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Vazirlik mansabining takomillashgan ko'rinishi qaysi hukmdor bilan bog'liq?",
+   "options": [
+    "Muhammad",
+    "Qutbiddin",
+    "Otsiz",
+    "Takash"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "An-Nasaviy sulton Muhammadning onasiga qarshi chiqmasligini qanday izohlagan?",
+   "options": [
+    "Pul olgani uchun",
+    "Xalifa buyurgani uchun",
+    "Onasining mehrini qadrlashi va amirlar onasi urug'idan ekanligi bilan",
+    "Qo'rqqani uchun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Chingizxon bosqini arafasida kengash qaror qabul qila oldimi?",
+   "options": [
+    "Qo'shin to'pladi",
+    "Mo'g'ullarni to'xtatdi",
+    "Birorta jiddiy qaror qabul qila olmadi",
+    "Hammasini hal qildi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turkon xotun qayerda yashagan?",
+   "options": [
+    "Marvda",
+    "Buxoroda",
+    "Samarqandda",
+    "Poytaxt Gurganchda"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m38": [
+  {
+   "question": "O'zbeklar qanday birlik sifatida shakllangan?",
+   "options": [
+    "Davlat",
+    "Qabila",
+    "Elat",
+    "Urug'"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'zbek xalqi etnogenezida qaysi guruhlar ishtirok etgan?",
+   "options": [
+    "Sug'diylar, baqtriylar, xorazmiylar, farg'onaliklar, shoshliklar, sak-massagetlar",
+    "Faqat sug'diylar",
+    "Faqat turkiylar",
+    "Arablar va xitoylar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qang' davlati davrida yuzaga kelgan madaniyat nomi:",
+   "options": [
+    "Afrosiyob madaniyati",
+    "Qo'yqirilgan qal'a madaniyati",
+    "Sopolli madaniyati",
+    "Qovunchi madaniyati"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Turkiston\" nomi qaysi asrdan keng qo'llana boshlagan?",
+   "options": [
+    "XIII asrdan",
+    "II asrdan",
+    "VII asrdan",
+    "X asrdan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turkiston nimani anglatadi?",
+   "options": [
+    "Savdo yo'li",
+    "Tog'lar mamlakati",
+    "Turkiy aholi o'rnashgan o'lka",
+    "Daryo oralig'i"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Etnik jarayon nima?",
+   "options": [
+    "Urush",
+    "Ko'chish",
+    "Kelib chiqishi yaqin qabila va elatlarning asrlar davomida qo'shilib borishi",
+    "Soliq tizimi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'zbek xalqi qaysi asrlarda shakllandi?",
+   "options": [
+    "I–IV asrlarda",
+    "IX–XII asrlarda",
+    "XVIII–XIX asrlarda",
+    "XV–XVII asrlarda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shakllanishning yakuniy bosqichi qaysi davr?",
+   "options": [
+    "Qoraxoniylar davri",
+    "Somoniylar davri",
+    "Eftaliylar davri",
+    "Temuriylar davri"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'zbeklar qanday xo'jalik bilan shug'ullangan?",
+   "options": [
+    "Sug'orma dehqonchilik va hunarmandchilik",
+    "Faqat ovchilik",
+    "Faqat ko'chmanchi chorva",
+    "Faqat savdo"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Turli davrlarda Movarounnahrga kirib kelgan etnik guruhlar qayerlardan?",
+   "options": [
+    "Yevropadan",
+    "Janubiy Sibir, Oltoy, Yettisuv, Volga va Ural bo'ylaridan",
+    "Afrikadan",
+    "Hindistondan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Arablarning kirib kelishi etnik jarayonlarga qanday ta'sir etgan?",
+   "options": [
+    "Aholi yo'qolgan",
+    "Katta ta'sir etmagan",
+    "To'liq o'zgartirgan",
+    "Yangi til tug'dirgan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Etnik guruhlar qaysi tillarda so'zlashgan?",
+   "options": [
+    "Arab va yunon",
+    "Lotin va slavyan",
+    "Xitoy va hind",
+    "Asosan turkiy va sharqiy eroniy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yaxlit turkiy til muhiti qaysi asrda vujudga kela boshladi?",
+   "options": [
+    "IX asrda",
+    "XV asrda",
+    "IV asrda",
+    "I asrda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'zbeklar etnogenezida qatnashgan keyingi etnik guruhlar:",
+   "options": [
+    "Frank",
+    "Rimliklar",
+    "Slavyanlar",
+    "Kushonlar, xioniylar, kidariylar, eftallar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Antropologlar fikricha o'zbek antropologik qiyofasi qachon to'liq shakllandi?",
+   "options": [
+    "Qang' davlati davrida",
+    "Arab istilosida",
+    "Mo'g'ul davrida",
+    "Temuriylar davrida"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m39_40": [
+  {
+   "question": "Arab istilosi oqibatida Turon qaysi ikki qismga bo'lindi?",
+   "options": [
+    "Xuroson va Eron",
+    "Sharqiy va G'arbiy",
+    "Sug'd va Xorazm",
+    "Movarounnahr va Arodi at-turk"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Arodi at-turk\" nimani bildiradi?",
+   "options": [
+    "Quyosh yurti",
+    "Ipak yo'li",
+    "Daryoning narigi tomoni",
+    "Turklar yerlari, arablarga bo'ysunmagan hukmdorlar yerlari"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Hanafiylik mazhabi asoschisi kim?",
+   "options": [
+    "Abu Hanifa (No'mon Sobit Kufiy)",
+    "Moturidiy",
+    "Imom Buxoriy",
+    "Imom Termiziy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Abu Hanifa qachon yashagan?",
+   "options": [
+    "1000–1050",
+    "699–767-yillar",
+    "870–944",
+    "810–870"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Abu Hanifa qanday ataladi?",
+   "options": [
+    "Shayx ul-islom",
+    "Imomi A'zam (Ulug' imom)",
+    "Qozi kalon",
+    "Xoja"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Abu Hanifa g'oyasi islom tarqalishiga nima ta'sir qildi?",
+   "options": [
+    "Majburiy soliq",
+    "Savdo taqiqi",
+    "Urushga chaqirish",
+    "Arab bo'lmagan musulmonlarning teng huquqli ekanligi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Abu\" so'zi nimani bildiradi?",
+   "options": [
+    "aka",
+    "o'g'il",
+    "o'qituvchi",
+    "ota"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Ibn\" so'zi nimani bildiradi?",
+   "options": [
+    "ota",
+    "o'g'il",
+    "aka",
+    "yurt"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Abu Mansur Moturidiy qachon yashagan?",
+   "options": [
+    "1000–1050",
+    "870–944",
+    "699–767",
+    "810–870"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Moturidiy qaysi ta'limotga asos solgan?",
+   "options": [
+    "Moturidiya",
+    "Yassaviya",
+    "Naqshbandiya",
+    "Hanafiylik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buxoro qanday nom bilan shuhrat topgan?",
+   "options": [
+    "Madinat ul-ilm",
+    "Shahri Kalon",
+    "Qubbatul islom (Islom dinining gumbazi)",
+    "Dor ul-xilofa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyidagilardan qaysi tariqat yurtimizda yuzaga kelgan?",
+   "options": [
+    "Naqshbandiya",
+    "Mavlaviya",
+    "Bektoshiya",
+    "Rifoiya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hadis to'plashga hissa qo'shgan olimlar:",
+   "options": [
+    "Beruniy va Ibn Sino",
+    "Xorazmiy va Farg'oniy",
+    "Farobiy va Mirzo Ulug'bek",
+    "Imom Buxoriy, Imom Termiziy, Hakim Termiziy, Dorimiy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Abu Hanifa kunyasidagi \"abu\" nimani bildiradi?",
+   "options": [
+    "Unvon-sultonlik",
+    "Taxallus",
+    "Otalik (kunya)",
+    "Shahar nomi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "IX–XII asrlar qaysi davr edi?",
+   "options": [
+    "Mo'g'ul davri",
+    "Arab xalifaligidan mustaqil davlatlar paydo bo'lgan davr",
+    "Arab istilosining boshi",
+    "Temuriylar davri"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m41_42": [
+  {
+   "question": "G'azzoliy qanday nom bilan mashhur bo'lgan?",
+   "options": [
+    "Imomi A'zam",
+    "Hujjatul islom",
+    "Shayx ar-rais",
+    "Qubbatul islom"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "G'azzoliy qachon yashagan?",
+   "options": [
+    "973–1048",
+    "870–944",
+    "1058–1111",
+    "699–767"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "G'azzoliyning \"Ihyou ulumid-din\" asarida ilmning birinchi bosqichi nima?",
+   "options": [
+    "Tortishish",
+    "Yod olish",
+    "Yozish",
+    "Sukut qilish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ilk oliy o'quv yurti qayerda paydo bo'lgan?",
+   "options": [
+    "Samarqandda",
+    "Xivada",
+    "Balxda",
+    "Buxoroda (VIII–IX asrlar)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Farjak madrasasi qachon yonib ketgan?",
+   "options": [
+    "751-yilda",
+    "1004-yilda",
+    "888-yilda",
+    "937-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Samarqandda X asrda nechta madrasa tashkil etilgan?",
+   "options": [
+    "900 ta",
+    "4 ta",
+    "17 ta",
+    "400 ta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "IX asr boshlarida Balxda nechta madrasa bo'lgan?",
+   "options": [
+    "17 ta",
+    "400 ta",
+    "900 ta",
+    "40 ta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Boshlang'ich ta'limda bolalar necha yoshdan necha yoshgacha o'qitilgan?",
+   "options": [
+    "6 yoshdan 12 yoshgacha",
+    "10–15",
+    "12–18",
+    "3–6"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Boshlang'ich ta'lim qanday bo'lgan?",
+   "options": [
+    "Pullik",
+    "Faqat boylar uchun",
+    "Majburiy emas",
+    "Bepul"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Madrasa\" nomi qat'iylashguncha ta'lim dargohlari qanday atalgan?",
+   "options": [
+    "Maktab-i ali",
+    "Vihara",
+    "Hujra",
+    "Majlis"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mug' tog'idan topilgan hujjatni kim yozgan?",
+   "options": [
+    "Divashtichning quli",
+    "Ruhoniy",
+    "Divashtichning o'zi",
+    "Elchi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bu hujjat nimani ko'rsatadi?",
+   "options": [
+    "Qullarning ham savodli bo'lishiga e'tibor berilganini",
+    "Yozuv bo'lmaganini",
+    "Faqat boylar savodli",
+    "Qullar yo'qligini"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sug'd yozuvi qaysi yozuvlar paydo bo'lishiga asos bo'lgan?",
+   "options": [
+    "Lotin, yunon",
+    "Run, hind",
+    "Qadimgi uyg'ur, mo'g'ul, manjur",
+    "Arab, fors"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qutayba davrida Buxoro hisori ichida nima bino qilingan?",
+   "options": [
+    "Kasalxona",
+    "Kutubxona",
+    "Jome masjidi va madrasa",
+    "Rasadxona"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "G'azzoliyga ko'ra ilm kimlarga o'rgatilishi lozim?",
+   "options": [
+    "Faqat ruhoniylarga",
+    "Qalbi ezgulikka limmo-lim insonlarga",
+    "Faqat boylarga",
+    "Hammaga pulga"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m43_44": [
+  {
+   "question": "Imom Buxoriy qanday unvonga sazovor bo'lgan?",
+   "options": [
+    "Shayx ar-rais",
+    "Imomi A'zam",
+    "Hadis ilmining sultoni",
+    "Hujjatul islom"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Imom Buxoriyning mashhur asari:",
+   "options": [
+    "\"al-Jome as-sahih\"",
+    "\"Hidoya\"",
+    "\"Jorulloh\"",
+    "\"Qonun\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Imom Buxoriy asarni necha yilda yozgan?",
+   "options": [
+    "30 yilda",
+    "6 yilda",
+    "1 yilda",
+    "16 yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Imom Buxoriy nechta hadisdan sahihlarini tanlagan?",
+   "options": [
+    "100 ta",
+    "60 000 ta",
+    "7 275 ta",
+    "600 000 ta"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Imom Termiziy qachon yashagan?",
+   "options": [
+    "824–892",
+    "870–944",
+    "810–870",
+    "699–767"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Imom Termiziy qayerda tug'ilgan?",
+   "options": [
+    "Bug' qishlog'ida (Sherobod)",
+    "Buxoroda",
+    "Samarqandda",
+    "Marv shahrida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Termiziy tavalludining 1200 yilligi qachon nishonlandi?",
+   "options": [
+    "2007-yilda",
+    "1976-yilda",
+    "1990-yilda",
+    "1998-yilda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Buxoriy va Termiziy qayerda uchrashgan?",
+   "options": [
+    "Nishopurda",
+    "Buxoroda",
+    "Bag'dodda",
+    "Termizda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zamaxshariy qanday nomlar bilan ulug'langan?",
+   "options": [
+    "\"Jorulloh\" va \"Xorazm faxri\"",
+    "\"Sharq Aristoteli\"",
+    "\"Ikkinchi muallim\"",
+    "\"Imomi A'zam\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zamaxshariy qachon yashagan?",
+   "options": [
+    "1058–1111",
+    "870–944",
+    "973–1048",
+    "1075–1144"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Marg'inoniyning shoh asari qaysi?",
+   "options": [
+    "\"Hidoya\"",
+    "\"Siyosatnoma\"",
+    "\"Jorulloh\"",
+    "\"Mezon\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Hidoya\" qaysi yilda va qayerda yozilgan?",
+   "options": [
+    "1030-yilda G'aznada",
+    "1178-yilda Samarqandda",
+    "943-yilda Buxoroda",
+    "1004-yilda Gurganchda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Narshaxiy \"Buxoro tarixi\"ni qachon yozgan?",
+   "options": [
+    "943–944-yillarda",
+    "1178-yilda",
+    "1030-yilda",
+    "888-yilda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dastlabki madrasalar qaysi asrning oxirida faoliyat ko'rsata boshlagan?",
+   "options": [
+    "XIV asr",
+    "III asr",
+    "VIII asr",
+    "XI asr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mufassir kim?",
+   "options": [
+    "Tarixchi",
+    "Hadis to'plovchi",
+    "Faylasuf",
+    "Qur'on tafsirchisi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m45_46": [
+  {
+   "question": "IX asrga qadar loy va xom g'isht o'rniga nima ishlatila boshlandi?",
+   "options": [
+    "Yog'och",
+    "Metall",
+    "Tosh",
+    "Pishiq g'isht"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "XI–XII asrlarda binolar qanday shaklda qurilgan?",
+   "options": [
+    "Kvadrat, tomsiz",
+    "Dumaloq, tekis tomli",
+    "Uch burchakli",
+    "Sakkiz burchakli, baland peshtoqli, gumbazli"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Nizomiya\" madrasalarini kim qurdirgan?",
+   "options": [
+    "Mahmud G'aznaviy",
+    "Tug'rulbek",
+    "Ismoil Somoniy",
+    "Nizomulmulk"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bag'doddagi bir Nizomiya madrasasida necha talaba o'qigan?",
+   "options": [
+    "Olti ming",
+    "Olti",
+    "Ellik",
+    "Olti yuz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazm Ma'mun akademiyasiga qachon asos solingan?",
+   "options": [
+    "1017-yilda",
+    "1004-yilda",
+    "937-yilda",
+    "1178-yilda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ma'mun akademiyasi qayerda joylashgan?",
+   "options": [
+    "Gurganchda",
+    "Buxoroda",
+    "Marvda",
+    "Samarqandda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Moddalar solishtirma og'irligini aniqlash usulini kim kashf etgan?",
+   "options": [
+    "Forobiy",
+    "Xorazmiy",
+    "Ibn Sino",
+    "Beruniy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ma'mun akademiyasida ilm ahliga kim boshchilik qilgan?",
+   "options": [
+    "Farg'oniy",
+    "Ibn Sino",
+    "Zamaxshariy",
+    "Beruniy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Musulmon g'isht\" qanday materialdan tayyorlangan?",
+   "options": [
+    "Qumdan",
+    "Sopoldan",
+    "Sariq loydan, maxsus xumdonlarda pishirilgan",
+    "Toshdan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Me'moriy uslublarning rivoji qaysi fanlar rivojidan dalolat beradi?",
+   "options": [
+    "Algebra va geometriya",
+    "Falsafa",
+    "Tarix",
+    "Tibbiyot"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Masjid binolari yonida nimalar qurilgan?",
+   "options": [
+    "Faqat bog'lar",
+    "Minora, honaqoh, maqbaralar",
+    "Faqat bozor",
+    "Qal'alar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Islom kirib kelgach mahalliy an'analar nimaga aylandi?",
+   "options": [
+    "O'zgarmadi",
+    "Butunlay yo'qoldi",
+    "Taqiqlandi",
+    "Islom madaniyati bilan uyg'unlashdi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Naqshinkor g'isht terish san'ati qaysi asrlarda rivojlandi?",
+   "options": [
+    "VI asrda",
+    "XVII asrda",
+    "XI–XII asrlarda",
+    "III–IV asrlarda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Saljuqiylar davrida madrasa qurish nimani bildirgan?",
+   "options": [
+    "Urush tayyorgarligini",
+    "Savdoni cheklashni",
+    "Soliq yig'ishni",
+    "Fan va madaniyatni qo'llab-quvvatlashni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Turon hududi jahon madaniyatining qanday o'chog'i bo'lgan?",
+   "options": [
+    "Ko'hna o'choqlaridan biri",
+    "O'chog'i bo'lmagan",
+    "Yangi o'chog'i",
+    "Eng kichik o'chog'i"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m47_48": [
+  {
+   "question": "Al-Xorazmiy qachon yashagan?",
+   "options": [
+    "980–1037",
+    "873–950",
+    "973–1048",
+    "783–850"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Algebra\" so'zi qaysi risola nomidan olingan?",
+   "options": [
+    "\"Aljabr val-muqobala\"",
+    "\"Zij\"",
+    "\"Hind hisobi\"",
+    "\"Surat al-arz\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Algoritm\" atamasi nimadan kelib chiqqan?",
+   "options": [
+    "Al-Xorazmiy ismidan",
+    "Hind raqamlaridan",
+    "Aristotel ismidan",
+    "Algebra so'zidan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmiy algebrada qaysi uch xil son bilan ish ko'rgan?",
+   "options": [
+    "Yig'indi, ayirma, ko'paytma",
+    "Ildiz, kvadrat, oddiy son",
+    "Butun, kasr, manfiy",
+    "Juft, toq, tub"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xorazmiy nechta asar yozgan va nechtasi saqlangan?",
+   "options": [
+    "5 ta",
+    "20 dan ortiq, 10 tasi saqlangan",
+    "100 ta, 50 tasi",
+    "10 ta, hammasi saqlangan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xorazmiyning geografiyaga oid asari:",
+   "options": [
+    "\"Kitob surat al-arz\"",
+    "\"Zij\"",
+    "\"Hind hisobi\"",
+    "\"Al-jabr\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmiy nimani son sifatida e'tirof etdi?",
+   "options": [
+    "Manfiy sonni",
+    "Kasrni",
+    "0 (nol)ni",
+    "Cheksizlikni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Oyning krateri Xorazmiy nomi bilan qachon atalgan?",
+   "options": [
+    "2007-yilda",
+    "1998-yilda",
+    "1990-yilda",
+    "1976-yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazmiy arifmetik risolasi qaysi raqamlarga asoslangan?",
+   "options": [
+    "Rim raqamlariga",
+    "Hind raqamlariga",
+    "Arab harflariga",
+    "Yunon raqamlariga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yevropa olimlari hisob-kitob tagiga nima deb yozishni sharaf bilgan?",
+   "options": [
+    "\"Diksit Algoritmi\"",
+    "\"Alfraganus\"",
+    "\"Algebra\"",
+    "\"Avitsenna\""
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmiy Yerning shakli haqida nimani isbotlagan?",
+   "options": [
+    "Sayyoramiz yumaloq ekanini",
+    "Yer harakatsizligini",
+    "Yer kub shaklida ekanini",
+    "Yer tekis ekanini"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Algebra asarini Xorazmiy nima uchun yozgan?",
+   "options": [
+    "Meros taqsimlash, savdo, yer o'lchash kabi ishlarda zarur bo'lgani uchun",
+    "Faqat astronomiya uchun",
+    "O'yin uchun",
+    "Din uchun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xorazmiy qayerda tug'ilgan?",
+   "options": [
+    "Xivada",
+    "Samarqandda",
+    "Buxoroda",
+    "Termizda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Al-Muqaddasiy xorazmliklar haqida nima degan?",
+   "options": [
+    "Faqat savdogarlar",
+    "Faqat dehqonlar",
+    "Jangchi xalq",
+    "Aql-idrok, ilm, fiqh va bilim kishilari"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazmiyning astronomik asarlaridan biri:",
+   "options": [
+    "\"Mezon\"",
+    "\"Qonun\"",
+    "\"Hidoya\"",
+    "\"Zij\""
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m49_50": [
+  {
+   "question": "Ahmad Farg'oniy qachon yashagan?",
+   "options": [
+    "973–1048",
+    "783–850",
+    "873–950",
+    "797–865"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Farg'oniy qayerda tug'ilgan?",
+   "options": [
+    "Marg'ilonda",
+    "Andijonda",
+    "Qo'qonda",
+    "Farg'onaning Quva qishlog'ida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Farg'oniy qaysi rasadxonalarda ishlagan?",
+   "options": [
+    "Xiva va Buxoro",
+    "Bag'dod va Damashq",
+    "Samarqand va Marog'a",
+    "Qohira va Istanbul"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'oniy Yevropada qanday nom bilan tanilgan?",
+   "options": [
+    "Algoritm",
+    "Alfraganus",
+    "Avitsenna",
+    "Averroes"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'oniy asari XII asrda nimaga tarjima qilindi?",
+   "options": [
+    "Lotin tiliga (ikki marta)",
+    "Fransuz tiliga",
+    "Xitoy tiliga",
+    "Yunon tiliga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Nilometr nima?",
+   "options": [
+    "Yulduz xaritasi",
+    "Soat",
+    "Suv sathini belgilovchi uskuna",
+    "Kompas"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Farg'oniy nilometrni qachon va qayerda yasagan?",
+   "options": [
+    "1004-yilda Gurganchda",
+    "751-yilda Talasda",
+    "861-yilda Roud orolida",
+    "900-yilda Buxoroda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Farg'oniy yunon astronomlaridan kimning jadvalini ko'rib chiqishda ishtirok etgan?",
+   "options": [
+    "Evklidning",
+    "Ptolemeyning",
+    "Arximedning",
+    "Gippokratning"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'oniyning 1200 yilligi qachon nishonlandi?",
+   "options": [
+    "1998-yilda",
+    "1976-yilda",
+    "2007-yilda",
+    "1990-yilda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Farg'oniyga haykal qayerda o'rnatilgan (2007)?",
+   "options": [
+    "Bag'dodda",
+    "Parijda",
+    "Qohirada",
+    "Damashqda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Farg'oniy nomi Oyning nimasiga berilgan?",
+   "options": [
+    "Dengiziga",
+    "Kraterlardan biriga",
+    "Vodiysiga",
+    "Tog'iga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'oniyning asarlaridan biri:",
+   "options": [
+    "\"Hindiston\"",
+    "\"Jome as-sahih\"",
+    "\"Usturlob yasash haqida kitob\"",
+    "\"Hidoya\""
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Farg'oniy qaysi sohalarda atamalar belgilashga hissa qo'shgan?",
+   "options": [
+    "Falakiyot, riyoziyot, geografiya",
+    "Huquq",
+    "Adabiyot",
+    "Tibbiyot"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Astronomiya asoslari haqidagi kitob\" Yevropaga qaysi mamlakat orqali kirgan?",
+   "options": [
+    "Italiya orqali",
+    "Ispaniya orqali",
+    "Fransiya orqali",
+    "Rim orqali"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Farg'oniyning to'liq ismida \"Abul Abbos\" nimani bildiradi?",
+   "options": [
+    "Joy nomi",
+    "Kunya",
+    "Taxallus",
+    "Unvon"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "m51_52": [
+  {
+   "question": "Forobiy qachon yashagan?",
+   "options": [
+    "980–1037",
+    "873–950",
+    "783–850",
+    "973–1048"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Forobiy qayerda tug'ilgan?",
+   "options": [
+    "Xivada",
+    "Samarqandda",
+    "Forob (O'tror) shahrida",
+    "Buxoroda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Forobiy qanday unvon olgan?",
+   "options": [
+    "\"Hujjatul islom\"",
+    "\"Al-muallim as-soniy\" (Ikkinchi muallim)",
+    "\"Shayx ar-rais\"",
+    "\"Imomi A'zam\""
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ikkinchi muallim\" — kimdan keyin?",
+   "options": [
+    "Ptolemeydan keyin",
+    "Evklidan keyin",
+    "Platondan keyin",
+    "Aristoteldan keyin"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Forobiy nechta asar yaratgan?",
+   "options": [
+    "160 dan ortiq",
+    "1000 ta",
+    "16 ta",
+    "60 ta"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Forobiy nechta tilni bilgan (ayrim ma'lumotlarga ko'ra)?",
+   "options": [
+    "12 ta",
+    "30 ta",
+    "70 dan ortiq",
+    "7 ta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Adolatli jamiyat nazariyasi qaysi asarda bayon etilgan?",
+   "options": [
+    "\"Hidoya\"",
+    "\"Qonun\"",
+    "\"Fozil odamlar shahri\"",
+    "\"Hindiston\""
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Forobiy musiqani nima deb bilgan?",
+   "options": [
+    "Faqat ibodat",
+    "Zararli narsa",
+    "Faqat o'yin-kulgi",
+    "Inson tarbiyasiga ta'sir qiluvchi omil"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Forobiyning musiqaga oid asari:",
+   "options": [
+    "\"Baxt-saodat yo'llari\"",
+    "\"Musiqa haqida katta kitob\"",
+    "\"Fozil odamlar shahri\"",
+    "\"Shaharni boshqarish\""
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ibn Sino Aristotel \"Metafizika\"sini qaysi risola orqali tushungan?",
+   "options": [
+    "Beruniy risolasi",
+    "Forobiy risolasi orqali",
+    "Xorazmiy risolasi",
+    "Zamaxshariy risolasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Forobiy qaysi qabiladan bo'lgan harbiy xizmatchi oilasida tug'ilgan?",
+   "options": [
+    "Turkiy qabilalar",
+    "Arab",
+    "Fors",
+    "Hind"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Forob qaysi daryo bo'yida joylashgan?",
+   "options": [
+    "Chu",
+    "Amudaryo",
+    "Sirdaryo",
+    "Zarafshon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Forobiyning ijtimoiy-siyosiy asarlaridan biri:",
+   "options": [
+    "\"Algebra\"",
+    "\"Mineralogiya\"",
+    "\"Zij\"",
+    "\"Shaharni boshqarish\""
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sharq Arastusi\" kim?",
+   "options": [
+    "Forobiy",
+    "Xorazmiy",
+    "Ibn Sino",
+    "Beruniy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Forobiy qaysi sohalarda asar yaratgan?",
+   "options": [
+    "Faqat tibbiyot",
+    "Faqat harbiy ish",
+    "Faqat adabiyot",
+    "Falsafa, mantiq, musiqa, siyosat, pedagogika"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "m53_54": [
+  {
+   "question": "Beruniy qachon tug'ilgan?",
+   "options": [
+    "980-yilda",
+    "973-yilda",
+    "873-yilda",
+    "1048-yilda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Beruniy qayerda vafot etgan?",
+   "options": [
+    "Rayda",
+    "Gurganchda",
+    "G'aznada",
+    "Kotda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Beruniy\" taxallusi nimani bildiradi?",
+   "options": [
+    "Tog'lik",
+    "Daryo bo'yidan",
+    "Tashqarilik (shahar tashqarisida tug'ilgan)",
+    "Dehqon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Beruniy nechta asar yaratgan?",
+   "options": [
+    "15 ta",
+    "50 ta",
+    "1000 ta",
+    "150 dan ortiq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Beruniy tuzgan yulduzlar jadvalida nechta yulduz bor?",
+   "options": [
+    "129 ta",
+    "500 ta",
+    "1029 ta",
+    "10 ta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "J. Sarton XI asrni nima deb atagan?",
+   "options": [
+    "Uyg'onish asri",
+    "Oltin asr",
+    "Beruniy asri",
+    "Ibn Sino asri"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Beruniy o'sha paytgacha noma'lum qaysi qit'aning mavjudligini taxmin qilgan?",
+   "options": [
+    "Amerika",
+    "Antarktida",
+    "Avstraliya",
+    "Afrika"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Beruniy birinchi bo'lib qanday fikrni ilgari surgan?",
+   "options": [
+    "Yerning Quyosh atrofida aylanishi",
+    "Quyosh Yer atrofida aylanadi",
+    "Yer tekis",
+    "Oy yorug'lik chiqaradi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Beruniyning \"Hindiston\" asari nima haqida?",
+   "options": [
+    "Hind xalqi tarixi, madaniyati va ilmi",
+    "Dorilar",
+    "Yulduzlar",
+    "Xorazm tarixi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Beruniyning ilk ustozi kim?",
+   "options": [
+    "Abu Nasr ibn Iroq",
+    "Forobiy",
+    "Ibn Sino",
+    "Abu Sahl Iso"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Beruniy ikkinchi ustozi bilan qayerda tanishgan?",
+   "options": [
+    "Rayda",
+    "Buxoroda",
+    "Jurjonda",
+    "G'aznada"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Beruniy G'aznaga qanday borgan?",
+   "options": [
+    "Ixtiyoriy ravishda",
+    "Savdo bilan",
+    "1017-yilda Xorazm zabt etilgach, olib ketilgan",
+    "Ibn Sino chaqirgan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Kitob at-tafhim\" nima haqida?",
+   "options": [
+    "Tibbiyot",
+    "Astronomiya, matematika, geografiya",
+    "Huquq",
+    "Adabiyot"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Beruniy qaysi fanlarni puxta egallagan?",
+   "options": [
+    "Astronomiya, fizika, matematika, mineralogiya",
+    "Faqat adabiyot",
+    "Faqat tibbiyot",
+    "Faqat huquq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Beruniyning tibbiyotga oid (dorishunoslik) asari:",
+   "options": [
+    "\"Saydana\"",
+    "\"Qonun\"",
+    "\"Mezon\"",
+    "\"Hidoya\""
+   ],
+   "correct_index": 0
+  }
+ ],
+ "m55_56": [
+  {
+   "question": "Ibn Sino qachon tug'ilgan?",
+   "options": [
+    "980-yilda",
+    "873-yilda",
+    "973-yilda",
+    "1037-yilda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ibn Sino qayerda tug'ilgan?",
+   "options": [
+    "Samarqandda",
+    "Hamadonda",
+    "Xivada",
+    "Afshona qishlog'ida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ibn Sino qayerda vafot etgan?",
+   "options": [
+    "Buxoroda",
+    "Bag'dodda",
+    "Hamadonda",
+    "G'aznada"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "G'arbda Ibn Sino qanday nom bilan mashhur?",
+   "options": [
+    "Alfraganus",
+    "Averroes",
+    "Avitsenna",
+    "Algoritm"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sharqda Ibn Sino qanday atalgan?",
+   "options": [
+    "Imomi A'zam",
+    "Shayx ar-rais",
+    "Hujjatul islom",
+    "Ikkinchi muallim"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ibn Sinoning mashhur tibbiy asari:",
+   "options": [
+    "\"Hindiston\"",
+    "\"Hidoya\"",
+    "\"Tib qonunlari\"",
+    "\"Fozil odamlar shahri\""
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Tib qonunlari\" qachon lotinchaga tarjima qilindi va qachongacha asosiy qo'llanma bo'ldi?",
+   "options": [
+    "XII asrda; XVII asrgacha",
+    "X asrda; XII asrgacha",
+    "XIII asrda; XIV asrgacha",
+    "XVI asrda; XIX asrgacha"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ibn Sino tibbiyot tarixida birinchi bo'lib nimani farqlagan?",
+   "options": [
+    "Vabo bilan ofatni",
+    "Qizamiq va chechakni",
+    "Qand kasalini",
+    "Gripp va shamollashni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ibn Sino yuqumli kasallar haqida nimani ta'kidlagan?",
+   "options": [
+    "Ularni boshqalardan ajratib saqlashni",
+    "Bepul tarqatishni",
+    "Yashirishni",
+    "Qamashni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ibn Sino necha yoshida Qur'oni karimni yod olgan?",
+   "options": [
+    "20 yoshida",
+    "16 yoshida",
+    "5 yoshida",
+    "10 yoshida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ibn Sino 16–17 yoshida kim bo'lgan?",
+   "options": [
+    "Sarkarda",
+    "Astronom",
+    "Mashhur tabib",
+    "Faylasuf-rahbar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Karl Linney Ibn Sino sharafiga qaysi daraxtni nomladi?",
+   "options": [
+    "Avitsenniya",
+    "Beruniya",
+    "Alfraganiya",
+    "Sinoya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ibn Sino xalqaro jamg'armasi qachon tuzilgan?",
+   "options": [
+    "1990-yilda",
+    "2000-yilda",
+    "1999-yilda",
+    "1976-yilda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sinoshunoslik nima?",
+   "options": [
+    "Astronomiya",
+    "Dorilar fani",
+    "Tilshunoslik",
+    "Ibn Sino merosini o'rganish yo'nalishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ibn Sino Forobiyni kim deb hisoblagan?",
+   "options": [
+    "Raqibi",
+    "Shogirdi",
+    "Do'sti",
+    "Ustozi (kitoblari orqali)"
+   ],
+   "correct_index": 3
+  }
+ ]
+}
