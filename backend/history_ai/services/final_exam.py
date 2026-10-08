@@ -21,8 +21,8 @@ MAX_TAB_SWITCHES = 5  # undan oshsa imtihon "shubhali" deb belgilanadi va o'tilm
 LEVELS = [(70, 'A+'), (65, 'A'), (60, 'B+'), (55, 'B'), (50, 'C+'), (46, 'C')]
 
 
-# Chet tillari uchun CEFR shkalasi (100 ballik)
-LANGUAGE_LEVELS = [(70, 'C1'), (60, 'B2'), (50, 'B1'), (40, 'A2'), (30, 'A1')]
+# Chet tillari (CEFR): B1 38-50, B2 51-64, C1 65-75 (A1/A2 rasmiy shkalada yo'q)
+LANGUAGE_LEVELS = [(65, 'C1'), (51, 'B2'), (38, 'B1')]
 
 
 def is_language(book):
