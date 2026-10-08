@@ -1,0 +1,2930 @@
+{
+ "u1a": [
+  {
+   "question": "\"Ali kelibdi (menga aytishdi)\" turkchada:",
+   "options": [
+    "Ali geldi.",
+    "Ali gelmiş.",
+    "Ali gelecek.",
+    "Ali gelir."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "-di va -mış farqi:",
+   "options": [
+    "-di eshitgan, -mış ko'rgan",
+    "-mış kelasi zamon",
+    "-di o'zi ko'rgan, -mış eshitgan/keyin bilgan voqea",
+    "Farq yo'q"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bo'sh joy: 'Saat çok geç ol___!' (voy, kech bo'lib qolgan ekan)",
+   "options": [
+    "acak",
+    "du",
+    "ur",
+    "muş"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Gel' + -mış + shaxs (men):",
+   "options": [
+    "gelmişim",
+    "gelirim",
+    "gelmedim",
+    "geldim"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Gör' + -müş + (sen):",
+   "options": [
+    "gördün",
+    "görmüşsün",
+    "görmişsin",
+    "görürsün"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Meğer' so'zi nimani bildiradi?",
+   "options": [
+    "kutilmagan holatni (chamasi, ekan)",
+    "savol",
+    "inkor",
+    "buyruq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Şaşırmak' ma'nosi:",
+   "options": [
+    "tushunmoq",
+    "kutmoq",
+    "uxlamoq",
+    "hayron bo'lmoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Meğer Ali doktor olmuş!' ma'nosi:",
+   "options": [
+    "Ali shifokor bo'ladi",
+    "Chamasi, Ali shifokor bo'lib qolgan ekan!",
+    "Ali shifokor emas",
+    "Ali shifokorni topdi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qaysi gapda taxmin/eshitilgan ma'no bor?",
+   "options": [
+    "Duyduğuma göre sınav yarın yapılmış.",
+    "Dün sınava girdim.",
+    "Sınav kolay.",
+    "Yarın sınav var."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: 'Dün kardeşim bize gel___' (men uxlagan edim, keyin aytishdi)",
+   "options": [
+    "ecek",
+    "di",
+    "miş",
+    "iyor"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Tanıdık' ma'nosi:",
+   "options": [
+    "tanish (odam)",
+    "begona",
+    "o'qituvchi",
+    "qo'shni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Keşfetmek' ma'nosi:",
+   "options": [
+    "sotmoq",
+    "yashirmoq",
+    "yozmoq",
+    "kashf qilmoq"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u1b": [
+  {
+   "question": "-DAn önce qaysi so'z turkumiga qo'shiladi?",
+   "options": [
+    "sifatga",
+    "otga",
+    "fe'lga",
+    "olmoshga faqat"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Darsdan oldin\" turkchada:",
+   "options": [
+    "Dersmeden önce",
+    "Dersten önce",
+    "Dersi önce",
+    "Ders önce"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ovqatdan keyin\" turkchada:",
+   "options": [
+    "Yemek sonra",
+    "Yemekmeden sonra",
+    "Yemekten sonra",
+    "Yemekte sonra"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Soat beshdan oldin\" turkchada:",
+   "options": [
+    "Saat beş önce",
+    "Saat beşte önce",
+    "Saat beşten önce",
+    "Saat beşten sonra"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bo'sh joy: 'İş___ önce spor yaparım.'",
+   "options": [
+    "ten",
+    "e",
+    "te",
+    "i"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: 'Akşam___ sonra kitap okurum.' (kechqurundan keyin)",
+   "options": [
+    "da",
+    "a",
+    "dan",
+    "ı"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Toplantı' ma'nosi:",
+   "options": [
+    "yig'ilish",
+    "dars",
+    "uchrashuv-ovqat",
+    "dam olish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Randevu' ma'nosi:",
+   "options": [
+    "nonushta",
+    "tushlik",
+    "dam olish",
+    "uchrashuv (belgilangan)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Yoğun' ma'nosi (kun haqida):",
+   "options": [
+    "band, gavjum",
+    "sovuq",
+    "uzoq",
+    "bo'sh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Erken' ma'nosi:",
+   "options": [
+    "sekin",
+    "kech",
+    "erta",
+    "tez"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Öğle yemeği' nima?",
+   "options": [
+    "tushlik",
+    "nonushta",
+    "kechki ovqat",
+    "shirinlik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qaysi gap noto'g'ri?",
+   "options": [
+    "Toplantıdan önce hazırlandım.",
+    "Yemek yemekten önce ellerini yıka.",
+    "Yemekten önce ellerini yıka.",
+    "Dersten sonra eve gittim."
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u1c": [
+  {
+   "question": "Fe'lga qo'shiladigan 'oldin' shakli:",
+   "options": [
+    "-ken",
+    "-dan önce",
+    "-sA",
+    "-madan/-meden önce"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Chiqishdan oldin eshikni qulfla\" turkchada:",
+   "options": [
+    "Çıkmak önce kapıyı kilitle.",
+    "Çıkmadan önce kapıyı kilitle.",
+    "Çıktıktan önce kapıyı kilitle.",
+    "Çıkarken önce kapıyı kilitle."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Ovqat yegandan keyin\" turkchada:",
+   "options": [
+    "Yemekten sonra yedi",
+    "Yemek yedikten sonra",
+    "Yemek yerken sonra",
+    "Yemek yemeden sonra"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Yedikten' dagi -dikten shakli qanday tanlangan?",
+   "options": [
+    "unli uyg'unligi va undosh jarangsizlashuvi bo'yicha",
+    "tasodifiy",
+    "faqat inkor",
+    "faqat -dan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-madan önce shaklida ma'no inkormi?",
+   "options": [
+    "Yo'q, qurilma shunday, ma'no inkor emas",
+    "Ha, buyruq",
+    "Ha, so'roq",
+    "Ha, inkor"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: 'Uyu___ önce dişlerini fırçala.'",
+   "options": [
+    "yerek",
+    "madan",
+    "ken",
+    "dıktan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bo'sh joy: 'Ders bitir___ sonra eve gideriz.'",
+   "options": [
+    "irken",
+    "erek",
+    "dikten",
+    "meden"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Hazırlanmak' ma'nosi:",
+   "options": [
+    "tugatmoq",
+    "tayyorlanmoq",
+    "chiqmoq",
+    "boshlamoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Kilitlemek' ma'nosi:",
+   "options": [
+    "ochmoq",
+    "yuvmoq",
+    "qulflamoq",
+    "sindirmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Yıkamak' ma'nosi:",
+   "options": [
+    "ochmoq",
+    "yuvmoq",
+    "kiymoq",
+    "o'ylamoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Çıkmak' ma'nosi:",
+   "options": [
+    "chiqmoq",
+    "o'tirmoq",
+    "yotmoq",
+    "kirmoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qaysi gap to'g'ri?",
+   "options": [
+    "Eve girdikten sonra ayakkabılarını çıkar.",
+    "Eve girmek sonra ayakkabılarını çıkar.",
+    "Eve girmeden sonra ayakkabılarını çıkar.",
+    "Eve girdikten önce ayakkabılarını çıkar."
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u2a": [
+  {
+   "question": "\"Boshim og'riyapti\" turkchada:",
+   "options": [
+    "Başın ağrıyor mu?",
+    "Başım ağrıyor.",
+    "Başı ağrıdı.",
+    "Baş ağrıyor."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shifokor so'raydi: 'Neyiniz var?' ma'nosi:",
+   "options": [
+    "Ismingiz nima?",
+    "Qayerdasiz?",
+    "Necha yoshdasiz?",
+    "Sizga nima bo'ldi?"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Ateşim var' ma'nosi:",
+   "options": [
+    "Sovuqdan titrayapman",
+    "Isitmam bor",
+    "Ochman",
+    "Charchadim"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Geçmiş olsun' qachon aytiladi?",
+   "options": [
+    "kasal bo'lganga tezroq tuzalsin deb",
+    "bayramda",
+    "xayrlashganda",
+    "ovqatdan keyin"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Karnım ağrıyor' ma'nosi:",
+   "options": [
+    "Tishim og'riyapti",
+    "Boshim og'riyapti",
+    "Qornim og'riyapti",
+    "Qo'lim og'riyapti"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Iyileşmek' ma'nosi:",
+   "options": [
+    "kasal bo'lmoq",
+    "tuzalmoq",
+    "uxlamoq",
+    "yiqilmoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Ilaç' nima?",
+   "options": [
+    "shifokor",
+    "retsept",
+    "dori",
+    "kasalxona"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Kendimi iyi hissetmiyorum' ma'nosi:",
+   "options": [
+    "Menda isitma bor",
+    "Men kasal emasman",
+    "O'zimni yaxshi his qilmayapman",
+    "O'zimni juda yaxshi his qilyapman"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bo'sh joy: 'Boğaz___ ağrıyor.' (tomog'im)",
+   "options": [
+    "ı",
+    "ın",
+    "ımız",
+    "ım"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Sog'liqsiz hech narsa bo'lmaydi\" naqli:",
+   "options": [
+    "Sağlık olmadan hiçbir şey olmaz.",
+    "Sağlık olmaz.",
+    "Sağlık her şeydir yok.",
+    "Hiçbir şey sağlık değil."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Boğaz' nima?",
+   "options": [
+    "ko'z",
+    "qo'l",
+    "tomoq",
+    "oyoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qaysi gap shifokorga murojaat?",
+   "options": [
+    "Hava çok güzel.",
+    "Dünden beri başım ağrıyor ve ateşim var.",
+    "Yarın tatile gidiyorum.",
+    "Kitap okumayı seviyorum."
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u2b": [
+  {
+   "question": "\"Chippa-chiroq toza\" (kuchaytirilgan 'temiz'):",
+   "options": [
+    "tertemiz",
+    "temizcik",
+    "pektemiz",
+    "temizbeyaz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Kara' (qora) kuchaytirilgan shakli:",
+   "options": [
+    "kapkaraz",
+    "karamsar",
+    "karakara",
+    "kapkara"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Yeşil' kuchaytirilgan shakli:",
+   "options": [
+    "yemyeşil",
+    "yepyeşil",
+    "yeşilcik",
+    "yeşilyeşil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Beyaz' kuchaytirilgan shakli:",
+   "options": [
+    "bembeyaz",
+    "bepbeyaz",
+    "beyazbeyaz",
+    "beybeyaz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kuchaytirish qanday yasaladi?",
+   "options": [
+    "Sifatni uch marta takrorlash",
+    "Sifat + -lik",
+    "Sifat + -ken",
+    "Birinchi bo'g'in + p/s/m/r + sifat"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Gibi' ma'nosi:",
+   "options": [
+    "gacha",
+    "kabi, -dek",
+    "uchun",
+    "chunki"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Deniz gibi mavi' ma'nosi:",
+   "options": [
+    "Dengizdek ko'k",
+    "Dengizga ko'k",
+    "Dengizdan ko'k",
+    "Dengizda ko'k"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Akşama kadar çalıştım' dagi 'kadar' ma'nosi:",
+   "options": [
+    "gacha (vaqt chegarasi)",
+    "chunki",
+    "kabi",
+    "uchun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Senin kadar güzel' dagi 'kadar' ma'nosi:",
+   "options": [
+    "uchun",
+    "chunki",
+    "gacha",
+    "qadar (daraja)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Geri dönüşüm' nima?",
+   "options": [
+    "qayta ishlash",
+    "chiqindi",
+    "o'rmon",
+    "ifloslanish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Kirlenmek' ma'nosi:",
+   "options": [
+    "o'smoq",
+    "tozalanmoq",
+    "ifloslanmoq",
+    "qurimoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Çevre' ma'nosi:",
+   "options": [
+    "atrof-muhit",
+    "hudud faqat",
+    "dengiz",
+    "shahar"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u2c": [
+  {
+   "question": "'Trafik canavarı' ibora ma'nosi:",
+   "options": [
+    "avtobus",
+    "yo'l belgisi",
+    "yo'l harakati qoidalarini buzish natijasidagi baxtsiz hodisalar",
+    "haqiqiy yirtqich hayvon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Qizil chiroqda to'xta!\" turkchada:",
+   "options": [
+    "Kırmızı ışıkta geç!",
+    "Yeşil ışıkta dur!",
+    "Kırmızı ışıkta dur!",
+    "Kırmızı ışık dur mu?"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Xavfsizlik kamarini tak\" turkchada:",
+   "options": [
+    "Kemerini bağla yok.",
+    "Emniyet kemerini çıkar.",
+    "Emniyet kemerini tak.",
+    "Emniyet kemeri takıldı."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Yaya' kim?",
+   "options": [
+    "yo'lovchi-avtobus",
+    "piyoda",
+    "politsiyachi",
+    "haydovchi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Sürücü' kim?",
+   "options": [
+    "yo'lovchi",
+    "haydovchi",
+    "piyoda",
+    "mexanik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Hız limiti' nima?",
+   "options": [
+    "yo'l narxi",
+    "tezlik chegarasi",
+    "yo'l belgisi",
+    "chiroq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xavfsizlik qoidalari odatda qanday mayl bilan beriladi?",
+   "options": [
+    "Tilak mayli",
+    "So'roq",
+    "Shart mayli",
+    "Buyruq mayli"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Dikkat et!' ma'nosi:",
+   "options": [
+    "To'xta!",
+    "Yur!",
+    "E'tibor ber! / Ehtiyot bo'l!",
+    "Ket!"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Piyodalar o'tish joyi' turkchada:",
+   "options": [
+    "kaza yeri",
+    "yaya yolu faqat",
+    "trafik ışığı",
+    "yaya geçidi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Kaza' nima?",
+   "options": [
+    "chiroq",
+    "baxtsiz hodisa",
+    "yo'l",
+    "tezlik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bo'sh joy: 'Hız limitine uy___.'",
+   "options": [
+    "du",
+    "ar",
+    "ma",
+    "un"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qaysi gap qoidaga to'g'ri amal qilishni bildiradi?",
+   "options": [
+    "Hızlı sür.",
+    "Kırmızı ışıkta geç.",
+    "Kemerini takma.",
+    "Yaya geçidinden geç."
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u3a": [
+  {
+   "question": "Geniş zaman nimani bildiradi?",
+   "options": [
+    "kelasi reja",
+    "aniq o'tgan ish",
+    "buyruq",
+    "odat, umumiy haqiqat yoki xarakter"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Men har kuni kitob o'qiyman\" turkchada:",
+   "options": [
+    "Ben her gün kitap okurum.",
+    "Ben her gün kitap okuyacağım.",
+    "Ben her gün kitap okudum.",
+    "Ben her gün kitap oku."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Sev' + geniş zaman + (men):",
+   "options": [
+    "seviyorum",
+    "severim",
+    "sevdim",
+    "sevecekim"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Oku' + geniş zaman + (sen):",
+   "options": [
+    "okudun",
+    "okursun",
+    "okuyacaksın",
+    "okuyorsun"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Inkor geniş zaman qo'shimchasi:",
+   "options": [
+    "-maz/-mez",
+    "-mıyor",
+    "-madı",
+    "-ma"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"U sevmaydi\" turkchada:",
+   "options": [
+    "Sevmiyor.",
+    "Sevmeyecek.",
+    "Sevmedi.",
+    "Sevmez."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Güneş doğudan doğar' qanday ma'no?",
+   "options": [
+    "kelasi reja",
+    "o'tgan voqea",
+    "odat faqat",
+    "umumiy haqiqat"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Yazar' ma'nosi:",
+   "options": [
+    "kutubxonachi",
+    "muallif, yozuvchi",
+    "rassom",
+    "o'quvchi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Sıkıcı' ma'nosi:",
+   "options": [
+    "zerikarli",
+    "qiziqarli",
+    "qisqa",
+    "uzun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Boş vakit' ma'nosi:",
+   "options": [
+    "ish vaqti",
+    "uyqu vaqti",
+    "bo'sh vaqt",
+    "tush vaqti"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Tavsiye etmek' ma'nosi:",
+   "options": [
+    "rad etmoq",
+    "sotmoq",
+    "tavsiya qilmoq",
+    "o'qimoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bo'sh joy: 'O her akşam yürüyüşe çık___.'",
+   "options": [
+    "ıyor",
+    "ar",
+    "acak",
+    "tı"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u3b": [
+  {
+   "question": "'Hem ... hem de' ma'nosi:",
+   "options": [
+    "xoh ... xoh",
+    "na ... na",
+    "ham ... ham",
+    "yo ... yo"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Ne ... ne de' ma'nosi:",
+   "options": [
+    "yo ... yo",
+    "agar ... u holda",
+    "na ... na",
+    "ham ... ham"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Ya ... ya da' ma'nosi:",
+   "options": [
+    "xoh ... xoh",
+    "na ... na",
+    "yo ... yo",
+    "ham ... ham"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'İster ... ister' ma'nosi:",
+   "options": [
+    "na ... na",
+    "xoh ... xoh",
+    "ham ... ham",
+    "yo ... yo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Na choy, na qahva ichaman\" turkchada:",
+   "options": [
+    "Ne çay ne kahve içerim.",
+    "Hem çay hem kahve içerim.",
+    "İster çay ister kahve içerim.",
+    "Ya çay ya kahve içerim."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Yo kinoga, yo teatrga boraylik\" turkchada:",
+   "options": [
+    "Ne sinemaya ne tiyatroya gidelim.",
+    "İster sinema ister tiyatro.",
+    "Ya sinemaya ya tiyatroya gidelim.",
+    "Hem sinemaya hem tiyatroya gidelim."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Xoh kel, xoh kelma\" turkchada:",
+   "options": [
+    "Ya gel ya gelme.",
+    "Ne gel ne gelme.",
+    "İster gel ister gelme.",
+    "Hem gel hem gelme."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Fark etmez' ma'nosi:",
+   "options": [
+    "farqi yo'q",
+    "muhim",
+    "kerak",
+    "mumkin emas"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: '___ yorgunum ___ açım.' (ham... ham)",
+   "options": [
+    "Ya ... ya",
+    "İster ... ister",
+    "Hem ... hem de",
+    "Ne ... ne"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Bilet' ma'nosi:",
+   "options": [
+    "kitob",
+    "pul",
+    "chipta",
+    "eshik"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Seçim' ma'nosi:",
+   "options": [
+    "rad",
+    "qaror",
+    "taklif",
+    "tanlov"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kino tanlash bahsida qaysi ibora tanlovni bildiradi?",
+   "options": [
+    "Ya komedi ya aksiyon izleyelim.",
+    "Hem komedi hem de.",
+    "Ne komedi ne aksiyon.",
+    "Komedi izledim."
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u3c": [
+  {
+   "question": "'Bana göre' ma'nosi:",
+   "options": [
+    "menga qadar",
+    "menga uchun",
+    "menga qarshi",
+    "menimcha"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Shifokorga ko'ra\" turkchada:",
+   "options": [
+    "Doktorda göre",
+    "Doktoru göre",
+    "Doktora göre",
+    "Doktor göre"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Bu yüzden' ma'nosi:",
+   "options": [
+    "shuning uchun",
+    "lekin",
+    "chunki",
+    "garchi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qaysi bog'lovchi rasmiyroq?",
+   "options": [
+    "bu sebeple",
+    "yani",
+    "şöyle",
+    "bu yüzden"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Sport qilmayman, shuning uchun charchayman\" turkchada:",
+   "options": [
+    "Spor yaparım yorgun.",
+    "Spor yapmıyorum çünkü yorgunum yok.",
+    "Spor yapmam çünkü.",
+    "Spor yapmıyorum, bu yüzden yorgun hissediyorum."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Zinde' ma'nosi:",
+   "options": [
+    "baquvvat, tetik",
+    "kasal",
+    "charchagan",
+    "dangasa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Tembel' ma'nosi:",
+   "options": [
+    "baland",
+    "dangasa",
+    "tez",
+    "tirishqoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Antrenman' ma'nosi:",
+   "options": [
+    "musobaqa",
+    "stadion",
+    "forma",
+    "mashg'ulot"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bo'sh joy: 'Gazete___ yarın yağmur yağacak.' (gazetaga ko'ra)",
+   "options": [
+    "de göre",
+    "ye göre",
+    "i göre",
+    "den göre"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Form' (jismoniy) ma'nosi:",
+   "options": [
+    "anketa",
+    "jismoniy shakl, tayyorgarlik",
+    "forma-maktab",
+    "kiyim"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Enerji' ma'nosi:",
+   "options": [
+    "yoqilg'i",
+    "kuch-pul",
+    "energiya",
+    "quvvat-vaqt"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qaysi gap fikr bildiradi?",
+   "options": [
+    "Bana göre spor çok önemli.",
+    "Dün spor yaptım.",
+    "Spor salonu kapalı.",
+    "Yarın spor yapacağım."
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u4a": [
+  {
+   "question": "-mAk qo'shimchasi nimani bildiradi?",
+   "options": [
+    "fe'lning lug'aviy shakli",
+    "buyruq",
+    "o'tgan zamon",
+    "harakat tarzi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-mA (okuma) nimani bildiradi?",
+   "options": [
+    "umumiy harakat oti",
+    "fe'l shakli",
+    "olmosh",
+    "sifat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-Iş (yürüyüş, bakış) nimani bildiradi?",
+   "options": [
+    "harakat tarzi yoki bir martalik harakat",
+    "sabab",
+    "buyruq",
+    "inkor"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Yürümek' dan -Iş bilan:",
+   "options": [
+    "yürüyüş",
+    "yürümek",
+    "yürüş",
+    "yürüme faqat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Bakmak' dan -Iş bilan:",
+   "options": [
+    "bakmak",
+    "bakıyor",
+    "bakış",
+    "bakma"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Buyruqni qayta aytish: 'O bana gitmemi söyledi.' ma'nosi:",
+   "options": [
+    "U ketmaydi",
+    "U menga ketishimni aytdi",
+    "U menga ketdi dedi",
+    "U meni olib ketdi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Müze' ma'nosi:",
+   "options": [
+    "masjid",
+    "muzey",
+    "bozor",
+    "kutubxona"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Kale' ma'nosi:",
+   "options": [
+    "saroy",
+    "qal'a",
+    "bog'",
+    "minora"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Kazı' (arxeologik) ma'nosi:",
+   "options": [
+    "haykal",
+    "kitob",
+    "qazishma",
+    "rasm"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Koruma altında' ma'nosi:",
+   "options": [
+    "muhofaza ostida",
+    "sotuvda",
+    "yopiq",
+    "buzilgan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Eser' ma'nosi:",
+   "options": [
+    "asar",
+    "yer",
+    "mahsulot faqat",
+    "qurol"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: 'Okul___ kitap okumasını istedi.' (O'qituvchi kitob o'qishimni so'radi)",
+   "options": [
+    "okudum",
+    "okumak",
+    "okumamı",
+    "okuyuş"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u4b": [
+  {
+   "question": "Turkiyada nechta mavsum bor?",
+   "options": [
+    "Ikki",
+    "Uch",
+    "Olti",
+    "To'rt"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Ilkbahar' ma'nosi:",
+   "options": [
+    "bahor",
+    "kuz",
+    "yoz",
+    "qish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Sonbahar' ma'nosi:",
+   "options": [
+    "yoz",
+    "qish",
+    "kuz",
+    "bahor"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turkiya necha geografik hududga bo'lingan?",
+   "options": [
+    "Besh",
+    "Yetti",
+    "O'n ikki",
+    "To'rt"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qora dengiz hududining xususiyati:",
+   "options": [
+    "doim qor",
+    "yomg'ir ko'p",
+    "quruq va issiq",
+    "cho'l"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'rta dengiz hududida yozlar qanday?",
+   "options": [
+    "sovuq va nam",
+    "qorli",
+    "shamolli faqat",
+    "issiq va quruq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ichki Anadoluda qishlar qanday?",
+   "options": [
+    "yomg'irli",
+    "yumshoq",
+    "sovuq va qorli",
+    "issiq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Iklim' ma'nosi:",
+   "options": [
+    "hudud",
+    "mavsum",
+    "ob-havo",
+    "iqlim"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Rüzgâr' ma'nosi:",
+   "options": [
+    "bulut",
+    "shamol",
+    "yomg'ir",
+    "qor"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Nem' ma'nosi:",
+   "options": [
+    "bosim",
+    "issiqlik",
+    "namlik",
+    "sovuq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Kurak' (iqlim haqida) ma'nosi:",
+   "options": [
+    "sovuq",
+    "quruq",
+    "issiq",
+    "nam"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ilkbaharda nima bo'ladi (matnga ko'ra)?",
+   "options": [
+    "Barglar to'kiladi",
+    "Dengizga boriladi",
+    "Qor yog'adi",
+    "Gullar ochiladi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u4c": [
+  {
+   "question": "'-(y)AlIm' nimani bildiradi?",
+   "options": [
+    "birgalikda taklif ('...aylik')",
+    "o'tgan zamon",
+    "inkor",
+    "buyruq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Keling, shirinlik yeylik\" turkchada:",
+   "options": [
+    "Tatlı yiyelim.",
+    "Tatlı yedik.",
+    "Tatlı yiyorum.",
+    "Tatlı yer."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Avval masalliqlarni tayyorlaylik\" turkchada:",
+   "options": [
+    "Önce malzemeleri hazırlayalım.",
+    "Önce malzemeleri hazırladım.",
+    "Önce malzemeleri hazırla.",
+    "Önce malzeme hazırlar."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Baklava' nima?",
+   "options": [
+    "mashhur turk shirinligi",
+    "non",
+    "sho'rva",
+    "ichimlik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Lokum' nima?",
+   "options": [
+    "muzqaymoq",
+    "tort",
+    "rohatjon (lukum)",
+    "murabbo"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Tarif' (oshxonada) ma'nosi:",
+   "options": [
+    "narx",
+    "taklifnoma",
+    "tavsiya",
+    "retsept"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Malzeme' ma'nosi:",
+   "options": [
+    "pech",
+    "stol",
+    "masalliq",
+    "idish"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Hamur' ma'nosi:",
+   "options": [
+    "xamir",
+    "un",
+    "shakar",
+    "yog'"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Lezzetli' ma'nosi:",
+   "options": [
+    "sho'r",
+    "achchiq",
+    "xom",
+    "mazali"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bo'sh joy: 'Şekeri ekle___.' (Shakarni qo'shaylik)",
+   "options": [
+    "yeceğim",
+    "dim",
+    "yelim",
+    "yor"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Pişirmek' ma'nosi:",
+   "options": [
+    "pishirmoq",
+    "kesmoq",
+    "yemoq",
+    "yuvmoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Tatlı yiyelim, tatlı konuşalım' nimani bildiradi?",
+   "options": [
+    "savdo",
+    "mehmondo'stlik va yaxshi kayfiyat",
+    "urush",
+    "ochlik"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u5a": [
+  {
+   "question": "-(y)Ip nimani bildiradi?",
+   "options": [
+    "shartni",
+    "maqsadni",
+    "ketma-ket harakatlarni bog'laydi (borib, kelib)",
+    "inkorni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Do'konga borib non oldim\" turkchada:",
+   "options": [
+    "Markete gidip ekmek aldım.",
+    "Markete gitti ekmek aldım.",
+    "Markete gitmek ekmek aldım.",
+    "Markete giderek ekmek aldım."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-(y)Ip bilan zamon/shaxs qo'shimchasi qaysi fe'lga qo'shiladi?",
+   "options": [
+    "oxirgi fe'lga",
+    "birinchi fe'lga",
+    "hech biriga",
+    "ikkalasiga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-(y)ArAk nimani bildiradi?",
+   "options": [
+    "sababni",
+    "harakat usulini",
+    "maqsadni",
+    "shartni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Yugurib keldi\" turkchada:",
+   "options": [
+    "Koştu geldi.",
+    "Koşarak geldi.",
+    "Koşmadan geldi.",
+    "Koşup geldi."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bo'sh joy: 'Parayı ver___ ürünü aldım.'",
+   "options": [
+    "erek",
+    "meden",
+    "dikten",
+    "ip"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bo'sh joy: 'Şarkı söyle___ çalıştı.' (qo'shiq aytib ishladi)",
+   "options": [
+    "ince",
+    "yerek",
+    "yip",
+    "dikten"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Üretim' ma'nosi:",
+   "options": [
+    "tarqatish",
+    "ishlab chiqarish",
+    "sotish",
+    "iste'mol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Tüketim' ma'nosi:",
+   "options": [
+    "iste'mol",
+    "ishlab chiqarish",
+    "ombor",
+    "tashish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Hammadde' ma'nosi:",
+   "options": [
+    "ombor",
+    "ishchi",
+    "tayyor mahsulot",
+    "xomashyo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Talep' ma'nosi:",
+   "options": [
+    "chegirma",
+    "talab",
+    "narx",
+    "taklif"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Dağıtım' ma'nosi:",
+   "options": [
+    "yo'qotish",
+    "tarqatish",
+    "yig'ish",
+    "ishlab chiqarish"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u5b": [
+  {
+   "question": "'İş yemeği' nima?",
+   "options": [
+    "ko'cha ovqati",
+    "oilaviy tushlik",
+    "hamkorlar bilan rasmiy ovqatlanish",
+    "bayram ziyofati"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Menyuni olsam bo'ladimi?\" turkchada:",
+   "options": [
+    "Menüyü aldım mı?",
+    "Menüyü alabilir miyim?",
+    "Menüyü alıyorum.",
+    "Menü al."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Hisobni olsak bo'ladimi?\" turkchada:",
+   "options": [
+    "Hesap almak istemem.",
+    "Hesabı alabilir miyiz?",
+    "Hesabı aldık.",
+    "Hesap nerede?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Afiyet olsun' qachon aytiladi?",
+   "options": [
+    "bayramda",
+    "kasalga",
+    "ovqat vaqtida",
+    "xayrlashganda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Men stolni band qilib qo'ygandim\" turkchada:",
+   "options": [
+    "Masa ayırtır.",
+    "Masayı ayırtmak.",
+    "Masayı ayırtacağım.",
+    "Masayı ayırtmıştım."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Rezervasyon' ma'nosi:",
+   "options": [
+    "bron qilish",
+    "buyurtma",
+    "hisob",
+    "menyu"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Anlaşma' ma'nosi:",
+   "options": [
+    "kelishuv, shartnoma",
+    "janjal",
+    "chiqish",
+    "taklif"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Ortak' ma'nosi:",
+   "options": [
+    "mijoz",
+    "raqib",
+    "sherik, hamkor",
+    "ishchi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Sipariş' ma'nosi:",
+   "options": [
+    "buyurtma",
+    "hisob",
+    "stol",
+    "menyu"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Garson' kim?",
+   "options": [
+    "oshpaz",
+    "mijoz",
+    "ofitsiant",
+    "direktor"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "-abilir miyim? qanday so'rov?",
+   "options": [
+    "tushuntirish",
+    "buyruq",
+    "inkor",
+    "xushmuomala ruxsat/iltimos"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qaysi gap biznes uchrashuvga mos?",
+   "options": [
+    "Çok açım!",
+    "Hadi gidelim!",
+    "Bana yemek getir!",
+    "Rezervasyon yaptırmak istiyorum."
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u5c": [
+  {
+   "question": "\"Narxi qancha?\" turkchada:",
+   "options": [
+    "Fiyatı ne kadar?",
+    "Fiyatı kaç yaş?",
+    "Fiyat nerede?",
+    "Fiyatı kim?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Bu ko'ylakni kiyib ko'rsam bo'ladimi?\" turkchada:",
+   "options": [
+    "Bu elbiseyi deneyebilir miyim?",
+    "Bu elbise güzel.",
+    "Bu elbiseyi aldım mı?",
+    "Bu elbiseyi denemem."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Chegirma bormi?\" turkchada:",
+   "options": [
+    "İndirim nerede?",
+    "İndirim kim?",
+    "İndirim var mı?",
+    "İndirim yok."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Pahalı' ma'nosi:",
+   "options": [
+    "qimmat",
+    "arzon",
+    "katta",
+    "yangi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Ucuz' ma'nosi:",
+   "options": [
+    "eski",
+    "kichik",
+    "qimmat",
+    "arzon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Beden' (kiyim) ma'nosi:",
+   "options": [
+    "narx",
+    "o'lcham",
+    "rang",
+    "model"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Fiş' (do'konda) ma'nosi:",
+   "options": [
+    "chek",
+    "qadoq",
+    "chegirma",
+    "narx"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'İade etmek' ma'nosi:",
+   "options": [
+    "almashtirmoq",
+    "sotmoq",
+    "kiymoq",
+    "qaytarmoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Değiştirmek' ma'nosi:",
+   "options": [
+    "kesmoq",
+    "yuvmoq",
+    "almashtirmoq",
+    "qaytarmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Boshqa rangi bormi?\" turkchada:",
+   "options": [
+    "Başka rengi yok.",
+    "Başka renk al.",
+    "Başka renkli.",
+    "Başka rengi var mı?"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Biroz chegirma qila olasizmi?\" turkchada:",
+   "options": [
+    "Biraz indirim yap!",
+    "Biraz indirim yapabilir misiniz?",
+    "Biraz indirim var.",
+    "Biraz indirim yaptınız mı?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Pazarlık qaerda ko'p uchraydi?",
+   "options": [
+    "Kutubxonada",
+    "Maktabda",
+    "Bozorda",
+    "Kasalxonada"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u6a": [
+  {
+   "question": "Xat qanday boshlanadi?",
+   "options": [
+    "Afiyet olsun,",
+    "Sevgili [ism],",
+    "Merhaba yok,",
+    "Hoşça kal,"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Xat qanday tugatiladi?",
+   "options": [
+    "Sevgilerimle,",
+    "Sevgili,",
+    "Günaydın,",
+    "Hoş geldin,"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Mutlu' ma'nosi:",
+   "options": [
+    "qo'rqqan",
+    "baxtli",
+    "xafa",
+    "jahldor"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Üzgün' ma'nosi:",
+   "options": [
+    "xafa",
+    "baxtli",
+    "hayron",
+    "hayajonli"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Kızgın' ma'nosi:",
+   "options": [
+    "jahldor",
+    "xafa",
+    "tinch",
+    "baxtli"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Korkmuş' ma'nosi:",
+   "options": [
+    "uxlagan",
+    "kulgan",
+    "jasur",
+    "qo'rqqan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Özlemek' ma'nosi:",
+   "options": [
+    "yubormoq",
+    "unutmoq",
+    "sog'inmoq",
+    "kutmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Seni sog'indim\" turkchada:",
+   "options": [
+    "Seni özledim.",
+    "Seni özlemem.",
+    "Sen özledin.",
+    "Seni özleyeceğim."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Heyecanlı' ma'nosi:",
+   "options": [
+    "dangasa",
+    "xafa",
+    "hayajonli",
+    "yolg'iz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Şaşkın' ma'nosi:",
+   "options": [
+    "hayron",
+    "jahldor",
+    "baxtli",
+    "kasal"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Içten' ma'nosi (xat uslubi):",
+   "options": [
+    "rasmiy",
+    "samimiy",
+    "uzun",
+    "qisqa"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Çok/son derece/oldukça' nimani bildiradi?",
+   "options": [
+    "vaqtni",
+    "joyni",
+    "sababni",
+    "hissiyot kuchini turlicha darajada"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u6b": [
+  {
+   "question": "-(y)Abil- nimani bildiradi?",
+   "options": [
+    "qila olish/imkoniyat",
+    "majburiyat",
+    "inkor",
+    "o'tgan zamon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Men bu ishni uddasidan chiqa olaman\" turkchada:",
+   "options": [
+    "Bu işi başardım.",
+    "Bu işi başarmak.",
+    "Bu işi başarabilirim.",
+    "Bu işi başarmam."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Ertaga kela olasanmi?\" turkchada:",
+   "options": [
+    "Yarın gelebilir misin?",
+    "Yarın gelmek mi?",
+    "Yarın gelecek misin?",
+    "Yarın geldin mi?"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-(y)Abil- inkor shakli:",
+   "options": [
+    "-(y)AmA- (gelemem)",
+    "-mıyor",
+    "-abilmez",
+    "-madım"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Kela olmayman\" turkchada:",
+   "options": [
+    "Gelmem mi.",
+    "Gelebilmem.",
+    "Gelemem.",
+    "Gelmedim."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'gel' + -ebil + -ir + -im:",
+   "options": [
+    "gelebilim",
+    "gelmişim",
+    "gelirebilim",
+    "gelebilirim"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Başar' + -abil + -ir + -sin:",
+   "options": [
+    "başarsabilirsin",
+    "başarırabilsin",
+    "başarabilirsin",
+    "başarabilsin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Pes etmek' ma'nosi:",
+   "options": [
+    "kulmoq",
+    "taslim bo'lmoq",
+    "yugurmoq",
+    "g'alaba qilmoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Umut' ma'nosi:",
+   "options": [
+    "qo'rquv",
+    "xotira",
+    "g'am",
+    "umid"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Gerçekleştirmek' ma'nosi:",
+   "options": [
+    "boshlamoq",
+    "yo'qotmoq",
+    "ro'yobga chiqarmoq",
+    "unutmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Eğlenmek' ma'nosi:",
+   "options": [
+    "zerikmoq",
+    "kasal bo'lmoq",
+    "yayramoq, zavqlanmoq",
+    "uxlamoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bo'sh joy: 'Seninle ben de gel___.' (men ham kela olaman)",
+   "options": [
+    "dim",
+    "iyorum",
+    "ebilirim",
+    "emem"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u6c": [
+  {
+   "question": "'Şaka yapıyorum!' qachon aytiladi?",
+   "options": [
+    "xayrlashganda",
+    "xafa bo'lganda",
+    "rahmat aytganda",
+    "hazillashganingizni bildirish uchun"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Tug'ilgan kuning muborak bo'lsin!\" turkchada:",
+   "options": [
+    "Doğum günün geçmiş olsun!",
+    "Doğum günün kutlu olsun!",
+    "Doğum günün afiyet olsun!",
+    "Doğum günün güle güle!"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Komik' ma'nosi:",
+   "options": [
+    "uzun",
+    "g'amgin",
+    "kulgili",
+    "qo'rqinchli"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Neşeli' ma'nosi:",
+   "options": [
+    "sekin",
+    "g'amgin",
+    "tinch",
+    "quvnoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Sürpriz' ma'nosi:",
+   "options": [
+    "xat",
+    "syurpriz (kutilmagan sovg'a)",
+    "ziyofat",
+    "taom"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Hediye' ma'nosi:",
+   "options": [
+    "chek",
+    "sovg'a",
+    "narx",
+    "xarid"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Kutlamak' ma'nosi:",
+   "options": [
+    "nishonlamoq, tabriklamoq",
+    "ketmoq",
+    "yig'lamoq",
+    "unutmoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Davet etmek' ma'nosi:",
+   "options": [
+    "kutmoq",
+    "taklif qilmoq",
+    "rad etmoq",
+    "tashlamoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Parti' ma'nosi:",
+   "options": [
+    "ziyofat",
+    "sayohat",
+    "imtihon",
+    "dars"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Eğlence' ma'nosi:",
+   "options": [
+    "uyqu",
+    "ish",
+    "dars",
+    "o'yin-kulgi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Quvonchli lahzada qaysi ibora mos?",
+   "options": [
+    "Geçmiş olsun!",
+    "Başın sağ olsun!",
+    "Doğum günün kutlu olsun!",
+    "Güle güle!"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Hazil haqida to'g'ri gap:",
+   "options": [
+    "Şaka faqat bolalar uchun.",
+    "Şaka hamisha yomon.",
+    "Şaka muloqotni yengillashtiradi.",
+    "Şaka taqiqlangan."
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u7a": [
+  {
+   "question": "-mAk için nimani bildiradi?",
+   "options": [
+    "maqsadni (...qilish uchun)",
+    "sababni",
+    "inkorni",
+    "shartni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "\"Kir yuvish uchun mashinani ishga tushirdim\" turkchada:",
+   "options": [
+    "Çamaşır yıkamak için makineyi çalıştırdım.",
+    "Çamaşır yıkadığım makineyi çalıştırdım.",
+    "Çamaşır yıkamadan makineyi çalıştırdım.",
+    "Çamaşır yıkarken makineyi çalıştırdım."
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Tam çıkmak üzereyken telefon çaldı' ma'nosi:",
+   "options": [
+    "Aynan chiqmoqchi bo'lganimda telefon jiringladi",
+    "Chiqib bo'lgandan keyin",
+    "Telefon buzildi",
+    "Chiqmay turib"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Buzdolabı' nima?",
+   "options": [
+    "changyutgich",
+    "dazmol",
+    "muzlatgich",
+    "pech"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Elektrik süpürgesi' nima?",
+   "options": [
+    "choynak",
+    "changyutgich",
+    "dazmol",
+    "muzlatgich"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Ütü' nima?",
+   "options": [
+    "fen",
+    "dazmol",
+    "choynak",
+    "changyutgich"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Çamaşır makinesi' nima?",
+   "options": [
+    "idish yuvish mashinasi",
+    "pech",
+    "kir yuvish mashinasi",
+    "dazmol"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Bozulmak' ma'nosi:",
+   "options": [
+    "o'chmoq",
+    "ishlamoq",
+    "yonmoq",
+    "buzilmoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Tamir etmek' ma'nosi:",
+   "options": [
+    "olmoq",
+    "sotmoq",
+    "buzmoq",
+    "ta'mirlamoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Enerji tasarrufu' ma'nosi:",
+   "options": [
+    "energiya tejash",
+    "energiya sarfi",
+    "kabel",
+    "elektr o'chishi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Çalıştırmak' ma'nosi:",
+   "options": [
+    "ishga tushirmoq",
+    "buzmoq",
+    "to'xtatmoq",
+    "yuvmoq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: 'Yemek pişir___ için fırını açtım.'",
+   "options": [
+    "ip",
+    "erek",
+    "mek",
+    "me"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "u7b": [
+  {
+   "question": "'Büyülü cam' nimaga nisbatan ishlatiladi?",
+   "options": [
+    "oynaga",
+    "telefonga",
+    "televizorga",
+    "kompyuterga"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"Qaysi kanalni ko'ryapsan?\" turkchada:",
+   "options": [
+    "Hangi kanalı izledin?",
+    "Hangi kanalı izliyorsun?",
+    "Hangi kanal izle?",
+    "Kanal hangisi izler?"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Dizi' nima?",
+   "options": [
+    "yangilik",
+    "reklama",
+    "hujjatli film",
+    "serial"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Belgesel' nima?",
+   "options": [
+    "komediya",
+    "reklama",
+    "serial",
+    "hujjatli film"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Yarışma programı' nima?",
+   "options": [
+    "kino",
+    "yangiliklar",
+    "musiqa",
+    "viktorina dasturi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Izlemek' fe'li nimaga ishlatiladi?",
+   "options": [
+    "yurishga",
+    "dastur/film tomosha qilishga",
+    "o'qishga",
+    "yozishga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Reklam' ma'nosi:",
+   "options": [
+    "kanal",
+    "reklama",
+    "yangilik",
+    "serial"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Yayın' ma'nosi:",
+   "options": [
+    "xat",
+    "film",
+    "efir, translyatsiya",
+    "yozuv"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Ekran' ma'nosi:",
+   "options": [
+    "ekran",
+    "chiroq",
+    "parda faqat",
+    "eshik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Haber' ma'nosi (TV):",
+   "options": [
+    "serial",
+    "reklama",
+    "o'yin",
+    "yangilik"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Bu serial juda qiziqarli\" turkchada:",
+   "options": [
+    "Bu haber dizi değil.",
+    "Bu dizi çok ilginç.",
+    "Bu belgesel ilginç değil.",
+    "Bu dizi çok sıkıcı."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Televizor nima uchun 'sehrli oyna'?",
+   "options": [
+    "oynadan yasalgani uchun",
+    "rangli bo'lgani uchun",
+    "qimmat bo'lgani uchun",
+    "dunyo xabarlarini uyga olib kelgani uchun"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u7c": [
+  {
+   "question": "\"'Bu gul nima?' deb so'radi\" turkchada:",
+   "options": [
+    "\"Bu çiçek nedir?\" diye cevap verdi.",
+    "\"Bu çiçek nedir?\" dedi sormak.",
+    "\"Bu çiçek nedir?\" diye sordu.",
+    "Bu çiçek nedir sordu diye."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Diye' so'zi bu qurilmada qaysi o'zbekcha so'zga mos?",
+   "options": [
+    "kabi",
+    "chunki",
+    "deb",
+    "uchun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "\"'Bu atirgul,' deb javob berdim\" turkchada:",
+   "options": [
+    "Bu gül diye söyledi.",
+    "\"Bu bir gül,\" diye sordum.",
+    "\"Bu bir gül,\" diye cevap verdim.",
+    "\"Bu bir gül\" diye gitti."
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bu qurilma nimani saqlaydi?",
+   "options": [
+    "faqat ma'noni",
+    "aynan aytilgan so'zlarni o'zgartirmasdan",
+    "inkor qiladi",
+    "ma'noni o'zgartiradi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Bitki' ma'nosi:",
+   "options": [
+    "o'simlik",
+    "suv",
+    "hayvon",
+    "tosh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Hayvan' ma'nosi:",
+   "options": [
+    "hayvon",
+    "tabiat",
+    "o'simlik",
+    "hasharot"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Doğa' ma'nosi:",
+   "options": [
+    "bog'",
+    "dengiz",
+    "tabiat",
+    "shahar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Yuva' ma'nosi:",
+   "options": [
+    "bog'",
+    "daraxt",
+    "tuxum",
+    "uya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Böcek' ma'nosi:",
+   "options": [
+    "baliq",
+    "o't",
+    "hasharot",
+    "qush"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Nesli tükenmek' ma'nosi:",
+   "options": [
+    "o'smoq",
+    "yo'q bo'lib ketmoq (tur)",
+    "ko'paymoq",
+    "ko'chmoq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Tür' (biologik) ma'nosi:",
+   "options": [
+    "tur",
+    "shakl",
+    "rang",
+    "o'lcham"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'sh joy: '\"Nerede oturuyorsun?\" ___ sordu.'",
+   "options": [
+    "için",
+    "gibi",
+    "kadar",
+    "diye"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "u8a": [
+  {
+   "question": "-An/-En qo'shimchasi nimani yasaydi?",
+   "options": [
+    "ravish",
+    "fe'l",
+    "ot",
+    "sifatdosh (...qiluvchi)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Koşan adam' ma'nosi:",
+   "options": [
+    "yugurgan odam kecha",
+    "yugurayotgan odam",
+    "yuguradigan odam kelasi",
+    "yugurish"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Gülen çocuk' ma'nosi:",
+   "options": [
+    "kulgi",
+    "kulayotgan bola",
+    "kuladigan bola",
+    "kulmagan bola"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Sev' + -en:",
+   "options": [
+    "sevdi",
+    "sevin",
+    "sevan",
+    "seven"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "-An inkor shakli:",
+   "options": [
+    "-madı",
+    "-mAyAn (gülmeyen)",
+    "-mıyor",
+    "-mAz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "\"Kulmaydigan bola\" turkchada:",
+   "options": [
+    "gülmeyen çocuk",
+    "gülmek çocuk",
+    "gülmez çocuk",
+    "gülmedi çocuk"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Çalışkan' ma'nosi:",
+   "options": [
+    "qaysar",
+    "uyatchan",
+    "mehnatkash",
+    "dangasa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Dürüst' ma'nosi:",
+   "options": [
+    "halol, rostgo'y",
+    "baland",
+    "xasis",
+    "yolg'onchi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Cömert' ma'nosi:",
+   "options": [
+    "saxiy",
+    "dangasa",
+    "xasis",
+    "qaysar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Inatçı' ma'nosi:",
+   "options": [
+    "saxiy",
+    "qaysar",
+    "sabrli",
+    "kamtar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Alçakgönüllü' ma'nosi:",
+   "options": [
+    "kamtar",
+    "mag'rur",
+    "qaysar",
+    "xudbin"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Kararlı' ma'nosi:",
+   "options": [
+    "dangasa",
+    "qat'iyatli",
+    "ikkilanuvchi",
+    "sust"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "u8b": [
+  {
+   "question": "'Hedef' ma'nosi:",
+   "options": [
+    "to'siq",
+    "kuch",
+    "maqsad",
+    "kalit"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Çaba' ma'nosi:",
+   "options": [
+    "harakat, intilish",
+    "tasodif",
+    "orzu",
+    "dam olish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Azim' ma'nosi:",
+   "options": [
+    "baxt",
+    "qat'iyat",
+    "imkoniyat",
+    "to'siq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Fırsat' ma'nosi:",
+   "options": [
+    "maqsad",
+    "to'siq",
+    "imkoniyat",
+    "sabr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Engel' ma'nosi:",
+   "options": [
+    "imkoniyat",
+    "kalit",
+    "maqsad",
+    "to'siq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Anahtar' ma'nosi:",
+   "options": [
+    "qulf",
+    "to'siq",
+    "eshik",
+    "kalit"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Başarının anahtarı elimde' g'oyasi:",
+   "options": [
+    "yordam kerak emas",
+    "omad kerak",
+    "hammasi tasodif",
+    "inson o'z taqdirini o'zi belgilaydi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "\"Maqsadimga erishish uchun ko'p mehnat qilyapman\" turkchada:",
+   "options": [
+    "Hedef ulaşmak çalışıyor.",
+    "Hedefime ulaşmak için çok çalışıyorum.",
+    "Hedefim çalışmak ulaşıyor.",
+    "Hedefime ulaştım için çalışıyorum."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Sabretmek' ma'nosi:",
+   "options": [
+    "shoshilmoq",
+    "ketmoq",
+    "sabr qilmoq",
+    "taslim bo'lmoq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'İlerlemek' ma'nosi:",
+   "options": [
+    "yiqilmoq",
+    "orqaga ketmoq",
+    "to'xtamoq",
+    "ilgarilamoq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Motivasyon' ma'nosi:",
+   "options": [
+    "narx",
+    "charchoq",
+    "tanbeh",
+    "motivatsiya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Muvaffaqiyat uchun muhim bo'lmagan narsa:",
+   "options": [
+    "dangasalik",
+    "çaba",
+    "azim",
+    "hedef"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "u8c": [
+  {
+   "question": "'Empati' nima?",
+   "options": [
+    "jahl qilish",
+    "tez gapirish",
+    "yolg'iz qolish",
+    "boshqaning his-tuyg'ularini tushunish qobiliyati"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Empati kuruyorum' ma'nosi:",
+   "options": [
+    "gapirayapman",
+    "uxlayapman",
+    "boshqaning holatini tushunishga harakat qilyapman",
+    "jahlim chiqyapti"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "'Hoşgörü' ma'nosi:",
+   "options": [
+    "xasislik",
+    "qat'iyat",
+    "jahldorlik",
+    "bag'rikenglik"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Saygı' ma'nosi:",
+   "options": [
+    "hurmat",
+    "qo'rquv",
+    "g'urur",
+    "sabr"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Anlayış' ma'nosi:",
+   "options": [
+    "kutish",
+    "tushunish",
+    "kechirish",
+    "rad etish"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Yardımlaşma' ma'nosi:",
+   "options": [
+    "raqobat",
+    "o'zaro yordam",
+    "dars",
+    "savdo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "'Toplum' ma'nosi:",
+   "options": [
+    "jamiyat",
+    "do'st",
+    "shahar",
+    "oila"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "'Birey' ma'nosi:",
+   "options": [
+    "oila",
+    "davlat",
+    "guruh",
+    "shaxs, individ"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "'Meğer çok yorgunmuş' ma'nosi:",
+   "options": [
+    "U charchaydi",
+    "U charchamaydi",
+    "Juda charchagan edi, men bilardim",
+    "Chamasi, juda charchagan ekan"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Geniş zamon: 'Ben her sabah erken kalkarım' ma'nosi:",
+   "options": [
+    "Men ertaga erta turaman",
+    "Men dunyo erta turdim",
+    "Erta turmayman",
+    "Men har ertalab erta turaman"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bo'sh joy: 'Seni anla___ için dinliyorum.' (tushunish uchun)",
+   "options": [
+    "mak",
+    "yor",
+    "sa",
+    "dım"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "-An sifatdoshiga misol:",
+   "options": [
+    "Yardım etti insan",
+    "Yardım eden insan",
+    "Yardım et",
+    "Yardım edecek"
+   ],
+   "correct_index": 1
+  }
+ ]
+}
