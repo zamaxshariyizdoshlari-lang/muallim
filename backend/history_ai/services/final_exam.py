@@ -34,7 +34,7 @@ def level_for(percent, book=None):
     for lo, name in (LANGUAGE_LEVELS if book is not None and is_language(book) else LEVELS):
         if percent >= lo:
             return name
-    return 'Daraja yo'q'
+    return "Daraja yo'q"
 
 
 def _shuffle_options(q, rng):
