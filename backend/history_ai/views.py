@@ -473,7 +473,7 @@ class BookExamSubmitView(APIView):
             'xp_gained': xp, 'streak': gamification.streak_info(request.user),
             'pass_percent': final_exam.final_pass_percent(),
             'percent': round(score / total * 100) if total else 0,
-            'level': final_exam.level_for(score / total * 100 if total else 0),
+            'level': final_exam.level_for(score / total * 100 if total else 0, book),
         })
 
 

@@ -35,5 +35,5 @@ def student_analytics(user, book):
         'untouched': untouched,
         'exams': exams,
         'forecast': forecast,
-        'forecast_level': level_for(forecast) if forecast is not None else None,
+        'forecast_level': level_for(forecast, book) if forecast is not None else None,
     }

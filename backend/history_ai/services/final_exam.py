@@ -21,8 +21,17 @@ MAX_TAB_SWITCHES = 5  # undan oshsa imtihon "shubhali" deb belgilanadi va o'tilm
 LEVELS = [(70, 'A+'), (65, 'A'), (60, 'B+'), (55, 'B'), (50, 'C+'), (46, 'C')]
 
 
-def level_for(percent):
-    for lo, name in LEVELS:
+# Chet tillari uchun CEFR shkalasi (100 ballik)
+LANGUAGE_LEVELS = [(70, 'C1'), (60, 'B2'), (50, 'B1'), (40, 'A2'), (30, 'A1')]
+
+
+def is_language(book):
+    subject = getattr(book, 'subject', None)
+    return bool(subject and subject.icon == 'languages')
+
+
+def level_for(percent, book=None):
+    for lo, name in (LANGUAGE_LEVELS if book is not None and is_language(book) else LEVELS):
         if percent >= lo:
             return name
     return 'Daraja yo'q'
