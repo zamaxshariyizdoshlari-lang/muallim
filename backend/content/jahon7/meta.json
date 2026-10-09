@@ -1,0 +1,8 @@
+{
+  "book": { "key": "jahon-tarixi-7", "title": "Jahon tarixi (7-sinf)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "O'rta asrlar: Yevropa, Osiyo va Amerika xalqlari (V-XIII asrlar), 3 bob, 22 mavzu." },
+  "sections": [
+    { "key": "s1", "title": "I BOB. O'rta asrlarda Yevropa xalqlari (V-XIII asrlar)", "topics": ["m01","m02_03","m04","m05","m06","m07"] },
+    { "key": "s2", "title": "II BOB. V-XIII asrlarda Osiyo va Amerika", "topics": ["m08","m09","m10","m11","m12","m13","m14","m15","m16"] },
+    { "key": "s3", "title": "III BOB. O'rta asr xalqlarining ijtimoiy-iqtisodiy va madaniy hayotidagi o'zgarishlar", "topics": ["m17","m18","m19","m20","m21","m22","m23"] }
+  ]
+}
