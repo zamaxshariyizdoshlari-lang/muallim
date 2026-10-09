@@ -20,6 +20,8 @@ PLACEMENTS = {
         {'key': 'A1', 'label': 'A1 (boshlang\'ich)', 'book': 'turk_a1'},
         {'key': 'A2', 'label': 'A2 (elementar)', 'title_has': 'A2'},
         {'key': 'B1', 'label': 'B1 (o\'rta)', 'book': 'turk_b1'},
+        {'key': 'B2', 'label': 'B2 (yuqori o\'rta)', 'title_has': 'B2'},
+        {'key': 'C1', 'label': 'C1 (ilg\'or)', 'title_has': 'C1'},
     ],
     'tarix': [
         {'key': '6', 'label': '6-sinf darajasi', 'book': 'qadimgi-dunyo-6'},
