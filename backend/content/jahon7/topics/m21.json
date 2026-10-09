@@ -291,6 +291,413 @@
    ],
    "correct_index": 0,
    "page": 135
+  },
+  {
+   "question": "Karolinglar uyg'onishi qaysi hukmdor davrida boshlandi?",
+   "options": [
+    "Buyuk Karl",
+    "Pipin",
+    "Xlodvig",
+    "Otton I"
+   ],
+   "correct_index": 0,
+   "page": 131
+  },
+  {
+   "question": "Karl ta'lim tizimini kimga topshirdi?",
+   "options": [
+    "Anglosaks olimi Alkuinga",
+    "Eyngardga",
+    "Boetsiyga",
+    "Gerbertga"
+   ],
+   "correct_index": 0,
+   "page": 131
+  },
+  {
+   "question": "Alkuin nima qildi?",
+   "options": [
+    "Qo'shin boshqardi",
+    "Ta'lim tizimini yo'lga qo'ydi va ilk darsliklar yozdi",
+    "Savdo qildi",
+    "Din o'zgartirdi"
+   ],
+   "correct_index": 1,
+   "page": 131
+  },
+  {
+   "question": "Axendagi saroy akademiyasi qaysi nom bilan atalgan?",
+   "options": [
+    "\"Liseum\"",
+    "\"Universitet\"",
+    "Yunoncha \"Akademiya\"",
+    "\"Kollej\""
+   ],
+   "correct_index": 2,
+   "page": 131
+  },
+  {
+   "question": "Eyngard nima uchun mashhur?",
+   "options": [
+    "Qo'shin boshlig'i",
+    "Rassom",
+    "Me'mor",
+    "Buyuk Karl hayotini yozgan tarixchi"
+   ],
+   "correct_index": 3,
+   "page": 132
+  },
+  {
+   "question": "Eyngardga zamondoshlari qanday laqab berishgan?",
+   "options": [
+    "\"Tezkor burgut\"",
+    "\"Dono bo'ri\"",
+    "\"Qat'iy sher\"",
+    "\"Mehnatsevar chumoli\""
+   ],
+   "correct_index": 3,
+   "page": 132
+  },
+  {
+   "question": "Karl qaysi tillarni bilgan?",
+   "options": [
+    "Faqat nemis",
+    "Arab va fors",
+    "Lotin va yunon tillarini",
+    "Rus va polyak"
+   ],
+   "correct_index": 2,
+   "page": 132
+  },
+  {
+   "question": "Karl yostig'i tagida nima saqlagan?",
+   "options": [
+    "Qilich",
+    "Kitob",
+    "Xarita",
+    "Mum surilgan yozuv taxtachasi"
+   ],
+   "correct_index": 3,
+   "page": 132
+  },
+  {
+   "question": "Axendan saqlanib qolgan Karl inshooti qaysi?",
+   "options": [
+    "Sobor",
+    "Saroy kopellasi",
+    "Qal'a",
+    "Ko'prik"
+   ],
+   "correct_index": 1,
+   "page": 132
+  },
+  {
+   "question": "Vizantiya madaniyati nega G'arbiy Yevropadagi singari inqirozga uchramagan?",
+   "options": [
+    "Urush bo'lmagani uchun",
+    "Davlat daxlsizligini saqlab qolgani uchun",
+    "Savdo yo'qligi uchun",
+    "Arablar yordami bilan"
+   ],
+   "correct_index": 1,
+   "page": 132
+  },
+  {
+   "question": "Vizantiyada antik falsafa nima deb qoralangan?",
+   "options": [
+    "Ilm",
+    "San'at",
+    "Din",
+    "Majusiylik"
+   ],
+   "correct_index": 3,
+   "page": 132
+  },
+  {
+   "question": "Magnavr oliy maktabi qaysi asrda ochilgan?",
+   "options": [
+    "III asrda",
+    "IX asrda",
+    "XV asrda",
+    "VII asrda"
+   ],
+   "correct_index": 1,
+   "page": 132
+  },
+  {
+   "question": "Konstantinopolda universitet qaysi asr o'rtasida ochilgan?",
+   "options": [
+    "IX asrda",
+    "XIII asrda",
+    "VII asrda",
+    "XI asr o'rtalarida"
+   ],
+   "correct_index": 3,
+   "page": 132
+  },
+  {
+   "question": "\"Yunon olovi\" qaysi asrda ixtiro qilingan?",
+   "options": [
+    "III asrda",
+    "VII asrda",
+    "X asrda",
+    "XIV asrda"
+   ],
+   "correct_index": 1,
+   "page": 133
+  },
+  {
+   "question": "\"Yunon olovi\" nima uchun ishlatilgan?",
+   "options": [
+    "Maishiy uchun",
+    "Dengiz janglarida ustunlik uchun",
+    "Qamal uchun",
+    "Pishirish uchun"
+   ],
+   "correct_index": 1,
+   "page": 133
+  },
+  {
+   "question": "Ikona nima?",
+   "options": [
+    "Marmar haykal",
+    "Yog'ochdan ishlangan avliyo, Bibi Maryam, Injil sahnalari tasviri",
+    "Rangli oyna",
+    "Qal'a"
+   ],
+   "correct_index": 1,
+   "page": 133
+  },
+  {
+   "question": "Ayo Sofiya qaysi yillarda qurilgan?",
+   "options": [
+    "395-476",
+    "610-641",
+    "900-950",
+    "532-537"
+   ],
+   "correct_index": 3,
+   "page": 133
+  },
+  {
+   "question": "Ayo Sofiya gumbazi diametri qancha?",
+   "options": [
+    "3,5 metr",
+    "315 metr",
+    "31,5 metr",
+    "15 metr"
+   ],
+   "correct_index": 2,
+   "page": 133
+  },
+  {
+   "question": "Gumbazni nechta deraza o'rab turadi?",
+   "options": [
+    "4 ta",
+    "14 ta",
+    "400 ta",
+    "40 ta"
+   ],
+   "correct_index": 3,
+   "page": 133
+  },
+  {
+   "question": "Yevropada ta'lim antik davrdan meros qolgan an'analarga asoslangan, qaysi maktablar ochilgan?",
+   "options": [
+    "Faqat monastir",
+    "Faqat dunyoviy",
+    "Faqat shahar",
+    "Cherkov (monastir, yepiskoplik) va dunyoviy maktablar"
+   ],
+   "correct_index": 3,
+   "page": 134
+  },
+  {
+   "question": "\"Yetti erkin san'at\"da \"barcha fanlarning onasi\" qaysi fan?",
+   "options": [
+    "Grammatika",
+    "Arifmetika",
+    "Musiqa",
+    "Geometriya"
+   ],
+   "correct_index": 0,
+   "page": 134
+  },
+  {
+   "question": "Yetti erkin san'atga qaysi fan kirmaydi?",
+   "options": [
+    "Tibbiyot",
+    "Ritorika",
+    "Dialektika",
+    "Musiqa"
+   ],
+   "correct_index": 0,
+   "page": 134
+  },
+  {
+   "question": "O'rta asrgacha G'arbiy Yevropada o'qitish qaysi tilda?",
+   "options": [
+    "Milliy tillarda",
+    "Arab tilida",
+    "Yunon tilida",
+    "Lotin tilida"
+   ],
+   "correct_index": 3,
+   "page": 134
+  },
+  {
+   "question": "XIV asrga kelib nima ochila boshladi?",
+   "options": [
+    "Matbaa",
+    "Universitet",
+    "Milliy tilda o'qitiladigan maktablar",
+    "Kasalxona"
+   ],
+   "correct_index": 2,
+   "page": 134
+  },
+  {
+   "question": "O'rta asr maktabida o'quvchilar nima sababli jazolangan?",
+   "options": [
+    "Noto'g'ri xatti-harakatlari uchun",
+    "Yaxshi o'qiganlari uchun",
+    "Savol berganlari uchun",
+    "Kechikkani uchun faqat"
+   ],
+   "correct_index": 0,
+   "page": 134
+  },
+  {
+   "question": "Germaniyada o'quvchilar yilda necha marta o'rmonga xivich tayyorlagani borgan?",
+   "options": [
+    "Hech",
+    "Har kun",
+    "Bir marta",
+    "Bir necha bor"
+   ],
+   "correct_index": 3,
+   "page": 134
+  },
+  {
+   "question": "Universitet so'zi nimani anglatadi?",
+   "options": [
+    "Maktab",
+    "Ustoz va talabalar jamoasi",
+    "Kutubxona",
+    "Qal'a"
+   ],
+   "correct_index": 1,
+   "page": 135
+  },
+  {
+   "question": "Yevropada birinchi universitetlar qaysi asrlarda paydo bo'lgan?",
+   "options": [
+    "V-VI asrlarda",
+    "XI-XII asrlarda",
+    "XV-XVI asrlarda",
+    "VIII-IX asrlarda"
+   ],
+   "correct_index": 1,
+   "page": 135
+  },
+  {
+   "question": "Dastlabki universitetlar kimga bo'ysungan?",
+   "options": [
+    "Qirolga",
+    "Mahalliy cherkovga",
+    "Faqat Rim papasiga",
+    "Gersogga"
+   ],
+   "correct_index": 2,
+   "page": 135
+  },
+  {
+   "question": "Boloniya universiteti qaysi mamlakatda?",
+   "options": [
+    "Fransiyada",
+    "Angliyada",
+    "Italiyada",
+    "Ispaniyada"
+   ],
+   "correct_index": 2,
+   "page": 135
+  },
+  {
+   "question": "Parij universiteti qaysi mamlakatda?",
+   "options": [
+    "Italiyada",
+    "Angliyada",
+    "Germaniyada",
+    "Fransiyada"
+   ],
+   "correct_index": 3,
+   "page": 135
+  },
+  {
+   "question": "Oksford va Kembrij qaysi mamlakatda?",
+   "options": [
+    "Fransiyada",
+    "Angliyada",
+    "Italiyada",
+    "Ispaniyada"
+   ],
+   "correct_index": 1,
+   "page": 135
+  },
+  {
+   "question": "Universitetda nechta fakultet bo'lgan?",
+   "options": [
+    "To'rtta",
+    "Ikkita",
+    "Oltita",
+    "Bitta"
+   ],
+   "correct_index": 0,
+   "page": 135
+  },
+  {
+   "question": "Universitet fakultetlari qaysilar?",
+   "options": [
+    "San'at, tibbiyot, huquqshunoslik, ilohiyot",
+    "Fizika, kimyo",
+    "Tarix, geografiya",
+    "Musiqa, rassomlik"
+   ],
+   "correct_index": 0,
+   "page": 135
+  },
+  {
+   "question": "Fakultetni kim boshqargan?",
+   "options": [
+    "Rektor",
+    "Kansler",
+    "Abbat",
+    "Dekan"
+   ],
+   "correct_index": 3,
+   "page": 135
+  },
+  {
+   "question": "Universitet jamoasi tepasida kim turgan?",
+   "options": [
+    "Papa",
+    "Qirol",
+    "Saylangan rektor yoki tayinlangan kansler",
+    "Dekan"
+   ],
+   "correct_index": 2,
+   "page": 135
+  },
+  {
+   "question": "Talabalar yotoqxonasi nima deb atalgan?",
+   "options": [
+    "Kollej",
+    "Kollegiya",
+    "Seminariya",
+    "Monastir"
+   ],
+   "correct_index": 1,
+   "page": 135
   }
  ]
 }

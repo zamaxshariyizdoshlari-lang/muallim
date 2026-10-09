@@ -331,6 +331,435 @@
    ],
    "correct_index": 0,
    "page": 114
+  },
+  {
+   "question": "Salib yurishlari kimlarning urushlari edi?",
+   "options": [
+    "Arablarning Yevropaga",
+    "Mo'g'ullarning Rusga",
+    "Turklarning Vizantiyaga",
+    "G'arbiy Yevropa feodallarining Yaqin Sharqqa"
+   ],
+   "correct_index": 3,
+   "page": 107
+  },
+  {
+   "question": "Quddus qancha vaqt musulmonlar qo'lida edi?",
+   "options": [
+    "Bir asr",
+    "Deyarli besh asr",
+    "Ikki asr",
+    "O'n asr"
+   ],
+   "correct_index": 1,
+   "page": 107
+  },
+  {
+   "question": "Vizantiya imperatori G'arbga nima uchun murojaat qildi?",
+   "options": [
+    "Soliq berish uchun",
+    "Ittifoq tuzmaslik",
+    "Urushni to'xtatish",
+    "Jangchilar yuborishni so'rab"
+   ],
+   "correct_index": 3,
+   "page": 108
+  },
+  {
+   "question": "Papa Urban II nutqi qaysi yili va qayerda bo'lgan?",
+   "options": [
+    "1096-yilda Rimda",
+    "1095-yilda Klermonda",
+    "1099-yilda Quddusda",
+    "1204-yilda Parijda"
+   ],
+   "correct_index": 1,
+   "page": 108
+  },
+  {
+   "question": "Urban II yurish ishtirokchilariga nimani va'da qildi?",
+   "options": [
+    "Yer va oltin",
+    "Gunohlar kechirilishi va jannat",
+    "Qirollik unvoni",
+    "Soliq imtiyozi"
+   ],
+   "correct_index": 1,
+   "page": 108
+  },
+  {
+   "question": "Xalq papa nutqiga qanday javob berdi?",
+   "options": [
+    "\"Xudoning irodasi shu!\"",
+    "\"Biz rozimiz emas\"",
+    "\"Qirolga qarshi\"",
+    "\"Tinchlik kerak\""
+   ],
+   "correct_index": 0,
+   "page": 108
+  },
+  {
+   "question": "Ishtirokchilar kiyimlariga nimani tikishgan?",
+   "options": [
+    "Matodan xoch (salib)",
+    "Yulduz",
+    "Oy",
+    "Yo'lbars"
+   ],
+   "correct_index": 0,
+   "page": 108
+  },
+  {
+   "question": "Dehqonlar yurishda nimaga umid qilgan?",
+   "options": [
+    "Pulga",
+    "Qul olishga",
+    "Qirol bo'lishga",
+    "Sharqda mulk va baxtli hayotga"
+   ],
+   "correct_index": 3,
+   "page": 109
+  },
+  {
+   "question": "Ritsarlarning ko'pchiligi qanday oiladan edi?",
+   "options": [
+    "Qirol xonadonidan",
+    "Savdogar oilasidan",
+    "Boy bo'lmagan xonadonlardan",
+    "Rohib oilasidan"
+   ],
+   "correct_index": 2,
+   "page": 109
+  },
+  {
+   "question": "Mayorat tizimida meros kimga qolgan?",
+   "options": [
+    "Hamma o'g'illarga",
+    "Kenja o'g'ilga",
+    "Cherkovga",
+    "Katta o'g'ilga"
+   ],
+   "correct_index": 3,
+   "page": 109
+  },
+  {
+   "question": "Salibchilar Sharqda qancha vaqt hududlarni qo'lda saqlagan?",
+   "options": [
+    "20 yil",
+    "50 yil",
+    "500 yil",
+    "Taxminan 200 yil"
+   ],
+   "correct_index": 3,
+   "page": 110
+  },
+  {
+   "question": "Salibchilar mahalliy dehqonlardan nechta bir hosil olgan?",
+   "options": [
+    "Yarmini",
+    "Uchdan birini",
+    "Beshdan birini",
+    "Hammasini"
+   ],
+   "correct_index": 1,
+   "page": 110
+  },
+  {
+   "question": "Birinchi salib yurishi qaysi yilgacha davom etdi?",
+   "options": [
+    "1096-yilgacha",
+    "1099-yilgacha",
+    "1147-yilgacha",
+    "1204-yilgacha"
+   ],
+   "correct_index": 1,
+   "page": 110
+  },
+  {
+   "question": "Birinchi yurishda salibchilarni Konstantinopolda kim kutib oldi?",
+   "options": [
+    "Papa",
+    "Konrad",
+    "Imperator Aleksey I",
+    "Fridrix"
+   ],
+   "correct_index": 2,
+   "page": 110
+  },
+  {
+   "question": "Quddusda jome masjidda salibchilar necha musulmonni qirgan?",
+   "options": [
+    "100",
+    "1000",
+    "10 ming",
+    "100 ming"
+   ],
+   "correct_index": 2,
+   "page": 110
+  },
+  {
+   "question": "Salibchilarning asosiy davlati qaysi?",
+   "options": [
+    "Antioxiya",
+    "Edessa",
+    "Quddus qirolligi",
+    "Tripoli"
+   ],
+   "correct_index": 2,
+   "page": 110
+  },
+  {
+   "question": "Diniy-ritsarlik ordenlari kimlardan farq qilgan?",
+   "options": [
+    "Ritsarlardan",
+    "Qirollardan",
+    "Oddiy rohiblar ordenlaridan",
+    "Savdogarlardan"
+   ],
+   "correct_index": 2,
+   "page": 110
+  },
+  {
+   "question": "Birinchi diniy-ritsarlik ordeni qaysi?",
+   "options": [
+    "Tampliyerlar",
+    "Gospitalyerlar (ioanniylar)",
+    "Tevtonlar",
+    "Xochdorlar"
+   ],
+   "correct_index": 1,
+   "page": 111
+  },
+  {
+   "question": "Tampliyerlar kiyimida qanday xoch bo'lgan?",
+   "options": [
+    "Qizil matoda oq xoch",
+    "Oq matoda qora xoch",
+    "Ko'k matoda oq xoch",
+    "Oq matoda qizil xoch"
+   ],
+   "correct_index": 3,
+   "page": 111
+  },
+  {
+   "question": "Tevton ordeni a'zolarining ko'pchiligi qayerdan edi?",
+   "options": [
+    "Fransiyadan",
+    "Germaniyadan",
+    "Italiyadan",
+    "Angliyadan"
+   ],
+   "correct_index": 1,
+   "page": 111
+  },
+  {
+   "question": "Tampliyerlar qanday ish bilan shug'ullangan?",
+   "options": [
+    "Sudxo'rlik",
+    "Kemasozlik",
+    "Dehqonchilik",
+    "Tarjima"
+   ],
+   "correct_index": 0,
+   "page": 111
+  },
+  {
+   "question": "Musulmon amirliklari qanday birlashdi?",
+   "options": [
+    "Salibchilarga qarshi kurash uchun",
+    "Savdo uchun",
+    "Din uchun faqat",
+    "Mo'g'ullarga qarshi"
+   ],
+   "correct_index": 0,
+   "page": 112
+  },
+  {
+   "question": "Imomiddin Zangiy qaysi shaharlar oralig'ini egalladi?",
+   "options": [
+    "Mosul va Halab",
+    "Quddus va Damashq",
+    "Qohira va Bag'dod",
+    "Antioxiya va Edessa"
+   ],
+   "correct_index": 0,
+   "page": 112
+  },
+  {
+   "question": "Nuriddin Zangiy qaysi yili taxtga o'tirdi?",
+   "options": [
+    "1096-yilda",
+    "1146-yilda",
+    "1147-yilda",
+    "1155-yilda"
+   ],
+   "correct_index": 1,
+   "page": 112
+  },
+  {
+   "question": "Ikkinchi salib yurishi qaysi yillarda bo'lgan?",
+   "options": [
+    "1096-1099",
+    "1189-1192",
+    "1202-1204",
+    "1147-1149"
+   ],
+   "correct_index": 3,
+   "page": 112
+  },
+  {
+   "question": "Ikkinchi yurishda qaysi qirollar ishtirok etdi?",
+   "options": [
+    "Fransiya va Germaniya qirollari",
+    "Angliya va Ispaniya",
+    "Italiya va Polsha",
+    "Rus va Vengriya"
+   ],
+   "correct_index": 0,
+   "page": 112
+  },
+  {
+   "question": "Damashqni Nuriddin Zangiy qaysi yili egalladi?",
+   "options": [
+    "1146-yilda",
+    "1169-yilda",
+    "1202-yilda",
+    "1155-yilda"
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Misrni 1169-yilda kim egalladi?",
+   "options": [
+    "Nuriddin shaxsan",
+    "Shirkuh va Salohiddin",
+    "Imomiddin",
+    "Boyazid"
+   ],
+   "correct_index": 1,
+   "page": 113
+  },
+  {
+   "question": "Papa Innokentiy III qaysi yurishni tashkil qildi?",
+   "options": [
+    "Ikkinchi",
+    "To'rtinchi",
+    "Uchinchi",
+    "Birinchi"
+   ],
+   "correct_index": 1,
+   "page": 113
+  },
+  {
+   "question": "Salibchilar Venetsiyaga necha kumush marka to'lash kerak edi?",
+   "options": [
+    "8 ming",
+    "850",
+    "85 ming",
+    "850 ming"
+   ],
+   "correct_index": 2,
+   "page": 113
+  },
+  {
+   "question": "To'rtinchi yurishda qaysi shahar talandi?",
+   "options": [
+    "Quddus",
+    "Damashq",
+    "Qohira",
+    "Konstantinopol"
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Vizantiyada salibchilar tuzgan davlat qanday atalgan?",
+   "options": [
+    "Quddus qirolligi",
+    "Lotin imperiyasi",
+    "Antioxiya knyazligi",
+    "Edessa grafligi"
+   ],
+   "correct_index": 1,
+   "page": 113
+  },
+  {
+   "question": "Bolalar salib yurishini kim boshladi?",
+   "options": [
+    "Papa",
+    "Fridrix II",
+    "Cho'pon bola Stefan",
+    "Lyudovik IX"
+   ],
+   "correct_index": 2,
+   "page": 113
+  },
+  {
+   "question": "Bolalar yurishi qaysi yili bo'lgan?",
+   "options": [
+    "1212-yilda",
+    "1096-yilda",
+    "1204-yilda",
+    "1270-yilda"
+   ],
+   "correct_index": 0,
+   "page": 113
+  },
+  {
+   "question": "Bolalarni Marseldan Suriyaga yetkazamiz deganlar nima qilgan?",
+   "options": [
+    "Misrga olib borib qul qilib sotgan",
+    "Suriyaga yetkazgan",
+    "Qaytargan",
+    "Tarbiyalagan"
+   ],
+   "correct_index": 0,
+   "page": 114
+  },
+  {
+   "question": "So'nggi sakkizinchi yurishni kim boshlagan?",
+   "options": [
+    "Fridrix II",
+    "Lyudovik IX",
+    "Filipp IV",
+    "Karl V"
+   ],
+   "correct_index": 1,
+   "page": 114
+  },
+  {
+   "question": "Salib yurishlari to'xtashining asosiy sababi nima edi?",
+   "options": [
+    "Mo'g'ullar hujumi",
+    "G'arbiy Yevropadagi o'zgarishlar (qirol hokimiyati va shaharlar)",
+    "Vabo",
+    "Dengiz yo'li yopilishi"
+   ],
+   "correct_index": 1,
+   "page": 114
+  },
+  {
+   "question": "Salib yurishlari natijasida Yevropaga qaysi ekinlar keltirildi?",
+   "options": [
+    "Sholi, grechixa, tarvuz, shakarqamish",
+    "Kartoshka, makkajo'xori",
+    "Pomidor, tamaki",
+    "Paxta, choy"
+   ],
+   "correct_index": 0,
+   "page": 115
+  },
+  {
+   "question": "Texnikada qaysi yangilik o'zlashtirildi?",
+   "options": [
+    "Zambarak",
+    "Bug' mashinasi",
+    "Arbalet, shamol tegirmonlari",
+    "Soat"
+   ],
+   "correct_index": 2,
+   "page": 115
   }
  ]
 }

@@ -291,6 +291,303 @@
    ],
    "correct_index": 3,
    "page": 128
+  },
+  {
+   "question": "Osiyoning eng yirik shaharlaridan qaysilari?",
+   "options": [
+    "Parij, London",
+    "Rim, Afina",
+    "Chanan, Loyan, Xanchjou, Kioto, Dehli, Bag'dod, Buxoro, Samarqand",
+    "Moskva, Kiyev"
+   ],
+   "correct_index": 2,
+   "page": 125
+  },
+  {
+   "question": "Xitoyda shaharsozlik qaysi asrdayoq yuksak darajada edi?",
+   "options": [
+    "XI asrdayoq",
+    "V asrda",
+    "XV asrda",
+    "XIX asrda"
+   ],
+   "correct_index": 0,
+   "page": 126
+  },
+  {
+   "question": "Xitoyda yog'och tanqis bo'lgani uchun qurilishda nima ishlatilgan?",
+   "options": [
+    "Faqat yog'och",
+    "Faqat loy",
+    "Shisha",
+    "G'isht, sopol va tosh"
+   ],
+   "correct_index": 3,
+   "page": 126
+  },
+  {
+   "question": "Xitoy shaharlarida aholi qanday suv bilan ta'minlangan?",
+   "options": [
+    "Daryodan olib",
+    "Sopol quvurlar orqali toza suv bilan",
+    "Quduqdan",
+    "Yomg'ir suvidan"
+   ],
+   "correct_index": 1,
+   "page": 126
+  },
+  {
+   "question": "Xitoy shaharlarida nimalar yo'lga qo'yilgan?",
+   "options": [
+    "Hammom yo'q",
+    "Maktab yo'q",
+    "Axlat tozalash, o't o'chirish",
+    "Soliq yo'q"
+   ],
+   "correct_index": 2,
+   "page": 126
+  },
+  {
+   "question": "Buxoro Sharqda nima sifatida shuhrat qozongan?",
+   "options": [
+    "Dengiz porti",
+    "Qal'a",
+    "Islom, madaniyat, savdo, hunarmandchilik markazi",
+    "Faqat bozor"
+   ],
+   "correct_index": 2,
+   "page": 126
+  },
+  {
+   "question": "Xitoyda o'rta asr shaharlari qaysi asrlarda rivojlangan?",
+   "options": [
+    "I-III asrlarda",
+    "IX-XIII asrlarda",
+    "XV-XVII asrlarda",
+    "V-VII asrlarda"
+   ],
+   "correct_index": 1,
+   "page": 126
+  },
+  {
+   "question": "Shaharlar Xitoyda kimga bo'ysungan?",
+   "options": [
+    "Imperatorga",
+    "Papaga",
+    "Graflarga",
+    "Xalifaga"
+   ],
+   "correct_index": 0,
+   "page": 126
+  },
+  {
+   "question": "Yaponiya shaharlari qayerlarda vujudga kelgan?",
+   "options": [
+    "Budda ibodatxonalari, yo'llar, dengiz bo'yi, qal'alar atrofida",
+    "Faqat tog'da",
+    "Faqat cho'lda",
+    "Daryo deltasida"
+   ],
+   "correct_index": 0,
+   "page": 126
+  },
+  {
+   "question": "Xeyyan shahri 1177-yilda nima sababli vayron bo'ldi?",
+   "options": [
+    "Urush",
+    "Zilzila",
+    "Toshqin",
+    "Yong'in natijasida"
+   ],
+   "correct_index": 3,
+   "page": 126
+  },
+  {
+   "question": "Xeyyan qayta tiklangach qanday nom oldi?",
+   "options": [
+    "Nara",
+    "Osaka",
+    "Kioto",
+    "Kamakura"
+   ],
+   "correct_index": 2,
+   "page": 126
+  },
+  {
+   "question": "Sharqda hunarmandlar nimalarni chet mamlakatlarga sotish uchun ishlab chiqargan?",
+   "options": [
+    "Faqat qurol",
+    "Faqat sopol",
+    "Faqat oziq-ovqat",
+    "Ipak gazlama va zeb-ziynat buyumlarini"
+   ],
+   "correct_index": 3,
+   "page": 127
+  },
+  {
+   "question": "O'rta Osiyo shaharlari tuzilishida markazda nima bo'lgan?",
+   "options": [
+    "Ark - shahar hokimi qal'asi",
+    "Bozor",
+    "Masjid",
+    "Bog'"
+   ],
+   "correct_index": 0,
+   "page": 127
+  },
+  {
+   "question": "Ark atrofidagi asosiy aholi yashaydigan qism qanday atalgan?",
+   "options": [
+    "Rabod",
+    "Guzar",
+    "Mahalla",
+    "Shahriston"
+   ],
+   "correct_index": 3,
+   "page": 127
+  },
+  {
+   "question": "Shahar atrofida hunarmandlar guzarlari joylashgan qism?",
+   "options": [
+    "Rabod",
+    "Shahriston",
+    "Ark",
+    "Bozor"
+   ],
+   "correct_index": 0,
+   "page": 127
+  },
+  {
+   "question": "Boylar o'z saroylarini nimadan qurgan?",
+   "options": [
+    "Paxsa",
+    "Guvala",
+    "Pishiq g'isht va marmardan",
+    "Yog'och"
+   ],
+   "correct_index": 2,
+   "page": 127
+  },
+  {
+   "question": "Kambag'allar uylari nimadan qurilgan?",
+   "options": [
+    "Marmar",
+    "Pishiq g'isht",
+    "Paxsa va guvaladan",
+    "Tosh"
+   ],
+   "correct_index": 2,
+   "page": 127
+  },
+  {
+   "question": "Xitoyliklar yirik kemalarni nima deb atagan?",
+   "options": [
+    "Faktoriya",
+    "Kogga",
+    "Jonka",
+    "Galera"
+   ],
+   "correct_index": 2,
+   "page": 128
+  },
+  {
+   "question": "Jonkalarga necha kishi sig'gan?",
+   "options": [
+    "60 kishi",
+    "600-700 kishi",
+    "6000 kishi",
+    "20 kishi"
+   ],
+   "correct_index": 1,
+   "page": 128
+  },
+  {
+   "question": "Buyuk Ipak yo'li chorrahasida joylashgan shaharlar nima edi?",
+   "options": [
+    "Qal'alar",
+    "Tranzit savdo markazlari",
+    "Port",
+    "Universitet"
+   ],
+   "correct_index": 1,
+   "page": 128
+  },
+  {
+   "question": "Chet ellik savdogarlar Samarqanddan nimalarni yuqori baholagan?",
+   "options": [
+    "Qurol",
+    "Shisha",
+    "Oltin",
+    "Qog'oz va gazlamalarni"
+   ],
+   "correct_index": 3,
+   "page": 128
+  },
+  {
+   "question": "G'ijduvon qaysi sohada mashhur?",
+   "options": [
+    "Qurolsozlik",
+    "Gilam to'qish",
+    "Zargarlik",
+    "Kulolchilik"
+   ],
+   "correct_index": 3,
+   "page": 128
+  },
+  {
+   "question": "Erondan savdogarlar nimalarni xarid qilgan?",
+   "options": [
+    "Ipak faqat",
+    "Po'latdan yasalgan qurol-aslaha, mis va kumush idishlar",
+    "Qog'oz",
+    "Shisha"
+   ],
+   "correct_index": 1,
+   "page": 128
+  },
+  {
+   "question": "Bag'dod, Sevilya, Granadada nima bo'lgan?",
+   "options": [
+    "Universitet",
+    "Observatoriya",
+    "Mardikorlar bozorlari",
+    "Port"
+   ],
+   "correct_index": 2,
+   "page": 129
+  },
+  {
+   "question": "Yaponiyada Nara va Xeyyan qayerda paydo bo'lgan?",
+   "options": [
+    "Dengiz bo'yida",
+    "Qal'ada",
+    "Tog'da",
+    "Budda ibodatxonalari yaqinida"
+   ],
+   "correct_index": 3,
+   "page": 129
+  },
+  {
+   "question": "Otsu qayerda joylashgan?",
+   "options": [
+    "Dengiz bo'yida",
+    "Tog'da",
+    "Chorrahada va karvon yo'li bo'ylab",
+    "Qal'ada"
+   ],
+   "correct_index": 2,
+   "page": 129
+  },
+  {
+   "question": "Nagoya shahri qayerda qurilgan?",
+   "options": [
+    "Dengiz bo'yida",
+    "Qal'a yaqinida",
+    "Tog'da",
+    "Chorrahada"
+   ],
+   "correct_index": 1,
+   "page": 129
   }
  ]
 }

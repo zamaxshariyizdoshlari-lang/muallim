@@ -317,6 +317,457 @@
    ],
    "correct_index": 0,
    "page": 148
+  },
+  {
+   "question": "Xitoyliklar qanday uylarda yashagan?",
+   "options": [
+    "Shifti bo'lmagan uylarda",
+    "Ikki qavatli qasrlarda",
+    "Chodirda",
+    "Toshdan qal'ada"
+   ],
+   "correct_index": 0,
+   "page": 143
+  },
+  {
+   "question": "Xitoyliklar uyda qayerda o'tirib ovqatlangan?",
+   "options": [
+    "Bo'yralar ustida",
+    "Stullarda",
+    "Taxtlarda",
+    "Karavotlarda"
+   ],
+   "correct_index": 0,
+   "page": 143
+  },
+  {
+   "question": "Xitoyliklar choyni qaysi asrlarda bilgan?",
+   "options": [
+    "I asrda",
+    "VIII asrda",
+    "III-IV asrlarda",
+    "XII asrda"
+   ],
+   "correct_index": 2,
+   "page": 143
+  },
+  {
+   "question": "Choy XIV asrgacha qanday tayyorlangan?",
+   "options": [
+    "Quruq chaynalgan",
+    "Sovuq ichilgan",
+    "Suyuq taom singari pishirilgan",
+    "Sharbat qilingan"
+   ],
+   "correct_index": 2,
+   "page": 143
+  },
+  {
+   "question": "Xitoyning eng katta bayrami qaysi?",
+   "options": [
+    "Yangi yil",
+    "Hosil bayrami",
+    "Fonuslar bayrami",
+    "Choy bayrami"
+   ],
+   "correct_index": 0,
+   "page": 143
+  },
+  {
+   "question": "\"Fonuslar bayrami\" nima?",
+   "options": [
+    "Hosil bayrami",
+    "Yangi yil",
+    "Diniy bayram",
+    "Xalq karnavali"
+   ],
+   "correct_index": 3,
+   "page": 143
+  },
+  {
+   "question": "Fonuslar bayramida o'sha tunda nima qilingan?",
+   "options": [
+    "Olov yoqilgan",
+    "Barcha olovlar o'chirilib, sovugan taom yeyilgan",
+    "Pishirilgan",
+    "Ro'za tutilgan"
+   ],
+   "correct_index": 1,
+   "page": 144
+  },
+  {
+   "question": "Xitoyda ommaviy o'yin nima edi?",
+   "options": [
+    "Shaxmat",
+    "Kurash",
+    "O'n kishilik jamoalar koptok o'yini",
+    "Suzish"
+   ],
+   "correct_index": 2,
+   "page": 144
+  },
+  {
+   "question": "Bu o'yin qaysi zamonaviy o'yinning uzoq ajdodi?",
+   "options": [
+    "Basketbol",
+    "Futbolning",
+    "Voleybol",
+    "Tennis"
+   ],
+   "correct_index": 1,
+   "page": 144
+  },
+  {
+   "question": "Xitoyning yuqori tabaqalari orasida qaysi din tarqala boshladi?",
+   "options": [
+    "Islom",
+    "Xristianlik",
+    "Buddaviylik",
+    "Zardushtiylik"
+   ],
+   "correct_index": 2,
+   "page": 144
+  },
+  {
+   "question": "Xitoy ta'limiga ko'ra ma'lumotli bo'lish uchun nima talab qilingan?",
+   "options": [
+    "O'qish, yozish, hisoblash, kamondan otish, musiqa",
+    "Faqat o'qish",
+    "Faqat jang",
+    "Raqs"
+   ],
+   "correct_index": 0,
+   "page": 144
+  },
+  {
+   "question": "\"U-shu\" nima?",
+   "options": [
+    "Jang san'ati",
+    "Raqs",
+    "Kitob bosish",
+    "Bayram"
+   ],
+   "correct_index": 0,
+   "page": 144
+  },
+  {
+   "question": "Xitoyda qaysi asbob ixtiro qilingan?",
+   "options": [
+    "Seysmograf",
+    "Mikroskop",
+    "Teleskop",
+    "Soat"
+   ],
+   "correct_index": 0,
+   "page": 144
+  },
+  {
+   "question": "Xitoyda IX asrdayoq nima chiqarilgan?",
+   "options": [
+    "Roman",
+    "Lug'at",
+    "Birinchi bo'rtma iyeroglifli kitob va gazeta",
+    "Xarita"
+   ],
+   "correct_index": 2,
+   "page": 144
+  },
+  {
+   "question": "Xitoyda ensiklopediya necha tomdan iborat bo'lgan?",
+   "options": [
+    "110 tom",
+    "11000 tom",
+    "1100 tom",
+    "110000 tom"
+   ],
+   "correct_index": 1,
+   "page": 144
+  },
+  {
+   "question": "Koreyada konfutsiylik qaysi asrdan keng tarqaldi?",
+   "options": [
+    "I asrdan",
+    "VI asrdan faqat",
+    "III asrdan (Koguryoda)",
+    "X asrdan"
+   ],
+   "correct_index": 2,
+   "page": 145
+  },
+  {
+   "question": "Koreyaga buddizm qaysi asr oxirida kirdi?",
+   "options": [
+    "I asrda",
+    "IV asr oxirida",
+    "VII asrda",
+    "XII asrda"
+   ],
+   "correct_index": 1,
+   "page": 145
+  },
+  {
+   "question": "Buddizm Koreyaga qaysi hududlar orqali kirgan?",
+   "options": [
+    "Arabiston orqali",
+    "Rus orqali",
+    "Hindistondan to'g'ridan-to'g'ri",
+    "O'rta Osiyo (Surxondaryo) - Xitoy orqali"
+   ],
+   "correct_index": 3,
+   "page": 145
+  },
+  {
+   "question": "Sillada qirol maslahatchisi lavozimiga kim tayinlangan?",
+   "options": [
+    "Ritsar",
+    "Savdogar",
+    "Bosh buddaviy rohib",
+    "Dehqon"
+   ],
+   "correct_index": 2,
+   "page": 145
+  },
+  {
+   "question": "Mo'g'ullar istilosida buddizm davlat tomonidan nima qilindi?",
+   "options": [
+    "Inkor etildi",
+    "Qo'llab-quvvatlandi",
+    "Davlat dini qilindi",
+    "Yaqinlashtirildi"
+   ],
+   "correct_index": 0,
+   "page": 146
+  },
+  {
+   "question": "XIII asrdan keyin Koreyada ibodatxonalar qanday joylarda qurilgan?",
+   "options": [
+    "Shaharlarda",
+    "Dengiz bo'yida",
+    "Saroylar yonida",
+    "Borish mushkul bo'lgan tog'larda"
+   ],
+   "correct_index": 3,
+   "page": 146
+  },
+  {
+   "question": "Islom Koreyaga qaysi asrlarda kirgan?",
+   "options": [
+    "I-III asrlarda",
+    "VII-X asrlarda",
+    "XII-XIII asrlarda",
+    "XVI asrda"
+   ],
+   "correct_index": 1,
+   "page": 146
+  },
+  {
+   "question": "Arab savdogarlari Koreyaga qanday yo'l bilan kelgan?",
+   "options": [
+    "Quruqlik orqali",
+    "Havo orqali",
+    "Dengiz yo'llari orqali",
+    "Daryo orqali"
+   ],
+   "correct_index": 2,
+   "page": 146
+  },
+  {
+   "question": "Koreyaliklar uchun arablardan eng qimmatli nima edi?",
+   "options": [
+    "Qurol",
+    "Quyosh va oy tutilishini aniqlaydigan musulmon taqvimi",
+    "Ipak",
+    "Choy"
+   ],
+   "correct_index": 1,
+   "page": 146
+  },
+  {
+   "question": "Koreya haqidagi arab yozma ma'lumotlari yevropaliknikidan qancha oldin bitilgan?",
+   "options": [
+    "Bir asr",
+    "O'n asr",
+    "Yarim asr",
+    "To'rt-besh asr"
+   ],
+   "correct_index": 3,
+   "page": 146
+  },
+  {
+   "question": "Yaponiya madaniyatiga qaysi din katta ta'sir ko'rsatgan?",
+   "options": [
+    "Islom",
+    "Xitoydan kirgan buddaviylik",
+    "Xristianlik",
+    "Zardushtiylik"
+   ],
+   "correct_index": 1,
+   "page": 147
+  },
+  {
+   "question": "Yaponiyada zodagonlar bolalari uchun maktablar qaysi asrdan ochildi?",
+   "options": [
+    "III asrdan",
+    "XII asrdan",
+    "XV asrdan",
+    "VIII asrdan"
+   ],
+   "correct_index": 3,
+   "page": 147
+  },
+  {
+   "question": "Yapon alifbosi qaysi asr o'rtalarida kashf qilingan?",
+   "options": [
+    "IV asrda",
+    "IX asr o'rtalarida",
+    "VII asrda",
+    "XV asrda"
+   ],
+   "correct_index": 1,
+   "page": 147
+  },
+  {
+   "question": "Yapon alifbosi nimaga asoslangan?",
+   "options": [
+    "Lotin yozuviga",
+    "Arab yozuviga",
+    "Hind yozuviga",
+    "Xitoy yozuviga"
+   ],
+   "correct_index": 3,
+   "page": 147
+  },
+  {
+   "question": "Yaponiyada shoirlar musobaqalari bo'lganmi?",
+   "options": [
+    "Ha, shaharliklar orasida",
+    "Yo'q",
+    "Faqat saroyda",
+    "Faqat qishloqda"
+   ],
+   "correct_index": 0,
+   "page": 147
+  },
+  {
+   "question": "Hindistondagi eng mashhur qurilish nima?",
+   "options": [
+    "Ajanta buddaviylik ibodatxonasi",
+    "Qutb Minor",
+    "Al-Hamro",
+    "Piramida"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
+   "question": "Ajanta ibodatxonasi necha asr davomida qurilgan?",
+   "options": [
+    "Bir asr",
+    "Ikki asr",
+    "O'n asr",
+    "To'qqiz asr"
+   ],
+   "correct_index": 3,
+   "page": 148
+  },
+  {
+   "question": "Ajanta necha xonadan iborat?",
+   "options": [
+    "9 ta",
+    "29 ta",
+    "90 ta",
+    "290 ta"
+   ],
+   "correct_index": 1,
+   "page": 148
+  },
+  {
+   "question": "Dehlidagi Qutb Minor balandligi qancha?",
+   "options": [
+    "7 metr",
+    "700 metr",
+    "17 metr",
+    "70 metr"
+   ],
+   "correct_index": 3,
+   "page": 148
+  },
+  {
+   "question": "Hindlar qaysi hisob tizimini yaratgan?",
+   "options": [
+    "Yigirmalik tizim",
+    "Oltmishlik tizim",
+    "O'nlik tizimni (arab raqamlari)",
+    "Ikkilik tizim"
+   ],
+   "correct_index": 2,
+   "page": 148
+  },
+  {
+   "question": "Buyuk hind dramaturgi kim?",
+   "options": [
+    "Kalidasa",
+    "Tagor",
+    "Valmiki",
+    "Ashoka"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
+   "question": "Hind adabiyotining qadimgi va o'rta asrlar tili qaysi?",
+   "options": [
+    "Fors",
+    "Sanskrit",
+    "Arab",
+    "Lotin"
+   ],
+   "correct_index": 1,
+   "page": 148
+  },
+  {
+   "question": "Hindlar qaysi o'yinni kashf etgan?",
+   "options": [
+    "Futbol",
+    "Polo",
+    "Tennis",
+    "Shaxmat"
+   ],
+   "correct_index": 3,
+   "page": 149
+  },
+  {
+   "question": "Hindlar qanday ovqat bilan oziqlangan?",
+   "options": [
+    "Go'sht va sharob",
+    "Faqat baliq",
+    "Sutli va o'simlik taomlari bilan",
+    "Faqat non"
+   ],
+   "correct_index": 2,
+   "page": 149
+  },
+  {
+   "question": "Hindlarda ayollar qanday kiyim kiygan?",
+   "options": [
+    "Kimono",
+    "Xalat",
+    "Sari (o'rama kiyim)",
+    "Plash"
+   ],
+   "correct_index": 2,
+   "page": 149
+  },
+  {
+   "question": "Hindlarda mol go'shti iste'mol qilinganmi?",
+   "options": [
+    "Ha, ko'p",
+    "Deyarli yo'q, din taqiqlagan",
+    "Faqat bayramda",
+    "Faqat qullar"
+   ],
+   "correct_index": 1,
+   "page": 149
   }
  ]
 }

@@ -299,6 +299,424 @@
    ],
    "correct_index": 3,
    "page": 47
+  },
+  {
+   "question": "Slavyan davlatlari qaysi asrlarda tashkil topdi?",
+   "options": [
+    "I-III asrlarda",
+    "XI-XIII asrlarda",
+    "VII-X asrlarda",
+    "XIV-XV asrlarda"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "Xristianlik qabul qilinishi slavyanlarga nimani ta'minladi?",
+   "options": [
+    "Yakkalanishni",
+    "Yevropa xalqlari oilasiga qo'shilishni",
+    "Urushni",
+    "Savdoni to'xtatishni"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Slavyanlar o'zlarini nima deb atagan?",
+   "options": [
+    "Germanlar",
+    "Slavyan (sloven)",
+    "Romeylar",
+    "Keltlar"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "\"Sloven\" so'zi nimani anglatadi?",
+   "options": [
+    "\"Dengiz ahli\"",
+    "\"Tushunarli bir xil tilda so'zlashuvchilar\"",
+    "\"Dehqonlar\"",
+    "\"Jangchilar\""
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "G'arbiy slavyanlarga kimlar kiradi?",
+   "options": [
+    "Ruslar, ukrainlar",
+    "Polyaklar, chexlar, slovaklar",
+    "Serblar, xorvatlar",
+    "Bolgarlar, makedonlar"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Janubiy slavyanlarga kimlar kirgan?",
+   "options": [
+    "Ruslar",
+    "Bolgarlar, serblar, xorvatlar, chernogorlar, slovenlar",
+    "Polyaklar",
+    "Chexlar"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Buyuk Moraviya hozirgi qaysi davlat o'rnida paydo bo'ldi?",
+   "options": [
+    "Polsha",
+    "Chexiya",
+    "Bolgariya",
+    "Rossiya"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Kirill va Mefodiy qaysi yili Moraviyaga keldi?",
+   "options": [
+    "682-yilda",
+    "988-yilda",
+    "882-yilda",
+    "863-yilda"
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Kirill va Mefodiy nima qildi?",
+   "options": [
+    "Din o'zgartirdi",
+    "Qo'shin tuzdi",
+    "Savdo qildi",
+    "Slavyan alifbosini yaratib, Injilni tarjima qildi"
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Slavyan yozuvi qanday nom oldi?",
+   "options": [
+    "Lotin yozuvi",
+    "Kirill yozuvi",
+    "Mixxat",
+    "Runa"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Slavyanlarning asosiy mashg'uloti nima edi?",
+   "options": [
+    "Dehqonchilik",
+    "Faqat savdo",
+    "Faqat ovchilik",
+    "Dengizchilik"
+   ],
+   "correct_index": 0,
+   "page": 44
+  },
+  {
+   "question": "Slavyanlar qo'shni qabilalarga nimalar sotgan?",
+   "options": [
+    "Ipak",
+    "Mo'yna, asal, asalari mumi",
+    "Qurol",
+    "Shisha"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Ilk slavyan davlatlaridan biri qaysi?",
+   "options": [
+    "Chexiya",
+    "Rus",
+    "Bulg'or podsholigi",
+    "Polsha"
+   ],
+   "correct_index": 2,
+   "page": 45
+  },
+  {
+   "question": "Bulg'or podsholigiga qaysi yili asos solindi?",
+   "options": [
+    "882-yilda",
+    "988-yilda",
+    "681-yilda",
+    "1000-yilda"
+   ],
+   "correct_index": 2,
+   "page": 45
+  },
+  {
+   "question": "Bulg'or podsholigi asoschisi kim?",
+   "options": [
+    "Podsho Asparux",
+    "Simeon",
+    "Meshko",
+    "Oleg"
+   ],
+   "correct_index": 0,
+   "page": 45
+  },
+  {
+   "question": "Bulg'orlar kim bo'lgan?",
+   "options": [
+    "Slavyanlar",
+    "Germanlar",
+    "Arablar",
+    "Volga bo'yidan kelgan turkiy qabilalar"
+   ],
+   "correct_index": 3,
+   "page": 45
+  },
+  {
+   "question": "Bolgariyaning eng kuchaygan davri qaysi podsho davriga to'g'ri keladi?",
+   "options": [
+    "Asparux",
+    "Meshko",
+    "Vladimir",
+    "Simeon (893-927)"
+   ],
+   "correct_index": 3,
+   "page": 45
+  },
+  {
+   "question": "Bolgariyani XI asr boshida kim istilo qildi?",
+   "options": [
+    "Arablar",
+    "Mo'g'ullar",
+    "Vizantiya",
+    "Franklar"
+   ],
+   "correct_index": 2,
+   "page": 45
+  },
+  {
+   "question": "Chexiya davlati qachon tashkil topdi?",
+   "options": [
+    "X asr boshida",
+    "VII asrda",
+    "XIII asrda",
+    "IX asr oxirida"
+   ],
+   "correct_index": 0,
+   "page": 45
+  },
+  {
+   "question": "Chexiya XI asrda qaysi imperiya tarkibiga kiritilgan?",
+   "options": [
+    "Muqaddas Rim imperiyasi",
+    "Vizantiya",
+    "Arab xalifaligi",
+    "Kiyev Rusi"
+   ],
+   "correct_index": 0,
+   "page": 45
+  },
+  {
+   "question": "Chex knyaziga qirollik tojini kim bergan?",
+   "options": [
+    "Papa",
+    "Otton I",
+    "Meshko",
+    "Imperator Genrix IV"
+   ],
+   "correct_index": 3,
+   "page": 45
+  },
+  {
+   "question": "Polsha davlati qachon vujudga kelgan?",
+   "options": [
+    "VII asrda",
+    "XIII asrda",
+    "XV asrda",
+    "X asr o'rtalarida"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Polsha knyazi Meshko I qachon xristianlikni qabul qildi?",
+   "options": [
+    "966-yilda",
+    "863-yilda",
+    "988-yilda",
+    "1000-yilda"
+   ],
+   "correct_index": 0,
+   "page": 46
+  },
+  {
+   "question": "Polsha cherkovi arxiyepiskoplik rutbasini qachon oldi?",
+   "options": [
+    "966-yilda",
+    "863-yilda",
+    "1000-yilda",
+    "988-yilda"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Polshaga qirollik tojini kim oldi?",
+   "options": [
+    "Meshko I",
+    "Kazimir",
+    "Boleslav I Jasur",
+    "Vladimir"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Kiyev Rusi davlati qaysi sulola nomi bilan bog'liq?",
+   "options": [
+    "Romanovlar",
+    "Kapetinglar",
+    "Ryuriklar",
+    "Piastlar"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Dastlab Ryurikning aka-ukalari qaysi shaharlarda knyazlik qilgan?",
+   "options": [
+    "Kiyev, Smolensk",
+    "Moskva, Vladimir",
+    "Pskov, Polotsk",
+    "Novgorod, Beloozero, Izborsk"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Oleg Kiyevni qaysi yili egalladi?",
+   "options": [
+    "862-yilda",
+    "988-yilda",
+    "1019-yilda",
+    "882-yilda"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Vladimir xristianlikni qaysi tartibda qabul qildi?",
+   "options": [
+    "Vizantiya pravoslav cherkovi tartibida",
+    "Rim katolik tartibida",
+    "Arian tartibida",
+    "Yahudiy tartibida"
+   ],
+   "correct_index": 0,
+   "page": 46
+  },
+  {
+   "question": "Vladimir tarixda nima uchun alohida o'rin tutadi?",
+   "options": [
+    "Harbiy yurishlari",
+    "Xristianlikni qabul qilgani va aholiga qabul qildirgani uchun",
+    "Shahar qurgani",
+    "Qonun yozgani"
+   ],
+   "correct_index": 1,
+   "page": 46
+  },
+  {
+   "question": "Yaroslav Donishmand qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1019-1054",
+    "882-912",
+    "988-1015",
+    "1113-1125"
+   ],
+   "correct_index": 0,
+   "page": 47
+  },
+  {
+   "question": "Yaroslav qaysi shaharga asos soldi?",
+   "options": [
+    "Moskva",
+    "Kiyev",
+    "Yaroslavl",
+    "Novgorod"
+   ],
+   "correct_index": 2,
+   "page": 47
+  },
+  {
+   "question": "Kiyevdagi Avliyo Sofiya ibodatxonasi kim tomonidan qurdirilgan?",
+   "options": [
+    "Vladimir",
+    "Oleg",
+    "Monomax",
+    "Yaroslav Donishmand"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Yaroslav davrida qanday qonunlar tuzildi?",
+   "options": [
+    "\"Sali haqiqati\"",
+    "\"Alfred haqiqati\"",
+    "\"Yasoq\"",
+    "\"Rus haqiqati\""
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Yaroslav pecheneglarni qanday mag'lub etgan?",
+   "options": [
+    "Qisman",
+    "Sulh tuzgan",
+    "Uzil-kesil mag'lub etgan",
+    "Taslim bo'lgan"
+   ],
+   "correct_index": 2,
+   "page": 47
+  },
+  {
+   "question": "Rus knyazligining asosiy dushmanlari qaysi qabilalar bo'lib qoldi?",
+   "options": [
+    "Arablar",
+    "Qipchoqlar (poloveslar)",
+    "Vikinglar",
+    "Franklar"
+   ],
+   "correct_index": 1,
+   "page": 47
+  },
+  {
+   "question": "Vladimir Monomax qaysi yillarda Kiyev knyazi bo'lgan?",
+   "options": [
+    "1019-1054",
+    "1113-1125",
+    "988-1015",
+    "882-912"
+   ],
+   "correct_index": 1,
+   "page": 47
+  },
+  {
+   "question": "Kiyev Rusi Monomaxdan keyin nima bo'ldi?",
+   "options": [
+    "Birlashdi",
+    "Kuchaydi",
+    "Siyosiy tarqoqlikka yuz tutdi",
+    "Imperiyaga aylandi"
+   ],
+   "correct_index": 2,
+   "page": 47
   }
  ]
 }

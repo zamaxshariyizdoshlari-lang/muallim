@@ -299,6 +299,369 @@
    ],
    "correct_index": 3,
    "page": 141
+  },
+  {
+   "question": "Arablar zabt etilgan mamlakatlardagi ilm-fan yutuqlariga nima qildi?",
+   "options": [
+    "O'zlashtirib, islom va arab tili asosida yangi cho'qqiga olib chiqdi",
+    "Yo'q qildi",
+    "E'tibor bermadi",
+    "Sotdi"
+   ],
+   "correct_index": 0,
+   "page": 137
+  },
+  {
+   "question": "Arab tili nimaga aylandi?",
+   "options": [
+    "Faqat savdo tiliga",
+    "Faqat harbiy tilga",
+    "Maorif, fan va madaniyat tiliga",
+    "Faqat din tiliga"
+   ],
+   "correct_index": 2,
+   "page": 137
+  },
+  {
+   "question": "Arab tiliga qaysi qadimgi mutafakkirlar asarlari tarjima qilindi?",
+   "options": [
+    "Aristotel, Gippokrat, Yevklid",
+    "Dante, Petrarka",
+    "Tatsit, Sezar",
+    "Konfutsiy"
+   ],
+   "correct_index": 0,
+   "page": 137
+  },
+  {
+   "question": "Qadim yunon mualliflari ko'p asarlari qanday yetib kelgan?",
+   "options": [
+    "Lotincha asl nusxada",
+    "Fransuzcha",
+    "Faqat arabcha tarjimada",
+    "Hind tilida"
+   ],
+   "correct_index": 2,
+   "page": 137
+  },
+  {
+   "question": "Xorazmiy qaysi yillarda yashagan?",
+   "options": [
+    "797-865",
+    "973-1048",
+    "980-1037",
+    "783-850"
+   ],
+   "correct_index": 3,
+   "page": 137
+  },
+  {
+   "question": "Xorazmiy qaysi sohaga asos solgan?",
+   "options": [
+    "Geometriyaga",
+    "Algebraga",
+    "Astronomiyaga",
+    "Tibbiyotga"
+   ],
+   "correct_index": 1,
+   "page": 138
+  },
+  {
+   "question": "Al-Farg'oniy qaysi yillarda yashagan?",
+   "options": [
+    "783-850",
+    "973-1048",
+    "797-865",
+    "980-1037"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Zij nima?",
+   "options": [
+    "Tibbiy kitob",
+    "Xarita",
+    "Soat",
+    "Astronomik jadval"
+   ],
+   "correct_index": 3,
+   "page": 138
+  },
+  {
+   "question": "Beruniy qaysi yillarda yashagan?",
+   "options": [
+    "783-850",
+    "797-865",
+    "973-1048",
+    "980-1037"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Beruniy nimani aniqladi?",
+   "options": [
+    "Yerning yassiligini",
+    "Quyosh Yer atrofida aylanishini",
+    "Yerning dumaloqligini",
+    "Oyning yo'qligini"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Beruniy Yer meridian aylanasini qanday hisoblagan?",
+   "options": [
+    "Soya bilan",
+    "Dengiz chuqurligi bilan",
+    "Bir gradus meridian yoyi uzunligi asosida",
+    "Yulduz soni bilan"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Ibn Sino qaysi yillarda yashagan?",
+   "options": [
+    "783-850",
+    "797-865",
+    "980-1037",
+    "973-1048"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Ibn Sinoni Yevropada nima deb atashgan?",
+   "options": [
+    "Averroes",
+    "Alkuin",
+    "Avitsenna",
+    "Aristotel"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Ibn Sinoning shoh asari qaysi?",
+   "options": [
+    "\"Zij\"",
+    "\"Qonun\"",
+    "\"Muqaddima\"",
+    "\"Al-qonun fit-tib\""
+   ],
+   "correct_index": 3,
+   "page": 138
+  },
+  {
+   "question": "Geografiyaga hissa qo'shgan sayyohlar kimlar?",
+   "options": [
+    "Xorazmiy, Beruniy",
+    "Al-Ma'sudiy, ibn Dast, ibn Fadlan, ibn Batuta",
+    "Sino, Roziy",
+    "Firdavsiy, Xayyom"
+   ],
+   "correct_index": 1,
+   "page": 138
+  },
+  {
+   "question": "Arablar dastlab qaysi xalqlarga nisbatan qoloq edi?",
+   "options": [
+    "Slavyanlar",
+    "Germanlar",
+    "Yunonlar, yahudiylar, suriyaliklar, forslar, sug'diylar",
+    "Keltlar"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Arablar Xitoydan nimalarni o'rgangan?",
+   "options": [
+    "Shaxmat",
+    "Choy yetishtirish, qog'oz, porox va kompas",
+    "Algebra",
+    "Raqamlar"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Arablar hindlardan nimalarni o'rgangan?",
+   "options": [
+    "Raqamlar, shakar olish, apelsin va limon yetishtirish",
+    "Qog'oz tayyorlash",
+    "Porox",
+    "Kompas"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Arablarda yozma tarix nima bilan bir paytda vujudga kelgan?",
+   "options": [
+    "Imperiya bilan",
+    "Islom dini bilan",
+    "Savdo bilan",
+    "Qog'oz bilan"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Musulmon adabiyoti dastlab qaysi tilda yaratilgan?",
+   "options": [
+    "Fors tilida",
+    "Turk tilida",
+    "Arab tilida",
+    "Yunon tilida"
+   ],
+   "correct_index": 2,
+   "page": 139
+  },
+  {
+   "question": "X asrdan musulmon adabiyoti qaysi tilda yozila boshladi?",
+   "options": [
+    "Fors tilida",
+    "Lotin tilida",
+    "Turk tilida",
+    "Arab tilida faqat"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Zaytuna qaysi asrda tashkil etilgan?",
+   "options": [
+    "VIII asrda",
+    "IX asrda",
+    "X asrda",
+    "XII asrda"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Bayt ul-hikma qayerda tashkil etilgan?",
+   "options": [
+    "Tunisda",
+    "Bag'dodda",
+    "Qohirada",
+    "Fesda"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Qaroviyun qayerda?",
+   "options": [
+    "Fesda (Marokash)",
+    "Tunisda",
+    "Qohirada",
+    "Bag'dodda"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Al-Azhar qayerda?",
+   "options": [
+    "Bag'dodda",
+    "Qohirada",
+    "Fesda",
+    "Tunisda"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Al-Hamro saroyi qaysi shaharda?",
+   "options": [
+    "Qurdobada",
+    "Sevilyada",
+    "Granadada",
+    "Toledoda"
+   ],
+   "correct_index": 2,
+   "page": 140
+  },
+  {
+   "question": "Buxorodagi qaysi maqbara arab davri me'morchiligi durdonasi?",
+   "options": [
+    "Go'ri Amir",
+    "Ark",
+    "Minorai Kalon",
+    "Ismoil Somoniy maqbarasi"
+   ],
+   "correct_index": 3,
+   "page": 140
+  },
+  {
+   "question": "Masjid va madrasadagi ikki minora nimaning ramzi?",
+   "options": [
+    "Allohga e'tiqodda ko'tarilgan inson qo'llari",
+    "Qal'a",
+    "Shon-shuhrat",
+    "Shahar"
+   ],
+   "correct_index": 0,
+   "page": 140
+  },
+  {
+   "question": "Islomda nimani chizish taqiqlanadi?",
+   "options": [
+    "Gul",
+    "Inson va jonivorlar suratini",
+    "Manzara",
+    "Harflar"
+   ],
+   "correct_index": 1,
+   "page": 141
+  },
+  {
+   "question": "Masjid devorlari nima bilan bezatilgan?",
+   "options": [
+    "Inson suratlari",
+    "Hayvon suratlari",
+    "Qur'on oyatlari yozilgan arab harflari bilan",
+    "Freskalar"
+   ],
+   "correct_index": 2,
+   "page": 141
+  },
+  {
+   "question": "Namozda musulmon yuzini qayoqqa buradi?",
+   "options": [
+    "Quddus tomonga",
+    "Madina tomonga",
+    "Makka tomonga",
+    "Damashq tomonga"
+   ],
+   "correct_index": 2,
+   "page": 141
+  },
+  {
+   "question": "Qog'oz yasash qaysi asrda o'zlashtirildi?",
+   "options": [
+    "IV asrda",
+    "XII asrda",
+    "XV asrda",
+    "VIII asrda"
+   ],
+   "correct_index": 3,
+   "page": 141
+  },
+  {
+   "question": "X asrda Qurdoba xalifasi kutubxonasida necha qo'lyozma bo'lgan?",
+   "options": [
+    "4 ming",
+    "40 ming",
+    "400 ming",
+    "4 million"
+   ],
+   "correct_index": 2,
+   "page": 141
   }
  ]
 }

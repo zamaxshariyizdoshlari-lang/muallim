@@ -299,6 +299,237 @@
    ],
    "correct_index": 3,
    "page": 105
+  },
+  {
+   "question": "Xristianlik german qabilalari orasida qaysi asrdan tarqala boshladi?",
+   "options": [
+    "IV asrdan",
+    "I asrdan",
+    "VII asrdan",
+    "X asrdan"
+   ],
+   "correct_index": 0,
+   "page": 101
+  },
+  {
+   "question": "Anglo-irland monastirlaridan chiqqan rohiblar nima qilgan?",
+   "options": [
+    "Qo'shin tuzgan",
+    "Savdo qilgan",
+    "Yevropa chekkalarida aholini xristianlikka o'tkazgan",
+    "Soliq yig'gan"
+   ],
+   "correct_index": 2,
+   "page": 101
+  },
+  {
+   "question": "Kiyev Rusi va Bolgariya qaysi asr oxirida pravoslavni qabul qildi?",
+   "options": [
+    "IV asr oxirida",
+    "XII asr oxirida",
+    "X asr oxirida",
+    "XV asr oxirida"
+   ],
+   "correct_index": 2,
+   "page": 101
+  },
+  {
+   "question": "Papa viloyati qaysi yili tashkil topdi?",
+   "options": [
+    "756-yilda",
+    "395-yilda",
+    "1054-yilda",
+    "987-yilda"
+   ],
+   "correct_index": 0,
+   "page": 102
+  },
+  {
+   "question": "Papa viloyati kim yordamida tashkil topdi?",
+   "options": [
+    "Imperator",
+    "Arablar",
+    "Vizantiya",
+    "Frank qiroli ko'magida"
+   ],
+   "correct_index": 3,
+   "page": 102
+  },
+  {
+   "question": "Cherkov rasman qaysi yili ikkiga bo'lindi?",
+   "options": [
+    "395-yilda",
+    "756-yilda",
+    "1054-yilda",
+    "1204-yilda"
+   ],
+   "correct_index": 2,
+   "page": 102
+  },
+  {
+   "question": "Katolik so'zi nimani anglatadi?",
+   "options": [
+    "\"Sof din\"",
+    "\"Jahon\"",
+    "\"Chin e'tiqod\"",
+    "\"Rim\""
+   ],
+   "correct_index": 1,
+   "page": 102
+  },
+  {
+   "question": "Pravoslav so'zi nimani anglatadi?",
+   "options": [
+    "\"Jahon\"",
+    "\"Sof din\", \"chin e'tiqod\"",
+    "\"Rim yo'li\"",
+    "\"Yunon\""
+   ],
+   "correct_index": 1,
+   "page": 102
+  },
+  {
+   "question": "Sharqda cherkov va'zlari qaysi tilda?",
+   "options": [
+    "Yunon tilida",
+    "Lotin tilida",
+    "Arab tilida",
+    "Slavyan faqat"
+   ],
+   "correct_index": 0,
+   "page": 102
+  },
+  {
+   "question": "Katolik cherkovi ruhoniylarga nimani taqiqlagan?",
+   "options": [
+    "Uylanishni (selebat)",
+    "Savdo qilishni",
+    "Ibodatni",
+    "Ovlashni"
+   ],
+   "correct_index": 0,
+   "page": 102
+  },
+  {
+   "question": "Cherkov ekinzorlarning qancha qismini to'plagan?",
+   "options": [
+    "Uchdan bir qismini",
+    "Yarmini",
+    "O'ndan birini",
+    "Hammasini"
+   ],
+   "correct_index": 0,
+   "page": 103
+  },
+  {
+   "question": "Ushr nima?",
+   "options": [
+    "Yer solig'i",
+    "Savdo boji",
+    "Jon solig'i",
+    "Hosilning o'ndan bir qismi solig'i"
+   ],
+   "correct_index": 3,
+   "page": 103
+  },
+  {
+   "question": "Indulgensiya so'zi nimani anglatadi?",
+   "options": [
+    "\"Afv\"",
+    "\"Jarima\"",
+    "\"Tavba\"",
+    "\"Ibodat\""
+   ],
+   "correct_index": 0,
+   "page": 103
+  },
+  {
+   "question": "Interdikt nima?",
+   "options": [
+    "Mamlakatda ibodatning vaqtincha taqiqlanishi",
+    "Soliq",
+    "Sud",
+    "Bayram"
+   ],
+   "correct_index": 0,
+   "page": 103
+  },
+  {
+   "question": "Innokentiy III qaysi yillarda papa edi?",
+   "options": [
+    "1095-1099",
+    "1198-1216",
+    "1227-1241",
+    "1054-1100"
+   ],
+   "correct_index": 1,
+   "page": 103
+  },
+  {
+   "question": "Cherkov hukmini kimga o'tkazish uchun rohiblarga tayangan?",
+   "options": [
+    "Qirolga",
+    "Aholiga",
+    "Papaga",
+    "Savdogarlarga"
+   ],
+   "correct_index": 1,
+   "page": 103
+  },
+  {
+   "question": "Yeretiklar nima degani?",
+   "options": [
+    "\"Dahriylar\" - cherkovga qarshilar",
+    "\"Ruhoniylar\"",
+    "\"Azizlar\"",
+    "\"Elchilar\""
+   ],
+   "correct_index": 0,
+   "page": 104
+  },
+  {
+   "question": "\"Sof xristianlar\" nimani talab qilgan?",
+   "options": [
+    "Papa saylanishini",
+    "Soliq oshirishni",
+    "Urushni",
+    "Cherkov boylikdan voz kechishini"
+   ],
+   "correct_index": 3,
+   "page": 104
+  },
+  {
+   "question": "Inkvizitsiya qaysi papa davrida avj oldi?",
+   "options": [
+    "Urban II",
+    "Grigoriy IX (1227-1241)",
+    "Innokentiy III",
+    "Lev III"
+   ],
+   "correct_index": 1,
+   "page": 104
+  },
+  {
+   "question": "Autodafe nima?",
+   "options": [
+    "Qamoq",
+    "Surgun",
+    "Mahkumni gulxanda yoqish",
+    "Jarima"
+   ],
+   "correct_index": 2,
+   "page": 105
+  },
+  {
+   "question": "Inkvizitorlar ayblanuvchini qanday tutgan?",
+   "options": [
+    "Darhol qo'yib yuborgan",
+    "Pul olib",
+    "Ikki guvoh yeretik desa chaqirgan, zanjirband qilgan",
+    "Yashirgan"
+   ],
+   "correct_index": 2,
+   "page": 105
   }
  ]
 }

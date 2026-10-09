@@ -299,6 +299,446 @@
    ],
    "correct_index": 1,
    "page": 55
+  },
+  {
+   "question": "Arablar qaysi tilli xalqlarga mansub?",
+   "options": [
+    "Turkiy",
+    "Hind-yevropa",
+    "Somiy (semit) tilli",
+    "Slavyan"
+   ],
+   "correct_index": 2,
+   "page": 51
+  },
+  {
+   "question": "Semit tilida yana qaysi xalqlar so'zlashgan?",
+   "options": [
+    "Slavyanlar",
+    "Yahudiylar, ossuriylar, finikiyaliklar, oromiylar",
+    "Germanlar",
+    "Turklar"
+   ],
+   "correct_index": 1,
+   "page": 51
+  },
+  {
+   "question": "Badaviylar qanday chorva bilan shug'ullangan?",
+   "options": [
+    "Sigir va cho'chqa",
+    "Faqat baliq",
+    "Faqat parranda",
+    "Tuya, qo'y va ot"
+   ],
+   "correct_index": 3,
+   "page": 51
+  },
+  {
+   "question": "Badaviylar qaysi ixtironi yaratganlar?",
+   "options": [
+    "Ko'za",
+    "G'ildirak",
+    "Teridan suv saqlovchi mesh",
+    "Plug"
+   ],
+   "correct_index": 2,
+   "page": 52
+  },
+  {
+   "question": "Arabistonning yuksak rivojlangan viloyatlari qaysilar?",
+   "options": [
+    "Suriya va Misr",
+    "Iroq va Eron",
+    "Yaman va Xijoz",
+    "Falastin va Livan"
+   ],
+   "correct_index": 2,
+   "page": 52
+  },
+  {
+   "question": "Karvon yo'llari Vizantiyadan qayerga o'tgan?",
+   "options": [
+    "Afrikaning sharqi va Hindistonga",
+    "Britaniyaga",
+    "Rimga",
+    "Xitoyga faqat"
+   ],
+   "correct_index": 0,
+   "page": 52
+  },
+  {
+   "question": "Makka qanday shahar edi?",
+   "options": [
+    "Dengiz porti",
+    "Harbiy qal'a",
+    "Dehqonchilik markazi",
+    "Ko'chmanchilar va mahalliy aholining mol ayirboshlash markazi"
+   ],
+   "correct_index": 3,
+   "page": 52
+  },
+  {
+   "question": "Ka'ba nima edi?",
+   "options": [
+    "Saroy",
+    "Bozor",
+    "Qal'a",
+    "Umumiy ziyoratgoh (qabila ilohlari saqlangan)"
+   ],
+   "correct_index": 3,
+   "page": 52
+  },
+  {
+   "question": "Arablarning ko'pchiligi qanday dinga sig'ingan?",
+   "options": [
+    "Yakkaxudolikka",
+    "Ko'p xudolikka",
+    "Buddaviylikka",
+    "Xristianlikka"
+   ],
+   "correct_index": 1,
+   "page": 52
+  },
+  {
+   "question": "VI-VII asrlarda qabilalar orasida nima uchun kurash kuchaygan?",
+   "options": [
+    "Din uchun",
+    "Savdo uchun",
+    "Soliq uchun",
+    "Suv manbalari va yaylovlar uchun"
+   ],
+   "correct_index": 3,
+   "page": 52
+  },
+  {
+   "question": "Muhammad (s.a.v.) qaysi qabilaning qaysi urug'idan?",
+   "options": [
+    "Banu Sa'd",
+    "Ansorlar",
+    "Yahudiylar",
+    "Quraysh qabilasining hoshimiylar urug'idan"
+   ],
+   "correct_index": 3,
+   "page": 53
+  },
+  {
+   "question": "Muhammad (s.a.v.)ning otasi kim edi?",
+   "options": [
+    "Abu Tolib",
+    "Abdulmuttalib",
+    "Abdulloh",
+    "Abu Bakr"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Otasi qayerda vafot etgan?",
+   "options": [
+    "Suriyadan Makkaga qaytishda",
+    "Makkada",
+    "Madinada",
+    "Misrda"
+   ],
+   "correct_index": 0,
+   "page": 53
+  },
+  {
+   "question": "Muhammad (s.a.v.)ni bolaligida kim emizgan?",
+   "options": [
+    "Omina",
+    "Xadicha",
+    "Banu Sa'd qabilasidan Halima",
+    "Fotima"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Onasi kim edi?",
+   "options": [
+    "Halima",
+    "Xadicha",
+    "Omina",
+    "Oisha"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "12 yoshlarida Muhammad (s.a.v.) nima bilan shug'ullandi?",
+   "options": [
+    "Dehqonchilik",
+    "Abu Tolibning chorvasini boqdi, keyin tijoratga jalb qilindi",
+    "Urush",
+    "Ovchilik"
+   ],
+   "correct_index": 1,
+   "page": 53
+  },
+  {
+   "question": "Muhammad (s.a.v.) tijorat uchun qaysi shaharlarga bordi?",
+   "options": [
+    "Misr va Rimga",
+    "Suriyadagi Xalab va Damashqqa",
+    "Eron va Hindistonga",
+    "Xitoy va Rusga"
+   ],
+   "correct_index": 1,
+   "page": 53
+  },
+  {
+   "question": "Muhammad (s.a.v.) necha yoshda payg'ambar bo'ldi?",
+   "options": [
+    "O'ttiz yoshda",
+    "Ellik yoshda",
+    "Qirq yoshda",
+    "Yigirma yoshda"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Odamlarni Islom diniga necha yil da'vat qildi?",
+   "options": [
+    "O'n yil",
+    "Qirq yil",
+    "Yigirma uch yil",
+    "Besh yil"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Muhammad (s.a.v.) qayerda vafot etdi?",
+   "options": [
+    "Makkada",
+    "Damashqda",
+    "Quddusda",
+    "Madina shahrida"
+   ],
+   "correct_index": 3,
+   "page": 53
+  },
+  {
+   "question": "Qur'on so'zi nimani anglatadi?",
+   "options": [
+    "\"Qonun\"",
+    "\"Kitob\"",
+    "\"Nur\"",
+    "\"Qiroat\", \"o'qish\""
+   ],
+   "correct_index": 3,
+   "page": 53
+  },
+  {
+   "question": "Makka savdogarlari nega Muhammad (s.a.v.) va'zlariga qarshi chiqdi?",
+   "options": [
+    "Din yoqmagani uchun",
+    "Soliq uchun",
+    "Yakkaxudolik moddiy zarar keltirishidan qo'rqqani uchun",
+    "Urush uchun"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Yasrib shahriga qanday nom berildi?",
+   "options": [
+    "Madina (payg'ambarlik shahri)",
+    "Makka",
+    "Quddus",
+    "Damashq"
+   ],
+   "correct_index": 0,
+   "page": 54
+  },
+  {
+   "question": "Hijrat so'zi nimani anglatadi?",
+   "options": [
+    "\"Ko'chib o'tish\"",
+    "\"Qaytish\"",
+    "\"Urush\"",
+    "\"Savdo\""
+   ],
+   "correct_index": 0,
+   "page": 54
+  },
+  {
+   "question": "Hijrat qilgan kishilar qanday atalgan?",
+   "options": [
+    "Ansorlar",
+    "Sahobalar",
+    "Muhojirlar",
+    "Xorijiylar"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Madinada islomni qabul qilganlar qanday atalgan?",
+   "options": [
+    "Muhojirlar",
+    "Xorijiylar",
+    "Shialar",
+    "Ansorlar"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Madinada Muhammad (s.a.v.) nima qurdirdi?",
+   "options": [
+    "Saroyni",
+    "Qal'ani",
+    "Bozorni",
+    "Ilk masjidni"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Islomda nimalar taqiqlangan?",
+   "options": [
+    "Savdo",
+    "Ibodat",
+    "Dehqonchilik",
+    "Sudxo'rlik, ichkilik, qimor"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Islom arabcha nimani anglatadi?",
+   "options": [
+    "\"Tinchlik\"",
+    "\"Itoat etish\", \"o'zini Alloh irodasiga topshirish\"",
+    "\"Kurash\"",
+    "\"Birlik\""
+   ],
+   "correct_index": 1,
+   "page": 54
+  },
+  {
+   "question": "Musulmon so'zi nimani anglatadi?",
+   "options": [
+    "\"Arab\"",
+    "\"Islomni qabul qilgan\", \"itoatli\"",
+    "\"Payg'ambar\"",
+    "\"Savdogar\""
+   ],
+   "correct_index": 1,
+   "page": 54
+  },
+  {
+   "question": "Islomning birinchi arkoni nima?",
+   "options": [
+    "Namoz",
+    "Zakot",
+    "Haj",
+    "Allohning birligiga va Muhammad (s.a.v.) payg'ambarligiga iymon"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Musulmonlar uchun eng katta bayram qaysi?",
+   "options": [
+    "Qurbon hayiti",
+    "Navro'z",
+    "Mavlid",
+    "Ramazon hayiti"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Qurbon hayiti Ramazon hayitidan necha kun keyin?",
+   "options": [
+    "Yetmish kun",
+    "Bir hafta",
+    "Bir oy",
+    "Yarim yil"
+   ],
+   "correct_index": 0,
+   "page": 54
+  },
+  {
+   "question": "Makka qaysi yili jangsiz egallandi?",
+   "options": [
+    "622-yilda",
+    "632-yilda",
+    "630-yilda",
+    "661-yilda"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Ka'badagi Qora tosh nima deb e'lon qilindi?",
+   "options": [
+    "Xudo timsoli",
+    "Qurbonlik tosh",
+    "Allohning \"haq din\"dagilarga in'omi",
+    "Savdo belgisi"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Islomda asosiy ikki yo'nalish qaysilar?",
+   "options": [
+    "Hanafiylik va molikiylik",
+    "Sunniylik va shialik",
+    "Ash'ariylik",
+    "Xorijiylik va moturidiylik"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "Xorijiylar so'zi nimani anglatadi?",
+   "options": [
+    "\"Tarafdorlar\"",
+    "\"Hijrat qilganlar\"",
+    "\"Ajralib chiqqanlar\"",
+    "\"Do'stlar\""
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Sunniylikdagi fiqhiy mazhablar nechta?",
+   "options": [
+    "To'rtta",
+    "Ikkita",
+    "Uchta",
+    "Oltita"
+   ],
+   "correct_index": 0,
+   "page": 55
+  },
+  {
+   "question": "Sunniylikdagi to'rt mazhab qaysilar?",
+   "options": [
+    "Hanafiy, Ash'ariy",
+    "Moturidiy, Ash'ariy",
+    "Hanafiy, Shofe'iy, Molikiy, Hanbaliy",
+    "Shofe'iy, Moturidiy"
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Mazhab so'zi arabcha nimani bildiradi?",
+   "options": [
+    "\"Qonun\"",
+    "\"Din\"",
+    "\"Kitob\"",
+    "\"Yo'nalish\", \"oqim\", \"yo'l\""
+   ],
+   "correct_index": 3,
+   "page": 55
   }
  ]
 }

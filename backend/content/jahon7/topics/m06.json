@@ -291,6 +291,270 @@
    ],
    "correct_index": 0,
    "page": 41
+  },
+  {
+   "question": "Sharqiy Rim imperiyasini kim boshqargan?",
+   "options": [
+    "Konung",
+    "Sezar",
+    "Vasilevs",
+    "Xalifa"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "\"Vasilevs\" so'zi yunoncha nimani bildiradi?",
+   "options": [
+    "\"Qo'mondon\"",
+    "\"Ruhoniy\"",
+    "\"Podsho\"",
+    "\"Elchi\""
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Vasilevslar Yevropa, Old Osiyo va Shimoliy Afrikani boshqarish huquqini kimlardan olgan?",
+   "options": [
+    "Arablardan",
+    "Rimliklardan",
+    "Forslardan",
+    "Yunonlardan"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Vasilevs nima qila olgan?",
+   "options": [
+    "Faqat ibodat qilgan",
+    "Faqat savdo qilgan",
+    "Hech narsa",
+    "Amaldor tayinlagan, qonun chiqargan, qo'shinni boshqargan"
+   ],
+   "correct_index": 3,
+   "page": 38
+  },
+  {
+   "question": "Imperator unvonining merosiyligi kafolatlanganmi?",
+   "options": [
+    "Ha, to'liq",
+    "Faqat o'g'illarga",
+    "Papa kafolatlagan",
+    "Yo'q, to'liq kafolatlanmagan"
+   ],
+   "correct_index": 3,
+   "page": 38
+  },
+  {
+   "question": "Ming yillik tarixda imperatorlar bilan nima bo'lgan?",
+   "options": [
+    "Hammasi tabiiy o'lgan",
+    "Hech qachon almashmagan",
+    "Papa tayinlagan",
+    "Taxtdan ag'darish, qatl etish tez-tez uchragan"
+   ],
+   "correct_index": 3,
+   "page": 38
+  },
+  {
+   "question": "Konstantinopol va Aleksandriya nima bilan bezatilgan?",
+   "options": [
+    "Faqat qal'alar",
+    "Muhtasham binolar, haykallar va favvoralar",
+    "Dengiz portlari",
+    "Cherkov gumbazlari"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Vizantiyada qaysi sohalar yuksalgan?",
+   "options": [
+    "Faqat dehqonchilik",
+    "Shishasozlik, movut, ipak to'qish, zargarlik, me'morchilik",
+    "Faqat kemasozlik",
+    "Faqat qurolsozlik"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Vizantiya aholisi o'zini nima deb atagan?",
+   "options": [
+    "Franklar",
+    "Germanlar",
+    "Slavyanlar",
+    "Romeylar"
+   ],
+   "correct_index": 3,
+   "page": 38
+  },
+  {
+   "question": "Konstantinopolni nima deb ataganlar?",
+   "options": [
+    "\"Boqiy shahar\"",
+    "\"Dengiz darvozasi\"",
+    "\"Oltin ko'prik\" (Osiyo va Yevropa orasida)",
+    "\"Qora shahar\""
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Yustinian I qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "395-476",
+    "610-641",
+    "330-395",
+    "527-565"
+   ],
+   "correct_index": 3,
+   "page": 39
+  },
+  {
+   "question": "Yustinian qanday oilada tug'ilgan?",
+   "options": [
+    "Imperator oilasida",
+    "Kambag'al dehqon oilasida",
+    "Savdogar oilasida",
+    "Zodagon oilasida"
+   ],
+   "correct_index": 1,
+   "page": 39
+  },
+  {
+   "question": "Yustinianni saroyga kim keltirgan?",
+   "options": [
+    "Amakisi Yustin",
+    "Otasi",
+    "Papa",
+    "Akasi"
+   ],
+   "correct_index": 0,
+   "page": 39
+  },
+  {
+   "question": "Ayo Sofiya qayerda qurilgan?",
+   "options": [
+    "Ravennada",
+    "Rimda",
+    "Afinada",
+    "Konstantinopolda"
+   ],
+   "correct_index": 3,
+   "page": 39
+  },
+  {
+   "question": "San-Vitale ibodatxonasi qayerda?",
+   "options": [
+    "Konstantinopolda",
+    "Rimda",
+    "Ravennada (Italiya)",
+    "Afinada"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Yustinianning buyrug'i bilan nima yaratildi?",
+   "options": [
+    "Qadimgi Rim qonunlari majmui",
+    "Yangi alifbo",
+    "Qo'shin nizomi",
+    "Xarita"
+   ],
+   "correct_index": 0,
+   "page": 40
+  },
+  {
+   "question": "Yustinian qaysi hududlarni istilo qildi?",
+   "options": [
+    "Britaniya",
+    "Shimoliy Afrika va Italiyaning katta qismini",
+    "Ispaniya",
+    "Gretsiya"
+   ],
+   "correct_index": 1,
+   "page": 40
+  },
+  {
+   "question": "Yustinian urushlari natijasida xazina nima bo'ldi?",
+   "options": [
+    "To'ldi",
+    "O'zgarmadi",
+    "Ko'paydi",
+    "Bo'shab qoldi"
+   ],
+   "correct_index": 3,
+   "page": 40
+  },
+  {
+   "question": "Yustinian bilan sharqda kim urush olib bordi?",
+   "options": [
+    "Arab xalifaligi",
+    "Xitoy",
+    "Hindiston",
+    "Eron"
+   ],
+   "correct_index": 3,
+   "page": 40
+  },
+  {
+   "question": "Eron bilan urushdan keyin arablar qaysi o'lkalarni bosib oldi?",
+   "options": [
+    "Misr, Suriya, Falastin",
+    "Italiya",
+    "Ispaniya",
+    "Gretsiya"
+   ],
+   "correct_index": 0,
+   "page": 40
+  },
+  {
+   "question": "Bolqon yarimorolida qaysi podsholik paydo bo'ldi?",
+   "options": [
+    "Chexiya",
+    "Moraviya",
+    "Serbiya",
+    "Bulg'oriya podsholigi"
+   ],
+   "correct_index": 3,
+   "page": 40
+  },
+  {
+   "question": "Vizantiya imperatori saroyi qanday edi?",
+   "options": [
+    "Oddiy va kichik",
+    "Salobati va hashamati bilan mehmonlarni lol qoldirardi",
+    "Qal'a shaklida",
+    "Yog'ochdan"
+   ],
+   "correct_index": 1,
+   "page": 41
+  },
+  {
+   "question": "Faqat imperator qaysi rangdan kiyishi mumkin edi?",
+   "options": [
+    "Yashil",
+    "Ko'k",
+    "Oq",
+    "To'q qizil"
+   ],
+   "correct_index": 3,
+   "page": 41
+  },
+  {
+   "question": "Zamonaviy diplomatiya asoslariga qaysi davlat qoidalari kirgan?",
+   "options": [
+    "Arab diplomatiyasi",
+    "Rim diplomatiyasi",
+    "Vizantiya diplomatiyasi",
+    "Xitoy diplomatiyasi"
+   ],
+   "correct_index": 2,
+   "page": 41
   }
  ]
 }

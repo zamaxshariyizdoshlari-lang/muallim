@@ -327,6 +327,677 @@
    ],
    "correct_index": 0,
    "page": 21
+  },
+  {
+   "question": "Franklar dastlab qayerda yashagan?",
+   "options": [
+    "Dunay bo'yida",
+    "Sena bo'yida",
+    "Alp tog'larida",
+    "Reyn daryosining quyi qismida"
+   ],
+   "correct_index": 3,
+   "page": 13
+  },
+  {
+   "question": "Franklar qirolligi german davlatlari orasida qanday edi?",
+   "options": [
+    "Eng kichigi",
+    "Eng qisqa umrlisi",
+    "Eng kambag'ali",
+    "Eng mustahkam va uzoq yashagan"
+   ],
+   "correct_index": 3,
+   "page": 13
+  },
+  {
+   "question": "Xlodvig qaysi urug'dan chiqqan?",
+   "options": [
+    "Meroveylar urug'idan",
+    "Karolinglar",
+    "Kapetinglar",
+    "Robertinlar"
+   ],
+   "correct_index": 0,
+   "page": 14
+  },
+  {
+   "question": "Xlodvigning qo'shini 486-yilda qaerda Rim qo'shinini yengdi?",
+   "options": [
+    "Puate yaqinida",
+    "Suasson shahri yaqinida",
+    "Parij yaqinida",
+    "Axen yaqinida"
+   ],
+   "correct_index": 1,
+   "page": 14
+  },
+  {
+   "question": "Xlodvig qaysi hududlarni egalladi?",
+   "options": [
+    "Britaniyani",
+    "Italiyani",
+    "Janubiy Galliyani ham",
+    "Ispaniyani"
+   ],
+   "correct_index": 2,
+   "page": 14
+  },
+  {
+   "question": "Xlodvig taxtga da'vogarlarga qanday munosabatda bo'ldi?",
+   "options": [
+    "Afv etdi",
+    "Ittifoqchi qildi",
+    "Hammasini bartaraf etdi",
+    "Surgun qildi"
+   ],
+   "correct_index": 2,
+   "page": 14
+  },
+  {
+   "question": "Viloyatlarni kimlar boshqargan?",
+   "options": [
+    "Gersoglar",
+    "Markgraflar",
+    "Yepiskoplar",
+    "Graflar"
+   ],
+   "correct_index": 3,
+   "page": 14
+  },
+  {
+   "question": "Rim-gall zodagonlarining yerlariga franklar qanday munosabatda bo'ldi?",
+   "options": [
+    "Musodara qildi",
+    "Soliq soldi",
+    "Tegmadi",
+    "Sotib oldi"
+   ],
+   "correct_index": 2,
+   "page": 14
+  },
+  {
+   "question": "Franklarda aholi qaysi tilda so'zlashgan?",
+   "options": [
+    "Faqat german tilida",
+    "Aralash lotin-german tilida",
+    "Faqat yunon tilida",
+    "Arab tilida"
+   ],
+   "correct_index": 1,
+   "page": 14
+  },
+  {
+   "question": "Bu til keyinchalik qaysi tilning asosiga aylangan?",
+   "options": [
+    "Fransuz tilining",
+    "Ingliz tilining",
+    "Nemis tilining",
+    "Italyan tilining"
+   ],
+   "correct_index": 0,
+   "page": 14
+  },
+  {
+   "question": "Yozish uchun franklarda qaysi til qo'llangan?",
+   "options": [
+    "Faqat lotin tili",
+    "Yunon tili",
+    "Nemis tili",
+    "Arab tili"
+   ],
+   "correct_index": 0,
+   "page": 14
+  },
+  {
+   "question": "\"Sali haqiqati\" qaysi tilda bitilgan?",
+   "options": [
+    "Nemis tilida",
+    "Yunon tilida",
+    "Fransuz tilida",
+    "Lotin tilida"
+   ],
+   "correct_index": 3,
+   "page": 14
+  },
+  {
+   "question": "\"Sali haqiqati\"da nima to'plangan?",
+   "options": [
+    "Sali franklarining odat-qonunlari",
+    "Cherkov qoidalari",
+    "Savdo shartnomalari",
+    "Sarkardalar ro'yxati"
+   ],
+   "correct_index": 0,
+   "page": 14
+  },
+  {
+   "question": "Xlodvig xristianlikni nega qabul qildi?",
+   "options": [
+    "Rim-gall aholisini birlashtirish va cherkov yordami uchun",
+    "Papa buyruq bergani uchun",
+    "Arablarga qarshi turish uchun",
+    "Britaniyani egallash uchun"
+   ],
+   "correct_index": 0,
+   "page": 15
+  },
+  {
+   "question": "Franklar qaysi mazhab tartiblari bo'yicha xristianlikni qabul qildi?",
+   "options": [
+    "Vizantiya tartiblari bo'yicha",
+    "Arian tartiblari bo'yicha",
+    "Rim cherkovi tartiblari bo'yicha",
+    "Pravoslav tartiblari bo'yicha"
+   ],
+   "correct_index": 2,
+   "page": 15
+  },
+  {
+   "question": "Xlodvig davlatni o'g'illariga bo'lib berishi nimaga olib keldi?",
+   "options": [
+    "Kuchayishiga",
+    "Savdoning o'sishiga",
+    "Davlatning parchalanishiga",
+    "Cherkovning zaiflashuviga"
+   ],
+   "correct_index": 2,
+   "page": 15
+  },
+  {
+   "question": "Parij atrofidagi viloyat qanday atala boshlandi?",
+   "options": [
+    "Normandiya",
+    "Il-de-Frans",
+    "Burgundiya",
+    "Lotaringiya"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "O'tmishda Fransiya qanday atalgan?",
+   "options": [
+    "Galliya faqat",
+    "Farangiston",
+    "Germaniya",
+    "Iberiya"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "Karl Martell arablarni qaysi yili to'xtatdi?",
+   "options": [
+    "711-yilda",
+    "751-yilda",
+    "732-yilda",
+    "800-yilda"
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "Puate jangi necha kun davom etgan?",
+   "options": [
+    "Yetti kun",
+    "Bir kun",
+    "Uch kun",
+    "O'n kun"
+   ],
+   "correct_index": 0,
+   "page": 16
+  },
+  {
+   "question": "Martell laqabi nimani anglatadi?",
+   "options": [
+    "Qilich",
+    "Qalqon",
+    "Bolg'a",
+    "Nayza"
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "Arab qo'shini franklar hududiga qaysi tog'lar ortidan kirgan?",
+   "options": [
+    "Alp tog'lari",
+    "Kavkaz tog'lari",
+    "Ural tog'lari",
+    "Pireney tog'lari ortidan"
+   ],
+   "correct_index": 3,
+   "page": 16
+  },
+  {
+   "question": "Arab hujumiga qarshi franklar nimani isloh qildi?",
+   "options": [
+    "Soliq tizimini",
+    "Qo'shinni, kuchli otliq qo'shin tuzildi",
+    "Sud tizimini",
+    "Maktablarni"
+   ],
+   "correct_index": 1,
+   "page": 16
+  },
+  {
+   "question": "Benefitsiy so'zi nimani anglatadi?",
+   "options": [
+    "\"Ehson\", \"yaxshilik\"",
+    "\"Soliq\"",
+    "\"Qurol\"",
+    "\"Qo'shin\""
+   ],
+   "correct_index": 0,
+   "page": 17
+  },
+  {
+   "question": "Benefitsiy merosiy bo'lganmi?",
+   "options": [
+    "Ha, avloddan avlodga",
+    "Yo'q, harbiy xizmat muddatiga berilgan",
+    "Faqat ruhoniylarga",
+    "Faqat ayollarga"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Jangchi xizmatni bajarmasa benefitsiy bilan nima qilingan?",
+   "options": [
+    "Meros qilingan",
+    "Olib qo'yilgan",
+    "Sotilgan",
+    "Ko'paytirilgan"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Pipin Pakana cherkov yerlariga nisbatan qanday siyosat yurgizdi?",
+   "options": [
+    "Musodara siyosatini",
+    "Yaqinlashish siyosatini",
+    "Taqiqlashni",
+    "Sotishni"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Pipin Pakana nega papa yordamiga muhtoj edi?",
+   "options": [
+    "Arablarni yengish uchun",
+    "Saksonlarni yengish uchun",
+    "Soliq yig'ish uchun",
+    "Meroving qirollarini taxtdan tushirish uchun"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Pipin qaysi shaharda qirol deb e'lon qilindi?",
+   "options": [
+    "Axen",
+    "Parij",
+    "Suasson",
+    "Rim"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "Karolinglar sulolasi qaysi yillarda hukmronlik qildi (rasman)?",
+   "options": [
+    "486-751",
+    "987-1328",
+    "800-900",
+    "751-987"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Papa Pipinga qaysi xalqqa qarshi yordam so'radi?",
+   "options": [
+    "Arablarga qarshi",
+    "Saksonlarga qarshi",
+    "Langobardlarga qarshi",
+    "Vandallarga qarshi"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "756-yilda Italiyada qanday davlat tashkil topdi?",
+   "options": [
+    "Langobard qirolligi",
+    "Papaning dunyoviy davlati (Vatikan)",
+    "Ostgot qirolligi",
+    "Vizantiya viloyati"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Buyuk Karl necha yil hukmronlik qildi?",
+   "options": [
+    "46 yil",
+    "26 yil",
+    "16 yil",
+    "56 yil"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Buyuk Karl qaysi yillarda davlatni boshqargan?",
+   "options": [
+    "751-768",
+    "768-814",
+    "814-843",
+    "800-843"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Evropa hukmdorlari \"korol\" nomini kimning ismidan oldi?",
+   "options": [
+    "Karolus (Karl)",
+    "Xlodvig",
+    "Pipin",
+    "Otton"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Karlning hukmronligida nechta harbiy yurish bo'lgan?",
+   "options": [
+    "5 ta",
+    "15 ta",
+    "100 ta",
+    "53 ta"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Karl langobardlar qiroliga nima qildi?",
+   "options": [
+    "Qatl qildi",
+    "Afv etdi",
+    "Taxtga qo'ydi",
+    "Asirga oldi"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Ispaniyada Karl tuzgan chegara hududi qanday atalgan?",
+   "options": [
+    "Ispan markasi",
+    "Ispan gersogligi",
+    "Ispan grafligi",
+    "Ispan viloyati"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Saksonlarga qarshi urush qaysi yillarda bo'lgan?",
+   "options": [
+    "772-804",
+    "732-751",
+    "800-814",
+    "843-870"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Pipin Pakananing bo'yi qancha edi?",
+   "options": [
+    "155 sm",
+    "175 sm",
+    "135 sm",
+    "115 sm"
+   ],
+   "correct_index": 2,
+   "page": 18
+  },
+  {
+   "question": "Karl imperator deb qaysi oy va yilda e'lon qilindi?",
+   "options": [
+    "800-yil dekabrida",
+    "800-yil martida",
+    "814-yil dekabrida",
+    "768-yil dekabrida"
+   ],
+   "correct_index": 0,
+   "page": 19
+  },
+  {
+   "question": "Karlga imperatorlik tojini qayerda kiygizishdi?",
+   "options": [
+    "Axenda",
+    "Avliyo Pyotr ibodatxonasida (Rimda)",
+    "Parijda",
+    "Konstantinopolda"
+   ],
+   "correct_index": 1,
+   "page": 19
+  },
+  {
+   "question": "Papa Lev III Karldan nima so'ragan?",
+   "options": [
+    "Pul",
+    "Yordam, Rim zodagonlari isyonini bostirish uchun",
+    "Yer",
+    "Qo'shin tarqatishni"
+   ],
+   "correct_index": 1,
+   "page": 19
+  },
+  {
+   "question": "\"Yangi Rim imperiyasi\" markazi qaysi shahar?",
+   "options": [
+    "Rim",
+    "Parij",
+    "Ravenna",
+    "Axen"
+   ],
+   "correct_index": 3,
+   "page": 19
+  },
+  {
+   "question": "Karl saksonlarni qanday xristian dinini qabul qildirdi?",
+   "options": [
+    "Ixtiyoriy",
+    "Shafqatsizlik bilan",
+    "Savdo orqali",
+    "Qarz berib"
+   ],
+   "correct_index": 1,
+   "page": 19
+  },
+  {
+   "question": "Gersog so'zi nemischa nimani anglatadi?",
+   "options": [
+    "\"Qirol vorisi\"",
+    "\"Qal'a boshlig'i\"",
+    "\"Saylangan harbiy yo'lboshchi\"",
+    "\"Soliqchi\""
+   ],
+   "correct_index": 2,
+   "page": 20
+  },
+  {
+   "question": "Graf so'zi nemischa nimani anglatadi?",
+   "options": [
+    "\"Chegara hokimi\"",
+    "\"Saylangan yo'lboshchi\"",
+    "\"Ruhoniy\"",
+    "\"Qirol tayinlagan amaldor\""
+   ],
+   "correct_index": 3,
+   "page": 20
+  },
+  {
+   "question": "Markgraf qanday amaldor?",
+   "options": [
+    "Chegara viloyati hokimi",
+    "Qal'a boshlig'i",
+    "Soliqchi",
+    "Qozi"
+   ],
+   "correct_index": 0,
+   "page": 20
+  },
+  {
+   "question": "Karl yiliga necha marta oliy kengash o'tkazgan?",
+   "options": [
+    "Bir marta",
+    "Ikki marta",
+    "Besh marta",
+    "Har oy"
+   ],
+   "correct_index": 1,
+   "page": 20
+  },
+  {
+   "question": "Karl davlatda nazorat uchun kimlarni yuborgan?",
+   "options": [
+    "Gersoglarni",
+    "Papani",
+    "\"Hukmdor vakillari\"ni",
+    "Qullarni"
+   ],
+   "correct_index": 2,
+   "page": 20
+  },
+  {
+   "question": "Imperiyaning asosiy qo'shini qanday edi?",
+   "options": [
+    "Piyoda qo'shin",
+    "Dengiz floti",
+    "Fillar",
+    "Otliq bo'linmalar"
+   ],
+   "correct_index": 3,
+   "page": 20
+  },
+  {
+   "question": "Imperiya inqiroziga nima sabab bo'ldi?",
+   "options": [
+    "Arablar hujumi faqat",
+    "Savdo",
+    "Cherkov isyoni",
+    "Graflarning yakkahokimlikka intilishi va hudud kattaligi"
+   ],
+   "correct_index": 3,
+   "page": 20
+  },
+  {
+   "question": "Karlga xalifa Horun ar-Rashid nimani ramziy taqdim etgan?",
+   "options": [
+    "Oltin toj",
+    "Quddusdagi Iso qabri joylashgan yerni",
+    "Qilich",
+    "Kema"
+   ],
+   "correct_index": 1,
+   "page": 20
+  },
+  {
+   "question": "Verden shartnomasi qachon tuzildi?",
+   "options": [
+    "800-yilda",
+    "987-yilda",
+    "843-yilda",
+    "732-yilda"
+   ],
+   "correct_index": 2,
+   "page": 21
+  },
+  {
+   "question": "Verden shartnomasi imperiyani nechta qismga bo'ldi?",
+   "options": [
+    "Ikki",
+    "Uch qismga",
+    "To'rt",
+    "Besh"
+   ],
+   "correct_index": 1,
+   "page": 21
+  },
+  {
+   "question": "G'arbiy Frank qirolligi qaysi davlatga asos bo'ldi?",
+   "options": [
+    "Germaniyaga",
+    "Italiyaga",
+    "Fransiyaga",
+    "Angliyaga"
+   ],
+   "correct_index": 2,
+   "page": 21
+  },
+  {
+   "question": "Fransiya so'zi nimani anglatadi?",
+   "options": [
+    "\"Rim yurti\"",
+    "\"Galliya o'lkasi\"",
+    "\"Bolalar mamlakati\"",
+    "\"Franklar mamlakati\""
+   ],
+   "correct_index": 3,
+   "page": 21
+  },
+  {
+   "question": "Karolinglarning so'nggi vakili kim edi?",
+   "options": [
+    "Pipin",
+    "Karl III",
+    "Lotar",
+    "Lyudovik V"
+   ],
+   "correct_index": 3,
+   "page": 21
+  },
+  {
+   "question": "Gugo Kapet qaysi xonadondan?",
+   "options": [
+    "Karolinglar",
+    "Meroveylar",
+    "Robertinlar",
+    "Saksoniyaliklar"
+   ],
+   "correct_index": 2,
+   "page": 21
+  },
+  {
+   "question": "Kapetinglar sulolasi qaysi yilda asos solindi?",
+   "options": [
+    "987-yilda",
+    "843-yilda",
+    "751-yilda",
+    "1066-yilda"
+   ],
+   "correct_index": 0,
+   "page": 21
+  },
+  {
+   "question": "Normandiya, Akvitaniya, Burgundiya nima edi?",
+   "options": [
+    "Cherkov viloyatlari",
+    "Mustaqil gersogliklar",
+    "Rim viloyatlari",
+    "Arab amirliklari"
+   ],
+   "correct_index": 1,
+   "page": 21
   }
  ]
 }

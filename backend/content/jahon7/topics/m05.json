@@ -295,6 +295,479 @@
    ],
    "correct_index": 1,
    "page": 35
+  },
+  {
+   "question": "Germaniya qirolligining paydo bo'lgan yili hisoblangan sana?",
+   "options": [
+    "843-yil",
+    "962-yil",
+    "911-yil",
+    "919-yil"
+   ],
+   "correct_index": 3,
+   "page": 31
+  },
+  {
+   "question": "Sharqiy Frank qirolligida Karolinglar boshqaruvi qachon yakun topdi?",
+   "options": [
+    "843-yilda",
+    "919-yilda",
+    "911-yilda",
+    "962-yilda"
+   ],
+   "correct_index": 2,
+   "page": 31
+  },
+  {
+   "question": "Genrix I qaysi gersoglik hukmdori edi?",
+   "options": [
+    "Saksoniya",
+    "Bavariya",
+    "Shvabiya",
+    "Frankoniya"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Germaniyaga shimoldan kimlar hujum qilgan?",
+   "options": [
+    "Arablar",
+    "Normannlar",
+    "Vengerlar",
+    "Slavyanlar"
+   ],
+   "correct_index": 1,
+   "page": 31
+  },
+  {
+   "question": "Germaniyaga janubdan kimlar hujum qilgan?",
+   "options": [
+    "Ko'chmanchi vengerlar",
+    "Normannlar",
+    "Arablar",
+    "Ostgotlar"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Genrix I vengerlar bilan necha yilga sulh tuzdi?",
+   "options": [
+    "9 yilga",
+    "3 yilga",
+    "20 yilga",
+    "100 yilga"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Genrix qishloqlardagi har nechta xo'jalikdan bittadan jangchi oldi?",
+   "options": [
+    "Har 3 xo'jalikdan",
+    "Har 9 xo'jalikdan",
+    "Har 20 xo'jalikdan",
+    "Har 100 xo'jalikdan"
+   ],
+   "correct_index": 1,
+   "page": 31
+  },
+  {
+   "question": "Jangchilar qayerga ko'chirilgan?",
+   "options": [
+    "Burglarga (qal'alarga)",
+    "Shaharlarga",
+    "Qishloqlarga",
+    "Cherkovlarga"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Otton I vengerlarni qaysi daryo sohilidagi jangda yengdi?",
+   "options": [
+    "Reyn",
+    "Elba",
+    "Lex daryosi",
+    "Dunay"
+   ],
+   "correct_index": 2,
+   "page": 31
+  },
+  {
+   "question": "Lex jangidan keyin vengerlar nima qildi?",
+   "options": [
+    "O'troq turmushga o'tib, xristianlikni qabul qildi",
+    "Kuchaydi",
+    "Germaniyani egalladi",
+    "Rimga yurdi"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Otton I qaysi yili imperator deb e'lon qilindi?",
+   "options": [
+    "955-yilda",
+    "962-yilda",
+    "919-yilda",
+    "800-yilda"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Otton I ni imperator deb kim e'lon qildi?",
+   "options": [
+    "Papa Lev III",
+    "Papa Urban II",
+    "Papa Grigoriy",
+    "Papa Ioann XII"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "Otton I ni asosiy e'tibori qaerga qaratildi?",
+   "options": [
+    "Sharqqa",
+    "Britaniyaga",
+    "Ispaniyaga",
+    "Italiyaning janubiga"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "Otton I o'z imperiyasini kimning davomchisi deb hisoblagan?",
+   "options": [
+    "Rimning",
+    "Vizantiyaning",
+    "Arab xalifaligining",
+    "Franklarning"
+   ],
+   "correct_index": 0,
+   "page": 32
+  },
+  {
+   "question": "Xristian dunyosini birlashtirishni orzu qilgan imperator kim?",
+   "options": [
+    "Otton I",
+    "Genrix II",
+    "Otton III",
+    "Fridrix I"
+   ],
+   "correct_index": 2,
+   "page": 32
+  },
+  {
+   "question": "Otton III qayerda saroy qurdirdi?",
+   "options": [
+    "Axenda",
+    "Parijda",
+    "Rimda",
+    "Berlinda"
+   ],
+   "correct_index": 2,
+   "page": 32
+  },
+  {
+   "question": "Rimliklar Otton III saroyini nima qildi?",
+   "options": [
+    "Himoya qildi",
+    "Qamal qildi",
+    "Egalladi",
+    "Sovg'a qildi"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Otton III Rimdan qayerga ko'chdi?",
+   "options": [
+    "Axenga",
+    "Ravennaga",
+    "Parijga",
+    "Londonga"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Muqaddas Rim imperiyasining doimiy poytaxti bo'lganmi?",
+   "options": [
+    "Ha, Rim",
+    "Yo'q, bo'lmagan",
+    "Ha, Axen",
+    "Ha, Berlin"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Imperiya tarkibiga qaysi hududlar kirgan?",
+   "options": [
+    "Fransiya va Ispaniya",
+    "Germaniya va Shimoliy Italiya",
+    "Britaniya va Daniya",
+    "Polsha va Chexiya"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Yangi qirollar Rimda nima qilgan?",
+   "options": [
+    "Soliq yig'gan",
+    "Urush e'lon qilgan",
+    "Imperatorlik tojini kiyib, hokimiyat ramzlarini qabul qilgan",
+    "Papani ag'dargan"
+   ],
+   "correct_index": 2,
+   "page": 32
+  },
+  {
+   "question": "Imperiyaga \"muqaddas\" nomi qanday sabab bilan berilgan?",
+   "options": [
+    "Rimda tashkil topgani uchun",
+    "Katolik cherkovi homiyligi ostida bo'lgani uchun",
+    "Quddusni egallagani uchun",
+    "Papa asos solgani uchun"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Otton davrida madaniy yuksalish qanday ataladi?",
+   "options": [
+    "Karolinglar uyg'onishi",
+    "Renessans",
+    "Otton Uyg'onish davri",
+    "Islom uyg'onishi"
+   ],
+   "correct_index": 2,
+   "page": 33
+  },
+  {
+   "question": "Otton II kimga uylandi?",
+   "options": [
+    "Vizantiya malikasiga",
+    "Fransuz malikasiga",
+    "Ingliz malikasiga",
+    "Papa qiziga"
+   ],
+   "correct_index": 0,
+   "page": 33
+  },
+  {
+   "question": "Otton III ga ustozlik qilgan rohib kim?",
+   "options": [
+    "Boetsiy",
+    "Alkuin",
+    "Gerbert",
+    "Eyngard"
+   ],
+   "correct_index": 2,
+   "page": 33
+  },
+  {
+   "question": "Gerbert keyinchalik qaysi papa bo'ldi?",
+   "options": [
+    "Silvester II",
+    "Lev III",
+    "Ioann XII",
+    "Urban II"
+   ],
+   "correct_index": 0,
+   "page": 34
+  },
+  {
+   "question": "Gerbert kimlardan ilm olgan (arab Ispaniyasida)?",
+   "options": [
+    "Parij olimlaridan",
+    "Rim olimlaridan",
+    "Afina olimlaridan",
+    "Qurdoba va Ishbiliya olimlaridan"
+   ],
+   "correct_index": 3,
+   "page": 34
+  },
+  {
+   "question": "Genrix II qaysi sulolaning oxirgi imperatori edi?",
+   "options": [
+    "Karolinglar",
+    "Shtaufenlar",
+    "Saksoniyaliklar",
+    "Gabsburglar"
+   ],
+   "correct_index": 2,
+   "page": 34
+  },
+  {
+   "question": "Genrix II qayerda yashadi?",
+   "options": [
+    "Italiyada",
+    "Rimda",
+    "Konstantinopolda",
+    "Germaniyada"
+   ],
+   "correct_index": 3,
+   "page": 34
+  },
+  {
+   "question": "Genrix II qaysi yili Rimda imperator sifatida toj kiydi?",
+   "options": [
+    "962-yilda",
+    "1018-yilda",
+    "1014-yilda",
+    "1152-yilda"
+   ],
+   "correct_index": 1,
+   "page": 34
+  },
+  {
+   "question": "Imperatorlar yepiskop va abbatlarni kimlar orasidan tayinlagan?",
+   "options": [
+    "O'zlariga sodiq ruhoniylardan",
+    "Papa tavsiyasi bilan",
+    "Xalq saylovidan",
+    "Gersoglardan"
+   ],
+   "correct_index": 0,
+   "page": 34
+  },
+  {
+   "question": "Papalar qaysi asrdan imperatorlarga qarshi kurash boshladi?",
+   "options": [
+    "IX asrdan",
+    "XI asrdan",
+    "XIII asrdan",
+    "XV asrdan"
+   ],
+   "correct_index": 1,
+   "page": 34
+  },
+  {
+   "question": "Otton I Rimda papa bilan nima qilgan?",
+   "options": [
+    "Tojini topshirgan",
+    "Sovg'a bergan",
+    "Birini sud qilib, lavozimidan chetlatgan",
+    "Hurmat qilgan"
+   ],
+   "correct_index": 2,
+   "page": 34
+  },
+  {
+   "question": "Shtaufenlar sulolasi hokimiyatga qaysi yilda kelgan?",
+   "options": [
+    "962-yilda",
+    "1138-yilda (XII asr)",
+    "1250-yilda",
+    "1806-yilda"
+   ],
+   "correct_index": 1,
+   "page": 35
+  },
+  {
+   "question": "Fridrix I qaysi laqab bilan mashhur?",
+   "options": [
+    "Barbarossa",
+    "Jasur",
+    "Buyuk",
+    "Pakana"
+   ],
+   "correct_index": 0,
+   "page": 35
+  },
+  {
+   "question": "Fridrix I Rimda imperator bo'lib qaysi yili toj kiydi?",
+   "options": [
+    "1158-yilda",
+    "1155-yilda",
+    "1176-yilda",
+    "1190-yilda"
+   ],
+   "correct_index": 1,
+   "page": 35
+  },
+  {
+   "question": "Fridrix I Italiya shaharlariga necha marta yurish qildi?",
+   "options": [
+    "Ikki marta",
+    "Yigirma marta",
+    "Bir marta",
+    "Besh marta"
+   ],
+   "correct_index": 3,
+   "page": 35
+  },
+  {
+   "question": "Fridrix I Milanga nima qildi?",
+   "options": [
+    "Savdo qildi",
+    "Poytaxt qildi",
+    "Himoya qildi",
+    "Aholini qatl ettirib, shaharni vayron qildi"
+   ],
+   "correct_index": 3,
+   "page": 35
+  },
+  {
+   "question": "Lenyano jangi qaysi yili bo'lgan?",
+   "options": [
+    "1155-yilda",
+    "1158-yilda",
+    "1190-yilda",
+    "1176-yilda"
+   ],
+   "correct_index": 3,
+   "page": 35
+  },
+  {
+   "question": "Lenyano jangida kim yengildi?",
+   "options": [
+    "Lombardiya shaharlari",
+    "Papa",
+    "Milan",
+    "Fridrix I"
+   ],
+   "correct_index": 3,
+   "page": 35
+  },
+  {
+   "question": "Fridrix I o'g'li Genrixni kimga uylantirdi?",
+   "options": [
+    "Vizantiya malikasiga",
+    "Sitsiliya malikasi Konstansiyaga",
+    "Fransuz malikasiga",
+    "Papa qiziga"
+   ],
+   "correct_index": 1,
+   "page": 35
+  },
+  {
+   "question": "Imperator vorislari qayerda qolib imperiyani boshqardi?",
+   "options": [
+    "Berlinda",
+    "Axenda",
+    "Rimda",
+    "Sitsiliyada"
+   ],
+   "correct_index": 3,
+   "page": 35
+  },
+  {
+   "question": "Muqaddas Rim imperiyasi qaysi yillarda mavjud bo'lgan?",
+   "options": [
+    "800-843",
+    "919-1155",
+    "962-1806",
+    "1155-1806"
+   ],
+   "correct_index": 2,
+   "page": 32
   }
  ]
 }

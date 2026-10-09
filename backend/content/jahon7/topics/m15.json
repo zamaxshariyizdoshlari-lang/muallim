@@ -277,6 +277,259 @@
    ],
    "correct_index": 0,
    "page": 91
+  },
+  {
+   "question": "Yaponiya qayerda joylashgan?",
+   "options": [
+    "Xitoy g'arbida",
+    "Hindiston janubida",
+    "Xitoy va Koreyadan sharqda, orollarda",
+    "Rus shimolida"
+   ],
+   "correct_index": 2,
+   "page": 89
+  },
+  {
+   "question": "Yaponiyada nechta yirik orol bor?",
+   "options": [
+    "Ikkita",
+    "O'nta",
+    "Yuzta",
+    "To'rtta"
+   ],
+   "correct_index": 3,
+   "page": 89
+  },
+  {
+   "question": "Yaponiyada ishlov beriladigan yer nega kam edi?",
+   "options": [
+    "Cho'l ko'p",
+    "Orollarning aksariyati tog'lardan iborat",
+    "Botqoq ko'p",
+    "Qor ko'p"
+   ],
+   "correct_index": 1,
+   "page": 89
+  },
+  {
+   "question": "Yaponiyada qaysi san'at yuksalgan?",
+   "options": [
+    "Kemasozlik",
+    "Haykaltaroshlik faqat",
+    "Bog' yaratish san'ati",
+    "Teatr"
+   ],
+   "correct_index": 2,
+   "page": 89
+  },
+  {
+   "question": "\"Oltin pavilion\" tomi nimadan yopilgan?",
+   "options": [
+    "Kumushdan",
+    "Misdan",
+    "Toshdan",
+    "Yupqa oltin plastinalardan"
+   ],
+   "correct_index": 3,
+   "page": 89
+  },
+  {
+   "question": "Bog'bonlarning ko'pchiligi kimlar edi?",
+   "options": [
+    "Samuraylar",
+    "Savdogarlar",
+    "Buddaviylik rohiblari",
+    "Dehqonlar"
+   ],
+   "correct_index": 2,
+   "page": 89
+  },
+  {
+   "question": "Gullardan guldasta tayyorlash san'ati nima deyiladi?",
+   "options": [
+    "Busido",
+    "Mikado",
+    "Ikebana",
+    "Syogun"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Orollarda joylashuv Yaponiyani nimadan himoya qilgan?",
+   "options": [
+    "Zilziladan",
+    "Sunamidan",
+    "Vulqondan",
+    "Ko'chmanchilar bosqinidan"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Yaponiyani qaysi tabiiy ofatlar jabr berdi?",
+   "options": [
+    "Qurg'oqchilik",
+    "Sunami, zilzila, vulqon",
+    "Chigirtka",
+    "Qor ko'chkisi"
+   ],
+   "correct_index": 1,
+   "page": 90
+  },
+  {
+   "question": "Yaponlar tabiiy ofatlarga qarshi qanday fazilat shakllantirgan?",
+   "options": [
+    "Dangasalik",
+    "Qo'rqoqlik",
+    "Mehnatsevarlik va intizom",
+    "Befarqlik"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Aynlar kimlar?",
+   "options": [
+    "Yapon samuraylari",
+    "Xitoy savdogarlari",
+    "Xokkaydoda yashagan mahalliy qabilalar",
+    "Koreys rohiblari"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Yaponlar xitoyliklardan nimalarni o'zlashtirgan?",
+   "options": [
+    "Choy, sholi, tibbiyot, iyeroglif",
+    "Faqat qurol",
+    "Faqat din",
+    "Kemasozlik"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Yaponiya qaysi asrdan Nippon deb atala boshlandi?",
+   "options": [
+    "IV asrdan",
+    "X asrdan",
+    "VII asrdan",
+    "XII asrdan"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Yaponiyada qabilalar ittifoqi qaysi asrda shakllandi?",
+   "options": [
+    "I asrda",
+    "VII asrda",
+    "IV asrda",
+    "XII asrda"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Imperator Yaponiyada qanday atalgan?",
+   "options": [
+    "Syogun",
+    "Samuray",
+    "Mikado",
+    "Xoqon"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Imperatorlar qaysi ilohdan tarqalgan hisoblangan?",
+   "options": [
+    "Yer ilohidan",
+    "Quyosh ilohidan",
+    "Okean ilohidan",
+    "Tog' ilohidan"
+   ],
+   "correct_index": 1,
+   "page": 90
+  },
+  {
+   "question": "Syogun unvoni qaysi asrdan berila boshlandi?",
+   "options": [
+    "IV asrdan",
+    "VII asrdan",
+    "XV asrdan",
+    "XII asrdan"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Yaponiyada boshqaruv Xitoydan nimasi bilan farq qilgan?",
+   "options": [
+    "Imperator kuchli edi",
+    "Amaldorlar imtihon bilan tanlanardi",
+    "Respublika edi",
+    "Zodagonlar kuchli, imperator hokimiyati zaif edi"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Samuraylar kimlar?",
+   "options": [
+    "Rohiblar",
+    "Dehqonlar",
+    "Savdogarlar",
+    "Knyazlar xizmatidagi jangchi harbiylar"
+   ],
+   "correct_index": 3,
+   "page": 91
+  },
+  {
+   "question": "Busido nimani targ'ib qilgan?",
+   "options": [
+    "Savdo",
+    "Burchga sadoqat, jasurlik, sodiqlik",
+    "Boylik",
+    "Ibodat"
+   ],
+   "correct_index": 1,
+   "page": 91
+  },
+  {
+   "question": "Samuraylar qaysi Yevropa toifasiga o'xshagan?",
+   "options": [
+    "Rohiblarga",
+    "Dehqonlarga",
+    "Savdogarlarga",
+    "Ritsarlarga"
+   ],
+   "correct_index": 3,
+   "page": 91
+  },
+  {
+   "question": "Mo'g'ullar Yaponiyani bosib ololmaganining sababi?",
+   "options": [
+    "Qish",
+    "Ochlik",
+    "Dengiz to'foni va samuraylarning qat'iyati",
+    "Vabo"
+   ],
+   "correct_index": 2,
+   "page": 91
+  },
+  {
+   "question": "Mo'g'ullar Yaponiyaga qaysi asr oxirida hujum qilgan?",
+   "options": [
+    "IX asrda",
+    "XIII asr oxirida",
+    "XV asrda",
+    "VII asrda"
+   ],
+   "correct_index": 1,
+   "page": 91
   }
  ]
 }

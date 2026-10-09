@@ -277,6 +277,314 @@
    ],
    "correct_index": 3,
    "page": 65
+  },
+  {
+   "question": "Saljuqiylar qaysi turkiy qavm tarkibida yashagan?",
+   "options": [
+    "Qipchoq",
+    "O'g'uz qavmi",
+    "Qarluq",
+    "Uyg'ur"
+   ],
+   "correct_index": 1,
+   "page": 63
+  },
+  {
+   "question": "Saljuqiylar dastlab qayerda yashagan?",
+   "options": [
+    "Eron",
+    "Janubiy Qozog'iston va Sirdaryo o'rta oqimida",
+    "Misr",
+    "Kichik Osiyo"
+   ],
+   "correct_index": 1,
+   "page": 63
+  },
+  {
+   "question": "Saljuqbek boshchiligida o'g'uzlar qaysi dinni qabul qildi?",
+   "options": [
+    "Buddaviylikni",
+    "Xristianlikni",
+    "Islomni",
+    "Zardushtiylikni"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Saljuqiylar qaysi yilda Xurosonga ko'chib o'tdi?",
+   "options": [
+    "1038-yilda",
+    "1055-yilda",
+    "1025-yilda",
+    "1071-yilda"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Saljuqiylar Xurosonga kimning roziligi bilan o'tdi?",
+   "options": [
+    "Mahmud G'aznaviyning",
+    "Qoraxoniylarning",
+    "Abbosiylarning",
+    "Vizantiyaning"
+   ],
+   "correct_index": 0,
+   "page": 63
+  },
+  {
+   "question": "Saljuqiylar davlatiga qaysi yili asos solindi?",
+   "options": [
+    "1025-yilda",
+    "1055-yilda",
+    "1038-yilda",
+    "1071-yilda"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "To'g'rulbek kimning nevarasi edi?",
+   "options": [
+    "Alp Arslonning",
+    "Saljuqbekning",
+    "Malikshohning",
+    "Nizomulmulkning"
+   ],
+   "correct_index": 1,
+   "page": 63
+  },
+  {
+   "question": "Bag'dodda 1055-yilda kimning nomiga xutba o'qildi?",
+   "options": [
+    "To'g'rulbekning",
+    "Alp Arslonning",
+    "Malikshohning",
+    "Chag'ribekning"
+   ],
+   "correct_index": 0,
+   "page": 64
+  },
+  {
+   "question": "Xalifa Al-Qoim To'g'rulbekni qanday unvon bilan tan oldi?",
+   "options": [
+    "Amir",
+    "Sulton va \"Sharq va G'arb podshohi\"",
+    "Xon",
+    "Vazir"
+   ],
+   "correct_index": 1,
+   "page": 64
+  },
+  {
+   "question": "To'g'rulbek ukasi Chag'ribekni qayerda qoldirdi?",
+   "options": [
+    "Bag'dodda",
+    "Eronda",
+    "Xurosonda",
+    "Misrda"
+   ],
+   "correct_index": 2,
+   "page": 64
+  },
+  {
+   "question": "Alp Arslon qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1072-1092",
+    "1063-1072",
+    "1038-1063",
+    "1092-1100"
+   ],
+   "correct_index": 1,
+   "page": 64
+  },
+  {
+   "question": "Alp Arslon davrida qaysi hududga yurishlar uyushtirildi?",
+   "options": [
+    "Hindistonga",
+    "Xitoyga",
+    "Ispaniyaga",
+    "Kichik Osiyoga"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Saljuqiylarning eng yuksalgan davri qaysi sulton davriga to'g'ri keladi?",
+   "options": [
+    "Alp Arslon",
+    "Malikshoh (1072-1092)",
+    "To'g'rulbek",
+    "Kaykubod"
+   ],
+   "correct_index": 1,
+   "page": 64
+  },
+  {
+   "question": "Saljuqiylar davlati XI asr oxirida qaysi dengizlargacha yetgan?",
+   "options": [
+    "Boltiq",
+    "Qora",
+    "Kaspiy faqat",
+    "O'rta Yer va Marmar dengizlarigacha"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Saljuqiylar nimaning oldini olishga xizmat qilgan?",
+   "options": [
+    "Salibchilarning Sharqqa hujumini qaytarishga",
+    "Mo'g'ullar hujumiga",
+    "Vikinglar hujumiga",
+    "Franklar hujumiga"
+   ],
+   "correct_index": 0,
+   "page": 64
+  },
+  {
+   "question": "Malikshohdan keyin davlat XII asr boshida nima bo'ldi?",
+   "options": [
+    "Kengaydi",
+    "Yagona qoldi",
+    "Imperiyaga aylandi",
+    "Sharqiy va g'arbiy qismlarga bo'lindi"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Anatoliyada o'g'uzlar qaysi sultonlikni tuzdi?",
+   "options": [
+    "Misr sultonligini",
+    "Dehli sultonligini",
+    "Qoraxoniylarni",
+    "Ko'niya sultonligini"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Ko'niya sultonligi taraqqiyoti qaysi sulton davriga to'g'ri keladi?",
+   "options": [
+    "Alp Arslon",
+    "Alouddin Kaykubod",
+    "To'g'rulbek",
+    "Mehmed II"
+   ],
+   "correct_index": 1,
+   "page": 64
+  },
+  {
+   "question": "1071-yilgi Mansikert jangida kim g'alaba qozondi?",
+   "options": [
+    "Saljuqiylar (Vizantiya ustidan)",
+    "Vizantiya",
+    "Salibchilar",
+    "Arablar"
+   ],
+   "correct_index": 0,
+   "page": 64
+  },
+  {
+   "question": "Saljuqiylar davlat boshqaruv, soliq va yer egaligini kimlardan qabul qildi?",
+   "options": [
+    "Sharqdagi musulmon davlatlardan",
+    "Rimliklardan",
+    "Xitoyliklardan",
+    "Slavyanlardan"
+   ],
+   "correct_index": 0,
+   "page": 65
+  },
+  {
+   "question": "Saljuqiylar davlatida taxt qanday o'tgan?",
+   "options": [
+    "Otadan bolaga meros",
+    "Saylov orqali",
+    "Papa tayinlab",
+    "Qurultoy orqali"
+   ],
+   "correct_index": 0,
+   "page": 65
+  },
+  {
+   "question": "Davlat boshqaruv tizimi qaysi ikki qismga bo'lingan?",
+   "options": [
+    "Senat va majlis",
+    "Saroy va qal'a",
+    "Dargoh va devon",
+    "Majlis va sud"
+   ],
+   "correct_index": 2,
+   "page": 65
+  },
+  {
+   "question": "Bosh vazir devoni qanday atalgan?",
+   "options": [
+    "Devoni risolat",
+    "Devoni xos",
+    "Devoni harb",
+    "Devoni a'lo"
+   ],
+   "correct_index": 3,
+   "page": 65
+  },
+  {
+   "question": "Nizomulmulk yozgan asar qaysi?",
+   "options": [
+    "\"Siyosatnoma\"",
+    "\"Qobusnoma\"",
+    "\"Shohnoma\"",
+    "\"Temur tuzuklari\""
+   ],
+   "correct_index": 0,
+   "page": 65
+  },
+  {
+   "question": "1243-yilda Anatoliyaga kim bostirib kirdi?",
+   "options": [
+    "Salibchilar",
+    "Arablar",
+    "Vizantiya",
+    "Mo'g'ullar"
+   ],
+   "correct_index": 3,
+   "page": 65
+  },
+  {
+   "question": "1308-yilda sultonlik nima bo'ldi?",
+   "options": [
+    "Kengaydi",
+    "Bir nechta beyliklarga bo'linib ketdi",
+    "Birlashdi",
+    "Mo'g'ullarga qo'shildi"
+   ],
+   "correct_index": 1,
+   "page": 65
+  },
+  {
+   "question": "Qaysi beylik keyinchalik Usmoniylar imperiyasiga aylandi?",
+   "options": [
+    "Usman beyligi",
+    "Qoraxon beyligi",
+    "Ko'niya beyligi",
+    "Sivas beyligi"
+   ],
+   "correct_index": 0,
+   "page": 65
+  },
+  {
+   "question": "Kichik Osiyoda turk millati qaysi xalqlar qo'shilishidan shakllana boshlagan?",
+   "options": [
+    "O'g'uz turklari, turklashgan yunon, fors, arman, gruzinlar",
+    "Faqat arablar",
+    "Faqat mo'g'ullar",
+    "Faqat franklar"
+   ],
+   "correct_index": 0,
+   "page": 65
   }
  ]
 }

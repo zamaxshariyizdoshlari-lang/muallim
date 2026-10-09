@@ -295,6 +295,259 @@
    ],
    "correct_index": 3,
    "page": 82
+  },
+  {
+   "question": "Konfutsiy va Lao-szi ta'limotlari qaysi asrda qaror topgan?",
+   "options": [
+    "Mil. avv. I asrda",
+    "Mil. III asrda",
+    "Mil. VII asrda",
+    "Mil. avv. V asrda"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Konfutsiylik ko'rsatmasiga ko'ra nimaga rioya qilish kerak?",
+   "options": [
+    "Soliqqa",
+    "Qonunga faqat",
+    "Urushga",
+    "Ajdodlar yaratgan marosimlarga"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Konfutsiylik imperatorni nima deb atagan?",
+   "options": [
+    "Sulton",
+    "Vasilevs",
+    "Xon",
+    "Osmon o'g'li"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Imperator xalqni qanday boshqarishi kerak edi?",
+   "options": [
+    "Zo'rlik bilan",
+    "Insonga muhabbat ruhida",
+    "Qo'rquv bilan",
+    "Urush bilan"
+   ],
+   "correct_index": 1,
+   "page": 79
+  },
+  {
+   "question": "III asrda Xan imperiyasi nechta podsholikka parchalandi?",
+   "options": [
+    "Ikkita",
+    "Uchta",
+    "To'rtta",
+    "Beshta"
+   ],
+   "correct_index": 1,
+   "page": 79
+  },
+  {
+   "question": "Vey podsholigi poytaxti qaysi?",
+   "options": [
+    "Pekin",
+    "Loyan",
+    "Nanking",
+    "Xanchjou"
+   ],
+   "correct_index": 1,
+   "page": 80
+  },
+  {
+   "question": "Chek yer tizimida barcha yerlarning egasi kim edi?",
+   "options": [
+    "Imperator",
+    "Dehqonlar",
+    "Jamoa",
+    "Cherkov"
+   ],
+   "correct_index": 0,
+   "page": 80
+  },
+  {
+   "question": "Dehqonlar yer evaziga nima to'laganlar?",
+   "options": [
+    "Oltin",
+    "Qul",
+    "Qurol",
+    "Hosilning bir qismi soliq"
+   ],
+   "correct_index": 3,
+   "page": 80
+  },
+  {
+   "question": "Qaysi xoqonlik xavfi kuchayib Xitoy birlashdi?",
+   "options": [
+    "Turk xoqonligi",
+    "Mo'g'ul davlati",
+    "Arab xalifaligi",
+    "Tibet"
+   ],
+   "correct_index": 0,
+   "page": 81
+  },
+  {
+   "question": "Osmonosti imperiyasini ketma-ket qaysi sulolalar boshqargan?",
+   "options": [
+    "Xan, Min",
+    "Yuan, Min",
+    "Suy, Tan, U Day, Sun",
+    "Tan, Yuan"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Suy sulolasi qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "618-907",
+    "907-960",
+    "589-618",
+    "960-1279"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Tan sulolasi qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "589-618",
+    "907-960",
+    "960-1279",
+    "618-907"
+   ],
+   "correct_index": 3,
+   "page": 81
+  },
+  {
+   "question": "Dehqonga imperator qancha ekin maydoni bergan?",
+   "options": [
+    "8 mu",
+    "80 mu",
+    "800 mu",
+    "20 mu"
+   ],
+   "correct_index": 1,
+   "page": 81
+  },
+  {
+   "question": "Buyuk kanal qaysi daryolarni birlashtirgan?",
+   "options": [
+    "Nil va Gang",
+    "Dajla va Frot",
+    "Xuanxe va Yanszi",
+    "Volga va Don"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Xitoyliklar qaysi sirni kashf qildi?",
+   "options": [
+    "Shisha yasash",
+    "Temir eritish",
+    "Oyna yasash",
+    "Oppoq chinni yasash sirini"
+   ],
+   "correct_index": 3,
+   "page": 81
+  },
+  {
+   "question": "Xitoyda kitob bosish qaysi usulda boshlangan?",
+   "options": [
+    "Iyerogliflar o'yilgan taxtachalar yordamida",
+    "Metall harflar",
+    "Qog'oz shakllar",
+    "Rangli toshlar"
+   ],
+   "correct_index": 0,
+   "page": 81
+  },
+  {
+   "question": "Xitoyda qaysi qurol kashf etilgan?",
+   "options": [
+    "Zambarak",
+    "Porox",
+    "To'pponcha",
+    "Miltiq"
+   ],
+   "correct_index": 1,
+   "page": 81
+  },
+  {
+   "question": "Buddaviylik Xitoyga qayerdan kirgan?",
+   "options": [
+    "Arabistondan",
+    "Rusdan",
+    "Hindistondan",
+    "Yaponiyadan"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Xitoyliklar ongida qaysi uch ta'limot chirmashib ketdi?",
+   "options": [
+    "Islom, xristianlik, buddizm",
+    "Konfutsiylik, islom",
+    "Konfutsiylik, daosiylik, buddaviylik",
+    "Daosizm, xristianlik"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Imtihonda nimalar talab qilingan?",
+   "options": [
+    "Faqat jismoniy kuch",
+    "Qurol otish",
+    "Davlat boshqaruvi bo'yicha insho, donishmandlar asarlarini yod aytish",
+    "Raqs"
+   ],
+   "correct_index": 2,
+   "page": 82
+  },
+  {
+   "question": "Xalq orasidagi qanday maqol mashhur bo'lgan?",
+   "options": [
+    "\"Qilich kuchli\"",
+    "\"Ilm - nur\"",
+    "\"Sabr - kaliti\"",
+    "\"Davlat boshqarmalari dengizdek chuqur, suiiste'molliklar osmondek baland\""
+   ],
+   "correct_index": 3,
+   "page": 82
+  },
+  {
+   "question": "X-XII asrlarda mamlakatda nima boshlandi?",
+   "options": [
+    "Dengiz savdosi",
+    "Dehqonlar qo'zg'olonlari",
+    "Din islohoti",
+    "Qullik"
+   ],
+   "correct_index": 1,
+   "page": 82
+  },
+  {
+   "question": "Xitoyni 1279-yilda kim butunlay bosib oldi?",
+   "options": [
+    "Mo'g'ul hukmdori Xubilay",
+    "Chingizxon",
+    "Botuxon",
+    "Xuloku"
+   ],
+   "correct_index": 0,
+   "page": 82
   }
  ]
 }

@@ -299,6 +299,369 @@
    ],
    "correct_index": 0,
    "page": 97
+  },
+  {
+   "question": "Amerikaga dastlabki odamlar qayerdan o'tgan?",
+   "options": [
+    "Afrikadan",
+    "Yevropadan",
+    "Shimoliy Osiyodan Bering bo'g'ozi orqali",
+    "Avstraliyadan"
+   ],
+   "correct_index": 2,
+   "page": 93
+  },
+  {
+   "question": "Bu jarayon qancha vaqt oldin boshlangan?",
+   "options": [
+    "4 ming yil oldin",
+    "400 yil oldin",
+    "4 million yil oldin",
+    "Taxminan 40 ming yil oldin"
+   ],
+   "correct_index": 3,
+   "page": 93
+  },
+  {
+   "question": "Bering bo'g'ozidan o'tish qaysi davrda bo'lgan?",
+   "options": [
+    "Tosh davrida",
+    "Temir davrida",
+    "Buyuk muzlik davrida",
+    "O'rta asrlarda"
+   ],
+   "correct_index": 2,
+   "page": 93
+  },
+  {
+   "question": "Qabilalarning asosiy qismi nima bilan shug'ullangan?",
+   "options": [
+    "Dehqonchilik",
+    "Savdo",
+    "Ovchilik va baliqchilik",
+    "Hunarmandchilik"
+   ],
+   "correct_index": 2,
+   "page": 93
+  },
+  {
+   "question": "Dehqonchilik qaysi hududlarda rivojlangan?",
+   "options": [
+    "Markaziy va Janubiy Amerika tog'oldi hududlarida",
+    "Shimoliy Amerika",
+    "Alyaska",
+    "Grenlandiya"
+   ],
+   "correct_index": 0,
+   "page": 93
+  },
+  {
+   "question": "Amerikada qaysi ekinlar yetishtirilgan?",
+   "options": [
+    "Bug'doy, arpa",
+    "Makkajo'xori, kartoshka, pomidor, kakao, tamaki",
+    "Guruch, paxta",
+    "Uzum, zaytun"
+   ],
+   "correct_index": 1,
+   "page": 93
+  },
+  {
+   "question": "Shimolda qaysi uy hayvoni boqilgan?",
+   "options": [
+    "Lama",
+    "Ot",
+    "It",
+    "Sigir"
+   ],
+   "correct_index": 2,
+   "page": 93
+  },
+  {
+   "question": "Janubda qaysi hayvon boqilgan?",
+   "options": [
+    "Ot",
+    "Lama",
+    "Tuya",
+    "Sigir"
+   ],
+   "correct_index": 1,
+   "page": 93
+  },
+  {
+   "question": "Ot, sigir, qo'y qit'aga qayerdan keltirilgan?",
+   "options": [
+    "Yevropadan",
+    "Osiyodan",
+    "Afrikadan",
+    "Avstraliyadan"
+   ],
+   "correct_index": 0,
+   "page": 93
+  },
+  {
+   "question": "Amerikalik hindular nimani bilmagan?",
+   "options": [
+    "Dehqonchilikni",
+    "Ovchilikni",
+    "Qurilishni",
+    "Temir, omoch, g'ildirak"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "Mayyalarda I ming yillikda nima paydo bo'ldi?",
+   "options": [
+    "Imperiya",
+    "Respublika",
+    "Papa davlati",
+    "Shahar-davlatlar"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "Shahar-davlatni kim boshqargan?",
+   "options": [
+    "Saylangan kengash",
+    "Papa",
+    "Savdogarlar",
+    "\"Buyuk kishi\" - merosiy hukmdor"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "Mayyalarda yozuv nima bilan bitilgan?",
+   "options": [
+    "Qilqalam bilan iyerogliflar",
+    "Qalam bilan harflar",
+    "Tayoqcha bilan mixxat",
+    "Tosh bilan"
+   ],
+   "correct_index": 0,
+   "page": 94
+  },
+  {
+   "question": "Mayyalar qaysi matematik belgini hindlardan oldin kiritgan?",
+   "options": [
+    "Yarim",
+    "Nol",
+    "Foiz",
+    "Kasr"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Mayyalar nima bilan ibodatxonalar qurgan?",
+   "options": [
+    "Maxsus tepaliklar ustida zinapoyali ehromlar",
+    "Yog'ochdan",
+    "G'ishtdan faqat",
+    "Loydan"
+   ],
+   "correct_index": 0,
+   "page": 94
+  },
+  {
+   "question": "Asteklar Tenochtitlanga qaysi asrda asos solgan?",
+   "options": [
+    "IV asrda",
+    "VIII asrda",
+    "XV asrda",
+    "XII asrda"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "\"Suzuvchi dalalar\" nima uchun yaratilgan?",
+   "options": [
+    "Suv ko'p bo'lgani uchun",
+    "Yer taqchil bo'lgani uchun",
+    "Savdo uchun",
+    "Qurol uchun"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Asteklarning oliy hukmdori-lashkarboshi qanday atalgan?",
+   "options": [
+    "Inka",
+    "Tlatoani",
+    "Mansa",
+    "Sapa"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Asteklarning iqtisodiy asosi nima edi?",
+   "options": [
+    "Ovchilik",
+    "Dengiz savdosi",
+    "Sug'orma dehqonchilik",
+    "Chorvachilik"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Asteklar eng muhim ekin nima edi?",
+   "options": [
+    "Makkajo'xori",
+    "Bug'doy",
+    "Guruch",
+    "Arpa"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Asteklar temir ma'danini bilarmidi?",
+   "options": [
+    "Ha, temir qurol yasashgan",
+    "Qisman",
+    "Faqat mis",
+    "Yo'q, shuning uchun boltalar tosh edi"
+   ],
+   "correct_index": 3,
+   "page": 95
+  },
+  {
+   "question": "Tenochtitlanda zodagon bolalari nimani o'rgangan?",
+   "options": [
+    "Faqat dehqonchilik",
+    "Faqat harbiy ish",
+    "Tarix, husnixat, hisoblash, astronomiya, she'riyat, notiqlik",
+    "Faqat hunar"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Inklar qaysi tog'larda davlat tuzgan?",
+   "options": [
+    "Alp tog'lari",
+    "And tog'lari yonbag'rlarida",
+    "Himolay",
+    "Kavkaz"
+   ],
+   "correct_index": 1,
+   "page": 96
+  },
+  {
+   "question": "Inklarning poytaxti qaysi?",
+   "options": [
+    "Kusko",
+    "Tenochtitlan",
+    "Lima",
+    "Kito"
+   ],
+   "correct_index": 0,
+   "page": 96
+  },
+  {
+   "question": "Inklar qaysi tilda so'zlashgan?",
+   "options": [
+    "Ispan tilida",
+    "Maya tilida",
+    "Nahuatl tilida",
+    "Kechua tilida"
+   ],
+   "correct_index": 3,
+   "page": 96
+  },
+  {
+   "question": "Jamoa hosilining qancha qismini davlatga bergan?",
+   "options": [
+    "2/3 qismini",
+    "1/10 qismini",
+    "Yarmini",
+    "1/3 qismini"
+   ],
+   "correct_index": 0,
+   "page": 96
+  },
+  {
+   "question": "Tog' yonbag'rida dehqonchilik uchun nima yaratilgan?",
+   "options": [
+    "Kanallar faqat",
+    "Botqoqlar",
+    "Orollar",
+    "Terrasalar, tosh devorlar"
+   ],
+   "correct_index": 3,
+   "page": 96
+  },
+  {
+   "question": "Inklarda yo'llar uzunligi qancha edi?",
+   "options": [
+    "150 km",
+    "1500 km",
+    "15 minglab kilometr",
+    "15 km"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Inklar xabarni qanday yetkazgan?",
+   "options": [
+    "Kaptarlar",
+    "Yugurib choparlar orqali",
+    "Otliqlar",
+    "Suv yo'li"
+   ],
+   "correct_index": 1,
+   "page": 97
+  },
+  {
+   "question": "Kipu nima?",
+   "options": [
+    "Rasmli yozuv",
+    "Mixxat",
+    "Tugunli xat",
+    "Harf"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Hosil uch qismga qanday bo'lingan?",
+   "options": [
+    "Faqat jamoaga",
+    "Faqat inkaga",
+    "Kohinlarga, Oliy Inkaga va jamoaga",
+    "Soliqqa"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Inklarning taqvimi necha oyga bo'lingan?",
+   "options": [
+    "10 oyga",
+    "12 oyga",
+    "13 oyga",
+    "8 oyga"
+   ],
+   "correct_index": 1,
+   "page": 97
+  },
+  {
+   "question": "Inka tabiblari nimani bilgan?",
+   "options": [
+    "Yurak operatsiyasini",
+    "Bosh suyagida jarrohlik",
+    "Ko'z olishni",
+    "Qo'l tikishni"
+   ],
+   "correct_index": 1,
+   "page": 97
   }
  ]
 }

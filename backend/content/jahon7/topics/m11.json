@@ -295,6 +295,402 @@
    ],
    "correct_index": 1,
    "page": 70
+  },
+  {
+   "question": "Mo'g'ullar qaysi hududlarda yashagan?",
+   "options": [
+    "Janubiy Sibir, Manchjuriya, Mo'g'uliston",
+    "Eron, Iroq",
+    "Rus, Polsha",
+    "Hindiston, Xitoy"
+   ],
+   "correct_index": 0,
+   "page": 67
+  },
+  {
+   "question": "Mo'g'ullarning ko'pchiligi nima bilan shug'ullangan?",
+   "options": [
+    "Dehqonchilik",
+    "Savdo",
+    "Ko'chmanchi chorvachilik",
+    "Kemasozlik"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "O'rmonlarda yashagan ayrim urug'lar nima bilan kun kechirgan?",
+   "options": [
+    "Ovchilik va baliqchilik",
+    "Savdo",
+    "Qurolsozlik",
+    "Dehqonchilik"
+   ],
+   "correct_index": 0,
+   "page": 67
+  },
+  {
+   "question": "Mo'g'ullar diniy tasavvurida nimalar saqlanib qolgan?",
+   "options": [
+    "Islom",
+    "Buddaviylik",
+    "Xristianlik",
+    "Ajdodlar ruhiga sig'inish, shomonlik"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "XII asr ikkinchi yarmidan ijtimoiy munosabatlarda nima kuchaya boshladi?",
+   "options": [
+    "Tenglik",
+    "Mulkiy tabaqalanish",
+    "Qullik",
+    "Savdo"
+   ],
+   "correct_index": 1,
+   "page": 67
+  },
+  {
+   "question": "Urug'lardagi alohida ko'chmanchi xo'jaliklar nima deb atalgan?",
+   "options": [
+    "Ulus",
+    "Noyon",
+    "Ayl",
+    "Xon"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Urug' boshliqlari qanday atalgan?",
+   "options": [
+    "No'yonlar",
+    "Ansorlar",
+    "Graflar",
+    "Sheriflar"
+   ],
+   "correct_index": 0,
+   "page": 67
+  },
+  {
+   "question": "Urug' boshliqlari o'z urug'doshlaridan kimlarni olib harbiy bo'linma tuzgan?",
+   "options": [
+    "Qullarni",
+    "Dehqonlarni",
+    "Navkarlarni",
+    "Ruhoniylarni"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Qabila ittifoqlarini kimlar boshqargan?",
+   "options": [
+    "Xonlar",
+    "Konunglar",
+    "Sheriflar",
+    "Papalar"
+   ],
+   "correct_index": 0,
+   "page": 68
+  },
+  {
+   "question": "Qurultoyda qanday masalalar hal etilgan?",
+   "options": [
+    "Faqat soliq",
+    "Urush, sulh, ittifoq, xon saylash",
+    "Faqat din",
+    "Faqat savdo"
+   ],
+   "correct_index": 1,
+   "page": 68
+  },
+  {
+   "question": "Temuchin qaysi yillarda yashagan?",
+   "options": [
+    "1206-1260",
+    "1227-1255",
+    "1260-1294",
+    "1155-1227"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Temuchin ulug' xon deb qaysi qurultoyda e'lon qilindi?",
+   "options": [
+    "Qoraqurumdagi",
+    "Samarqanddagi",
+    "Pekindagi",
+    "Onon daryosi bo'yidagi qurultoyda"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Chingizxon unvonini kim berdi?",
+   "options": [
+    "Papa",
+    "Xalifa",
+    "Bosh shomon",
+    "Imperator"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Chingizxon davlatining poytaxti qaysi?",
+   "options": [
+    "Samarqand",
+    "Bag'dod",
+    "Pekin",
+    "Qoraqurum"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Mo'g'ul qo'shini qanday tizimda bo'lgan?",
+   "options": [
+    "Yuzlik tizimda",
+    "Beshlik tizimda",
+    "Ellik tizimda",
+    "O'nlik tizimda"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Mo'g'ullar shaharlarni nima yordamida egallagan?",
+   "options": [
+    "To'plar",
+    "Palaxmon va o't sochadigan qurollar",
+    "Zambaraklar",
+    "Kemalar"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "Har bir ko'chmanchida nima bo'lishi lozim edi?",
+   "options": [
+    "Qilich",
+    "Arqon",
+    "To'p",
+    "Qalqon"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "Mo'g'ul qo'shinini qo'mondonlari qanday atalgan?",
+   "options": [
+    "Graf, gersog",
+    "Lord, baron",
+    "Yuzboshi, mingboshi, tumanboshi",
+    "Noyon, bek"
+   ],
+   "correct_index": 2,
+   "page": 69
+  },
+  {
+   "question": "\"Keshik\" nima?",
+   "options": [
+    "Chingizxonning maxsus gvardiyasi",
+    "Soliq turi",
+    "Qurol",
+    "Shahar"
+   ],
+   "correct_index": 0,
+   "page": 69
+  },
+  {
+   "question": "Jangda mo'g'ullar qaysi hiyladan foydalangan?",
+   "options": [
+    "Tungi hujum",
+    "Zaharlash",
+    "Dengiz hujumi",
+    "Yolg'ondan chekinish"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Chingizxon dastlab qaysi qabilani bo'ysundirdi?",
+   "options": [
+    "Merkitlarni",
+    "Uyg'urlarni",
+    "Naymanlarni",
+    "Qipchoqlarni"
+   ],
+   "correct_index": 2,
+   "page": 70
+  },
+  {
+   "question": "Mo'g'ullar Shimoliy Xitoyga qaysi yili urush boshladi?",
+   "options": [
+    "1211-yilda",
+    "1206-yilda",
+    "1219-yilda",
+    "1224-yilda"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Xorazmshohlar davlatiga mo'g'ullar bostirib kirdi?",
+   "options": [
+    "1219-1221-yillarda",
+    "1211-1215",
+    "1224-1227",
+    "1237-1242"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Chingizxon 1224-yilda nima qildi?",
+   "options": [
+    "Taxtdan voz kechdi",
+    "Rusga bordi",
+    "Vafot etdi",
+    "Yerlarni uluslarga bo'lib o'g'illariga berdi"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Chingizxonning o'g'illari kimlar?",
+   "options": [
+    "Botu, Xuloku",
+    "Xubilay, Munke",
+    "Guyuk, Mengu",
+    "Jo'chi, Chig'atoy, O'qtoy, Tuli"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Chingizxon taxt vorisi qilib kimni tayinladi?",
+   "options": [
+    "Jo'chini",
+    "Chig'atoyni",
+    "Tulini",
+    "O'qtoyni"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Botuxon kimning o'g'li?",
+   "options": [
+    "Chingizning",
+    "O'qtoyning",
+    "Tulining",
+    "Jo'chining"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Botuxon 1237-1242-yillarda nima qildi?",
+   "options": [
+    "Xitoyni egalladi",
+    "Hindistonni bosdi",
+    "Misrga yurdi",
+    "Sharqiy Yevropada istilolar olib bordi"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Botuxon istilo qilingan hududda qaysi davlatga asos soldi?",
+   "options": [
+    "Oltin O'rda",
+    "Xulokuylar",
+    "Yuan",
+    "Chig'atoy ulusi"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Xuloku qaysi davlatga asos soldi?",
+   "options": [
+    "Xulokuylar davlatiga (Eron)",
+    "Oltin O'rdaga",
+    "Yuan davlatiga",
+    "Chig'atoy ulusiga"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Bag'dod talanganida kutubxona kitoblari nima qilindi?",
+   "options": [
+    "Yoqib yuborildi",
+    "Rimga olib ketildi",
+    "Muzeyga topshirildi",
+    "Dajla daryosiga tashlandi"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Islom dunyosi markazi mo'g'ullardan keyin qaysi shaharga ko'chdi?",
+   "options": [
+    "Damashqqa",
+    "Qohiraga",
+    "Makkaga",
+    "Samarqandga"
+   ],
+   "correct_index": 1,
+   "page": 70
+  },
+  {
+   "question": "1260-yilgi jangda mo'g'ullarni kim yengdi?",
+   "options": [
+    "Jaloliddin",
+    "Sulton Sayfiddin Qutuz",
+    "Malikshoh",
+    "Baybars"
+   ],
+   "correct_index": 1,
+   "page": 70
+  },
+  {
+   "question": "Qutuz kimning avlodidan edi?",
+   "options": [
+    "Saljuqiylar avlodidan",
+    "Arablar avlodidan",
+    "Rimliklar avlodidan",
+    "Xorazmshohlar avlodidan"
+   ],
+   "correct_index": 3,
+   "page": 71
+  },
+  {
+   "question": "Qutuz qaysi nomga sazovor bo'ldi?",
+   "options": [
+    "\"Mo'g'ullar g'olibi\"",
+    "\"Jahongir\"",
+    "\"Sohibqiron\"",
+    "\"Buyuk\""
+   ],
+   "correct_index": 0,
+   "page": 71
+  },
+  {
+   "question": "Qutuz mamluklar qo'shinida qanday martaba oldi?",
+   "options": [
+    "Vazir",
+    "Katta amir, so'ng bosh sarkarda",
+    "Qozi",
+    "Xalifa"
+   ],
+   "correct_index": 1,
+   "page": 71
   }
  ]
 }

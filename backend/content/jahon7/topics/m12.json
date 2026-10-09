@@ -291,6 +291,215 @@
    ],
    "correct_index": 3,
    "page": 77
+  },
+  {
+   "question": "Hindistonning aksariyat qismi qaysi imperiya tarkibiga kirgan edi?",
+   "options": [
+    "Gupta imperiyasi",
+    "Maurya imperiyasi",
+    "Kushon imperiyasi",
+    "Xarsha imperiyasi"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Gupta davrida jamiyatda qanday tuzum shakllandi?",
+   "options": [
+    "Quldorlik",
+    "Kommunistik",
+    "Yer egaligiga asoslangan feodal tuzum",
+    "Jamoa tuzumi"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Yer egalari kimlar edi?",
+   "options": [
+    "Savdogarlar",
+    "Ruhoniylar",
+    "Amaldor va harbiylar toifasi",
+    "Hunarmandlar"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Hindistonda dunyoning boshqa joylarida uchramaydigan nima bor edi?",
+   "options": [
+    "Kasta tuzumi",
+    "Parlament",
+    "Qullik",
+    "Quldorlik"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "Kastalarga bo'linish nimaga asoslangan edi?",
+   "options": [
+    "Boylikka",
+    "Yoshga",
+    "Ilmga",
+    "Merosiy kasb va diniy mansublikka"
+   ],
+   "correct_index": 3,
+   "page": 74
+  },
+  {
+   "question": "Kastalar orasida nima qoralangan?",
+   "options": [
+    "Savdo",
+    "Ta'lim",
+    "Dehqonchilik",
+    "Bir kastadan boshqasiga o'tish va aralash nikoh"
+   ],
+   "correct_index": 3,
+   "page": 74
+  },
+  {
+   "question": "Qullar ko'pincha kim bo'lgan?",
+   "options": [
+    "Askarlar",
+    "Savdogarlar",
+    "Uy xizmatkorlari",
+    "Ruhoniylar"
+   ],
+   "correct_index": 2,
+   "page": 74
+  },
+  {
+   "question": "Xarsha qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "320-340",
+    "1206-1210",
+    "1325-1351",
+    "606-647"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Xarsha imperiyasi qaysi daryo vodiysida edi?",
+   "options": [
+    "Hind",
+    "Nil",
+    "Dajla",
+    "Gang daryosi vodiysida"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Xarsha poytaxti qaysi shahar?",
+   "options": [
+    "Dehli",
+    "Kanudja",
+    "Udjayini",
+    "Pataliputra"
+   ],
+   "correct_index": 2,
+   "page": 75
+  },
+  {
+   "question": "Xarsha qanday kasb egasi edi?",
+   "options": [
+    "Sarkarda faqat",
+    "Shoir va dramaturg",
+    "Savdogar",
+    "Rassom"
+   ],
+   "correct_index": 1,
+   "page": 75
+  },
+  {
+   "question": "Xarsha qaysi dinni qabul qildi?",
+   "options": [
+    "Hinduizmni",
+    "Islomni",
+    "Xristianlikni",
+    "Buddaviylikni"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Xarsha qancha vassal rojaga ega edi?",
+   "options": [
+    "Ikkita",
+    "Yuztacha",
+    "Bitta",
+    "Qirqqa yaqin"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Xarsha imperiyasi nega zaiflashdi?",
+   "options": [
+    "Vassal rojalarning ayirmachiligi tufayli",
+    "Dengiz yo'li",
+    "Qurg'oqchilik",
+    "Din o'zgarishi"
+   ],
+   "correct_index": 0,
+   "page": 75
+  },
+  {
+   "question": "Mahmud G'aznaviy Hindistonga necha marta yurish qildi?",
+   "options": [
+    "17 marta",
+    "5 marta",
+    "3 marta",
+    "40 marta"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Mahmud G'aznaviy qaysi asr boshida yurishlarini qildi?",
+   "options": [
+    "VII asrda",
+    "IX asrda",
+    "XIII asrda",
+    "XI asr boshida"
+   ],
+   "correct_index": 3,
+   "page": 77
+  },
+  {
+   "question": "Hindistonning shimolida qaysi sultonlik XIII asr boshida tuzildi?",
+   "options": [
+    "Xarsha imperiyasi",
+    "Dehli sultonligi",
+    "Gupta imperiyasi",
+    "Kushon"
+   ],
+   "correct_index": 1,
+   "page": 77
+  },
+  {
+   "question": "Rojalar o'zaro nima qilgan?",
+   "options": [
+    "Goh ittifoq tuzgan, goh urushgan",
+    "Doim ittifoqda bo'lgan",
+    "Hech aloqa qilmagan",
+    "Doim ittifoq"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Hindiston istilolarga nega qulay o'lka bo'lib qoldi?",
+   "options": [
+    "Boyligi kamligi",
+    "O'zaro urushlar tufayli zaiflashgani uchun",
+    "Dengiz yo'qligi",
+    "Aholi ko'pligi"
+   ],
+   "correct_index": 1,
+   "page": 77
   }
  ]
 }

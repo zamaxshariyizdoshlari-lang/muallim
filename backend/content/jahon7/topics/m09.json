@@ -299,6 +299,391 @@
    ],
    "correct_index": 1,
    "page": 61
+  },
+  {
+   "question": "Muhammad (s.a.v.) vafotidan keyin hokimiyat kimning qo'liga o'tdi?",
+   "options": [
+    "Eng yaqin sahobalar qo'liga",
+    "Savdogarlar",
+    "Qabila sardorlari",
+    "Arab zodagonlari"
+   ],
+   "correct_index": 0,
+   "page": 57
+  },
+  {
+   "question": "Birinchi xalifa kim?",
+   "options": [
+    "Abu Bakr",
+    "Umar",
+    "Usmon",
+    "Ali"
+   ],
+   "correct_index": 0,
+   "page": 57
+  },
+  {
+   "question": "Abu Bakr qaysi yillarda xalifa bo'ldi?",
+   "options": [
+    "634-644",
+    "632-634",
+    "644-656",
+    "656-661"
+   ],
+   "correct_index": 1,
+   "page": 57
+  },
+  {
+   "question": "Abu Bakr davrida qaysi o'lkalar fath etildi?",
+   "options": [
+    "Misr",
+    "Iroq va Suriya",
+    "Eron",
+    "Hindiston"
+   ],
+   "correct_index": 1,
+   "page": 57
+  },
+  {
+   "question": "Abu Bakr viloyatlarga kimlarni tayinladi?",
+   "options": [
+    "Graflarni",
+    "Gersoglarni",
+    "Voliylarni (hokimlarni)",
+    "Qozilarni"
+   ],
+   "correct_index": 2,
+   "page": 57
+  },
+  {
+   "question": "Xulafoi roshidin nimani anglatadi?",
+   "options": [
+    "\"Qo'shin sarkardalari\"",
+    "\"Saroy a'yonlari\"",
+    "\"Qozilar\"",
+    "\"To'g'ri yo'ldan boruvchi xalifalar\""
+   ],
+   "correct_index": 3,
+   "page": 57
+  },
+  {
+   "question": "Umar ibn Xattob qaysi yillarda xalifa edi?",
+   "options": [
+    "632-634",
+    "634-644",
+    "644-656",
+    "656-661"
+   ],
+   "correct_index": 1,
+   "page": 58
+  },
+  {
+   "question": "Umar davrida qaysi hududlar zabt etildi?",
+   "options": [
+    "Hindiston, Xitoy",
+    "Suriya, Falastin, Misr, Eronning katta qismi",
+    "Ispaniya, Frantsiya",
+    "Rim, Italiya"
+   ],
+   "correct_index": 1,
+   "page": 58
+  },
+  {
+   "question": "Hijriy yil hisobi qaysi yili joriy etildi?",
+   "options": [
+    "622-yilda",
+    "632-yilda",
+    "661-yilda",
+    "637-yilda"
+   ],
+   "correct_index": 3,
+   "page": 58
+  },
+  {
+   "question": "Umar davri qanday ataladi?",
+   "options": [
+    "\"Qora davr\"",
+    "Islomning \"oltin asri\"",
+    "\"Parokandalik\"",
+    "\"Uyg'onish\""
+   ],
+   "correct_index": 1,
+   "page": 58
+  },
+  {
+   "question": "Usmon xalifaligi qaysi yillarda bo'lgan?",
+   "options": [
+    "632-634",
+    "634-644",
+    "656-661",
+    "644-656"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Usmon davrida qaysi davlatni fath etish tugallandi?",
+   "options": [
+    "Vizantiyani",
+    "Eron Sosoniylari davlatini",
+    "Misrni",
+    "Hindistonni"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Usmon buyrug'i bilan nima qilindi?",
+   "options": [
+    "Soliq islohoti",
+    "Yangi taqvim",
+    "Qo'shin tuzildi",
+    "Qur'on matni to'planib, bir kitob qilindi"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Xulafoi roshidinlarning so'ngisi kim?",
+   "options": [
+    "Usmon",
+    "Ali ibn Abu Tolib",
+    "Umar",
+    "Abu Bakr"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Alining raqiblari qanday atalgan?",
+   "options": [
+    "Shialar",
+    "Xorijiylar",
+    "Sunniylar",
+    "Muhojirlar"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Ali kim tomonidan o'ldirilgan?",
+   "options": [
+    "Umaviylar",
+    "Abbosiylar",
+    "Xorijiylar",
+    "Vizantiyaliklar"
+   ],
+   "correct_index": 2,
+   "page": 59
+  },
+  {
+   "question": "Umaviylar sulolasi asoschisi kim?",
+   "options": [
+    "Abu Bakr",
+    "Muoviya I",
+    "Horun",
+    "Ma'mun"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Umaviylar davlat poytaxti qaysi shahar edi?",
+   "options": [
+    "Bag'dod",
+    "Damashq",
+    "Madina",
+    "Qohira"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Umaviylar davrida xalifa lavozimi qanday bo'ldi?",
+   "options": [
+    "Nasliy merosga aylantirildi",
+    "Saylanadigan",
+    "Papa tayinlaydigan",
+    "Qurultoy saylagan"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Umaviylar davrida qaysi til davlat tili deb e'lon qilindi?",
+   "options": [
+    "Fors tili",
+    "Suriya tili",
+    "Lotin tili",
+    "Arab tili"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Vestgot qirolligini bo'ysundirgan sarkarda kim?",
+   "options": [
+    "Jabal at-Tariq",
+    "Xorun",
+    "Muoviya",
+    "Umar"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Jabal at-Tariq qaysi yillarda Ispaniyani bo'ysundirdi?",
+   "options": [
+    "732-756",
+    "661-750",
+    "711-714",
+    "750-786"
+   ],
+   "correct_index": 2,
+   "page": 59
+  },
+  {
+   "question": "Arablarning shimolga siljishi qaysi yili to'xtatildi?",
+   "options": [
+    "711-yilda",
+    "750-yilda",
+    "732-yil Puate jangida",
+    "800-yilda"
+   ],
+   "correct_index": 2,
+   "page": 59
+  },
+  {
+   "question": "Abbosiylar qarorgohini qaysi shaharga ko'chirdi?",
+   "options": [
+    "Damashqqa",
+    "Madinaga",
+    "Bag'dodga",
+    "Qohiraga"
+   ],
+   "correct_index": 2,
+   "page": 60
+  },
+  {
+   "question": "Bag'dod so'zi nimani anglatadi?",
+   "options": [
+    "\"Xudoning in'omi\"",
+    "\"Tinchlik uyi\"",
+    "\"Boqiy shahar\"",
+    "\"Oltin shahar\""
+   ],
+   "correct_index": 0,
+   "page": 60
+  },
+  {
+   "question": "Eng mashhur Abbosiy xalifa kim?",
+   "options": [
+    "Ma'mun",
+    "Mansur",
+    "Horun ar-Rashid",
+    "Abdulloh"
+   ],
+   "correct_index": 2,
+   "page": 60
+  },
+  {
+   "question": "Horun ar-Rashid qaysi yillarda xalifalik qilgan?",
+   "options": [
+    "750-786",
+    "809-833",
+    "786-809",
+    "661-750"
+   ],
+   "correct_index": 2,
+   "page": 60
+  },
+  {
+   "question": "Xalifalikda musulmon bo'lmaganlar haqida nima deyilgan?",
+   "options": [
+    "Teng huquqli",
+    "Soliqdan ozod",
+    "Davlat xizmatiga olinmagan, ko'proq soliq to'lagan",
+    "Faqat qo'shinda"
+   ],
+   "correct_index": 2,
+   "page": 60
+  },
+  {
+   "question": "Xalifalikdan ilk mustaqil amirlik qayerda ajraldi?",
+   "options": [
+    "Ispaniyada (756)",
+    "Misrda",
+    "Eronda",
+    "Movarounnahrda"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Ispaniyadagi amirlik X asrdan nima deb atalgan?",
+   "options": [
+    "Granada amirligi",
+    "Qurdoba amirligi",
+    "Sevilya amirligi",
+    "Toledo amirligi"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "IX asrdan qaysi o'lkalar mustaqil bo'ldi?",
+   "options": [
+    "Hindiston, Xitoy",
+    "Vizantiya, Rus",
+    "Italiya, Ispaniya",
+    "Misr, Eron, Movarounnahr, Xuroson"
+   ],
+   "correct_index": 3,
+   "page": 61
+  },
+  {
+   "question": "Bag'dodni 1055-yilda kim egalladi?",
+   "options": [
+    "Mo'g'ullar",
+    "Vizantiya",
+    "Saljuqiy turklar",
+    "Salibchilar"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "Arab xalifaligi qaysi yili barham topdi?",
+   "options": [
+    "1055-yilda",
+    "661-yilda",
+    "1258-yilda",
+    "1204-yilda"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "Xalifalikni 1258-yilda kim tugatdi?",
+   "options": [
+    "Saljuqiylar",
+    "Salibchilar",
+    "Vizantiya",
+    "Xuloku (mo'g'ullar)"
+   ],
+   "correct_index": 3,
+   "page": 61
+  },
+  {
+   "question": "Choryorlar so'zi nimani anglatadi?",
+   "options": [
+    "\"Chorak xalifa\"",
+    "\"To'rt do'st\" (dastlabki to'rt xalifa)",
+    "\"To'rt yo'l\"",
+    "\"To'rt bayroq\""
+   ],
+   "correct_index": 1,
+   "page": 61
   }
  ]
 }

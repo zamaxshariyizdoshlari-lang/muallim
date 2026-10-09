@@ -291,6 +291,325 @@
    ],
    "correct_index": 1,
    "page": 11
+  },
+  {
+   "question": "Rim imperiyasining shimoliy hududlarida kimlar yashagan?",
+   "options": [
+    "German qabilalari",
+    "Slavyanlar",
+    "Arablar",
+    "Keltlar"
+   ],
+   "correct_index": 0,
+   "page": 7
+  },
+  {
+   "question": "German qabilalarining ko'chishlari qaysi asrlarga to'g'ri keladi?",
+   "options": [
+    "I-III asrlarga",
+    "VII-IX asrlarga",
+    "X-XII asrlarga",
+    "Milodiy IV-VI asrlarga"
+   ],
+   "correct_index": 3,
+   "page": 7
+  },
+  {
+   "question": "Germanlar haqida ilk yozma ma'lumot beruvchi Rim tarixchisi kim?",
+   "options": [
+    "Korneliy Tatsit",
+    "Gerodot",
+    "Plutarx",
+    "Livi"
+   ],
+   "correct_index": 0,
+   "page": 7
+  },
+  {
+   "question": "Yuliy Sezarning qaysi asarida german qabilalari haqida yozilgan?",
+   "options": [
+    "\"Germaniya\"",
+    "\"Tarix\"",
+    "\"Galliya urushi haqida xotiralar\"",
+    "\"Ilyada\""
+   ],
+   "correct_index": 2,
+   "page": 7
+  },
+  {
+   "question": "Germanlar qanday tashqi ko'rinishga ega bo'lgan?",
+   "options": [
+    "Baland bo'yli, ko'k ko'zli, qizg'ish sochli",
+    "Past bo'yli, qora sochli",
+    "Past bo'yli, sariq sochli",
+    "O'rta bo'yli, qora ko'zli"
+   ],
+   "correct_index": 0,
+   "page": 7
+  },
+  {
+   "question": "Germanlar qanday yashagan?",
+   "options": [
+    "Katta shaharlarda",
+    "Mustahkam qishloqlarda",
+    "Har bir oila o'tloq va to'qaylar bilan o'ralgan alohida xo'jalikda",
+    "Qal'alarda"
+   ],
+   "correct_index": 2,
+   "page": 7
+  },
+  {
+   "question": "Mehnat unumdorligining oshishiga qaysi usul sabab bo'lgan?",
+   "options": [
+    "Qullarni ko'paytirish",
+    "Soliqni kamaytirish",
+    "Dengiz savdosi",
+    "Almashlab ekish va temir plugga o'tish"
+   ],
+   "correct_index": 3,
+   "page": 8
+  },
+  {
+   "question": "Germanlar qanday ovqatni ko'proq iste'mol qilgan?",
+   "options": [
+    "Nonni",
+    "Guruchni",
+    "Sut, pishloq va go'shtni",
+    "Baliqni"
+   ],
+   "correct_index": 2,
+   "page": 8
+  },
+  {
+   "question": "Germanlar hunarmandchilikda nimalar ishlab chiqargan?",
+   "options": [
+    "Qurol-yarog', asbob-uskuna, kiyim va idishlar",
+    "Kemalar va g'ildiraklar",
+    "Faqat qurol",
+    "Qog'oz va kitoblar"
+   ],
+   "correct_index": 0,
+   "page": 8
+  },
+  {
+   "question": "Germanlar Rimga nimalarni yetkazib bergan?",
+   "options": [
+    "Ipak, ziravorlar",
+    "Qurol, shisha",
+    "Oltin, kumush idishlar",
+    "Qullar, chorva mollari, teri, qahrabo"
+   ],
+   "correct_index": 3,
+   "page": 8
+  },
+  {
+   "question": "Rimliklar germanlarga nimalarni yetkazgan?",
+   "options": [
+    "Qullar, teri",
+    "Dehqonchilik asboblari",
+    "Sopol, shisha, bronza idishlar, taqinchoqlar, qimmatbaho matolar",
+    "Faqat qurol"
+   ],
+   "correct_index": 2,
+   "page": 8
+  },
+  {
+   "question": "Germanlar qaysi bosqichda yashagan?",
+   "options": [
+    "Feodal bosqichda",
+    "Quldorlik bosqichida",
+    "Kapitalistik bosqichda",
+    "Urug'chilik bosqichida"
+   ],
+   "correct_index": 3,
+   "page": 8
+  },
+  {
+   "question": "Konunglar kim edi?",
+   "options": [
+    "Xalq yig'inida saylab qo'yilgan qabila boshliqlari",
+    "Rim senatorlari",
+    "Cherkov vakillari",
+    "Yollanma qo'mondonlar"
+   ],
+   "correct_index": 0,
+   "page": 8
+  },
+  {
+   "question": "Konunglar o'z qabiladoshlarini qanday boshqargan?",
+   "options": [
+    "Buyruq va zo'rlik bilan",
+    "Shaxsiy namuna va ishontirish orqali",
+    "Soliq orqali",
+    "Din orqali"
+   ],
+   "correct_index": 1,
+   "page": 8
+  },
+  {
+   "question": "Xalq majlisida kimlar ishtirok etgan?",
+   "options": [
+    "Faqat zodagonlar",
+    "Faqat ruhoniylar",
+    "Ayollar va bolalar",
+    "Qabilaning barcha qurollangan erkin vakillari"
+   ],
+   "correct_index": 3,
+   "page": 8
+  },
+  {
+   "question": "Xalq majlisi qanday masalalarni hal qilgan?",
+   "options": [
+    "Faqat soliq masalalarini",
+    "Faqat din masalalarini",
+    "Faqat savdo masalalarini",
+    "Qabila boshlig'ini saylash, urush e'lon qilish, tinchlik o'rnatish"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Germanlarda harbiy bo'linmalar qanday atalgan?",
+   "options": [
+    "Drujina",
+    "Legion",
+    "Falanga",
+    "Gvardiya"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Germanlar jamiyatida mulkiy tabaqalanish qaysi asrlarda kuchaygan?",
+   "options": [
+    "I-II asrlarda",
+    "IV-V asrlarda",
+    "VII-VIII asrlarda",
+    "X-XI asrlarda"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "IV-V asrlarda qaysi yirik german qabila ittifoqlari shakllandi?",
+   "options": [
+    "Vandal, sakson",
+    "Alemann, got, frank",
+    "Angl, yut",
+    "Burgund, langobard"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "Qadimgi germanlar dinida nima bo'lmagan?",
+   "options": [
+    "Alohida kohinlar, muhtasham ibodatxonalar",
+    "Tabiat kuchlariga ishonch",
+    "Xudolarga ishonch",
+    "Marosimlar"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Germanlar qaysi tabiat kuchlarini ilohiylashtirgan?",
+   "options": [
+    "Osmon, momaqaldiroq, shamol, yer",
+    "Dengiz, daryo",
+    "Olov, tosh",
+    "Quyosh, oy faqat"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Germanlar orasida qaysi din tarqala boshladi?",
+   "options": [
+    "Islom",
+    "Buddaviylik",
+    "Xristianlik",
+    "Yahudiylik"
+   ],
+   "correct_index": 2,
+   "page": 9
+  },
+  {
+   "question": "Xunnlar kimlar edi?",
+   "options": [
+    "Rim sarkardalari",
+    "German qabilasi",
+    "Slavyan qabilasi",
+    "Sharqdan kelgan ko'chmanchi qabilalar"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Xalqlarning buyuk ko'chishini kim tezlashtirdi?",
+   "options": [
+    "Xunnlar",
+    "Arablar",
+    "Vikinglar",
+    "Mo'g'ullar"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Alarix qaysi qabila sarkardasi edi?",
+   "options": [
+    "Ostgotlar",
+    "Vandallar",
+    "Franklar",
+    "Vestgotlar"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Vestgotlar Rimni necha kun talagan?",
+   "options": [
+    "Uch kun",
+    "Bir kun",
+    "Bir hafta",
+    "Bir oy"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Vestgotlar Rimdan keyin qayerga chekingan?",
+   "options": [
+    "Italiyaga",
+    "Britaniyaga",
+    "Afrikaga",
+    "Janubiy Galliyaga"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Anglosakslar qayerda davlat tuzgan?",
+   "options": [
+    "Italiyada",
+    "Ispaniyada",
+    "Galliyada",
+    "Britaniya orollarida"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Rim imperiyasi inqirozining asosiy sababi nima edi?",
+   "options": [
+    "Dengiz yo'li yo'qligi",
+    "Qurg'oqchilik",
+    "Qullar mehnatining samarasizligi",
+    "Din almashishi"
+   ],
+   "correct_index": 2,
+   "page": 10
   }
  ]
 }

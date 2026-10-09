@@ -309,6 +309,336 @@
    ],
    "correct_index": 3,
    "page": 122
+  },
+  {
+   "question": "Hunarmandchilik dehqonchilikdan qaysi asrlarda ajralib chiqdi?",
+   "options": [
+    "V-VI asrlarda",
+    "X-XI asrlarda",
+    "XIV-XV asrlarda",
+    "I-II asrlarda"
+   ],
+   "correct_index": 1,
+   "page": 117
+  },
+  {
+   "question": "Hunarmandlar nega qishloqlardan qochgan?",
+   "options": [
+    "Feodallar hukmronligi erkinligini cheklagani uchun",
+    "Yer yo'qligi uchun",
+    "Urush uchun",
+    "Ochlik uchun"
+   ],
+   "correct_index": 0,
+   "page": 117
+  },
+  {
+   "question": "Shaharlar nega paydo bo'lgan?",
+   "options": [
+    "Xavfsiz, savdo qulay va hunarmandlar mahsulot sota oladigan joylarda",
+    "Faqat cho'lda",
+    "Faqat qal'ada",
+    "Faqat dengizda"
+   ],
+   "correct_index": 0,
+   "page": 118
+  },
+  {
+   "question": "Qaysi shaharlar IX-X asrlardayoq yuksala boshlagan?",
+   "options": [
+    "Parij, London",
+    "Berlin, Vena",
+    "Venetsiya, Genuya, Florensiya, Marsel, Tuluza",
+    "Moskva, Kiyev"
+   ],
+   "correct_index": 2,
+   "page": 118
+  },
+  {
+   "question": "Shimoliy Fransiyada shaharlar qaysi asrlarda paydo bo'lgan?",
+   "options": [
+    "IX-X asrlarda",
+    "XII-XIII asrlarda",
+    "X-XI asrlarda",
+    "XIV asrda"
+   ],
+   "correct_index": 2,
+   "page": 118
+  },
+  {
+   "question": "Vengriya, Boltiqbo'yi, Rus yerlarida shaharlar qaysi asrlarda paydo bo'ldi?",
+   "options": [
+    "X-XI asrlarda",
+    "XIV asrda",
+    "IX asrda",
+    "XII-XIII asrlarda"
+   ],
+   "correct_index": 3,
+   "page": 118
+  },
+  {
+   "question": "Shaharlar ko'pincha kimning yerida paydo bo'lgan?",
+   "options": [
+    "Qirol yerida faqat",
+    "Feodallar yerida",
+    "Cherkov yerida",
+    "Dengizda"
+   ],
+   "correct_index": 1,
+   "page": 119
+  },
+  {
+   "question": "Shahar atrofi nima bilan o'ralgan edi?",
+   "options": [
+    "Faqat daraxtlar",
+    "Tog'lar",
+    "Minorali mudofaa devori va suvli xandaq",
+    "Dengiz"
+   ],
+   "correct_index": 2,
+   "page": 119
+  },
+  {
+   "question": "Shahar markazida nima joylashgan edi?",
+   "options": [
+    "Qal'a",
+    "Saroy",
+    "Bozor maydoni, ibodatxona, ratusha",
+    "Qabriston"
+   ],
+   "correct_index": 2,
+   "page": 119
+  },
+  {
+   "question": "Shaharlardagi uylarning ko'pchiligi nimadan?",
+   "options": [
+    "Toshdan",
+    "Yog'ochdan",
+    "Marmardan",
+    "G'ishtdan"
+   ],
+   "correct_index": 1,
+   "page": 119
+  },
+  {
+   "question": "Ko'chalar qanday edi?",
+   "options": [
+    "Keng prospekt",
+    "To'g'ri xiyobon",
+    "Tor (ba'zan 2 metrdan kam)",
+    "Yoritilgan"
+   ],
+   "correct_index": 2,
+   "page": 119
+  },
+  {
+   "question": "Shahar xo'jaligining asosi nima edi?",
+   "options": [
+    "Dehqonchilik",
+    "Chorvachilik",
+    "Kemasozlik",
+    "Hunarmandchilik"
+   ],
+   "correct_index": 3,
+   "page": 120
+  },
+  {
+   "question": "Sex nizomini kim qabul qilgan?",
+   "options": [
+    "Qirol",
+    "Papa",
+    "Graf",
+    "Ustalar umumiy yig'ilishi"
+   ],
+   "correct_index": 3,
+   "page": 120
+  },
+  {
+   "question": "Sexni boshqarish uchun kim saylangan?",
+   "options": [
+    "Oqsoqol",
+    "Graf",
+    "Yepiskop",
+    "Gersog"
+   ],
+   "correct_index": 0,
+   "page": 120
+  },
+  {
+   "question": "Narxlarni kim belgilagan?",
+   "options": [
+    "Qirol",
+    "Papa",
+    "Sex oqsoqoli",
+    "Savdogar"
+   ],
+   "correct_index": 2,
+   "page": 120
+  },
+  {
+   "question": "Sexlar urush paytida nima qilgan?",
+   "options": [
+    "Qochgan",
+    "Shahar mudofaasida alohida bo'linma sifatida qatnashgan",
+    "Taslim bo'lgan",
+    "Soliq to'lagan"
+   ],
+   "correct_index": 1,
+   "page": 121
+  },
+  {
+   "question": "Sexlarning o'z nimalari bo'lgan?",
+   "options": [
+    "Gerbi, bayrog'i, ibodatxonasi",
+    "Bankisi",
+    "Maktabi",
+    "Zavodi"
+   ],
+   "correct_index": 0,
+   "page": 121
+  },
+  {
+   "question": "Xalfalarning ish kuni qancha davom etgan?",
+   "options": [
+    "4-6 soat",
+    "8-9 soat",
+    "24 soat",
+    "14-16 soat"
+   ],
+   "correct_index": 3,
+   "page": 121
+  },
+  {
+   "question": "Yirik shaharlar bilan savdo aloqalari kimlar bilan o'rnatilgan?",
+   "options": [
+    "Faqat atrof",
+    "Chet mamlakatlar bilan",
+    "Faqat qirol",
+    "Faqat cherkov"
+   ],
+   "correct_index": 1,
+   "page": 121
+  },
+  {
+   "question": "Natural xo'jalik o'rniga nima kelgan?",
+   "options": [
+    "Ovchilik",
+    "Quldorlik",
+    "Jamoa xo'jaligi",
+    "Tovar xo'jaligi"
+   ],
+   "correct_index": 3,
+   "page": 121
+  },
+  {
+   "question": "Italiya savdogarlarining savdo manzilgohlari qanday atalgan?",
+   "options": [
+    "Sexlar",
+    "Faktoriyalar",
+    "Gildiyalar",
+    "Ratushalar"
+   ],
+   "correct_index": 1,
+   "page": 122
+  },
+  {
+   "question": "Dengiz respublikalari qaysilar?",
+   "options": [
+    "Parij va London",
+    "Berlin va Vena",
+    "Genuya va Venetsiya",
+    "Moskva va Kiyev"
+   ],
+   "correct_index": 2,
+   "page": 122
+  },
+  {
+   "question": "Marko Polo qaysi asrda yashagan?",
+   "options": [
+    "IX asrda",
+    "XV asrda",
+    "XVII asrda",
+    "XIII asrda"
+   ],
+   "correct_index": 3,
+   "page": 122
+  },
+  {
+   "question": "Marko Polo Xubilay saroyida necha yil xizmat qilgan?",
+   "options": [
+    "7 yil",
+    "25 yil",
+    "1 yil",
+    "17 yil"
+   ],
+   "correct_index": 3,
+   "page": 122
+  },
+  {
+   "question": "Ganza ittifoqi qaysi shaharlarni birlashtirgan?",
+   "options": [
+    "Germaniyaning 70 dan ortiq shaharini",
+    "Italiya shaharlarini",
+    "Fransiya shaharlarini",
+    "Angliya shaharlarini"
+   ],
+   "correct_index": 0,
+   "page": 122
+  },
+  {
+   "question": "Buyuk ipak yo'li qayerdan boshlanib qaerga borgan?",
+   "options": [
+    "Hindistondan Afrikaga",
+    "Xitoydan O'rta Osiyo orqali O'rta Yer dengiziga",
+    "Rimdan Londonga",
+    "Misrdan Rusga"
+   ],
+   "correct_index": 1,
+   "page": 122
+  },
+  {
+   "question": "Levant yo'li nimani bog'lagan?",
+   "options": [
+    "London va Moskvani",
+    "Parij va Berlinni",
+    "Rim va Londonni",
+    "Ispaniya, Italiya, Janubiy Fransiyani Vizantiya va Osiyo bilan"
+   ],
+   "correct_index": 3,
+   "page": 122
+  },
+  {
+   "question": "Doimiy bozorlar qayerlarda bo'lgan?",
+   "options": [
+    "Faqat yirik shaharlarda",
+    "Hamma joyda",
+    "Faqat qishloqda",
+    "Faqat portda"
+   ],
+   "correct_index": 0,
+   "page": 123
+  },
+  {
+   "question": "Ko'p shaharlarda bozorlar qanday bo'lgan?",
+   "options": [
+    "Har kuni",
+    "Oyiga bir",
+    "Haftada bir yoki ikki kun",
+    "Yiliga bir"
+   ],
+   "correct_index": 2,
+   "page": 123
+  },
+  {
+   "question": "Yevropada hunarmandchilik va savdo rivoji nimani vujudga keltirdi?",
+   "options": [
+    "Bozor, bank, birjalarni",
+    "Qullikni",
+    "Feodalizmni",
+    "Urushni"
+   ],
+   "correct_index": 0,
+   "page": 123
   }
  ]
 }
