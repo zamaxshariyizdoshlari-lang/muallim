@@ -317,6 +317,358 @@
    ],
    "correct_index": 3,
    "page": 68
+  },
+  {
+   "question": "Chig'atoy ulusiga qaysi hududlar berilgan?",
+   "options": [
+    "Misrdan Hindistongacha",
+    "Dunaydan Volgagacha",
+    "Yettisuvdan Amudaryogacha, Xorazm janubidan Sharqiy Turkistongacha",
+    "Rusdan Xitoygacha"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Chig'atoy ulusining markazi dastlab qayerda bo'lgan?",
+   "options": [
+    "Qarshida",
+    "Samarqandda",
+    "Buxoroda",
+    "Olmaliq shahrida"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Olmaliq hozir qayerga qarashli?",
+   "options": [
+    "Qozog'istonga",
+    "O'zbekistonga",
+    "Mo'g'ulistonga",
+    "Xitoyning Shinjon viloyatiga"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Keyinchalik markaz qayerga ko'chirilgan?",
+   "options": [
+    "Qarshiga",
+    "Samarqandga",
+    "Olmaliqqa",
+    "Buxoroga"
+   ],
+   "correct_index": 0,
+   "page": 63
+  },
+  {
+   "question": "Mo'g'ullar saltanati poytaxti qaysi shahar edi?",
+   "options": [
+    "Samarqand",
+    "Olmaliq",
+    "Pekin",
+    "Qoraqurum"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Chingizxon hududni nechta o'g'li o'rtasida taqsimladi (4 ta)?",
+   "options": [
+    "Botu, Xuloku",
+    "Xubilay, Munke",
+    "Guyuk, Mengu",
+    "Jo'chi, Chig'atoy, O'qtoy, Tuli"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Markaziy hokimiyat mustahkamlanishiga qarshi chiqqan Qozonxonga qarshi isyonni kim boshladi?",
+   "options": [
+    "Amir Husayn",
+    "Hoji Barlos",
+    "Temur",
+    "Amir Qazag'on"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Qazag'on qo'shin to'plagan joy qayer?",
+   "options": [
+    "Samarqand",
+    "Amudaryo qirg'og'idagi Soli Saroy",
+    "Qarshi",
+    "Buxoro"
+   ],
+   "correct_index": 1,
+   "page": 63
+  },
+  {
+   "question": "Qazag'on 1345-yil kuzida qayerda qo'shin to'pladi?",
+   "options": [
+    "Kesh",
+    "Balx",
+    "Soli Saroy hududida",
+    "Termiz"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Qozonxon vafotidan keyin Movarounnahrdagi chig'atoylar hukmronligi nima bo'ldi?",
+   "options": [
+    "Kuchaydi",
+    "Davom etdi",
+    "Amalda tugadi",
+    "Kengaydi"
+   ],
+   "correct_index": 2,
+   "page": 64
+  },
+  {
+   "question": "Qazag'on davlat boshida turgan shaxs qanday atalgan?",
+   "options": [
+    "\"Xon\"",
+    "\"Sulton\"",
+    "\"Noyon\"",
+    "\"Ulus amiri\""
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Qazag'on nomigagina taxtga ko'targan xon qanday atalgan?",
+   "options": [
+    "Qonuniy xon",
+    "Ulug' xon",
+    "\"Qo'g'irchoq xon\", \"soxta xon\"",
+    "Sulton"
+   ],
+   "correct_index": 2,
+   "page": 64
+  },
+  {
+   "question": "Qazag'on birinchi soxta xon sifatida kimni taxtga ko'targan?",
+   "options": [
+    "Chig'atoy naslidan Bayonqulini",
+    "Qozonxonni",
+    "O'qtoy naslidan Donishmandchaxonni",
+    "Temurshohni"
+   ],
+   "correct_index": 2,
+   "page": 64
+  },
+  {
+   "question": "Qazag'on o'limidan keyin kim taxtni egalladi?",
+   "options": [
+    "Husayn",
+    "Hoji Barlos",
+    "Temur",
+    "O'g'li amirzoda Abdulloh"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Abdullohni taxtdan kim ag'dardi?",
+   "options": [
+    "Qozonxon",
+    "Tug'luq Temur",
+    "Husayn",
+    "Amir Hoji Barlos boshchiligidagi amirlar"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "1348-yilda sharqiy qismda kim hukmdor bo'ldi?",
+   "options": [
+    "Qozonxon",
+    "Bayonquli",
+    "Abdulloh",
+    "Tug'luq Temur"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Ulus rasman nechta qismga bo'lindi?",
+   "options": [
+    "Uchga",
+    "To'rtga",
+    "Beshga",
+    "Ikkiga"
+   ],
+   "correct_index": 3,
+   "page": 64
+  },
+  {
+   "question": "Qazag'on Donishmandchani nega o'ldirdi?",
+   "options": [
+    "Xiyonat uchun",
+    "Soliq uchun",
+    "O'qtoy naslidan degan ayb qo'yib",
+    "Din uchun"
+   ],
+   "correct_index": 2,
+   "page": 65
+  },
+  {
+   "question": "Qazag'on Donishmandchadan keyin kimni taxtga o'tqazdi?",
+   "options": [
+    "Temurshohni",
+    "Buzanni",
+    "Chig'atoy naslidan Bayonqulini",
+    "Tarmashirinni"
+   ],
+   "correct_index": 2,
+   "page": 65
+  },
+  {
+   "question": "Chig'atoy ulusida soliqlar ikki marta kimga to'langan?",
+   "options": [
+    "Faqat xonga",
+    "Faqat cherkovga",
+    "Ulus xonlari va mahalliy hukmdorlarga",
+    "Faqat qo'shinga"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Munke soliq va hashar ishlarini tartibga solish uchun nima chiqardi?",
+   "options": [
+    "Qonun",
+    "Farmon yasoq",
+    "Yorliq",
+    "Konstitutsiya"
+   ],
+   "correct_index": 2,
+   "page": 66
+  },
+  {
+   "question": "Yomlar nima?",
+   "options": [
+    "Pochta xizmati bekatlari",
+    "Soliq turi",
+    "Qal'a",
+    "Savdo yo'li"
+   ],
+   "correct_index": 0,
+   "page": 66
+  },
+  {
+   "question": "Vaqf mulklaridan keladigan foydadan kimlar ta'minlangan?",
+   "options": [
+    "Faqat xon",
+    "Faqat qo'shin",
+    "Imom, shayx, mutavalli, muazzin, ustozlar, yetimlar",
+    "Faqat savdogarlar"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Vaqf xonaqolari kimlarni himoya qilgan?",
+   "options": [
+    "Boylarni",
+    "Askarlarni",
+    "Savdogarlarni",
+    "Kambag'allar va musofirlarni"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "Chig'atoy xonlaridan birinchi musulmon bo'lgan kim?",
+   "options": [
+    "Muborakshoh",
+    "Tarmashirin",
+    "Kebek",
+    "Buzan"
+   ],
+   "correct_index": 0,
+   "page": 68
+  },
+  {
+   "question": "Munkaxonning onasi Buxoroda qaysi madrasani qurgan?",
+   "options": [
+    "\"Mir Arab\"",
+    "\"Ulug'bek\"",
+    "\"Kukaldosh\"",
+    "\"Xoniya\""
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Xoja Ali Romitaniy naqshbandiya silsilasida nechanchi maqomda zikr qilingan?",
+   "options": [
+    "1-maqomda",
+    "5-maqomda",
+    "20-maqomda",
+    "12-maqomda"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Boshlang'ich maktablar VIII-IX asrlardan qanday atalgan?",
+   "options": [
+    "Madrasalar",
+    "Kattoblar",
+    "Xonaqolar",
+    "Ribotlar"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "\"Kataba\" arabcha qanday ma'noda?",
+   "options": [
+    "O'qimoq",
+    "Yozmoq",
+    "Aytmoq",
+    "Eshitmoq"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "Madrasa so'zi qaysi so'zdan?",
+   "options": [
+    "\"Darasa\" (dars olmoq)",
+    "\"Kataba\"",
+    "\"Salom\"",
+    "\"Ilm\""
+   ],
+   "correct_index": 0,
+   "page": 69
+  },
+  {
+   "question": "Samarqanddagi Tamg'achxon madrasasida talaba maoshi nimaga qarab belgilangan?",
+   "options": [
+    "Yoshiga",
+    "Boyligiga",
+    "Sinfiga",
+    "Darsni o'zlashtirishiga qarab"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Maktablarning maqsadi nima edi?",
+   "options": [
+    "Faqat savdo",
+    "Faqat harbiy ish",
+    "O'qish-yozish va islom asoslarini o'rgatish",
+    "Faqat hunar"
+   ],
+   "correct_index": 2,
+   "page": 69
   }
  ]
 }

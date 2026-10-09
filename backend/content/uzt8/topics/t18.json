@@ -197,6 +197,391 @@
  ],
  "exam_bank": [
   {
+   "question": "Ulug'bek qo'shin miqdorini ko'paytirib ko'rsatish uchun nima qildi?",
+   "options": [
+    "Nog'ora chaldi",
+    "Bayroq osdi",
+    "Zahar tashladi",
+    "Har jangchi tunda besh yerda gulxan yoqdi"
+   ],
+   "correct_index": 3,
+   "page": 150
+  },
+  {
+   "question": "Bu hiyla qanday nomlanadi?",
+   "options": [
+    "Pistirma",
+    "Soxta chekinish",
+    "Arg'ay o't",
+    "Tungi hujum"
+   ],
+   "correct_index": 2,
+   "page": 150
+  },
+  {
+   "question": "\"Arg'ay o't\" so'zi nimani anglatadi?",
+   "options": [
+    "\"Qo'shin\" va \"tun\"",
+    "\"Aldash\" va \"olov\"",
+    "\"Tezlik\"",
+    "\"Qasam\""
+   ],
+   "correct_index": 1,
+   "page": 150
+  },
+  {
+   "question": "Qoyatosh bitigi qaysi darada?",
+   "options": [
+    "Jizzax yaqinidagi Ilono'tdi darasida",
+    "Samarqandda",
+    "Buxoroda",
+    "Termizda"
+   ],
+   "correct_index": 0,
+   "page": 150
+  },
+  {
+   "question": "Shohrux qaysi yili vafot etdi?",
+   "options": [
+    "1405-yilda",
+    "1409-yilda",
+    "1447-yil 12-martda",
+    "1449-yilda"
+   ],
+   "correct_index": 2,
+   "page": 150
+  },
+  {
+   "question": "Shohruxdan keyin taxtni kim egalladi?",
+   "options": [
+    "Ulug'bek",
+    "Abdullatif",
+    "Boysung'ur",
+    "Alouddavla"
+   ],
+   "correct_index": 3,
+   "page": 150
+  },
+  {
+   "question": "Ulug'bek Abdullatifga nima bo'ldi (1447)?",
+   "options": [
+    "Abdullatif asirga olindi",
+    "O'ldirildi",
+    "Taxtga o'tirdi",
+    "Qochdi"
+   ],
+   "correct_index": 0,
+   "page": 150
+  },
+  {
+   "question": "Tamg'a solig'ini kim tikladi?",
+   "options": [
+    "Abdullatif",
+    "Ulug'bek",
+    "Shohrux",
+    "Temur"
+   ],
+   "correct_index": 1,
+   "page": 151
+  },
+  {
+   "question": "Ulug'bek tamg'a evaziga nimani kamaytirdi?",
+   "options": [
+    "Yer solig'ini",
+    "Savdo bojini",
+    "Zakotni",
+    "Hech narsa"
+   ],
+   "correct_index": 0,
+   "page": 151
+  },
+  {
+   "question": "Abdullatif boylarga nimani va'da qildi?",
+   "options": [
+    "Yer berishni",
+    "Qullar berishni",
+    "Tamg'a solig'ini bekor qilishni",
+    "Madrasa qurishni"
+   ],
+   "correct_index": 2,
+   "page": 151
+  },
+  {
+   "question": "Ulug'bek o'ldirilgandan keyin Samarqandda nima bekor qilindi?",
+   "options": [
+    "Tamg'a solig'i",
+    "Xiroj",
+    "Zakot",
+    "Vaqf"
+   ],
+   "correct_index": 0,
+   "page": 151
+  },
+  {
+   "question": "Abdullatif qaysi yili Amudaryodan o'tdi?",
+   "options": [
+    "1447-yilda",
+    "1425-yilda",
+    "1449-yilda",
+    "1409-yilda"
+   ],
+   "correct_index": 2,
+   "page": 151
+  },
+  {
+   "question": "Ulug'bek 1417-yilda qayerda madrasa qurdi?",
+   "options": [
+    "Buxoroda",
+    "Samarqandda",
+    "G'ijduvonda",
+    "Keshda"
+   ],
+   "correct_index": 0,
+   "page": 152
+  },
+  {
+   "question": "Ulug'bek 1433-yilda qayerda madrasa qurdi?",
+   "options": [
+    "Buxoroda",
+    "Samarqandda",
+    "G'ijduvonda",
+    "Keshda"
+   ],
+   "correct_index": 2,
+   "page": 152
+  },
+  {
+   "question": "Registon maydonida Ulug'bek madrasasidan tashqari nima bor edi?",
+   "options": [
+    "Xonaqoh, karvonsaroy, Muqatta masjidi",
+    "Faqat saroy",
+    "Rasadxona",
+    "Qal'a"
+   ],
+   "correct_index": 0,
+   "page": 152
+  },
+  {
+   "question": "Ko'kaldosh jome masjidi kim davrida bitkazildi?",
+   "options": [
+    "Temur",
+    "Shohrux",
+    "Abu Said",
+    "Ulug'bek"
+   ],
+   "correct_index": 3,
+   "page": 152
+  },
+  {
+   "question": "Samarqanddagi Chilustun va Chinnixona nima edi?",
+   "options": [
+    "Madrasalar",
+    "Saroylar",
+    "Masjidlar",
+    "Qal'alar"
+   ],
+   "correct_index": 1,
+   "page": 152
+  },
+  {
+   "question": "Shahrisabzdagi Ulug'bek davri masjidi qanday atalgan?",
+   "options": [
+    "Bibixonim",
+    "Registon",
+    "Ko'kaldosh",
+    "Ko'k gumbaz masjidi"
+   ],
+   "correct_index": 3,
+   "page": 152
+  },
+  {
+   "question": "Rasadxona qaysi yillarda qurilgan?",
+   "options": [
+    "1417-1420",
+    "1433-1434",
+    "1428-1429",
+    "1449-1450"
+   ],
+   "correct_index": 2,
+   "page": 158
+  },
+  {
+   "question": "Rasadxona qaysi tepalikda joylashgan?",
+   "options": [
+    "Afrosiyobda",
+    "Cho'ponotada",
+    "Ark yonida",
+    "Ko'hak tepaligida"
+   ],
+   "correct_index": 3,
+   "page": 158
+  },
+  {
+   "question": "Rasadxona balandligi qancha edi?",
+   "options": [
+    "31 metr",
+    "3 metr",
+    "310 metr",
+    "13 metr"
+   ],
+   "correct_index": 0,
+   "page": 158
+  },
+  {
+   "question": "Rasadxona nima bilan xalq orasida mashhur?",
+   "options": [
+    "\"Oqsaroy\"",
+    "\"Registon\"",
+    "\"Naqshi jahon\"",
+    "\"Bibixonim\""
+   ],
+   "correct_index": 2,
+   "page": 153
+  },
+  {
+   "question": "Sekstant nechanchi nom bilan ataladi?",
+   "options": [
+    "Zij",
+    "Sudxi faxriy",
+    "Usturlob",
+    "Globus"
+   ],
+   "correct_index": 1,
+   "page": 158
+  },
+  {
+   "question": "Rasadxona kutubxonasida necha jild kitob bor edi?",
+   "options": [
+    "150",
+    "1500",
+    "150 000",
+    "15 000"
+   ],
+   "correct_index": 3,
+   "page": 153
+  },
+  {
+   "question": "Rasadxonada ishlagan olimlardan kimlar?",
+   "options": [
+    "Beruniy, Sino",
+    "Xorazmiy, Farg'oniy",
+    "Temur, Shohrux",
+    "Qozizoda Rumiy, G'iyosiddin Jamshid Koshiy, Ali Qushchi"
+   ],
+   "correct_index": 3,
+   "page": 153
+  },
+  {
+   "question": "\"O'z davrining Ptolemeyi\" kim?",
+   "options": [
+    "Koshiy",
+    "Qozizoda",
+    "Jamshid",
+    "Ali Qushchi"
+   ],
+   "correct_index": 3,
+   "page": 153
+  },
+  {
+   "question": "Ulug'bek zijida nechta yulduz to'plami bor?",
+   "options": [
+    "1018 ta",
+    "108 ta",
+    "10 ta",
+    "5000 ta"
+   ],
+   "correct_index": 0,
+   "page": 154
+  },
+  {
+   "question": "Zij qaysi yili tuzilgan?",
+   "options": [
+    "1437-yilda",
+    "1417-yilda",
+    "1449-yilda",
+    "1405-yilda"
+   ],
+   "correct_index": 0,
+   "page": 154
+  },
+  {
+   "question": "\"Risolayi Ulug'bek\" qayerda saqlanadi?",
+   "options": [
+    "Samarqandda",
+    "Londonda",
+    "Hindistondagi Aligarx universiteti kutubxonasida",
+    "Parijda"
+   ],
+   "correct_index": 2,
+   "page": 154
+  },
+  {
+   "question": "\"Tarixi arba' ulus\" nima?",
+   "options": [
+    "\"Temur tarixi\"",
+    "\"Chingiz tarixi\"",
+    "\"Zafarnoma\"",
+    "\"To'rt ulus tarixi\""
+   ],
+   "correct_index": 3,
+   "page": 154
+  },
+  {
+   "question": "Ulug'bek π ni qancha aniqlikda hisoblagan?",
+   "options": [
+    "Taxminan",
+    "Hisoblamagan",
+    "Kam",
+    "Juda katta aniqlikda"
+   ],
+   "correct_index": 3,
+   "page": 155
+  },
+  {
+   "question": "Ikkinchi globusni kim yasagan?",
+   "options": [
+    "Yunon",
+    "Xitoy",
+    "Samarqand astronomlari",
+    "Arab"
+   ],
+   "correct_index": 2,
+   "page": 156
+  },
+  {
+   "question": "Samarqanddagi quyosh soati balandligi qancha edi?",
+   "options": [
+    "5 metr",
+    "500 metr",
+    "15 metr",
+    "50 metr"
+   ],
+   "correct_index": 3,
+   "page": 156
+  },
+  {
+   "question": "Ulug'bek madrasasi qaysi yili qurilishi tugayapti?",
+   "options": [
+    "1417-yilda",
+    "1433-yilda",
+    "1449-yilda",
+    "1420-yilda"
+   ],
+   "correct_index": 3,
+   "page": 158
+  },
+  {
+   "question": "Madrasa mudarrisi Mavlono Havofiy nima qilgan?",
+   "options": [
+    "Sotgan",
+    "Qochgan",
+    "Buzgan",
+    "Qurilishga ko'maklashib, bannolik qilgan"
+   ],
+   "correct_index": 3,
+   "page": 158
+  },
+  {
    "question": "Ulug'bek qaysi yillarda yashagan?",
    "options": [
     "1336-1405",
@@ -230,17 +615,6 @@
    "page": 150
   },
   {
-   "question": "Tamg'a solig'ini kim tikladi?",
-   "options": [
-    "Abdullatif",
-    "Ulug'bek",
-    "Shohrux",
-    "Temur"
-   ],
-   "correct_index": 1,
-   "page": 151
-  },
-  {
    "question": "Abdullatif boylarga nima va'da qilgan?",
    "options": [
     "Yer berishni",
@@ -269,17 +643,6 @@
     "1500",
     "150 000",
     "15 000 jild"
-   ],
-   "correct_index": 3,
-   "page": 153
-  },
-  {
-   "question": "\"O'z davrining Ptolemeyi\" kim?",
-   "options": [
-    "Koshiy",
-    "Qozizoda Rumiy",
-    "Jamshid",
-    "Ali Qushchi"
    ],
    "correct_index": 3,
    "page": 153
@@ -327,6 +690,94 @@
    ],
    "correct_index": 2,
    "page": 154
+  },
+  {
+   "question": "Sulton Husayn Mirzo qaysi yillarda yashagan?",
+   "options": [
+    "1394-1449",
+    "1336-1405",
+    "1441-1501",
+    "1438-1506"
+   ],
+   "correct_index": 3,
+   "page": 159
+  },
+  {
+   "question": "Husayn Mirzo qaysi yillarda Xuroson hukmdori bo'lgan?",
+   "options": [
+    "1405-1447",
+    "1370-1405",
+    "1469-1506",
+    "1447-1449"
+   ],
+   "correct_index": 2,
+   "page": 159
+  },
+  {
+   "question": "Husayn Mirzoning to'liq ismi nima?",
+   "options": [
+    "Husayn ibn Temur",
+    "Husayn ibn Mirzo G'iyosiddin Mansur ibn Mirzo Boyqaro",
+    "Husayn ibn Shohrux",
+    "Husayn ibn Ulug'bek"
+   ],
+   "correct_index": 1,
+   "page": 159
+  },
+  {
+   "question": "Husayn Mirzo qaysi temuriyning evarasi?",
+   "options": [
+    "Shohruxning",
+    "Mironshohning",
+    "Umarshayx Mirzoning",
+    "Ulug'bekning"
+   ],
+   "correct_index": 2,
+   "page": 159
+  },
+  {
+   "question": "Husayn Mirzoning onasi kim?",
+   "options": [
+    "Feruzabegim",
+    "Saroymulkxonim",
+    "Takina Xotun",
+    "Gavharshod"
+   ],
+   "correct_index": 0,
+   "page": 159
+  },
+  {
+   "question": "Feruzabegim kimning nabirasi?",
+   "options": [
+    "Shohruxning",
+    "Mironshohning",
+    "Ulug'bekning",
+    "Umarshaxning"
+   ],
+   "correct_index": 1,
+   "page": 159
+  },
+  {
+   "question": "Bobur uni qanday ta'riflagan?",
+   "options": [
+    "\"Jahongir\"",
+    "\"Karim ut-tarafayn\" - ikki tomonlama ulug'",
+    "\"Sohibqiron\"",
+    "\"Buyuk\""
+   ],
+   "correct_index": 1,
+   "page": 159
+  },
+  {
+   "question": "Husayn Mirzo qaysi sohada ijod qilgan?",
+   "options": [
+    "She'riyatda",
+    "Rassomlikda",
+    "Me'morlikda",
+    "Musiqada faqat"
+   ],
+   "correct_index": 0,
+   "page": 159
   }
  ]
 }

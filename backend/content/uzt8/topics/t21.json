@@ -146,6 +146,105 @@
  ],
  "exam_bank": [
   {
+   "question": "Madrasalarda diniy ilmlar bilan birga nima o'qitilgan?",
+   "options": [
+    "Faqat qurol",
+    "Handasa, algebra, mantiq, astronomiya, adabiyot, tarix",
+    "Savdo",
+    "Raqs"
+   ],
+   "correct_index": 1,
+   "page": 170
+  },
+  {
+   "question": "Madrasaga vaqf yerlar nima uchun ajratilgan?",
+   "options": [
+    "Savdo uchun",
+    "Qo'shin uchun",
+    "Mudarris maoshi, kutubxona va ta'mirlash uchun",
+    "Soliq uchun"
+   ],
+   "correct_index": 2,
+   "page": 170
+  },
+  {
+   "question": "Jamshid Koshiy qaysi sohada hissa qo'shgan?",
+   "options": [
+    "Tibbiyotda",
+    "Matematika va astronomiyada",
+    "She'riyatda",
+    "Me'morlikda"
+   ],
+   "correct_index": 1,
+   "page": 170
+  },
+  {
+   "question": "Samarqanddagi yirik kasalxona nomi?",
+   "options": [
+    "Bimoriston",
+    "Shifoiya",
+    "Nuriya",
+    "Dor ush-shifo"
+   ],
+   "correct_index": 3,
+   "page": 171
+  },
+  {
+   "question": "Dor ush-shifoga kim rahbarlik qilgan?",
+   "options": [
+    "Ibn Sino",
+    "Roziy",
+    "Beruniy",
+    "Mir Sayyid Sharif Sheroziy"
+   ],
+   "correct_index": 3,
+   "page": 171
+  },
+  {
+   "question": "Hakim, tabib, munajjim va muhandislar nima deb atalgan?",
+   "options": [
+    "\"Saltanat korxonasiga rivoj beruvchilar\"",
+    "\"Dushmanlar\"",
+    "\"Xizmatkorlar\"",
+    "\"Qullar\""
+   ],
+   "correct_index": 0,
+   "page": 171
+  },
+  {
+   "question": "Temur davrida tibbiyot qanday darajaga ko'tarilgan?",
+   "options": [
+    "Past",
+    "Mavjud emas",
+    "Faqat dori",
+    "Jasadni balzamlash usuligacha"
+   ],
+   "correct_index": 3,
+   "page": 171
+  },
+  {
+   "question": "Temur aholi orasida kasalliklar tarqalishiga qarshi nima qilgan?",
+   "options": [
+    "Yopib qo'ygan",
+    "Tashlab ketgan",
+    "E'tibor bermagan",
+    "Shaharlarni ozoda saqlash, toza suv bilan ta'minlash"
+   ],
+   "correct_index": 3,
+   "page": 171
+  },
+  {
+   "question": "Temur tabiblar haqida nima degan?",
+   "options": [
+    "\"Ular keraksiz\"",
+    "\"Qirib tashlang\"",
+    "\"Soliq soling\"",
+    "\"Hakimlar va tabiblar bilan ittifoqda bemorlarni davolatar edim\""
+   ],
+   "correct_index": 3,
+   "page": 171
+  },
+  {
    "question": "Qaysi hukmdorlar madrasalar qurdirgan?",
    "options": [
     "Faqat Temur",
@@ -198,17 +297,6 @@
     "Sarkarda"
    ],
    "correct_index": 1,
-   "page": 171
-  },
-  {
-   "question": "Temur tabiblar haqida nima degan?",
-   "options": [
-    "\"Ular keraksiz\"",
-    "\"Ularni quvib yuboring\"",
-    "\"Soliq soling\"",
-    "\"Hakimlar va tabiblar bilan ittifoqda bemorlarni davolatar edim\""
-   ],
-   "correct_index": 3,
    "page": 171
   },
   {

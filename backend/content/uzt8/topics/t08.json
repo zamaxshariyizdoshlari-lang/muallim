@@ -257,6 +257,314 @@
    ],
    "correct_index": 2,
    "page": 73
+  },
+  {
+   "question": "Jaloliddin Rumiy qaysi yillarda yashagan?",
+   "options": [
+    "1219-1293",
+    "1253-1325",
+    "1247-1326",
+    "1207-1272"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Jaloliddin Rumiy asli qaysi shahardan?",
+   "options": [
+    "Balxdan",
+    "Samarqanddan",
+    "Buxorodan",
+    "Urganchdan"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Rumiy qaysi davlatda umrining katta qismini o'tkazgan?",
+   "options": [
+    "Eronda",
+    "Misrda",
+    "Rum (Turkiya)da",
+    "Hindistonda"
+   ],
+   "correct_index": 2,
+   "page": 70
+  },
+  {
+   "question": "\"Rumiy\" nisbasi nimadan kelib chiqqan?",
+   "options": [
+    "Rum davlatida yashagani uchun",
+    "Rimdan kelgani uchun",
+    "Ismidan",
+    "Otasidan"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Rumiy kimning nabirasi bo'lgan?",
+   "options": [
+    "Chingizxonning",
+    "Temurning",
+    "Sulton Takishning",
+    "Ulug'bekning"
+   ],
+   "correct_index": 2,
+   "page": 70
+  },
+  {
+   "question": "\"Masnaviyi ma'naviy\" necha baytdan iborat?",
+   "options": [
+    "3600 bayt",
+    "360 ming bayt",
+    "3 ming bayt",
+    "36 ming bayt"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Rumiy qaysi shaharlar madrasalarida o'qigan?",
+   "options": [
+    "Samarqand, Buxoro",
+    "Halab, Damashq, Bag'dod",
+    "Qohira, Misr",
+    "Rim, Parij"
+   ],
+   "correct_index": 1,
+   "page": 70
+  },
+  {
+   "question": "Sa'diy Sheroziy qaysi yillarda yashagan?",
+   "options": [
+    "1207-1272",
+    "1253-1325",
+    "1247-1326",
+    "1219-1293"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Amir Xusrav Dehlaviy qaysi yillarda yashagan?",
+   "options": [
+    "1253-1325",
+    "1219-1293",
+    "1207-1272",
+    "1247-1326"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Amir Xusrav Dehlaviy qaysi asarlarni yozgan?",
+   "options": [
+    "\"Xamsa\", \"Xizrxon va Duvalrani\", \"G'oliblik kaliti\"",
+    "\"Masnaviy\"",
+    "\"Guliston\"",
+    "\"Siyosatnoma\""
+   ],
+   "correct_index": 0,
+   "page": 72
+  },
+  {
+   "question": "\"Guliston\" kimning asari?",
+   "options": [
+    "Rumiyning",
+    "Sa'diy Sheroziyning",
+    "Xusravning",
+    "Pahlavon Mahmudning"
+   ],
+   "correct_index": 1,
+   "page": 72
+  },
+  {
+   "question": "Tarixnavislar qaysilar?",
+   "options": [
+    "Rumiy, Sa'diy",
+    "Xorazmiy, Beruniy",
+    "Naqshband, Yassaviy",
+    "Juzjoniy, Otamalik, Rashiduddin, an-Nasaviy"
+   ],
+   "correct_index": 3,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud qaysi yillarda yashagan?",
+   "options": [
+    "1207-1272",
+    "1247-1326",
+    "1219-1293",
+    "1253-1325"
+   ],
+   "correct_index": 1,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud qanday laqab olgan?",
+   "options": [
+    "\"Sohibqiron\"",
+    "\"Puryovaliy\" (pahlavonlar boshlig'i)",
+    "\"Jahongir\"",
+    "\"Muallimi soniy\""
+   ],
+   "correct_index": 1,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud qaysi hunar egasi ham edi?",
+   "options": [
+    "Kulol",
+    "Zargar",
+    "Po'stindo'z va telpakdo'z",
+    "Misgar"
+   ],
+   "correct_index": 2,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud qaysi shaharda dafn etilgan?",
+   "options": [
+    "Xivada",
+    "Buxoroda",
+    "Samarqandda",
+    "Urganchda"
+   ],
+   "correct_index": 0,
+   "page": 73
+  },
+  {
+   "question": "Pahlavon Mahmud mukofotlarni kimlarga bergan?",
+   "options": [
+    "Hukmdorga",
+    "Savdogarlarga",
+    "Yetim-yesir va nogironlarga",
+    "Askarlarga"
+   ],
+   "correct_index": 2,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud nima barpo etdi?",
+   "options": [
+    "Qal'a",
+    "O'z hisobidan maqbara",
+    "Madrasa",
+    "Kutubxona"
+   ],
+   "correct_index": 1,
+   "page": 72
+  },
+  {
+   "question": "Pahlavon Mahmud qaysi turdagi she'rlari bilan mashhur?",
+   "options": [
+    "Dostonlari",
+    "G'azallari",
+    "Qissalari",
+    "Ruboiylari bilan"
+   ],
+   "correct_index": 3,
+   "page": 72
+  },
+  {
+   "question": "\"Qisasi Rabg'uziy\" kimning asari?",
+   "options": [
+    "Rumiyning",
+    "Sa'diyning",
+    "Nosiriddin Rabg'uziyning",
+    "Xusravning"
+   ],
+   "correct_index": 2,
+   "page": 72
+  },
+  {
+   "question": "Rabg'uziy qaysi asrlarda ijod qilgan?",
+   "options": [
+    "VIII asr",
+    "XVI asr",
+    "XIII asr oxiri - XIV asr boshi",
+    "X asr"
+   ],
+   "correct_index": 2,
+   "page": 72
+  },
+  {
+   "question": "Bahouddin Naqshband qaysi yillarda yashagan?",
+   "options": [
+    "1207-1272",
+    "1247-1326",
+    "1394-1449",
+    "1318-1389"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Naqshband nechanchi yilda tug'ilgan?",
+   "options": [
+    "1389-yilda",
+    "1247-yilda",
+    "1318-yilda",
+    "1219-yilda"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Naqshband nima uchun shunday laqab olgan?",
+   "options": [
+    "Qilich yasagani",
+    "Ko'za yasagani",
+    "Yoshligida matolarga naqsh solgani uchun",
+    "Kitob ko'chirgani"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Naqshbandiyaning shiori?",
+   "options": [
+    "\"Ilm olish farz\"",
+    "\"Dil ba yor-u dast ba kor\"",
+    "\"Yo Vatan, yo o'lim\"",
+    "\"Adolat saltanat\""
+   ],
+   "correct_index": 1,
+   "page": 73
+  },
+  {
+   "question": "\"Dil ba yor-u dast ba kor\" nimani anglatadi?",
+   "options": [
+    "Ko'ngling uyda",
+    "Qo'ling bo'sh",
+    "Tilingni tiy",
+    "Ko'ngling Allohda, qo'ling ishda"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Naqshband xalq orasida yana qanday nomlar bilan mashhur?",
+   "options": [
+    "Xoja Bahouddin, Balogardon, Xo'jayi Buzruk",
+    "Sohibqiron",
+    "Muallimi soniy",
+    "Shayxulislom"
+   ],
+   "correct_index": 0,
+   "page": 73
+  },
+  {
+   "question": "Naqshband hukmdorlarga nisbatan qanday bo'lgan?",
+   "options": [
+    "Yaqin bo'lgan",
+    "Maslahatchisi bo'lgan",
+    "Vaziri bo'lgan",
+    "O'zini yiroq tutgan, tamagirlik qilmagan"
+   ],
+   "correct_index": 3,
+   "page": 73
   }
  ]
 }

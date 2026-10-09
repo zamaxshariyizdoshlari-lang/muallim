@@ -264,6 +264,171 @@
    ],
    "correct_index": 1,
    "page": 112
+  },
+  {
+   "question": "Temur davrida savdogarlar qayerlarga bemalol borgan?",
+   "options": [
+    "Faqat Samarqandga",
+    "Xo'tan chegarasidan Dehli, Misr va Rumgacha",
+    "Faqat Hirotga",
+    "Faqat Keshga"
+   ],
+   "correct_index": 1,
+   "page": 112
+  },
+  {
+   "question": "Amir Temur Yevropaning qaysi qirollari bilan aloqa o'rnatdi?",
+   "options": [
+    "Fransiya, Angliya, Kastiliya",
+    "Rus, Polsha",
+    "Daniya, Shvetsiya",
+    "Portugaliya, Italiya"
+   ],
+   "correct_index": 0,
+   "page": 113
+  },
+  {
+   "question": "Temur Fransiya qiroli Karl VI ga nimani taklif qildi?",
+   "options": [
+    "Urushni",
+    "Savdogarlarni bir-biriga yuborishni",
+    "Taxtni",
+    "Tojni"
+   ],
+   "correct_index": 1,
+   "page": 113
+  },
+  {
+   "question": "Anqara g'alabasi natijasida Konstantinopol qamali qancha to'xtadi?",
+   "options": [
+    "Bir yilga",
+    "Ellik yilga",
+    "Besh yilga",
+    "Yuz yilga"
+   ],
+   "correct_index": 1,
+   "page": 114
+  },
+  {
+   "question": "Evropada Temurni qanday ulug'lagan?",
+   "options": [
+    "\"Jahongir\"",
+    "\"Qasoskor\"",
+    "\"Dunyo hukmdori\"",
+    "\"Evropaning xaloskori\""
+   ],
+   "correct_index": 3,
+   "page": 114
+  },
+  {
+   "question": "Temur Angliya qiroli Genrix IV ga maktub qaysi yili yo'lladi?",
+   "options": [
+    "1395-yilda",
+    "1399-yilda",
+    "1405-yilda",
+    "1402-yil yozida (1403-yil may Parijga yetdi)"
+   ],
+   "correct_index": 3,
+   "page": 114
+  },
+  {
+   "question": "Kastiliya qiroli Genrix III qaysi yili elchilarni yubordi?",
+   "options": [
+    "1395-yilda",
+    "1402-yil bahorida",
+    "1399-yilda",
+    "1405-yilda"
+   ],
+   "correct_index": 1,
+   "page": 115
+  },
+  {
+   "question": "Genrix III ikkinchi elchisi kim edi?",
+   "options": [
+    "Ioann Grinlo",
+    "Muhammadqozi",
+    "Shomiy",
+    "Rui Gonsales de Klavixo"
+   ],
+   "correct_index": 3,
+   "page": 115
+  },
+  {
+   "question": "Muhammadqozi kim edi?",
+   "options": [
+    "Elchi ispan",
+    "Temurning Ispaniyaga yuborilgan elchisi",
+    "Rohib",
+    "Sarkarda"
+   ],
+   "correct_index": 1,
+   "page": 115
+  },
+  {
+   "question": "Ispan elchilari Samarqandda qaysi yili qabul qilindi?",
+   "options": [
+    "1404-yilda",
+    "1402-yilda",
+    "1405-yilda",
+    "1395-yilda"
+   ],
+   "correct_index": 0,
+   "page": 115
+  },
+  {
+   "question": "Temur Samarqand atrofidagi qishloqlarni nima deb atadi?",
+   "options": [
+    "Parij, London",
+    "Dimishq, Misr, Bag'dod, Sultoniya, Sheroz",
+    "Rim, Afina",
+    "Moskva, Kiyev"
+   ],
+   "correct_index": 1,
+   "page": 116
+  },
+  {
+   "question": "Xonbaliqdan Samarqandga nechta tuyalik karvon kelgan?",
+   "options": [
+    "80",
+    "8",
+    "800",
+    "8000"
+   ],
+   "correct_index": 2,
+   "page": 116
+  },
+  {
+   "question": "Temur qo'shinida qaysi urug' qo'mondonlik o'zagini tashkil etgan?",
+   "options": [
+    "Mang'it",
+    "Qo'ng'irot",
+    "Barlos",
+    "Qipchoq"
+   ],
+   "correct_index": 2,
+   "page": 117
+  },
+  {
+   "question": "Temur nima qilgan harbiy tizim?",
+   "options": [
+    "Yollanma qo'shin",
+    "Qat'iy tartib va intizomli qo'shin tuzgan",
+    "Xalq lashkari",
+    "Dengiz floti"
+   ],
+   "correct_index": 1,
+   "page": 117
+  },
+  {
+   "question": "Temur o'zga davlatlarga ayg'oqchilarni qanday niqobda yuborgan?",
+   "options": [
+    "Ritsar",
+    "Savdogar, shayx, darvish niqobida",
+    "Dehqon",
+    "Hunarmand"
+   ],
+   "correct_index": 1,
+   "page": 117
   }
  ]
 }

@@ -189,6 +189,182 @@
  ],
  "exam_bank": [
   {
+   "question": "Mashhadiy qaysi asarlarni kitob shakliga keltirgan?",
+   "options": [
+    "Qur'on",
+    "Zafarnoma",
+    "Boburnoma",
+    "Nizomiyning \"Maxzan ul-asror\"i, Hofiz va Navoiy devonlari"
+   ],
+   "correct_index": 3,
+   "page": 179
+  },
+  {
+   "question": "Mashhadiy oqqa ko'chirgan nechta asar saqlangan?",
+   "options": [
+    "5 ta",
+    "50 ta",
+    "500 ta",
+    "15 ta"
+   ],
+   "correct_index": 1,
+   "page": 179
+  },
+  {
+   "question": "Mashhadiy qog'ozni qanday rangda ishlashni maslahat bergan?",
+   "options": [
+    "Qora",
+    "Qizil",
+    "Nimtatir rangli (ko'z charchamasligi uchun)",
+    "Ko'k"
+   ],
+   "correct_index": 2,
+   "page": 179
+  },
+  {
+   "question": "Mashhadiyning mashhur so'zi?",
+   "options": [
+    "\"Xat tozaligi ruh tozaligidir\"",
+    "\"Ilm - nur\"",
+    "\"Adolat - asos\"",
+    "\"Sabr - kalit\""
+   ],
+   "correct_index": 0,
+   "page": 179
+  },
+  {
+   "question": "Samarqand va Hirotda nima tashkil etilgan?",
+   "options": [
+    "Zavodlar",
+    "Qal'alar",
+    "Kemalar",
+    "Miniatyura maktablari"
+   ],
+   "correct_index": 3,
+   "page": 180
+  },
+  {
+   "question": "\"Zafarnoma\" miniatyurasini kim boshlagan?",
+   "options": [
+    "Behzod",
+    "Mashhadiy",
+    "Mirak Naqqosh",
+    "Navoiy"
+   ],
+   "correct_index": 2,
+   "page": 180
+  },
+  {
+   "question": "Miniatyurani kim yakunlagan?",
+   "options": [
+    "Mirak",
+    "Mashhadiy",
+    "Boysung'ur",
+    "Behzod"
+   ],
+   "correct_index": 3,
+   "page": 180
+  },
+  {
+   "question": "Musavvirlar kimlarning asarlariga rasm ishlagan?",
+   "options": [
+    "Faqat Qur'on",
+    "Faqat tarix",
+    "Firdavsiy, Nizomiy, Dehlaviy, Jomiy, Navoiy",
+    "Faqat tibbiyot"
+   ],
+   "correct_index": 2,
+   "page": 180
+  },
+  {
+   "question": "Behzod qaysi yili tug'ilgan?",
+   "options": [
+    "1394-yilda",
+    "1441-yilda",
+    "1455-yilda",
+    "1535-yilda"
+   ],
+   "correct_index": 2,
+   "page": 181
+  },
+  {
+   "question": "Behzod qayerda vafot etgan?",
+   "options": [
+    "Tabrizda",
+    "Hirotda",
+    "Samarqandda",
+    "Buxoroda"
+   ],
+   "correct_index": 0,
+   "page": 181
+  },
+  {
+   "question": "Behzod qaysi hukmdor saroyi rassomi edi?",
+   "options": [
+    "Sulton Husayn Mirzo",
+    "Ulug'bek",
+    "Shohrux",
+    "Temur"
+   ],
+   "correct_index": 0,
+   "page": 181
+  },
+  {
+   "question": "Behzodning dunyoqarashiga kim katta ta'sir ko'rsatgan?",
+   "options": [
+    "Alisher Navoiy",
+    "Ulug'bek",
+    "Temur",
+    "Jomiy"
+   ],
+   "correct_index": 0,
+   "page": 181
+  },
+  {
+   "question": "Behzod qanday lavozimda bo'lgan?",
+   "options": [
+    "Vazir",
+    "Kitobdor va Hirot musavvirlar ustaxonasi bosh musavviri",
+    "Sarkarda",
+    "Qozi"
+   ],
+   "correct_index": 1,
+   "page": 181
+  },
+  {
+   "question": "Qabrtoshlar nimadan ishlangan?",
+   "options": [
+    "Yog'ochdan",
+    "Temirdan",
+    "Bo'z rangli marmardan va noyob toshlardan",
+    "Loydan"
+   ],
+   "correct_index": 2,
+   "page": 183
+  },
+  {
+   "question": "Yog'och o'ymakorligi qaysi maqbaralarda uchraydi?",
+   "options": [
+    "Go'ri Amir, Shohizinda, Yassaviy",
+    "Qal'alarda",
+    "Saroylarda faqat",
+    "Bozorlarda"
+   ],
+   "correct_index": 0,
+   "page": 183
+  },
+  {
+   "question": "Metall idishlar nimadan ishlangan?",
+   "options": [
+    "Faqat oltin",
+    "Oltinsimon bronza, latun, qizil misdan",
+    "Faqat temir",
+    "Faqat kumush"
+   ],
+   "correct_index": 1,
+   "page": 184
+  },
+  {
    "question": "Amir Temur davrida mashhur xattotlardan biri kim?",
    "options": [
     "Behzod",
@@ -209,17 +385,6 @@
    ],
    "correct_index": 2,
    "page": 178
-  },
-  {
-   "question": "Mashhadiy qog'ozni qanday rangda ishlashni maslahat bergan?",
-   "options": [
-    "Qora qog'ozda",
-    "Qizil qog'ozda",
-    "Nimtatir rangli qog'ozda (ko'z charchamasligi uchun)",
-    "Ko'k qog'ozda"
-   ],
-   "correct_index": 2,
-   "page": 179
   },
   {
    "question": "Mashhadiyning so'zi qaysi?",
@@ -277,17 +442,6 @@
    "page": 181
   },
   {
-   "question": "Qabrtoshlar nimadan ishlangan?",
-   "options": [
-    "Yog'ochdan",
-    "Temirdan",
-    "Bo'z rangli marmardan va noyob toshlardan",
-    "Loydan"
-   ],
-   "correct_index": 2,
-   "page": 183
-  },
-  {
    "question": "Metall idishlar qaysi metalldan ishlangan?",
    "options": [
     "Oltinsimon bronza, latun, qizil mis",
@@ -297,6 +451,105 @@
    ],
    "correct_index": 0,
    "page": 184
+  },
+  {
+   "question": "Navoiy qaysi yili tug'ilgan?",
+   "options": [
+    "1441-yil 9-fevral",
+    "1405-yil",
+    "1469-yil",
+    "1506-yil"
+   ],
+   "correct_index": 0,
+   "page": 186
+  },
+  {
+   "question": "Navoiy qaysi shaharda tug'ilgan?",
+   "options": [
+    "Samarqandda",
+    "Buxoroda",
+    "Termizda",
+    "Hirotda"
+   ],
+   "correct_index": 3,
+   "page": 186
+  },
+  {
+   "question": "Navoiyni zamondoshlari qanday ataganlar?",
+   "options": [
+    "\"Sohibqiron\"",
+    "\"Nizomiddin Mir Alisher\"",
+    "\"Jahongir\"",
+    "\"Mirza\""
+   ],
+   "correct_index": 1,
+   "page": 186
+  },
+  {
+   "question": "Navoiyning otasi kim?",
+   "options": [
+    "Abusaid Chang",
+    "Mirzo Boyqaro",
+    "Pahlavon Muhammad",
+    "G'iyosiddin Muhammad"
+   ],
+   "correct_index": 3,
+   "page": 186
+  },
+  {
+   "question": "Navoiyning onasi kimning qizi?",
+   "options": [
+    "Husayning",
+    "Jomiyning",
+    "Boysung'urning",
+    "Shayx Abusaid Changning"
+   ],
+   "correct_index": 3,
+   "page": 186
+  },
+  {
+   "question": "Yosh Alisher qaysi hukmdor nazariga tushgan?",
+   "options": [
+    "Ali Yazdiy (ustozi)",
+    "Temur",
+    "Husayn",
+    "Ulug'bek"
+   ],
+   "correct_index": 0,
+   "page": 186
+  },
+  {
+   "question": "Navoiy kim bilan ijodiy hamkorlik qilgan?",
+   "options": [
+    "Behzod",
+    "Mashhadiy",
+    "Koshiy",
+    "Abdurahmon Jomiy"
+   ],
+   "correct_index": 3,
+   "page": 186
+  },
+  {
+   "question": "Navoiy ustozlari kimlar?",
+   "options": [
+    "Temur, Shohrux",
+    "Koshiy, Qushchi",
+    "Sayyid Hasan Ardasher, Pahlavon Muhammad",
+    "Rumiy, Sa'diy"
+   ],
+   "correct_index": 2,
+   "page": 186
+  },
+  {
+   "question": "Sulton Husayn Mirzo Hirotni qaysi yili qo'lga oldi?",
+   "options": [
+    "1441-yil",
+    "1469-yilning boshida",
+    "1472-yil",
+    "1506-yil"
+   ],
+   "correct_index": 1,
+   "page": 186
   }
  ]
 }

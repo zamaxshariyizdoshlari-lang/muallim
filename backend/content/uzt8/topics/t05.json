@@ -312,6 +312,358 @@
    ],
    "correct_index": 3,
    "page": 48
+  },
+  {
+   "question": "Sind daryosidan o'tgach Jaloliddin qaysi hukmdorni yengdi?",
+   "options": [
+    "Shatra hukmdorini",
+    "Dehli sultonini",
+    "Gang rojasini",
+    "Panjob rojasini"
+   ],
+   "correct_index": 0,
+   "page": 42
+  },
+  {
+   "question": "Shatra hukmdorining necha otliq jangchisi taslim bo'ldi?",
+   "options": [
+    "10 ta",
+    "100 ta",
+    "Mingta otliq va besh ming jangchi",
+    "50 ming"
+   ],
+   "correct_index": 2,
+   "page": 42
+  },
+  {
+   "question": "Eltutmish Jaloliddinga qanday javob yozdi?",
+   "options": [
+    "Urush e'lon qildi",
+    "Qarshi bo'lishni istamasligini bildirdi",
+    "Taxtni topshirdi",
+    "Qo'shin yubordi"
+   ],
+   "correct_index": 1,
+   "page": 42
+  },
+  {
+   "question": "Jaloliddin Hindistonda xutbaga nima qildi?",
+   "options": [
+    "Taqiqladi",
+    "O'zgartirmadi",
+    "Bekor qildi",
+    "Nomini qo'shib o'qittirdi"
+   ],
+   "correct_index": 3,
+   "page": 42
+  },
+  {
+   "question": "Jaloliddin Hindistonda qaysi tangalarni zarb ettirdi?",
+   "options": [
+    "Oltin",
+    "Qog'oz pul",
+    "Kumush va mis tangalarni",
+    "Hech"
+   ],
+   "correct_index": 2,
+   "page": 42
+  },
+  {
+   "question": "Jaloliddinning qaysi lashkarboshilari Eltutmish tomoniga o'tdi?",
+   "options": [
+    "Temur Malik",
+    "Amin Malik",
+    "Yazidak pahlavon va Sunqurjiq",
+    "Ig'roq"
+   ],
+   "correct_index": 2,
+   "page": 42
+  },
+  {
+   "question": "Jaloliddin Hindistondan Iroqqa qaysi yili o'tdi?",
+   "options": [
+    "1224-yilda",
+    "1221-yilda",
+    "1226-yilda",
+    "1231-yilda"
+   ],
+   "correct_index": 0,
+   "page": 43
+  },
+  {
+   "question": "Jaloliddin Iroqda qaysi shaharlarga bordi?",
+   "options": [
+    "Qohira, Damashq",
+    "Kirmon, Sheroz, Isfahon",
+    "Samarqand, Buxoro",
+    "Bag'dod, Misr"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Kirmon, Fors, Isfahon hukmdori kim edi?",
+   "options": [
+    "Amin Malik",
+    "Ukasi G'iyosiddin Pirshoh",
+    "Taynol",
+    "Eltutmish"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Mahalliy aholi Jaloliddinni qanday kutib oldi?",
+   "options": [
+    "Qarshilik qildi",
+    "Haydadi",
+    "Yaxshi kutib oldi",
+    "Befarq qoldi"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "G'iyosiddin davrida nima avjiga chiqqan edi?",
+   "options": [
+    "Adolat",
+    "O'zboshimchalik va zo'ravonlik",
+    "Savdo",
+    "Ilm"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Jaloliddin xalifa Nosirga nima so'radi?",
+   "options": [
+    "Soliq to'lashni",
+    "Taxtni",
+    "Qo'shin tarqatishni",
+    "Mo'g'ullarga qarshi birlashishni"
+   ],
+   "correct_index": 3,
+   "page": 43
+  },
+  {
+   "question": "Xalifa Nosir nimadan xavfsiragan?",
+   "options": [
+    "Mo'g'ullardan",
+    "Salibchilardan",
+    "Xorazmshohning kuchayishidan",
+    "Vizantiyadan"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "1226-yilda qaysi hududlar Jaloliddin qo'liga o'tdi?",
+   "options": [
+    "Ozarbayjon, Shirvon, Gurjiston",
+    "Misr",
+    "Suriya",
+    "Hindiston"
+   ],
+   "correct_index": 0,
+   "page": 44
+  },
+  {
+   "question": "Isfahon yaqinida 1227-yil sentyabrda kimni yengdi?",
+   "options": [
+    "Jebeni",
+    "Taynol no'yonni",
+    "Subutoyni",
+    "O'qtoyni"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Taynol Jaloliddin haqida nima dedi?",
+   "options": [
+    "\"Qochoq\"",
+    "\"Qo'rqoq\"",
+    "\"Hiylagar\"",
+    "\"Zamonasining haqiqiy bahodiri\""
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Ko'niya sultoni kim edi?",
+   "options": [
+    "Eltutmish",
+    "Nuriddin",
+    "Alouddin Kayqubod",
+    "Shirkuh"
+   ],
+   "correct_index": 2,
+   "page": 44
+  },
+  {
+   "question": "Jaloliddinning bosh vaziri kim edi?",
+   "options": [
+    "Amin Malik",
+    "Temur Malik",
+    "Taynol",
+    "Sharofulmulk"
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Jaloliddin 1225-yilda qaysi shaharni egalladi?",
+   "options": [
+    "Tabrizni",
+    "Isfahonni",
+    "Sheroz",
+    "Bag'dodni"
+   ],
+   "correct_index": 0,
+   "page": 45
+  },
+  {
+   "question": "Tabrizni kim boshqargan edi?",
+   "options": [
+    "Otabeg O'zbekning xotini - malika",
+    "G'iyosiddin",
+    "Taynol",
+    "Eltutmish"
+   ],
+   "correct_index": 0,
+   "page": 45
+  },
+  {
+   "question": "Malika Jaloliddindan nima so'radi?",
+   "options": [
+    "Pul",
+    "Qo'shin",
+    "Tojni",
+    "Xoy shahri berilishi sharti bilan Tabrizni topshirishni"
+   ],
+   "correct_index": 3,
+   "page": 45
+  },
+  {
+   "question": "Jaloliddin 1231-yil bahorida qaysi shaharga keldi?",
+   "options": [
+    "Tabrizga",
+    "Isfahonga",
+    "Bag'dodga",
+    "Ganjaga"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Jaloliddin avgust boshida qayerda mo'g'ullar hujumiga uchradi?",
+   "options": [
+    "Ganjada",
+    "Isfahonda",
+    "Tabrizda",
+    "Amid (Diyorbakr) yo'li yaqinida"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Jaloliddin qaysi qishloqqa kelib kurdlar qo'liga tushdi?",
+   "options": [
+    "Mayaforiqin yaqinidagi Ayndorga",
+    "Ganjaga",
+    "Tabrizga",
+    "Qoraxonga"
+   ],
+   "correct_index": 0,
+   "page": 46
+  },
+  {
+   "question": "Kurdlar rahbari Jaloliddinni nega o'ldirdi?",
+   "options": [
+    "Pul uchun",
+    "O'lgan inisi xuni evaziga",
+    "Mo'g'ullar buyrug'i",
+    "Din uchun"
+   ],
+   "correct_index": 1,
+   "page": 46
+  },
+  {
+   "question": "Jaloliddin qayerda dafn etilgan?",
+   "options": [
+    "Urganchda",
+    "Mayaforiqinda",
+    "Ganjada",
+    "Samarqandda"
+   ],
+   "correct_index": 1,
+   "page": 46
+  },
+  {
+   "question": "Damashq hokimi Malik Ashraf sulton halokati haqida nima dedi?",
+   "options": [
+    "Xursand bo'ldi",
+    "Befarq qoldi",
+    "Qasos oldi",
+    "Islom olamiga mo'g'ullar istilosi mashaqqat keltirishini aytdi"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Jaloliddin tavalludining 800 yilligi qaysi yili nishonlandi?",
+   "options": [
+    "1999-yil noyabrda",
+    "1941-yilda",
+    "2022-yilda",
+    "2000-yilda"
+   ],
+   "correct_index": 0,
+   "page": 48
+  },
+  {
+   "question": "\"Jaloliddin Manguberdi\" ordeni qaysi yili ta'sis etilgan?",
+   "options": [
+    "1999-yilda",
+    "2022-yilda",
+    "2000-yilda",
+    "1991-yilda"
+   ],
+   "correct_index": 2,
+   "page": 48
+  },
+  {
+   "question": "Jaloliddinning taxminiy qabri qayerda topilgan?",
+   "options": [
+    "Eronda",
+    "Iroqda",
+    "Hindistonda",
+    "Turkiyaning Silvan shahrida"
+   ],
+   "correct_index": 3,
+   "page": 48
+  },
+  {
+   "question": "Jaloliddinning harbiy hiylalaridan biri?",
+   "options": [
+    "Yengil qurollangan, tez harakat qiluvchi otliq qismlar",
+    "Og'ir zirhli piyoda",
+    "Flot",
+    "Fil"
+   ],
+   "correct_index": 0,
+   "page": 49
+  },
+  {
+   "question": "Jaloliddin jangda qayerda turgan?",
+   "options": [
+    "Orqada",
+    "Qanotda",
+    "Zaxirada",
+    "Doim qo'shin markazida"
+   ],
+   "correct_index": 3,
+   "page": 49
   }
  ]
 }

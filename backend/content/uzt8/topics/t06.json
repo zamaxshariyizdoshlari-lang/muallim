@@ -345,6 +345,424 @@
    ],
    "correct_index": 1,
    "page": 62
+  },
+  {
+   "question": "Mo'g'ullar istilosidan keyin Turon qaysi shaharlari xarobaga aylandi?",
+   "options": [
+    "Rim, Afina",
+    "Kiyev, Smolensk",
+    "Samarqand, Buxoro, Urganch, Xo'jand, Marv, Termiz, Balx",
+    "Parij, London"
+   ],
+   "correct_index": 2,
+   "page": 52
+  },
+  {
+   "question": "Marvdagi qaysi to'g'on buzildi?",
+   "options": [
+    "Bandi amir",
+    "Sultonband",
+    "Qo'rg'oshin nova",
+    "Buyuk kanal"
+   ],
+   "correct_index": 1,
+   "page": 52
+  },
+  {
+   "question": "Balxob daryosidagi to'g'on qanday atalgan?",
+   "options": [
+    "Sultonband",
+    "Jo'yi arziz",
+    "Eski Anhor",
+    "Bandi amir"
+   ],
+   "correct_index": 3,
+   "page": 52
+  },
+  {
+   "question": "Balx va atroflari qancha vaqt suv ofatini boshdan kechirdi?",
+   "options": [
+    "Bir hafta",
+    "Besh yil",
+    "Olti oy",
+    "O'n yil"
+   ],
+   "correct_index": 2,
+   "page": 52
+  },
+  {
+   "question": "Ulus so'zi nimani anglatadi?",
+   "options": [
+    "\"Qo'shin\"",
+    "\"Davlat\", \"xalq\", \"odamlar\"",
+    "\"Soliq\"",
+    "\"Shahar\""
+   ],
+   "correct_index": 1,
+   "page": 53
+  },
+  {
+   "question": "Chingizxon katta o'g'liga 1207-yilda qaysi hududni bergan?",
+   "options": [
+    "Selenga daryosidan Irtishgacha",
+    "Dunaygacha",
+    "Nilgacha",
+    "Gangaga"
+   ],
+   "correct_index": 0,
+   "page": 53
+  },
+  {
+   "question": "Chingizxon o'limidan oldin qaysi yili yerlarni bo'lib berdi?",
+   "options": [
+    "1206-yilda",
+    "1225-yil avgustda",
+    "1219-yilda",
+    "1227-yilda"
+   ],
+   "correct_index": 1,
+   "page": 53
+  },
+  {
+   "question": "Chig'atoy qaysi qishloqqa asos soldi?",
+   "options": [
+    "Qarshi",
+    "Kesh",
+    "Olmaliq yaqinida Qutlug'",
+    "Yangikent"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Chig'atoyni zamondoshlari qanday atagan?",
+   "options": [
+    "\"Buyuk\"",
+    "\"Sherdil\"",
+    "\"Fotih\"",
+    "\"Yasoq qo'riqchisi\" (yasovul)"
+   ],
+   "correct_index": 3,
+   "page": 54
+  },
+  {
+   "question": "Chig'atoy qaysi yili vafot etgan?",
+   "options": [
+    "1227-yilda",
+    "1242-yilda",
+    "1238-yilda",
+    "1260-yilda"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "Chig'atoy vorisi etib kimni tayinladi?",
+   "options": [
+    "Nabirasi Qora-Hulaguni",
+    "Yasu Munkeni",
+    "Olg'uni",
+    "Kebekni"
+   ],
+   "correct_index": 0,
+   "page": 55
+  },
+  {
+   "question": "1246-yilgi qurultoyda ulug' xon kim bo'ldi?",
+   "options": [
+    "Munke",
+    "O'qtoyning to'ng'ich o'g'li Guyuk",
+    "Xubilay",
+    "Qora-Hulagu"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "Guyuk Qora-Hulagu o'rniga kimni qo'ydi?",
+   "options": [
+    "Olg'uni",
+    "Tarmashirinni",
+    "Yasu Munkeni",
+    "Kebekni"
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Chig'atoy ulusini aslida kim boshqargan (Yasu Munke davrida)?",
+   "options": [
+    "Olg'u",
+    "Guyuk",
+    "Uning xotini Tukashi",
+    "Tulu"
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Olg'uxon Xorazmning bir qismi, Turkiston, Afg'onistonni qachon qo'lga kiritdi?",
+   "options": [
+    "Chingiz davrida",
+    "Temur davrida",
+    "Xubilay va Oriqbuqa urushlaridan foydalanib",
+    "Botu davrida"
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Movarounnahr boshqaruvini Chig'atoy kimga topshirdi?",
+   "options": [
+    "Mas'udbekka",
+    "Mahmud Yalavochga",
+    "Kebekxonga",
+    "Olg'uga"
+   ],
+   "correct_index": 1,
+   "page": 56
+  },
+  {
+   "question": "1238-yildan boshqaruv kimga o'tdi?",
+   "options": [
+    "Kebekxonga",
+    "Mas'udbekka",
+    "Olg'uga",
+    "Guyukka"
+   ],
+   "correct_index": 1,
+   "page": 56
+  },
+  {
+   "question": "Mahmud Yalavoch 1238-yildan qayerda gubernator bo'ldi?",
+   "options": [
+    "Samarqandda",
+    "Pekinda (1254-yilgacha)",
+    "Buxoroda",
+    "Qoraqurumda"
+   ],
+   "correct_index": 1,
+   "page": 56
+  },
+  {
+   "question": "1238-yilda Buxoroda kim qo'zg'olon ko'tardi?",
+   "options": [
+    "Temur Malik",
+    "Jaloliddin",
+    "Mas'udbek",
+    "Mahmud Torobiy"
+   ],
+   "correct_index": 3,
+   "page": 56
+  },
+  {
+   "question": "Xubilay Qoraqurumga nima qilishni cheklab qo'ydi?",
+   "options": [
+    "Oziq-ovqat yuborishni",
+    "Qurol yuborishni",
+    "Pul yuborishni",
+    "Elchi yuborishni"
+   ],
+   "correct_index": 0,
+   "page": 58
+  },
+  {
+   "question": "Olg'u qaysi yili ulus xoni etib tayinlandi?",
+   "options": [
+    "1260-yilda",
+    "1238-yilda",
+    "1242-yilda",
+    "1318-yilda"
+   ],
+   "correct_index": 0,
+   "page": 58
+  },
+  {
+   "question": "Kebekxon qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1260-1266",
+    "1318-1326",
+    "1326-1334",
+    "1309-1318"
+   ],
+   "correct_index": 1,
+   "page": 58
+  },
+  {
+   "question": "1309-yilgi qurultoyda taxtga kim chiqarildi?",
+   "options": [
+    "Kebekxon",
+    "Tarmashirin",
+    "Olg'u",
+    "Esan Buqa"
+   ],
+   "correct_index": 3,
+   "page": 58
+  },
+  {
+   "question": "Qarshi nomi qaysi so'zdan olingan?",
+   "options": [
+    "\"Qarshi\" (saroy, shoh qasri)",
+    "Shahar",
+    "Daryo",
+    "Qishloq"
+   ],
+   "correct_index": 0,
+   "page": 60
+  },
+  {
+   "question": "Kebekxon nimani qayta tikladi?",
+   "options": [
+    "Termizni",
+    "Marvni",
+    "Urganchni",
+    "Balx shahrini"
+   ],
+   "correct_index": 3,
+   "page": 60
+  },
+  {
+   "question": "Kebekxonning pul islohotida 1 dinor nechta dirhamga teng edi?",
+   "options": [
+    "1 dirham",
+    "6 dirham",
+    "10 dirham",
+    "12 dirham"
+   ],
+   "correct_index": 1,
+   "page": 60
+  },
+  {
+   "question": "Kebekxon qaysi davlatlar namunasida tanga zarb ettirdi?",
+   "options": [
+    "Oltin O'rda va Hulakular",
+    "Xitoy va Hindiston",
+    "Rim va Vizantiya",
+    "Misr va Suriya"
+   ],
+   "correct_index": 0,
+   "page": 60
+  },
+  {
+   "question": "Tarmashirin qabul qilgan musulmon ismi nima?",
+   "options": [
+    "Alp Arslon",
+    "Alouddavla",
+    "Aloiddin",
+    "Alouddin"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Tarmashiringa qanday unvon berildi?",
+   "options": [
+    "Amir",
+    "Xoqon",
+    "Bek",
+    "Sulton al-A'zam"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Tarmashirinni ko'rgan arab sayyohi kim?",
+   "options": [
+    "Ibn Battuta",
+    "Ibn Fadlan",
+    "Ibn Sino",
+    "Ma'sudiy"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Tarmashirin namozni qanday o'qigan?",
+   "options": [
+    "Doimo masjidda jamoat bilan",
+    "Uyda yolg'iz",
+    "Saroyda",
+    "Hech"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Tarmashiringa qarshi isyon ko'targan jiyani kim?",
+   "options": [
+    "Qozonxon",
+    "Buzan ibn Duva Temur",
+    "Kebek",
+    "Ali Sulton"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "Isyonchi amirlar nimadan norozi edi?",
+   "options": [
+    "Soliqdan",
+    "Dindan",
+    "Tarmashirin ularni dehqonchilikka majburlagani va yasoqni bekor qilganidan",
+    "Urushdan"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "Tarmashirin qaysi hududning noibi bo'lgan?",
+   "options": [
+    "Samarqand",
+    "G'azna",
+    "Balx",
+    "Buxoro"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "Buzan qaysi qoidalarni qayta joriy qildi?",
+   "options": [
+    "Shariat",
+    "Tuzuk",
+    "Yasoq qoidalarini",
+    "Qonunnoma"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "\"Qoraunas\" so'zi nimani anglatadi?",
+   "options": [
+    "Aralash (asl mo'g'ul bo'lmagan)",
+    "Qora tanli",
+    "Quyi tabaqa",
+    "Saroy a'yoni"
+   ],
+   "correct_index": 0,
+   "page": 62
+  },
+  {
+   "question": "\"Jete\" nimani anglatadi?",
+   "options": [
+    "Jangchi",
+    "Qaroqchi, talonchi",
+    "Savdogar",
+    "Elchi"
+   ],
+   "correct_index": 1,
+   "page": 62
+  },
+  {
+   "question": "Chingiz o'z farmoyishlaridan iborat qaysi kitobni tuzgan?",
+   "options": [
+    "\"Tuzuk\"",
+    "\"Yasoq\"",
+    "\"Qonunnoma\"",
+    "\"Shohnoma\""
+   ],
+   "correct_index": 1,
+   "page": 62
   }
  ]
 }

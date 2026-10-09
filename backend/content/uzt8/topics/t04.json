@@ -264,6 +264,303 @@
    ],
    "correct_index": 0,
    "page": 37
+  },
+  {
+   "question": "Jaloliddin Manguberdi mo'g'ullarga qarshi necha yil kurash olib bordi?",
+   "options": [
+    "3 yil",
+    "20 yil",
+    "1 yil",
+    "11 yil"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin necha marotaba mo'g'ullarga qarshi jang qildi?",
+   "options": [
+    "17 marta",
+    "7 marta",
+    "27 marta",
+    "3 marta"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Bu janglarning nechasida g'olib bo'ldi?",
+   "options": [
+    "4 tasida",
+    "17 tasida",
+    "14 tasida",
+    "1 tasida"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin qaysi o'lkalarda kurash olib bordi?",
+   "options": [
+    "Rus, Polsha",
+    "Misr, Suriya",
+    "Xuroson, Hindiston, Eron, Iroq, Kavkaz",
+    "Xitoy, Koreya"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin Urganchdan Nisoga necha kunda yetib keldi?",
+   "options": [
+    "2 kunda",
+    "16 kun ichida",
+    "1 oyda",
+    "1 yilda"
+   ],
+   "correct_index": 1,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin Urganchdan nechta kishi bilan chiqdi?",
+   "options": [
+    "30 kishi",
+    "300 kishi bilan",
+    "3000 kishi",
+    "30 000 kishi"
+   ],
+   "correct_index": 1,
+   "page": 37
+  },
+  {
+   "question": "Niso qo'rg'oni qayerda?",
+   "options": [
+    "Hozirgi Turkmanistonda",
+    "Qozog'istonda",
+    "Eronda",
+    "Hindistonda"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Niso yaqinida mo'g'ullar pistirmasi necha kishidan iborat edi?",
+   "options": [
+    "70 kishi",
+    "7000 kishi",
+    "700 kishi",
+    "7 kishi"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Nisodagi g'alaba qaysi yilning boshida bo'lgan?",
+   "options": [
+    "1219-yilda",
+    "1224-yilda",
+    "1221-yilning boshida",
+    "1231-yilda"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Nisodagi g'alaba qanday ta'sir ko'rsatdi?",
+   "options": [
+    "Urushni tugatdi",
+    "Chingizxonni o'ldirdi",
+    "Davlatni tikladi",
+    "Mo'g'ullarning yengilmasligi haqidagi mish-mishlarga chek qo'ydi"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin tashqi ko'rinishi qanday edi?",
+   "options": [
+    "Oq tanli",
+    "Bug'doyrang, o'rta bo'yli, turkiy qiyofali",
+    "Sariq sochli",
+    "Juda baland"
+   ],
+   "correct_index": 1,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin qaysi tillarda so'zlasha olgan?",
+   "options": [
+    "Faqat arab",
+    "Mo'g'ul",
+    "Lotin",
+    "Turkiy va forsiy"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Jaloliddin Valiyon qal'asi yonida kimni tor-mor etdi?",
+   "options": [
+    "Arab qo'shinini",
+    "Hind rojasini",
+    "Qal'ani qamal qilayotgan mo'g'ullarni",
+    "Vizantiyani"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Parvon jangi qaysi hududda bo'ldi?",
+   "options": [
+    "Samarqandda",
+    "G'azna yaqinidagi Kobul daryosi bo'yida",
+    "Urganchda",
+    "Tabrizda"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Parvon jangida mo'g'ul qo'shinini kim boshqardi?",
+   "options": [
+    "Jebe",
+    "Subutoy",
+    "Shiki Xutuxu no'yon",
+    "Taynol"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Shiki Xutuxu qo'shini necha kishi edi?",
+   "options": [
+    "4500",
+    "450 ming",
+    "45 ming",
+    "15 ming"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Parvon jangidan keyin lashkarboshilar o'rtasida nima boshlandi?",
+   "options": [
+    "Ittifoq",
+    "O'lja taqsimotidan kelishmovchilik",
+    "Din nizosi",
+    "Soliq nizosi"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Qo'shindan ajralgan lashkarboshilar kimlar?",
+   "options": [
+    "Amin Malik",
+    "Sayfiddin Ig'roq, A'zam Malik, Muzaffar Malik",
+    "Temur Malik",
+    "Xumortegin"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "O'ljalar orasida eng noyob ulush nima hisoblangan?",
+   "options": [
+    "Ot",
+    "Qilich",
+    "Oltin",
+    "Zirh"
+   ],
+   "correct_index": 0,
+   "page": 39
+  },
+  {
+   "question": "Amin Malik Sayfiddin Ig'roqqa nima qildi?",
+   "options": [
+    "Pichoq urdi",
+    "Boshiga qamchi urdi",
+    "Qilich uzatdi",
+    "Ot sovg'a qildi"
+   ],
+   "correct_index": 1,
+   "page": 39
+  },
+  {
+   "question": "Sayfiddin Ig'roq qaysi qabila yo'lboshchisi edi?",
+   "options": [
+    "Qipchoqlar",
+    "Mo'g'ullar",
+    "Arablar",
+    "Turkmanlar"
+   ],
+   "correct_index": 3,
+   "page": 39
+  },
+  {
+   "question": "Ig'roq ketgach, Jaloliddin qo'shini nima bo'ldi?",
+   "options": [
+    "Yarmiga qisqardi",
+    "Ikki barobar ko'paydi",
+    "O'zgarmadi",
+    "Yo'qoldi"
+   ],
+   "correct_index": 0,
+   "page": 40
+  },
+  {
+   "question": "Chingizxon Jaloliddinni qanday ta'qib qildi?",
+   "options": [
+    "Bir haftalik yo'lni ikki kunda bosib o'tib",
+    "Sekin",
+    "To'xtab",
+    "Dengiz orqali"
+   ],
+   "correct_index": 0,
+   "page": 40
+  },
+  {
+   "question": "Sind daryosi bo'yidagi jang qaysi yilning kech kuzida bo'lgan?",
+   "options": [
+    "1219-yilning",
+    "1224-yilning",
+    "1231-yilning",
+    "1221-yilning"
+   ],
+   "correct_index": 3,
+   "page": 40
+  },
+  {
+   "question": "Jangda Jaloliddin qaysi qismga rahbarlik qilgan?",
+   "options": [
+    "O'ng qanotga",
+    "So'l qanotga",
+    "Zaxiraga",
+    "Markazga"
+   ],
+   "correct_index": 3,
+   "page": 40
+  },
+  {
+   "question": "Jangni nima hal qildi?",
+   "options": [
+    "Dengiz",
+    "Qor",
+    "Chingizxonning 10 ming kishilik zaxira qo'shini",
+    "Yomg'ir"
+   ],
+   "correct_index": 2,
+   "page": 40
+  },
+  {
+   "question": "Jaloliddin Sind daryosiga qanday o'tdi?",
+   "options": [
+    "Kemada",
+    "Ko'prikdan",
+    "Suzib",
+    "Otda sakrab"
+   ],
+   "correct_index": 3,
+   "page": 40
   }
  ]
 }

@@ -207,6 +207,17 @@
  ],
  "exam_bank": [
   {
+   "question": "Qazag'on Qozonxonni yengdi, bu qaysi yili edi (Qarshi yaqinida)?",
+   "options": [
+    "1345-yil kuzida",
+    "1348-yilda",
+    "1358-yilda",
+    "1346-yil bahorida"
+   ],
+   "correct_index": 3,
+   "page": 77
+  },
+  {
    "question": "Amir Qazag'onning o'g'li kim edi?",
    "options": [
     "Amir Husayn",
@@ -337,6 +348,391 @@
    ],
    "correct_index": 0,
    "page": 83
+  },
+  {
+   "question": "XIV asr 40-50-yillarida Chig'atoy ulusida nima hukm surdi?",
+   "options": [
+    "Tinchlik",
+    "O'zaro parokandalik va o'zboshimchalik",
+    "Birlik",
+    "Farovonlik"
+   ],
+   "correct_index": 1,
+   "page": 76
+  },
+  {
+   "question": "Mo'g'ul xoni Qozonxon hokimiyatni qanday idora qilgan?",
+   "options": [
+    "Yumshoqlik bilan",
+    "Adolat bilan",
+    "Qattiqqo'llik bilan",
+    "Erkin"
+   ],
+   "correct_index": 2,
+   "page": 76
+  },
+  {
+   "question": "Ko'plab amaldorlar kimning huzuriga qochib o'ta boshladi?",
+   "options": [
+    "Temurga",
+    "Husaynga",
+    "Amir Qazag'onning huzuriga, Soli Saroyga",
+    "Tug'luq Temurga"
+   ],
+   "correct_index": 2,
+   "page": 76
+  },
+  {
+   "question": "Qazag'on qaysi yili fitnachilar tomonidan o'ldirildi?",
+   "options": [
+    "1358-yil qishida",
+    "1346-yilda",
+    "1348-yilda",
+    "1360-yilda"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Bayonquli qaysi yillarda xon bo'lgan?",
+   "options": [
+    "1358-1360",
+    "1348-1358",
+    "1346-1348",
+    "1360-1370"
+   ],
+   "correct_index": 1,
+   "page": 77
+  },
+  {
+   "question": "Hisor hokimi kim edi?",
+   "options": [
+    "Hoji Barlos",
+    "Temur",
+    "Husayn",
+    "Bayon suldus"
+   ],
+   "correct_index": 3,
+   "page": 77
+  },
+  {
+   "question": "Kesh hokimi kim edi?",
+   "options": [
+    "Hoji Barlos",
+    "Bayon suldus",
+    "Husayn",
+    "Qazag'on"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Temurshoh qancha vaqt hukmronlik qildi?",
+   "options": [
+    "Yigirma yil",
+    "Yarim yil",
+    "Besh yil",
+    "Ikki yilga yaqin"
+   ],
+   "correct_index": 3,
+   "page": 77
+  },
+  {
+   "question": "Temurshoh davrida ulus nima bo'ldi?",
+   "options": [
+    "Mayda bekliklarga bo'linib ketdi",
+    "Birlashdi",
+    "Kengaydi",
+    "Yagona qoldi"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Tug'luq Temur Movarounnahrga qaerdan bostirib kirdi?",
+   "options": [
+    "Mo'g'ulistondan",
+    "Hindistondan",
+    "Eronda",
+    "Misrdan"
+   ],
+   "correct_index": 0,
+   "page": 77
+  },
+  {
+   "question": "Tug'luq Temurni xon deb kim e'lon qildi?",
+   "options": [
+    "Amir Temur",
+    "Qazag'on",
+    "Papa",
+    "Mo'g'ulistondagi nufuzli mo'g'ul amirlari"
+   ],
+   "correct_index": 3,
+   "page": 78
+  },
+  {
+   "question": "Tug'luq Temurning yurishi qaysi yilda bo'lgan?",
+   "options": [
+    "1346-yil",
+    "1365-yil",
+    "1370-yil",
+    "1360-yil fevral-mart"
+   ],
+   "correct_index": 3,
+   "page": 78
+  },
+  {
+   "question": "Manbalarda ilk marta Amir Temur nomi qaysi voqea munosabati bilan tilga olinadi?",
+   "options": [
+    "Loy jangi",
+    "Balx qamali",
+    "Tug'luq Temur yurishi",
+    "Sarbadorlar"
+   ],
+   "correct_index": 2,
+   "page": 78
+  },
+  {
+   "question": "Amir Temur dorug'a bo'lganda necha yoshda edi?",
+   "options": [
+    "14 yoshda",
+    "34 yoshda",
+    "24 yoshda",
+    "44 yoshda"
+   ],
+   "correct_index": 2,
+   "page": 78
+  },
+  {
+   "question": "Amir Temur qayerda tug'ilgan?",
+   "options": [
+    "Yakkabog' tumani, Xo'ja Ilg'or qishlog'ida",
+    "Samarqandda",
+    "Buxoroda",
+    "Balxda"
+   ],
+   "correct_index": 0,
+   "page": 78
+  },
+  {
+   "question": "Amir Temur otasi kim edi?",
+   "options": [
+    "Hoji Barlos",
+    "Qazag'on",
+    "Husayn",
+    "Tarag'oy bahodir"
+   ],
+   "correct_index": 3,
+   "page": 78
+  },
+  {
+   "question": "Amir Temurning to'liq ismi nima?",
+   "options": [
+    "Temur Xon",
+    "Amir Temur ibn Amir Tarag'oy ibn Amir Barqul",
+    "Temur Beg",
+    "Temur Shoh"
+   ],
+   "correct_index": 1,
+   "page": 79
+  },
+  {
+   "question": "Amir Temur qachon tug'ilgan?",
+   "options": [
+    "1360-yil",
+    "1370-yil",
+    "1405-yil",
+    "1336-yil 9-aprelda"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Amir Temurning onasi kim?",
+   "options": [
+    "Saroymulkxonim",
+    "O'ljoy Turkon",
+    "Takina Xotun",
+    "Qutlug' Turkon"
+   ],
+   "correct_index": 2,
+   "page": 79
+  },
+  {
+   "question": "Amir Temur qaysi o'yinni yaxshi bilgan?",
+   "options": [
+    "Polo",
+    "Futbol",
+    "Tennis",
+    "Shaxmat"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "\"Temur shaxmati\" nima?",
+   "options": [
+    "Cho'p o'yini",
+    "Kartochka",
+    "Amir Temur kashf etgan shaxmat turi",
+    "Raqs"
+   ],
+   "correct_index": 2,
+   "page": 79
+  },
+  {
+   "question": "Amir Temur qaysi urug'dan?",
+   "options": [
+    "Mang'it",
+    "Qo'ng'irot",
+    "Barlos",
+    "Jalayir"
+   ],
+   "correct_index": 2,
+   "page": 80
+  },
+  {
+   "question": "Amir Temur va Amir Husayn qanday qarindosh?",
+   "options": [
+    "Aka-uka",
+    "Temur Husaynning singlisi O'ljoy Turkonga uylangan",
+    "Amakivachcha",
+    "Qaynota-kuyov"
+   ],
+   "correct_index": 1,
+   "page": 81
+  },
+  {
+   "question": "Amir Husayn kimning nabirasi?",
+   "options": [
+    "Hoji Barlosning",
+    "Temurning",
+    "Bayonquli",
+    "Amir Qazag'onning"
+   ],
+   "correct_index": 3,
+   "page": 81
+  },
+  {
+   "question": "Seyistonda Temur qanday jarohat oldi?",
+   "options": [
+    "Qilichdan",
+    "Pichoqdan",
+    "O'ng qo'li va o'ng oyog'iga o'q tegdi, oqsoq bo'ldi",
+    "Zahar"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Seyistonga Temur kimning taklifi bilan bordi?",
+   "options": [
+    "Husaynning",
+    "Malik Qutbiddinning",
+    "Ilyosxo'janing",
+    "Tug'luq Temurning"
+   ],
+   "correct_index": 1,
+   "page": 81
+  },
+  {
+   "question": "Ilyosxo'ja kim?",
+   "options": [
+    "Qazag'onning o'g'li",
+    "Husaynning akasi",
+    "Temur o'g'li",
+    "Tug'luq Temurning o'g'li"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Loy nomi nimadan?",
+   "options": [
+    "Daryo",
+    "Shahar nomi",
+    "Qal'a",
+    "Yomg'irdan hosil bo'lgan loy"
+   ],
+   "correct_index": 3,
+   "page": 82
+  },
+  {
+   "question": "Ilyosxo'ja yomg'ir chaqirish marosimi nima deb atalgan?",
+   "options": [
+    "\"Yada\"",
+    "\"Navro'z\"",
+    "\"Qurultoy\"",
+    "\"Mehrjon\""
+   ],
+   "correct_index": 0,
+   "page": 82
+  },
+  {
+   "question": "Husayn nega Temurning chaqirig'iga quloq solmadi?",
+   "options": [
+    "Charchaganidan",
+    "Mo'g'ullarning soxta chekinish hiylasidan xavfsiraganidan",
+    "Qo'shini yo'qligidan",
+    "Temurni yoqtirmaganidan"
+   ],
+   "correct_index": 1,
+   "page": 82
+  },
+  {
+   "question": "Sarbadorlar Samarqandda kimning boshchiligida chiqdi?",
+   "options": [
+    "Temur",
+    "Mavlonozoda, Xurdak Buxoriy, Abu Bakr Kalaviy",
+    "Husayn",
+    "Qazag'on"
+   ],
+   "correct_index": 1,
+   "page": 83
+  },
+  {
+   "question": "Sarbador so'zi forschada nimani bildiradi?",
+   "options": [
+    "\"Qo'li qilichda\"",
+    "\"Yuragi toshda\"",
+    "\"Tili dorda\"",
+    "\"Boshi dorda\""
+   ],
+   "correct_index": 3,
+   "page": 84
+  },
+  {
+   "question": "Sarbadorlar davlatiga qaysi aka-uka asos solgan?",
+   "options": [
+    "Temur va Husayn",
+    "Jo'chi va Chig'atoy",
+    "Aloq va Suketu",
+    "Hasan Hamza va Husayn Hamza"
+   ],
+   "correct_index": 3,
+   "page": 84
+  },
+  {
+   "question": "Sarbadorlar davlatiga asos solingan qishloq qanday nomda?",
+   "options": [
+    "Boshtin",
+    "Sabzavor",
+    "Konigil",
+    "Kesh"
+   ],
+   "correct_index": 0,
+   "page": 84
+  },
+  {
+   "question": "Temur Mavlonozoda hayotini nega saqlab qoldi?",
+   "options": [
+    "Pul uchun",
+    "Do'stligi uchun",
+    "Sarbadorlar gunohsizligini ta'kidlab, adolat uchun",
+    "Qo'rqqani uchun"
+   ],
+   "correct_index": 2,
+   "page": 85
   }
  ]
 }

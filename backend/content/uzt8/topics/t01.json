@@ -243,6 +243,281 @@
    ],
    "correct_index": 0,
    "page": 10
+  },
+  {
+   "question": "Muhammad Xorazmshoh 1212-yilda kimning hukmronligiga chek qo'ydi?",
+   "options": [
+    "Saljuqiylarning",
+    "G'aznaviylarning",
+    "Qoraxoniylarning Movarounnahrdagi",
+    "Somoniylarning"
+   ],
+   "correct_index": 2,
+   "page": 9
+  },
+  {
+   "question": "Xorazmshoh qaysi viloyatlarni 1212-yilda egalladi?",
+   "options": [
+    "Misr, Suriya",
+    "Hindiston",
+    "Xuroson, Kirmon, Mikron, Baluchiston",
+    "Rus yerlari"
+   ],
+   "correct_index": 2,
+   "page": 9
+  },
+  {
+   "question": "1216-yilda qaysi hududlar qo'lga kiritildi?",
+   "options": [
+    "Samarqand, Buxoro",
+    "G'azna, G'ur, Bomiyon",
+    "Bag'dod, Damashq",
+    "Xitoy, Tibet"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "Davlat qaysi daryo bo'yigacha cho'zildi?",
+   "options": [
+    "Gang",
+    "Sind daryosi bo'yigacha",
+    "Nil",
+    "Volga"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "Davlat kimning hududi bilan bevosita chegaradosh bo'lib qoldi?",
+   "options": [
+    "Hindistonning",
+    "Xitoyning",
+    "Rusning",
+    "Vizantiyaning"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "1217-yilga kelib davlat qaysi dengizdan Hindistongacha cho'zildi?",
+   "options": [
+    "Qora dengizdan",
+    "Aral dengizidan",
+    "O'rta Yer dengizidan",
+    "Kaspiy dengizidan"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Sulton xalifa nomini nimadan chiqarib tashlashni buyurdi?",
+   "options": [
+    "Xutbadan",
+    "Tangadan",
+    "Hujjatdan",
+    "Qo'shin ro'yxatidan"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Muhammad Xorazmshoh qaysi shaharni poytaxt qildi?",
+   "options": [
+    "Urganchni",
+    "Buxoroni",
+    "Bag'dodni",
+    "Samarqandni"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Xalifa Chingizxon saroyiga kimni yubordi?",
+   "options": [
+    "Maxfiy elchini",
+    "Qo'shin",
+    "Sarkardani",
+    "Vazirni"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Muntazam qo'shin asosan qaysi qabilalardan iborat edi?",
+   "options": [
+    "Qang'li-qipchoq va turkmanlar",
+    "Arablar",
+    "Forslar",
+    "Mo'g'ullar"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "\"Lashkari berun\" nima edi?",
+   "options": [
+    "Muntazam armiya",
+    "Tansoqchilar",
+    "Dengiz floti",
+    "Nomuntazam armiya"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Xorazmshoh qo'shini asosan qanday edi?",
+   "options": [
+    "Otliqlardan iborat",
+    "Piyodalardan",
+    "Fillardan",
+    "Dengizchilardan"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Xaros qismi kimlardan iborat edi?",
+   "options": [
+    "Qipchoqlardan",
+    "Turkmanlardan",
+    "10 ming mamlukdan (jangchi qullardan)",
+    "Mo'g'ullardan"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Qo'shin jangovar tartibi nechta qismdan iborat edi?",
+   "options": [
+    "Ikki",
+    "Uch",
+    "To'rt qismdan",
+    "Olti"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Avang'or qo'shinning qaysi qismi?",
+   "options": [
+    "O'ng qanoti",
+    "So'l qanoti",
+    "Oldingi qismi",
+    "Zaxirasi"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "O'ng qanot nima deb atalgan?",
+   "options": [
+    "Maymana",
+    "Maysara",
+    "Qalb",
+    "Muqaddam"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "So'l qanot nima deb atalgan?",
+   "options": [
+    "Maysara",
+    "Maymana",
+    "Qalb",
+    "Xofiya"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Markaz nima deb atalgan?",
+   "options": [
+    "Qalb",
+    "Maymana",
+    "Maysara",
+    "Muqaddam"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Zaxira rolini bajaruvchi qism nima edi?",
+   "options": [
+    "Xaros",
+    "Avang'or",
+    "Xofiya",
+    "Qalb"
+   ],
+   "correct_index": 2,
+   "page": 11
+  },
+  {
+   "question": "Tosh irg'ituvchi qurol nima deb atalgan?",
+   "options": [
+    "Manjaniq (katapulta)",
+    "Mataris",
+    "Jamoluqot",
+    "Salolim"
+   ],
+   "correct_index": 0,
+   "page": 11
+  },
+  {
+   "question": "Odimlovchi minoralar qanday atalgan?",
+   "options": [
+    "Dabbobat",
+    "Jamoluqot",
+    "Mataris",
+    "Salolim"
+   ],
+   "correct_index": 2,
+   "page": 11
+  },
+  {
+   "question": "Narvon nima deb atalgan?",
+   "options": [
+    "Shotilar (salolim)",
+    "Dabbobat",
+    "Mataris",
+    "Manjaniq"
+   ],
+   "correct_index": 0,
+   "page": 11
+  },
+  {
+   "question": "Mamlakat chegaralarida nima bo'lgan?",
+   "options": [
+    "Burjli devorli tosh va xom g'ishtli shahar-qal'alar",
+    "Dengiz bandargohi",
+    "Faqat cho'l",
+    "Kutubxonalar"
+   ],
+   "correct_index": 0,
+   "page": 11
+  },
+  {
+   "question": "Turkon Xotun kim edi?",
+   "options": [
+    "Xotini",
+    "Qizi",
+    "Muhammad Xorazmshohning onasi",
+    "Singlisi"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Xorazmshoh davlatida ikki hokimlik tizimi nega paydo bo'ldi?",
+   "options": [
+    "Papa aralashuvi tufayli",
+    "Ikki poytaxt tufayli",
+    "Sulton va uning onasi Turkon Xotun hokimiyatda ishtirok etgani uchun",
+    "Ikki din tufayli"
+   ],
+   "correct_index": 2,
+   "page": 10
   }
  ]
 }

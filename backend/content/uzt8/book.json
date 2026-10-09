@@ -258,6 +258,281 @@
        ],
        "correct_index": 0,
        "page": 10
+      },
+      {
+       "question": "Muhammad Xorazmshoh 1212-yilda kimning hukmronligiga chek qo'ydi?",
+       "options": [
+        "Saljuqiylarning",
+        "G'aznaviylarning",
+        "Qoraxoniylarning Movarounnahrdagi",
+        "Somoniylarning"
+       ],
+       "correct_index": 2,
+       "page": 9
+      },
+      {
+       "question": "Xorazmshoh qaysi viloyatlarni 1212-yilda egalladi?",
+       "options": [
+        "Misr, Suriya",
+        "Hindiston",
+        "Xuroson, Kirmon, Mikron, Baluchiston",
+        "Rus yerlari"
+       ],
+       "correct_index": 2,
+       "page": 9
+      },
+      {
+       "question": "1216-yilda qaysi hududlar qo'lga kiritildi?",
+       "options": [
+        "Samarqand, Buxoro",
+        "G'azna, G'ur, Bomiyon",
+        "Bag'dod, Damashq",
+        "Xitoy, Tibet"
+       ],
+       "correct_index": 1,
+       "page": 9
+      },
+      {
+       "question": "Davlat qaysi daryo bo'yigacha cho'zildi?",
+       "options": [
+        "Gang",
+        "Sind daryosi bo'yigacha",
+        "Nil",
+        "Volga"
+       ],
+       "correct_index": 1,
+       "page": 9
+      },
+      {
+       "question": "Davlat kimning hududi bilan bevosita chegaradosh bo'lib qoldi?",
+       "options": [
+        "Hindistonning",
+        "Xitoyning",
+        "Rusning",
+        "Vizantiyaning"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "1217-yilga kelib davlat qaysi dengizdan Hindistongacha cho'zildi?",
+       "options": [
+        "Qora dengizdan",
+        "Aral dengizidan",
+        "O'rta Yer dengizidan",
+        "Kaspiy dengizidan"
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Sulton xalifa nomini nimadan chiqarib tashlashni buyurdi?",
+       "options": [
+        "Xutbadan",
+        "Tangadan",
+        "Hujjatdan",
+        "Qo'shin ro'yxatidan"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Muhammad Xorazmshoh qaysi shaharni poytaxt qildi?",
+       "options": [
+        "Urganchni",
+        "Buxoroni",
+        "Bag'dodni",
+        "Samarqandni"
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Xalifa Chingizxon saroyiga kimni yubordi?",
+       "options": [
+        "Maxfiy elchini",
+        "Qo'shin",
+        "Sarkardani",
+        "Vazirni"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Muntazam qo'shin asosan qaysi qabilalardan iborat edi?",
+       "options": [
+        "Qang'li-qipchoq va turkmanlar",
+        "Arablar",
+        "Forslar",
+        "Mo'g'ullar"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "\"Lashkari berun\" nima edi?",
+       "options": [
+        "Muntazam armiya",
+        "Tansoqchilar",
+        "Dengiz floti",
+        "Nomuntazam armiya"
+       ],
+       "correct_index": 3,
+       "page": 10
+      },
+      {
+       "question": "Xorazmshoh qo'shini asosan qanday edi?",
+       "options": [
+        "Otliqlardan iborat",
+        "Piyodalardan",
+        "Fillardan",
+        "Dengizchilardan"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Xaros qismi kimlardan iborat edi?",
+       "options": [
+        "Qipchoqlardan",
+        "Turkmanlardan",
+        "10 ming mamlukdan (jangchi qullardan)",
+        "Mo'g'ullardan"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Qo'shin jangovar tartibi nechta qismdan iborat edi?",
+       "options": [
+        "Ikki",
+        "Uch",
+        "To'rt qismdan",
+        "Olti"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Avang'or qo'shinning qaysi qismi?",
+       "options": [
+        "O'ng qanoti",
+        "So'l qanoti",
+        "Oldingi qismi",
+        "Zaxirasi"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "O'ng qanot nima deb atalgan?",
+       "options": [
+        "Maymana",
+        "Maysara",
+        "Qalb",
+        "Muqaddam"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "So'l qanot nima deb atalgan?",
+       "options": [
+        "Maysara",
+        "Maymana",
+        "Qalb",
+        "Xofiya"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Markaz nima deb atalgan?",
+       "options": [
+        "Qalb",
+        "Maymana",
+        "Maysara",
+        "Muqaddam"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Zaxira rolini bajaruvchi qism nima edi?",
+       "options": [
+        "Xaros",
+        "Avang'or",
+        "Xofiya",
+        "Qalb"
+       ],
+       "correct_index": 2,
+       "page": 11
+      },
+      {
+       "question": "Tosh irg'ituvchi qurol nima deb atalgan?",
+       "options": [
+        "Manjaniq (katapulta)",
+        "Mataris",
+        "Jamoluqot",
+        "Salolim"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Odimlovchi minoralar qanday atalgan?",
+       "options": [
+        "Dabbobat",
+        "Jamoluqot",
+        "Mataris",
+        "Salolim"
+       ],
+       "correct_index": 2,
+       "page": 11
+      },
+      {
+       "question": "Narvon nima deb atalgan?",
+       "options": [
+        "Shotilar (salolim)",
+        "Dabbobat",
+        "Mataris",
+        "Manjaniq"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Mamlakat chegaralarida nima bo'lgan?",
+       "options": [
+        "Burjli devorli tosh va xom g'ishtli shahar-qal'alar",
+        "Dengiz bandargohi",
+        "Faqat cho'l",
+        "Kutubxonalar"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Turkon Xotun kim edi?",
+       "options": [
+        "Xotini",
+        "Qizi",
+        "Muhammad Xorazmshohning onasi",
+        "Singlisi"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Xorazmshoh davlatida ikki hokimlik tizimi nega paydo bo'ldi?",
+       "options": [
+        "Papa aralashuvi tufayli",
+        "Ikki poytaxt tufayli",
+        "Sulton va uning onasi Turkon Xotun hokimiyatda ishtirok etgani uchun",
+        "Ikki din tufayli"
+       ],
+       "correct_index": 2,
+       "page": 10
       }
      ]
     },
@@ -556,6 +831,292 @@
        ],
        "correct_index": 2,
        "page": 17
+      },
+      {
+       "question": "Temuchin nechanchi yilda ulug' xon bo'ldi?",
+       "options": [
+        "1155-yil",
+        "1218-yil",
+        "1224-yil",
+        "1206-yil"
+       ],
+       "correct_index": 3,
+       "page": 17
+      },
+      {
+       "question": "Chingizxon xos soqchilar qismini nima deb atagan?",
+       "options": [
+        "Kezik (keshik)",
+        "Xaros",
+        "Xofiya",
+        "Lashkari berun"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Kezik qismi nechta turk azamatidan iborat edi?",
+       "options": [
+        "1 ming",
+        "100 ming",
+        "10 ming",
+        "500"
+       ],
+       "correct_index": 2,
+       "page": 17
+      },
+      {
+       "question": "Mo'g'ullar 1218-1219-yillarda qaysi hududni birlashtirdi?",
+       "options": [
+        "Dunaygacha",
+        "Gobi sharqidan Tyanshan g'arbigacha bo'lgan viloyatlarni",
+        "Misrgacha",
+        "Hindistongacha"
+       ],
+       "correct_index": 1,
+       "page": 17
+      },
+      {
+       "question": "Mo'g'ullar jang paytida qanday safda tizilgan?",
+       "options": [
+        "Bir qator",
+        "Bir necha qator bo'lib, birinchi qatorda og'ir otliqlar",
+        "Dumaloq",
+        "Piyodalar oldinda"
+       ],
+       "correct_index": 1,
+       "page": 17
+      },
+      {
+       "question": "Mo'g'ullar jangda qaysi psixologik usuldan foydalangan?",
+       "options": [
+        "Hushtakli o'qlar yomg'iri",
+        "Qichqirish",
+        "Qo'ng'iroq",
+        "Nog'ora"
+       ],
+       "correct_index": 0,
+       "page": 17
+      },
+      {
+       "question": "Mo'g'ullarning asosiy taktik hiylasi nima edi?",
+       "options": [
+        "Tungi hujum",
+        "Zaharlash",
+        "Dengiz hujumi",
+        "Soxta chekinish"
+       ],
+       "correct_index": 3,
+       "page": 18
+      },
+      {
+       "question": "Jo'chixon kimni tor-mor qilib qaytayotgan edi?",
+       "options": [
+        "Naymanlarni",
+        "Merkit qabilasini",
+        "Uyg'urlarni",
+        "Qipchoqlarni"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Irg'iz daryosi bo'yidagi jang qaysi yili bo'lgan?",
+       "options": [
+        "1206-yilda",
+        "1216-yilda",
+        "1219-yilda",
+        "1221-yilda"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Irg'iz jangida Xorazmshoh qo'shini necha kishi edi?",
+       "options": [
+        "6 ming",
+        "60 ming",
+        "20 ming",
+        "200 ming"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Irg'iz jangida mo'g'ullar qo'shini necha kishi edi?",
+       "options": [
+        "20 ming",
+        "2 ming",
+        "60 ming",
+        "100 ming"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Irg'iz jangida kim pistirmada turib dushmanga zarba berdi?",
+       "options": [
+        "Temur Malik",
+        "Jaloliddin",
+        "Xumortegin",
+        "Inolchiq"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Jaloliddinga nechta qismdan birining boshlig'i etib tayinlangan edi?",
+       "options": [
+        "Ikki qismdan",
+        "To'rt qismdan",
+        "Beshdan",
+        "Uch qismdan birining"
+       ],
+       "correct_index": 3,
+       "page": 18
+      },
+      {
+       "question": "Irg'iz jangi birinchi kuni qanday yakunlandi?",
+       "options": [
+        "Mo'g'ullar yutdi",
+        "Hech bir tomon g'alaba qozonmadi",
+        "Xorazmshoh yutdi",
+        "Jang to'xtatildi"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Tunda mo'g'ullar nima qildi?",
+       "options": [
+        "Hujum qildi",
+        "Taslim bo'ldi",
+        "Uxlab qoldi",
+        "Gulxan yoqib, qarorgohni jimgina tark etdi"
+       ],
+       "correct_index": 3,
+       "page": 18
+      },
+      {
+       "question": "Chingizxon Xorazmshohga elchi sifatida kimni yuborgan (O'tror voqeasidan keyin)?",
+       "options": [
+        "Mahmud Yalavochni",
+        "Uxunni",
+        "Ibn Kafroj Bug'roni",
+        "Jo'chini"
+       ],
+       "correct_index": 2,
+       "page": 15
+      },
+      {
+       "question": "Chingizxon karvoniga kimlar boshchilik qilgan?",
+       "options": [
+        "Jebe, Subutoy",
+        "Jo'chi, O'qtoy",
+        "Tuli, Chig'atoy",
+        "Uxun, Umarxo'ja O'troriy, Jamol Marog'iy, Faxriddin Dizakiy, Amiriddin Haraviy"
+       ],
+       "correct_index": 3,
+       "page": 15
+      },
+      {
+       "question": "Karvonda nechta savdogar bo'lgan?",
+       "options": [
+        "50 va 50",
+        "100 mo'g'ul va 450 musulmon",
+        "1000 va 1000",
+        "10 va 20"
+       ],
+       "correct_index": 1,
+       "page": 15
+      },
+      {
+       "question": "O'tror hokimining ismi nima edi?",
+       "options": [
+        "Temur Malik",
+        "Xumortegin",
+        "Inolchiq (G'oyirxon)",
+        "Tog'ayxon"
+       ],
+       "correct_index": 2,
+       "page": 16
+      },
+      {
+       "question": "Inolchiq Muhammad Xorazmshohga kim bo'lgan?",
+       "options": [
+        "Tog'asi",
+        "Akasi",
+        "Amakisi",
+        "Qaynotasi"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "G'oyirxon laqabini Muhammad kimga bergan?",
+       "options": [
+        "Jaloliddinga",
+        "Inolchiqqa",
+        "Temur Malikka",
+        "Xumorteginga"
+       ],
+       "correct_index": 1,
+       "page": 16
+      },
+      {
+       "question": "Abulg'oziy Bahodirxon qaysi asar muallifi?",
+       "options": [
+        "\"Tabaqoti Nosiriy\"",
+        "\"Zafarnoma\"",
+        "\"Shajarayi turk\"",
+        "\"Boburnoma\""
+       ],
+       "correct_index": 2,
+       "page": 16
+      },
+      {
+       "question": "\"Tabaqoti Nosiriy\" muallifi kim?",
+       "options": [
+        "Abulg'oziy",
+        "Minhojiddin ibn Siroj Juzjoniy",
+        "Yazdiy",
+        "Shomiy"
+       ],
+       "correct_index": 1,
+       "page": 14
+      },
+      {
+       "question": "Mahmud Yalavoch kim edi?",
+       "options": [
+        "Chingizxon elchisi, keyin Movarounnahr hokimi",
+        "Xorazm vaziri",
+        "Qoraxoniy xoni",
+        "Xalifa elchisi"
+       ],
+       "correct_index": 0,
+       "page": 14
+      },
+      {
+       "question": "Mahmud Yalavoch Xorazmshohni nimada aldadi?",
+       "options": [
+        "Savdo",
+        "Yer",
+        "Mo'g'ullar kuchi uning qudratiga teng emas deb",
+        "Soliq"
+       ],
+       "correct_index": 2,
+       "page": 14
+      },
+      {
+       "question": "Chingizxonning maktubida u Xorazmshohni kimga o'xshatgan?",
+       "options": [
+        "Dushmaniga",
+        "Qullariga",
+        "Ustoziga",
+        "O'z farzandiga"
+       ],
+       "correct_index": 3,
+       "page": 13
       }
      ]
     },
@@ -919,6 +1480,567 @@
        ],
        "correct_index": 0,
        "page": 33
+      },
+      {
+       "question": "Chingizxon Movarounnahrga yurishni qaysi yili boshladi?",
+       "options": [
+        "1219-yilda",
+        "1206-yilda",
+        "1216-yilda",
+        "1221-yilda"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Chingizxon necha nafarga yaqin qo'shin bilan yurish boshladi?",
+       "options": [
+        "200 ming",
+        "20 ming",
+        "2 ming",
+        "2 million"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Chingizxon yozni qayerda o'tkazdi?",
+       "options": [
+        "Sirdaryo bo'yida",
+        "Volga bo'yida",
+        "Amudaryo bo'yida",
+        "Irtish daryosi bo'yida"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "Chingizxon qo'shiniga kimlar kelib qo'shildi?",
+       "options": [
+        "Xorazm sarkardalari",
+        "Arablar",
+        "Slavyan knyazlari",
+        "Uyg'ur ediquti Baurchak, Arslonxon, Sig'noqtegin"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "Chingizxon qo'shinini necha qismga bo'ldi?",
+       "options": [
+        "Ikki",
+        "Uch",
+        "To'rt qismga",
+        "Olti"
+       ],
+       "correct_index": 2,
+       "page": 22
+      },
+      {
+       "question": "O'trorni qamal qilgan kimlar?",
+       "options": [
+        "Jo'chi va Tuli",
+        "Jebe va Subutoy",
+        "Chig'atoy va O'qtoy",
+        "Aloq va Suketu"
+       ],
+       "correct_index": 2,
+       "page": 22
+      },
+      {
+       "question": "Sirdaryoning yuqori oqimidagi shaharlarni kim egallagan?",
+       "options": [
+        "Chig'atoy",
+        "O'qtoy",
+        "Jo'chi",
+        "Tuli"
+       ],
+       "correct_index": 2,
+       "page": 22
+      },
+      {
+       "question": "Xo'jand va Banokatni egallash vazifasi kimga topshirildi?",
+       "options": [
+        "Jo'chiga",
+        "Jebega",
+        "Subutoyga",
+        "Aloq no'yon va Suketu Cherbiga"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "Chingizxon o'zi bosh bo'lgan qism qaysi sarkardalarni o'z ichiga oldi?",
+       "options": [
+        "Aloq",
+        "Suketu",
+        "Tuli",
+        "Jebe va Subutoy"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "O'trorda qancha suvoriy bor edi?",
+       "options": [
+        "2 ming",
+        "20 ming",
+        "200 ming",
+        "50 ming"
+       ],
+       "correct_index": 1,
+       "page": 23
+      },
+      {
+       "question": "Sulton O'trorga qo'shimcha qancha askar yuborgan?",
+       "options": [
+        "5 ming",
+        "500 ming",
+        "50 ming (Lashkari berun)",
+        "10 ming"
+       ],
+       "correct_index": 2,
+       "page": 23
+      },
+      {
+       "question": "O'tror qamali necha oy davom etdi?",
+       "options": [
+        "Bir oy",
+        "Ikki oy",
+        "Besh oy",
+        "Bir yil"
+       ],
+       "correct_index": 2,
+       "page": 23
+      },
+      {
+       "question": "G'oyirxon taqdiri nima bo'ldi?",
+       "options": [
+        "Asirga olinib, Chingizxon huzurida qatl etildi",
+        "Qochdi",
+        "Taslim bo'ldi",
+        "Afv etildi"
+       ],
+       "correct_index": 0,
+       "page": 23
+      },
+      {
+       "question": "Buxoro qamali qachon boshlandi?",
+       "options": [
+        "1219-yil sentyabrda",
+        "1220-yil fevralida",
+        "1220-yil dekabrida",
+        "1221-yil boshida"
+       ],
+       "correct_index": 1,
+       "page": 25
+      },
+      {
+       "question": "Buxoro qozisi kim edi?",
+       "options": [
+        "Ko'kxon",
+        "Inolchiq",
+        "Badriddin",
+        "Temur Malik"
+       ],
+       "correct_index": 2,
+       "page": 25
+      },
+      {
+       "question": "Buxoro arki qamali necha kun davom etdi?",
+       "options": [
+        "12 kun",
+        "2 kun",
+        "30 kun",
+        "1 kun"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Buxoroning qaysi binolari yong'indan omon qoldi?",
+       "options": [
+        "G'ishtdan qurilgan katta masjid va ba'zi binolar",
+        "Saroy",
+        "Qal'a",
+        "Bozor"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Buxoroliklar Somoniylar maqbarasini nima qildi?",
+       "options": [
+        "Qumga ko'mib tashladi",
+        "Yoqib yubordi",
+        "Ko'chirdi",
+        "Ochiq qoldirdi"
+       ],
+       "correct_index": 0,
+       "page": 25
+      },
+      {
+       "question": "Buxoro qal'asida jasoratli jangchi kim edi?",
+       "options": [
+        "Temur Malik",
+        "Ko'kxon",
+        "Inolchiq",
+        "Badriddin"
+       ],
+       "correct_index": 1,
+       "page": 26
+      },
+      {
+       "question": "Samarqand qo'shini necha jangchidan iborat edi?",
+       "options": [
+        "10 ming",
+        "11 ming",
+        "1 million",
+        "110 ming"
+       ],
+       "correct_index": 3,
+       "page": 27
+      },
+      {
+       "question": "Samarqandda nechta jangovar fil bor edi?",
+       "options": [
+        "2 ta",
+        "20 ta",
+        "200 ta",
+        "5 ta"
+       ],
+       "correct_index": 1,
+       "page": 27
+      },
+      {
+       "question": "Tog'ayxon kimning tog'asi edi?",
+       "options": [
+        "Jaloliddinning",
+        "Temur Malikning",
+        "Xumorteginning",
+        "Muhammad Xorazmshohning"
+       ],
+       "correct_index": 3,
+       "page": 27
+      },
+      {
+       "question": "Tog'ayxon qancha g'ur jangchisini boshqargan?",
+       "options": [
+        "4 ming",
+        "40 ming",
+        "400",
+        "400 ming"
+       ],
+       "correct_index": 1,
+       "page": 27
+      },
+      {
+       "question": "Samarqand ostonasida necha kun jang bo'ldi?",
+       "options": [
+        "Bir kun",
+        "Bir hafta",
+        "Uch kun",
+        "Bir oy"
+       ],
+       "correct_index": 2,
+       "page": 27
+      },
+      {
+       "question": "Samarqandni suvsiz qoldirgan inshoot nima?",
+       "options": [
+        "Jo'yi arziz (Qo'rg'oshin nova)",
+        "Zarafshon to'g'oni",
+        "Buyuk kanal",
+        "Ark"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Chingizxon Samarqand qamalida qaysi hiylani ishlatdi?",
+       "options": [
+        "Zaharlash",
+        "Pistirma va soxta chekinish",
+        "Elchilik",
+        "Dengiz hujumi"
+       ],
+       "correct_index": 1,
+       "page": 27
+      },
+      {
+       "question": "Temur Malik qaysi shahar hokimi edi?",
+       "options": [
+        "Buxoro",
+        "Samarqand",
+        "Urganch",
+        "Xo'jand"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Xo'jand qal'asi qayerda qurilgan?",
+       "options": [
+        "Amudaryoda",
+        "Sirdaryoning ikkiga ajralgan joyida",
+        "Zarafshonda",
+        "Volgada"
+       ],
+       "correct_index": 1,
+       "page": 28
+      },
+      {
+       "question": "Aloq no'yon Xo'jand qamali uchun necha qo'shin safarbar qildi?",
+       "options": [
+        "2 ming",
+        "20 ming",
+        "200 ming",
+        "50 ming"
+       ],
+       "correct_index": 1,
+       "page": 28
+      },
+      {
+       "question": "Qamalga necha aholi safarbar qilindi?",
+       "options": [
+        "5 ming",
+        "Taxminan 50 ming",
+        "500 ming",
+        "500"
+       ],
+       "correct_index": 1,
+       "page": 28
+      },
+      {
+       "question": "Temur Malik nechta qayiq yasatdi?",
+       "options": [
+        "2 ta",
+        "20 ta",
+        "12 ta",
+        "120 ta"
+       ],
+       "correct_index": 2,
+       "page": 28
+      },
+      {
+       "question": "Qayiqlar usti nima bilan qoplangan?",
+       "options": [
+        "Namat va sirka shimdirilgan loy bilan",
+        "Temir bilan",
+        "Teri bilan",
+        "Yog'och bilan"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "\"Zafarnoma\"ga ko'ra Temur Malikning nechta o'qi qolgan edi?",
+       "options": [
+        "Uchta",
+        "Bitta",
+        "O'nta",
+        "Yigirmata"
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Temur Malik qayerga suzib ketdi?",
+       "options": [
+        "Samarqandga",
+        "Buxoroga",
+        "Jand va Barchinlig'kentga qarab",
+        "Balxga"
+       ],
+       "correct_index": 2,
+       "page": 29
+      },
+      {
+       "question": "Urganchga yetgach Temur Malik kim bilan qo'shildi?",
+       "options": [
+        "Xumortegin bilan",
+        "Najmiddin Kubro bilan",
+        "Turkon Xotun bilan",
+        "Jaloliddin bilan"
+       ],
+       "correct_index": 3,
+       "page": 29
+      },
+      {
+       "question": "Temur Malik qayerda yashadi (oxirgi yillari)?",
+       "options": [
+        "O'sh shahrida",
+        "Samarqandda",
+        "Urganchda",
+        "Buxoroda"
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Temur Malikni kim tanib qolib qatl etgan?",
+       "options": [
+        "Arablar",
+        "Mo'g'ul amaldorlari",
+        "Turklar",
+        "Forslar"
+       ],
+       "correct_index": 1,
+       "page": 29
+      },
+      {
+       "question": "Temur Malik tungi hujumda kimni yakkama-yakka jangga chorladi?",
+       "options": [
+        "So'ktu no'yonni",
+        "Aloq no'yonni",
+        "Chingizxonni",
+        "Jebeni"
+       ],
+       "correct_index": 0,
+       "page": 30
+      },
+      {
+       "question": "Hujumning asosiy maqsadi nima edi?",
+       "options": [
+        "Dushmanni yo'q qilish",
+        "Qochish",
+        "Elchilik",
+        "Mo'g'ullarni chalg'itib, ko'tarmani buzishga imkon yaratish"
+       ],
+       "correct_index": 3,
+       "page": 30
+      },
+      {
+       "question": "Muhammad Xorazmshoh qayerga borib o'rnashdi?",
+       "options": [
+        "Urganchga",
+        "Samarqandga",
+        "Kaspiy dengizi janubidagi Ashura oroliga",
+        "Hindistonga"
+       ],
+       "correct_index": 2,
+       "page": 31
+      },
+      {
+       "question": "Muhammad Xorazmshoh valiahdni kimga o'zgartirdi?",
+       "options": [
+        "Qutbiddin O'zloqshohga",
+        "Oqshohga",
+        "Jaloliddinga",
+        "G'iyosiddinga"
+       ],
+       "correct_index": 2,
+       "page": 31
+      },
+      {
+       "question": "Muhammad Xorazmshoh qaysi kasallikdan vafot etdi?",
+       "options": [
+        "Vabodan",
+        "Plevritdan",
+        "Silidan",
+        "Bezgakdan"
+       ],
+       "correct_index": 1,
+       "page": 31
+      },
+      {
+       "question": "Urganch qamali qaysi yilda boshlandi?",
+       "options": [
+        "1219-yilda",
+        "1220-yilda",
+        "1221-yil boshida",
+        "1223-yilda"
+       ],
+       "correct_index": 2,
+       "page": 32
+      },
+      {
+       "question": "Urganch qamali necha oy davom etdi?",
+       "options": [
+        "Yetti oy",
+        "Bir oy",
+        "Uch oy",
+        "O'n oy"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "Urganch mudofaasida ishtirok etgan 76 yoshli shayx kim?",
+       "options": [
+        "Ahmad Yassaviy",
+        "Najmiddin Kubro",
+        "Sayfiddin Boxarziy",
+        "Baxouddin Naqshband"
+       ],
+       "correct_index": 1,
+       "page": 32
+      },
+      {
+       "question": "Najmiddin Kubroning xitobi qanday edi?",
+       "options": [
+        "\"Taslim!\"",
+        "\"Yo Vatan, yo sharofatli o'lim!\"",
+        "\"Qochamiz!\"",
+        "\"Tinchlik!\""
+       ],
+       "correct_index": 1,
+       "page": 32
+      },
+      {
+       "question": "Urganchga kelgan Chingizxon o'g'illari kimlar?",
+       "options": [
+        "Tuli, Xubilay",
+        "Botu, Xuloku",
+        "Guyuk, Mengu",
+        "Jo'chi, Chig'atoy, O'qtoy"
+       ],
+       "correct_index": 3,
+       "page": 34
+      },
+      {
+       "question": "Urganch mudofaasi boshida kim qoldi?",
+       "options": [
+        "Jaloliddin",
+        "Temur Malik",
+        "Xumortegin",
+        "Turkon Xotun"
+       ],
+       "correct_index": 2,
+       "page": 27
+      },
+      {
+       "question": "Mo'g'ullar Urganch qamalida qaysi hiyladan foydalanishdi?",
+       "options": [
+        "Chorva mollarini haydab kelib, mudofaachilarni pistirmaga tushirdi",
+        "Dengiz hujumi",
+        "Zahar",
+        "Elchilik"
+       ],
+       "correct_index": 0,
+       "page": 34
+      },
+      {
+       "question": "Mo'g'ullar manjaniq uchun tosh o'rniga nimadan foydalangan?",
+       "options": [
+        "Temirdan",
+        "Misdan",
+        "Tut daraxti g'o'lalaridan",
+        "Loydan"
+       ],
+       "correct_index": 2,
+       "page": 33
+      },
+      {
+       "question": "Mo'g'ullar qo'lga olgan hunarmandlar soni?",
+       "options": [
+        "10 ming",
+        "100 mingga yaqin",
+        "1 ming",
+        "1 million"
+       ],
+       "correct_index": 1,
+       "page": 33
       }
      ]
     },
@@ -1188,6 +2310,303 @@
        ],
        "correct_index": 0,
        "page": 37
+      },
+      {
+       "question": "Jaloliddin Manguberdi mo'g'ullarga qarshi necha yil kurash olib bordi?",
+       "options": [
+        "3 yil",
+        "20 yil",
+        "1 yil",
+        "11 yil"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin necha marotaba mo'g'ullarga qarshi jang qildi?",
+       "options": [
+        "17 marta",
+        "7 marta",
+        "27 marta",
+        "3 marta"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Bu janglarning nechasida g'olib bo'ldi?",
+       "options": [
+        "4 tasida",
+        "17 tasida",
+        "14 tasida",
+        "1 tasida"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin qaysi o'lkalarda kurash olib bordi?",
+       "options": [
+        "Rus, Polsha",
+        "Misr, Suriya",
+        "Xuroson, Hindiston, Eron, Iroq, Kavkaz",
+        "Xitoy, Koreya"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin Urganchdan Nisoga necha kunda yetib keldi?",
+       "options": [
+        "2 kunda",
+        "16 kun ichida",
+        "1 oyda",
+        "1 yilda"
+       ],
+       "correct_index": 1,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin Urganchdan nechta kishi bilan chiqdi?",
+       "options": [
+        "30 kishi",
+        "300 kishi bilan",
+        "3000 kishi",
+        "30 000 kishi"
+       ],
+       "correct_index": 1,
+       "page": 37
+      },
+      {
+       "question": "Niso qo'rg'oni qayerda?",
+       "options": [
+        "Hozirgi Turkmanistonda",
+        "Qozog'istonda",
+        "Eronda",
+        "Hindistonda"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Niso yaqinida mo'g'ullar pistirmasi necha kishidan iborat edi?",
+       "options": [
+        "70 kishi",
+        "7000 kishi",
+        "700 kishi",
+        "7 kishi"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Nisodagi g'alaba qaysi yilning boshida bo'lgan?",
+       "options": [
+        "1219-yilda",
+        "1224-yilda",
+        "1221-yilning boshida",
+        "1231-yilda"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Nisodagi g'alaba qanday ta'sir ko'rsatdi?",
+       "options": [
+        "Urushni tugatdi",
+        "Chingizxonni o'ldirdi",
+        "Davlatni tikladi",
+        "Mo'g'ullarning yengilmasligi haqidagi mish-mishlarga chek qo'ydi"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin tashqi ko'rinishi qanday edi?",
+       "options": [
+        "Oq tanli",
+        "Bug'doyrang, o'rta bo'yli, turkiy qiyofali",
+        "Sariq sochli",
+        "Juda baland"
+       ],
+       "correct_index": 1,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin qaysi tillarda so'zlasha olgan?",
+       "options": [
+        "Faqat arab",
+        "Mo'g'ul",
+        "Lotin",
+        "Turkiy va forsiy"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Jaloliddin Valiyon qal'asi yonida kimni tor-mor etdi?",
+       "options": [
+        "Arab qo'shinini",
+        "Hind rojasini",
+        "Qal'ani qamal qilayotgan mo'g'ullarni",
+        "Vizantiyani"
+       ],
+       "correct_index": 2,
+       "page": 38
+      },
+      {
+       "question": "Parvon jangi qaysi hududda bo'ldi?",
+       "options": [
+        "Samarqandda",
+        "G'azna yaqinidagi Kobul daryosi bo'yida",
+        "Urganchda",
+        "Tabrizda"
+       ],
+       "correct_index": 1,
+       "page": 38
+      },
+      {
+       "question": "Parvon jangida mo'g'ul qo'shinini kim boshqardi?",
+       "options": [
+        "Jebe",
+        "Subutoy",
+        "Shiki Xutuxu no'yon",
+        "Taynol"
+       ],
+       "correct_index": 2,
+       "page": 38
+      },
+      {
+       "question": "Shiki Xutuxu qo'shini necha kishi edi?",
+       "options": [
+        "4500",
+        "450 ming",
+        "45 ming",
+        "15 ming"
+       ],
+       "correct_index": 2,
+       "page": 38
+      },
+      {
+       "question": "Parvon jangidan keyin lashkarboshilar o'rtasida nima boshlandi?",
+       "options": [
+        "Ittifoq",
+        "O'lja taqsimotidan kelishmovchilik",
+        "Din nizosi",
+        "Soliq nizosi"
+       ],
+       "correct_index": 1,
+       "page": 38
+      },
+      {
+       "question": "Qo'shindan ajralgan lashkarboshilar kimlar?",
+       "options": [
+        "Amin Malik",
+        "Sayfiddin Ig'roq, A'zam Malik, Muzaffar Malik",
+        "Temur Malik",
+        "Xumortegin"
+       ],
+       "correct_index": 1,
+       "page": 38
+      },
+      {
+       "question": "O'ljalar orasida eng noyob ulush nima hisoblangan?",
+       "options": [
+        "Ot",
+        "Qilich",
+        "Oltin",
+        "Zirh"
+       ],
+       "correct_index": 0,
+       "page": 39
+      },
+      {
+       "question": "Amin Malik Sayfiddin Ig'roqqa nima qildi?",
+       "options": [
+        "Pichoq urdi",
+        "Boshiga qamchi urdi",
+        "Qilich uzatdi",
+        "Ot sovg'a qildi"
+       ],
+       "correct_index": 1,
+       "page": 39
+      },
+      {
+       "question": "Sayfiddin Ig'roq qaysi qabila yo'lboshchisi edi?",
+       "options": [
+        "Qipchoqlar",
+        "Mo'g'ullar",
+        "Arablar",
+        "Turkmanlar"
+       ],
+       "correct_index": 3,
+       "page": 39
+      },
+      {
+       "question": "Ig'roq ketgach, Jaloliddin qo'shini nima bo'ldi?",
+       "options": [
+        "Yarmiga qisqardi",
+        "Ikki barobar ko'paydi",
+        "O'zgarmadi",
+        "Yo'qoldi"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Chingizxon Jaloliddinni qanday ta'qib qildi?",
+       "options": [
+        "Bir haftalik yo'lni ikki kunda bosib o'tib",
+        "Sekin",
+        "To'xtab",
+        "Dengiz orqali"
+       ],
+       "correct_index": 0,
+       "page": 40
+      },
+      {
+       "question": "Sind daryosi bo'yidagi jang qaysi yilning kech kuzida bo'lgan?",
+       "options": [
+        "1219-yilning",
+        "1224-yilning",
+        "1231-yilning",
+        "1221-yilning"
+       ],
+       "correct_index": 3,
+       "page": 40
+      },
+      {
+       "question": "Jangda Jaloliddin qaysi qismga rahbarlik qilgan?",
+       "options": [
+        "O'ng qanotga",
+        "So'l qanotga",
+        "Zaxiraga",
+        "Markazga"
+       ],
+       "correct_index": 3,
+       "page": 40
+      },
+      {
+       "question": "Jangni nima hal qildi?",
+       "options": [
+        "Dengiz",
+        "Qor",
+        "Chingizxonning 10 ming kishilik zaxira qo'shini",
+        "Yomg'ir"
+       ],
+       "correct_index": 2,
+       "page": 40
+      },
+      {
+       "question": "Jaloliddin Sind daryosiga qanday o'tdi?",
+       "options": [
+        "Kemada",
+        "Ko'prikdan",
+        "Suzib",
+        "Otda sakrab"
+       ],
+       "correct_index": 3,
+       "page": 40
       }
      ]
     },
@@ -1505,6 +2924,358 @@
        ],
        "correct_index": 3,
        "page": 48
+      },
+      {
+       "question": "Sind daryosidan o'tgach Jaloliddin qaysi hukmdorni yengdi?",
+       "options": [
+        "Shatra hukmdorini",
+        "Dehli sultonini",
+        "Gang rojasini",
+        "Panjob rojasini"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Shatra hukmdorining necha otliq jangchisi taslim bo'ldi?",
+       "options": [
+        "10 ta",
+        "100 ta",
+        "Mingta otliq va besh ming jangchi",
+        "50 ming"
+       ],
+       "correct_index": 2,
+       "page": 42
+      },
+      {
+       "question": "Eltutmish Jaloliddinga qanday javob yozdi?",
+       "options": [
+        "Urush e'lon qildi",
+        "Qarshi bo'lishni istamasligini bildirdi",
+        "Taxtni topshirdi",
+        "Qo'shin yubordi"
+       ],
+       "correct_index": 1,
+       "page": 42
+      },
+      {
+       "question": "Jaloliddin Hindistonda xutbaga nima qildi?",
+       "options": [
+        "Taqiqladi",
+        "O'zgartirmadi",
+        "Bekor qildi",
+        "Nomini qo'shib o'qittirdi"
+       ],
+       "correct_index": 3,
+       "page": 42
+      },
+      {
+       "question": "Jaloliddin Hindistonda qaysi tangalarni zarb ettirdi?",
+       "options": [
+        "Oltin",
+        "Qog'oz pul",
+        "Kumush va mis tangalarni",
+        "Hech"
+       ],
+       "correct_index": 2,
+       "page": 42
+      },
+      {
+       "question": "Jaloliddinning qaysi lashkarboshilari Eltutmish tomoniga o'tdi?",
+       "options": [
+        "Temur Malik",
+        "Amin Malik",
+        "Yazidak pahlavon va Sunqurjiq",
+        "Ig'roq"
+       ],
+       "correct_index": 2,
+       "page": 42
+      },
+      {
+       "question": "Jaloliddin Hindistondan Iroqqa qaysi yili o'tdi?",
+       "options": [
+        "1224-yilda",
+        "1221-yilda",
+        "1226-yilda",
+        "1231-yilda"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Jaloliddin Iroqda qaysi shaharlarga bordi?",
+       "options": [
+        "Qohira, Damashq",
+        "Kirmon, Sheroz, Isfahon",
+        "Samarqand, Buxoro",
+        "Bag'dod, Misr"
+       ],
+       "correct_index": 1,
+       "page": 43
+      },
+      {
+       "question": "Kirmon, Fors, Isfahon hukmdori kim edi?",
+       "options": [
+        "Amin Malik",
+        "Ukasi G'iyosiddin Pirshoh",
+        "Taynol",
+        "Eltutmish"
+       ],
+       "correct_index": 1,
+       "page": 43
+      },
+      {
+       "question": "Mahalliy aholi Jaloliddinni qanday kutib oldi?",
+       "options": [
+        "Qarshilik qildi",
+        "Haydadi",
+        "Yaxshi kutib oldi",
+        "Befarq qoldi"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "G'iyosiddin davrida nima avjiga chiqqan edi?",
+       "options": [
+        "Adolat",
+        "O'zboshimchalik va zo'ravonlik",
+        "Savdo",
+        "Ilm"
+       ],
+       "correct_index": 1,
+       "page": 43
+      },
+      {
+       "question": "Jaloliddin xalifa Nosirga nima so'radi?",
+       "options": [
+        "Soliq to'lashni",
+        "Taxtni",
+        "Qo'shin tarqatishni",
+        "Mo'g'ullarga qarshi birlashishni"
+       ],
+       "correct_index": 3,
+       "page": 43
+      },
+      {
+       "question": "Xalifa Nosir nimadan xavfsiragan?",
+       "options": [
+        "Mo'g'ullardan",
+        "Salibchilardan",
+        "Xorazmshohning kuchayishidan",
+        "Vizantiyadan"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "1226-yilda qaysi hududlar Jaloliddin qo'liga o'tdi?",
+       "options": [
+        "Ozarbayjon, Shirvon, Gurjiston",
+        "Misr",
+        "Suriya",
+        "Hindiston"
+       ],
+       "correct_index": 0,
+       "page": 44
+      },
+      {
+       "question": "Isfahon yaqinida 1227-yil sentyabrda kimni yengdi?",
+       "options": [
+        "Jebeni",
+        "Taynol no'yonni",
+        "Subutoyni",
+        "O'qtoyni"
+       ],
+       "correct_index": 1,
+       "page": 44
+      },
+      {
+       "question": "Taynol Jaloliddin haqida nima dedi?",
+       "options": [
+        "\"Qochoq\"",
+        "\"Qo'rqoq\"",
+        "\"Hiylagar\"",
+        "\"Zamonasining haqiqiy bahodiri\""
+       ],
+       "correct_index": 3,
+       "page": 44
+      },
+      {
+       "question": "Ko'niya sultoni kim edi?",
+       "options": [
+        "Eltutmish",
+        "Nuriddin",
+        "Alouddin Kayqubod",
+        "Shirkuh"
+       ],
+       "correct_index": 2,
+       "page": 44
+      },
+      {
+       "question": "Jaloliddinning bosh vaziri kim edi?",
+       "options": [
+        "Amin Malik",
+        "Temur Malik",
+        "Taynol",
+        "Sharofulmulk"
+       ],
+       "correct_index": 3,
+       "page": 44
+      },
+      {
+       "question": "Jaloliddin 1225-yilda qaysi shaharni egalladi?",
+       "options": [
+        "Tabrizni",
+        "Isfahonni",
+        "Sheroz",
+        "Bag'dodni"
+       ],
+       "correct_index": 0,
+       "page": 45
+      },
+      {
+       "question": "Tabrizni kim boshqargan edi?",
+       "options": [
+        "Otabeg O'zbekning xotini - malika",
+        "G'iyosiddin",
+        "Taynol",
+        "Eltutmish"
+       ],
+       "correct_index": 0,
+       "page": 45
+      },
+      {
+       "question": "Malika Jaloliddindan nima so'radi?",
+       "options": [
+        "Pul",
+        "Qo'shin",
+        "Tojni",
+        "Xoy shahri berilishi sharti bilan Tabrizni topshirishni"
+       ],
+       "correct_index": 3,
+       "page": 45
+      },
+      {
+       "question": "Jaloliddin 1231-yil bahorida qaysi shaharga keldi?",
+       "options": [
+        "Tabrizga",
+        "Isfahonga",
+        "Bag'dodga",
+        "Ganjaga"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Jaloliddin avgust boshida qayerda mo'g'ullar hujumiga uchradi?",
+       "options": [
+        "Ganjada",
+        "Isfahonda",
+        "Tabrizda",
+        "Amid (Diyorbakr) yo'li yaqinida"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Jaloliddin qaysi qishloqqa kelib kurdlar qo'liga tushdi?",
+       "options": [
+        "Mayaforiqin yaqinidagi Ayndorga",
+        "Ganjaga",
+        "Tabrizga",
+        "Qoraxonga"
+       ],
+       "correct_index": 0,
+       "page": 46
+      },
+      {
+       "question": "Kurdlar rahbari Jaloliddinni nega o'ldirdi?",
+       "options": [
+        "Pul uchun",
+        "O'lgan inisi xuni evaziga",
+        "Mo'g'ullar buyrug'i",
+        "Din uchun"
+       ],
+       "correct_index": 1,
+       "page": 46
+      },
+      {
+       "question": "Jaloliddin qayerda dafn etilgan?",
+       "options": [
+        "Urganchda",
+        "Mayaforiqinda",
+        "Ganjada",
+        "Samarqandda"
+       ],
+       "correct_index": 1,
+       "page": 46
+      },
+      {
+       "question": "Damashq hokimi Malik Ashraf sulton halokati haqida nima dedi?",
+       "options": [
+        "Xursand bo'ldi",
+        "Befarq qoldi",
+        "Qasos oldi",
+        "Islom olamiga mo'g'ullar istilosi mashaqqat keltirishini aytdi"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Jaloliddin tavalludining 800 yilligi qaysi yili nishonlandi?",
+       "options": [
+        "1999-yil noyabrda",
+        "1941-yilda",
+        "2022-yilda",
+        "2000-yilda"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "\"Jaloliddin Manguberdi\" ordeni qaysi yili ta'sis etilgan?",
+       "options": [
+        "1999-yilda",
+        "2022-yilda",
+        "2000-yilda",
+        "1991-yilda"
+       ],
+       "correct_index": 2,
+       "page": 48
+      },
+      {
+       "question": "Jaloliddinning taxminiy qabri qayerda topilgan?",
+       "options": [
+        "Eronda",
+        "Iroqda",
+        "Hindistonda",
+        "Turkiyaning Silvan shahrida"
+       ],
+       "correct_index": 3,
+       "page": 48
+      },
+      {
+       "question": "Jaloliddinning harbiy hiylalaridan biri?",
+       "options": [
+        "Yengil qurollangan, tez harakat qiluvchi otliq qismlar",
+        "Og'ir zirhli piyoda",
+        "Flot",
+        "Fil"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Jaloliddin jangda qayerda turgan?",
+       "options": [
+        "Orqada",
+        "Qanotda",
+        "Zaxirada",
+        "Doim qo'shin markazida"
+       ],
+       "correct_index": 3,
+       "page": 49
       }
      ]
     }
@@ -1861,6 +3632,424 @@
        ],
        "correct_index": 1,
        "page": 62
+      },
+      {
+       "question": "Mo'g'ullar istilosidan keyin Turon qaysi shaharlari xarobaga aylandi?",
+       "options": [
+        "Rim, Afina",
+        "Kiyev, Smolensk",
+        "Samarqand, Buxoro, Urganch, Xo'jand, Marv, Termiz, Balx",
+        "Parij, London"
+       ],
+       "correct_index": 2,
+       "page": 52
+      },
+      {
+       "question": "Marvdagi qaysi to'g'on buzildi?",
+       "options": [
+        "Bandi amir",
+        "Sultonband",
+        "Qo'rg'oshin nova",
+        "Buyuk kanal"
+       ],
+       "correct_index": 1,
+       "page": 52
+      },
+      {
+       "question": "Balxob daryosidagi to'g'on qanday atalgan?",
+       "options": [
+        "Sultonband",
+        "Jo'yi arziz",
+        "Eski Anhor",
+        "Bandi amir"
+       ],
+       "correct_index": 3,
+       "page": 52
+      },
+      {
+       "question": "Balx va atroflari qancha vaqt suv ofatini boshdan kechirdi?",
+       "options": [
+        "Bir hafta",
+        "Besh yil",
+        "Olti oy",
+        "O'n yil"
+       ],
+       "correct_index": 2,
+       "page": 52
+      },
+      {
+       "question": "Ulus so'zi nimani anglatadi?",
+       "options": [
+        "\"Qo'shin\"",
+        "\"Davlat\", \"xalq\", \"odamlar\"",
+        "\"Soliq\"",
+        "\"Shahar\""
+       ],
+       "correct_index": 1,
+       "page": 53
+      },
+      {
+       "question": "Chingizxon katta o'g'liga 1207-yilda qaysi hududni bergan?",
+       "options": [
+        "Selenga daryosidan Irtishgacha",
+        "Dunaygacha",
+        "Nilgacha",
+        "Gangaga"
+       ],
+       "correct_index": 0,
+       "page": 53
+      },
+      {
+       "question": "Chingizxon o'limidan oldin qaysi yili yerlarni bo'lib berdi?",
+       "options": [
+        "1206-yilda",
+        "1225-yil avgustda",
+        "1219-yilda",
+        "1227-yilda"
+       ],
+       "correct_index": 1,
+       "page": 53
+      },
+      {
+       "question": "Chig'atoy qaysi qishloqqa asos soldi?",
+       "options": [
+        "Qarshi",
+        "Kesh",
+        "Olmaliq yaqinida Qutlug'",
+        "Yangikent"
+       ],
+       "correct_index": 2,
+       "page": 54
+      },
+      {
+       "question": "Chig'atoyni zamondoshlari qanday atagan?",
+       "options": [
+        "\"Buyuk\"",
+        "\"Sherdil\"",
+        "\"Fotih\"",
+        "\"Yasoq qo'riqchisi\" (yasovul)"
+       ],
+       "correct_index": 3,
+       "page": 54
+      },
+      {
+       "question": "Chig'atoy qaysi yili vafot etgan?",
+       "options": [
+        "1227-yilda",
+        "1242-yilda",
+        "1238-yilda",
+        "1260-yilda"
+       ],
+       "correct_index": 1,
+       "page": 55
+      },
+      {
+       "question": "Chig'atoy vorisi etib kimni tayinladi?",
+       "options": [
+        "Nabirasi Qora-Hulaguni",
+        "Yasu Munkeni",
+        "Olg'uni",
+        "Kebekni"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "1246-yilgi qurultoyda ulug' xon kim bo'ldi?",
+       "options": [
+        "Munke",
+        "O'qtoyning to'ng'ich o'g'li Guyuk",
+        "Xubilay",
+        "Qora-Hulagu"
+       ],
+       "correct_index": 1,
+       "page": 55
+      },
+      {
+       "question": "Guyuk Qora-Hulagu o'rniga kimni qo'ydi?",
+       "options": [
+        "Olg'uni",
+        "Tarmashirinni",
+        "Yasu Munkeni",
+        "Kebekni"
+       ],
+       "correct_index": 2,
+       "page": 55
+      },
+      {
+       "question": "Chig'atoy ulusini aslida kim boshqargan (Yasu Munke davrida)?",
+       "options": [
+        "Olg'u",
+        "Guyuk",
+        "Uning xotini Tukashi",
+        "Tulu"
+       ],
+       "correct_index": 2,
+       "page": 55
+      },
+      {
+       "question": "Olg'uxon Xorazmning bir qismi, Turkiston, Afg'onistonni qachon qo'lga kiritdi?",
+       "options": [
+        "Chingiz davrida",
+        "Temur davrida",
+        "Xubilay va Oriqbuqa urushlaridan foydalanib",
+        "Botu davrida"
+       ],
+       "correct_index": 2,
+       "page": 55
+      },
+      {
+       "question": "Movarounnahr boshqaruvini Chig'atoy kimga topshirdi?",
+       "options": [
+        "Mas'udbekka",
+        "Mahmud Yalavochga",
+        "Kebekxonga",
+        "Olg'uga"
+       ],
+       "correct_index": 1,
+       "page": 56
+      },
+      {
+       "question": "1238-yildan boshqaruv kimga o'tdi?",
+       "options": [
+        "Kebekxonga",
+        "Mas'udbekka",
+        "Olg'uga",
+        "Guyukka"
+       ],
+       "correct_index": 1,
+       "page": 56
+      },
+      {
+       "question": "Mahmud Yalavoch 1238-yildan qayerda gubernator bo'ldi?",
+       "options": [
+        "Samarqandda",
+        "Pekinda (1254-yilgacha)",
+        "Buxoroda",
+        "Qoraqurumda"
+       ],
+       "correct_index": 1,
+       "page": 56
+      },
+      {
+       "question": "1238-yilda Buxoroda kim qo'zg'olon ko'tardi?",
+       "options": [
+        "Temur Malik",
+        "Jaloliddin",
+        "Mas'udbek",
+        "Mahmud Torobiy"
+       ],
+       "correct_index": 3,
+       "page": 56
+      },
+      {
+       "question": "Xubilay Qoraqurumga nima qilishni cheklab qo'ydi?",
+       "options": [
+        "Oziq-ovqat yuborishni",
+        "Qurol yuborishni",
+        "Pul yuborishni",
+        "Elchi yuborishni"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Olg'u qaysi yili ulus xoni etib tayinlandi?",
+       "options": [
+        "1260-yilda",
+        "1238-yilda",
+        "1242-yilda",
+        "1318-yilda"
+       ],
+       "correct_index": 0,
+       "page": 58
+      },
+      {
+       "question": "Kebekxon qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1260-1266",
+        "1318-1326",
+        "1326-1334",
+        "1309-1318"
+       ],
+       "correct_index": 1,
+       "page": 58
+      },
+      {
+       "question": "1309-yilgi qurultoyda taxtga kim chiqarildi?",
+       "options": [
+        "Kebekxon",
+        "Tarmashirin",
+        "Olg'u",
+        "Esan Buqa"
+       ],
+       "correct_index": 3,
+       "page": 58
+      },
+      {
+       "question": "Qarshi nomi qaysi so'zdan olingan?",
+       "options": [
+        "\"Qarshi\" (saroy, shoh qasri)",
+        "Shahar",
+        "Daryo",
+        "Qishloq"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Kebekxon nimani qayta tikladi?",
+       "options": [
+        "Termizni",
+        "Marvni",
+        "Urganchni",
+        "Balx shahrini"
+       ],
+       "correct_index": 3,
+       "page": 60
+      },
+      {
+       "question": "Kebekxonning pul islohotida 1 dinor nechta dirhamga teng edi?",
+       "options": [
+        "1 dirham",
+        "6 dirham",
+        "10 dirham",
+        "12 dirham"
+       ],
+       "correct_index": 1,
+       "page": 60
+      },
+      {
+       "question": "Kebekxon qaysi davlatlar namunasida tanga zarb ettirdi?",
+       "options": [
+        "Oltin O'rda va Hulakular",
+        "Xitoy va Hindiston",
+        "Rim va Vizantiya",
+        "Misr va Suriya"
+       ],
+       "correct_index": 0,
+       "page": 60
+      },
+      {
+       "question": "Tarmashirin qabul qilgan musulmon ismi nima?",
+       "options": [
+        "Alp Arslon",
+        "Alouddavla",
+        "Aloiddin",
+        "Alouddin"
+       ],
+       "correct_index": 3,
+       "page": 59
+      },
+      {
+       "question": "Tarmashiringa qanday unvon berildi?",
+       "options": [
+        "Amir",
+        "Xoqon",
+        "Bek",
+        "Sulton al-A'zam"
+       ],
+       "correct_index": 3,
+       "page": 59
+      },
+      {
+       "question": "Tarmashirinni ko'rgan arab sayyohi kim?",
+       "options": [
+        "Ibn Battuta",
+        "Ibn Fadlan",
+        "Ibn Sino",
+        "Ma'sudiy"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Tarmashirin namozni qanday o'qigan?",
+       "options": [
+        "Doimo masjidda jamoat bilan",
+        "Uyda yolg'iz",
+        "Saroyda",
+        "Hech"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Tarmashiringa qarshi isyon ko'targan jiyani kim?",
+       "options": [
+        "Qozonxon",
+        "Buzan ibn Duva Temur",
+        "Kebek",
+        "Ali Sulton"
+       ],
+       "correct_index": 1,
+       "page": 61
+      },
+      {
+       "question": "Isyonchi amirlar nimadan norozi edi?",
+       "options": [
+        "Soliqdan",
+        "Dindan",
+        "Tarmashirin ularni dehqonchilikka majburlagani va yasoqni bekor qilganidan",
+        "Urushdan"
+       ],
+       "correct_index": 2,
+       "page": 61
+      },
+      {
+       "question": "Tarmashirin qaysi hududning noibi bo'lgan?",
+       "options": [
+        "Samarqand",
+        "G'azna",
+        "Balx",
+        "Buxoro"
+       ],
+       "correct_index": 1,
+       "page": 61
+      },
+      {
+       "question": "Buzan qaysi qoidalarni qayta joriy qildi?",
+       "options": [
+        "Shariat",
+        "Tuzuk",
+        "Yasoq qoidalarini",
+        "Qonunnoma"
+       ],
+       "correct_index": 2,
+       "page": 61
+      },
+      {
+       "question": "\"Qoraunas\" so'zi nimani anglatadi?",
+       "options": [
+        "Aralash (asl mo'g'ul bo'lmagan)",
+        "Qora tanli",
+        "Quyi tabaqa",
+        "Saroy a'yoni"
+       ],
+       "correct_index": 0,
+       "page": 62
+      },
+      {
+       "question": "\"Jete\" nimani anglatadi?",
+       "options": [
+        "Jangchi",
+        "Qaroqchi, talonchi",
+        "Savdogar",
+        "Elchi"
+       ],
+       "correct_index": 1,
+       "page": 62
+      },
+      {
+       "question": "Chingiz o'z farmoyishlaridan iborat qaysi kitobni tuzgan?",
+       "options": [
+        "\"Tuzuk\"",
+        "\"Yasoq\"",
+        "\"Qonunnoma\"",
+        "\"Shohnoma\""
+       ],
+       "correct_index": 1,
+       "page": 62
       }
      ]
     },
@@ -2183,6 +4372,358 @@
        ],
        "correct_index": 3,
        "page": 68
+      },
+      {
+       "question": "Chig'atoy ulusiga qaysi hududlar berilgan?",
+       "options": [
+        "Misrdan Hindistongacha",
+        "Dunaydan Volgagacha",
+        "Yettisuvdan Amudaryogacha, Xorazm janubidan Sharqiy Turkistongacha",
+        "Rusdan Xitoygacha"
+       ],
+       "correct_index": 2,
+       "page": 63
+      },
+      {
+       "question": "Chig'atoy ulusining markazi dastlab qayerda bo'lgan?",
+       "options": [
+        "Qarshida",
+        "Samarqandda",
+        "Buxoroda",
+        "Olmaliq shahrida"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Olmaliq hozir qayerga qarashli?",
+       "options": [
+        "Qozog'istonga",
+        "O'zbekistonga",
+        "Mo'g'ulistonga",
+        "Xitoyning Shinjon viloyatiga"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Keyinchalik markaz qayerga ko'chirilgan?",
+       "options": [
+        "Qarshiga",
+        "Samarqandga",
+        "Olmaliqqa",
+        "Buxoroga"
+       ],
+       "correct_index": 0,
+       "page": 63
+      },
+      {
+       "question": "Mo'g'ullar saltanati poytaxti qaysi shahar edi?",
+       "options": [
+        "Samarqand",
+        "Olmaliq",
+        "Pekin",
+        "Qoraqurum"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Chingizxon hududni nechta o'g'li o'rtasida taqsimladi (4 ta)?",
+       "options": [
+        "Botu, Xuloku",
+        "Xubilay, Munke",
+        "Guyuk, Mengu",
+        "Jo'chi, Chig'atoy, O'qtoy, Tuli"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Markaziy hokimiyat mustahkamlanishiga qarshi chiqqan Qozonxonga qarshi isyonni kim boshladi?",
+       "options": [
+        "Amir Husayn",
+        "Hoji Barlos",
+        "Temur",
+        "Amir Qazag'on"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Qazag'on qo'shin to'plagan joy qayer?",
+       "options": [
+        "Samarqand",
+        "Amudaryo qirg'og'idagi Soli Saroy",
+        "Qarshi",
+        "Buxoro"
+       ],
+       "correct_index": 1,
+       "page": 63
+      },
+      {
+       "question": "Qazag'on 1345-yil kuzida qayerda qo'shin to'pladi?",
+       "options": [
+        "Kesh",
+        "Balx",
+        "Soli Saroy hududida",
+        "Termiz"
+       ],
+       "correct_index": 2,
+       "page": 63
+      },
+      {
+       "question": "Qozonxon vafotidan keyin Movarounnahrdagi chig'atoylar hukmronligi nima bo'ldi?",
+       "options": [
+        "Kuchaydi",
+        "Davom etdi",
+        "Amalda tugadi",
+        "Kengaydi"
+       ],
+       "correct_index": 2,
+       "page": 64
+      },
+      {
+       "question": "Qazag'on davlat boshida turgan shaxs qanday atalgan?",
+       "options": [
+        "\"Xon\"",
+        "\"Sulton\"",
+        "\"Noyon\"",
+        "\"Ulus amiri\""
+       ],
+       "correct_index": 3,
+       "page": 64
+      },
+      {
+       "question": "Qazag'on nomigagina taxtga ko'targan xon qanday atalgan?",
+       "options": [
+        "Qonuniy xon",
+        "Ulug' xon",
+        "\"Qo'g'irchoq xon\", \"soxta xon\"",
+        "Sulton"
+       ],
+       "correct_index": 2,
+       "page": 64
+      },
+      {
+       "question": "Qazag'on birinchi soxta xon sifatida kimni taxtga ko'targan?",
+       "options": [
+        "Chig'atoy naslidan Bayonqulini",
+        "Qozonxonni",
+        "O'qtoy naslidan Donishmandchaxonni",
+        "Temurshohni"
+       ],
+       "correct_index": 2,
+       "page": 64
+      },
+      {
+       "question": "Qazag'on o'limidan keyin kim taxtni egalladi?",
+       "options": [
+        "Husayn",
+        "Hoji Barlos",
+        "Temur",
+        "O'g'li amirzoda Abdulloh"
+       ],
+       "correct_index": 3,
+       "page": 64
+      },
+      {
+       "question": "Abdullohni taxtdan kim ag'dardi?",
+       "options": [
+        "Qozonxon",
+        "Tug'luq Temur",
+        "Husayn",
+        "Amir Hoji Barlos boshchiligidagi amirlar"
+       ],
+       "correct_index": 3,
+       "page": 64
+      },
+      {
+       "question": "1348-yilda sharqiy qismda kim hukmdor bo'ldi?",
+       "options": [
+        "Qozonxon",
+        "Bayonquli",
+        "Abdulloh",
+        "Tug'luq Temur"
+       ],
+       "correct_index": 3,
+       "page": 64
+      },
+      {
+       "question": "Ulus rasman nechta qismga bo'lindi?",
+       "options": [
+        "Uchga",
+        "To'rtga",
+        "Beshga",
+        "Ikkiga"
+       ],
+       "correct_index": 3,
+       "page": 64
+      },
+      {
+       "question": "Qazag'on Donishmandchani nega o'ldirdi?",
+       "options": [
+        "Xiyonat uchun",
+        "Soliq uchun",
+        "O'qtoy naslidan degan ayb qo'yib",
+        "Din uchun"
+       ],
+       "correct_index": 2,
+       "page": 65
+      },
+      {
+       "question": "Qazag'on Donishmandchadan keyin kimni taxtga o'tqazdi?",
+       "options": [
+        "Temurshohni",
+        "Buzanni",
+        "Chig'atoy naslidan Bayonqulini",
+        "Tarmashirinni"
+       ],
+       "correct_index": 2,
+       "page": 65
+      },
+      {
+       "question": "Chig'atoy ulusida soliqlar ikki marta kimga to'langan?",
+       "options": [
+        "Faqat xonga",
+        "Faqat cherkovga",
+        "Ulus xonlari va mahalliy hukmdorlarga",
+        "Faqat qo'shinga"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Munke soliq va hashar ishlarini tartibga solish uchun nima chiqardi?",
+       "options": [
+        "Qonun",
+        "Farmon yasoq",
+        "Yorliq",
+        "Konstitutsiya"
+       ],
+       "correct_index": 2,
+       "page": 66
+      },
+      {
+       "question": "Yomlar nima?",
+       "options": [
+        "Pochta xizmati bekatlari",
+        "Soliq turi",
+        "Qal'a",
+        "Savdo yo'li"
+       ],
+       "correct_index": 0,
+       "page": 66
+      },
+      {
+       "question": "Vaqf mulklaridan keladigan foydadan kimlar ta'minlangan?",
+       "options": [
+        "Faqat xon",
+        "Faqat qo'shin",
+        "Imom, shayx, mutavalli, muazzin, ustozlar, yetimlar",
+        "Faqat savdogarlar"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Vaqf xonaqolari kimlarni himoya qilgan?",
+       "options": [
+        "Boylarni",
+        "Askarlarni",
+        "Savdogarlarni",
+        "Kambag'allar va musofirlarni"
+       ],
+       "correct_index": 3,
+       "page": 67
+      },
+      {
+       "question": "Chig'atoy xonlaridan birinchi musulmon bo'lgan kim?",
+       "options": [
+        "Muborakshoh",
+        "Tarmashirin",
+        "Kebek",
+        "Buzan"
+       ],
+       "correct_index": 0,
+       "page": 68
+      },
+      {
+       "question": "Munkaxonning onasi Buxoroda qaysi madrasani qurgan?",
+       "options": [
+        "\"Mir Arab\"",
+        "\"Ulug'bek\"",
+        "\"Kukaldosh\"",
+        "\"Xoniya\""
+       ],
+       "correct_index": 3,
+       "page": 68
+      },
+      {
+       "question": "Xoja Ali Romitaniy naqshbandiya silsilasida nechanchi maqomda zikr qilingan?",
+       "options": [
+        "1-maqomda",
+        "5-maqomda",
+        "20-maqomda",
+        "12-maqomda"
+       ],
+       "correct_index": 3,
+       "page": 68
+      },
+      {
+       "question": "Boshlang'ich maktablar VIII-IX asrlardan qanday atalgan?",
+       "options": [
+        "Madrasalar",
+        "Kattoblar",
+        "Xonaqolar",
+        "Ribotlar"
+       ],
+       "correct_index": 1,
+       "page": 69
+      },
+      {
+       "question": "\"Kataba\" arabcha qanday ma'noda?",
+       "options": [
+        "O'qimoq",
+        "Yozmoq",
+        "Aytmoq",
+        "Eshitmoq"
+       ],
+       "correct_index": 1,
+       "page": 69
+      },
+      {
+       "question": "Madrasa so'zi qaysi so'zdan?",
+       "options": [
+        "\"Darasa\" (dars olmoq)",
+        "\"Kataba\"",
+        "\"Salom\"",
+        "\"Ilm\""
+       ],
+       "correct_index": 0,
+       "page": 69
+      },
+      {
+       "question": "Samarqanddagi Tamg'achxon madrasasida talaba maoshi nimaga qarab belgilangan?",
+       "options": [
+        "Yoshiga",
+        "Boyligiga",
+        "Sinfiga",
+        "Darsni o'zlashtirishiga qarab"
+       ],
+       "correct_index": 3,
+       "page": 69
+      },
+      {
+       "question": "Maktablarning maqsadi nima edi?",
+       "options": [
+        "Faqat savdo",
+        "Faqat harbiy ish",
+        "O'qish-yozish va islom asoslarini o'rgatish",
+        "Faqat hunar"
+       ],
+       "correct_index": 2,
+       "page": 69
       }
      ]
     },
@@ -2445,6 +4986,314 @@
        ],
        "correct_index": 2,
        "page": 73
+      },
+      {
+       "question": "Jaloliddin Rumiy qaysi yillarda yashagan?",
+       "options": [
+        "1219-1293",
+        "1253-1325",
+        "1247-1326",
+        "1207-1272"
+       ],
+       "correct_index": 3,
+       "page": 70
+      },
+      {
+       "question": "Jaloliddin Rumiy asli qaysi shahardan?",
+       "options": [
+        "Balxdan",
+        "Samarqanddan",
+        "Buxorodan",
+        "Urganchdan"
+       ],
+       "correct_index": 0,
+       "page": 70
+      },
+      {
+       "question": "Rumiy qaysi davlatda umrining katta qismini o'tkazgan?",
+       "options": [
+        "Eronda",
+        "Misrda",
+        "Rum (Turkiya)da",
+        "Hindistonda"
+       ],
+       "correct_index": 2,
+       "page": 70
+      },
+      {
+       "question": "\"Rumiy\" nisbasi nimadan kelib chiqqan?",
+       "options": [
+        "Rum davlatida yashagani uchun",
+        "Rimdan kelgani uchun",
+        "Ismidan",
+        "Otasidan"
+       ],
+       "correct_index": 0,
+       "page": 70
+      },
+      {
+       "question": "Rumiy kimning nabirasi bo'lgan?",
+       "options": [
+        "Chingizxonning",
+        "Temurning",
+        "Sulton Takishning",
+        "Ulug'bekning"
+       ],
+       "correct_index": 2,
+       "page": 70
+      },
+      {
+       "question": "\"Masnaviyi ma'naviy\" necha baytdan iborat?",
+       "options": [
+        "3600 bayt",
+        "360 ming bayt",
+        "3 ming bayt",
+        "36 ming bayt"
+       ],
+       "correct_index": 3,
+       "page": 70
+      },
+      {
+       "question": "Rumiy qaysi shaharlar madrasalarida o'qigan?",
+       "options": [
+        "Samarqand, Buxoro",
+        "Halab, Damashq, Bag'dod",
+        "Qohira, Misr",
+        "Rim, Parij"
+       ],
+       "correct_index": 1,
+       "page": 70
+      },
+      {
+       "question": "Sa'diy Sheroziy qaysi yillarda yashagan?",
+       "options": [
+        "1207-1272",
+        "1253-1325",
+        "1247-1326",
+        "1219-1293"
+       ],
+       "correct_index": 3,
+       "page": 70
+      },
+      {
+       "question": "Amir Xusrav Dehlaviy qaysi yillarda yashagan?",
+       "options": [
+        "1253-1325",
+        "1219-1293",
+        "1207-1272",
+        "1247-1326"
+       ],
+       "correct_index": 0,
+       "page": 70
+      },
+      {
+       "question": "Amir Xusrav Dehlaviy qaysi asarlarni yozgan?",
+       "options": [
+        "\"Xamsa\", \"Xizrxon va Duvalrani\", \"G'oliblik kaliti\"",
+        "\"Masnaviy\"",
+        "\"Guliston\"",
+        "\"Siyosatnoma\""
+       ],
+       "correct_index": 0,
+       "page": 72
+      },
+      {
+       "question": "\"Guliston\" kimning asari?",
+       "options": [
+        "Rumiyning",
+        "Sa'diy Sheroziyning",
+        "Xusravning",
+        "Pahlavon Mahmudning"
+       ],
+       "correct_index": 1,
+       "page": 72
+      },
+      {
+       "question": "Tarixnavislar qaysilar?",
+       "options": [
+        "Rumiy, Sa'diy",
+        "Xorazmiy, Beruniy",
+        "Naqshband, Yassaviy",
+        "Juzjoniy, Otamalik, Rashiduddin, an-Nasaviy"
+       ],
+       "correct_index": 3,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud qaysi yillarda yashagan?",
+       "options": [
+        "1207-1272",
+        "1247-1326",
+        "1219-1293",
+        "1253-1325"
+       ],
+       "correct_index": 1,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud qanday laqab olgan?",
+       "options": [
+        "\"Sohibqiron\"",
+        "\"Puryovaliy\" (pahlavonlar boshlig'i)",
+        "\"Jahongir\"",
+        "\"Muallimi soniy\""
+       ],
+       "correct_index": 1,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud qaysi hunar egasi ham edi?",
+       "options": [
+        "Kulol",
+        "Zargar",
+        "Po'stindo'z va telpakdo'z",
+        "Misgar"
+       ],
+       "correct_index": 2,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud qaysi shaharda dafn etilgan?",
+       "options": [
+        "Xivada",
+        "Buxoroda",
+        "Samarqandda",
+        "Urganchda"
+       ],
+       "correct_index": 0,
+       "page": 73
+      },
+      {
+       "question": "Pahlavon Mahmud mukofotlarni kimlarga bergan?",
+       "options": [
+        "Hukmdorga",
+        "Savdogarlarga",
+        "Yetim-yesir va nogironlarga",
+        "Askarlarga"
+       ],
+       "correct_index": 2,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud nima barpo etdi?",
+       "options": [
+        "Qal'a",
+        "O'z hisobidan maqbara",
+        "Madrasa",
+        "Kutubxona"
+       ],
+       "correct_index": 1,
+       "page": 72
+      },
+      {
+       "question": "Pahlavon Mahmud qaysi turdagi she'rlari bilan mashhur?",
+       "options": [
+        "Dostonlari",
+        "G'azallari",
+        "Qissalari",
+        "Ruboiylari bilan"
+       ],
+       "correct_index": 3,
+       "page": 72
+      },
+      {
+       "question": "\"Qisasi Rabg'uziy\" kimning asari?",
+       "options": [
+        "Rumiyning",
+        "Sa'diyning",
+        "Nosiriddin Rabg'uziyning",
+        "Xusravning"
+       ],
+       "correct_index": 2,
+       "page": 72
+      },
+      {
+       "question": "Rabg'uziy qaysi asrlarda ijod qilgan?",
+       "options": [
+        "VIII asr",
+        "XVI asr",
+        "XIII asr oxiri - XIV asr boshi",
+        "X asr"
+       ],
+       "correct_index": 2,
+       "page": 72
+      },
+      {
+       "question": "Bahouddin Naqshband qaysi yillarda yashagan?",
+       "options": [
+        "1207-1272",
+        "1247-1326",
+        "1394-1449",
+        "1318-1389"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Naqshband nechanchi yilda tug'ilgan?",
+       "options": [
+        "1389-yilda",
+        "1247-yilda",
+        "1318-yilda",
+        "1219-yilda"
+       ],
+       "correct_index": 2,
+       "page": 73
+      },
+      {
+       "question": "Naqshband nima uchun shunday laqab olgan?",
+       "options": [
+        "Qilich yasagani",
+        "Ko'za yasagani",
+        "Yoshligida matolarga naqsh solgani uchun",
+        "Kitob ko'chirgani"
+       ],
+       "correct_index": 2,
+       "page": 73
+      },
+      {
+       "question": "Naqshbandiyaning shiori?",
+       "options": [
+        "\"Ilm olish farz\"",
+        "\"Dil ba yor-u dast ba kor\"",
+        "\"Yo Vatan, yo o'lim\"",
+        "\"Adolat saltanat\""
+       ],
+       "correct_index": 1,
+       "page": 73
+      },
+      {
+       "question": "\"Dil ba yor-u dast ba kor\" nimani anglatadi?",
+       "options": [
+        "Ko'ngling uyda",
+        "Qo'ling bo'sh",
+        "Tilingni tiy",
+        "Ko'ngling Allohda, qo'ling ishda"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Naqshband xalq orasida yana qanday nomlar bilan mashhur?",
+       "options": [
+        "Xoja Bahouddin, Balogardon, Xo'jayi Buzruk",
+        "Sohibqiron",
+        "Muallimi soniy",
+        "Shayxulislom"
+       ],
+       "correct_index": 0,
+       "page": 73
+      },
+      {
+       "question": "Naqshband hukmdorlarga nisbatan qanday bo'lgan?",
+       "options": [
+        "Yaqin bo'lgan",
+        "Maslahatchisi bo'lgan",
+        "Vaziri bo'lgan",
+        "O'zini yiroq tutgan, tamagirlik qilmagan"
+       ],
+       "correct_index": 3,
+       "page": 73
       }
      ]
     }
@@ -2663,6 +5512,17 @@
      ],
      "exam_bank": [
       {
+       "question": "Qazag'on Qozonxonni yengdi, bu qaysi yili edi (Qarshi yaqinida)?",
+       "options": [
+        "1345-yil kuzida",
+        "1348-yilda",
+        "1358-yilda",
+        "1346-yil bahorida"
+       ],
+       "correct_index": 3,
+       "page": 77
+      },
+      {
        "question": "Amir Qazag'onning o'g'li kim edi?",
        "options": [
         "Amir Husayn",
@@ -2793,6 +5653,391 @@
        ],
        "correct_index": 0,
        "page": 83
+      },
+      {
+       "question": "XIV asr 40-50-yillarida Chig'atoy ulusida nima hukm surdi?",
+       "options": [
+        "Tinchlik",
+        "O'zaro parokandalik va o'zboshimchalik",
+        "Birlik",
+        "Farovonlik"
+       ],
+       "correct_index": 1,
+       "page": 76
+      },
+      {
+       "question": "Mo'g'ul xoni Qozonxon hokimiyatni qanday idora qilgan?",
+       "options": [
+        "Yumshoqlik bilan",
+        "Adolat bilan",
+        "Qattiqqo'llik bilan",
+        "Erkin"
+       ],
+       "correct_index": 2,
+       "page": 76
+      },
+      {
+       "question": "Ko'plab amaldorlar kimning huzuriga qochib o'ta boshladi?",
+       "options": [
+        "Temurga",
+        "Husaynga",
+        "Amir Qazag'onning huzuriga, Soli Saroyga",
+        "Tug'luq Temurga"
+       ],
+       "correct_index": 2,
+       "page": 76
+      },
+      {
+       "question": "Qazag'on qaysi yili fitnachilar tomonidan o'ldirildi?",
+       "options": [
+        "1358-yil qishida",
+        "1346-yilda",
+        "1348-yilda",
+        "1360-yilda"
+       ],
+       "correct_index": 0,
+       "page": 77
+      },
+      {
+       "question": "Bayonquli qaysi yillarda xon bo'lgan?",
+       "options": [
+        "1358-1360",
+        "1348-1358",
+        "1346-1348",
+        "1360-1370"
+       ],
+       "correct_index": 1,
+       "page": 77
+      },
+      {
+       "question": "Hisor hokimi kim edi?",
+       "options": [
+        "Hoji Barlos",
+        "Temur",
+        "Husayn",
+        "Bayon suldus"
+       ],
+       "correct_index": 3,
+       "page": 77
+      },
+      {
+       "question": "Kesh hokimi kim edi?",
+       "options": [
+        "Hoji Barlos",
+        "Bayon suldus",
+        "Husayn",
+        "Qazag'on"
+       ],
+       "correct_index": 0,
+       "page": 77
+      },
+      {
+       "question": "Temurshoh qancha vaqt hukmronlik qildi?",
+       "options": [
+        "Yigirma yil",
+        "Yarim yil",
+        "Besh yil",
+        "Ikki yilga yaqin"
+       ],
+       "correct_index": 3,
+       "page": 77
+      },
+      {
+       "question": "Temurshoh davrida ulus nima bo'ldi?",
+       "options": [
+        "Mayda bekliklarga bo'linib ketdi",
+        "Birlashdi",
+        "Kengaydi",
+        "Yagona qoldi"
+       ],
+       "correct_index": 0,
+       "page": 77
+      },
+      {
+       "question": "Tug'luq Temur Movarounnahrga qaerdan bostirib kirdi?",
+       "options": [
+        "Mo'g'ulistondan",
+        "Hindistondan",
+        "Eronda",
+        "Misrdan"
+       ],
+       "correct_index": 0,
+       "page": 77
+      },
+      {
+       "question": "Tug'luq Temurni xon deb kim e'lon qildi?",
+       "options": [
+        "Amir Temur",
+        "Qazag'on",
+        "Papa",
+        "Mo'g'ulistondagi nufuzli mo'g'ul amirlari"
+       ],
+       "correct_index": 3,
+       "page": 78
+      },
+      {
+       "question": "Tug'luq Temurning yurishi qaysi yilda bo'lgan?",
+       "options": [
+        "1346-yil",
+        "1365-yil",
+        "1370-yil",
+        "1360-yil fevral-mart"
+       ],
+       "correct_index": 3,
+       "page": 78
+      },
+      {
+       "question": "Manbalarda ilk marta Amir Temur nomi qaysi voqea munosabati bilan tilga olinadi?",
+       "options": [
+        "Loy jangi",
+        "Balx qamali",
+        "Tug'luq Temur yurishi",
+        "Sarbadorlar"
+       ],
+       "correct_index": 2,
+       "page": 78
+      },
+      {
+       "question": "Amir Temur dorug'a bo'lganda necha yoshda edi?",
+       "options": [
+        "14 yoshda",
+        "34 yoshda",
+        "24 yoshda",
+        "44 yoshda"
+       ],
+       "correct_index": 2,
+       "page": 78
+      },
+      {
+       "question": "Amir Temur qayerda tug'ilgan?",
+       "options": [
+        "Yakkabog' tumani, Xo'ja Ilg'or qishlog'ida",
+        "Samarqandda",
+        "Buxoroda",
+        "Balxda"
+       ],
+       "correct_index": 0,
+       "page": 78
+      },
+      {
+       "question": "Amir Temur otasi kim edi?",
+       "options": [
+        "Hoji Barlos",
+        "Qazag'on",
+        "Husayn",
+        "Tarag'oy bahodir"
+       ],
+       "correct_index": 3,
+       "page": 78
+      },
+      {
+       "question": "Amir Temurning to'liq ismi nima?",
+       "options": [
+        "Temur Xon",
+        "Amir Temur ibn Amir Tarag'oy ibn Amir Barqul",
+        "Temur Beg",
+        "Temur Shoh"
+       ],
+       "correct_index": 1,
+       "page": 79
+      },
+      {
+       "question": "Amir Temur qachon tug'ilgan?",
+       "options": [
+        "1360-yil",
+        "1370-yil",
+        "1405-yil",
+        "1336-yil 9-aprelda"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Amir Temurning onasi kim?",
+       "options": [
+        "Saroymulkxonim",
+        "O'ljoy Turkon",
+        "Takina Xotun",
+        "Qutlug' Turkon"
+       ],
+       "correct_index": 2,
+       "page": 79
+      },
+      {
+       "question": "Amir Temur qaysi o'yinni yaxshi bilgan?",
+       "options": [
+        "Polo",
+        "Futbol",
+        "Tennis",
+        "Shaxmat"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "\"Temur shaxmati\" nima?",
+       "options": [
+        "Cho'p o'yini",
+        "Kartochka",
+        "Amir Temur kashf etgan shaxmat turi",
+        "Raqs"
+       ],
+       "correct_index": 2,
+       "page": 79
+      },
+      {
+       "question": "Amir Temur qaysi urug'dan?",
+       "options": [
+        "Mang'it",
+        "Qo'ng'irot",
+        "Barlos",
+        "Jalayir"
+       ],
+       "correct_index": 2,
+       "page": 80
+      },
+      {
+       "question": "Amir Temur va Amir Husayn qanday qarindosh?",
+       "options": [
+        "Aka-uka",
+        "Temur Husaynning singlisi O'ljoy Turkonga uylangan",
+        "Amakivachcha",
+        "Qaynota-kuyov"
+       ],
+       "correct_index": 1,
+       "page": 81
+      },
+      {
+       "question": "Amir Husayn kimning nabirasi?",
+       "options": [
+        "Hoji Barlosning",
+        "Temurning",
+        "Bayonquli",
+        "Amir Qazag'onning"
+       ],
+       "correct_index": 3,
+       "page": 81
+      },
+      {
+       "question": "Seyistonda Temur qanday jarohat oldi?",
+       "options": [
+        "Qilichdan",
+        "Pichoqdan",
+        "O'ng qo'li va o'ng oyog'iga o'q tegdi, oqsoq bo'ldi",
+        "Zahar"
+       ],
+       "correct_index": 2,
+       "page": 81
+      },
+      {
+       "question": "Seyistonga Temur kimning taklifi bilan bordi?",
+       "options": [
+        "Husaynning",
+        "Malik Qutbiddinning",
+        "Ilyosxo'janing",
+        "Tug'luq Temurning"
+       ],
+       "correct_index": 1,
+       "page": 81
+      },
+      {
+       "question": "Ilyosxo'ja kim?",
+       "options": [
+        "Qazag'onning o'g'li",
+        "Husaynning akasi",
+        "Temur o'g'li",
+        "Tug'luq Temurning o'g'li"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Loy nomi nimadan?",
+       "options": [
+        "Daryo",
+        "Shahar nomi",
+        "Qal'a",
+        "Yomg'irdan hosil bo'lgan loy"
+       ],
+       "correct_index": 3,
+       "page": 82
+      },
+      {
+       "question": "Ilyosxo'ja yomg'ir chaqirish marosimi nima deb atalgan?",
+       "options": [
+        "\"Yada\"",
+        "\"Navro'z\"",
+        "\"Qurultoy\"",
+        "\"Mehrjon\""
+       ],
+       "correct_index": 0,
+       "page": 82
+      },
+      {
+       "question": "Husayn nega Temurning chaqirig'iga quloq solmadi?",
+       "options": [
+        "Charchaganidan",
+        "Mo'g'ullarning soxta chekinish hiylasidan xavfsiraganidan",
+        "Qo'shini yo'qligidan",
+        "Temurni yoqtirmaganidan"
+       ],
+       "correct_index": 1,
+       "page": 82
+      },
+      {
+       "question": "Sarbadorlar Samarqandda kimning boshchiligida chiqdi?",
+       "options": [
+        "Temur",
+        "Mavlonozoda, Xurdak Buxoriy, Abu Bakr Kalaviy",
+        "Husayn",
+        "Qazag'on"
+       ],
+       "correct_index": 1,
+       "page": 83
+      },
+      {
+       "question": "Sarbador so'zi forschada nimani bildiradi?",
+       "options": [
+        "\"Qo'li qilichda\"",
+        "\"Yuragi toshda\"",
+        "\"Tili dorda\"",
+        "\"Boshi dorda\""
+       ],
+       "correct_index": 3,
+       "page": 84
+      },
+      {
+       "question": "Sarbadorlar davlatiga qaysi aka-uka asos solgan?",
+       "options": [
+        "Temur va Husayn",
+        "Jo'chi va Chig'atoy",
+        "Aloq va Suketu",
+        "Hasan Hamza va Husayn Hamza"
+       ],
+       "correct_index": 3,
+       "page": 84
+      },
+      {
+       "question": "Sarbadorlar davlatiga asos solingan qishloq qanday nomda?",
+       "options": [
+        "Boshtin",
+        "Sabzavor",
+        "Konigil",
+        "Kesh"
+       ],
+       "correct_index": 0,
+       "page": 84
+      },
+      {
+       "question": "Temur Mavlonozoda hayotini nega saqlab qoldi?",
+       "options": [
+        "Pul uchun",
+        "Do'stligi uchun",
+        "Sarbadorlar gunohsizligini ta'kidlab, adolat uchun",
+        "Qo'rqqani uchun"
+       ],
+       "correct_index": 2,
+       "page": 85
       }
      ]
     },
@@ -3109,6 +6354,380 @@
         "Soliq uchun"
        ],
        "correct_index": 1,
+       "page": 93
+      },
+      {
+       "question": "Konigil voqeasidan so'ng Movarounnahrda kimning hukmronligi o'rnatildi?",
+       "options": [
+        "Amir Temurning",
+        "Amir Husaynning",
+        "Tug'luq Temurning",
+        "Qazag'onning"
+       ],
+       "correct_index": 1,
+       "page": 87
+      },
+      {
+       "question": "Husayn Temurni kim sifatida ko'ra boshladi?",
+       "options": [
+        "Ittifoqchi",
+        "Vazir",
+        "Asosiy raqobatchi",
+        "Do'st"
+       ],
+       "correct_index": 2,
+       "page": 87
+      },
+      {
+       "question": "Husayn mamlakat amiri bo'lgach nima qildi?",
+       "options": [
+        "Harbiylar va amaldorlarga katta soliq soldi",
+        "Soliqni kamaytirdi",
+        "Qo'shinni tarqatdi",
+        "Sarbadorlarni qo'llab-quvvatladi"
+       ],
+       "correct_index": 0,
+       "page": 87
+      },
+      {
+       "question": "O'ljoy Turkon qaysi yili vafot etdi?",
+       "options": [
+        "1360-yilda",
+        "1366-yilda",
+        "1370-yilda",
+        "1365-yilda"
+       ],
+       "correct_index": 1,
+       "page": 88
+      },
+      {
+       "question": "O'ljoy Turkonning vafoti nimaga olib keldi?",
+       "options": [
+        "Ittifoqga",
+        "Urushning tugashiga",
+        "Ikki amir o'rtasidagi so'nggi rishta uzilishiga",
+        "Taxt almashuviga"
+       ],
+       "correct_index": 2,
+       "page": 88
+      },
+      {
+       "question": "Temur o'z safdoshlariga qarz to'lashda kimning taqinchoqlarini ham sarfladi?",
+       "options": [
+        "Saroymulkxonimning",
+        "Takina Xotunning",
+        "O'ljoy Turkonning",
+        "Qutlug' Turkonning"
+       ],
+       "correct_index": 2,
+       "page": 88
+      },
+      {
+       "question": "Husayn 1370-yilda qaysi hududlardan qo'shimcha kuch to'pladi?",
+       "options": [
+        "Samarqand",
+        "Buxoro",
+        "Xorazm",
+        "Balx, Qunduz, Badaxshon"
+       ],
+       "correct_index": 3,
+       "page": 88
+      },
+      {
+       "question": "Temur qaysi joyda qarorgoh qurdi (1370)?",
+       "options": [
+        "Samarqandda",
+        "Keshda",
+        "Termiz yaqinidagi Biyo degan joyda",
+        "Balxda"
+       ],
+       "correct_index": 2,
+       "page": 88
+      },
+      {
+       "question": "Temurga nog'ora va bayroq kim topshirgan?",
+       "options": [
+        "Xoja Ahror",
+        "Najmiddin Kubro",
+        "Mir Sayyid Baraka",
+        "Naqshband"
+       ],
+       "correct_index": 2,
+       "page": 88
+      },
+      {
+       "question": "Nog'ora va bayroq nimani bildirgan?",
+       "options": [
+        "Urush e'lonini",
+        "Hokimiyat va saltanat ramzlarini",
+        "Sulhni",
+        "Savdoni"
+       ],
+       "correct_index": 1,
+       "page": 88
+      },
+      {
+       "question": "Balx qamali necha kun davom etdi?",
+       "options": [
+        "Ikki kun",
+        "Bir kun",
+        "Bir hafta",
+        "Bir oy"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Husayn qayerga yashirinib olgan edi?",
+       "options": [
+        "Jome masjidi minorasiga",
+        "Qal'aga",
+        "Ark ostiga",
+        "Maqbaraga"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Husaynni kim o'ldirdi?",
+       "options": [
+        "Amir Kayxusrav (xun olish uchun)",
+        "Temur",
+        "Jaloliddin",
+        "Hoji Barlos"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Kayxusrav akasi Kayqubodning xuni uchun kimni o'ldirdi?",
+       "options": [
+        "Temurni",
+        "Qazag'onni",
+        "Ilyosni",
+        "Husaynni"
+       ],
+       "correct_index": 3,
+       "page": 89
+      },
+      {
+       "question": "Qurultoy qaroriga ko'ra Movarounnahr xoni kim bo'ldi?",
+       "options": [
+        "Ilyosxo'ja",
+        "Tug'luq Temur",
+        "Suyurg'atmish (1370-1388)",
+        "Qobilshoh"
+       ],
+       "correct_index": 2,
+       "page": 89
+      },
+      {
+       "question": "Suyurg'atmish qaysi sulolaga mansub edi?",
+       "options": [
+        "Barloslar",
+        "Chingiz avlodi",
+        "Temuriylar",
+        "Saljuqiylar"
+       ],
+       "correct_index": 1,
+       "page": 89
+      },
+      {
+       "question": "Amir Temur qaysi unvonni oldi?",
+       "options": [
+        "Movarounnahr amiri",
+        "Sulton",
+        "Xon",
+        "Shoh"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Temur Keshdan qayerga ko'chdi?",
+       "options": [
+        "Samarqandga",
+        "Balxga",
+        "Buxoroga",
+        "Hirotga"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Temur hokimiyatga kelganda necha yoshda edi?",
+       "options": [
+        "24 yoshda",
+        "34 yoshda",
+        "44 yoshda",
+        "64 yoshda"
+       ],
+       "correct_index": 1,
+       "page": 89
+      },
+      {
+       "question": "Shiburg'on hokimi kim bo'lib, ayirmachilik qildi?",
+       "options": [
+        "Hoji Barlos",
+        "Zinda Chashm",
+        "Sayfiddin",
+        "Bayon suldus"
+       ],
+       "correct_index": 1,
+       "page": 89
+      },
+      {
+       "question": "Zinda Chashmga qarshi Temur kimni jo'natdi?",
+       "options": [
+        "Joku Barlosni",
+        "Mironshohni",
+        "Shohruxni",
+        "Jahongirni"
+       ],
+       "correct_index": 0,
+       "page": 89
+      },
+      {
+       "question": "Temur Zinda Chashmga nima qildi?",
+       "options": [
+        "Qatl etdi",
+        "Surgun qildi",
+        "Zindonga soldi",
+        "Afv etdi"
+       ],
+       "correct_index": 3,
+       "page": 89
+      },
+      {
+       "question": "Temur Husayn navkarlarini afv etib nima qildi?",
+       "options": [
+        "Qatl qildi",
+        "Haydadi",
+        "Qamadi",
+        "Yana askarlik ishlariga tayinladi"
+       ],
+       "correct_index": 3,
+       "page": 90
+      },
+      {
+       "question": "Badaxshon hokimi qaysi mavqeda edi?",
+       "options": [
+        "Qozi",
+        "Vazir",
+        "Amir ul-umaro (bosh amir)",
+        "Sarkarda"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Temur dastlabki islohotlarida nimani ta'minladi?",
+       "options": [
+        "Soliqsizlikni",
+        "Qullikni",
+        "Qonun ustuvorligini",
+        "Parokandalikni"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Temur Xorazmdan boshqa barcha yerlarni nima qildi?",
+       "options": [
+        "O'z hokimiyati ostiga birlashtirdi",
+        "Tark etdi",
+        "Sotdi",
+        "Taqsimladi"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Temur dastlabki farmonlarida nimalarni buyurgan?",
+       "options": [
+        "Qullik",
+        "Urush",
+        "Soliq oshirish",
+        "Yo'llar xavfsizligi, pochta, rabotlar, xayrxonalar"
+       ],
+       "correct_index": 3,
+       "page": 91
+      },
+      {
+       "question": "Temur kimlarga yuqori hurmat bilan qaragan?",
+       "options": [
+        "Savdogarlarga",
+        "Sayyidlar, din peshvolari, qozilar, shayxlarga",
+        "Askarlarga",
+        "Dehqonlarga"
+       ],
+       "correct_index": 1,
+       "page": 91
+      },
+      {
+       "question": "Temurning \"tuzuklari\"da qaysi so'z bor edi?",
+       "options": [
+        "Kengash bilan ish yuritish",
+        "Yakkahokimlik",
+        "Urush",
+        "Qullik"
+       ],
+       "correct_index": 0,
+       "page": 91
+      },
+      {
+       "question": "Temur davlat tizimiga qaysi davlatlar tajribasini qaytadan jonlantirdi?",
+       "options": [
+        "Rim, Vizantiya",
+        "Somoniylar, Qoraxoniylar, G'aznaviylar, Saljuqiylar, Xorazmshohlar",
+        "Arab xalifaligi",
+        "Xitoy, Hindiston"
+       ],
+       "correct_index": 1,
+       "page": 92
+      },
+      {
+       "question": "Temurga qarshi suiqasd rejasi qaysi yili tuzilgan?",
+       "options": [
+        "1372-yilda",
+        "1366-yilda",
+        "1370-yilda",
+        "1380-yilda"
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Suiqasd qayerda amalga oshirilmoqchi edi?",
+       "options": [
+        "O'tror yaqinidagi Qarosomon mavzeyida",
+        "Samarqandda",
+        "Keshda",
+        "Balxda"
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Suiqasd fosh bo'lishiga kim sabab bo'ldi?",
+       "options": [
+        "Sohibqironning xavfsizlik xizmati",
+        "Papa",
+        "Vazir",
+        "Savdogar"
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Temur kichik va zaif guruhni jazolamaslikdan nimani istagan?",
+       "options": [
+        "Katta va qudratli guruhdan ajralmaslikni",
+        "Pulni",
+        "Yerni",
+        "Shuhratni"
+       ],
+       "correct_index": 0,
        "page": 93
       }
      ]
@@ -3539,6 +7158,611 @@
        ],
        "correct_index": 1,
        "page": 109
+      },
+      {
+       "question": "Temur XIV asrning 70-yillari boshida nimani boshladi?",
+       "options": [
+        "Hindistonga yurishni",
+        "Rusga yurishni",
+        "Savdoni",
+        "Movarounnahrni birlashtirish siyosatini"
+       ],
+       "correct_index": 3,
+       "page": 94
+      },
+      {
+       "question": "Temur qaysi daryolar oralig'ini bo'ysundirdi?",
+       "options": [
+        "Nil va Gang",
+        "Volga va Don",
+        "Amudaryo va Sirdaryo",
+        "Dajla va Frot"
+       ],
+       "correct_index": 2,
+       "page": 94
+      },
+      {
+       "question": "Temur Sharqiy Turkistonga necha marta yurish qildi?",
+       "options": [
+        "Bir marta",
+        "Bir necha marta",
+        "Hech qachon",
+        "Yuz marta"
+       ],
+       "correct_index": 1,
+       "page": 94
+      },
+      {
+       "question": "Temur Mo'g'ulistonga yurishlardan maqsadi nima edi?",
+       "options": [
+        "Qul olish",
+        "Yer olish faqat",
+        "Din tarqatish",
+        "Chegaralarni hujumlardan himoya qilish"
+       ],
+       "correct_index": 3,
+       "page": 94
+      },
+      {
+       "question": "1376-yilda Farg'ona hokimi etib kim tayinlandi?",
+       "options": [
+        "Mironshoh",
+        "Mirzo Umarshayx Bahodir",
+        "Shohrux",
+        "Jahongir"
+       ],
+       "correct_index": 1,
+       "page": 94
+      },
+      {
+       "question": "Oltin O'rda tarkibiga nima kirgan?",
+       "options": [
+        "Eron",
+        "Hindiston",
+        "Misr",
+        "Xorazmning shimoliy qismi, Shimoliy Kavkaz, Qrim"
+       ],
+       "correct_index": 3,
+       "page": 95
+      },
+      {
+       "question": "Oq O'rdaga kimlar kirgan?",
+       "options": [
+        "Dunay bo'yi",
+        "Volga quyi",
+        "Sirdaryoning quyi oqimi yerlari",
+        "Xorazm janubi"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Mo'g'ul xonlari qish kelganda qayerga hujum qilgan?",
+       "options": [
+        "Eronga",
+        "Xitoyga",
+        "Hindistonga",
+        "Sirdaryo bo'ylari va Farg'ona vodiysiga"
+       ],
+       "correct_index": 3,
+       "page": 95
+      },
+      {
+       "question": "Mo'g'uliston xoni sifatida Temur kimni tayinladi?",
+       "options": [
+        "Ilyosxo'jani",
+        "Suyurg'atmishni",
+        "Xizrxo'jani",
+        "Tug'luq Temurni"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Temur garov sifatida kimni olib qaytdi?",
+       "options": [
+        "Sham'i Jahonni (Xizrxo'ja o'g'li)",
+        "Xizrxo'jani",
+        "Ilyosni",
+        "Husaynni"
+       ],
+       "correct_index": 0,
+       "page": 95
+      },
+      {
+       "question": "Xorazm mo'g'ullar davrida qanday bo'lingan?",
+       "options": [
+        "Shimoliy (Urganch) va janubiy (Kat markazli) qismlarga",
+        "Uch qismga",
+        "Bir butun",
+        "Besh qismga"
+       ],
+       "correct_index": 0,
+       "page": 95
+      },
+      {
+       "question": "Shimoliy Xorazm qaysi ulus tarkibida edi?",
+       "options": [
+        "Jo'chi ulusi",
+        "Chig'atoy",
+        "Hulakuyli",
+        "Yuan"
+       ],
+       "correct_index": 0,
+       "page": 95
+      },
+      {
+       "question": "Janubiy Xorazm qaysi ulus tarkibida edi?",
+       "options": [
+        "Jo'chi ulusi",
+        "Yuan",
+        "Chig'atoy ulusi",
+        "Hulakuyli"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Temur Xorazmga nechta yurish qildi (1388-yilgacha)?",
+       "options": [
+        "Bir marta",
+        "Besh marta",
+        "Uch marta",
+        "O'n marta"
+       ],
+       "correct_index": 1,
+       "page": 96
+      },
+      {
+       "question": "Xorazm hukmdori Yusuf So'fi nima qildi?",
+       "options": [
+        "Taslim bo'ldi",
+        "Temurga yordam berdi",
+        "Yarash shartlarini buzib Katni bosib oldi",
+        "Qochdi"
+       ],
+       "correct_index": 2,
+       "page": 96
+      },
+      {
+       "question": "Beshinchi yurishda Xorazmni kim boshqarardi?",
+       "options": [
+        "Yusuf So'fi",
+        "Husayn So'fi",
+        "Umar So'fi",
+        "Sulaymon So'fi"
+       ],
+       "correct_index": 3,
+       "page": 96
+      },
+      {
+       "question": "Sulaymon So'fi kim bilan birlashib hujum uyushtirdi?",
+       "options": [
+        "Husayn bilan",
+        "Boyazid bilan",
+        "To'xtamishxon bilan",
+        "Faraj bilan"
+       ],
+       "correct_index": 2,
+       "page": 96
+      },
+      {
+       "question": "Xorazm bo'ysundirilgach nima qilindi?",
+       "options": [
+        "Qal'a buzildi",
+        "Soliq bekor qilindi",
+        "Temur nomiga xutba o'qilib, tanga zarb etildi",
+        "Taxt berildi"
+       ],
+       "correct_index": 2,
+       "page": 96
+      },
+      {
+       "question": "Temur Xurosonga 1380-yilda kimni elchi qilib yubordi?",
+       "options": [
+        "Hoji Sayfiddinni",
+        "Mironshohni",
+        "Sheroziyni",
+        "Ulug'bekni"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Xuroson hukmdori kim edi?",
+       "options": [
+        "Malik G'iyosiddin Pir Ali",
+        "Yusuf So'fi",
+        "Sulaymon So'fi",
+        "Qora Yusuf"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Mironshoh qancha askar bilan Balxga yuborildi?",
+       "options": [
+        "2,5 ming",
+        "250 ming",
+        "25 ming",
+        "10 ming"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "Temur Xurosonga 1381-yil qaysi oyda yo'l oldi?",
+       "options": [
+        "Mart oyida",
+        "Fevral oyida",
+        "Iyun oyida",
+        "Oktyabr oyida"
+       ],
+       "correct_index": 1,
+       "page": 97
+      },
+      {
+       "question": "Hirot hukmdori kalitlarni kimga topshirdi?",
+       "options": [
+        "Amir Temurga",
+        "Husaynga",
+        "Boyazidga",
+        "To'xtamishga"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Temur asirga olingan nechta kishini ozod qildi?",
+       "options": [
+        "20 nafarni",
+        "200 nafarni",
+        "2000 nafarni",
+        "20000 nafarni"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "Temurning yurishlari \"uch yillik\" qaysi yillarda?",
+       "options": [
+        "1392-1396",
+        "1399-1405",
+        "1386-1388",
+        "1380-1383"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "\"Besh yillik\" yurish qaysi yillarda?",
+       "options": [
+        "1386-1388",
+        "1399-1405",
+        "1370-1375",
+        "1392-1396"
+       ],
+       "correct_index": 3,
+       "page": 97
+      },
+      {
+       "question": "\"Yetti yillik\" yurish qaysi yillarda?",
+       "options": [
+        "1386-1388",
+        "1392-1396",
+        "1375-1380",
+        "1399-1405"
+       ],
+       "correct_index": 3,
+       "page": 97
+      },
+      {
+       "question": "Kavkazda qaysi qal'alar egallandi?",
+       "options": [
+        "Tiflis, Arzirum, Van",
+        "Bag'dod",
+        "Damashq",
+        "Qohira"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Muzaffariylar mulklari qaysi yili taqsimlandi?",
+       "options": [
+        "1380-yilda",
+        "1392-yilda",
+        "1388-yilda",
+        "1399-yilda"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "Temur Mordin qal'asi qamalini nega to'xtatdi?",
+       "options": [
+        "Qish kelgani uchun",
+        "Shohrux xonadonida o'g'il tug'ilgani xushxabari tufayli",
+        "Xazina tugaganidan",
+        "Ochlikdan"
+       ],
+       "correct_index": 1,
+       "page": 98
+      },
+      {
+       "question": "Shohruxning o'g'li kim edi?",
+       "options": [
+        "Muhammad Tarag'ay (Ulug'bek)",
+        "Mironshoh",
+        "Jahongir",
+        "Umarshayx"
+       ],
+       "correct_index": 0,
+       "page": 98
+      },
+      {
+       "question": "To'xtamishxon Samarqandga nima uchun qochib kelgan?",
+       "options": [
+        "Savdo uchun",
+        "Ta'lim uchun",
+        "Din uchun",
+        "O'rusxon o'limga mahkum qilgani uchun"
+       ],
+       "correct_index": 3,
+       "page": 101
+      },
+      {
+       "question": "To'xtamish qaysi yilda Ozarbayjonni egallamoqchi bo'ldi?",
+       "options": [
+        "1376-yilda",
+        "1395-yilda",
+        "1385-yilda",
+        "1402-yilda"
+       ],
+       "correct_index": 2,
+       "page": 101
+      },
+      {
+       "question": "Bitiktosh (Ulug'tog') qaysi yilda tayyorlangan?",
+       "options": [
+        "1395-yilda",
+        "1402-yilda",
+        "1391-yilda",
+        "1380-yilda"
+       ],
+       "correct_index": 2,
+       "page": 102
+      },
+      {
+       "question": "Bitiktosh hozir qayerda saqlanadi?",
+       "options": [
+        "Sankt-Peterburgdagi Ermitajda",
+        "Samarqandda",
+        "Londonda",
+        "Parijda"
+       ],
+       "correct_index": 0,
+       "page": 102
+      },
+      {
+       "question": "Terek jangi qaysi yili bo'lgan?",
+       "options": [
+        "1391-yilda",
+        "1389-yilda",
+        "1402-yilda",
+        "1395-yilda"
+       ],
+       "correct_index": 3,
+       "page": 103
+      },
+      {
+       "question": "To'xtamish qancha qo'shin bilan chiqdi?",
+       "options": [
+        "400 mingga yaqin",
+        "40 ming",
+        "4 ming",
+        "4 million"
+       ],
+       "correct_index": 0,
+       "page": 103
+      },
+      {
+       "question": "Terek jangida ayollarga nima buyurildi?",
+       "options": [
+        "Qochishni",
+        "Yashirinishni",
+        "Ovqat pishirishni",
+        "Dubulg'a kiyib jangchilar o'rnini egallashni"
+       ],
+       "correct_index": 3,
+       "page": 104
+      },
+      {
+       "question": "Temur Oltin O'rdani ta'qib qilib qayerlargacha bordi?",
+       "options": [
+        "Ryazan, Yelets, Azov",
+        "Moskva, Kiyev",
+        "Varshava",
+        "Parij"
+       ],
+       "correct_index": 0,
+       "page": 103
+      },
+      {
+       "question": "Temur Hindistonga qaysi yilda yurish qildi?",
+       "options": [
+        "1389-yilda",
+        "1395-yilda",
+        "1398-yilda",
+        "1402-yilda"
+       ],
+       "correct_index": 2,
+       "page": 104
+      },
+      {
+       "question": "Hindistonga yurishda qancha askar bilan chiqdi?",
+       "options": [
+        "9 ming",
+        "92 ming",
+        "920 ming",
+        "30 ming"
+       ],
+       "correct_index": 1,
+       "page": 104
+      },
+      {
+       "question": "Temur Hindistonda qaysi shaharlarni egalladi?",
+       "options": [
+        "Bombay",
+        "Kobul, Mo'lton, Dehli",
+        "Kalkutta",
+        "Madras"
+       ],
+       "correct_index": 1,
+       "page": 104
+      },
+      {
+       "question": "Temur Hindiston yurishi vaqtida nima va'da qilgan?",
+       "options": [
+        "Shahar qurdiraman",
+        "Soliq kechaman",
+        "Taxtdan voz kechaman",
+        "Qaytsam jome masjidi qurdiraman"
+       ],
+       "correct_index": 3,
+       "page": 105
+      },
+      {
+       "question": "Masjid qurilishi uchun Hindistondan nechta fil keltirildi?",
+       "options": [
+        "95 ta",
+        "9 ta",
+        "195 ta",
+        "20 ta"
+       ],
+       "correct_index": 0,
+       "page": 105
+      },
+      {
+       "question": "Masjid qurilishida nechta toshtarosh usta ishladi?",
+       "options": [
+        "Yigirma",
+        "Ikki ming",
+        "Ikki yuz",
+        "O'n"
+       ],
+       "correct_index": 2,
+       "page": 105
+      },
+      {
+       "question": "Hindiston yurishi necha oy davom etdi?",
+       "options": [
+        "Bir oy",
+        "O'n bir oy",
+        "Bir yil",
+        "Besh oy"
+       ],
+       "correct_index": 1,
+       "page": 105
+      },
+      {
+       "question": "Boyazid Yildirim qaysi jangda Yevropa qo'shinini yengdi?",
+       "options": [
+        "Kosovoda",
+        "1396-yil Nikopol jangida",
+        "Anqarada",
+        "Mantsikertda"
+       ],
+       "correct_index": 1,
+       "page": 106
+      },
+      {
+       "question": "Boyazidga \"Yildirim\" laqabi nega berilgan?",
+       "options": [
+        "Chaqmoq tushgani uchun",
+        "Tez yurgani uchun",
+        "Urushlarda tezkorlik bilan g'alaba qozonganidan",
+        "Zirh kiygani uchun"
+       ],
+       "correct_index": 2,
+       "page": 106
+      },
+      {
+       "question": "Anqara jangi qaysi sanada bo'lgan?",
+       "options": [
+        "1395-yil 15-aprel",
+        "1402-yil 20-iyul",
+        "1398-yil 10-may",
+        "1405-yil 18-fevral"
+       ],
+       "correct_index": 1,
+       "page": 107
+      },
+      {
+       "question": "Anqarada Temur nimani qo'lladi?",
+       "options": [
+        "Dengiz hujumi",
+        "Chalg'itish usulini - Muhammad Sultonga tepalikni zabt etishni topshirdi",
+        "Zaharlash",
+        "Qamal"
+       ],
+       "correct_index": 1,
+       "page": 107
+      },
+      {
+       "question": "Boyazid asirga olinganda Temur nima qildi?",
+       "options": [
+        "Qatl qildi",
+        "Kishanlarini bo'shattirib, hurmat bilan muomala qildi",
+        "Zindonga soldi",
+        "Mensimadi"
+       ],
+       "correct_index": 1,
+       "page": 107
+      },
+      {
+       "question": "Temur Xitoyga yurishni qaysi sanada boshladi?",
+       "options": [
+        "1405-yil fevralda",
+        "1402-yil iyulda",
+        "1404-yil 27-noyabrda",
+        "1399-yilda"
+       ],
+       "correct_index": 2,
+       "page": 109
+      },
+      {
+       "question": "Xitoy yurishida qancha qo'shin bor edi?",
+       "options": [
+        "200 ming",
+        "20 ming",
+        "2 ming",
+        "500 ming"
+       ],
+       "correct_index": 0,
+       "page": 109
+      },
+      {
+       "question": "Muhammad Sulton qayerda vafot etgan edi?",
+       "options": [
+        "Samarqandda",
+        "Keshda",
+        "Qorabog'da",
+        "Balxda"
+       ],
+       "correct_index": 2,
+       "page": 110
+      },
+      {
+       "question": "Muhammad Sulton qayerga dafn etildi?",
+       "options": [
+        "Samarqandda Temur maqbarasiga (Go'ri Amir)",
+        "Keshda",
+        "Balxda",
+        "Hirotda"
+       ],
+       "correct_index": 0,
+       "page": 110
       }
      ]
     },
@@ -3808,6 +8032,171 @@
        ],
        "correct_index": 1,
        "page": 112
+      },
+      {
+       "question": "Temur davrida savdogarlar qayerlarga bemalol borgan?",
+       "options": [
+        "Faqat Samarqandga",
+        "Xo'tan chegarasidan Dehli, Misr va Rumgacha",
+        "Faqat Hirotga",
+        "Faqat Keshga"
+       ],
+       "correct_index": 1,
+       "page": 112
+      },
+      {
+       "question": "Amir Temur Yevropaning qaysi qirollari bilan aloqa o'rnatdi?",
+       "options": [
+        "Fransiya, Angliya, Kastiliya",
+        "Rus, Polsha",
+        "Daniya, Shvetsiya",
+        "Portugaliya, Italiya"
+       ],
+       "correct_index": 0,
+       "page": 113
+      },
+      {
+       "question": "Temur Fransiya qiroli Karl VI ga nimani taklif qildi?",
+       "options": [
+        "Urushni",
+        "Savdogarlarni bir-biriga yuborishni",
+        "Taxtni",
+        "Tojni"
+       ],
+       "correct_index": 1,
+       "page": 113
+      },
+      {
+       "question": "Anqara g'alabasi natijasida Konstantinopol qamali qancha to'xtadi?",
+       "options": [
+        "Bir yilga",
+        "Ellik yilga",
+        "Besh yilga",
+        "Yuz yilga"
+       ],
+       "correct_index": 1,
+       "page": 114
+      },
+      {
+       "question": "Evropada Temurni qanday ulug'lagan?",
+       "options": [
+        "\"Jahongir\"",
+        "\"Qasoskor\"",
+        "\"Dunyo hukmdori\"",
+        "\"Evropaning xaloskori\""
+       ],
+       "correct_index": 3,
+       "page": 114
+      },
+      {
+       "question": "Temur Angliya qiroli Genrix IV ga maktub qaysi yili yo'lladi?",
+       "options": [
+        "1395-yilda",
+        "1399-yilda",
+        "1405-yilda",
+        "1402-yil yozida (1403-yil may Parijga yetdi)"
+       ],
+       "correct_index": 3,
+       "page": 114
+      },
+      {
+       "question": "Kastiliya qiroli Genrix III qaysi yili elchilarni yubordi?",
+       "options": [
+        "1395-yilda",
+        "1402-yil bahorida",
+        "1399-yilda",
+        "1405-yilda"
+       ],
+       "correct_index": 1,
+       "page": 115
+      },
+      {
+       "question": "Genrix III ikkinchi elchisi kim edi?",
+       "options": [
+        "Ioann Grinlo",
+        "Muhammadqozi",
+        "Shomiy",
+        "Rui Gonsales de Klavixo"
+       ],
+       "correct_index": 3,
+       "page": 115
+      },
+      {
+       "question": "Muhammadqozi kim edi?",
+       "options": [
+        "Elchi ispan",
+        "Temurning Ispaniyaga yuborilgan elchisi",
+        "Rohib",
+        "Sarkarda"
+       ],
+       "correct_index": 1,
+       "page": 115
+      },
+      {
+       "question": "Ispan elchilari Samarqandda qaysi yili qabul qilindi?",
+       "options": [
+        "1404-yilda",
+        "1402-yilda",
+        "1405-yilda",
+        "1395-yilda"
+       ],
+       "correct_index": 0,
+       "page": 115
+      },
+      {
+       "question": "Temur Samarqand atrofidagi qishloqlarni nima deb atadi?",
+       "options": [
+        "Parij, London",
+        "Dimishq, Misr, Bag'dod, Sultoniya, Sheroz",
+        "Rim, Afina",
+        "Moskva, Kiyev"
+       ],
+       "correct_index": 1,
+       "page": 116
+      },
+      {
+       "question": "Xonbaliqdan Samarqandga nechta tuyalik karvon kelgan?",
+       "options": [
+        "80",
+        "8",
+        "800",
+        "8000"
+       ],
+       "correct_index": 2,
+       "page": 116
+      },
+      {
+       "question": "Temur qo'shinida qaysi urug' qo'mondonlik o'zagini tashkil etgan?",
+       "options": [
+        "Mang'it",
+        "Qo'ng'irot",
+        "Barlos",
+        "Qipchoq"
+       ],
+       "correct_index": 2,
+       "page": 117
+      },
+      {
+       "question": "Temur nima qilgan harbiy tizim?",
+       "options": [
+        "Yollanma qo'shin",
+        "Qat'iy tartib va intizomli qo'shin tuzgan",
+        "Xalq lashkari",
+        "Dengiz floti"
+       ],
+       "correct_index": 1,
+       "page": 117
+      },
+      {
+       "question": "Temur o'zga davlatlarga ayg'oqchilarni qanday niqobda yuborgan?",
+       "options": [
+        "Ritsar",
+        "Savdogar, shayx, darvish niqobida",
+        "Dehqon",
+        "Hunarmand"
+       ],
+       "correct_index": 1,
+       "page": 117
       }
      ]
     },
@@ -4011,6 +8400,226 @@
      ],
      "exam_bank": [
       {
+       "question": "Temur saroyni necha ming askar qo'riqlagan?",
+       "options": [
+        "Ikki ming",
+        "Ikki yuz",
+        "Yigirma ming",
+        "O'n ikki ming"
+       ],
+       "correct_index": 3,
+       "page": 118
+      },
+      {
+       "question": "Har kecha necha qurolli askar soqchilik qilgan?",
+       "options": [
+        "O'n",
+        "Yuz",
+        "Ming nafar",
+        "Besh ming"
+       ],
+       "correct_index": 2,
+       "page": 118
+      },
+      {
+       "question": "Temur qo'shinini nechta qo'lga bo'lib joylashtirdi?",
+       "options": [
+        "Ikkita",
+        "Uchta",
+        "O'ntacha",
+        "Yettita"
+       ],
+       "correct_index": 3,
+       "page": 119
+      },
+      {
+       "question": "Temur birinchi bo'lib Turonga nimani olib kirdi?",
+       "options": [
+        "Manjaniq",
+        "Qilich",
+        "Kamon",
+        "Otiladigan qurol - to'p (ra'd)"
+       ],
+       "correct_index": 3,
+       "page": 119
+      },
+      {
+       "question": "Tog'li hududlar uchun qanday qism tuzdi?",
+       "options": [
+        "Fillar qismi",
+        "Piyodalardan iborat maxsus harbiy qism",
+        "Suvoriy",
+        "Dengiz floti"
+       ],
+       "correct_index": 1,
+       "page": 119
+      },
+      {
+       "question": "Tunkal nima?",
+       "options": [
+        "Soliq turi",
+        "Qurol",
+        "Qo'shin yig'ish haqidagi farmon",
+        "Unvon"
+       ],
+       "correct_index": 2,
+       "page": 120
+      },
+      {
+       "question": "Tavochi kim?",
+       "options": [
+        "Qozi",
+        "Vazir",
+        "Bosh qo'mondonning yordamchisi",
+        "Mirshab"
+       ],
+       "correct_index": 2,
+       "page": 120
+      },
+      {
+       "question": "Temur qo'shinida ayollardan tuzilgan bo'linmalar bo'lganmi?",
+       "options": [
+        "Yo'q",
+        "Faqat oshxonada",
+        "Faqat tabib",
+        "Ha, jangga kirganlar"
+       ],
+       "correct_index": 3,
+       "page": 121
+      },
+      {
+       "question": "Qo'shinda diniy-irqiy kamsitish bo'lganmi?",
+       "options": [
+        "Bo'lgan",
+        "Yo'l qo'yilmagan",
+        "Faqat ayollarga",
+        "Faqat chet elliklarga"
+       ],
+       "correct_index": 1,
+       "page": 121
+      },
+      {
+       "question": "Harbiy yurishda har 18 askar nima olishi shart edi?",
+       "options": [
+        "Bitta to'p",
+        "Bitta kema",
+        "Bitta chodir",
+        "Bitta fil"
+       ],
+       "correct_index": 2,
+       "page": 122
+      },
+      {
+       "question": "To'plar birinchi marta qachon qo'llangan?",
+       "options": [
+        "1370-yilda",
+        "1395-yilda",
+        "1402-yilda",
+        "1379-yilda Urganch qamalida"
+       ],
+       "correct_index": 3,
+       "page": 122
+      },
+      {
+       "question": "Samarqand istehkom devori necha qadam edi?",
+       "options": [
+        "1 060 qadam",
+        "106 qadam",
+        "10 600 qadam",
+        "106 000 qadam"
+       ],
+       "correct_index": 2,
+       "page": 124
+      },
+      {
+       "question": "Yangi devorning qalinligi qancha edi?",
+       "options": [
+        "45 metr",
+        "0,45 metr",
+        "4,5 metr",
+        "1 metr"
+       ],
+       "correct_index": 2,
+       "page": 124
+      },
+      {
+       "question": "Devor balandligi qalinligidan necha marta ko'p edi?",
+       "options": [
+        "Uch marta",
+        "Ikki marta",
+        "O'n marta",
+        "Bir marta"
+       ],
+       "correct_index": 0,
+       "page": 124
+      },
+      {
+       "question": "1392-yilda Temur qaysi qo'rg'onni qurdi?",
+       "options": [
+        "Dilkusho",
+        "Shohruxiya",
+        "Bog'i Nav",
+        "Oqsaroy"
+       ],
+       "correct_index": 1,
+       "page": 124
+      },
+      {
+       "question": "Qo'rxona nima?",
+       "options": [
+        "Qurol-aslaha ombori",
+        "Cherkov",
+        "Bozor",
+        "Maktab"
+       ],
+       "correct_index": 0,
+       "page": 124
+      },
+      {
+       "question": "Temur qanotlar bilan nima qildi?",
+       "options": [
+        "Dushman orqasidan zarba beruvchi qism joriy etdi",
+        "Qochish",
+        "Taslim",
+        "Hech narsa"
+       ],
+       "correct_index": 0,
+       "page": 125
+      },
+      {
+       "question": "Temur dushmanga qanday yaqinlashgan?",
+       "options": [
+        "Kunduz oshkora",
+        "Tunda yaqinlashib, tong chog'i qo'qqisdan hujum qilgan",
+        "Dengizdan",
+        "Zaharlab"
+       ],
+       "correct_index": 1,
+       "page": 125
+      },
+      {
+       "question": "Lashkargoh atrofi nima bilan o'ralgan?",
+       "options": [
+        "Tosh devor",
+        "Daryo",
+        "Hech narsa",
+        "Zanjirband aravalar, shoxlar, xandaq"
+       ],
+       "correct_index": 3,
+       "page": 125
+      },
+      {
+       "question": "Temur bir vaqtda bir necha yerga yurish haqida nima qilgan?",
+       "options": [
+        "Hammasini yashirgan",
+        "Soliq yig'gan",
+        "Ovoza tarqatib dushmanni chalg'itgan",
+        "Qochgan"
+       ],
+       "correct_index": 2,
+       "page": 126
+      },
+      {
        "question": "Temur qo'shiniga nima man qilingan edi?",
        "options": [
         "Savdo qilish",
@@ -4141,6 +8750,28 @@
        ],
        "correct_index": 3,
        "page": 124
+      },
+      {
+       "question": "Temur davlat boshqaruvida qaysi tamoyilga asoslangan?",
+       "options": [
+        "Zo'rlikka",
+        "Meros",
+        "Savdoga",
+        "Adolat va qonun ustuvorligiga"
+       ],
+       "correct_index": 3,
+       "page": 127
+      },
+      {
+       "question": "Temur davlati qaysi tamoyillarga amal qilgan?",
+       "options": [
+        "Federatsiya",
+        "Respublika",
+        "Siyosiy mustaqillik, yaxlitlik, qonun asosida boshqaruv",
+        "Teokratiya"
+       ],
+       "correct_index": 2,
+       "page": 127
       }
      ]
     },
@@ -4311,6 +8942,281 @@
      ],
      "exam_bank": [
       {
+       "question": "Temur saltanati Hindiston va Xitoydan qaysi dengizgacha cho'zilgan?",
+       "options": [
+        "Boltiqqacha",
+        "Atlantikagacha",
+        "Qora dengizgacha",
+        "Qizil dengizgacha"
+       ],
+       "correct_index": 2,
+       "page": 128
+      },
+      {
+       "question": "Orol dengizidan qaysi qo'ltiqqacha yetgan?",
+       "options": [
+        "Qora dengizgacha",
+        "Qizil dengizgacha",
+        "Fors qo'ltig'igacha",
+        "Kaspiygacha"
+       ],
+       "correct_index": 2,
+       "page": 128
+      },
+      {
+       "question": "Temur bo'ysundirgan o'lkalar shaharlarini nima qildi?",
+       "options": [
+        "Vayron qildi",
+        "Qayta qurdirdi (Bag'dod, Darband, Baylakon)",
+        "Tark etdi",
+        "Sotdi"
+       ],
+       "correct_index": 1,
+       "page": 128
+      },
+      {
+       "question": "Temur Sharq bilan G'arbni bog'lovchi nimani tikladi?",
+       "options": [
+        "Dengiz yo'lini",
+        "Daryo yo'lini",
+        "Qadimiy karvon yo'llarini",
+        "Havo yo'lini"
+       ],
+       "correct_index": 2,
+       "page": 128
+      },
+      {
+       "question": "Temur muhim davlat ishlarini qayerda hal qilgan?",
+       "options": [
+        "Cherkovda",
+        "Jamiyatning yuqori qatlami vakillaridan iborat majlis (kengash)da",
+        "Bozorda",
+        "Qal'ada"
+       ],
+       "correct_index": 1,
+       "page": 128
+      },
+      {
+       "question": "Xabar yozuvchilar kimlar haqida xabar yetkazib turgan?",
+       "options": [
+        "Hokimlar, raiyat, sipoh va lashkar haqida",
+        "Faqat qirollar",
+        "Faqat ruhoniylar",
+        "Faqat savdogarlar"
+       ],
+       "correct_index": 0,
+       "page": 129
+      },
+      {
+       "question": "Kutvol kim?",
+       "options": [
+        "Qal'a boshlig'i (komendant)",
+        "Qozi",
+        "Vazir",
+        "Soliqchi"
+       ],
+       "correct_index": 0,
+       "page": 129
+      },
+      {
+       "question": "Arzbegi nima ishlar qilgan?",
+       "options": [
+        "Arz va shikoyat bilan kelganlar ahvolini nazorat qilgan",
+        "Soliq yig'gan",
+        "Sud qilgan",
+        "Qo'shin boshqargan"
+       ],
+       "correct_index": 0,
+       "page": 129
+      },
+      {
+       "question": "Viloyat darajasida kim boshqargan?",
+       "options": [
+        "Voliylar",
+        "Beklar",
+        "Hokimlar",
+        "Kutvollar"
+       ],
+       "correct_index": 0,
+       "page": 129
+      },
+      {
+       "question": "O'lkalarda kim boshqargan?",
+       "options": [
+        "Voliylar",
+        "Hokimlar",
+        "Kutvollar",
+        "Beklar"
+       ],
+       "correct_index": 3,
+       "page": 129
+      },
+      {
+       "question": "Shaharlarda kim boshqargan?",
+       "options": [
+        "Voliylar",
+        "Hokimlar",
+        "Beklar",
+        "Kutvollar"
+       ],
+       "correct_index": 1,
+       "page": 129
+      },
+      {
+       "question": "Qishloqlar tepasida kim turgan?",
+       "options": [
+        "Voliylar",
+        "Beklar",
+        "Hokimlar",
+        "Arboblar"
+       ],
+       "correct_index": 3,
+       "page": 129
+      },
+      {
+       "question": "Moliya ishlarini nechta vazir yuritgan?",
+       "options": [
+        "Bitta",
+        "Uchta",
+        "Ikkita",
+        "To'rtta"
+       ],
+       "correct_index": 1,
+       "page": 129
+      },
+      {
+       "question": "Birinchi moliya vazir nima bilan shug'ullangan?",
+       "options": [
+        "Xiroj miqdorini belgilash va yig'ish bilan",
+        "Qo'shin",
+        "Sud",
+        "Savdo"
+       ],
+       "correct_index": 0,
+       "page": 129
+      },
+      {
+       "question": "Sud ishlarini kim amalga oshirgan?",
+       "options": [
+        "Graflar",
+        "Beklar",
+        "Voliylar",
+        "Qozilar"
+       ],
+       "correct_index": 3,
+       "page": 130
+      },
+      {
+       "question": "Sudlar qanday xarakterda bo'lgan?",
+       "options": [
+        "Toifaviy xarakterda",
+        "Yopiq",
+        "Bitta",
+        "Saylanuvchi"
+       ],
+       "correct_index": 0,
+       "page": 130
+      },
+      {
+       "question": "Diniy martabali kishilarni kim sud qilgan?",
+       "options": [
+        "Qozikalon",
+        "Shayxulislom",
+        "Muftiy",
+        "Arzbegi"
+       ],
+       "correct_index": 1,
+       "page": 130
+      },
+      {
+       "question": "Qozilarga huquqiy xulosani kim bergan?",
+       "options": [
+        "Shayxulislom",
+        "Muhtasib",
+        "Muftiy",
+        "Arzbegi"
+       ],
+       "correct_index": 2,
+       "page": 130
+      },
+      {
+       "question": "Muhtasib kim?",
+       "options": [
+        "Shariat bajarilishini nazorat qiluvchi",
+        "Soliqchi",
+        "Sarkarda",
+        "Mirshab"
+       ],
+       "correct_index": 0,
+       "page": 130
+      },
+      {
+       "question": "Butun imperiya bo'yicha odil sudlovga kim javob bergan?",
+       "options": [
+        "Muhtasib",
+        "Muftiy",
+        "Voliy",
+        "Qozikalon"
+       ],
+       "correct_index": 3,
+       "page": 130
+      },
+      {
+       "question": "Sud qarorlaridan norozi kimga shikoyat qilishi mumkin edi?",
+       "options": [
+        "Amirga",
+        "Papaga",
+        "Xalqqa",
+        "Hech kimga"
+       ],
+       "correct_index": 0,
+       "page": 130
+      },
+      {
+       "question": "Sud jarayoni qanday edi?",
+       "options": [
+        "Murakkab",
+        "Yashirin",
+        "Tez",
+        "Sodda, tortishuv xarakterida"
+       ],
+       "correct_index": 3,
+       "page": 130
+      },
+      {
+       "question": "Adolat devoni qanday ishlarni ko'rgan?",
+       "options": [
+        "Mansabni suiiste'mol qilishga oid jinoyatlarni",
+        "Soliq ishlarini",
+        "Qo'shin ishlarini",
+        "Savdo ishlarini"
+       ],
+       "correct_index": 0,
+       "page": 131
+      },
+      {
+       "question": "Taxt vorisi markaziy hokimiyatga bo'ysunmasa nima qilingan?",
+       "options": [
+        "Qatl etilgan",
+        "Tergov tugaguncha zindonda saqlanib, amir sud qilgan",
+        "Surgun qilingan",
+        "Afv etilgan"
+       ],
+       "correct_index": 1,
+       "page": 131
+      },
+      {
+       "question": "Temurning maxfiy josuslari qanday tarkibda bo'lgan?",
+       "options": [
+        "100 ayol",
+        "50 elchi",
+        "10 savdogar",
+        "1000 tezyurar tuya, 1000 ot, 1000 chopar"
+       ],
+       "correct_index": 3,
+       "page": 131
+      },
+      {
        "question": "Temur davlati qaysi dengizgacha cho'zilgan?",
        "options": [
         "Baltik dengizigacha",
@@ -4352,17 +9258,6 @@
         "Faqat bozorni"
        ],
        "correct_index": 2,
-       "page": 129
-      },
-      {
-       "question": "Moliya ishlarini nechta vazir yuritgan?",
-       "options": [
-        "1 ta",
-        "3 ta",
-        "2 ta",
-        "10 ta"
-       ],
-       "correct_index": 1,
        "page": 129
       },
       {
@@ -4419,6 +9314,39 @@
        ],
        "correct_index": 3,
        "page": 131
+      },
+      {
+       "question": "Temur Yevropa bilan qanday aloqalar o'rnatdi?",
+       "options": [
+        "Savdo va diplomatik",
+        "Harbiy ittifoq",
+        "Din aloqasi",
+        "Qullik"
+       ],
+       "correct_index": 0,
+       "page": 132
+      },
+      {
+       "question": "Siyosiy tarqoqlik tugatilishi nimaga olib keldi?",
+       "options": [
+        "Qullikka",
+        "Qashshoqlikka",
+        "Ishlab chiqarish kuchlari va iqtisod tiklanishiga",
+        "Urushga"
+       ],
+       "correct_index": 2,
+       "page": 132
+      },
+      {
+       "question": "Mo'g'ullar hukmronligi qancha davom etgan?",
+       "options": [
+        "Ellik yil",
+        "Besh yil",
+        "Bir yarim asr",
+        "Uch asr"
+       ],
+       "correct_index": 2,
+       "page": 132
       }
      ]
     },
@@ -4577,15 +9505,114 @@
      ],
      "exam_bank": [
       {
-       "question": "Ioann Grinlo kimning elchisi edi?",
+       "question": "Potsdamdagi qirol saroyida qanday zal bor?",
        "options": [
-        "Genrix III ning",
-        "Rim papasi va Fransiya qiroli Karl VI ning",
-        "Ispaniya qirolining",
-        "Xitoy imperatorining"
+        "\"Sohibqiron zali\"",
+        "\"Temuriylar zali\"",
+        "\"Zafar zali\"",
+        "\"Amir Temur zali\""
+       ],
+       "correct_index": 3,
+       "page": 133
+      },
+      {
+       "question": "Ioann Grinlo kim?",
+       "options": [
+        "Ispaniya elchisi",
+        "Papa va Karl VI ning elchisi",
+        "Savdogar",
+        "Rohib"
        ],
        "correct_index": 1,
        "page": 133
+      },
+      {
+       "question": "Grinlo Temur bilan qachon uchrashdi?",
+       "options": [
+        "1401-yil avgustida",
+        "1399-yilda",
+        "1403-yilda",
+        "1405-yilda"
+       ],
+       "correct_index": 0,
+       "page": 133
+      },
+      {
+       "question": "Grinlo asari qanday nomlangan?",
+       "options": [
+        "\"Samarqand kundaligi\"",
+        "\"Zafarnoma\"",
+        "\"Temur tarixi\"",
+        "\"Temur va uning saroyiga oid xotiralar\""
+       ],
+       "correct_index": 3,
+       "page": 133
+      },
+      {
+       "question": "Fransuzlar Temurning nimasini quydirgan?",
+       "options": [
+        "Kumush kamar",
+        "Mis tanga",
+        "Oltin haykalchasini",
+        "Bronza qilich"
+       ],
+       "correct_index": 2,
+       "page": 133
+      },
+      {
+       "question": "Haykalcha ostiga nima yozilgan?",
+       "options": [
+        "\"Evropa xaloskoriga\"",
+        "\"Buyuk Temurga\"",
+        "\"Sohibqironga\"",
+        "\"Jahongirga\""
+       ],
+       "correct_index": 0,
+       "page": 133
+      },
+      {
+       "question": "Luvr muzeyi Sharq kolleksiyasi nechta zalni egallagan?",
+       "options": [
+        "6 ta",
+        "2 ta",
+        "60 ta",
+        "24 ta"
+       ],
+       "correct_index": 3,
+       "page": 134
+      },
+      {
+       "question": "Luvrda saqlanadigan Temur hujjati?",
+       "options": [
+        "Qirol Karl VI ga yozgan maktubi",
+        "Qilichi",
+        "Taxti",
+        "Xaritasi"
+       ],
+       "correct_index": 0,
+       "page": 134
+      },
+      {
+       "question": "Temur Yassaviy maqbarasi uchun nima yasattirgan?",
+       "options": [
+        "Minora",
+        "Zang",
+        "Shamdonlardan biri",
+        "Kitob"
+       ],
+       "correct_index": 2,
+       "page": 134
+      },
+      {
+       "question": "Ibn Arabshoh asari qanday?",
+       "options": [
+        "\"Amir Temur tarixi\" - Temurni salbiy tasvirlagan",
+        "Maqtovchi",
+        "Tarjima",
+        "She'riy"
+       ],
+       "correct_index": 0,
+       "page": 134
       },
       {
        "question": "Yazdiy \"Zafarnoma\"si qaysi yili yozilgan?",
@@ -4597,6 +9624,171 @@
        ],
        "correct_index": 0,
        "page": 134
+      },
+      {
+       "question": "Klavixoning kundaligi qaysi yillarni qamraydi?",
+       "options": [
+        "1395-1400",
+        "1410-1420",
+        "1403-1406",
+        "1370-1380"
+       ],
+       "correct_index": 2,
+       "page": 134
+      },
+      {
+       "question": "\"Matlayi sa'dayn\" muallifi kim?",
+       "options": [
+        "Hofizi Abru",
+        "Abdurazzoq Samarqandiy",
+        "Mirxond",
+        "Yazdiy"
+       ],
+       "correct_index": 1,
+       "page": 134
+      },
+      {
+       "question": "\"Tarixlar sarasi\" muallifi kim?",
+       "options": [
+        "Mirxond",
+        "Hofizi Abru",
+        "Yazdiy",
+        "Shomiy"
+       ],
+       "correct_index": 1,
+       "page": 134
+      },
+      {
+       "question": "\"Soflik bog'i\" muallifi kim?",
+       "options": [
+        "Hofizi Abru",
+        "Yazdiy",
+        "Mirxond",
+        "Shomiy"
+       ],
+       "correct_index": 2,
+       "page": 134
+      },
+      {
+       "question": "Nemis olimi Dagen Hort 1913-yilda nima chop ettirgan?",
+       "options": [
+        "Xarita",
+        "Qomus",
+        "Roman",
+        "Temur va temuriylar haqidagi asarlar bibliografiyasini"
+       ],
+       "correct_index": 3,
+       "page": 134
+      },
+      {
+       "question": "\"Amir Temur\" ordeni qaysi yili ta'sis etilgan?",
+       "options": [
+        "1991-yilda",
+        "2000-yilda",
+        "2014-yilda",
+        "1996-yil 26-aprelda"
+       ],
+       "correct_index": 3,
+       "page": 135
+      },
+      {
+       "question": "Xalqaro Amir Temur jamg'armasi qaysi yili tashkil qilindi?",
+       "options": [
+        "1995-yilda",
+        "1991-yilda",
+        "1996-yilda",
+        "2000-yilda"
+       ],
+       "correct_index": 0,
+       "page": 135
+      },
+      {
+       "question": "Temuriylar tarixi davlat muzeyi qaysi yili barpo etildi?",
+       "options": [
+        "1991-yilda",
+        "2000-yilda",
+        "1996-yilda",
+        "1980-yilda"
+       ],
+       "correct_index": 2,
+       "page": 135
+      },
+      {
+       "question": "Sohibqiron tavalludining 660 yilligi qaysi yilda nishonlandi?",
+       "options": [
+        "1991-yilda",
+        "2000-yilda",
+        "2005-yilda",
+        "1996-yilda"
+       ],
+       "correct_index": 3,
+       "page": 135
+      },
+      {
+       "question": "Termiz shahri \"Amir Temur\" ordeni bilan qachon taqdirlandi?",
+       "options": [
+        "2014-yil 22-avgustda",
+        "1996-yilda",
+        "2000-yilda",
+        "1991-yilda"
+       ],
+       "correct_index": 0,
+       "page": 135
+      },
+      {
+       "question": "Samarqand va Shahrisabz ordenni qachon oldi?",
+       "options": [
+        "1991-yilda",
+        "1996-yil oktyabrda",
+        "2014-yilda",
+        "2000-yilda"
+       ],
+       "correct_index": 1,
+       "page": 135
+      },
+      {
+       "question": "Hendel qaysi yili \"Temur\" operasini yaratdi?",
+       "options": [
+        "1724-yilda",
+        "1424-yilda",
+        "1996-yilda",
+        "1913-yilda"
+       ],
+       "correct_index": 0,
+       "page": 136
+      },
+      {
+       "question": "Opera libretto muallifi kim?",
+       "options": [
+        "Hendel",
+        "Mozart",
+        "Nikolo Franchesko Haym",
+        "Bax"
+       ],
+       "correct_index": 2,
+       "page": 136
+      },
+      {
+       "question": "Rossiya tarixchilari Temurning To'xtamishni yengishi uchun nimani ta'kidlaydi?",
+       "options": [
+        "Rus knyazliklari birlashuvi uchun ahamiyatini",
+        "Savdoni yopganini",
+        "Dinni almashtirganini",
+        "Poytaxtni ko'chirganini"
+       ],
+       "correct_index": 0,
+       "page": 136
+      },
+      {
+       "question": "Ioann Grinlo kimning elchisi edi?",
+       "options": [
+        "Genrix III ning",
+        "Rim papasi va Fransiya qiroli Karl VI ning",
+        "Ispaniya qirolining",
+        "Xitoy imperatorining"
+       ],
+       "correct_index": 1,
+       "page": 133
       },
       {
        "question": "Luvr muzeyining Sharq kolleksiyasi nechta zalni egallagan?",
@@ -4685,6 +9877,72 @@
        ],
        "correct_index": 2,
        "page": 132
+      },
+      {
+       "question": "Temur nimani buyurgan: obod qilingan yerdan birinchi yili qanday soliq olinsin?",
+       "options": [
+        "Hosilning yarmi",
+        "Hech narsa olinmasin",
+        "Xiroj",
+        "Boj"
+       ],
+       "correct_index": 1,
+       "page": 137
+      },
+      {
+       "question": "Obod qilingan yerdan xiroj qaysi yildan yig'iladi?",
+       "options": [
+        "Birinchi yildan",
+        "Uchinchi yildan",
+        "Ikkinchi yildan",
+        "Beshinchi yildan"
+       ],
+       "correct_index": 1,
+       "page": 137
+      },
+      {
+       "question": "Temur har bir shaharda nimalar qurishni buyurgan?",
+       "options": [
+        "Qal'a",
+        "Zavod",
+        "Masjid, madrasa, xonaqoh, hammom",
+        "Kemalar"
+       ],
+       "correct_index": 2,
+       "page": 137
+      },
+      {
+       "question": "Zarafshon vodiysida nima kengaytirildi?",
+       "options": [
+        "Qal'alar",
+        "Yo'llar faqat",
+        "Sug'orish tarmoqlari va dehqonchilik maydonlari",
+        "Bozorlar"
+       ],
+       "correct_index": 2,
+       "page": 137
+      },
+      {
+       "question": "Eski Anhor kanali nima sharafiga qurilgan?",
+       "options": [
+        "To'xtamish ustidan",
+        "Hindiston g'alabasi",
+        "Boyazid ustidan g'alaba sharafiga",
+        "Xitoy g'alabasi"
+       ],
+       "correct_index": 2,
+       "page": 137
+      },
+      {
+       "question": "Murg'ob vodiysida nechta kanal qazdirildi?",
+       "options": [
+        "2 ta",
+        "20 ta",
+        "200 ta",
+        "5 ta"
+       ],
+       "correct_index": 1,
+       "page": 137
       }
      ]
     },
@@ -4891,6 +10149,292 @@
      ],
      "exam_bank": [
       {
+       "question": "Chorbog' shakli qanday?",
+       "options": [
+        "Dumaloq",
+        "To'rtburchak",
+        "Uchburchak",
+        "Tartibsiz"
+       ],
+       "correct_index": 1,
+       "page": 138
+      },
+      {
+       "question": "Chorbog' har tomoni taxminan qancha?",
+       "options": [
+        "10 km",
+        "100 m",
+        "1 km",
+        "50 km"
+       ],
+       "correct_index": 2,
+       "page": 138
+      },
+      {
+       "question": "Chorbog'larni nima to'rt qismga ajratgan?",
+       "options": [
+        "Devorlar",
+        "Yo'llar",
+        "Ariqlar",
+        "Daraxtlar"
+       ],
+       "correct_index": 2,
+       "page": 138
+      },
+      {
+       "question": "Ov uchun mo'ljallangan bog'lar qanday saqlangan?",
+       "options": [
+        "Butunlay qurilgan",
+        "Bog'dorchilik",
+        "Asosiy qismi tabiiy holda",
+        "Dehqonchilik"
+       ],
+       "correct_index": 2,
+       "page": 138
+      },
+      {
+       "question": "Bog'i Baland kimga atab qurilgan?",
+       "options": [
+        "Saroymulkxonimga",
+        "Ulug'bekka",
+        "Shohruxga",
+        "Mironshohning qiziga"
+       ],
+       "correct_index": 3,
+       "page": 138
+      },
+      {
+       "question": "Bog'i Dilkusho Samarqanddan necha km?",
+       "options": [
+        "5 km sharqda",
+        "50 km",
+        "15 km",
+        "500 m"
+       ],
+       "correct_index": 0,
+       "page": 139
+      },
+      {
+       "question": "Dilkusho devori uzunligi qancha edi?",
+       "options": [
+        "90 metr",
+        "900 metr (har tomoni)",
+        "9 km",
+        "9 metr"
+       ],
+       "correct_index": 1,
+       "page": 139
+      },
+      {
+       "question": "Dilkusho saroyi necha qavatli edi?",
+       "options": [
+        "Bir qavatli",
+        "Besh qavatli",
+        "O'n qavatli",
+        "Uch qavatli"
+       ],
+       "correct_index": 3,
+       "page": 139
+      },
+      {
+       "question": "Bog'i Jahonnamo Samarqanddan necha farsax?",
+       "options": [
+        "Yetti farsax (42 km)",
+        "Bir farsax",
+        "Yigirma farsax",
+        "O'n besh farsax"
+       ],
+       "correct_index": 0,
+       "page": 139
+      },
+      {
+       "question": "Bog'i Maydon qayerda joylashgan?",
+       "options": [
+        "Sharqda",
+        "Cho'ponota tepaligi etagida",
+        "Janubda",
+        "Keshda"
+       ],
+       "correct_index": 1,
+       "page": 139
+      },
+      {
+       "question": "Bog'i Nav qaysi yili qurildi?",
+       "options": [
+        "1370-yilda",
+        "1404-yilda",
+        "1388-yilda",
+        "1402-yilda"
+       ],
+       "correct_index": 1,
+       "page": 139
+      },
+      {
+       "question": "Temur qaysi shaharda Oqsaroyni qurdirdi?",
+       "options": [
+        "Keshda",
+        "Samarqandda",
+        "Buxoroda",
+        "Balxda"
+       ],
+       "correct_index": 0,
+       "page": 140
+      },
+      {
+       "question": "Temur Turkistonda kimning qabri ustiga maqbara qurdirdi?",
+       "options": [
+        "Beruniyning",
+        "Rumiyning",
+        "Naqshbandning",
+        "Ahmad Yassaviyning"
+       ],
+       "correct_index": 3,
+       "page": 140
+      },
+      {
+       "question": "Temur Tabrizda nima qurdirgan?",
+       "options": [
+        "Saroy",
+        "Masjid",
+        "Madrasa",
+        "Maqbara"
+       ],
+       "correct_index": 1,
+       "page": 140
+      },
+      {
+       "question": "Temur Sherozda nima qurdirgan?",
+       "options": [
+        "Masjid",
+        "Saroy",
+        "Madrasa",
+        "Maqbara"
+       ],
+       "correct_index": 1,
+       "page": 140
+      },
+      {
+       "question": "Temur Bag'dodda nima qurdirgan?",
+       "options": [
+        "Saroy",
+        "Masjid",
+        "Madrasa",
+        "Maqbara"
+       ],
+       "correct_index": 2,
+       "page": 140
+      },
+      {
+       "question": "Samarqand qaysi poydevor yaqinida qayta qurildi?",
+       "options": [
+        "Shimolroqda",
+        "Sharqda",
+        "G'arbda",
+        "Afrosiyobdan biroz janubroqda"
+       ],
+       "correct_index": 3,
+       "page": 141
+      },
+      {
+       "question": "Samarqand devorida nechta darvoza bo'lgan?",
+       "options": [
+        "Ikkita",
+        "Oltita",
+        "O'nta",
+        "Uchta"
+       ],
+       "correct_index": 1,
+       "page": 141
+      },
+      {
+       "question": "Samarqand darvozalaridan biri qaysi?",
+       "options": [
+        "Qora",
+        "Oq",
+        "Ohanin",
+        "Sariq"
+       ],
+       "correct_index": 2,
+       "page": 141
+      },
+      {
+       "question": "Temur saroyi Ko'ksaroy qayerda edi?",
+       "options": [
+        "Keshda",
+        "Buxoroda",
+        "Hirotda",
+        "Samarqandda"
+       ],
+       "correct_index": 3,
+       "page": 141
+      },
+      {
+       "question": "Boburnomada Temur haqida nima yozilgan?",
+       "options": [
+        "Kesh poytaxt bo'lgan",
+        "Hirot poytaxt",
+        "Temurbekdek ulug' podshoh Samarqandni poytaxt qilmagan",
+        "Balx poytaxt"
+       ],
+       "correct_index": 2,
+       "page": 141
+      },
+      {
+       "question": "Temur chet ellardan hunarmand oldi, ular soni?",
+       "options": [
+        "O'nta",
+        "Mingga yaqin",
+        "Yuztacha",
+        "Ikki ming"
+       ],
+       "correct_index": 1,
+       "page": 143
+      },
+      {
+       "question": "Suriyadan qaysi ustalar keltirilgan?",
+       "options": [
+        "Pillachilar, tikuvchilar, to'quvchilar, sangtaroshlar",
+        "Musavvirlar",
+        "Qurolsozlar faqat",
+        "Zargarlar"
+       ],
+       "correct_index": 0,
+       "page": 143
+      },
+      {
+       "question": "Erondan qaysi ustalar keltirilgan?",
+       "options": [
+        "Pillachi",
+        "To'pchi",
+        "Qurolsoz",
+        "Musavvir, xattot, sozanda, me'mor"
+       ],
+       "correct_index": 3,
+       "page": 143
+      },
+      {
+       "question": "\"Sultoniy qog'oz\" nima?",
+       "options": [
+        "Qimmat chinni",
+        "Gilam",
+        "Qurol",
+        "Oliy navli qog'oz"
+       ],
+       "correct_index": 3,
+       "page": 144
+      },
+      {
+       "question": "Hunarmandchilikning qurilishga ixtisoslashgan turi?",
+       "options": [
+        "Binokorlik, naqqoshlik, sangtaroshlik, ganch o'ymakorligi",
+        "Kulolchilik",
+        "Zardo'zlik",
+        "Sovungarlik"
+       ],
+       "correct_index": 0,
+       "page": 145
+      },
+      {
        "question": "Eski Anhor kanali qaysi viloyatda?",
        "options": [
         "Xorazmda",
@@ -4999,6 +10543,72 @@
        ],
        "correct_index": 3,
        "page": 145
+      },
+      {
+       "question": "Temur 1405-yil 18-fevralda qayerda vafot etdi?",
+       "options": [
+        "Samarqandda",
+        "Keshda",
+        "O'tror shahrida",
+        "Hirotda"
+       ],
+       "correct_index": 2,
+       "page": 146
+      },
+      {
+       "question": "Temur vafotidan oldin kimni voris deb vasiyat qildi?",
+       "options": [
+        "Shohruxni",
+        "Xalil Sultonni",
+        "Nabirasi Pirmuhammad Jahongirni",
+        "Ulug'bekni"
+       ],
+       "correct_index": 2,
+       "page": 146
+      },
+      {
+       "question": "Davlat parokandaligini nima kuchaytirdi?",
+       "options": [
+        "Mamlakatni o'g'il-nabiralarga bo'lib berish, suyurg'ol tartibi",
+        "Savdo",
+        "Din",
+        "Dengiz"
+       ],
+       "correct_index": 0,
+       "page": 146
+      },
+      {
+       "question": "Pirmuhammad qaysi hududlar hokimi edi?",
+       "options": [
+        "G'azna, Kobul, Shimoliy Hind",
+        "Samarqand",
+        "Xuroson",
+        "Eron"
+       ],
+       "correct_index": 0,
+       "page": 146
+      },
+      {
+       "question": "Xalil Sulton Samarqandni qaysi sanada egalladi?",
+       "options": [
+        "1405-yil 18-fevral",
+        "1409-yil bahor",
+        "1397-yil",
+        "1405-yil 18-mart"
+       ],
+       "correct_index": 3,
+       "page": 146
+      },
+      {
+       "question": "Xalil Sulton kimning o'g'li edi?",
+       "options": [
+        "Shohruxning",
+        "Mironshohning",
+        "Umarshaxning",
+        "Jahongirning"
+       ],
+       "correct_index": 1,
+       "page": 146
       }
      ]
     },
@@ -5146,6 +10756,149 @@
      ],
      "exam_bank": [
       {
+       "question": "1409-yilda Xalil Sultonni qaerda amir Xudoydot yengdi?",
+       "options": [
+        "Samarqand yaqinidagi Sheroz qishlog'ida",
+        "Keshda",
+        "Balxda",
+        "Termizda"
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "Xalil Sulton nimadan voz kechdi?",
+       "options": [
+        "Hayotdan",
+        "Vatanidan",
+        "Dinidan",
+        "Movarounnahr hokimiyati da'vosidan"
+       ],
+       "correct_index": 3,
+       "page": 147
+      },
+      {
+       "question": "Shohrux qaysi hududlarda hokimiyatini mustahkamladi?",
+       "options": [
+        "Mozandaron, Mashhad, Seyiston, Kirmon",
+        "Misr",
+        "Hindiston",
+        "Rus"
+       ],
+       "correct_index": 0,
+       "page": 147
+      },
+      {
+       "question": "Shohrux Xuroson hokimi qaysi yili bo'ldi?",
+       "options": [
+        "1405-yilda",
+        "1409-yilda",
+        "1397-yilda",
+        "1447-yilda"
+       ],
+       "correct_index": 2,
+       "page": 148
+      },
+      {
+       "question": "Shohrux Xitoyga elchilarni qaysi yili jo'natdi?",
+       "options": [
+        "1397-yilda",
+        "1412-yilda",
+        "1447-yilda",
+        "1419-yilda"
+       ],
+       "correct_index": 3,
+       "page": 148
+      },
+      {
+       "question": "Shohrux elchilari Hirotga qaysi yili qaytdi?",
+       "options": [
+        "1419-yilda",
+        "1430-yilda",
+        "1447-yilda",
+        "1422-yilda"
+       ],
+       "correct_index": 3,
+       "page": 148
+      },
+      {
+       "question": "1412-1430-yillarda Xitoy bilan nechta elchilik almashuvi bo'ldi?",
+       "options": [
+        "Besh marta",
+        "Ikki marta",
+        "Yigirma marta",
+        "Bir marta"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Shohrux qaysi davlatlar bilan diplomatik aloqalar o'rnatdi?",
+       "options": [
+        "Xitoy, Hindiston, Misr, Usmoniylar",
+        "Rus, Polsha",
+        "Fransiya, Angliya",
+        "Yaponiya, Koreya"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Shohrux qaysi yilgacha katta hududni boshqardi?",
+       "options": [
+        "1405-yilgacha",
+        "1409-yilgacha",
+        "1447-yilgacha",
+        "1397-yilgacha"
+       ],
+       "correct_index": 2,
+       "page": 148
+      },
+      {
+       "question": "Hindistonga Shohrux elchisi kim bo'lib bordi?",
+       "options": [
+        "Shohrux a'yoni - diplomat va tarixchi",
+        "Xalil Sulton",
+        "Ulug'bek",
+        "Mironshoh"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
+       "question": "Dehli sultonligi, Kalikut, Vijayanagar kim bilan aloqa o'rnatdi?",
+       "options": [
+        "Usmoniylar bilan",
+        "Rus bilan",
+        "Mo'g'ullar bilan",
+        "Shohrux davlati bilan"
+       ],
+       "correct_index": 3,
+       "page": 148
+      },
+      {
+       "question": "Mamluklar davlati qaerda hukmronlik qilgan?",
+       "options": [
+        "Hindistonda",
+        "Eronda",
+        "Misr va Suriyada",
+        "Xitoyda"
+       ],
+       "correct_index": 2,
+       "page": 148
+      },
+      {
+       "question": "1444-1445-yillarda Shayx Nuriddin Murshidiy qayerga borgan?",
+       "options": [
+        "Elchilik bilan chet elga",
+        "Qal'aga",
+        "Qishloqqa",
+        "Uyiga"
+       ],
+       "correct_index": 0,
+       "page": 148
+      },
+      {
        "question": "Pirmuhammad qaysi hudud hokimi edi?",
        "options": [
         "Samarqand",
@@ -5190,17 +10943,6 @@
        "page": 147
       },
       {
-       "question": "Shohrux Xitoyga elchilarni qaysi yili jo'natdi?",
-       "options": [
-        "1405-yilda",
-        "1447-yilda",
-        "1370-yilda",
-        "1419-yilda"
-       ],
-       "correct_index": 3,
-       "page": 148
-      },
-      {
        "question": "Shohrux Hindistondagi qaysi sultonlik bilan munosabat o'rnatdi?",
        "options": [
         "Dehli sultonligi bilan",
@@ -5232,6 +10974,83 @@
        ],
        "correct_index": 0,
        "page": 146
+      },
+      {
+       "question": "Ulug'bek qaysi yillarda yashagan?",
+       "options": [
+        "1336-1405",
+        "1438-1506",
+        "1394-1449",
+        "1441-1501"
+       ],
+       "correct_index": 2,
+       "page": 149
+      },
+      {
+       "question": "Shohrux 1409-yilda Ulug'bekni nechchi yoshida Movarounnahr hokimi qildi?",
+       "options": [
+        "25 yoshida",
+        "40 yoshida",
+        "10 yoshida",
+        "15 yoshida"
+       ],
+       "correct_index": 3,
+       "page": 149
+      },
+      {
+       "question": "Ulug'bek hokimiyati dastlab qaysi viloyatlar bilan cheklanardi?",
+       "options": [
+        "Hirot, Balx",
+        "Misr, Suriya",
+        "Hindiston, Xitoy",
+        "Samarqand, Buxoro, Nasaf"
+       ],
+       "correct_index": 3,
+       "page": 149
+      },
+      {
+       "question": "Ulug'bek Mo'g'ulistonga qaysi yili yurish qildi?",
+       "options": [
+        "1409-yilda",
+        "1428-yilda",
+        "1425-yilning erta bahorida",
+        "1447-yilda"
+       ],
+       "correct_index": 2,
+       "page": 149
+      },
+      {
+       "question": "Issiqko'l yaqinidagi to'qnashuvda kim g'alaba qozondi?",
+       "options": [
+        "Ulug'bek",
+        "Mo'g'ullar",
+        "Shohrux",
+        "Abdullatif"
+       ],
+       "correct_index": 0,
+       "page": 149
+      },
+      {
+       "question": "O'ljalar orasida nima bor edi?",
+       "options": [
+        "Oltin",
+        "Fil",
+        "Ikki bo'lak nefrit tosh",
+        "Kitoblar"
+       ],
+       "correct_index": 2,
+       "page": 149
+      },
+      {
+       "question": "Nefritdan nima yasatilgan?",
+       "options": [
+        "Amir Temur maqbarasi uchun qabrtosh",
+        "Taxt",
+        "Qilich",
+        "Idish"
+       ],
+       "correct_index": 0,
+       "page": 149
       }
      ]
     },
@@ -5434,6 +11253,391 @@
      ],
      "exam_bank": [
       {
+       "question": "Ulug'bek qo'shin miqdorini ko'paytirib ko'rsatish uchun nima qildi?",
+       "options": [
+        "Nog'ora chaldi",
+        "Bayroq osdi",
+        "Zahar tashladi",
+        "Har jangchi tunda besh yerda gulxan yoqdi"
+       ],
+       "correct_index": 3,
+       "page": 150
+      },
+      {
+       "question": "Bu hiyla qanday nomlanadi?",
+       "options": [
+        "Pistirma",
+        "Soxta chekinish",
+        "Arg'ay o't",
+        "Tungi hujum"
+       ],
+       "correct_index": 2,
+       "page": 150
+      },
+      {
+       "question": "\"Arg'ay o't\" so'zi nimani anglatadi?",
+       "options": [
+        "\"Qo'shin\" va \"tun\"",
+        "\"Aldash\" va \"olov\"",
+        "\"Tezlik\"",
+        "\"Qasam\""
+       ],
+       "correct_index": 1,
+       "page": 150
+      },
+      {
+       "question": "Qoyatosh bitigi qaysi darada?",
+       "options": [
+        "Jizzax yaqinidagi Ilono'tdi darasida",
+        "Samarqandda",
+        "Buxoroda",
+        "Termizda"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "Shohrux qaysi yili vafot etdi?",
+       "options": [
+        "1405-yilda",
+        "1409-yilda",
+        "1447-yil 12-martda",
+        "1449-yilda"
+       ],
+       "correct_index": 2,
+       "page": 150
+      },
+      {
+       "question": "Shohruxdan keyin taxtni kim egalladi?",
+       "options": [
+        "Ulug'bek",
+        "Abdullatif",
+        "Boysung'ur",
+        "Alouddavla"
+       ],
+       "correct_index": 3,
+       "page": 150
+      },
+      {
+       "question": "Ulug'bek Abdullatifga nima bo'ldi (1447)?",
+       "options": [
+        "Abdullatif asirga olindi",
+        "O'ldirildi",
+        "Taxtga o'tirdi",
+        "Qochdi"
+       ],
+       "correct_index": 0,
+       "page": 150
+      },
+      {
+       "question": "Tamg'a solig'ini kim tikladi?",
+       "options": [
+        "Abdullatif",
+        "Ulug'bek",
+        "Shohrux",
+        "Temur"
+       ],
+       "correct_index": 1,
+       "page": 151
+      },
+      {
+       "question": "Ulug'bek tamg'a evaziga nimani kamaytirdi?",
+       "options": [
+        "Yer solig'ini",
+        "Savdo bojini",
+        "Zakotni",
+        "Hech narsa"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Abdullatif boylarga nimani va'da qildi?",
+       "options": [
+        "Yer berishni",
+        "Qullar berishni",
+        "Tamg'a solig'ini bekor qilishni",
+        "Madrasa qurishni"
+       ],
+       "correct_index": 2,
+       "page": 151
+      },
+      {
+       "question": "Ulug'bek o'ldirilgandan keyin Samarqandda nima bekor qilindi?",
+       "options": [
+        "Tamg'a solig'i",
+        "Xiroj",
+        "Zakot",
+        "Vaqf"
+       ],
+       "correct_index": 0,
+       "page": 151
+      },
+      {
+       "question": "Abdullatif qaysi yili Amudaryodan o'tdi?",
+       "options": [
+        "1447-yilda",
+        "1425-yilda",
+        "1449-yilda",
+        "1409-yilda"
+       ],
+       "correct_index": 2,
+       "page": 151
+      },
+      {
+       "question": "Ulug'bek 1417-yilda qayerda madrasa qurdi?",
+       "options": [
+        "Buxoroda",
+        "Samarqandda",
+        "G'ijduvonda",
+        "Keshda"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "Ulug'bek 1433-yilda qayerda madrasa qurdi?",
+       "options": [
+        "Buxoroda",
+        "Samarqandda",
+        "G'ijduvonda",
+        "Keshda"
+       ],
+       "correct_index": 2,
+       "page": 152
+      },
+      {
+       "question": "Registon maydonida Ulug'bek madrasasidan tashqari nima bor edi?",
+       "options": [
+        "Xonaqoh, karvonsaroy, Muqatta masjidi",
+        "Faqat saroy",
+        "Rasadxona",
+        "Qal'a"
+       ],
+       "correct_index": 0,
+       "page": 152
+      },
+      {
+       "question": "Ko'kaldosh jome masjidi kim davrida bitkazildi?",
+       "options": [
+        "Temur",
+        "Shohrux",
+        "Abu Said",
+        "Ulug'bek"
+       ],
+       "correct_index": 3,
+       "page": 152
+      },
+      {
+       "question": "Samarqanddagi Chilustun va Chinnixona nima edi?",
+       "options": [
+        "Madrasalar",
+        "Saroylar",
+        "Masjidlar",
+        "Qal'alar"
+       ],
+       "correct_index": 1,
+       "page": 152
+      },
+      {
+       "question": "Shahrisabzdagi Ulug'bek davri masjidi qanday atalgan?",
+       "options": [
+        "Bibixonim",
+        "Registon",
+        "Ko'kaldosh",
+        "Ko'k gumbaz masjidi"
+       ],
+       "correct_index": 3,
+       "page": 152
+      },
+      {
+       "question": "Rasadxona qaysi yillarda qurilgan?",
+       "options": [
+        "1417-1420",
+        "1433-1434",
+        "1428-1429",
+        "1449-1450"
+       ],
+       "correct_index": 2,
+       "page": 158
+      },
+      {
+       "question": "Rasadxona qaysi tepalikda joylashgan?",
+       "options": [
+        "Afrosiyobda",
+        "Cho'ponotada",
+        "Ark yonida",
+        "Ko'hak tepaligida"
+       ],
+       "correct_index": 3,
+       "page": 158
+      },
+      {
+       "question": "Rasadxona balandligi qancha edi?",
+       "options": [
+        "31 metr",
+        "3 metr",
+        "310 metr",
+        "13 metr"
+       ],
+       "correct_index": 0,
+       "page": 158
+      },
+      {
+       "question": "Rasadxona nima bilan xalq orasida mashhur?",
+       "options": [
+        "\"Oqsaroy\"",
+        "\"Registon\"",
+        "\"Naqshi jahon\"",
+        "\"Bibixonim\""
+       ],
+       "correct_index": 2,
+       "page": 153
+      },
+      {
+       "question": "Sekstant nechanchi nom bilan ataladi?",
+       "options": [
+        "Zij",
+        "Sudxi faxriy",
+        "Usturlob",
+        "Globus"
+       ],
+       "correct_index": 1,
+       "page": 158
+      },
+      {
+       "question": "Rasadxona kutubxonasida necha jild kitob bor edi?",
+       "options": [
+        "150",
+        "1500",
+        "150 000",
+        "15 000"
+       ],
+       "correct_index": 3,
+       "page": 153
+      },
+      {
+       "question": "Rasadxonada ishlagan olimlardan kimlar?",
+       "options": [
+        "Beruniy, Sino",
+        "Xorazmiy, Farg'oniy",
+        "Temur, Shohrux",
+        "Qozizoda Rumiy, G'iyosiddin Jamshid Koshiy, Ali Qushchi"
+       ],
+       "correct_index": 3,
+       "page": 153
+      },
+      {
+       "question": "\"O'z davrining Ptolemeyi\" kim?",
+       "options": [
+        "Koshiy",
+        "Qozizoda",
+        "Jamshid",
+        "Ali Qushchi"
+       ],
+       "correct_index": 3,
+       "page": 153
+      },
+      {
+       "question": "Ulug'bek zijida nechta yulduz to'plami bor?",
+       "options": [
+        "1018 ta",
+        "108 ta",
+        "10 ta",
+        "5000 ta"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "Zij qaysi yili tuzilgan?",
+       "options": [
+        "1437-yilda",
+        "1417-yilda",
+        "1449-yilda",
+        "1405-yilda"
+       ],
+       "correct_index": 0,
+       "page": 154
+      },
+      {
+       "question": "\"Risolayi Ulug'bek\" qayerda saqlanadi?",
+       "options": [
+        "Samarqandda",
+        "Londonda",
+        "Hindistondagi Aligarx universiteti kutubxonasida",
+        "Parijda"
+       ],
+       "correct_index": 2,
+       "page": 154
+      },
+      {
+       "question": "\"Tarixi arba' ulus\" nima?",
+       "options": [
+        "\"Temur tarixi\"",
+        "\"Chingiz tarixi\"",
+        "\"Zafarnoma\"",
+        "\"To'rt ulus tarixi\""
+       ],
+       "correct_index": 3,
+       "page": 154
+      },
+      {
+       "question": "Ulug'bek π ni qancha aniqlikda hisoblagan?",
+       "options": [
+        "Taxminan",
+        "Hisoblamagan",
+        "Kam",
+        "Juda katta aniqlikda"
+       ],
+       "correct_index": 3,
+       "page": 155
+      },
+      {
+       "question": "Ikkinchi globusni kim yasagan?",
+       "options": [
+        "Yunon",
+        "Xitoy",
+        "Samarqand astronomlari",
+        "Arab"
+       ],
+       "correct_index": 2,
+       "page": 156
+      },
+      {
+       "question": "Samarqanddagi quyosh soati balandligi qancha edi?",
+       "options": [
+        "5 metr",
+        "500 metr",
+        "15 metr",
+        "50 metr"
+       ],
+       "correct_index": 3,
+       "page": 156
+      },
+      {
+       "question": "Ulug'bek madrasasi qaysi yili qurilishi tugayapti?",
+       "options": [
+        "1417-yilda",
+        "1433-yilda",
+        "1449-yilda",
+        "1420-yilda"
+       ],
+       "correct_index": 3,
+       "page": 158
+      },
+      {
+       "question": "Madrasa mudarrisi Mavlono Havofiy nima qilgan?",
+       "options": [
+        "Sotgan",
+        "Qochgan",
+        "Buzgan",
+        "Qurilishga ko'maklashib, bannolik qilgan"
+       ],
+       "correct_index": 3,
+       "page": 158
+      },
+      {
        "question": "Ulug'bek qaysi yillarda yashagan?",
        "options": [
         "1336-1405",
@@ -5467,17 +11671,6 @@
        "page": 150
       },
       {
-       "question": "Tamg'a solig'ini kim tikladi?",
-       "options": [
-        "Abdullatif",
-        "Ulug'bek",
-        "Shohrux",
-        "Temur"
-       ],
-       "correct_index": 1,
-       "page": 151
-      },
-      {
        "question": "Abdullatif boylarga nima va'da qilgan?",
        "options": [
         "Yer berishni",
@@ -5506,17 +11699,6 @@
         "1500",
         "150 000",
         "15 000 jild"
-       ],
-       "correct_index": 3,
-       "page": 153
-      },
-      {
-       "question": "\"O'z davrining Ptolemeyi\" kim?",
-       "options": [
-        "Koshiy",
-        "Qozizoda Rumiy",
-        "Jamshid",
-        "Ali Qushchi"
        ],
        "correct_index": 3,
        "page": 153
@@ -5564,6 +11746,94 @@
        ],
        "correct_index": 2,
        "page": 154
+      },
+      {
+       "question": "Sulton Husayn Mirzo qaysi yillarda yashagan?",
+       "options": [
+        "1394-1449",
+        "1336-1405",
+        "1441-1501",
+        "1438-1506"
+       ],
+       "correct_index": 3,
+       "page": 159
+      },
+      {
+       "question": "Husayn Mirzo qaysi yillarda Xuroson hukmdori bo'lgan?",
+       "options": [
+        "1405-1447",
+        "1370-1405",
+        "1469-1506",
+        "1447-1449"
+       ],
+       "correct_index": 2,
+       "page": 159
+      },
+      {
+       "question": "Husayn Mirzoning to'liq ismi nima?",
+       "options": [
+        "Husayn ibn Temur",
+        "Husayn ibn Mirzo G'iyosiddin Mansur ibn Mirzo Boyqaro",
+        "Husayn ibn Shohrux",
+        "Husayn ibn Ulug'bek"
+       ],
+       "correct_index": 1,
+       "page": 159
+      },
+      {
+       "question": "Husayn Mirzo qaysi temuriyning evarasi?",
+       "options": [
+        "Shohruxning",
+        "Mironshohning",
+        "Umarshayx Mirzoning",
+        "Ulug'bekning"
+       ],
+       "correct_index": 2,
+       "page": 159
+      },
+      {
+       "question": "Husayn Mirzoning onasi kim?",
+       "options": [
+        "Feruzabegim",
+        "Saroymulkxonim",
+        "Takina Xotun",
+        "Gavharshod"
+       ],
+       "correct_index": 0,
+       "page": 159
+      },
+      {
+       "question": "Feruzabegim kimning nabirasi?",
+       "options": [
+        "Shohruxning",
+        "Mironshohning",
+        "Ulug'bekning",
+        "Umarshaxning"
+       ],
+       "correct_index": 1,
+       "page": 159
+      },
+      {
+       "question": "Bobur uni qanday ta'riflagan?",
+       "options": [
+        "\"Jahongir\"",
+        "\"Karim ut-tarafayn\" - ikki tomonlama ulug'",
+        "\"Sohibqiron\"",
+        "\"Buyuk\""
+       ],
+       "correct_index": 1,
+       "page": 159
+      },
+      {
+       "question": "Husayn Mirzo qaysi sohada ijod qilgan?",
+       "options": [
+        "She'riyatda",
+        "Rassomlikda",
+        "Me'morlikda",
+        "Musiqada faqat"
+       ],
+       "correct_index": 0,
+       "page": 159
       }
      ]
     },
@@ -5722,6 +11992,171 @@
      ],
      "exam_bank": [
       {
+       "question": "Husayn 14 yoshida kimning saroyiga xizmatga kirdi?",
+       "options": [
+        "Abulqosim Bobur",
+        "Abu Said",
+        "Ulug'bek",
+        "Shohrux"
+       ],
+       "correct_index": 0,
+       "page": 160
+      },
+      {
+       "question": "Abulqosim Bobur Samarqandga kimga qarshi yurish qildi?",
+       "options": [
+        "Ulug'bekka",
+        "Abu Said Mirzoga",
+        "Shohruxga",
+        "Alouddavlaga"
+       ],
+       "correct_index": 1,
+       "page": 160
+      },
+      {
+       "question": "Husaynni zindondan kim qutqargan?",
+       "options": [
+        "Ukasi",
+        "Do'sti",
+        "Onasi Feruzabegim",
+        "Vaziri"
+       ],
+       "correct_index": 2,
+       "page": 160
+      },
+      {
+       "question": "Abulqosim Bobur vafotidan keyin Husayn kimning xizmatiga kirgan?",
+       "options": [
+        "Balxning",
+        "Hirotning",
+        "Samarqandning",
+        "Marv hukmdorining"
+       ],
+       "correct_index": 3,
+       "page": 160
+      },
+      {
+       "question": "Husayn 1458-yilda qancha qo'shin bilan Nisoni egalladi?",
+       "options": [
+        "30 kishilik",
+        "3000 kishilik",
+        "30000",
+        "300 kishilik"
+       ],
+       "correct_index": 3,
+       "page": 160
+      },
+      {
+       "question": "1463-1464-yillarda Husayn qaysi shaharlarni qo'lga kiritdi?",
+       "options": [
+        "Samarqand, Buxoro",
+        "Urganch, Xiva, Hazorasp, Tirsak",
+        "Bag'dod, Damashq",
+        "Hirot, Balx"
+       ],
+       "correct_index": 1,
+       "page": 160
+      },
+      {
+       "question": "Xurosonda temuriylarning yirik hukmdori Abu Said qachon halok bo'ldi?",
+       "options": [
+        "1458-yilda",
+        "1469-yilda",
+        "1463-yilda",
+        "1450-yilda"
+       ],
+       "correct_index": 1,
+       "page": 160
+      },
+      {
+       "question": "Husayn Usmoniylar bilan qanday munosabat o'rnatdi?",
+       "options": [
+        "Do'stona va birodarona",
+        "Dushmanlik",
+        "Urush",
+        "Befarqlik"
+       ],
+       "correct_index": 0,
+       "page": 161
+      },
+      {
+       "question": "Turk elchisi Xurosonga kim edi?",
+       "options": [
+        "Muhammadqozi",
+        "Klavixo",
+        "Grinlo",
+        "Pahlavon Muhammad"
+       ],
+       "correct_index": 3,
+       "page": 161
+      },
+      {
+       "question": "Husayn farmon yozishda kimning uslubini saqlab qolgan?",
+       "options": [
+        "Ulug'bekning",
+        "Shohruxning",
+        "Katta bobosi Amir Temurning",
+        "Chingizning"
+       ],
+       "correct_index": 2,
+       "page": 161
+      },
+      {
+       "question": "Husayn davrida Hirot qanday markaz bo'ldi?",
+       "options": [
+        "Harbiy qal'a",
+        "Sharqning fan, madaniyat, hunarmandchilik markazi",
+        "Savdo porti",
+        "Din markazi faqat"
+       ],
+       "correct_index": 1,
+       "page": 162
+      },
+      {
+       "question": "Husayn davrida qaysi sohalar rivojlangan?",
+       "options": [
+        "Faqat harbiy",
+        "Faqat savdo",
+        "Faqat qishloq",
+        "Til, adabiyot, tarix, tasviriy san'at, xattotlik, tabobat, musiqa"
+       ],
+       "correct_index": 3,
+       "page": 162
+      },
+      {
+       "question": "Husayn davrida nimalar qurilgan?",
+       "options": [
+        "Faqat saroy",
+        "Karvonsaroy, rabot, ko'prik, maktab, madrasa, masjid, yetimxona",
+        "Zavodlar",
+        "Kemalar"
+       ],
+       "correct_index": 1,
+       "page": 162
+      },
+      {
+       "question": "Husayn Mirzo shariatga qanday munosabatda?",
+       "options": [
+        "Rad etgan",
+        "Befarq",
+        "Taqiqlagan",
+        "Qat'iy amal qilgan"
+       ],
+       "correct_index": 3,
+       "page": 162
+      },
+      {
+       "question": "Hirot, Mashhad, Marv, Nishopurda nima barpo etilgan?",
+       "options": [
+        "Noyob obidalar",
+        "Zavodlar",
+        "Qal'alar faqat",
+        "Bozorlar faqat"
+       ],
+       "correct_index": 0,
+       "page": 162
+      },
+      {
        "question": "Husayn Mirzoning onasi kim?",
        "options": [
         "Feruzabegim",
@@ -5830,6 +12265,72 @@
        ],
        "correct_index": 2,
        "page": 162
+      },
+      {
+       "question": "Temur soliq siyosatini nima deb belgilagan?",
+       "options": [
+        "Qo'shimcha soliq",
+        "Ixtiyoriy",
+        "Mamlakat boshqaruvi va rivojining asosiy yo'nalishi",
+        "Cherkov ishi"
+       ],
+       "correct_index": 2,
+       "page": 163
+      },
+      {
+       "question": "Yerdan olinadigan soliqning asosiy turi nima?",
+       "options": [
+        "Zakot",
+        "Ushr",
+        "Boj",
+        "Xiroj"
+       ],
+       "correct_index": 3,
+       "page": 163
+      },
+      {
+       "question": "Xiroj nimaga qarab yig'ilgan?",
+       "options": [
+        "Yoshga",
+        "Oila soniga",
+        "Ekindan olingan hosil va yer unumdorligiga",
+        "Mulkka"
+       ],
+       "correct_index": 2,
+       "page": 163
+      },
+      {
+       "question": "Doimiy sug'oriladigan yerlardan hosilning qancha qismi xazinaga olingan?",
+       "options": [
+        "Bir hissa (ikki hissa egasiga)",
+        "Yarmi",
+        "Hammasi",
+        "O'ndan biri"
+       ],
+       "correct_index": 0,
+       "page": 163
+      },
+      {
+       "question": "Lalmikor yerlardan soliq qaysi qoida bo'yicha?",
+       "options": [
+        "Yarim",
+        "Beshdan bir",
+        "Uchdan bir va to'rtdan bir",
+        "Hammasi"
+       ],
+       "correct_index": 2,
+       "page": 163
+      },
+      {
+       "question": "Temur raiyatdan mol-xiroj yig'ishda nimani buyurgan?",
+       "options": [
+        "Qattiq undirishni",
+        "Ikki barobar olishni",
+        "Qul olishni",
+        "Og'ir ahvolga solmaslikni"
+       ],
+       "correct_index": 3,
+       "page": 163
       }
      ]
     },
@@ -6004,6 +12505,204 @@
      ],
      "exam_bank": [
       {
+       "question": "Soliq qaysi uch muddatda to'plangan?",
+       "options": [
+        "Saraton, sumbula-mezon, qavs oylarida",
+        "Qish, bahor",
+        "Faqat kuzda",
+        "Har oy"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Pishmagan hosildan soliq olish nima edi?",
+       "options": [
+        "Qat'iyan man etilgan",
+        "Ruxsat etilgan",
+        "Majburiy",
+        "Ixtiyoriy"
+       ],
+       "correct_index": 0,
+       "page": 164
+      },
+      {
+       "question": "Amaldorlar fuqaroga jabr qilsa, zarar kimdan undirilgan?",
+       "options": [
+        "Fuqarodan",
+        "Xazinadan",
+        "Kalontorlardan",
+        "Qo'shindan"
+       ],
+       "correct_index": 2,
+       "page": 164
+      },
+      {
+       "question": "Suyurg'ol nima?",
+       "options": [
+        "Soliq",
+        "Hukmdor in'om etgan yer",
+        "Qurol",
+        "Harbiy unvon"
+       ],
+       "correct_index": 1,
+       "page": 167
+      },
+      {
+       "question": "Temur davri tangalari qanday ikki qiymatda zarb etilgan?",
+       "options": [
+        "Oltin va kumush",
+        "\"Tanga\" (6 g) va \"miri\" (1,5 g)",
+        "Mis va tunuka",
+        "Qog'oz va teri"
+       ],
+       "correct_index": 1,
+       "page": 165
+      },
+      {
+       "question": "Mayda savdoda qaysi tangalar ishlatilgan?",
+       "options": [
+        "Oltin",
+        "Kumush",
+        "Qog'oz",
+        "Mis tangalar"
+       ],
+       "correct_index": 3,
+       "page": 165
+      },
+      {
+       "question": "Temur nomi bilan zarb qilingan tangalardagi gerb nimadan iborat?",
+       "options": [
+        "Uchta kichik halqadan",
+        "Burgut",
+        "Sher",
+        "Xoch"
+       ],
+       "correct_index": 0,
+       "page": 165
+      },
+      {
+       "question": "Ulug'bek pul islohotini qaysi yili o'tkazdi?",
+       "options": [
+        "1405-yilda",
+        "1428-yilda",
+        "1449-yilda",
+        "1397-yilda"
+       ],
+       "correct_index": 1,
+       "page": 165
+      },
+      {
+       "question": "Ulug'bek zarbxonalarini qaysi shaharlarda tashkil qildi?",
+       "options": [
+        "Hirot, Balx",
+        "Buxoro, Samarqand, Qarshi, Termiz, Toshkent, Shohruxiya, Andijon",
+        "Kesh, Marv",
+        "Urganch, Xiva"
+       ],
+       "correct_index": 1,
+       "page": 165
+      },
+      {
+       "question": "Isfahon qamalida pul tugaganda Temur nimani muomalaga kiritdi?",
+       "options": [
+        "Teri pullarni",
+        "Tosh pullarni",
+        "Qog'oz pullarni",
+        "Suyak pullarni"
+       ],
+       "correct_index": 3,
+       "page": 166
+      },
+      {
+       "question": "Bu g'oyani kim bergan?",
+       "options": [
+        "Saroymulkxonim",
+        "Takina Xotun",
+        "O'ljoy Turkon",
+        "Qutlug' Turkon"
+       ],
+       "correct_index": 0,
+       "page": 166
+      },
+      {
+       "question": "Yer mulkchiligi nechta shaklda bo'lgan?",
+       "options": [
+        "Ikkita",
+        "Uchta",
+        "Beshta",
+        "To'rtta"
+       ],
+       "correct_index": 3,
+       "page": 167
+      },
+      {
+       "question": "Mulki devoniy nima?",
+       "options": [
+        "Xususiy yer",
+        "Davlat yerlari",
+        "Vaqf yer",
+        "Jamoa yeri"
+       ],
+       "correct_index": 1,
+       "page": 167
+      },
+      {
+       "question": "Mulki vaqf nima?",
+       "options": [
+        "Davlat yeri",
+        "Xususiy yer",
+        "Jamoa yeri",
+        "Madrasa va masjidlar tasarrufidagi yer"
+       ],
+       "correct_index": 3,
+       "page": 167
+      },
+      {
+       "question": "Dehqonchilik yerlarining eng katta qismi kimniki edi?",
+       "options": [
+        "Xususiy",
+        "Davlatniki",
+        "Vaqf",
+        "Cherkov"
+       ],
+       "correct_index": 1,
+       "page": 167
+      },
+      {
+       "question": "Barlos kanali qaysi daryodan chiqarilgan?",
+       "options": [
+        "Araks",
+        "Zarafshon",
+        "Murg'ob",
+        "Sirdaryo"
+       ],
+       "correct_index": 0,
+       "page": 168
+      },
+      {
+       "question": "Barlos kanali qaysi yili qazilgan?",
+       "options": [
+        "1388-yilda",
+        "1395-yilda",
+        "1405-yilda",
+        "1401-yilda"
+       ],
+       "correct_index": 3,
+       "page": 168
+      },
+      {
+       "question": "Kanal uzunligi qancha edi?",
+       "options": [
+        "1 km",
+        "10 km",
+        "1000 km",
+        "10 farsax (60-70 km)"
+       ],
+       "correct_index": 3,
+       "page": 168
+      },
+      {
        "question": "Lalmikor yerlardan soliq qaysi qoida bilan olingan?",
        "options": [
         "Yarim qoidasi",
@@ -6023,17 +12722,6 @@
         "Qurilishni"
        ],
        "correct_index": 1,
-       "page": 164
-      },
-      {
-       "question": "Amaldorlar fuqaroga jabr qilsa, zarar kimdan undirilgan?",
-       "options": [
-        "Qo'shindan",
-        "Dehqondan",
-        "Kalontorlardan (amaldorlardan)",
-        "Savdogardan"
-       ],
-       "correct_index": 2,
        "page": 164
       },
       {
@@ -6081,17 +12769,6 @@
        "page": 168
       },
       {
-       "question": "Barlos kanali qaysi daryodan chiqarilgan?",
-       "options": [
-        "Araks",
-        "Zarafshon",
-        "Sirdaryo",
-        "Murg'ob"
-       ],
-       "correct_index": 0,
-       "page": 168
-      },
-      {
        "question": "Barlos kanalining uzunligi qancha edi?",
        "options": [
         "1 km",
@@ -6112,6 +12789,39 @@
        ],
        "correct_index": 3,
        "page": 168
+      },
+      {
+       "question": "Temuriylar renessansi qaysi asrlarni qamrab oladi?",
+       "options": [
+        "VIII-IX asrlarni",
+        "XIV-XV asrlarni",
+        "XVI-XVII asrlarni",
+        "XII-XIII asrlarni"
+       ],
+       "correct_index": 1,
+       "page": 169
+      },
+      {
+       "question": "Oqsaroy peshtoqiga nima yozilgan?",
+       "options": [
+        "\"Kuch - adolatda\"",
+        "\"Ilm - nur\"",
+        "\"Adolat davlatning asosi va hukmdorlar shioridir\"",
+        "\"Rost - qutqargay\""
+       ],
+       "correct_index": 2,
+       "page": 169
+      },
+      {
+       "question": "Shohrux va Gavharshodbegim, Ulug'bek, Husayn Mirzolar nima qurdirgan?",
+       "options": [
+        "Qal'alar",
+        "Madrasalar",
+        "Zavodlar",
+        "Kemalar"
+       ],
+       "correct_index": 1,
+       "page": 169
       }
      ]
     },
@@ -6263,6 +12973,105 @@
      ],
      "exam_bank": [
       {
+       "question": "Madrasalarda diniy ilmlar bilan birga nima o'qitilgan?",
+       "options": [
+        "Faqat qurol",
+        "Handasa, algebra, mantiq, astronomiya, adabiyot, tarix",
+        "Savdo",
+        "Raqs"
+       ],
+       "correct_index": 1,
+       "page": 170
+      },
+      {
+       "question": "Madrasaga vaqf yerlar nima uchun ajratilgan?",
+       "options": [
+        "Savdo uchun",
+        "Qo'shin uchun",
+        "Mudarris maoshi, kutubxona va ta'mirlash uchun",
+        "Soliq uchun"
+       ],
+       "correct_index": 2,
+       "page": 170
+      },
+      {
+       "question": "Jamshid Koshiy qaysi sohada hissa qo'shgan?",
+       "options": [
+        "Tibbiyotda",
+        "Matematika va astronomiyada",
+        "She'riyatda",
+        "Me'morlikda"
+       ],
+       "correct_index": 1,
+       "page": 170
+      },
+      {
+       "question": "Samarqanddagi yirik kasalxona nomi?",
+       "options": [
+        "Bimoriston",
+        "Shifoiya",
+        "Nuriya",
+        "Dor ush-shifo"
+       ],
+       "correct_index": 3,
+       "page": 171
+      },
+      {
+       "question": "Dor ush-shifoga kim rahbarlik qilgan?",
+       "options": [
+        "Ibn Sino",
+        "Roziy",
+        "Beruniy",
+        "Mir Sayyid Sharif Sheroziy"
+       ],
+       "correct_index": 3,
+       "page": 171
+      },
+      {
+       "question": "Hakim, tabib, munajjim va muhandislar nima deb atalgan?",
+       "options": [
+        "\"Saltanat korxonasiga rivoj beruvchilar\"",
+        "\"Dushmanlar\"",
+        "\"Xizmatkorlar\"",
+        "\"Qullar\""
+       ],
+       "correct_index": 0,
+       "page": 171
+      },
+      {
+       "question": "Temur davrida tibbiyot qanday darajaga ko'tarilgan?",
+       "options": [
+        "Past",
+        "Mavjud emas",
+        "Faqat dori",
+        "Jasadni balzamlash usuligacha"
+       ],
+       "correct_index": 3,
+       "page": 171
+      },
+      {
+       "question": "Temur aholi orasida kasalliklar tarqalishiga qarshi nima qilgan?",
+       "options": [
+        "Yopib qo'ygan",
+        "Tashlab ketgan",
+        "E'tibor bermagan",
+        "Shaharlarni ozoda saqlash, toza suv bilan ta'minlash"
+       ],
+       "correct_index": 3,
+       "page": 171
+      },
+      {
+       "question": "Temur tabiblar haqida nima degan?",
+       "options": [
+        "\"Ular keraksiz\"",
+        "\"Qirib tashlang\"",
+        "\"Soliq soling\"",
+        "\"Hakimlar va tabiblar bilan ittifoqda bemorlarni davolatar edim\""
+       ],
+       "correct_index": 3,
+       "page": 171
+      },
+      {
        "question": "Qaysi hukmdorlar madrasalar qurdirgan?",
        "options": [
         "Faqat Temur",
@@ -6315,17 +13124,6 @@
         "Sarkarda"
        ],
        "correct_index": 1,
-       "page": 171
-      },
-      {
-       "question": "Temur tabiblar haqida nima degan?",
-       "options": [
-        "\"Ular keraksiz\"",
-        "\"Ularni quvib yuboring\"",
-        "\"Soliq soling\"",
-        "\"Hakimlar va tabiblar bilan ittifoqda bemorlarni davolatar edim\""
-       ],
-       "correct_index": 3,
        "page": 171
       },
       {
@@ -6518,6 +13316,204 @@
      ],
      "exam_bank": [
       {
+       "question": "Samarqand Temur davrida nechta gektarlik hisor bilan o'ralgan edi?",
+       "options": [
+        "50 gektar",
+        "5000 gektar",
+        "5 gektar",
+        "500 gektar"
+       ],
+       "correct_index": 3,
+       "page": 173
+      },
+      {
+       "question": "Samarqand hisori qaysi yili qurildi (devor va xandaq)?",
+       "options": [
+        "1340-yilda",
+        "1405-yilda",
+        "1371-yilda",
+        "1428-yilda"
+       ],
+       "correct_index": 2,
+       "page": 173
+      },
+      {
+       "question": "Ikki qavatli gumbazlarda nima oshdi?",
+       "options": [
+        "Poy gumbazning balandligi",
+        "Eni",
+        "Og'irligi",
+        "Rangi"
+       ],
+       "correct_index": 0,
+       "page": 173
+      },
+      {
+       "question": "Oqsaroy qurilishi qachon boshlangan?",
+       "options": [
+        "1340-yilda",
+        "1380-yil bahorida",
+        "1405-yilda",
+        "1428-yilda"
+       ],
+       "correct_index": 1,
+       "page": 174
+      },
+      {
+       "question": "Oqsaroy bezaklarida qanday yozuvlar bor?",
+       "options": [
+        "Lotin",
+        "Yunon",
+        "Kufiy, suls yozuvlari",
+        "Mixxat"
+       ],
+       "correct_index": 2,
+       "page": 174
+      },
+      {
+       "question": "Oqsaroy qaysi shaharda?",
+       "options": [
+        "Shahrisabzda (Keshda)",
+        "Samarqandda",
+        "Buxoroda",
+        "Hirotda"
+       ],
+       "correct_index": 0,
+       "page": 174
+      },
+      {
+       "question": "Oqsaroy qurilishida qaysi tosh kesuvchi usta ishtirok etgan?",
+       "options": [
+        "Kamoliddin Behzod",
+        "Mirak Naqqosh",
+        "Muhammad Yusuf Tabriziy",
+        "Xo'ja Ahmad"
+       ],
+       "correct_index": 2,
+       "page": 174
+      },
+      {
+       "question": "Oqsaroy dastlab qancha balandlikda bo'lgan?",
+       "options": [
+        "7 metr",
+        "17 metr",
+        "170 metr",
+        "70 metrdan ortiq"
+       ],
+       "correct_index": 3,
+       "page": 174
+      },
+      {
+       "question": "Hozir saqlangan qismi qancha?",
+       "options": [
+        "10 metr",
+        "70 metr",
+        "100 metr",
+        "Taxminan 38 metr"
+       ],
+       "correct_index": 3,
+       "page": 174
+      },
+      {
+       "question": "Oqsaroy peshtoq ravog'i eni qancha?",
+       "options": [
+        "2,25 metr",
+        "225 metr",
+        "12 metr",
+        "22,5 metr"
+       ],
+       "correct_index": 3,
+       "page": 175
+      },
+      {
+       "question": "Oqsaroy tomida nima qurilgan?",
+       "options": [
+        "Minora",
+        "Kichik hovuz, suv sharshara hosil qilgan",
+        "Bog'",
+        "Soat"
+       ],
+       "correct_index": 1,
+       "page": 175
+      },
+      {
+       "question": "Oqsaroy poydevorida nima ishlatilgan?",
+       "options": [
+        "Marmar",
+        "Oltin qum",
+        "Kumush",
+        "Simob"
+       ],
+       "correct_index": 1,
+       "page": 175
+      },
+      {
+       "question": "Klavixo Oqsaroyni ko'rganda uning holati qanday edi?",
+       "options": [
+        "Buzilgan",
+        "Yongan",
+        "Hali tugallanmagan edi",
+        "Yangi edi"
+       ],
+       "correct_index": 2,
+       "page": 175
+      },
+      {
+       "question": "Bibixonim jome masjidi balandligi?",
+       "options": [
+        "3 metr",
+        "300 metr",
+        "33 metr",
+        "13 metr"
+       ],
+       "correct_index": 2,
+       "page": 176
+      },
+      {
+       "question": "Temuriylar davri binolarining muhim qismi nima?",
+       "options": [
+        "Ark",
+        "Minora",
+        "Peshtoq (ayvon)",
+        "Darvoza"
+       ],
+       "correct_index": 2,
+       "page": 176
+      },
+      {
+       "question": "Gumbaz qoplamasi uchun nima ishlatilgan?",
+       "options": [
+        "Marmar",
+        "Mayolika",
+        "Yog'och",
+        "Metall"
+       ],
+       "correct_index": 1,
+       "page": 176
+      },
+      {
+       "question": "Derazalar nima bilan bezatilgan?",
+       "options": [
+        "Faqat yog'och",
+        "Teri",
+        "Rangli oynali vitrajlar va ochiq panjaralar",
+        "Hech narsa"
+       ],
+       "correct_index": 2,
+       "page": 176
+      },
+      {
+       "question": "Devor bezaklarida moarrak nima?",
+       "options": [
+        "Rasm",
+        "Gilam",
+        "Haykal",
+        "Plitkalar va marmartoshlar mozaikasi"
+       ],
+       "correct_index": 3,
+       "page": 176
+      },
+      {
        "question": "Samarqand qal'a devori bilan qaysi yili o'ralgan?",
        "options": [
         "1220-yilda",
@@ -6573,17 +13569,6 @@
        "page": 175
       },
       {
-       "question": "Oqsaroy tomida nima qurilgan?",
-       "options": [
-        "Minora",
-        "Kichik hovuz, suvi sharshara hosil qilgan",
-        "Bog'",
-        "Soat"
-       ],
-       "correct_index": 1,
-       "page": 175
-      },
-      {
        "question": "Bibixonim jome masjidi balandligi qancha?",
        "options": [
         "3 metr",
@@ -6606,17 +13591,6 @@
        "page": 176
       },
       {
-       "question": "Derazalar nima bilan bezatilgan?",
-       "options": [
-        "Faqat yog'och",
-        "Faqat teri",
-        "Rangli oynali vitrajlar va ochiq panjaralar bilan",
-        "Hech narsa"
-       ],
-       "correct_index": 2,
-       "page": 176
-      },
-      {
        "question": "Samarqand tevaragida va mahallalarda nima oqib turgan?",
        "options": [
         "Qum",
@@ -6626,6 +13600,83 @@
        ],
        "correct_index": 2,
        "page": 173
+      },
+      {
+       "question": "Xattotlik XV asrda kimlar homiyligida yuksaldi?",
+       "options": [
+        "Mo'g'ullar",
+        "Arablar",
+        "Saljuqiylar",
+        "Temuriylar hukmdorlari"
+       ],
+       "correct_index": 3,
+       "page": 178
+      },
+      {
+       "question": "Temur davrida mashhur xattot kim?",
+       "options": [
+        "Mavlono Shamsuddin Munshiy",
+        "Behzod",
+        "Boysung'ur",
+        "Mashhadiy"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Sangtarosh va xattot kim edi?",
+       "options": [
+        "Oltun",
+        "Behzod",
+        "Mirak",
+        "Navoiy"
+       ],
+       "correct_index": 0,
+       "page": 178
+      },
+      {
+       "question": "Navoiy kutubxonasida nechta yirik san'atkor ishlagan?",
+       "options": [
+        "1 nafar",
+        "111 nafar",
+        "11 nafar",
+        "5 nafar"
+       ],
+       "correct_index": 2,
+       "page": 178
+      },
+      {
+       "question": "Mirzo Boysung'ur saroyida nechta xattot bo'lgan?",
+       "options": [
+        "4 nafar",
+        "400 nafar",
+        "14 nafar",
+        "40 nafar"
+       ],
+       "correct_index": 3,
+       "page": 178
+      },
+      {
+       "question": "Sultonali Mashhadiy qaysi yillarda yashagan?",
+       "options": [
+        "1394-1449",
+        "1455-1535",
+        "1432-1520",
+        "1441-1501"
+       ],
+       "correct_index": 2,
+       "page": 178
+      },
+      {
+       "question": "Mashhadiy qanday laqablar bilan mashhur?",
+       "options": [
+        "\"Sohibqiron\"",
+        "\"Jahongir\"",
+        "\"Qiblat ul-kuttob\" va \"Sulton ul-xattotin\"",
+        "\"Ulug'\""
+       ],
+       "correct_index": 2,
+       "page": 178
       }
      ]
     },
@@ -6820,6 +13871,182 @@
      ],
      "exam_bank": [
       {
+       "question": "Mashhadiy qaysi asarlarni kitob shakliga keltirgan?",
+       "options": [
+        "Qur'on",
+        "Zafarnoma",
+        "Boburnoma",
+        "Nizomiyning \"Maxzan ul-asror\"i, Hofiz va Navoiy devonlari"
+       ],
+       "correct_index": 3,
+       "page": 179
+      },
+      {
+       "question": "Mashhadiy oqqa ko'chirgan nechta asar saqlangan?",
+       "options": [
+        "5 ta",
+        "50 ta",
+        "500 ta",
+        "15 ta"
+       ],
+       "correct_index": 1,
+       "page": 179
+      },
+      {
+       "question": "Mashhadiy qog'ozni qanday rangda ishlashni maslahat bergan?",
+       "options": [
+        "Qora",
+        "Qizil",
+        "Nimtatir rangli (ko'z charchamasligi uchun)",
+        "Ko'k"
+       ],
+       "correct_index": 2,
+       "page": 179
+      },
+      {
+       "question": "Mashhadiyning mashhur so'zi?",
+       "options": [
+        "\"Xat tozaligi ruh tozaligidir\"",
+        "\"Ilm - nur\"",
+        "\"Adolat - asos\"",
+        "\"Sabr - kalit\""
+       ],
+       "correct_index": 0,
+       "page": 179
+      },
+      {
+       "question": "Samarqand va Hirotda nima tashkil etilgan?",
+       "options": [
+        "Zavodlar",
+        "Qal'alar",
+        "Kemalar",
+        "Miniatyura maktablari"
+       ],
+       "correct_index": 3,
+       "page": 180
+      },
+      {
+       "question": "\"Zafarnoma\" miniatyurasini kim boshlagan?",
+       "options": [
+        "Behzod",
+        "Mashhadiy",
+        "Mirak Naqqosh",
+        "Navoiy"
+       ],
+       "correct_index": 2,
+       "page": 180
+      },
+      {
+       "question": "Miniatyurani kim yakunlagan?",
+       "options": [
+        "Mirak",
+        "Mashhadiy",
+        "Boysung'ur",
+        "Behzod"
+       ],
+       "correct_index": 3,
+       "page": 180
+      },
+      {
+       "question": "Musavvirlar kimlarning asarlariga rasm ishlagan?",
+       "options": [
+        "Faqat Qur'on",
+        "Faqat tarix",
+        "Firdavsiy, Nizomiy, Dehlaviy, Jomiy, Navoiy",
+        "Faqat tibbiyot"
+       ],
+       "correct_index": 2,
+       "page": 180
+      },
+      {
+       "question": "Behzod qaysi yili tug'ilgan?",
+       "options": [
+        "1394-yilda",
+        "1441-yilda",
+        "1455-yilda",
+        "1535-yilda"
+       ],
+       "correct_index": 2,
+       "page": 181
+      },
+      {
+       "question": "Behzod qayerda vafot etgan?",
+       "options": [
+        "Tabrizda",
+        "Hirotda",
+        "Samarqandda",
+        "Buxoroda"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Behzod qaysi hukmdor saroyi rassomi edi?",
+       "options": [
+        "Sulton Husayn Mirzo",
+        "Ulug'bek",
+        "Shohrux",
+        "Temur"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Behzodning dunyoqarashiga kim katta ta'sir ko'rsatgan?",
+       "options": [
+        "Alisher Navoiy",
+        "Ulug'bek",
+        "Temur",
+        "Jomiy"
+       ],
+       "correct_index": 0,
+       "page": 181
+      },
+      {
+       "question": "Behzod qanday lavozimda bo'lgan?",
+       "options": [
+        "Vazir",
+        "Kitobdor va Hirot musavvirlar ustaxonasi bosh musavviri",
+        "Sarkarda",
+        "Qozi"
+       ],
+       "correct_index": 1,
+       "page": 181
+      },
+      {
+       "question": "Qabrtoshlar nimadan ishlangan?",
+       "options": [
+        "Yog'ochdan",
+        "Temirdan",
+        "Bo'z rangli marmardan va noyob toshlardan",
+        "Loydan"
+       ],
+       "correct_index": 2,
+       "page": 183
+      },
+      {
+       "question": "Yog'och o'ymakorligi qaysi maqbaralarda uchraydi?",
+       "options": [
+        "Go'ri Amir, Shohizinda, Yassaviy",
+        "Qal'alarda",
+        "Saroylarda faqat",
+        "Bozorlarda"
+       ],
+       "correct_index": 0,
+       "page": 183
+      },
+      {
+       "question": "Metall idishlar nimadan ishlangan?",
+       "options": [
+        "Faqat oltin",
+        "Oltinsimon bronza, latun, qizil misdan",
+        "Faqat temir",
+        "Faqat kumush"
+       ],
+       "correct_index": 1,
+       "page": 184
+      },
+      {
        "question": "Amir Temur davrida mashhur xattotlardan biri kim?",
        "options": [
         "Behzod",
@@ -6840,17 +14067,6 @@
        ],
        "correct_index": 2,
        "page": 178
-      },
-      {
-       "question": "Mashhadiy qog'ozni qanday rangda ishlashni maslahat bergan?",
-       "options": [
-        "Qora qog'ozda",
-        "Qizil qog'ozda",
-        "Nimtatir rangli qog'ozda (ko'z charchamasligi uchun)",
-        "Ko'k qog'ozda"
-       ],
-       "correct_index": 2,
-       "page": 179
       },
       {
        "question": "Mashhadiyning so'zi qaysi?",
@@ -6908,17 +14124,6 @@
        "page": 181
       },
       {
-       "question": "Qabrtoshlar nimadan ishlangan?",
-       "options": [
-        "Yog'ochdan",
-        "Temirdan",
-        "Bo'z rangli marmardan va noyob toshlardan",
-        "Loydan"
-       ],
-       "correct_index": 2,
-       "page": 183
-      },
-      {
        "question": "Metall idishlar qaysi metalldan ishlangan?",
        "options": [
         "Oltinsimon bronza, latun, qizil mis",
@@ -6928,6 +14133,105 @@
        ],
        "correct_index": 0,
        "page": 184
+      },
+      {
+       "question": "Navoiy qaysi yili tug'ilgan?",
+       "options": [
+        "1441-yil 9-fevral",
+        "1405-yil",
+        "1469-yil",
+        "1506-yil"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Navoiy qaysi shaharda tug'ilgan?",
+       "options": [
+        "Samarqandda",
+        "Buxoroda",
+        "Termizda",
+        "Hirotda"
+       ],
+       "correct_index": 3,
+       "page": 186
+      },
+      {
+       "question": "Navoiyni zamondoshlari qanday ataganlar?",
+       "options": [
+        "\"Sohibqiron\"",
+        "\"Nizomiddin Mir Alisher\"",
+        "\"Jahongir\"",
+        "\"Mirza\""
+       ],
+       "correct_index": 1,
+       "page": 186
+      },
+      {
+       "question": "Navoiyning otasi kim?",
+       "options": [
+        "Abusaid Chang",
+        "Mirzo Boyqaro",
+        "Pahlavon Muhammad",
+        "G'iyosiddin Muhammad"
+       ],
+       "correct_index": 3,
+       "page": 186
+      },
+      {
+       "question": "Navoiyning onasi kimning qizi?",
+       "options": [
+        "Husayning",
+        "Jomiyning",
+        "Boysung'urning",
+        "Shayx Abusaid Changning"
+       ],
+       "correct_index": 3,
+       "page": 186
+      },
+      {
+       "question": "Yosh Alisher qaysi hukmdor nazariga tushgan?",
+       "options": [
+        "Ali Yazdiy (ustozi)",
+        "Temur",
+        "Husayn",
+        "Ulug'bek"
+       ],
+       "correct_index": 0,
+       "page": 186
+      },
+      {
+       "question": "Navoiy kim bilan ijodiy hamkorlik qilgan?",
+       "options": [
+        "Behzod",
+        "Mashhadiy",
+        "Koshiy",
+        "Abdurahmon Jomiy"
+       ],
+       "correct_index": 3,
+       "page": 186
+      },
+      {
+       "question": "Navoiy ustozlari kimlar?",
+       "options": [
+        "Temur, Shohrux",
+        "Koshiy, Qushchi",
+        "Sayyid Hasan Ardasher, Pahlavon Muhammad",
+        "Rumiy, Sa'diy"
+       ],
+       "correct_index": 2,
+       "page": 186
+      },
+      {
+       "question": "Sulton Husayn Mirzo Hirotni qaysi yili qo'lga oldi?",
+       "options": [
+        "1441-yil",
+        "1469-yilning boshida",
+        "1472-yil",
+        "1506-yil"
+       ],
+       "correct_index": 1,
+       "page": 186
       }
      ]
     },
@@ -7097,6 +14401,182 @@
      ],
      "exam_bank": [
       {
+       "question": "Navoiy qaysi yili amir (vazir)likka qo'yildi?",
+       "options": [
+        "1441-yilda",
+        "1469-yilda",
+        "1472-yilda",
+        "1500-yilda"
+       ],
+       "correct_index": 2,
+       "page": 187
+      },
+      {
+       "question": "Navoiyga berilgan unvonlar qaysilar?",
+       "options": [
+        "\"Sohibqiron\"",
+        "\"Jahongir\"",
+        "\"Sulton\"",
+        "\"Amiri kabir\" va \"amirul muqarrab\""
+       ],
+       "correct_index": 3,
+       "page": 187
+      },
+      {
+       "question": "Navoiy vazirlik yillarida nima qildi?",
+       "options": [
+        "Urush qildi",
+        "Soliq oshirdi",
+        "Qul oldi",
+        "Suvsiz yerlarga suv chiqarib, madrasa va xonaqohlar qurdirdi"
+       ],
+       "correct_index": 3,
+       "page": 187
+      },
+      {
+       "question": "Navoiy 1480-1500-yillarda nechta rabot qurdirdi?",
+       "options": [
+        "4 ta",
+        "14 ta",
+        "140 ta",
+        "40 ta"
+       ],
+       "correct_index": 3,
+       "page": 188
+      },
+      {
+       "question": "Navoiy nechta masjid qurdirdi?",
+       "options": [
+        "7 ta",
+        "17 ta",
+        "70 ta",
+        "27 ta"
+       ],
+       "correct_index": 1,
+       "page": 188
+      },
+      {
+       "question": "Navoiy nechta hammom qurdirdi?",
+       "options": [
+        "9 ta",
+        "19 ta",
+        "90 ta",
+        "3 ta"
+       ],
+       "correct_index": 0,
+       "page": 188
+      },
+      {
+       "question": "Navoiy nechta hovuz qurdirdi?",
+       "options": [
+        "2 ta",
+        "20 ta",
+        "200 ta",
+        "12 ta"
+       ],
+       "correct_index": 1,
+       "page": 188
+      },
+      {
+       "question": "Hirotdagi \"Ixlosiya\" nima edi?",
+       "options": [
+        "Xonaqoh",
+        "Shifoxona",
+        "Madrasa",
+        "Kutubxona"
+       ],
+       "correct_index": 2,
+       "page": 188
+      },
+      {
+       "question": "\"Xalosiya\" nima edi?",
+       "options": [
+        "Madrasa",
+        "Shifoxona",
+        "Masjid",
+        "Xonaqoh"
+       ],
+       "correct_index": 3,
+       "page": 188
+      },
+      {
+       "question": "\"Shifoiya\" nima edi?",
+       "options": [
+        "Madrasa",
+        "Xonaqoh",
+        "Shifoxona",
+        "Masjid"
+       ],
+       "correct_index": 2,
+       "page": 188
+      },
+      {
+       "question": "\"Dorul huffoz\" kimlar uchun?",
+       "options": [
+        "Shifokorlar",
+        "Askarlar",
+        "Qur'on tilovat qiluvchilar uchun",
+        "Savdogarlar"
+       ],
+       "correct_index": 2,
+       "page": 188
+      },
+      {
+       "question": "Marvdagi madrasa nomi?",
+       "options": [
+        "\"Nizomiya\"",
+        "\"Ixlosiya\"",
+        "\"Xusraviya\"",
+        "\"Ulug'bek\""
+       ],
+       "correct_index": 2,
+       "page": 188
+      },
+      {
+       "question": "Navoiy iqtidorli talabalarga oyiga nima bergan?",
+       "options": [
+        "2 oltin",
+        "240 oltin",
+        "1 oltin",
+        "24 oltin pul"
+       ],
+       "correct_index": 3,
+       "page": 188
+      },
+      {
+       "question": "Navoiy haykallari qaysi shaharlarda?",
+       "options": [
+        "Boku, Moskva, Shanxay, Tokio, Vashington, Ashxobod, O'sh",
+        "Faqat O'zbekistonda",
+        "Faqat Rossiyada",
+        "Faqat Eronda"
+       ],
+       "correct_index": 0,
+       "page": 189
+      },
+      {
+       "question": "\"Tarixi anbiyo va hukamo\" qaysi yillarda yozilgan?",
+       "options": [
+        "1485-1498",
+        "1441-1469",
+        "1500-1510",
+        "1405-1420"
+       ],
+       "correct_index": 0,
+       "page": 190
+      },
+      {
+       "question": "\"Tarixi muluki Ajam\" qaysi shohlar tarixi?",
+       "options": [
+        "Rim imperatorlari",
+        "Qayumarsdan Yazdi Shahriyorgacha Eron shohlari",
+        "Xitoy xonlari",
+        "Arab xalifalari"
+       ],
+       "correct_index": 1,
+       "page": 190
+      },
+      {
        "question": "Navoiyning otasi kim edi?",
        "options": [
         "Abusaid Chang",
@@ -7205,6 +14685,28 @@
        ],
        "correct_index": 3,
        "page": 190
+      },
+      {
+       "question": "Sulton Husayn Navoiyni qanday hurmat qilgan?",
+       "options": [
+        "Haydagan",
+        "Qamagan",
+        "E'tibor bermagan",
+        "Jilovdorlik qilgan"
+       ],
+       "correct_index": 3,
+       "page": 189
+      },
+      {
+       "question": "Navoiy qaysi laqab bilan ham ataladi?",
+       "options": [
+        "\"Sohibqiron\"",
+        "\"Shoirlar sultoni\"",
+        "\"Jahongir\"",
+        "\"Buyuk Temur\""
+       ],
+       "correct_index": 1,
+       "page": 186
       }
      ]
     }

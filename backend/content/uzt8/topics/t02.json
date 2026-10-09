@@ -293,6 +293,292 @@
    ],
    "correct_index": 2,
    "page": 17
+  },
+  {
+   "question": "Temuchin nechanchi yilda ulug' xon bo'ldi?",
+   "options": [
+    "1155-yil",
+    "1218-yil",
+    "1224-yil",
+    "1206-yil"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Chingizxon xos soqchilar qismini nima deb atagan?",
+   "options": [
+    "Kezik (keshik)",
+    "Xaros",
+    "Xofiya",
+    "Lashkari berun"
+   ],
+   "correct_index": 0,
+   "page": 17
+  },
+  {
+   "question": "Kezik qismi nechta turk azamatidan iborat edi?",
+   "options": [
+    "1 ming",
+    "100 ming",
+    "10 ming",
+    "500"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "Mo'g'ullar 1218-1219-yillarda qaysi hududni birlashtirdi?",
+   "options": [
+    "Dunaygacha",
+    "Gobi sharqidan Tyanshan g'arbigacha bo'lgan viloyatlarni",
+    "Misrgacha",
+    "Hindistongacha"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Mo'g'ullar jang paytida qanday safda tizilgan?",
+   "options": [
+    "Bir qator",
+    "Bir necha qator bo'lib, birinchi qatorda og'ir otliqlar",
+    "Dumaloq",
+    "Piyodalar oldinda"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Mo'g'ullar jangda qaysi psixologik usuldan foydalangan?",
+   "options": [
+    "Hushtakli o'qlar yomg'iri",
+    "Qichqirish",
+    "Qo'ng'iroq",
+    "Nog'ora"
+   ],
+   "correct_index": 0,
+   "page": 17
+  },
+  {
+   "question": "Mo'g'ullarning asosiy taktik hiylasi nima edi?",
+   "options": [
+    "Tungi hujum",
+    "Zaharlash",
+    "Dengiz hujumi",
+    "Soxta chekinish"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Jo'chixon kimni tor-mor qilib qaytayotgan edi?",
+   "options": [
+    "Naymanlarni",
+    "Merkit qabilasini",
+    "Uyg'urlarni",
+    "Qipchoqlarni"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Irg'iz daryosi bo'yidagi jang qaysi yili bo'lgan?",
+   "options": [
+    "1206-yilda",
+    "1216-yilda",
+    "1219-yilda",
+    "1221-yilda"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Irg'iz jangida Xorazmshoh qo'shini necha kishi edi?",
+   "options": [
+    "6 ming",
+    "60 ming",
+    "20 ming",
+    "200 ming"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Irg'iz jangida mo'g'ullar qo'shini necha kishi edi?",
+   "options": [
+    "20 ming",
+    "2 ming",
+    "60 ming",
+    "100 ming"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Irg'iz jangida kim pistirmada turib dushmanga zarba berdi?",
+   "options": [
+    "Temur Malik",
+    "Jaloliddin",
+    "Xumortegin",
+    "Inolchiq"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Jaloliddinga nechta qismdan birining boshlig'i etib tayinlangan edi?",
+   "options": [
+    "Ikki qismdan",
+    "To'rt qismdan",
+    "Beshdan",
+    "Uch qismdan birining"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Irg'iz jangi birinchi kuni qanday yakunlandi?",
+   "options": [
+    "Mo'g'ullar yutdi",
+    "Hech bir tomon g'alaba qozonmadi",
+    "Xorazmshoh yutdi",
+    "Jang to'xtatildi"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Tunda mo'g'ullar nima qildi?",
+   "options": [
+    "Hujum qildi",
+    "Taslim bo'ldi",
+    "Uxlab qoldi",
+    "Gulxan yoqib, qarorgohni jimgina tark etdi"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Chingizxon Xorazmshohga elchi sifatida kimni yuborgan (O'tror voqeasidan keyin)?",
+   "options": [
+    "Mahmud Yalavochni",
+    "Uxunni",
+    "Ibn Kafroj Bug'roni",
+    "Jo'chini"
+   ],
+   "correct_index": 2,
+   "page": 15
+  },
+  {
+   "question": "Chingizxon karvoniga kimlar boshchilik qilgan?",
+   "options": [
+    "Jebe, Subutoy",
+    "Jo'chi, O'qtoy",
+    "Tuli, Chig'atoy",
+    "Uxun, Umarxo'ja O'troriy, Jamol Marog'iy, Faxriddin Dizakiy, Amiriddin Haraviy"
+   ],
+   "correct_index": 3,
+   "page": 15
+  },
+  {
+   "question": "Karvonda nechta savdogar bo'lgan?",
+   "options": [
+    "50 va 50",
+    "100 mo'g'ul va 450 musulmon",
+    "1000 va 1000",
+    "10 va 20"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "O'tror hokimining ismi nima edi?",
+   "options": [
+    "Temur Malik",
+    "Xumortegin",
+    "Inolchiq (G'oyirxon)",
+    "Tog'ayxon"
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "Inolchiq Muhammad Xorazmshohga kim bo'lgan?",
+   "options": [
+    "Tog'asi",
+    "Akasi",
+    "Amakisi",
+    "Qaynotasi"
+   ],
+   "correct_index": 0,
+   "page": 16
+  },
+  {
+   "question": "G'oyirxon laqabini Muhammad kimga bergan?",
+   "options": [
+    "Jaloliddinga",
+    "Inolchiqqa",
+    "Temur Malikka",
+    "Xumorteginga"
+   ],
+   "correct_index": 1,
+   "page": 16
+  },
+  {
+   "question": "Abulg'oziy Bahodirxon qaysi asar muallifi?",
+   "options": [
+    "\"Tabaqoti Nosiriy\"",
+    "\"Zafarnoma\"",
+    "\"Shajarayi turk\"",
+    "\"Boburnoma\""
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "\"Tabaqoti Nosiriy\" muallifi kim?",
+   "options": [
+    "Abulg'oziy",
+    "Minhojiddin ibn Siroj Juzjoniy",
+    "Yazdiy",
+    "Shomiy"
+   ],
+   "correct_index": 1,
+   "page": 14
+  },
+  {
+   "question": "Mahmud Yalavoch kim edi?",
+   "options": [
+    "Chingizxon elchisi, keyin Movarounnahr hokimi",
+    "Xorazm vaziri",
+    "Qoraxoniy xoni",
+    "Xalifa elchisi"
+   ],
+   "correct_index": 0,
+   "page": 14
+  },
+  {
+   "question": "Mahmud Yalavoch Xorazmshohni nimada aldadi?",
+   "options": [
+    "Savdo",
+    "Yer",
+    "Mo'g'ullar kuchi uning qudratiga teng emas deb",
+    "Soliq"
+   ],
+   "correct_index": 2,
+   "page": 14
+  },
+  {
+   "question": "Chingizxonning maktubida u Xorazmshohni kimga o'xshatgan?",
+   "options": [
+    "Dushmaniga",
+    "Qullariga",
+    "Ustoziga",
+    "O'z farzandiga"
+   ],
+   "correct_index": 3,
+   "page": 13
   }
  ]
 }

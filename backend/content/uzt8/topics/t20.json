@@ -169,6 +169,204 @@
  ],
  "exam_bank": [
   {
+   "question": "Soliq qaysi uch muddatda to'plangan?",
+   "options": [
+    "Saraton, sumbula-mezon, qavs oylarida",
+    "Qish, bahor",
+    "Faqat kuzda",
+    "Har oy"
+   ],
+   "correct_index": 0,
+   "page": 164
+  },
+  {
+   "question": "Pishmagan hosildan soliq olish nima edi?",
+   "options": [
+    "Qat'iyan man etilgan",
+    "Ruxsat etilgan",
+    "Majburiy",
+    "Ixtiyoriy"
+   ],
+   "correct_index": 0,
+   "page": 164
+  },
+  {
+   "question": "Amaldorlar fuqaroga jabr qilsa, zarar kimdan undirilgan?",
+   "options": [
+    "Fuqarodan",
+    "Xazinadan",
+    "Kalontorlardan",
+    "Qo'shindan"
+   ],
+   "correct_index": 2,
+   "page": 164
+  },
+  {
+   "question": "Suyurg'ol nima?",
+   "options": [
+    "Soliq",
+    "Hukmdor in'om etgan yer",
+    "Qurol",
+    "Harbiy unvon"
+   ],
+   "correct_index": 1,
+   "page": 167
+  },
+  {
+   "question": "Temur davri tangalari qanday ikki qiymatda zarb etilgan?",
+   "options": [
+    "Oltin va kumush",
+    "\"Tanga\" (6 g) va \"miri\" (1,5 g)",
+    "Mis va tunuka",
+    "Qog'oz va teri"
+   ],
+   "correct_index": 1,
+   "page": 165
+  },
+  {
+   "question": "Mayda savdoda qaysi tangalar ishlatilgan?",
+   "options": [
+    "Oltin",
+    "Kumush",
+    "Qog'oz",
+    "Mis tangalar"
+   ],
+   "correct_index": 3,
+   "page": 165
+  },
+  {
+   "question": "Temur nomi bilan zarb qilingan tangalardagi gerb nimadan iborat?",
+   "options": [
+    "Uchta kichik halqadan",
+    "Burgut",
+    "Sher",
+    "Xoch"
+   ],
+   "correct_index": 0,
+   "page": 165
+  },
+  {
+   "question": "Ulug'bek pul islohotini qaysi yili o'tkazdi?",
+   "options": [
+    "1405-yilda",
+    "1428-yilda",
+    "1449-yilda",
+    "1397-yilda"
+   ],
+   "correct_index": 1,
+   "page": 165
+  },
+  {
+   "question": "Ulug'bek zarbxonalarini qaysi shaharlarda tashkil qildi?",
+   "options": [
+    "Hirot, Balx",
+    "Buxoro, Samarqand, Qarshi, Termiz, Toshkent, Shohruxiya, Andijon",
+    "Kesh, Marv",
+    "Urganch, Xiva"
+   ],
+   "correct_index": 1,
+   "page": 165
+  },
+  {
+   "question": "Isfahon qamalida pul tugaganda Temur nimani muomalaga kiritdi?",
+   "options": [
+    "Teri pullarni",
+    "Tosh pullarni",
+    "Qog'oz pullarni",
+    "Suyak pullarni"
+   ],
+   "correct_index": 3,
+   "page": 166
+  },
+  {
+   "question": "Bu g'oyani kim bergan?",
+   "options": [
+    "Saroymulkxonim",
+    "Takina Xotun",
+    "O'ljoy Turkon",
+    "Qutlug' Turkon"
+   ],
+   "correct_index": 0,
+   "page": 166
+  },
+  {
+   "question": "Yer mulkchiligi nechta shaklda bo'lgan?",
+   "options": [
+    "Ikkita",
+    "Uchta",
+    "Beshta",
+    "To'rtta"
+   ],
+   "correct_index": 3,
+   "page": 167
+  },
+  {
+   "question": "Mulki devoniy nima?",
+   "options": [
+    "Xususiy yer",
+    "Davlat yerlari",
+    "Vaqf yer",
+    "Jamoa yeri"
+   ],
+   "correct_index": 1,
+   "page": 167
+  },
+  {
+   "question": "Mulki vaqf nima?",
+   "options": [
+    "Davlat yeri",
+    "Xususiy yer",
+    "Jamoa yeri",
+    "Madrasa va masjidlar tasarrufidagi yer"
+   ],
+   "correct_index": 3,
+   "page": 167
+  },
+  {
+   "question": "Dehqonchilik yerlarining eng katta qismi kimniki edi?",
+   "options": [
+    "Xususiy",
+    "Davlatniki",
+    "Vaqf",
+    "Cherkov"
+   ],
+   "correct_index": 1,
+   "page": 167
+  },
+  {
+   "question": "Barlos kanali qaysi daryodan chiqarilgan?",
+   "options": [
+    "Araks",
+    "Zarafshon",
+    "Murg'ob",
+    "Sirdaryo"
+   ],
+   "correct_index": 0,
+   "page": 168
+  },
+  {
+   "question": "Barlos kanali qaysi yili qazilgan?",
+   "options": [
+    "1388-yilda",
+    "1395-yilda",
+    "1405-yilda",
+    "1401-yilda"
+   ],
+   "correct_index": 3,
+   "page": 168
+  },
+  {
+   "question": "Kanal uzunligi qancha edi?",
+   "options": [
+    "1 km",
+    "10 km",
+    "1000 km",
+    "10 farsax (60-70 km)"
+   ],
+   "correct_index": 3,
+   "page": 168
+  },
+  {
    "question": "Lalmikor yerlardan soliq qaysi qoida bilan olingan?",
    "options": [
     "Yarim qoidasi",
@@ -188,17 +386,6 @@
     "Qurilishni"
    ],
    "correct_index": 1,
-   "page": 164
-  },
-  {
-   "question": "Amaldorlar fuqaroga jabr qilsa, zarar kimdan undirilgan?",
-   "options": [
-    "Qo'shindan",
-    "Dehqondan",
-    "Kalontorlardan (amaldorlardan)",
-    "Savdogardan"
-   ],
-   "correct_index": 2,
    "page": 164
   },
   {
@@ -246,17 +433,6 @@
    "page": 168
   },
   {
-   "question": "Barlos kanali qaysi daryodan chiqarilgan?",
-   "options": [
-    "Araks",
-    "Zarafshon",
-    "Sirdaryo",
-    "Murg'ob"
-   ],
-   "correct_index": 0,
-   "page": 168
-  },
-  {
    "question": "Barlos kanalining uzunligi qancha edi?",
    "options": [
     "1 km",
@@ -277,6 +453,39 @@
    ],
    "correct_index": 3,
    "page": 168
+  },
+  {
+   "question": "Temuriylar renessansi qaysi asrlarni qamrab oladi?",
+   "options": [
+    "VIII-IX asrlarni",
+    "XIV-XV asrlarni",
+    "XVI-XVII asrlarni",
+    "XII-XIII asrlarni"
+   ],
+   "correct_index": 1,
+   "page": 169
+  },
+  {
+   "question": "Oqsaroy peshtoqiga nima yozilgan?",
+   "options": [
+    "\"Kuch - adolatda\"",
+    "\"Ilm - nur\"",
+    "\"Adolat davlatning asosi va hukmdorlar shioridir\"",
+    "\"Rost - qutqargay\""
+   ],
+   "correct_index": 2,
+   "page": 169
+  },
+  {
+   "question": "Shohrux va Gavharshodbegim, Ulug'bek, Husayn Mirzolar nima qurdirgan?",
+   "options": [
+    "Qal'alar",
+    "Madrasalar",
+    "Zavodlar",
+    "Kemalar"
+   ],
+   "correct_index": 1,
+   "page": 169
   }
  ]
 }

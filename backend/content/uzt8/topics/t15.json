@@ -153,15 +153,114 @@
  ],
  "exam_bank": [
   {
-   "question": "Ioann Grinlo kimning elchisi edi?",
+   "question": "Potsdamdagi qirol saroyida qanday zal bor?",
    "options": [
-    "Genrix III ning",
-    "Rim papasi va Fransiya qiroli Karl VI ning",
-    "Ispaniya qirolining",
-    "Xitoy imperatorining"
+    "\"Sohibqiron zali\"",
+    "\"Temuriylar zali\"",
+    "\"Zafar zali\"",
+    "\"Amir Temur zali\""
+   ],
+   "correct_index": 3,
+   "page": 133
+  },
+  {
+   "question": "Ioann Grinlo kim?",
+   "options": [
+    "Ispaniya elchisi",
+    "Papa va Karl VI ning elchisi",
+    "Savdogar",
+    "Rohib"
    ],
    "correct_index": 1,
    "page": 133
+  },
+  {
+   "question": "Grinlo Temur bilan qachon uchrashdi?",
+   "options": [
+    "1401-yil avgustida",
+    "1399-yilda",
+    "1403-yilda",
+    "1405-yilda"
+   ],
+   "correct_index": 0,
+   "page": 133
+  },
+  {
+   "question": "Grinlo asari qanday nomlangan?",
+   "options": [
+    "\"Samarqand kundaligi\"",
+    "\"Zafarnoma\"",
+    "\"Temur tarixi\"",
+    "\"Temur va uning saroyiga oid xotiralar\""
+   ],
+   "correct_index": 3,
+   "page": 133
+  },
+  {
+   "question": "Fransuzlar Temurning nimasini quydirgan?",
+   "options": [
+    "Kumush kamar",
+    "Mis tanga",
+    "Oltin haykalchasini",
+    "Bronza qilich"
+   ],
+   "correct_index": 2,
+   "page": 133
+  },
+  {
+   "question": "Haykalcha ostiga nima yozilgan?",
+   "options": [
+    "\"Evropa xaloskoriga\"",
+    "\"Buyuk Temurga\"",
+    "\"Sohibqironga\"",
+    "\"Jahongirga\""
+   ],
+   "correct_index": 0,
+   "page": 133
+  },
+  {
+   "question": "Luvr muzeyi Sharq kolleksiyasi nechta zalni egallagan?",
+   "options": [
+    "6 ta",
+    "2 ta",
+    "60 ta",
+    "24 ta"
+   ],
+   "correct_index": 3,
+   "page": 134
+  },
+  {
+   "question": "Luvrda saqlanadigan Temur hujjati?",
+   "options": [
+    "Qirol Karl VI ga yozgan maktubi",
+    "Qilichi",
+    "Taxti",
+    "Xaritasi"
+   ],
+   "correct_index": 0,
+   "page": 134
+  },
+  {
+   "question": "Temur Yassaviy maqbarasi uchun nima yasattirgan?",
+   "options": [
+    "Minora",
+    "Zang",
+    "Shamdonlardan biri",
+    "Kitob"
+   ],
+   "correct_index": 2,
+   "page": 134
+  },
+  {
+   "question": "Ibn Arabshoh asari qanday?",
+   "options": [
+    "\"Amir Temur tarixi\" - Temurni salbiy tasvirlagan",
+    "Maqtovchi",
+    "Tarjima",
+    "She'riy"
+   ],
+   "correct_index": 0,
+   "page": 134
   },
   {
    "question": "Yazdiy \"Zafarnoma\"si qaysi yili yozilgan?",
@@ -173,6 +272,171 @@
    ],
    "correct_index": 0,
    "page": 134
+  },
+  {
+   "question": "Klavixoning kundaligi qaysi yillarni qamraydi?",
+   "options": [
+    "1395-1400",
+    "1410-1420",
+    "1403-1406",
+    "1370-1380"
+   ],
+   "correct_index": 2,
+   "page": 134
+  },
+  {
+   "question": "\"Matlayi sa'dayn\" muallifi kim?",
+   "options": [
+    "Hofizi Abru",
+    "Abdurazzoq Samarqandiy",
+    "Mirxond",
+    "Yazdiy"
+   ],
+   "correct_index": 1,
+   "page": 134
+  },
+  {
+   "question": "\"Tarixlar sarasi\" muallifi kim?",
+   "options": [
+    "Mirxond",
+    "Hofizi Abru",
+    "Yazdiy",
+    "Shomiy"
+   ],
+   "correct_index": 1,
+   "page": 134
+  },
+  {
+   "question": "\"Soflik bog'i\" muallifi kim?",
+   "options": [
+    "Hofizi Abru",
+    "Yazdiy",
+    "Mirxond",
+    "Shomiy"
+   ],
+   "correct_index": 2,
+   "page": 134
+  },
+  {
+   "question": "Nemis olimi Dagen Hort 1913-yilda nima chop ettirgan?",
+   "options": [
+    "Xarita",
+    "Qomus",
+    "Roman",
+    "Temur va temuriylar haqidagi asarlar bibliografiyasini"
+   ],
+   "correct_index": 3,
+   "page": 134
+  },
+  {
+   "question": "\"Amir Temur\" ordeni qaysi yili ta'sis etilgan?",
+   "options": [
+    "1991-yilda",
+    "2000-yilda",
+    "2014-yilda",
+    "1996-yil 26-aprelda"
+   ],
+   "correct_index": 3,
+   "page": 135
+  },
+  {
+   "question": "Xalqaro Amir Temur jamg'armasi qaysi yili tashkil qilindi?",
+   "options": [
+    "1995-yilda",
+    "1991-yilda",
+    "1996-yilda",
+    "2000-yilda"
+   ],
+   "correct_index": 0,
+   "page": 135
+  },
+  {
+   "question": "Temuriylar tarixi davlat muzeyi qaysi yili barpo etildi?",
+   "options": [
+    "1991-yilda",
+    "2000-yilda",
+    "1996-yilda",
+    "1980-yilda"
+   ],
+   "correct_index": 2,
+   "page": 135
+  },
+  {
+   "question": "Sohibqiron tavalludining 660 yilligi qaysi yilda nishonlandi?",
+   "options": [
+    "1991-yilda",
+    "2000-yilda",
+    "2005-yilda",
+    "1996-yilda"
+   ],
+   "correct_index": 3,
+   "page": 135
+  },
+  {
+   "question": "Termiz shahri \"Amir Temur\" ordeni bilan qachon taqdirlandi?",
+   "options": [
+    "2014-yil 22-avgustda",
+    "1996-yilda",
+    "2000-yilda",
+    "1991-yilda"
+   ],
+   "correct_index": 0,
+   "page": 135
+  },
+  {
+   "question": "Samarqand va Shahrisabz ordenni qachon oldi?",
+   "options": [
+    "1991-yilda",
+    "1996-yil oktyabrda",
+    "2014-yilda",
+    "2000-yilda"
+   ],
+   "correct_index": 1,
+   "page": 135
+  },
+  {
+   "question": "Hendel qaysi yili \"Temur\" operasini yaratdi?",
+   "options": [
+    "1724-yilda",
+    "1424-yilda",
+    "1996-yilda",
+    "1913-yilda"
+   ],
+   "correct_index": 0,
+   "page": 136
+  },
+  {
+   "question": "Opera libretto muallifi kim?",
+   "options": [
+    "Hendel",
+    "Mozart",
+    "Nikolo Franchesko Haym",
+    "Bax"
+   ],
+   "correct_index": 2,
+   "page": 136
+  },
+  {
+   "question": "Rossiya tarixchilari Temurning To'xtamishni yengishi uchun nimani ta'kidlaydi?",
+   "options": [
+    "Rus knyazliklari birlashuvi uchun ahamiyatini",
+    "Savdoni yopganini",
+    "Dinni almashtirganini",
+    "Poytaxtni ko'chirganini"
+   ],
+   "correct_index": 0,
+   "page": 136
+  },
+  {
+   "question": "Ioann Grinlo kimning elchisi edi?",
+   "options": [
+    "Genrix III ning",
+    "Rim papasi va Fransiya qiroli Karl VI ning",
+    "Ispaniya qirolining",
+    "Xitoy imperatorining"
+   ],
+   "correct_index": 1,
+   "page": 133
   },
   {
    "question": "Luvr muzeyining Sharq kolleksiyasi nechta zalni egallagan?",
@@ -261,6 +525,72 @@
    ],
    "correct_index": 2,
    "page": 132
+  },
+  {
+   "question": "Temur nimani buyurgan: obod qilingan yerdan birinchi yili qanday soliq olinsin?",
+   "options": [
+    "Hosilning yarmi",
+    "Hech narsa olinmasin",
+    "Xiroj",
+    "Boj"
+   ],
+   "correct_index": 1,
+   "page": 137
+  },
+  {
+   "question": "Obod qilingan yerdan xiroj qaysi yildan yig'iladi?",
+   "options": [
+    "Birinchi yildan",
+    "Uchinchi yildan",
+    "Ikkinchi yildan",
+    "Beshinchi yildan"
+   ],
+   "correct_index": 1,
+   "page": 137
+  },
+  {
+   "question": "Temur har bir shaharda nimalar qurishni buyurgan?",
+   "options": [
+    "Qal'a",
+    "Zavod",
+    "Masjid, madrasa, xonaqoh, hammom",
+    "Kemalar"
+   ],
+   "correct_index": 2,
+   "page": 137
+  },
+  {
+   "question": "Zarafshon vodiysida nima kengaytirildi?",
+   "options": [
+    "Qal'alar",
+    "Yo'llar faqat",
+    "Sug'orish tarmoqlari va dehqonchilik maydonlari",
+    "Bozorlar"
+   ],
+   "correct_index": 2,
+   "page": 137
+  },
+  {
+   "question": "Eski Anhor kanali nima sharafiga qurilgan?",
+   "options": [
+    "To'xtamish ustidan",
+    "Hindiston g'alabasi",
+    "Boyazid ustidan g'alaba sharafiga",
+    "Xitoy g'alabasi"
+   ],
+   "correct_index": 2,
+   "page": 137
+  },
+  {
+   "question": "Murg'ob vodiysida nechta kanal qazdirildi?",
+   "options": [
+    "2 ta",
+    "20 ta",
+    "200 ta",
+    "5 ta"
+   ],
+   "correct_index": 1,
+   "page": 137
   }
  ]
 }

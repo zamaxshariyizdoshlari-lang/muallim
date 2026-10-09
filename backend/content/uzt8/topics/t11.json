@@ -424,6 +424,611 @@
    ],
    "correct_index": 1,
    "page": 109
+  },
+  {
+   "question": "Temur XIV asrning 70-yillari boshida nimani boshladi?",
+   "options": [
+    "Hindistonga yurishni",
+    "Rusga yurishni",
+    "Savdoni",
+    "Movarounnahrni birlashtirish siyosatini"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "Temur qaysi daryolar oralig'ini bo'ysundirdi?",
+   "options": [
+    "Nil va Gang",
+    "Volga va Don",
+    "Amudaryo va Sirdaryo",
+    "Dajla va Frot"
+   ],
+   "correct_index": 2,
+   "page": 94
+  },
+  {
+   "question": "Temur Sharqiy Turkistonga necha marta yurish qildi?",
+   "options": [
+    "Bir marta",
+    "Bir necha marta",
+    "Hech qachon",
+    "Yuz marta"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Temur Mo'g'ulistonga yurishlardan maqsadi nima edi?",
+   "options": [
+    "Qul olish",
+    "Yer olish faqat",
+    "Din tarqatish",
+    "Chegaralarni hujumlardan himoya qilish"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "1376-yilda Farg'ona hokimi etib kim tayinlandi?",
+   "options": [
+    "Mironshoh",
+    "Mirzo Umarshayx Bahodir",
+    "Shohrux",
+    "Jahongir"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Oltin O'rda tarkibiga nima kirgan?",
+   "options": [
+    "Eron",
+    "Hindiston",
+    "Misr",
+    "Xorazmning shimoliy qismi, Shimoliy Kavkaz, Qrim"
+   ],
+   "correct_index": 3,
+   "page": 95
+  },
+  {
+   "question": "Oq O'rdaga kimlar kirgan?",
+   "options": [
+    "Dunay bo'yi",
+    "Volga quyi",
+    "Sirdaryoning quyi oqimi yerlari",
+    "Xorazm janubi"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Mo'g'ul xonlari qish kelganda qayerga hujum qilgan?",
+   "options": [
+    "Eronga",
+    "Xitoyga",
+    "Hindistonga",
+    "Sirdaryo bo'ylari va Farg'ona vodiysiga"
+   ],
+   "correct_index": 3,
+   "page": 95
+  },
+  {
+   "question": "Mo'g'uliston xoni sifatida Temur kimni tayinladi?",
+   "options": [
+    "Ilyosxo'jani",
+    "Suyurg'atmishni",
+    "Xizrxo'jani",
+    "Tug'luq Temurni"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Temur garov sifatida kimni olib qaytdi?",
+   "options": [
+    "Sham'i Jahonni (Xizrxo'ja o'g'li)",
+    "Xizrxo'jani",
+    "Ilyosni",
+    "Husaynni"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Xorazm mo'g'ullar davrida qanday bo'lingan?",
+   "options": [
+    "Shimoliy (Urganch) va janubiy (Kat markazli) qismlarga",
+    "Uch qismga",
+    "Bir butun",
+    "Besh qismga"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Shimoliy Xorazm qaysi ulus tarkibida edi?",
+   "options": [
+    "Jo'chi ulusi",
+    "Chig'atoy",
+    "Hulakuyli",
+    "Yuan"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Janubiy Xorazm qaysi ulus tarkibida edi?",
+   "options": [
+    "Jo'chi ulusi",
+    "Yuan",
+    "Chig'atoy ulusi",
+    "Hulakuyli"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Temur Xorazmga nechta yurish qildi (1388-yilgacha)?",
+   "options": [
+    "Bir marta",
+    "Besh marta",
+    "Uch marta",
+    "O'n marta"
+   ],
+   "correct_index": 1,
+   "page": 96
+  },
+  {
+   "question": "Xorazm hukmdori Yusuf So'fi nima qildi?",
+   "options": [
+    "Taslim bo'ldi",
+    "Temurga yordam berdi",
+    "Yarash shartlarini buzib Katni bosib oldi",
+    "Qochdi"
+   ],
+   "correct_index": 2,
+   "page": 96
+  },
+  {
+   "question": "Beshinchi yurishda Xorazmni kim boshqarardi?",
+   "options": [
+    "Yusuf So'fi",
+    "Husayn So'fi",
+    "Umar So'fi",
+    "Sulaymon So'fi"
+   ],
+   "correct_index": 3,
+   "page": 96
+  },
+  {
+   "question": "Sulaymon So'fi kim bilan birlashib hujum uyushtirdi?",
+   "options": [
+    "Husayn bilan",
+    "Boyazid bilan",
+    "To'xtamishxon bilan",
+    "Faraj bilan"
+   ],
+   "correct_index": 2,
+   "page": 96
+  },
+  {
+   "question": "Xorazm bo'ysundirilgach nima qilindi?",
+   "options": [
+    "Qal'a buzildi",
+    "Soliq bekor qilindi",
+    "Temur nomiga xutba o'qilib, tanga zarb etildi",
+    "Taxt berildi"
+   ],
+   "correct_index": 2,
+   "page": 96
+  },
+  {
+   "question": "Temur Xurosonga 1380-yilda kimni elchi qilib yubordi?",
+   "options": [
+    "Hoji Sayfiddinni",
+    "Mironshohni",
+    "Sheroziyni",
+    "Ulug'bekni"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Xuroson hukmdori kim edi?",
+   "options": [
+    "Malik G'iyosiddin Pir Ali",
+    "Yusuf So'fi",
+    "Sulaymon So'fi",
+    "Qora Yusuf"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Mironshoh qancha askar bilan Balxga yuborildi?",
+   "options": [
+    "2,5 ming",
+    "250 ming",
+    "25 ming",
+    "10 ming"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Temur Xurosonga 1381-yil qaysi oyda yo'l oldi?",
+   "options": [
+    "Mart oyida",
+    "Fevral oyida",
+    "Iyun oyida",
+    "Oktyabr oyida"
+   ],
+   "correct_index": 1,
+   "page": 97
+  },
+  {
+   "question": "Hirot hukmdori kalitlarni kimga topshirdi?",
+   "options": [
+    "Amir Temurga",
+    "Husaynga",
+    "Boyazidga",
+    "To'xtamishga"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Temur asirga olingan nechta kishini ozod qildi?",
+   "options": [
+    "20 nafarni",
+    "200 nafarni",
+    "2000 nafarni",
+    "20000 nafarni"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Temurning yurishlari \"uch yillik\" qaysi yillarda?",
+   "options": [
+    "1392-1396",
+    "1399-1405",
+    "1386-1388",
+    "1380-1383"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "\"Besh yillik\" yurish qaysi yillarda?",
+   "options": [
+    "1386-1388",
+    "1399-1405",
+    "1370-1375",
+    "1392-1396"
+   ],
+   "correct_index": 3,
+   "page": 97
+  },
+  {
+   "question": "\"Yetti yillik\" yurish qaysi yillarda?",
+   "options": [
+    "1386-1388",
+    "1392-1396",
+    "1375-1380",
+    "1399-1405"
+   ],
+   "correct_index": 3,
+   "page": 97
+  },
+  {
+   "question": "Kavkazda qaysi qal'alar egallandi?",
+   "options": [
+    "Tiflis, Arzirum, Van",
+    "Bag'dod",
+    "Damashq",
+    "Qohira"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Muzaffariylar mulklari qaysi yili taqsimlandi?",
+   "options": [
+    "1380-yilda",
+    "1392-yilda",
+    "1388-yilda",
+    "1399-yilda"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Temur Mordin qal'asi qamalini nega to'xtatdi?",
+   "options": [
+    "Qish kelgani uchun",
+    "Shohrux xonadonida o'g'il tug'ilgani xushxabari tufayli",
+    "Xazina tugaganidan",
+    "Ochlikdan"
+   ],
+   "correct_index": 1,
+   "page": 98
+  },
+  {
+   "question": "Shohruxning o'g'li kim edi?",
+   "options": [
+    "Muhammad Tarag'ay (Ulug'bek)",
+    "Mironshoh",
+    "Jahongir",
+    "Umarshayx"
+   ],
+   "correct_index": 0,
+   "page": 98
+  },
+  {
+   "question": "To'xtamishxon Samarqandga nima uchun qochib kelgan?",
+   "options": [
+    "Savdo uchun",
+    "Ta'lim uchun",
+    "Din uchun",
+    "O'rusxon o'limga mahkum qilgani uchun"
+   ],
+   "correct_index": 3,
+   "page": 101
+  },
+  {
+   "question": "To'xtamish qaysi yilda Ozarbayjonni egallamoqchi bo'ldi?",
+   "options": [
+    "1376-yilda",
+    "1395-yilda",
+    "1385-yilda",
+    "1402-yilda"
+   ],
+   "correct_index": 2,
+   "page": 101
+  },
+  {
+   "question": "Bitiktosh (Ulug'tog') qaysi yilda tayyorlangan?",
+   "options": [
+    "1395-yilda",
+    "1402-yilda",
+    "1391-yilda",
+    "1380-yilda"
+   ],
+   "correct_index": 2,
+   "page": 102
+  },
+  {
+   "question": "Bitiktosh hozir qayerda saqlanadi?",
+   "options": [
+    "Sankt-Peterburgdagi Ermitajda",
+    "Samarqandda",
+    "Londonda",
+    "Parijda"
+   ],
+   "correct_index": 0,
+   "page": 102
+  },
+  {
+   "question": "Terek jangi qaysi yili bo'lgan?",
+   "options": [
+    "1391-yilda",
+    "1389-yilda",
+    "1402-yilda",
+    "1395-yilda"
+   ],
+   "correct_index": 3,
+   "page": 103
+  },
+  {
+   "question": "To'xtamish qancha qo'shin bilan chiqdi?",
+   "options": [
+    "400 mingga yaqin",
+    "40 ming",
+    "4 ming",
+    "4 million"
+   ],
+   "correct_index": 0,
+   "page": 103
+  },
+  {
+   "question": "Terek jangida ayollarga nima buyurildi?",
+   "options": [
+    "Qochishni",
+    "Yashirinishni",
+    "Ovqat pishirishni",
+    "Dubulg'a kiyib jangchilar o'rnini egallashni"
+   ],
+   "correct_index": 3,
+   "page": 104
+  },
+  {
+   "question": "Temur Oltin O'rdani ta'qib qilib qayerlargacha bordi?",
+   "options": [
+    "Ryazan, Yelets, Azov",
+    "Moskva, Kiyev",
+    "Varshava",
+    "Parij"
+   ],
+   "correct_index": 0,
+   "page": 103
+  },
+  {
+   "question": "Temur Hindistonga qaysi yilda yurish qildi?",
+   "options": [
+    "1389-yilda",
+    "1395-yilda",
+    "1398-yilda",
+    "1402-yilda"
+   ],
+   "correct_index": 2,
+   "page": 104
+  },
+  {
+   "question": "Hindistonga yurishda qancha askar bilan chiqdi?",
+   "options": [
+    "9 ming",
+    "92 ming",
+    "920 ming",
+    "30 ming"
+   ],
+   "correct_index": 1,
+   "page": 104
+  },
+  {
+   "question": "Temur Hindistonda qaysi shaharlarni egalladi?",
+   "options": [
+    "Bombay",
+    "Kobul, Mo'lton, Dehli",
+    "Kalkutta",
+    "Madras"
+   ],
+   "correct_index": 1,
+   "page": 104
+  },
+  {
+   "question": "Temur Hindiston yurishi vaqtida nima va'da qilgan?",
+   "options": [
+    "Shahar qurdiraman",
+    "Soliq kechaman",
+    "Taxtdan voz kechaman",
+    "Qaytsam jome masjidi qurdiraman"
+   ],
+   "correct_index": 3,
+   "page": 105
+  },
+  {
+   "question": "Masjid qurilishi uchun Hindistondan nechta fil keltirildi?",
+   "options": [
+    "95 ta",
+    "9 ta",
+    "195 ta",
+    "20 ta"
+   ],
+   "correct_index": 0,
+   "page": 105
+  },
+  {
+   "question": "Masjid qurilishida nechta toshtarosh usta ishladi?",
+   "options": [
+    "Yigirma",
+    "Ikki ming",
+    "Ikki yuz",
+    "O'n"
+   ],
+   "correct_index": 2,
+   "page": 105
+  },
+  {
+   "question": "Hindiston yurishi necha oy davom etdi?",
+   "options": [
+    "Bir oy",
+    "O'n bir oy",
+    "Bir yil",
+    "Besh oy"
+   ],
+   "correct_index": 1,
+   "page": 105
+  },
+  {
+   "question": "Boyazid Yildirim qaysi jangda Yevropa qo'shinini yengdi?",
+   "options": [
+    "Kosovoda",
+    "1396-yil Nikopol jangida",
+    "Anqarada",
+    "Mantsikertda"
+   ],
+   "correct_index": 1,
+   "page": 106
+  },
+  {
+   "question": "Boyazidga \"Yildirim\" laqabi nega berilgan?",
+   "options": [
+    "Chaqmoq tushgani uchun",
+    "Tez yurgani uchun",
+    "Urushlarda tezkorlik bilan g'alaba qozonganidan",
+    "Zirh kiygani uchun"
+   ],
+   "correct_index": 2,
+   "page": 106
+  },
+  {
+   "question": "Anqara jangi qaysi sanada bo'lgan?",
+   "options": [
+    "1395-yil 15-aprel",
+    "1402-yil 20-iyul",
+    "1398-yil 10-may",
+    "1405-yil 18-fevral"
+   ],
+   "correct_index": 1,
+   "page": 107
+  },
+  {
+   "question": "Anqarada Temur nimani qo'lladi?",
+   "options": [
+    "Dengiz hujumi",
+    "Chalg'itish usulini - Muhammad Sultonga tepalikni zabt etishni topshirdi",
+    "Zaharlash",
+    "Qamal"
+   ],
+   "correct_index": 1,
+   "page": 107
+  },
+  {
+   "question": "Boyazid asirga olinganda Temur nima qildi?",
+   "options": [
+    "Qatl qildi",
+    "Kishanlarini bo'shattirib, hurmat bilan muomala qildi",
+    "Zindonga soldi",
+    "Mensimadi"
+   ],
+   "correct_index": 1,
+   "page": 107
+  },
+  {
+   "question": "Temur Xitoyga yurishni qaysi sanada boshladi?",
+   "options": [
+    "1405-yil fevralda",
+    "1402-yil iyulda",
+    "1404-yil 27-noyabrda",
+    "1399-yilda"
+   ],
+   "correct_index": 2,
+   "page": 109
+  },
+  {
+   "question": "Xitoy yurishida qancha qo'shin bor edi?",
+   "options": [
+    "200 ming",
+    "20 ming",
+    "2 ming",
+    "500 ming"
+   ],
+   "correct_index": 0,
+   "page": 109
+  },
+  {
+   "question": "Muhammad Sulton qayerda vafot etgan edi?",
+   "options": [
+    "Samarqandda",
+    "Keshda",
+    "Qorabog'da",
+    "Balxda"
+   ],
+   "correct_index": 2,
+   "page": 110
+  },
+  {
+   "question": "Muhammad Sulton qayerga dafn etildi?",
+   "options": [
+    "Samarqandda Temur maqbarasiga (Go'ri Amir)",
+    "Keshda",
+    "Balxda",
+    "Hirotda"
+   ],
+   "correct_index": 0,
+   "page": 110
   }
  ]
 }

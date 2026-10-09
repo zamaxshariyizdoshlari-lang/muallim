@@ -142,6 +142,149 @@
  ],
  "exam_bank": [
   {
+   "question": "1409-yilda Xalil Sultonni qaerda amir Xudoydot yengdi?",
+   "options": [
+    "Samarqand yaqinidagi Sheroz qishlog'ida",
+    "Keshda",
+    "Balxda",
+    "Termizda"
+   ],
+   "correct_index": 0,
+   "page": 147
+  },
+  {
+   "question": "Xalil Sulton nimadan voz kechdi?",
+   "options": [
+    "Hayotdan",
+    "Vatanidan",
+    "Dinidan",
+    "Movarounnahr hokimiyati da'vosidan"
+   ],
+   "correct_index": 3,
+   "page": 147
+  },
+  {
+   "question": "Shohrux qaysi hududlarda hokimiyatini mustahkamladi?",
+   "options": [
+    "Mozandaron, Mashhad, Seyiston, Kirmon",
+    "Misr",
+    "Hindiston",
+    "Rus"
+   ],
+   "correct_index": 0,
+   "page": 147
+  },
+  {
+   "question": "Shohrux Xuroson hokimi qaysi yili bo'ldi?",
+   "options": [
+    "1405-yilda",
+    "1409-yilda",
+    "1397-yilda",
+    "1447-yilda"
+   ],
+   "correct_index": 2,
+   "page": 148
+  },
+  {
+   "question": "Shohrux Xitoyga elchilarni qaysi yili jo'natdi?",
+   "options": [
+    "1397-yilda",
+    "1412-yilda",
+    "1447-yilda",
+    "1419-yilda"
+   ],
+   "correct_index": 3,
+   "page": 148
+  },
+  {
+   "question": "Shohrux elchilari Hirotga qaysi yili qaytdi?",
+   "options": [
+    "1419-yilda",
+    "1430-yilda",
+    "1447-yilda",
+    "1422-yilda"
+   ],
+   "correct_index": 3,
+   "page": 148
+  },
+  {
+   "question": "1412-1430-yillarda Xitoy bilan nechta elchilik almashuvi bo'ldi?",
+   "options": [
+    "Besh marta",
+    "Ikki marta",
+    "Yigirma marta",
+    "Bir marta"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
+   "question": "Shohrux qaysi davlatlar bilan diplomatik aloqalar o'rnatdi?",
+   "options": [
+    "Xitoy, Hindiston, Misr, Usmoniylar",
+    "Rus, Polsha",
+    "Fransiya, Angliya",
+    "Yaponiya, Koreya"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
+   "question": "Shohrux qaysi yilgacha katta hududni boshqardi?",
+   "options": [
+    "1405-yilgacha",
+    "1409-yilgacha",
+    "1447-yilgacha",
+    "1397-yilgacha"
+   ],
+   "correct_index": 2,
+   "page": 148
+  },
+  {
+   "question": "Hindistonga Shohrux elchisi kim bo'lib bordi?",
+   "options": [
+    "Shohrux a'yoni - diplomat va tarixchi",
+    "Xalil Sulton",
+    "Ulug'bek",
+    "Mironshoh"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
+   "question": "Dehli sultonligi, Kalikut, Vijayanagar kim bilan aloqa o'rnatdi?",
+   "options": [
+    "Usmoniylar bilan",
+    "Rus bilan",
+    "Mo'g'ullar bilan",
+    "Shohrux davlati bilan"
+   ],
+   "correct_index": 3,
+   "page": 148
+  },
+  {
+   "question": "Mamluklar davlati qaerda hukmronlik qilgan?",
+   "options": [
+    "Hindistonda",
+    "Eronda",
+    "Misr va Suriyada",
+    "Xitoyda"
+   ],
+   "correct_index": 2,
+   "page": 148
+  },
+  {
+   "question": "1444-1445-yillarda Shayx Nuriddin Murshidiy qayerga borgan?",
+   "options": [
+    "Elchilik bilan chet elga",
+    "Qal'aga",
+    "Qishloqqa",
+    "Uyiga"
+   ],
+   "correct_index": 0,
+   "page": 148
+  },
+  {
    "question": "Pirmuhammad qaysi hudud hokimi edi?",
    "options": [
     "Samarqand",
@@ -186,17 +329,6 @@
    "page": 147
   },
   {
-   "question": "Shohrux Xitoyga elchilarni qaysi yili jo'natdi?",
-   "options": [
-    "1405-yilda",
-    "1447-yilda",
-    "1370-yilda",
-    "1419-yilda"
-   ],
-   "correct_index": 3,
-   "page": 148
-  },
-  {
    "question": "Shohrux Hindistondagi qaysi sultonlik bilan munosabat o'rnatdi?",
    "options": [
     "Dehli sultonligi bilan",
@@ -228,6 +360,83 @@
    ],
    "correct_index": 0,
    "page": 146
+  },
+  {
+   "question": "Ulug'bek qaysi yillarda yashagan?",
+   "options": [
+    "1336-1405",
+    "1438-1506",
+    "1394-1449",
+    "1441-1501"
+   ],
+   "correct_index": 2,
+   "page": 149
+  },
+  {
+   "question": "Shohrux 1409-yilda Ulug'bekni nechchi yoshida Movarounnahr hokimi qildi?",
+   "options": [
+    "25 yoshida",
+    "40 yoshida",
+    "10 yoshida",
+    "15 yoshida"
+   ],
+   "correct_index": 3,
+   "page": 149
+  },
+  {
+   "question": "Ulug'bek hokimiyati dastlab qaysi viloyatlar bilan cheklanardi?",
+   "options": [
+    "Hirot, Balx",
+    "Misr, Suriya",
+    "Hindiston, Xitoy",
+    "Samarqand, Buxoro, Nasaf"
+   ],
+   "correct_index": 3,
+   "page": 149
+  },
+  {
+   "question": "Ulug'bek Mo'g'ulistonga qaysi yili yurish qildi?",
+   "options": [
+    "1409-yilda",
+    "1428-yilda",
+    "1425-yilning erta bahorida",
+    "1447-yilda"
+   ],
+   "correct_index": 2,
+   "page": 149
+  },
+  {
+   "question": "Issiqko'l yaqinidagi to'qnashuvda kim g'alaba qozondi?",
+   "options": [
+    "Ulug'bek",
+    "Mo'g'ullar",
+    "Shohrux",
+    "Abdullatif"
+   ],
+   "correct_index": 0,
+   "page": 149
+  },
+  {
+   "question": "O'ljalar orasida nima bor edi?",
+   "options": [
+    "Oltin",
+    "Fil",
+    "Ikki bo'lak nefrit tosh",
+    "Kitoblar"
+   ],
+   "correct_index": 2,
+   "page": 149
+  },
+  {
+   "question": "Nefritdan nima yasatilgan?",
+   "options": [
+    "Amir Temur maqbarasi uchun qabrtosh",
+    "Taxt",
+    "Qilich",
+    "Idish"
+   ],
+   "correct_index": 0,
+   "page": 149
   }
  ]
 }

@@ -164,6 +164,204 @@
  ],
  "exam_bank": [
   {
+   "question": "Samarqand Temur davrida nechta gektarlik hisor bilan o'ralgan edi?",
+   "options": [
+    "50 gektar",
+    "5000 gektar",
+    "5 gektar",
+    "500 gektar"
+   ],
+   "correct_index": 3,
+   "page": 173
+  },
+  {
+   "question": "Samarqand hisori qaysi yili qurildi (devor va xandaq)?",
+   "options": [
+    "1340-yilda",
+    "1405-yilda",
+    "1371-yilda",
+    "1428-yilda"
+   ],
+   "correct_index": 2,
+   "page": 173
+  },
+  {
+   "question": "Ikki qavatli gumbazlarda nima oshdi?",
+   "options": [
+    "Poy gumbazning balandligi",
+    "Eni",
+    "Og'irligi",
+    "Rangi"
+   ],
+   "correct_index": 0,
+   "page": 173
+  },
+  {
+   "question": "Oqsaroy qurilishi qachon boshlangan?",
+   "options": [
+    "1340-yilda",
+    "1380-yil bahorida",
+    "1405-yilda",
+    "1428-yilda"
+   ],
+   "correct_index": 1,
+   "page": 174
+  },
+  {
+   "question": "Oqsaroy bezaklarida qanday yozuvlar bor?",
+   "options": [
+    "Lotin",
+    "Yunon",
+    "Kufiy, suls yozuvlari",
+    "Mixxat"
+   ],
+   "correct_index": 2,
+   "page": 174
+  },
+  {
+   "question": "Oqsaroy qaysi shaharda?",
+   "options": [
+    "Shahrisabzda (Keshda)",
+    "Samarqandda",
+    "Buxoroda",
+    "Hirotda"
+   ],
+   "correct_index": 0,
+   "page": 174
+  },
+  {
+   "question": "Oqsaroy qurilishida qaysi tosh kesuvchi usta ishtirok etgan?",
+   "options": [
+    "Kamoliddin Behzod",
+    "Mirak Naqqosh",
+    "Muhammad Yusuf Tabriziy",
+    "Xo'ja Ahmad"
+   ],
+   "correct_index": 2,
+   "page": 174
+  },
+  {
+   "question": "Oqsaroy dastlab qancha balandlikda bo'lgan?",
+   "options": [
+    "7 metr",
+    "17 metr",
+    "170 metr",
+    "70 metrdan ortiq"
+   ],
+   "correct_index": 3,
+   "page": 174
+  },
+  {
+   "question": "Hozir saqlangan qismi qancha?",
+   "options": [
+    "10 metr",
+    "70 metr",
+    "100 metr",
+    "Taxminan 38 metr"
+   ],
+   "correct_index": 3,
+   "page": 174
+  },
+  {
+   "question": "Oqsaroy peshtoq ravog'i eni qancha?",
+   "options": [
+    "2,25 metr",
+    "225 metr",
+    "12 metr",
+    "22,5 metr"
+   ],
+   "correct_index": 3,
+   "page": 175
+  },
+  {
+   "question": "Oqsaroy tomida nima qurilgan?",
+   "options": [
+    "Minora",
+    "Kichik hovuz, suv sharshara hosil qilgan",
+    "Bog'",
+    "Soat"
+   ],
+   "correct_index": 1,
+   "page": 175
+  },
+  {
+   "question": "Oqsaroy poydevorida nima ishlatilgan?",
+   "options": [
+    "Marmar",
+    "Oltin qum",
+    "Kumush",
+    "Simob"
+   ],
+   "correct_index": 1,
+   "page": 175
+  },
+  {
+   "question": "Klavixo Oqsaroyni ko'rganda uning holati qanday edi?",
+   "options": [
+    "Buzilgan",
+    "Yongan",
+    "Hali tugallanmagan edi",
+    "Yangi edi"
+   ],
+   "correct_index": 2,
+   "page": 175
+  },
+  {
+   "question": "Bibixonim jome masjidi balandligi?",
+   "options": [
+    "3 metr",
+    "300 metr",
+    "33 metr",
+    "13 metr"
+   ],
+   "correct_index": 2,
+   "page": 176
+  },
+  {
+   "question": "Temuriylar davri binolarining muhim qismi nima?",
+   "options": [
+    "Ark",
+    "Minora",
+    "Peshtoq (ayvon)",
+    "Darvoza"
+   ],
+   "correct_index": 2,
+   "page": 176
+  },
+  {
+   "question": "Gumbaz qoplamasi uchun nima ishlatilgan?",
+   "options": [
+    "Marmar",
+    "Mayolika",
+    "Yog'och",
+    "Metall"
+   ],
+   "correct_index": 1,
+   "page": 176
+  },
+  {
+   "question": "Derazalar nima bilan bezatilgan?",
+   "options": [
+    "Faqat yog'och",
+    "Teri",
+    "Rangli oynali vitrajlar va ochiq panjaralar",
+    "Hech narsa"
+   ],
+   "correct_index": 2,
+   "page": 176
+  },
+  {
+   "question": "Devor bezaklarida moarrak nima?",
+   "options": [
+    "Rasm",
+    "Gilam",
+    "Haykal",
+    "Plitkalar va marmartoshlar mozaikasi"
+   ],
+   "correct_index": 3,
+   "page": 176
+  },
+  {
    "question": "Samarqand qal'a devori bilan qaysi yili o'ralgan?",
    "options": [
     "1220-yilda",
@@ -219,17 +417,6 @@
    "page": 175
   },
   {
-   "question": "Oqsaroy tomida nima qurilgan?",
-   "options": [
-    "Minora",
-    "Kichik hovuz, suvi sharshara hosil qilgan",
-    "Bog'",
-    "Soat"
-   ],
-   "correct_index": 1,
-   "page": 175
-  },
-  {
    "question": "Bibixonim jome masjidi balandligi qancha?",
    "options": [
     "3 metr",
@@ -252,17 +439,6 @@
    "page": 176
   },
   {
-   "question": "Derazalar nima bilan bezatilgan?",
-   "options": [
-    "Faqat yog'och",
-    "Faqat teri",
-    "Rangli oynali vitrajlar va ochiq panjaralar bilan",
-    "Hech narsa"
-   ],
-   "correct_index": 2,
-   "page": 176
-  },
-  {
    "question": "Samarqand tevaragida va mahallalarda nima oqib turgan?",
    "options": [
     "Qum",
@@ -272,6 +448,83 @@
    ],
    "correct_index": 2,
    "page": 173
+  },
+  {
+   "question": "Xattotlik XV asrda kimlar homiyligida yuksaldi?",
+   "options": [
+    "Mo'g'ullar",
+    "Arablar",
+    "Saljuqiylar",
+    "Temuriylar hukmdorlari"
+   ],
+   "correct_index": 3,
+   "page": 178
+  },
+  {
+   "question": "Temur davrida mashhur xattot kim?",
+   "options": [
+    "Mavlono Shamsuddin Munshiy",
+    "Behzod",
+    "Boysung'ur",
+    "Mashhadiy"
+   ],
+   "correct_index": 0,
+   "page": 178
+  },
+  {
+   "question": "Sangtarosh va xattot kim edi?",
+   "options": [
+    "Oltun",
+    "Behzod",
+    "Mirak",
+    "Navoiy"
+   ],
+   "correct_index": 0,
+   "page": 178
+  },
+  {
+   "question": "Navoiy kutubxonasida nechta yirik san'atkor ishlagan?",
+   "options": [
+    "1 nafar",
+    "111 nafar",
+    "11 nafar",
+    "5 nafar"
+   ],
+   "correct_index": 2,
+   "page": 178
+  },
+  {
+   "question": "Mirzo Boysung'ur saroyida nechta xattot bo'lgan?",
+   "options": [
+    "4 nafar",
+    "400 nafar",
+    "14 nafar",
+    "40 nafar"
+   ],
+   "correct_index": 3,
+   "page": 178
+  },
+  {
+   "question": "Sultonali Mashhadiy qaysi yillarda yashagan?",
+   "options": [
+    "1394-1449",
+    "1455-1535",
+    "1432-1520",
+    "1441-1501"
+   ],
+   "correct_index": 2,
+   "page": 178
+  },
+  {
+   "question": "Mashhadiy qanday laqablar bilan mashhur?",
+   "options": [
+    "\"Sohibqiron\"",
+    "\"Jahongir\"",
+    "\"Qiblat ul-kuttob\" va \"Sulton ul-xattotin\"",
+    "\"Ulug'\""
+   ],
+   "correct_index": 2,
+   "page": 178
   }
  ]
 }

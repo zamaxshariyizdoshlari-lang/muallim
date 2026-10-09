@@ -201,6 +201,292 @@
  ],
  "exam_bank": [
   {
+   "question": "Chorbog' shakli qanday?",
+   "options": [
+    "Dumaloq",
+    "To'rtburchak",
+    "Uchburchak",
+    "Tartibsiz"
+   ],
+   "correct_index": 1,
+   "page": 138
+  },
+  {
+   "question": "Chorbog' har tomoni taxminan qancha?",
+   "options": [
+    "10 km",
+    "100 m",
+    "1 km",
+    "50 km"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Chorbog'larni nima to'rt qismga ajratgan?",
+   "options": [
+    "Devorlar",
+    "Yo'llar",
+    "Ariqlar",
+    "Daraxtlar"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Ov uchun mo'ljallangan bog'lar qanday saqlangan?",
+   "options": [
+    "Butunlay qurilgan",
+    "Bog'dorchilik",
+    "Asosiy qismi tabiiy holda",
+    "Dehqonchilik"
+   ],
+   "correct_index": 2,
+   "page": 138
+  },
+  {
+   "question": "Bog'i Baland kimga atab qurilgan?",
+   "options": [
+    "Saroymulkxonimga",
+    "Ulug'bekka",
+    "Shohruxga",
+    "Mironshohning qiziga"
+   ],
+   "correct_index": 3,
+   "page": 138
+  },
+  {
+   "question": "Bog'i Dilkusho Samarqanddan necha km?",
+   "options": [
+    "5 km sharqda",
+    "50 km",
+    "15 km",
+    "500 m"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Dilkusho devori uzunligi qancha edi?",
+   "options": [
+    "90 metr",
+    "900 metr (har tomoni)",
+    "9 km",
+    "9 metr"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Dilkusho saroyi necha qavatli edi?",
+   "options": [
+    "Bir qavatli",
+    "Besh qavatli",
+    "O'n qavatli",
+    "Uch qavatli"
+   ],
+   "correct_index": 3,
+   "page": 139
+  },
+  {
+   "question": "Bog'i Jahonnamo Samarqanddan necha farsax?",
+   "options": [
+    "Yetti farsax (42 km)",
+    "Bir farsax",
+    "Yigirma farsax",
+    "O'n besh farsax"
+   ],
+   "correct_index": 0,
+   "page": 139
+  },
+  {
+   "question": "Bog'i Maydon qayerda joylashgan?",
+   "options": [
+    "Sharqda",
+    "Cho'ponota tepaligi etagida",
+    "Janubda",
+    "Keshda"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Bog'i Nav qaysi yili qurildi?",
+   "options": [
+    "1370-yilda",
+    "1404-yilda",
+    "1388-yilda",
+    "1402-yilda"
+   ],
+   "correct_index": 1,
+   "page": 139
+  },
+  {
+   "question": "Temur qaysi shaharda Oqsaroyni qurdirdi?",
+   "options": [
+    "Keshda",
+    "Samarqandda",
+    "Buxoroda",
+    "Balxda"
+   ],
+   "correct_index": 0,
+   "page": 140
+  },
+  {
+   "question": "Temur Turkistonda kimning qabri ustiga maqbara qurdirdi?",
+   "options": [
+    "Beruniyning",
+    "Rumiyning",
+    "Naqshbandning",
+    "Ahmad Yassaviyning"
+   ],
+   "correct_index": 3,
+   "page": 140
+  },
+  {
+   "question": "Temur Tabrizda nima qurdirgan?",
+   "options": [
+    "Saroy",
+    "Masjid",
+    "Madrasa",
+    "Maqbara"
+   ],
+   "correct_index": 1,
+   "page": 140
+  },
+  {
+   "question": "Temur Sherozda nima qurdirgan?",
+   "options": [
+    "Masjid",
+    "Saroy",
+    "Madrasa",
+    "Maqbara"
+   ],
+   "correct_index": 1,
+   "page": 140
+  },
+  {
+   "question": "Temur Bag'dodda nima qurdirgan?",
+   "options": [
+    "Saroy",
+    "Masjid",
+    "Madrasa",
+    "Maqbara"
+   ],
+   "correct_index": 2,
+   "page": 140
+  },
+  {
+   "question": "Samarqand qaysi poydevor yaqinida qayta qurildi?",
+   "options": [
+    "Shimolroqda",
+    "Sharqda",
+    "G'arbda",
+    "Afrosiyobdan biroz janubroqda"
+   ],
+   "correct_index": 3,
+   "page": 141
+  },
+  {
+   "question": "Samarqand devorida nechta darvoza bo'lgan?",
+   "options": [
+    "Ikkita",
+    "Oltita",
+    "O'nta",
+    "Uchta"
+   ],
+   "correct_index": 1,
+   "page": 141
+  },
+  {
+   "question": "Samarqand darvozalaridan biri qaysi?",
+   "options": [
+    "Qora",
+    "Oq",
+    "Ohanin",
+    "Sariq"
+   ],
+   "correct_index": 2,
+   "page": 141
+  },
+  {
+   "question": "Temur saroyi Ko'ksaroy qayerda edi?",
+   "options": [
+    "Keshda",
+    "Buxoroda",
+    "Hirotda",
+    "Samarqandda"
+   ],
+   "correct_index": 3,
+   "page": 141
+  },
+  {
+   "question": "Boburnomada Temur haqida nima yozilgan?",
+   "options": [
+    "Kesh poytaxt bo'lgan",
+    "Hirot poytaxt",
+    "Temurbekdek ulug' podshoh Samarqandni poytaxt qilmagan",
+    "Balx poytaxt"
+   ],
+   "correct_index": 2,
+   "page": 141
+  },
+  {
+   "question": "Temur chet ellardan hunarmand oldi, ular soni?",
+   "options": [
+    "O'nta",
+    "Mingga yaqin",
+    "Yuztacha",
+    "Ikki ming"
+   ],
+   "correct_index": 1,
+   "page": 143
+  },
+  {
+   "question": "Suriyadan qaysi ustalar keltirilgan?",
+   "options": [
+    "Pillachilar, tikuvchilar, to'quvchilar, sangtaroshlar",
+    "Musavvirlar",
+    "Qurolsozlar faqat",
+    "Zargarlar"
+   ],
+   "correct_index": 0,
+   "page": 143
+  },
+  {
+   "question": "Erondan qaysi ustalar keltirilgan?",
+   "options": [
+    "Pillachi",
+    "To'pchi",
+    "Qurolsoz",
+    "Musavvir, xattot, sozanda, me'mor"
+   ],
+   "correct_index": 3,
+   "page": 143
+  },
+  {
+   "question": "\"Sultoniy qog'oz\" nima?",
+   "options": [
+    "Qimmat chinni",
+    "Gilam",
+    "Qurol",
+    "Oliy navli qog'oz"
+   ],
+   "correct_index": 3,
+   "page": 144
+  },
+  {
+   "question": "Hunarmandchilikning qurilishga ixtisoslashgan turi?",
+   "options": [
+    "Binokorlik, naqqoshlik, sangtaroshlik, ganch o'ymakorligi",
+    "Kulolchilik",
+    "Zardo'zlik",
+    "Sovungarlik"
+   ],
+   "correct_index": 0,
+   "page": 145
+  },
+  {
    "question": "Eski Anhor kanali qaysi viloyatda?",
    "options": [
     "Xorazmda",
@@ -309,6 +595,72 @@
    ],
    "correct_index": 3,
    "page": 145
+  },
+  {
+   "question": "Temur 1405-yil 18-fevralda qayerda vafot etdi?",
+   "options": [
+    "Samarqandda",
+    "Keshda",
+    "O'tror shahrida",
+    "Hirotda"
+   ],
+   "correct_index": 2,
+   "page": 146
+  },
+  {
+   "question": "Temur vafotidan oldin kimni voris deb vasiyat qildi?",
+   "options": [
+    "Shohruxni",
+    "Xalil Sultonni",
+    "Nabirasi Pirmuhammad Jahongirni",
+    "Ulug'bekni"
+   ],
+   "correct_index": 2,
+   "page": 146
+  },
+  {
+   "question": "Davlat parokandaligini nima kuchaytirdi?",
+   "options": [
+    "Mamlakatni o'g'il-nabiralarga bo'lib berish, suyurg'ol tartibi",
+    "Savdo",
+    "Din",
+    "Dengiz"
+   ],
+   "correct_index": 0,
+   "page": 146
+  },
+  {
+   "question": "Pirmuhammad qaysi hududlar hokimi edi?",
+   "options": [
+    "G'azna, Kobul, Shimoliy Hind",
+    "Samarqand",
+    "Xuroson",
+    "Eron"
+   ],
+   "correct_index": 0,
+   "page": 146
+  },
+  {
+   "question": "Xalil Sulton Samarqandni qaysi sanada egalladi?",
+   "options": [
+    "1405-yil 18-fevral",
+    "1409-yil bahor",
+    "1397-yil",
+    "1405-yil 18-mart"
+   ],
+   "correct_index": 3,
+   "page": 146
+  },
+  {
+   "question": "Xalil Sulton kimning o'g'li edi?",
+   "options": [
+    "Shohruxning",
+    "Mironshohning",
+    "Umarshaxning",
+    "Jahongirning"
+   ],
+   "correct_index": 1,
+   "page": 146
   }
  ]
 }

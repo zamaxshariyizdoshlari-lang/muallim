@@ -312,6 +312,380 @@
    ],
    "correct_index": 1,
    "page": 93
+  },
+  {
+   "question": "Konigil voqeasidan so'ng Movarounnahrda kimning hukmronligi o'rnatildi?",
+   "options": [
+    "Amir Temurning",
+    "Amir Husaynning",
+    "Tug'luq Temurning",
+    "Qazag'onning"
+   ],
+   "correct_index": 1,
+   "page": 87
+  },
+  {
+   "question": "Husayn Temurni kim sifatida ko'ra boshladi?",
+   "options": [
+    "Ittifoqchi",
+    "Vazir",
+    "Asosiy raqobatchi",
+    "Do'st"
+   ],
+   "correct_index": 2,
+   "page": 87
+  },
+  {
+   "question": "Husayn mamlakat amiri bo'lgach nima qildi?",
+   "options": [
+    "Harbiylar va amaldorlarga katta soliq soldi",
+    "Soliqni kamaytirdi",
+    "Qo'shinni tarqatdi",
+    "Sarbadorlarni qo'llab-quvvatladi"
+   ],
+   "correct_index": 0,
+   "page": 87
+  },
+  {
+   "question": "O'ljoy Turkon qaysi yili vafot etdi?",
+   "options": [
+    "1360-yilda",
+    "1366-yilda",
+    "1370-yilda",
+    "1365-yilda"
+   ],
+   "correct_index": 1,
+   "page": 88
+  },
+  {
+   "question": "O'ljoy Turkonning vafoti nimaga olib keldi?",
+   "options": [
+    "Ittifoqga",
+    "Urushning tugashiga",
+    "Ikki amir o'rtasidagi so'nggi rishta uzilishiga",
+    "Taxt almashuviga"
+   ],
+   "correct_index": 2,
+   "page": 88
+  },
+  {
+   "question": "Temur o'z safdoshlariga qarz to'lashda kimning taqinchoqlarini ham sarfladi?",
+   "options": [
+    "Saroymulkxonimning",
+    "Takina Xotunning",
+    "O'ljoy Turkonning",
+    "Qutlug' Turkonning"
+   ],
+   "correct_index": 2,
+   "page": 88
+  },
+  {
+   "question": "Husayn 1370-yilda qaysi hududlardan qo'shimcha kuch to'pladi?",
+   "options": [
+    "Samarqand",
+    "Buxoro",
+    "Xorazm",
+    "Balx, Qunduz, Badaxshon"
+   ],
+   "correct_index": 3,
+   "page": 88
+  },
+  {
+   "question": "Temur qaysi joyda qarorgoh qurdi (1370)?",
+   "options": [
+    "Samarqandda",
+    "Keshda",
+    "Termiz yaqinidagi Biyo degan joyda",
+    "Balxda"
+   ],
+   "correct_index": 2,
+   "page": 88
+  },
+  {
+   "question": "Temurga nog'ora va bayroq kim topshirgan?",
+   "options": [
+    "Xoja Ahror",
+    "Najmiddin Kubro",
+    "Mir Sayyid Baraka",
+    "Naqshband"
+   ],
+   "correct_index": 2,
+   "page": 88
+  },
+  {
+   "question": "Nog'ora va bayroq nimani bildirgan?",
+   "options": [
+    "Urush e'lonini",
+    "Hokimiyat va saltanat ramzlarini",
+    "Sulhni",
+    "Savdoni"
+   ],
+   "correct_index": 1,
+   "page": 88
+  },
+  {
+   "question": "Balx qamali necha kun davom etdi?",
+   "options": [
+    "Ikki kun",
+    "Bir kun",
+    "Bir hafta",
+    "Bir oy"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Husayn qayerga yashirinib olgan edi?",
+   "options": [
+    "Jome masjidi minorasiga",
+    "Qal'aga",
+    "Ark ostiga",
+    "Maqbaraga"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Husaynni kim o'ldirdi?",
+   "options": [
+    "Amir Kayxusrav (xun olish uchun)",
+    "Temur",
+    "Jaloliddin",
+    "Hoji Barlos"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Kayxusrav akasi Kayqubodning xuni uchun kimni o'ldirdi?",
+   "options": [
+    "Temurni",
+    "Qazag'onni",
+    "Ilyosni",
+    "Husaynni"
+   ],
+   "correct_index": 3,
+   "page": 89
+  },
+  {
+   "question": "Qurultoy qaroriga ko'ra Movarounnahr xoni kim bo'ldi?",
+   "options": [
+    "Ilyosxo'ja",
+    "Tug'luq Temur",
+    "Suyurg'atmish (1370-1388)",
+    "Qobilshoh"
+   ],
+   "correct_index": 2,
+   "page": 89
+  },
+  {
+   "question": "Suyurg'atmish qaysi sulolaga mansub edi?",
+   "options": [
+    "Barloslar",
+    "Chingiz avlodi",
+    "Temuriylar",
+    "Saljuqiylar"
+   ],
+   "correct_index": 1,
+   "page": 89
+  },
+  {
+   "question": "Amir Temur qaysi unvonni oldi?",
+   "options": [
+    "Movarounnahr amiri",
+    "Sulton",
+    "Xon",
+    "Shoh"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Temur Keshdan qayerga ko'chdi?",
+   "options": [
+    "Samarqandga",
+    "Balxga",
+    "Buxoroga",
+    "Hirotga"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Temur hokimiyatga kelganda necha yoshda edi?",
+   "options": [
+    "24 yoshda",
+    "34 yoshda",
+    "44 yoshda",
+    "64 yoshda"
+   ],
+   "correct_index": 1,
+   "page": 89
+  },
+  {
+   "question": "Shiburg'on hokimi kim bo'lib, ayirmachilik qildi?",
+   "options": [
+    "Hoji Barlos",
+    "Zinda Chashm",
+    "Sayfiddin",
+    "Bayon suldus"
+   ],
+   "correct_index": 1,
+   "page": 89
+  },
+  {
+   "question": "Zinda Chashmga qarshi Temur kimni jo'natdi?",
+   "options": [
+    "Joku Barlosni",
+    "Mironshohni",
+    "Shohruxni",
+    "Jahongirni"
+   ],
+   "correct_index": 0,
+   "page": 89
+  },
+  {
+   "question": "Temur Zinda Chashmga nima qildi?",
+   "options": [
+    "Qatl etdi",
+    "Surgun qildi",
+    "Zindonga soldi",
+    "Afv etdi"
+   ],
+   "correct_index": 3,
+   "page": 89
+  },
+  {
+   "question": "Temur Husayn navkarlarini afv etib nima qildi?",
+   "options": [
+    "Qatl qildi",
+    "Haydadi",
+    "Qamadi",
+    "Yana askarlik ishlariga tayinladi"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Badaxshon hokimi qaysi mavqeda edi?",
+   "options": [
+    "Qozi",
+    "Vazir",
+    "Amir ul-umaro (bosh amir)",
+    "Sarkarda"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Temur dastlabki islohotlarida nimani ta'minladi?",
+   "options": [
+    "Soliqsizlikni",
+    "Qullikni",
+    "Qonun ustuvorligini",
+    "Parokandalikni"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Temur Xorazmdan boshqa barcha yerlarni nima qildi?",
+   "options": [
+    "O'z hokimiyati ostiga birlashtirdi",
+    "Tark etdi",
+    "Sotdi",
+    "Taqsimladi"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Temur dastlabki farmonlarida nimalarni buyurgan?",
+   "options": [
+    "Qullik",
+    "Urush",
+    "Soliq oshirish",
+    "Yo'llar xavfsizligi, pochta, rabotlar, xayrxonalar"
+   ],
+   "correct_index": 3,
+   "page": 91
+  },
+  {
+   "question": "Temur kimlarga yuqori hurmat bilan qaragan?",
+   "options": [
+    "Savdogarlarga",
+    "Sayyidlar, din peshvolari, qozilar, shayxlarga",
+    "Askarlarga",
+    "Dehqonlarga"
+   ],
+   "correct_index": 1,
+   "page": 91
+  },
+  {
+   "question": "Temurning \"tuzuklari\"da qaysi so'z bor edi?",
+   "options": [
+    "Kengash bilan ish yuritish",
+    "Yakkahokimlik",
+    "Urush",
+    "Qullik"
+   ],
+   "correct_index": 0,
+   "page": 91
+  },
+  {
+   "question": "Temur davlat tizimiga qaysi davlatlar tajribasini qaytadan jonlantirdi?",
+   "options": [
+    "Rim, Vizantiya",
+    "Somoniylar, Qoraxoniylar, G'aznaviylar, Saljuqiylar, Xorazmshohlar",
+    "Arab xalifaligi",
+    "Xitoy, Hindiston"
+   ],
+   "correct_index": 1,
+   "page": 92
+  },
+  {
+   "question": "Temurga qarshi suiqasd rejasi qaysi yili tuzilgan?",
+   "options": [
+    "1372-yilda",
+    "1366-yilda",
+    "1370-yilda",
+    "1380-yilda"
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Suiqasd qayerda amalga oshirilmoqchi edi?",
+   "options": [
+    "O'tror yaqinidagi Qarosomon mavzeyida",
+    "Samarqandda",
+    "Keshda",
+    "Balxda"
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Suiqasd fosh bo'lishiga kim sabab bo'ldi?",
+   "options": [
+    "Sohibqironning xavfsizlik xizmati",
+    "Papa",
+    "Vazir",
+    "Savdogar"
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Temur kichik va zaif guruhni jazolamaslikdan nimani istagan?",
+   "options": [
+    "Katta va qudratli guruhdan ajralmaslikni",
+    "Pulni",
+    "Yerni",
+    "Shuhratni"
+   ],
+   "correct_index": 0,
+   "page": 93
   }
  ]
 }

@@ -198,6 +198,226 @@
  ],
  "exam_bank": [
   {
+   "question": "Temur saroyni necha ming askar qo'riqlagan?",
+   "options": [
+    "Ikki ming",
+    "Ikki yuz",
+    "Yigirma ming",
+    "O'n ikki ming"
+   ],
+   "correct_index": 3,
+   "page": 118
+  },
+  {
+   "question": "Har kecha necha qurolli askar soqchilik qilgan?",
+   "options": [
+    "O'n",
+    "Yuz",
+    "Ming nafar",
+    "Besh ming"
+   ],
+   "correct_index": 2,
+   "page": 118
+  },
+  {
+   "question": "Temur qo'shinini nechta qo'lga bo'lib joylashtirdi?",
+   "options": [
+    "Ikkita",
+    "Uchta",
+    "O'ntacha",
+    "Yettita"
+   ],
+   "correct_index": 3,
+   "page": 119
+  },
+  {
+   "question": "Temur birinchi bo'lib Turonga nimani olib kirdi?",
+   "options": [
+    "Manjaniq",
+    "Qilich",
+    "Kamon",
+    "Otiladigan qurol - to'p (ra'd)"
+   ],
+   "correct_index": 3,
+   "page": 119
+  },
+  {
+   "question": "Tog'li hududlar uchun qanday qism tuzdi?",
+   "options": [
+    "Fillar qismi",
+    "Piyodalardan iborat maxsus harbiy qism",
+    "Suvoriy",
+    "Dengiz floti"
+   ],
+   "correct_index": 1,
+   "page": 119
+  },
+  {
+   "question": "Tunkal nima?",
+   "options": [
+    "Soliq turi",
+    "Qurol",
+    "Qo'shin yig'ish haqidagi farmon",
+    "Unvon"
+   ],
+   "correct_index": 2,
+   "page": 120
+  },
+  {
+   "question": "Tavochi kim?",
+   "options": [
+    "Qozi",
+    "Vazir",
+    "Bosh qo'mondonning yordamchisi",
+    "Mirshab"
+   ],
+   "correct_index": 2,
+   "page": 120
+  },
+  {
+   "question": "Temur qo'shinida ayollardan tuzilgan bo'linmalar bo'lganmi?",
+   "options": [
+    "Yo'q",
+    "Faqat oshxonada",
+    "Faqat tabib",
+    "Ha, jangga kirganlar"
+   ],
+   "correct_index": 3,
+   "page": 121
+  },
+  {
+   "question": "Qo'shinda diniy-irqiy kamsitish bo'lganmi?",
+   "options": [
+    "Bo'lgan",
+    "Yo'l qo'yilmagan",
+    "Faqat ayollarga",
+    "Faqat chet elliklarga"
+   ],
+   "correct_index": 1,
+   "page": 121
+  },
+  {
+   "question": "Harbiy yurishda har 18 askar nima olishi shart edi?",
+   "options": [
+    "Bitta to'p",
+    "Bitta kema",
+    "Bitta chodir",
+    "Bitta fil"
+   ],
+   "correct_index": 2,
+   "page": 122
+  },
+  {
+   "question": "To'plar birinchi marta qachon qo'llangan?",
+   "options": [
+    "1370-yilda",
+    "1395-yilda",
+    "1402-yilda",
+    "1379-yilda Urganch qamalida"
+   ],
+   "correct_index": 3,
+   "page": 122
+  },
+  {
+   "question": "Samarqand istehkom devori necha qadam edi?",
+   "options": [
+    "1 060 qadam",
+    "106 qadam",
+    "10 600 qadam",
+    "106 000 qadam"
+   ],
+   "correct_index": 2,
+   "page": 124
+  },
+  {
+   "question": "Yangi devorning qalinligi qancha edi?",
+   "options": [
+    "45 metr",
+    "0,45 metr",
+    "4,5 metr",
+    "1 metr"
+   ],
+   "correct_index": 2,
+   "page": 124
+  },
+  {
+   "question": "Devor balandligi qalinligidan necha marta ko'p edi?",
+   "options": [
+    "Uch marta",
+    "Ikki marta",
+    "O'n marta",
+    "Bir marta"
+   ],
+   "correct_index": 0,
+   "page": 124
+  },
+  {
+   "question": "1392-yilda Temur qaysi qo'rg'onni qurdi?",
+   "options": [
+    "Dilkusho",
+    "Shohruxiya",
+    "Bog'i Nav",
+    "Oqsaroy"
+   ],
+   "correct_index": 1,
+   "page": 124
+  },
+  {
+   "question": "Qo'rxona nima?",
+   "options": [
+    "Qurol-aslaha ombori",
+    "Cherkov",
+    "Bozor",
+    "Maktab"
+   ],
+   "correct_index": 0,
+   "page": 124
+  },
+  {
+   "question": "Temur qanotlar bilan nima qildi?",
+   "options": [
+    "Dushman orqasidan zarba beruvchi qism joriy etdi",
+    "Qochish",
+    "Taslim",
+    "Hech narsa"
+   ],
+   "correct_index": 0,
+   "page": 125
+  },
+  {
+   "question": "Temur dushmanga qanday yaqinlashgan?",
+   "options": [
+    "Kunduz oshkora",
+    "Tunda yaqinlashib, tong chog'i qo'qqisdan hujum qilgan",
+    "Dengizdan",
+    "Zaharlab"
+   ],
+   "correct_index": 1,
+   "page": 125
+  },
+  {
+   "question": "Lashkargoh atrofi nima bilan o'ralgan?",
+   "options": [
+    "Tosh devor",
+    "Daryo",
+    "Hech narsa",
+    "Zanjirband aravalar, shoxlar, xandaq"
+   ],
+   "correct_index": 3,
+   "page": 125
+  },
+  {
+   "question": "Temur bir vaqtda bir necha yerga yurish haqida nima qilgan?",
+   "options": [
+    "Hammasini yashirgan",
+    "Soliq yig'gan",
+    "Ovoza tarqatib dushmanni chalg'itgan",
+    "Qochgan"
+   ],
+   "correct_index": 2,
+   "page": 126
+  },
+  {
    "question": "Temur qo'shiniga nima man qilingan edi?",
    "options": [
     "Savdo qilish",
@@ -328,6 +548,28 @@
    ],
    "correct_index": 3,
    "page": 124
+  },
+  {
+   "question": "Temur davlat boshqaruvida qaysi tamoyilga asoslangan?",
+   "options": [
+    "Zo'rlikka",
+    "Meros",
+    "Savdoga",
+    "Adolat va qonun ustuvorligiga"
+   ],
+   "correct_index": 3,
+   "page": 127
+  },
+  {
+   "question": "Temur davlati qaysi tamoyillarga amal qilgan?",
+   "options": [
+    "Federatsiya",
+    "Respublika",
+    "Siyosiy mustaqillik, yaxlitlik, qonun asosida boshqaruv",
+    "Teokratiya"
+   ],
+   "correct_index": 2,
+   "page": 127
   }
  ]
 }
