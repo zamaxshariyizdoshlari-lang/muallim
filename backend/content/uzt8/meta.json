@@ -1,0 +1,8 @@
+{
+  "book": { "key": "ozbekiston-tarixi-8", "title": "O'zbekiston tarixi (8-sinf)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "XIII-XV asrlar: Xorazmshohlar va mo'g'ullar, Chig'atoy ulusi, Amir Temur va temuriylar davri, 3 bo'lim, 24 mavzu." },
+  "sections": [
+    { "key": "s1", "title": "I BO'LIM. XIII asrda Movarounnahr va Xorazm", "topics": ["t01","t02","t03","t04","t05"] },
+    { "key": "s2", "title": "II BO'LIM. Chig'atoy ulusi", "topics": ["t06","t07","t08"] },
+    { "key": "s3", "title": "III BO'LIM. Amir Temur va temuriylar davri", "topics": ["t09","t10","t11","t12","t13","t14","t15","t16","t17","t18","t19","t20","t21","t22","t23","t24"] }
+  ]
+}
