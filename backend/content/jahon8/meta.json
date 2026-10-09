@@ -1,0 +1,8 @@
+{
+  "book": { "key": "jahon-tarixi-8", "title": "Jahon tarixi (8-sinf)", "language": "uz", "subject": "tarix", "subject_title": "Tarix", "description": "XIII-XV asrlar jahon tarixi: Yevropa davlatlari, Osiyo, Afrika va Amerika xalqlari, 3 bob, 25 mavzu." },
+  "sections": [
+    { "key": "s1", "title": "I BOB. XIII-XV asrlarda Yevropa davlatlari", "topics": ["j01","j02","j03","j04","j05","j06","j07","j08","j09","j10"] },
+    { "key": "s2", "title": "II BOB. Osiyo, Afrika va Amerika xalqlari", "topics": ["j11","j12","j13","j14","j15","j16","j17","j18"] },
+    { "key": "s3", "title": "III BOB. XIII-XV asrlarda jahon xalqlarining ijtimoiy-iqtisodiy va madaniy hayoti", "topics": ["j19","j20","j21","j22","j23","j24","j25"] }
+  ]
+}
