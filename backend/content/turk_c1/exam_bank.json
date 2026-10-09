@@ -1,0 +1,2930 @@
+{
+  "u1a": [
+    {
+      "question": "\"Yarışıyordu\" nima degani?",
+      "options": [
+        "musobaqalashsa",
+        "musobaqalashayotgan edi",
+        "musobaqalashadi",
+        "musobaqalashgan"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Başlayacaktı\" nima degani?",
+      "options": [
+        "boshlanadigan edi",
+        "boshlandi",
+        "boshlayapti",
+        "boshlanmagan"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kupa\" so'zining ma'nosi:",
+      "options": [
+        "medal",
+        "forma",
+        "stadion",
+        "kubok"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Mücadele\" nima?",
+      "options": [
+        "bayram",
+        "dam olish",
+        "mashq",
+        "kurash"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Elenmek\" nima degani?",
+      "options": [
+        "mashq qilmoq",
+        "yutmoq",
+        "saralab chiqarilmoq",
+        "qatnashmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sporcu\" kim?",
+      "options": [
+        "hakam",
+        "sportchi",
+        "murabbiy",
+        "tomoshabin"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Antrenör\" kim?",
+      "options": [
+        "murabbiy",
+        "hakam",
+        "sportchi",
+        "muxlis"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Antik oyunlarda g'oliblarga nima berilgan?",
+      "options": [
+        "pul",
+        "zaytun shoxidan toj",
+        "oltin medal",
+        "kumush kubok"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Zamonaviy olimpiyani kim qayta tikladi?",
+      "options": [
+        "Atatürk",
+        "Pierre de Coubertin",
+        "I. Theodosius",
+        "Zeus"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Olimpiya halqalari nimani bildiradi?",
+      "options": [
+        "besh g'olib",
+        "besh sport turi",
+        "besh davlat",
+        "besh qit'a"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Maç başlamıştı bile.\" gapida \"bile\" nima ma'no beradi?",
+      "options": [
+        "allaqachon",
+        "ehtimol",
+        "faqat",
+        "hech qachon"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Rivayet shakli qaysi?",
+      "options": [
+        "-mAk",
+        "-DIr",
+        "-sA",
+        "-mIş / -(I)yormuş"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u1b": [
+    {
+      "question": "\"Basketbol\" necha kishilik jamoa o'yini (maydonda)?",
+      "options": [
+        "o'n bir kishi",
+        "besh kishi",
+        "yetti kishi",
+        "ikki kishi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yüzme\" nima?",
+      "options": [
+        "tennis",
+        "yugurish",
+        "kurash",
+        "suzish"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Koşu\" nima?",
+      "options": [
+        "otish",
+        "yugurish",
+        "suzish",
+        "sakrash"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Ağırlık kaldırma\" nima?",
+      "options": [
+        "gimnastika",
+        "kamondan otish",
+        "suzish",
+        "og'ir atletika"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Daha güçlü\" nima degani?",
+      "options": [
+        "eng kuchli",
+        "kuchsiz",
+        "kuchliroq",
+        "kuchli emas"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Kadar\" nimani bildiradi?",
+      "options": [
+        "tenglik",
+        "ustunlik",
+        "maqsad",
+        "inkor"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"En az\" nima degani?",
+      "options": [
+        "ko'pi bilan emas",
+        "eng ko'p",
+        "kamida",
+        "ham"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Qaysi gap qiyos?",
+      "options": [
+        "Yüzmeyi seviyorum.",
+        "Yüzme koşudan daha eğlenceli.",
+        "Yüzmek için gidiyorum.",
+        "Yüzme eğlenceli."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Antrenman yaptıkça\" nima?",
+      "options": [
+        "mashq qilgan sari",
+        "mashq qilsa",
+        "mashq qilib",
+        "mashq qilmasdan"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Jimnastik\" nima?",
+      "options": [
+        "gimnastika",
+        "kurash",
+        "yugurish",
+        "suzish"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Hakem düdüğü çaldı.\" ma'nosi:",
+      "options": [
+        "Hakam hushtak chaldi.",
+        "Hakam ketdi.",
+        "Hakam yiqildi.",
+        "Hakam yutdi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sahaya çıkmak\" nima?",
+      "options": [
+        "uyga qaytmoq",
+        "mashq qilmoq",
+        "maydonga chiqmoq",
+        "dam olmoq"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u1c": [
+    {
+      "question": "\"Düzenli\" nima degani?",
+      "options": [
+        "muntazam",
+        "tasodifiy",
+        "kechqurun",
+        "kamdan-kam"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yorgunluk\" nima?",
+      "options": [
+        "charchoq",
+        "uyqu",
+        "ovqat",
+        "mushak"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Uyku\" nima?",
+      "options": [
+        "kasallik",
+        "uyqu",
+        "charchoq",
+        "mashq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Doktora danışmak\" nima?",
+      "options": [
+        "ovqat yemoq",
+        "yugurmoq",
+        "shifokor bilan maslahatlashmoq",
+        "dori ichmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Gitsene\" nima ma'no beradi?",
+      "options": [
+        "buyruq emas",
+        "inkor",
+        "o'tgan zamon",
+        "taklif (bor-chi)"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yürüyelim mi?\" nima?",
+      "options": [
+        "Yuraylikmi?",
+        "Yurmaymizmi?",
+        "Yurganmiz?",
+        "Yurdikmi?"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap maslahat?",
+      "options": [
+        "Daha çok su içsen iyi olur.",
+        "Su içti.",
+        "Su içiyor.",
+        "Su içmişti."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Fazla zorlamak\" nima?",
+      "options": [
+        "yengil mashq",
+        "yig'moq",
+        "ortiqcha zo'rlamoq",
+        "dam olmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Vitamin\" qaysi mahsulotda ko'p?",
+      "options": [
+        "mevada",
+        "tuzda",
+        "yog'da",
+        "shakarda"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kas\" nima?",
+      "options": [
+        "suyak",
+        "mushak",
+        "yurak",
+        "teri"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Dengeli beslenme\" nima?",
+      "options": [
+        "ko'p ovqat",
+        "muvozanatli ovqatlanish",
+        "yog'li ovqat",
+        "kam ovqat"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Dinlenmek\" nima?",
+      "options": [
+        "yugurmoq",
+        "ishlamoq",
+        "dam olmoq",
+        "o'qimoq"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u2a": [
+    {
+      "question": "\"Dönem\" nima?",
+      "options": [
+        "xat",
+        "ixtiro",
+        "davr",
+        "avlod"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Geçmiş\" nima?",
+      "options": [
+        "hozir",
+        "ertaga",
+        "kelajak",
+        "o'tmish"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Değişmek\" nima degani?",
+      "options": [
+        "yo'qolmoq",
+        "saqlamoq",
+        "boshlamoq",
+        "o'zgarmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Gelişmek\" nima degani?",
+      "options": [
+        "yo'qolmoq",
+        "to'xtamoq",
+        "rivojlanmoq",
+        "orqaga ketmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"İcat\" nima?",
+      "options": [
+        "ixtiro",
+        "xat",
+        "davr",
+        "an'ana"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Zaman değiştiği için\" nima?",
+      "options": [
+        "vaqt o'zgargani uchun",
+        "vaqt o'zgarsa",
+        "vaqt o'zgarmaguncha",
+        "vaqt o'zgarganda"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Çocuk olduğum zaman\" nima?",
+      "options": [
+        "bola bo'lganimda",
+        "bola bo'lsam",
+        "bola bo'lmasam",
+        "bola bo'laman"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap odatiy o'tgan zamonni bildiradi?",
+      "options": [
+        "Mektup yazdık.",
+        "Mektup yazıyoruz.",
+        "Mektup yazacağız.",
+        "Eskiden mektup yazardık."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Postacı\" kim?",
+      "options": [
+        "muallif",
+        "xattot",
+        "pochtachi",
+        "yozuvchi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sabırsızlıkla beklemek\" nima?",
+      "options": [
+        "qochmoq",
+        "xotirjam kutmoq",
+        "sabrsizlik bilan kutmoq",
+        "kutmaslik"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Samimi\" nima?",
+      "options": [
+        "sovuq",
+        "rasmiy",
+        "samimiy",
+        "uzoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yeni kuşak\" nima?",
+      "options": [
+        "yangi avlod",
+        "yangi xat",
+        "yangi uy",
+        "eski davr"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u2b": [
+    {
+      "question": "\"Sokak\" nima?",
+      "options": [
+        "ko'prik",
+        "katta ko'cha",
+        "ko'cha",
+        "maydon"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Cadde\" nima?",
+      "options": [
+        "katta ko'cha",
+        "bekat",
+        "ko'cha",
+        "yo'lak"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Meydan\" nima?",
+      "options": [
+        "yo'l",
+        "ko'prik",
+        "ko'cha",
+        "maydon"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tabela\" nima?",
+      "options": [
+        "yo'l belgisi, lavha",
+        "xarita",
+        "ko'cha",
+        "bekat"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Durak\" nima?",
+      "options": [
+        "yo'lak",
+        "maydon",
+        "ko'prik",
+        "bekat"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Harita\" nima?",
+      "options": [
+        "xarita",
+        "bekat",
+        "kitob",
+        "manzil"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yön\" nima?",
+      "options": [
+        "ko'cha",
+        "manzil",
+        "yo'nalish",
+        "bekat"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Arkasında\" nima?",
+      "options": [
+        "orqasida",
+        "oldida",
+        "ostida",
+        "yonida"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yanında\" nima?",
+      "options": [
+        "yonida",
+        "ustida",
+        "qarshisida",
+        "ichida"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Köşesinde\" nima?",
+      "options": [
+        "oldida",
+        "ostida",
+        "ichida",
+        "burchagida"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Ilerisinde\" nima?",
+      "options": [
+        "chap tomonida",
+        "orqasida",
+        "ichida",
+        "oldinda, narigi tomonida"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yürüyerek\" nima?",
+      "options": [
+        "piyoda yurib",
+        "uchib",
+        "yugurib",
+        "mashinada"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u2c": [
+    {
+      "question": "\"Uzay\" nima?",
+      "options": [
+        "dengiz",
+        "yer",
+        "kosmos",
+        "osmon"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"İhtimal\" nima?",
+      "options": [
+        "ehtimol",
+        "ixtiro",
+        "maqsad",
+        "taxmin"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Toplantı yapmak üzereyiz.\" nima?",
+      "options": [
+        "Yig'ilishni bekor qildik.",
+        "Yig'ilish o'tkazish arafasidamiz.",
+        "Yig'ilish o'tkazdik.",
+        "Yig'ilish bo'lmaydi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Mutlaka\" nima degani?",
+      "options": [
+        "albatta",
+        "hech",
+        "kam",
+        "balki"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Herhalde\" nima degani?",
+      "options": [
+        "albatta",
+        "ehtimol",
+        "kecha",
+        "hech qachon"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Başaracaksın\" nima degani?",
+      "options": [
+        "uddalayapsan",
+        "uddalamaysan",
+        "uddalading",
+        "uddalaysan"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Qaysi gap bitmiş gelecek?",
+      "options": [
+        "İşi bitiriyor.",
+        "Saat ona kadar işi bitirmiş olacak.",
+        "İşi bitirdi.",
+        "İşi bitirecek."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Güneş enerjisi\" nima?",
+      "options": [
+        "quyosh energiyasi",
+        "ko'mir",
+        "suv",
+        "shamol energiyasi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sürücüsüz araba\" nima?",
+      "options": [
+        "haydovchisiz mashina",
+        "qimmat mashina",
+        "tez mashina",
+        "kichik mashina"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Hayat boyu\" nima?",
+      "options": [
+        "bir hafta",
+        "umr bo'yi",
+        "bir kun",
+        "bir yil"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yaygınlaşmak\" nima?",
+      "options": [
+        "to'xtamoq",
+        "keng tarqalmoq",
+        "kamayib ketmoq",
+        "yo'qolmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gelecek yıl\" nima?",
+      "options": [
+        "kelasi yil",
+        "har yil",
+        "o'tgan yil",
+        "bu yil"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u3a": [
+    {
+      "question": "\"Ak akçe kara gün içindir\" nimani bildiradi?",
+      "options": [
+        "tejamkorlik",
+        "sovg'a",
+        "savdo",
+        "isrof"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Anlam\" nima?",
+      "options": [
+        "gap",
+        "so'z",
+        "manba",
+        "ma'no"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Nasihat\" nima?",
+      "options": [
+        "taqiq",
+        "iltimos",
+        "nasihat",
+        "buyruq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Merhaba\" qaysi tildan?",
+      "options": [
+        "lotincha",
+        "yunoncha",
+        "forschadan",
+        "arabchadan"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Çay\" qaysi tildan?",
+      "options": [
+        "forschadan",
+        "arabchadan",
+        "xitoychadan",
+        "lotincha"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Etimoloji\" nimani o'rganadi?",
+      "options": [
+        "gap tuzilishini",
+        "yozuvni",
+        "talaffuzni",
+        "so'z kelib chiqishini"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Deyim shakli o'zgaradimi?",
+      "options": [
+        "yo'q, hech qachon",
+        "faqat ko'plikda",
+        "ha, fe'l shakliga qarab",
+        "faqat inkorda"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Kulak asmadı\" nima?",
+      "options": [
+        "so'radi",
+        "eshitdi",
+        "quloq solmadi",
+        "kuldi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Söz dağarcığı\" nima?",
+      "options": [
+        "yozuv",
+        "gap tuzilishi",
+        "lug'at boyligi",
+        "tinish belgisi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yabancı dil\" nima?",
+      "options": [
+        "ona tili",
+        "yangi til",
+        "eski til",
+        "chet tili"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Etkili\" nima?",
+      "options": [
+        "ta'sirchan",
+        "uzun",
+        "ta'sirsiz",
+        "qisqa"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Tecrübe\" nima?",
+      "options": [
+        "sinov",
+        "tajriba",
+        "xato",
+        "yutuq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u3b": [
+    {
+      "question": "\"Uzun ince bir yoldayım\" kimning she'ri?",
+      "options": [
+        "Nazım Hikmet",
+        "Aşık Veysel",
+        "Karacaoğlan",
+        "Yunus Emre"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Deyişme\" nima?",
+      "options": [
+        "roman",
+        "ertak",
+        "yakka qo'shiq",
+        "oshiqlarning she'riy bahsi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Koşma\" nima?",
+      "options": [
+        "roman",
+        "xalq she'ri shakli",
+        "ertak",
+        "maqol"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Söylemek\" nima?",
+      "options": [
+        "o'qimoq",
+        "yozmoq",
+        "aytmoq, kuylamoq",
+        "eshitmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Anlatmak\" nima?",
+      "options": [
+        "unutmoq",
+        "yashirmoq",
+        "yozmoq",
+        "so'zlab bermoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Ustalık\" nima?",
+      "options": [
+        "yangilik",
+        "dam",
+        "xato",
+        "ustalik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yazılmış şiir\" nima?",
+      "options": [
+        "yozmaydigan she'r",
+        "yozilgan she'r",
+        "yoziladigan she'r",
+        "yozayotgan she'r"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Okuyacağım kitap\" nima?",
+      "options": [
+        "o'qigan kitobim",
+        "o'qimaydigan kitobim",
+        "o'qiyotgan kitobim",
+        "o'qiydigan kitobim"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Bu şiir halk edebiyatına aittir.\" ma'nosi:",
+      "options": [
+        "Bu she'r yangi.",
+        "Bu she'r xalq adabiyotiga tegishli.",
+        "Bu she'r qisqa.",
+        "Bu she'r eski."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yıldırmak\" nima?",
+      "options": [
+        "qo'rqitib to'xtatmoq",
+        "ko'tarmoq",
+        "yoritmoq",
+        "yig'lamoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Köy köy dolaşmak\" nima?",
+      "options": [
+        "uyda o'tirmoq",
+        "qishloqni tark etmoq",
+        "qishloqma-qishloq yurmoq",
+        "shaharga bormoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ölümsüz\" nima?",
+      "options": [
+        "kasal",
+        "o'lmas",
+        "o'lik",
+        "tirik"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u3c": [
+    {
+      "question": "\"Hayal\" nima?",
+      "options": [
+        "haqiqat",
+        "xayol",
+        "xotira",
+        "tush"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gerçek\" nima?",
+      "options": [
+        "xayol",
+        "tush",
+        "haqiqat",
+        "yolg'on"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Duygu\" nima?",
+      "options": [
+        "fikr",
+        "tuyg'u",
+        "misra",
+        "obraz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Tasvir\" nima?",
+      "options": [
+        "tasvir",
+        "mubolag'a",
+        "o'xshatish",
+        "kinoya"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kişileştirme\" nima?",
+      "options": [
+        "o'xshatish",
+        "mubolag'a",
+        "jonlantirish",
+        "inkor"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Rüzgâr kapıyı çaldı.\" qaysi usul?",
+      "options": [
+        "jonlantirish",
+        "mubolag'a",
+        "o'xshatish",
+        "savol"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Bir yıl bekledim.\" (juda uzun) qaysi usul?",
+      "options": [
+        "inkor",
+        "benzetme",
+        "mubolag'a",
+        "jonlantirish"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Elmas\" mecazda nima?",
+      "options": [
+        "tosh",
+        "pul",
+        "oyna",
+        "bebaho kishi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Aslanca\" nima?",
+      "options": [
+        "ko'p",
+        "tez",
+        "sekin",
+        "sherdek"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Kinaye\" nima?",
+      "options": [
+        "o'xshatish",
+        "ishora",
+        "mubolag'a",
+        "tasvir"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yahya Kemal\" kim?",
+      "options": [
+        "siyosatchi",
+        "shoir",
+        "olim",
+        "rassom"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Okur\" nima?",
+      "options": [
+        "shoir",
+        "nashriyotchi",
+        "yozuvchi",
+        "kitobxon"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u4a": [
+    {
+      "question": "\"Av\" nima?",
+      "options": [
+        "uya",
+        "to'da",
+        "qanot",
+        "ov, o'lja"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yuva\" nima?",
+      "options": [
+        "ov",
+        "qanot",
+        "uya, in",
+        "suruv"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Kanat\" nima?",
+      "options": [
+        "dum",
+        "qanot",
+        "tuk",
+        "panja"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Koruma altında\" nima?",
+      "options": [
+        "ov ostida",
+        "yo'qolgan",
+        "ko'chib ketgan",
+        "himoya ostida"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Qaysi gap -(y)Ip bilan?",
+      "options": [
+        "Kuş uçup kondu.",
+        "Kuş uçunca kondu.",
+        "Kuş uçarak kondu.",
+        "Kuş uçmadan kondu."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap -(y)ArAk bilan?",
+      "options": [
+        "Kanat çırparak uçtu.",
+        "Kanat çırpıp uçtu.",
+        "Kanat çırpınca uçtu.",
+        "Kanat çırpsa uçtu."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Leylek\" qaysi hayvon?",
+      "options": [
+        "laylak (qush)",
+        "qarg'a",
+        "burgut",
+        "bulbul"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Laylaklar qayerdan qayerga ko'chadi?",
+      "options": [
+        "Yevropadan Afrikaga",
+        "Amerikadan Yevropaga",
+        "Osiyodan Avstraliyaga",
+        "Afrikadan Osiyoga"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kurt\" nima?",
+      "options": [
+        "tulki",
+        "ayiq",
+        "bo'ri",
+        "sher"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Aslan\" nima?",
+      "options": [
+        "bo'ri",
+        "sher",
+        "ayiq",
+        "yo'lbars"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kartal\" nima?",
+      "options": [
+        "laylak",
+        "bulbul",
+        "qarg'a",
+        "burgut"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tür\" nima?",
+      "options": [
+        "tur, nav",
+        "suruv",
+        "uya",
+        "oila"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u4b": [
+    {
+      "question": "\"Meyve\" nima?",
+      "options": [
+        "gul",
+        "barg",
+        "meva",
+        "ildiz"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Çiçek\" nima?",
+      "options": [
+        "meva",
+        "poya",
+        "barg",
+        "gul"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Ekin\" nima?",
+      "options": [
+        "meva",
+        "ildiz",
+        "barg",
+        "ekin"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sulanır\" nima degani?",
+      "options": [
+        "sug'oradi",
+        "sug'orsa",
+        "sug'oriladi",
+        "sug'ordi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dikilir\" nima degani?",
+      "options": [
+        "o'tqazadi",
+        "o'tqaziladi",
+        "o'tqazsa",
+        "o'tqazdi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Verimli toprak\" nima?",
+      "options": [
+        "toshloq tuproq",
+        "quruq tuproq",
+        "unumdor tuproq",
+        "unumsiz tuproq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Güneş ışığı sayesinde\" nima?",
+      "options": [
+        "quyosh bo'lsa",
+        "quyosh nursiz",
+        "quyosh nuri tufayli",
+        "quyosh uchun"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Zararlı\" nima?",
+      "options": [
+        "foydali",
+        "chiroyli",
+        "zararli (hasharot)",
+        "katta"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Oksijen\" nima?",
+      "options": [
+        "vodorod",
+        "karbonat",
+        "kislorod",
+        "azot"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sararmak\" nima?",
+      "options": [
+        "yashil bo'lmoq",
+        "sarg'aymoq",
+        "o'smoq",
+        "qurimoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Solmak\" nima?",
+      "options": [
+        "pishmoq",
+        "so'lmoq",
+        "o'smoq",
+        "ochilmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Olgunlaşmak\" nima?",
+      "options": [
+        "so'lmoq",
+        "pishmoq",
+        "to'kilmoq",
+        "ochilmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u4c": [
+    {
+      "question": "\"Atık\" nima?",
+      "options": [
+        "tur",
+        "o'rmon",
+        "chiqindi",
+        "iqlim"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Orman\" nima?",
+      "options": [
+        "suv",
+        "tog'",
+        "dasht",
+        "o'rmon"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"İklim\" nima?",
+      "options": [
+        "tabiat",
+        "iqlim",
+        "ob-havo",
+        "fasl"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Önlem\" nima?",
+      "options": [
+        "chora",
+        "tur",
+        "chiqindi",
+        "ong"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Doğal yaşam\" nima?",
+      "options": [
+        "yovvoyi tabiat",
+        "zavod",
+        "uy hayvonlari",
+        "shahar hayoti"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi bog'lovchi natijani bildiradi?",
+      "options": [
+        "ancak",
+        "çünkü",
+        "eğer",
+        "bu yüzden"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Qaysi bog'lovchi sababni bildiradi?",
+      "options": [
+        "çünkü",
+        "dolayısıyla",
+        "bu yüzden",
+        "bu nedenle"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yasak olduğu hâlde\" nima?",
+      "options": [
+        "taqiqlangan bo'lsa-da",
+        "taqiqlangan sari",
+        "taqiqlamasdan",
+        "taqiqlangani uchun"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Hava kirliliği\" nima?",
+      "options": [
+        "havoning ifloslanishi",
+        "tuproq ifloslanishi",
+        "shovqin",
+        "suvning ifloslanishi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Solunum\" nima?",
+      "options": [
+        "uxlash",
+        "yurish",
+        "yeyish",
+        "nafas olish"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yaşam alanı\" nima?",
+      "options": [
+        "ko'cha",
+        "yashash muhiti",
+        "shahar",
+        "uy"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Dolayısıyla\" nima degani?",
+      "options": [
+        "shunga ko'ra, natijada",
+        "agar",
+        "balki",
+        "chunki"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u5a": [
+    {
+      "question": "\"Harf\" nima?",
+      "options": [
+        "harf",
+        "alifbo",
+        "so'z",
+        "gap"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Alfabe\" nima?",
+      "options": [
+        "yozuv",
+        "harf",
+        "alifbo",
+        "belgi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Papirüs\" nima?",
+      "options": [
+        "loy lavha",
+        "papirus",
+        "qog'oz",
+        "teri"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Shumerlar nimaga yozgan?",
+      "options": [
+        "papirusga",
+        "loy lavhalarga",
+        "teriga",
+        "qog'ozga"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Misrliklar nimaga yozgan?",
+      "options": [
+        "papirusga",
+        "qog'ozga",
+        "loyga",
+        "yog'ochga"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Bulunduğu söylenir\" nima?",
+      "options": [
+        "topadi",
+        "topilmaydi",
+        "topilgani aytiladi",
+        "topildi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Düşünülür\" nima?",
+      "options": [
+        "yoziladi",
+        "unutiladi",
+        "bilinadi",
+        "o'ylanadi, taxmin qilinadi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Turk alifbosida nechta harf bor?",
+      "options": [
+        "26",
+        "33",
+        "32",
+        "29"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yazı icadı\" nima?",
+      "options": [
+        "yozuv qoidasi",
+        "yozuv ixtirosi",
+        "yozuv turi",
+        "yozuv xatosi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kalıcı\" nima?",
+      "options": [
+        "doimiy",
+        "tez",
+        "vaqtincha",
+        "yangi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kayıt tutmak\" nima?",
+      "options": [
+        "yirtmoq",
+        "o'qimoq",
+        "qayd yuritmoq",
+        "yo'qotmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Aktarmak\" nima?",
+      "options": [
+        "o'chirmoq",
+        "yetkazmoq, ko'chirmoq",
+        "yashirmoq",
+        "yirtmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u5b": [
+    {
+      "question": "\"Uygarlık\" nima?",
+      "options": [
+        "tamaddun",
+        "meros",
+        "savdo",
+        "yodgorlik"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ticaret\" nima?",
+      "options": [
+        "savdo",
+        "qazish",
+        "ilm",
+        "meros"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yayılmak\" nima?",
+      "options": [
+        "qulamoq",
+        "yo'qolmoq",
+        "yig'ilmoq",
+        "tarqalmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Misr sivilizatsiyasi qaysi daryo bo'yida?",
+      "options": [
+        "Hind",
+        "Dajla",
+        "Nil",
+        "Frot"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Shumerlar qaysi daryolar bo'yida?",
+      "options": [
+        "Xuanxe",
+        "Nil",
+        "Dajla va Frot",
+        "Amudaryo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Xitoy sivilizatsiyasi qaysi daryo bo'yida?",
+      "options": [
+        "Sariq daryo (Xuanxe)",
+        "Nil",
+        "Dunay",
+        "Hind"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Buna karşılık\" nima?",
+      "options": [
+        "unga qaramay, aksincha",
+        "shu sababli",
+        "balki",
+        "agar"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kütüphane yakıldı.\" nima?",
+      "options": [
+        "Kutubxona yonsa.",
+        "Kutubxona yonadi.",
+        "Kutubxona yondirildi.",
+        "Kutubxona yoqdi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Selchuklar nimaga hissa qo'shgan?",
+      "options": [
+        "faqat dengiz",
+        "faqat dehqonchilik",
+        "me'morchilik, ilm, davlat boshqaruvi",
+        "faqat savdo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Tablet\" nima?",
+      "options": [
+        "loy lavha",
+        "kitob",
+        "gazeta",
+        "qog'oz"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Eserler\" nima?",
+      "options": [
+        "devorlar",
+        "qurollar",
+        "yo'llar",
+        "asarlar"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yaşatmak\" nima?",
+      "options": [
+        "buzmoq",
+        "yashatmoq, saqlab qolmoq",
+        "unutmoq",
+        "o'ldirmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u5c": [
+    {
+      "question": "\"Barış\" nima?",
+      "options": [
+        "urush",
+        "g'alaba",
+        "tinchlik",
+        "chegara"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Savaş\" nima?",
+      "options": [
+        "urush",
+        "g'alaba",
+        "shartnoma",
+        "tinchlik"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sınır\" nima?",
+      "options": [
+        "daryo",
+        "yo'l",
+        "chegara",
+        "shahar"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Anlaşma\" nima?",
+      "options": [
+        "urush",
+        "kelishuv, shartnoma",
+        "tinchlik",
+        "g'alaba"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Ilan etmek\" nima?",
+      "options": [
+        "yashirmoq",
+        "buzmoq",
+        "e'lon qilmoq",
+        "yo'q qilmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Lider\" nima?",
+      "options": [
+        "muallim",
+        "yetakchi",
+        "askar",
+        "elchi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Devlet\" nima?",
+      "options": [
+        "xalq",
+        "davlat",
+        "chegara",
+        "shahar"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kazanılmasaydı\" nima?",
+      "options": [
+        "yutilmaydi",
+        "yutilgan",
+        "yutilsa",
+        "yutilmaganida"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yeni Çağ\" qachon boshlangan (an'anaviy)?",
+      "options": [
+        "1923",
+        "500",
+        "1453 atrofida",
+        "1071"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Orta Çağ\" nima?",
+      "options": [
+        "o'rta asrlar",
+        "yangi davr",
+        "yaqin davr",
+        "qadimgi davr"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Mustafa Kemal Atatürk kim?",
+      "options": [
+        "Selchuk beyi",
+        "Usmoniy sultoni",
+        "Bizans imperatori",
+        "Turkiya Respublikasi asoschisi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Zafer\" nima?",
+      "options": [
+        "tinchlik",
+        "fath",
+        "mag'lubiyat",
+        "g'alaba"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u6a": [
+    {
+      "question": "\"Davet\" nima?",
+      "options": [
+        "mavzu",
+        "xulosa",
+        "taklif",
+        "ro'yxat"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Düzenlemek\" nima?",
+      "options": [
+        "yopmoq",
+        "tashkil qilmoq",
+        "tark etmoq",
+        "buzmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Konu\" nima?",
+      "options": [
+        "dastur",
+        "xulosa",
+        "taklif",
+        "mavzu"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Program\" nima?",
+      "options": [
+        "mavzu",
+        "ro'yxat",
+        "dastur",
+        "taklif"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Rica etmek\" nima?",
+      "options": [
+        "rad etmoq",
+        "kutmoq",
+        "iltimos qilmoq",
+        "buyurmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Memnuniyet duyarız.\" nima?",
+      "options": [
+        "Xafa bo'lamiz.",
+        "Rad etamiz.",
+        "Mamnun bo'lamiz.",
+        "Kutamiz."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Saygılarımızla\" nima?",
+      "options": [
+        "salom",
+        "xayr",
+        "rahmat",
+        "hurmat bilan"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sayın\" nima?",
+      "options": [
+        "yaxshi",
+        "hurmatli",
+        "aziz",
+        "eski"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Katılmak\" nima?",
+      "options": [
+        "kutmoq",
+        "qatnashmoq",
+        "yozmoq",
+        "ketmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Konaklama\" nima?",
+      "options": [
+        "ovqat",
+        "turar joy, yashash",
+        "dastur",
+        "yo'l"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Onaylanmak\" nima?",
+      "options": [
+        "yozilmoq",
+        "yopilmoq",
+        "tasdiqlanmoq",
+        "rad etilmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Çevrim içi\" nima?",
+      "options": [
+        "og'zaki",
+        "oflayn",
+        "qog'ozda",
+        "onlayn"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u6b": [
+    {
+      "question": "\"Eleştiri\" nima?",
+      "options": [
+        "natija",
+        "tanqid",
+        "maqtov",
+        "faraz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sonuç\" nima?",
+      "options": [
+        "ma'lumot",
+        "natija",
+        "usul",
+        "faraz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sunum\" nima?",
+      "options": [
+        "ro'yxat",
+        "taqdimot",
+        "munozara",
+        "tadqiqot"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Araştırma\" nima?",
+      "options": [
+        "tadqiqot",
+        "taqdimot",
+        "savol",
+        "natija"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Görüş\" nima?",
+      "options": [
+        "ko'rish",
+        "usul",
+        "natija",
+        "fikr"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Örneklem\" nima?",
+      "options": [
+        "natija",
+        "tanlanma (namuna)",
+        "usul",
+        "faraz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Öte yandan\" nima?",
+      "options": [
+        "chunki",
+        "boshqa tomondan",
+        "shuning uchun",
+        "ammo"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Açabilir misiniz?\" nima?",
+      "options": [
+        "ochasizmi?",
+        "ochib bera olasizmi?",
+        "ochdim",
+        "ochdingizmi?"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Katılmıyorum\" nima?",
+      "options": [
+        "qo'shilmayman",
+        "qatnashaman",
+        "ketaman",
+        "qo'shilaman"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Katılıyorum\" nima?",
+      "options": [
+        "bilmayman",
+        "qo'shilmayman",
+        "bormayman",
+        "qo'shilaman"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yapıcı\" nima?",
+      "options": [
+        "qisqa",
+        "konstruktiv",
+        "uzun",
+        "buzg'unchi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Verimli\" nima?",
+      "options": [
+        "samarali",
+        "uzun",
+        "qisqa",
+        "samarasiz"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u6c": [
+    {
+      "question": "\"Grafik\" nima?",
+      "options": [
+        "grafik",
+        "misol",
+        "xulosa",
+        "jadval"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kanıtlamak\" nima?",
+      "options": [
+        "yashirmoq",
+        "unutmoq",
+        "rad etmoq",
+        "isbotlamoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sınırlılık\" nima?",
+      "options": [
+        "afzallik",
+        "xulosa",
+        "cheklov",
+        "natija"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Gelişme\" nima?",
+      "options": [
+        "kirish",
+        "asosiy qism, rivojlanish",
+        "rahmat",
+        "xulosa"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Son olarak\" nima?",
+      "options": [
+        "masalan",
+        "dastlab",
+        "oxirida",
+        "ammo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Daha sonra\" nima?",
+      "options": [
+        "keyin",
+        "hech",
+        "oldin",
+        "ayni payt"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ardından\" nima?",
+      "options": [
+        "undan keyin",
+        "undan oldin",
+        "hech",
+        "ayni payt"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Başka bir deyişle\" nima?",
+      "options": [
+        "shuning uchun",
+        "masalan",
+        "boshqacha aytganda",
+        "ammo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yüzde yirmi\" nima?",
+      "options": [
+        "yigirma foiz",
+        "ikki foiz",
+        "o'n foiz",
+        "yuz foiz"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ortalamanın üzerinde\" nima?",
+      "options": [
+        "o'rtacha",
+        "o'rtachadan past",
+        "hech",
+        "o'rtachadan yuqori"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Kendini tanıtmak\" nima?",
+      "options": [
+        "kutmoq",
+        "o'zini yashirmoq",
+        "o'zini tanishtirmoq",
+        "ketmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dikkat toplamak\" nima?",
+      "options": [
+        "diqqatni jalb qilmoq",
+        "uxlamoq",
+        "ketmoq",
+        "yozmoq"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u7a": [
+    {
+      "question": "\"Rakam\" nima?",
+      "options": [
+        "kasr",
+        "son",
+        "amal",
+        "raqam"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sayı\" nima?",
+      "options": [
+        "son",
+        "amal",
+        "raqam",
+        "harf"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Hesaplamak\" nima?",
+      "options": [
+        "yig'moq",
+        "hisoblamoq",
+        "o'qimoq",
+        "yozmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kesir\" nima?",
+      "options": [
+        "foiz",
+        "raqam",
+        "kasr",
+        "son"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Hesap makinesi\" nima?",
+      "options": [
+        "kompyuter",
+        "soat",
+        "abak",
+        "kalkulyator"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yüzde elli\" nima?",
+      "options": [
+        "50%",
+        "500%",
+        "15%",
+        "5%"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"İlk\" nima?",
+      "options": [
+        "so'nggi",
+        "ikkinchi",
+        "oxirgi",
+        "birinchi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Üçte bir\" nima?",
+      "options": [
+        "3/1",
+        "3/4",
+        "1/3",
+        "1/2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dörtte üç\" nima?",
+      "options": [
+        "4/3",
+        "1/4",
+        "1/3",
+        "3/4"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yüzlerce\" nima?",
+      "options": [
+        "mingta",
+        "yuz",
+        "yuzlab",
+        "o'n"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Eder\" nima degani?",
+      "options": [
+        "teng emas",
+        "teng bo'ladi",
+        "ko'p",
+        "kam"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Maliyet\" nima?",
+      "options": [
+        "tannarx, xarajat",
+        "narx",
+        "soliq",
+        "foyda"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u7b": [
+    {
+      "question": "\"Yükselmek\" nima?",
+      "options": [
+        "yo'qolmoq",
+        "tushmoq",
+        "ko'tarilmoq",
+        "to'xtamoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Düşmek\" nima (kamayish ma'nosida)?",
+      "options": [
+        "tushmoq",
+        "oshmoq",
+        "to'xtamoq",
+        "ko'tarilmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sabit kalmak\" nima?",
+      "options": [
+        "yo'qolmoq",
+        "oshmoq",
+        "tushmoq",
+        "o'zgarmay qolmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yaklaşık\" nima?",
+      "options": [
+        "taxminan",
+        "hech",
+        "aniq",
+        "ko'p"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"İstatistik\" nima?",
+      "options": [
+        "jadval",
+        "grafik",
+        "sarlavha",
+        "statistika"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tahmini\" nima?",
+      "options": [
+        "yangi",
+        "aniq",
+        "eski",
+        "taxminiy"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Her on kişiden biri\" nima?",
+      "options": [
+        "o'ntadan kam",
+        "har o'n kishidan biri",
+        "o'n kishi",
+        "o'ntadan ko'p"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"...ile karşılaştırıldığında\" nima?",
+      "options": [
+        "...sababli",
+        "...uchun",
+        "...gandan beri",
+        "...bilan qiyoslaganda"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"...e göre\" nima?",
+      "options": [
+        "...ga ko'ra",
+        "...sari",
+        "...ga qaramay",
+        "...uchun"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yorumlamak\" nima?",
+      "options": [
+        "hisoblamoq",
+        "yozmoq",
+        "yashirmoq",
+        "sharhlamoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Genç nüfus\" nima?",
+      "options": [
+        "kam aholi",
+        "keksa aholi",
+        "ko'p aholi",
+        "yosh aholi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Okullaşma oranı\" nima?",
+      "options": [
+        "o'qituvchi soni",
+        "maktab narxi",
+        "dars soati",
+        "maktabga qamrov darajasi"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u7c": [
+    {
+      "question": "\"Dakika\" nima?",
+      "options": [
+        "daqiqa",
+        "kun",
+        "soat",
+        "soniya"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Doğum tarihi\" nima?",
+      "options": [
+        "ismi",
+        "kasbi",
+        "tug'ilgan sana",
+        "yashash joyi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sıra\" nima?",
+      "options": [
+        "son",
+        "kasr",
+        "nol",
+        "navbat, tartib"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "15.45 qanday o'qiladi?",
+      "options": [
+        "on altı kırk beş",
+        "on dört kırk",
+        "on beş kırk beş",
+        "on beş elli"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"On yıl\" nima?",
+      "options": [
+        "o'n kun",
+        "bir asr",
+        "bir oy",
+        "o'n yil"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Bir göz kırpmada\" nima?",
+      "options": [
+        "bir ko'z qisganda",
+        "hech qachon",
+        "ertaga",
+        "uzoq vaqt"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Üç misli\" nima?",
+      "options": [
+        "uch barobar",
+        "uch kun",
+        "uchinchi",
+        "uchta"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Civarı\" nima?",
+      "options": [
+        "aniq",
+        "atrofida, taxminan",
+        "kam",
+        "ko'p"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Adres\" nima?",
+      "options": [
+        "ism",
+        "nomer",
+        "sana",
+        "manzil"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Daire\" nima (manzilda)?",
+      "options": [
+        "ko'cha",
+        "shahar",
+        "uy",
+        "kvartira"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Şans getirir\" nima?",
+      "options": [
+        "baxtsizlik",
+        "xursandlik",
+        "zarar",
+        "omad keltiradi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Uğursuz\" nima?",
+      "options": [
+        "omadli",
+        "yangi",
+        "baxtsiz, mash'um",
+        "yaxshi"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u8a": [
+    {
+      "question": "\"Hekim\" nima?",
+      "options": [
+        "tabib",
+        "rassom",
+        "olim",
+        "o'qituvchi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Matematikçi\" kim?",
+      "options": [
+        "rassom",
+        "matematik",
+        "kimyogar",
+        "fizik"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Astronomi\" nima?",
+      "options": [
+        "matematika",
+        "astronomiya",
+        "geografiya",
+        "tibbiyot"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Aziz Sancar qachon Nobel olgan?",
+      "options": [
+        "2000",
+        "1990",
+        "1946",
+        "2015"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Aziz Sancar nimani o'rgangan?",
+      "options": [
+        "o'simliklarni",
+        "DNK tiklanishini",
+        "yulduzlarni",
+        "dengizni"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Çalışkanlık\" nima?",
+      "options": [
+        "baxt",
+        "mehnatsevarlik",
+        "omad",
+        "tanbal"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Azim\" nima?",
+      "options": [
+        "xato",
+        "qo'rquv",
+        "dangasalik",
+        "qat'iyat"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Merak\" nima?",
+      "options": [
+        "qiziqish",
+        "qo'rquv",
+        "uyqu",
+        "g'azab"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"İlham vermek\" nima?",
+      "options": [
+        "ilhomni yo'qotmoq",
+        "unutmoq",
+        "yashirmoq",
+        "ilhom bermoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tıp Fakültesi\" nima?",
+      "options": [
+        "tibbiyot fakulteti",
+        "tarix fakulteti",
+        "til fakulteti",
+        "huquq fakulteti"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ünlenmek\" nima?",
+      "options": [
+        "mashhur bo'lmoq",
+        "kelmoq",
+        "unutilmoq",
+        "ketmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Hasar gören\" nima?",
+      "options": [
+        "sog'lom",
+        "katta",
+        "shikastlangan",
+        "yangi"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u8b": [
+    {
+      "question": "\"Sabırsız\" nima?",
+      "options": [
+        "sabrsiz",
+        "saxiy",
+        "sabrli",
+        "optimist"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Çalışkan\" ning aksi:",
+      "options": [
+        "tembel",
+        "iyimser",
+        "titiz",
+        "cömert"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Açık sözlü\" nima?",
+      "options": [
+        "yopiq",
+        "ochiq so'zli",
+        "uyatchan",
+        "xasis"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kendine güvenmek\" nima?",
+      "options": [
+        "o'zidan shubhalanmoq",
+        "o'ziga ishonmoq",
+        "yashirmoq",
+        "qo'rqmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İçe dönük\" nima?",
+      "options": [
+        "introvert",
+        "optimist",
+        "ekstravert",
+        "saxiy"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Dışa dönük\" nima?",
+      "options": [
+        "ekstravert",
+        "xasis",
+        "introvert",
+        "uyatchan"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ruh hâli\" nima?",
+      "options": [
+        "kayfiyat",
+        "yosh",
+        "sana",
+        "kasallik"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"İhtiyat\" nima?",
+      "options": [
+        "ehtiyotkorlik",
+        "xatolik",
+        "tezlik",
+        "tezkorlik"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Eğim\" nima?",
+      "options": [
+        "hajm",
+        "shakl",
+        "qiyalik",
+        "rang"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Basınç\" nima (yozuvda)?",
+      "options": [
+        "qiyalik",
+        "bosim",
+        "rang",
+        "hajm"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İpucu\" nima?",
+      "options": [
+        "ishora, belgi",
+        "natija",
+        "xulosa",
+        "dalil"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Muhtemel\" nima?",
+      "options": [
+        "ehtimoliy",
+        "mumkin emas",
+        "aniq",
+        "xato"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u8c": [
+    {
+      "question": "\"Yüz hatları\" nima?",
+      "options": [
+        "yosh",
+        "kayfiyat",
+        "yuz tuzilishi",
+        "yuz rangi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yansıtmak\" nima?",
+      "options": [
+        "yo'qotmoq",
+        "yozmoq",
+        "yashirmoq",
+        "aks ettirmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Belirgin\" nima?",
+      "options": [
+        "kichik",
+        "sezilmas",
+        "ko'zga tashlanuvchi",
+        "eski"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Geniş alınlı\" nima?",
+      "options": [
+        "uzun burunli",
+        "keng peshonali",
+        "dumaloq yuzli",
+        "yosh"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gözlü\" nima?",
+      "options": [
+        "yumuq",
+        "ko'zsiz",
+        "ko'zli",
+        "ko'rmaydigan"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sakalsız\" nima?",
+      "options": [
+        "kalta",
+        "soqolli",
+        "soqolsiz",
+        "mo'ylovli"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yargılamak\" nima?",
+      "options": [
+        "o'rganmoq",
+        "tinglamoq",
+        "hukm qilmoq",
+        "maqtamoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yanıltıcı\" nima?",
+      "options": [
+        "yangi",
+        "aniq",
+        "kam",
+        "aldamchi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Haksız\" nima?",
+      "options": [
+        "to'g'ri",
+        "nohaq",
+        "adolatli",
+        "qonuniy"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İlk görüşte\" nima?",
+      "options": [
+        "uzoq vaqtdan keyin",
+        "birinchi ko'rishda",
+        "oxirgi marta",
+        "ikkinchi marta"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kararlı\" nima?",
+      "options": [
+        "ikkilanuvchan",
+        "uyatchan",
+        "qat'iyatli",
+        "tanbal"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"İyi niyetli\" nima?",
+      "options": [
+        "uyatchan",
+        "yomon niyatli",
+        "yaxshi niyatli",
+        "tanbal"
+      ],
+      "correct_index": 2
+    }
+  ]
+}
