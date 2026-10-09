@@ -1,0 +1,368 @@
+{
+  "u1a": [
+    {
+      "question": "\"Yanmaz kumaş\" nima degani?",
+      "options": [
+        "yonadigan mato",
+        "qimmat mato",
+        "yonmaydigan mato",
+        "yonib ketgan mato"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Geçer not\" nima?",
+      "options": [
+        "o'tish bali",
+        "past baho",
+        "imtihon vaqti",
+        "izoh"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi birikmada -mAz sifat-fe'li bor?",
+      "options": [
+        "dün geldi",
+        "yarın okuyacak",
+        "inanılmaz başarı",
+        "şimdi çalışıyor"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Çalışır durumda\" birikmasida \"çalışır\" qanday vazifada?",
+      "options": [
+        "ega",
+        "holatni bildiruvchi sifat vazifasida",
+        "to'ldiruvchi",
+        "o'tgan zamon fe'li"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Mesai\" so'zi nimani bildiradi?",
+      "options": [
+        "ish arizasi",
+        "ish joyi",
+        "ish vaqti",
+        "ish haqi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Deneyim\" so'zining ma'nosi:",
+      "options": [
+        "ta'til",
+        "sertifikat",
+        "tajriba",
+        "diplom"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sözleşme imzalamak\" nima degani?",
+      "options": [
+        "ariza yozmoq",
+        "iste'foga chiqmoq",
+        "ish qidirmoq",
+        "shartnoma imzolamoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Okunası kitap\" nima degani?",
+      "options": [
+        "o'qilgan kitob",
+        "o'qiyotgan kitob",
+        "hech o'qilmaydigan kitob",
+        "o'qishga arziydigan kitob"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Qaysi gap to'g'ri?",
+      "options": [
+        "Bu bitmezdi bir dert.",
+        "Bu bitmeyen dertir bir.",
+        "Bu bitmez bir dert.",
+        "Bu bitirmez bir dert."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Başvuru\" so'zining ma'nosi:",
+      "options": [
+        "tavsiya",
+        "ariza, murojaat",
+        "mukofot",
+        "ta'til"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Meslektaş\" kim?",
+      "options": [
+        "mijoz",
+        "hamkasb",
+        "o'quvchi",
+        "rahbar"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kariyer\" so'zining ma'nosi:",
+      "options": [
+        "ish vaqti",
+        "sinov",
+        "oylik",
+        "karyera"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u1b": [
+    {
+      "question": "\"Yemek pişene kadar çalıştım\" ma'nosi:",
+      "options": [
+        "Ovqat pishgach ishladim.",
+        "Ovqat pishdi, ishlamadim.",
+        "Ovqat pishgunicha ishladim.",
+        "Ovqat pishirgani ishladim."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Toplantı bitinceye kadar telefonumu kapattım\" ma'nosi:",
+      "options": [
+        "Majlis tugaguncha telefonimni o'chirdim.",
+        "Majlisdan keyin telefonni yoqdim.",
+        "Telefonim buzildi.",
+        "Majlis tugamadi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "-mAksIzIn ning og'zaki ma'nodoshi qaysi?",
+      "options": [
+        "-mAdAn",
+        "-ken",
+        "-ip",
+        "-dikçe"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap -mAksIzIn bilan to'g'ri tuzilgan?",
+      "options": [
+        "Yorulmaksızın çalışıyor mu.",
+        "Yorulmakta çalıştı.",
+        "Yorulmaksız çalıştı.",
+        "Yorulmaksızın çalıştı."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Hazırlıklı\" so'zining ma'nosi:",
+      "options": [
+        "xafa",
+        "sust",
+        "uyquchan",
+        "tayyor"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Vurgu\" so'zi nima?",
+      "options": [
+        "urg'u",
+        "tinish belgisi",
+        "ovoz",
+        "bo'g'in"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kaçınmak\" nima degani?",
+      "options": [
+        "kutmoq",
+        "o'zini tiymoq",
+        "qo'shilmoq",
+        "yordam bermoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Güven vermek\" nima degani?",
+      "options": [
+        "javob bermoq",
+        "qarz bermoq",
+        "ishonch uyg'otmoq",
+        "sovg'a bermoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"İletişim\" so'zining ma'nosi:",
+      "options": [
+        "e'lon",
+        "ma'lumot",
+        "ish vaqti",
+        "muloqot, aloqa"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sabırlı\" qanday odam?",
+      "options": [
+        "shoshqaloq",
+        "bepisand",
+        "sabrli",
+        "xotirjam emas"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ben gelinceye kadar gitme\" ma'nosi:",
+      "options": [
+        "Men kelmasam, ket.",
+        "Men kelgunimcha ketma.",
+        "Men kelganda ket.",
+        "Men ketdim."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İpucu\" so'zining ma'nosi:",
+      "options": [
+        "ishora, maslahat",
+        "yo'l",
+        "so'z",
+        "sovg'a"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u1c": [
+    {
+      "question": "\"Gelmişti\" qaysi zamon?",
+      "options": [
+        "hozirgi zamon",
+        "buyruq",
+        "kelasi zamon",
+        "hikâye (o'tmishdagi tugagan ish)"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Geliyordu\" qaysi ma'noda?",
+      "options": [
+        "kelasi ish",
+        "taxmin",
+        "buyruq",
+        "o'tmishda davom etgan ish"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Gelecekti\" nima degani?",
+      "options": [
+        "keladi",
+        "kelishi kerak edi (rejalashgan)",
+        "keldi",
+        "kelmasin"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kayıt\" so'zining ma'nosi:",
+      "options": [
+        "o'qish",
+        "imtihon",
+        "ro'yxatdan o'tish",
+        "ta'til"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Değişim programı\" nima?",
+      "options": [
+        "stipendiya",
+        "ish dasturi",
+        "almashinuv dasturi",
+        "dars jadvali"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yurt\" talabalar uchun nima?",
+      "options": [
+        "yotoqxona",
+        "sinf",
+        "oshxona",
+        "kutubxona"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ders programı\" nima?",
+      "options": [
+        "diplom",
+        "imtihon natijasi",
+        "dars jadvali",
+        "stipendiya"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Bilgilendirme\" nima?",
+      "options": [
+        "ma'lumot berish",
+        "ro'yxatga olish",
+        "tarjima",
+        "imtihon"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sınav sonuçları yarın açıklanacak\" nima degani?",
+      "options": [
+        "Natijalar e'lon qilindi.",
+        "Imtihon ertaga bo'ladi.",
+        "Imtihon natijalari ertaga e'lon qilinadi.",
+        "Imtihon bekor qilindi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Qaysi gap to'g'ri?",
+      "options": [
+        "Ben geldiğimde ders başlamıştır idi.",
+        "Ben geldiğimde ders başlıyacaktı idi.",
+        "Ben geldiğimde ders başlamıştı.",
+        "Ben geldiğimde ders başlayordu."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Bursu kazansaydım\" nima degani?",
+      "options": [
+        "Stipendiyani yutdim",
+        "Stipendiyani yutaman",
+        "Stipendiyani yutganimda edi",
+        "Stipendiyani yutmayman"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Eğitim\" so'zining ma'nosi:",
+      "options": [
+        "ta'lim",
+        "imtihon",
+        "ish",
+        "tarbiya"
+      ],
+      "correct_index": 0
+    }
+  ]
+}

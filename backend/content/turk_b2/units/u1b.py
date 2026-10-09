@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u1b', "B. Püf Noktası — Muhim nuqta", 18, 23,
+    goals=[
+        "-(y)AnA kadar, -(y)IncAyA kadar va -mAksIzIn zarf-fe'llarini farqlash",
+        "Maslahat va ko'rsatmalar berish uchun lug'atni qo'llash",
+        "Ish suhbatiga tayyorgarlik haqidagi matnni o'qib tushunish",
+    ],
+    blocks=[
+        ("-(y)AnA kadar: ...guncha, ...gunga qadar",
+         "Fe'l o'zagi + -(y)An + -A kadar shakli \"shu ish bo'lguncha\" degan ma'noni beradi. Bosh gapdagi ish shu payt kelgunga qadar davom etadi. Unli bilan tugagan o'zakdan keyin -y- qo'shiladi.\n\nMisol: \"Sen gelene kadar bekledim.\" (Sen kelguningcha kutdim.) \"Yemek pişene kadar çalıştım.\" (Ovqat pishgunicha ishladim.) Inkorda: \"Sen gelmeyene kadar gitmem.\" (Sen kelmaguningcha ketmayman.)"),
+        ("-(y)IncAyA kadar: ayni ma'no",
+         "-(y)IncAyA kadar ham \"...guncha\" degan ma'noni beradi va -(y)AnA kadar bilan deyarli almashadi. Yozma tilda ko'proq uchraydi.\n\nMisol: \"Çay demlenceye kadar bekledik.\" (Choy damlangunicha kutdik.) \"Toplantı bitinceye kadar telefonumu kapattım.\" (Majlis tugaguncha telefonimni o'chirib qo'ydim.)"),
+        ("-mAksIzIn: ...masdan",
+         "-mAksIzIn rasmiyroq zarf-fe'l bo'lib, \"...masdan, ...maganicha\" ma'nosini beradi. Uning o'rniga og'zaki tilda -mAdAn ishlatiladi.\n\nMisol: \"Hiçbir şey söylemeksizin odadan çıktı.\" (Hech narsa demasdan xonadan chiqib ketdi.) \"Yorulmaksızın çalıştı.\" (Charchamasdan ishladi.)"),
+    ],
+    facts=[
+        "-(y)AnA kadar va -(y)IncAyA kadar = ...guncha, ...gunga qadar.",
+        "Inkori: gelmeyene kadar, gelmeyinceye kadar (kelmaguncha).",
+        "-mAksIzIn = ...masdan (rasmiy); og'zakida -mAdAn.",
+    ],
+    vocab=[
+        ("ipucu", "ishora, maslahat", "Bu soruda sana küçük bir ipucu vereyim.", "Bu savolda senga kichik bir ishora beray."),
+        ("püf noktası", "nozik nuqta, muhim jihat", "Başarının püf noktası düzenli çalışmaktır.", "Muvaffaqiyatning muhim jihati muntazam ishlashdir."),
+        ("özgüven", "o'ziga ishonch", "Mülakatta özgüven çok önemlidir.", "Suhbatda o'ziga ishonch juda muhim."),
+        ("hazırlıklı", "tayyor, tayyorgarlikli", "Sınava hazırlıklı girdi.", "Imtihonga tayyorgarlik bilan kirdi."),
+        ("vurgu", "urg'u", "Cümlede doğru yere vurgu yapmalısın.", "Gapda to'g'ri joyga urg'u berishing kerak."),
+        ("iletişim", "muloqot, aloqa", "İyi iletişim işi kolaylaştırır.", "Yaxshi muloqot ishni yengillashtiradi."),
+        ("sabırlı", "sabrli", "Sabırlı insanlar zor işlerde başarılı olur.", "Sabrli odamlar qiyin ishda muvaffaqiyat qozonadi."),
+        ("uyum sağlamak", "moslashmoq", "Yeni ortama çabuk uyum sağladı.", "Yangi muhitga tez moslashdi."),
+        ("kaçınmak", "o'zini tiymoq, qochmoq", "Gereksiz sözlerden kaçının.", "Keraksiz so'zlardan o'zingizni tiying."),
+        ("güven vermek", "ishonch uyg'otmoq", "Rahat duruşu karşısındakine güven verdi.", "Xotirjam turishi qarshisidagiga ishonch uyg'otdi."),
+        ("göz teması", "ko'z bilan aloqa", "Konuşurken göz teması kurmak gerekir.", "Gaplashganda ko'z bilan aloqa o'rnatish kerak."),
+        ("dakik", "aniq, vaqtida", "Dakik insanlara herkes güvenir.", "Vaqtida keladigan odamlarga hamma ishonadi."),
+    ],
+    reading=("Mülakatın püf noktaları",
+        "İş görüşmesine giden birçok kişi aynı hataları yapar. Birincisi, hazırlıksız gitmektir. Şirketin ne yaptığını öğrenmeksizin mülakata girenler, soruları cevaplarken zorlanır. Bu yüzden görüşmeye gitmeden önce şirketin internet sitesini incelemek gerekir.\n\nİkincisi, zamanı kötü kullanmaktır. Mülakat saatinden en az on dakika önce orada olmalısınız. Sıranız gelene kadar sakin bir şekilde bekleyin; telefonla oynamak yerine notlarınıza bakın.\n\nÜçüncüsü, vücut dilini unutmaktır. Karşınızdakiyle göz teması kurun, sorular bitinceye kadar sözünü kesmeyin. Cevap verirken acele etmeyin; bir saniye düşünmek bile size güven verir.\n\nSon olarak, dürüst olun. Bilmediğiniz bir şeyi biliyormuş gibi anlatmak, uzmanlar tarafından kolayca fark edilir. \"Bunu henüz öğrenmedim ama öğrenmek isterim\" demek çok daha olumlu bir izlenim bırakır.",
+        [
+            ("Metne göre mülakata gitmeden önce ne yapılmalıdır?", ["Şirketin internet sitesini incelemek", "Maaş pazarlığı yapmak", "Arkadaşlardan para almak", "Şirkette bir gün çalışmak"]),
+            ("Mülakata ne zaman gidilmelidir?", ["En az on dakika önce", "Tam saatinde", "Bir saat sonra", "Sıra gelince"]),
+            ("Sıra gelene kadar ne yapılması önerilir?", ["Sakin bekleyip notlara bakmak", "Telefonla oynamak", "Ofiste dolaşmak", "Başka kişilerle konuşmak"]),
+            ("Metne göre göz teması neden önemlidir?", ["Karşıdakine güven verir", "Sorulara cevap vermeyi kolaylaştırır", "Maaşı artırır", "Süreyi kısaltır"]),
+            ("Bilmediğiniz bir konuda ne söylemek daha iyidir?", ["Henüz öğrenmediğinizi ama öğrenmek istediğinizi", "Hiçbir şey söylememeyi", "Konuyu değiştirmeyi", "Biliyormuş gibi anlatmayı"]),
+        ]),
+    listening=([
+        ("Koç", "Mülakata girmeden önce kendini rahatlatmalısın."),
+        ("Ece", "Çok heyecanlanıyorum. Ellerim titriyor."),
+        ("Koç", "Sıra sana gelinceye kadar derin nefes al. Sorulara acele etmeden cevap ver."),
+        ("Ece", "Peki bilmediğim bir soru gelirse?"),
+        ("Koç", "Dürüst ol. Cevabı bilmesen bile nasıl öğreneceğini anlat."),
+        ("Ece", "Teşekkürler, bu çok işime yarayacak."),
+    ], [
+        ("Murabbiy Ecega birinchi nimani maslahat beradi?", ["Xotirjam bo'lishni", "Ko'proq gapirishni", "Kech qolishni", "Savollarga tez javob berishni"]),
+        ("Bilmagan savol kelsa nima qilish kerak?", ["Rostgo'y bo'lib, qanday o'rganishini aytish", "Indamay turish", "Javobni o'ylab topish", "Savolni o'tkazib yuborish"]),
+    ]),
+    practice=[
+        ('c', "\"Sen kelguningcha kutdim\" turkchada:", ["Sen gelene kadar bekledim.", "Sen geldin kadar bekledim.", "Sen gelmiş kadar bekledim.", "Sen geleceğe kadar bekledim."]),
+        ('c', "\"Hech narsa demasdan chiqib ketdi\" turkchada:", ["Hiçbir şey söylemeksizin çıktı.", "Hiçbir şey söylemeyince çıktı.", "Hiçbir şey söylerken çıktı.", "Hiçbir şey söylesin çıktı."]),
+        ('c', "\"Ovqat pishgunicha\" turkchada:", ["yemek pişinceye kadar", "yemek pişirmek kadar", "yemek pişmiş kadar", "yemek pişsin kadar"]),
+        ('o', "\"Men kelmaguningcha ketma.\" gapini tuzing.", ["Ben", "gelmeyene", "kadar", "gitme."]),
+        ('o', "\"Charchamasdan ishladi.\" gapini tuzing.", ["Yorulmaksızın", "çalıştı."]),
+        ('c', "\"O'ziga ishonch\" turkchada:", ["özgüven", "ipucu", "vurgu", "mesai"]),
+    ],
+    writing=("Do'stingizga ish suhbatiga tayyorlanish bo'yicha 3 ta maslahat yozing.",
+             "Şirketi önceden araştır. Mülakata on dakika erken git. Göz teması kurarak sakin konuş."),
+    speaking=["Sen gelene kadar bekledim.", "Yemek pişinceye kadar çalıştım.", "Hiçbir şey söylemeksizin çıktı.", "Başarının püf noktası düzenli çalışmaktır."],
+    test=[
+        ("\"Sen gelene kadar bekledim\" gapining ma'nosi:", ["Sen kelguningcha kutdim.", "Sen kelding, shuning uchun kutdim.", "Sen kelmading, ketdim.", "Sen kelasan, kutaman."]),
+        ("-(y)IncAyA kadar qaysi ma'noni beradi?", ["...guncha", "...ganda", "...ganidan beri", "...gani uchun"]),
+        ("-mAksIzIn qo'shimchasi nimani bildiradi?", ["...masdan", "...gandan keyin", "...guncha", "...ganda"]),
+        ("\"Sen gelmeyene kadar gitmem\" ma'nosi:", ["Sen kelmaguningcha ketmayman.", "Sen kelding, ketaman.", "Sen kelasan, ketaman.", "Sen kelmading, ketdim."]),
+        ("Qaysi gap grammatik jihatdan to'g'ri?", ["Çay demlenceye kadar bekledik.", "Çay demlenmiş kadar bekledik.", "Çay demlendi kadar bekledik.", "Çay demlenir kadar bekledik."]),
+        ("\"Özgüven\" so'zining ma'nosi:", ["o'ziga ishonch", "sabr", "tayyorgarlik", "muloqot"]),
+        ("\"Uyum sağlamak\" nima degani?", ["moslashmoq", "kelishmovchilik qilmoq", "vaqtida kelmoq", "tayyorlanmoq"]),
+        ("\"Dakik\" so'zining ma'nosi:", ["aniq, vaqtida", "sust", "sabrli", "xotirjam"]),
+        ("\"Göz teması kurmak\" nima degani?", ["ko'z bilan aloqa o'rnatmoq", "ko'zni yummoq", "tikilib turmoq", "ko'z yoshi to'kmoq"]),
+        ("\"Püf noktası\" nima?", ["nozik va muhim jihat", "yengil tushlik", "ta'til kuni", "ish haqi"]),
+    ],
+    bank=[
+        ("\"Yemek pişene kadar çalıştım\" ma'nosi:", ["Ovqat pishgunicha ishladim.", "Ovqat pishirgani ishladim.", "Ovqat pishgach ishladim.", "Ovqat pishdi, ishlamadim."]),
+        ("\"Toplantı bitinceye kadar telefonumu kapattım\" ma'nosi:", ["Majlis tugaguncha telefonimni o'chirdim.", "Majlisdan keyin telefonni yoqdim.", "Majlis tugamadi.", "Telefonim buzildi."]),
+        ("-mAksIzIn ning og'zaki ma'nodoshi qaysi?", ["-mAdAn", "-ken", "-ip", "-dikçe"]),
+        ("Qaysi gap -mAksIzIn bilan to'g'ri tuzilgan?", ["Yorulmaksızın çalıştı.", "Yorulmaksızın çalışıyor mu.", "Yorulmaksız çalıştı.", "Yorulmakta çalıştı."]),
+        ("\"Hazırlıklı\" so'zining ma'nosi:", ["tayyor", "sust", "xafa", "uyquchan"]),
+        ("\"Vurgu\" so'zi nima?", ["urg'u", "ovoz", "tinish belgisi", "bo'g'in"]),
+        ("\"Kaçınmak\" nima degani?", ["o'zini tiymoq", "qo'shilmoq", "yordam bermoq", "kutmoq"]),
+        ("\"Güven vermek\" nima degani?", ["ishonch uyg'otmoq", "qarz bermoq", "javob bermoq", "sovg'a bermoq"]),
+        ("\"İletişim\" so'zining ma'nosi:", ["muloqot, aloqa", "e'lon", "ish vaqti", "ma'lumot"]),
+        ("\"Sabırlı\" qanday odam?", ["sabrli", "shoshqaloq", "xotirjam emas", "bepisand"]),
+        ("\"Ben gelinceye kadar gitme\" ma'nosi:", ["Men kelgunimcha ketma.", "Men kelganda ket.", "Men kelmasam, ket.", "Men ketdim."]),
+        ("\"İpucu\" so'zining ma'nosi:", ["ishora, maslahat", "yo'l", "sovg'a", "so'z"]),
+    ],
+)

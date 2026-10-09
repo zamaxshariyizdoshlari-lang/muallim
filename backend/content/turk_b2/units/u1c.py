@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u1c', "C. Eğitim ve Bilgilendirme — Ta'lim va ma'lumot berish", 24, 34,
+    goals=[
+        "Hikâye birleşik zamanlarini (-mIştI, -Iyordu, -IrdI, -AcAktI) ajratish",
+        "O'tmishdagi vaziyatni boshqa voqea fonida tasvirlash",
+        "Ta'lim va almashinuv dasturlari haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("Hikâye shakli: zamon + idi",
+         "Turkchada ekfiil -(y)DI (edi) fe'l zamonlariga qo'shilib, o'tmishdagi holatni bildiradi: gelmişti, geliyordu, gelirdi, gelecekti. Bularni \"hikâye birleşik zamanlar\" deyiladi. Ularning har biri o'tmishdagi boshqa voqeaga nisbatan ishni joylashtiradi.\n\nShakllanishi: o'zak + zamon qo'shimchasi + -DI + shaxs: gel-miş-ti-m, gel-iyor-du-m, gel-ir-di-m, gel-ecek-ti-m."),
+        ("Qaysi shakl qachon ishlatiladi",
+         "-mIştI: boshqa voqeadan oldin tugagan ish. \"Ben geldiğimde ders başlamıştı.\" (Men kelganimda dars boshlangan edi.)\n-Iyordu: o'tmishda davom etayotgan ish. \"Ben geldiğimde öğretmen anlatıyordu.\" (Men kelganimda ustoz tushuntirayotgan edi.)\n-IrdI: o'tmishdagi odat. \"Çocukken her yaz köye giderdik.\" (Bolaligimizda har yozda qishloqqa borardik.)\n-AcAktI: o'tmishda rejalashtirilgan ish. \"Toplantı beşte başlayacaktı.\" (Majlis beshda boshlanishi kerak edi.)"),
+        ("-mAlIydI va -sAydI",
+         "-mAlIydI: o'tmishda bajarilishi kerak bo'lgan, lekin bajarilmagan ish: \"Daha çok çalışmalıydın.\" (Ko'proq ishlashing kerak edi.)\n-sAydI: o'tmishdagi shartli ish: \"Bursu kazansaydım, yurt dışında okurdum.\" (Stipendiyani yutganimda, chet elda o'qirdim.)"),
+    ],
+    facts=[
+        "-mIştI: boshqa ishdan oldin tugagan ish (gelmişti).",
+        "-Iyordu / -IrdI: davom etgan ish / odat (geliyordu, gelirdi).",
+        "-AcAktI: o'tmishda rejalashtirilgan ish; -mAlIydI: kerak edi, lekin bo'lmagan.",
+    ],
+    vocab=[
+        ("eğitim", "ta'lim", "Eğitim hayat boyu sürer.", "Ta'lim umr bo'yi davom etadi."),
+        ("bilgilendirme", "ma'lumot berish", "Öğrencilere bilgilendirme toplantısı yapıldı.", "Talabalar uchun ma'lumot berish yig'ilishi o'tkazildi."),
+        ("burs", "stipendiya", "Başarılı öğrencilere burs veriliyor.", "A'lochi talabalarga stipendiya beriladi."),
+        ("kayıt", "ro'yxatdan o'tish", "Kayıt tarihi pazartesi başlıyor.", "Ro'yxatdan o'tish dushanba kuni boshlanadi."),
+        ("mezun olmak", "bitirmoq (o'quv yurtini)", "Geçen yıl üniversiteden mezun oldum.", "O'tgan yili universitetni bitirdim."),
+        ("değişim programı", "almashinuv dasturi", "Değişim programıyla Almanya'ya gitti.", "Almashinuv dasturi orqali Germaniyaga ketdi."),
+        ("devamsızlık", "darsga qatnashmaslik", "Çok devamsızlık yapan öğrenci sınava giremez.", "Ko'p dars qoldirgan talaba imtihonga kira olmaydi."),
+        ("ders programı", "dars jadvali", "Ders programına göre bugün iki dersimiz var.", "Dars jadvaliga ko'ra bugun ikki darsimiz bor."),
+        ("danışman", "maslahatchi, kurator", "Danışmanım bana staj için yardım etti.", "Kuratorim menga amaliyot topishda yordam berdi."),
+        ("yurt", "talabalar yotoqxonasi", "Üniversite yurdunda iki kişilik odada kalıyorum.", "Universitet yotoqxonasida ikki kishilik xonada turaman."),
+        ("sınav", "imtihon", "Sınav sonuçları yarın açıklanacak.", "Imtihon natijalari ertaga e'lon qilinadi."),
+        ("staj", "amaliyot", "Yaz tatilinde bir bankada staj yaptım.", "Yozgi ta'tilda bir bankda amaliyot o'tadim."),
+    ],
+    reading=("Değişim programı sayesinde",
+        "Ayşe, üniversiteye başladığında yurt dışına gitmeyi hiç düşünmemişti. İkinci yılında danışmanı ona değişim programından bahsetti. Başlangıçta çekiniyordu, çünkü yabancı bir ülkede yaşamak ona zor görünüyordu. Yine de başvurdu ve bursu kazandı.\n\nPolonya'ya gittiğinde dersler çoktan başlamıştı. İlk haftalarda sınıfta hocaların söylediklerini anlamıyor, akşamları yurtta arkadaşlarıyla İngilizce konuşmaya çalışıyordu. Her akşam yeni on kelime öğrenirdi. Altıncı ayın sonunda artık ders notlarını bile Lehçe tutabiliyordu.\n\nDönüşte mezuniyet projesini Polonya'daki deneyimi üzerine yazdı. Projeyi sunduktan sonra bir şirket ona staj teklif etti. Ayşe şimdi şöyle diyor: \"Eğer başvurmasaydım, bu fırsatı hiç görmeyecektim. Daha önce başvurmalıydım.\"",
+        [
+            ("Ayşe değişim programını nasıl öğrendi?", ["Danışmanı anlattı", "İnternette okudu", "Arkadaşı söyledi", "Gazetede gördü"]),
+            ("Ayşe başlangıçta neden çekiniyordu?", ["Yabancı ülkede yaşamak zor görünüyordu", "Burs yoktu", "Okulu sevmiyordu", "Ailesi izin vermedi"]),
+            ("Ayşe Polonya'ya gittiğinde ne olmuştu?", ["Dersler çoktan başlamıştı", "Okul kapanmıştı", "Burs bitmişti", "Yurtta yer kalmamıştı"]),
+            ("Ayşe her akşam ne yapardı?", ["Yeni on kelime öğrenirdi", "Müzik dinlerdi", "Sinemaya giderdi", "Yurttan çıkardı"]),
+            ("Ayşe'nin sonunda söylediği cümle neyi anlatır?", ["Daha önce başvurmadığı için pişmanlığını", "Okuldan memnuniyetsizliğini", "Bursun azlığını", "Yurt dışının zorluğunu"]),
+        ]),
+    listening=([
+        ("Hoca", "Dün sizi arıyordum, neredeydiniz?"),
+        ("Öğrenci", "Kayıt işlemleri için dekanlığa gitmiştim."),
+        ("Hoca", "Ders programı hazır olsaydı, bugün başlayacaktık."),
+        ("Öğrenci", "Evet, geçen hafta danışmanımla konuşmalıydım."),
+        ("Hoca", "Önemli değil. Yarın ilk dersi yapacağız."),
+        ("Öğrenci", "Tamam hocam, yarın dersteyim."),
+    ], [
+        ("Talaba kecha nima uchun dekanatga borgan?", ["Ro'yxatdan o'tish ishlari uchun", "Imtihon topshirish uchun", "Stipendiya olish uchun", "Yotoqxona uchun"]),
+        ("Ustoz darsni qachon boshlashni aytdi?", ["Ertaga", "Bugun", "Kelasi hafta", "O'tgan hafta"]),
+    ]),
+    practice=[
+        ('c', "\"Men kelganimda dars boshlangan edi\" turkchada:", ["Ben geldiğimde ders başlamıştı.", "Ben geldiğimde ders başlıyor.", "Ben geldiğimde ders başlayacak.", "Ben geldiğimde ders başlasın."]),
+        ('c', "\"Bolaligimizda har yozda qishloqqa borardik\" turkchada:", ["Çocukken her yaz köye giderdik.", "Çocukken her yaz köye gitmiştik.", "Çocukken her yaz köye gidecektik.", "Çocukken her yaz köye gitsek."]),
+        ('c', "\"Ko'proq ishlashing kerak edi\" turkchada:", ["Daha çok çalışmalıydın.", "Daha çok çalışmalısın.", "Daha çok çalışırsın.", "Daha çok çalıştın."]),
+        ('o', "\"U stipendiya yutgan edi.\" gapini tuzing.", ["O", "bursu", "kazanmıştı."]),
+        ('o', "\"Majlis beshda boshlanishi kerak edi.\" gapini tuzing.", ["Toplantı", "beşte", "başlayacaktı."]),
+        ('c', "\"Almashinuv dasturi\" turkchada:", ["değişim programı", "ders programı", "kayıt programı", "burs programı"]),
+    ],
+    writing=("O'tmishdagi bir voqeani 3 gapda yozing: siz kelganingizda nima bo'lgan edi?",
+             "Eve geldiğimde annem yemek yapıyordu. Babam gazete okuyordu. Kardeşim ise ders çalışmıştı."),
+    speaking=["Ben geldiğimde ders başlamıştı.", "Çocukken her yaz köye giderdik.", "Daha çok çalışmalıydın.", "Değişim programıyla yurt dışına gitti."],
+    test=[
+        ("-mIştI shakli nimani bildiradi?", ["boshqa voqeadan oldin tugagan ish", "odat", "kelasi rejalashtirilgan ish", "buyruq"]),
+        ("\"Ben gelirken öğretmen anlatıyordu\" - \"anlatıyordu\" nimani bildiradi?", ["o'tmishda davom etgan ish", "tugagan ish", "odat", "kelajak"]),
+        ("\"Çocukken her yaz köye giderdik\" - \"giderdik\" nimani bildiradi?", ["o'tmishdagi odat", "bir martalik ish", "kelasi ish", "taxmin"]),
+        ("\"Toplantı beşte başlayacaktı\" nima degani?", ["Majlis beshda boshlanishi kerak edi.", "Majlis beshda boshlandi.", "Majlis boshlanmaydi.", "Majlis tugadi."]),
+        ("\"Daha çok çalışmalıydın\" nima degani?", ["Ko'proq ishlashing kerak edi.", "Ko'p ishlading.", "Kam ishlaysan.", "Ishlamaysan."]),
+        ("\"Burs\" so'zining ma'nosi:", ["stipendiya", "imtihon", "yotoqxona", "amaliyot"]),
+        ("\"Mezun olmak\" nima degani?", ["o'quv yurtini bitirmoq", "o'qishni tashlamoq", "ro'yxatdan o'tmoq", "imtihon topshirmoq"]),
+        ("\"Devamsızlık\" nima?", ["darsga qatnashmaslik", "dars jadvali", "imtihon", "stipendiya"]),
+        ("\"Danışman\" kim?", ["maslahatchi, kurator", "o'quvchi", "rahbar", "yozuvchi"]),
+        ("\"Staj\" so'zining ma'nosi:", ["amaliyot", "ta'til", "dars", "imtihon"]),
+    ],
+    bank=[
+        ("\"Gelmişti\" qaysi zamon?", ["hikâye (o'tmishdagi tugagan ish)", "hozirgi zamon", "kelasi zamon", "buyruq"]),
+        ("\"Geliyordu\" qaysi ma'noda?", ["o'tmishda davom etgan ish", "kelasi ish", "buyruq", "taxmin"]),
+        ("\"Gelecekti\" nima degani?", ["kelishi kerak edi (rejalashgan)", "keldi", "keladi", "kelmasin"]),
+        ("\"Kayıt\" so'zining ma'nosi:", ["ro'yxatdan o'tish", "imtihon", "o'qish", "ta'til"]),
+        ("\"Değişim programı\" nima?", ["almashinuv dasturi", "dars jadvali", "ish dasturi", "stipendiya"]),
+        ("\"Yurt\" talabalar uchun nima?", ["yotoqxona", "kutubxona", "oshxona", "sinf"]),
+        ("\"Ders programı\" nima?", ["dars jadvali", "imtihon natijasi", "stipendiya", "diplom"]),
+        ("\"Bilgilendirme\" nima?", ["ma'lumot berish", "imtihon", "ro'yxatga olish", "tarjima"]),
+        ("\"Sınav sonuçları yarın açıklanacak\" nima degani?", ["Imtihon natijalari ertaga e'lon qilinadi.", "Natijalar e'lon qilindi.", "Imtihon bekor qilindi.", "Imtihon ertaga bo'ladi."]),
+        ("Qaysi gap to'g'ri?", ["Ben geldiğimde ders başlamıştı.", "Ben geldiğimde ders başlamıştır idi.", "Ben geldiğimde ders başlayordu.", "Ben geldiğimde ders başlıyacaktı idi."]),
+        ("\"Bursu kazansaydım\" nima degani?", ["Stipendiyani yutganimda edi", "Stipendiyani yutdim", "Stipendiyani yutaman", "Stipendiyani yutmayman"]),
+        ("\"Eğitim\" so'zining ma'nosi:", ["ta'lim", "tarbiya", "imtihon", "ish"]),
+    ],
+)

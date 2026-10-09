@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u1a', "A. İş Hayatı — Ish hayoti", 10, 17,
+    goals=[
+        "Fe'ldan sifat yasovchi -r/-Ar/-Ir, -mAz va -AsI qo'shimchalarini taniy olish",
+        "Ish hayoti lug'atini (mülakat, maaş, sözleşme, terfi) qo'llash",
+        "Ish e'loni va ish suhbati haqidagi matnni tushunish",
+    ],
+    blocks=[
+        ("-r / -Ar / -Ir: holat va xususiyat",
+         "Geniş zaman qo'shimchasi (-r, -Ar, -Ir) ba'zan sifat vazifasida keladi va narsaning holatini yoki odatiy xususiyatini bildiradi. Ko'pincha qotib qolgan birikmalarda uchraydi: çalışır durumda (ishlaydigan holatda), okur yazar (savodli), bilir kişi (bilimdon, ekspert), geçer not (o'tish bali).\n\nMisol: \"Bu yazıcı çalışır durumda.\" (Bu printer ishlaydigan holatda.) \"Büyükannem okur yazar değildi.\" (Buvim savodli emas edi.)"),
+        ("-mAz: ...maydigan, ...mas",
+         "-mAz inkor shakldagi sifat-fe'l: u biror narsaning hech qachon bunday bo'lmasligini ko'rsatadi: tükenmez kalem (siyohi tugamaydigan ruchka), kırılmaz bardak (sinmaydigan stakan), yanmaz kumaş (yonmaydigan mato), bitmez dert (tugamas dard), unutulmaz anı (unutilmas xotira), inanılmaz başarı (ishonib bo'lmas muvaffaqiyat).\n\nMisol: \"Bu çok unutulmaz bir geceydi.\" (Bu juda unutilmas kecha edi.)"),
+        ("-AsI: arziydigan, kerak bo'ladigan",
+         "-AsI ko'pincha majhul nisbatdagi fe'lga qo'shilib, \"shunga arziydigan, shunday qilinishi lozim\" ma'nosini beradi: görülesi yer (ko'rishga arziydigan joy), okunası kitap (o'qishga arziydigan kitob). Bu shakl kamroq ishlatiladi; ko'p hollarda uning o'rniga -(y)AcAk yoki -mAlI keladi: görülecek yer, okunması gereken kitap."),
+    ],
+    facts=[
+        "-r/-Ar/-Ir sifat vazifasida: çalışır durumda, okur yazar, bilir kişi, geçer not.",
+        "-mAz = ...maydigan: tükenmez kalem, kırılmaz bardak, unutulmaz anı.",
+        "-AsI = ...ishga arziydigan: görülesi yer, okunası kitap.",
+    ],
+    vocab=[
+        ("mülakat", "ish uchun suhbat", "Yarın saat onda mülakatım var.", "Ertaga soat o'nda suhbatim bor."),
+        ("özgeçmiş", "rezyume", "Özgeçmişimi e-postayla gönderdim.", "Rezyumemni elektron pochta orqali yubordim."),
+        ("başvuru", "ariza, murojaat", "Başvuru için son tarih cumadır.", "Ariza topshirishning oxirgi kuni juma."),
+        ("maaş", "oylik maosh", "Maaşım ayın beşinde yatıyor.", "Oyligim oyning beshida tushadi."),
+        ("terfi", "lavozim ko'tarilishi", "Başarılı çalışması sayesinde terfi aldı.", "Muvaffaqiyatli ishi tufayli lavozimi ko'tarildi."),
+        ("mesai", "ish vaqti", "Mesai sabah sekizde başlıyor.", "Ish vaqti ertalab sakkizda boshlanadi."),
+        ("işveren", "ish beruvchi", "İşveren yeni çalışanlarla görüştü.", "Ish beruvchi yangi xodimlar bilan gaplashdi."),
+        ("sözleşme", "shartnoma", "Sözleşmeyi imzalamadan önce dikkatle okudum.", "Shartnomani imzolashdan oldin diqqat bilan o'qidim."),
+        ("deneyim", "tajriba", "Bu iş için en az iki yıl deneyim gerekiyor.", "Bu ish uchun kamida ikki yillik tajriba kerak."),
+        ("istifa etmek", "iste'foga chiqmoq", "Yeni bir iş bulunca istifa etti.", "Yangi ish topgach, iste'foga chiqdi."),
+        ("kariyer", "karyera", "Kariyerimde yeni bir sayfa açıyorum.", "Karyeramda yangi sahifa ochyapman."),
+        ("meslektaş", "hamkasb", "Meslektaşlarımla aram çok iyi.", "Hamkasblarim bilan munosabatim juda yaxshi."),
+    ],
+    reading=("Yeni iş, yeni umutlar",
+        "Kemal üç yıldır küçük bir ajansta grafik tasarımcı olarak çalışıyordu. Maaşı fena değildi ama terfi alma ihtimali yoktu. Bir gün internette büyük bir şirketin iş ilanını gördü. İlanda okur yazar olmak yetmiyordu; çalışır durumda bir bilgisayar, en az iki yıl deneyim ve güçlü bir portfolyo isteniyordu. Kemal özgeçmişini hazırladı, eski işlerinden örnekler ekledi ve başvurdu.\n\nBir hafta sonra mülakata çağrıldı. Heyecanlıydı; geceyi neredeyse uyumadan geçirdi. Mülakatta ona zor bir müşteriyle nasıl çalıştığı soruldu. Kemal şöyle cevap verdi: \"Bitmez bir şikâyet listesiyle gelen bir müşterim vardı. Sabırla dinledim, her isteği not ettim ve üç günde yeni bir tasarım sundum.\" Yöneticiler bu cevaptan çok etkilendi.\n\nİki gün sonra telefon çaldı. Şirket ona sözleşme teklif etti. Yeni maaşı eskisinden yüzde otuz fazlaydı. Kemal hem sevindi hem de eski meslektaşlarından ayrılacağı için biraz üzüldü.",
+        [
+            ("Kemal neden yeni bir işe başvurdu?", ["Eski işinde terfi alma ihtimali yoktu", "Maaşı çok düşüktü", "İşten çıkarıldı", "Okulu yeni bitirdi"]),
+            ("İlanda aşağıdakilerden hangisi isteniyordu?", ["Deneyim ve güçlü bir portfolyo", "Yüksek lisans diploması", "Yurt dışında yaşamış olmak", "Sadece iyi bir özgeçmiş"]),
+            ("Mülakatta Kemal'e hangi soru soruldu?", ["Zor bir müşteriyle nasıl çalıştığı", "Neden istifa ettiği", "Maaş beklentisi", "Kaç dil bildiği"]),
+            ("Kemal zor müşteriyi nasıl memnun etti?", ["Sabırla dinleyip üç günde yeni tasarım sundu", "Fiyatı düşürdü", "Müşteriyi başka bir ajansa yönlendirdi", "Şikâyet listesini yok saydı"]),
+            ("Yeni maaşı eskisine göre nasıldı?", ["Yüzde otuz daha fazlaydı", "Aynıydı", "Yüzde otuz daha azdı", "İki katıydı"]),
+        ]),
+    listening=([
+        ("Zeynep", "Murat, mülakat nasıl geçti?"),
+        ("Murat", "İyi geçti. Özgeçmişimi okudular ve deneyimimi sordular."),
+        ("Zeynep", "Maaş konusunu konuştunuz mu?"),
+        ("Murat", "Evet, ama kesin bir şey söylemediler. Hafta sonuna kadar haber verecekler."),
+        ("Zeynep", "Umarım olumlu olur. Çalışır durumda bir telefonun olsun, seni arayabilirler."),
+        ("Murat", "Haklısın, şarjını da dolu tutacağım."),
+    ], [
+        ("Mülakatda Murat'dan nimalar so'rashdi?", ["Tajribasi haqida", "Oilasi haqida", "Yoshi haqida", "Hobbilari haqida"]),
+        ("Natija haqida qachongacha xabar berishadi?", ["Hafta oxirigacha", "Ertagacha", "Bir oydan keyin", "Bugun kechqurun"]),
+    ]),
+    practice=[
+        ('c', "\"Ishlaydigan holatda\" turkchada:", ["çalışır durumda", "çalışmaz durumda", "çalışmış durumda", "çalışacak durumda"]),
+        ('c', "\"Tugamaydigan ruchka\" turkchada:", ["tükenmez kalem", "tükenen kalem", "tükenmiş kalem", "tükenecek kalem"]),
+        ('c', "\"Ko'rishga arziydigan joy\" turkchada:", ["görülesi yer", "görülen yer", "görmüş yer", "görecek yer"]),
+        ('o', "\"Men ish uchun rezyumemni yubordim.\" gapini tuzing.", ["İş", "için", "özgeçmişimi", "gönderdim."]),
+        ('o', "\"Oyligim oyning beshida tushadi.\" gapini tuzing.", ["Maaşım", "ayın", "beşinde", "yatıyor."]),
+        ('c', "\"Savodli\" turkchada:", ["okur yazar", "okuyan yazan", "okumuş yazmış", "okuyacak yazacak"]),
+    ],
+    writing=("Siz ish e'loniga murojaat qilyapsiz. O'zingiz haqingizda 3 gap yozing (tajriba, tillar, ish vaqti).",
+             "Üç yıldır muhasebeci olarak çalışıyorum. İngilizce ve Türkçe biliyorum. Mesaiye kolayca uyum sağlarım."),
+    speaking=["Yarın saat onda mülakatım var.", "Bu iş için iki yıl deneyim gerekiyor.", "Maaşım ayın beşinde yatıyor.", "Unutulmaz bir iş günüydü."],
+    test=[
+        ("-mAz qo'shimchasi sifat yasaganda nimani bildiradi?", ["...maydigan, ...mas (inkor xususiyat)", "...gan (o'tgan zamon)", "...moqchi (kelasi zamon)", "...ganda (payt)"]),
+        ("\"Kırılmaz bardak\" nima degani?", ["sinmaydigan stakan", "sinib qolgan stakan", "sinadigan stakan", "sindirilgan stakan"]),
+        ("Qaysi gapda -r sifat-fe'li to'g'ri ishlatilgan?", ["Bu yazıcı çalışır durumda.", "Bu yazıcı çalışırdır durumda.", "Bu yazıcı çalışıyorsa durumda.", "Bu yazıcı çalışıp durumda."]),
+        ("\"Okur yazar\" so'z birikmasi nima degani?", ["savodli", "kutubxonachi", "yozuvchi", "tarjimon"]),
+        ("\"Unutulmaz\" so'zining ma'nosi:", ["unutib bo'lmaydigan", "unutilgan", "unutiladigan", "unutmoqchi"]),
+        ("\"Mülakat\" so'zining ma'nosi:", ["ish uchun suhbat", "oylik maosh", "shartnoma", "ta'til"]),
+        ("\"Terfi\" so'zining ma'nosi:", ["lavozim ko'tarilishi", "iste'fo", "ish haqi", "ish vaqti"]),
+        ("\"Görülesi yer\" birikmasi nimani bildiradi?", ["ko'rishga arziydigan joy", "ko'rilgan joy", "hech ko'rinmaydigan joy", "ko'rayotgan joy"]),
+        ("\"Maaşım ayın beşinde yatıyor.\" gapida \"maaş\" nima?", ["oylik", "soliq", "ish vaqti", "ta'til"]),
+        ("\"İstifa etmek\" nima degani?", ["iste'foga chiqmoq", "ishga kirmoq", "terfi olmoq", "maosh olmoq"]),
+    ],
+    bank=[
+        ("\"Yanmaz kumaş\" nima degani?", ["yonmaydigan mato", "yonib ketgan mato", "yonadigan mato", "qimmat mato"]),
+        ("\"Geçer not\" nima?", ["o'tish bali", "past baho", "imtihon vaqti", "izoh"]),
+        ("Qaysi birikmada -mAz sifat-fe'li bor?", ["inanılmaz başarı", "dün geldi", "şimdi çalışıyor", "yarın okuyacak"]),
+        ("\"Çalışır durumda\" birikmasida \"çalışır\" qanday vazifada?", ["holatni bildiruvchi sifat vazifasida", "o'tgan zamon fe'li", "ega", "to'ldiruvchi"]),
+        ("\"Mesai\" so'zi nimani bildiradi?", ["ish vaqti", "ish haqi", "ish joyi", "ish arizasi"]),
+        ("\"Deneyim\" so'zining ma'nosi:", ["tajriba", "ta'til", "diplom", "sertifikat"]),
+        ("\"Sözleşme imzalamak\" nima degani?", ["shartnoma imzolamoq", "ariza yozmoq", "ish qidirmoq", "iste'foga chiqmoq"]),
+        ("\"Okunası kitap\" nima degani?", ["o'qishga arziydigan kitob", "o'qilgan kitob", "hech o'qilmaydigan kitob", "o'qiyotgan kitob"]),
+        ("Qaysi gap to'g'ri?", ["Bu bitmez bir dert.", "Bu bitmezdi bir dert.", "Bu bitirmez bir dert.", "Bu bitmeyen dertir bir."]),
+        ("\"Başvuru\" so'zining ma'nosi:", ["ariza, murojaat", "tavsiya", "mukofot", "ta'til"]),
+        ("\"Meslektaş\" kim?", ["hamkasb", "rahbar", "mijoz", "o'quvchi"]),
+        ("\"Kariyer\" so'zining ma'nosi:", ["karyera", "oylik", "sinov", "ish vaqti"]),
+    ],
+)

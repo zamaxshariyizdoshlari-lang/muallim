@@ -1,0 +1,1208 @@
+{
+  "format_version": 1,
+  "book": {
+    "key": "turk_b2",
+    "title": "Turk tili B2 (Yedi İklim)",
+    "description": "Yedi İklim Türkçe B2 darsligi mundarijasi asosida: yuqori o'rta daraja, 8 ünite, 24 mavzu, o'zbek tilida tushuntirilgan.",
+    "subject": "turk-tili",
+    "subject_title": "Turk tili"
+  },
+  "sections": [
+    {
+      "key": "u1",
+      "title": "1-ünite. Mesleğimde İlerliyorum (Kasbimda yuksalaman)",
+      "topics": [
+        {
+          "key": "u1a",
+          "title": "A. İş Hayatı — Ish hayoti",
+          "start_page": 10,
+          "end_page": 17,
+          "explanation": {
+            "goals": [
+              "Fe'ldan sifat yasovchi -r/-Ar/-Ir, -mAz va -AsI qo'shimchalarini taniy olish",
+              "Ish hayoti lug'atini (mülakat, maaş, sözleşme, terfi) qo'llash",
+              "Ish e'loni va ish suhbati haqidagi matnni tushunish"
+            ],
+            "blocks": [
+              {
+                "heading": "-r / -Ar / -Ir: holat va xususiyat",
+                "text": "Geniş zaman qo'shimchasi (-r, -Ar, -Ir) ba'zan sifat vazifasida keladi va narsaning holatini yoki odatiy xususiyatini bildiradi. Ko'pincha qotib qolgan birikmalarda uchraydi: çalışır durumda (ishlaydigan holatda), okur yazar (savodli), bilir kişi (bilimdon, ekspert), geçer not (o'tish bali).\n\nMisol: \"Bu yazıcı çalışır durumda.\" (Bu printer ishlaydigan holatda.) \"Büyükannem okur yazar değildi.\" (Buvim savodli emas edi.)"
+              },
+              {
+                "heading": "-mAz: ...maydigan, ...mas",
+                "text": "-mAz inkor shakldagi sifat-fe'l: u biror narsaning hech qachon bunday bo'lmasligini ko'rsatadi: tükenmez kalem (siyohi tugamaydigan ruchka), kırılmaz bardak (sinmaydigan stakan), yanmaz kumaş (yonmaydigan mato), bitmez dert (tugamas dard), unutulmaz anı (unutilmas xotira), inanılmaz başarı (ishonib bo'lmas muvaffaqiyat).\n\nMisol: \"Bu çok unutulmaz bir geceydi.\" (Bu juda unutilmas kecha edi.)"
+              },
+              {
+                "heading": "-AsI: arziydigan, kerak bo'ladigan",
+                "text": "-AsI ko'pincha majhul nisbatdagi fe'lga qo'shilib, \"shunga arziydigan, shunday qilinishi lozim\" ma'nosini beradi: görülesi yer (ko'rishga arziydigan joy), okunası kitap (o'qishga arziydigan kitob). Bu shakl kamroq ishlatiladi; ko'p hollarda uning o'rniga -(y)AcAk yoki -mAlI keladi: görülecek yer, okunması gereken kitap."
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "-r/-Ar/-Ir sifat vazifasida: çalışır durumda, okur yazar, bilir kişi, geçer not."
+              },
+              {
+                "fact": "-mAz = ...maydigan: tükenmez kalem, kırılmaz bardak, unutulmaz anı."
+              },
+              {
+                "fact": "-AsI = ...ishga arziydigan: görülesi yer, okunası kitap."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "mülakat",
+                "uz": "ish uchun suhbat",
+                "example_tr": "Yarın saat onda mülakatım var.",
+                "example_uz": "Ertaga soat o'nda suhbatim bor."
+              },
+              {
+                "tr": "özgeçmiş",
+                "uz": "rezyume",
+                "example_tr": "Özgeçmişimi e-postayla gönderdim.",
+                "example_uz": "Rezyumemni elektron pochta orqali yubordim."
+              },
+              {
+                "tr": "başvuru",
+                "uz": "ariza, murojaat",
+                "example_tr": "Başvuru için son tarih cumadır.",
+                "example_uz": "Ariza topshirishning oxirgi kuni juma."
+              },
+              {
+                "tr": "maaş",
+                "uz": "oylik maosh",
+                "example_tr": "Maaşım ayın beşinde yatıyor.",
+                "example_uz": "Oyligim oyning beshida tushadi."
+              },
+              {
+                "tr": "terfi",
+                "uz": "lavozim ko'tarilishi",
+                "example_tr": "Başarılı çalışması sayesinde terfi aldı.",
+                "example_uz": "Muvaffaqiyatli ishi tufayli lavozimi ko'tarildi."
+              },
+              {
+                "tr": "mesai",
+                "uz": "ish vaqti",
+                "example_tr": "Mesai sabah sekizde başlıyor.",
+                "example_uz": "Ish vaqti ertalab sakkizda boshlanadi."
+              },
+              {
+                "tr": "işveren",
+                "uz": "ish beruvchi",
+                "example_tr": "İşveren yeni çalışanlarla görüştü.",
+                "example_uz": "Ish beruvchi yangi xodimlar bilan gaplashdi."
+              },
+              {
+                "tr": "sözleşme",
+                "uz": "shartnoma",
+                "example_tr": "Sözleşmeyi imzalamadan önce dikkatle okudum.",
+                "example_uz": "Shartnomani imzolashdan oldin diqqat bilan o'qidim."
+              },
+              {
+                "tr": "deneyim",
+                "uz": "tajriba",
+                "example_tr": "Bu iş için en az iki yıl deneyim gerekiyor.",
+                "example_uz": "Bu ish uchun kamida ikki yillik tajriba kerak."
+              },
+              {
+                "tr": "istifa etmek",
+                "uz": "iste'foga chiqmoq",
+                "example_tr": "Yeni bir iş bulunca istifa etti.",
+                "example_uz": "Yangi ish topgach, iste'foga chiqdi."
+              },
+              {
+                "tr": "kariyer",
+                "uz": "karyera",
+                "example_tr": "Kariyerimde yeni bir sayfa açıyorum.",
+                "example_uz": "Karyeramda yangi sahifa ochyapman."
+              },
+              {
+                "tr": "meslektaş",
+                "uz": "hamkasb",
+                "example_tr": "Meslektaşlarımla aram çok iyi.",
+                "example_uz": "Hamkasblarim bilan munosabatim juda yaxshi."
+              }
+            ],
+            "reading": {
+              "title": "Yeni iş, yeni umutlar",
+              "text": "Kemal üç yıldır küçük bir ajansta grafik tasarımcı olarak çalışıyordu. Maaşı fena değildi ama terfi alma ihtimali yoktu. Bir gün internette büyük bir şirketin iş ilanını gördü. İlanda okur yazar olmak yetmiyordu; çalışır durumda bir bilgisayar, en az iki yıl deneyim ve güçlü bir portfolyo isteniyordu. Kemal özgeçmişini hazırladı, eski işlerinden örnekler ekledi ve başvurdu.\n\nBir hafta sonra mülakata çağrıldı. Heyecanlıydı; geceyi neredeyse uyumadan geçirdi. Mülakatta ona zor bir müşteriyle nasıl çalıştığı soruldu. Kemal şöyle cevap verdi: \"Bitmez bir şikâyet listesiyle gelen bir müşterim vardı. Sabırla dinledim, her isteği not ettim ve üç günde yeni bir tasarım sundum.\" Yöneticiler bu cevaptan çok etkilendi.\n\nİki gün sonra telefon çaldı. Şirket ona sözleşme teklif etti. Yeni maaşı eskisinden yüzde otuz fazlaydı. Kemal hem sevindi hem de eski meslektaşlarından ayrılacağı için biraz üzüldü.",
+              "questions": [
+                {
+                  "question": "Kemal neden yeni bir işe başvurdu?",
+                  "options": [
+                    "Maaşı çok düşüktü",
+                    "İşten çıkarıldı",
+                    "Eski işinde terfi alma ihtimali yoktu",
+                    "Okulu yeni bitirdi"
+                  ],
+                  "correct_index": 2
+                },
+                {
+                  "question": "İlanda aşağıdakilerden hangisi isteniyordu?",
+                  "options": [
+                    "Yüksek lisans diploması",
+                    "Yurt dışında yaşamış olmak",
+                    "Deneyim ve güçlü bir portfolyo",
+                    "Sadece iyi bir özgeçmiş"
+                  ],
+                  "correct_index": 2
+                },
+                {
+                  "question": "Mülakatta Kemal'e hangi soru soruldu?",
+                  "options": [
+                    "Neden istifa ettiği",
+                    "Maaş beklentisi",
+                    "Kaç dil bildiği",
+                    "Zor bir müşteriyle nasıl çalıştığı"
+                  ],
+                  "correct_index": 3
+                },
+                {
+                  "question": "Kemal zor müşteriyi nasıl memnun etti?",
+                  "options": [
+                    "Müşteriyi başka bir ajansa yönlendirdi",
+                    "Şikâyet listesini yok saydı",
+                    "Sabırla dinleyip üç günde yeni tasarım sundu",
+                    "Fiyatı düşürdü"
+                  ],
+                  "correct_index": 2
+                },
+                {
+                  "question": "Yeni maaşı eskisine göre nasıldı?",
+                  "options": [
+                    "Aynıydı",
+                    "İki katıydı",
+                    "Yüzde otuz daha azdı",
+                    "Yüzde otuz daha fazlaydı"
+                  ],
+                  "correct_index": 3
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Zeynep",
+                  "text": "Murat, mülakat nasıl geçti?"
+                },
+                {
+                  "speaker": "Murat",
+                  "text": "İyi geçti. Özgeçmişimi okudular ve deneyimimi sordular."
+                },
+                {
+                  "speaker": "Zeynep",
+                  "text": "Maaş konusunu konuştunuz mu?"
+                },
+                {
+                  "speaker": "Murat",
+                  "text": "Evet, ama kesin bir şey söylemediler. Hafta sonuna kadar haber verecekler."
+                },
+                {
+                  "speaker": "Zeynep",
+                  "text": "Umarım olumlu olur. Çalışır durumda bir telefonun olsun, seni arayabilirler."
+                },
+                {
+                  "speaker": "Murat",
+                  "text": "Haklısın, şarjını da dolu tutacağım."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Mülakatda Murat'dan nimalar so'rashdi?",
+                  "options": [
+                    "Tajribasi haqida",
+                    "Oilasi haqida",
+                    "Yoshi haqida",
+                    "Hobbilari haqida"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Natija haqida qachongacha xabar berishadi?",
+                  "options": [
+                    "Hafta oxirigacha",
+                    "Bir oydan keyin",
+                    "Ertagacha",
+                    "Bugun kechqurun"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Ishlaydigan holatda\" turkchada:",
+                "options": [
+                  "çalışmış durumda",
+                  "çalışacak durumda",
+                  "çalışmaz durumda",
+                  "çalışır durumda"
+                ],
+                "correct_index": 3
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Tugamaydigan ruchka\" turkchada:",
+                "options": [
+                  "tükenmiş kalem",
+                  "tükenecek kalem",
+                  "tükenmez kalem",
+                  "tükenen kalem"
+                ],
+                "correct_index": 2
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ko'rishga arziydigan joy\" turkchada:",
+                "options": [
+                  "görülen yer",
+                  "görmüş yer",
+                  "görecek yer",
+                  "görülesi yer"
+                ],
+                "correct_index": 3
+              },
+              {
+                "type": "order",
+                "prompt": "\"Men ish uchun rezyumemni yubordim.\" gapini tuzing.",
+                "words": [
+                  "İş",
+                  "için",
+                  "özgeçmişimi",
+                  "gönderdim."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Oyligim oyning beshida tushadi.\" gapini tuzing.",
+                "words": [
+                  "Maaşım",
+                  "ayın",
+                  "beşinde",
+                  "yatıyor."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Savodli\" turkchada:",
+                "options": [
+                  "okur yazar",
+                  "okuyacak yazacak",
+                  "okumuş yazmış",
+                  "okuyan yazan"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Siz ish e'loniga murojaat qilyapsiz. O'zingiz haqingizda 3 gap yozing (tajriba, tillar, ish vaqti).",
+              "sample_answer": "Üç yıldır muhasebeci olarak çalışıyorum. İngilizce ve Türkçe biliyorum. Mesaiye kolayca uyum sağlarım."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Yarın saat onda mülakatım var.",
+                "Bu iş için iki yıl deneyim gerekiyor.",
+                "Maaşım ayın beşinde yatıyor.",
+                "Unutulmaz bir iş günüydü."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "-mAz qo'shimchasi sifat yasaganda nimani bildiradi?",
+              "options": [
+                "...ganda (payt)",
+                "...gan (o'tgan zamon)",
+                "...moqchi (kelasi zamon)",
+                "...maydigan, ...mas (inkor xususiyat)"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Kırılmaz bardak\" nima degani?",
+              "options": [
+                "sinmaydigan stakan",
+                "sinib qolgan stakan",
+                "sindirilgan stakan",
+                "sinadigan stakan"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "Qaysi gapda -r sifat-fe'li to'g'ri ishlatilgan?",
+              "options": [
+                "Bu yazıcı çalışır durumda.",
+                "Bu yazıcı çalışırdır durumda.",
+                "Bu yazıcı çalışıyorsa durumda.",
+                "Bu yazıcı çalışıp durumda."
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Okur yazar\" so'z birikmasi nima degani?",
+              "options": [
+                "tarjimon",
+                "kutubxonachi",
+                "savodli",
+                "yozuvchi"
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "\"Unutulmaz\" so'zining ma'nosi:",
+              "options": [
+                "unutilgan",
+                "unutmoqchi",
+                "unutiladigan",
+                "unutib bo'lmaydigan"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Mülakat\" so'zining ma'nosi:",
+              "options": [
+                "ta'til",
+                "shartnoma",
+                "oylik maosh",
+                "ish uchun suhbat"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Terfi\" so'zining ma'nosi:",
+              "options": [
+                "lavozim ko'tarilishi",
+                "iste'fo",
+                "ish haqi",
+                "ish vaqti"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Görülesi yer\" birikmasi nimani bildiradi?",
+              "options": [
+                "ko'rayotgan joy",
+                "ko'rilgan joy",
+                "ko'rishga arziydigan joy",
+                "hech ko'rinmaydigan joy"
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "\"Maaşım ayın beşinde yatıyor.\" gapida \"maaş\" nima?",
+              "options": [
+                "ta'til",
+                "soliq",
+                "oylik",
+                "ish vaqti"
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "\"İstifa etmek\" nima degani?",
+              "options": [
+                "maosh olmoq",
+                "ishga kirmoq",
+                "iste'foga chiqmoq",
+                "terfi olmoq"
+              ],
+              "correct_index": 2
+            }
+          ]
+        },
+        {
+          "key": "u1b",
+          "title": "B. Püf Noktası — Muhim nuqta",
+          "start_page": 18,
+          "end_page": 23,
+          "explanation": {
+            "goals": [
+              "-(y)AnA kadar, -(y)IncAyA kadar va -mAksIzIn zarf-fe'llarini farqlash",
+              "Maslahat va ko'rsatmalar berish uchun lug'atni qo'llash",
+              "Ish suhbatiga tayyorgarlik haqidagi matnni o'qib tushunish"
+            ],
+            "blocks": [
+              {
+                "heading": "-(y)AnA kadar: ...guncha, ...gunga qadar",
+                "text": "Fe'l o'zagi + -(y)An + -A kadar shakli \"shu ish bo'lguncha\" degan ma'noni beradi. Bosh gapdagi ish shu payt kelgunga qadar davom etadi. Unli bilan tugagan o'zakdan keyin -y- qo'shiladi.\n\nMisol: \"Sen gelene kadar bekledim.\" (Sen kelguningcha kutdim.) \"Yemek pişene kadar çalıştım.\" (Ovqat pishgunicha ishladim.) Inkorda: \"Sen gelmeyene kadar gitmem.\" (Sen kelmaguningcha ketmayman.)"
+              },
+              {
+                "heading": "-(y)IncAyA kadar: ayni ma'no",
+                "text": "-(y)IncAyA kadar ham \"...guncha\" degan ma'noni beradi va -(y)AnA kadar bilan deyarli almashadi. Yozma tilda ko'proq uchraydi.\n\nMisol: \"Çay demlenceye kadar bekledik.\" (Choy damlangunicha kutdik.) \"Toplantı bitinceye kadar telefonumu kapattım.\" (Majlis tugaguncha telefonimni o'chirib qo'ydim.)"
+              },
+              {
+                "heading": "-mAksIzIn: ...masdan",
+                "text": "-mAksIzIn rasmiyroq zarf-fe'l bo'lib, \"...masdan, ...maganicha\" ma'nosini beradi. Uning o'rniga og'zaki tilda -mAdAn ishlatiladi.\n\nMisol: \"Hiçbir şey söylemeksizin odadan çıktı.\" (Hech narsa demasdan xonadan chiqib ketdi.) \"Yorulmaksızın çalıştı.\" (Charchamasdan ishladi.)"
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "-(y)AnA kadar va -(y)IncAyA kadar = ...guncha, ...gunga qadar."
+              },
+              {
+                "fact": "Inkori: gelmeyene kadar, gelmeyinceye kadar (kelmaguncha)."
+              },
+              {
+                "fact": "-mAksIzIn = ...masdan (rasmiy); og'zakida -mAdAn."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "ipucu",
+                "uz": "ishora, maslahat",
+                "example_tr": "Bu soruda sana küçük bir ipucu vereyim.",
+                "example_uz": "Bu savolda senga kichik bir ishora beray."
+              },
+              {
+                "tr": "püf noktası",
+                "uz": "nozik nuqta, muhim jihat",
+                "example_tr": "Başarının püf noktası düzenli çalışmaktır.",
+                "example_uz": "Muvaffaqiyatning muhim jihati muntazam ishlashdir."
+              },
+              {
+                "tr": "özgüven",
+                "uz": "o'ziga ishonch",
+                "example_tr": "Mülakatta özgüven çok önemlidir.",
+                "example_uz": "Suhbatda o'ziga ishonch juda muhim."
+              },
+              {
+                "tr": "hazırlıklı",
+                "uz": "tayyor, tayyorgarlikli",
+                "example_tr": "Sınava hazırlıklı girdi.",
+                "example_uz": "Imtihonga tayyorgarlik bilan kirdi."
+              },
+              {
+                "tr": "vurgu",
+                "uz": "urg'u",
+                "example_tr": "Cümlede doğru yere vurgu yapmalısın.",
+                "example_uz": "Gapda to'g'ri joyga urg'u berishing kerak."
+              },
+              {
+                "tr": "iletişim",
+                "uz": "muloqot, aloqa",
+                "example_tr": "İyi iletişim işi kolaylaştırır.",
+                "example_uz": "Yaxshi muloqot ishni yengillashtiradi."
+              },
+              {
+                "tr": "sabırlı",
+                "uz": "sabrli",
+                "example_tr": "Sabırlı insanlar zor işlerde başarılı olur.",
+                "example_uz": "Sabrli odamlar qiyin ishda muvaffaqiyat qozonadi."
+              },
+              {
+                "tr": "uyum sağlamak",
+                "uz": "moslashmoq",
+                "example_tr": "Yeni ortama çabuk uyum sağladı.",
+                "example_uz": "Yangi muhitga tez moslashdi."
+              },
+              {
+                "tr": "kaçınmak",
+                "uz": "o'zini tiymoq, qochmoq",
+                "example_tr": "Gereksiz sözlerden kaçının.",
+                "example_uz": "Keraksiz so'zlardan o'zingizni tiying."
+              },
+              {
+                "tr": "güven vermek",
+                "uz": "ishonch uyg'otmoq",
+                "example_tr": "Rahat duruşu karşısındakine güven verdi.",
+                "example_uz": "Xotirjam turishi qarshisidagiga ishonch uyg'otdi."
+              },
+              {
+                "tr": "göz teması",
+                "uz": "ko'z bilan aloqa",
+                "example_tr": "Konuşurken göz teması kurmak gerekir.",
+                "example_uz": "Gaplashganda ko'z bilan aloqa o'rnatish kerak."
+              },
+              {
+                "tr": "dakik",
+                "uz": "aniq, vaqtida",
+                "example_tr": "Dakik insanlara herkes güvenir.",
+                "example_uz": "Vaqtida keladigan odamlarga hamma ishonadi."
+              }
+            ],
+            "reading": {
+              "title": "Mülakatın püf noktaları",
+              "text": "İş görüşmesine giden birçok kişi aynı hataları yapar. Birincisi, hazırlıksız gitmektir. Şirketin ne yaptığını öğrenmeksizin mülakata girenler, soruları cevaplarken zorlanır. Bu yüzden görüşmeye gitmeden önce şirketin internet sitesini incelemek gerekir.\n\nİkincisi, zamanı kötü kullanmaktır. Mülakat saatinden en az on dakika önce orada olmalısınız. Sıranız gelene kadar sakin bir şekilde bekleyin; telefonla oynamak yerine notlarınıza bakın.\n\nÜçüncüsü, vücut dilini unutmaktır. Karşınızdakiyle göz teması kurun, sorular bitinceye kadar sözünü kesmeyin. Cevap verirken acele etmeyin; bir saniye düşünmek bile size güven verir.\n\nSon olarak, dürüst olun. Bilmediğiniz bir şeyi biliyormuş gibi anlatmak, uzmanlar tarafından kolayca fark edilir. \"Bunu henüz öğrenmedim ama öğrenmek isterim\" demek çok daha olumlu bir izlenim bırakır.",
+              "questions": [
+                {
+                  "question": "Metne göre mülakata gitmeden önce ne yapılmalıdır?",
+                  "options": [
+                    "Şirketin internet sitesini incelemek",
+                    "Maaş pazarlığı yapmak",
+                    "Arkadaşlardan para almak",
+                    "Şirkette bir gün çalışmak"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Mülakata ne zaman gidilmelidir?",
+                  "options": [
+                    "Bir saat sonra",
+                    "Sıra gelince",
+                    "Tam saatinde",
+                    "En az on dakika önce"
+                  ],
+                  "correct_index": 3
+                },
+                {
+                  "question": "Sıra gelene kadar ne yapılması önerilir?",
+                  "options": [
+                    "Telefonla oynamak",
+                    "Sakin bekleyip notlara bakmak",
+                    "Başka kişilerle konuşmak",
+                    "Ofiste dolaşmak"
+                  ],
+                  "correct_index": 1
+                },
+                {
+                  "question": "Metne göre göz teması neden önemlidir?",
+                  "options": [
+                    "Karşıdakine güven verir",
+                    "Maaşı artırır",
+                    "Süreyi kısaltır",
+                    "Sorulara cevap vermeyi kolaylaştırır"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bilmediğiniz bir konuda ne söylemek daha iyidir?",
+                  "options": [
+                    "Biliyormuş gibi anlatmayı",
+                    "Hiçbir şey söylememeyi",
+                    "Konuyu değiştirmeyi",
+                    "Henüz öğrenmediğinizi ama öğrenmek istediğinizi"
+                  ],
+                  "correct_index": 3
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Koç",
+                  "text": "Mülakata girmeden önce kendini rahatlatmalısın."
+                },
+                {
+                  "speaker": "Ece",
+                  "text": "Çok heyecanlanıyorum. Ellerim titriyor."
+                },
+                {
+                  "speaker": "Koç",
+                  "text": "Sıra sana gelinceye kadar derin nefes al. Sorulara acele etmeden cevap ver."
+                },
+                {
+                  "speaker": "Ece",
+                  "text": "Peki bilmediğim bir soru gelirse?"
+                },
+                {
+                  "speaker": "Koç",
+                  "text": "Dürüst ol. Cevabı bilmesen bile nasıl öğreneceğini anlat."
+                },
+                {
+                  "speaker": "Ece",
+                  "text": "Teşekkürler, bu çok işime yarayacak."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Murabbiy Ecega birinchi nimani maslahat beradi?",
+                  "options": [
+                    "Xotirjam bo'lishni",
+                    "Ko'proq gapirishni",
+                    "Savollarga tez javob berishni",
+                    "Kech qolishni"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Bilmagan savol kelsa nima qilish kerak?",
+                  "options": [
+                    "Savolni o'tkazib yuborish",
+                    "Rostgo'y bo'lib, qanday o'rganishini aytish",
+                    "Indamay turish",
+                    "Javobni o'ylab topish"
+                  ],
+                  "correct_index": 1
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Sen kelguningcha kutdim\" turkchada:",
+                "options": [
+                  "Sen geldin kadar bekledim.",
+                  "Sen gelmiş kadar bekledim.",
+                  "Sen geleceğe kadar bekledim.",
+                  "Sen gelene kadar bekledim."
+                ],
+                "correct_index": 3
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Hech narsa demasdan chiqib ketdi\" turkchada:",
+                "options": [
+                  "Hiçbir şey söylemeksizin çıktı.",
+                  "Hiçbir şey söylerken çıktı.",
+                  "Hiçbir şey söylesin çıktı.",
+                  "Hiçbir şey söylemeyince çıktı."
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ovqat pishgunicha\" turkchada:",
+                "options": [
+                  "yemek pişinceye kadar",
+                  "yemek pişsin kadar",
+                  "yemek pişmiş kadar",
+                  "yemek pişirmek kadar"
+                ],
+                "correct_index": 0
+              },
+              {
+                "type": "order",
+                "prompt": "\"Men kelmaguningcha ketma.\" gapini tuzing.",
+                "words": [
+                  "Ben",
+                  "gelmeyene",
+                  "kadar",
+                  "gitme."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Charchamasdan ishladi.\" gapini tuzing.",
+                "words": [
+                  "Yorulmaksızın",
+                  "çalıştı."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"O'ziga ishonch\" turkchada:",
+                "options": [
+                  "ipucu",
+                  "özgüven",
+                  "vurgu",
+                  "mesai"
+                ],
+                "correct_index": 1
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "Do'stingizga ish suhbatiga tayyorlanish bo'yicha 3 ta maslahat yozing.",
+              "sample_answer": "Şirketi önceden araştır. Mülakata on dakika erken git. Göz teması kurarak sakin konuş."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Sen gelene kadar bekledim.",
+                "Yemek pişinceye kadar çalıştım.",
+                "Hiçbir şey söylemeksizin çıktı.",
+                "Başarının püf noktası düzenli çalışmaktır."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "\"Sen gelene kadar bekledim\" gapining ma'nosi:",
+              "options": [
+                "Sen kelguningcha kutdim.",
+                "Sen kelasan, kutaman.",
+                "Sen kelmading, ketdim.",
+                "Sen kelding, shuning uchun kutdim."
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "-(y)IncAyA kadar qaysi ma'noni beradi?",
+              "options": [
+                "...guncha",
+                "...ganidan beri",
+                "...ganda",
+                "...gani uchun"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "-mAksIzIn qo'shimchasi nimani bildiradi?",
+              "options": [
+                "...gandan keyin",
+                "...masdan",
+                "...ganda",
+                "...guncha"
+              ],
+              "correct_index": 1
+            },
+            {
+              "question": "\"Sen gelmeyene kadar gitmem\" ma'nosi:",
+              "options": [
+                "Sen kelding, ketaman.",
+                "Sen kelmading, ketdim.",
+                "Sen kelmaguningcha ketmayman.",
+                "Sen kelasan, ketaman."
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "Qaysi gap grammatik jihatdan to'g'ri?",
+              "options": [
+                "Çay demlendi kadar bekledik.",
+                "Çay demlenceye kadar bekledik.",
+                "Çay demlenir kadar bekledik.",
+                "Çay demlenmiş kadar bekledik."
+              ],
+              "correct_index": 1
+            },
+            {
+              "question": "\"Özgüven\" so'zining ma'nosi:",
+              "options": [
+                "muloqot",
+                "tayyorgarlik",
+                "o'ziga ishonch",
+                "sabr"
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "\"Uyum sağlamak\" nima degani?",
+              "options": [
+                "kelishmovchilik qilmoq",
+                "moslashmoq",
+                "tayyorlanmoq",
+                "vaqtida kelmoq"
+              ],
+              "correct_index": 1
+            },
+            {
+              "question": "\"Dakik\" so'zining ma'nosi:",
+              "options": [
+                "aniq, vaqtida",
+                "xotirjam",
+                "sabrli",
+                "sust"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Göz teması kurmak\" nima degani?",
+              "options": [
+                "ko'zni yummoq",
+                "ko'z yoshi to'kmoq",
+                "tikilib turmoq",
+                "ko'z bilan aloqa o'rnatmoq"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Püf noktası\" nima?",
+              "options": [
+                "yengil tushlik",
+                "nozik va muhim jihat",
+                "ish haqi",
+                "ta'til kuni"
+              ],
+              "correct_index": 1
+            }
+          ]
+        },
+        {
+          "key": "u1c",
+          "title": "C. Eğitim ve Bilgilendirme — Ta'lim va ma'lumot berish",
+          "start_page": 24,
+          "end_page": 34,
+          "explanation": {
+            "goals": [
+              "Hikâye birleşik zamanlarini (-mIştI, -Iyordu, -IrdI, -AcAktI) ajratish",
+              "O'tmishdagi vaziyatni boshqa voqea fonida tasvirlash",
+              "Ta'lim va almashinuv dasturlari haqidagi lug'atni qo'llash"
+            ],
+            "blocks": [
+              {
+                "heading": "Hikâye shakli: zamon + idi",
+                "text": "Turkchada ekfiil -(y)DI (edi) fe'l zamonlariga qo'shilib, o'tmishdagi holatni bildiradi: gelmişti, geliyordu, gelirdi, gelecekti. Bularni \"hikâye birleşik zamanlar\" deyiladi. Ularning har biri o'tmishdagi boshqa voqeaga nisbatan ishni joylashtiradi.\n\nShakllanishi: o'zak + zamon qo'shimchasi + -DI + shaxs: gel-miş-ti-m, gel-iyor-du-m, gel-ir-di-m, gel-ecek-ti-m."
+              },
+              {
+                "heading": "Qaysi shakl qachon ishlatiladi",
+                "text": "-mIştI: boshqa voqeadan oldin tugagan ish. \"Ben geldiğimde ders başlamıştı.\" (Men kelganimda dars boshlangan edi.)\n-Iyordu: o'tmishda davom etayotgan ish. \"Ben geldiğimde öğretmen anlatıyordu.\" (Men kelganimda ustoz tushuntirayotgan edi.)\n-IrdI: o'tmishdagi odat. \"Çocukken her yaz köye giderdik.\" (Bolaligimizda har yozda qishloqqa borardik.)\n-AcAktI: o'tmishda rejalashtirilgan ish. \"Toplantı beşte başlayacaktı.\" (Majlis beshda boshlanishi kerak edi.)"
+              },
+              {
+                "heading": "-mAlIydI va -sAydI",
+                "text": "-mAlIydI: o'tmishda bajarilishi kerak bo'lgan, lekin bajarilmagan ish: \"Daha çok çalışmalıydın.\" (Ko'proq ishlashing kerak edi.)\n-sAydI: o'tmishdagi shartli ish: \"Bursu kazansaydım, yurt dışında okurdum.\" (Stipendiyani yutganimda, chet elda o'qirdim.)"
+              }
+            ],
+            "key_facts": [
+              {
+                "fact": "-mIştI: boshqa ishdan oldin tugagan ish (gelmişti)."
+              },
+              {
+                "fact": "-Iyordu / -IrdI: davom etgan ish / odat (geliyordu, gelirdi)."
+              },
+              {
+                "fact": "-AcAktI: o'tmishda rejalashtirilgan ish; -mAlIydI: kerak edi, lekin bo'lmagan."
+              }
+            ],
+            "vocabulary": [
+              {
+                "tr": "eğitim",
+                "uz": "ta'lim",
+                "example_tr": "Eğitim hayat boyu sürer.",
+                "example_uz": "Ta'lim umr bo'yi davom etadi."
+              },
+              {
+                "tr": "bilgilendirme",
+                "uz": "ma'lumot berish",
+                "example_tr": "Öğrencilere bilgilendirme toplantısı yapıldı.",
+                "example_uz": "Talabalar uchun ma'lumot berish yig'ilishi o'tkazildi."
+              },
+              {
+                "tr": "burs",
+                "uz": "stipendiya",
+                "example_tr": "Başarılı öğrencilere burs veriliyor.",
+                "example_uz": "A'lochi talabalarga stipendiya beriladi."
+              },
+              {
+                "tr": "kayıt",
+                "uz": "ro'yxatdan o'tish",
+                "example_tr": "Kayıt tarihi pazartesi başlıyor.",
+                "example_uz": "Ro'yxatdan o'tish dushanba kuni boshlanadi."
+              },
+              {
+                "tr": "mezun olmak",
+                "uz": "bitirmoq (o'quv yurtini)",
+                "example_tr": "Geçen yıl üniversiteden mezun oldum.",
+                "example_uz": "O'tgan yili universitetni bitirdim."
+              },
+              {
+                "tr": "değişim programı",
+                "uz": "almashinuv dasturi",
+                "example_tr": "Değişim programıyla Almanya'ya gitti.",
+                "example_uz": "Almashinuv dasturi orqali Germaniyaga ketdi."
+              },
+              {
+                "tr": "devamsızlık",
+                "uz": "darsga qatnashmaslik",
+                "example_tr": "Çok devamsızlık yapan öğrenci sınava giremez.",
+                "example_uz": "Ko'p dars qoldirgan talaba imtihonga kira olmaydi."
+              },
+              {
+                "tr": "ders programı",
+                "uz": "dars jadvali",
+                "example_tr": "Ders programına göre bugün iki dersimiz var.",
+                "example_uz": "Dars jadvaliga ko'ra bugun ikki darsimiz bor."
+              },
+              {
+                "tr": "danışman",
+                "uz": "maslahatchi, kurator",
+                "example_tr": "Danışmanım bana staj için yardım etti.",
+                "example_uz": "Kuratorim menga amaliyot topishda yordam berdi."
+              },
+              {
+                "tr": "yurt",
+                "uz": "talabalar yotoqxonasi",
+                "example_tr": "Üniversite yurdunda iki kişilik odada kalıyorum.",
+                "example_uz": "Universitet yotoqxonasida ikki kishilik xonada turaman."
+              },
+              {
+                "tr": "sınav",
+                "uz": "imtihon",
+                "example_tr": "Sınav sonuçları yarın açıklanacak.",
+                "example_uz": "Imtihon natijalari ertaga e'lon qilinadi."
+              },
+              {
+                "tr": "staj",
+                "uz": "amaliyot",
+                "example_tr": "Yaz tatilinde bir bankada staj yaptım.",
+                "example_uz": "Yozgi ta'tilda bir bankda amaliyot o'tadim."
+              }
+            ],
+            "reading": {
+              "title": "Değişim programı sayesinde",
+              "text": "Ayşe, üniversiteye başladığında yurt dışına gitmeyi hiç düşünmemişti. İkinci yılında danışmanı ona değişim programından bahsetti. Başlangıçta çekiniyordu, çünkü yabancı bir ülkede yaşamak ona zor görünüyordu. Yine de başvurdu ve bursu kazandı.\n\nPolonya'ya gittiğinde dersler çoktan başlamıştı. İlk haftalarda sınıfta hocaların söylediklerini anlamıyor, akşamları yurtta arkadaşlarıyla İngilizce konuşmaya çalışıyordu. Her akşam yeni on kelime öğrenirdi. Altıncı ayın sonunda artık ders notlarını bile Lehçe tutabiliyordu.\n\nDönüşte mezuniyet projesini Polonya'daki deneyimi üzerine yazdı. Projeyi sunduktan sonra bir şirket ona staj teklif etti. Ayşe şimdi şöyle diyor: \"Eğer başvurmasaydım, bu fırsatı hiç görmeyecektim. Daha önce başvurmalıydım.\"",
+              "questions": [
+                {
+                  "question": "Ayşe değişim programını nasıl öğrendi?",
+                  "options": [
+                    "Arkadaşı söyledi",
+                    "Gazetede gördü",
+                    "İnternette okudu",
+                    "Danışmanı anlattı"
+                  ],
+                  "correct_index": 3
+                },
+                {
+                  "question": "Ayşe başlangıçta neden çekiniyordu?",
+                  "options": [
+                    "Burs yoktu",
+                    "Ailesi izin vermedi",
+                    "Yabancı ülkede yaşamak zor görünüyordu",
+                    "Okulu sevmiyordu"
+                  ],
+                  "correct_index": 2
+                },
+                {
+                  "question": "Ayşe Polonya'ya gittiğinde ne olmuştu?",
+                  "options": [
+                    "Dersler çoktan başlamıştı",
+                    "Yurtta yer kalmamıştı",
+                    "Okul kapanmıştı",
+                    "Burs bitmişti"
+                  ],
+                  "correct_index": 0
+                },
+                {
+                  "question": "Ayşe her akşam ne yapardı?",
+                  "options": [
+                    "Müzik dinlerdi",
+                    "Yurttan çıkardı",
+                    "Yeni on kelime öğrenirdi",
+                    "Sinemaya giderdi"
+                  ],
+                  "correct_index": 2
+                },
+                {
+                  "question": "Ayşe'nin sonunda söylediği cümle neyi anlatır?",
+                  "options": [
+                    "Yurt dışının zorluğunu",
+                    "Daha önce başvurmadığı için pişmanlığını",
+                    "Okuldan memnuniyetsizliğini",
+                    "Bursun azlığını"
+                  ],
+                  "correct_index": 1
+                }
+              ]
+            },
+            "listening": {
+              "dialogue": [
+                {
+                  "speaker": "Hoca",
+                  "text": "Dün sizi arıyordum, neredeydiniz?"
+                },
+                {
+                  "speaker": "Öğrenci",
+                  "text": "Kayıt işlemleri için dekanlığa gitmiştim."
+                },
+                {
+                  "speaker": "Hoca",
+                  "text": "Ders programı hazır olsaydı, bugün başlayacaktık."
+                },
+                {
+                  "speaker": "Öğrenci",
+                  "text": "Evet, geçen hafta danışmanımla konuşmalıydım."
+                },
+                {
+                  "speaker": "Hoca",
+                  "text": "Önemli değil. Yarın ilk dersi yapacağız."
+                },
+                {
+                  "speaker": "Öğrenci",
+                  "text": "Tamam hocam, yarın dersteyim."
+                }
+              ],
+              "questions": [
+                {
+                  "question": "Talaba kecha nima uchun dekanatga borgan?",
+                  "options": [
+                    "Imtihon topshirish uchun",
+                    "Yotoqxona uchun",
+                    "Stipendiya olish uchun",
+                    "Ro'yxatdan o'tish ishlari uchun"
+                  ],
+                  "correct_index": 3
+                },
+                {
+                  "question": "Ustoz darsni qachon boshlashni aytdi?",
+                  "options": [
+                    "Ertaga",
+                    "O'tgan hafta",
+                    "Kelasi hafta",
+                    "Bugun"
+                  ],
+                  "correct_index": 0
+                }
+              ]
+            },
+            "sentence_practice": [
+              {
+                "type": "choice",
+                "prompt": "\"Men kelganimda dars boshlangan edi\" turkchada:",
+                "options": [
+                  "Ben geldiğimde ders başlıyor.",
+                  "Ben geldiğimde ders başlayacak.",
+                  "Ben geldiğimde ders başlasın.",
+                  "Ben geldiğimde ders başlamıştı."
+                ],
+                "correct_index": 3
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Bolaligimizda har yozda qishloqqa borardik\" turkchada:",
+                "options": [
+                  "Çocukken her yaz köye gidecektik.",
+                  "Çocukken her yaz köye giderdik.",
+                  "Çocukken her yaz köye gitsek.",
+                  "Çocukken her yaz köye gitmiştik."
+                ],
+                "correct_index": 1
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Ko'proq ishlashing kerak edi\" turkchada:",
+                "options": [
+                  "Daha çok çalışmalısın.",
+                  "Daha çok çalışırsın.",
+                  "Daha çok çalışmalıydın.",
+                  "Daha çok çalıştın."
+                ],
+                "correct_index": 2
+              },
+              {
+                "type": "order",
+                "prompt": "\"U stipendiya yutgan edi.\" gapini tuzing.",
+                "words": [
+                  "O",
+                  "bursu",
+                  "kazanmıştı."
+                ]
+              },
+              {
+                "type": "order",
+                "prompt": "\"Majlis beshda boshlanishi kerak edi.\" gapini tuzing.",
+                "words": [
+                  "Toplantı",
+                  "beşte",
+                  "başlayacaktı."
+                ]
+              },
+              {
+                "type": "choice",
+                "prompt": "\"Almashinuv dasturi\" turkchada:",
+                "options": [
+                  "değişim programı",
+                  "ders programı",
+                  "kayıt programı",
+                  "burs programı"
+                ],
+                "correct_index": 0
+              }
+            ],
+            "writing_prompt": {
+              "instruction": "O'tmishdagi bir voqeani 3 gapda yozing: siz kelganingizda nima bo'lgan edi?",
+              "sample_answer": "Eve geldiğimde annem yemek yapıyordu. Babam gazete okuyordu. Kardeşim ise ders çalışmıştı."
+            },
+            "speaking_prompt": {
+              "sentences": [
+                "Ben geldiğimde ders başlamıştı.",
+                "Çocukken her yaz köye giderdik.",
+                "Daha çok çalışmalıydın.",
+                "Değişim programıyla yurt dışına gitti."
+              ]
+            }
+          },
+          "test": [
+            {
+              "question": "-mIştI shakli nimani bildiradi?",
+              "options": [
+                "kelasi rejalashtirilgan ish",
+                "buyruq",
+                "odat",
+                "boshqa voqeadan oldin tugagan ish"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Ben gelirken öğretmen anlatıyordu\" - \"anlatıyordu\" nimani bildiradi?",
+              "options": [
+                "o'tmishda davom etgan ish",
+                "tugagan ish",
+                "odat",
+                "kelajak"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Çocukken her yaz köye giderdik\" - \"giderdik\" nimani bildiradi?",
+              "options": [
+                "taxmin",
+                "bir martalik ish",
+                "o'tmishdagi odat",
+                "kelasi ish"
+              ],
+              "correct_index": 2
+            },
+            {
+              "question": "\"Toplantı beşte başlayacaktı\" nima degani?",
+              "options": [
+                "Majlis boshlanmaydi.",
+                "Majlis tugadi.",
+                "Majlis beshda boshlandi.",
+                "Majlis beshda boshlanishi kerak edi."
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Daha çok çalışmalıydın\" nima degani?",
+              "options": [
+                "Ko'proq ishlashing kerak edi.",
+                "Ishlamaysan.",
+                "Kam ishlaysan.",
+                "Ko'p ishlading."
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Burs\" so'zining ma'nosi:",
+              "options": [
+                "amaliyot",
+                "imtihon",
+                "yotoqxona",
+                "stipendiya"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Mezun olmak\" nima degani?",
+              "options": [
+                "o'quv yurtini bitirmoq",
+                "o'qishni tashlamoq",
+                "imtihon topshirmoq",
+                "ro'yxatdan o'tmoq"
+              ],
+              "correct_index": 0
+            },
+            {
+              "question": "\"Devamsızlık\" nima?",
+              "options": [
+                "imtihon",
+                "darsga qatnashmaslik",
+                "dars jadvali",
+                "stipendiya"
+              ],
+              "correct_index": 1
+            },
+            {
+              "question": "\"Danışman\" kim?",
+              "options": [
+                "yozuvchi",
+                "o'quvchi",
+                "rahbar",
+                "maslahatchi, kurator"
+              ],
+              "correct_index": 3
+            },
+            {
+              "question": "\"Staj\" so'zining ma'nosi:",
+              "options": [
+                "dars",
+                "imtihon",
+                "ta'til",
+                "amaliyot"
+              ],
+              "correct_index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
