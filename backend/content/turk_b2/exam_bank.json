@@ -364,5 +364,2567 @@
       ],
       "correct_index": 0
     }
+  ],
+  "u2a": [
+    {
+      "question": "\"Kırılmış cam\" nima degani?",
+      "options": [
+        "yangi oyna",
+        "sinadigan oyna",
+        "sinib qolgan oyna",
+        "sindirilayotgan oyna"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dağılmış saç\" nima degani?",
+      "options": [
+        "bo'yalgan soch",
+        "to'zigan soch",
+        "kalta soch",
+        "taralgan soch"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Eş\" so'zining ma'nosi:",
+      "options": [
+        "qarindosh",
+        "do'st",
+        "turmush o'rtog'i",
+        "qo'shni"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Nişan\" nimani bildiradi?",
+      "options": [
+        "kuyovning uyi",
+        "ajrashish",
+        "unashtirish marosimi",
+        "to'y kechasi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Anlaşmak\" nima degani?",
+      "options": [
+        "kelishmoq",
+        "tortishmoq",
+        "ketmoq",
+        "kutmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sorumluluk\" so'zi:",
+      "options": [
+        "sovg'a",
+        "huquq",
+        "to'lov",
+        "mas'uliyat"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Fedakârlık\" so'zi:",
+      "options": [
+        "ochko'zlik",
+        "sust",
+        "dangasalik",
+        "fidoyilik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Gelin\" kim?",
+      "options": [
+        "kuyov",
+        "qo'shni",
+        "kelin",
+        "opa"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yaşlanmış\" qanday ma'noda?",
+      "options": [
+        "yosh",
+        "qarigan",
+        "o'smir",
+        "bola"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "-mIş sifat-fe'li qaysi gapda bor?",
+      "options": [
+        "Yeni evlenmiş çift geldi.",
+        "Çift evlen.",
+        "Çift yarın evlenecek.",
+        "Çift evleniyor."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Boşanmış\" so'zi qaysi turkumga mos?",
+      "options": [
+        "otlashgan sifat-fe'l",
+        "ko'makchi",
+        "ravish",
+        "bog'lovchi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Evlilik\" so'zining ma'nosi:",
+      "options": [
+        "sovg'a",
+        "to'y",
+        "nikoh, turmush",
+        "uy"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u2b": [
+    {
+      "question": "\"Seni aradığımda neden açmadın?\" ma'nosi:",
+      "options": [
+        "Senga qo'ng'iroq qilaman.",
+        "Nega qo'ng'iroq qilmading?",
+        "Qachon qo'ng'iroq qilasan?",
+        "Senga qo'ng'iroq qilganimda nega ko'tarmading?"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Güvenmek\" nima degani?",
+      "options": [
+        "qo'rqmoq",
+        "yordam bermoq",
+        "o'rganmoq",
+        "ishonmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Yardımlaşmak\" nima?",
+      "options": [
+        "kelishmoq",
+        "qarshi turmoq",
+        "bir-biriga yordam bermoq",
+        "kutmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Kırılmak\" (munosabatda) nima?",
+      "options": [
+        "sinmoq",
+        "yiqilmoq",
+        "chiqmoq",
+        "xafa bo'lmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Özlemek\" nima degani?",
+      "options": [
+        "o'ylamoq",
+        "tushunmoq",
+        "sog'inmoq",
+        "yozmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dost\" so'zi:",
+      "options": [
+        "yaqin do'st",
+        "qarindosh",
+        "ustoz",
+        "qo'shni"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "-DIğIndA qo'shimchasi qaysi ma'noga yaqin?",
+      "options": [
+        "...gani uchun",
+        "...masdan",
+        "...maguncha",
+        "...ganda"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Geldiğim sırada kimse yoktu\" ma'nosi:",
+      "options": [
+        "Kelaman, hech kim yo'q.",
+        "Men kelgan chog'da hech kim yo'q edi.",
+        "Men ketdim.",
+        "Men kelsam hech kim yo'q."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yemek yaptığım zaman\" ma'nosi:",
+      "options": [
+        "ovqat qilgan paytimda",
+        "ovqat qilsam",
+        "ovqat qilmasam",
+        "ovqat qilaman"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Samimi\" ning sinonimi:",
+      "options": [
+        "dushman",
+        "içten",
+        "ayri",
+        "uzak"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sır tutmak\" nima degani?",
+      "options": [
+        "sir ochmoq",
+        "sir so'ramoq",
+        "sir yozmoq",
+        "sir saqlamoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Arkadaşlık\" so'zining ma'nosi:",
+      "options": [
+        "qarindoshlik",
+        "ustozlik",
+        "dushmanlik",
+        "do'stlik"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u2c": [
+    {
+      "question": "\"Hal hatır sormak\" nima degani?",
+      "options": [
+        "ruxsat so'ramoq",
+        "qarz so'ramoq",
+        "hol-ahvol so'ramoq",
+        "yo'l so'ramoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Rahatsız etmek\" nima?",
+      "options": [
+        "bezovta qilmoq",
+        "yordam bermoq",
+        "tinchlantirmoq",
+        "kutmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Gelirmiş\" nima degani?",
+      "options": [
+        "kelsin",
+        "odatda keladi ekan",
+        "keldi",
+        "kelmaydi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gelecekmiş\" nima degani?",
+      "options": [
+        "keldi",
+        "kelar ekan",
+        "kelmasin",
+        "kelmayapti"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Meğer ... mış\" qanday ma'noni bildiradi?",
+      "options": [
+        "so'roq",
+        "shart",
+        "ajablanish (ekan-ku)",
+        "buyruq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Apartman\" so'zining ma'nosi:",
+      "options": [
+        "bog'",
+        "xususiy uy",
+        "ko'p qavatli uy",
+        "mehmonxona"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Kapı komşusu\" kim?",
+      "options": [
+        "tanish",
+        "do'st",
+        "eshigimiz qo'shni",
+        "uzoq qo'shni"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yardımsever\" so'zining ma'nosi:",
+      "options": [
+        "sust",
+        "xasis",
+        "xafa",
+        "yordamsevar"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Misafir olmak\" nima degani?",
+      "options": [
+        "mehmon kutmoq",
+        "mehmon bo'lmoq",
+        "sotib olmoq",
+        "ketmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Taşınacağı sırada\" qanday ma'no?",
+      "options": [
+        "ko'chib o'tmaydi",
+        "ko'chib o'tmoqchi bo'lgan chog'da",
+        "ko'chib bo'lganda",
+        "ko'chib o'tmasdan"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Komşuluk\" so'zining ma'nosi:",
+      "options": [
+        "qo'shnichilik",
+        "do'stlik",
+        "mehmondorchilik",
+        "ish"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Gürültü yapmak\" nima degani?",
+      "options": [
+        "shovqin qilmoq",
+        "gapirmoq",
+        "yozmoq",
+        "jim turmoq"
+      ],
+      "correct_index": 0
+    }
+  ],
+  "u3a": [
+    {
+      "question": "\"Ali: Evim yaqin\" — dolaylı:",
+      "options": [
+        "Ali evinin yakın olacağını söyledi.",
+        "Ali evinin yakın olmadığını söyledi.",
+        "Ali evinin yakın olduğunu söyledi.",
+        "Ali evim yakın olduğunu söyledi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Evde yemek yok\" — dolaylı:",
+      "options": [
+        "Evde yemek olacağını söyledi.",
+        "Evde yemek olduğunu söyledi.",
+        "Evde yemek olmadığını söyledi.",
+        "Evde yemek yok söyledi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ben hastayım\" (Ali dedi) — dolaylı:",
+      "options": [
+        "Ali hasta olmadığını söyledi.",
+        "Ali hastayım dedi.",
+        "Ali hasta olduğunu söyledi.",
+        "Ali hasta olacağını söyledi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Dolaylı anlatımda \"ben\" nimaga aylanadi?",
+      "options": [
+        "o",
+        "sen",
+        "biz",
+        "siz"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Benim kitabım\" → dolaylıda?",
+      "options": [
+        "bizning kitobimiz",
+        "onun/kendi kitabı",
+        "sening kitobing",
+        "ularning kitobi"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İlkokul\" so'zining ma'nosi:",
+      "options": [
+        "litsey",
+        "bog'cha",
+        "universitet",
+        "boshlang'ich maktab"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Büyükanne\" kim?",
+      "options": [
+        "ona",
+        "xola",
+        "buvi",
+        "opa"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Gençlik\" so'zi:",
+      "options": [
+        "keksalik",
+        "qarilik",
+        "yoshlik",
+        "bolalik"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Hatırlamak\" nima degani?",
+      "options": [
+        "unutmoq",
+        "eslamoq",
+        "yozmoq",
+        "o'ylamoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"İlk adım\" nima?",
+      "options": [
+        "birinchi qadam",
+        "uy",
+        "oxirgi qadam",
+        "yo'l"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Mutlu olduğunu söyledi\" ma'nosi:",
+      "options": [
+        "baxtli ekanini aytdi",
+        "baxtli bo'ladi dedi",
+        "baxtli emas dedi",
+        "baxtli bo'l dedi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yok\" ning dolaylı shakli:",
+      "options": [
+        "olsun",
+        "olduğunu",
+        "olmadığını",
+        "olacağını"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u3b": [
+    {
+      "question": "To'g'ri gapdagi \"yarın\" dolaylıda ko'pincha nima bo'ladi?",
+      "options": [
+        "ertesi gün",
+        "bugün",
+        "dün",
+        "hozir"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Eve gelmiş\" → dolaylı:",
+      "options": [
+        "Eve gelmediğini söyledi.",
+        "Eve gelmiş olduğunu söyledi.",
+        "Eve geleceğini söyledi.",
+        "Eve gelsin dedi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gelmeyeceğim\" → dolaylıda:",
+      "options": [
+        "geldiğini",
+        "gelmeyeceğini",
+        "gelmekte olduğunu",
+        "gelmediğini"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yeni bir araba aldım\" → dolaylı:",
+      "options": [
+        "Yeni bir araba almadığını söyledi.",
+        "Yeni bir araba aldığını söyledi.",
+        "Yeni bir araba alacağını söyledi.",
+        "Yeni araba alsın dedi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yıllar geçti\" so'zining ma'nosi:",
+      "options": [
+        "yil boshlandi",
+        "yillar yo'q",
+        "yillar keladi",
+        "yillar o'tdi"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Gelecek\" so'zi nima?",
+      "options": [
+        "bugun",
+        "kecha",
+        "kelajak",
+        "o'tmish"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Değer vermek\" nima degani?",
+      "options": [
+        "olmoq",
+        "qadrlamoq",
+        "sotmoq",
+        "yuborish"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Hızlı\" so'zi:",
+      "options": [
+        "qisqa",
+        "sekin",
+        "uzoq",
+        "tez"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Zaman geçiyor\" nima degani?",
+      "options": [
+        "vaqt o'tyapti",
+        "vaqt bor",
+        "vaqt to'xtadi",
+        "vaqt yo'q"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap to'g'ri?",
+      "options": [
+        "Çalıştığın söyledi.",
+        "Çalışmak söyledi.",
+        "Çalıştığını söyledi.",
+        "Çalıştığı söyledi ki."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Hatıra defteri\" nima?",
+      "options": [
+        "daftar sotuvchi",
+        "lug'at",
+        "xotira daftari",
+        "kundalik reja"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yaşlanmak\" nima degani?",
+      "options": [
+        "yoshlanmoq",
+        "qarimoq",
+        "o'smoq",
+        "tug'ilmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u3c": [
+    {
+      "question": "\"Sessiz ol!\" → dolaylı:",
+      "options": [
+        "Sessiz olacağımı söyledi.",
+        "Sessiz olduğumu istedi.",
+        "Sessiz olmadığımı söyledi.",
+        "Sessiz olmamı istedi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Nerede oturuyorsun?\" → dolaylı:",
+      "options": [
+        "Nerede oturduğumu sordu.",
+        "Nerede otur dedi.",
+        "Nerede oturacağımı söyledi.",
+        "Nerede oturmamı sordu."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Biraz dinlen\" → dolaylı:",
+      "options": [
+        "Biraz dinlenmemi önerdi.",
+        "Biraz dinlendiğimi önerdi.",
+        "Biraz dinlenmedi.",
+        "Biraz dinleneceğimi söyledi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sorun\" so'zi:",
+      "options": [
+        "taqdir",
+        "muammo",
+        "kayfiyat",
+        "yechim"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Çözüm\" so'zi:",
+      "options": [
+        "yechim",
+        "muammo",
+        "qiyinchilik",
+        "umid"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Zorluk\" so'zi:",
+      "options": [
+        "g'ayrat",
+        "yengillik",
+        "baxt",
+        "qiyinchilik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Dayanmak\" nima degani?",
+      "options": [
+        "ketmoq",
+        "sakramoq",
+        "bardosh bermoq",
+        "kechikmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Moral\" so'zi:",
+      "options": [
+        "pul",
+        "kayfiyat",
+        "xona",
+        "kitob"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kader\" so'zining ma'nosi:",
+      "options": [
+        "tajriba",
+        "g'amgin",
+        "taqdir",
+        "shamol"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Bunu yapmamı istedi\" ma'nosi:",
+      "options": [
+        "Buni qilishimni so'radi.",
+        "Buni qilganini aytdi.",
+        "Buni qildim.",
+        "Buni qilmaydi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Gelip gelmediğini sordu\" ma'nosi:",
+      "options": [
+        "Kelmasin dedi.",
+        "Kelishini aytdi.",
+        "Keldi.",
+        "Kelgan-kelmaganini so'radi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Bu da geçer\" nima degani?",
+      "options": [
+        "Bu ham yo'qoladi.",
+        "Bu qaytadi.",
+        "Bu ham o'tib ketadi.",
+        "Bu o'tmaydi."
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u4a": [
+    {
+      "question": "\"Yemek süresince müzik çaldı\" ma'nosi:",
+      "options": [
+        "Musiqa chalinmadi.",
+        "Ovqat mobaynida musiqa chalindi.",
+        "Ovqatdan oldin musiqa chalindi.",
+        "Ovqatdan keyin musiqa chalindi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sen burada olduğun sürece\" ma'nosi:",
+      "options": [
+        "Sen shu yerda bo'lgancha",
+        "Sen yo'qligida",
+        "Sen ketgach",
+        "Sen kelganda"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Malzeme\" so'zi:",
+      "options": [
+        "masalliq",
+        "stol",
+        "tuz",
+        "idish"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Ocak\" so'zi:",
+      "options": [
+        "kosa",
+        "pichoq",
+        "stol",
+        "plita, o'choq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Lezzetli\" so'zining ma'nosi:",
+      "options": [
+        "sho'r",
+        "shirin",
+        "achchiq",
+        "mazali"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Pişirmek\" nima degani?",
+      "options": [
+        "sotmoq",
+        "pishirmoq",
+        "ichmoq",
+        "yuvmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Tuz\" ning ma'nosi:",
+      "options": [
+        "yog'",
+        "shakar",
+        "tuz",
+        "sirka"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Qaysi birikma to'g'ri?",
+      "options": [
+        "tatil sürece boyunca",
+        "tatil içinde boyunca",
+        "tatil süresince",
+        "tatil sırasında süresince"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yaz boyunca\" ma'nosi:",
+      "options": [
+        "yozdan keyin",
+        "yoz davomida",
+        "yoz boshida",
+        "yoz oxirida"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "-DIğI süre içinde nimani bildiradi?",
+      "options": [
+        "...gandan keyin",
+        "...masdan",
+        "...gunga qadar",
+        "...gan vaqt ichida"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sofra\" nima?",
+      "options": [
+        "idish",
+        "oshxona",
+        "dasturxon",
+        "bozor"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yemeğe tuz ekle\" ma'nosi:",
+      "options": [
+        "Ovqatni ye.",
+        "Ovqatdan tuz ol.",
+        "Ovqatni yoping.",
+        "Ovqatga tuz qo'sh."
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u4b": [
+    {
+      "question": "\"Eve gelince seni ararım\" ma'nosi:",
+      "options": [
+        "Uydan ketdim.",
+        "Uyda yo'qman.",
+        "Uyga kelganimda senga qo'ng'iroq qilaman.",
+        "Senga qo'ng'iroq qilmayman."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Annem görünce ağladı\" ma'nosi:",
+      "options": [
+        "Onam ko'rmay yig'ladi.",
+        "Onam ko'rgach yig'ladi.",
+        "Onam yig'lamaydi.",
+        "Onam kulib turdi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Bu kitabı okudukça ...\" ma'nosi:",
+      "options": [
+        "Bu kitobni o'qimaguncha ...",
+        "Bu kitobni o'qigan sayin ...",
+        "Bu kitobni o'qib bo'lgach ...",
+        "Bu kitobni o'qimay ..."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Temiz\" so'zi:",
+      "options": [
+        "toza",
+        "eski",
+        "iflos",
+        "yangi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sağlıklı\" so'zi:",
+      "options": [
+        "yomon",
+        "kasal",
+        "sog'lom",
+        "yosh"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Nehir\" so'zi:",
+      "options": [
+        "ko'l",
+        "daryo",
+        "buloq",
+        "dengiz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Göl\" so'zi:",
+      "options": [
+        "okean",
+        "kanal",
+        "daryo",
+        "ko'l"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Susuzluk\" so'zi:",
+      "options": [
+        "suv",
+        "to'qlik",
+        "yomg'ir",
+        "chanqoqlik, suvsizlik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "-DIkçA qaysi so'z bilan almashishi mumkin?",
+      "options": [
+        "...-meden",
+        "her ...-diğinde",
+        "...-ene kadar",
+        "...-dikten sonra"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Çalıştıkça başarılı oluyorum\" ma'nosi:",
+      "options": [
+        "Ishlagan sayin muvaffaqiyatli bo'layapman.",
+        "Ishlamay muvaffaqiyatliman.",
+        "Ishlagach to'xtadim.",
+        "Ishlamaguncha kutdim."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Su gibi aziz ol\" nima degani?",
+      "options": [
+        "Suvdan qo'rq",
+        "Suvdek ich",
+        "Suvdek qadrli bo'l",
+        "Suvga bor"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Tasarruf etmek\" nima degani?",
+      "options": [
+        "sotmoq",
+        "tejamoq",
+        "boshlamoq",
+        "isrof qilmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u4c": [
+    {
+      "question": "\"Yemek pişer pişmez\" ma'nosi:",
+      "options": [
+        "ovqat pishgach emas",
+        "ovqat pishmaydi",
+        "ovqat pishishi bilanoq",
+        "ovqat pishmasdan oldin"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Başlar başlamaz\" ma'nosi:",
+      "options": [
+        "boshlanishi bilanoq",
+        "boshlangandan so'ng",
+        "boshlanmasdan",
+        "boshlanmaydi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yer yemez\" (yemek) bu shaklda ma'nosi:",
+      "options": [
+        "yemaydi",
+        "yemaguncha",
+        "yeyishi bilanoq",
+        "yemasa"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Şef\" so'zi:",
+      "options": [
+        "mehmon",
+        "ofitsiant",
+        "bosh oshpaz",
+        "mijoz"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Mutfak\" so'zi:",
+      "options": [
+        "yotoqxona",
+        "oshxona",
+        "hammom",
+        "mehmonxona"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Tat\" so'zi:",
+      "options": [
+        "shakl",
+        "rang",
+        "ta'm",
+        "hid"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sunum\" so'zi:",
+      "options": [
+        "yeyish",
+        "sotish",
+        "tayyorlash",
+        "taqdimot"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Deneyimli\" so'zi:",
+      "options": [
+        "yosh",
+        "qari",
+        "tajribasiz",
+        "tajribali"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Afiyet olsun\" qachon aytiladi?",
+      "options": [
+        "ovqatlanishdan oldin yoki paytida",
+        "ovqatdan keyin shikoyat qilganda",
+        "salomlashganda",
+        "xayrlashganda"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yemeği görür görmez\" ma'nosi:",
+      "options": [
+        "Ovqatni ko'rmasdan",
+        "Ovqatni ko'rishi bilanoq",
+        "Ovqatni ko'rgan sayin",
+        "Ovqatni ko'rsa"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Ocağı yakmak\" nima degani?",
+      "options": [
+        "plitani o'chirmoq",
+        "plitani yuvmoq",
+        "plitani yoqmoq",
+        "plitani sotmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yoğurmak\" qaysi masalliq bilan ishlatiladi?",
+      "options": [
+        "go'sht",
+        "suv",
+        "xamir",
+        "tuz"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u5a": [
+    {
+      "question": "\"Biz taşınmalıyız\" → dolaylı:",
+      "options": [
+        "Taşınacaklarını söylediler.",
+        "Taşınsın dediler.",
+        "Taşınmaları gerektiğini söylediler.",
+        "Taşındıklarını söylediler."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Daha sessiz bir yer bulmam gerekiyor\" ma'nosi:",
+      "options": [
+        "Sokin joy kerak emas.",
+        "Sokin joy topdim.",
+        "Sokin joy topaman.",
+        "Ko'proq sokin joy topishim kerak."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Doğa\" so'zi:",
+      "options": [
+        "ish",
+        "tabiat",
+        "uy",
+        "shahar"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kira\" so'zi:",
+      "options": [
+        "maosh",
+        "kredit",
+        "soliq",
+        "ijara"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"İmkân\" so'zi:",
+      "options": [
+        "imkoniyat",
+        "talab",
+        "mas'uliyat",
+        "ehtiyoj"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Köy\" so'zi:",
+      "options": [
+        "shahar",
+        "tuman",
+        "qishloq",
+        "mahalla"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Trafik\" so'zi:",
+      "options": [
+        "yo'lovchi",
+        "transport vositasi",
+        "tirbandlik",
+        "yo'l belgisi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Gerek\" va \"lazım\" nimani bildiradi?",
+      "options": [
+        "zaruriyatni",
+        "ruxsatni",
+        "so'roqni",
+        "taqiqni"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Gitmemesi gerekir\" ma'nosi:",
+      "options": [
+        "U bordi.",
+        "U bormasligi kerak.",
+        "U bormoqchi.",
+        "U bormoqda."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sakin bir hayat\" nima degani?",
+      "options": [
+        "shovqinli hayot",
+        "yangi hayot",
+        "tinch hayot",
+        "qisqa hayot"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Merkez\" so'zi:",
+      "options": [
+        "chekka",
+        "bog'",
+        "markaz",
+        "qishloq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Taşınmak\" nima degani?",
+      "options": [
+        "yo'qolmoq",
+        "boshlamoq",
+        "ko'chib o'tmoq",
+        "sotib olmoq"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u5b": [
+    {
+      "question": "\"Yağmur yağdığı için maç iptal edildi\" ma'nosi:",
+      "options": [
+        "O'yin bo'lmadi.",
+        "Yomg'ir yog'gani uchun o'yin bekor qilindi.",
+        "Yomg'ir yog'maydi.",
+        "Yomg'ir yog'sa o'yin bekor bo'ladi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yoğun kar yağdığından yollar kapandı\" ma'nosi:",
+      "options": [
+        "Qor yog'maydi.",
+        "Yo'llar ochiq.",
+        "Qor yog'sa yo'llar yopiladi.",
+        "Qalin qor yog'ganligi sababli yo'llar yopildi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Trafik yüzünden\" ma'nosi:",
+      "options": [
+        "tirbandlikka qadar",
+        "tirbandlik tufayli",
+        "tirbandlik sharofati bilan",
+        "tirbandlikdan keyin"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kazanç\" so'zi:",
+      "options": [
+        "xarajat",
+        "daromad",
+        "ish",
+        "qarz"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yorucu\" so'zi:",
+      "options": [
+        "yengil",
+        "qiziqarli",
+        "charchatuvchi",
+        "foydali"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Saygı duymak\" nima degani?",
+      "options": [
+        "yig'lamoq",
+        "unutmoq",
+        "hurmat qilmoq",
+        "ranjimoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Zorluk çekmek\" nima degani?",
+      "options": [
+        "qiyinchilik ko'rmoq",
+        "qiyinchilikni yo'qotmoq",
+        "to'xtamoq",
+        "yengillik topmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sorumluluk\" so'zi:",
+      "options": [
+        "baho",
+        "ish",
+        "g'ayrat",
+        "mas'uliyat"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "-DIğI için ning inkori:",
+      "options": [
+        "-mAdIğI için",
+        "-DIğI değil",
+        "-mAz için",
+        "-mIş için"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Meslek\" so'zi:",
+      "options": [
+        "ish",
+        "maosh",
+        "mehnat",
+        "kasb"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Nöbetçi\" kim?",
+      "options": [
+        "qaroqchi",
+        "kutuvchi",
+        "navbatchi",
+        "xodim"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Başkasına acımak\" nima degani?",
+      "options": [
+        "birovdan qo'rqmoq",
+        "birovga yordam bermoq",
+        "birovni kutmoq",
+        "birovga achinmoq"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u5c": [
+    {
+      "question": "\"Hava soğuyacağından kalın giyinmeliyiz\" ma'nosi:",
+      "options": [
+        "Havo sovuq, shuning uchun kiymaymiz.",
+        "Havo issiq.",
+        "Havo sovuydigan bo'lgani uchun qalin kiyinishimiz kerak.",
+        "Qalin kiyinmaymiz."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Konser\" so'zi:",
+      "options": [
+        "spektakl",
+        "konsert",
+        "ko'rgazma",
+        "film"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Heykel\" so'zi:",
+      "options": [
+        "rasm",
+        "asar",
+        "bog'",
+        "haykal"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Müzik\" so'zi:",
+      "options": [
+        "she'r",
+        "rasm",
+        "musiqa",
+        "ertak"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Resim\" so'zi:",
+      "options": [
+        "teatr",
+        "rasm",
+        "musiqa",
+        "haykal"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "-AcAğI için qaysi ko'makchi bilan almashadi?",
+      "options": [
+        "-AcAğIndAn",
+        "-IncA",
+        "-DIğIndAn",
+        "-mAdAn"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sinema\" so'zi:",
+      "options": [
+        "konsert",
+        "teatr",
+        "kino",
+        "rasm"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Zenginleştirmek\" nima degani?",
+      "options": [
+        "boyitmoq",
+        "kambag'allashtirmoq",
+        "yig'moq",
+        "yo'qotmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Yarın toplantı olmuş için hazırlandım.",
+        "Yarın toplantı olarak için hazırlandım.",
+        "Yarın toplantı olacağı için hazırlandım.",
+        "Yarın toplantı olursa için hazırlandım."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Harçlık\" so'zi:",
+      "options": [
+        "cho'ntak puli",
+        "soliq",
+        "stipendiya",
+        "maosh"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Etkilemek\" nima degani?",
+      "options": [
+        "tushunmoq",
+        "ta'sir qilmoq",
+        "kutmoq",
+        "to'smoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Duyurmak\" nima degani?",
+      "options": [
+        "eshitmoq",
+        "o'rgatmoq",
+        "e'lon qilmoq",
+        "yashirmoq"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u6a": [
+    {
+      "question": "\"Saçımı kestirdim\" qaysi çatıga xos?",
+      "options": [
+        "işteş",
+        "edilgen",
+        "dönüşlü",
+        "ettirgen"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Görüşmek\" qaysi çatı?",
+      "options": [
+        "işteş",
+        "ettirgen",
+        "ettirgen+edilgen",
+        "edilgen"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yarıştırmak\" nima degani?",
+      "options": [
+        "kutmoq",
+        "yutmoq",
+        "qochmoq",
+        "poygalashtirmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sel\" so'zi:",
+      "options": [
+        "toshqin",
+        "zilzila",
+        "bo'ron",
+        "qor"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Volkan\" so'zi:",
+      "options": [
+        "vulqon",
+        "daryo",
+        "cho'l",
+        "tog'"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Çığ\" so'zi:",
+      "options": [
+        "do'l",
+        "qor ko'chkisi",
+        "shamol",
+        "yomg'ir"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Bir araya getirmek\" nima degani?",
+      "options": [
+        "yo'qotmoq",
+        "bir joyga to'plamoq",
+        "ajratmoq",
+        "kutmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Şaşırtmak\" nima degani?",
+      "options": [
+        "xafa qilmoq",
+        "kuldirmoq",
+        "hayratga solmoq",
+        "uxlatmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Doğa olayı\" nima?",
+      "options": [
+        "tabiat hodisasi",
+        "tabiat qo'shig'i",
+        "o'simlik",
+        "yo'l"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Öğretmen öğrencilere şiir okuttu\" qaysi çatı?",
+      "options": [
+        "dönüşlü",
+        "işteş",
+        "edilgen",
+        "ettirgen"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tanışmak\" qaysi çatı?",
+      "options": [
+        "işteş",
+        "edilgen",
+        "ettirgen",
+        "dönüşlü"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Çarpıştırmak\" nima degani?",
+      "options": [
+        "yig'moq",
+        "to'qnashtirmoq",
+        "uchirmoq",
+        "yutmoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u6b": [
+    {
+      "question": "\"Yorgun olduğu hâlde çalışmaya devam etti\" ma'nosi:",
+      "options": [
+        "Charchagani uchun ishlamadi.",
+        "Charchamadi.",
+        "Charchagach to'xtadi.",
+        "Charchagan bo'lsa ham ishlashda davom etdi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Korkusuna rağmen\" ma'nosi:",
+      "options": [
+        "qo'rqmasdan",
+        "qo'rquvi tufayli",
+        "qo'rquviga qaramay",
+        "qo'rquvdan keyin"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Heyecan\" so'zi:",
+      "options": [
+        "g'am",
+        "sabr",
+        "hayajon",
+        "qo'rquv"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Hayret\" so'zi:",
+      "options": [
+        "umid",
+        "g'azab",
+        "hayrat",
+        "sabr"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Denemek\" nima degani?",
+      "options": [
+        "yo'qotmoq",
+        "sotmoq",
+        "sinab ko'rmoq",
+        "o'qimoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sıra dışı\" so'zi:",
+      "options": [
+        "qatorli",
+        "g'ayrioddiy",
+        "oddiy",
+        "tartibli"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "-AcAğI hâlde nimani bildiradi?",
+      "options": [
+        "payt",
+        "shart",
+        "o'tgan sabab",
+        "kelasi vaziyatga zidlik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Erken kalkacağı hâlde geç yattı\" ma'nosi:",
+      "options": [
+        "Erta turishi kerak bo'lsa ham kech yotdi.",
+        "Erta turgani uchun kech yotdi.",
+        "Kech turdi.",
+        "Erta yotdi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Hasta olmuş hâlde geldi.",
+        "Hasta olacak hâlde geldi dün.",
+        "Hasta olduğu hâlde geldi.",
+        "Hasta olmak hâlde geldi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Zirve\" so'zi:",
+      "options": [
+        "qirg'oq",
+        "cho'qqi",
+        "vodiy",
+        "etak"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Sınır\" so'zi:",
+      "options": [
+        "chegara",
+        "eshik",
+        "devor",
+        "yo'l"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Cesaret toplamak\" nima degani?",
+      "options": [
+        "qo'rqmoq",
+        "yig'lamoq",
+        "kutmoq",
+        "jur'at yig'moq"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u6c": [
+    {
+      "question": "\"Yorgun olmama rağmen yardım ettim\" ma'nosi:",
+      "options": [
+        "Yordam bermadim.",
+        "Charchaganim uchun yordam bermadim.",
+        "Charchasam yordam beraman.",
+        "Charchaganimga qaramay yordam berdim."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Hastalığına rağmen\" ma'nosi:",
+      "options": [
+        "kasal bo'lmasa",
+        "kasalligi tufayli",
+        "kasalligiga qaramay",
+        "kasal bo'lgach"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Açıklamak\" nima degani?",
+      "options": [
+        "yashirmoq",
+        "tushuntirmoq",
+        "yutmoq",
+        "o'tkazmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Araştırmak\" nima degani?",
+      "options": [
+        "yo'qotmoq",
+        "tadqiq qilmoq",
+        "kutmoq",
+        "yig'moq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Çözmek\" nima degani?",
+      "options": [
+        "bog'lamoq",
+        "yo'qotmoq",
+        "o'tirmoq",
+        "yechmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Keşif\" so'zi:",
+      "options": [
+        "hisobot",
+        "sayohat",
+        "kashfiyot",
+        "savdo"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sır\" so'zi:",
+      "options": [
+        "tarix",
+        "savol",
+        "sir",
+        "ish"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "-mAsInA rağmen ning ma'nodoshi:",
+      "options": [
+        "-DIğI için",
+        "-DIğI hâlde",
+        "-IncA",
+        "-DIkçA"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Hava soğuk olmasına rağmen için çıktı.",
+        "Hava soğuk olmasından rağmen çıktı.",
+        "Hava soğuk olmasına rağmen çıktı.",
+        "Hava soğuk olmakla rağmen çıktı."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Bilmesine rağmen söylemedi\" ma'nosi:",
+      "options": [
+        "Bilishiga qaramay aytmadi.",
+        "Bilsa aytadi.",
+        "Bilmagani uchun aytmadi.",
+        "Bilgani uchun aytdi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Bilmece\" so'zi:",
+      "options": [
+        "topishmoq",
+        "she'r",
+        "ertak",
+        "xotira"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Kazı yapmak\" nima degani?",
+      "options": [
+        "daraxt ekmoq",
+        "kitob yozmoq",
+        "qazishma qilmoq",
+        "ko'cha qurmoq"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u7a": [
+    {
+      "question": "\"Cevap vermemek yerine açıkça konuştu\" ma'nosi:",
+      "options": [
+        "Javob bermaslik o'rniga ochiq gapirdi.",
+        "Javob berdi.",
+        "Javob bermagani uchun ochiq gapirdi.",
+        "Javob bersa ochiq gapiradi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Yalnız çalışmaktansa\" ma'nosi:",
+      "options": [
+        "yolg'iz ishlamaydi",
+        "yolg'iz ishlasa",
+        "yolg'iz ishlagani uchun",
+        "yolg'iz ishlashdan ko'ra"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Not almak\" nima degani?",
+      "options": [
+        "baho olmoq",
+        "kitob olmoq",
+        "yozib bormoq",
+        "pul olmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Tekrar etmek\" nima degani?",
+      "options": [
+        "kutmoq",
+        "to'xtamoq",
+        "takrorlamoq",
+        "yozmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Dikkat\" so'zi:",
+      "options": [
+        "hafta",
+        "xato",
+        "sabr",
+        "diqqat"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "-mAk yerine fe'lga qanday shaklda qo'shiladi?",
+      "options": [
+        "kelasi zamon",
+        "buyruq",
+        "masdar (-mAk)",
+        "o'tgan zamon"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Anlamak\" nima degani?",
+      "options": [
+        "yozmoq",
+        "o'rgatmoq",
+        "ketmoq",
+        "tushunmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Öğrenme yöntemi\" nima?",
+      "options": [
+        "o'rganish usuli",
+        "o'qituvchi",
+        "kitob",
+        "o'rganish joyi"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Gittiği yerine kaldı.",
+        "Gidiyor yerine kaldı.",
+        "Gitmek yerine kaldı.",
+        "Gitmiş yerine kaldı."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Özet çıkarmak\" nima degani?",
+      "options": [
+        "sotmoq",
+        "to'ldirmoq",
+        "yig'moq",
+        "xulosa chiqarmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Verimli\" so'zi:",
+      "options": [
+        "arzon",
+        "sekin",
+        "samarasiz",
+        "samarali"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Hatalardan ders almak\" nima degani?",
+      "options": [
+        "dars qoldirmoq",
+        "xatolardan saboq olmoq",
+        "xato qilmoq",
+        "dars bermoq"
+      ],
+      "correct_index": 1
+    }
+  ],
+  "u7b": [
+    {
+      "question": "\"Yardım edeceğine engel oldu\" ma'nosi:",
+      "options": [
+        "Yordam berganda to'sqinlik qildi.",
+        "Yordam berdi.",
+        "Yordam berish o'rniga to'sqinlik qildi.",
+        "Yordam bergan bo'lsa ham."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sorunu çözeceği yerde büyüttü\" ma'nosi:",
+      "options": [
+        "Muammoni hal qilish o'rniga kattalashtirdi.",
+        "Muammo yo'q.",
+        "Muammoni hal qildi.",
+        "Muammodan qochdi."
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Zaman yönetimi\" nima?",
+      "options": [
+        "soat",
+        "vaqtni sotish",
+        "vaqtni boshqarish",
+        "kalendar"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Plan\" so'zi:",
+      "options": [
+        "ish",
+        "reja",
+        "maosh",
+        "usul"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Görev\" so'zi:",
+      "options": [
+        "yo'l",
+        "maosh",
+        "vazifa",
+        "tajriba"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sorumlu\" so'zi:",
+      "options": [
+        "ishsiz",
+        "yangi",
+        "mas'ul",
+        "begona"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"İzin almak\" nima degani?",
+      "options": [
+        "ruxsat bermoq",
+        "so'ramasdan ketmoq",
+        "ruxsat olmoq",
+        "kutmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ceza\" so'zi:",
+      "options": [
+        "mukofot",
+        "ta'til",
+        "maosh",
+        "jarima, jazo"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "-mAsI durumunda qaysi shaklga yaqin?",
+      "options": [
+        "-mAsI hâlinde",
+        "-DIğI için",
+        "-IncA",
+        "-DIkçA"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Çalışacak yerine uyuyor.",
+        "Çalışmak yerde uyuyor.",
+        "Çalışacağına uyuyor.",
+        "Çalışacağın uyuyor."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Öncelik\" so'zi:",
+      "options": [
+        "kechikish",
+        "sovg'a",
+        "ustuvorlik",
+        "ta'til"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Raporu teslim etmek\" nima degani?",
+      "options": [
+        "hisobot o'qimoq",
+        "hisobotni yo'qotmoq",
+        "hisobot yozmoq",
+        "hisobotni topshirmoq"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u7c": [
+    {
+      "question": "\"Disiplin\" so'zi:",
+      "options": [
+        "yolg'on",
+        "xato",
+        "ish",
+        "intizom"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Kararlılık\" so'zi:",
+      "options": [
+        "qat'iylik",
+        "ikkilanish",
+        "sabr",
+        "qo'rquv"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Engel\" so'zi:",
+      "options": [
+        "natija",
+        "yordam",
+        "to'siq",
+        "mukofot"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Örnek olmak\" nima degani?",
+      "options": [
+        "xato qilmoq",
+        "o'rnak olmoq emas",
+        "namuna so'ramoq",
+        "namuna bo'lmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Sonuç\" so'zi:",
+      "options": [
+        "natija",
+        "boshlanish",
+        "xato",
+        "maqsad"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Zirve\" so'zi:",
+      "options": [
+        "yo'l",
+        "cho'qqi",
+        "quyi",
+        "vodiy"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "-mAsI hâlinde ning ma'nodoshi:",
+      "options": [
+        "-DIkçA",
+        "-mAsI durumunda",
+        "-IncA",
+        "-DIğI için"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Yapıldığı takdirde\" ma'nosi:",
+      "options": [
+        "qilinsa",
+        "qilmadi",
+        "qilmoqchi",
+        "qilingani uchun"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Hata yapıldığı takdirde için düzeltilir.",
+        "Hata yapılmış takdirde düzeltilir.",
+        "Hata yapıldığı takdirde düzeltilir.",
+        "Hata yapılırsa takdirde düzeltilir."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ciddiye almak\" nima degani?",
+      "options": [
+        "yig'moq",
+        "kulib qo'ymoq",
+        "jiddiy qabul qilmoq",
+        "unutmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Antrenman\" so'zi:",
+      "options": [
+        "forma",
+        "musobaqa",
+        "stadion",
+        "mashg'ulot"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Ulusal\" so'zi:",
+      "options": [
+        "xalqaro",
+        "viloyat",
+        "milliy",
+        "mahalliy"
+      ],
+      "correct_index": 2
+    }
+  ],
+  "u8a": [
+    {
+      "question": "\"Salonu toplayıver\" ma'nosi:",
+      "options": [
+        "Zalda o'tir.",
+        "Zalni bir yig'ishtirib qo'y.",
+        "Zalni ochma.",
+        "Zalni sotib ol."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Gidip duruyor\" ma'nosi:",
+      "options": [
+        "Bir zumda bordi",
+        "Bormaydi",
+        "Borib turibdi (tez-tez)",
+        "Bormoqchi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Yazıverdi\" ma'nosi:",
+      "options": [
+        "Yozmoqchi.",
+        "Yozmadi.",
+        "Zumda yozib qo'ydi.",
+        "Yozib turaverdi."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Hoş geldiniz\" qachon aytiladi?",
+      "options": [
+        "imtihonda",
+        "mehmon kelganda",
+        "tug'ilgan kunda",
+        "mehmon ketganda"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Hediye\" so'zi:",
+      "options": [
+        "tayyorgarlik",
+        "davet",
+        "ikram",
+        "sovg'a"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Davet\" so'zi:",
+      "options": [
+        "ro'yxat",
+        "ish",
+        "sovg'a",
+        "taklif"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Temizlik\" so'zi:",
+      "options": [
+        "g'ayrat",
+        "ish",
+        "baho",
+        "tozalik, tozalash"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Hazırlık\" so'zi:",
+      "options": [
+        "dars",
+        "o'yin",
+        "uy",
+        "tayyorgarlik"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "-Iver qaysi hollarda yumshoqlik beradi?",
+      "options": [
+        "inkorda",
+        "iltimos va buyruqda",
+        "so'roqda",
+        "shartda"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Çayı koyupver.",
+        "Çayı koyuverin.",
+        "Çayı koyuver.",
+        "Çayı koymuver."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Konuşup durmak\" nima degani?",
+      "options": [
+        "bir zumda gapirmoq",
+        "gapirmoq",
+        "jim turmoq",
+        "gapirib turaverish"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Bereket\" so'zi:",
+      "options": [
+        "yomonlik",
+        "kasallik",
+        "xarajat",
+        "barakat"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u8b": [
+    {
+      "question": "\"Kaçıra yazdı\" ma'nosi:",
+      "options": [
+        "O'tkazib yubordi.",
+        "O'tkazib yuboradi.",
+        "O'tkazib yubormadi.",
+        "O'tkazib yuborishiga oz qoldi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Ağlayazdı\" ma'nosi:",
+      "options": [
+        "Yig'ladi.",
+        "Yig'lamaydi.",
+        "Yig'lashga boshladi.",
+        "Yig'lay dedi."
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Bakıp kaldım\" ma'nosi:",
+      "options": [
+        "Qaramadim.",
+        "Qaraydi.",
+        "Tikilib qoldim.",
+        "Zumda qaradim."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Donup kalmak\" nima degani?",
+      "options": [
+        "yugurmoq",
+        "qotib qolmoq",
+        "uxlamoq",
+        "kulmoq"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kask\" so'zi:",
+      "options": [
+        "ko'zoynak",
+        "kaska",
+        "poyabzal",
+        "qo'lqop"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Makine\" so'zi:",
+      "options": [
+        "kitob",
+        "daftar",
+        "stol",
+        "stanok, mashina"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Tanışmak\" nima degani?",
+      "options": [
+        "kutmoq",
+        "o'tirmoq",
+        "tanishmoq",
+        "ketmoq"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "-A yazmak fe'lga qanday qo'shiladi?",
+      "options": [
+        "o'tgan zamonga",
+        "masdarga",
+        "o'zakka -A yoki -yA",
+        "kelasi zamonga"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Merdivenden düştü yazdım.",
+        "Merdivenden düşme yazdım.",
+        "Merdivenden düşe yazdım.",
+        "Merdivenden düşecek yazdım."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Ziyaret\" so'zi:",
+      "options": [
+        "tadbir",
+        "ish",
+        "sovg'a",
+        "tashrif"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "\"Güvenlik kuralı\" nima?",
+      "options": [
+        "kiyim",
+        "ish vaqti",
+        "xavfsizlik qoidasi",
+        "maosh"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Sıcak karşılamak\" nima degani?",
+      "options": [
+        "kutmoq",
+        "sovuq kutib olmoq",
+        "jo'natmoq",
+        "iliq kutib olmoq"
+      ],
+      "correct_index": 3
+    }
+  ],
+  "u8c": [
+    {
+      "question": "\"Şaşakaldı\" ma'nosi:",
+      "options": [
+        "Hayron bo'lib kuldi.",
+        "Hayratdan qotib qoldi.",
+        "Ketdi.",
+        "Xafa bo'ldi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Donakaldı\" ma'nosi:",
+      "options": [
+        "Yig'ladi.",
+        "Qotib qoldi.",
+        "Kuldi.",
+        "Yugurdi."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Süregelmek\" nima degani?",
+      "options": [
+        "davom etib kelmoq",
+        "boshlamoq",
+        "to'xtamoq",
+        "yo'qolmoq"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Aktarılagelmiş\" ma'nosi:",
+      "options": [
+        "yo'qolgan",
+        "to'xtab qolgan",
+        "o'tib kelgan",
+        "yangi"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Misafirperver\" so'zi:",
+      "options": [
+        "mehmondo'st",
+        "qo'shni",
+        "ishchi",
+        "mehmon emas"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "\"Sofra adabı\" nima?",
+      "options": [
+        "ovqat",
+        "dasturxon odobi",
+        "idish",
+        "dasturxon"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Bahçe\" so'zi:",
+      "options": [
+        "ko'l",
+        "bog'",
+        "tog'",
+        "dala"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Hayvan\" so'zi:",
+      "options": [
+        "uy",
+        "hayvon",
+        "o'simlik",
+        "tosh"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Kalakalmak\" nima degani?",
+      "options": [
+        "ketmoq",
+        "kelmoq",
+        "yugurmoq",
+        "qolib ketmoq"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Qaysi gap grammatik to'g'ri?",
+      "options": [
+        "Bu gelenek yaşıyageliyor.",
+        "Bu gelenek yaşayıgeliyor.",
+        "Bu gelenek yaşayageliyor.",
+        "Bu gelenek yaşaya geliyorlar."
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "\"Her misafir bereket getirir\" nima degani?",
+      "options": [
+        "Mehmon kelmaydi.",
+        "Har bir mehmon barakat keltiradi.",
+        "Mehmon ketadi.",
+        "Mehmon yomon."
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "\"Ev yapımı\" nima degani?",
+      "options": [
+        "do'kondan olingan",
+        "uy sharoitida tayyorlangan",
+        "xom",
+        "import"
+      ],
+      "correct_index": 1
+    }
   ]
 }

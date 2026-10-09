@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u8c', "C. Köylerde Misafirlik — Qishloqlarda mehmonchilik", 173, 180,
+    goals=[
+        "-A kalmak (qotib qolish) va -A gelmek (davomiylik) tuzilmalarini ishlatish",
+        "Uzoq davom etgan jarayonlarni ifodalash",
+        "Qishloq mehmondorchiligi va an'analar haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-A kalmak: o'rnida qotib qolish",
+         "-A kalmak (-a/-e kalmak) holatda qotib qolish, uzoq vaqt davomida o'sha holatda turib qolishni bildiradi: bakakalmak (tikilib qolish), donakalmak (qotib qolish), şaşakalmak (donib qolish), kalakalmak (qolib ketish).\n\nMisol: \"Köyün güzelliğini görünce bakakaldık.\" (Qishloqning go'zalligini ko'rib, tikilib qoldik.) \"Haberi duyunca donakaldı.\" (Xabarni eshitib, qotib qoldi.) \"Çocuk yolda kalakaldı.\" (Bola yo'lda qolib ketdi.)"),
+        ("-A gelmek: uzoq davom etish",
+         "-A gelmek (-a/-e gelmek) ishning o'tmishdan hozirgacha yoki uzoq vaqt davomida to'xtamay davom etganini bildiradi: yaşaya gelmek, ede gelmek, süregelmek.\n\nMisol: \"Bu gelenek yüzyıllardır yaşayageliyor.\" (Bu an'ana asrlardan beri yashab kelmoqda.) \"Köylüler bize hep yardım edegeldi.\" (Qishloq ahli bizga doim yordam berib keldi.) \"Bu usul nesilden nesile aktarılagelmiş.\" (Bu usul avloddan avlodga o'tib kelgan.)"),
+        ("Qiyoslash va uslub",
+         "-A kalmak holatning qotib qolishi (bir martalik), -A gelmek esa uzoq davom etgan jarayon (davomiylik). Bu shakllar yozma, adabiy tilda ko'proq uchraydi va ajoyib uslubiy bo'yoq beradi.\n\nSolishtiring: \"Şaşakaldı.\" (hayratdan qotib qoldi) va \"Yıllardır çalışagelmiş.\" (yillar davomida ishlab kelgan)."),
+    ],
+    facts=[
+        "-A kalmak = qotib qolmoq: bakakalmak, donakalmak.",
+        "-A gelmek = davom etib kelmoq: yaşayagelmek, edegelmek.",
+        "Ikkalasi adabiy, yozma uslubga xos.",
+    ],
+    vocab=[
+        ("köy", "qishloq", "Köyde misafir sevilir.", "Qishloqda mehmon hurmat qilinadi."),
+        ("gelenek", "an'ana", "Misafire hizmet etmek eski bir gelenektir.", "Mehmonga xizmat qilish eski an'ana."),
+        ("konukseverlik", "mehmondo'stlik", "Türklerin konukseverliği ünlüdür.", "Turklarning mehmondo'stligi mashhur."),
+        ("misafirperver", "mehmondo'st", "Köylüler çok misafirperverdir.", "Qishloq ahli juda mehmondo'st."),
+        ("bahçe", "bog'", "Bahçede meyve ağaçları var.", "Bog'da mevali daraxtlar bor."),
+        ("tarla", "dala, ekin maydoni", "Tarlada buğday yetiştiriliyor.", "Dalada bug'doy yetishtirilmoqda."),
+        ("hayvan", "hayvon", "Köyde birçok hayvan besleniyor.", "Qishloqda ko'plab hayvon boqiladi."),
+        ("taze", "yangi, toza", "Sabah taze süt içtik.", "Ertalab yangi sut ichdik."),
+        ("sofra adabı", "dasturxon odobi", "Sofra adabına uymak gerekir.", "Dasturxon odobiga amal qilish kerak."),
+        ("kalmak", "qolmoq, turib qolmoq", "Gece köyde kaldık.", "Kechasi qishloqda qoldik."),
+        ("yöre", "hudud, joy", "Bu yörenin yemekleri meşhurdur.", "Bu hududning taomlari mashhur."),
+        ("minnettar", "minnatdor", "Misafirperverliklerine minnettarız.", "Mehmondo'stliklariga minnatdormiz."),
+    ],
+    reading=("Köy konukseverliği",
+        "Yaz tatilinde şehirden bir arkadaşımla köye gittik. Kapıdan girer girmez köylüler bizi sıcak bir şekilde karşıladı. Yaşlı bir teyze bize taze süt, ev yapımı ekmek ve bal ikram etti. Arkadaşım köyün sakinliğine ve bahçelerin güzelliğine bakakaldı.\n\nAkşam herkes tarlalardan dönünce büyük bir sofra kuruldu. Köylüler bize bu geleneğin yüzyıllardır yaşayageldiğini anlattı. Her misafirin bir bereket getirdiğine inanıyorlardı. Sofra adabına uygun şekilde önce büyükler yemeğe başladı.\n\nSabah ayrılırken yaşlı teyze bize torbalar dolusu meyve verdi. Arkadaşım şaşakaldı ve gözleri doldu. Şehre dönerken ikimiz de konukseverliğe minnettar olduğumuzu söyledik. Orada geçen iki gün, ömrümüzün en güzel günlerinden biri oldu.",
+        [
+            ("Yazar köye kiminle gitti?", ["Şehirden bir arkadaşıyla", "Ailesiyle", "Öğretmeniyle", "Yalnız"]),
+            ("Yaşlı teyze ne ikram etti?", ["Taze süt, ev yapımı ekmek ve bal", "Pizza", "Börek ve çay", "Tatlı ve meyve"]),
+            ("Arkadaş neye bakakaldı?", ["Köyün sakinliğine ve bahçelerin güzelliğine", "Televizyona", "Arabaya", "Köpeğe"]),
+            ("Köylüler geleneğin ne kadar süredir yaşadığını söyledi?", ["Yüzyıllardır", "On yıldır", "Bir yıldır", "Hiç yaşamadı"]),
+            ("Sabah ayrılırken ne oldu?", ["Teyze torbalar dolusu meyve verdi", "Kimse uğurlamadı", "Yağmur yağdı", "Yol kapandı"]),
+        ]),
+    listening=([
+        ("Hasan", "Köye geldiğimizde herkes bizi çok sıcak karşıladı."),
+        ("Ayten", "Evet, konukseverlik burada yüzyıllardır sürüp gidiyor."),
+        ("Hasan", "Yaşlı amca bahçedeki meyveleri bize toplayıp verdi. Çok şaşakaldım."),
+        ("Ayten", "Bu gelenek nesilden nesile aktarılagelmiş."),
+        ("Hasan", "Yarın tarlaya gidip onlara yardım edebilir miyiz?"),
+        ("Ayten", "Tabii, hem öğreniriz hem de teşekkür etmiş oluruz."),
+    ], [
+        ("Qishloq ahli mehmonlarni qanday kutib oldi?", ["Juda iliq", "Sovuq", "Befarq", "Shoshib"]),
+        ("Hasan ertaga nima qilishni taklif qiladi?", ["Dalada yordam berishni", "Shaharga qaytishni", "Uxlashni", "Kinoga borishni"]),
+    ]),
+    practice=[
+        ('c', "\"Qishloqning go'zalligini ko'rib tikilib qoldik\" turkchada:", ["Köyün güzelliğini görünce bakakaldık.", "Köyün güzelliğini görünce bakıverdik.", "Köyün güzelliğini görünce baktık yazdık.", "Köyün güzelliğini bakarak kaldık."]),
+        ('c', "\"Bu an'ana asrlardan beri yashab kelmoqda\" turkchada:", ["Bu gelenek yüzyıllardır yaşayageliyor.", "Bu gelenek yüzyıllardır yaşayıp kalıyor.", "Bu gelenek yüzyıllardır yaşıyor durdu.", "Bu gelenek yüzyıllardır yaşıverdi."]),
+        ('c', "\"Xabarni eshitib qotib qoldi\" turkchada:", ["Haberi duyunca donakaldı.", "Haberi duyunca donup durdu.", "Haberi duyunca doneyazdı.", "Haberi duyunca dongeldi."]),
+        ('o', "\"Qishloq ahli doim yordam berib keldi.\" gapini tuzing.", ["Köylüler", "hep", "yardım", "edegeldi."]),
+        ('o', "\"U yo'lda qolib ketdi.\" gapini tuzing.", ["O", "yolda", "kalakaldı."]),
+        ('c', "\"Mehmondo'st\" turkchada:", ["misafirperver", "minnettar", "taze", "yöre"]),
+    ],
+    writing=("Qishloq yoki mehmonchilikdan bir xotirangizni 3 gapda yozing.",
+             "Geçen yaz köyde misafir oldum. Köylüler bize çok güzel ikramlarda bulundu. O günleri hâlâ unutamıyorum."),
+    speaking=["Köyün güzelliğini görünce bakakaldık.", "Bu gelenek yüzyıllardır yaşayageliyor.", "Konukseverlik eski bir gelenektir.", "Misafirperverliklerine minnettarız."],
+    test=[
+        ("-A kalmak qanday ma'noni bildiradi?", ["qotib qolmoq", "davom etib kelmoq", "tez bajarmoq", "oz qolmoq"]),
+        ("-A gelmek qanday ma'noni bildiradi?", ["davom etib kelmoq", "qotib qolmoq", "tez bajarmoq", "oz qolmoq"]),
+        ("\"Bakakaldı\" ma'nosi:", ["Tikilib qoldi.", "Zumda qaradi.", "Qaramadi.", "Qaramoqchi."]),
+        ("\"Yaşayageldi\" ma'nosi:", ["Yashab keldi.", "Yashab qoldi.", "Zumda yashadi.", "Yashay dedi."]),
+        ("\"Gelenek\" so'zi:", ["an'ana", "yangilik", "marosim", "taom"]),
+        ("\"Konukseverlik\" so'zi:", ["mehmondo'stlik", "xasislik", "sovuqqonlik", "dangasalik"]),
+        ("\"Tarla\" so'zi:", ["dala", "bog'", "uy", "ko'cha"]),
+        ("\"Yöre\" so'zi:", ["hudud, joy", "uy", "bozor", "ko'cha"]),
+        ("\"Minnettar\" so'zi:", ["minnatdor", "xafa", "g'azabli", "mag'rur"]),
+        ("\"Taze\" so'zi:", ["yangi, toza", "eski", "xom", "pishgan"]),
+    ],
+    bank=[
+        ("\"Şaşakaldı\" ma'nosi:", ["Hayratdan qotib qoldi.", "Hayron bo'lib kuldi.", "Xafa bo'ldi.", "Ketdi."]),
+        ("\"Donakaldı\" ma'nosi:", ["Qotib qoldi.", "Yugurdi.", "Kuldi.", "Yig'ladi."]),
+        ("\"Süregelmek\" nima degani?", ["davom etib kelmoq", "to'xtamoq", "boshlamoq", "yo'qolmoq"]),
+        ("\"Aktarılagelmiş\" ma'nosi:", ["o'tib kelgan", "to'xtab qolgan", "yo'qolgan", "yangi"]),
+        ("\"Misafirperver\" so'zi:", ["mehmondo'st", "mehmon emas", "ishchi", "qo'shni"]),
+        ("\"Sofra adabı\" nima?", ["dasturxon odobi", "dasturxon", "ovqat", "idish"]),
+        ("\"Bahçe\" so'zi:", ["bog'", "dala", "tog'", "ko'l"]),
+        ("\"Hayvan\" so'zi:", ["hayvon", "o'simlik", "tosh", "uy"]),
+        ("\"Kalakalmak\" nima degani?", ["qolib ketmoq", "ketmoq", "kelmoq", "yugurmoq"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Bu gelenek yaşayageliyor.", "Bu gelenek yaşıyageliyor.", "Bu gelenek yaşayıgeliyor.", "Bu gelenek yaşaya geliyorlar."]),
+        ("\"Her misafir bereket getirir\" nima degani?", ["Har bir mehmon barakat keltiradi.", "Mehmon kelmaydi.", "Mehmon yomon.", "Mehmon ketadi."]),
+        ("\"Ev yapımı\" nima degani?", ["uy sharoitida tayyorlangan", "do'kondan olingan", "import", "xom"]),
+    ],
+)

@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u2c', "C. Komşuluk — Qo'shnichilik", 50, 56,
+    goals=[
+        "-AcAğI zaman va -AcAğI sırada zarf-fe'llarini ishlatish",
+        "Rivayet birleşik zamanlarini (-mIşmIş, -Iyormuş, -IrmIş, -AcAkmIş) tushunish",
+        "Qo'shnichilik haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-AcAğI zaman / -AcAğI sırada",
+         "Kelasi payt bildiruvchi zarf-fe'l: -AcAk + egalik + zaman/sıra. \"...adigan paytda, ...moqchi bo'lgan chog'da\".\n\nMisol: \"Komşumuz taşınacağı zaman bize haber verdi.\" (Qo'shnimiz ko'chib o'tadigan payti bizga xabar berdi.) \"Çocuklar oynayacakları sırada yağmur başladı.\" (Bolalar o'ynamoqchi bo'lgan chog'da yomg'ir boshlandi.)"),
+        ("Rivayet shakli: zamon + imiş",
+         "Ekfiil -(y)mIş (ekan) fe'l zamonlariga qo'shilib, eshitilgan yoki keyin bilingan ma'lumotni bildiradi: geliyormuş (kelayotgan ekan), gelirmiş (odatda keladi ekan), gelecekmiş (kelar ekan), gelmişmiş (kelgan ekan).\n\nMisol: \"Komşumuz hastaymış.\" (Qo'shnimiz kasal ekan.) \"Yarın taşınacakmış.\" (Ertaga ko'chib o'tar ekan.)"),
+        ("Hikâye va rivayet: farqi",
+         "Hikâye (-DI) shaxsiy ko'rgan ish: \"Komşu geliyordu.\" (U kelayotgan edi — men ko'rdim.) Rivayet (-mIş) eshitilgan ish: \"Komşu geliyormuş.\" (U kelayotgan ekan — menga aytishdi.) Rivayet ko'pincha ajablanish yoki taxminni ham ifodalaydi: \"Meğer komşum çok iyi bir aşçıymış!\" (Qo'shnim juda yaxshi oshpaz ekan-ku!)"),
+    ],
+    facts=[
+        "-AcAğI zaman / -AcAğI sırada = ...adigan paytda.",
+        "Rivayet: geliyormuş, gelirmiş, gelecekmiş, gelmişmiş = ...ekan.",
+        "Rivayet eshitilgan yoki yangi bilingan ma'lumotni bildiradi.",
+    ],
+    vocab=[
+        ("komşu", "qo'shni", "Komşumuz çok yardımsever bir insan.", "Qo'shnimiz juda yordamsevar odam."),
+        ("komşuluk", "qo'shnichilik", "İyi komşuluk huzur getirir.", "Yaxshi qo'shnichilik tinchlik keltiradi."),
+        ("apartman", "ko'p qavatli uy", "Apartmanımızda on iki daire var.", "Uyimizda o'n ikkita xonadon bor."),
+        ("kapı komşusu", "eshigi qo'shni", "Kapı komşumuzla iyi anlaşıyoruz.", "Eshigimiz qo'shni bilan yaxshi chiqishamiz."),
+        ("gürültü", "shovqin", "Gece gürültü yapmamak gerekir.", "Kechasi shovqin qilmaslik kerak."),
+        ("rahatsız etmek", "bezovta qilmoq", "Sizi rahatsız ettiysem özür dilerim.", "Sizni bezovta qilgan bo'lsam, uzr."),
+        ("ödünç almak", "qarz (narsa) olmoq", "Komşudan biraz şeker ödünç aldım.", "Qo'shnidan biroz shakar qarzga oldim."),
+        ("misafir", "mehmon", "Komşumuza akşam misafir olduk.", "Qo'shnimizga kechqurun mehmon bo'ldik."),
+        ("hal hatır sormak", "hol-ahvol so'ramoq", "Komşular birbirinin hal hatırını sorar.", "Qo'shnilar bir-biridan hol-ahvol so'raydi."),
+        ("taşınmak", "ko'chib o'tmoq", "Yeni komşumuz pazartesi taşınacak.", "Yangi qo'shnimiz dushanba kuni ko'chib o'tadi."),
+        ("güler yüzlü", "ochiq chehrali", "Komşumuz güler yüzlü bir kadın.", "Qo'shnimiz ochiq chehrali ayol."),
+        ("yardımsever", "yordamsevar", "Yardımsever komşular her zaman yanımızda.", "Yordamsevar qo'shnilar doim yonimizda."),
+    ],
+    reading=("Komşunun kıymeti",
+        "Yeni taşındığımız apartmanda kimseyi tanımıyorduk. Annem ilk gün tatlı yapıp komşulara dağıttı. Karşı daireden Ayşe Teyze kapıyı açtığında, annem onun yalnız yaşadığını öğrendi. Ayşe Teyze çok güler yüzlüydü ve bize hemen çay ikram etti.\n\nBir gece büyük bir gürültüyle uyandık. Ayşe Teyze'nin evinin kapısı açıktı. Meğer yaşlı kadın rahatsızlanmış, kimseyi rahatsız etmek istemediği için yardım istememiş. Babam hemen ambulansı aradı. Doktor, biraz geç kalsaydık durumun ciddi olabileceğini söyledi.\n\nAyşe Teyze hastaneden çıkınca bize şöyle dedi: \"Komşu hakkı, kardeş hakkı kadar kıymetlidir.\" O günden sonra apartmanımızdaki herkes birbirinin hal hatırını sormaya başladı. Artık kimse kimseden habersiz yaşamıyor.",
+        [
+            ("Anne yeni komşulara ilk gün ne yaptı?", ["Tatlı yapıp dağıttı", "Akşam yemeğine çağırdı", "Hediye aldı", "Mektup yazdı"]),
+            ("Ayşe Teyze nasıl biriydi?", ["Yalnız yaşayan güler yüzlü bir kadın", "Genç bir öğrenci", "Gürültücü bir komşu", "Yeni taşınmış bir aile"]),
+            ("Gece neden uyandılar?", ["Büyük bir gürültüyle", "Telefon çalınca", "Yağmurdan", "Güneşten"]),
+            ("Babam ne yaptı?", ["Ambulansı aradı", "Polisi aradı", "Kapıyı kırdı", "Hiçbir şey yapmadı"]),
+            ("Ayşe Teyze'ye göre komşu hakkı nasıldır?", ["Kardeş hakkı kadar kıymetli", "Önemsiz", "Para kadar değerli", "Sadece iş içindir"]),
+        ]),
+    listening=([
+        ("Fatma", "Duydun mu? Yan daireye yeni biri taşınacakmış."),
+        ("Mert", "Evet, taşınacağı zaman bize haber verecekmiş."),
+        ("Fatma", "Çok güler yüzlü bir aileymiş. İki çocukları varmış."),
+        ("Mert", "O zaman çocuklar oynarken gürültü yapabilirler."),
+        ("Fatma", "Sorun değil. Biz de gençken çok gürültü yapardık."),
+        ("Mert", "Haklısın. Onlara bir hoş geldin pastası götürelim."),
+    ], [
+        ("Yangi qo'shni haqida nima aytilgan?", ["Ikki farzandi bor oila ekan", "Yolg'iz qariya ekan", "Talaba ekan", "Chet ellik ekan"]),
+        ("Mert nima qilishni taklif qiladi?", ["Xush kelibsiz pirogi olib borishni", "Shikoyat qilishni", "Ko'chib ketishni", "Telefon qilishni"]),
+    ]),
+    practice=[
+        ('c', "\"Qo'shnimiz ko'chib o'tadigan payti xabar berdi\" turkchada:", ["Komşumuz taşınacağı zaman haber verdi.", "Komşumuz taşındığı zaman haber verecek.", "Komşumuz taşınmak zaman haber verdi.", "Komşumuz taşınan zaman haber verdi."]),
+        ('c', "\"Kasal ekan\" turkchada:", ["Hastaymış.", "Hastaydı.", "Hastadır.", "Hasta olsa."]),
+        ('c', "\"Ertaga ko'chib o'tar ekan\" turkchada:", ["Yarın taşınacakmış.", "Yarın taşınacaktı.", "Yarın taşınır.", "Yarın taşındı."]),
+        ('o', "\"Qo'shnim juda yordamsevar ekan.\" gapini tuzing.", ["Komşum", "çok", "yardımseverymiş."]),
+        ('o', "\"Biz qo'shnidan shakar qarzga oldik.\" gapini tuzing.", ["Komşudan", "şeker", "ödünç", "aldık."]),
+        ('c', "\"Bezovta qilmoq\" turkchada:", ["rahatsız etmek", "taşınmak", "paylaşmak", "özlemek"]),
+    ],
+    writing=("Qo'shningiz haqida 3 gap yozing (kim, qanday odam, sizga qanday yordam bergan).",
+             "Komşum emekli bir öğretmendir. Çok yardımsever ve güler yüzlüdür. Geçen hafta bana alışverişte yardım etti."),
+    speaking=["Komşumuz taşınacağı zaman haber verdi.", "Yarın taşınacakmış.", "Komşu hakkı kardeş hakkı kadar kıymetlidir.", "Kapı komşumuzla iyi anlaşıyoruz."],
+    test=[
+        ("-AcAğI zaman qanday ma'no beradi?", ["...adigan paytda", "...gan paytda", "...guncha", "...masdan"]),
+        ("\"Hastaymış\" nima degani?", ["kasal ekan", "kasal edi", "kasal bo'ladi", "kasal bo'lmasin"]),
+        ("\"Geliyormuş\" nima degani?", ["kelayotgan ekan", "kelayotgan edi", "keladi", "keldi"]),
+        ("Rivayet shakli nimani bildiradi?", ["eshitilgan yoki yangi bilingan ma'lumot", "odat", "buyruq", "shart"]),
+        ("\"Komşu\" so'zining ma'nosi:", ["qo'shni", "mehmon", "do'st", "qarindosh"]),
+        ("\"Gürültü\" so'zining ma'nosi:", ["shovqin", "sukunat", "jimlik", "ovoz"]),
+        ("\"Ödünç almak\" nima degani?", ["qarz olmoq", "qarz bermoq", "sotib olmoq", "sovg'a qilmoq"]),
+        ("\"Taşınmak\" nima degani?", ["ko'chib o'tmoq", "ketmoq", "kelmoq", "o'tirmoq"]),
+        ("\"Güler yüzlü\" qanday odam?", ["ochiq chehrali", "g'amgin", "qovog'i soliq", "yosh"]),
+        ("Qaysi gap grammatik jihatdan to'g'ri?", ["Yarın gelecekmiş.", "Yarın gelmişmiş yarın.", "Yarın gelmekmiş.", "Yarın gelirmişler mi."]),
+    ],
+    bank=[
+        ("\"Hal hatır sormak\" nima degani?", ["hol-ahvol so'ramoq", "qarz so'ramoq", "ruxsat so'ramoq", "yo'l so'ramoq"]),
+        ("\"Rahatsız etmek\" nima?", ["bezovta qilmoq", "tinchlantirmoq", "yordam bermoq", "kutmoq"]),
+        ("\"Gelirmiş\" nima degani?", ["odatda keladi ekan", "keldi", "kelmaydi", "kelsin"]),
+        ("\"Gelecekmiş\" nima degani?", ["kelar ekan", "keldi", "kelmayapti", "kelmasin"]),
+        ("\"Meğer ... mış\" qanday ma'noni bildiradi?", ["ajablanish (ekan-ku)", "buyruq", "so'roq", "shart"]),
+        ("\"Apartman\" so'zining ma'nosi:", ["ko'p qavatli uy", "xususiy uy", "mehmonxona", "bog'"]),
+        ("\"Kapı komşusu\" kim?", ["eshigimiz qo'shni", "uzoq qo'shni", "do'st", "tanish"]),
+        ("\"Yardımsever\" so'zining ma'nosi:", ["yordamsevar", "xasis", "sust", "xafa"]),
+        ("\"Misafir olmak\" nima degani?", ["mehmon bo'lmoq", "mehmon kutmoq", "ketmoq", "sotib olmoq"]),
+        ("\"Taşınacağı sırada\" qanday ma'no?", ["ko'chib o'tmoqchi bo'lgan chog'da", "ko'chib bo'lganda", "ko'chib o'tmasdan", "ko'chib o'tmaydi"]),
+        ("\"Komşuluk\" so'zining ma'nosi:", ["qo'shnichilik", "do'stlik", "mehmondorchilik", "ish"]),
+        ("\"Gürültü yapmak\" nima degani?", ["shovqin qilmoq", "jim turmoq", "gapirmoq", "yozmoq"]),
+    ],
+)

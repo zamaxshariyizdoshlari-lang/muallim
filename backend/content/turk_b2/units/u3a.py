@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u3a', "A. Hayata İlk Adım — Hayotga birinchi qadam", 58, 63,
+    goals=[
+        "Ot gaplarning dolaylı anlatımını (olduğunu, olmadığını) tuzish",
+        "To'g'ri gapdan ko'chirma gapga o'tishda shaxs va egalikni o'zgartirish",
+        "Bolalik va yoshlik xotiralari haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("Dolaylı anlatım nima?",
+         "Dolaylı anlatım — birovning gapini ko'chirma shaklda emas, o'z gapimiz ichida bayon qilish. Turkchada bunday gapda odatda -DIğInI söyledi / dedi shakli ishlatiladi. Ot gaplarda \"olduğunu\" (bo'lgani), inkorda \"olmadığını\" ishlatiladi.\n\nTo'g'ri gap: Ali: \"Ben öğretmenim.\" Dolaylı: \"Ali öğretmen olduğunu söyledi.\" (Ali o'qituvchi ekanini aytdi.)\nTo'g'ri gap: \"Hava soğuk.\" Dolaylı: \"Havanın soğuk olduğunu söyledi.\""),
+        ("Shaxs va egalikning o'zgarishi",
+         "Dolaylı gapda ega va egalik qo'shimchalari so'zlovchining nuqtai nazaridan o'zgaradi: ben → o, biz → onlar, benim → onun/kendi.\n\nMisol: Ayşe: \"Benim evim büyük.\" → \"Ayşe evinin büyük olduğunu söyledi.\" (Ayşe uyi katta ekanini aytdi.)\nMisol: \"Biz öğrenciyiz.\" → \"Öğrenci olduklarını söylediler.\" (Ular talaba ekanini aytishdi.)"),
+        ("Var va yok bilan",
+         "\"Var\" ning dolaylı shakli \"olduğunu\", \"yok\" ning dolaylı shakli \"olmadığını\" bo'ladi.\n\nMisol: \"Evde süt var.\" → \"Evde süt olduğunu söyledi.\" (Uyda sut borligini aytdi.)\nMisol: \"Param yok.\" → \"Parasının olmadığını söyledi.\" (Puli yo'qligini aytdi.)"),
+    ],
+    facts=[
+        "Ot gap dolaylisi: ... olduğunu söyledi; inkori: ... olmadığını söyledi.",
+        "Shaxs o'zgaradi: ben → o, benim → onun/kendi, biz → onlar.",
+        "var → olduğunu; yok → olmadığını.",
+    ],
+    vocab=[
+        ("çocukluk", "bolalik", "Çocukluğum köyde geçti.", "Bolaligim qishloqda o'tdi."),
+        ("gençlik", "yoshlik", "Gençliğimde çok seyahat ettim.", "Yoshligimda ko'p sayohat qildim."),
+        ("anı", "xotira", "Bu fotoğraf bana güzel bir anıyı hatırlattı.", "Bu surat menga yoqimli bir xotirani eslatdi."),
+        ("hatırlamak", "eslamoq", "İlk okul günümü hâlâ hatırlıyorum.", "Maktabdagi birinchi kunimni hali ham eslayman."),
+        ("büyümek", "o'smoq, ulg'aymoq", "Küçük bir kasabada büyüdüm.", "Kichik shaharchada o'sdim."),
+        ("ilkokul", "boshlang'ich maktab", "İlkokulda en sevdiğim ders resimdi.", "Boshlang'ich maktabda eng sevgan darsim rasm edi."),
+        ("oyuncak", "o'yinchoq", "Çocukken en sevdiğim oyuncak bir arabaydı.", "Bolaligimda eng sevgan o'yinchog'im mashina edi."),
+        ("mahalle", "mahalla", "Mahallemizde herkes birbirini tanırdı.", "Mahallamizda hamma bir-birini taniyatgan edi."),
+        ("büyükanne", "buvi", "Büyükannem bana masal anlatırdı.", "Buvim menga ertak aytib berardi."),
+        ("masal", "ertak", "Her gece bir masal dinlerdim.", "Har kecha bitta ertak tinglardim."),
+        ("ilk adım", "birinchi qadam", "Başarının ilk adımı karar vermektir.", "Muvaffaqiyatning birinchi qadami qaror qilishdir."),
+        ("hayal", "orzu, xayol", "Küçükken pilot olmayı hayal ederdim.", "Kichikligimda uchuvchi bo'lishni orzu qilardim."),
+    ],
+    reading=("Küçük bir kasabadan büyük şehre",
+        "Mehmet Bey, gençlik yıllarını anlatırken şunları söyledi: \"Ben küçük bir kasabada büyüdüm. Babam çiftçiydi, annem ise evde çalışırdı. Evimiz küçüktü ama çok sıcaktı.\" İlkokulu bitirdiğinde öğretmeni, Mehmet'in çok zeki olduğunu ve mutlaka okumasını söyledi. Ailesi ise bunu karşılayacak parası olmadığını düşünüyordu.\n\nBüyükannesi onlara şöyle dedi: \"Çocuğun hayali varsa, ilk adımı biz atmalıyız.\" Birkaç yıl sonra Mehmet burs kazandı ve büyük bir şehre gitti. İlk günlerde çok yalnız kaldı; mahallesini, masallarını, büyükannesini özledi.\n\nBugün Mehmet Bey bir hastanenin baş doktoru. Anılarını anlatırken hep aynı cümleyi tekrarlıyor: \"Küçük bir kasaba beni yetiştirdi ama büyük bir hayal beni buraya getirdi.\"",
+        [
+            ("Mehmet Bey nerede büyüdü?", ["Küçük bir kasabada", "Büyük bir şehirde", "Yurt dışında", "Bir köyde dağda"]),
+            ("Babası ne iş yapıyordu?", ["Çiftçiydi", "Doktordu", "Öğretmendi", "Esnaftı"]),
+            ("Öğretmen Mehmet hakkında ne söyledi?", ["Çok zeki olduğunu ve okuması gerektiğini", "Çalışkan olmadığını", "Okula gelmediğini", "Ailesinin zengin olduğunu"]),
+            ("Mehmet nasıl büyük şehre gitti?", ["Burs kazanarak", "İş bularak", "Evlenerek", "Akrabalarını ziyaret ederek"]),
+            ("Mehmet Bey bugün ne iş yapıyor?", ["Bir hastanenin baş doktoru", "Öğretmen", "Çiftçi", "Mühendis"]),
+        ]),
+    listening=([
+        ("Derya", "Annem çocukken köyde büyüdüğünü söyledi."),
+        ("Ece", "Benim büyükannem de köyde yaşıyordu. Evlerinde elektrik olmadığını anlatırdı."),
+        ("Derya", "Gerçekten mi? O zaman akşamları ne yaparlarmış?"),
+        ("Ece", "Masal dinleyip mum ışığında yemek yediklerini söylerdi."),
+        ("Derya", "Ne kadar güzel anılar! Annem de oyuncaklarının çok az olduğunu ama çok mutlu olduğunu söylüyor."),
+        ("Ece", "Bence mutluluk oyuncaklarda değil, paylaşmakta."),
+    ], [
+        ("Derya onasi bolaligi haqida nima degan?", ["Qishloqda o'sganini", "Shaharda o'sganini", "Chet elda o'sganini", "Internatda o'sganini"]),
+        ("Ece buvisining uyida nima yo'q edi?", ["Elektr", "Suv", "Eshik", "Stol"]),
+    ]),
+    practice=[
+        ('c', "\"Ali: Men o'qituvchiman\" — dolaylı gap:", ["Ali öğretmen olduğunu söyledi.", "Ali öğretmenim dedi olduğunu.", "Ali öğretmen olacağını söyledi.", "Ali öğretmen olmadığını söyledi."]),
+        ('c', "\"Param yo'q\" — dolaylı gap (u aytdi):", ["Parasının olmadığını söyledi.", "Parasının olduğunu söyledi.", "Param olmadığını söyledi.", "Parası olacağını söyledi."]),
+        ('c', "\"Uyda sut bor\" — dolaylı gap:", ["Evde süt olduğunu söyledi.", "Evde süt olmadığını söyledi.", "Evde süt olacağını söyledi.", "Evde süt olsun dedi."]),
+        ('o', "\"U uyi katta ekanini aytdi.\" gapini tuzing.", ["Evinin", "büyük", "olduğunu", "söyledi."]),
+        ('o', "\"Ular talaba ekanini aytishdi.\" gapini tuzing.", ["Öğrenci", "olduklarını", "söylediler."]),
+        ('c', "\"Bolalik\" turkchada:", ["çocukluk", "gençlik", "anı", "mahalle"]),
+    ],
+    writing=("Bolaligingiz haqida 3 gap yozing (qayerda o'sgansiz, qanday xotiralaringiz bor).",
+             "Küçük bir köyde büyüdüm. Büyükannem bana masallar anlatırdı. Mahallemizdeki herkesi tanırdım."),
+    speaking=["Ali öğretmen olduğunu söyledi.", "Parasının olmadığını söyledi.", "Çocukluğum köyde geçti.", "Büyükannem bana masal anlatırdı."],
+    test=[
+        ("Ot gap dolaylisida \"olduğunu\" nimani bildiradi?", ["... ekanini (bo'lganini)", "... bo'lmaydi", "... bo'lsin", "... bo'lsa"]),
+        ("\"Hava soğuk\" — dolaylı:", ["Havanın soğuk olduğunu söyledi.", "Havanın soğuk olmadığını söyledi.", "Havanın soğuk olacağını söyledi.", "Hava soğuk dedi olduğunu."]),
+        ("\"Param yok\" — dolaylı:", ["Parasının olmadığını söyledi.", "Parasının olduğunu söyledi.", "Parası olsun dedi.", "Parası var demedi."]),
+        ("\"Biz öğrenciyiz\" — dolaylı:", ["Öğrenci olduklarını söylediler.", "Öğrenci olduğumuzu söyledik.", "Öğrenci olacaklarını söylediler.", "Öğrenci olmadıklarını söylediler."]),
+        ("\"Anı\" so'zining ma'nosi:", ["xotira", "orzu", "ertak", "mahalla"]),
+        ("\"Büyümek\" nima degani?", ["o'smoq, ulg'aymoq", "kichrayish", "ketmoq", "kelmoq"]),
+        ("\"Oyuncak\" so'zi:", ["o'yinchoq", "kitob", "daftar", "ruchka"]),
+        ("\"Masal\" nima?", ["ertak", "she'r", "maqol", "qo'shiq"]),
+        ("\"Hayal\" so'zining ma'nosi:", ["orzu, xayol", "haqiqat", "xotira", "imtihon"]),
+        ("\"Mahalle\" so'zi:", ["mahalla", "maktab", "bozor", "bog'"]),
+    ],
+    bank=[
+        ("\"Ali: Evim yaqin\" — dolaylı:", ["Ali evinin yakın olduğunu söyledi.", "Ali evim yakın olduğunu söyledi.", "Ali evinin yakın olacağını söyledi.", "Ali evinin yakın olmadığını söyledi."]),
+        ("\"Evde yemek yok\" — dolaylı:", ["Evde yemek olmadığını söyledi.", "Evde yemek olduğunu söyledi.", "Evde yemek olacağını söyledi.", "Evde yemek yok söyledi."]),
+        ("\"Ben hastayım\" (Ali dedi) — dolaylı:", ["Ali hasta olduğunu söyledi.", "Ali hasta olacağını söyledi.", "Ali hasta olmadığını söyledi.", "Ali hastayım dedi."]),
+        ("Dolaylı anlatımda \"ben\" nimaga aylanadi?", ["o", "sen", "biz", "siz"]),
+        ("\"Benim kitabım\" → dolaylıda?", ["onun/kendi kitabı", "sening kitobing", "bizning kitobimiz", "ularning kitobi"]),
+        ("\"İlkokul\" so'zining ma'nosi:", ["boshlang'ich maktab", "litsey", "universitet", "bog'cha"]),
+        ("\"Büyükanne\" kim?", ["buvi", "ona", "xola", "opa"]),
+        ("\"Gençlik\" so'zi:", ["yoshlik", "keksalik", "bolalik", "qarilik"]),
+        ("\"Hatırlamak\" nima degani?", ["eslamoq", "unutmoq", "o'ylamoq", "yozmoq"]),
+        ("\"İlk adım\" nima?", ["birinchi qadam", "oxirgi qadam", "yo'l", "uy"]),
+        ("\"Mutlu olduğunu söyledi\" ma'nosi:", ["baxtli ekanini aytdi", "baxtli bo'ladi dedi", "baxtli emas dedi", "baxtli bo'l dedi"]),
+        ("\"Yok\" ning dolaylı shakli:", ["olmadığını", "olduğunu", "olacağını", "olsun"]),
+    ],
+)

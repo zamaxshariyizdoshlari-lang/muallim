@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u8b', "B. İş Yeri Ziyareti — Ish joyiga tashrif", 169, 172,
+    goals=[
+        "-Ip kalmak (qotib qolish) va -A yazmak (oz qoldi) tuzilmalarini ishlatish",
+        "Kutilmagan holat va yaqinda bo'lgan voqeani ifodalash",
+        "Ish joyiga tashrif haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-Ip kalmak: qotib qolish, o'rnida qolish",
+         "-Ip kalmak hayrat, taajjub yoki sustlik tufayli ishning to'xtab, holat qotib qolganini bildiradi: bakıp kalmak (tikilib qolish), donup kalmak (qotib qolish), şaşırıp kalmak (hayratda qolish).\n\nMisol: \"Müdürü görünce şaşırıp kaldı.\" (Direktorni ko'rib hayratda qoldi.) \"Soruyu duyunca ne diyeceğini bilemeyip kaldı.\" (Savolni eshitib, nima deyishni bilmay qoldi.) \"Kapıda bakıp kaldım.\" (Eshikda tikilib qoldim.)"),
+        ("-A yazmak: oz qoldi, oz qolib",
+         "-A yazmak ishning yuz berishiga oz qolganini, lekin bo'lmaganini bildiradi: düşe yazmak (yiqilay dedi), ağlayazmak (yig'lay dedi), kaçıra yazmak (o'tkazib yuborishiga oz qoldi).\n\nMisol: \"Merdivenden düşe yazdım.\" (Zinadan yiqilib ketay dedim.) \"Toplantıyı kaçıra yazdı.\" (Yig'ilishni o'tkazib yuborishiga oz qoldi.) \"Ağlayazdı.\" (Yig'lay deb qoldi.)"),
+        ("Ish joyi bilan bog'liq qo'llanilishi",
+         "Bu shakllar ish joyiga birinchi tashrif, kutilmagan holatlar tasvirida ko'p uchraydi. Fe'l o'zagi unli bilan tugasa -yA yazmak: bekleyeyazmak emas, bekle-ye-yazmak; shuning uchun ko'pincha ishlatiladigan fe'llar bilan o'rganish yaxshi.\n\nMisol: \"İş yerini ilk kez görünce hayran kalıp bir süre konuşamadı.\" (Ish joyini birinchi marta ko'rib hayratga tushib, bir muddat gapira olmadi.)"),
+    ],
+    facts=[
+        "-Ip kalmak = qotib/hayratda qolmoq: şaşırıp kalmak, bakıp kalmak.",
+        "-A yazmak = ...ay dedi, oz qoldi: düşe yazmak, ağlayazmak.",
+        "Ikkalasi ham kutilmagan holatni ifodalaydi.",
+    ],
+    vocab=[
+        ("ziyaret", "tashrif", "Fabrika ziyareti çok öğreticiydi.", "Fabrikaga tashrif juda o'rgatuvchi edi."),
+        ("iş yeri", "ish joyi", "Yeni iş yerim şehir merkezinde.", "Yangi ish joyim shahar markazida."),
+        ("tanışmak", "tanishmoq", "Yeni meslektaşlarla tanıştım.", "Yangi hamkasblar bilan tanishdim."),
+        ("rehber", "yo'lboshchi", "Rehber bize tüm bölümleri gezdirdi.", "Yo'lboshchi bizga barcha bo'limlarni ko'rsatdi."),
+        ("bölüm", "bo'lim", "Muhasebe bölümü ikinci katta.", "Buxgalteriya bo'limi ikkinchi qavatda."),
+        ("makine", "mashina, stanok", "Fabrikadaki makineler çok büyüktü.", "Fabrikadagi stanoklar juda katta edi."),
+        ("üretim", "ishlab chiqarish", "Üretim hattı dikkat çekiciydi.", "Ishlab chiqarish liniyasi diqqatga sazovor edi."),
+        ("güvenlik", "xavfsizlik", "Güvenlik kurallarına uymak zorunludur.", "Xavfsizlik qoidalariga amal qilish majburiy."),
+        ("kask", "bosh kiyimi (kaska)", "Şantiyede kask takmak gerekir.", "Qurilishda kaska kiyish kerak."),
+        ("hayran kalmak", "mahliyo bo'lmoq", "Teknolojiye hayran kaldım.", "Texnologiyaga mahliyo bo'ldim."),
+        ("not defteri", "yozuv daftari", "Not defterime her şeyi yazdım.", "Yozuv daftarimga hammasini yozdim."),
+        ("izlenim", "taassurot", "İş yeri hakkında çok olumlu bir izlenim edindim.", "Ish joyi haqida juda ijobiy taassurot oldim."),
+    ],
+    reading=("İlk iş günü",
+        "Selin yeni işine başlamadan önce şirketi ziyaret etti. Kapıda güvenlik görevlisi ona bir giriş kartı verdi. Rehber onu bölümlere gezdirirken Selin hayran kalıp etrafına baktı. Üretim bölümünde büyük makineler çalışıyor, çalışanlar kasklarıyla dikkatle iş yapıyordu.\n\nAsansörden inerken Selin ayağı takılıp düşe yazdı ama rehber onu tuttu. Birkaç saniye şaşırıp kaldı, sonra güldü. Rehber ona şöyle dedi: \"Burada herkes ilk gün heyecandan bir şey yapıyor.\"\n\nGezinin sonunda Selin not defterine izlenimlerini yazdı. Hem ekibin sıcaklığına hem de çalışma ortamına hayran kalmıştı. Eve dönerken, yeni işini sabırsızlıkla beklediğini fark etti.",
+        [
+            ("Selin şirketi ne zaman ziyaret etti?", ["İşe başlamadan önce", "İşten çıktıktan sonra", "Emekli olduğunda", "Tatilde"]),
+            ("Selin'e kim giriş kartı verdi?", ["Güvenlik görevlisi", "Müdür", "Rehber", "Arkadaşı"]),
+            ("Üretim bölümünde ne gördü?", ["Büyük makineler ve kasklı çalışanlar", "Boş bir salon", "Sadece ofis masaları", "Çocuklar"]),
+            ("Asansörden inerken ne oldu?", ["Ayağı takılıp düşe yazdı", "Asansör bozuldu", "Kartını kaybetti", "Rehbere çarptı"]),
+            ("Selin eve dönerken ne fark etti?", ["Yeni işini sabırsızlıkla beklediğini", "İşten vazgeçtiğini", "Yorgun olduğunu", "Kaybolduğunu"]),
+        ]),
+    listening=([
+        ("Rehber", "Hoş geldiniz. Önce güvenlik kurallarını anlatayım."),
+        ("Ziyaretçi", "Kask takmak zorunlu mu?"),
+        ("Rehber", "Evet, üretim bölümünde herkes takıyor."),
+        ("Ziyaretçi", "Dün buraya gelirken kaybolayazdım. Kapıyı bulamayıp kaldım."),
+        ("Rehber", "Merak etmeyin, şimdi birlikte tüm bölümleri gezeceğiz."),
+        ("Ziyaretçi", "Teşekkürler, bu fabrikaya çok hayran kaldım."),
+    ], [
+        ("Ishlab chiqarish bo'limida nima majburiy?", ["Kaska kiyish", "Telefon olish", "Rasmga olish", "Yolg'iz yurish"]),
+        ("Mehmon kecha nima bo'lgan?", ["Yo'lni adashib oz qoldi", "Kasal bo'ldi", "Kechikdi", "Telefon yo'qoldi"]),
+    ]),
+    practice=[
+        ('c', "\"Direktorni ko'rib hayratda qoldi\" turkchada:", ["Müdürü görünce şaşırıp kaldı.", "Müdürü görünce şaşırıverdi.", "Müdürü görmek şaşırıp dur.", "Müdürü gördüğü hâlde şaşırdı."]),
+        ('c', "\"Zinadan yiqilay dedim\" turkchada:", ["Merdivenden düşe yazdım.", "Merdivenden düşüp kaldım.", "Merdivenden düşünce yazdım.", "Merdivenden düştüm yazarak."]),
+        ('c', "\"Yig'lay dedi\" turkchada:", ["Ağlayazdı.", "Ağlayıverdi.", "Ağlayıp kaldı.", "Ağlıyor."]),
+        ('o', "\"U savolni eshitib nima deyishni bilmay qoldi.\" gapini tuzing.", ["Soruyu", "duyunca", "ne", "diyeceğini", "bilemeyip", "kaldı."]),
+        ('o', "\"Toplantıni o'tkazib yuborishiga oz qoldi.\" gapini tuzing.", ["Toplantıyı", "kaçıra", "yazdı."]),
+        ('c', "\"Ish joyi\" turkchada:", ["iş yeri", "bölüm", "ziyaret", "rehber"]),
+    ],
+    writing=("Birinchi ish kuningiz yoki biror joyga tashrif haqida 3 gap yozing.",
+             "İlk iş günümde çok heyecanlıydım. Merdivenden düşe yazdım ama kimse görmedi. Yeni meslektaşlarım çok sıcak karşıladı."),
+    speaking=["Müdürü görünce şaşırıp kaldı.", "Merdivenden düşe yazdım.", "Teknolojiye hayran kaldım.", "Not defterime her şeyi yazdım."],
+    test=[
+        ("-Ip kalmak qanday ma'noni bildiradi?", ["qotib/hayratda qolmoq", "tez bajarmoq", "davom etmoq", "shart"]),
+        ("-A yazmak qanday ma'noni bildiradi?", ["...ay dedi, oz qoldi", "bir zumda", "davomiylik", "shart"]),
+        ("\"Düşe yazdı\" ma'nosi:", ["Yiqilay dedi.", "Yiqildi.", "Yiqilmaydi.", "Yiqiladi."]),
+        ("\"Şaşırıp kalmak\" nima degani?", ["hayratda qolmoq", "kulmoq", "ketmoq", "kutmoq"]),
+        ("\"Rehber\" so'zi:", ["yo'lboshchi", "mijoz", "direktor", "o'quvchi"]),
+        ("\"Üretim\" so'zi:", ["ishlab chiqarish", "sotish", "xarid", "ta'mir"]),
+        ("\"Güvenlik\" so'zi:", ["xavfsizlik", "ishonch", "ta'til", "maosh"]),
+        ("\"Hayran kalmak\" nima degani?", ["mahliyo bo'lmoq", "g'azablanmoq", "yig'lamoq", "kutmoq"]),
+        ("\"İzlenim\" so'zi:", ["taassurot", "tajriba", "maqsad", "reja"]),
+        ("\"Bölüm\" so'zi:", ["bo'lim", "qavat", "xona", "kasb"]),
+    ],
+    bank=[
+        ("\"Kaçıra yazdı\" ma'nosi:", ["O'tkazib yuborishiga oz qoldi.", "O'tkazib yubordi.", "O'tkazib yubormadi.", "O'tkazib yuboradi."]),
+        ("\"Ağlayazdı\" ma'nosi:", ["Yig'lay dedi.", "Yig'ladi.", "Yig'lamaydi.", "Yig'lashga boshladi."]),
+        ("\"Bakıp kaldım\" ma'nosi:", ["Tikilib qoldim.", "Zumda qaradim.", "Qaramadim.", "Qaraydi."]),
+        ("\"Donup kalmak\" nima degani?", ["qotib qolmoq", "yugurmoq", "uxlamoq", "kulmoq"]),
+        ("\"Kask\" so'zi:", ["kaska", "qo'lqop", "poyabzal", "ko'zoynak"]),
+        ("\"Makine\" so'zi:", ["stanok, mashina", "stol", "daftar", "kitob"]),
+        ("\"Tanışmak\" nima degani?", ["tanishmoq", "ketmoq", "kutmoq", "o'tirmoq"]),
+        ("-A yazmak fe'lga qanday qo'shiladi?", ["o'zakka -A yoki -yA", "masdarga", "o'tgan zamonga", "kelasi zamonga"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Merdivenden düşe yazdım.", "Merdivenden düştü yazdım.", "Merdivenden düşme yazdım.", "Merdivenden düşecek yazdım."]),
+        ("\"Ziyaret\" so'zi:", ["tashrif", "tadbir", "ish", "sovg'a"]),
+        ("\"Güvenlik kuralı\" nima?", ["xavfsizlik qoidasi", "ish vaqti", "kiyim", "maosh"]),
+        ("\"Sıcak karşılamak\" nima degani?", ["iliq kutib olmoq", "sovuq kutib olmoq", "jo'natmoq", "kutmoq"]),
+    ],
+)

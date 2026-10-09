@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u8a', "A. Misafirimiz Gelecek — Mehmonimiz keladi", 161, 168,
+    goals=[
+        "-Iver (tezlik) va -Ip durmak (davomiylik) tuzilmalarini ishlatish",
+        "Ishning oson va tez bajarilishini yoki davom etishini ifodalash",
+        "Mehmon kutish va uy tayyorlash haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-Iver: tezlik, osonlik",
+         "Fe'l o'zagiga -(y)Iver qo'shilib (yapıver, gidiver, açıver), ishning tez, bir zumda yoki qiyinchiliksiz bajarilishini bildiradi. Ko'pincha iltimos yoki buyruqda yumshoqlik beradi.\n\nMisol: \"Şu kapıyı açıver.\" (Mana bu eshikni bir ochib yubor.) \"Yemeği hemen hazırlayıverdi.\" (Ovqatni zumda tayyorlab qo'ydi.) \"Çayı koyuver, misafirler gelmek üzere.\" (Choyni quyib qo'y, mehmonlar kelay deb qoldi.)"),
+        ("-Ip durmak: davom etish",
+         "-Ip durmak ishning uzoq vaqt to'xtamay davom etishini bildiradi: bakıp durmak (qarab turaverish), gidip durmak (borib turish), konuşup durmak (gapirib turish).\n\nMisol: \"Çocuk annesine bakıp durdu.\" (Bola onasiga qarab turaverdi.) \"Telefon çalıp durdu.\" (Telefon jiringlayverdi.) \"Komşumuz bize gelip duruyor.\" (Qo'shnimiz bizga tez-tez kelib turibdi.)"),
+        ("Qiyoslash va ohang",
+         "-Iver ko'proq yaqin-yaqin kelajakdagi yoki o'tgan tez bajarilgan ishni ifodalaydi, -Ip durmak esa uzoq davom etgan yoki takrorlanayotgan ishni. Ikkalasi ham muloqot tilida keng qo'llaniladi.\n\nSolishtiring: \"Kapıyı açıverdi.\" (bir zumda ochdi) va \"Kapıyı çalıp durdu.\" (eshikni ketma-ket qoqaverdi)."),
+    ],
+    facts=[
+        "-(y)Iver = tez, oson, bir zumda: açıver, hazırlayıver.",
+        "-Ip durmak = to'xtamay davom etmoq: bakıp durmak, çalıp durmak.",
+        "-Iver yumshoq iltimos ohangini ham beradi.",
+    ],
+    vocab=[
+        ("misafir", "mehmon", "Akşam misafirimiz gelecek.", "Kechqurun mehmonimiz keladi."),
+        ("ağırlamak", "mehmon qilmoq", "Misafirleri güzel ağırladık.", "Mehmonlarni yaxshi kutib oldik."),
+        ("davet", "taklif, chaqiriq", "Doğum günü davetini kabul ettik.", "Tug'ilgan kun taklifini qabul qildik."),
+        ("hazırlık", "tayyorgarlik", "Misafir hazırlıkları bitti.", "Mehmon tayyorgarliklari tugadi."),
+        ("temizlik", "tozalik, tozalash", "Evin temizliğini sabah yaptık.", "Uyni tozalashni ertalab qildik."),
+        ("ikram", "taklif qilingan ovqat/ichimlik", "Misafire çay ve tatlı ikram ettik.", "Mehmonga choy va shirinlik taklif qildik."),
+        ("sofra", "dasturxon", "Sofrayı güzelce hazırladık.", "Dasturxonni chiroyli tayyorladik."),
+        ("karşılamak", "kutib olmoq", "Kapıda misafirleri sıcak karşıladık.", "Eshik oldida mehmonlarni iliq kutib oldik."),
+        ("uğurlamak", "kuzatib qo'ymoq", "Misafirleri kapıya kadar uğurladık.", "Mehmonlarni eshikkacha kuzatib qo'ydik."),
+        ("hoş geldiniz", "xush kelibsiz", "Hoş geldiniz, buyurun içeri.", "Xush kelibsiz, marhamat ichkariga."),
+        ("hediye", "sovg'a", "Misafirler bize güzel bir hediye getirdi.", "Mehmonlar bizga chiroyli sovg'a olib kelishdi."),
+        ("sohbet", "suhbat", "Akşam uzun uzun sohbet ettik.", "Kechqurun uzoq suhbat qurdik."),
+    ],
+    reading=("Misafir bereketi",
+        "Cumartesi akşamı için büyük bir hazırlık yaptık. Annem sabahtan beri mutfaktaydı, ben ise evi topluyordum. Kapı zili çalıp durdu; meğer komşular erkenden gelmişti. Annem hemen çayı koyuverdi, ben de sofrayı hazırlayıverdim.\n\nMisafirler geldiğinde kapıda sıcak bir şekilde karşıladık. Amcam büyük bir pasta getirmişti. Annem tatlılar ve börekle sofrayı donattı. Akşam boyunca çocuklar bahçede oynayıp durdu, büyükler ise uzun uzun sohbet etti.\n\nGece geç saatte misafirleri kapıya kadar uğurladık. Annem şöyle dedi: \"Misafir, evin bereketidir.\" Gerçekten de o akşam evimiz kahkahalarla, sohbetlerle dolup taşmıştı.",
+        [
+            ("Cumartesi akşamı için ne yapıldı?", ["Büyük bir hazırlık yapıldı", "Hiçbir şey yapılmadı", "Dışarı çıkıldı", "Ev boşaltıldı"]),
+            ("Kapı zili çalınca ne oldu?", ["Komşular erkenden gelmişti", "Hiç kimse gelmedi", "Amca gelmişti", "Polis gelmişti"]),
+            ("Amca ne getirdi?", ["Büyük bir pasta", "Çiçek", "Oyuncak", "Meyve"]),
+            ("Akşam boyunca çocuklar ne yaptı?", ["Bahçede oynayıp durdu", "Uyudu", "Ders çalıştı", "Televizyon izledi"]),
+            ("Annenin sözü ne anlatıyor?", ["Misafir evin bereketidir", "Misafir yorucudur", "Misafir gereksizdir", "Misafirsiz yaşamak güzeldir"]),
+        ]),
+    listening=([
+        ("Leyla", "Misafirler yarım saat sonra gelecek!"),
+        ("Tarık", "Sofrayı ben hazırlayıveririm, sen çayı koy."),
+        ("Leyla", "Tamam. Salonu da toplayıver, çok dağınık."),
+        ("Tarık", "Hemen hallederim. Telefon çalıp duruyor, kim arıyor?"),
+        ("Leyla", "Annemmiş, nerede olduğumuzu soruyor. Hemen cevap vereyim."),
+        ("Tarık", "İyi, sonra ikram için tatlıyı çıkarırız."),
+    ], [
+        ("Misafirlar qachon keladi?", ["Yarim soatdan keyin", "Ertaga", "Hozir", "Bir soatdan keyin"]),
+        ("Telefonni kim chaqirayotgan edi?", ["Leylaning onasi", "Tarıkning do'sti", "Mehmon", "Qo'shni"]),
+    ]),
+    practice=[
+        ('c', "\"Eshikni bir ochib yubor\" turkchada:", ["Kapıyı açıver.", "Kapıyı açıp dur.", "Kapıyı açarım.", "Kapıyı açtırdı."]),
+        ('c', "\"Telefon jiringlayverdi\" turkchada:", ["Telefon çalıp durdu.", "Telefon çalıverdi.", "Telefon çalmadı.", "Telefon çalacak."]),
+        ('c', "\"Choyni quyib qo'y (tez)\" turkchada:", ["Çayı koyuver.", "Çayı koyup dur.", "Çayı koydurdu.", "Çayı koyacağım."]),
+        ('o', "\"Bola onasiga qarab turaverdi.\" gapini tuzing.", ["Çocuk", "annesine", "bakıp", "durdu."]),
+        ('o', "\"U ovqatni zumda tayyorlab qo'ydi.\" gapini tuzing.", ["Yemeği", "hemen", "hazırlayıverdi."]),
+        ('c', "\"Mehmon\" turkchada:", ["misafir", "davet", "ikram", "hediye"]),
+    ],
+    writing=("Mehmon kutish bo'yicha 3 gap yozing (-Iver yoki -Ip durmak bilan).",
+             "Misafirler gelmeden önce evi hemen toplayıverdik. Çay demlenip duruyordu. Sofrayı güzelce hazırladık."),
+    speaking=["Şu kapıyı açıver.", "Telefon çalıp durdu.", "Misafir evin bereketidir.", "Hoş geldiniz, buyurun içeri."],
+    test=[
+        ("-(y)Iver qanday ma'noni bildiradi?", ["tezlik, osonlik", "davomiylik", "shart", "zidlik"]),
+        ("-Ip durmak qanday ma'noni bildiradi?", ["to'xtamay davom etish", "bir zumda bajarish", "sabab", "shart"]),
+        ("\"Hemen yapıverdi\" ma'nosi:", ["Zumda qilib qo'ydi.", "Qilib turaverdi.", "Qilmadi.", "Qilmoqchi."]),
+        ("\"Bakıp durdu\" ma'nosi:", ["Qarab turaverdi.", "Zumda qaradi.", "Qaramadi.", "Qaramaydi."]),
+        ("\"Ağırlamak\" nima degani?", ["mehmon qilmoq", "kutmoq", "kuzatmoq", "yig'moq"]),
+        ("\"İkram etmek\" nima degani?", ["taklif qilmoq (ovqat/ichimlik)", "sotmoq", "olmoq", "yig'moq"]),
+        ("\"Karşılamak\" nima degani?", ["kutib olmoq", "kuzatmoq", "ketmoq", "kutmoq"]),
+        ("\"Uğurlamak\" nima degani?", ["kuzatib qo'ymoq", "kutib olmoq", "chaqirmoq", "o'tirmoq"]),
+        ("\"Sofra\" so'zi:", ["dasturxon", "xona", "ko'cha", "idish"]),
+        ("\"Sohbet\" so'zi:", ["suhbat", "qo'shiq", "ish", "o'yin"]),
+    ],
+    bank=[
+        ("\"Salonu toplayıver\" ma'nosi:", ["Zalni bir yig'ishtirib qo'y.", "Zalni sotib ol.", "Zalda o'tir.", "Zalni ochma."]),
+        ("\"Gidip duruyor\" ma'nosi:", ["Borib turibdi (tez-tez)", "Bir zumda bordi", "Bormaydi", "Bormoqchi"]),
+        ("\"Yazıverdi\" ma'nosi:", ["Zumda yozib qo'ydi.", "Yozib turaverdi.", "Yozmadi.", "Yozmoqchi."]),
+        ("\"Hoş geldiniz\" qachon aytiladi?", ["mehmon kelganda", "mehmon ketganda", "tug'ilgan kunda", "imtihonda"]),
+        ("\"Hediye\" so'zi:", ["sovg'a", "ikram", "davet", "tayyorgarlik"]),
+        ("\"Davet\" so'zi:", ["taklif", "sovg'a", "ish", "ro'yxat"]),
+        ("\"Temizlik\" so'zi:", ["tozalik, tozalash", "g'ayrat", "ish", "baho"]),
+        ("\"Hazırlık\" so'zi:", ["tayyorgarlik", "o'yin", "dars", "uy"]),
+        ("-Iver qaysi hollarda yumshoqlik beradi?", ["iltimos va buyruqda", "inkorda", "so'roqda", "shartda"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Çayı koyuver.", "Çayı koyupver.", "Çayı koyuverin.", "Çayı koymuver."]),
+        ("\"Konuşup durmak\" nima degani?", ["gapirib turaverish", "bir zumda gapirmoq", "jim turmoq", "gapirmoq"]),
+        ("\"Bereket\" so'zi:", ["barakat", "kasallik", "xarajat", "yomonlik"]),
+    ],
+)

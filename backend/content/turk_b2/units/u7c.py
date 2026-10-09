@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u7c', "C. Nasıl Başardılar? — Qanday uddaladilar?", 154, 160,
+    goals=[
+        "-DIğI takdirde va -mAsI durumunda shart zarf-fe'llarini ishlatish",
+        "Rasmiy matnlarda shart ma'nosini ifodalash",
+        "Muvaffaqiyat va intizom haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-DIğI takdirde: ...gan taqdirda",
+         "Fe'l o'zagi + -DIk + egalik + takdirde rasmiy uslubda \"...gan taqdirda, ...sa\" degan shart ma'nosini beradi.\n\nMisol: \"Başvuru zamanında yapıldığı takdirde burs verilir.\" (Ariza o'z vaqtida topshirilsa, stipendiya beriladi.) \"Kurallara uyulmadığı takdirde ceza uygulanır.\" (Qoidalarga amal qilinmasa, jarima qo'llaniladi.)"),
+        ("-mAsI durumunda: ...bo'lgan holda",
+         "-mAsI durumunda ham shart bildiradi. Yozma, rasmiy uslubda -mAsI hâlinde bilan ma'nodosh.\n\nMisol: \"Öğrencinin devamsızlık yapması durumunda sınava alınmaz.\" (Talaba darsni qoldirsa, imtihonga qo'yilmaydi.) \"Sorunun devam etmesi durumunda lütfen bizi arayın.\" (Muammo davom etsa, iltimos bizga qo'ng'iroq qiling.)"),
+        ("Solishtirish: shartning turli shakllari",
+         "Turkchada shart ma'nosini bir necha usulda ifodalash mumkin: -sA (gelirse), -DIğI takdirde, -mAsI durumunda/hâlinde, eğer ... -sA. Rasmiy hujjatlarda -DIğI takdirde va -mAsI durumunda ko'proq ishlatiladi.\n\nMisol: \"Hata yaparsan düzeltirsin.\" (oddiy) — \"Hata yapıldığı takdirde düzeltme yapılır.\" (rasmiy). Ikkala gap ham \"xato bo'lsa, tuzatiladi\" degan ma'noni beradi."),
+    ],
+    facts=[
+        "-DIğI takdirde = ...gan taqdirda (rasmiy shart).",
+        "-mAsI durumunda = ...sa, ...gan holda (rasmiy shart).",
+        "Rasmiy hujjat va qoidalarda eğer ...-sA ning o'rniga keladi.",
+    ],
+    vocab=[
+        ("başarı", "muvaffaqiyat", "Başarı sabırla gelir.", "Muvaffaqiyat sabr bilan keladi."),
+        ("disiplin", "intizom", "Disiplinli çalışmak başarıyı getirir.", "Intizomli ishlash muvaffaqiyat keltiradi."),
+        ("hedef", "maqsad", "Hedefini belirleyen insan yolunu bulur.", "Maqsadini belgilagan odam yo'lini topadi."),
+        ("azim", "qat'iyat", "Azim ve sabırla zirveye ulaştı.", "Qat'iyat va sabr bilan cho'qqiga yetdi."),
+        ("kararlılık", "qat'iylik", "Kararlılık başarının anahtarıdır.", "Qat'iylik muvaffaqiyat kalitidir."),
+        ("engel", "to'siq", "Her engel yeni bir fırsattır.", "Har to'siq yangi imkoniyatdir."),
+        ("ödül", "mukofot", "Başarılı öğrenciye ödül verildi.", "Muvaffaqiyatli o'quvchiga mukofot berildi."),
+        ("rekor", "rekord", "Yeni bir rekor kırdı.", "Yangi rekord o'rnatdi."),
+        ("örnek", "namuna, misol", "Başarılı insanlar bize örnek olur.", "Muvaffaqiyatli odamlar bizga namuna bo'ladi."),
+        ("yetenek", "iste'dod", "Yetenek tek başına yetmez, çalışmak gerekir.", "Iste'dodning o'zi yetmaydi, mehnat qilish kerak."),
+        ("vazgeçmek", "voz kechmoq", "Hedefinden asla vazgeçmedi.", "Maqsadidan hech qachon voz kechmadi."),
+        ("sonuç", "natija", "Çalışmanın sonucu çok iyiydi.", "Ishning natijasi juda yaxshi edi."),
+    ],
+    reading=("Başarının sırrı",
+        "Bir spor akademisinin hocası, her yıl en başarılı öğrencilere ödül verirdi. Bir gün öğrencilere şunu sordu: \"Başarılı olmak için ne gerekiyor?\" Öğrencilerden biri yetenek dedi, diğeri şans. Hoca gülümsedi ve şöyle cevap verdi: \"Yetenek, disiplin ile birleştiği takdirde başarı getirir.\"\n\nHoca kuralları açıkça belirtti: Antrenmanlara düzenli katılmak, hedef belirlemek ve engellerden korkmamak zorundalar. Antrenmanlara katılmamaları durumunda yarışmalara alınmayacaklardı. Öğrenciler kuralları ciddiye alıp çalıştılar.\n\nYıl sonunda akademinin bir öğrencisi ulusal yarışmada rekor kırdı. Hoca ona ödülünü verirken sadece şunu söyledi: \"Vazgeçmediğin takdirde, her engel sana yeni bir yol açar.\" Öğrenci o sözü hayatı boyunca unutmadı.",
+        [
+            ("Hoca öğrencilere hangi soruyu sordu?", ["Başarılı olmak için ne gerektiğini", "Hangi sporu sevdiklerini", "Nerede yaşadıklarını", "Kaç yaşında olduklarını"]),
+            ("Hocaya göre yetenek ne zaman başarı getirir?", ["Disiplinle birleştiği takdirde", "Şansla birleştiği takdirde", "Para olduğu takdirde", "Tek başına"]),
+            ("Antrenmanlara katılmayanlara ne olacaktı?", ["Yarışmalara alınmayacaklardı", "Ödül alacaklardı", "Akademiden atılacaklardı", "Hiçbir şey olmayacaktı"]),
+            ("Yıl sonunda ne oldu?", ["Bir öğrenci ulusal yarışmada rekor kırdı", "Akademi kapandı", "Kimse yarışmaya katılmadı", "Hoca emekli oldu"]),
+            ("Hocanın son sözü ne anlatıyor?", ["Vazgeçmeyen kişiye her engel yeni bir yol açar", "Yarışmalar zordur", "Ödül önemli değildir", "Antrenman gereksizdir"]),
+        ]),
+    listening=([
+        ("Görevli", "Burs başvurusunu zamanında yaptığınız takdirde sonuç bir hafta içinde açıklanacak."),
+        ("Öğrenci", "Peki eksik belgem olması durumunda ne olur?"),
+        ("Görevli", "Eksik belge varsa başvuru geçersiz sayılır."),
+        ("Öğrenci", "Hangi belgeler gerekiyor?"),
+        ("Görevli", "Öğrenci belgesi, not çizelgesi ve bir niyet mektubu."),
+        ("Öğrenci", "Teşekkürler, yarın hepsini getireceğim."),
+    ], [
+        ("Natija qachon e'lon qilinadi?", ["Bir hafta ichida", "Bir oyda", "Ertaga", "Yil oxirida"]),
+        ("Hujjat yetishmasa nima bo'ladi?", ["Ariza yaroqsiz hisoblanadi", "Qayta so'raladi", "Jarima olinadi", "Hech narsa"]),
+    ]),
+    practice=[
+        ('c', "\"Ariza o'z vaqtida topshirilsa stipendiya beriladi\" turkchada:", ["Başvuru zamanında yapıldığı takdirde burs verilir.", "Başvuru zamanında yapılınca burs verilir.", "Başvuru zamanında yapmış burs verilir.", "Başvuru zamanında yapıldığı için burs verilir."]),
+        ('c', "\"Qoidalarga amal qilinmasa jarima qo'llaniladi\" turkchada:", ["Kurallara uyulmadığı takdirde ceza uygulanır.", "Kurallara uyulduğu takdirde ceza uygulanır.", "Kurallara uyulduğu için ceza uygulanır.", "Kurallara uyulmakta ceza uygulanır."]),
+        ('c', "\"Muammo davom etsa\" turkchada (rasmiy):", ["Sorunun devam etmesi durumunda", "Sorunun devam ettiği için", "Sorun devam ederken", "Sorun devam etmek yerine"]),
+        ('o', "\"Talaba darsni qoldirsa imtihonga qo'yilmaydi.\" gapini tuzing.", ["Devamsızlık", "yapması", "durumunda", "sınava", "alınmaz."]),
+        ('o', "\"Qat'iyat va sabr bilan cho'qqiga yetdi.\" gapini tuzing.", ["Azim", "ve", "sabırla", "zirveye", "ulaştı."]),
+        ('c', "\"Maqsad\" turkchada:", ["hedef", "engel", "ödül", "sonuç"]),
+    ],
+    writing=("Siz uchun muvaffaqiyat nima? Shartli gaplar bilan 3 gap yozing.",
+             "Çalıştığın takdirde başarılı olursun. Hedef belirlemediğin takdirde yolunu kaybedersin. Vazgeçmediğin sürece sonuç gelir."),
+    speaking=["Başvuru zamanında yapıldığı takdirde burs verilir.", "Sorunun devam etmesi durumunda bizi arayın.", "Başarı sabırla gelir.", "Hedefinden asla vazgeçmedi."],
+    test=[
+        ("-DIğI takdirde qanday ma'noni bildiradi?", ["...gan taqdirda (shart)", "...ganiga qaramay", "...ganda (payt)", "...guncha"]),
+        ("-mAsI durumunda qanday ma'noni bildiradi?", ["...sa (rasmiy shart)", "sabab", "payt", "zidlik"]),
+        ("\"Gecikildiği takdirde ceza uygulanır\" ma'nosi:", ["Kechikilsa, jarima qo'llaniladi.", "Kechikkani uchun jarima.", "Kechikmaydi.", "Jarima yo'q."]),
+        ("Bu shakllar qaysi uslubga xos?", ["rasmiy yozma", "bolalar nutqi", "so'zlashuv", "she'riy"]),
+        ("\"Hedef\" so'zi:", ["maqsad", "to'siq", "mukofot", "natija"]),
+        ("\"Azim\" so'zi:", ["qat'iyat", "dangasalik", "qo'rquv", "xato"]),
+        ("\"Vazgeçmek\" nima degani?", ["voz kechmoq", "boshlamoq", "ketmoq", "o'rganmoq"]),
+        ("\"Rekor kırmak\" nima degani?", ["rekord o'rnatmoq", "yutqazmoq", "to'xtamoq", "boshlamoq"]),
+        ("\"Yetenek\" so'zi:", ["iste'dod", "tajriba", "maqsad", "to'siq"]),
+        ("\"Ödül\" so'zi:", ["mukofot", "jarima", "ish", "saboq"]),
+    ],
+    bank=[
+        ("\"Disiplin\" so'zi:", ["intizom", "yolg'on", "xato", "ish"]),
+        ("\"Kararlılık\" so'zi:", ["qat'iylik", "ikkilanish", "qo'rquv", "sabr"]),
+        ("\"Engel\" so'zi:", ["to'siq", "yordam", "mukofot", "natija"]),
+        ("\"Örnek olmak\" nima degani?", ["namuna bo'lmoq", "o'rnak olmoq emas", "namuna so'ramoq", "xato qilmoq"]),
+        ("\"Sonuç\" so'zi:", ["natija", "boshlanish", "maqsad", "xato"]),
+        ("\"Zirve\" so'zi:", ["cho'qqi", "vodiy", "quyi", "yo'l"]),
+        ("-mAsI hâlinde ning ma'nodoshi:", ["-mAsI durumunda", "-DIğI için", "-IncA", "-DIkçA"]),
+        ("\"Yapıldığı takdirde\" ma'nosi:", ["qilinsa", "qilmadi", "qilingani uchun", "qilmoqchi"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Hata yapıldığı takdirde düzeltilir.", "Hata yapıldığı takdirde için düzeltilir.", "Hata yapılmış takdirde düzeltilir.", "Hata yapılırsa takdirde düzeltilir."]),
+        ("\"Ciddiye almak\" nima degani?", ["jiddiy qabul qilmoq", "kulib qo'ymoq", "unutmoq", "yig'moq"]),
+        ("\"Antrenman\" so'zi:", ["mashg'ulot", "musobaqa", "stadion", "forma"]),
+        ("\"Ulusal\" so'zi:", ["milliy", "viloyat", "xalqaro", "mahalliy"]),
+    ],
+)

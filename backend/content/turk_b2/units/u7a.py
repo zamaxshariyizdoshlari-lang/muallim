@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u7a', "A. Nasıl Öğreniyorum? — Qanday o'rganyapman?", 142, 146,
+    goals=[
+        "-mAk yerine va -mAktAnsA o'rnini bosuvchi zarf-fe'llarini ishlatish",
+        "Ikki harakatni solishtirib, ustun variantni ifodalash",
+        "O'rganish usullari haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-mAk yerine: ...ish o'rniga",
+         "Fe'l masdari (-mAk) + yerine \"...ning o'rniga\" ma'nosini beradi: bir ish o'rniga boshqa ish qilinadi.\n\nMisol: \"Ders çalışmak yerine film izledi.\" (Dars qilish o'rniga film ko'rdi.) \"Bütün gün evde oturmak yerine yürüyüşe çıktık.\" (Kun bo'yi uyda o'tirish o'rniga sayrga chiqdik.) Inkor: \"Cevap vermemek yerine açıkça konuştu.\" (Javob bermaslik o'rniga ochiq gapirdi.)"),
+        ("-mAktAnsA: ...ishdan ko'ra",
+         "-mAktAnsA (-maktansa/-mektense) ikki ishni solishtirib, ikkinchisini afzal ko'radi: \"...ishdan ko'ra, ...ni afzal ko'radi\".\n\nMisol: \"Kitap okumaktansa film izlemeyi tercih ederim.\" (Kitob o'qishdan ko'ra film ko'rishni afzal ko'raman.) \"Yalnız çalışmaktansa grupla çalışmayı seviyorum.\" (Yolg'iz ishlashdan ko'ra guruhda ishlashni yoqtiraman.)"),
+        ("Farqi va qo'llanilishi",
+         "-mAk yerine odatda amalda nima qilinganini ko'rsatadi (haqiqiy almashtirish), -mAktAnsA esa afzallikni ifodalaydi (fikr, tanlov). Ikkalasida ham egalik qo'shimchasi bo'lmaydi; ega bosh gapdagi bilan bir xil.\n\nSolishtiring: \"Dinlenmek yerine çalıştı.\" (Dam olish o'rniga ishladi.) va \"Dinlenmektense çalışmayı seçti.\" (Dam olishdan ko'ra ishlashni tanladi.)"),
+    ],
+    facts=[
+        "-mAk yerine = ...ish o'rniga (haqiqiy almashtirish).",
+        "-mAktAnsA = ...ishdan ko'ra (afzallik): okumaktansa izlemek.",
+        "Ikkalasi ham masdar (-mAk) ga qo'shiladi, egalik qo'shimchasisiz.",
+    ],
+    vocab=[
+        ("öğrenmek", "o'rganmoq", "Yeni bir dil öğrenmek istiyorum.", "Yangi til o'rganishni xohlayman."),
+        ("ezberlemek", "yodlamoq", "Şiiri ezberlemek kolay değil.", "She'rni yodlash oson emas."),
+        ("anlamak", "tushunmoq", "Konuyu anlamak için örnekler çözdüm.", "Mavzuni tushunish uchun misollar yechdim."),
+        ("tekrar etmek", "takrorlamoq", "Her akşam kelimeleri tekrar ediyorum.", "Har kech so'zlarni takrorlayman."),
+        ("not almak", "yozib bormoq", "Derste not almak çok faydalı.", "Darsda yozib borish juda foydali."),
+        ("hafıza", "xotira", "Hafızamı güçlendirmek için kitap okuyorum.", "Xotiramni kuchaytirish uchun kitob o'qiyman."),
+        ("dikkat", "diqqat", "Derste dikkatli olmak gerekir.", "Darsda diqqatli bo'lish kerak."),
+        ("odaklanmak", "e'tiborni jamlamoq", "Telefonu kapatıp çalışmaya odaklandım.", "Telefonni o'chirib, ishga e'tiborimni qaratdim."),
+        ("yöntem", "usul", "Her öğrencinin kendine göre bir öğrenme yöntemi var.", "Har o'quvchining o'ziga xos o'rganish usuli bor."),
+        ("pratik yapmak", "mashq qilmoq", "Konuşmayı öğrenmek için pratik yapmalısın.", "Gapirishni o'rganish uchun mashq qilishing kerak."),
+        ("hata", "xato", "Hatalardan ders almak gerekir.", "Xatolardan saboq olish kerak."),
+        ("ilerlemek", "ilgarilamoq, yuksalmoq", "Her gün biraz ilerliyorum.", "Har kuni biroz ilgarilayapman."),
+    ],
+    reading=("Öğrenmenin yolları",
+        "Öğretmenimiz bir gün bize şunu sordu: \"Hangi yöntemle daha iyi öğreniyorsunuz?\" Sınıfta herkesin cevabı farklıydı. Ali, kitap okumaktansa videolarla öğrenmeyi sevdiğini söyledi. Ayşe ise ezberlemek yerine konuyu anlamaya çalıştığını anlattı. Kemal her şeyi not almadan hafızasında tutabildiğini iddia etti ama sınavda zorlandı.\n\nÖğretmen şöyle dedi: \"Öğrenme yöntemi kişiye göre değişir. Ama bazı ortak kurallar var: dikkatli dinlemek, tekrar etmek ve pratik yapmak.\" Ardından hepimize bir hafta boyunca farklı bir yöntem denemeyi önerdi.\n\nBen bir hafta boyunca sadece okumak yerine konuları arkadaşlarıma anlattım. Gerçekten de daha iyi anladım. Öğrenmek, sadece bilgi toplamak değil, onu başkasına aktarabilmekmiş.",
+        [
+            ("Öğretmen sınıfa hangi soruyu sordu?", ["Hangi yöntemle daha iyi öğrendikleri", "Hangi dersi sevdikleri", "Kaç saat uyudukları", "Ne yemek yedikleri"]),
+            ("Ali nasıl öğrenmeyi seviyor?", ["Videolarla", "Sadece kitapla", "Not alarak", "Ezberleyerek"]),
+            ("Ayşe ne yapıyor?", ["Ezberlemek yerine konuyu anlamaya çalışıyor", "Hiç çalışmıyor", "Sadece ezberliyor", "Arkadaşlarından kopya çekiyor"]),
+            ("Kemal'in iddiası ne oldu?", ["Not almadan hafızasında tutabildiğini iddia etti ama sınavda zorlandı", "Her sınavı geçti", "Notları iyi aldı", "Hiç çalışmadı"]),
+            ("Yazar bir hafta boyunca ne yaptı?", ["Konuları arkadaşlarına anlattı", "Sadece okudu", "Hiç çalışmadı", "Video izledi"]),
+        ]),
+    listening=([
+        ("Deniz", "Sınava nasıl çalışıyorsun?"),
+        ("Emre", "Ders notlarını tekrar edip özet çıkarıyorum."),
+        ("Deniz", "Ben ezberlemek yerine örnek soru çözmeyi seviyorum."),
+        ("Emre", "Bence ikisi de gerekli. Tek başına çalışmaktansa grupla çalışmak daha verimli."),
+        ("Deniz", "Haklısın. Hafta sonu kütüphanede buluşalım."),
+        ("Emre", "Olur. Telefonları kapatıp tamamen dikkatimizi toplayalım."),
+    ], [
+        ("Emre qanday tayyorlanadi?", ["Konspektlarni takrorlab, xulosa chiqaradi", "Faqat yodlaydi", "Uxlaydi", "Faqat video ko'radi"]),
+        ("Ular qayerda uchrashishadi?", ["Kutubxonada", "Kafeda", "Uyda", "Maktabda"]),
+    ]),
+    practice=[
+        ('c', "\"Dars qilish o'rniga film ko'rdi\" turkchada:", ["Ders çalışmak yerine film izledi.", "Ders çalışmaktansa film izledi.", "Ders çalıştığı yerde film izledi.", "Ders çalışınca film izledi."]),
+        ('c', "\"Kitob o'qishdan ko'ra film ko'rishni afzal ko'raman\" turkchada:", ["Kitap okumaktansa film izlemeyi tercih ederim.", "Kitap okumak yerine film izlerim.", "Kitap okuyunca film izlerim.", "Kitap okudukça film izlerim."]),
+        ('c', "\"-mAktAnsA\" nimani bildiradi?", ["afzallik: ...dan ko'ra", "sabab", "payt", "zidlik"]),
+        ('o', "\"Yolg'iz ishlashdan ko'ra guruhda ishlashni yoqtiraman.\" gapini tuzing.", ["Yalnız", "çalışmaktansa", "grupla", "çalışmayı", "seviyorum."]),
+        ('o', "\"Kun bo'yi uyda o'tirish o'rniga sayrga chiqdik.\" gapini tuzing.", ["Bütün", "gün", "evde", "oturmak", "yerine", "yürüyüşe", "çıktık."]),
+        ('c', "\"Yodlamoq\" turkchada:", ["ezberlemek", "anlamak", "tekrar etmek", "not almak"]),
+    ],
+    writing=("Siz qanday o'rganasiz? -mAktAnsA yoki -mAk yerine bilan 3 gap yozing.",
+             "Kitap okumaktansa video izleyerek öğrenmeyi seviyorum. Ezberlemek yerine örnek çözüyorum. Her akşam notlarımı tekrar ediyorum."),
+    speaking=["Ders çalışmak yerine film izledi.", "Kitap okumaktansa film izlemeyi tercih ederim.", "Hatalardan ders almak gerekir.", "Pratik yapmak çok önemlidir."],
+    test=[
+        ("-mAk yerine nimani bildiradi?", ["...ish o'rniga", "...ishdan ko'ra", "...ish sababli", "...ishgacha"]),
+        ("-mAktAnsA nimani bildiradi?", ["afzallik (...dan ko'ra)", "sabab", "payt", "zidlik"]),
+        ("\"Çalışmaktansa dinlenmeyi tercih ederim\" ma'nosi:", ["Ishlashdan ko'ra dam olishni afzal ko'raman.", "Ishlagani uchun dam olaman.", "Dam olish o'rniga ishlayman.", "Ishlamaganim uchun dam olaman."]),
+        ("\"Ezberlemek\" nima degani?", ["yodlamoq", "tushunmoq", "o'rgatmoq", "yozmoq"]),
+        ("\"Hafıza\" so'zi:", ["xotira", "diqqat", "usul", "xato"]),
+        ("\"Odaklanmak\" nima degani?", ["e'tiborni jamlamoq", "chalg'imoq", "unutmoq", "yig'lamoq"]),
+        ("\"Yöntem\" so'zi:", ["usul", "xato", "kitob", "dars"]),
+        ("\"Pratik yapmak\" nima degani?", ["mashq qilmoq", "dam olmoq", "yozmoq", "o'qimoq"]),
+        ("\"İlerlemek\" nima degani?", ["ilgarilamoq", "orqaga qaytmoq", "to'xtamoq", "yig'lamoq"]),
+        ("\"Hata\" so'zi:", ["xato", "to'g'ri", "usul", "natija"]),
+    ],
+    bank=[
+        ("\"Cevap vermemek yerine açıkça konuştu\" ma'nosi:", ["Javob bermaslik o'rniga ochiq gapirdi.", "Javob bermagani uchun ochiq gapirdi.", "Javob bersa ochiq gapiradi.", "Javob berdi."]),
+        ("\"Yalnız çalışmaktansa\" ma'nosi:", ["yolg'iz ishlashdan ko'ra", "yolg'iz ishlagani uchun", "yolg'iz ishlasa", "yolg'iz ishlamaydi"]),
+        ("\"Not almak\" nima degani?", ["yozib bormoq", "baho olmoq", "pul olmoq", "kitob olmoq"]),
+        ("\"Tekrar etmek\" nima degani?", ["takrorlamoq", "to'xtamoq", "kutmoq", "yozmoq"]),
+        ("\"Dikkat\" so'zi:", ["diqqat", "xato", "sabr", "hafta"]),
+        ("-mAk yerine fe'lga qanday shaklda qo'shiladi?", ["masdar (-mAk)", "o'tgan zamon", "buyruq", "kelasi zamon"]),
+        ("\"Anlamak\" nima degani?", ["tushunmoq", "yozmoq", "o'rgatmoq", "ketmoq"]),
+        ("\"Öğrenme yöntemi\" nima?", ["o'rganish usuli", "o'rganish joyi", "o'qituvchi", "kitob"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Gitmek yerine kaldı.", "Gittiği yerine kaldı.", "Gidiyor yerine kaldı.", "Gitmiş yerine kaldı."]),
+        ("\"Özet çıkarmak\" nima degani?", ["xulosa chiqarmoq", "to'ldirmoq", "sotmoq", "yig'moq"]),
+        ("\"Verimli\" so'zi:", ["samarali", "samarasiz", "arzon", "sekin"]),
+        ("\"Hatalardan ders almak\" nima degani?", ["xatolardan saboq olmoq", "xato qilmoq", "dars bermoq", "dars qoldirmoq"]),
+    ],
+)

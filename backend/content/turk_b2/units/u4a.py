@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u4a', "A. Yemekte Ne Var? — Taomda nima bor?", 82, 88,
+    goals=[
+        "boyunca, süresince va -DIğI sürece/süre içinde ifodalarini ishlatish",
+        "Davomiylikni ko'rsatuvchi birikmalarni farqlash",
+        "Taom va oshxona haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("boyunca: ...davomida",
+         "boyunca ma'lum vaqt oralig'ining boshidan oxirigacha davom etgan ishni bildiradi. Ot va payt ma'nosidagi so'zlardan keyin keladi.\n\nMisol: \"Yaz boyunca köyde kaldım.\" (Yoz davomida qishloqda qoldim.) \"Yemek boyunca kimse konuşmadı.\" (Ovqat davomida hech kim gapirmadi.) \"Bütün gece boyunca yağmur yağdı.\" (Tun bo'yi yomg'ir yog'di.)"),
+        ("süresince: ...vaqt mobaynida",
+         "süresince rasmiyroq bo'lib, ma'lum cheklangan davrni bildiradi. Ko'pincha ot yoki egalik qo'shimchali so'z bilan keladi.\n\nMisol: \"Tatil süresince çok dinlendik.\" (Ta'til mobaynida juda dam oldik.) \"Ders süresince telefonlar kapalı olmalı.\" (Dars mobaynida telefonlar o'chiq bo'lishi kerak.) \"Yemek süresince müzik çaldı.\" (Ovqat mobaynida musiqa chalindi.)"),
+        ("-DIğI sürece / -DIğI süre içinde",
+         "-DIğI sürece \"...ganicha, ...gan ekan, ...gandan beri\" ma'nosini beradi: shart yoki davomiylik bildiradi. -DIğI süre içinde \"...gan vaqt ichida\".\n\nMisol: \"Ateş yandığı sürece yemek kaynar.\" (Olov yonib turguncha ovqat qaynaydi.) \"Sen burada olduğun sürece sorun yok.\" (Sen shu yerda bo'lgancha muammo yo'q.) \"Yemek pişirdiği süre içinde mutfağa kimse girmedi.\" (U ovqat pishirgan vaqt ichida oshxonaga hech kim kirmadi.)"),
+    ],
+    facts=[
+        "boyunca = davomida (boshidan oxirigacha): yaz boyunca.",
+        "süresince = mobaynida (rasmiy): tatil süresince.",
+        "-DIğI sürece = ...gancha, ...gan ekan: yandığı sürece.",
+    ],
+    vocab=[
+        ("yemek", "taom, ovqat", "Bu akşam yemekte ne var?", "Bu kecha taomda nima bor?"),
+        ("tarif", "retsept", "Annemin yemek tarifini defterime yazdım.", "Onamning ovqat retseptini daftarimga yozdim."),
+        ("malzeme", "masalliq", "Malzemeleri önceden hazırlamak gerekir.", "Masalliqlarni oldindan tayyorlash kerak."),
+        ("pişirmek", "pishirmoq", "Yemeği kısık ateşte pişir.", "Ovqatni past olovda pishir."),
+        ("kızartmak", "qovurmoq", "Patatesleri yağda kızarttım.", "Kartoshkani yog'da qovurdim."),
+        ("haşlamak", "qaynatib pishirmoq", "Yumurtaları beş dakika haşladı.", "Tuxumlarni besh daqiqa qaynatdi."),
+        ("doğramak", "to'g'ramoq", "Soğanı küçük küçük doğradı.", "Piyozni mayda-mayda to'g'radi."),
+        ("tuz", "tuz", "Yemeğe biraz tuz ekle.", "Ovqatga biroz tuz qo'sh."),
+        ("baharat", "ziravor", "Bu yemekte çok baharat kullanılmış.", "Bu ovqatda juda ko'p ziravor ishlatilgan."),
+        ("lezzetli", "mazali", "Annemin yaptığı çorba çok lezzetli.", "Onam qilgan sho'rva juda mazali."),
+        ("ocak", "plita, o'choq", "Çorba ocakta kaynıyor.", "Sho'rva plitada qaynayapti."),
+        ("tadına bakmak", "ta'mini ko'rmoq", "Servis etmeden önce tadına baktı.", "Dasturxonga qo'ymasdan oldin ta'mini ko'rdi."),
+    ],
+    reading=("Bayram sofrası",
+        "Büyükannemin evinde bayram boyunca mutfak hiç boş kalmazdı. Daha sabah erkenden ocak yanardı, havaya baharat kokusu yayılırdı. Büyükannem tarifleri defterine değil, hafızasına yazmıştı. Her yemeği kendi yöntemiyle, tadına bakarak pişirirdi.\n\nBayramın ilk günü sofrada mercimek çorbası, pilav ve etli yemekler olurdu. Yemek süresince kimse telefona bakmaz, herkes birbirini dinlerdi. Büyükannem ateş yandığı sürece mutfaktan çıkmaz, en küçüğümüz bile ona yardım ederdi. Ben soğanları doğrar, kuzenlerim ise masayı hazırlardı.\n\nBugün büyükannem aramızda değil ama tarifleri hâlâ yaşıyor. Her bayramda onun mercimek çorbasını yapıyoruz. Tadı aynı olmasa da, mutfaktan gelen koku bize onu hatırlatıyor.",
+        [
+            ("Bayram boyunca mutfak nasıldı?", ["Hiç boş kalmazdı", "Hep kapalıydı", "Çok sessizdi", "Sadece gece açıktı"]),
+            ("Büyükannesi tarifleri nereye yazmıştı?", ["Hafızasına", "Defterine", "Kitaba", "Telefonuna"]),
+            ("Sofrada neler olurdu?", ["Mercimek çorbası, pilav ve etli yemekler", "Sadece tatlı", "Pizza ve makarna", "Balık ve salata"]),
+            ("Yemek süresince ne olurdu?", ["Kimse telefona bakmaz, herkes birbirini dinlerdi", "Herkes televizyon izlerdi", "Kimse konuşmazdı", "Herkes dışarı çıkardı"]),
+            ("Yazar bugün neyi yapıyor?", ["Büyükannesinin mercimek çorbasını yapıyor", "Başka yemek yapıyor", "Restorana gidiyor", "Yemek yapmıyor"]),
+        ]),
+    listening=([
+        ("Zehra", "Bu akşam yemekte ne var?"),
+        ("Anne", "Mercimek çorbası ve pilav yapıyorum. Çorba yarım saat boyunca kaynayacak."),
+        ("Zehra", "Ben ne yapabilirim?"),
+        ("Anne", "Soğanları doğra, sonra salatayı hazırla."),
+        ("Zehra", "Tamam. Yemek süresince müzik açabilir miyiz?"),
+        ("Anne", "Açabiliriz, yeter ki ses yüksek olmasın."),
+    ], [
+        ("Onasi kechki ovqatga nima pishirmoqda?", ["Mastava va palov", "Makaron", "Baliq", "Pitsa"]),
+        ("Zehra nimani to'g'raydi?", ["Piyoz", "Go'sht", "Non", "Olma"]),
+    ]),
+    practice=[
+        ('c', "\"Yoz davomida qishloqda qoldim\" turkchada:", ["Yaz boyunca köyde kaldım.", "Yaz önce köyde kaldım.", "Yaz sonra köyde kaldım.", "Yaz içinde köyden geldim."]),
+        ('c', "\"Dars mobaynida telefonlar o'chiq\" turkchada:", ["Ders süresince telefonlar kapalı.", "Ders boyunca telefonlar açık.", "Ders sürece telefonlar kapalı.", "Ders sonunda telefonlar kapalı."]),
+        ('c', "\"Olov yonib turguncha\" turkchada:", ["Ateş yandığı sürece", "Ateş yanmış sürece", "Ateş yanacak sürece", "Ateş yanmak sürece"]),
+        ('o', "\"Ovqat davomida hech kim gapirmadi.\" gapini tuzing.", ["Yemek", "boyunca", "kimse", "konuşmadı."]),
+        ('o', "\"Piyozni mayda-mayda to'g'radi.\" gapini tuzing.", ["Soğanı", "küçük", "küçük", "doğradı."]),
+        ('c', "\"Retsept\" turkchada:", ["tarif", "malzeme", "tuz", "ocak"]),
+    ],
+    writing=("Sevimli taomingizni qanday pishirishni 3 gapda yozing.",
+             "Önce soğanı doğrarım. Sonra yağda kızartırım. Yemek pişerken tadına bakarım."),
+    speaking=["Yaz boyunca köyde kaldım.", "Tatil süresince çok dinlendik.", "Ateş yandığı sürece yemek kaynar.", "Annemin yaptığı çorba çok lezzetli."],
+    test=[
+        ("\"Boyunca\" nimani bildiradi?", ["davomida (boshidan oxirigacha)", "...dan keyin", "...dan oldin", "...ning o'rniga"]),
+        ("\"Süresince\" qaysi uslubga yaqin?", ["rasmiy", "so'zlashuv", "she'riy", "eskirgan"]),
+        ("\"Ateş yandığı sürece\" ma'nosi:", ["Olov yonib turguncha", "Olov o'chganda", "Olov yoqilgach", "Olov yonmaydi"]),
+        ("\"Bütün gece boyunca yağmur yağdı\" ma'nosi:", ["Tun bo'yi yomg'ir yog'di.", "Kechasi yomg'ir yog'maydi.", "Tunda yomg'ir yog'adi.", "Ertaga yomg'ir yog'adi."]),
+        ("\"Kızartmak\" nima degani?", ["qovurmoq", "qaynatmoq", "to'g'ramoq", "yuvmoq"]),
+        ("\"Haşlamak\" nima degani?", ["qaynatib pishirmoq", "qovurmoq", "kesmoq", "tuzlamoq"]),
+        ("\"Doğramak\" nima degani?", ["to'g'ramoq", "pishirmoq", "ichmoq", "ochmoq"]),
+        ("\"Baharat\" nima?", ["ziravor", "tuz", "yog'", "suv"]),
+        ("\"Tadına bakmak\" nima degani?", ["ta'mini ko'rmoq", "ta'mini yo'qotmoq", "pishirmoq", "yemoq"]),
+        ("\"Tarif\" so'zining ma'nosi:", ["retsept", "taom", "masalliq", "o'choq"]),
+    ],
+    bank=[
+        ("\"Yemek süresince müzik çaldı\" ma'nosi:", ["Ovqat mobaynida musiqa chalindi.", "Ovqatdan keyin musiqa chalindi.", "Ovqatdan oldin musiqa chalindi.", "Musiqa chalinmadi."]),
+        ("\"Sen burada olduğun sürece\" ma'nosi:", ["Sen shu yerda bo'lgancha", "Sen kelganda", "Sen ketgach", "Sen yo'qligida"]),
+        ("\"Malzeme\" so'zi:", ["masalliq", "tuz", "idish", "stol"]),
+        ("\"Ocak\" so'zi:", ["plita, o'choq", "stol", "kosa", "pichoq"]),
+        ("\"Lezzetli\" so'zining ma'nosi:", ["mazali", "achchiq", "shirin", "sho'r"]),
+        ("\"Pişirmek\" nima degani?", ["pishirmoq", "ichmoq", "yuvmoq", "sotmoq"]),
+        ("\"Tuz\" ning ma'nosi:", ["tuz", "shakar", "yog'", "sirka"]),
+        ("Qaysi birikma to'g'ri?", ["tatil süresince", "tatil sürece boyunca", "tatil içinde boyunca", "tatil sırasında süresince"]),
+        ("\"Yaz boyunca\" ma'nosi:", ["yoz davomida", "yoz boshida", "yoz oxirida", "yozdan keyin"]),
+        ("-DIğI süre içinde nimani bildiradi?", ["...gan vaqt ichida", "...gandan keyin", "...gunga qadar", "...masdan"]),
+        ("\"Sofra\" nima?", ["dasturxon", "oshxona", "bozor", "idish"]),
+        ("\"Yemeğe tuz ekle\" ma'nosi:", ["Ovqatga tuz qo'sh.", "Ovqatdan tuz ol.", "Ovqatni yoping.", "Ovqatni ye."]),
+    ],
+)

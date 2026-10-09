@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u6b', "B. Sıra Dışı Deneyimler — Odatdan tashqari tajribalar", 130, 132,
+    goals=[
+        "-DIğI hâlde va -AcAğI hâlde zid zarf-fe'llarini ishlatish",
+        "Kutilmagan natijalarni ifodalash",
+        "Noodatiy tajribalar haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-DIğI hâlde: ...ganiga qaramay",
+         "Fe'l o'zagi + -DIk + egalik + hâlde kutilganiga zid ishni bildiradi: \"...ganiga qaramay, ...gan bo'lsa ham\".\n\nMisol: \"Hasta olduğu hâlde işe geldi.\" (Kasal bo'lsa ham ishga keldi.) \"Çok çalıştığı hâlde sınavı geçemedi.\" (Juda ko'p o'qiganiga qaramay imtihondan o'ta olmadi.) Inkor: \"Yağmur yağmadığı hâlde şemsiye aldı.\" (Yomg'ir yog'masa ham soyabon oldi.)"),
+        ("-AcAğI hâlde: kelasi ish",
+         "-AcAğI hâlde kelasi vaqtga oid, kutilganiga zid vaziyatni bildiradi: \"...adigan bo'lsa ham\".\n\nMisol: \"Yarın erken kalkacağı hâlde bu akşam geç yattı.\" (Ertaga erta turishi kerak bo'lsa ham, bu kecha kech yotdi.) \"Fırtına çıkacağı hâlde yola çıkmaya karar verdi.\" (Bo'ron bo'lishi kutilsa ham yo'lga chiqishga qaror qildi.)"),
+        ("Qiyoslash va maslahat",
+         "-DIğI hâlde ning ma'nosi \"rağmen\" ga yaqin. Ko'pincha ajablanish, norozilik yoki hayrat bildiradi. -DIğI hâlde va -DIğI için ni aralashtirmang: birinchisi zid, ikkinchisi sabab.\n\nSolishtiring: \"Yorgun olduğu için erken yattı.\" (sabab) va \"Yorgun olduğu hâlde çalışmaya devam etti.\" (zidlik)."),
+    ],
+    facts=[
+        "-DIğI hâlde = ...ganiga qaramay: hasta olduğu hâlde.",
+        "-AcAğI hâlde = ...adigan bo'lsa ham (kelasi vaziyat).",
+        "-DIğI için (sabab) ≠ -DIğI hâlde (zidlik).",
+    ],
+    vocab=[
+        ("deneyim", "tajriba", "Bu benim için unutulmaz bir deneyimdi.", "Bu men uchun unutilmas tajriba edi."),
+        ("sıra dışı", "g'ayrioddiy", "Sıra dışı bir yolculuğa çıktık.", "G'ayrioddiy sayohatga chiqdik."),
+        ("macera", "sarguzasht", "Hayat bir macera gibi.", "Hayot sarguzasht kabi."),
+        ("cesaret", "jasorat", "Paraşütle atlamak cesaret ister.", "Parashyutda sakramoq jasorat talab qiladi."),
+        ("korku", "qo'rquv", "Korkusuna rağmen sahneye çıktı.", "Qo'rquviga qaramay sahnaga chiqdi."),
+        ("heyecan", "hayajon", "Heyecandan elleri titriyordu.", "Hayajondan qo'llari titrayotgan edi."),
+        ("risk almak", "tavakkal qilmoq", "Bazen risk almak gerekir.", "Ba'zan tavakkal qilish kerak."),
+        ("denemek", "sinab ko'rmoq", "Yeni şeyler denemekten çekinme.", "Yangi narsalarni sinab ko'rishdan tortinma."),
+        ("hayret", "hayrat", "Hayret içinde bize baktı.", "Hayratga tushib bizga qaradi."),
+        ("sıradan", "oddiy", "Sıradan bir gün olacağını sanmıştım.", "Oddiy kun bo'ladi deb o'ylagan edim."),
+        ("başarmak", "uddalamoq", "Zor olduğu hâlde başardı.", "Qiyin bo'lsa ham uddaladi."),
+        ("unutulmaz", "unutilmas", "Unutulmaz bir yaz geçirdik.", "Unutilmas yoz o'tkazdik."),
+    ],
+    reading=("Dağın zirvesinde",
+        "Kerem hayatı boyunca yüksekten korkmuştu. Yine de arkadaşları ona dağa tırmanmayı önerince kabul etti. Hava soğuk olduğu hâlde sabah erkenden yola çıktılar. Yolda yağmur yağacağı hâlde geri dönmeyi kimse düşünmedi.\n\nZirveye yaklaştıkça Kerem'in kalbi hızlı hızlı çarpmaya başladı. Korktuğu hâlde yürümeye devam etti. Bir ara ayağı kaydı, ama arkadaşları onu tuttu. Heyecandan konuşamıyordu.\n\nZirveye vardıklarında bulutlar altlarında kalmıştı. Kerem uzun süre sessizce manzaraya baktı. Sonra şunu söyledi: \"Korkum hâlâ var ama artık beni durduramaz.\" O gün Kerem sadece bir dağı değil, kendi sınırlarını da aşmıştı.",
+        [
+            ("Kerem'in korkusu neydi?", ["Yükseklik", "Karanlık", "Deniz", "Yılan"]),
+            ("Kerem neden dağa çıkmayı kabul etti?", ["Arkadaşları önerdiği için", "Maaş alacağı için", "Hava güzel olduğu için", "Hiç korkmadığı için"]),
+            ("Yola çıkarken hava nasıldı?", ["Soğuktu", "Çok sıcaktı", "Yağmurluydu", "Açık ve ılıktı"]),
+            ("Zirveye yaklaşırken Kerem ne yaptı?", ["Korktuğu hâlde yürümeye devam etti", "Geri döndü", "Yardım istedi", "Bekledi"]),
+            ("Kerem zirvede ne fark etti?", ["Korkusu olsa da onu durduramayacağını", "Dağın çok kolay olduğunu", "Geri dönmeyi", "Hiçbir şeyi"]),
+        ]),
+    listening=([
+        ("Güler", "Dünkü paraşüt atlayışın nasıldı?"),
+        ("Yusuf", "Çok korktuğum hâlde atladım. Hayatımın en unutulmaz deneyimiydi."),
+        ("Güler", "Hava rüzgârlı olacağı hâlde izin mi verdiler?"),
+        ("Yusuf", "Evet, rüzgâr hafifti. Ama heyecandan elim ayağım titriyordu."),
+        ("Güler", "Ben asla yapamam. Yüksekten çok korkarım."),
+        ("Yusuf", "Ben de korkardım, ama bazen risk almak gerekiyor."),
+    ], [
+        ("Yusuf nima qildi?", ["Qo'rqqaniga qaramay parashyutda sakradi", "Sakramadi", "Tog'ga chiqdi", "Suzdi"]),
+        ("Yusuf nima haqida maslahat berdi?", ["Ba'zan tavakkal qilish kerakligini", "Hech qachon sakramaslikni", "Qo'rquvdan qochishni", "Yolg'iz yurishni"]),
+    ]),
+    practice=[
+        ('c', "\"Kasal bo'lsa ham ishga keldi\" turkchada:", ["Hasta olduğu hâlde işe geldi.", "Hasta olduğu için işe geldi.", "Hasta olunca işe geldi.", "Hasta olmak hâlde işe geldi."]),
+        ('c', "\"Juda ko'p o'qiganiga qaramay o'ta olmadi\" turkchada:", ["Çok çalıştığı hâlde geçemedi.", "Çok çalıştığı için geçemedi.", "Çok çalışınca geçemedi.", "Çok çalıştıkça geçemedi."]),
+        ('c', "\"Ertaga erta turishi kerak bo'lsa ham\" turkchada:", ["Yarın erken kalkacağı hâlde", "Yarın erken kalktığı hâlde", "Yarın erken kalkmış hâlde", "Yarın erken kalkınca hâlde"]),
+        ('o', "\"Qo'rqqaniga qaramay yurishda davom etdi.\" gapini tuzing.", ["Korktuğu", "hâlde", "yürümeye", "devam", "etti."]),
+        ('o', "\"Yomg'ir yog'masa ham soyabon oldi.\" gapini tuzing.", ["Yağmur", "yağmadığı", "hâlde", "şemsiye", "aldı."]),
+        ('c', "\"Jasorat\" turkchada:", ["cesaret", "korku", "heyecan", "hayret"]),
+    ],
+    writing=("Sizning eng g'ayrioddiy tajribangiz haqida 3 gap yozing.",
+             "Geçen yaz paraşütle atladım. Çok korktuğum hâlde cesaretimi toplayıp atladım. Hayatımın en unutulmaz günüydü."),
+    speaking=["Hasta olduğu hâlde işe geldi.", "Çok çalıştığı hâlde sınavı geçemedi.", "Hayat bir macera gibi.", "Bazen risk almak gerekir."],
+    test=[
+        ("-DIğI hâlde qanday ma'noni bildiradi?", ["...ganiga qaramay", "...gani uchun", "...ganda", "...masdan"]),
+        ("\"Hasta olduğu hâlde işe geldi\" ma'nosi:", ["Kasal bo'lsa ham ishga keldi.", "Kasal bo'lgani uchun keldi.", "Kasal bo'lib qoldi.", "Kasal emas."]),
+        ("-DIğI için va -DIğI hâlde farqi:", ["sabab va zidlik", "sabab va sabab", "zidlik va zidlik", "payt va payt"]),
+        ("\"Yağmur yağacağı hâlde\" ma'nosi:", ["yomg'ir yog'adigan bo'lsa ham", "yomg'ir yog'gani uchun", "yomg'ir yog'maydi", "yomg'ir yog'sin"]),
+        ("\"Cesaret\" so'zi:", ["jasorat", "qo'rquv", "xotira", "orzu"]),
+        ("\"Macera\" so'zi:", ["sarguzasht", "ish", "tajriba", "sayohat"]),
+        ("\"Risk almak\" nima degani?", ["tavakkal qilmoq", "xavfdan qochmoq", "ketmoq", "tinchimoq"]),
+        ("\"Sıradan\" so'zi:", ["oddiy", "g'ayrioddiy", "qimmat", "sust"]),
+        ("\"Başarmak\" nima degani?", ["uddalamoq", "yo'qotmoq", "kechikmoq", "qoldirmoq"]),
+        ("\"Unutulmaz\" so'zi:", ["unutilmas", "unutilgan", "unutiladigan", "unutmoqchi"]),
+    ],
+    bank=[
+        ("\"Yorgun olduğu hâlde çalışmaya devam etti\" ma'nosi:", ["Charchagan bo'lsa ham ishlashda davom etdi.", "Charchagani uchun ishlamadi.", "Charchamadi.", "Charchagach to'xtadi."]),
+        ("\"Korkusuna rağmen\" ma'nosi:", ["qo'rquviga qaramay", "qo'rquvi tufayli", "qo'rquvdan keyin", "qo'rqmasdan"]),
+        ("\"Heyecan\" so'zi:", ["hayajon", "qo'rquv", "g'am", "sabr"]),
+        ("\"Hayret\" so'zi:", ["hayrat", "g'azab", "sabr", "umid"]),
+        ("\"Denemek\" nima degani?", ["sinab ko'rmoq", "yo'qotmoq", "sotmoq", "o'qimoq"]),
+        ("\"Sıra dışı\" so'zi:", ["g'ayrioddiy", "oddiy", "tartibli", "qatorli"]),
+        ("-AcAğI hâlde nimani bildiradi?", ["kelasi vaziyatga zidlik", "o'tgan sabab", "shart", "payt"]),
+        ("\"Erken kalkacağı hâlde geç yattı\" ma'nosi:", ["Erta turishi kerak bo'lsa ham kech yotdi.", "Erta turgani uchun kech yotdi.", "Erta yotdi.", "Kech turdi."]),
+        ("Qaysi gap grammatik to'g'ri?", ["Hasta olduğu hâlde geldi.", "Hasta olmuş hâlde geldi.", "Hasta olacak hâlde geldi dün.", "Hasta olmak hâlde geldi."]),
+        ("\"Zirve\" so'zi:", ["cho'qqi", "etak", "vodiy", "qirg'oq"]),
+        ("\"Sınır\" so'zi:", ["chegara", "yo'l", "devor", "eshik"]),
+        ("\"Cesaret toplamak\" nima degani?", ["jur'at yig'moq", "qo'rqmoq", "kutmoq", "yig'lamoq"]),
+    ],
+)

@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u2a', "A. Evlilik Hayatı — Oilaviy hayot", 36, 41,
+    goals=[
+        "-mIş sifat-fe'lini (evlenmiş, yorulmuş, pişmiş) taniy va ishlata olish",
+        "-An va -mIş sifat-fe'llarining farqini tushunish",
+        "Nikoh va oila haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-mIş: natijasi ko'rinib turgan ish",
+         "-mIş sifat-fe'li ish allaqachon bajarilganini va uning natijasi hozir ko'rinib turganini bildiradi: evlenmiş çift (turmush qurgan juftlik), yorulmuş adam (charchagan odam), pişmiş yemek (pishgan taom), kırılmış cam (sinib qolgan oyna), dağılmış saç (to'zigan soch).\n\nMisol: \"Yeni evlenmiş çift balayına çıktı.\" (Yangi turmush qurgan juftlik asal oyiga ketdi.)"),
+        ("-An va -mIş: farqi",
+         "-An ish jarayonini yoki odatiy faoliyatni ko'rsatadi: evlenen çift (turmush qurayotgan juftlik), yorulan adam (charchaydigan odam). -mIş esa tugagan ish natijasini ko'rsatadi: evlenmiş çift (allaqachon turmush qurgan juftlik).\n\nMisol: \"Dün evlenen çift\" (kecha turmush qurgan juftlik — voqea) bilan \"evlenmiş çift\" (nikohdagi juftlik — hozirgi holat) bir xil emas."),
+        ("-mIş sifatning ot vazifasi",
+         "-mIş shaklidagi so'zlar ko'pincha otlashadi: boşanmış (ajrashgan), yaşlanmış (qarigan), görmüş geçirmiş (ko'rgan-kechirgan, tajribali). \"Görmüş geçirmiş bir insan\" - hayotda ko'p narsa ko'rgan odam.\n\nMisol: \"Boşanmış bir kadın yeniden mutlu olabilir.\" (Ajrashgan ayol yana baxtli bo'lishi mumkin.)"),
+    ],
+    facts=[
+        "-mIş sifat-fe'li = tugagan ishning natijasi: evlenmiş, yorulmuş, pişmiş.",
+        "-An = jarayon/odat (evlenen), -mIş = holat/natija (evlenmiş).",
+        "Otlashgan: boşanmış, yaşlanmış, görmüş geçirmiş.",
+    ],
+    vocab=[
+        ("evlilik", "nikoh, turmush", "Evlilik karşılıklı saygıyla güçlenir.", "Nikoh o'zaro hurmat bilan mustahkamlanadi."),
+        ("nişan", "unashtirish, nishon", "Nişan töreni yarın akşam yapılacak.", "Unashtirish marosimi ertaga kechqurun o'tkaziladi."),
+        ("düğün", "to'y", "Düğüne tüm akrabalar davet edildi.", "To'yga barcha qarindoshlar taklif qilindi."),
+        ("gelin", "kelin", "Gelin beyaz bir elbise giymişti.", "Kelin oq libos kiygan edi."),
+        ("damat", "kuyov", "Damat misafirleri kapıda karşıladı.", "Kuyov mehmonlarni eshik oldida kutib oldi."),
+        ("eş", "turmush o'rtog'i", "Eşimle her akşam yürüyüşe çıkarız.", "Turmush o'rtog'im bilan har kech sayrga chiqamiz."),
+        ("balayı", "asal oyi", "Balayında İstanbul'a gittiler.", "Asal oyida Istanbulga ketishdi."),
+        ("boşanmak", "ajrashmoq", "Çift anlaşamadıkları için boşandı.", "Er-xotin kelisha olmagani uchun ajrashdi."),
+        ("anlaşmak", "kelishmoq", "Eşler her konuda anlaşmaya çalışmalı.", "Er-xotin har masalada kelishishga harakat qilishi kerak."),
+        ("sorumluluk", "mas'uliyat", "Evlilikte iki tarafın da sorumluluğu var.", "Nikohda ikki tomonning ham mas'uliyati bor."),
+        ("sadakat", "sadoqat", "Sadakat güvenin temelidir.", "Sadoqat ishonchning asosidir."),
+        ("fedakârlık", "fidoyilik", "Aile için fedakârlık yapmak gerekir.", "Oila uchun fidoyilik qilish kerak."),
+    ],
+    reading=("Yirmi yıl sonra",
+        "Selim ile Nesrin yirmi yıl önce evlenmişlerdi. Yeni evlenmiş çiftlerin çoğu gibi onlar da başlangıçta küçük bir kirada yaşadı. Selim bütün gün çalışan, akşam eve yorulmuş halde gelen bir mühendisti. Nesrin ise öğretmenlikten sonra akşamları ders hazırlıyordu. Bazen haftalarca birbirleriyle doğru dürüst konuşamadılar.\n\nİkinci yıllarında en büyük sorunları zaman bulamamaktı. Bir akşam oturup şunu konuştular: Birlikte kahvaltı yapacak, hafta sonlarını yalnızca aileye ayıracaklardı. Bu küçük karar evliliklerini değiştirdi. Her pazar sabahı dağılmış mutfağı birlikte toplayıp yeni yemekler denemeye başladılar.\n\nBugün iki çocukları var. Selim şöyle diyor: \"Görmüş geçirmiş insanlar haklıymış. Evlilik büyük sözlerle değil, küçük alışkanlıklarla yürür.\" Nesrin ise gülerek ekliyor: \"Sadakat ve sabır da eksik olmamalı.\"",
+        [
+            ("Selim ile Nesrin ne zaman evlendi?", ["Yirmi yıl önce", "İki yıl önce", "Geçen yıl", "On yıl önce"]),
+            ("Selim'in mesleği nedir?", ["Mühendis", "Öğretmen", "Doktor", "Avukat"]),
+            ("Çiftin ilk yıllardaki en büyük sorunu neydi?", ["Birlikte zaman bulamamak", "Para kazanmamak", "Ev bulamamak", "Çocuk sahibi olamamak"]),
+            ("Verdikleri küçük karar neydi?", ["Birlikte kahvaltı edip hafta sonlarını aileye ayırmak", "Başka şehre taşınmak", "İş değiştirmek", "Ev almak"]),
+            ("Selim'e göre evlilik nasıl yürür?", ["Küçük alışkanlıklarla", "Büyük sözlerle", "Paranın gücüyle", "Hediyelerle"]),
+        ]),
+    listening=([
+        ("Dilek", "Hakan, yarın nişan törenine geliyor musun?"),
+        ("Hakan", "Tabii, ama geç kalabilirim. Yorulmuş bir halde işten çıkacağım."),
+        ("Dilek", "Önemli değil. Gelin ile damat saat yedide gelecek."),
+        ("Hakan", "Hediye olarak ne almayı düşünüyorsun?"),
+        ("Dilek", "Evlenmiş bir çifte faydalı olacak bir şey: güzel bir çay takımı."),
+        ("Hakan", "Güzel fikir. Ben de bir buket çiçek alırım."),
+    ], [
+        ("Hakan nima uchun kech qolishi mumkin?", ["Ishdan charchagan holda chiqadi", "Uyda bo'ladi", "Safarda bo'ladi", "Kasal"]),
+        ("Dilek sovg'a sifatida nimani tanlaydi?", ["Choy to'plami", "Gul", "Soat", "Kitob"]),
+    ]),
+    practice=[
+        ('c', "\"Turmush qurgan juftlik\" turkchada:", ["evlenmiş çift", "evlenecek çift", "evlenir çift", "evlenmeyen çift"]),
+        ('c', "\"Charchagan odam\" turkchada:", ["yorulmuş adam", "yorulacak adam", "yorulur adam", "yorulmayan adam"]),
+        ('c', "\"Ajrashgan ayol\" turkchada:", ["boşanmış kadın", "boşanacak kadın", "boşayan kadın", "boşanmamış kadın"]),
+        ('o', "\"Yangi turmush qurgan juftlik asal oyiga ketdi.\" gapini tuzing.", ["Yeni", "evlenmiş", "çift", "balayına", "çıktı."]),
+        ('o', "\"Nikoh hurmat bilan mustahkamlanadi.\" gapini tuzing.", ["Evlilik", "saygıyla", "güçlenir."]),
+        ('c', "\"To'y\" turkchada:", ["düğün", "nişan", "balayı", "gelin"]),
+    ],
+    writing=("Sizning fikringizcha, baxtli oilaning 3 ta sharti nima? 3 gapda yozing.",
+             "Mutlu bir ailede saygı vardır. Eşler birbirine güvenir. Sorunlar birlikte çözülür."),
+    speaking=["Yeni evlenmiş çift balayına çıktı.", "Sadakat güvenin temelidir.", "Düğüne tüm akrabalar davet edildi.", "Evlilik karşılıklı saygıyla güçlenir."],
+    test=[
+        ("-mIş sifat-fe'li nimani bildiradi?", ["tugagan ishning natijasi", "hozirgi jarayon", "kelasi reja", "buyruq"]),
+        ("\"Pişmiş yemek\" nima degani?", ["pishgan taom", "pishayotgan taom", "pishiriladigan taom", "xom taom"]),
+        ("\"Evlenmiş çift\" bilan \"evlenen çift\" farqi:", ["birinchisi allaqachon turmush qurgan, ikkinchisi jarayonda", "farqi yo'q", "birinchisi kelasi zamon", "ikkinchisi inkor"]),
+        ("\"Görmüş geçirmiş\" nima degani?", ["hayotda ko'p narsa ko'rgan", "yangi ish boshlagan", "sayohatga chiqqan", "yosh"]),
+        ("\"Düğün\" so'zining ma'nosi:", ["to'y", "unashtirish", "nikoh guvohnomasi", "mehmon"]),
+        ("\"Damat\" kim?", ["kuyov", "kelin", "quda", "mehmon"]),
+        ("\"Boşanmak\" nima degani?", ["ajrashmoq", "unashtirilmoq", "turmushga chiqmoq", "kelishmoq"]),
+        ("\"Sadakat\" so'zining ma'nosi:", ["sadoqat", "mas'uliyat", "fidoyilik", "sabr"]),
+        ("\"Balayı\" nima?", ["asal oyi", "to'y kechasi", "sovg'a", "nikoh"]),
+        ("Qaysi birikma to'g'ri?", ["yorulmuş adam", "yorulmışlar adam", "yorulmuşu adam", "yorulmuşta adam"]),
+    ],
+    bank=[
+        ("\"Kırılmış cam\" nima degani?", ["sinib qolgan oyna", "sinadigan oyna", "sindirilayotgan oyna", "yangi oyna"]),
+        ("\"Dağılmış saç\" nima degani?", ["to'zigan soch", "taralgan soch", "kalta soch", "bo'yalgan soch"]),
+        ("\"Eş\" so'zining ma'nosi:", ["turmush o'rtog'i", "qarindosh", "do'st", "qo'shni"]),
+        ("\"Nişan\" nimani bildiradi?", ["unashtirish marosimi", "to'y kechasi", "kuyovning uyi", "ajrashish"]),
+        ("\"Anlaşmak\" nima degani?", ["kelishmoq", "tortishmoq", "ketmoq", "kutmoq"]),
+        ("\"Sorumluluk\" so'zi:", ["mas'uliyat", "huquq", "to'lov", "sovg'a"]),
+        ("\"Fedakârlık\" so'zi:", ["fidoyilik", "ochko'zlik", "sust", "dangasalik"]),
+        ("\"Gelin\" kim?", ["kelin", "kuyov", "opa", "qo'shni"]),
+        ("\"Yaşlanmış\" qanday ma'noda?", ["qarigan", "yosh", "o'smir", "bola"]),
+        ("-mIş sifat-fe'li qaysi gapda bor?", ["Yeni evlenmiş çift geldi.", "Çift yarın evlenecek.", "Çift evleniyor.", "Çift evlen."]),
+        ("\"Boşanmış\" so'zi qaysi turkumga mos?", ["otlashgan sifat-fe'l", "ravish", "bog'lovchi", "ko'makchi"]),
+        ("\"Evlilik\" so'zining ma'nosi:", ["nikoh, turmush", "to'y", "uy", "sovg'a"]),
+    ],
+)

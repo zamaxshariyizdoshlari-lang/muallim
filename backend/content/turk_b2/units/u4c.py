@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u4c', "C. Yemek Yapma Sanatı — Ovqat pishirish san'ati", 92, 100,
+    goals=[
+        "-Ar ... -mAz (gelir gelmez) ketma-ketlik zarf-fe'lini ishlatish",
+        "Darhol bajariladigan ishlarni ifodalash",
+        "Ovqat pishirish va oshpazlik haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-Ar ... -mAz: ...ishi bilanoq",
+         "Bir fe'lning geniş zaman shakli ikki marta takrorlanadi: birinchisi ijobiy (-Ar/-Ir/-r), ikkinchisi inkor (-mAz). Bu \"...ishi bilan, ...gan zahoti\" ma'nosini beradi.\n\nMisol: \"Eve gelir gelmez yemek yedi.\" (Uyga kelishi bilan ovqat yedi.) \"Çorbayı görür görmez iştahı açıldı.\" (Sho'rvani ko'rishi bilanoq ishtahasi ochildi.) \"Telefon çalar çalmaz açtı.\" (Telefon jiringlashi bilan javob berdi.)"),
+        ("Ma'no va qo'llanilishi",
+         "Bu shakl ikkita ishning ketma-ket va juda tez bajarilishini ko'rsatadi: birinchi ish tugashi bilan ikkinchisi boshlanadi. Ega ko'pincha ikkala gapda bir xil bo'ladi. O'zakga qarab shakl: gel-ir gel-mez, ye-r ye-mez, yap-ar yap-maz, başla-r başla-maz.\n\nMisol: \"Yemek pişer pişmez servis yaptı.\" (Ovqat pishishi bilan dasturxonga qo'ydi.)"),
+        ("Yaqin shakllar",
+         "Xuddi shu ma'noni -IncA (gelince) yoki -DIğI gibi, -DIğI anda bilan ham berish mumkin: \"Eve gelince yemek yedi.\" Lekin -Ar -mAz tezlik ma'nosini kuchaytiradi. Yozma tilda ko'proq adabiy matnlarda uchraydi."),
+    ],
+    facts=[
+        "-Ar ... -mAz = ...ishi bilanoq: gelir gelmez, görür görmez.",
+        "O'zak: ijobiy geniş zaman + inkor geniş zaman (-mAz).",
+        "Ikki ish ketma-ket va tez bajariladi.",
+    ],
+    vocab=[
+        ("aşçı", "oshpaz", "Aşçı yemeğin tadına baktı.", "Oshpaz taomning ta'mini ko'rdi."),
+        ("şef", "bosh oshpaz", "Şef yeni bir tarif denedi.", "Bosh oshpaz yangi retsept sinab ko'rdi."),
+        ("mutfak", "oshxona", "Mutfakta herkes bir iş yapıyor.", "Oshxonada hamma bir ish qilyapti."),
+        ("fırın", "pech, non pishirish joyi", "Pastayı fırına koydu.", "Pirogni pechga qo'ydi."),
+        ("hamur", "xamir", "Hamuru iyice yoğurdu.", "Xamirni yaxshilab qordi."),
+        ("yoğurmak", "qormoq (xamir)", "Hamuru yoğurmak sabır ister.", "Xamir qorish sabr talab qiladi."),
+        ("karıştırmak", "aralashtirmoq", "Malzemeleri iyice karıştırın.", "Masalliqlarni yaxshilab aralashtiring."),
+        ("tat", "ta'm", "Bu yemeğin tadı çok güzel.", "Bu taomning ta'mi juda yaxshi."),
+        ("sunum", "taqdimot (taom)", "Yemeğin sunumu çok şıktı.", "Taomning taqdimoti juda chiroyli edi."),
+        ("sofra kurmak", "dasturxon yozmoq", "Annem sofrayı kurdu.", "Onam dasturxon yozdi."),
+        ("afiyet olsun", "yoqimli ishtaha", "Afiyet olsun, buyurun!", "Yoqimli ishtaha, marhamat!"),
+        ("deneyimli", "tajribali", "Deneyimli bir aşçı her zaman aynı lezzeti yakalar.", "Tajribali oshpaz doim bir xil mazani topadi."),
+    ],
+    reading=("Ustanın mutfağı",
+        "Usta aşçı Hasan Bey, dükkânına girer girmez ocakları yakar, hamuru hazırlamaya başlardı. Çırakları sabah dükkâna gelir gelmez önlüklerini giyer ve onun yanında durur, her hareketini dikkatle izlerdi.\n\nHasan Bey'in sırrı hamurdaydı. Hamuru yoğururken hiç acele etmez, her seferinde aynı sabırla çalışırdı. \"Yemek yapmak sadece tarif değildir,\" derdi çıraklarına, \"Yemek yapmak dinlemektir; hamurun, ateşin, tuzun sesini dinlemektir.\"\n\nBir gün genç bir çırak, yemeğe fazla tuz attığı için ustasından azar yedi. Hasan Bey ona yeniden başlamasını söyledi. Çırak ikinci denemede tuzu yavaş yavaş ekledi. Yemek pişer pişmez tadına baktı ve gülümsedi. Usta ona sadece şunu söyledi: \"Şimdi sen de bir aşçısın.\"",
+        [
+            ("Hasan Bey sabah dükkâna girer girmez ne yapardı?", ["Ocakları yakıp hamuru hazırlardı", "Müşterileri karşılardı", "Gazete okurdu", "Kahve içerdi"]),
+            ("Çıraklar ne yapardı?", ["Önlüklerini giyip ustalarını izlerdi", "Dükkâna geç gelirdi", "Hiçbir şey yapmazdı", "Başka dükkâna giderdi"]),
+            ("Hasan Bey'in sırrı neydi?", ["Hamurda sabırlı olmak", "Pahalı malzeme kullanmak", "Hızlı çalışmak", "Gizli bir tarif"]),
+            ("Genç çırak ne hata yaptı?", ["Yemeğe fazla tuz attı", "Yemeği yaktı", "Dükkânı kapattı", "Hamuru dökmedi"]),
+            ("Usta sonunda çırağa ne söyledi?", ["Şimdi sen de bir aşçısın", "Başka iş bul", "Yeniden dene", "Bugün dinlen"]),
+        ]),
+    listening=([
+        ("Müşteri", "Merhaba, çorbanız çok lezzetli. Tarifini öğrenebilir miyim?"),
+        ("Şef", "Tabii. Soğanı kavurur kavurmaz domates salçasını ekliyoruz."),
+        ("Müşteri", "Sonra ne yapıyorsunuz?"),
+        ("Şef", "Su kaynar kaynamaz mercimeği ve baharatları ekleyip yarım saat pişiriyoruz."),
+        ("Müşteri", "Çok basitmiş. Evde deneyeceğim."),
+        ("Şef", "Afiyet olsun! Önemli olan sabırla pişirmek."),
+    ], [
+        ("Shef avval nimani qovuradi?", ["Piyozni", "Go'shtni", "Mercimekni", "Kartoshkani"]),
+        ("Sho'rva qancha vaqt pishadi?", ["Yarim soat", "Besh daqiqa", "Ikki soat", "Bir soat"]),
+    ]),
+    practice=[
+        ('c', "\"Uyga kelishi bilan ovqat yedi\" turkchada:", ["Eve gelir gelmez yemek yedi.", "Eve gelmiş gelmemiş yemek yedi.", "Eve gelirken yemek yedi.", "Eve gelmez gelir yemek yedi."]),
+        ('c', "\"Ko'rishi bilanoq\" turkchada:", ["görür görmez", "görünce de", "görmüş görmez", "görecek görmez"]),
+        ('c', "\"Telefon jiringlashi bilan javob berdi\" turkchada:", ["Telefon çalar çalmaz açtı.", "Telefon çalmış çalmaz açtı.", "Telefon çalınca açmaz.", "Telefon çaldıkça açtı."]),
+        ('o', "\"Ovqat pishishi bilan dasturxonga qo'ydi.\" gapini tuzing.", ["Yemek", "pişer", "pişmez", "servis", "yaptı."]),
+        ('o', "\"Oshpaz taomning ta'mini ko'rdi.\" gapini tuzing.", ["Aşçı", "yemeğin", "tadına", "baktı."]),
+        ('c', "\"Yoqimli ishtaha\" turkchada:", ["Afiyet olsun", "Güle güle", "Hoş geldiniz", "Teşekkür ederim"]),
+    ],
+    writing=("Tez bajarilgan ketma-ket 3 ishni -Ar -mAz bilan yozing.",
+             "Eve gelir gelmez elimi yıkarım. Yemek pişer pişmez sofrayı kurarım. Çay demlenir demlenmez içerim."),
+    speaking=["Eve gelir gelmez yemek yedi.", "Telefon çalar çalmaz açtı.", "Yemek yapmak sabır ister.", "Afiyet olsun!"],
+    test=[
+        ("-Ar ... -mAz qanday ma'noni bildiradi?", ["...ishi bilanoq", "...gunga qadar", "...gan sayin", "...masdan"]),
+        ("\"Gelir gelmez\" ma'nosi:", ["kelishi bilanoq", "kelmasdan oldin", "kelgan sayin", "kelmaydi"]),
+        ("Qaysi gap to'g'ri tuzilgan?", ["Telefon çalar çalmaz açtım.", "Telefon çalmış çalmaz açtım.", "Telefon çalar çalar açtım.", "Telefon çalmaz çalar açtım."]),
+        ("-Ar ... -mAz qaysi ikki shakldan iborat?", ["ijobiy va inkor geniş zaman", "ikkita o'tgan zamon", "ikkita kelasi zamon", "ikkita buyruq"]),
+        ("\"Hamur\" so'zi:", ["xamir", "tuz", "go'sht", "kosa"]),
+        ("\"Yoğurmak\" nima degani?", ["qormoq", "kesmoq", "yuvmoq", "ichmoq"]),
+        ("\"Karıştırmak\" nima degani?", ["aralashtirmoq", "ajratmoq", "yig'moq", "kutmoq"]),
+        ("\"Aşçı\" kim?", ["oshpaz", "ofitsiant", "mijoz", "xaridor"]),
+        ("\"Sofra kurmak\" nima degani?", ["dasturxon yozmoq", "stol sotmoq", "stolni yig'moq", "stolga o'tirmoq"]),
+        ("\"Fırın\" so'zi:", ["pech", "stol", "stul", "kosa"]),
+    ],
+    bank=[
+        ("\"Yemek pişer pişmez\" ma'nosi:", ["ovqat pishishi bilanoq", "ovqat pishmasdan oldin", "ovqat pishgach emas", "ovqat pishmaydi"]),
+        ("\"Başlar başlamaz\" ma'nosi:", ["boshlanishi bilanoq", "boshlanmasdan", "boshlangandan so'ng", "boshlanmaydi"]),
+        ("\"Yer yemez\" (yemek) bu shaklda ma'nosi:", ["yeyishi bilanoq", "yemaguncha", "yemasa", "yemaydi"]),
+        ("\"Şef\" so'zi:", ["bosh oshpaz", "mehmon", "ofitsiant", "mijoz"]),
+        ("\"Mutfak\" so'zi:", ["oshxona", "yotoqxona", "mehmonxona", "hammom"]),
+        ("\"Tat\" so'zi:", ["ta'm", "hid", "rang", "shakl"]),
+        ("\"Sunum\" so'zi:", ["taqdimot", "tayyorlash", "sotish", "yeyish"]),
+        ("\"Deneyimli\" so'zi:", ["tajribali", "tajribasiz", "yosh", "qari"]),
+        ("\"Afiyet olsun\" qachon aytiladi?", ["ovqatlanishdan oldin yoki paytida", "ovqatdan keyin shikoyat qilganda", "salomlashganda", "xayrlashganda"]),
+        ("\"Yemeği görür görmez\" ma'nosi:", ["Ovqatni ko'rishi bilanoq", "Ovqatni ko'rmasdan", "Ovqatni ko'rgan sayin", "Ovqatni ko'rsa"]),
+        ("\"Ocağı yakmak\" nima degani?", ["plitani yoqmoq", "plitani o'chirmoq", "plitani yuvmoq", "plitani sotmoq"]),
+        ("\"Yoğurmak\" qaysi masalliq bilan ishlatiladi?", ["xamir", "go'sht", "suv", "tuz"]),
+    ],
+)

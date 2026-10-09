@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u3c', "C. Bu Da Geçer Ya Hu! — Bu ham o'tib ketadi!", 71, 80,
+    goals=[
+        "Buyruq, istak va so'roq gaplarning dolaylı anlatımini tuzish",
+        "söylemek, istemek, sormak fe'llarini to'g'ri ishlatish",
+        "Qiyinchiliklarda sabr va umid haqidagi matnni tushunish",
+    ],
+    blocks=[
+        ("Buyruq gapning dolaylısı",
+         "Buyruq gap dolaylıda -mAsInI söyledi / istedi shaklini oladi. Ega o'zgaradi: buyruq oluvchi shaxs egalik qo'shimchasi bilan keladi.\n\nMisol: Öğretmen: \"Kitabı aç!\" → \"Öğretmen kitabı açmamı söyledi.\" (O'qituvchi kitobni ochishimni aytdi.)\nMisol: \"Sessiz ol!\" → \"Sessiz olmamı istedi.\" (Jim bo'lishimni so'radi.)\nInkorda: \"Gitme!\" → \"Gitmememi söyledi.\" (Ketmasligimni aytdi.)"),
+        ("So'roq gapning dolaylısı",
+         "So'roq so'zli gaplarda so'roq so'zi saqlanadi, fe'l -DIğInI/-AcAğInI shaklini oladi: \"Ne yaptın?\" → \"Ne yaptığımı sordu.\" (Nima qilganimni so'radi.) \"Nerede oturuyorsun?\" → \"Nerede oturduğumu sordu.\"\n\nHa/yo'q so'roqlari uchun \"-Ip -mAdIğInI\" ishlatiladi: \"Geldin mi?\" → \"Gelip gelmediğimi sordu.\" (Kelgan-kelmaganimni so'radi.)"),
+        ("Istak va maslahatning dolaylısı",
+         "Istak kipi (-A) bilan aytilgan gap dolaylıda \"-mAk istediğini\" yoki \"-mAsInI istedi\" bo'ladi: \"Gideyim.\" → \"Gitmek istediğini söyledi.\" (Ketmoqchi ekanini aytdi.) \"Biraz dinlen.\" → \"Biraz dinlenmemi önerdi.\" (Biroz dam olishimni maslahat berdi.)"),
+    ],
+    facts=[
+        "Buyruq: -mAsInI söyledi/istedi (açmamı söyledi); inkori -mAmAsInI.",
+        "So'roq: so'roq so'zi saqlanadi + -DIğInI sordu; ha/yo'q: gelip gelmediğini sordu.",
+        "Istak: -mAk istediğini söyledi; maslahat: -mAsInI önerdi.",
+    ],
+    vocab=[
+        ("sabır", "sabr", "Sabır acıdır ama meyvesi tatlıdır.", "Sabr achchiq, lekin mevasi shirin."),
+        ("umut", "umid", "Umut insanı ayakta tutar.", "Umid odamni oyoqda tutadi."),
+        ("zorluk", "qiyinchilik", "Her zorluğun bir sonu vardır.", "Har qiyinchilikning bir oxiri bor."),
+        ("sorun", "muammo", "Bu sorunu birlikte çözeceğiz.", "Bu muammoni birgalikda hal qilamiz."),
+        ("çözüm", "yechim", "Her sorunun bir çözümü vardır.", "Har muammoning bir yechimi bor."),
+        ("dayanmak", "bardosh bermoq", "Zor günlere dayanmak gerekir.", "Qiyin kunlarga bardosh berish kerak."),
+        ("moral", "ruhiy holat, kayfiyat", "Arkadaşımın morali bozuktu.", "Do'stimning kayfiyati buzuq edi."),
+        ("teselli etmek", "yupatmoq", "Annesi onu teselli etti.", "Onasi uni yupatdi."),
+        ("öğüt vermek", "nasihat bermoq", "Büyükler bize öğüt verir.", "Kattalar bizga nasihat beradi."),
+        ("pes etmek", "taslim bo'lmoq", "Asla pes etme!", "Hech qachon taslim bo'lma!"),
+        ("kader", "taqdir", "Kader insanın karşısına zorluk da çıkarır.", "Taqdir odam oldiga qiyinchilik ham chiqaradi."),
+        ("tecrübe", "tajriba", "Her zorluk bana yeni bir tecrübe verdi.", "Har qiyinchilik menga yangi tajriba berdi."),
+    ],
+    reading=("Bu da geçer",
+        "Eski bir hikâyede bir padişahın, yüzüğünün içine bir cümle yazdırdığı anlatılır: \"Bu da geçer.\" Padişah mutlu olduğu zaman yüzüğe bakar, aşırı sevinmezmiş. Üzüldüğü zaman bakar, umudunu kaybetmezmiş.\n\nBugün bir iş arkadaşım bana zor bir dönemden geçtiğini anlattı. İşini kaybetmişti; ev kirasını ödeyemeyeceğinden korkuyordu. Ona şunu söyledim: \"Sabırlı ol ve pes etme.\" Bana moralinin çok bozuk olduğunu, bir çözüm bulamadığını söyledi. Ben ona yeni iş ilanlarına birlikte bakmayı önerdim.\n\nİki hafta sonra bir şirket onu mülakata çağırdı. Mülakattan çıkarken beni arayıp ne düşündüğümü sordu. Ona şöyle cevap verdim: \"Her zorluk geçer. Önemli olan sende dayanma gücü olmasıdır.\" Bugün yeni işinde çok mutlu. O padişahın cümlesi bizim için de bir öğüt oldu.",
+        [
+            ("Padişah yüzüğüne ne yazdırmıştı?", ["Bu da geçer", "Sabır güzeldir", "Umut her şeydir", "Zaman paradır"]),
+            ("Yüzüğe ne zaman bakarmış?", ["Mutlu ve üzgün olduğu zaman", "Sadece sabah", "Sadece akşam", "Hiç bakmazmış"]),
+            ("İş arkadaşının sorunu neydi?", ["İşini kaybetmişti", "Hasta olmuştu", "Evi yanmıştı", "Ailesi uzaktaydı"]),
+            ("Yazar arkadaşına ne önerdi?", ["Birlikte yeni iş ilanlarına bakmayı", "Başka şehre taşınmayı", "Para vermeyi", "Ailesini aramayı"]),
+            ("Metnin ana mesajı nedir?", ["Her zorluk geçer, önemli olan dayanabilmektir", "Para her şeydir", "İş bulmak imkânsızdır", "Zor günler hep sürer"]),
+        ]),
+    listening=([
+        ("Anne", "Oğlum, dün öğretmenin ne dedi?"),
+        ("Oğul", "Bana ödevimi yarın getirmemi söyledi."),
+        ("Anne", "Başka ne dedi?"),
+        ("Oğul", "Sınıfta arkadaşlarımla konuşmamamı istedi."),
+        ("Anne", "Haklı. Peki sen ona bir şey sordun mu?"),
+        ("Oğul", "Evet, sınavın ne zaman olacağını sordum. Cuma günü olacakmış."),
+    ], [
+        ("O'qituvchi o'g'ilga nima buyurgan?", ["Uy vazifasini ertaga olib kelishni", "Imtihonga kelmaslikni", "Maktabdan ketishni", "Kitob olib kelishni"]),
+        ("O'g'il o'qituvchidan nimani so'ragan?", ["Imtihon qachon bo'lishini", "Uy vazifasi qanday ekanini", "Dars jadvalini", "Kim kelmaganini"]),
+    ]),
+    practice=[
+        ('c', "\"O'qituvchi: Kitobni och!\" — dolaylı:", ["Öğretmen kitabı açmamı söyledi.", "Öğretmen kitabı açtığımı söyledi.", "Öğretmen kitabı açacağımı söyledi.", "Öğretmen kitabı açıyor söyledi."]),
+        ('c', "\"Ketma!\" — dolaylı (aytdi):", ["Gitmememi söyledi.", "Gitmediğimi söyledi.", "Gidemediğimi söyledi.", "Gitmek istedi."]),
+        ('c', "\"Nima qilding?\" — dolaylı (so'radi):", ["Ne yaptığımı sordu.", "Ne yapmamı sordu.", "Ne yapacağımı söyledi.", "Ne yap dedi."]),
+        ('o', "\"U kelgan-kelmaganimni so'radi.\" gapini tuzing.", ["Gelip", "gelmediğimi", "sordu."]),
+        ('o', "\"U ketmoqchi ekanini aytdi.\" gapini tuzing.", ["Gitmek", "istediğini", "söyledi."]),
+        ('c', "\"Sabr\" turkchada:", ["sabır", "umut", "çözüm", "moral"]),
+    ],
+    writing=("Do'stingiz sizga nima maslahat berganini 3 gapda dolaylı aytib yozing.",
+             "Arkadaşım bana daha çok dinlenmemi söyledi. Sağlıklı beslenmemi önerdi. Pes etmememi de istedi."),
+    speaking=["Öğretmen kitabı açmamı söyledi.", "Ne yaptığımı sordu.", "Asla pes etme!", "Her zorluk geçer."],
+    test=[
+        ("Buyruq gap dolaylıda qanday shaklga o'tadi?", ["-mAsInI söyledi/istedi", "-DIğInI söyledi", "-AcAğInI söyledi", "o'zgarmaydi"]),
+        ("\"Gitme!\" → dolaylı:", ["Gitmememi söyledi.", "Gitmediğimi söyledi.", "Gideceğimi söyledi.", "Gittiğimi söyledi."]),
+        ("\"Ne yaptın?\" → dolaylı:", ["Ne yaptığımı sordu.", "Ne yaptığın sordu.", "Ne yapmamı sordu.", "Ne yaptı sordu."]),
+        ("\"Geldin mi?\" → dolaylı:", ["Gelip gelmediğimi sordu.", "Geldiğimi söyledi.", "Gelmemi istedi.", "Gelirim dedi."]),
+        ("\"Gideyim\" → dolaylı:", ["Gitmek istediğini söyledi.", "Gittiğini söyledi.", "Gitmemi söyledi.", "Gitmediğini söyledi."]),
+        ("\"Umut\" so'zining ma'nosi:", ["umid", "sabr", "tajriba", "yechim"]),
+        ("\"Pes etmek\" nima degani?", ["taslim bo'lmoq", "kurashmoq", "boshlamoq", "kutmoq"]),
+        ("\"Teselli etmek\" nima degani?", ["yupatmoq", "urishmoq", "taqiqlamoq", "hayratlanmoq"]),
+        ("\"Tecrübe\" so'zi:", ["tajriba", "taqdir", "umid", "tavsiya"]),
+        ("\"Öğüt vermek\" nima degani?", ["nasihat bermoq", "dars bermoq", "imtihon bermoq", "qarz bermoq"]),
+    ],
+    bank=[
+        ("\"Sessiz ol!\" → dolaylı:", ["Sessiz olmamı istedi.", "Sessiz olduğumu istedi.", "Sessiz olacağımı söyledi.", "Sessiz olmadığımı söyledi."]),
+        ("\"Nerede oturuyorsun?\" → dolaylı:", ["Nerede oturduğumu sordu.", "Nerede oturmamı sordu.", "Nerede oturacağımı söyledi.", "Nerede otur dedi."]),
+        ("\"Biraz dinlen\" → dolaylı:", ["Biraz dinlenmemi önerdi.", "Biraz dinlendiğimi önerdi.", "Biraz dinleneceğimi söyledi.", "Biraz dinlenmedi."]),
+        ("\"Sorun\" so'zi:", ["muammo", "yechim", "kayfiyat", "taqdir"]),
+        ("\"Çözüm\" so'zi:", ["yechim", "muammo", "qiyinchilik", "umid"]),
+        ("\"Zorluk\" so'zi:", ["qiyinchilik", "yengillik", "baxt", "g'ayrat"]),
+        ("\"Dayanmak\" nima degani?", ["bardosh bermoq", "ketmoq", "kechikmoq", "sakramoq"]),
+        ("\"Moral\" so'zi:", ["kayfiyat", "pul", "kitob", "xona"]),
+        ("\"Kader\" so'zining ma'nosi:", ["taqdir", "tajriba", "shamol", "g'amgin"]),
+        ("\"Bunu yapmamı istedi\" ma'nosi:", ["Buni qilishimni so'radi.", "Buni qilganini aytdi.", "Buni qilmaydi.", "Buni qildim."]),
+        ("\"Gelip gelmediğini sordu\" ma'nosi:", ["Kelgan-kelmaganini so'radi.", "Kelishini aytdi.", "Kelmasin dedi.", "Keldi."]),
+        ("\"Bu da geçer\" nima degani?", ["Bu ham o'tib ketadi.", "Bu ham yo'qoladi.", "Bu o'tmaydi.", "Bu qaytadi."]),
+    ],
+)

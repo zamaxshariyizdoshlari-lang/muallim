@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u3b', "B. Rüzgâr Gibi Geçti — Shamolday o'tdi", 64, 70,
+    goals=[
+        "Fe'l gaplarning dolaylı anlatımini (-DIğInI, -AcAğInI, -mIş olduğunu) tuzish",
+        "Zamon shakllarining dolaylı gapda qanday o'zgarishini bilish",
+        "Hayot yillari va o'tgan vaqt haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-DIğInI: o'tgan, hozirgi va odatiy ish",
+         "To'g'ri gapdagi -DI, -Iyor va -Ir shakllari dolaylı gapda odatda -DIğInI bo'ladi. Ish zamonini kontekst va payt ravishlari ko'rsatadi.\n\nMisol: \"Dün sinemaya gittim.\" → \"Dün sinemaya gittiğini söyledi.\" (Kecha kinoga borganini aytdi.)\nMisol: \"Her sabah koşarım.\" → \"Her sabah koştuğunu söyledi.\" (Har ertalab yugurishini aytdi.)\nInkor: \"Gelmedim.\" → \"Gelmediğini söyledi.\""),
+        ("-AcAğInI: kelasi ish",
+         "-AcAk bilan aytilgan gap dolaylıda -AcAğInI bo'ladi.\n\nMisol: \"Yarın İstanbul'a gideceğim.\" → \"Ertesi gün İstanbul'a gideceğini söyledi.\" (Ertasi kuni Istanbulga borishini aytdi.)\nTo'g'ri gapdagi \"yarın\" (ertaga) dolaylı gapda ko'pincha \"ertesi gün\" bo'ladi."),
+        ("-mIş olduğunu va -mAktA olduğunu",
+         "Tugagan ish natijasini bildiruvchi -mIş dolaylıda \"-mIş olduğunu\" bo'ladi: \"Eve gelmiş.\" → \"Eve gelmiş olduğunu söyledi.\" Davom etayotgan ishni aniqroq ko'rsatish uchun -mAktA olduğunu ishlatiladi: \"Çalışıyorum.\" → \"Çalışmakta olduğunu söyledi.\" (Ishlayotganini aytdi.)"),
+    ],
+    facts=[
+        "-DI/-Iyor/-Ir → -DIğInI söyledi (gittiğini, koştuğunu).",
+        "-AcAk → -AcAğInI söyledi; \"yarın\" → \"ertesi gün\".",
+        "-mIş → -mIş olduğunu; -Iyor (davomli) → -mAktA olduğunu.",
+    ],
+    vocab=[
+        ("yıl", "yil", "Yıllar rüzgâr gibi geçti.", "Yillar shamoldek o'tdi."),
+        ("zaman", "vaqt", "Zaman çok çabuk geçiyor.", "Vaqt juda tez o'tyapti."),
+        ("geçmiş", "o'tmish", "Geçmişi unutmak kolay değildir.", "O'tmishni unutish oson emas."),
+        ("gelecek", "kelajak", "Geleceğe umutla bakıyorum.", "Kelajakka umid bilan qarayman."),
+        ("emekli", "nafaqaxo'r", "Babam geçen yıl emekli oldu.", "Dadam o'tgan yili nafaqaga chiqdi."),
+        ("yaşlanmak", "qarimoq", "İnsan yaşlandıkça sakinleşir.", "Odam qarigan sari sokinlashadi."),
+        ("hızlı", "tez", "Hayat çok hızlı akıyor.", "Hayot juda tez oqayapti."),
+        ("hatıra defteri", "xotira daftari", "Hatıra defterini bana gösterdi.", "Xotira daftarini menga ko'rsatdi."),
+        ("pişman olmak", "afsuslanmoq", "Fırsatı kaçırdığına pişman oldu.", "Imkoniyatni boy berganiga afsuslandi."),
+        ("fırsat", "imkoniyat", "Her fırsat bir kapıdır.", "Har imkoniyat bir eshikdir."),
+        ("acele etmek", "shoshilmoq", "Acele etme, vaktimiz var.", "Shoshma, vaqtimiz bor."),
+        ("değer vermek", "qadrlamoq", "Vakte değer vermeyen kaybeder.", "Vaqtni qadrlamagan yutqazadi."),
+    ],
+    reading=("Rüzgâr gibi geçen yıllar",
+        "Emekli öğretmen Cemile Hanım, yıllar sonra eski öğrencileriyle buluştu. Salona girerken kalbi hızlı hızlı çarpıyordu. Bir öğrencisi, otuz yıl önce ondan çok şey öğrendiğini ve o yıllara değer verdiğini söyledi. Cemile Hanım gülümsedi ve hatıra defterini çıkardı.\n\nDefterde her öğrencinin ilk günkü hayalleri yazılıydı. Biri doktor olacağını, diğeri çiftçi olmak istediğini yazmıştı. Cemile Hanım defteri okurken bir şey fark etti: Hayallerin çoğu gerçek olmuştu. Bir öğrencisi, o gün aldığı notların kendisini değiştirdiğini anlattı.\n\nAkşam eve dönerken Cemile Hanım düşündü: \"Yıllar rüzgâr gibi geçti. Ama eğer acele etmeseydim, belki bu kadar şey öğretemezdim.\" Sonra yaşlanmaktan hiç pişman olmadığını kendi kendine söyledi.",
+        [
+            ("Cemile Hanım kimdir?", ["Emekli bir öğretmen", "Bir doktor", "Genç bir öğrenci", "Bir yazar"]),
+            ("Öğrencilerle ne kadar zaman sonra buluştu?", ["Yaklaşık otuz yıl", "Beş yıl", "Bir yıl", "On yıl"]),
+            ("Hatıra defterinde ne yazılıydı?", ["Öğrencilerin ilk günkü hayalleri", "Sınav notları", "Aile fotoğrafları", "Şiirler"]),
+            ("Cemile Hanım neyi fark etti?", ["Hayallerin çoğunun gerçek olduğunu", "Hiçbirinin gerçek olmadığını", "Okulun kapandığını", "Defterin kaybolduğunu"]),
+            ("Cemile Hanım yaşlanmakla ilgili ne düşündü?", ["Hiç pişman olmadığını", "Çok üzüldüğünü", "Çok acele ettiğini", "Fırsatı kaçırdığını"]),
+        ]),
+    listening=([
+        ("Nur", "Dedem dün emekli olduğunu söyledi."),
+        ("Kaan", "Çok güzel! Peki şimdi ne yapacakmış?"),
+        ("Nur", "Önümüzdeki ay köye taşınacağını ve bahçe işleriyle uğraşacağını anlattı."),
+        ("Kaan", "Yıllar ne kadar çabuk geçiyor değil mi?"),
+        ("Nur", "Evet, dedem de otuz yıldır aynı işyerinde çalıştığını ama hiç yorulmadığını söylüyor."),
+        ("Kaan", "Çok şanslıymış. Ona tebriklerimi ilet."),
+    ], [
+        ("Nurning bobosi nima haqida xabar bergan?", ["Nafaqaga chiqqanini", "Kasal ekanini", "Safarga ketayotganini", "Ish topganini"]),
+        ("Bobosi kelasi oy nima qilmoqchi?", ["Qishloqqa ko'chib, bog' bilan shug'ullanishni", "Sayohatga chiqishni", "Yangi ish boshlashni", "O'qishni"]),
+    ]),
+    practice=[
+        ('c', "\"Kecha kinoga bordim\" — dolaylı (u aytdi):", ["Dün sinemaya gittiğini söyledi.", "Dün sinemaya gideceğini söyledi.", "Dün sinemaya gitmediğini söyledi.", "Dün sinemaya gitsin dedi."]),
+        ('c', "\"Ertaga Istanbulga boraman\" — dolaylı:", ["Ertesi gün İstanbul'a gideceğini söyledi.", "Ertesi gün İstanbul'a gittiğini söyledi.", "Ertesi gün İstanbul'a gitmediğini söyledi.", "Ertesi gün İstanbul'a gitmiş olduğunu söyledi."]),
+        ('c', "\"Ishlayapman\" — dolaylı (davomli):", ["Çalışmakta olduğunu söyledi.", "Çalışacağını söyledi.", "Çalıştırdığını söyledi.", "Çalışmadığını söyledi."]),
+        ('o', "\"U har ertalab yugurishini aytdi.\" gapini tuzing.", ["Her", "sabah", "koştuğunu", "söyledi."]),
+        ('o', "\"Dadam nafaqaga chiqqanini aytdi.\" gapini tuzing.", ["Babam", "emekli", "olduğunu", "söyledi."]),
+        ('c', "\"Vaqt\" turkchada:", ["zaman", "yıl", "geçmiş", "gelecek"]),
+    ],
+    writing=("Kelajak rejalaringiz haqida 3 gap yozing, so'ngra do'stingiz nima degan bo'lardi — dolaylı ayting.",
+             "Önümüzdeki yıl üniversiteye başlayacağım. Arkadaşım bana başarılar dileyeceğini söyledi."),
+    speaking=["Dün sinemaya gittiğini söyledi.", "Yarın İstanbul'a gideceğini söyledi.", "Yıllar rüzgâr gibi geçti.", "Vakte değer vermeyen kaybeder."],
+    test=[
+        ("\"Gittim\" → dolaylıda:", ["gittiğini", "gideceğini", "gitmediğini", "gitsin"]),
+        ("\"Gideceğim\" → dolaylıda:", ["gideceğini", "gittiğini", "gitmediğini", "gidiyor"]),
+        ("\"Her sabah koşarım\" → dolaylı:", ["Her sabah koştuğunu söyledi.", "Her sabah koşacağını söyledi.", "Her sabah koşmadığını söyledi.", "Her sabah koşsun dedi."]),
+        ("\"Gelmedim\" → dolaylı:", ["Gelmediğini söyledi.", "Gelmeyeceğini söyledi.", "Geldiğini söyledi.", "Gelsin dedi."]),
+        ("\"Çalışıyorum\" → davomli dolaylı:", ["Çalışmakta olduğunu söyledi.", "Çalıştığı söyledi gibi.", "Çalışacak söyledi.", "Çalışsın söyledi."]),
+        ("\"Fırsat\" so'zining ma'nosi:", ["imkoniyat", "vaqt", "xotira", "orzu"]),
+        ("\"Pişman olmak\" nima degani?", ["afsuslanmoq", "xursand bo'lmoq", "kutmoq", "yutmoq"]),
+        ("\"Emekli\" kim?", ["nafaqaxo'r", "talaba", "ishsiz", "yosh"]),
+        ("\"Geçmiş\" so'zi:", ["o'tmish", "kelajak", "hozir", "ertaga"]),
+        ("\"Acele etmek\" nima degani?", ["shoshilmoq", "kutmoq", "sekinlashmoq", "uxlamoq"]),
+    ],
+    bank=[
+        ("To'g'ri gapdagi \"yarın\" dolaylıda ko'pincha nima bo'ladi?", ["ertesi gün", "dün", "bugün", "hozir"]),
+        ("\"Eve gelmiş\" → dolaylı:", ["Eve gelmiş olduğunu söyledi.", "Eve geleceğini söyledi.", "Eve gelmediğini söyledi.", "Eve gelsin dedi."]),
+        ("\"Gelmeyeceğim\" → dolaylıda:", ["gelmeyeceğini", "gelmediğini", "geldiğini", "gelmekte olduğunu"]),
+        ("\"Yeni bir araba aldım\" → dolaylı:", ["Yeni bir araba aldığını söyledi.", "Yeni bir araba alacağını söyledi.", "Yeni bir araba almadığını söyledi.", "Yeni araba alsın dedi."]),
+        ("\"Yıllar geçti\" so'zining ma'nosi:", ["yillar o'tdi", "yillar keladi", "yillar yo'q", "yil boshlandi"]),
+        ("\"Gelecek\" so'zi nima?", ["kelajak", "o'tmish", "bugun", "kecha"]),
+        ("\"Değer vermek\" nima degani?", ["qadrlamoq", "sotmoq", "olmoq", "yuborish"]),
+        ("\"Hızlı\" so'zi:", ["tez", "sekin", "uzoq", "qisqa"]),
+        ("\"Zaman geçiyor\" nima degani?", ["vaqt o'tyapti", "vaqt yo'q", "vaqt bor", "vaqt to'xtadi"]),
+        ("Qaysi gap to'g'ri?", ["Çalıştığını söyledi.", "Çalıştığın söyledi.", "Çalıştığı söyledi ki.", "Çalışmak söyledi."]),
+        ("\"Hatıra defteri\" nima?", ["xotira daftari", "kundalik reja", "lug'at", "daftar sotuvchi"]),
+        ("\"Yaşlanmak\" nima degani?", ["qarimoq", "yoshlanmoq", "o'smoq", "tug'ilmoq"]),
+    ],
+)

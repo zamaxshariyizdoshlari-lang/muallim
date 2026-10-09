@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u2b', "B. Arkadaşlık — Do'stlik", 42, 49,
+    goals=[
+        "-DIğI zaman, -DIğIndA va -DIğI sırada zarf-fe'llarini ishlatish",
+        "Do'stlik va munosabatlar haqida lug'atni qo'llash",
+        "Do'stlik haqidagi matnni o'qib, fikrni ifodalash",
+    ],
+    blocks=[
+        ("-DIğI zaman: ...gan paytda",
+         "Fe'l o'zagi + -DIk + egalik qo'shimchasi + zaman shakli \"...gan paytda\" ma'nosini beradi. Egalik qo'shimchasi bosh gapdan boshqa shaxs bo'lishi mumkin.\n\nMisol: \"Sen geldiğin zaman çok sevindim.\" (Sen kelgan paytda juda xursand bo'ldim.) \"Arkadaşım aradığı zaman evde değildim.\" (Do'stim qo'ng'iroq qilgan paytda uyda emas edim.)"),
+        ("-DIğIndA: ...ganda",
+         "-DIğIndA (-DIğI + -ndA) \"...ganda\" ma'nosini beradi va -DIğI zaman bilan deyarli bir xil: \"Seni gördüğümde çok mutlu oldum.\" (Seni ko'rganimda juda xursand bo'ldim.) \"Arkadaşım geldiğinde yemek yiyorduk.\" (Do'stim kelganda ovqat yeyotgan edik.)"),
+        ("-DIğI sırada: ...gan chog'da",
+         "-DIğI sırada bir ish davom etayotgan paytda boshqa ish sodir bo'lganini bildiradi: \"Ben yemek yaptığım sırada telefon çaldı.\" (Men ovqat qilayotgan chog'da telefon jiringladi.) Bu yerda \"sırada\" so'zi \"payt\" ma'nosini beradi."),
+    ],
+    facts=[
+        "-DIğI zaman = ...gan paytda: geldiği zaman, gördüğü zaman.",
+        "-DIğIndA = ...ganda: geldiğinde, gördüğümde.",
+        "-DIğI sırada = ...gan chog'da (davomiylik): yaptığım sırada.",
+    ],
+    vocab=[
+        ("arkadaşlık", "do'stlik", "Gerçek arkadaşlık zor günlerde belli olur.", "Haqiqiy do'stlik qiyin kunlarda bilinadi."),
+        ("dost", "do'st (yaqin)", "En iyi dostum çocukluktan beri yanımda.", "Eng yaqin do'stim bolalikdan beri yonimda."),
+        ("güvenmek", "ishonmoq", "Ona sırlarımı anlatabilirim, çünkü güveniyorum.", "Unga sirlarimni aytishim mumkin, chunki ishonaman."),
+        ("sır", "sir", "Sır tutmak gerçek dostluğun işaretidir.", "Sir saqlash haqiqiy do'stlik belgisi."),
+        ("paylaşmak", "baham ko'rmoq", "Sevincimizi de üzüntümüzü de paylaşırız.", "Quvonchimizni ham, qayg'uyimizni ham baham ko'ramiz."),
+        ("yardımlaşmak", "bir-biriga yordam bermoq", "Arkadaşlar zor zamanda yardımlaşır.", "Do'stlar qiyin paytda bir-biriga yordam beradi."),
+        ("kırılmak", "xafa bo'lmoq", "Sözlerine çok kırıldım.", "So'zlaringdan juda xafa bo'ldim."),
+        ("barışmak", "yarashmoq", "Küsmüştük ama sonunda barıştık.", "Arazlashgan edik, lekin oxiri yarashdik."),
+        ("küsmek", "arazlashmoq, ranjimoq", "Küçük bir şey yüzünden küstüler.", "Kichik narsa tufayli arazlashishdi."),
+        ("özlemek", "sog'inmoq", "Eski arkadaşlarımı çok özlüyorum.", "Eski do'stlarimni juda sog'inyapman."),
+        ("hatıra", "xotira", "Bu fotoğraf bana güzel hatıralar getiriyor.", "Bu surat menga yoqimli xotiralarni keltiradi."),
+        ("samimi", "samimiy", "Ahmet çok samimi bir insandır.", "Ahmet juda samimiy odam."),
+    ],
+    reading=("İki arkadaş",
+        "Okan ile Burak ilkokuldan beri arkadaştı. Aynı sırada oturur, aynı takımı tutar, birbirlerinin evinde saatlerce oynarlardı. Lise sonda Burak başka bir şehre taşındığında ikisi de çok üzüldü. Telefonla konuşuyorlardı ama zamanla aramalar azaldı.\n\nBir gün Okan'ın babası hastalandığı zaman, Burak hiç düşünmeden ilk otobüse bindi. Okan onu kapıda gördüğünde gözlerine inanamadı. Burak: \"Sen yalnız kaldığın sırada ben nasıl rahat olabilirdim?\" dedi.\n\nO gün iki arkadaş yıllardır konuşmadıkları her şeyi konuştu. Birbirlerinin sırlarını yeniden paylaştılar, eski hatıraları andılar. Okan şunu fark etti: Gerçek arkadaşlık, sık görüşmekle değil, gerektiğinde yanında olabilmekle ölçülürdü.",
+        [
+            ("Okan ile Burak ne zamandan beri arkadaştı?", ["İlkokuldan beri", "Liseden beri", "Üniversiteden beri", "Geçen yıldan beri"]),
+            ("Burak lise sonda ne yaptı?", ["Başka bir şehre taşındı", "Yurt dışına gitti", "Okulu bıraktı", "Evlendi"]),
+            ("Okan'ın babasının hastalandığı zaman Burak ne yaptı?", ["İlk otobüse binip geldi", "Telefonla aradı", "Mektup yazdı", "Hediye gönderdi"]),
+            ("Okan Burak'ı kapıda görünce ne hissetti?", ["Gözlerine inanamadı", "Kızdı", "Üzüldü", "Korktu"]),
+            ("Okan'ın vardığı sonuç nedir?", ["Gerçek arkadaşlık gerektiğinde yanında olmaktır", "Arkadaşlık para ister", "Arkadaşlar sık görüşmeli", "Arkadaşlık bitebilir"]),
+        ]),
+    listening=([
+        ("Ali", "Seni aradığımda neden açmadın?"),
+        ("Cem", "Arkadaşlarımla toplantıdaydım. Telefonu sessize almıştım."),
+        ("Ali", "Ben de sen toplantıdayken sıkılıyordum, bir şey söylemeyecektin."),
+        ("Cem", "Haklısın, özür dilerim. Toplantı bitince seni hemen aradım ama hat meşguldü."),
+        ("Ali", "Neyse, boş ver. Akşam bir çay içelim mi?"),
+        ("Cem", "Olur, geldiğimde haber veririm."),
+    ], [
+        ("Cem nima uchun telefonga javob bermagan?", ["Majlisda edi", "Uxlayotgan edi", "Safarda edi", "Telefoni buzilgan"]),
+        ("Ali kechqurun nima taklif qiladi?", ["Birga choy ichishni", "Kinoga borishni", "Sayr qilishni", "Ovqatlanishni"]),
+    ]),
+    practice=[
+        ('c', "\"Sen kelganingda juda xursand bo'ldim\" turkchada:", ["Geldiğin zaman çok sevindim.", "Gelecek zaman çok sevindim.", "Geldi zaman çok sevindim.", "Gelirken çok sevindim."]),
+        ('c', "\"Men ovqat qilayotgan chog'da telefon jiringladi\" turkchada:", ["Yemek yaptığım sırada telefon çaldı.", "Yemek yaparsam telefon çaldı.", "Yemek yapmak sırada telefon çaldı.", "Yemek yapmış sırada telefon çaldı."]),
+        ('c', "\"Seni ko'rganimda\" turkchada:", ["Seni gördüğümde", "Seni göreceğimde", "Seni görmekte", "Seni görürken de"]),
+        ('o', "\"Do'stim kelganda ovqat yeyotgan edik.\" gapini tuzing.", ["Arkadaşım", "geldiğinde", "yemek", "yiyorduk."]),
+        ('o', "\"Sirni saqlash do'stlik belgisi.\" gapini tuzing.", ["Sır", "tutmak", "dostluğun", "işaretidir."]),
+        ('c', "\"Yarashmoq\" turkchada:", ["barışmak", "küsmek", "kırılmak", "özlemek"]),
+    ],
+    writing=("Eng yaqin do'stingiz haqida 3 gap yozing (qachon tanishgansiz, u qanday odam).",
+             "En yakın arkadaşımla ilkokulda tanıştık. Çok samimi ve güvenilir biridir. Zor zamanlarda hep yanımdadır."),
+    speaking=["Sen geldiğin zaman çok sevindim.", "Seni gördüğümde mutlu oldum.", "Yemek yaptığım sırada telefon çaldı.", "Gerçek arkadaşlık zor günlerde belli olur."],
+    test=[
+        ("-DIğI zaman qanday ma'no beradi?", ["...gan paytda", "...guncha", "...masdan", "...gach"]),
+        ("\"Sen geldiğinde çok sevindim\" ma'nosi:", ["Sen kelganingda juda xursand bo'ldim.", "Sen kelasan, xursand bo'laman.", "Sen kelmading.", "Sen keldingmi?"]),
+        ("-DIğI sırada qaysi vaziyatda ishlatiladi?", ["bir ish davom etayotganda boshqa ish bo'lganda", "ish tugagandan keyin", "ish boshlanmasdan oldin", "taxminda"]),
+        ("\"Sır\" so'zining ma'nosi:", ["sir", "yolg'on", "xotira", "do'st"]),
+        ("\"Paylaşmak\" nima degani?", ["baham ko'rmoq", "kirishmoq", "ketmoq", "o'rganmoq"]),
+        ("\"Barışmak\" nima degani?", ["yarashmoq", "arazlashmoq", "xafa bo'lmoq", "sog'inmoq"]),
+        ("\"Küsmek\" nima?", ["arazlashmoq", "yarashmoq", "yordam bermoq", "ishonmoq"]),
+        ("\"Samimi\" so'zining ma'nosi:", ["samimiy", "xafa", "sust", "g'azabli"]),
+        ("\"Hatıra\" so'zining ma'nosi:", ["xotira", "sovg'a", "ish", "uy"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Arkadaşım geldiği zaman çok sevindim.", "Arkadaşım geldi zaman çok sevindim.", "Arkadaşım gelmek zaman çok sevindim.", "Arkadaşım gelen zaman çok sevindim ki."]),
+    ],
+    bank=[
+        ("\"Seni aradığımda neden açmadın?\" ma'nosi:", ["Senga qo'ng'iroq qilganimda nega ko'tarmading?", "Senga qo'ng'iroq qilaman.", "Nega qo'ng'iroq qilmading?", "Qachon qo'ng'iroq qilasan?"]),
+        ("\"Güvenmek\" nima degani?", ["ishonmoq", "qo'rqmoq", "yordam bermoq", "o'rganmoq"]),
+        ("\"Yardımlaşmak\" nima?", ["bir-biriga yordam bermoq", "qarshi turmoq", "kelishmoq", "kutmoq"]),
+        ("\"Kırılmak\" (munosabatda) nima?", ["xafa bo'lmoq", "sinmoq", "yiqilmoq", "chiqmoq"]),
+        ("\"Özlemek\" nima degani?", ["sog'inmoq", "o'ylamoq", "yozmoq", "tushunmoq"]),
+        ("\"Dost\" so'zi:", ["yaqin do'st", "qarindosh", "ustoz", "qo'shni"]),
+        ("-DIğIndA qo'shimchasi qaysi ma'noga yaqin?", ["...ganda", "...maguncha", "...gani uchun", "...masdan"]),
+        ("\"Geldiğim sırada kimse yoktu\" ma'nosi:", ["Men kelgan chog'da hech kim yo'q edi.", "Men kelsam hech kim yo'q.", "Kelaman, hech kim yo'q.", "Men ketdim."]),
+        ("\"Yemek yaptığım zaman\" ma'nosi:", ["ovqat qilgan paytimda", "ovqat qilsam", "ovqat qilaman", "ovqat qilmasam"]),
+        ("\"Samimi\" ning sinonimi:", ["içten", "uzak", "dushman", "ayri"]),
+        ("\"Sır tutmak\" nima degani?", ["sir saqlamoq", "sir ochmoq", "sir so'ramoq", "sir yozmoq"]),
+        ("\"Arkadaşlık\" so'zining ma'nosi:", ["do'stlik", "dushmanlik", "qarindoshlik", "ustozlik"]),
+    ],
+)

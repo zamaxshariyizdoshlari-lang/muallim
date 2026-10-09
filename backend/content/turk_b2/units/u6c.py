@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u6c', "C. Sırlar Dünyası — Sirlar dunyosi", 133, 139,
+    goals=[
+        "-mAsInA rağmen va -A rağmen zidlik shakllarini ishlatish",
+        "ot va fe'ldan keyin rağmen ko'makchisini ishlatish",
+        "Sirli hodisalar va kashfiyotlar haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-mAsInA rağmen: ...maganiga qaramay",
+         "Fe'l o'zagi + -mA(k) + egalik + -(y)A rağmen shaklida \"...ishiga qaramay\" ma'nosini beradi. Ma'no -DIğI hâlde ga yaqin, lekin shakli masdar (-mA) ga asoslangan.\n\nMisol: \"Hava çok soğuk olmasına rağmen denize girdi.\" (Havo juda sovuq bo'lishiga qaramay dengizga tushdi.) \"Yorgun olmama rağmen yardım ettim.\" (Charchaganimga qaramay yordam berdim.) Inkor: \"Bilmemesine rağmen cevap verdi.\" (Bilmasligiga qaramay javob berdi.)"),
+        ("Otdan keyin -A rağmen",
+         "Ot yoki zamirdan keyin -(y)A rağmen \"...ga qaramay\" ma'nosini beradi: yağmura rağmen (yomg'irga qaramay), engellere rağmen (to'siqlarga qaramay), uyarılara rağmen (ogohlantirishlarga qaramay).\n\nMisol: \"Soğuğa rağmen dışarı çıktık.\" (Sovuqqa qaramay tashqariga chiqdik.) \"Bütün çabalarıma rağmen sırrı çözemedim.\" (Barcha urinishlarimga qaramay sirni yecha olmadim.)"),
+        ("Rağmen va -mAk yerine, -DIğI hâlde",
+         "Zidlik ma'nosi uchun uchta shakl bor: -DIğI hâlde (fe'l), -mAsInA rağmen (masdar), otga -A rağmen. Ularni almashtirish mumkin: \"Hasta olduğu hâlde / hasta olmasına rağmen / hastalığına rağmen işe geldi.\" Bularning barchasi \"kasal bo'lsa ham ishga keldi\" ma'nosini beradi."),
+    ],
+    facts=[
+        "-mAsInA rağmen = ...ishiga qaramay: soğuk olmasına rağmen.",
+        "Ot + -(y)A rağmen = ...ga qaramay: yağmura rağmen.",
+        "-DIğI hâlde, -mAsInA rağmen, otga rağmen — bir ma'noli.",
+    ],
+    vocab=[
+        ("sır", "sir", "Bu sırrı kimse bilmiyor.", "Bu sirni hech kim bilmaydi."),
+        ("gizem", "sirlilik, sir-asror", "Piramitlerin gizemi hâlâ çözülemedi.", "Ehromlarning siri hali yechilmadi."),
+        ("keşif", "kashfiyot", "Bu keşif tarihi değiştirdi.", "Bu kashfiyot tarixni o'zgartirdi."),
+        ("araştırmak", "tadqiq qilmoq", "Bilim insanları olayı araştırıyor.", "Olimlar hodisani tadqiq qilyapti."),
+        ("kanıt", "dalil", "Bu iddiayı destekleyen bir kanıt yok.", "Bu da'voni qo'llab-quvvatlovchi dalil yo'q."),
+        ("açıklamak", "tushuntirmoq", "Olayı kimse açıklayamadı.", "Hodisani hech kim tushuntira olmadi."),
+        ("efsane", "afsona", "Bu gölle ilgili eski bir efsane var.", "Bu ko'l haqida qadimiy afsona bor."),
+        ("antik", "qadimiy", "Antik şehirde kazı yapıldı.", "Qadimiy shaharda qazishma o'tkazildi."),
+        ("kazı", "qazishma", "Kazıda eski bir vazo bulundu.", "Qazishmada qadimiy ko'za topildi."),
+        ("çözmek", "yechmoq", "Bilmeceyi çözemedim.", "Topishmoqni yecha olmadim."),
+        ("şüphe", "shubha", "Haberin doğruluğundan şüphe ediyorum.", "Xabarning to'g'riligiga shubha qilyapman."),
+        ("merak", "qiziqish, ishtiyoq", "Merak insanı keşfe götürür.", "Qiziqish insonni kashfiyotga olib boradi."),
+    ],
+    reading=("Kayıp şehrin sırrı",
+        "Arkeologlar yıllarca denizin altında kalmış antik bir şehrin izlerini aradı. Bütün araştırmalara rağmen şehrin yeri bulunamadı. Çoğu uzman böyle bir şehrin hiç var olmadığını düşünüyordu; efsane olduğuna inanıyorlardı.\n\nGenç bir araştırmacı, eski haritalara bakarak yeni bir bölge önerdi. Başkaları şüphe etmesine rağmen ekip o bölgede kazı yapmaya karar verdi. İlk haftalarda kötü hava koşullarına rağmen çalışmaya devam ettiler. Bir sabah dalgıçlar deniz yatağında düzenli sıralanmış taşlar buldu.\n\nKeşif tüm dünyada büyük yankı uyandırdı. Genç araştırmacı şunu söyledi: \"Efsanelerin içinde çoğu zaman bir gerçek saklıdır. Önemli olan merakı kaybetmemek.\"",
+        [
+            ("Arkeologlar neyi arıyordu?", ["Denizin altında kalmış antik bir şehri", "Bir müzeyi", "Bir hazineyi", "Yeni bir adayı"]),
+            ("Uzmanların çoğu ne düşünüyordu?", ["Şehrin efsane olduğunu", "Şehrin çok yakın olduğunu", "Şehri bulacaklarını", "Şehrin yok olduğunu"]),
+            ("Genç araştırmacı ne yaptı?", ["Eski haritalara bakıp yeni bir bölge önerdi", "Projeyi bıraktı", "Dünya turuna çıktı", "Kitap yazdı"]),
+            ("Dalgıçlar ne buldu?", ["Düzenli sıralanmış taşlar", "Altın bir sandık", "Eski bir gemi", "Silahlar"]),
+            ("Genç araştırmacının vardığı sonuç nedir?", ["Efsanelerde çoğu zaman bir gerçek saklıdır", "Efsaneler yalandır", "Deniz tehlikelidir", "Haritalar yanlıştır"]),
+        ]),
+    listening=([
+        ("Pınar", "Dün gece bir belgesel izledim, antik bir şehrin gizemini anlatıyordu."),
+        ("Emre", "Ne kadar ilginç! Kanıtlara rağmen hâlâ çözülemeyen sırlar var mı?"),
+        ("Pınar", "Evet, bütün kazılara rağmen şehrin neden terk edildiği bilinmiyor."),
+        ("Emre", "Belki bir deprem ya da kuraklık olmuştur."),
+        ("Pınar", "Bilim insanları şüpheli olmasına rağmen birçok teori üretiyor."),
+        ("Emre", "Hafta sonu müzeye gidip gerçek eserleri görelim."),
+    ], [
+        ("Pınar kecha nima ko'rgan?", ["Qadimiy shahar haqidagi hujjatli film", "Jangovar film", "Multfilm", "Futbol o'yini"]),
+        ("Hali nima noma'lum?", ["Shahar nima uchun tashlab ketilgani", "Shahar qayerdaligi", "Shahar nomi", "Shahar kimniki"]),
+    ]),
+    practice=[
+        ('c', "\"Havo sovuq bo'lishiga qaramay dengizga tushdi\" turkchada:", ["Hava soğuk olmasına rağmen denize girdi.", "Hava soğuk olduğu için denize girdi.", "Hava soğuk olunca denize girdi.", "Hava soğuk olmak için denize girdi."]),
+        ('c', "\"Yomg'irga qaramay\" turkchada:", ["Yağmura rağmen", "Yağmurdan dolayı", "Yağmur yağınca", "Yağmursuz"]),
+        ('c', "\"Barcha urinishlarimga qaramay\" turkchada:", ["Bütün çabalarıma rağmen", "Bütün çabalarım için", "Bütün çabalarım gibi", "Bütün çabalarımdan beri"]),
+        ('o', "\"Sovuqqa qaramay tashqariga chiqdik.\" gapini tuzing.", ["Soğuğa", "rağmen", "dışarı", "çıktık."]),
+        ('o', "\"Charchaganimga qaramay yordam berdim.\" gapini tuzing.", ["Yorgun", "olmama", "rağmen", "yardım", "ettim."]),
+        ('c', "\"Kashfiyot\" turkchada:", ["keşif", "kanıt", "efsane", "gizem"]),
+    ],
+    writing=("Sizni qiziqtirgan bir sir yoki afsona haqida 3 gap yozing.",
+             "Bermuda Şeytan Üçgeni'ni çok merak ediyorum. Bilim insanlarının açıklamalarına rağmen hâlâ gizemini koruyor. Bir gün orayı görmek isterim."),
+    speaking=["Hava soğuk olmasına rağmen denize girdi.", "Yağmura rağmen dışarı çıktık.", "Merak insanı keşfe götürür.", "Efsanelerde gerçek saklıdır."],
+    test=[
+        ("-mAsInA rağmen qanday ma'noni bildiradi?", ["...ishiga qaramay", "...gani uchun", "...masdan", "...gandan keyin"]),
+        ("Ot + -(y)A rağmen qanday ma'noni bildiradi?", ["...ga qaramay", "...tufayli", "...dan keyin", "...gunga qadar"]),
+        ("\"Yağmura rağmen\" ma'nosi:", ["yomg'irga qaramay", "yomg'ir sababli", "yomg'irdan keyin", "yomg'irsiz"]),
+        ("\"Gizem\" so'zi:", ["sir-asror", "dalil", "afsona", "qazishma"]),
+        ("\"Kanıt\" so'zi:", ["dalil", "shubha", "sir", "kashfiyot"]),
+        ("\"Efsane\" so'zi:", ["afsona", "xotira", "tarix", "hikoya emas"]),
+        ("\"Kazı\" so'zi:", ["qazishma", "ko'cha", "kitob", "poyezd"]),
+        ("\"Şüphe\" so'zi:", ["shubha", "ishonch", "sir", "xotira"]),
+        ("\"Merak\" so'zi:", ["qiziqish", "g'azab", "qo'rquv", "umid"]),
+        ("\"Antik\" so'zi:", ["qadimiy", "yangi", "zamonaviy", "arzon"]),
+    ],
+    bank=[
+        ("\"Yorgun olmama rağmen yardım ettim\" ma'nosi:", ["Charchaganimga qaramay yordam berdim.", "Charchaganim uchun yordam bermadim.", "Charchasam yordam beraman.", "Yordam bermadim."]),
+        ("\"Hastalığına rağmen\" ma'nosi:", ["kasalligiga qaramay", "kasalligi tufayli", "kasal bo'lgach", "kasal bo'lmasa"]),
+        ("\"Açıklamak\" nima degani?", ["tushuntirmoq", "yashirmoq", "yutmoq", "o'tkazmoq"]),
+        ("\"Araştırmak\" nima degani?", ["tadqiq qilmoq", "yo'qotmoq", "kutmoq", "yig'moq"]),
+        ("\"Çözmek\" nima degani?", ["yechmoq", "bog'lamoq", "yo'qotmoq", "o'tirmoq"]),
+        ("\"Keşif\" so'zi:", ["kashfiyot", "savdo", "sayohat", "hisobot"]),
+        ("\"Sır\" so'zi:", ["sir", "savol", "tarix", "ish"]),
+        ("-mAsInA rağmen ning ma'nodoshi:", ["-DIğI hâlde", "-DIğI için", "-IncA", "-DIkçA"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Hava soğuk olmasına rağmen çıktı.", "Hava soğuk olmasına rağmen için çıktı.", "Hava soğuk olmasından rağmen çıktı.", "Hava soğuk olmakla rağmen çıktı."]),
+        ("\"Bilmesine rağmen söylemedi\" ma'nosi:", ["Bilishiga qaramay aytmadi.", "Bilgani uchun aytdi.", "Bilmagani uchun aytmadi.", "Bilsa aytadi."]),
+        ("\"Bilmece\" so'zi:", ["topishmoq", "xotira", "ertak", "she'r"]),
+        ("\"Kazı yapmak\" nima degani?", ["qazishma qilmoq", "ko'cha qurmoq", "kitob yozmoq", "daraxt ekmoq"]),
+    ],
+)

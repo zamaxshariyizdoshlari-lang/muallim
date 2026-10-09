@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u6a', "A. İlginç Doğa Olayları — Qiziqarli tabiat hodisalari", 120, 129,
+    goals=[
+        "Birleşik çatı (işteş + ettirgen) fe'llarini taniy olish va yasash",
+        "buluşturmak, tanıştırmak, barıştırmak kabi fe'llarni ishlatish",
+        "Tabiat hodisalari haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("İşteş çatı: -(I)ş",
+         "İşteş çatı (-(I)ş) ish ikki yoki undan ko'p kishi tomonidan birgalikda yoki bir-biriga nisbatan bajarilishini bildiradi: gör-üş-mek (uchrashmoq, ko'rishmoq), bul-uş-mak (uchrashmoq), tanı-ş-mak (tanishmoq), bar-ış-mak (yarashmoq), çarp-ış-mak (to'qnashmoq).\n\nMisol: \"İki araba çarpıştı.\" (Ikki mashina to'qnashdi.) \"Arkadaşlarımla her hafta buluşuruz.\" (Do'stlarim bilan har hafta uchrashamiz.)"),
+        ("Ettirgen çatı: -DIr",
+         "Ettirgen çatı (-DIr/-It/-Ir) bajaruvchini boshqa kishiga ish qildirishni bildiradi: yap-tır-mak (qildirmoq), yaz-dır-mak (yozdirmoq), kes-tir-mek (kestirmoq).\n\nMisol: \"Saçımı kestirdim.\" (Sochimni oldirdim.) \"Öğretmen öğrencilere kompozisyon yazdırdı.\" (O'qituvchi o'quvchilarga insho yozdirdi.)"),
+        ("Birleşik çatı: işteş + ettirgen",
+         "Fe'lga avval -(I)ş, keyin -DIr qo'shilsa, \"ikki yoki undan ko'p kishini birga qilmoq\" ma'nosi hosil bo'ladi: buluş-tur-mak (uchrashtirmoq), tanış-tır-mak (tanishtirmoq), barış-tır-mak (yarashtirmoq), çarpış-tır-mak (to'qnashtirmoq), görüş-tür-mek (uchrashtirmoq, so'zlashtirmoq), yarış-tır-mak (poygalashtirmoq).\n\nMisol: \"Annem beni yeni komşuyla tanıştırdı.\" (Onam meni yangi qo'shni bilan tanishtirdi.) \"Doğa olayları bazen insanları bir araya getirir; hatta barıştırır.\" (Tabiat hodisalari ba'zan odamlarni bir joyga to'playdi, hatto yarashtiradi.)"),
+    ],
+    facts=[
+        "İşteş -(I)ş: görüşmek, buluşmak, tanışmak, barışmak, çarpışmak.",
+        "Ettirgen -DIr: yaptırmak, yazdırmak, kestirmek.",
+        "Birleşik -(I)ş + -DIr: buluşturmak, tanıştırmak, barıştırmak, çarpıştırmak.",
+    ],
+    vocab=[
+        ("doğa olayı", "tabiat hodisasi", "Yıldırım ilginç bir doğa olayıdır.", "Chaqmoq qiziqarli tabiat hodisasi."),
+        ("yıldırım", "chaqmoq", "Yıldırım düşen ağaç yandı.", "Chaqmoq tushgan daraxt yonib ketdi."),
+        ("gökkuşağı", "kamalak", "Yağmurdan sonra gökkuşağı çıktı.", "Yomg'irdan keyin kamalak chiqdi."),
+        ("fırtına", "bo'ron", "Dün gece büyük bir fırtına çıktı.", "Kecha katta bo'ron ko'tarildi."),
+        ("deprem", "zilzila", "Deprem anında sakin olmak gerekir.", "Zilzila paytida xotirjam bo'lish kerak."),
+        ("sel", "toshqin", "Sel köprüyü yıktı.", "Toshqin ko'prikni yiqitdi."),
+        ("güneş tutulması", "quyosh tutilishi", "Güneş tutulmasını teleskopla izledik.", "Quyosh tutilishini teleskop bilan kuzatdik."),
+        ("aurora", "shimol shu'lasi", "Kuzeyde aurora görmek büyüleyici.", "Shimolda shimol shu'lasini ko'rish maftunkor."),
+        ("çığ", "ko'chki (qor)", "Dağda çığ düştü.", "Tog'da qor ko'chkisi tushdi."),
+        ("volkan", "vulqon", "Volkan patladığında çok kül çıktı.", "Vulqon otilganda ko'p kul chiqdi."),
+        ("bir araya getirmek", "bir joyga to'plamoq", "Bu olay bizi bir araya getirdi.", "Bu voqea bizni bir joyga to'pladi."),
+        ("şaşırtmak", "hayratga solmoq", "Doğanın gücü beni şaşırttı.", "Tabiatning kuchi meni hayratga soldi."),
+    ],
+    reading=("Doğanın birleştirdikleri",
+        "Küçük bir sahil kasabasında büyük bir fırtına çıktığında herkes evinde kaldı. Rüzgâr o kadar şiddetliydi ki çatılar uçtu, sokaklar suyla doldu. İki komşu, Hasan ile Ömer, yıllardır birbirleriyle konuşmuyorlardı. Fırtınanın ortasında Hasan'ın evinin çatısı yıkılınca Ömer hiç düşünmeden onlara kapısını açtı.\n\nO gece iki aile aynı odada çay içti, hikâyeler anlattı. Sabah gökyüzünde güzel bir gökkuşağı belirdi. Kasaba halkı, Hasan ile Ömer'i barıştıran şeyin fırtına olduğunu söyledi.\n\nGün ilerledikçe kasabalılar bir araya gelip hasarı birlikte onardı. Belediye başkanı konuşmasında şunu söyledi: \"Doğa bazen bizi korkutur, bazen de birbirimizle tanıştırır.\" O günden sonra Hasan ile Ömer en iyi arkadaş oldular.",
+        [
+            ("Fırtına nerede çıktı?", ["Küçük bir sahil kasabasında", "Büyük bir şehirde", "Dağ köyünde", "Çölde"]),
+            ("Hasan ile Ömer'in durumu nasıldı?", ["Yıllardır konuşmuyorlardı", "Kardeştiler", "Hiç tanışmamışlardı", "İş ortağıydılar"]),
+            ("Ömer ne yaptı?", ["Hasan'ın ailesine kapısını açtı", "Polisi aradı", "Kasabadan ayrıldı", "Çatıyı onardı"]),
+            ("Sabah gökyüzünde ne belirdi?", ["Gökkuşağı", "Kar", "Fırtına", "Güneş tutulması"]),
+            ("Belediye başkanı doğa için ne söyledi?", ["Bazen korkutur, bazen de birbirimizle tanıştırır", "Hep tehlikelidir", "Çok güzeldir", "Önemsizdir"]),
+        ]),
+    listening=([
+        ("Spiker", "Bugün Karadeniz'de şiddetli bir fırtına bekleniyor."),
+        ("Eda", "Duydun mu? Yarın yıldırım ve sel ihtimali de varmış."),
+        ("Kenan", "Evet, belediye herkesi uyardı. Dışarı çıkmamamız gerekiyor."),
+        ("Eda", "Hafta sonu piknik yapacaktık, ertelememiz lazım."),
+        ("Kenan", "Fırtına geçince bütün arkadaşları bir araya getirip evde buluşturalım."),
+        ("Eda", "Güzel fikir. Kimse üşümesin, kalın giyinsinler."),
+    ], [
+        ("Karadenizda nima kutilmoqda?", ["Kuchli bo'ron", "Zilzila", "Qor", "Issiq havo"]),
+        ("Kenan nima taklif qiladi?", ["Do'stlarni uyda uchrashtirishni", "Pikniknii davom ettirishni", "Sayohatga chiqishni", "Ko'chib ketishni"]),
+    ]),
+    practice=[
+        ('c', "\"Onam meni yangi qo'shni bilan tanishtirdi\" turkchada:", ["Annem beni yeni komşuyla tanıştırdı.", "Annem beni yeni komşuyla tanıştı.", "Annem beni yeni komşuya tanıdı.", "Annem yeni komşuyu tanışmak istedi."]),
+        ('c', "\"Ikki mashina to'qnashdi\" turkchada:", ["İki araba çarpıştı.", "İki araba çarptırdı.", "İki araba çarpacak.", "İki araba çarpmış."]),
+        ('c', "\"Yarashtirmoq\" turkchada:", ["barıştırmak", "barışmak", "küsmek", "kırılmak"]),
+        ('o', "\"Do'stlarim bilan har hafta uchrashamiz.\" gapini tuzing.", ["Arkadaşlarımla", "her", "hafta", "buluşuruz."]),
+        ('o', "\"Sochimni oldirdim.\" gapini tuzing.", ["Saçımı", "kestirdim."]),
+        ('c', "\"Kamalak\" turkchada:", ["gökkuşağı", "yıldırım", "fırtına", "sel"]),
+    ],
+    writing=("Siz ko'rgan yoki eshitgan qiziqarli tabiat hodisasini 3 gapda yozing.",
+             "Geçen yıl kuzeyde aurora gördüm. Gökyüzü yeşil ışıklarla doluydu. Doğanın gücü beni çok şaşırttı."),
+    speaking=["Annem beni yeni komşuyla tanıştırdı.", "İki araba çarpıştı.", "Yıldırım ilginç bir doğa olayıdır.", "Doğa bazen bizi birbirimizle tanıştırır."],
+    test=[
+        ("İşteş çatı qo'shimchasi qaysi?", ["-(I)ş", "-DIr", "-n", "-Il"]),
+        ("Ettirgen çatı qo'shimchasi qaysi?", ["-DIr", "-(I)ş", "-Il", "-n"]),
+        ("\"Buluşturmak\" nima degani?", ["uchrashtirmoq", "yig'moq", "yo'q qilmoq", "uchrashmoq"]),
+        ("\"Tanıştırmak\" nima degani?", ["tanishtirmoq", "tanishmoq", "tanimoq", "unutmoq"]),
+        ("\"Barıştırmak\" nima degani?", ["yarashtirmoq", "arazlashtirmoq", "yig'lamoq", "kelishmoq"]),
+        ("\"Çarpışmak\" nima degani?", ["to'qnashmoq", "uchrashmoq", "yarashmoq", "kutmoq"]),
+        ("\"Yıldırım\" so'zi:", ["chaqmoq", "kamalak", "bo'ron", "shamol"]),
+        ("\"Fırtına\" so'zi:", ["bo'ron", "yomg'ir", "qor", "tuman"]),
+        ("\"Gökkuşağı\" so'zi:", ["kamalak", "chaqmoq", "yulduz", "oy"]),
+        ("\"Deprem\" so'zi:", ["zilzila", "toshqin", "bo'ron", "ko'chki"]),
+    ],
+    bank=[
+        ("\"Saçımı kestirdim\" qaysi çatıga xos?", ["ettirgen", "işteş", "edilgen", "dönüşlü"]),
+        ("\"Görüşmek\" qaysi çatı?", ["işteş", "ettirgen", "edilgen", "ettirgen+edilgen"]),
+        ("\"Yarıştırmak\" nima degani?", ["poygalashtirmoq", "yutmoq", "qochmoq", "kutmoq"]),
+        ("\"Sel\" so'zi:", ["toshqin", "qor", "zilzila", "bo'ron"]),
+        ("\"Volkan\" so'zi:", ["vulqon", "tog'", "daryo", "cho'l"]),
+        ("\"Çığ\" so'zi:", ["qor ko'chkisi", "yomg'ir", "do'l", "shamol"]),
+        ("\"Bir araya getirmek\" nima degani?", ["bir joyga to'plamoq", "ajratmoq", "yo'qotmoq", "kutmoq"]),
+        ("\"Şaşırtmak\" nima degani?", ["hayratga solmoq", "xafa qilmoq", "kuldirmoq", "uxlatmoq"]),
+        ("\"Doğa olayı\" nima?", ["tabiat hodisasi", "tabiat qo'shig'i", "o'simlik", "yo'l"]),
+        ("\"Öğretmen öğrencilere şiir okuttu\" qaysi çatı?", ["ettirgen", "işteş", "edilgen", "dönüşlü"]),
+        ("\"Tanışmak\" qaysi çatı?", ["işteş", "ettirgen", "edilgen", "dönüşlü"]),
+        ("\"Çarpıştırmak\" nima degani?", ["to'qnashtirmoq", "uchirmoq", "yig'moq", "yutmoq"]),
+    ],
+)

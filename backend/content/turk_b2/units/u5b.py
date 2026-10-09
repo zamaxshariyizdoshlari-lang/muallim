@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u5b', "B. Kimin Hayatı Daha Zor? — Kimning hayoti qiyinroq?", 108, 111,
+    goals=[
+        "-DIğI için va -DIğIndAn sabab zarf-fe'llarini ishlatish",
+        "yüzünden va sayesinde ko'makchilarini farqlash",
+        "Kasb va hayot qiyinchiliklari haqida lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-DIğI için: ...gani uchun",
+         "Fe'l o'zagi + -DIk + egalik qo'shimchasi + için sababni bildiradi: \"...gani uchun\". Bosh gapdagi ish ushbu sababdan kelib chiqadi.\n\nMisol: \"Hasta olduğu için işe gelmedi.\" (Kasal bo'lgani uchun ishga kelmadi.) \"Yağmur yağdığı için maç iptal edildi.\" (Yomg'ir yog'gani uchun o'yin bekor qilindi.) Inkor: \"Hazırlanmadığı için sınavı geçemedi.\" (Tayyorlanmagani uchun imtihondan o'ta olmadi.)"),
+        ("-DIğIndAn: rasmiy sabab",
+         "-DIğIndAn ham \"...ganligi sababli, ...gani uchun\" ma'nosini beradi, lekin -DIğI için ga qaraganda rasmiyroq va yozma tilga xos.\n\nMisol: \"Yoğun kar yağdığından yollar kapandı.\" (Qalin qor yog'ganligi sababli yo'llar yopildi.) \"Çalışanlar toplantıya katılmadığından karar ertelendi.\" (Xodimlar yig'ilishda qatnashmaganligi uchun qaror kechiktirildi.)"),
+        ("yüzünden va sayesinde",
+         "Ismga qo'shilib sabab bildiruvchi ko'makchilar: yüzünden (salbiy sabab, ...ning tufayli) va sayesinde (ijobiy sabab, ...ning sharofati bilan).\n\nMisol: \"Trafik yüzünden geç kaldım.\" (Tirbandlik tufayli kechikdim.) \"Senin yardımın sayesinde sınavı geçtim.\" (Sening yordaming sharofati bilan imtihondan o'tdim.)"),
+    ],
+    facts=[
+        "-DIğI için = ...gani uchun (kundalik); -DIğIndAn = ...ganligi sababli (rasmiy).",
+        "Inkori: -mAdIğI için / -mAdIğIndAn.",
+        "yüzünden = salbiy sabab; sayesinde = ijobiy sabab.",
+    ],
+    vocab=[
+        ("zor", "qiyin", "Doktorluk çok zor bir meslektir.", "Shifokorlik juda qiyin kasb."),
+        ("meslek", "kasb", "Her mesleğin kendine göre zorlukları vardır.", "Har kasbning o'ziga yarasha qiyinchiliklari bor."),
+        ("yorucu", "charchatuvchi", "Hemşirelik yorucu bir meslektir.", "Hamshiralik charchatuvchi kasb."),
+        ("vardiya", "smena", "Hastanede gece vardiyasında çalışıyor.", "Kasalxonada tungi smenada ishlayapti."),
+        ("sorumluluk", "mas'uliyat", "Öğretmenlerin sorumluluğu büyüktür.", "O'qituvchilarning mas'uliyati katta."),
+        ("zahmet", "mashaqqat", "Çiftçilerin zahmetini bilmek gerekir.", "Dehqonlarning mashaqqatini bilish kerak."),
+        ("kazanç", "daromad", "Kazancı yetmediği için ek iş yapıyor.", "Daromadi yetmagani uchun qo'shimcha ish qilyapti."),
+        ("emek", "mehnat", "Her başarının arkasında büyük bir emek var.", "Har muvaffaqiyat ortida katta mehnat bor."),
+        ("saygı", "hurmat", "Her mesleğe saygı duymalıyız.", "Har bir kasbni hurmat qilishimiz kerak."),
+        ("zorluk çekmek", "qiyinchilik ko'rmoq", "Köyde okul olmadığı için çocuklar zorluk çekiyor.", "Qishloqda maktab bo'lmagani uchun bolalar qiyinchilik ko'ryapti."),
+        ("fedakâr", "fidoyi", "Fedakâr doktorlar gece gündüz çalışıyor.", "Fidoyi shifokorlar tun-u kun ishlayapti."),
+        ("karşılaştırmak", "solishtirmoq", "İki mesleği karşılaştırmak kolay değil.", "Ikki kasbni solishtirish oson emas."),
+    ],
+    reading=("Kimin hayatı daha zor?",
+        "Bir akşam televizyonda \"Hangi mesleğin hayatı daha zor?\" konulu bir program vardı. Konuklardan biri, doktorların uykusuz geceler geçirdiği için çok yorulduğunu söyledi. Diğeri ise çiftçilerin hava şartlarına bağlı olarak çalıştığından kazançlarının belirsiz olduğunu anlattı.\n\nÖğretmen olan üçüncü konuk şöyle dedi: \"Öğretmenlerin sorumluluğu büyük olduğu için baskı da büyüktür. Ama her mesleğin zorluğu farklıdır, bu yüzden karşılaştırmak yanlış olur.\"\n\nProgramı izleyen babam bu sözlerden etkilendi. Bana dedi ki: \"Başkasının hayatı zor göründüğü için ona acımak kolay. Ama onun zorluğunu görmek için saygı gerekir.\" O günden beri her mesleğe daha farklı bakıyorum.",
+        [
+            ("Programın konusu neydi?", ["Hangi mesleğin hayatı daha zor", "Hangi şehir güzel", "Hangi spor sağlıklı", "Hangi okul iyi"]),
+            ("Konuğa göre doktorlar neden yoruluyor?", ["Uykusuz geceler geçirdikleri için", "Kazançları az olduğu için", "Çok seyahat ettikleri için", "Sınav yaptıkları için"]),
+            ("Çiftçinin kazancı neden belirsiz?", ["Hava şartlarına bağlı olduğu için", "Çok çalışmadığı için", "Pahalı olduğu için", "Hastalandığı için"]),
+            ("Öğretmen konuğa göre karşılaştırma neden yanlış?", ["Her mesleğin zorluğu farklı olduğu için", "Öğretmenler çok kazandığı için", "Doktorlar çalışmadığı için", "Çiftçiler yorulmadığı için"]),
+            ("Babanın vardığı sonuç nedir?", ["Başkasının zorluğunu görmek için saygı gerekir", "Çiftçi olmak daha iyidir", "Televizyon izlenmemeli", "Doktor olmak daha kolaydır"]),
+        ]),
+    listening=([
+        ("Selin", "Dün gece yine geç yattım. Nöbetçi olduğum için sabaha kadar çalıştım."),
+        ("Mert", "Hemşirelik yorucu olduğu için herkese tavsiye etmiyorum."),
+        ("Selin", "Zor ama insanlara yardım ettiğim için mutluyum."),
+        ("Mert", "Senin fedakârlığın sayesinde çok insan iyileşiyor."),
+        ("Selin", "Teşekkür ederim. Bazen maaş az olduğundan üzülüyorum."),
+        ("Mert", "Emeğinin karşılığını alman gerekir. Bence yöneticilerle konuşmalısın."),
+    ], [
+        ("Selin nima uchun kech yotdi?", ["Navbatchi bo'lgani uchun", "Kasal bo'lgani uchun", "Sayohatda edi", "Imtihonga tayyorlandi"]),
+        ("Selin nimadan xafa bo'lib turadi?", ["Maoshi kamligidan", "Do'stlari yo'qligidan", "Kasbini yoqtirmasligidan", "Uyi uzoqligidan"]),
+    ]),
+    practice=[
+        ('c', "\"Kasal bo'lgani uchun ishga kelmadi\" turkchada:", ["Hasta olduğu için işe gelmedi.", "Hasta olacağı için işe gelmedi.", "Hasta olduğunda işe gelmedi.", "Hasta olunca işe gelmedi."]),
+        ('c', "\"Tirbandlik tufayli kechikdim\" turkchada:", ["Trafik yüzünden geç kaldım.", "Trafik sayesinde geç kaldım.", "Trafik için geç kaldım.", "Trafik kadar geç kaldım."]),
+        ('c', "\"Sening yordaming sharofati bilan o'tdim\" turkchada:", ["Senin yardımın sayesinde geçtim.", "Senin yardımın yüzünden geçtim.", "Senin yardımın için geçtim.", "Senin yardımın kadar geçtim."]),
+        ('o', "\"Qor yog'gani uchun yo'llar yopildi.\" gapini tuzing.", ["Kar", "yağdığı", "için", "yollar", "kapandı."]),
+        ('o', "\"Tayyorlanmagani uchun o'ta olmadi.\" gapini tuzing.", ["Hazırlanmadığı", "için", "geçemedi."]),
+        ('c', "\"Mehnat\" turkchada:", ["emek", "kazanç", "zahmet", "saygı"]),
+    ],
+    writing=("Sizningcha qaysi kasb qiyin? Sababini -DIğI için bilan 3 gapda yozing.",
+             "Bence öğretmenlik zor bir meslektir. Çünkü sorumluluğu büyük olduğu için baskı çoktur. Ama çok değerli olduğu için çalışmaya değer."),
+    speaking=["Hasta olduğu için işe gelmedi.", "Trafik yüzünden geç kaldım.", "Senin yardımın sayesinde geçtim.", "Her mesleğe saygı duymalıyız."],
+    test=[
+        ("-DIğI için qanday ma'noni bildiradi?", ["...gani uchun (sabab)", "...guncha", "...ganda", "...masdan"]),
+        ("-DIğIndAn qaysi uslubga yaqin?", ["rasmiy yozma", "so'zlashuv", "she'riy", "o'ta eskirgan"]),
+        ("\"yüzünden\" qanday sababni bildiradi?", ["salbiy", "ijobiy", "neytral", "maqsad"]),
+        ("\"sayesinde\" qanday sababni bildiradi?", ["ijobiy", "salbiy", "taxminiy", "shartli"]),
+        ("\"Hazırlanmadığı için\" ma'nosi:", ["tayyorlanmagani uchun", "tayyorlangani uchun", "tayyorlanmoqchi", "tayyorlanadi"]),
+        ("\"Vardiya\" so'zi:", ["smena", "ta'til", "dam olish", "kasb"]),
+        ("\"Emek\" so'zi:", ["mehnat", "kasb", "ta'til", "pul"]),
+        ("\"Zahmet\" so'zi:", ["mashaqqat", "yengillik", "do'stlik", "pul"]),
+        ("\"Fedakâr\" so'zi:", ["fidoyi", "xasis", "dangasa", "yolg'on"]),
+        ("\"Karşılaştırmak\" nima degani?", ["solishtirmoq", "ajratmoq", "ko'rmoq", "o'tkazmoq"]),
+    ],
+    bank=[
+        ("\"Yağmur yağdığı için maç iptal edildi\" ma'nosi:", ["Yomg'ir yog'gani uchun o'yin bekor qilindi.", "Yomg'ir yog'sa o'yin bekor bo'ladi.", "Yomg'ir yog'maydi.", "O'yin bo'lmadi."]),
+        ("\"Yoğun kar yağdığından yollar kapandı\" ma'nosi:", ["Qalin qor yog'ganligi sababli yo'llar yopildi.", "Qor yog'sa yo'llar yopiladi.", "Yo'llar ochiq.", "Qor yog'maydi."]),
+        ("\"Trafik yüzünden\" ma'nosi:", ["tirbandlik tufayli", "tirbandlik sharofati bilan", "tirbandlikdan keyin", "tirbandlikka qadar"]),
+        ("\"Kazanç\" so'zi:", ["daromad", "xarajat", "qarz", "ish"]),
+        ("\"Yorucu\" so'zi:", ["charchatuvchi", "yengil", "qiziqarli", "foydali"]),
+        ("\"Saygı duymak\" nima degani?", ["hurmat qilmoq", "ranjimoq", "unutmoq", "yig'lamoq"]),
+        ("\"Zorluk çekmek\" nima degani?", ["qiyinchilik ko'rmoq", "qiyinchilikni yo'qotmoq", "yengillik topmoq", "to'xtamoq"]),
+        ("\"Sorumluluk\" so'zi:", ["mas'uliyat", "ish", "g'ayrat", "baho"]),
+        ("-DIğI için ning inkori:", ["-mAdIğI için", "-DIğI değil", "-mAz için", "-mIş için"]),
+        ("\"Meslek\" so'zi:", ["kasb", "ish", "maosh", "mehnat"]),
+        ("\"Nöbetçi\" kim?", ["navbatchi", "kutuvchi", "qaroqchi", "xodim"]),
+        ("\"Başkasına acımak\" nima degani?", ["birovga achinmoq", "birovdan qo'rqmoq", "birovga yordam bermoq", "birovni kutmoq"]),
+    ],
+)

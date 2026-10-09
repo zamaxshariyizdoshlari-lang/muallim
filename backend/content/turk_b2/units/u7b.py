@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u7b', "B. Nasıl Çalışıyorum? — Qanday ishlayapman?", 147, 153,
+    goals=[
+        "-AcAğInA va -AcAğI yerde o'rnini bosuvchi zarf-fe'llarini ishlatish",
+        "-mAsI hâlinde shart ma'nosini ifodalash",
+        "Ishlash odatlari va samaradorlik haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-AcAğInA: ...ish o'rniga (tanqid, ajablanish)",
+         "-AcAğInA (-acağına/-eceğine) ko'pincha \"...ish o'rniga, ...ishning o'rniga\" ma'nosini beradi va tanqid yoki ajablanish ohangini ifodalaydi.\n\nMisol: \"Çalışacağına uyuyor.\" (Ishlash o'rniga uxlayapti.) \"Yardım edeceğine bana engel oldu.\" (Yordam berish o'rniga menga to'sqinlik qildi.) Gap oxiri odatda salbiy fikr bildiradi."),
+        ("-AcAğI yerde: ...ish o'rniga",
+         "-AcAğI yerde ham \"...ish o'rniga\" ma'nosini beradi, lekin neytralroq. Kelasi zamon shaklidan keyin \"yerde\" so'zi keladi.\n\nMisol: \"Toplantıya katılacağı yerde evde kaldı.\" (Yig'ilishda qatnashish o'rniga uyda qoldi.) \"Sorunu çözeceği yerde büyüttü.\" (Muammoni hal qilish o'rniga kattalashtirdi.)"),
+        ("-mAsI hâlinde: shart ma'nosi",
+         "-mAsI hâlinde (yoki -mAsI durumunda) \"...ish bo'lsa, ...ish bo'lgan taqdirda\" ma'nosini beradi. Rasmiy hujjatlarda, qoidalarda ko'p uchraydi.\n\nMisol: \"Çalışanların izin alması hâlinde maaşlarından kesinti yapılmaz.\" (Xodimlar ta'til olsalar, maoshlaridan ushlab qolinmaydi.) \"Gecikmesi hâlinde ceza uygulanır.\" (Kechiksa, jarima qo'llaniladi.)"),
+    ],
+    facts=[
+        "-AcAğInA = ...ish o'rniga (tanqidiy ohang): çalışacağına uyuyor.",
+        "-AcAğI yerde = ...ish o'rniga (neytral).",
+        "-mAsI hâlinde = ...bo'lsa, ...bo'lgan taqdirda (rasmiy shart).",
+    ],
+    vocab=[
+        ("verimli", "samarali", "Verimli çalışmak için planlı olmak gerekir.", "Samarali ishlash uchun rejali bo'lish kerak."),
+        ("plan", "reja", "Bugünkü planımı hazırladım.", "Bugungi rejamni tayyorladim."),
+        ("görev", "vazifa", "Her çalışanın bir görevi vardır.", "Har bir xodimning vazifasi bor."),
+        ("sorumlu", "mas'ul", "Projeden sorumlu kişi toplantıya katıldı.", "Loyihaga mas'ul shaxs yig'ilishda qatnashdi."),
+        ("işbirliği", "hamkorlik", "Takım içinde işbirliği çok önemli.", "Jamoa ichida hamkorlik juda muhim."),
+        ("ertelemek", "kechiktirmoq", "İşi yarına ertelemek iyi değildir.", "Ishni ertaga qoldirish yaxshi emas."),
+        ("zaman yönetimi", "vaqtni boshqarish", "Zaman yönetimi başarının anahtarıdır.", "Vaqtni boshqarish muvaffaqiyat kalitidir."),
+        ("teslim etmek", "topshirmoq", "Raporu zamanında teslim ettim.", "Hisobotni o'z vaqtida topshirdim."),
+        ("son tarih", "oxirgi muddat", "Son tarih yarın bitiyor.", "Oxirgi muddat ertaga tugaydi."),
+        ("izin", "ruxsat, ta'til", "İzin almadan işten ayrılmamalısın.", "Ruxsatsiz ishdan ketmaslik kerak."),
+        ("kesinti", "ushlab qolish", "Maaşından kesinti yapıldı.", "Maoshidan ushlab qolindi."),
+        ("ceza", "jarima, jazo", "Gecikmeye ceza uygulanır.", "Kechikishga jarima qo'llaniladi."),
+    ],
+    reading=("Verimli bir gün",
+        "Mehmet Bey bir şirkette yöneticiydi. Çalışanlarına her zaman şunu söylerdi: \"Zamanınızı iyi yönetmezseniz, işleriniz sizi yönetir.\" Ama bazı çalışanlar işe geldiklerinde çalışacakları yerde telefonla oynuyor, arkadaşlarıyla sohbet ediyordu.\n\nMehmet Bey bir gün toplantıda yeni bir kural açıkladı: Her çalışan sabahları günlük planını hazırlayacak, akşam işlerini kontrol edecekti. Plana uyulmaması hâlinde çalışanlar yöneticisiyle görüşecekti. Bazıları bu kurala itiraz edeceği yerde denemeye karar verdi.\n\nBir ay sonra şirkette büyük bir değişiklik oldu. İşler zamanında teslim ediliyor, çalışanlar daha mutlu görünüyordu. Mehmet Bey gülümsedi: \"Şikâyet edeceğinize çözüm bulmaya çalışırsanız, her şey değişir.\"",
+        [
+            ("Mehmet Bey'in mesleği nedir?", ["Şirket yöneticisi", "Doktor", "Öğretmen", "Garson"]),
+            ("Bazı çalışanlar ne yapıyordu?", ["Çalışacakları yerde telefonla oynuyordu", "Çok çalışıyordu", "Toplantıya katılıyordu", "Müşterilerle görüşüyordu"]),
+            ("Yeni kural neydi?", ["Her gün plan hazırlayıp akşam kontrol etmek", "Maaş kesmek", "Daha uzun çalışmak", "Telefon yasaklamak"]),
+            ("Plana uyulmaması hâlinde ne olacaktı?", ["Yöneticiyle görüşülecekti", "İşten çıkarılacaktı", "Maaş artacaktı", "Hiçbir şey olmayacaktı"]),
+            ("Bir ay sonra ne oldu?", ["İşler zamanında teslim edildi", "Şirket kapandı", "Herkes istifa etti", "Hiçbir şey değişmedi"]),
+        ]),
+    listening=([
+        ("Yönetici", "Raporu neden hâlâ teslim etmedin?"),
+        ("Çalışan", "Üzgünüm. Rapor yazacağıma müşteri toplantısına hazırlandım."),
+        ("Yönetici", "Son tarihi kaçırman hâlinde ceza uygulanacağını biliyorsun."),
+        ("Çalışan", "Biliyorum. Hemen bugün bitireceğim."),
+        ("Yönetici", "İşi ertelemek yerine önceliklerini belirle."),
+        ("Çalışan", "Haklısınız. Yarın sabaha kadar masanızda olacak."),
+    ], [
+        ("Xodim nima uchun hisobotni topshirmadi?", ["Mijoz yig'ilishiga tayyorlandi", "Kasal edi", "Ta'tilda edi", "Unutib qo'ydi"]),
+        ("Muddatni o'tkazib yuborsa nima bo'ladi?", ["Jarima qo'llaniladi", "Mukofot beriladi", "Hech narsa", "Ishdan ketadi"]),
+    ]),
+    practice=[
+        ('c', "\"Ishlash o'rniga uxlayapti\" turkchada (tanqid):", ["Çalışacağına uyuyor.", "Çalıştığı için uyuyor.", "Çalışmak için uyuyor.", "Çalışınca uyuyor."]),
+        ('c', "\"Yig'ilishda qatnashish o'rniga uyda qoldi\" turkchada:", ["Toplantıya katılacağı yerde evde kaldı.", "Toplantıya katıldığı için evde kaldı.", "Toplantıya katılınca evde kaldı.", "Toplantıya katılırken evde kaldı."]),
+        ('c', "\"Kechiksa jarima qo'llaniladi\" turkchada:", ["Gecikmesi hâlinde ceza uygulanır.", "Gecikmesine rağmen ceza uygulanır.", "Geciktiği için ceza uygulanır.", "Gecikmişken ceza uygulanır."]),
+        ('o', "\"Yordam berish o'rniga menga to'sqinlik qildi.\" gapini tuzing.", ["Yardım", "edeceğine", "bana", "engel", "oldu."]),
+        ('o', "\"Hisobotni o'z vaqtida topshirdim.\" gapini tuzing.", ["Raporu", "zamanında", "teslim", "ettim."]),
+        ('c', "\"Samarali\" turkchada:", ["verimli", "plan", "görev", "kesinti"]),
+    ],
+    writing=("Ish kunlik rejangiz haqida 3 gap yozing.",
+             "Sabahları günlük planımı hazırlarım. Önemli işleri öğleden önce bitiririm. Akşamları işlerimi kontrol ederim."),
+    speaking=["Çalışacağına uyuyor.", "Zaman yönetimi başarının anahtarıdır.", "Gecikmesi hâlinde ceza uygulanır.", "İşi ertelemek iyi değildir."],
+    test=[
+        ("-AcAğInA qanday ohangni ifodalaydi?", ["tanqid yoki ajablanish (...ish o'rniga)", "minnatdorchilik", "so'roq", "shart"]),
+        ("-AcAğI yerde qanday ma'noni bildiradi?", ["...ish o'rniga", "...ish sababli", "...ishgacha", "...ishdan keyin"]),
+        ("-mAsI hâlinde qanday ma'noni bildiradi?", ["...bo'lsa (shart)", "...ganda (payt)", "...ganiga qaramay", "...ish o'rniga"]),
+        ("\"Gecikmesi hâlinde\" ma'nosi:", ["kechiksa", "kechikkani uchun", "kechikmasdan", "kechikdi"]),
+        ("\"Verimli\" so'zi:", ["samarali", "sust", "g'azabli", "uzoq"]),
+        ("\"Son tarih\" nima?", ["oxirgi muddat", "sana", "tarix", "ta'til"]),
+        ("\"Teslim etmek\" nima degani?", ["topshirmoq", "olmoq", "yo'qotmoq", "sotmoq"]),
+        ("\"Ertelemek\" nima degani?", ["kechiktirmoq", "tezlatmoq", "boshlamoq", "tugatmoq"]),
+        ("\"İşbirliği\" so'zi:", ["hamkorlik", "raqobat", "ish vaqti", "ish o'rni"]),
+        ("\"Kesinti\" so'zi:", ["ushlab qolish", "mukofot", "ta'til", "maosh"]),
+    ],
+    bank=[
+        ("\"Yardım edeceğine engel oldu\" ma'nosi:", ["Yordam berish o'rniga to'sqinlik qildi.", "Yordam berganda to'sqinlik qildi.", "Yordam bergan bo'lsa ham.", "Yordam berdi."]),
+        ("\"Sorunu çözeceği yerde büyüttü\" ma'nosi:", ["Muammoni hal qilish o'rniga kattalashtirdi.", "Muammoni hal qildi.", "Muammo yo'q.", "Muammodan qochdi."]),
+        ("\"Zaman yönetimi\" nima?", ["vaqtni boshqarish", "vaqtni sotish", "soat", "kalendar"]),
+        ("\"Plan\" so'zi:", ["reja", "ish", "usul", "maosh"]),
+        ("\"Görev\" so'zi:", ["vazifa", "tajriba", "yo'l", "maosh"]),
+        ("\"Sorumlu\" so'zi:", ["mas'ul", "ishsiz", "yangi", "begona"]),
+        ("\"İzin almak\" nima degani?", ["ruxsat olmoq", "ruxsat bermoq", "so'ramasdan ketmoq", "kutmoq"]),
+        ("\"Ceza\" so'zi:", ["jarima, jazo", "mukofot", "maosh", "ta'til"]),
+        ("-mAsI durumunda qaysi shaklga yaqin?", ["-mAsI hâlinde", "-DIğI için", "-IncA", "-DIkçA"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Çalışacağına uyuyor.", "Çalışacak yerine uyuyor.", "Çalışmak yerde uyuyor.", "Çalışacağın uyuyor."]),
+        ("\"Öncelik\" so'zi:", ["ustuvorlik", "kechikish", "ta'til", "sovg'a"]),
+        ("\"Raporu teslim etmek\" nima degani?", ["hisobotni topshirmoq", "hisobot yozmoq", "hisobotni yo'qotmoq", "hisobot o'qimoq"]),
+    ],
+)

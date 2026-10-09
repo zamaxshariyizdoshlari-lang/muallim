@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u4b', "B. Su Gibi Aziz Ol! — Suvdek aziz bo'l!", 89, 91,
+    goals=[
+        "-DIkçA va -IncA zarf-fe'llarini farqlash va ishlatish",
+        "Takroriy va ketma-ket ishlarni ifodalash",
+        "Suv va sog'lom hayot haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-DIkçA: ...gan sayin, har safar",
+         "-DIkçA (-dikçe/-dıkça/-dukça/-dükçe, -tikçe...) ish takrorlanishini yoki darajasi o'sib borishini bildiradi: \"...gan sayin, ...ganda doim\".\n\nMisol: \"Suyu içtikçe susuzluğum geçti.\" (Suvni ichgan sayin chanqog'im qondi.) \"Bu şarkıyı dinledikçe annemi hatırlarım.\" (Bu qo'shiqni tinglagan sayin onamni eslayman.) \"Yedikçe acıkıyorum.\" (Yegan sayin ochaman.)"),
+        ("-IncA: ...ganda, ...gach",
+         "-IncA (-ince/-ınca/-unca/-ünce) fe'l o'zagiga qo'shilib, ish bajarilgan paytni yoki undan keyin ketma-ket boshqa ish bo'lishini bildiradi: \"...ganda, ...gach\".\n\nMisol: \"Çorba soğuyunca iç.\" (Sho'rva sovigach ich.) \"Eve gelince seni ararım.\" (Uyga kelganimda senga qo'ng'iroq qilaman.) \"Annem görünce ağladı.\" (Onam ko'rgach yig'ladi.)"),
+        ("Farqi va eslatma",
+         "-DIkçA takrorlanishni bildiradi (har safar, har gal), -IncA esa bir martalik payt yoki ketma-ketlikni. -IncA odatda egasi bosh gap egasi bilan bir xil bo'ladi.\n\nSolishtiring: \"Su içtikçe rahatlarım.\" (har gal ichganda) va \"Su içince rahatladım.\" (ichgach, bir marta). Ikkala shakl ham -DIğI zaman, -DIğIndA ga ma'nosi yaqin, lekin ixchamroq."),
+    ],
+    facts=[
+        "-DIkçA = ...gan sayin, har gal: yedikçe, dinledikçe.",
+        "-IncA = ...ganda/...gach (bir martalik): gelince, soğuyunca.",
+        "-DIkçA — takror/darajali o'sish; -IncA — bir martalik payt.",
+    ],
+    vocab=[
+        ("su", "suv", "Su hayattır.", "Suv — hayot."),
+        ("susuzluk", "chanqoqlik, suvsizlik", "Sıcakta susuzluk çabuk hissedilir.", "Issiqda chanqoqlik tez seziladi."),
+        ("içmek", "ichmoq", "Günde iki litre su içmek gerekir.", "Kuniga ikki litr suv ichish kerak."),
+        ("kaynak", "manba, buloq", "Dağdaki kaynaktan su içtik.", "Tog'dagi buloqdan suv ichdik."),
+        ("temiz", "toza", "Temiz su en önemli ihtiyaçtır.", "Toza suv eng muhim ehtiyoj."),
+        ("sağlıklı", "sog'lom", "Sağlıklı beslenmek için bol su iç.", "Sog'lom ovqatlanish uchun ko'p suv ich."),
+        ("tasarruf", "tejamkorlik", "Su tasarrufu yapmak hepimizin görevi.", "Suvni tejash — barchamizning burchimiz."),
+        ("israf etmek", "isrof qilmoq", "Musluğu açık bırakıp suyu israf etme.", "Jo'mrakni ochiq qoldirib suvni isrof qilma."),
+        ("musluk", "jo'mrak", "Musluğu kapatmayı unutma.", "Jo'mrakni yopishni unutma."),
+        ("damla", "tomchi", "Bir damla su bile değerlidir.", "Bir tomchi suv ham qadrlidir."),
+        ("nehir", "daryo", "Nehir kenarında yürüyüş yaptık.", "Daryo bo'yida sayr qildik."),
+        ("göl", "ko'l", "Gölün suyu çok berrak.", "Ko'lning suvi juda tiniq."),
+    ],
+    reading=("Su gibi aziz ol",
+        "Yaşlı bir adam her sabah köyün kaynağına gider, ağır bidonlarla su taşırdı. Çocuklar ona neden asansör gibi bir cihaz kullanmadığını sorduklarında, o her seferinde aynı şeyi söylerdi: \"Suyu taşıdıkça kıymetini daha iyi anlıyorum.\"\n\nBir yaz kuraklık oldu. Kaynak azaldıkça herkes suyu israf etmemeye çalıştı. Musluklar kapatıldı, bahçelere akşamları su verildi. Çocuklar yaşlı adama yardım edince, onun neden su gibi aziz olmak gerektiğini anlattığını fark ettiler.\n\nSonbaharda yağmurlar yağınca kaynak yeniden doldu. Yaşlı adam gülümsedi ve şöyle dedi: \"Su, kıymeti bilinince çoğalır.\" Köydeki herkes bu sözü bir daha unutmadı.",
+        [
+            ("Yaşlı adam her sabah ne yapardı?", ["Kaynaktan su taşırdı", "Bahçe sulardı", "Balık tutardı", "Kitap okurdu"]),
+            ("Adam suyun kıymetini nasıl anladığını söyledi?", ["Suyu taşıdıkça", "Su içince", "Kitap okuyunca", "Yağmur yağınca"]),
+            ("Kuraklıkta köylüler ne yaptı?", ["Suyu israf etmemeye çalıştılar", "Köyü terk ettiler", "Su sattılar", "Hiçbir şey yapmadılar"]),
+            ("Sonbaharda ne oldu?", ["Yağmurlar yağınca kaynak doldu", "Kaynak kurudu", "Köy boşaldı", "Yaşlı adam öldü"]),
+            ("Yaşlı adamın sözü ne anlatıyor?", ["Kıymeti bilinen şey çoğalır", "Su pahalıdır", "Yağmur her zaman yağar", "Çocuklar yardım etmeli"]),
+        ]),
+    listening=([
+        ("Baba", "Musluğu kapatmayı unutma. Her damla değerli."),
+        ("Çocuk", "Tamam baba. Ama dişlerimi fırçalarken su akıyor."),
+        ("Baba", "Fırçalarken suyu kapat. Su tasarruf ettikçe ödeyeceğimiz para da azalır."),
+        ("Çocuk", "Peki ben yaz boyunca bahçeye su vereyim mi?"),
+        ("Baba", "Evet, akşam serinleyince ver. Güneşte su çabuk buharlaşır."),
+        ("Çocuk", "Anladım, akşam olunca sularım."),
+    ], [
+        ("Dadam nimani unutmaslikni aytyapti?", ["Jo'mrakni yopishni", "Eshikni yopishni", "Chiroqni o'chirishni", "Kitob olishni"]),
+        ("Bog'ni qachon sug'orish tavsiya etiladi?", ["Kechqurun, salqin tushganda", "Tush paytida", "Ertalab erta", "Kechasi"]),
+    ]),
+    practice=[
+        ('c', "\"Suvni ichgan sayin chanqog'im qondi\" turkchada:", ["Suyu içtikçe susuzluğum geçti.", "Suyu içince susuzluğum geçecek.", "Suyu içmiş susuzluğum geçti.", "Suyu içer susuzluğum geçti."]),
+        ('c', "\"Uyga kelganimda qo'ng'iroq qilaman\" turkchada:", ["Eve gelince ararım.", "Eve gelmedikçe ararım.", "Eve gelmişken ararım.", "Eve geldikçe ararım."]),
+        ('c', "\"Sho'rva sovigach ich\" turkchada:", ["Çorba soğuyunca iç.", "Çorba soğudukça iç.", "Çorba soğumadan iç.", "Çorba soğukça iç."]),
+        ('o', "\"Bu qo'shiqni tinglagan sayin onamni eslayman.\" gapini tuzing.", ["Bu", "şarkıyı", "dinledikçe", "annemi", "hatırlarım."]),
+        ('o', "\"Jo'mrakni yopishni unutma.\" gapini tuzing.", ["Musluğu", "kapatmayı", "unutma."]),
+        ('c', "\"Tejamkorlik\" turkchada:", ["tasarruf", "israf", "damla", "kaynak"]),
+    ],
+    writing=("Suvni tejash bo'yicha 3 ta maslahat yozing.",
+             "Dişlerini fırçalarken musluğu kapat. Bahçeyi akşamları sula. Sızıntıları hemen tamir ettir."),
+    speaking=["Suyu içtikçe susuzluğum geçti.", "Eve gelince seni ararım.", "Su hayattır.", "Bir damla su bile değerlidir."],
+    test=[
+        ("-DIkçA qanday ma'noni bildiradi?", ["...gan sayin, har gal", "...ganda (bir marta)", "...masdan", "...gunga qadar"]),
+        ("-IncA qanday ma'noni bildiradi?", ["...ganda, ...gach", "...gan sayin", "...masdan", "...gani uchun"]),
+        ("\"Yedikçe acıkıyorum\" ma'nosi:", ["Yegan sayin ochaman.", "Yedim, ochman.", "Yemadim.", "Yesam ham och emasman."]),
+        ("\"Çorba soğuyunca iç\" ma'nosi:", ["Sho'rva sovigach ich.", "Sho'rva sovigan sayin ich.", "Sho'rva sovimaguncha ich.", "Sho'rva sovidi."]),
+        ("\"Su içtikçe rahatlarım\" qaysi vaziyatni bildiradi?", ["har gal ichganda", "bir marta", "kelasi zamon", "inkor"]),
+        ("\"Musluk\" so'zi:", ["jo'mrak", "idish", "quvur", "kosa"]),
+        ("\"Israf etmek\" nima degani?", ["isrof qilmoq", "tejamoq", "sotmoq", "ichmoq"]),
+        ("\"Damla\" so'zining ma'nosi:", ["tomchi", "ko'l", "daryo", "buloq"]),
+        ("\"Kaynak\" so'zi:", ["manba, buloq", "qaynoq", "ko'l", "kosa"]),
+        ("\"Tasarruf\" so'zi:", ["tejamkorlik", "isrof", "pul", "tovar"]),
+    ],
+    bank=[
+        ("\"Eve gelince seni ararım\" ma'nosi:", ["Uyga kelganimda senga qo'ng'iroq qilaman.", "Uydan ketdim.", "Uyda yo'qman.", "Senga qo'ng'iroq qilmayman."]),
+        ("\"Annem görünce ağladı\" ma'nosi:", ["Onam ko'rgach yig'ladi.", "Onam ko'rmay yig'ladi.", "Onam yig'lamaydi.", "Onam kulib turdi."]),
+        ("\"Bu kitabı okudukça ...\" ma'nosi:", ["Bu kitobni o'qigan sayin ...", "Bu kitobni o'qimay ...", "Bu kitobni o'qib bo'lgach ...", "Bu kitobni o'qimaguncha ..."]),
+        ("\"Temiz\" so'zi:", ["toza", "iflos", "eski", "yangi"]),
+        ("\"Sağlıklı\" so'zi:", ["sog'lom", "kasal", "yosh", "yomon"]),
+        ("\"Nehir\" so'zi:", ["daryo", "ko'l", "dengiz", "buloq"]),
+        ("\"Göl\" so'zi:", ["ko'l", "daryo", "okean", "kanal"]),
+        ("\"Susuzluk\" so'zi:", ["chanqoqlik, suvsizlik", "to'qlik", "suv", "yomg'ir"]),
+        ("-DIkçA qaysi so'z bilan almashishi mumkin?", ["her ...-diğinde", "...-meden", "...-dikten sonra", "...-ene kadar"]),
+        ("\"Çalıştıkça başarılı oluyorum\" ma'nosi:", ["Ishlagan sayin muvaffaqiyatli bo'layapman.", "Ishlamay muvaffaqiyatliman.", "Ishlagach to'xtadim.", "Ishlamaguncha kutdim."]),
+        ("\"Su gibi aziz ol\" nima degani?", ["Suvdek qadrli bo'l", "Suvdek ich", "Suvga bor", "Suvdan qo'rq"]),
+        ("\"Tasarruf etmek\" nima degani?", ["tejamoq", "isrof qilmoq", "sotmoq", "boshlamoq"]),
+    ],
+)

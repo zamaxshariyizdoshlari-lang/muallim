@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u5c', "C. Hangi Sanattan Hoşlanırsınız? — Qaysi san'atni yoqtirasiz?", 112, 118,
+    goals=[
+        "-AcAğI için va -AcAğIndAn zarf-fe'llarini ishlatish",
+        "Maqsad va kelajakdagi sababni ifodalash",
+        "San'at turlari va madaniyat haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-AcAğI için: kelajakdagi sabab",
+         "Fe'l o'zagi + -AcAk + egalik + için kelajakdagi ish tufayli bo'lgan hozirgi harakatni bildiradi: \"...ajak bo'lgani uchun\".\n\nMisol: \"Yarın sınav olacağı için erken yattı.\" (Ertaga imtihon bo'lishi sababli erta yotdi.) \"Konser başlayacağı için herkes salona girdi.\" (Konsert boshlanadigan bo'lgani uchun hamma zalga kirdi.)"),
+        ("-AcAğIndAn: rasmiyroq shakli",
+         "-AcAğIndAn ham shu ma'noni beradi, lekin rasmiy yozma tilda ishlatiladi.\n\nMisol: \"Sergi hafta sonu açılacağından hazırlıklar hızlandırıldı.\" (Ko'rgazma dam olish kunlari ochiladigan bo'lgani sababli tayyorgarliklar tezlashtirildi.)\nMisol: \"Hava soğuyacağından kalın giyinmeliyiz.\" (Havo sovuydigan bo'lgani uchun qalin kiyinishimiz kerak.)"),
+        ("Solishtirish",
+         "Hozirgi sabab uchun -DIğI için, kelajakdagi sabab uchun -AcAğI için ishlatiladi: \"Yağmur yağdığı için eve gittik.\" (yog'gani uchun) va \"Yağmur yağacağı için eve gittik.\" (yog'adigan bo'lgani uchun). Ikkala holatda ham bosh gap ishi allaqachon bajarilgan bo'lishi mumkin; farq sabab ish zamonida."),
+    ],
+    facts=[
+        "-AcAğI için = ...adigan bo'lgani uchun (kelajak sabab).",
+        "-AcAğIndAn = rasmiy yozma shakl.",
+        "-DIğI için (o'tgan/hozirgi sabab) va -AcAğI için (kelasi sabab) farqi.",
+    ],
+    vocab=[
+        ("sanat", "san'at", "Sanat insanın ruhunu zenginleştirir.", "San'at insonning ruhini boyitadi."),
+        ("müzik", "musiqa", "Klasik müzik dinlemek beni rahatlatır.", "Klassik musiqa tinglash meni xotirjam qiladi."),
+        ("resim", "rasm (chizilgan)", "Resim sergisine gittik.", "Rasm ko'rgazmasiga bordik."),
+        ("heykel", "haykal", "Meydanda büyük bir heykel var.", "Maydonda katta haykal bor."),
+        ("tiyatro", "teatr", "Haftaya tiyatroya gideceğiz.", "Kelasi hafta teatrga boramiz."),
+        ("sinema", "kino", "Sinemada yeni bir film oynuyor.", "Kinoda yangi film namoyish etilyapti."),
+        ("sergi", "ko'rgazma", "Sergi pazartesi günü kapalı.", "Ko'rgazma dushanba kuni yopiq."),
+        ("sanatçı", "san'atkor", "Sanatçı yeni eserini tanıttı.", "San'atkor yangi asarini taqdim etdi."),
+        ("eser", "asar", "Bu eser yüz yıl önce yapılmış.", "Bu asar yuz yil oldin yaratilgan."),
+        ("konser", "konsert", "Konser için bilet aldım.", "Konsertga chipta oldim."),
+        ("izlemek", "tomosha qilmoq", "Akşam yeni bir tiyatro oyunu izleyeceğiz.", "Kechqurun yangi teatr spektaklini tomosha qilamiz."),
+        ("hoşlanmak", "yoqtirmoq", "Resim yapmaktan çok hoşlanıyorum.", "Rasm chizishni juda yoqtiraman."),
+    ],
+    reading=("Sanat bizi nasıl değiştirir?",
+        "Zeynep küçüklüğünden beri resimden hoşlanırdı. Okulda sanat dersi olduğu için her hafta merakla beklerdi. Bir gün öğretmeni, şehirde büyük bir sergi açılacağını duyurdu. Zeynep sergiye gidebilmek için harçlığını biriktirmeye başladı.\n\nSergi günü geldiğinde heyecandan uyuyamamıştı. Salona girdiğinde duvarlardaki resimlere uzun uzun baktı. Ünlü bir sanatçının eserlerinden biri onu çok etkiledi: Karanlık bir sokakta yanan tek bir lamba. Zeynep, resmin umudu anlattığını düşündü.\n\nEve dönünce kendi resimlerini yeniden çizmeye karar verdi. Birkaç yıl sonra kendi sergisini açtı. Zeynep her röportajda şunu tekrarlıyor: \"Sanat, görmediğimiz şeyleri bize göstermek için vardır.\"",
+        [
+            ("Zeynep neden okulda her hafta merakla beklerdi?", ["Sanat dersi olduğu için", "Tatil olduğu için", "Müzik dinlediği için", "Spor yaptığı için"]),
+            ("Zeynep sergiye gitmek için ne yaptı?", ["Harçlığını biriktirdi", "İşe girdi", "Arkadaşından borç aldı", "Hiçbir şey yapmadı"]),
+            ("Sergide onu en çok ne etkiledi?", ["Karanlık sokakta yanan tek lamba resmi", "Büyük bir heykel", "Bir müzik grubu", "Bir film"]),
+            ("Zeynep eve dönünce ne yapmaya karar verdi?", ["Kendi resimlerini yeniden çizmeye", "Sanatı bırakmaya", "Heykel yapmaya", "Müzik öğrenmeye"]),
+            ("Zeynep sanat hakkında ne diyor?", ["Görmediğimiz şeyleri göstermek için vardır", "Sadece eğlence içindir", "Para kazanmak içindir", "Yalnızca zenginlere aittir"]),
+        ]),
+    listening=([
+        ("Ayça", "Hafta sonu konsere gidecek misin?"),
+        ("Tolga", "Evet, bilet aldım. Konser cumartesi başlayacağı için o gün erken çıkacağım."),
+        ("Ayça", "Hangi sanatçı çalacak?"),
+        ("Tolga", "Genç bir piyanist. Sergiye de uğrayacağız çünkü yanında bir resim sergisi var."),
+        ("Ayça", "Harika! Ben de gelmek isterim ama ders çalışmam gerekiyor."),
+        ("Tolga", "Sınavın yaklaştığı için anlıyorum. Başarılar!"),
+    ], [
+        ("Tolga konsertga nega erta chiqadi?", ["Konsert shanba kuni boshlanadigan bo'lgani uchun", "Kasal bo'lgani uchun", "Ishi bor", "Yo'l uzoq"]),
+        ("Ayça nega bora olmaydi?", ["Dars tayyorlashi kerak", "Biletsiz", "Kasal", "Safarda"]),
+    ]),
+    practice=[
+        ('c', "\"Ertaga imtihon bo'lishi sababli erta yotdi\" turkchada:", ["Yarın sınav olacağı için erken yattı.", "Yarın sınav olduğu için erken yattı.", "Yarın sınav olmak için erken yattı.", "Yarın sınav olsa erken yattı."]),
+        ('c', "\"Konsert boshlanadigan bo'lgani uchun\" turkchada:", ["Konser başlayacağı için", "Konser başladığı için", "Konser başlamış için", "Konser başlayınca için"]),
+        ('c', "\"Havo sovuydigan bo'lgani uchun\" turkchada:", ["Hava soğuyacağından", "Hava soğuduğundan", "Hava soğurken", "Hava soğuyunca"]),
+        ('o', "\"Ko'rgazma ertaga ochiladigan bo'lgani uchun hozir tayyorgarlik ko'ryapman.\" gapini tuzing.", ["Sergi", "yarın", "açılacağı", "için", "hazırlanıyorum."]),
+        ('o', "\"Men rasm chizishni yoqtiraman.\" gapini tuzing.", ["Resim", "yapmaktan", "hoşlanıyorum."]),
+        ('c', "\"Haykal\" turkchada:", ["heykel", "resim", "eser", "sergi"]),
+    ],
+    writing=("Qaysi san'at turini yoqtirasiz va nega? 3 gapda yozing.",
+             "Müzikten çok hoşlanıyorum. Müzik beni rahatlattığı için her gün dinlerim. Haftaya bir konsere gideceğim."),
+    speaking=["Yarın sınav olacağı için erken yattı.", "Resim yapmaktan çok hoşlanıyorum.", "Sanat insanın ruhunu zenginleştirir.", "Konser için bilet aldım."],
+    test=[
+        ("-AcAğI için qaysi sababni bildiradi?", ["kelajakdagi sabab", "o'tgan sabab", "odatiy sabab", "taxminiy sabab"]),
+        ("\"Yarın sınav olacağı için erken yattı\" ma'nosi:", ["Ertaga imtihon bo'lishi sababli erta yotdi.", "Kecha imtihon bo'lgani uchun erta yotdi.", "Imtihonda uxladi.", "Imtihondan keyin yotdi."]),
+        ("-AcAğIndAn qaysi uslubga xos?", ["rasmiy yozma", "bolalar nutqi", "so'zlashuv", "she'riy"]),
+        ("\"Yağmur yağacağı için\" ma'nosi:", ["yomg'ir yog'adigan bo'lgani uchun", "yomg'ir yog'gani uchun", "yomg'ir yog'maydi", "yomg'ir yog'sin"]),
+        ("\"Sergi\" so'zi:", ["ko'rgazma", "konsert", "kino", "teatr"]),
+        ("\"Eser\" so'zi:", ["asar", "ish", "ko'z", "mashq"]),
+        ("\"Tiyatro\" so'zi:", ["teatr", "kino", "qo'shiq", "rasm"]),
+        ("\"Hoşlanmak\" nima degani?", ["yoqtirmoq", "nafratlanmoq", "kutmoq", "o'ylamoq"]),
+        ("\"Sanatçı\" kim?", ["san'atkor", "xaridor", "yozuvchi emas", "o'quvchi"]),
+        ("\"İzlemek\" nima degani?", ["tomosha qilmoq", "qidirmoq", "yozmoq", "sotmoq"]),
+    ],
+    bank=[
+        ("\"Hava soğuyacağından kalın giyinmeliyiz\" ma'nosi:", ["Havo sovuydigan bo'lgani uchun qalin kiyinishimiz kerak.", "Havo sovuq, shuning uchun kiymaymiz.", "Qalin kiyinmaymiz.", "Havo issiq."]),
+        ("\"Konser\" so'zi:", ["konsert", "ko'rgazma", "spektakl", "film"]),
+        ("\"Heykel\" so'zi:", ["haykal", "rasm", "asar", "bog'"]),
+        ("\"Müzik\" so'zi:", ["musiqa", "she'r", "rasm", "ertak"]),
+        ("\"Resim\" so'zi:", ["rasm", "haykal", "teatr", "musiqa"]),
+        ("-AcAğI için qaysi ko'makchi bilan almashadi?", ["-AcAğIndAn", "-DIğIndAn", "-IncA", "-mAdAn"]),
+        ("\"Sinema\" so'zi:", ["kino", "teatr", "konsert", "rasm"]),
+        ("\"Zenginleştirmek\" nima degani?", ["boyitmoq", "kambag'allashtirmoq", "yig'moq", "yo'qotmoq"]),
+        ("Qaysi gap grammatik to'g'ri?", ["Yarın toplantı olacağı için hazırlandım.", "Yarın toplantı olmuş için hazırlandım.", "Yarın toplantı olarak için hazırlandım.", "Yarın toplantı olursa için hazırlandım."]),
+        ("\"Harçlık\" so'zi:", ["cho'ntak puli", "maosh", "soliq", "stipendiya"]),
+        ("\"Etkilemek\" nima degani?", ["ta'sir qilmoq", "to'smoq", "tushunmoq", "kutmoq"]),
+        ("\"Duyurmak\" nima degani?", ["e'lon qilmoq", "eshitmoq", "yashirmoq", "o'rgatmoq"]),
+    ],
+)

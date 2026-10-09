@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dsl import topic
+
+TOPIC = topic(
+    'u5a', "A. Nerede Yaşamak İstersiniz? — Qayerda yashashni xohlaysiz?", 102, 107,
+    goals=[
+        "Zaruriyat kipining (-mAlI) dolaylı anlatımini (-mAsI gerektiğini) tuzish",
+        "Shaxsga qarab egalik qo'shimchasini to'g'ri qo'yish",
+        "Shahar va qishloq hayoti haqidagi lug'atni qo'llash",
+    ],
+    blocks=[
+        ("-mAlI → -mAsI gerektiğini",
+         "Zaruriyat kipi (-mAlI) dolaylı gapda \"-mAsI gerektiğini söyledi\" shaklini oladi. Egalik qo'shimchasi ish bajaruvchi shaxsga mos qo'yiladi.\n\nMisol: Ali: \"Ben şehirde yaşamalıyım.\" → \"Ali şehirde yaşaması gerektiğini söyledi.\" (Ali shaharda yashashi kerakligini aytdi.)\nMisol: Ali: \"Sen daha çok çalışmalısın.\" → \"Ali daha çok çalışmam gerektiğini söyledi.\" (Ali ko'proq ishlashim kerakligini aytdi.)"),
+        ("Shaxs bo'yicha o'zgarish",
+         "To'g'ri gapdagi shaxs dolaylı gapda so'zlovchiga nisbatan o'zgaradi: ben → o (-mAsI), sen → ben (-mAm), biz → onlar (-mAlArI), siz → biz/men (-mAmIz).\n\nMisol: \"Biz köye taşınmalıyız.\" → \"Köye taşınmaları gerektiğini söylediler.\" (Qishloqqa ko'chishlari kerakligini aytishdi.) Inkor shakli: \"Gitmemeliyim.\" → \"Gitmemesi gerektiğini söyledi.\" (Bormasligi kerakligini aytdi.)"),
+        ("Gerek, lazım bilan",
+         "Zaruriyatni dolaylı gapda \"gerek\" va \"lazım\" so'zlari ham bildiradi: \"Daha sessiz bir yer bulmam gerekiyor.\" (Ko'proq sokin joy topishim kerak.) \"Köyde yaşamak için araba lazım olduğunu söyledi.\" (Qishloqda yashash uchun mashina kerakligini aytdi.) Ikkala holatda ham ma'no \"kerak, zarur\"."),
+    ],
+    facts=[
+        "-mAlI → -mAsI gerektiğini söyledi (yaşaması gerektiğini).",
+        "Shaxs o'zgaradi: sen → ben (çalışmam), ben → o (çalışması).",
+        "Inkori: -mAmAsI gerektiğini (gitmemesi gerektiğini).",
+    ],
+    vocab=[
+        ("şehir", "shahar", "Büyük bir şehirde yaşamak heyecan verici.", "Katta shaharda yashash hayajonli."),
+        ("köy", "qishloq", "Köyde hava çok temiz.", "Qishloqda havo juda toza."),
+        ("kasaba", "shaharcha", "Küçük bir kasabada sakin bir hayat yaşıyorum.", "Kichik shaharchada sokin hayot kechiryapman."),
+        ("sakin", "sokin, tinch", "Sakin bir mahallede oturuyoruz.", "Tinch mahallada turamiz."),
+        ("kalabalık", "gavjum", "Şehir merkezi çok kalabalık.", "Shahar markazi juda gavjum."),
+        ("ulaşım", "transport, qatnov", "Büyük şehirde ulaşım kolay.", "Katta shaharda qatnov oson."),
+        ("trafik", "tirbandlik", "Sabahları trafik çok yoğun.", "Ertalablari tirbandlik juda zich."),
+        ("doğa", "tabiat", "Doğayla iç içe yaşamak istiyorum.", "Tabiat bag'rida yashashni xohlayman."),
+        ("kira", "ijara", "Şehirde kira çok pahalı.", "Shaharda ijara juda qimmat."),
+        ("imkân", "imkoniyat", "Şehirde iş imkânları daha fazla.", "Shaharda ish imkoniyatlari ko'proq."),
+        ("huzur", "tinchlik, xotirjamlik", "Köyde huzur buluyorum.", "Qishloqda xotirjamlik topaman."),
+        ("alışmak", "o'rganib qolmoq", "Yeni şehre kolay alışamadım.", "Yangi shaharga oson o'rganib keta olmadim."),
+    ],
+    reading=("Şehir mi, köy mü?",
+        "Elif ile Burak üniversiteyi bitirdikten sonra nerede yaşayacaklarını tartışıyorlardı. Elif, kendi mesleği için büyük şehirde yaşaması gerektiğini söylüyordu; çünkü orada iş imkânları, müzeler ve kültürel etkinlikler daha çoktu. Burak ise doğaya yakın, sakin bir yerde yaşamak istiyordu.\n\nBurak şunu anlattı: \"Şehirde trafik yüzünden her gün iki saatimi yolda geçiriyorum. Kira da çok pahalı. Ben köye taşınmamız gerektiğini düşünüyorum.\" Elif ise onun uzaktan çalışabileceğini hatırlattı. Burak biraz düşündü ve bir şehir yakınında küçük bir kasaba önerdi.\n\nSonunda ikisi de memnun kaldı. Hem iş imkânlarına yakın, hem de huzurlu bir kasabaya taşındılar. Elif şöyle dedi: \"Mükemmel yer yok. Önemli olan ihtiyaçlarını dengeleyebilmek.\"",
+        [
+            ("Elif neden büyük şehirde yaşaması gerektiğini söylüyordu?", ["Mesleği için iş ve kültür imkânları yüzünden", "Ailesi orada olduğu için", "Kira ucuz olduğu için", "Doğayı sevmediği için"]),
+            ("Burak nasıl bir yerde yaşamak istiyordu?", ["Doğaya yakın ve sakin bir yerde", "Kalabalık bir şehirde", "Yurt dışında", "Dağ başında"]),
+            ("Burak şehirdeki hangi sorundan şikâyet ediyordu?", ["Trafik ve pahalı kira", "Gürültülü komşular", "Kötü hava", "Az iş"]),
+            ("Sonunda nereye taşındılar?", ["Şehir yakınında huzurlu bir kasabaya", "Büyük şehre", "Dağ köyüne", "Yurt dışına"]),
+            ("Elif'in vardığı sonuç nedir?", ["Mükemmel yer yok, önemli olan ihtiyaçları dengelemek", "Şehir her zaman iyidir", "Köy her zaman iyidir", "Taşınmak gereksizdir"]),
+        ]),
+    listening=([
+        ("Gamze", "Annem şehir merkezine taşınmam gerektiğini söyledi."),
+        ("Onur", "Neden? Şimdiki evin yeterince güzel değil mi?"),
+        ("Gamze", "Güzel ama işyerime uzak. Her sabah trafikte bekliyorum."),
+        ("Onur", "Merkezde kira çok pahalı olmalı."),
+        ("Gamze", "Evet, ama ulaşım rahat. Taşınmamın doğru olacağını düşünüyorum."),
+        ("Onur", "O zaman fırsatı kaçırma. Ben de yardıma gelirim."),
+    ], [
+        ("Gamze nima uchun ko'chib o'tmoqchi?", ["Ishxonasi uzoq va tirbandlik bor", "Uy qimmat", "Qo'shnilar yomon", "Oilasi shunday istagan"]),
+        ("Merkezning qanday afzalligi bor?", ["Qatnov qulay", "Kira arzon", "Tinch", "Bog'i bor"]),
+    ]),
+    practice=[
+        ('c', "\"Ali: Men shaharda yashashim kerak\" — dolaylı:", ["Ali şehirde yaşaması gerektiğini söyledi.", "Ali şehirde yaşadığını söyledi.", "Ali şehirde yaşayacağını söyledi.", "Ali şehirde yaşasın dedi."]),
+        ('c', "\"Sen ko'proq ishlashing kerak\" — dolaylı (menga aytdi):", ["Daha çok çalışmam gerektiğini söyledi.", "Daha çok çalışması gerektiğini söyledi.", "Daha çok çalıştığımı söyledi.", "Daha çok çalışayım dedi."]),
+        ('c', "\"Bormasligi kerak\" — dolaylı:", ["Gitmemesi gerektiğini söyledi.", "Gitmediğini söyledi.", "Gitmeyeceğini söyledi.", "Gitmesin söyledi."]),
+        ('o', "\"Ular qishloqqa ko'chishlari kerakligini aytishdi.\" gapini tuzing.", ["Köye", "taşınmaları", "gerektiğini", "söylediler."]),
+        ('o', "\"Shaharda ijara juda qimmat.\" gapini tuzing.", ["Şehirde", "kira", "çok", "pahalı."]),
+        ('c', "\"Tirbandlik\" turkchada:", ["trafik", "ulaşım", "kalabalık", "kasaba"]),
+    ],
+    writing=("Qayerda yashashni xohlaysiz — shaharda yoki qishloqda? 3 gapda sababini yozing.",
+             "Şehirde yaşamak istiyorum. Çünkü iş imkânları daha fazla. Ulaşım da kolay."),
+    speaking=["Şehirde yaşaması gerektiğini söyledi.", "Doğayla iç içe yaşamak istiyorum.", "Köyde huzur buluyorum.", "Şehirde kira çok pahalı."],
+    test=[
+        ("-mAlI dolaylıda qanday shaklga o'tadi?", ["-mAsI gerektiğini", "-DIğInI", "-AcAğInI", "-mAktA olduğunu"]),
+        ("\"Çalışmalıyım\" → dolaylıda (u):", ["çalışması gerektiğini", "çalıştığını", "çalışacağını", "çalışsın"]),
+        ("\"Sen gelmelisin\" → dolaylı (menga):", ["Gelmem gerektiğini söyledi.", "Gelmesi gerektiğini söyledi.", "Geldiğimi söyledi.", "Gelsin dedi."]),
+        ("\"Gitmemeliyim\" → dolaylı:", ["Gitmemesi gerektiğini söyledi.", "Gitmediğini söyledi.", "Gitmek istedi.", "Gitmişti."]),
+        ("\"Kasaba\" so'zi:", ["shaharcha", "qishloq", "poytaxt", "mahalla"]),
+        ("\"Sakin\" so'zining ma'nosi:", ["sokin, tinch", "gavjum", "tez", "baland"]),
+        ("\"Kalabalık\" so'zi:", ["gavjum", "bo'sh", "tinch", "keng"]),
+        ("\"Ulaşım\" so'zi:", ["transport, qatnov", "ish", "ijara", "uy"]),
+        ("\"Huzur\" so'zi:", ["tinchlik", "shovqin", "g'azab", "g'am"]),
+        ("\"Alışmak\" nima degani?", ["o'rganib qolmoq", "ketmoq", "sotmoq", "ochmoq"]),
+    ],
+    bank=[
+        ("\"Biz taşınmalıyız\" → dolaylı:", ["Taşınmaları gerektiğini söylediler.", "Taşındıklarını söylediler.", "Taşınacaklarını söylediler.", "Taşınsın dediler."]),
+        ("\"Daha sessiz bir yer bulmam gerekiyor\" ma'nosi:", ["Ko'proq sokin joy topishim kerak.", "Sokin joy topdim.", "Sokin joy kerak emas.", "Sokin joy topaman."]),
+        ("\"Doğa\" so'zi:", ["tabiat", "shahar", "uy", "ish"]),
+        ("\"Kira\" so'zi:", ["ijara", "soliq", "kredit", "maosh"]),
+        ("\"İmkân\" so'zi:", ["imkoniyat", "mas'uliyat", "ehtiyoj", "talab"]),
+        ("\"Köy\" so'zi:", ["qishloq", "shahar", "mahalla", "tuman"]),
+        ("\"Trafik\" so'zi:", ["tirbandlik", "yo'l belgisi", "transport vositasi", "yo'lovchi"]),
+        ("\"Gerek\" va \"lazım\" nimani bildiradi?", ["zaruriyatni", "taqiqni", "ruxsatni", "so'roqni"]),
+        ("\"Gitmemesi gerekir\" ma'nosi:", ["U bormasligi kerak.", "U bormoqchi.", "U bordi.", "U bormoqda."]),
+        ("\"Sakin bir hayat\" nima degani?", ["tinch hayot", "shovqinli hayot", "qisqa hayot", "yangi hayot"]),
+        ("\"Merkez\" so'zi:", ["markaz", "chekka", "qishloq", "bog'"]),
+        ("\"Taşınmak\" nima degani?", ["ko'chib o'tmoq", "yo'qolmoq", "sotib olmoq", "boshlamoq"]),
+    ],
+)
