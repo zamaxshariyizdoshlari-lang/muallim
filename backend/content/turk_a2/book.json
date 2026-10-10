@@ -113,6 +113,54 @@
         "uz": "o'zgarmoq",
         "example_tr": "Şehir çok değişmiş.",
         "example_uz": "Shahar juda o'zgargan ekan."
+       },
+       {
+        "tr": "hatırlamak",
+        "uz": "esga olmoq",
+        "example_tr": "Çocukluğumu hatırlıyorum.",
+        "example_uz": "Bolaligimni eslayman."
+       },
+       {
+        "tr": "unutmak",
+        "uz": "unutmoq",
+        "example_tr": "Anahtarı evde unutmuşum.",
+        "example_uz": "Kalitni uyda unutibman."
+       },
+       {
+        "tr": "görmek",
+        "uz": "ko'rmoq",
+        "example_tr": "Seni daha önce görmüşüm.",
+        "example_uz": "Seni oldin ko'rgan ekanman."
+       },
+       {
+        "tr": "öğrenmek",
+        "uz": "o'rganmoq, bilib olmoq",
+        "example_tr": "Haberi yeni öğrendim.",
+        "example_uz": "Xabarni endi bildim."
+       },
+       {
+        "tr": "yaşamak",
+        "uz": "yashamoq",
+        "example_tr": "Bu şehirde on yıl yaşamışım.",
+        "example_uz": "Bu shaharda o'n yil yashagan ekanman."
+       },
+       {
+        "tr": "tanışmak",
+        "uz": "tanishmoq",
+        "example_tr": "Onunla bir toplantıda tanıştım.",
+        "example_uz": "U bilan yig'ilishda tanishdim."
+       },
+       {
+        "tr": "yeni",
+        "uz": "yangi",
+        "example_tr": "Yeni bir telefon almışım.",
+        "example_uz": "Yangi telefon olibman."
+       },
+       {
+        "tr": "eski",
+        "uz": "eski",
+        "example_tr": "Eski fotoğraflara baktım.",
+        "example_uz": "Eski suratlarga qaradim."
        }
       ],
       "listening": {
@@ -433,6 +481,60 @@
         "uz": "band (mashg'ul)",
         "example_tr": "Bu hafta çok yoğunum.",
         "example_uz": "Bu hafta juda bandman."
+       },
+       {
+        "tr": "dün",
+        "uz": "kecha",
+        "example_tr": "Dün erken yattım.",
+        "example_uz": "Kecha erta yotdim."
+       },
+       {
+        "tr": "yarın",
+        "uz": "ertaga",
+        "example_tr": "Yarın toplantı var.",
+        "example_uz": "Ertaga yig'ilish bor."
+       },
+       {
+        "tr": "hafta",
+        "uz": "hafta",
+        "example_tr": "Önümüzdeki hafta tatildeyim.",
+        "example_uz": "Kelasi hafta ta'tildaman."
+       },
+       {
+        "tr": "ay",
+        "uz": "oy",
+        "example_tr": "Bu ay çok yoğunum.",
+        "example_uz": "Bu oy juda bandman."
+       },
+       {
+        "tr": "saat",
+        "uz": "soat",
+        "example_tr": "Saat kaç?",
+        "example_uz": "Soat necha?"
+       },
+       {
+        "tr": "dakika",
+        "uz": "daqiqa",
+        "example_tr": "Beş dakika bekle.",
+        "example_uz": "Besh daqiqa kut."
+       },
+       {
+        "tr": "takvim",
+        "uz": "taqvim",
+        "example_tr": "Takvimime not aldım.",
+        "example_uz": "Taqvimimga yozib qo'ydim."
+       },
+       {
+        "tr": "program",
+        "uz": "dastur, reja",
+        "example_tr": "Bugünkü programım dolu.",
+        "example_uz": "Bugungi rejam to'la."
+       },
+       {
+        "tr": "vakit",
+        "uz": "vaqt",
+        "example_tr": "Hiç vaktim yok.",
+        "example_uz": "Umuman vaqtim yo'q."
        }
       ],
       "listening": {
@@ -735,6 +837,66 @@
         "uz": "uyg'onmoq",
         "example_tr": "Sabah uyandım.",
         "example_uz": "Ertalab uyg'ondim."
+       },
+       {
+        "tr": "kalkmak",
+        "uz": "turmoq, jo'namoq",
+        "example_tr": "Her sabah yedide kalkarım.",
+        "example_uz": "Har tong yettida turaman."
+       },
+       {
+        "tr": "yatmak",
+        "uz": "yotmoq",
+        "example_tr": "Geç yatmayı sevmem.",
+        "example_uz": "Kech yotishni yoqtirmayman."
+       },
+       {
+        "tr": "yemek yemek",
+        "uz": "ovqat yemoq",
+        "example_tr": "Yemek yemeden önce ellerini yıka.",
+        "example_uz": "Ovqat yeguncha qo'lingni yuv."
+       },
+       {
+        "tr": "duş almak",
+        "uz": "cho'milmoq",
+        "example_tr": "Yatmadan önce duş aldım.",
+        "example_uz": "Yotishdan oldin cho'mildim."
+       },
+       {
+        "tr": "giyinmek",
+        "uz": "kiyinmoq",
+        "example_tr": "Hızlıca giyindi.",
+        "example_uz": "Tez kiyindi."
+       },
+       {
+        "tr": "soyunmak",
+        "uz": "yechinmoq",
+        "example_tr": "Odasında soyundu.",
+        "example_uz": "Xonasida yechindi."
+       },
+       {
+        "tr": "kapıyı kapatmak",
+        "uz": "eshikni yopmoq",
+        "example_tr": "Çıkmadan kapıyı kapat.",
+        "example_uz": "Chiqishdan oldin eshikni yop."
+       },
+       {
+        "tr": "ışığı söndürmek",
+        "uz": "chiroqni o'chirmoq",
+        "example_tr": "Uyumadan ışığı söndürdüm.",
+        "example_uz": "Uxlashdan oldin chiroqni o'chirdim."
+       },
+       {
+        "tr": "dişini fırçalamak",
+        "uz": "tish yuvmoq",
+        "example_tr": "Her gece dişlerimi fırçalarım.",
+        "example_uz": "Har kecha tishlarimni yuvaman."
+       },
+       {
+        "tr": "yolculuk",
+        "uz": "sayohat, yo'l",
+        "example_tr": "Yolculuktan önce bilet aldım.",
+        "example_uz": "Sayohatdan oldin chipta oldim."
        }
       ],
       "listening": {
@@ -1046,6 +1208,60 @@
         "uz": "tuzalmoq",
         "example_tr": "Çabuk iyileştim.",
         "example_uz": "Tez tuzaldim."
+       },
+       {
+        "tr": "nezle",
+        "uz": "shamollash",
+        "example_tr": "Nezle oldum, burnum akıyor.",
+        "example_uz": "Shamollab qoldim, burnim oqyapti."
+       },
+       {
+        "tr": "öksürük",
+        "uz": "yo'tal",
+        "example_tr": "Öksürüğüm geçmiyor.",
+        "example_uz": "Yo'talim o'tmayapti."
+       },
+       {
+        "tr": "grip",
+        "uz": "gripp",
+        "example_tr": "Grip salgını başladı.",
+        "example_uz": "Gripp epidemiyasi boshlandi."
+       },
+       {
+        "tr": "reçete",
+        "uz": "retsept",
+        "example_tr": "Doktor reçete yazdı.",
+        "example_uz": "Shifokor retsept yozdi."
+       },
+       {
+        "tr": "eczane",
+        "uz": "dorixona",
+        "example_tr": "İlacı eczaneden aldım.",
+        "example_uz": "Dorini dorixonadan oldim."
+       },
+       {
+        "tr": "muayene",
+        "uz": "ko'rik",
+        "example_tr": "Yarın muayeneye gideceğim.",
+        "example_uz": "Ertaga ko'rikka boraman."
+       },
+       {
+        "tr": "hastane",
+        "uz": "kasalxona",
+        "example_tr": "Hastaneye yatırıldı.",
+        "example_uz": "Kasalxonaga yotqizildi."
+       },
+       {
+        "tr": "diş",
+        "uz": "tish",
+        "example_tr": "Dişim çok ağrıyor.",
+        "example_uz": "Tishim juda og'riyapti."
+       },
+       {
+        "tr": "tedavi",
+        "uz": "davolash",
+        "example_tr": "Tedavi iki hafta sürecek.",
+        "example_uz": "Davolash ikki hafta davom etadi."
        }
       ],
       "listening": {
@@ -1328,6 +1544,72 @@
         "uz": "asramoq/saqlamoq",
         "example_tr": "Doğayı korumalıyız.",
         "example_uz": "Tabiatni asrashimiz kerak."
+       },
+       {
+        "tr": "hava",
+        "uz": "havo",
+        "example_tr": "Şehirde hava kirli.",
+        "example_uz": "Shaharda havo iflos."
+       },
+       {
+        "tr": "su",
+        "uz": "suv",
+        "example_tr": "Su kaynaklarını korumalıyız.",
+        "example_uz": "Suv manbalarini asrashimiz kerak."
+       },
+       {
+        "tr": "toprak",
+        "uz": "tuproq, yer",
+        "example_tr": "Toprak çok verimli.",
+        "example_uz": "Tuproq juda unumdor."
+       },
+       {
+        "tr": "doğa",
+        "uz": "tabiat",
+        "example_tr": "Doğayı sevmeliyiz.",
+        "example_uz": "Tabiatni sevishimiz kerak."
+       },
+       {
+        "tr": "ağaç dikmek",
+        "uz": "daraxt ekmoq",
+        "example_tr": "Okulda ağaç diktik.",
+        "example_uz": "Maktabda daraxt ekdik."
+       },
+       {
+        "tr": "plastik",
+        "uz": "plastik",
+        "example_tr": "Plastik torba kullanma.",
+        "example_uz": "Plastik xaltadan foydalanma."
+       },
+       {
+        "tr": "atık",
+        "uz": "chiqindi",
+        "example_tr": "Atıkları ayırmalıyız.",
+        "example_uz": "Chiqindilarni ajratishimiz kerak."
+       },
+       {
+        "tr": "duman",
+        "uz": "tutun",
+        "example_tr": "Fabrikanın dumanı havayı kirletiyor.",
+        "example_uz": "Zavod tutuni havoni ifloslayapti."
+       },
+       {
+        "tr": "tasarruf etmek",
+        "uz": "tejamoq",
+        "example_tr": "Su tasarrufu yapalım.",
+        "example_uz": "Suvni tejaylik."
+       },
+       {
+        "tr": "zarar vermek",
+        "uz": "zarar yetkazmoq",
+        "example_tr": "Sigara sağlığa zarar verir.",
+        "example_uz": "Sigaret sog'liqqa zarar yetkazadi."
+       },
+       {
+        "tr": "iklim değişikliği",
+        "uz": "iqlim o'zgarishi",
+        "example_tr": "İklim değişikliği herkesi etkiliyor.",
+        "example_uz": "Iqlim o'zgarishi hammaga ta'sir qilyapti."
        }
       ],
       "listening": {
@@ -1612,6 +1894,72 @@
         "uz": "e'tiborli bo'lmoq",
         "example_tr": "Yola dikkat et.",
         "example_uz": "Yo'lga e'tiborli bo'l."
+       },
+       {
+        "tr": "yol",
+        "uz": "yo'l",
+        "example_tr": "Yol çok kalabalık.",
+        "example_uz": "Yo'l juda gavjum."
+       },
+       {
+        "tr": "otobüs",
+        "uz": "avtobus",
+        "example_tr": "Otobüs on dakika geç kaldı.",
+        "example_uz": "Avtobus o'n daqiqa kechikdi."
+       },
+       {
+        "tr": "araba",
+        "uz": "mashina",
+        "example_tr": "Arabam bozuldu.",
+        "example_uz": "Mashinam buzildi."
+       },
+       {
+        "tr": "bisiklet",
+        "uz": "velosiped",
+        "example_tr": "İşe bisikletle gidiyorum.",
+        "example_uz": "Ishga velosipedda boraman."
+       },
+       {
+        "tr": "kırmızı ışık",
+        "uz": "qizil chiroq",
+        "example_tr": "Kırmızı ışıkta dur.",
+        "example_uz": "Qizil chiroqda to'xta."
+       },
+       {
+        "tr": "kaldırım",
+        "uz": "yo'lak, trotuar",
+        "example_tr": "Kaldırımda yürü.",
+        "example_uz": "Yo'lakda yur."
+       },
+       {
+        "tr": "ehliyet",
+        "uz": "haydovchilik guvohnomasi",
+        "example_tr": "Ehliyetimi geçen yıl aldım.",
+        "example_uz": "Haydovchilik guvohnomamni o'tgan yil oldim."
+       },
+       {
+        "tr": "benzin",
+        "uz": "benzin",
+        "example_tr": "Arabanın benzini bitti.",
+        "example_uz": "Mashinaning benzini tugadi."
+       },
+       {
+        "tr": "park etmek",
+        "uz": "to'xtatib qo'ymoq (mashinani)",
+        "example_tr": "Arabayı buraya park etme.",
+        "example_uz": "Mashinani bu yerga qo'yma."
+       },
+       {
+        "tr": "yavaşlamak",
+        "uz": "sekinlashmoq",
+        "example_tr": "Okulun önünde yavaşla.",
+        "example_uz": "Maktab oldida sekinlash."
+       },
+       {
+        "tr": "çarpmak",
+        "uz": "urilmoq, urmoq",
+        "example_tr": "Araba duvara çarptı.",
+        "example_uz": "Mashina devorga urildi."
        }
       ],
       "listening": {
@@ -1897,6 +2245,66 @@
         "uz": "tavsiya qilmoq",
         "example_tr": "Bu kitabı tavsiye ederim.",
         "example_uz": "Bu kitobni tavsiya qilaman."
+       },
+       {
+        "tr": "kitap",
+        "uz": "kitob",
+        "example_tr": "Her gün kitap okurum.",
+        "example_uz": "Har kuni kitob o'qiyman."
+       },
+       {
+        "tr": "şiir",
+        "uz": "she'r",
+        "example_tr": "Bu şiiri ezberledim.",
+        "example_uz": "Bu she'rni yod oldim."
+       },
+       {
+        "tr": "gazete",
+        "uz": "gazeta",
+        "example_tr": "Sabahları gazete okurum.",
+        "example_uz": "Ertalab gazeta o'qiyman."
+       },
+       {
+        "tr": "dergi",
+        "uz": "jurnal",
+        "example_tr": "Dergiye abone oldum.",
+        "example_uz": "Jurnalga obuna bo'ldim."
+       },
+       {
+        "tr": "sayfa",
+        "uz": "sahifa",
+        "example_tr": "Kitabın son sayfasını okudum.",
+        "example_uz": "Kitobning oxirgi sahifasini o'qidim."
+       },
+       {
+        "tr": "bölüm",
+        "uz": "bob, bo'lim",
+        "example_tr": "İlk bölüm çok güzeldi.",
+        "example_uz": "Birinchi bob juda chiroyli edi."
+       },
+       {
+        "tr": "kahraman",
+        "uz": "qahramon",
+        "example_tr": "Romanın kahramanı bir doktor.",
+        "example_uz": "Romanning qahramoni shifokor."
+       },
+       {
+        "tr": "konu",
+        "uz": "mavzu",
+        "example_tr": "Kitabın konusu nedir?",
+        "example_uz": "Kitobning mavzusi nima?"
+       },
+       {
+        "tr": "anlatmak",
+        "uz": "hikoya qilmoq",
+        "example_tr": "Bana bir hikâye anlattı.",
+        "example_uz": "Menga bir hikoya aytib berdi."
+       },
+       {
+        "tr": "ödünç almak",
+        "uz": "qarz olmoq",
+        "example_tr": "Kütüphaneden kitap ödünç aldım.",
+        "example_uz": "Kutubxonadan kitob oldim."
        }
       ],
       "listening": {
@@ -2171,6 +2579,78 @@
         "uz": "farqi yo'q",
         "example_tr": "Bana fark etmez.",
         "example_uz": "Menga farqi yo'q."
+       },
+       {
+        "tr": "oyuncu",
+        "uz": "aktyor",
+        "example_tr": "Başrol oyuncusu çok ünlü.",
+        "example_uz": "Bosh rol aktyori juda mashhur."
+       },
+       {
+        "tr": "yönetmen",
+        "uz": "rejissyor",
+        "example_tr": "Yönetmen ödül aldı.",
+        "example_uz": "Rejissyor mukofot oldi."
+       },
+       {
+        "tr": "konser",
+        "uz": "konsert",
+        "example_tr": "Cumartesi konsere gidiyoruz.",
+        "example_uz": "Shanba kuni konsertga boramiz."
+       },
+       {
+        "tr": "müzik",
+        "uz": "musiqa",
+        "example_tr": "Müzik dinlemeyi severim.",
+        "example_uz": "Musiqa tinglashni yoqtiraman."
+       },
+       {
+        "tr": "şarkı",
+        "uz": "qo'shiq",
+        "example_tr": "Bu şarkıyı çok seviyorum.",
+        "example_uz": "Bu qo'shiqni juda yaxshi ko'raman."
+       },
+       {
+        "tr": "koltuk",
+        "uz": "o'rindiq",
+        "example_tr": "Ön sırada iki koltuk var.",
+        "example_uz": "Oldingi qatorda ikkita o'rindiq bor."
+       },
+       {
+        "tr": "gösteri",
+        "uz": "ko'rsatuv, namoyish",
+        "example_tr": "Gösteri saat sekizde başlıyor.",
+        "example_uz": "Ko'rsatuv soat sakkizda boshlanadi."
+       },
+       {
+        "tr": "korku filmi",
+        "uz": "qo'rqinchli film",
+        "example_tr": "Korku filmi izlemeyi sevmem.",
+        "example_uz": "Qo'rqinchli film ko'rishni yoqtirmayman."
+       },
+       {
+        "tr": "fikir",
+        "uz": "fikr",
+        "example_tr": "Bu film hakkında ne düşünüyorsun?",
+        "example_uz": "Bu film haqida nima deb o'ylaysan?"
+       },
+       {
+        "tr": "beğenmek",
+        "uz": "yoqtirmoq",
+        "example_tr": "Filmi çok beğendim.",
+        "example_uz": "Filmni juda yoqtirdim."
+       },
+       {
+        "tr": "sıra",
+        "uz": "navbat; qator",
+        "example_tr": "Bilet için sırada bekledik.",
+        "example_uz": "Chipta uchun navbatda kutdik."
+       },
+       {
+        "tr": "sahne",
+        "uz": "sahna",
+        "example_tr": "Sahnede genç bir şarkıcı var.",
+        "example_uz": "Sahnada yosh bir qo'shiqchi bor."
        }
       ],
       "listening": {
@@ -2440,6 +2920,78 @@
         "uz": "dangasa",
         "example_tr": "Bugün biraz tembelim.",
         "example_uz": "Bugun birozgina dangasaman."
+       },
+       {
+        "tr": "futbol",
+        "uz": "futbol",
+        "example_tr": "Hafta sonu futbol oynarız.",
+        "example_uz": "Dam olish kunlari futbol o'ynaymiz."
+       },
+       {
+        "tr": "basketbol",
+        "uz": "basketbol",
+        "example_tr": "Basketbol maçı yarın.",
+        "example_uz": "Basketbol o'yini ertaga."
+       },
+       {
+        "tr": "maç",
+        "uz": "o'yin, match",
+        "example_tr": "Maçı kim kazandı?",
+        "example_uz": "Matchni kim yutdi?"
+       },
+       {
+        "tr": "takım",
+        "uz": "jamoa",
+        "example_tr": "Takımımız finale çıktı.",
+        "example_uz": "Jamoamiz finalga chiqdi."
+       },
+       {
+        "tr": "kazanmak",
+        "uz": "yutmoq",
+        "example_tr": "Takımımız maçı kazandı.",
+        "example_uz": "Jamoamiz o'yinni yutdi."
+       },
+       {
+        "tr": "kaybetmek",
+        "uz": "yutqazmoq",
+        "example_tr": "Dün maçı kaybettik.",
+        "example_uz": "Kecha o'yinni yutqazdik."
+       },
+       {
+        "tr": "spor salonu",
+        "uz": "sport zali",
+        "example_tr": "Spor salonuna gidiyorum.",
+        "example_uz": "Sport zaliga boryapman."
+       },
+       {
+        "tr": "kilo vermek",
+        "uz": "ozmoq",
+        "example_tr": "Üç ayda on kilo verdi.",
+        "example_uz": "Uch oyda o'n kilo ozdi."
+       },
+       {
+        "tr": "yürüyüş",
+        "uz": "sayr, piyoda yurish",
+        "example_tr": "Akşamları yürüyüş yaparım.",
+        "example_uz": "Kechqurunlari sayr qilaman."
+       },
+       {
+        "tr": "nefes",
+        "uz": "nafas",
+        "example_tr": "Derin nefes al.",
+        "example_uz": "Chuqur nafas ol."
+       },
+       {
+        "tr": "kas",
+        "uz": "mushak",
+        "example_tr": "Spor kasları güçlendirir.",
+        "example_uz": "Sport mushaklarni kuchaytiradi."
+       },
+       {
+        "tr": "şampiyon",
+        "uz": "chempion",
+        "example_tr": "Takım şampiyon oldu.",
+        "example_uz": "Jamoa chempion bo'ldi."
        }
       ],
       "listening": {
@@ -2720,6 +3272,60 @@
         "uz": "muhofaza ostida",
         "example_tr": "Bu eser koruma altında.",
         "example_uz": "Bu obida muhofaza ostida."
+       },
+       {
+        "tr": "saray",
+        "uz": "saroy",
+        "example_tr": "Topkapı Sarayı çok büyük.",
+        "example_uz": "Topqapi saroyi juda katta."
+       },
+       {
+        "tr": "cami",
+        "uz": "masjid",
+        "example_tr": "Cami çok güzel.",
+        "example_uz": "Masjid juda chiroyli."
+       },
+       {
+        "tr": "anıt",
+        "uz": "yodgorlik",
+        "example_tr": "Bu anıt çok eski.",
+        "example_uz": "Bu yodgorlik juda qadimiy."
+       },
+       {
+        "tr": "harabe",
+        "uz": "xarobalar",
+        "example_tr": "Harabeleri gezdik.",
+        "example_uz": "Xarobalarni aylanib chiqdik."
+       },
+       {
+        "tr": "tarihî",
+        "uz": "tarixiy",
+        "example_tr": "Tarihî yerleri gezmeyi severim.",
+        "example_uz": "Tarixiy joylarni sayr qilishni yoqtiraman."
+       },
+       {
+        "tr": "imparatorluk",
+        "uz": "imperiya",
+        "example_tr": "Osmanlı İmparatorluğu üç kıtada hüküm sürdü.",
+        "example_uz": "Usmonli imperiyasi uch qit'ada hukmronlik qildi."
+       },
+       {
+        "tr": "sultan",
+        "uz": "sulton",
+        "example_tr": "Sultan ordusuyla yola çıktı.",
+        "example_uz": "Sulton qo'shini bilan yo'lga chiqdi."
+       },
+       {
+        "tr": "savaş",
+        "uz": "urush",
+        "example_tr": "Savaş uzun sürdü.",
+        "example_uz": "Urush uzoq davom etdi."
+       },
+       {
+        "tr": "yapılmak",
+        "uz": "qurilmoq",
+        "example_tr": "Bu köprü 1900'de yapılmış.",
+        "example_uz": "Bu ko'prik 1900-yilda qurilgan."
        }
       ],
       "listening": {
@@ -3033,6 +3639,60 @@
         "uz": "shamol",
         "example_tr": "Bugün rüzgâr çok güçlü.",
         "example_uz": "Bugun shamol juda kuchli."
+       },
+       {
+        "tr": "yaz",
+        "uz": "yoz",
+        "example_tr": "Yazın denize gideriz.",
+        "example_uz": "Yozda dengizga boramiz."
+       },
+       {
+        "tr": "kar",
+        "uz": "qor",
+        "example_tr": "Kış aylarında çok kar yağar.",
+        "example_uz": "Qish oylarida ko'p qor yog'adi."
+       },
+       {
+        "tr": "yağmur",
+        "uz": "yomg'ir",
+        "example_tr": "Yağmur yağıyor.",
+        "example_uz": "Yomg'ir yog'yapti."
+       },
+       {
+        "tr": "güneş",
+        "uz": "quyosh",
+        "example_tr": "Bugün güneş var.",
+        "example_uz": "Bugun quyosh bor."
+       },
+       {
+        "tr": "bulut",
+        "uz": "bulut",
+        "example_tr": "Gökyüzünde bulut yok.",
+        "example_uz": "Osmonda bulut yo'q."
+       },
+       {
+        "tr": "sis",
+        "uz": "tuman",
+        "example_tr": "Sabah yoğun sis vardı.",
+        "example_uz": "Ertalab quyuq tuman bor edi."
+       },
+       {
+        "tr": "fırtına",
+        "uz": "bo'ron",
+        "example_tr": "Fırtına çıktı.",
+        "example_uz": "Bo'ron ko'tarildi."
+       },
+       {
+        "tr": "sıcaklık",
+        "uz": "issiqlik, harorat",
+        "example_tr": "Hava sıcaklığı otuz derece.",
+        "example_uz": "Havo harorati o'ttiz daraja."
+       },
+       {
+        "tr": "derece",
+        "uz": "daraja",
+        "example_tr": "Bugün hava on derece.",
+        "example_uz": "Bugun havo o'n daraja."
        }
       ],
       "listening": {
@@ -3336,6 +3996,60 @@
         "uz": "mazali",
         "example_tr": "Bu tatlı çok lezzetli.",
         "example_uz": "Bu shirinlik juda mazali."
+       },
+       {
+        "tr": "çorba",
+        "uz": "sho'rva",
+        "example_tr": "Sıcak çorba içtik.",
+        "example_uz": "Issiq sho'rva ichdik."
+       },
+       {
+        "tr": "pilav",
+        "uz": "palov, guruch",
+        "example_tr": "Pilavı çok severim.",
+        "example_uz": "Guruchni juda yaxshi ko'raman."
+       },
+       {
+        "tr": "kebap",
+        "uz": "kabob",
+        "example_tr": "Kebap çok lezzetliydi.",
+        "example_uz": "Kabob juda mazali edi."
+       },
+       {
+        "tr": "ekmek",
+        "uz": "non",
+        "example_tr": "Taze ekmek aldım.",
+        "example_uz": "Yangi non oldim."
+       },
+       {
+        "tr": "peynir",
+        "uz": "pishloq",
+        "example_tr": "Kahvaltıda peynir yerim.",
+        "example_uz": "Nonushtada pishloq yeyman."
+       },
+       {
+        "tr": "zeytin",
+        "uz": "zaytun",
+        "example_tr": "Zeytin ve domates yedim.",
+        "example_uz": "Zaytun va pomidor yedim."
+       },
+       {
+        "tr": "tuz",
+        "uz": "tuz",
+        "example_tr": "Yemeğe tuz ekle.",
+        "example_uz": "Ovqatga tuz sol."
+       },
+       {
+        "tr": "yağ",
+        "uz": "yog'",
+        "example_tr": "Tavaya yağ koy.",
+        "example_uz": "Tovaga yog' sol."
+       },
+       {
+        "tr": "süt",
+        "uz": "sut",
+        "example_tr": "Her sabah süt içerim.",
+        "example_uz": "Har tong sut ichaman."
        }
       ],
       "listening": {
@@ -3648,6 +4362,48 @@
         "uz": "taklif (iqtisodiy)",
         "example_tr": "Arz ve talep dengesi önemlidir.",
         "example_uz": "Taklif va talab muvozanati muhim."
+       },
+       {
+        "tr": "sanayi",
+        "uz": "sanoat",
+        "example_tr": "Türkiye'de sanayi gelişiyor.",
+        "example_uz": "Turkiyada sanoat rivojlanyapti."
+       },
+       {
+        "tr": "ihracat",
+        "uz": "eksport",
+        "example_tr": "İhracat her yıl artıyor.",
+        "example_uz": "Eksport har yili oshyapti."
+       },
+       {
+        "tr": "ithalat",
+        "uz": "import",
+        "example_tr": "Petrol ithalatı pahalı.",
+        "example_uz": "Neft importi qimmat."
+       },
+       {
+        "tr": "makine",
+        "uz": "mashina, mexanizm",
+        "example_tr": "Fabrikada yeni makineler var.",
+        "example_uz": "Zavodda yangi mashinalar bor."
+       },
+       {
+        "tr": "çiftçi",
+        "uz": "dehqon",
+        "example_tr": "Çiftçiler buğday ekti.",
+        "example_uz": "Dehqonlar bug'doy ekdi."
+       },
+       {
+        "tr": "tarım",
+        "uz": "qishloq xo'jaligi",
+        "example_tr": "Tarım ülkenin gelirini artırır.",
+        "example_uz": "Qishloq xo'jaligi mamlakat daromadini oshiradi."
+       },
+       {
+        "tr": "pazar",
+        "uz": "bozor (iqtisodiy)",
+        "example_tr": "Yeni pazarlar arıyoruz.",
+        "example_uz": "Yangi bozorlar qidiryapmiz."
        }
       ],
       "listening": {
@@ -3956,6 +4712,66 @@
         "uz": "sherik/hamkor",
         "example_tr": "Yeni bir ortakla tanıştım.",
         "example_uz": "Yangi hamkor bilan tanishdim."
+       },
+       {
+        "tr": "yemek listesi",
+        "uz": "taomnoma",
+        "example_tr": "Yemek listesini getirir misiniz?",
+        "example_uz": "Taomnomani olib kelasizmi?"
+       },
+       {
+        "tr": "içecek",
+        "uz": "ichimlik",
+        "example_tr": "İçecek olarak ne istersiniz?",
+        "example_uz": "Ichimlikka nima istaysiz?"
+       },
+       {
+        "tr": "tatlı (yemek)",
+        "uz": "shirinlik",
+        "example_tr": "Tatlı olarak ne var?",
+        "example_uz": "Shirinlikka nima bor?"
+       },
+       {
+        "tr": "ana yemek",
+        "uz": "asosiy taom",
+        "example_tr": "Ana yemek olarak balık aldım.",
+        "example_uz": "Asosiy taom sifatida baliq oldim."
+       },
+       {
+        "tr": "bahşiş",
+        "uz": "choy puli",
+        "example_tr": "Garsona bahşiş bıraktık.",
+        "example_uz": "Ofitsiantga choy puli qoldirdik."
+       },
+       {
+        "tr": "nakit",
+        "uz": "naqd pul",
+        "example_tr": "Nakit ödeyeceğim.",
+        "example_uz": "Naqd to'layman."
+       },
+       {
+        "tr": "kredi kartı",
+        "uz": "kredit karta",
+        "example_tr": "Kredi kartı geçer mi?",
+        "example_uz": "Kredit karta o'tadimi?"
+       },
+       {
+        "tr": "davetli",
+        "uz": "mehmon (taklif qilingan)",
+        "example_tr": "Davetliler geldi.",
+        "example_uz": "Mehmonlar keldi."
+       },
+       {
+        "tr": "ağırlamak",
+        "uz": "mehmon qilmoq",
+        "example_tr": "Misafirleri iyi ağırladık.",
+        "example_uz": "Mehmonlarni yaxshi kutib oldik."
+       },
+       {
+        "tr": "teşekkür etmek",
+        "uz": "rahmat aytmoq",
+        "example_tr": "Herkese teşekkür ettik.",
+        "example_uz": "Hammaga rahmat aytdik."
        }
       ],
       "listening": {
@@ -4249,6 +5065,60 @@
         "uz": "chek",
         "example_tr": "Fişinizi saklayın.",
         "example_uz": "Chekingizni saqlang."
+       },
+       {
+        "tr": "kasa",
+        "uz": "kassa",
+        "example_tr": "Kasada sıra vardı.",
+        "example_uz": "Kassada navbat bor edi."
+       },
+       {
+        "tr": "sepet",
+        "uz": "savat",
+        "example_tr": "Sepete iki ürün koydum.",
+        "example_uz": "Savatga ikkita mahsulot soldim."
+       },
+       {
+        "tr": "kampanya",
+        "uz": "aksiya",
+        "example_tr": "Bu hafta kampanya var.",
+        "example_uz": "Bu hafta aksiya bor."
+       },
+       {
+        "tr": "etiket",
+        "uz": "yorliq",
+        "example_tr": "Etiketteki fiyata baktım.",
+        "example_uz": "Yorliqdagi narxga qaradim."
+       },
+       {
+        "tr": "vitrin",
+        "uz": "vitrina",
+        "example_tr": "Vitrindeki ceketi beğendim.",
+        "example_uz": "Vitrinadagi kurtkani yoqtirdim."
+       },
+       {
+        "tr": "deneme kabini",
+        "uz": "kiyim o'lchash xonasi",
+        "example_tr": "Deneme kabini nerede?",
+        "example_uz": "O'lchash xonasi qayerda?"
+       },
+       {
+        "tr": "tezgâh",
+        "uz": "peshtaxta",
+        "example_tr": "Tezgâhta bir satıcı var.",
+        "example_uz": "Peshtaxtada sotuvchi bor."
+       },
+       {
+        "tr": "çanta",
+        "uz": "sumka",
+        "example_tr": "Yeni bir çanta aldım.",
+        "example_uz": "Yangi sumka oldim."
+       },
+       {
+        "tr": "ayakkabı",
+        "uz": "poyabzal",
+        "example_tr": "Ayakkabım dar geldi.",
+        "example_uz": "Poyabzalim tor keldi."
        }
       ],
       "listening": {
@@ -4571,6 +5441,54 @@
         "uz": "samimiy",
         "example_tr": "İçten bir mektup yazdı.",
         "example_uz": "Samimiy xat yozdi."
+       },
+       {
+        "tr": "zarf",
+        "uz": "konvert",
+        "example_tr": "Mektubu zarfa koydum.",
+        "example_uz": "Xatni konvertga soldim."
+       },
+       {
+        "tr": "pul",
+        "uz": "marka",
+        "example_tr": "Zarfa pul yapıştırdım.",
+        "example_uz": "Konvertga marka yopishtirdim."
+       },
+       {
+        "tr": "adres",
+        "uz": "manzil",
+        "example_tr": "Adresini yazar mısın?",
+        "example_uz": "Manzilini yozib berasanmi?"
+       },
+       {
+        "tr": "posta",
+        "uz": "pochta",
+        "example_tr": "Posta kutusu köşede.",
+        "example_uz": "Pochta qutisi burchakda."
+       },
+       {
+        "tr": "kart",
+        "uz": "otkritka",
+        "example_tr": "Doğum günü kartı gönderdim.",
+        "example_uz": "Tug'ilgan kun otkritkasini yubordim."
+       },
+       {
+        "tr": "selamlamak",
+        "uz": "salomlashmoq",
+        "example_tr": "Annemi selamla.",
+        "example_uz": "Onamga salom ayt."
+       },
+       {
+        "tr": "sevgi",
+        "uz": "sevgi",
+        "example_tr": "Sevgiyle öpüyorum.",
+        "example_uz": "Sevgi bilan o'paman."
+       },
+       {
+        "tr": "cevap vermek",
+        "uz": "javob bermoq",
+        "example_tr": "Mektuba hemen cevap verdi.",
+        "example_uz": "Xatga darhol javob berdi."
        }
       ],
       "listening": {
@@ -4858,6 +5776,66 @@
         "uz": "ro'yobga chiqarmoq",
         "example_tr": "Hayalimi gerçekleştirdim.",
         "example_uz": "Orzuimni ro'yobga chiqardim."
+       },
+       {
+        "tr": "başarı",
+        "uz": "muvaffaqiyat",
+        "example_tr": "Başarı çok çalışmakla gelir.",
+        "example_uz": "Muvaffaqiyat ko'p mehnat bilan keladi."
+       },
+       {
+        "tr": "mutluluk",
+        "uz": "baxt",
+        "example_tr": "Mutluluk paylaşınca artar.",
+        "example_uz": "Baxt ulashganda ortadi."
+       },
+       {
+        "tr": "keyif",
+        "uz": "zavq",
+        "example_tr": "Kitap okumaktan keyif alıyorum.",
+        "example_uz": "Kitob o'qishdan zavq olaman."
+       },
+       {
+        "tr": "neşe",
+        "uz": "quvnoqlik",
+        "example_tr": "Çocukların neşesi güzel.",
+        "example_uz": "Bolalarning quvnoqligi go'zal."
+       },
+       {
+        "tr": "şükretmek",
+        "uz": "shukr qilmoq",
+        "example_tr": "Sağlığıma şükrediyorum.",
+        "example_uz": "Sog'ligimga shukr qilaman."
+       },
+       {
+        "tr": "cesaret",
+        "uz": "jasorat",
+        "example_tr": "Konuşmak için cesaret gerekir.",
+        "example_uz": "Gapirish uchun jasorat kerak."
+       },
+       {
+        "tr": "denemek",
+        "uz": "sinab ko'rmoq",
+        "example_tr": "Yeni bir yemek denedim.",
+        "example_uz": "Yangi taom sinab ko'rdim."
+       },
+       {
+        "tr": "vazgeçmek",
+        "uz": "voz kechmoq",
+        "example_tr": "Hayalinden vazgeçme.",
+        "example_uz": "Orzuingdan voz kechma."
+       },
+       {
+        "tr": "rahat",
+        "uz": "bemalol, qulay",
+        "example_tr": "Kendimi çok rahat hissediyorum.",
+        "example_uz": "O'zimni juda qulay his qilyapman."
+       },
+       {
+        "tr": "huzur",
+        "uz": "xotirjamlik",
+        "example_tr": "Köyde huzur buldum.",
+        "example_uz": "Qishloqda xotirjamlik topdim."
        }
       ],
       "listening": {
@@ -5170,6 +6148,72 @@
         "uz": "taklif qilmoq",
         "example_tr": "Onu partiye davet ettim.",
         "example_uz": "Uni ziyofatga taklif qildim."
+       },
+       {
+        "tr": "espri",
+        "uz": "hazil, aql",
+        "example_tr": "Çok güzel espri yaptı.",
+        "example_uz": "Juda yaxshi hazil qildi."
+       },
+       {
+        "tr": "kahkaha",
+        "uz": "qahqaha",
+        "example_tr": "Kahkahalarla güldük.",
+        "example_uz": "Qahqaha bilan kuldik."
+       },
+       {
+        "tr": "fıkra",
+        "uz": "latifa",
+        "example_tr": "Bana bir fıkra anlat.",
+        "example_uz": "Menga latifa aytib ber."
+       },
+       {
+        "tr": "oyun",
+        "uz": "o'yin",
+        "example_tr": "Çocuklar bahçede oyun oynuyor.",
+        "example_uz": "Bolalar bog'da o'ynayapti."
+       },
+       {
+        "tr": "müzik grubu",
+        "uz": "musiqa guruhi",
+        "example_tr": "Bu grup çok ünlü.",
+        "example_uz": "Bu guruh juda mashhur."
+       },
+       {
+        "tr": "dans etmek",
+        "uz": "raqsga tushmoq",
+        "example_tr": "Düğünde dans ettik.",
+        "example_uz": "To'yda raqsga tushdik."
+       },
+       {
+        "tr": "doğum günü",
+        "uz": "tug'ilgan kun",
+        "example_tr": "Yarın doğum günüm.",
+        "example_uz": "Ertaga tug'ilgan kunim."
+       },
+       {
+        "tr": "düğün",
+        "uz": "to'y",
+        "example_tr": "Düğüne davetliyiz.",
+        "example_uz": "To'yga taklifmiz."
+       },
+       {
+        "tr": "bayram",
+        "uz": "bayram",
+        "example_tr": "Bayramda akrabaları ziyaret ederiz.",
+        "example_uz": "Bayramda qarindoshlarni ko'rgani boramiz."
+       },
+       {
+        "tr": "tatil yapmak",
+        "uz": "ta'tilga chiqmoq",
+        "example_tr": "Yazın tatil yapacağız.",
+        "example_uz": "Yozda ta'tilga chiqamiz."
+       },
+       {
+        "tr": "gezmek",
+        "uz": "sayr qilmoq",
+        "example_tr": "Şehri gezdik.",
+        "example_uz": "Shaharni aylandik."
        }
       ],
       "listening": {
@@ -5475,6 +6519,66 @@
         "uz": "energiya tejash",
         "example_tr": "Bu makine enerji tasarrufu sağlıyor.",
         "example_uz": "Bu mashina energiya tejashga yordam beradi."
+       },
+       {
+        "tr": "klima",
+        "uz": "konditsioner",
+        "example_tr": "Klima çalışmıyor.",
+        "example_uz": "Konditsioner ishlamayapti."
+       },
+       {
+        "tr": "ısıtıcı",
+        "uz": "isitgich",
+        "example_tr": "Odayı ısıtıcıyla ısıttık.",
+        "example_uz": "Xonani isitgich bilan isitdik."
+       },
+       {
+        "tr": "ampul",
+        "uz": "lampochka",
+        "example_tr": "Ampul yandı.",
+        "example_uz": "Lampochka kuydi."
+       },
+       {
+        "tr": "priz",
+        "uz": "rozetka",
+        "example_tr": "Prize takın.",
+        "example_uz": "Rozetkaga ulang."
+       },
+       {
+        "tr": "kablo",
+        "uz": "kabel",
+        "example_tr": "Kablo kopmuş.",
+        "example_uz": "Kabel uzilgan."
+       },
+       {
+        "tr": "düğme",
+        "uz": "tugma",
+        "example_tr": "Düğmeye bas.",
+        "example_uz": "Tugmani bos."
+       },
+       {
+        "tr": "açmak",
+        "uz": "ochmoq, yoqmoq",
+        "example_tr": "Televizyonu açtım.",
+        "example_uz": "Televizorni yoqdim."
+       },
+       {
+        "tr": "kapatmak",
+        "uz": "yopmoq, o'chirmoq",
+        "example_tr": "Bilgisayarı kapat.",
+        "example_uz": "Kompyuterni o'chir."
+       },
+       {
+        "tr": "şarj etmek",
+        "uz": "zaryadlamoq",
+        "example_tr": "Telefonu şarj ettim.",
+        "example_uz": "Telefonni zaryadladim."
+       },
+       {
+        "tr": "kullanma kılavuzu",
+        "uz": "foydalanish yo'riqnomasi",
+        "example_tr": "Kullanma kılavuzunu okudum.",
+        "example_uz": "Foydalanish yo'riqnomasini o'qidim."
        }
       ],
       "listening": {
@@ -5768,6 +6872,72 @@
         "uz": "ekran",
         "example_tr": "Büyük bir ekranı var.",
         "example_uz": "Uning katta ekrani bor."
+       },
+       {
+        "tr": "program (TV)",
+        "uz": "teleko'rsatuv",
+        "example_tr": "Bu program çok izleniyor.",
+        "example_uz": "Bu ko'rsatuv ko'p ko'riladi."
+       },
+       {
+        "tr": "sunucu",
+        "uz": "boshlovchi",
+        "example_tr": "Sunucu soruları okudu.",
+        "example_uz": "Boshlovchi savollarni o'qidi."
+       },
+       {
+        "tr": "spiker",
+        "uz": "diktor",
+        "example_tr": "Spiker haberleri okudu.",
+        "example_uz": "Diktor xabarlarni o'qidi."
+       },
+       {
+        "tr": "canlı yayın",
+        "uz": "jonli efir",
+        "example_tr": "Maç canlı yayınlanıyor.",
+        "example_uz": "O'yin jonli efirda."
+       },
+       {
+        "tr": "kumanda",
+        "uz": "pult",
+        "example_tr": "Kumandayı bulamıyorum.",
+        "example_uz": "Pultni topa olmayapman."
+       },
+       {
+        "tr": "çocuk programı",
+        "uz": "bolalar ko'rsatuvi",
+        "example_tr": "Çocuk programları eğlencelidir.",
+        "example_uz": "Bolalar ko'rsatuvlari qiziqarli."
+       },
+       {
+        "tr": "yarışma",
+        "uz": "tanlov, musobaqa",
+        "example_tr": "Yarışmayı kim kazandı?",
+        "example_uz": "Tanlovda kim yutdi?"
+       },
+       {
+        "tr": "seyirci",
+        "uz": "tomoshabin",
+        "example_tr": "Seyirciler alkışladı.",
+        "example_uz": "Tomoshabinlar qarsak chaldi."
+       },
+       {
+        "tr": "alkışlamak",
+        "uz": "qarsak chalmoq",
+        "example_tr": "Herkes onu alkışladı.",
+        "example_uz": "Hamma uni olqishladi."
+       },
+       {
+        "tr": "röportaj",
+        "uz": "intervyu",
+        "example_tr": "Ünlü oyuncuyla röportaj yaptılar.",
+        "example_uz": "Mashhur aktyor bilan intervyu olishdi."
+       },
+       {
+        "tr": "tekrar",
+        "uz": "takror",
+        "example_tr": "Dizi akşam tekrar yayınlanacak.",
+        "example_uz": "Serial kechqurun qayta ko'rsatiladi."
        }
       ],
       "listening": {
@@ -6066,6 +7236,66 @@
         "uz": "yo'q bo'lib ketmoq (tur haqida)",
         "example_tr": "Bu tür nesli tükenmekte olan bir hayvandır.",
         "example_uz": "Bu tur yo'q bo'lib ketayotgan hayvondir."
+       },
+       {
+        "tr": "kedi",
+        "uz": "mushuk",
+        "example_tr": "Kedi pencerede uyuyor.",
+        "example_uz": "Mushuk derazada uxlayapti."
+       },
+       {
+        "tr": "köpek",
+        "uz": "it",
+        "example_tr": "Köpek bahçede havlıyor.",
+        "example_uz": "It hovlida akillayapti."
+       },
+       {
+        "tr": "at",
+        "uz": "ot",
+        "example_tr": "At çok hızlı koşuyor.",
+        "example_uz": "Ot juda tez yuguryapti."
+       },
+       {
+        "tr": "inek",
+        "uz": "sigir",
+        "example_tr": "İnek süt verir.",
+        "example_uz": "Sigir sut beradi."
+       },
+       {
+        "tr": "koyun",
+        "uz": "qo'y",
+        "example_tr": "Çoban koyunları otlatıyor.",
+        "example_uz": "Cho'pon qo'ylarni boqyapti."
+       },
+       {
+        "tr": "balık",
+        "uz": "baliq",
+        "example_tr": "Gölde çok balık var.",
+        "example_uz": "Ko'lda ko'p baliq bor."
+       },
+       {
+        "tr": "arı",
+        "uz": "asalari",
+        "example_tr": "Arı bal yapar.",
+        "example_uz": "Asalari asal yig'adi."
+       },
+       {
+        "tr": "orman",
+        "uz": "o'rmon",
+        "example_tr": "Ormanda yürüdük.",
+        "example_uz": "O'rmonda yurdik."
+       },
+       {
+        "tr": "yaprak",
+        "uz": "barg",
+        "example_tr": "Sonbaharda yapraklar dökülür.",
+        "example_uz": "Kuzda barglar to'kiladi."
+       },
+       {
+        "tr": "tohum",
+        "uz": "urug'",
+        "example_tr": "Tohumları toprağa ektik.",
+        "example_uz": "Urug'larni tuproqqa ekdik."
        }
       ],
       "listening": {
@@ -6379,6 +7609,66 @@
         "uz": "xudbin",
         "example_tr": "Bencil insanlar sadece kendini düşünür.",
         "example_uz": "Xudbin odamlar faqat o'zini o'ylaydi."
+       },
+       {
+        "tr": "cesur",
+        "uz": "jasur",
+        "example_tr": "Cesur bir çocuk.",
+        "example_uz": "Jasur bola."
+       },
+       {
+        "tr": "korkak",
+        "uz": "qo'rqoq",
+        "example_tr": "Korkak biri değil.",
+        "example_uz": "U qo'rqoq emas."
+       },
+       {
+        "tr": "nazik",
+        "uz": "xushmuomala",
+        "example_tr": "Nazik bir insan.",
+        "example_uz": "Xushmuomala odam."
+       },
+       {
+        "tr": "kibar",
+        "uz": "odobli",
+        "example_tr": "Kibar bir genç.",
+        "example_uz": "Odobli yigit."
+       },
+       {
+        "tr": "neşeli",
+        "uz": "quvnoq",
+        "example_tr": "Neşeli bir kız.",
+        "example_uz": "Quvnoq qiz."
+       },
+       {
+        "tr": "sakin",
+        "uz": "sokin, xotirjam",
+        "example_tr": "Sakin bir adam.",
+        "example_uz": "Xotirjam odam."
+       },
+       {
+        "tr": "konuşkan",
+        "uz": "gapdon",
+        "example_tr": "Konuşkan bir öğrenci.",
+        "example_uz": "Gapdon o'quvchi."
+       },
+       {
+        "tr": "sessiz",
+        "uz": "jim",
+        "example_tr": "Sessiz bir çocuk.",
+        "example_uz": "Jim bola."
+       },
+       {
+        "tr": "merhametli",
+        "uz": "rahmdil",
+        "example_tr": "Merhametli bir doktor.",
+        "example_uz": "Rahmdil shifokor."
+       },
+       {
+        "tr": "lider",
+        "uz": "yetakchi",
+        "example_tr": "Doğal bir lider.",
+        "example_uz": "Tabiiy yetakchi."
        }
       ],
       "listening": {
@@ -6686,6 +7976,66 @@
         "uz": "ilgarilamoq",
         "example_tr": "Yavaş ama emin adımlarla ilerliyorum.",
         "example_uz": "Sekin, ammo ishonchli qadamlar bilan ilgarilayapman."
+       },
+       {
+        "tr": "plan",
+        "uz": "reja",
+        "example_tr": "Planımı hazırladım.",
+        "example_uz": "Rejamni tayyorladim."
+       },
+       {
+        "tr": "çalışmak",
+        "uz": "ishlamoq, o'qimoq",
+        "example_tr": "Sınav için çalışıyorum.",
+        "example_uz": "Imtihon uchun tayyorlanyapman."
+       },
+       {
+        "tr": "tecrübe",
+        "uz": "tajriba",
+        "example_tr": "İş tecrübesi önemli.",
+        "example_uz": "Ish tajribasi muhim."
+       },
+       {
+        "tr": "kariyer",
+        "uz": "karyera",
+        "example_tr": "Kariyerime yeni başladım.",
+        "example_uz": "Karyeramni endi boshladim."
+       },
+       {
+        "tr": "terfi",
+        "uz": "lavozim ko'tarilishi",
+        "example_tr": "Bu yıl terfi aldı.",
+        "example_uz": "Bu yil lavozimi ko'tarildi."
+       },
+       {
+        "tr": "disiplin",
+        "uz": "intizom",
+        "example_tr": "Başarı için disiplin gerekir.",
+        "example_uz": "Muvaffaqiyat uchun intizom kerak."
+       },
+       {
+        "tr": "sınav",
+        "uz": "imtihon",
+        "example_tr": "Sınavı geçtim.",
+        "example_uz": "Imtihondan o'tdim."
+       },
+       {
+        "tr": "ödül",
+        "uz": "mukofot",
+        "example_tr": "Birincilik ödülü aldı.",
+        "example_uz": "Birinchilik mukofotini oldi."
+       },
+       {
+        "tr": "sertifika",
+        "uz": "sertifikat",
+        "example_tr": "Dil sertifikası aldım.",
+        "example_uz": "Til sertifikati oldim."
+       },
+       {
+        "tr": "yarışmak",
+        "uz": "bellashmoq",
+        "example_tr": "Finalde yarışacağız.",
+        "example_uz": "Finalda bellashamiz."
        }
       ],
       "listening": {
@@ -6991,6 +8341,72 @@
         "uz": "shaxs (individ)",
         "example_tr": "Her birey farklıdır.",
         "example_uz": "Har bir shaxs farqli."
+       },
+       {
+        "tr": "duygu",
+        "uz": "his-tuyg'u",
+        "example_tr": "Duygularımı anlattım.",
+        "example_uz": "His-tuyg'ularimni aytdim."
+       },
+       {
+        "tr": "anlatmak",
+        "uz": "tushuntirmoq",
+        "example_tr": "Sorunumu anlattım.",
+        "example_uz": "Muammoimni tushuntirdim."
+       },
+       {
+        "tr": "yardım etmek",
+        "uz": "yordam bermoq",
+        "example_tr": "Komşuya yardım ettim.",
+        "example_uz": "Qo'shniga yordam berdim."
+       },
+       {
+        "tr": "destek",
+        "uz": "qo'llab-quvvatlash",
+        "example_tr": "Ailem bana destek oldu.",
+        "example_uz": "Oilam meni qo'llab-quvvatladi."
+       },
+       {
+        "tr": "çözüm",
+        "uz": "yechim",
+        "example_tr": "Bir çözüm bulduk.",
+        "example_uz": "Bir yechim topdik."
+       },
+       {
+        "tr": "sorun",
+        "uz": "muammo",
+        "example_tr": "Sorunu birlikte çözdük.",
+        "example_uz": "Muammoni birgalikda hal qildik."
+       },
+       {
+        "tr": "özür dilemek",
+        "uz": "uzr so'ramoq",
+        "example_tr": "Geç kaldığım için özür diledim.",
+        "example_uz": "Kechikkanim uchun uzr so'radim."
+       },
+       {
+        "tr": "bağışlamak",
+        "uz": "kechirmoq",
+        "example_tr": "Hatamı bağışladı.",
+        "example_uz": "Xatoimni kechirdi."
+       },
+       {
+        "tr": "hissetmek",
+        "uz": "his qilmoq",
+        "example_tr": "Kendimi iyi hissediyorum.",
+        "example_uz": "O'zimni yaxshi his qilyapman."
+       },
+       {
+        "tr": "birlik",
+        "uz": "birlik",
+        "example_tr": "Birlik içinde yaşayalım.",
+        "example_uz": "Birlikda yashaylik."
+       },
+       {
+        "tr": "komşu",
+        "uz": "qo'shni",
+        "example_tr": "Komşularımız çok iyi.",
+        "example_uz": "Qo'shnilarimiz juda yaxshi."
        }
       ],
       "listening": {
