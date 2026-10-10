@@ -266,6 +266,446 @@
    ],
    "correct_index": 3,
    "page": 76
+  },
+  {
+   "question": "Huloku qaysi yili Eronni bosib oldi?",
+   "options": [
+    "1206-yilda",
+    "1295-yilda",
+    "1340-yilda",
+    "1256-yilda"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Huloku necha qo'shin bilan Eronga bostirib kirdi?",
+   "options": [
+    "7 ming",
+    "70 ming",
+    "700 ming",
+    "20 ming"
+   ],
+   "correct_index": 1,
+   "page": 73
+  },
+  {
+   "question": "Huloku Eronga kimning topshirig'iga ko'ra bordi?",
+   "options": [
+    "Mo'g'ul xoni Munke",
+    "Chingizxon",
+    "Xubilay",
+    "Botu"
+   ],
+   "correct_index": 0,
+   "page": 73
+  },
+  {
+   "question": "Elxon so'zi nimani anglatadi?",
+   "options": [
+    "Qo'mondon",
+    "Ulus xoni",
+    "Vazir",
+    "Bek"
+   ],
+   "correct_index": 1,
+   "page": 73
+  },
+  {
+   "question": "Hulokuiylar davlatiga qaysi hududlar kirgan?",
+   "options": [
+    "Hindiston",
+    "Xitoy",
+    "Eron, Afg'oniston, Turkmanistonning katta qismi, Kavkazorti, Iroq",
+    "Misr"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "Mo'g'ullar dehqonchilik yerlarini nimaga aylantirdi?",
+   "options": [
+    "Bog'ga",
+    "Shaharga",
+    "Cho'lga",
+    "Yaylovga"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Xorazmshohlar Eronni qaysi yili egalladi?",
+   "options": [
+    "1256-yilda",
+    "1340-yilda",
+    "1410-yilda",
+    "1194-yilda"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Tulu boshchiligidagi mo'g'ullar qaysi shaharlarni egalladi?",
+   "options": [
+    "Tabriz, Bag'dod",
+    "Isfahon, Sheroz",
+    "Qum, Rey",
+    "Marv, Niso, Sabzavor, Nishopur, Tus"
+   ],
+   "correct_index": 3,
+   "page": 73
+  },
+  {
+   "question": "Elxonlar qanday boshqargan?",
+   "options": [
+    "Faqat mo'g'ullarga",
+    "Faqat forslarga",
+    "Turk-mo'g'ul zodagonlari va musulmon amaldorlariga tayanib",
+    "Faqat arablarga"
+   ],
+   "correct_index": 2,
+   "page": 73
+  },
+  {
+   "question": "G'ozonxon qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1256-1265",
+    "1295-1304",
+    "1304-1316",
+    "1340-1356"
+   ],
+   "correct_index": 1,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon nechanchi elxon edi?",
+   "options": [
+    "Birinchi",
+    "Yettinchi",
+    "Beshinchi",
+    "O'ninchi"
+   ],
+   "correct_index": 1,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxonning vaziri kim edi?",
+   "options": [
+    "Rashiduddin",
+    "Nizomulmulk",
+    "Ibn Sino",
+    "Sa'diy"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon qaysi dinni qabul qildi?",
+   "options": [
+    "Islomni",
+    "Buddizmni",
+    "Xristianlikni",
+    "Zardushtiylikni"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon islomni qaysi yili davlat dini deb e'lon qildi?",
+   "options": [
+    "1295-yilda",
+    "1256-yilda",
+    "1304-yilda",
+    "1340-yilda"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon islohotlarida nimaga e'tibor qaratdi?",
+   "options": [
+    "Davlatni markazlashtirish va soliq tizimini tartibga solish",
+    "Urush",
+    "Din",
+    "Savdo"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon qanday kumush dirham zarb qildi?",
+   "options": [
+    "21,5 grammli",
+    "0,5 grammli",
+    "10 grammli",
+    "2,15 grammli"
+   ],
+   "correct_index": 3,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon qanday oltin dinor zarb qildi?",
+   "options": [
+    "12,9 grammli",
+    "1,29 grammli",
+    "129 grammli",
+    "5 grammli"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "G'ozonxon pul tizimi keyin qaysi ulusda joriy qilindi?",
+   "options": [
+    "Chig'atoy ulusida",
+    "Oltin O'rdada",
+    "Yuanda",
+    "Misrda"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "Elxon Abu Said vafotidan keyin nima bo'ldi?",
+   "options": [
+    "Kuchaydi",
+    "Birlashdi",
+    "Yagona hukmdor qolmadi",
+    "Kengaydi"
+   ],
+   "correct_index": 2,
+   "page": 74
+  },
+  {
+   "question": "Hulokuiylar davlati XIV asrning qaysi yillaridan parchalana boshladi?",
+   "options": [
+    "30-yillaridan",
+    "10-yillaridan",
+    "50-yillaridan",
+    "70-yillaridan"
+   ],
+   "correct_index": 0,
+   "page": 74
+  },
+  {
+   "question": "Xurosonning sharqiy qismida elxonlar qaysi yilgacha hokimiyatda qoldi?",
+   "options": [
+    "1295-yilgacha",
+    "1353-yilgacha",
+    "1340-yilgacha",
+    "1410-yilgacha"
+   ],
+   "correct_index": 1,
+   "page": 74
+  },
+  {
+   "question": "Jaloyiriylar qayerda yashagan?",
+   "options": [
+    "Misrda",
+    "Hindistonda",
+    "Kavkazda",
+    "Mo'g'ulistondagi Onon va Kerulen bo'yida"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Jaloyiriylar davlatiga kim asos soldi?",
+   "options": [
+    "Uvays",
+    "Ahmad",
+    "Shayx Hasan Buzurg",
+    "Qora Yusuf"
+   ],
+   "correct_index": 2,
+   "page": 75
+  },
+  {
+   "question": "Jaloyiriylar davlati qaysi yili tuzilgan?",
+   "options": [
+    "1256-yilda",
+    "1340-yilda",
+    "1410-yilda",
+    "1453-yilda"
+   ],
+   "correct_index": 1,
+   "page": 75
+  },
+  {
+   "question": "Uvays I davrida Jaloyiriylar qanday bo'ldi?",
+   "options": [
+    "Zaiflashdi",
+    "Juda yuksaldi",
+    "Tugadi",
+    "Bo'lindi"
+   ],
+   "correct_index": 1,
+   "page": 75
+  },
+  {
+   "question": "Uvays I qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1340-1356",
+    "1374-1410",
+    "1410-1435",
+    "1356-1374"
+   ],
+   "correct_index": 3,
+   "page": 75
+  },
+  {
+   "question": "Jaloyiriylarga qaysi yilda butunlay chek qo'yildi?",
+   "options": [
+    "XV asr 30-yillarida Qora qo'yunlilar tomonidan",
+    "1405-yilda",
+    "1256-yilda",
+    "1340-yilda"
+   ],
+   "correct_index": 0,
+   "page": 75
+  },
+  {
+   "question": "Muzaffariylarga kim asos solgan?",
+   "options": [
+    "Hasan Buzurg",
+    "Qora Yusuf",
+    "Muboriziddin Muhammad ibn Muzaffar",
+    "Uzun Hasan"
+   ],
+   "correct_index": 2,
+   "page": 75
+  },
+  {
+   "question": "Muzaffariylar poytaxti qaysi shahar?",
+   "options": [
+    "Bag'dod",
+    "Sheroz",
+    "Tabriz",
+    "Yazd"
+   ],
+   "correct_index": 1,
+   "page": 75
+  },
+  {
+   "question": "Muboriziddin Muhammad qaysi yillarda yashagan?",
+   "options": [
+    "1340-1374",
+    "1387-1420",
+    "1314-1358",
+    "1453-1478"
+   ],
+   "correct_index": 2,
+   "page": 75
+  },
+  {
+   "question": "Muboriziddin Muhammad kim edi?",
+   "options": [
+    "Mo'g'ullarning Yazddagi noibi",
+    "Imom",
+    "Sarkarda",
+    "Qozi"
+   ],
+   "correct_index": 0,
+   "page": 75
+  },
+  {
+   "question": "Qora qo'yunlilar qaysi qabilalar ittifoqi?",
+   "options": [
+    "Mo'g'ul",
+    "Arab",
+    "Fors",
+    "Turkman"
+   ],
+   "correct_index": 3,
+   "page": 76
+  },
+  {
+   "question": "Qora qo'yunlilar qayerda yashagan?",
+   "options": [
+    "Dajla yuqorisida",
+    "Van ko'lining sharqiy qismida",
+    "Nil bo'yida",
+    "Kavkazda"
+   ],
+   "correct_index": 1,
+   "page": 76
+  },
+  {
+   "question": "Qora qo'yunlilar yo'lboshchisi kim?",
+   "options": [
+    "Iskandar",
+    "Uzun Hasan",
+    "Qora Yusuf",
+    "Abu Bakr"
+   ],
+   "correct_index": 2,
+   "page": 76
+  },
+  {
+   "question": "Qora Yusuf qaysi yili Tabriz va Bag'dodni egalladi?",
+   "options": [
+    "1387-yilda",
+    "1435-yilda",
+    "1453-yilda",
+    "1410-yilda"
+   ],
+   "correct_index": 3,
+   "page": 76
+  },
+  {
+   "question": "Shohrux Qora qo'yunlilarni qaysi yili bo'ysundirdi?",
+   "options": [
+    "1435-yilda",
+    "1410-yilda",
+    "1453-yilda",
+    "1387-yilda"
+   ],
+   "correct_index": 0,
+   "page": 76
+  },
+  {
+   "question": "Oq qo'yunlilar qayerda yashagan?",
+   "options": [
+    "Dajla daryosi yuqori oqimida",
+    "Nil bo'yida",
+    "Amudaryoda",
+    "Van ko'lida"
+   ],
+   "correct_index": 0,
+   "page": 76
+  },
+  {
+   "question": "Oq qo'yunlilar davlatiga kim asos soldi?",
+   "options": [
+    "Qora Yusuf",
+    "Uzun Hasan",
+    "Iskandar",
+    "Hasan Buzurg"
+   ],
+   "correct_index": 1,
+   "page": 76
+  },
+  {
+   "question": "Uzun Hasan qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1453-1478",
+    "1387-1420",
+    "1410-1435",
+    "1340-1374"
+   ],
+   "correct_index": 0,
+   "page": 76
+  },
+  {
+   "question": "Oq qo'yunlilar poytaxti qaysi?",
+   "options": [
+    "Sheroz",
+    "Bag'dod",
+    "Tabriz",
+    "Isfahon"
+   ],
+   "correct_index": 2,
+   "page": 76
   }
  ]
 }

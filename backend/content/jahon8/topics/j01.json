@@ -276,6 +276,358 @@
    ],
    "correct_index": 2,
    "page": 13
+  },
+  {
+   "question": "Verden shartnomasi qaysi yili tuzilgan?",
+   "options": [
+    "987-yilda",
+    "843-yilda",
+    "1302-yilda",
+    "1214-yilda"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "Kapetinglar sulolasining dastlabki vakili kim?",
+   "options": [
+    "Lyudovik V",
+    "Filipp IV",
+    "Gugo Kapet",
+    "Karl V"
+   ],
+   "correct_index": 2,
+   "page": 9
+  },
+  {
+   "question": "Karolinglarning so'nggi vakili kim edi?",
+   "options": [
+    "Gugo Kapet",
+    "Karl Martell",
+    "Pipin",
+    "Lyudovik V"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Fransiya nechta mustaqil mulkka bo'linib ketgan edi?",
+   "options": [
+    "4 ta",
+    "40 ta",
+    "100 ta",
+    "14 ta"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Mulklarni kimlar boshqargan?",
+   "options": [
+    "Gersog va graflardan iborat feodallar",
+    "Qirol vakillari",
+    "Ruhoniylar",
+    "Savdogarlar"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Qaysi grafliklar qiroldan ko'proq yer-mulkka ega edi?",
+   "options": [
+    "Burgundiya, Normandiya, Akvitaniya",
+    "Parij, Lion",
+    "Shampan, Navarra",
+    "Flandriya, Bretan"
+   ],
+   "correct_index": 0,
+   "page": 9
+  },
+  {
+   "question": "Yirik gersog va graflar qirolni qanday hisoblagan?",
+   "options": [
+    "\"Hukmdori\"",
+    "\"Quli\"",
+    "\"Vassali\"",
+    "\"Tenglarning birinchisi\""
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Normandiya nimaga ixtisoslashgan edi?",
+   "options": [
+    "Movutga",
+    "Vinoga",
+    "Ipakka",
+    "Temirchilik, tuz ishlab chiqarish, qoramol va yilqi"
+   ],
+   "correct_index": 3,
+   "page": 9
+  },
+  {
+   "question": "Burgundiya va Shampan nimaga ixtisoslashgan?",
+   "options": [
+    "Temirga",
+    "Movut va vinochilikka",
+    "Tuzga",
+    "Qurolga"
+   ],
+   "correct_index": 1,
+   "page": 9
+  },
+  {
+   "question": "Fransiyadagi eng yirik savdo markazi qaysi shahar edi?",
+   "options": [
+    "Lion",
+    "Marsel",
+    "Parij",
+    "Tuluza"
+   ],
+   "correct_index": 2,
+   "page": 9
+  },
+  {
+   "question": "Fransiyani birlashtirish jarayoni qaysi qirol davrida boshlandi?",
+   "options": [
+    "Filipp II",
+    "Filipp IV",
+    "Lyudovik XI",
+    "Lyudovik VI"
+   ],
+   "correct_index": 3,
+   "page": 10
+  },
+  {
+   "question": "Lyudovik VI qaysi shaharlarni bo'ysundirdi?",
+   "options": [
+    "Parij, Lion",
+    "Tuluza",
+    "Burj va Sans",
+    "Reyms"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Birlashtirish yo'lidagi eng katta to'siq nima edi?",
+   "options": [
+    "Angliyaning Fransiyadagi mulklari",
+    "Cherkov",
+    "Savdo",
+    "Dengiz"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Lyudovik VII Akvitaniya malikasi kim bilan uylangan?",
+   "options": [
+    "Eleonora",
+    "Margarita",
+    "Izabella",
+    "Mariya"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Filipp II Avgust nimalarni qo'shib oldi?",
+   "options": [
+    "Normandiya, Men, Anju, Tyuren va Puatyening bir qismini",
+    "Burgundiyani",
+    "Flandriyani",
+    "Bretanni"
+   ],
+   "correct_index": 0,
+   "page": 10
+  },
+  {
+   "question": "Bu hududlar Fransiyaga nimani ta'minladi?",
+   "options": [
+    "O'rta dengizga chiqishni",
+    "Qora dengizga chiqishni",
+    "Atlantika va La Manshga chiqishni",
+    "Baltikka chiqishni"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Qirol mulklari nechta viloyatga bo'lingan?",
+   "options": [
+    "5 ta",
+    "20 ta",
+    "12 ta",
+    "50 ta"
+   ],
+   "correct_index": 1,
+   "page": 10
+  },
+  {
+   "question": "Mahalliy hokimlar qaysi vakolatlarga ega edi?",
+   "options": [
+    "Faqat sud",
+    "Faqat soliq",
+    "Sud qilish, soliq yig'ish, qo'shin to'plash, hisobot berish",
+    "Faqat qo'shin"
+   ],
+   "correct_index": 2,
+   "page": 10
+  },
+  {
+   "question": "Filipp IV qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1180-1223",
+    "1223-1226",
+    "1285-1314",
+    "1461-1483"
+   ],
+   "correct_index": 2,
+   "page": 11
+  },
+  {
+   "question": "Filipp IV davrida o'lkaning qancha qismi birlashtirildi?",
+   "options": [
+    "1/4 qismi",
+    "Yarmi",
+    "3/4 qismi",
+    "Hammasi"
+   ],
+   "correct_index": 2,
+   "page": 11
+  },
+  {
+   "question": "Qaysi viloyatlar hali Fransiyaga qo'shilmagan edi?",
+   "options": [
+    "Flandriya, Bretan, Akvitaniya, Burgundiya",
+    "Shampan, Lion",
+    "Navarra, Shampan",
+    "Normandiya, Men"
+   ],
+   "correct_index": 0,
+   "page": 11
+  },
+  {
+   "question": "Papa Bonifatsiy VIII qaysi yillarda papa edi?",
+   "options": [
+    "1198-1216",
+    "1294-1303",
+    "1095-1099",
+    "1227-1241"
+   ],
+   "correct_index": 1,
+   "page": 11
+  },
+  {
+   "question": "Bonifatsiy VIII Filipp IV dan nimani talab qildi?",
+   "options": [
+    "Taxtdan voz kechishni",
+    "Flandriyaga yurishni to'xtatishni",
+    "Soliq to'lashni",
+    "Rimga kelishni"
+   ],
+   "correct_index": 1,
+   "page": 11
+  },
+  {
+   "question": "Filipp IV nimaga soliq solmoqchi bo'ldi?",
+   "options": [
+    "Faqat dehqonlarga",
+    "Cherkovga ham",
+    "Faqat shaharliklarga",
+    "Faqat dvoryanlarga"
+   ],
+   "correct_index": 1,
+   "page": 11
+  },
+  {
+   "question": "Papa Filipp IV ga qarshi nimani e'lon qilmoqchi bo'ldi?",
+   "options": [
+    "Anafema",
+    "Interdikt",
+    "Salib yurishi",
+    "Urush"
+   ],
+   "correct_index": 0,
+   "page": 11
+  },
+  {
+   "question": "General shtatlar qayerda chaqirilgan?",
+   "options": [
+    "Versalda",
+    "Reymsda",
+    "Parijning bosh ibodatxonasida",
+    "Orleanda"
+   ],
+   "correct_index": 2,
+   "page": 12
+  },
+  {
+   "question": "General shtatlar nechta palatadan iborat edi?",
+   "options": [
+    "Uchta",
+    "Ikkita",
+    "To'rtta",
+    "Beshta"
+   ],
+   "correct_index": 0,
+   "page": 12
+  },
+  {
+   "question": "General shtatlarda ovoz berishda kimlar ustun edi?",
+   "options": [
+    "Ruhoniylar va dvoryanlar (bir ovozga qarshi ikki ovoz)",
+    "Shaharliklar",
+    "Dehqonlar",
+    "Qirol vakillari"
+   ],
+   "correct_index": 0,
+   "page": 12
+  },
+  {
+   "question": "General shtatlar qonun qabul qilish huquqiga egami?",
+   "options": [
+    "Yo'q",
+    "Ha",
+    "Faqat soliqda",
+    "Faqat urushda"
+   ],
+   "correct_index": 0,
+   "page": 12
+  },
+  {
+   "question": "1357-yilda General shtatlar nima talab qildi?",
+   "options": [
+    "Taxtni",
+    "Papani",
+    "Soliq yig'ish va mablag'ni nazorat qilish huquqini",
+    "Urushni"
+   ],
+   "correct_index": 2,
+   "page": 13
+  },
+  {
+   "question": "Qirol 1357-yildagi talablarga nima qildi?",
+   "options": [
+    "Rad etdi",
+    "Majbur bo'lib qabul qildi, keyin mavqeyini tikladi",
+    "Taxtdan voz kechdi",
+    "Qochdi"
+   ],
+   "correct_index": 1,
+   "page": 13
+  },
+  {
+   "question": "XIV asrda Fransiyada qaysi monarxiya paydo bo'ldi?",
+   "options": [
+    "Mutlaq monarxiya",
+    "Respublika",
+    "Toifaviy monarxiya",
+    "Teokratiya"
+   ],
+   "correct_index": 2,
+   "page": 13
   }
  ]
 }

@@ -277,6 +277,435 @@
    ],
    "correct_index": 0,
    "page": 70
+  },
+  {
+   "question": "Usmon beyligi qayerda paydo bo'ldi?",
+   "options": [
+    "Misrda",
+    "Kichik Osiyoning shimoli-g'arbida",
+    "Eronda",
+    "Bolqonda"
+   ],
+   "correct_index": 1,
+   "page": 67
+  },
+  {
+   "question": "Usmon beyligi qaysi davlat parchalangach paydo bo'ldi?",
+   "options": [
+    "Vizantiya",
+    "Arab xalifaligi",
+    "Saljuqiylar davlati",
+    "Mo'g'ullar"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Beylikning ilk hukmdori kim?",
+   "options": [
+    "Ertug'rul",
+    "Usmon I",
+    "Murod I",
+    "Boyazid"
+   ],
+   "correct_index": 0,
+   "page": 67
+  },
+  {
+   "question": "Beylik nega Usmon nomi bilan ataldi?",
+   "options": [
+    "Ertug'rul nomi",
+    "Arab nomi",
+    "Usman davrida mustaqil davlatga aylangani uchun",
+    "Xalq nomi"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Usmon qaysi qabiladan edi?",
+   "options": [
+    "Qipchoq",
+    "Mo'g'ul",
+    "Arab",
+    "O'g'uz"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "Ertug'rul qabilasi kimdan ruxsat olib joylashdi?",
+   "options": [
+    "Vizantiya imperatoridan",
+    "Xalifadan",
+    "Papadan",
+    "Saljuqiy sulton Alouddin Qayqubod II dan"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "Ertug'rul qayerga joylashdi?",
+   "options": [
+    "Konstantinopolga",
+    "Bursaga",
+    "Vizantiya chegarasidagi Eskishaharga",
+    "Misrga"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Usmon I qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1362-1389",
+    "1451-1481",
+    "1326-1362",
+    "1299-1326"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "Usmonning Vizantiyaga dastlabki muvaffaqiyatli yurishi qaysi?",
+   "options": [
+    "1453 Konstantinopol",
+    "1362 Adrianopol",
+    "1402 Anqara",
+    "1291-yilda Melangiyani zabt etish"
+   ],
+   "correct_index": 3,
+   "page": 67
+  },
+  {
+   "question": "Usmon saljuq sultonlaridan nimani olib qaysi yili mustaqil bo'ldi?",
+   "options": [
+    "Tojni",
+    "Qilichni",
+    "Nog'ora va tug' - 1299-yilda",
+    "Yerni"
+   ],
+   "correct_index": 2,
+   "page": 67
+  },
+  {
+   "question": "Ot suvoriy jangchisiga nima berilgan?",
+   "options": [
+    "Pul",
+    "Tumori deb atalgan yer-mulk",
+    "Qul",
+    "Uy"
+   ],
+   "correct_index": 1,
+   "page": 68
+  },
+  {
+   "question": "Otliq qo'shin soni nechagacha yetgan?",
+   "options": [
+    "15 mingacha",
+    "150 minggacha",
+    "1,5 mingacha",
+    "1,5 million"
+   ],
+   "correct_index": 1,
+   "page": 68
+  },
+  {
+   "question": "Yanichar qo'shini qaysi yili tuzilgan?",
+   "options": [
+    "1299-yilda",
+    "1362-yilda",
+    "1365-yilda",
+    "1453-yilda"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Yanichar so'zi nimani anglatadi?",
+   "options": [
+    "Eski qo'shin",
+    "Dengiz qo'shin",
+    "Piyoda",
+    "Yangi qo'shin"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Yanicharlar qaysi qurol bilan qurollangan?",
+   "options": [
+    "Faqat nayza",
+    "Faqat qilich",
+    "Shamshir, qalqon, xanjar, boltacha, kamon, keyin o'qotar qurollar",
+    "Faqat to'p"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Yanicharlar qaysi qo'shimcha vazifalarni bajargan?",
+   "options": [
+    "Savdo",
+    "Mirshablik, o't o'chirish, jazolash",
+    "Ta'lim",
+    "Ibodat"
+   ],
+   "correct_index": 1,
+   "page": 68
+  },
+  {
+   "question": "Turklar Yevropadagi dastlabki yurishlarni qaysi yillarda boshlagan?",
+   "options": [
+    "1352-1354",
+    "1299-1326",
+    "1402-1413",
+    "1451-1453"
+   ],
+   "correct_index": 0,
+   "page": 68
+  },
+  {
+   "question": "Turklar Bolqonda qanday viloyat ta'sis etdi?",
+   "options": [
+    "Rumeli",
+    "Anatoliya",
+    "Rum",
+    "Kichik Osiyo"
+   ],
+   "correct_index": 0,
+   "page": 68
+  },
+  {
+   "question": "Adrianopol qaysi yili egallandi?",
+   "options": [
+    "1299-yilda",
+    "1389-yilda",
+    "1362-yilda",
+    "1453-yilda"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Adrianopolga qanday nom berildi?",
+   "options": [
+    "Bursa",
+    "Istanbul",
+    "Edirna",
+    "Ankara"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Murod I qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1299-1326",
+    "1451-1481",
+    "1413-1421",
+    "1362-1389"
+   ],
+   "correct_index": 3,
+   "page": 68
+  },
+  {
+   "question": "Murod I 1389-yilda qayerda halok bo'ldi?",
+   "options": [
+    "Anqarada",
+    "Nikopolda",
+    "Kosovoda (serblarga qarshi)",
+    "Adrianopolda"
+   ],
+   "correct_index": 2,
+   "page": 68
+  },
+  {
+   "question": "Mehmed I qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1389-1402",
+    "1413-1421",
+    "1421-1451",
+    "1451-1481"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "Mehmed II qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1413-1421",
+    "1421-1451",
+    "1481-1512",
+    "1451-1481"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Konstantinopol necha oylik qamaldan so'ng egallandi?",
+   "options": [
+    "Bir haftalik",
+    "Bir yillik",
+    "Ikki yillik",
+    "Ikki oylik"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Konstantinopol qaysi yili egallandi?",
+   "options": [
+    "1402-yil 20-iyul",
+    "1299-yil",
+    "1453-yil 29-may",
+    "1362-yil"
+   ],
+   "correct_index": 2,
+   "page": 69
+  },
+  {
+   "question": "Turklar Konstantinopolga qaysi flotni yaratdilar?",
+   "options": [
+    "Hech",
+    "Kichik flot",
+    "Daryo flotini",
+    "Katta flotni"
+   ],
+   "correct_index": 3,
+   "page": 69
+  },
+  {
+   "question": "Ayo Sofiya nimaga aylantirildi?",
+   "options": [
+    "Sultonning asosiy masjidiga",
+    "Saroyga",
+    "Qal'aga",
+    "Kutubxonaga"
+   ],
+   "correct_index": 0,
+   "page": 69
+  },
+  {
+   "question": "Usmoniylar qaysi hukmdor bilan to'qnashdi?",
+   "options": [
+    "Papa",
+    "Amir Temur bilan",
+    "Xalifa",
+    "Mo'g'ul xoni"
+   ],
+   "correct_index": 1,
+   "page": 69
+  },
+  {
+   "question": "Anqara jangi qaysi yili bo'lgan?",
+   "options": [
+    "1389-yilda",
+    "1453-yilda",
+    "1402-yil iyulida",
+    "1299-yilda"
+   ],
+   "correct_index": 2,
+   "page": 69
+  },
+  {
+   "question": "Anqarada Boyazidga nima bo'ldi?",
+   "options": [
+    "Yutdi",
+    "Qochdi",
+    "Yengilib asir olindi",
+    "Vafot etdi"
+   ],
+   "correct_index": 2,
+   "page": 69
+  },
+  {
+   "question": "Usmoniylar beyi dastlab kim tomonidan saylangan?",
+   "options": [
+    "Xalifa",
+    "Papa",
+    "Qabila boshliqlari yig'inida",
+    "Imperator"
+   ],
+   "correct_index": 2,
+   "page": 70
+  },
+  {
+   "question": "Poytaxt qaysi shahar edi (O'rxon davrida)?",
+   "options": [
+    "Bursa",
+    "Edirna",
+    "Istanbul",
+    "Ankara"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Birinchi kumush tanga qaysi yili Bursada zarb qilingan?",
+   "options": [
+    "1299-yilda",
+    "1362-yilda",
+    "1453-yilda",
+    "1327-yilda"
+   ],
+   "correct_index": 3,
+   "page": 70
+  },
+  {
+   "question": "Murod I davridan hukmdorlar qanday atalgan?",
+   "options": [
+    "Sulton",
+    "Bey",
+    "Xon",
+    "Shoh"
+   ],
+   "correct_index": 0,
+   "page": 70
+  },
+  {
+   "question": "Sulton qanday vakolatga ega edi?",
+   "options": [
+    "Faqat qo'mondon",
+    "Hukumat rahbari, bosh qo'mondon va oliy qozi",
+    "Faqat qozi",
+    "Faqat vazir"
+   ],
+   "correct_index": 1,
+   "page": 70
+  },
+  {
+   "question": "Salim I Misrni egallagach nima bo'ldi?",
+   "options": [
+    "Misr yo'qoldi",
+    "Xalifa taxtni unga topshirdi",
+    "Salim yengildi",
+    "Papa kelib"
+   ],
+   "correct_index": 1,
+   "page": 70
+  },
+  {
+   "question": "Usmoniylar yer egaligining shakllari qaysilar?",
+   "options": [
+    "Mulk yerlari, harbiylar mulki, vaqf yerlari",
+    "Faqat davlat",
+    "Faqat xususiy",
+    "Faqat cherkov"
+   ],
+   "correct_index": 0,
+   "page": 71
+  },
+  {
+   "question": "XVI asr boshida Usmoniylar nechta qit'ada hukmronlik o'rnatdi?",
+   "options": [
+    "Bir",
+    "Uch qit'ada",
+    "Ikki",
+    "To'rt"
+   ],
+   "correct_index": 1,
+   "page": 71
   }
  ]
 }

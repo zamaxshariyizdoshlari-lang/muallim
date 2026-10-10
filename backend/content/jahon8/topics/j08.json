@@ -284,6 +284,435 @@
    ],
    "correct_index": 0,
    "page": 49
+  },
+  {
+   "question": "Arab xalifaligi Vestgot qirolligini qaysi yillarda bo'ysundirdi?",
+   "options": [
+    "756-1031",
+    "1137-1188",
+    "1238-1492",
+    "711-714"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Pireney yarimorolida hozir qaysi davlatlar joylashgan?",
+   "options": [
+    "Ispaniya, Portugaliya, Andorra",
+    "Fransiya, Italiya",
+    "Germaniya, Avstriya",
+    "Polsha, Chexiya"
+   ],
+   "correct_index": 0,
+   "page": 46
+  },
+  {
+   "question": "Ispaniyada xalifalikdan ilk mustaqil amirlik qaysi yili tashkil topdi?",
+   "options": [
+    "711-yilda",
+    "1238-yilda",
+    "756-yilda",
+    "1492-yilda"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "X asrdan bu amirlik qanday atalgan?",
+   "options": [
+    "Granada amirligi",
+    "Sevilya amirligi",
+    "Toledo amirligi",
+    "Qurdoba amirligi"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "XII asrda yarimorolda qaysi davlatlar yuzaga keldi?",
+   "options": [
+    "Fransiya, Italiya",
+    "Rus, Polsha",
+    "Kastiliya, Navarra, Aragon, Portugaliya",
+    "Daniya, Shvetsiya"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Granada qayerda joylashgan?",
+   "options": [
+    "Shimolida",
+    "Sharqida",
+    "G'arbida",
+    "Ispaniyaning janubida"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Granada amirligi qaysi yildan tashkil topgan?",
+   "options": [
+    "711-yildan",
+    "1492-yildan",
+    "1137-yildan",
+    "1238-yildan"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Granada qaysi yili qulagan?",
+   "options": [
+    "1238-yilda",
+    "1492-yilda",
+    "1137-yilda",
+    "1498-yilda"
+   ],
+   "correct_index": 1,
+   "page": 46
+  },
+  {
+   "question": "Granada amirligi tarkibiga qaysi viloyatlar kirgan?",
+   "options": [
+    "Sevilya, Kordova",
+    "Madrid, Toledo",
+    "Almeriya, Granada, Malaga",
+    "Valensiya, Barselona"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Granada qulagach uning hududi nima bo'ldi?",
+   "options": [
+    "Kastiliya tojining bir qismiga aylandi",
+    "Mustaqil",
+    "Aragonga o'tdi",
+    "Fransiyaga o'tdi"
+   ],
+   "correct_index": 0,
+   "page": 46
+  },
+  {
+   "question": "Navarra davlati qaysi yillarda mavjud edi?",
+   "options": [
+    "711-756",
+    "1238-1492",
+    "905-1512",
+    "1139-1415"
+   ],
+   "correct_index": 2,
+   "page": 46
+  },
+  {
+   "question": "Navarraning poytaxti qaysi shahar?",
+   "options": [
+    "Madrid",
+    "Sevilya",
+    "Lissabon",
+    "Pamplona"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Navarraning birinchi qiroli kim?",
+   "options": [
+    "Alfonso X",
+    "Afonso Enrikesh",
+    "Pedro I",
+    "Sancho Garsiya"
+   ],
+   "correct_index": 3,
+   "page": 46
+  },
+  {
+   "question": "Kastiliyada qirol markazlashgan hokimiyat uchun kimga qarshi kurashgan?",
+   "options": [
+    "Papaga",
+    "Arablarga faqat",
+    "Savdogarlarga",
+    "Zodagonlarga"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Kastiliyada qirol kimlarga tayangan?",
+   "options": [
+    "Dehqonlarga",
+    "Ruhoniylarga",
+    "Savdogarlarga faqat",
+    "Shaharliklarga"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Kortes qaysi tildan olingan?",
+   "options": [
+    "Lotin",
+    "Arab",
+    "Ispan tilidan - o'rin, joy",
+    "Fransuz"
+   ],
+   "correct_index": 2,
+   "page": 51
+  },
+  {
+   "question": "Kortesning birinchi yig'ilishi qaysi yili bo'lgan?",
+   "options": [
+    "1188-yilda",
+    "1215-yilda",
+    "1265-yilda",
+    "1137-yilda"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Kortesda dastlab kimlar ishtirok etgan?",
+   "options": [
+    "Faqat shaharliklar",
+    "Faqat dehqonlar",
+    "Ruhoniylar va zodagonlar",
+    "Qullar"
+   ],
+   "correct_index": 2,
+   "page": 47
+  },
+  {
+   "question": "1188-yildan kimlar ham qatnasha boshladi?",
+   "options": [
+    "Askarlar",
+    "Qullar",
+    "Savdogarlar faqat",
+    "Shaharliklar va dehqonlar vakillari"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Alfonso X qanday qonunlar to'plamini yaratdi?",
+   "options": [
+    "\"Xartiya\"",
+    "\"Huquqning yetti bo'limi\"",
+    "\"Sali haqiqati\"",
+    "\"Yasoq\""
+   ],
+   "correct_index": 1,
+   "page": 47
+  },
+  {
+   "question": "Alfonso X qonunlari nimaga asoslangan?",
+   "options": [
+    "Cherkov huquqiga",
+    "Arab huquqiga",
+    "Mahalliy odatga",
+    "Rim huquqiga"
+   ],
+   "correct_index": 3,
+   "page": 47
+  },
+  {
+   "question": "Kastiliya tili nimaga asos bo'ldi?",
+   "options": [
+    "Fransuz tiliga",
+    "Portugal tiliga",
+    "Lotin tiliga",
+    "Ispan adabiy tiliga"
+   ],
+   "correct_index": 3,
+   "page": 48
+  },
+  {
+   "question": "Toledo maktabi nimaning beshigiga aylandi?",
+   "options": [
+    "Universitetning",
+    "Rasadxonaning",
+    "Yevropa ilmiy tarjimashunosligining",
+    "Bankning"
+   ],
+   "correct_index": 2,
+   "page": 48
+  },
+  {
+   "question": "Toledoga olimlar nima uchun kelgan?",
+   "options": [
+    "Asarlarni tarjima qilish uchun",
+    "Savdo",
+    "Urush",
+    "Din"
+   ],
+   "correct_index": 0,
+   "page": 48
+  },
+  {
+   "question": "Toledoda qaysi olimlarning asarlari tarjima qilindi?",
+   "options": [
+    "Faqat yunon",
+    "Faqat lotin",
+    "Markaziy Osiyo olimlarining ham",
+    "Faqat nemis"
+   ],
+   "correct_index": 2,
+   "page": 48
+  },
+  {
+   "question": "Alfonso X Salamanka universitetida nima qurdirdi?",
+   "options": [
+    "Rasadxona",
+    "Kasalxona",
+    "Kutubxona",
+    "Bandargoh"
+   ],
+   "correct_index": 0,
+   "page": 48
+  },
+  {
+   "question": "Qirol Pedro I Yuz yillik urushda kimning ittifoqchisi edi?",
+   "options": [
+    "Angliyaning",
+    "Fransiyaning",
+    "Germaniyaning",
+    "Italiyaning"
+   ],
+   "correct_index": 0,
+   "page": 48
+  },
+  {
+   "question": "Portugaliya arablar tomonidan qaysi yillarda bosib olingan?",
+   "options": [
+    "868-yilda",
+    "1139-yilda",
+    "1225-yilda",
+    "713-718"
+   ],
+   "correct_index": 3,
+   "page": 49
+  },
+  {
+   "question": "Portugaliya mustaqilligini kim e'lon qildi?",
+   "options": [
+    "Vimara Peresh",
+    "Dinish",
+    "Xuan I",
+    "Afonso Enrikesh (1139)"
+   ],
+   "correct_index": 3,
+   "page": 49
+  },
+  {
+   "question": "Lissabon qaysi yildan poytaxt?",
+   "options": [
+    "1139-yildan",
+    "1225-yildan",
+    "868-yildan",
+    "1415-yildan"
+   ],
+   "correct_index": 1,
+   "page": 49
+  },
+  {
+   "question": "Portugaliya qirollari XIII asrda nima qildi?",
+   "options": [
+    "Qisqardi",
+    "Yo'qoldi",
+    "Chegaralarni kengaytirib hozirgi hududga ega bo'ldi",
+    "O'zgarmadi"
+   ],
+   "correct_index": 2,
+   "page": 49
+  },
+  {
+   "question": "Avislar sulolasidan Xuan I davrida nima boshlandi?",
+   "options": [
+    "Mustamlaka siyosati",
+    "Urush",
+    "Inqiroz",
+    "Respublika"
+   ],
+   "correct_index": 0,
+   "page": 49
+  },
+  {
+   "question": "Vasko da Gama Hindistonga qaysi yili yetdi?",
+   "options": [
+    "1415-yilda",
+    "1498-yilda",
+    "1492-yilda",
+    "1453-yilda"
+   ],
+   "correct_index": 1,
+   "page": 49
+  },
+  {
+   "question": "Qirol Genrix III qaysi sulolaga mansub?",
+   "options": [
+    "Avis",
+    "Burbon",
+    "Gabsburg",
+    "Trastamara"
+   ],
+   "correct_index": 3,
+   "page": 50
+  },
+  {
+   "question": "Genrix III dastlabki elchilarni qaysi yili yubordi?",
+   "options": [
+    "1403-yilda",
+    "1402-yilda",
+    "1404-yilda",
+    "1406-yilda"
+   ],
+   "correct_index": 1,
+   "page": 50
+  },
+  {
+   "question": "Birinchi elchilarga kim boshchilik qilgan?",
+   "options": [
+    "Klavixo",
+    "Muhammadqozi",
+    "Grinlo",
+    "Payo Sotomayor va Ernan Sanches"
+   ],
+   "correct_index": 3,
+   "page": 50
+  },
+  {
+   "question": "Klavixo kim edi?",
+   "options": [
+    "Rohib",
+    "Sarkarda",
+    "Qirol",
+    "Madridlik boy oila vakili, diplomat va sayohatchi"
+   ],
+   "correct_index": 3,
+   "page": 50
+  },
+  {
+   "question": "Klavixo Samarqandga qaysi yilda yetdi?",
+   "options": [
+    "1402-yil",
+    "1404-yil avgustda",
+    "1406-yil",
+    "1403-yil"
+   ],
+   "correct_index": 1,
+   "page": 50
+  },
+  {
+   "question": "Klavixo qaysi yili Kastiliyaga qaytdi?",
+   "options": [
+    "1404-yil",
+    "1403-yil",
+    "1402-yil",
+    "1406-yil martda"
+   ],
+   "correct_index": 3,
+   "page": 51
   }
  ]
 }

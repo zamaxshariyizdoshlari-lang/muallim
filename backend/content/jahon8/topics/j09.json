@@ -276,6 +276,369 @@
    ],
    "correct_index": 3,
    "page": 57
+  },
+  {
+   "question": "Novgorod qayerda joylashgan edi?",
+   "options": [
+    "Dengiz bo'yida",
+    "Tog'larda",
+    "Sharqiy Yevropada savdo yo'llari kesishgan strategik hududda",
+    "Cho'lda"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Novgorodda respublika qaysi yili paydo bo'ldi?",
+   "options": [
+    "1240-yilda",
+    "1380-yilda",
+    "1136-yilda",
+    "1478-yilda"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "1136-yilda Novgorodda qaysi knyaz ag'darildi?",
+   "options": [
+    "Vsevolod Mstislavich",
+    "Aleksandr",
+    "Yaroslav",
+    "Oleg"
+   ],
+   "correct_index": 0,
+   "page": 53
+  },
+  {
+   "question": "Novgorodda oliy hokimiyat kimda edi?",
+   "options": [
+    "Knyazda",
+    "Papada",
+    "Xalq vechesida",
+    "Yepiskopda"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Veche so'zi nimani anglatadi?",
+   "options": [
+    "Qirol",
+    "Qo'shin",
+    "Soliq",
+    "Qadimgi slavyan tilida kengash"
+   ],
+   "correct_index": 3,
+   "page": 57
+  },
+  {
+   "question": "Novgorodda yepiskop qanday tanlangan?",
+   "options": [
+    "Papa tayinlagan",
+    "Knyaz tayinlagan",
+    "Vecheda saylangan",
+    "Meros"
+   ],
+   "correct_index": 2,
+   "page": 53
+  },
+  {
+   "question": "Knyaz veche bilan nima qilgan?",
+   "options": [
+    "Urush qilgan",
+    "Shartnoma tuzgan",
+    "Taxtni olgan",
+    "Soliq yig'gan"
+   ],
+   "correct_index": 1,
+   "page": 53
+  },
+  {
+   "question": "Knyaz shartnomani buzsa nima bo'lgan?",
+   "options": [
+    "Qatl qilingan",
+    "Mukofotlangan",
+    "Qolgan",
+    "Veche uni haydagan"
+   ],
+   "correct_index": 3,
+   "page": 53
+  },
+  {
+   "question": "Smolensk qaysi knyaz davrida Kiyevdan mustaqil bo'ldi?",
+   "options": [
+    "Yuriy",
+    "Oleg",
+    "Rostislav Mstislavich",
+    "Vsevolod"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "1514-yilda Smolensk nima bo'ldi?",
+   "options": [
+    "Litvaga o'tdi",
+    "Rossiya tarkibiga kirdi",
+    "Mustaqil bo'ldi",
+    "Polshaga o'tdi"
+   ],
+   "correct_index": 1,
+   "page": 54
+  },
+  {
+   "question": "Vladimir-Suzdal poytaxtini Yuriy Dolgorukiy qayerdan Suzdalga ko'chirdi?",
+   "options": [
+    "Rostovdan",
+    "Kiyevdan",
+    "Moskvadan",
+    "Novgoroddan"
+   ],
+   "correct_index": 0,
+   "page": 54
+  },
+  {
+   "question": "Moskva qaysi yili asos solindi?",
+   "options": [
+    "1240-yilda",
+    "1380-yilda",
+    "1147-yilda",
+    "1478-yilda"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Andrey davrida poytaxt qayerga ko'chirildi?",
+   "options": [
+    "Moskvaga",
+    "Kiyevga",
+    "Vladimirga",
+    "Suzdalga"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "1478-yilda Novgorodga kim yurish qildi?",
+   "options": [
+    "Ivan Kalita",
+    "Dmitriy",
+    "Moskva knyazi Ivan III",
+    "Vasiliy"
+   ],
+   "correct_index": 2,
+   "page": 54
+  },
+  {
+   "question": "Moskva knyazligiga kim asos soldi?",
+   "options": [
+    "Ivan III",
+    "Daniil Aleksandrovich",
+    "Dmitriy",
+    "Yuriy"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "1383-yilda Moskva knyazligi nima qildi?",
+   "options": [
+    "Vladimir knyazligi bilan birlashdi",
+    "Ajraldi",
+    "Parchalandi",
+    "Yo'q bo'ldi"
+   ],
+   "correct_index": 0,
+   "page": 55
+  },
+  {
+   "question": "Kiyev Rusi nega parchalandi?",
+   "options": [
+    "Dengiz yo'li yo'qligidan",
+    "Siyosiy tarqoqlik, zodagonlar nizosi",
+    "Qurg'oqchilikdan",
+    "Din almashishidan"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "Mo'g'ullar rus yerlariga qaysi yili hujum qildi?",
+   "options": [
+    "1240-yilda",
+    "1380-yilda",
+    "1480-yilda",
+    "1237-yilda"
+   ],
+   "correct_index": 3,
+   "page": 55
+  },
+  {
+   "question": "Botuxon birinchi bo'lib qaysi o'lkani bosib oldi?",
+   "options": [
+    "Kiyev",
+    "Moskva",
+    "Ryazan",
+    "Novgorod"
+   ],
+   "correct_index": 2,
+   "page": 55
+  },
+  {
+   "question": "Kiyev qaysi yili qo'lga kiritildi?",
+   "options": [
+    "1240-yilda",
+    "1237-yilda",
+    "1380-yilda",
+    "1480-yilda"
+   ],
+   "correct_index": 0,
+   "page": 55
+  },
+  {
+   "question": "Mo'g'ullar imperiyasi qaysi dengizlargacha cho'zilgan edi?",
+   "options": [
+    "Qora va Kaspiy",
+    "Sariq dengizdan Boltiqqacha",
+    "Nil va Gang",
+    "Atlantika"
+   ],
+   "correct_index": 1,
+   "page": 55
+  },
+  {
+   "question": "Chingizxon qaysi yili vafot etdi?",
+   "options": [
+    "1227-yilda",
+    "1237-yilda",
+    "1206-yilda",
+    "1240-yilda"
+   ],
+   "correct_index": 0,
+   "page": 55
+  },
+  {
+   "question": "Ivan Kalita qaysi yillarda hukmronlik qilgan?",
+   "options": [
+    "1380-1389",
+    "1462-1505",
+    "1237-1240",
+    "1325-1340"
+   ],
+   "correct_index": 3,
+   "page": 56
+  },
+  {
+   "question": "Ivan Kalita 1327-yilda nimaga ega bo'ldi?",
+   "options": [
+    "Rus yerlarida soliq yig'ish huquqiga",
+    "Taxtga",
+    "Yerga",
+    "Qo'shinga"
+   ],
+   "correct_index": 0,
+   "page": 56
+  },
+  {
+   "question": "Moskva siyosiy mavqeyini kim davrida mustahkamladi?",
+   "options": [
+    "Daniil",
+    "Oleg",
+    "Dmitriy Ivanovich",
+    "Vladimir"
+   ],
+   "correct_index": 2,
+   "page": 56
+  },
+  {
+   "question": "Mamay kim edi?",
+   "options": [
+    "Rus knyazi",
+    "Oltin O'rda tumanboshisi",
+    "Papa",
+    "Xon"
+   ],
+   "correct_index": 1,
+   "page": 56
+  },
+  {
+   "question": "Mamay bilan jang qaysi daryo bo'yida bo'lgan?",
+   "options": [
+    "Don",
+    "Neva",
+    "Volga",
+    "Terek"
+   ],
+   "correct_index": 0,
+   "page": 56
+  },
+  {
+   "question": "Neva bo'yida shvedlarni kim yengdi?",
+   "options": [
+    "Dmitriy",
+    "Aleksandr Yaroslavich",
+    "Ivan",
+    "Yuriy"
+   ],
+   "correct_index": 1,
+   "page": 56
+  },
+  {
+   "question": "Aleksandr Yaroslavich qaysi nomni oldi?",
+   "options": [
+    "Donskoy",
+    "Dolgorukiy",
+    "Nevskiy",
+    "Kalita"
+   ],
+   "correct_index": 2,
+   "page": 56
+  },
+  {
+   "question": "Nemis Livoniya ritsarlari nimani egalladi?",
+   "options": [
+    "Izborsk va Pskovni",
+    "Moskva",
+    "Kiyev",
+    "Smolensk"
+   ],
+   "correct_index": 0,
+   "page": 56
+  },
+  {
+   "question": "Amir Temur va To'xtamish nechta marta jang qildi?",
+   "options": [
+    "Bir marta",
+    "Uch marta (1389, 1391, 1395)",
+    "Besh marta",
+    "O'n marta"
+   ],
+   "correct_index": 1,
+   "page": 57
+  },
+  {
+   "question": "Hal qiluvchi jang qayerda bo'lgan?",
+   "options": [
+    "Volgada",
+    "Donda",
+    "Shimoliy Kavkazda Terek (Tarak) daryosi bo'yida",
+    "Nevada"
+   ],
+   "correct_index": 2,
+   "page": 57
+  },
+  {
+   "question": "Rus yerlari mo'g'ullarga necha asr qaram bo'lgan?",
+   "options": [
+    "Yarim asr",
+    "Besh asr",
+    "Taxminan ikki asr",
+    "Ellik yil"
+   ],
+   "correct_index": 2,
+   "page": 57
   }
  ]
 }

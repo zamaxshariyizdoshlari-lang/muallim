@@ -288,6 +288,435 @@
    ],
    "correct_index": 2,
    "page": 20
+  },
+  {
+   "question": "Yuz yillik urush kimlar o'rtasida bo'lgan?",
+   "options": [
+    "Angliya va Fransiya",
+    "Fransiya va Germaniya",
+    "Angliya va Ispaniya",
+    "Fransiya va Italiya"
+   ],
+   "correct_index": 0,
+   "page": 15
+  },
+  {
+   "question": "Urushning asosiy sababi qaysi viloyat?",
+   "options": [
+    "Akvitaniya",
+    "Normandiya",
+    "Bretan",
+    "Lion"
+   ],
+   "correct_index": 0,
+   "page": 15
+  },
+  {
+   "question": "Akvitaniyadan Angliyaga nimalar olib ketilgan?",
+   "options": [
+    "Qurol, ipak",
+    "Vino, meva, zotdor otlar",
+    "Temir, tuz",
+    "Qul, teri"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "Flandriya sanoati kimlarning jun xomashyosiga muhtoj edi?",
+   "options": [
+    "Fransuzlarning",
+    "Ispanlarning",
+    "Inglizlarning",
+    "Nemislarning"
+   ],
+   "correct_index": 2,
+   "page": 15
+  },
+  {
+   "question": "Filipp IV qaysi yili vafot etgan?",
+   "options": [
+    "1302-yilda",
+    "1337-yilda",
+    "1356-yilda",
+    "1314-yilda"
+   ],
+   "correct_index": 3,
+   "page": 15
+  },
+  {
+   "question": "Filipp VI qaysi xonadondan?",
+   "options": [
+    "Kapetinglar",
+    "Valualar",
+    "Karolinglar",
+    "Lankasterlar"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "Eduard III Filipp IV ning nimasi edi?",
+   "options": [
+    "O'g'li",
+    "Qizining o'g'li (nabirasi)",
+    "Ukasi",
+    "Otasi"
+   ],
+   "correct_index": 1,
+   "page": 15
+  },
+  {
+   "question": "Fransuz qo'shinida piyoda askarlar kimlardan iborat edi?",
+   "options": [
+    "Yollanma ajnabiylardan",
+    "Dehqonlardan",
+    "Ritsarlardan",
+    "Shaharliklardan"
+   ],
+   "correct_index": 0,
+   "page": 16
+  },
+  {
+   "question": "Fransuz ritsarlari piyoda askarlarga qanday qaragan?",
+   "options": [
+    "Teng deb",
+    "Ijtimoiy jihatdan past deb",
+    "Hurmat bilan",
+    "Qo'rquv bilan"
+   ],
+   "correct_index": 1,
+   "page": 16
+  },
+  {
+   "question": "Ingliz piyoda askarlari qanday atalgan?",
+   "options": [
+    "Ritsarlar",
+    "Lordlar",
+    "Yomenlar",
+    "Sheriflar"
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "Yomenlar qanday qurol bilan jang qilgan?",
+   "options": [
+    "Nayza",
+    "Qilich",
+    "Zambarak",
+    "Katta (uzun) kamonlar"
+   ],
+   "correct_index": 3,
+   "page": 16
+  },
+  {
+   "question": "Kamonchilar o'qni qancha qadam masofagacha ota olgan?",
+   "options": [
+    "60 qadam",
+    "6000 qadam",
+    "600 qadam",
+    "20 qadam"
+   ],
+   "correct_index": 2,
+   "page": 16
+  },
+  {
+   "question": "200 qadamdan o'q nima qilgan?",
+   "options": [
+    "Qalqonni yirtgan",
+    "Otni o'ldirgan",
+    "Hech narsa",
+    "Ritsarni teshib o'tgan"
+   ],
+   "correct_index": 3,
+   "page": 16
+  },
+  {
+   "question": "Ingliz g'alabasini nima ta'minlagan?",
+   "options": [
+    "Ritsarlar",
+    "Fillar",
+    "Dengiz floti",
+    "Intizomli kamonchilar"
+   ],
+   "correct_index": 3,
+   "page": 16
+  },
+  {
+   "question": "Eduard III Kale portini qaysi yili bosib oldi?",
+   "options": [
+    "1337-yilda",
+    "1347-yilda",
+    "1356-yilda",
+    "1360-yilda"
+   ],
+   "correct_index": 1,
+   "page": 16
+  },
+  {
+   "question": "1356-yilgi Puate jangida fransuz qiroli kim asir tushdi?",
+   "options": [
+    "Filipp VI",
+    "Karl V",
+    "Ioann Saxiy",
+    "Karl VII"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "Qirol asir tushganda mamlakatni kim idora qildi?",
+   "options": [
+    "Eduard",
+    "Filipp",
+    "Dofin Karl",
+    "Ioann"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "Jakeriya qo'zg'oloni qayerda boshlandi?",
+   "options": [
+    "Parijda",
+    "Bove viloyatida",
+    "Orleanda",
+    "Reymsda"
+   ],
+   "correct_index": 1,
+   "page": 17
+  },
+  {
+   "question": "Jakeriya qo'zg'olonida qancha dehqon qatnashdi?",
+   "options": [
+    "10 ming",
+    "1000",
+    "100 mingdan ortiq",
+    "100"
+   ],
+   "correct_index": 2,
+   "page": 17
+  },
+  {
+   "question": "Qo'zg'olonchilar bayrog'iga nima tushirgan?",
+   "options": [
+    "Burgut",
+    "Sher",
+    "Xoch",
+    "Qirolning gerbi - oq nilufar"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Qo'zg'olonga kim rahbarlik qildi?",
+   "options": [
+    "Janna d'Ark",
+    "Karl V",
+    "Filipp VI",
+    "Gilyom Kal"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Qo'zg'olonchilar kimga qarshi kuchli nafratda edi?",
+   "options": [
+    "Qirolga",
+    "Papaga",
+    "Savdogarlarga",
+    "Zodagonlarga"
+   ],
+   "correct_index": 3,
+   "page": 17
+  },
+  {
+   "question": "Fransuz qiroli Karl V sulh qaysi yili imzoladi?",
+   "options": [
+    "1337-yilda",
+    "1356-yilda",
+    "1360-yilda",
+    "1429-yilda"
+   ],
+   "correct_index": 2,
+   "page": 18
+  },
+  {
+   "question": "Sulh natijasida nima bo'ldi?",
+   "options": [
+    "Angliya chekindi",
+    "Urush tugadi",
+    "Fransiya kengaydi",
+    "Shimoli va g'arbiy hududlar Angliyaga o'tdi"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Sulhdan keyin Karl V nima qildi?",
+   "options": [
+    "Taxtdan voz kechdi",
+    "Papaga bo'ysundi",
+    "Zodagonlarni bo'ysundirdi, qo'shin va flot tuzdi",
+    "Soliqni bekor qildi"
+   ],
+   "correct_index": 2,
+   "page": 18
+  },
+  {
+   "question": "Orlean qamali necha kun davom etdi?",
+   "options": [
+    "Yigirma kun",
+    "Ikki yuz kun",
+    "Bir yil",
+    "O'n kun"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Janna d'Ark qayerda tug'ilgan?",
+   "options": [
+    "Domremi qishlog'ida",
+    "Orleanda",
+    "Parijda",
+    "Reymsda"
+   ],
+   "correct_index": 0,
+   "page": 18
+  },
+  {
+   "question": "Janna d'Ark qanday oilada tug'ilgan?",
+   "options": [
+    "Zodagon",
+    "Qirol",
+    "Savdogar",
+    "Dehqon oilasida"
+   ],
+   "correct_index": 3,
+   "page": 18
+  },
+  {
+   "question": "Bolaligida uni qanday chaqirishgan?",
+   "options": [
+    "Mari",
+    "Jannet",
+    "Anna",
+    "Izabella"
+   ],
+   "correct_index": 1,
+   "page": 18
+  },
+  {
+   "question": "Orlean qaysi yili ozod qilindi?",
+   "options": [
+    "1337-yilda",
+    "1431-yilda",
+    "1453-yilda",
+    "1429-yilda"
+   ],
+   "correct_index": 3,
+   "page": 19
+  },
+  {
+   "question": "Xalq Janna d'Arkka qanday nom berdi?",
+   "options": [
+    "\"Fransiya qizi\"",
+    "\"Xalq qizi\"",
+    "\"Jasur qiz\"",
+    "\"Orlean qizi\""
+   ],
+   "correct_index": 3,
+   "page": 19
+  },
+  {
+   "question": "Karl VII qayerda tantanali taxtga o'tirdi?",
+   "options": [
+    "Parijda",
+    "Orleanda",
+    "Reyms shahrida",
+    "Versalda"
+   ],
+   "correct_index": 2,
+   "page": 19
+  },
+  {
+   "question": "Janna d'Ark kimga asir tushdi?",
+   "options": [
+    "Burgundlarga",
+    "Inglizlarga",
+    "Papaga",
+    "Qirolga"
+   ],
+   "correct_index": 0,
+   "page": 19
+  },
+  {
+   "question": "Burgundlar Jannani kimga sotdilar?",
+   "options": [
+    "Fransuzlarga",
+    "Papaga",
+    "Inglizlarga",
+    "Qirolga"
+   ],
+   "correct_index": 2,
+   "page": 19
+  },
+  {
+   "question": "Janna d'Ark qaysi sudda hukm qilindi?",
+   "options": [
+    "Qirol sudida",
+    "Parlamentda",
+    "Xalq sudida",
+    "Inkvizitsiya (cherkov) sudida"
+   ],
+   "correct_index": 3,
+   "page": 19
+  },
+  {
+   "question": "Janna d'Ark qaysi yili va qayerda yoqildi?",
+   "options": [
+    "1429-yil Orleanda",
+    "1431-yil 30-may Ruanda",
+    "1456-yil Parijda",
+    "1453-yil Kaleda"
+   ],
+   "correct_index": 1,
+   "page": 19
+  },
+  {
+   "question": "Janna d'Ark qaysi yili oqlandi?",
+   "options": [
+    "1456-yilda",
+    "1431-yilda",
+    "1453-yilda",
+    "1429-yilda"
+   ],
+   "correct_index": 0,
+   "page": 19
+  },
+  {
+   "question": "Yuz yillik urush qaysi yili tugadi?",
+   "options": [
+    "1431-yilda",
+    "1453-yilda",
+    "1429-yilda",
+    "1456-yilda"
+   ],
+   "correct_index": 1,
+   "page": 19
+  },
+  {
+   "question": "Dofin nima?",
+   "options": [
+    "Qirol vaziri",
+    "Taxt vorisi, rasmiy toj kiygunga qadar vaqtincha qirol",
+    "Papa vakili",
+    "Savdo boshlig'i"
+   ],
+   "correct_index": 1,
+   "page": 20
   }
  ]
 }

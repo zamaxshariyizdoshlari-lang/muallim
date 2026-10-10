@@ -291,6 +291,358 @@
        ],
        "correct_index": 2,
        "page": 13
+      },
+      {
+       "question": "Verden shartnomasi qaysi yili tuzilgan?",
+       "options": [
+        "987-yilda",
+        "843-yilda",
+        "1302-yilda",
+        "1214-yilda"
+       ],
+       "correct_index": 1,
+       "page": 9
+      },
+      {
+       "question": "Kapetinglar sulolasining dastlabki vakili kim?",
+       "options": [
+        "Lyudovik V",
+        "Filipp IV",
+        "Gugo Kapet",
+        "Karl V"
+       ],
+       "correct_index": 2,
+       "page": 9
+      },
+      {
+       "question": "Karolinglarning so'nggi vakili kim edi?",
+       "options": [
+        "Gugo Kapet",
+        "Karl Martell",
+        "Pipin",
+        "Lyudovik V"
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Fransiya nechta mustaqil mulkka bo'linib ketgan edi?",
+       "options": [
+        "4 ta",
+        "40 ta",
+        "100 ta",
+        "14 ta"
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Mulklarni kimlar boshqargan?",
+       "options": [
+        "Gersog va graflardan iborat feodallar",
+        "Qirol vakillari",
+        "Ruhoniylar",
+        "Savdogarlar"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Qaysi grafliklar qiroldan ko'proq yer-mulkka ega edi?",
+       "options": [
+        "Burgundiya, Normandiya, Akvitaniya",
+        "Parij, Lion",
+        "Shampan, Navarra",
+        "Flandriya, Bretan"
+       ],
+       "correct_index": 0,
+       "page": 9
+      },
+      {
+       "question": "Yirik gersog va graflar qirolni qanday hisoblagan?",
+       "options": [
+        "\"Hukmdori\"",
+        "\"Quli\"",
+        "\"Vassali\"",
+        "\"Tenglarning birinchisi\""
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Normandiya nimaga ixtisoslashgan edi?",
+       "options": [
+        "Movutga",
+        "Vinoga",
+        "Ipakka",
+        "Temirchilik, tuz ishlab chiqarish, qoramol va yilqi"
+       ],
+       "correct_index": 3,
+       "page": 9
+      },
+      {
+       "question": "Burgundiya va Shampan nimaga ixtisoslashgan?",
+       "options": [
+        "Temirga",
+        "Movut va vinochilikka",
+        "Tuzga",
+        "Qurolga"
+       ],
+       "correct_index": 1,
+       "page": 9
+      },
+      {
+       "question": "Fransiyadagi eng yirik savdo markazi qaysi shahar edi?",
+       "options": [
+        "Lion",
+        "Marsel",
+        "Parij",
+        "Tuluza"
+       ],
+       "correct_index": 2,
+       "page": 9
+      },
+      {
+       "question": "Fransiyani birlashtirish jarayoni qaysi qirol davrida boshlandi?",
+       "options": [
+        "Filipp II",
+        "Filipp IV",
+        "Lyudovik XI",
+        "Lyudovik VI"
+       ],
+       "correct_index": 3,
+       "page": 10
+      },
+      {
+       "question": "Lyudovik VI qaysi shaharlarni bo'ysundirdi?",
+       "options": [
+        "Parij, Lion",
+        "Tuluza",
+        "Burj va Sans",
+        "Reyms"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Birlashtirish yo'lidagi eng katta to'siq nima edi?",
+       "options": [
+        "Angliyaning Fransiyadagi mulklari",
+        "Cherkov",
+        "Savdo",
+        "Dengiz"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Lyudovik VII Akvitaniya malikasi kim bilan uylangan?",
+       "options": [
+        "Eleonora",
+        "Margarita",
+        "Izabella",
+        "Mariya"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Filipp II Avgust nimalarni qo'shib oldi?",
+       "options": [
+        "Normandiya, Men, Anju, Tyuren va Puatyening bir qismini",
+        "Burgundiyani",
+        "Flandriyani",
+        "Bretanni"
+       ],
+       "correct_index": 0,
+       "page": 10
+      },
+      {
+       "question": "Bu hududlar Fransiyaga nimani ta'minladi?",
+       "options": [
+        "O'rta dengizga chiqishni",
+        "Qora dengizga chiqishni",
+        "Atlantika va La Manshga chiqishni",
+        "Baltikka chiqishni"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Qirol mulklari nechta viloyatga bo'lingan?",
+       "options": [
+        "5 ta",
+        "20 ta",
+        "12 ta",
+        "50 ta"
+       ],
+       "correct_index": 1,
+       "page": 10
+      },
+      {
+       "question": "Mahalliy hokimlar qaysi vakolatlarga ega edi?",
+       "options": [
+        "Faqat sud",
+        "Faqat soliq",
+        "Sud qilish, soliq yig'ish, qo'shin to'plash, hisobot berish",
+        "Faqat qo'shin"
+       ],
+       "correct_index": 2,
+       "page": 10
+      },
+      {
+       "question": "Filipp IV qaysi yillarda hukmronlik qilgan?",
+       "options": [
+        "1180-1223",
+        "1223-1226",
+        "1285-1314",
+        "1461-1483"
+       ],
+       "correct_index": 2,
+       "page": 11
+      },
+      {
+       "question": "Filipp IV davrida o'lkaning qancha qismi birlashtirildi?",
+       "options": [
+        "1/4 qismi",
+        "Yarmi",
+        "3/4 qismi",
+        "Hammasi"
+       ],
+       "correct_index": 2,
+       "page": 11
+      },
+      {
+       "question": "Qaysi viloyatlar hali Fransiyaga qo'shilmagan edi?",
+       "options": [
+        "Flandriya, Bretan, Akvitaniya, Burgundiya",
+        "Shampan, Lion",
+        "Navarra, Shampan",
+        "Normandiya, Men"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "Papa Bonifatsiy VIII qaysi yillarda papa edi?",
+       "options": [
+        "1198-1216",
+        "1294-1303",
+        "1095-1099",
+        "1227-1241"
+       ],
+       "correct_index": 1,
+       "page": 11
+      },
+      {
+       "question": "Bonifatsiy VIII Filipp IV dan nimani talab qildi?",
+       "options": [
+        "Taxtdan voz kechishni",
+        "Flandriyaga yurishni to'xtatishni",
+        "Soliq to'lashni",
+        "Rimga kelishni"
+       ],
+       "correct_index": 1,
+       "page": 11
+      },
+      {
+       "question": "Filipp IV nimaga soliq solmoqchi bo'ldi?",
+       "options": [
+        "Faqat dehqonlarga",
+        "Cherkovga ham",
+        "Faqat shaharliklarga",
+        "Faqat dvoryanlarga"
+       ],
+       "correct_index": 1,
+       "page": 11
+      },
+      {
+       "question": "Papa Filipp IV ga qarshi nimani e'lon qilmoqchi bo'ldi?",
+       "options": [
+        "Anafema",
+        "Interdikt",
+        "Salib yurishi",
+        "Urush"
+       ],
+       "correct_index": 0,
+       "page": 11
+      },
+      {
+       "question": "General shtatlar qayerda chaqirilgan?",
+       "options": [
+        "Versalda",
+        "Reymsda",
+        "Parijning bosh ibodatxonasida",
+        "Orleanda"
+       ],
+       "correct_index": 2,
+       "page": 12
+      },
+      {
+       "question": "General shtatlar nechta palatadan iborat edi?",
+       "options": [
+        "Uchta",
+        "Ikkita",
+        "To'rtta",
+        "Beshta"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "General shtatlarda ovoz berishda kimlar ustun edi?",
+       "options": [
+        "Ruhoniylar va dvoryanlar (bir ovozga qarshi ikki ovoz)",
+        "Shaharliklar",
+        "Dehqonlar",
+        "Qirol vakillari"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "General shtatlar qonun qabul qilish huquqiga egami?",
+       "options": [
+        "Yo'q",
+        "Ha",
+        "Faqat soliqda",
+        "Faqat urushda"
+       ],
+       "correct_index": 0,
+       "page": 12
+      },
+      {
+       "question": "1357-yilda General shtatlar nima talab qildi?",
+       "options": [
+        "Taxtni",
+        "Papani",
+        "Soliq yig'ish va mablag'ni nazorat qilish huquqini",
+        "Urushni"
+       ],
+       "correct_index": 2,
+       "page": 13
+      },
+      {
+       "question": "Qirol 1357-yildagi talablarga nima qildi?",
+       "options": [
+        "Rad etdi",
+        "Majbur bo'lib qabul qildi, keyin mavqeyini tikladi",
+        "Taxtdan voz kechdi",
+        "Qochdi"
+       ],
+       "correct_index": 1,
+       "page": 13
+      },
+      {
+       "question": "XIV asrda Fransiyada qaysi monarxiya paydo bo'ldi?",
+       "options": [
+        "Mutlaq monarxiya",
+        "Respublika",
+        "Toifaviy monarxiya",
+        "Teokratiya"
+       ],
+       "correct_index": 2,
+       "page": 13
       }
      ]
     },
@@ -584,6 +936,435 @@
        ],
        "correct_index": 2,
        "page": 20
+      },
+      {
+       "question": "Yuz yillik urush kimlar o'rtasida bo'lgan?",
+       "options": [
+        "Angliya va Fransiya",
+        "Fransiya va Germaniya",
+        "Angliya va Ispaniya",
+        "Fransiya va Italiya"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Urushning asosiy sababi qaysi viloyat?",
+       "options": [
+        "Akvitaniya",
+        "Normandiya",
+        "Bretan",
+        "Lion"
+       ],
+       "correct_index": 0,
+       "page": 15
+      },
+      {
+       "question": "Akvitaniyadan Angliyaga nimalar olib ketilgan?",
+       "options": [
+        "Qurol, ipak",
+        "Vino, meva, zotdor otlar",
+        "Temir, tuz",
+        "Qul, teri"
+       ],
+       "correct_index": 1,
+       "page": 15
+      },
+      {
+       "question": "Flandriya sanoati kimlarning jun xomashyosiga muhtoj edi?",
+       "options": [
+        "Fransuzlarning",
+        "Ispanlarning",
+        "Inglizlarning",
+        "Nemislarning"
+       ],
+       "correct_index": 2,
+       "page": 15
+      },
+      {
+       "question": "Filipp IV qaysi yili vafot etgan?",
+       "options": [
+        "1302-yilda",
+        "1337-yilda",
+        "1356-yilda",
+        "1314-yilda"
+       ],
+       "correct_index": 3,
+       "page": 15
+      },
+      {
+       "question": "Filipp VI qaysi xonadondan?",
+       "options": [
+        "Kapetinglar",
+        "Valualar",
+        "Karolinglar",
+        "Lankasterlar"
+       ],
+       "correct_index": 1,
+       "page": 15
+      },
+      {
+       "question": "Eduard III Filipp IV ning nimasi edi?",
+       "options": [
+        "O'g'li",
+        "Qizining o'g'li (nabirasi)",
+        "Ukasi",
+        "Otasi"
+       ],
+       "correct_index": 1,
+       "page": 15
+      },
+      {
+       "question": "Fransuz qo'shinida piyoda askarlar kimlardan iborat edi?",
+       "options": [
+        "Yollanma ajnabiylardan",
+        "Dehqonlardan",
+        "Ritsarlardan",
+        "Shaharliklardan"
+       ],
+       "correct_index": 0,
+       "page": 16
+      },
+      {
+       "question": "Fransuz ritsarlari piyoda askarlarga qanday qaragan?",
+       "options": [
+        "Teng deb",
+        "Ijtimoiy jihatdan past deb",
+        "Hurmat bilan",
+        "Qo'rquv bilan"
+       ],
+       "correct_index": 1,
+       "page": 16
+      },
+      {
+       "question": "Ingliz piyoda askarlari qanday atalgan?",
+       "options": [
+        "Ritsarlar",
+        "Lordlar",
+        "Yomenlar",
+        "Sheriflar"
+       ],
+       "correct_index": 2,
+       "page": 16
+      },
+      {
+       "question": "Yomenlar qanday qurol bilan jang qilgan?",
+       "options": [
+        "Nayza",
+        "Qilich",
+        "Zambarak",
+        "Katta (uzun) kamonlar"
+       ],
+       "correct_index": 3,
+       "page": 16
+      },
+      {
+       "question": "Kamonchilar o'qni qancha qadam masofagacha ota olgan?",
+       "options": [
+        "60 qadam",
+        "6000 qadam",
+        "600 qadam",
+        "20 qadam"
+       ],
+       "correct_index": 2,
+       "page": 16
+      },
+      {
+       "question": "200 qadamdan o'q nima qilgan?",
+       "options": [
+        "Qalqonni yirtgan",
+        "Otni o'ldirgan",
+        "Hech narsa",
+        "Ritsarni teshib o'tgan"
+       ],
+       "correct_index": 3,
+       "page": 16
+      },
+      {
+       "question": "Ingliz g'alabasini nima ta'minlagan?",
+       "options": [
+        "Ritsarlar",
+        "Fillar",
+        "Dengiz floti",
+        "Intizomli kamonchilar"
+       ],
+       "correct_index": 3,
+       "page": 16
+      },
+      {
+       "question": "Eduard III Kale portini qaysi yili bosib oldi?",
+       "options": [
+        "1337-yilda",
+        "1347-yilda",
+        "1356-yilda",
+        "1360-yilda"
+       ],
+       "correct_index": 1,
+       "page": 16
+      },
+      {
+       "question": "1356-yilgi Puate jangida fransuz qiroli kim asir tushdi?",
+       "options": [
+        "Filipp VI",
+        "Karl V",
+        "Ioann Saxiy",
+        "Karl VII"
+       ],
+       "correct_index": 2,
+       "page": 17
+      },
+      {
+       "question": "Qirol asir tushganda mamlakatni kim idora qildi?",
+       "options": [
+        "Eduard",
+        "Filipp",
+        "Dofin Karl",
+        "Ioann"
+       ],
+       "correct_index": 2,
+       "page": 17
+      },
+      {
+       "question": "Jakeriya qo'zg'oloni qayerda boshlandi?",
+       "options": [
+        "Parijda",
+        "Bove viloyatida",
+        "Orleanda",
+        "Reymsda"
+       ],
+       "correct_index": 1,
+       "page": 17
+      },
+      {
+       "question": "Jakeriya qo'zg'olonida qancha dehqon qatnashdi?",
+       "options": [
+        "10 ming",
+        "1000",
+        "100 mingdan ortiq",
+        "100"
+       ],
+       "correct_index": 2,
+       "page": 17
+      },
+      {
+       "question": "Qo'zg'olonchilar bayrog'iga nima tushirgan?",
+       "options": [
+        "Burgut",
+        "Sher",
+        "Xoch",
+        "Qirolning gerbi - oq nilufar"
+       ],
+       "correct_index": 3,
+       "page": 17
+      },
+      {
+       "question": "Qo'zg'olonga kim rahbarlik qildi?",
+       "options": [
+        "Janna d'Ark",
+        "Karl V",
+        "Filipp VI",
+        "Gilyom Kal"
+       ],
+       "correct_index": 3,
+       "page": 17
+      },
+      {
+       "question": "Qo'zg'olonchilar kimga qarshi kuchli nafratda edi?",
+       "options": [
+        "Qirolga",
+        "Papaga",
+        "Savdogarlarga",
+        "Zodagonlarga"
+       ],
+       "correct_index": 3,
+       "page": 17
+      },
+      {
+       "question": "Fransuz qiroli Karl V sulh qaysi yili imzoladi?",
+       "options": [
+        "1337-yilda",
+        "1356-yilda",
+        "1360-yilda",
+        "1429-yilda"
+       ],
+       "correct_index": 2,
+       "page": 18
+      },
+      {
+       "question": "Sulh natijasida nima bo'ldi?",
+       "options": [
+        "Angliya chekindi",
+        "Urush tugadi",
+        "Fransiya kengaydi",
+        "Shimoli va g'arbiy hududlar Angliyaga o'tdi"
+       ],
+       "correct_index": 3,
+       "page": 18
+      },
+      {
+       "question": "Sulhdan keyin Karl V nima qildi?",
+       "options": [
+        "Taxtdan voz kechdi",
+        "Papaga bo'ysundi",
+        "Zodagonlarni bo'ysundirdi, qo'shin va flot tuzdi",
+        "Soliqni bekor qildi"
+       ],
+       "correct_index": 2,
+       "page": 18
+      },
+      {
+       "question": "Orlean qamali necha kun davom etdi?",
+       "options": [
+        "Yigirma kun",
+        "Ikki yuz kun",
+        "Bir yil",
+        "O'n kun"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Janna d'Ark qayerda tug'ilgan?",
+       "options": [
+        "Domremi qishlog'ida",
+        "Orleanda",
+        "Parijda",
+        "Reymsda"
+       ],
+       "correct_index": 0,
+       "page": 18
+      },
+      {
+       "question": "Janna d'Ark qanday oilada tug'ilgan?",
+       "options": [
+        "Zodagon",
+        "Qirol",
+        "Savdogar",
+        "Dehqon oilasida"
+       ],
+       "correct_index": 3,
+       "page": 18
+      },
+      {
+       "question": "Bolaligida uni qanday chaqirishgan?",
+       "options": [
+        "Mari",
+        "Jannet",
+        "Anna",
+        "Izabella"
+       ],
+       "correct_index": 1,
+       "page": 18
+      },
+      {
+       "question": "Orlean qaysi yili ozod qilindi?",
+       "options": [
+        "1337-yilda",
+        "1431-yilda",
+        "1453-yilda",
+        "1429-yilda"
+       ],
+       "correct_index": 3,
+       "page": 19
+      },
+      {
+       "question": "Xalq Janna d'Arkka qanday nom berdi?",
+       "options": [
+        "\"Fransiya qizi\"",
+        "\"Xalq qizi\"",
+        "\"Jasur qiz\"",
+        "\"Orlean qizi\""
+       ],
+       "correct_index": 3,
+       "page": 19
+      },
+      {
+       "question": "Karl VII qayerda tantanali taxtga o'tirdi?",
+       "options": [
+        "Parijda",
+        "Orleanda",
+        "Reyms shahrida",
+        "Versalda"
+       ],
+       "correct_index": 2,
+       "page": 19
+      },
+      {
+       "question": "Janna d'Ark kimga asir tushdi?",
+       "options": [
+        "Burgundlarga",
+        "Inglizlarga",
+        "Papaga",
+        "Qirolga"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Burgundlar Jannani kimga sotdilar?",
+       "options": [
+        "Fransuzlarga",
+        "Papaga",
+        "Inglizlarga",
+        "Qirolga"
+       ],
+       "correct_index": 2,
+       "page": 19
+      },
+      {
+       "question": "Janna d'Ark qaysi sudda hukm qilindi?",
+       "options": [
+        "Qirol sudida",
+        "Parlamentda",
+        "Xalq sudida",
+        "Inkvizitsiya (cherkov) sudida"
+       ],
+       "correct_index": 3,
+       "page": 19
+      },
+      {
+       "question": "Janna d'Ark qaysi yili va qayerda yoqildi?",
+       "options": [
+        "1429-yil Orleanda",
+        "1431-yil 30-may Ruanda",
+        "1456-yil Parijda",
+        "1453-yil Kaleda"
+       ],
+       "correct_index": 1,
+       "page": 19
+      },
+      {
+       "question": "Janna d'Ark qaysi yili oqlandi?",
+       "options": [
+        "1456-yilda",
+        "1431-yilda",
+        "1453-yilda",
+        "1429-yilda"
+       ],
+       "correct_index": 0,
+       "page": 19
+      },
+      {
+       "question": "Yuz yillik urush qaysi yili tugadi?",
+       "options": [
+        "1431-yilda",
+        "1453-yilda",
+        "1429-yilda",
+        "1456-yilda"
+       ],
+       "correct_index": 1,
+       "page": 19
+      },
+      {
+       "question": "Dofin nima?",
+       "options": [
+        "Qirol vaziri",
+        "Taxt vorisi, rasmiy toj kiygunga qadar vaqtincha qirol",
+        "Papa vakili",
+        "Savdo boshlig'i"
+       ],
+       "correct_index": 1,
+       "page": 20
       }
      ]
     },
@@ -821,6 +1602,270 @@
        ],
        "correct_index": 1,
        "page": 22
+      },
+      {
+       "question": "Yuz yillik urushdan keyin Fransiyada kimlar hududni bo'lib olgan edi?",
+       "options": [
+        "Inglizlar",
+        "O'zboshimcha mahalliy zodagonlar",
+        "Cherkov",
+        "Dehqonlar"
+       ],
+       "correct_index": 1,
+       "page": 22
+      },
+      {
+       "question": "Lyudovik XI qaysi yillarda qirol bo'lgan?",
+       "options": [
+        "1461-1483",
+        "1285-1314",
+        "1422-1461",
+        "1337-1453"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Frank-Burgund urushlarida Lyudovik XI kimga qarshi kurashgan?",
+       "options": [
+        "Angliyaga",
+        "Burgundiya gersogi Karl Jasurga",
+        "Papaga",
+        "Ispaniyaga"
+       ],
+       "correct_index": 1,
+       "page": 22
+      },
+      {
+       "question": "Zodagonlar ittifoqi qanday atalgan?",
+       "options": [
+        "\"Xalq ittifoqi\"",
+        "\"Qirol do'stlari\"",
+        "\"Jamiyat baxt-saodati\"",
+        "\"Birlik\""
+       ],
+       "correct_index": 2,
+       "page": 22
+      },
+      {
+       "question": "Zodagonlar ittifoqi rahbari kim edi?",
+       "options": [
+        "Lyudovik XI",
+        "Filipp IV",
+        "Karl VII",
+        "Karl Jasur"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "Urush Fransiya iqtisodiyotiga qanday ta'sir qildi?",
+       "options": [
+        "Boyitdi",
+        "Shahar va qishloqlar vayron bo'ldi, savdo izdan chiqdi",
+        "O'zgartirmadi",
+        "Kuchaytirdi"
+       ],
+       "correct_index": 1,
+       "page": 22
+      },
+      {
+       "question": "Dehqon va hunarmandlar urushdan keyin nima qildi?",
+       "options": [
+        "Xo'jalikni tezda tiklashga harakat qildi",
+        "Qochdi",
+        "Isyon ko'tardi",
+        "Ishlamadi"
+       ],
+       "correct_index": 0,
+       "page": 22
+      },
+      {
+       "question": "Urushdan keyin dehqonlar nimani sota boshladi?",
+       "options": [
+        "Qurol",
+        "Ipak",
+        "Qul",
+        "G'allani qo'shni o'lkalarga"
+       ],
+       "correct_index": 3,
+       "page": 22
+      },
+      {
+       "question": "Lyudovik XI qanday qo'shin tuzdi?",
+       "options": [
+        "Xalq lashkari",
+        "Dengiz floti",
+        "Fillar",
+        "Ritsarlar va yollanma askarlardan doimiy qo'shin"
+       ],
+       "correct_index": 3,
+       "page": 23
+      },
+      {
+       "question": "Qo'shin ta'minoti uchun nima joriy qilindi?",
+       "options": [
+        "Yillik soliq",
+        "Zakot",
+        "Ushr",
+        "Boj"
+       ],
+       "correct_index": 0,
+       "page": 23
+      },
+      {
+       "question": "Gersog va graflar o'z mulklarini saqlab qoldimi?",
+       "options": [
+        "Yo'q, musodara",
+        "Ha, lekin siyosiy mustaqilligi yo'q edi",
+        "Ha, to'liq mustaqil",
+        "Qirolga bergan"
+       ],
+       "correct_index": 1,
+       "page": 23
+      },
+      {
+       "question": "Mamlakatning ichki va tashqi siyosatini kim belgilagan?",
+       "options": [
+        "General shtatlar",
+        "Papa",
+        "Gersoglar",
+        "Qirolning o'zi"
+       ],
+       "correct_index": 3,
+       "page": 23
+      },
+      {
+       "question": "Davlat amaldorlari kimdan maosh olgan?",
+       "options": [
+        "Papadan",
+        "Qiroldan",
+        "Feodaldan",
+        "Xalqdan"
+       ],
+       "correct_index": 1,
+       "page": 23
+      },
+      {
+       "question": "Lyudovik XI hazil tariqasida nima degan?",
+       "options": [
+        "\"Men yolg'izman\"",
+        "\"Men hamma maslahatchilarni otimning egarida olib yuraman\"",
+        "\"Hamma menga kerak\"",
+        "\"Maslahat shart\""
+       ],
+       "correct_index": 1,
+       "page": 23
+      },
+      {
+       "question": "Lyudovik XI General shtatlarni necha marta chaqirdi?",
+       "options": [
+        "Har yili",
+        "Hech qachon",
+        "O'n marta",
+        "Bir marta"
+       ],
+       "correct_index": 3,
+       "page": 23
+      },
+      {
+       "question": "XV asr oxiriga kelib Fransiya qaysi monarxiyaga aylandi?",
+       "options": [
+        "Toifaviy monarxiyaga",
+        "Respublikaga",
+        "Mutlaq monarxiyaga",
+        "Teokratiyaga"
+       ],
+       "correct_index": 2,
+       "page": 23
+      },
+      {
+       "question": "Fransiya birlashgach kimlar qirolga soliq to'lay boshladi?",
+       "options": [
+        "Faqat zodagonlar",
+        "Faqat ruhoniylar",
+        "Dehqonlar, hunarmandlar, shaharliklar",
+        "Hech kim"
+       ],
+       "correct_index": 2,
+       "page": 24
+      },
+      {
+       "question": "Kuchli qirol hokimiyati kimning hukmronligini mustahkamladi?",
+       "options": [
+        "Dehqonlar",
+        "Feodallarning qaram dehqonlar ustidan hukmronligini",
+        "Papa",
+        "Savdogarlar"
+       ],
+       "correct_index": 1,
+       "page": 24
+      },
+      {
+       "question": "Feodallar nima qila olmaydigan bo'ldi?",
+       "options": [
+        "Soliq yig'ish",
+        "Yerga egalik",
+        "O'zboshimchalik bilan qishloq va shaharlarni talash",
+        "Qo'shin saqlash"
+       ],
+       "correct_index": 2,
+       "page": 24
+      },
+      {
+       "question": "Savdogarlar nima qila boshladi?",
+       "options": [
+        "Qochdi",
+        "Urush qildi",
+        "Yashirindi",
+        "Butun mamlakat bo'ylab xavfsiz savdo"
+       ],
+       "correct_index": 3,
+       "page": 24
+      },
+      {
+       "question": "Lion shahri nima markaziga aylandi?",
+       "options": [
+        "Vinochilik",
+        "Shoyi ishlab chiqarish va to'qimachilik",
+        "Qurolsozlik",
+        "Kemasozlik"
+       ],
+       "correct_index": 1,
+       "page": 24
+      },
+      {
+       "question": "Lionga Italiyadan kimlar olib kelindi?",
+       "options": [
+        "Rassomlar",
+        "Ipak gazlama to'quvchi mohir ustalar",
+        "Askarlar",
+        "Rohiblar"
+       ],
+       "correct_index": 1,
+       "page": 24
+      },
+      {
+       "question": "Fransiyada nimalar yagona qilindi?",
+       "options": [
+        "Pul, o'lchov va og'irlik birliklari",
+        "Til va din",
+        "Qonun faqat",
+        "Qo'shin faqat"
+       ],
+       "correct_index": 0,
+       "page": 24
+      },
+      {
+       "question": "Fransiyada nima tashkil qilindi?",
+       "options": [
+        "Dengiz qaroqchiligi",
+        "Armiya akademiyasi",
+        "Ulkan savdo floti",
+        "Universitet"
+       ],
+       "correct_index": 2,
+       "page": 24
       }
      ]
     },
@@ -1091,6 +2136,325 @@
        ],
        "correct_index": 0,
        "page": 26
+      },
+      {
+       "question": "Angliya so'zi qanday ma'noni bildiradi?",
+       "options": [
+        "\"Dengiz yurti\"",
+        "\"Angllar yeri\"",
+        "\"Oq yer\"",
+        "\"Qirol yeri\""
+       ],
+       "correct_index": 1,
+       "page": 26
+      },
+      {
+       "question": "Vilgelm I vorislari davrida zodagonlar nima qilgan?",
+       "options": [
+        "Qirolga yordam bergan",
+        "Soliq to'lagan",
+        "Mamlakatni o'zaro urushlarga duchor qilgan",
+        "Qo'shin tuzgan"
+       ],
+       "correct_index": 2,
+       "page": 26
+      },
+      {
+       "question": "Fransiyadan ko'ra Angliyada qirol hokimiyatini mustahkamlash sharoiti qanday edi?",
+       "options": [
+        "Yomonroq",
+        "Yaxshiroq",
+        "Bir xil",
+        "Imkonsiz"
+       ],
+       "correct_index": 1,
+       "page": 26
+      },
+      {
+       "question": "London nimaning markaziga aylandi?",
+       "options": [
+        "Qal'a",
+        "Port faqat",
+        "Yevropaning muhim savdo markaziga",
+        "Universitet"
+       ],
+       "correct_index": 2,
+       "page": 26
+      },
+      {
+       "question": "Ingliz shaharlarining ko'pchiligi kimning yerida joylashgan?",
+       "options": [
+        "Feodallar yerida",
+        "Cherkov yerida",
+        "Dengizda",
+        "Qirolga qarashli yerlarda"
+       ],
+       "correct_index": 3,
+       "page": 26
+      },
+      {
+       "question": "Dehqonlar nima uchun qirolni afzal bilgan?",
+       "options": [
+        "Yuzta xo'jayindan ko'ra bitta xo'jayinni afzal ko'rgan",
+        "Qirol soliq olmagan",
+        "Qirol dindor",
+        "Qirol kuchsiz"
+       ],
+       "correct_index": 0,
+       "page": 26
+      },
+      {
+       "question": "O'rmonlarga qochgan dehqonlar qanday atalgan?",
+       "options": [
+        "\"Qaroqchilar\"",
+        "\"Erkin merganlar\"",
+        "\"Ritsarlar\"",
+        "\"Yomenlar\""
+       ],
+       "correct_index": 1,
+       "page": 26
+      },
+      {
+       "question": "Robin Gud qaysi asrlar balladalari qahramoni?",
+       "options": [
+        "V-VII",
+        "XVII-XVIII",
+        "XII-XIV asrlar",
+        "IX-X"
+       ],
+       "correct_index": 2,
+       "page": 27
+      },
+      {
+       "question": "Robin Gud kimlarni talagan?",
+       "options": [
+        "Ochko'z va berahm zodagonlar, ruhoniylarni",
+        "Kambag'allarni",
+        "Savdogarlarni",
+        "Qirolni faqat"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Robin Gud boylikni kimlarga ulashgan?",
+       "options": [
+        "Qirolga",
+        "Papaga",
+        "Kambag'allarga",
+        "Zodagonlarga"
+       ],
+       "correct_index": 2,
+       "page": 27
+      },
+      {
+       "question": "Nottingem sheriffi kimlarga munosabatda bo'lgan (balladada)?",
+       "options": [
+        "Hurmat qilgan",
+        "Barcha kishilarga yaxshi munosabatda emas, Robin Gudning dushmani",
+        "Yordam bergan",
+        "Do'st bo'lgan"
+       ],
+       "correct_index": 1,
+       "page": 27
+      },
+      {
+       "question": "Qirol Ioann nufuzini nima tushirgan?",
+       "options": [
+        "Papa bilan to'qnashuvdagi mag'lubiyat",
+        "Urush g'alabasi",
+        "Savdo",
+        "Qurg'oqchilik"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Qirol Ioannga qarshi qo'zg'olonga kimlar rahbarlik qildi?",
+       "options": [
+        "Yirik zodagonlar",
+        "Dehqonlar",
+        "Ritsarlar faqat",
+        "Shaharliklar"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Qo'zg'olonchilarga London aholisi nima qildi?",
+       "options": [
+        "Shahar darvozasini ochib berdi",
+        "Qarshilik qildi",
+        "Qochdi",
+        "Qamal qildi"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "Qo'zg'olonchilar Ioannga nima qildi?",
+       "options": [
+        "Asir oldilar",
+        "Qatl qildilar",
+        "Afv etdilar",
+        "Qo'yib yubordilar"
+       ],
+       "correct_index": 0,
+       "page": 27
+      },
+      {
+       "question": "\"Erkinlikning buyuk xartiyasi\" qaysi yili imzolangan?",
+       "options": [
+        "1215-yilda",
+        "1265-yilda",
+        "1297-yilda",
+        "1343-yilda"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "Ioann xartiyani imzolagach nima qildi?",
+       "options": [
+        "Bajardi",
+        "Yo'q qildi",
+        "Shartlarini bajarishni xohlamadi",
+        "Tarqatdi"
+       ],
+       "correct_index": 2,
+       "page": 28
+      },
+      {
+       "question": "Xartiyaga kim deyarli rioya qilmadi?",
+       "options": [
+        "Eduard",
+        "Simon de Monfor",
+        "Richard",
+        "Uning vorisi Genrix III"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Simon de Monfor kim edi?",
+       "options": [
+        "Yirik mulkdor, norozilik rahbari",
+        "Qirol",
+        "Papa",
+        "Sarkarda faqat"
+       ],
+       "correct_index": 0,
+       "page": 28
+      },
+      {
+       "question": "Simon de Monfor 1265-yilda nimani chaqirdi?",
+       "options": [
+        "Qurultoyni",
+        "Uch toifa vakillari majlisini",
+        "Senatni",
+        "Seymni"
+       ],
+       "correct_index": 1,
+       "page": 28
+      },
+      {
+       "question": "Majlisda har bir shahardan nechta vakil bo'lgan?",
+       "options": [
+        "Bitta",
+        "Beshtadan",
+        "Ikkitadan",
+        "O'ntadan"
+       ],
+       "correct_index": 2,
+       "page": 28
+      },
+      {
+       "question": "Majlisda har graflikdan nechta ritsar?",
+       "options": [
+        "Bittadan",
+        "Uchtadan",
+        "Beshtadan",
+        "Ikkitadan"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Bu majlis jahon tarixiga qanday nom bilan kirdi?",
+       "options": [
+        "Senat",
+        "General shtat",
+        "Kortes",
+        "Parlament"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Parlament qaysi yildan doimiy chaqirila boshladi?",
+       "options": [
+        "1215-yildan",
+        "1265-yildan",
+        "1343-yildan",
+        "1295-yildan"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Parlament ikki palataga qaysi yili bo'lingan?",
+       "options": [
+        "1215-yilda",
+        "1265-yilda",
+        "1295-yilda",
+        "1343-yilda"
+       ],
+       "correct_index": 3,
+       "page": 28
+      },
+      {
+       "question": "Quyi palata qanday atalgan?",
+       "options": [
+        "Umumpalata",
+        "Lordlar palatasi",
+        "Senat",
+        "General shtatlar"
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Angliya parlamenti General shtatlardan nimasi bilan ustun edi?",
+       "options": [
+        "Muntazam chaqirilmasdi",
+        "Davlat ishlariga ta'siri kuchliroq",
+        "Faqat soliq tasdiqlardi",
+        "Ovoz tengsiz"
+       ],
+       "correct_index": 1,
+       "page": 29
+      },
+      {
+       "question": "Xartiya so'zi qaysi tildan?",
+       "options": [
+        "Lotincha - qog'oz, yorliq",
+        "Yunoncha",
+        "Fransuzcha",
+        "Arabcha"
+       ],
+       "correct_index": 0,
+       "page": 29
+      },
+      {
+       "question": "Parlament so'zi qaysi tildan?",
+       "options": [
+        "Lotin",
+        "Fransuz tilidan - gapirmoq",
+        "Ingliz",
+        "Yunon"
+       ],
+       "correct_index": 1,
+       "page": 29
       }
      ]
     },
@@ -1366,6 +2730,325 @@
        ],
        "correct_index": 3,
        "page": 34
+      },
+      {
+       "question": "Jon solig'i Angliyada birinchi marta qaysi yili joriy etildi?",
+       "options": [
+        "1215-yilda",
+        "1377-yilda",
+        "1381-yilda",
+        "1455-yilda"
+       ],
+       "correct_index": 1,
+       "page": 31
+      },
+      {
+       "question": "Jon solig'i qaysi qirol davrida joriy etildi?",
+       "options": [
+        "Richard II",
+        "Genrix IV",
+        "Eduard III",
+        "Ioann"
+       ],
+       "correct_index": 0,
+       "page": 31
+      },
+      {
+       "question": "Jon solig'ini kimlar to'lagan?",
+       "options": [
+        "Faqat erkaklar",
+        "14 yoshdan yuqori barcha erkak va ayollar",
+        "Faqat boylar",
+        "Faqat dehqonlar"
+       ],
+       "correct_index": 1,
+       "page": 31
+      },
+      {
+       "question": "1380-yilda jon solig'i necha barobar oshirildi?",
+       "options": [
+        "2 barobar",
+        "5 barobar",
+        "10 barobar",
+        "3 barobar"
+       ],
+       "correct_index": 3,
+       "page": 31
+      },
+      {
+       "question": "Viklif nima talab qildi?",
+       "options": [
+        "Cherkovni isloh qilishni",
+        "Qirolni ag'darishni",
+        "Papa saylashni",
+        "Soliqni oshirishni"
+       ],
+       "correct_index": 0,
+       "page": 31
+      },
+      {
+       "question": "Viklif Injilni qaysi tilga tarjima qildi?",
+       "options": [
+        "Fransuz tiliga",
+        "Lotin tiliga",
+        "Nemis tiliga",
+        "Ingliz tiliga"
+       ],
+       "correct_index": 3,
+       "page": 31
+      },
+      {
+       "question": "Viklif Angliya papaga nima to'lashiga qarshi chiqdi?",
+       "options": [
+        "Bojga",
+        "Soliqqa",
+        "Qarzga",
+        "Jarimaga"
+       ],
+       "correct_index": 1,
+       "page": 31
+      },
+      {
+       "question": "Jon Boll kim edi?",
+       "options": [
+        "Qirol",
+        "Sarkarda",
+        "Rohib faqat",
+        "Viklifning tarafdori, xalq orasida nufuzli targ'ibotchi"
+       ],
+       "correct_index": 3,
+       "page": 31
+      },
+      {
+       "question": "Jon Boll nimadan so'rar edi?",
+       "options": [
+        "\"Qirol kim?\"",
+        "\"Papa kim?\"",
+        "\"Odam Ato yer haydab, Momo Havo charx yigirgan paytda kim zodagon bo'lgan?\"",
+        "\"Xalq kim?\""
+       ],
+       "correct_index": 2,
+       "page": 31
+      },
+      {
+       "question": "Jon Bollni kim qamoqqa oldi?",
+       "options": [
+        "Qirol",
+        "Papa",
+        "Kenterberi arxiyepiskopi",
+        "Lord"
+       ],
+       "correct_index": 2,
+       "page": 31
+      },
+      {
+       "question": "Uot Tayler qo'zg'oloni qaysi yili bo'lgan?",
+       "options": [
+        "1377-yilda",
+        "1380-yilda",
+        "1455-yilda",
+        "1381-yilda"
+       ],
+       "correct_index": 3,
+       "page": 32
+      },
+      {
+       "question": "Qo'zg'olon qaysi graflikda boshlangan?",
+       "options": [
+        "Kent",
+        "Londonda",
+        "Yorkshir",
+        "Esseks grafligida"
+       ],
+       "correct_index": 3,
+       "page": 32
+      },
+      {
+       "question": "Uot Tayler kim edi?",
+       "options": [
+        "Lord",
+        "Rohib",
+        "Baron",
+        "Qishloq hunarmandi, Yuz yillik urush qatnashchisi"
+       ],
+       "correct_index": 3,
+       "page": 32
+      },
+      {
+       "question": "\"Tayler\" so'zi ingliz tilida nimani anglatadi?",
+       "options": [
+        "Kamonchi",
+        "Tunukasoz",
+        "Duradgor",
+        "Bog'bon"
+       ],
+       "correct_index": 1,
+       "page": 32
+      },
+      {
+       "question": "Qo'zg'olonda 40 ta graflikdan nechtasi qatnashdi?",
+       "options": [
+        "5 tasi",
+        "40 tasi",
+        "25 tasi",
+        "10 tasi"
+       ],
+       "correct_index": 2,
+       "page": 32
+      },
+      {
+       "question": "Qo'zg'olonchilar qaysi shaharga bordi?",
+       "options": [
+        "Yorkka",
+        "Oksfordga",
+        "Londonga",
+        "Kembrijga"
+       ],
+       "correct_index": 2,
+       "page": 32
+      },
+      {
+       "question": "Yosh qirol qaerga yashirinib oldi?",
+       "options": [
+        "Tauer qal'asiga",
+        "Vestminsterga",
+        "Dovirga",
+        "Yorkka"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "\"Mayl End\" dasturida nima talab qilingan?",
+       "options": [
+        "Taxtdan voz kechish",
+        "Papani chetlatish",
+        "Soliq oshirish",
+        "Dehqonlar qaramligini bekor qilish, umumiy afv"
+       ],
+       "correct_index": 3,
+       "page": 32
+      },
+      {
+       "question": "1 akr yer uchun qancha ijara haqi belgilangan?",
+       "options": [
+        "4 pens",
+        "40 pens",
+        "1 pens",
+        "10 pens"
+       ],
+       "correct_index": 0,
+       "page": 32
+      },
+      {
+       "question": "Akr nechta sotixga teng?",
+       "options": [
+        "4 sotix",
+        "400 sotix",
+        "100 sotix",
+        "40 sotix"
+       ],
+       "correct_index": 3,
+       "page": 34
+      },
+      {
+       "question": "Qo'zg'olon nega muvaffaqiyatsiz bo'ldi?",
+       "options": [
+        "Papa yordami",
+        "Aniq dastur, harbiy ta'lim va qurol yetishmasligi",
+        "Fransuzlar kelishi",
+        "Qirol kuchliligi"
+       ],
+       "correct_index": 1,
+       "page": 33
+      },
+      {
+       "question": "Qo'zg'olonchilar rahbarlari kimlarning yolg'oniga ishonishdi?",
+       "options": [
+        "Papaning",
+        "Amaldorlarning",
+        "Qirolning o'zining",
+        "Savdogarlarning"
+       ],
+       "correct_index": 1,
+       "page": 33
+      },
+      {
+       "question": "Qo'zg'olon dehqonlar taqdiriga qanday ta'sir qildi?",
+       "options": [
+        "Qaramlik kuchaydi",
+        "Hech",
+        "Dehqonlar manfaatlariga qarshi qoidalar yumshatildi",
+        "Soliq oshdi"
+       ],
+       "correct_index": 2,
+       "page": 33
+      },
+      {
+       "question": "XV asr davomida dehqonlar nimaga erishdi?",
+       "options": [
+        "Ozodlikka",
+        "Qullikka",
+        "Qamoqqa",
+        "Surgunga"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Yorklar va Lankasterlar urushi qaysi yillarda bo'lgan?",
+       "options": [
+        "1337-1453",
+        "1455-1485",
+        "1381-1400",
+        "1500-1550"
+       ],
+       "correct_index": 1,
+       "page": 33
+      },
+      {
+       "question": "Gullar urushi necha yil davom etgan?",
+       "options": [
+        "30 yil",
+        "3 yil",
+        "100 yil",
+        "10 yil"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Yorklar bayrog'ida qanday gul bo'lgan?",
+       "options": [
+        "Oq atirgul",
+        "Qizil atirgul",
+        "Nilufar",
+        "Lola"
+       ],
+       "correct_index": 0,
+       "page": 33
+      },
+      {
+       "question": "Lankasterlar bayrog'ida qanday gul bo'lgan?",
+       "options": [
+        "Oq atirgul",
+        "Qizil atirgul",
+        "Nilufar",
+        "Lola"
+       ],
+       "correct_index": 1,
+       "page": 33
+      },
+      {
+       "question": "1403-yilda Angliya qiroli Genrix IV Amir Temurga nima yozdi?",
+       "options": [
+        "Do'stlik va savdoni kengaytirish istagida maktub",
+        "Urush e'lon qildi",
+        "Soliq talab qildi",
+        "Taxt taklif qildi"
+       ],
+       "correct_index": 0,
+       "page": 34
       }
      ]
     },
@@ -1635,6 +3318,413 @@
         "Yevropani iqtisodiy birlashtirgan dastlabki ittifoq"
        ],
        "correct_index": 3,
+       "page": 39
+      },
+      {
+       "question": "Fridrix II qaysi sulolaning eng ko'zga ko'ringan vakili edi?",
+       "options": [
+        "Gabsburglar",
+        "Shtaufenlar",
+        "Kapetinglar",
+        "Karolinglar"
+       ],
+       "correct_index": 1,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II qaysi millatlarga mansub edi?",
+       "options": [
+        "Nemis va italyan",
+        "Faqat nemis",
+        "Faqat italyan",
+        "Fransuz"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II qaysi madaniyatga qiziqqan?",
+       "options": [
+        "Arab va Vizantiya madaniyatiga",
+        "Rim",
+        "Xitoy",
+        "Hind"
+       ],
+       "correct_index": 0,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II qaysi tillarda so'zlasha olgan?",
+       "options": [
+        "Faqat nemis",
+        "Rus",
+        "Slavyan",
+        "Arab va yunon"
+       ],
+       "correct_index": 3,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II she'rlarni qaysi tilda yozardi?",
+       "options": [
+        "Nemis",
+        "Lotin",
+        "Italyan tilida",
+        "Yunon"
+       ],
+       "correct_index": 2,
+       "page": 36
+      },
+      {
+       "question": "Palermodagi saroy qanday uslubda bezatilgan?",
+       "options": [
+        "Gotika",
+        "Roman",
+        "Sharqona uslubda",
+        "Barokko"
+       ],
+       "correct_index": 2,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II qaysi yillarda yashagan?",
+       "options": [
+        "1152-1190",
+        "1250-1272",
+        "1194-1250",
+        "1100-1150"
+       ],
+       "correct_index": 2,
+       "page": 36
+      },
+      {
+       "question": "Zamondoshlari Fridrix II ni qanday atagan?",
+       "options": [
+        "\"Buyuk\"",
+        "\"Jahon hayrati\"",
+        "\"Jasur\"",
+        "\"Fotih\""
+       ],
+       "correct_index": 1,
+       "page": 36
+      },
+      {
+       "question": "Fridrix II nechta lochinga ega edi?",
+       "options": [
+        "5 ta",
+        "50 tagacha",
+        "500 ta",
+        "15 ta"
+       ],
+       "correct_index": 1,
+       "page": 37
+      },
+      {
+       "question": "Fridrix II kitobi nima haqida?",
+       "options": [
+        "Qushlar bilan ov qilish san'ati",
+        "Tarix",
+        "Astronomiya",
+        "Din"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Fridrix II qaysi universitetga asos soldi?",
+       "options": [
+        "Neapol universitetiga",
+        "Boloniya",
+        "Parij",
+        "Oksford"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Neapol universiteti qanday universitet edi?",
+       "options": [
+        "Cherkov universiteti",
+        "Savdogarlar universiteti",
+        "Ilk universitet",
+        "Hukmdorlar asos solgan birinchi universitet"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Fridrix II qayerdan turib boshqargan?",
+       "options": [
+        "Rimdan",
+        "Parijdan",
+        "Sitsiliyadan",
+        "Londondan"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Germaniyada amalda hokimiyat kimlar qo'lida edi?",
+       "options": [
+        "Imperator",
+        "Papa",
+        "Savdogarlar",
+        "Yirik feodallar"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Papa Grigoriy IX Fridrix II ni nima deb e'lon qildi?",
+       "options": [
+        "Avliyo",
+        "Qirol",
+        "Yeretik (dindan qaytgan)",
+        "Sarkarda"
+       ],
+       "correct_index": 2,
+       "page": 37
+      },
+      {
+       "question": "Papa Innokentiy IV Fridrix II ni nimada aybladi?",
+       "options": [
+        "O'g'irlikda",
+        "Xiyonatda",
+        "Sudxo'rlikda",
+        "Shakkoklikda"
+       ],
+       "correct_index": 3,
+       "page": 37
+      },
+      {
+       "question": "Fridrix II qaysi yili mag'lubiyatga uchradi?",
+       "options": [
+        "1248-yilda",
+        "1250-yilda",
+        "1230-yilda",
+        "1215-yilda"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Fridrix II qaysi yili vafot etdi?",
+       "options": [
+        "1250-yilda",
+        "1248-yilda",
+        "1194-yilda",
+        "1190-yilda"
+       ],
+       "correct_index": 0,
+       "page": 37
+      },
+      {
+       "question": "Gabsburglarning kuchi nimaga asoslangan edi?",
+       "options": [
+        "Dengiz flotiga",
+        "Meros bo'lib o'tadigan xususiy yerlarga",
+        "Soliqqa",
+        "Yollanma qo'shinga"
+       ],
+       "correct_index": 1,
+       "page": 38
+      },
+      {
+       "question": "Gabsburglar nimani nikoh diplomatiyasi orqali qo'lga kiritdi?",
+       "options": [
+        "Faqat pul",
+        "Faqat yer",
+        "Burgundiyaning bir qismi, Ispaniya toj-taxti",
+        "Rim papaligi"
+       ],
+       "correct_index": 2,
+       "page": 38
+      },
+      {
+       "question": "Gabsburglar Germaniyada qaysi hududlarni egalladi?",
+       "options": [
+        "Shtiriya, Krayna, Tirol, Shvabiyaning bir qismi",
+        "Bavariya",
+        "Saksoniya",
+        "Prussiya"
+       ],
+       "correct_index": 0,
+       "page": 38
+      },
+      {
+       "question": "Germaniya imperatorida nima mavjud emas edi?",
+       "options": [
+        "Umumimperiya qo'shini, soliqlar, markaziy sud",
+        "Tojlar",
+        "Saroy",
+        "Poytaxt"
+       ],
+       "correct_index": 0,
+       "page": 38
+      },
+      {
+       "question": "Shimoliy Germaniya shaharlari qaysi dengizlarda savdo qilgan?",
+       "options": [
+        "O'rta",
+        "Qora",
+        "Shimoliy va Boltiq",
+        "Atlantika"
+       ],
+       "correct_index": 2,
+       "page": 38
+      },
+      {
+       "question": "Qaysi shaharlar Ganza ittifoqiga birlashdi?",
+       "options": [
+        "Berlin, Vena",
+        "Parij, London",
+        "Rim, Venetsiya",
+        "Lyubek, Gamburg, Bremen"
+       ],
+       "correct_index": 3,
+       "page": 38
+      },
+      {
+       "question": "Ganza ittifoqi qaysi asr o'rtalarida tashkil topdi?",
+       "options": [
+        "XIV asr o'rtalarida",
+        "IX asr",
+        "XVII asr",
+        "XII asr"
+       ],
+       "correct_index": 0,
+       "page": 38
+      },
+      {
+       "question": "Ganza qaysi mamlakatlar bilan savdo qilgan?",
+       "options": [
+        "Skandinaviya, Polsha, Angliya, Rossiya",
+        "Hindiston",
+        "Xitoy",
+        "Amerika"
+       ],
+       "correct_index": 0,
+       "page": 38
+      },
+      {
+       "question": "XV asr boshida Ganza nechta shaharni birlashtirdi?",
+       "options": [
+        "16 ta",
+        "160 ga yaqin",
+        "600 ta",
+        "60 ta"
+       ],
+       "correct_index": 1,
+       "page": 39
+      },
+      {
+       "question": "Ganzaning asosiy raqibi kim edi?",
+       "options": [
+        "Fransiya",
+        "Italiya",
+        "Vizantiya",
+        "Daniya qirolligi"
+       ],
+       "correct_index": 3,
+       "page": 39
+      },
+      {
+       "question": "Ganza Daniyaga qaysi yili zarba berdi?",
+       "options": [
+        "1254-yilda",
+        "1331-yilda",
+        "1370-yilda",
+        "1400-yilda"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Ganza qanday ittifoq edi?",
+       "options": [
+        "Faqat harbiy",
+        "Faqat diniy",
+        "Iqtisodiy va siyosiy",
+        "Faqat madaniy"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Ganza qaysi asrgacha o'z ahamiyatini saqlagan?",
+       "options": [
+        "XII asrgacha",
+        "XV asrgacha",
+        "XVII asrgacha qisman",
+        "XX asrgacha"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Reyn savdo ittifoqi qaysi yili tashkil topdi?",
+       "options": [
+        "1331-yilda",
+        "1370-yilda",
+        "1254-yilda",
+        "1215-yilda"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Reyn ittifoqiga qaysi shaharlar kirgan?",
+       "options": [
+        "Lyubek, Bremen",
+        "Frankfurt, Mayns, Kyoln, Vorms, Strasburg",
+        "Berlin, Drezden",
+        "Gamburg, Rostok"
+       ],
+       "correct_index": 1,
+       "page": 39
+      },
+      {
+       "question": "Shvabiya ittifoqi qaysi yili tashkil topgan?",
+       "options": [
+        "1254-yilda",
+        "1370-yilda",
+        "1331-yilda",
+        "1400-yilda"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Shvabiya ittifoqiga nechta shahar kirgan?",
+       "options": [
+        "9 ta",
+        "900 ta",
+        "19 ta",
+        "90 ta"
+       ],
+       "correct_index": 3,
+       "page": 39
+      },
+      {
+       "question": "Shvabiya ittifoqi shaharlari nimada yetakchi edi?",
+       "options": [
+        "Vino, baliq",
+        "Ipak, oltin",
+        "Gazlama, metallurgiya, qurol ishlab chiqarishda",
+        "Kema, tuz"
+       ],
+       "correct_index": 2,
+       "page": 39
+      },
+      {
+       "question": "Shvabiya ittifoqining yirik savdo markazlari qayerda bo'lgan?",
+       "options": [
+        "Venetsiyada",
+        "Parijda",
+        "Londonda",
+        "Rimda"
+       ],
+       "correct_index": 0,
        "page": 39
       }
      ]
@@ -1911,6 +4001,380 @@
        ],
        "correct_index": 2,
        "page": 43
+      },
+      {
+       "question": "Venetsiya nechta aholiga ega edi?",
+       "options": [
+        "200 ming",
+        "20 ming",
+        "2 ming",
+        "2 million"
+       ],
+       "correct_index": 0,
+       "page": 41
+      },
+      {
+       "question": "Venetsiya qanday atalgan?",
+       "options": [
+        "\"Italiya Afinasi\"",
+        "\"Dengiz malikasi\"",
+        "\"Adriatika malikasi\"",
+        "\"Boqiy shahar\""
+       ],
+       "correct_index": 2,
+       "page": 41
+      },
+      {
+       "question": "Venetsiya qaysi dengizning sharqiy qismida savdo monopolisti bo'lgan?",
+       "options": [
+        "O'rta dengizning",
+        "Qora dengizning",
+        "Boltiq dengizining",
+        "Kaspiyning"
+       ],
+       "correct_index": 0,
+       "page": 41
+      },
+      {
+       "question": "Venetsiyaga qaysi hududlar qaram edi?",
+       "options": [
+        "Rus",
+        "Vizantiya, Misr, Suriya, Egey orollari",
+        "Polsha",
+        "Britaniya"
+       ],
+       "correct_index": 1,
+       "page": 41
+      },
+      {
+       "question": "Venetsiya oltin pullari qanday atalgan?",
+       "options": [
+        "Florin",
+        "Dukat",
+        "Dinor",
+        "Numisma"
+       ],
+       "correct_index": 1,
+       "page": 41
+      },
+      {
+       "question": "Venetsiya dukatlari Yevropada qanday vazifani bajargan?",
+       "options": [
+        "Mahalliy pul",
+        "Qurol",
+        "Bezak",
+        "Xalqaro pul vazifasini"
+       ],
+       "correct_index": 3,
+       "page": 41
+      },
+      {
+       "question": "Venetsiyaning asosiy raqibi kim edi?",
+       "options": [
+        "Florensiya",
+        "Piza",
+        "Milan",
+        "Genuya"
+       ],
+       "correct_index": 3,
+       "page": 41
+      },
+      {
+       "question": "Venetsiya ishlab chiqargan mahsulotlar qaysilar?",
+       "options": [
+        "Faqat bug'doy",
+        "Movut, ipak, oyna, qurol-yarog'",
+        "Faqat vino",
+        "Faqat mis"
+       ],
+       "correct_index": 1,
+       "page": 41
+      },
+      {
+       "question": "Florensiya qanday atalgan?",
+       "options": [
+        "\"Adriatika malikasi\"",
+        "\"Dengiz yulduzi\"",
+        "\"Italiya Afinasi\"",
+        "\"Boqiy shahar\""
+       ],
+       "correct_index": 2,
+       "page": 42
+      },
+      {
+       "question": "Florensiya qaysi daryo sohillarida joylashgan?",
+       "options": [
+        "Po",
+        "Tibr",
+        "Reyn",
+        "Arno"
+       ],
+       "correct_index": 3,
+       "page": 42
+      },
+      {
+       "question": "Florensiyada 1330-yilda nechta aholi yashagan?",
+       "options": [
+        "90 ming",
+        "9 ming",
+        "900 ming",
+        "19 ming"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "XIV asrda Florensiyada nechta movut korxonasi bo'lgan?",
+       "options": [
+        "200 dan ortiq",
+        "20",
+        "2",
+        "2000"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Florensiyada qaysi hunarlar ham rivojlangan?",
+       "options": [
+        "Kemasozlik",
+        "Qurolsozlik",
+        "Dehqonchilik",
+        "Ipak to'qish, mo'ynachilik, zargarlik"
+       ],
+       "correct_index": 3,
+       "page": 42
+      },
+      {
+       "question": "Papalar boyliklarini qayerda saqlagan?",
+       "options": [
+        "Rim xazinasida",
+        "Monastirda",
+        "Qal'ada",
+        "Florensiya banklarida"
+       ],
+       "correct_index": 3,
+       "page": 42
+      },
+      {
+       "question": "Florensiya qaysi yili oltin tanga zarb qildi?",
+       "options": [
+        "1252-yilda",
+        "1284-yilda",
+        "1330-yilda",
+        "1400-yilda"
+       ],
+       "correct_index": 0,
+       "page": 42
+      },
+      {
+       "question": "Florensiyaning oliy organi nima edi?",
+       "options": [
+        "Veche",
+        "Sinyoriya",
+        "Kortes",
+        "Parlament"
+       ],
+       "correct_index": 1,
+       "page": 42
+      },
+      {
+       "question": "Sinyoriyaga kimlar saylangan?",
+       "options": [
+        "Faqat zodagonlar",
+        "Faqat savdogarlar",
+        "Faqat ruhoniylar",
+        "Katta korxonalardan yettita, kichiklardan ikkita vakil"
+       ],
+       "correct_index": 3,
+       "page": 42
+      },
+      {
+       "question": "Italiya dehqonlari qanday qaram edi?",
+       "options": [
+        "Bevosita qul",
+        "Rohib",
+        "Yirik mulkdorlarga yer orqali bog'langan",
+        "Savdogar"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "Italiyada dehqonlar xohlagan vaqtda nima qilishi mumkin edi?",
+       "options": [
+        "Yerdan va xo'jayindan voz kechib ketishi",
+        "Qolishi shart",
+        "Qul bo'lishi",
+        "Soliq to'lashi"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Italiya shimolida dehqonlar qaramligi qaysi asrda bekor bo'ldi?",
+       "options": [
+        "XIII asrda",
+        "XI asrda",
+        "XV asrda",
+        "XVII asrda"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Janubiy Italiyada dehqonlar qaramligi qaysi asrlarda bekor bo'ldi?",
+       "options": [
+        "X-XI asrlarda",
+        "XIII asrda",
+        "XIV-XV asrlarda",
+        "XVI asrda"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "Genuya qayerda joylashgan?",
+       "options": [
+        "Janubida",
+        "Sharqida",
+        "Italiyaning shimoli-g'arbida",
+        "Markazida"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "Genuya respublikasi qaysi asrda asos solingan?",
+       "options": [
+        "V asrda",
+        "XV asrda",
+        "XI asrda",
+        "IX asrda"
+       ],
+       "correct_index": 2,
+       "page": 43
+      },
+      {
+       "question": "Genuya qaysi yilgacha mavjud edi?",
+       "options": [
+        "1453-yilgacha",
+        "1648-yilgacha",
+        "1815-yilgacha",
+        "1797-yilgacha"
+       ],
+       "correct_index": 3,
+       "page": 43
+      },
+      {
+       "question": "1298-yilda genuyaliklar kimni mag'lub etdi?",
+       "options": [
+        "Vizantiyani",
+        "Arablarni",
+        "Pizani",
+        "Venetsiya flotini"
+       ],
+       "correct_index": 3,
+       "page": 43
+      },
+      {
+       "question": "1298-yildagi jangda kim asir tushdi?",
+       "options": [
+        "Papa",
+        "Venetsiyalik doj va Marko Polo",
+        "Qirol",
+        "Imperator"
+       ],
+       "correct_index": 1,
+       "page": 43
+      },
+      {
+       "question": "Marko Polo asirlikda nimani aytib berdi?",
+       "options": [
+        "Qonunlarni",
+        "Sayohati tarixini",
+        "Tilini",
+        "Dinini"
+       ],
+       "correct_index": 1,
+       "page": 43
+      },
+      {
+       "question": "Genuya va Venetsiyaning oxirgi yirik to'qnashuvi qaysi yili?",
+       "options": [
+        "1380-yilda",
+        "1298-yilda",
+        "1453-yilda",
+        "1250-yilda"
+       ],
+       "correct_index": 0,
+       "page": 43
+      },
+      {
+       "question": "Doj kim?",
+       "options": [
+        "Papa",
+        "Qirol",
+        "Imperator",
+        "Venetsiya respublikasining saylangan rahbari"
+       ],
+       "correct_index": 3,
+       "page": 44
+      },
+      {
+       "question": "Dukat birinchi marta qaysi yili chiqarilgan?",
+       "options": [
+        "1252-yilda",
+        "1284-yilda (Venetsiya)",
+        "1330-yilda",
+        "1380-yilda"
+       ],
+       "correct_index": 1,
+       "page": 44
+      },
+      {
+       "question": "Katolik cherkovida \"Buyuk bo'linish\" nima?",
+       "options": [
+        "Ikki papaning hukmronlik qilishi",
+        "Cherkov yo'qolishi",
+        "Din almashishi",
+        "Urush"
+       ],
+       "correct_index": 0,
+       "page": 44
+      },
+      {
+       "question": "Papalardan biri qayerda qarorgoh tutgan?",
+       "options": [
+        "Rimda faqat",
+        "Parijda",
+        "Londonda",
+        "Avinyon shahrida"
+       ],
+       "correct_index": 3,
+       "page": 44
+      },
+      {
+       "question": "Urban VI qayerda qarorgoh tutgan?",
+       "options": [
+        "Avinyonda",
+        "Rimda",
+        "Parijda",
+        "Londonda"
+       ],
+       "correct_index": 1,
+       "page": 44
+      },
+      {
+       "question": "Kliment VII qayerda qarorgoh tutgan?",
+       "options": [
+        "Avinyonda",
+        "Rimda",
+        "Parijda",
+        "Londonda"
+       ],
+       "correct_index": 0,
+       "page": 44
       }
      ]
     },
@@ -2200,6 +4664,435 @@
        ],
        "correct_index": 0,
        "page": 49
+      },
+      {
+       "question": "Arab xalifaligi Vestgot qirolligini qaysi yillarda bo'ysundirdi?",
+       "options": [
+        "756-1031",
+        "1137-1188",
+        "1238-1492",
+        "711-714"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Pireney yarimorolida hozir qaysi davlatlar joylashgan?",
+       "options": [
+        "Ispaniya, Portugaliya, Andorra",
+        "Fransiya, Italiya",
+        "Germaniya, Avstriya",
+        "Polsha, Chexiya"
+       ],
+       "correct_index": 0,
+       "page": 46
+      },
+      {
+       "question": "Ispaniyada xalifalikdan ilk mustaqil amirlik qaysi yili tashkil topdi?",
+       "options": [
+        "711-yilda",
+        "1238-yilda",
+        "756-yilda",
+        "1492-yilda"
+       ],
+       "correct_index": 2,
+       "page": 46
+      },
+      {
+       "question": "X asrdan bu amirlik qanday atalgan?",
+       "options": [
+        "Granada amirligi",
+        "Sevilya amirligi",
+        "Toledo amirligi",
+        "Qurdoba amirligi"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "XII asrda yarimorolda qaysi davlatlar yuzaga keldi?",
+       "options": [
+        "Fransiya, Italiya",
+        "Rus, Polsha",
+        "Kastiliya, Navarra, Aragon, Portugaliya",
+        "Daniya, Shvetsiya"
+       ],
+       "correct_index": 2,
+       "page": 46
+      },
+      {
+       "question": "Granada qayerda joylashgan?",
+       "options": [
+        "Shimolida",
+        "Sharqida",
+        "G'arbida",
+        "Ispaniyaning janubida"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Granada amirligi qaysi yildan tashkil topgan?",
+       "options": [
+        "711-yildan",
+        "1492-yildan",
+        "1137-yildan",
+        "1238-yildan"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Granada qaysi yili qulagan?",
+       "options": [
+        "1238-yilda",
+        "1492-yilda",
+        "1137-yilda",
+        "1498-yilda"
+       ],
+       "correct_index": 1,
+       "page": 46
+      },
+      {
+       "question": "Granada amirligi tarkibiga qaysi viloyatlar kirgan?",
+       "options": [
+        "Sevilya, Kordova",
+        "Madrid, Toledo",
+        "Almeriya, Granada, Malaga",
+        "Valensiya, Barselona"
+       ],
+       "correct_index": 2,
+       "page": 46
+      },
+      {
+       "question": "Granada qulagach uning hududi nima bo'ldi?",
+       "options": [
+        "Kastiliya tojining bir qismiga aylandi",
+        "Mustaqil",
+        "Aragonga o'tdi",
+        "Fransiyaga o'tdi"
+       ],
+       "correct_index": 0,
+       "page": 46
+      },
+      {
+       "question": "Navarra davlati qaysi yillarda mavjud edi?",
+       "options": [
+        "711-756",
+        "1238-1492",
+        "905-1512",
+        "1139-1415"
+       ],
+       "correct_index": 2,
+       "page": 46
+      },
+      {
+       "question": "Navarraning poytaxti qaysi shahar?",
+       "options": [
+        "Madrid",
+        "Sevilya",
+        "Lissabon",
+        "Pamplona"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Navarraning birinchi qiroli kim?",
+       "options": [
+        "Alfonso X",
+        "Afonso Enrikesh",
+        "Pedro I",
+        "Sancho Garsiya"
+       ],
+       "correct_index": 3,
+       "page": 46
+      },
+      {
+       "question": "Kastiliyada qirol markazlashgan hokimiyat uchun kimga qarshi kurashgan?",
+       "options": [
+        "Papaga",
+        "Arablarga faqat",
+        "Savdogarlarga",
+        "Zodagonlarga"
+       ],
+       "correct_index": 3,
+       "page": 47
+      },
+      {
+       "question": "Kastiliyada qirol kimlarga tayangan?",
+       "options": [
+        "Dehqonlarga",
+        "Ruhoniylarga",
+        "Savdogarlarga faqat",
+        "Shaharliklarga"
+       ],
+       "correct_index": 3,
+       "page": 47
+      },
+      {
+       "question": "Kortes qaysi tildan olingan?",
+       "options": [
+        "Lotin",
+        "Arab",
+        "Ispan tilidan - o'rin, joy",
+        "Fransuz"
+       ],
+       "correct_index": 2,
+       "page": 51
+      },
+      {
+       "question": "Kortesning birinchi yig'ilishi qaysi yili bo'lgan?",
+       "options": [
+        "1188-yilda",
+        "1215-yilda",
+        "1265-yilda",
+        "1137-yilda"
+       ],
+       "correct_index": 3,
+       "page": 47
+      },
+      {
+       "question": "Kortesda dastlab kimlar ishtirok etgan?",
+       "options": [
+        "Faqat shaharliklar",
+        "Faqat dehqonlar",
+        "Ruhoniylar va zodagonlar",
+        "Qullar"
+       ],
+       "correct_index": 2,
+       "page": 47
+      },
+      {
+       "question": "1188-yildan kimlar ham qatnasha boshladi?",
+       "options": [
+        "Askarlar",
+        "Qullar",
+        "Savdogarlar faqat",
+        "Shaharliklar va dehqonlar vakillari"
+       ],
+       "correct_index": 3,
+       "page": 47
+      },
+      {
+       "question": "Alfonso X qanday qonunlar to'plamini yaratdi?",
+       "options": [
+        "\"Xartiya\"",
+        "\"Huquqning yetti bo'limi\"",
+        "\"Sali haqiqati\"",
+        "\"Yasoq\""
+       ],
+       "correct_index": 1,
+       "page": 47
+      },
+      {
+       "question": "Alfonso X qonunlari nimaga asoslangan?",
+       "options": [
+        "Cherkov huquqiga",
+        "Arab huquqiga",
+        "Mahalliy odatga",
+        "Rim huquqiga"
+       ],
+       "correct_index": 3,
+       "page": 47
+      },
+      {
+       "question": "Kastiliya tili nimaga asos bo'ldi?",
+       "options": [
+        "Fransuz tiliga",
+        "Portugal tiliga",
+        "Lotin tiliga",
+        "Ispan adabiy tiliga"
+       ],
+       "correct_index": 3,
+       "page": 48
+      },
+      {
+       "question": "Toledo maktabi nimaning beshigiga aylandi?",
+       "options": [
+        "Universitetning",
+        "Rasadxonaning",
+        "Yevropa ilmiy tarjimashunosligining",
+        "Bankning"
+       ],
+       "correct_index": 2,
+       "page": 48
+      },
+      {
+       "question": "Toledoga olimlar nima uchun kelgan?",
+       "options": [
+        "Asarlarni tarjima qilish uchun",
+        "Savdo",
+        "Urush",
+        "Din"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Toledoda qaysi olimlarning asarlari tarjima qilindi?",
+       "options": [
+        "Faqat yunon",
+        "Faqat lotin",
+        "Markaziy Osiyo olimlarining ham",
+        "Faqat nemis"
+       ],
+       "correct_index": 2,
+       "page": 48
+      },
+      {
+       "question": "Alfonso X Salamanka universitetida nima qurdirdi?",
+       "options": [
+        "Rasadxona",
+        "Kasalxona",
+        "Kutubxona",
+        "Bandargoh"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Qirol Pedro I Yuz yillik urushda kimning ittifoqchisi edi?",
+       "options": [
+        "Angliyaning",
+        "Fransiyaning",
+        "Germaniyaning",
+        "Italiyaning"
+       ],
+       "correct_index": 0,
+       "page": 48
+      },
+      {
+       "question": "Portugaliya arablar tomonidan qaysi yillarda bosib olingan?",
+       "options": [
+        "868-yilda",
+        "1139-yilda",
+        "1225-yilda",
+        "713-718"
+       ],
+       "correct_index": 3,
+       "page": 49
+      },
+      {
+       "question": "Portugaliya mustaqilligini kim e'lon qildi?",
+       "options": [
+        "Vimara Peresh",
+        "Dinish",
+        "Xuan I",
+        "Afonso Enrikesh (1139)"
+       ],
+       "correct_index": 3,
+       "page": 49
+      },
+      {
+       "question": "Lissabon qaysi yildan poytaxt?",
+       "options": [
+        "1139-yildan",
+        "1225-yildan",
+        "868-yildan",
+        "1415-yildan"
+       ],
+       "correct_index": 1,
+       "page": 49
+      },
+      {
+       "question": "Portugaliya qirollari XIII asrda nima qildi?",
+       "options": [
+        "Qisqardi",
+        "Yo'qoldi",
+        "Chegaralarni kengaytirib hozirgi hududga ega bo'ldi",
+        "O'zgarmadi"
+       ],
+       "correct_index": 2,
+       "page": 49
+      },
+      {
+       "question": "Avislar sulolasidan Xuan I davrida nima boshlandi?",
+       "options": [
+        "Mustamlaka siyosati",
+        "Urush",
+        "Inqiroz",
+        "Respublika"
+       ],
+       "correct_index": 0,
+       "page": 49
+      },
+      {
+       "question": "Vasko da Gama Hindistonga qaysi yili yetdi?",
+       "options": [
+        "1415-yilda",
+        "1498-yilda",
+        "1492-yilda",
+        "1453-yilda"
+       ],
+       "correct_index": 1,
+       "page": 49
+      },
+      {
+       "question": "Qirol Genrix III qaysi sulolaga mansub?",
+       "options": [
+        "Avis",
+        "Burbon",
+        "Gabsburg",
+        "Trastamara"
+       ],
+       "correct_index": 3,
+       "page": 50
+      },
+      {
+       "question": "Genrix III dastlabki elchilarni qaysi yili yubordi?",
+       "options": [
+        "1403-yilda",
+        "1402-yilda",
+        "1404-yilda",
+        "1406-yilda"
+       ],
+       "correct_index": 1,
+       "page": 50
+      },
+      {
+       "question": "Birinchi elchilarga kim boshchilik qilgan?",
+       "options": [
+        "Klavixo",
+        "Muhammadqozi",
+        "Grinlo",
+        "Payo Sotomayor va Ernan Sanches"
+       ],
+       "correct_index": 3,
+       "page": 50
+      },
+      {
+       "question": "Klavixo kim edi?",
+       "options": [
+        "Rohib",
+        "Sarkarda",
+        "Qirol",
+        "Madridlik boy oila vakili, diplomat va sayohatchi"
+       ],
+       "correct_index": 3,
+       "page": 50
+      },
+      {
+       "question": "Klavixo Samarqandga qaysi yilda yetdi?",
+       "options": [
+        "1402-yil",
+        "1404-yil avgustda",
+        "1406-yil",
+        "1403-yil"
+       ],
+       "correct_index": 1,
+       "page": 50
+      },
+      {
+       "question": "Klavixo qaysi yili Kastiliyaga qaytdi?",
+       "options": [
+        "1404-yil",
+        "1403-yil",
+        "1402-yil",
+        "1406-yil martda"
+       ],
+       "correct_index": 3,
+       "page": 51
       }
      ]
     },
@@ -2480,6 +5373,369 @@
         "Mo'g'ullar zulmidan xalos bo'lishni tezlashtirdi"
        ],
        "correct_index": 3,
+       "page": 57
+      },
+      {
+       "question": "Novgorod qayerda joylashgan edi?",
+       "options": [
+        "Dengiz bo'yida",
+        "Tog'larda",
+        "Sharqiy Yevropada savdo yo'llari kesishgan strategik hududda",
+        "Cho'lda"
+       ],
+       "correct_index": 2,
+       "page": 53
+      },
+      {
+       "question": "Novgorodda respublika qaysi yili paydo bo'ldi?",
+       "options": [
+        "1240-yilda",
+        "1380-yilda",
+        "1136-yilda",
+        "1478-yilda"
+       ],
+       "correct_index": 2,
+       "page": 53
+      },
+      {
+       "question": "1136-yilda Novgorodda qaysi knyaz ag'darildi?",
+       "options": [
+        "Vsevolod Mstislavich",
+        "Aleksandr",
+        "Yaroslav",
+        "Oleg"
+       ],
+       "correct_index": 0,
+       "page": 53
+      },
+      {
+       "question": "Novgorodda oliy hokimiyat kimda edi?",
+       "options": [
+        "Knyazda",
+        "Papada",
+        "Xalq vechesida",
+        "Yepiskopda"
+       ],
+       "correct_index": 2,
+       "page": 53
+      },
+      {
+       "question": "Veche so'zi nimani anglatadi?",
+       "options": [
+        "Qirol",
+        "Qo'shin",
+        "Soliq",
+        "Qadimgi slavyan tilida kengash"
+       ],
+       "correct_index": 3,
+       "page": 57
+      },
+      {
+       "question": "Novgorodda yepiskop qanday tanlangan?",
+       "options": [
+        "Papa tayinlagan",
+        "Knyaz tayinlagan",
+        "Vecheda saylangan",
+        "Meros"
+       ],
+       "correct_index": 2,
+       "page": 53
+      },
+      {
+       "question": "Knyaz veche bilan nima qilgan?",
+       "options": [
+        "Urush qilgan",
+        "Shartnoma tuzgan",
+        "Taxtni olgan",
+        "Soliq yig'gan"
+       ],
+       "correct_index": 1,
+       "page": 53
+      },
+      {
+       "question": "Knyaz shartnomani buzsa nima bo'lgan?",
+       "options": [
+        "Qatl qilingan",
+        "Mukofotlangan",
+        "Qolgan",
+        "Veche uni haydagan"
+       ],
+       "correct_index": 3,
+       "page": 53
+      },
+      {
+       "question": "Smolensk qaysi knyaz davrida Kiyevdan mustaqil bo'ldi?",
+       "options": [
+        "Yuriy",
+        "Oleg",
+        "Rostislav Mstislavich",
+        "Vsevolod"
+       ],
+       "correct_index": 2,
+       "page": 54
+      },
+      {
+       "question": "1514-yilda Smolensk nima bo'ldi?",
+       "options": [
+        "Litvaga o'tdi",
+        "Rossiya tarkibiga kirdi",
+        "Mustaqil bo'ldi",
+        "Polshaga o'tdi"
+       ],
+       "correct_index": 1,
+       "page": 54
+      },
+      {
+       "question": "Vladimir-Suzdal poytaxtini Yuriy Dolgorukiy qayerdan Suzdalga ko'chirdi?",
+       "options": [
+        "Rostovdan",
+        "Kiyevdan",
+        "Moskvadan",
+        "Novgoroddan"
+       ],
+       "correct_index": 0,
+       "page": 54
+      },
+      {
+       "question": "Moskva qaysi yili asos solindi?",
+       "options": [
+        "1240-yilda",
+        "1380-yilda",
+        "1147-yilda",
+        "1478-yilda"
+       ],
+       "correct_index": 2,
+       "page": 54
+      },
+      {
+       "question": "Andrey davrida poytaxt qayerga ko'chirildi?",
+       "options": [
+        "Moskvaga",
+        "Kiyevga",
+        "Vladimirga",
+        "Suzdalga"
+       ],
+       "correct_index": 2,
+       "page": 54
+      },
+      {
+       "question": "1478-yilda Novgorodga kim yurish qildi?",
+       "options": [
+        "Ivan Kalita",
+        "Dmitriy",
+        "Moskva knyazi Ivan III",
+        "Vasiliy"
+       ],
+       "correct_index": 2,
+       "page": 54
+      },
+      {
+       "question": "Moskva knyazligiga kim asos soldi?",
+       "options": [
+        "Ivan III",
+        "Daniil Aleksandrovich",
+        "Dmitriy",
+        "Yuriy"
+       ],
+       "correct_index": 1,
+       "page": 55
+      },
+      {
+       "question": "1383-yilda Moskva knyazligi nima qildi?",
+       "options": [
+        "Vladimir knyazligi bilan birlashdi",
+        "Ajraldi",
+        "Parchalandi",
+        "Yo'q bo'ldi"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Kiyev Rusi nega parchalandi?",
+       "options": [
+        "Dengiz yo'li yo'qligidan",
+        "Siyosiy tarqoqlik, zodagonlar nizosi",
+        "Qurg'oqchilikdan",
+        "Din almashishidan"
+       ],
+       "correct_index": 1,
+       "page": 55
+      },
+      {
+       "question": "Mo'g'ullar rus yerlariga qaysi yili hujum qildi?",
+       "options": [
+        "1240-yilda",
+        "1380-yilda",
+        "1480-yilda",
+        "1237-yilda"
+       ],
+       "correct_index": 3,
+       "page": 55
+      },
+      {
+       "question": "Botuxon birinchi bo'lib qaysi o'lkani bosib oldi?",
+       "options": [
+        "Kiyev",
+        "Moskva",
+        "Ryazan",
+        "Novgorod"
+       ],
+       "correct_index": 2,
+       "page": 55
+      },
+      {
+       "question": "Kiyev qaysi yili qo'lga kiritildi?",
+       "options": [
+        "1240-yilda",
+        "1237-yilda",
+        "1380-yilda",
+        "1480-yilda"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Mo'g'ullar imperiyasi qaysi dengizlargacha cho'zilgan edi?",
+       "options": [
+        "Qora va Kaspiy",
+        "Sariq dengizdan Boltiqqacha",
+        "Nil va Gang",
+        "Atlantika"
+       ],
+       "correct_index": 1,
+       "page": 55
+      },
+      {
+       "question": "Chingizxon qaysi yili vafot etdi?",
+       "options": [
+        "1227-yilda",
+        "1237-yilda",
+        "1206-yilda",
+        "1240-yilda"
+       ],
+       "correct_index": 0,
+       "page": 55
+      },
+      {
+       "question": "Ivan Kalita qaysi yillarda hukmronlik qilgan?",
+       "options": [
+        "1380-1389",
+        "1462-1505",
+        "1237-1240",
+        "1325-1340"
+       ],
+       "correct_index": 3,
+       "page": 56
+      },
+      {
+       "question": "Ivan Kalita 1327-yilda nimaga ega bo'ldi?",
+       "options": [
+        "Rus yerlarida soliq yig'ish huquqiga",
+        "Taxtga",
+        "Yerga",
+        "Qo'shinga"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Moskva siyosiy mavqeyini kim davrida mustahkamladi?",
+       "options": [
+        "Daniil",
+        "Oleg",
+        "Dmitriy Ivanovich",
+        "Vladimir"
+       ],
+       "correct_index": 2,
+       "page": 56
+      },
+      {
+       "question": "Mamay kim edi?",
+       "options": [
+        "Rus knyazi",
+        "Oltin O'rda tumanboshisi",
+        "Papa",
+        "Xon"
+       ],
+       "correct_index": 1,
+       "page": 56
+      },
+      {
+       "question": "Mamay bilan jang qaysi daryo bo'yida bo'lgan?",
+       "options": [
+        "Don",
+        "Neva",
+        "Volga",
+        "Terek"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Neva bo'yida shvedlarni kim yengdi?",
+       "options": [
+        "Dmitriy",
+        "Aleksandr Yaroslavich",
+        "Ivan",
+        "Yuriy"
+       ],
+       "correct_index": 1,
+       "page": 56
+      },
+      {
+       "question": "Aleksandr Yaroslavich qaysi nomni oldi?",
+       "options": [
+        "Donskoy",
+        "Dolgorukiy",
+        "Nevskiy",
+        "Kalita"
+       ],
+       "correct_index": 2,
+       "page": 56
+      },
+      {
+       "question": "Nemis Livoniya ritsarlari nimani egalladi?",
+       "options": [
+        "Izborsk va Pskovni",
+        "Moskva",
+        "Kiyev",
+        "Smolensk"
+       ],
+       "correct_index": 0,
+       "page": 56
+      },
+      {
+       "question": "Amir Temur va To'xtamish nechta marta jang qildi?",
+       "options": [
+        "Bir marta",
+        "Uch marta (1389, 1391, 1395)",
+        "Besh marta",
+        "O'n marta"
+       ],
+       "correct_index": 1,
+       "page": 57
+      },
+      {
+       "question": "Hal qiluvchi jang qayerda bo'lgan?",
+       "options": [
+        "Volgada",
+        "Donda",
+        "Shimoliy Kavkazda Terek (Tarak) daryosi bo'yida",
+        "Nevada"
+       ],
+       "correct_index": 2,
+       "page": 57
+      },
+      {
+       "question": "Rus yerlari mo'g'ullarga necha asr qaram bo'lgan?",
+       "options": [
+        "Yarim asr",
+        "Besh asr",
+        "Taxminan ikki asr",
+        "Ellik yil"
+       ],
+       "correct_index": 2,
        "page": 57
       }
      ]
@@ -2762,6 +6018,424 @@
         "Krakov, Gnezno, Poznan"
        ],
        "correct_index": 3,
+       "page": 62
+      },
+      {
+       "question": "Ikkinchi Bolgariya podshohligi qaysi yildan?",
+       "options": [
+        "1018-yildan",
+        "1396-yildan",
+        "1000-yildan",
+        "1187-yildan"
+       ],
+       "correct_index": 3,
+       "page": 59
+      },
+      {
+       "question": "Birinchi Bolgariya tugagach Bolgariya qancha yil Vizantiya qo'lida bo'ldi?",
+       "options": [
+        "Taxminan 170 yil",
+        "17 yil",
+        "70 yil",
+        "700 yil"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Vizantiyaga qarshi qo'zg'olon ko'targan zodagon kim edi?",
+       "options": [
+        "Asen",
+        "Simeon",
+        "Ishtvan",
+        "Kazimir"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Bolgariya qaysi hukmdor davrida gullab-yashnadi?",
+       "options": [
+        "Asen I",
+        "Asen II",
+        "Simeon",
+        "Boleslav"
+       ],
+       "correct_index": 1,
+       "page": 59
+      },
+      {
+       "question": "Bolgariya Bolqonda qanday davlat bo'ldi?",
+       "options": [
+        "Eng katta davlat",
+        "Eng kichik",
+        "Vassal",
+        "Respublika"
+       ],
+       "correct_index": 0,
+       "page": 59
+      },
+      {
+       "question": "Asen II davrida qaysi hududlar qo'shildi?",
+       "options": [
+        "Rim",
+        "Italiya",
+        "Misr",
+        "Frakiya, Makedoniya, Epir, Fessaliyaning bir qismi"
+       ],
+       "correct_index": 3,
+       "page": 59
+      },
+      {
+       "question": "Mamlakatda birinchi marta nima zarb qilindi?",
+       "options": [
+        "Kumush pul",
+        "Oltin pul",
+        "Mis pul",
+        "Qog'oz pul"
+       ],
+       "correct_index": 1,
+       "page": 59
+      },
+      {
+       "question": "Bolgar savdogarlari qaysi yarmarkalarda qatnashgan?",
+       "options": [
+        "Qohira",
+        "Flandriya va Shampan",
+        "Bag'dod",
+        "Samarqand"
+       ],
+       "correct_index": 1,
+       "page": 59
+      },
+      {
+       "question": "Chexiya boshqa nom bilan nima deb atalgan?",
+       "options": [
+        "Moraviya",
+        "Bogemiya",
+        "Slovakiya",
+        "Silezya"
+       ],
+       "correct_index": 1,
+       "page": 60
+      },
+      {
+       "question": "Qirol Yan Lyuksemburg davrida nima muntazam chaqirilgan?",
+       "options": [
+        "Parlament",
+        "Senat",
+        "Veche",
+        "Seym"
+       ],
+       "correct_index": 3,
+       "page": 60
+      },
+      {
+       "question": "XIV asrda Chexiya qanday davlat edi?",
+       "options": [
+        "Kambag'al",
+        "Kichik",
+        "Vassal",
+        "Yevropaning eng boy davlatlaridan biri"
+       ],
+       "correct_index": 3,
+       "page": 60
+      },
+      {
+       "question": "Chexiyaning yirik savdo markazi qaysi shahar?",
+       "options": [
+        "Vena",
+        "Berlin",
+        "Praga",
+        "Varshava"
+       ],
+       "correct_index": 2,
+       "page": 60
+      },
+      {
+       "question": "Yan Gus nimani qoraladi?",
+       "options": [
+        "Qirolni",
+        "Savdoni",
+        "Indulgensiya savdosini va ruhoniylar qilmishini",
+        "Ilmni"
+       ],
+       "correct_index": 2,
+       "page": 61
+      },
+      {
+       "question": "Gus ibodatni qaysi tilda o'tkazishni taklif qildi?",
+       "options": [
+        "Lotin",
+        "Chex tilida",
+        "Nemis",
+        "Yunon"
+       ],
+       "correct_index": 1,
+       "page": 61
+      },
+      {
+       "question": "Gus nimani taklif qildi?",
+       "options": [
+        "Papaga bo'ysunish",
+        "Chexiyaning o'z cherkovi bo'lishi va qirolga bo'ysunishi",
+        "Cherkovni yopish",
+        "Soliq oshirish"
+       ],
+       "correct_index": 1,
+       "page": 61
+      },
+      {
+       "question": "Gusni qayerdagi yig'ilishga chaqirishdi?",
+       "options": [
+        "Konstansa shahridagi",
+        "Rimdagi",
+        "Parijdagi",
+        "Pragadagi"
+       ],
+       "correct_index": 0,
+       "page": 61
+      },
+      {
+       "question": "Gusga nima kafolatlangan edi?",
+       "options": [
+        "Qamoq",
+        "Qatl",
+        "Shaxsiy daxlsizlik (himoya yorlig'i)",
+        "Surgun"
+       ],
+       "correct_index": 2,
+       "page": 61
+      },
+      {
+       "question": "Gus qaysi yili gulxanda yoqildi?",
+       "options": [
+        "1415-yilda",
+        "1419-yilda",
+        "1434-yilda",
+        "1000-yilda"
+       ],
+       "correct_index": 0,
+       "page": 61
+      },
+      {
+       "question": "Guschilar harakati qaysi yili Pragada boshlandi?",
+       "options": [
+        "1419-yilda",
+        "1415-yilda",
+        "1434-yilda",
+        "1187-yilda"
+       ],
+       "correct_index": 0,
+       "page": 61
+      },
+      {
+       "question": "Yangi qirol Sigizmund nima qila olmadi?",
+       "options": [
+        "Qo'zg'olonni bostira olmadi",
+        "Taxtga o'tira olmadi",
+        "Papaga bo'ysunolmadi",
+        "Soliq yig'ib bo'lmadi"
+       ],
+       "correct_index": 0,
+       "page": 61
+      },
+      {
+       "question": "Chexiya 1419-yilda nimadan ajraldi?",
+       "options": [
+        "Germaniya imperiyasidan",
+        "Polshadan",
+        "Vengriyadan",
+        "Fransiyadan"
+       ],
+       "correct_index": 0,
+       "page": 61
+      },
+      {
+       "question": "Guschilar harakati necha oqimga bo'lindi?",
+       "options": [
+        "Uch",
+        "Ikki oqimga",
+        "To'rt",
+        "Bir"
+       ],
+       "correct_index": 1,
+       "page": 61
+      },
+      {
+       "question": "Guschilar harakati qaysi yili bostirildi?",
+       "options": [
+        "1419-yilda",
+        "1415-yilda",
+        "1450-yilda",
+        "1434-yilda"
+       ],
+       "correct_index": 3,
+       "page": 61
+      },
+      {
+       "question": "Vengerlarning boshqa nomi nima?",
+       "options": [
+        "Madyarlar faqat",
+        "Mojorlar",
+        "Slavyanlar",
+        "Gotlar"
+       ],
+       "correct_index": 1,
+       "page": 62
+      },
+      {
+       "question": "Vengerlar X asrdan nimani o'zlashtirdi?",
+       "options": [
+        "Savdoni",
+        "Dehqonchilikni",
+        "Dengizchilikni",
+        "Ovchilikni"
+       ],
+       "correct_index": 1,
+       "page": 62
+      },
+      {
+       "question": "Vengriya davlati qaysi asr oxirida tashkil topdi?",
+       "options": [
+        "X asr",
+        "XIII asr",
+        "IX asr oxirida",
+        "XV asr"
+       ],
+       "correct_index": 2,
+       "page": 62
+      },
+      {
+       "question": "Ishtvan Buyuk qaysi sulolaning vakili?",
+       "options": [
+        "Piast",
+        "Kapet",
+        "Karolin",
+        "Arpad"
+       ],
+       "correct_index": 3,
+       "page": 62
+      },
+      {
+       "question": "Ishtvan Buyuk qaysi yili toj kiydi?",
+       "options": [
+        "966-yilda",
+        "863-yilda",
+        "1000-yilda",
+        "988-yilda"
+       ],
+       "correct_index": 2,
+       "page": 63
+      },
+      {
+       "question": "Ishtvan Buyuk papadan nimani oldi?",
+       "options": [
+        "Qirol unvonini",
+        "Yerni",
+        "Xazinani",
+        "Qo'shinni"
+       ],
+       "correct_index": 0,
+       "page": 63
+      },
+      {
+       "question": "Vengriyada ishpan nima?",
+       "options": [
+        "Qirol",
+        "Rohib",
+        "Savdogar",
+        "Franklardagi graf kabi mansabdor"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Ishpan mansabi qanday bo'lgan?",
+       "options": [
+        "Merosiy",
+        "Saylanuvchi",
+        "Vaqtinchalik",
+        "Tayinlanuvchi"
+       ],
+       "correct_index": 0,
+       "page": 63
+      },
+      {
+       "question": "XIII asrda Vengriya hududi qayergacha yetdi?",
+       "options": [
+        "Boltiqqacha",
+        "Qora dengizgacha",
+        "Atlantikagacha",
+        "Adriatika sohillarigacha"
+       ],
+       "correct_index": 3,
+       "page": 63
+      },
+      {
+       "question": "Oltin bulla kim davrida qabul qilindi?",
+       "options": [
+        "Ishtvan I",
+        "Boleslav",
+        "Andrash II",
+        "Meshko"
+       ],
+       "correct_index": 2,
+       "page": 63
+      },
+      {
+       "question": "Oltin bulla qaysi hujjatga qiyoslanadi?",
+       "options": [
+        "Kortesga",
+        "Yasoqqa",
+        "Angliyadagi \"Erkinlikning buyuk xartiyasi\"ga",
+        "Xammurapi qonuniga"
+       ],
+       "correct_index": 2,
+       "page": 63
+      },
+      {
+       "question": "Polshani qaysi sulola boshqargan?",
+       "options": [
+        "Arpadlar",
+        "Gabsburglar",
+        "Lyuksemburglar",
+        "Piastlar (960-1385)"
+       ],
+       "correct_index": 3,
+       "page": 62
+      },
+      {
+       "question": "Polsha qaysi knyaz davrida mayda viloyatlarga bo'lindi?",
+       "options": [
+        "Meshko I",
+        "Kazimir",
+        "Boleslav III",
+        "Boleslav I"
+       ],
+       "correct_index": 2,
+       "page": 62
+      },
+      {
+       "question": "Polshada dehqonlar soliqni kimga to'lagan?",
+       "options": [
+        "Cherkovga ham",
+        "Faqat qirolga",
+        "Faqat panga",
+        "Hech kimga"
+       ],
+       "correct_index": 0,
+       "page": 62
+      },
+      {
+       "question": "Polshada qaysi shaharlar savdo va hunarmandchilik markazi edi?",
+       "options": [
+        "Praga, Vena",
+        "Krakov, Gnezno, Poznan",
+        "Kiyev, Smolensk",
+        "Berlin, Drezden"
+       ],
+       "correct_index": 1,
        "page": 62
       }
      ]
@@ -3051,6 +6725,435 @@
        ],
        "correct_index": 0,
        "page": 70
+      },
+      {
+       "question": "Usmon beyligi qayerda paydo bo'ldi?",
+       "options": [
+        "Misrda",
+        "Kichik Osiyoning shimoli-g'arbida",
+        "Eronda",
+        "Bolqonda"
+       ],
+       "correct_index": 1,
+       "page": 67
+      },
+      {
+       "question": "Usmon beyligi qaysi davlat parchalangach paydo bo'ldi?",
+       "options": [
+        "Vizantiya",
+        "Arab xalifaligi",
+        "Saljuqiylar davlati",
+        "Mo'g'ullar"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Beylikning ilk hukmdori kim?",
+       "options": [
+        "Ertug'rul",
+        "Usmon I",
+        "Murod I",
+        "Boyazid"
+       ],
+       "correct_index": 0,
+       "page": 67
+      },
+      {
+       "question": "Beylik nega Usmon nomi bilan ataldi?",
+       "options": [
+        "Ertug'rul nomi",
+        "Arab nomi",
+        "Usman davrida mustaqil davlatga aylangani uchun",
+        "Xalq nomi"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Usmon qaysi qabiladan edi?",
+       "options": [
+        "Qipchoq",
+        "Mo'g'ul",
+        "Arab",
+        "O'g'uz"
+       ],
+       "correct_index": 3,
+       "page": 67
+      },
+      {
+       "question": "Ertug'rul qabilasi kimdan ruxsat olib joylashdi?",
+       "options": [
+        "Vizantiya imperatoridan",
+        "Xalifadan",
+        "Papadan",
+        "Saljuqiy sulton Alouddin Qayqubod II dan"
+       ],
+       "correct_index": 3,
+       "page": 67
+      },
+      {
+       "question": "Ertug'rul qayerga joylashdi?",
+       "options": [
+        "Konstantinopolga",
+        "Bursaga",
+        "Vizantiya chegarasidagi Eskishaharga",
+        "Misrga"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Usmon I qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1362-1389",
+        "1451-1481",
+        "1326-1362",
+        "1299-1326"
+       ],
+       "correct_index": 3,
+       "page": 67
+      },
+      {
+       "question": "Usmonning Vizantiyaga dastlabki muvaffaqiyatli yurishi qaysi?",
+       "options": [
+        "1453 Konstantinopol",
+        "1362 Adrianopol",
+        "1402 Anqara",
+        "1291-yilda Melangiyani zabt etish"
+       ],
+       "correct_index": 3,
+       "page": 67
+      },
+      {
+       "question": "Usmon saljuq sultonlaridan nimani olib qaysi yili mustaqil bo'ldi?",
+       "options": [
+        "Tojni",
+        "Qilichni",
+        "Nog'ora va tug' - 1299-yilda",
+        "Yerni"
+       ],
+       "correct_index": 2,
+       "page": 67
+      },
+      {
+       "question": "Ot suvoriy jangchisiga nima berilgan?",
+       "options": [
+        "Pul",
+        "Tumori deb atalgan yer-mulk",
+        "Qul",
+        "Uy"
+       ],
+       "correct_index": 1,
+       "page": 68
+      },
+      {
+       "question": "Otliq qo'shin soni nechagacha yetgan?",
+       "options": [
+        "15 mingacha",
+        "150 minggacha",
+        "1,5 mingacha",
+        "1,5 million"
+       ],
+       "correct_index": 1,
+       "page": 68
+      },
+      {
+       "question": "Yanichar qo'shini qaysi yili tuzilgan?",
+       "options": [
+        "1299-yilda",
+        "1362-yilda",
+        "1365-yilda",
+        "1453-yilda"
+       ],
+       "correct_index": 2,
+       "page": 68
+      },
+      {
+       "question": "Yanichar so'zi nimani anglatadi?",
+       "options": [
+        "Eski qo'shin",
+        "Dengiz qo'shin",
+        "Piyoda",
+        "Yangi qo'shin"
+       ],
+       "correct_index": 3,
+       "page": 68
+      },
+      {
+       "question": "Yanicharlar qaysi qurol bilan qurollangan?",
+       "options": [
+        "Faqat nayza",
+        "Faqat qilich",
+        "Shamshir, qalqon, xanjar, boltacha, kamon, keyin o'qotar qurollar",
+        "Faqat to'p"
+       ],
+       "correct_index": 2,
+       "page": 68
+      },
+      {
+       "question": "Yanicharlar qaysi qo'shimcha vazifalarni bajargan?",
+       "options": [
+        "Savdo",
+        "Mirshablik, o't o'chirish, jazolash",
+        "Ta'lim",
+        "Ibodat"
+       ],
+       "correct_index": 1,
+       "page": 68
+      },
+      {
+       "question": "Turklar Yevropadagi dastlabki yurishlarni qaysi yillarda boshlagan?",
+       "options": [
+        "1352-1354",
+        "1299-1326",
+        "1402-1413",
+        "1451-1453"
+       ],
+       "correct_index": 0,
+       "page": 68
+      },
+      {
+       "question": "Turklar Bolqonda qanday viloyat ta'sis etdi?",
+       "options": [
+        "Rumeli",
+        "Anatoliya",
+        "Rum",
+        "Kichik Osiyo"
+       ],
+       "correct_index": 0,
+       "page": 68
+      },
+      {
+       "question": "Adrianopol qaysi yili egallandi?",
+       "options": [
+        "1299-yilda",
+        "1389-yilda",
+        "1362-yilda",
+        "1453-yilda"
+       ],
+       "correct_index": 2,
+       "page": 68
+      },
+      {
+       "question": "Adrianopolga qanday nom berildi?",
+       "options": [
+        "Bursa",
+        "Istanbul",
+        "Edirna",
+        "Ankara"
+       ],
+       "correct_index": 2,
+       "page": 68
+      },
+      {
+       "question": "Murod I qaysi yillarda hukmronlik qilgan?",
+       "options": [
+        "1299-1326",
+        "1451-1481",
+        "1413-1421",
+        "1362-1389"
+       ],
+       "correct_index": 3,
+       "page": 68
+      },
+      {
+       "question": "Murod I 1389-yilda qayerda halok bo'ldi?",
+       "options": [
+        "Anqarada",
+        "Nikopolda",
+        "Kosovoda (serblarga qarshi)",
+        "Adrianopolda"
+       ],
+       "correct_index": 2,
+       "page": 68
+      },
+      {
+       "question": "Mehmed I qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1389-1402",
+        "1413-1421",
+        "1421-1451",
+        "1451-1481"
+       ],
+       "correct_index": 1,
+       "page": 69
+      },
+      {
+       "question": "Mehmed II qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1413-1421",
+        "1421-1451",
+        "1481-1512",
+        "1451-1481"
+       ],
+       "correct_index": 3,
+       "page": 69
+      },
+      {
+       "question": "Konstantinopol necha oylik qamaldan so'ng egallandi?",
+       "options": [
+        "Bir haftalik",
+        "Bir yillik",
+        "Ikki yillik",
+        "Ikki oylik"
+       ],
+       "correct_index": 3,
+       "page": 69
+      },
+      {
+       "question": "Konstantinopol qaysi yili egallandi?",
+       "options": [
+        "1402-yil 20-iyul",
+        "1299-yil",
+        "1453-yil 29-may",
+        "1362-yil"
+       ],
+       "correct_index": 2,
+       "page": 69
+      },
+      {
+       "question": "Turklar Konstantinopolga qaysi flotni yaratdilar?",
+       "options": [
+        "Hech",
+        "Kichik flot",
+        "Daryo flotini",
+        "Katta flotni"
+       ],
+       "correct_index": 3,
+       "page": 69
+      },
+      {
+       "question": "Ayo Sofiya nimaga aylantirildi?",
+       "options": [
+        "Sultonning asosiy masjidiga",
+        "Saroyga",
+        "Qal'aga",
+        "Kutubxonaga"
+       ],
+       "correct_index": 0,
+       "page": 69
+      },
+      {
+       "question": "Usmoniylar qaysi hukmdor bilan to'qnashdi?",
+       "options": [
+        "Papa",
+        "Amir Temur bilan",
+        "Xalifa",
+        "Mo'g'ul xoni"
+       ],
+       "correct_index": 1,
+       "page": 69
+      },
+      {
+       "question": "Anqara jangi qaysi yili bo'lgan?",
+       "options": [
+        "1389-yilda",
+        "1453-yilda",
+        "1402-yil iyulida",
+        "1299-yilda"
+       ],
+       "correct_index": 2,
+       "page": 69
+      },
+      {
+       "question": "Anqarada Boyazidga nima bo'ldi?",
+       "options": [
+        "Yutdi",
+        "Qochdi",
+        "Yengilib asir olindi",
+        "Vafot etdi"
+       ],
+       "correct_index": 2,
+       "page": 69
+      },
+      {
+       "question": "Usmoniylar beyi dastlab kim tomonidan saylangan?",
+       "options": [
+        "Xalifa",
+        "Papa",
+        "Qabila boshliqlari yig'inida",
+        "Imperator"
+       ],
+       "correct_index": 2,
+       "page": 70
+      },
+      {
+       "question": "Poytaxt qaysi shahar edi (O'rxon davrida)?",
+       "options": [
+        "Bursa",
+        "Edirna",
+        "Istanbul",
+        "Ankara"
+       ],
+       "correct_index": 0,
+       "page": 70
+      },
+      {
+       "question": "Birinchi kumush tanga qaysi yili Bursada zarb qilingan?",
+       "options": [
+        "1299-yilda",
+        "1362-yilda",
+        "1453-yilda",
+        "1327-yilda"
+       ],
+       "correct_index": 3,
+       "page": 70
+      },
+      {
+       "question": "Murod I davridan hukmdorlar qanday atalgan?",
+       "options": [
+        "Sulton",
+        "Bey",
+        "Xon",
+        "Shoh"
+       ],
+       "correct_index": 0,
+       "page": 70
+      },
+      {
+       "question": "Sulton qanday vakolatga ega edi?",
+       "options": [
+        "Faqat qo'mondon",
+        "Hukumat rahbari, bosh qo'mondon va oliy qozi",
+        "Faqat qozi",
+        "Faqat vazir"
+       ],
+       "correct_index": 1,
+       "page": 70
+      },
+      {
+       "question": "Salim I Misrni egallagach nima bo'ldi?",
+       "options": [
+        "Misr yo'qoldi",
+        "Xalifa taxtni unga topshirdi",
+        "Salim yengildi",
+        "Papa kelib"
+       ],
+       "correct_index": 1,
+       "page": 70
+      },
+      {
+       "question": "Usmoniylar yer egaligining shakllari qaysilar?",
+       "options": [
+        "Mulk yerlari, harbiylar mulki, vaqf yerlari",
+        "Faqat davlat",
+        "Faqat xususiy",
+        "Faqat cherkov"
+       ],
+       "correct_index": 0,
+       "page": 71
+      },
+      {
+       "question": "XVI asr boshida Usmoniylar nechta qit'ada hukmronlik o'rnatdi?",
+       "options": [
+        "Bir",
+        "Uch qit'ada",
+        "Ikki",
+        "To'rt"
+       ],
+       "correct_index": 1,
+       "page": 71
       }
      ]
     },
@@ -3321,6 +7424,446 @@
         "1435-yilda"
        ],
        "correct_index": 3,
+       "page": 76
+      },
+      {
+       "question": "Huloku qaysi yili Eronni bosib oldi?",
+       "options": [
+        "1206-yilda",
+        "1295-yilda",
+        "1340-yilda",
+        "1256-yilda"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Huloku necha qo'shin bilan Eronga bostirib kirdi?",
+       "options": [
+        "7 ming",
+        "70 ming",
+        "700 ming",
+        "20 ming"
+       ],
+       "correct_index": 1,
+       "page": 73
+      },
+      {
+       "question": "Huloku Eronga kimning topshirig'iga ko'ra bordi?",
+       "options": [
+        "Mo'g'ul xoni Munke",
+        "Chingizxon",
+        "Xubilay",
+        "Botu"
+       ],
+       "correct_index": 0,
+       "page": 73
+      },
+      {
+       "question": "Elxon so'zi nimani anglatadi?",
+       "options": [
+        "Qo'mondon",
+        "Ulus xoni",
+        "Vazir",
+        "Bek"
+       ],
+       "correct_index": 1,
+       "page": 73
+      },
+      {
+       "question": "Hulokuiylar davlatiga qaysi hududlar kirgan?",
+       "options": [
+        "Hindiston",
+        "Xitoy",
+        "Eron, Afg'oniston, Turkmanistonning katta qismi, Kavkazorti, Iroq",
+        "Misr"
+       ],
+       "correct_index": 2,
+       "page": 73
+      },
+      {
+       "question": "Mo'g'ullar dehqonchilik yerlarini nimaga aylantirdi?",
+       "options": [
+        "Bog'ga",
+        "Shaharga",
+        "Cho'lga",
+        "Yaylovga"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Xorazmshohlar Eronni qaysi yili egalladi?",
+       "options": [
+        "1256-yilda",
+        "1340-yilda",
+        "1410-yilda",
+        "1194-yilda"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Tulu boshchiligidagi mo'g'ullar qaysi shaharlarni egalladi?",
+       "options": [
+        "Tabriz, Bag'dod",
+        "Isfahon, Sheroz",
+        "Qum, Rey",
+        "Marv, Niso, Sabzavor, Nishopur, Tus"
+       ],
+       "correct_index": 3,
+       "page": 73
+      },
+      {
+       "question": "Elxonlar qanday boshqargan?",
+       "options": [
+        "Faqat mo'g'ullarga",
+        "Faqat forslarga",
+        "Turk-mo'g'ul zodagonlari va musulmon amaldorlariga tayanib",
+        "Faqat arablarga"
+       ],
+       "correct_index": 2,
+       "page": 73
+      },
+      {
+       "question": "G'ozonxon qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1256-1265",
+        "1295-1304",
+        "1304-1316",
+        "1340-1356"
+       ],
+       "correct_index": 1,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon nechanchi elxon edi?",
+       "options": [
+        "Birinchi",
+        "Yettinchi",
+        "Beshinchi",
+        "O'ninchi"
+       ],
+       "correct_index": 1,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxonning vaziri kim edi?",
+       "options": [
+        "Rashiduddin",
+        "Nizomulmulk",
+        "Ibn Sino",
+        "Sa'diy"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon qaysi dinni qabul qildi?",
+       "options": [
+        "Islomni",
+        "Buddizmni",
+        "Xristianlikni",
+        "Zardushtiylikni"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon islomni qaysi yili davlat dini deb e'lon qildi?",
+       "options": [
+        "1295-yilda",
+        "1256-yilda",
+        "1304-yilda",
+        "1340-yilda"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon islohotlarida nimaga e'tibor qaratdi?",
+       "options": [
+        "Davlatni markazlashtirish va soliq tizimini tartibga solish",
+        "Urush",
+        "Din",
+        "Savdo"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon qanday kumush dirham zarb qildi?",
+       "options": [
+        "21,5 grammli",
+        "0,5 grammli",
+        "10 grammli",
+        "2,15 grammli"
+       ],
+       "correct_index": 3,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon qanday oltin dinor zarb qildi?",
+       "options": [
+        "12,9 grammli",
+        "1,29 grammli",
+        "129 grammli",
+        "5 grammli"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "G'ozonxon pul tizimi keyin qaysi ulusda joriy qilindi?",
+       "options": [
+        "Chig'atoy ulusida",
+        "Oltin O'rdada",
+        "Yuanda",
+        "Misrda"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "Elxon Abu Said vafotidan keyin nima bo'ldi?",
+       "options": [
+        "Kuchaydi",
+        "Birlashdi",
+        "Yagona hukmdor qolmadi",
+        "Kengaydi"
+       ],
+       "correct_index": 2,
+       "page": 74
+      },
+      {
+       "question": "Hulokuiylar davlati XIV asrning qaysi yillaridan parchalana boshladi?",
+       "options": [
+        "30-yillaridan",
+        "10-yillaridan",
+        "50-yillaridan",
+        "70-yillaridan"
+       ],
+       "correct_index": 0,
+       "page": 74
+      },
+      {
+       "question": "Xurosonning sharqiy qismida elxonlar qaysi yilgacha hokimiyatda qoldi?",
+       "options": [
+        "1295-yilgacha",
+        "1353-yilgacha",
+        "1340-yilgacha",
+        "1410-yilgacha"
+       ],
+       "correct_index": 1,
+       "page": 74
+      },
+      {
+       "question": "Jaloyiriylar qayerda yashagan?",
+       "options": [
+        "Misrda",
+        "Hindistonda",
+        "Kavkazda",
+        "Mo'g'ulistondagi Onon va Kerulen bo'yida"
+       ],
+       "correct_index": 3,
+       "page": 75
+      },
+      {
+       "question": "Jaloyiriylar davlatiga kim asos soldi?",
+       "options": [
+        "Uvays",
+        "Ahmad",
+        "Shayx Hasan Buzurg",
+        "Qora Yusuf"
+       ],
+       "correct_index": 2,
+       "page": 75
+      },
+      {
+       "question": "Jaloyiriylar davlati qaysi yili tuzilgan?",
+       "options": [
+        "1256-yilda",
+        "1340-yilda",
+        "1410-yilda",
+        "1453-yilda"
+       ],
+       "correct_index": 1,
+       "page": 75
+      },
+      {
+       "question": "Uvays I davrida Jaloyiriylar qanday bo'ldi?",
+       "options": [
+        "Zaiflashdi",
+        "Juda yuksaldi",
+        "Tugadi",
+        "Bo'lindi"
+       ],
+       "correct_index": 1,
+       "page": 75
+      },
+      {
+       "question": "Uvays I qaysi yillarda hukmronlik qilgan?",
+       "options": [
+        "1340-1356",
+        "1374-1410",
+        "1410-1435",
+        "1356-1374"
+       ],
+       "correct_index": 3,
+       "page": 75
+      },
+      {
+       "question": "Jaloyiriylarga qaysi yilda butunlay chek qo'yildi?",
+       "options": [
+        "XV asr 30-yillarida Qora qo'yunlilar tomonidan",
+        "1405-yilda",
+        "1256-yilda",
+        "1340-yilda"
+       ],
+       "correct_index": 0,
+       "page": 75
+      },
+      {
+       "question": "Muzaffariylarga kim asos solgan?",
+       "options": [
+        "Hasan Buzurg",
+        "Qora Yusuf",
+        "Muboriziddin Muhammad ibn Muzaffar",
+        "Uzun Hasan"
+       ],
+       "correct_index": 2,
+       "page": 75
+      },
+      {
+       "question": "Muzaffariylar poytaxti qaysi shahar?",
+       "options": [
+        "Bag'dod",
+        "Sheroz",
+        "Tabriz",
+        "Yazd"
+       ],
+       "correct_index": 1,
+       "page": 75
+      },
+      {
+       "question": "Muboriziddin Muhammad qaysi yillarda yashagan?",
+       "options": [
+        "1340-1374",
+        "1387-1420",
+        "1314-1358",
+        "1453-1478"
+       ],
+       "correct_index": 2,
+       "page": 75
+      },
+      {
+       "question": "Muboriziddin Muhammad kim edi?",
+       "options": [
+        "Mo'g'ullarning Yazddagi noibi",
+        "Imom",
+        "Sarkarda",
+        "Qozi"
+       ],
+       "correct_index": 0,
+       "page": 75
+      },
+      {
+       "question": "Qora qo'yunlilar qaysi qabilalar ittifoqi?",
+       "options": [
+        "Mo'g'ul",
+        "Arab",
+        "Fors",
+        "Turkman"
+       ],
+       "correct_index": 3,
+       "page": 76
+      },
+      {
+       "question": "Qora qo'yunlilar qayerda yashagan?",
+       "options": [
+        "Dajla yuqorisida",
+        "Van ko'lining sharqiy qismida",
+        "Nil bo'yida",
+        "Kavkazda"
+       ],
+       "correct_index": 1,
+       "page": 76
+      },
+      {
+       "question": "Qora qo'yunlilar yo'lboshchisi kim?",
+       "options": [
+        "Iskandar",
+        "Uzun Hasan",
+        "Qora Yusuf",
+        "Abu Bakr"
+       ],
+       "correct_index": 2,
+       "page": 76
+      },
+      {
+       "question": "Qora Yusuf qaysi yili Tabriz va Bag'dodni egalladi?",
+       "options": [
+        "1387-yilda",
+        "1435-yilda",
+        "1453-yilda",
+        "1410-yilda"
+       ],
+       "correct_index": 3,
+       "page": 76
+      },
+      {
+       "question": "Shohrux Qora qo'yunlilarni qaysi yili bo'ysundirdi?",
+       "options": [
+        "1435-yilda",
+        "1410-yilda",
+        "1453-yilda",
+        "1387-yilda"
+       ],
+       "correct_index": 0,
+       "page": 76
+      },
+      {
+       "question": "Oq qo'yunlilar qayerda yashagan?",
+       "options": [
+        "Dajla daryosi yuqori oqimida",
+        "Nil bo'yida",
+        "Amudaryoda",
+        "Van ko'lida"
+       ],
+       "correct_index": 0,
+       "page": 76
+      },
+      {
+       "question": "Oq qo'yunlilar davlatiga kim asos soldi?",
+       "options": [
+        "Qora Yusuf",
+        "Uzun Hasan",
+        "Iskandar",
+        "Hasan Buzurg"
+       ],
+       "correct_index": 1,
+       "page": 76
+      },
+      {
+       "question": "Uzun Hasan qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1453-1478",
+        "1387-1420",
+        "1410-1435",
+        "1340-1374"
+       ],
+       "correct_index": 0,
+       "page": 76
+      },
+      {
+       "question": "Oq qo'yunlilar poytaxti qaysi?",
+       "options": [
+        "Sheroz",
+        "Bag'dod",
+        "Tabriz",
+        "Isfahon"
+       ],
+       "correct_index": 2,
        "page": 76
       }
      ]
@@ -3611,6 +8154,413 @@
        ],
        "correct_index": 3,
        "page": 83
+      },
+      {
+       "question": "Oltin O'rda kimning ulusi hududida tashkil topdi?",
+       "options": [
+        "Chig'atoy",
+        "Chingizxonning to'ng'ich o'g'li Jo'jining",
+        "O'qtoy",
+        "Tuli"
+       ],
+       "correct_index": 1,
+       "page": 78
+      },
+      {
+       "question": "Jo'ji ulusi qaysi daryolar oralig'ida edi?",
+       "options": [
+        "Nil-Gang",
+        "Irtishdan Volgabo'yigacha",
+        "Dunay-Reyn",
+        "Amur-Xuanxe"
+       ],
+       "correct_index": 1,
+       "page": 78
+      },
+      {
+       "question": "Jo'ji vafotidan keyin kim ulusni kengaytirdi?",
+       "options": [
+        "O'g'li Botuxon",
+        "Berka",
+        "Uzbek",
+        "Tuxta"
+       ],
+       "correct_index": 0,
+       "page": 78
+      },
+      {
+       "question": "Botuxon qaysi yillarda Sharqiy Yevropada istilolar qildi?",
+       "options": [
+        "1206-1227",
+        "1256-1260",
+        "1237-1242",
+        "1380-1395"
+       ],
+       "correct_index": 2,
+       "page": 78
+      },
+      {
+       "question": "Botuxon qaysi davlatlarga ham bostirib kirdi?",
+       "options": [
+        "Fransiyaga",
+        "Chexiya va Vengriyaga",
+        "Angliyaga",
+        "Italiyaga"
+       ],
+       "correct_index": 1,
+       "page": 78
+      },
+      {
+       "question": "Oltin O'rda qaysi asr 40-yillari boshida tuzildi?",
+       "options": [
+        "XI asr",
+        "XIII asr",
+        "XV asr",
+        "IX asr"
+       ],
+       "correct_index": 1,
+       "page": 78
+      },
+      {
+       "question": "Rus manbalarida bu davlat qanday atalgan?",
+       "options": [
+        "Jo'ji ulusi",
+        "Chig'atoy",
+        "Oltin O'rda",
+        "Yuan"
+       ],
+       "correct_index": 2,
+       "page": 78
+      },
+      {
+       "question": "Sharq manbalarida Oltin O'rda qanday atalgan?",
+       "options": [
+        "Oltin O'rda",
+        "Chig'atoy ulusi",
+        "Jo'ji ulusi",
+        "Yuan"
+       ],
+       "correct_index": 2,
+       "page": 78
+      },
+      {
+       "question": "\"O'rda\" nimani anglatadi?",
+       "options": [
+        "Qarorgoh, chodir",
+        "Qo'shin",
+        "Davlat",
+        "Xalq"
+       ],
+       "correct_index": 0,
+       "page": 79
+      },
+      {
+       "question": "Botuxon Volgabo'yida qarorgohiga nima o'rnatdi?",
+       "options": [
+        "Saroy",
+        "Qal'a",
+        "Minora",
+        "Hashamdor oltin chodir"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Ibn Battutaga ko'ra O'zbekxon taxti nima bilan qoplangan?",
+       "options": [
+        "Oltin bilan",
+        "Kumush",
+        "Marmar",
+        "Teri"
+       ],
+       "correct_index": 0,
+       "page": 79
+      },
+      {
+       "question": "Oltin O'rda xonlari kim bo'lishi shart edi?",
+       "options": [
+        "Zodagon",
+        "Rohib",
+        "Savdogar",
+        "Chingiziylar va Jo'ji avlodlaridan"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Saylangan xon nimaga ko'tarilgan?",
+       "options": [
+        "Taxtga",
+        "Oq kigizga",
+        "Otga",
+        "Qalqonga"
+       ],
+       "correct_index": 1,
+       "page": 79
+      },
+      {
+       "question": "Xonga qaysi qurol topshirilgan?",
+       "options": [
+        "Kumush qalqon",
+        "Nayza",
+        "Oltin qilich",
+        "Gurzi"
+       ],
+       "correct_index": 2,
+       "page": 79
+      },
+      {
+       "question": "Ijro hokimiyati boshlig'i kim edi?",
+       "options": [
+        "Vazir",
+        "Dorug'a",
+        "Noyon",
+        "Beklarbegi"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Soliq va moliyaga mas'ul devonni kim boshqargan?",
+       "options": [
+        "Beklarbegi",
+        "Dorug'a",
+        "Vazir",
+        "Xon"
+       ],
+       "correct_index": 2,
+       "page": 79
+      },
+      {
+       "question": "Viloyat va shaharlarga hokimlar qanday atalgan?",
+       "options": [
+        "Beklar",
+        "Voliylar",
+        "Graflar",
+        "Dorug'alar"
+       ],
+       "correct_index": 3,
+       "page": 79
+      },
+      {
+       "question": "Ko'chmanchi mo'g'ullar nima bo'lib qoldi?",
+       "options": [
+        "Turkiy xalqlar orasida tarqalib ketdi",
+        "Hukmron",
+        "Haydalgan",
+        "Yo'qolgan"
+       ],
+       "correct_index": 0,
+       "page": 80
+      },
+      {
+       "question": "Oltin O'rdaning dastlabki poytaxti qaysi?",
+       "options": [
+        "Saroy Botu",
+        "Saroy Berka",
+        "Qoraqurum",
+        "Moskva"
+       ],
+       "correct_index": 0,
+       "page": 80
+      },
+      {
+       "question": "Saroy Botu qaysi daryoning quyi oqimida?",
+       "options": [
+        "Don",
+        "Dnepr",
+        "Volga",
+        "Ural"
+       ],
+       "correct_index": 2,
+       "page": 80
+      },
+      {
+       "question": "Oltin O'rda tashqi siyosatidagi ustuvor yo'nalish nima?",
+       "options": [
+        "Ulug' xon boshchiligidagi Mo'g'ullar imperiyasi bilan hamkorlik",
+        "Xitoyga urush",
+        "Hindistonga yurish",
+        "Rus bilan urush"
+       ],
+       "correct_index": 0,
+       "page": 81
+      },
+      {
+       "question": "Botuxon qurultoyga qayerga borib turgan?",
+       "options": [
+        "Samarqandga",
+        "Pekinga",
+        "Qoraqurumga",
+        "Saroyga"
+       ],
+       "correct_index": 2,
+       "page": 81
+      },
+      {
+       "question": "Botuxon kimning ulug' xon bo'lishiga yordam berdi?",
+       "options": [
+        "Jiyani Munkening",
+        "Guyukning",
+        "Xubilayning",
+        "Qora-Hulaguning"
+       ],
+       "correct_index": 0,
+       "page": 81
+      },
+      {
+       "question": "Berkaxon qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1237-1255",
+        "1266-1280",
+        "1312-1342",
+        "1255-1266"
+       ],
+       "correct_index": 3,
+       "page": 81
+      },
+      {
+       "question": "Berkaxon ulug' xon ruxsatisiz taxtga kelgan birinchi hukmdor, bu qaysi ulus?",
+       "options": [
+        "Jo'ji ulusi",
+        "Chig'atoy",
+        "Hulakuyli",
+        "Yuan"
+       ],
+       "correct_index": 0,
+       "page": 81
+      },
+      {
+       "question": "Imperiya ichidagi kurashda kim g'alaba qozondi?",
+       "options": [
+        "Oriqbuqa",
+        "Xubilay",
+        "Munke",
+        "Guyuk"
+       ],
+       "correct_index": 1,
+       "page": 81
+      },
+      {
+       "question": "Rus knyazlari mo'g'ullarga nima to'lagan?",
+       "options": [
+        "O'lpon",
+        "Qul",
+        "Oltin",
+        "Qurol"
+       ],
+       "correct_index": 0,
+       "page": 82
+      },
+      {
+       "question": "1480-yilda Oltin O'rda kimni bo'ysundirishga urindi?",
+       "options": [
+        "Dmitriyni",
+        "Kalitani",
+        "Yaroslavni",
+        "Moskva knyazi Ivan III ni"
+       ],
+       "correct_index": 3,
+       "page": 82
+      },
+      {
+       "question": "Oltin O'rda mustaqil davlat bo'lib nima qila boshladi?",
+       "options": [
+        "Qurol yasashni",
+        "Maktab ochishni",
+        "Savdoni yopishni",
+        "O'z nomidan tangalar zarb qilishni"
+       ],
+       "correct_index": 3,
+       "page": 82
+      },
+      {
+       "question": "O'zbekxon qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1342-1357",
+        "1255-1266",
+        "1237-1255",
+        "1312-1342"
+       ],
+       "correct_index": 3,
+       "page": 83
+      },
+      {
+       "question": "Jonibekxon qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1312-1342",
+        "1255-1266",
+        "1342-1357",
+        "1380-1395"
+       ],
+       "correct_index": 2,
+       "page": 83
+      },
+      {
+       "question": "O'zbekxon imperiyani nechta tumanga bo'ldi?",
+       "options": [
+        "70 ta",
+        "7 ta",
+        "700 ta",
+        "10 ta"
+       ],
+       "correct_index": 0,
+       "page": 83
+      },
+      {
+       "question": "Tumanlar nechta yirik viloyatga birlashtirildi?",
+       "options": [
+        "O'nta",
+        "Besh",
+        "Yigirma",
+        "Uch"
+       ],
+       "correct_index": 0,
+       "page": 83
+      },
+      {
+       "question": "Viloyatlarga kim boshchilik qilgan?",
+       "options": [
+        "Ulusbegilar",
+        "Dorug'alar",
+        "Voliylar",
+        "Graflar"
+       ],
+       "correct_index": 0,
+       "page": 83
+      },
+      {
+       "question": "O'zbekxon qaysi yili islomni qabul qildi?",
+       "options": [
+        "1312-yilda",
+        "1342-yilda",
+        "1314-yilda",
+        "1237-yilda"
+       ],
+       "correct_index": 2,
+       "page": 83
+      },
+      {
+       "question": "Jonibekxon vafotidan keyin nima boshlandi?",
+       "options": [
+        "Tinchlik",
+        "Birlik",
+        "Taxt uchun kurash",
+        "Yuksalish"
+       ],
+       "correct_index": 2,
+       "page": 83
+      },
+      {
+       "question": "Oltin O'rdaning inqiroziga nima sabab bo'ldi?",
+       "options": [
+        "Taxt vorisi haqidagi qonun yo'qligi",
+        "Qurg'oqchilik",
+        "Savdo",
+        "Dengiz"
+       ],
+       "correct_index": 0,
+       "page": 83
       }
      ]
     },
@@ -3881,6 +8831,314 @@
         "Savdoning rivoji"
        ],
        "correct_index": 1,
+       "page": 88
+      },
+      {
+       "question": "Dehli sultonligiga qaysi yili asos solindi?",
+       "options": [
+        "1229-yilda",
+        "1206-yilda",
+        "1325-yilda",
+        "1398-yilda"
+       ],
+       "correct_index": 1,
+       "page": 85
+      },
+      {
+       "question": "Dehli sultonligiga kim asos soldi?",
+       "options": [
+        "Eltutmish",
+        "Qutbiddin Oyboq",
+        "Xiljiy",
+        "Tug'luq"
+       ],
+       "correct_index": 1,
+       "page": 85
+      },
+      {
+       "question": "Qutbiddin Oyboq qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1211-1236",
+        "1206-1210",
+        "1236-1240",
+        "1296-1316"
+       ],
+       "correct_index": 1,
+       "page": 85
+      },
+      {
+       "question": "Oyboqdan keyin taxtga kim keldi?",
+       "options": [
+        "Roziya",
+        "Xiljiy",
+        "Turk g'ulomi Shamsiddin Eltutmish",
+        "Tug'luq"
+       ],
+       "correct_index": 2,
+       "page": 85
+      },
+      {
+       "question": "Eltutmish qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1211-1236",
+        "1206-1210",
+        "1236-1240",
+        "1296-1316"
+       ],
+       "correct_index": 0,
+       "page": 85
+      },
+      {
+       "question": "Eltutmish nimalarni sultonlikka qo'shdi?",
+       "options": [
+        "Panjob, Sind, Bengaliya",
+        "Misr",
+        "Eron",
+        "Xitoy"
+       ],
+       "correct_index": 0,
+       "page": 85
+      },
+      {
+       "question": "Eltutmishni 1229-yilda kim mustaqil hukmdor deb e'tirof etdi?",
+       "options": [
+        "Papa",
+        "Bag'dod xalifasi",
+        "Imperator",
+        "Xon"
+       ],
+       "correct_index": 1,
+       "page": 85
+      },
+      {
+       "question": "Eltutmish merosxo'r qilib kimni tayinladi?",
+       "options": [
+        "To'ng'ich qizi Roziyani",
+        "O'g'lini",
+        "Ukasini",
+        "Vazirni"
+       ],
+       "correct_index": 0,
+       "page": 85
+      },
+      {
+       "question": "Roziya qaysi yili taxtga o'tirdi?",
+       "options": [
+        "1211-yilda",
+        "1229-yilda",
+        "1240-yilda",
+        "1236-yilda"
+       ],
+       "correct_index": 3,
+       "page": 85
+      },
+      {
+       "question": "Roziya qanday hukmdor edi?",
+       "options": [
+        "Birinchi qirol",
+        "Qirolicha faqat",
+        "Ruhoniy",
+        "Sultonlikning yagona musulmon ayol hukmdori"
+       ],
+       "correct_index": 3,
+       "page": 85
+      },
+      {
+       "question": "Alouddin Xiljiy bozorda nimani belgilab qo'ydi?",
+       "options": [
+        "Soliqni",
+        "Narxlarni",
+        "Tolasini",
+        "Qurolni"
+       ],
+       "correct_index": 1,
+       "page": 86
+      },
+      {
+       "question": "Xiljiy ayg'oqchilari nima qilgan?",
+       "options": [
+        "Soliq yig'gan",
+        "Sud qilgan",
+        "\"Sinov xaridlari\" o'tkazgan",
+        "Qo'shin tuzgan"
+       ],
+       "correct_index": 2,
+       "page": 86
+      },
+      {
+       "question": "Narx oshsa savdogarlar nima bo'lgan?",
+       "options": [
+        "Qatl qilingan",
+        "Mukofotlangan",
+        "Hech narsa",
+        "Katta jarimaga tortilgan"
+       ],
+       "correct_index": 3,
+       "page": 86
+      },
+      {
+       "question": "Narx tushmasa sulton nima qilgan?",
+       "options": [
+        "Soliq oshirgan",
+        "Davlat g'alla zaxirasini bozorga chiqargan",
+        "Bozorni yopgan",
+        "Savdoni taqiqlagan"
+       ],
+       "correct_index": 1,
+       "page": 86
+      },
+      {
+       "question": "Sultonlik boshqaruvida barcha devonlar kimga bo'ysungan?",
+       "options": [
+        "Bosh vazirga",
+        "Qozikalonga",
+        "Ulamolarga",
+        "Qo'mondonga"
+       ],
+       "correct_index": 0,
+       "page": 86
+      },
+      {
+       "question": "Harbiy islohot natijasida nima tuzildi?",
+       "options": [
+        "Flot",
+        "Parlament",
+        "Senat",
+        "Maxfiy bo'lim"
+       ],
+       "correct_index": 3,
+       "page": 86
+      },
+      {
+       "question": "XII-XIII asrlarda sultonlikda nima uzil-kesil o'rnatildi?",
+       "options": [
+        "Hind hokimiyati",
+        "Musulmonlar hokimiyati",
+        "Rim hokimiyati",
+        "Mo'g'ul hokimiyati"
+       ],
+       "correct_index": 1,
+       "page": 86
+      },
+      {
+       "question": "Islom sultonlikda nima deb e'lon qilindi?",
+       "options": [
+        "Taqiqlangan din",
+        "Ixtiyoriy",
+        "Davlat dini",
+        "Qullar dini"
+       ],
+       "correct_index": 2,
+       "page": 86
+      },
+      {
+       "question": "Yer kimning mulki deb qaralgan?",
+       "options": [
+        "Dehqonlarning",
+        "Ruhoniylarning",
+        "Sultonning",
+        "Savdogarlarning"
+       ],
+       "correct_index": 2,
+       "page": 87
+      },
+      {
+       "question": "Iqto egalari soliqning qancha qismini o'zida qoldirgan?",
+       "options": [
+        "1-2%",
+        "10-20%",
+        "50%",
+        "90%"
+       ],
+       "correct_index": 1,
+       "page": 87
+      },
+      {
+       "question": "Rajputlar kimlar?",
+       "options": [
+        "Savdogarlar",
+        "Rohiblar",
+        "Qullar",
+        "O'rta va mayda hind feodallari"
+       ],
+       "correct_index": 3,
+       "page": 87
+      },
+      {
+       "question": "Xolisa nima?",
+       "options": [
+        "Xususiy yer",
+        "Iqto",
+        "Cherkov yeri",
+        "Davlat ixtiyoridagi yerlar"
+       ],
+       "correct_index": 3,
+       "page": 87
+      },
+      {
+       "question": "Muhammad Tug'luq qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1296-1316",
+        "1351-1388",
+        "1325-1351",
+        "1206-1236"
+       ],
+       "correct_index": 2,
+       "page": 87
+      },
+      {
+       "question": "Sayyidlar sulolasiga kim asos soldi?",
+       "options": [
+        "Eltutmish",
+        "Tug'luq",
+        "Xiljiy",
+        "Xizr Xon"
+       ],
+       "correct_index": 3,
+       "page": 88
+      },
+      {
+       "question": "Sayyidlar sulolasi hokimiyati qayergacha yetgan?",
+       "options": [
+        "Butun Hindistonga",
+        "Dehli va uning atrofidan nariga o'tmagan",
+        "Eronga",
+        "Xitoyga"
+       ],
+       "correct_index": 1,
+       "page": 88
+      },
+      {
+       "question": "Dehli sultonlari qanday bo'lib qoldi?",
+       "options": [
+        "Kuchli",
+        "Qo'g'irchoq, nomigagina hukmron",
+        "Mustaqil",
+        "Imperator"
+       ],
+       "correct_index": 1,
+       "page": 88
+      },
+      {
+       "question": "\"Sulton Shoh Olamning kuchi Dehlidan Palamgacha\" nimani anglatadi?",
+       "options": [
+        "Kuchli sultonni",
+        "Yangi shaharni",
+        "Savdoni",
+        "Sulton hokimiyati juda zaiflashganini"
+       ],
+       "correct_index": 3,
+       "page": 88
+      },
+      {
+       "question": "Palam hozir qayerda?",
+       "options": [
+        "Dehli yaqinida (markaziy aeroport joyi)",
+        "Bombayda",
+        "Kalkuttada",
+        "Lahorda"
+       ],
+       "correct_index": 0,
        "page": 88
       }
      ]
@@ -4171,6 +9429,479 @@
        ],
        "correct_index": 1,
        "page": 95
+      },
+      {
+       "question": "Xubilay qaysi yili ulug' xoqon deb e'lon qilindi?",
+       "options": [
+        "1206-yilda",
+        "1279-yilda",
+        "1260-yilda",
+        "1368-yilda"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Xubilay Xitoyni qaysi yili to'liq egalladi?",
+       "options": [
+        "1279-yilda",
+        "1260-yilda",
+        "1368-yilda",
+        "1351-yilda"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Yuan sulolasi poytaxti qaysi?",
+       "options": [
+        "Xonbaliq (Xon shahri)",
+        "Nanking",
+        "Pekin",
+        "Xanchjou"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Xubilay qaysi davlatlarni bo'ysundirdi?",
+       "options": [
+        "Hindiston",
+        "Yaponiya",
+        "Birma, Kambodja, Koreya",
+        "Rus"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Vyetnam Yuan davrida nima bo'ldi?",
+       "options": [
+        "Vassalga aylantirildi",
+        "Mustamlaka",
+        "Ittifoqchi",
+        "Dushman"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Xubilay o'zini kim deb e'lon qildi?",
+       "options": [
+        "Osmon o'g'li",
+        "Ulug' xon faqat",
+        "Sulton",
+        "Papa"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Xubilay imperiyani nechta viloyatga bo'ldi?",
+       "options": [
+        "Besh",
+        "Yigirma",
+        "O'n",
+        "O'n ikkita"
+       ],
+       "correct_index": 3,
+       "page": 90
+      },
+      {
+       "question": "Poytaxtda nechta markaziy boshqaruv organi bor edi?",
+       "options": [
+        "Uchta",
+        "Bitta",
+        "Ikkita",
+        "To'rtta"
+       ],
+       "correct_index": 0,
+       "page": 90
+      },
+      {
+       "question": "Yuan sulolasi qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1368-1644",
+        "960-1279",
+        "1279-1368",
+        "618-907"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Min sulolasi asoschisi kim?",
+       "options": [
+        "Xubilay",
+        "Yongle",
+        "Cheng Xua",
+        "Chju Yuan Chjan"
+       ],
+       "correct_index": 3,
+       "page": 90
+      },
+      {
+       "question": "Min sulolasi qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1279-1368",
+        "960-1279",
+        "1368-1644",
+        "618-907"
+       ],
+       "correct_index": 2,
+       "page": 90
+      },
+      {
+       "question": "Yuan davrida dehqonlar kimlarga qaram bo'lgan?",
+       "options": [
+        "Cherkovga",
+        "Savdogarlarga",
+        "Rohiblarga",
+        "Mo'g'ul zodagonlariga"
+       ],
+       "correct_index": 3,
+       "page": 91
+      },
+      {
+       "question": "Dehqonlarga nima taqiqlangan edi?",
+       "options": [
+        "Savdo",
+        "Ibodat",
+        "Ta'lim",
+        "Yashash joyini tark etish"
+       ],
+       "correct_index": 3,
+       "page": 91
+      },
+      {
+       "question": "Dehqonlar Yanszi vodiysida nima qildi?",
+       "options": [
+        "Shahar qurdi",
+        "Qal'a qurdi",
+        "O'rmonlarni kesib, botqoqlarni quritib yangi yerlar ochdi",
+        "Kema yasadi"
+       ],
+       "correct_index": 2,
+       "page": 91
+      },
+      {
+       "question": "XIV asr 40-yillarida Sariq daryoda nima yuz berdi?",
+       "options": [
+        "Qurg'oqchilik",
+        "Zilzila",
+        "Toshqin",
+        "Vulqon"
+       ],
+       "correct_index": 2,
+       "page": 91
+      },
+      {
+       "question": "Toshqin nimani vayron qildi?",
+       "options": [
+        "Buyuk kanalni",
+        "Buyuk devorni",
+        "Saroyni",
+        "Portni"
+       ],
+       "correct_index": 0,
+       "page": 91
+      },
+      {
+       "question": "Toshqin natijasida shimolda nima boshlandi?",
+       "options": [
+        "Ocharchilik",
+        "Boylik",
+        "Urush",
+        "Savdo"
+       ],
+       "correct_index": 0,
+       "page": 91
+      },
+      {
+       "question": "Qizil peshonabog'lilar qo'zg'oloni qaysi yili boshlandi?",
+       "options": [
+        "1368-yilda",
+        "1279-yilda",
+        "1351-yilda",
+        "1260-yilda"
+       ],
+       "correct_index": 2,
+       "page": 92
+      },
+      {
+       "question": "Qo'zg'olonni qaysi ittifoq tayyorlagan?",
+       "options": [
+        "\"Oq nilufar\"",
+        "\"Qizil gul\"",
+        "\"Oq atirgul\"",
+        "\"Sariq bayroq\""
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Markaziy Xitoydagi qo'zg'olonga kim boshchilik qildi?",
+       "options": [
+        "Rohib Chju Yuan Chjan",
+        "Xubilay",
+        "Yongle",
+        "Cheng Xua"
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Min davrida qaysi yili aholi ro'yxatdan o'tkazildi?",
+       "options": [
+        "1351-yilda",
+        "1368-yilda",
+        "1402-yilda",
+        "1370-yilda"
+       ],
+       "correct_index": 3,
+       "page": 92
+      },
+      {
+       "question": "Soliqlar yiliga necha marta undirilishi belgilandi?",
+       "options": [
+        "Bir marta",
+        "Uch marta",
+        "Ikki marta",
+        "Har oy"
+       ],
+       "correct_index": 2,
+       "page": 92
+      },
+      {
+       "question": "Qullarni ozod qilish haqida nima qabul qilindi?",
+       "options": [
+        "Farmon yasoq",
+        "Buyruq",
+        "Qonun",
+        "Maktub"
+       ],
+       "correct_index": 2,
+       "page": 92
+      },
+      {
+       "question": "Mo'g'ul va yirik mulkdorlar yerlari nima bo'ldi?",
+       "options": [
+        "Qaytarildi",
+        "Sotildi",
+        "Musodara qilinib, yersiz dehqonlarga berildi",
+        "Yoqildi"
+       ],
+       "correct_index": 2,
+       "page": 92
+      },
+      {
+       "question": "Min davrida davlat omborlarida nima to'planadi?",
+       "options": [
+        "Qurol",
+        "Oziq-ovqat zaxiralari",
+        "Oltin",
+        "Kitob"
+       ],
+       "correct_index": 1,
+       "page": 92
+      },
+      {
+       "question": "Chju Yuan Chjan poraxo'rlikka qanday munosabatda bo'lgan?",
+       "options": [
+        "Qattiq jazolagan",
+        "Ko'z yumgan",
+        "Maqtagan",
+        "Mukofotlagan"
+       ],
+       "correct_index": 0,
+       "page": 92
+      },
+      {
+       "question": "Min sulolasi davrida nima qayta tiklandi?",
+       "options": [
+        "Quldorlik",
+        "Meros",
+        "Savdo bojlari",
+        "Uch bosqichli imtihon tizimi"
+       ],
+       "correct_index": 3,
+       "page": 93
+      },
+      {
+       "question": "Qishloq maktablari kimlar uchun ochildi?",
+       "options": [
+        "Zodagonlar",
+        "Rohiblar",
+        "Askarlar",
+        "Oddiy aholi uchun"
+       ],
+       "correct_index": 3,
+       "page": 93
+      },
+      {
+       "question": "Imtihon necha yilda bir marta o'tkazilgan?",
+       "options": [
+        "Har yil",
+        "Besh yilda bir",
+        "Har oy",
+        "Uch yilda bir marta"
+       ],
+       "correct_index": 3,
+       "page": 93
+      },
+      {
+       "question": "Yongle qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1402-1424",
+        "1368-1398",
+        "1424-1450",
+        "1465-1488"
+       ],
+       "correct_index": 0,
+       "page": 93
+      },
+      {
+       "question": "Yongle poytaxtni qayerdan Pekinga ko'chirdi?",
+       "options": [
+        "Xonbaliqdan",
+        "Xanchjoudan",
+        "Nankindan",
+        "Loyandan"
+       ],
+       "correct_index": 2,
+       "page": 93
+      },
+      {
+       "question": "Yongle ensiklopediyasi qaysi yili yozildi?",
+       "options": [
+        "1408-yilda",
+        "1402-yilda",
+        "1424-yilda",
+        "1368-yilda"
+       ],
+       "correct_index": 0,
+       "page": 94
+      },
+      {
+       "question": "Cheng Xua davrida nima tiklanishi buyurildi?",
+       "options": [
+        "Buyuk kanal",
+        "Buyuk Xitoy devori",
+        "Saroy",
+        "Port"
+       ],
+       "correct_index": 1,
+       "page": 94
+      },
+      {
+       "question": "Devorning qancha qismi qurildi?",
+       "options": [
+        "60 km",
+        "6 km",
+        "6000 km",
+        "600 km"
+       ],
+       "correct_index": 3,
+       "page": 94
+      },
+      {
+       "question": "Pekin Szin davlati poytaxti sifatida qanday atalgan?",
+       "options": [
+        "Xonbaliq",
+        "Dasin (Chjundu)",
+        "Nanking",
+        "Beypin"
+       ],
+       "correct_index": 1,
+       "page": 94
+      },
+      {
+       "question": "Mo'g'ullar quvilgach Pekin qanday nom oldi?",
+       "options": [
+        "Dasin",
+        "Beypin",
+        "Xonbaliq",
+        "Nanking"
+       ],
+       "correct_index": 1,
+       "page": 94
+      },
+      {
+       "question": "1387-1388-yillarda nima bo'ldi?",
+       "options": [
+        "Mo'g'ullar yutdi",
+        "Xitoy parchalandi",
+        "Mo'g'ullarning asosiy kuchlari yanchib tashlandi",
+        "Tinchlik"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Xitoy floti Ryukyu orollari yaqinida kimni yengdi?",
+       "options": [
+        "Koreys floti",
+        "Mo'g'ul floti",
+        "Arab floti",
+        "Yapon floti"
+       ],
+       "correct_index": 3,
+       "page": 95
+      },
+      {
+       "question": "Min imperiyasi qo'shni mamlakatlarni qanday hisoblagan?",
+       "options": [
+        "Teng",
+        "Dushman",
+        "Xitoyga qaram davlatlar",
+        "Ittifoqchi"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Amir Temur Xitoyga qaysi yili yurish boshlagan?",
+       "options": [
+        "1368-yilda",
+        "1402-yilda",
+        "1404-yil oxirida",
+        "1424-yilda"
+       ],
+       "correct_index": 2,
+       "page": 95
+      },
+      {
+       "question": "Yurish nega amalga oshmadi?",
+       "options": [
+        "Temurning yo'lda vafot etishi tufayli",
+        "Min kuchli bo'lgani",
+        "Qish",
+        "Qo'shin qochdi"
+       ],
+       "correct_index": 0,
+       "page": 95
+      },
+      {
+       "question": "Yongle Temuriylar qaysi hukmdorlari bilan aloqa o'rnatdi?",
+       "options": [
+        "Shohrux va Ulug'bek",
+        "Boyazid",
+        "To'xtamish",
+        "Husayn"
+       ],
+       "correct_index": 0,
+       "page": 95
+      },
+      {
+       "question": "Admiral Chjan Xe nimaning rahbari edi?",
+       "options": [
+        "Quruqlik yurishlari",
+        "Qamal",
+        "Ulkan dengiz ekspeditsiyalari",
+        "Savdo faqat"
+       ],
+       "correct_index": 2,
+       "page": 95
       }
      ]
     },
@@ -4450,6 +10181,424 @@
         "Rusdan",
         "Yapon qaroqchilaridan",
         "Xitoydan"
+       ],
+       "correct_index": 2,
+       "page": 101
+      },
+      {
+       "question": "Yaponiyada imperator hokimiyati qaysi asrda o'rnatilgan?",
+       "options": [
+        "V asrda",
+        "XII asrda (matnga ko'ra)",
+        "XV asrda",
+        "IX asrda"
+       ],
+       "correct_index": 1,
+       "page": 97
+      },
+      {
+       "question": "Imperator Yaponiyada kimning o'g'li hisoblangan?",
+       "options": [
+        "Okean xudosining",
+        "Tog' xudosining",
+        "Quyosh xudosi Amaterasuning",
+        "Yer xudosining"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "Imperator davlat ishlariga qanday aralashgan?",
+       "options": [
+        "Kamdan-kam",
+        "Doim",
+        "Faqat urushda",
+        "Faqat soliqda"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Yaponiyani amalda kimlar boshqargan?",
+       "options": [
+        "Imperator",
+        "Oliy zodagonlar va amaldorlar",
+        "Papa",
+        "Savdogarlar"
+       ],
+       "correct_index": 1,
+       "page": 97
+      },
+      {
+       "question": "Yapon poytaxti qaysi shahar edi?",
+       "options": [
+        "Xeyyan",
+        "Kioto",
+        "Nara",
+        "Kamakura"
+       ],
+       "correct_index": 0,
+       "page": 97
+      },
+      {
+       "question": "Tayra va Minamoto xonadonlari o'rtasida urush qaysi yili boshlandi?",
+       "options": [
+        "1185-yilda",
+        "1192-yilda",
+        "1156-yilda",
+        "1333-yilda"
+       ],
+       "correct_index": 2,
+       "page": 97
+      },
+      {
+       "question": "Minamoto Yoritomo barcha raqiblarini qaysi yili mag'lub etdi?",
+       "options": [
+        "1156-yilda",
+        "1192-yilda",
+        "1333-yilda",
+        "1185-yilda"
+       ],
+       "correct_index": 3,
+       "page": 97
+      },
+      {
+       "question": "Yoritomo syogun unvonini qaysi yili oldi?",
+       "options": [
+        "1156-yilda",
+        "1185-yilda",
+        "1338-yilda",
+        "1192-yilda"
+       ],
+       "correct_index": 3,
+       "page": 97
+      },
+      {
+       "question": "Mo'g'ullar Yaponiyaga necha marta hujum qilgan?",
+       "options": [
+        "Bir marta",
+        "Besh marta",
+        "Ikki marta",
+        "Hech qachon"
+       ],
+       "correct_index": 2,
+       "page": 98
+      },
+      {
+       "question": "Mo'g'ul floti qanday halokatga uchradi?",
+       "options": [
+        "Kuchli tayfun",
+        "Jang",
+        "Yong'in",
+        "Ochlik"
+       ],
+       "correct_index": 0,
+       "page": 98
+      },
+      {
+       "question": "Mo'g'ullar qancha kema va askarni yo'qotdi?",
+       "options": [
+        "40 kema",
+        "4 ming kema va 100 ming askar",
+        "400 kema",
+        "1000 askar"
+       ],
+       "correct_index": 1,
+       "page": 98
+      },
+      {
+       "question": "Yaponlar tayfunni qanday atagan?",
+       "options": [
+        "\"Qora shamol\"",
+        "Kamikadze - \"ilohiy shamol\"",
+        "\"Dengiz ruhi\"",
+        "\"Ajdar\""
+       ],
+       "correct_index": 1,
+       "page": 98
+      },
+      {
+       "question": "Mo'g'ullarga qarshi kurash siyosiy tuzumga nima bo'ldi?",
+       "options": [
+        "Yengillik",
+        "Og'ir yuk",
+        "Foyda",
+        "Hech narsa"
+       ],
+       "correct_index": 1,
+       "page": 98
+      },
+      {
+       "question": "Kamakura syogunligi qaysi yili ag'darildi?",
+       "options": [
+        "1192-yilda",
+        "1338-yilda",
+        "1185-yilda",
+        "1333-yilda"
+       ],
+       "correct_index": 3,
+       "page": 98
+      },
+      {
+       "question": "Kamakurani kim ag'dardi?",
+       "options": [
+        "Tayra",
+        "Minamoto",
+        "Fudziva",
+        "Asikaga xonadoni"
+       ],
+       "correct_index": 3,
+       "page": 98
+      },
+      {
+       "question": "Kioto syogunligi qaysi yili asos solindi?",
+       "options": [
+        "1333-yilda",
+        "1192-yilda",
+        "1156-yilda",
+        "1338-yilda"
+       ],
+       "correct_index": 3,
+       "page": 98
+      },
+      {
+       "question": "Daymyolar kimlar?",
+       "options": [
+        "Savdogarlar",
+        "Rohiblar",
+        "Yirik mulkdorlar",
+        "Qullar"
+       ],
+       "correct_index": 2,
+       "page": 98
+      },
+      {
+       "question": "Koreyaga mo'g'ullarning tinimsiz hujumlari qaysi asr boshida boshlangan?",
+       "options": [
+        "XI asr",
+        "XIII asr boshida",
+        "XV asr",
+        "IX asr"
+       ],
+       "correct_index": 1,
+       "page": 99
+      },
+      {
+       "question": "Anbuk qal'asi jangi qaysi yili bo'lgan?",
+       "options": [
+        "1231-yilda",
+        "1356-yilda",
+        "1368-yilda",
+        "1392-yilda"
+       ],
+       "correct_index": 0,
+       "page": 99
+      },
+      {
+       "question": "Koryo hukumati qayerga ko'chirildi?",
+       "options": [
+        "Pxenyanga",
+        "Seulga",
+        "Sonakka",
+        "Kanxva oroliga"
+       ],
+       "correct_index": 3,
+       "page": 99
+      },
+      {
+       "question": "Hukumat nima uchun orolga ko'chirildi?",
+       "options": [
+        "Savdo",
+        "Qishloq",
+        "Mo'g'ul otliqlari bora olmasligi uchun",
+        "Dengiz"
+       ],
+       "correct_index": 2,
+       "page": 99
+      },
+      {
+       "question": "Xubilay davrida Koryo kimga aylandi?",
+       "options": [
+        "Mustaqil",
+        "Vassal davlatga",
+        "Ittifoqchi",
+        "Imperiya"
+       ],
+       "correct_index": 1,
+       "page": 99
+      },
+      {
+       "question": "Koryoliklar nima qilishga majbur bo'ldi?",
+       "options": [
+        "Soliqsiz yashash",
+        "Urush e'lon qilish",
+        "O'lpon to'lash va mo'g'ul qo'shinini boqish",
+        "Savdo"
+       ],
+       "correct_index": 2,
+       "page": 99
+      },
+      {
+       "question": "Koreyalik ustalar nima yasashga majbur qilingan?",
+       "options": [
+        "Kemalar (Yaponiyaga qarshi)",
+        "Qurol",
+        "Uylar",
+        "Ko'priklar"
+       ],
+       "correct_index": 0,
+       "page": 99
+      },
+      {
+       "question": "Koryo hukmdori Konmin qaysi yili mo'g'ul tarafdorlarini chetlatdi?",
+       "options": [
+        "1356-yilda",
+        "1231-yilda",
+        "1368-yilda",
+        "1392-yilda"
+       ],
+       "correct_index": 0,
+       "page": 99
+      },
+      {
+       "question": "Li Son Ge qanday nom bilan taxtga o'tirdi?",
+       "options": [
+        "Qirol Taejo",
+        "Konmin",
+        "Taejong",
+        "Sejong"
+       ],
+       "correct_index": 0,
+       "page": 100
+      },
+      {
+       "question": "Li Son Ge davlatni qanday atadi?",
+       "options": [
+        "Choson",
+        "Koryo",
+        "Silla",
+        "Pekche"
+       ],
+       "correct_index": 0,
+       "page": 100
+      },
+      {
+       "question": "Choson poytaxti qaysi shahar edi?",
+       "options": [
+        "Xanson (hozirgi Seul)",
+        "Pxenyan",
+        "Kegyon",
+        "Kioto"
+       ],
+       "correct_index": 0,
+       "page": 100
+      },
+      {
+       "question": "Taejo qaysi saroyni qurdirdi?",
+       "options": [
+        "Kyoto saroyi",
+        "Kyonbokkun",
+        "Oltin pavilyon",
+        "Ayo Sofiya"
+       ],
+       "correct_index": 1,
+       "page": 100
+      },
+      {
+       "question": "Taejo Koreyani kimning vassali deb tan olishga majbur bo'ldi?",
+       "options": [
+        "Yaponiyaning",
+        "Mo'g'ullarning",
+        "Xitoyning",
+        "Rusning"
+       ],
+       "correct_index": 2,
+       "page": 100
+      },
+      {
+       "question": "Taejong qaysi yillarda hukmronlik qildi?",
+       "options": [
+        "1392-1400",
+        "1400-1418",
+        "1418-1450",
+        "1450-1470"
+       ],
+       "correct_index": 1,
+       "page": 100
+      },
+      {
+       "question": "Taejong zodagonlar qo'shinini nima qildi?",
+       "options": [
+        "Kuchaytirdi",
+        "Tarqatdi",
+        "Saqladi",
+        "Sotdi"
+       ],
+       "correct_index": 1,
+       "page": 100
+      },
+      {
+       "question": "Davlat kengashi kimlardan iborat?",
+       "options": [
+        "Qirol va papa",
+        "Bosh vazir va ikki o'rinbosar",
+        "Faqat zodagonlar",
+        "Faqat ruhoniylar"
+       ],
+       "correct_index": 1,
+       "page": 100
+      },
+      {
+       "question": "1413-yilda nima joriy qilindi?",
+       "options": [
+        "Soliq bekor",
+        "Dinni almashtirish",
+        "Aholini ro'yxatga olish va shaxsni tasdiqlovchi \"taxta bo'lagi\"",
+        "Yangi alifbo"
+       ],
+       "correct_index": 2,
+       "page": 100
+      },
+      {
+       "question": "Sejong davrida tashqi siyosatning muhim yo'nalishi nima?",
+       "options": [
+        "Xitoyga urush",
+        "Hindiston",
+        "Rus",
+        "Yaponiya bilan munosabatlarni tartibga solish"
+       ],
+       "correct_index": 3,
+       "page": 101
+      },
+      {
+       "question": "Koreya kimlar tomonidan bosqinlarga uchragan edi?",
+       "options": [
+        "Yapon qaroqchilari",
+        "Mo'g'ullar",
+        "Arablar",
+        "Ruslar"
+       ],
+       "correct_index": 0,
+       "page": 101
+      },
+      {
+       "question": "Min imperatori Xongvu Chosonni darhol tan oldimi?",
+       "options": [
+        "Ha",
+        "Faqat Taejoni",
+        "Yo'q, shoshilmadi",
+        "Hech tan olmadi"
+       ],
+       "correct_index": 2,
+       "page": 101
+      },
+      {
+       "question": "Taejo davrida elchilar qayerlarga yuborilgan?",
+       "options": [
+        "Rim",
+        "Hindiston",
+        "Min imperiyasi va Yaponiyaga",
+        "Rus"
        ],
        "correct_index": 2,
        "page": 101
@@ -4735,6 +10884,391 @@
        ],
        "correct_index": 1,
        "page": 107
+      },
+      {
+       "question": "Afrika kattaligi bo'yicha dunyoda nechanchi o'rinda?",
+       "options": [
+        "Birinchi",
+        "Uchinchi",
+        "To'rtinchi",
+        "Ikkinchi"
+       ],
+       "correct_index": 3,
+       "page": 103
+      },
+      {
+       "question": "Qadimgi sivilizatsiya Afrikaning qaysi vodiysida paydo bo'lgan?",
+       "options": [
+        "Niger",
+        "Nil vodiysida",
+        "Kongo",
+        "Zambezi"
+       ],
+       "correct_index": 1,
+       "page": 103
+      },
+      {
+       "question": "G'arbiy Afrikaning asosiy boyligi nima edi?",
+       "options": [
+        "Neft",
+        "Unumdor yerlar, oltin va temir",
+        "Gaz",
+        "Ko'mir"
+       ],
+       "correct_index": 1,
+       "page": 103
+      },
+      {
+       "question": "Sahroyi Kabir janubida kimlar yashagan?",
+       "options": [
+        "Dehqonlar",
+        "Savdogarlar",
+        "Savdo karvonlariga xavf solgan ko'chmanchi barbarlar",
+        "Rohiblar"
+       ],
+       "correct_index": 2,
+       "page": 103
+      },
+      {
+       "question": "Bantu qabilalari nima bilan shug'ullangan?",
+       "options": [
+        "Ovchilik",
+        "Dehqonchilik",
+        "Savdo",
+        "Baliqchilik"
+       ],
+       "correct_index": 1,
+       "page": 103
+      },
+      {
+       "question": "Mali davlati qaysi asrda vujudga kelgan?",
+       "options": [
+        "III asr",
+        "XV asr",
+        "VIII asrda (matnga ko'ra)",
+        "XVII asr"
+       ],
+       "correct_index": 2,
+       "page": 104
+      },
+      {
+       "question": "Mali poytaxti qaysi shahar?",
+       "options": [
+        "Tombuktu",
+        "Niara",
+        "Gao",
+        "Jenne"
+       ],
+       "correct_index": 1,
+       "page": 104
+      },
+      {
+       "question": "Mali nimada yetakchi bo'lgan?",
+       "options": [
+        "Ipak",
+        "Oltin savdosida",
+        "Qurol",
+        "Ziravor"
+       ],
+       "correct_index": 1,
+       "page": 104
+      },
+      {
+       "question": "Malida islom nima tufayli tezlashgan?",
+       "options": [
+        "Savdo aloqalari orqali",
+        "Urush",
+        "Qo'shin",
+        "Soliq"
+       ],
+       "correct_index": 0,
+       "page": 104
+      },
+      {
+       "question": "G'arbiy Sudandagi eng qudratli davlat?",
+       "options": [
+        "Mali",
+        "Songay",
+        "Gana",
+        "Zimbabve"
+       ],
+       "correct_index": 2,
+       "page": 104
+      },
+      {
+       "question": "Gana hukmdorlari kimlarga homiylik qilgan?",
+       "options": [
+        "Rimliklarga",
+        "Xitoylarga",
+        "Hindlarga",
+        "Arab savdogarlariga"
+       ],
+       "correct_index": 3,
+       "page": 104
+      },
+      {
+       "question": "Gana qaysi yili Marokash sultoni Abu Bakr tomonidan bosib olingan?",
+       "options": [
+        "1235-yilda",
+        "1324-yilda",
+        "1076-yilda",
+        "1591-yilda"
+       ],
+       "correct_index": 2,
+       "page": 104
+      },
+      {
+       "question": "Ganada aholi qaysi dinni qabul qildi?",
+       "options": [
+        "Xristianlikni",
+        "Buddizmni",
+        "Islomni",
+        "Yahudiylikni"
+       ],
+       "correct_index": 2,
+       "page": 104
+      },
+      {
+       "question": "Songay qabilalari qaysi shahar atrofida yashagan?",
+       "options": [
+        "Gao",
+        "Tombuktu",
+        "Niara",
+        "Jenne"
+       ],
+       "correct_index": 0,
+       "page": 105
+      },
+      {
+       "question": "Mali Gaoni qaysi asr oxirida bosib oldi?",
+       "options": [
+        "XI asr",
+        "XIII asr oxirida",
+        "XV asr",
+        "IX asr"
+       ],
+       "correct_index": 1,
+       "page": 105
+      },
+      {
+       "question": "Songay qaysi asr oxirida mustaqil davlat bo'ldi?",
+       "options": [
+        "XII asr",
+        "XVI asr",
+        "IX asr",
+        "XIV asr oxirida"
+       ],
+       "correct_index": 3,
+       "page": 105
+      },
+      {
+       "question": "Songay qaysi hukmdorlar davrida rivojlandi?",
+       "options": [
+        "Sundiata",
+        "Mansa Muso",
+        "Sunni Ali va Muhammad I",
+        "Askiya faqat"
+       ],
+       "correct_index": 2,
+       "page": 105
+      },
+      {
+       "question": "Songay chegaralari kengayishida nimadan foydalangan?",
+       "options": [
+        "Fillar",
+        "Zambaraklar",
+        "Dengiz floti",
+        "Otliq qo'shin va daryo floti"
+       ],
+       "correct_index": 3,
+       "page": 105
+      },
+      {
+       "question": "Songay XVI asr oxirida kim tomonidan bosib olindi?",
+       "options": [
+        "Mali",
+        "Gana",
+        "Marokash sultonligi",
+        "Misr"
+       ],
+       "correct_index": 2,
+       "page": 105
+      },
+      {
+       "question": "Mali qaysi asrda Sundiata Keyta davrida yuksaldi?",
+       "options": [
+        "XIII asrda",
+        "VIII asrda",
+        "XV asrda",
+        "XVII asrda"
+       ],
+       "correct_index": 0,
+       "page": 105
+      },
+      {
+       "question": "Sundiata qaysi hududlarni egalladi?",
+       "options": [
+        "Oltin konlari va Gana hududini",
+        "Misr",
+        "Eron",
+        "Hindiston"
+       ],
+       "correct_index": 0,
+       "page": 105
+      },
+      {
+       "question": "Mali hududi qayergacha cho'zilgan?",
+       "options": [
+        "Nildan Gangacha",
+        "Atlantika okeanidan Chad ko'ligacha",
+        "Dunaydan Volgagacha",
+        "Misrdan Hindistongacha"
+       ],
+       "correct_index": 1,
+       "page": 105
+      },
+      {
+       "question": "Bambuk nimasi bilan mashhur edi?",
+       "options": [
+        "Oltinga boy hududi",
+        "Tuz",
+        "Temir",
+        "Ipak"
+       ],
+       "correct_index": 0,
+       "page": 105
+      },
+      {
+       "question": "Monomotapa qayerda mavjud bo'lgan?",
+       "options": [
+        "Nil bo'yida",
+        "Zimbabve va Limpopo daryolari bo'yida",
+        "Niger bo'yida",
+        "Kongo bo'yida"
+       ],
+       "correct_index": 1,
+       "page": 106
+      },
+      {
+       "question": "Monomotapa poytaxti qaysi?",
+       "options": [
+        "Buyuk Zimbabve",
+        "Tombuktu",
+        "Gao",
+        "Niara"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Buyuk Zimbabveda qancha aholi yashagan?",
+       "options": [
+        "Taxminan 15 ming",
+        "150",
+        "1500",
+        "150 ming"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Monomotapa hukmdori kim edi?",
+       "options": [
+        "Lashkarboshi va oliy ruhoniy",
+        "Faqat qirol",
+        "Savdogar",
+        "Rohib"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Monomotapaning eng rivojlangan davri qaysi asr?",
+       "options": [
+        "XV asr",
+        "XI asr",
+        "XIX asr",
+        "VII asr"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Monomotapani XVII asr oxirida kim bosib oldi?",
+       "options": [
+        "Shona qabilalari",
+        "Bantu",
+        "Arablar",
+        "Songay"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Afrikaning orqada qolishining sabablaridan biri?",
+       "options": [
+        "Geografik ajralganligi",
+        "Yerlari unumsizligi",
+        "Soliq",
+        "Din"
+       ],
+       "correct_index": 0,
+       "page": 106
+      },
+      {
+       "question": "Neolit inqilobi Afrikada qanday bo'lgan?",
+       "options": [
+        "Erta",
+        "Yo'q",
+        "Yevropa va Osiyoga qaraganda kechroq",
+        "Bir vaqtda"
+       ],
+       "correct_index": 2,
+       "page": 107
+      },
+      {
+       "question": "Afrika aholisi tabiiy boyliklarni qazib olishda nimani bilmagan?",
+       "options": [
+        "Hech narsa",
+        "Hammasini",
+        "Takomillashgan samarali yo'llarni",
+        "Qurollarni"
+       ],
+       "correct_index": 2,
+       "page": 107
+      },
+      {
+       "question": "Afrikada taraqqiyotga nima to'sqinlik qilgan?",
+       "options": [
+        "Urushlar, bosqinlar va istilolar",
+        "Savdo",
+        "Ilm",
+        "Tinchlik"
+       ],
+       "correct_index": 0,
+       "page": 107
+      },
+      {
+       "question": "Mansa nima?",
+       "options": [
+        "Songay unvoni",
+        "Gana unvoni",
+        "Mali hukmdorlari unvoni",
+        "Zimbabve unvoni"
+       ],
+       "correct_index": 2,
+       "page": 107
+      },
+      {
+       "question": "Mamluk kimlar?",
+       "options": [
+        "Savdogarlar",
+        "Ruhoniylar",
+        "Dehqonlar",
+        "Misrda asosan kavkazlik va turkiy o'smir qullardan tashkil qilingan harbiylar"
+       ],
+       "correct_index": 3,
+       "page": 107
       }
      ]
     },
@@ -5016,6 +11550,380 @@
         "Markaziy va Janubiy Amerikani zabt etgan ispan va portugal bosqinchilari"
        ],
        "correct_index": 3,
+       "page": 113
+      },
+      {
+       "question": "Amerika qaysi yarimsharda joylashgan?",
+       "options": [
+        "Sharqiy",
+        "G'arbiy yarimsharda",
+        "Janubiy",
+        "Shimoliy"
+       ],
+       "correct_index": 1,
+       "page": 109
+      },
+      {
+       "question": "Shimoliy Amerikada hozir qaysi davlatlar bor?",
+       "options": [
+        "AQSH va Kanada",
+        "Braziliya",
+        "Argentina",
+        "Peru"
+       ],
+       "correct_index": 0,
+       "page": 109
+      },
+      {
+       "question": "Shimoliy Amerika hindulari qaysi irqga mansub?",
+       "options": [
+        "Yevropeoid",
+        "Negroid",
+        "Mongoloid",
+        "Avstraloid"
+       ],
+       "correct_index": 2,
+       "page": 109
+      },
+      {
+       "question": "Qaysi guruhda mongoloid belgilar ko'proq?",
+       "options": [
+        "Kaliforniya hindularida",
+        "Aleut-eskimoslarda",
+        "Mayyalarda",
+        "Inklarda"
+       ],
+       "correct_index": 1,
+       "page": 109
+      },
+      {
+       "question": "Markaziy va Janubiy amerikalik hindular qanday edi?",
+       "options": [
+        "Baland, oq",
+        "Past, oq",
+        "Baland, qora",
+        "Past bo'yli, ochiq jigarrang badanli"
+       ],
+       "correct_index": 3,
+       "page": 109
+      },
+      {
+       "question": "Shimoliy Amerika hindularining asosiy qismi nima bilan shug'ullangan?",
+       "options": [
+        "Dehqonchilik",
+        "Ovchilik, termachilik, baliqchilik",
+        "Savdo",
+        "Hunarmandchilik"
+       ],
+       "correct_index": 1,
+       "page": 109
+      },
+      {
+       "question": "Kaliforniya hindulari nimani bilmagan?",
+       "options": [
+        "Dehqonchilikni",
+        "Ovni",
+        "Baliq ovini",
+        "Termachilikni"
+       ],
+       "correct_index": 0,
+       "page": 110
+      },
+      {
+       "question": "Kaliforniya hindulari qaysi qurollardan foydalangan?",
+       "options": [
+        "Qilich",
+        "Nayza",
+        "To'p",
+        "O'q-yoy, sanchqi, savat, daraxt poyasidan qayiq"
+       ],
+       "correct_index": 3,
+       "page": 110
+      },
+      {
+       "question": "Kaliforniya hindulari qayerlarda yashagan?",
+       "options": [
+        "Qasrlarda",
+        "Tosh uylarda",
+        "Kemalarda",
+        "Chayla va yarimyerto'lalarda"
+       ],
+       "correct_index": 3,
+       "page": 110
+      },
+      {
+       "question": "Eskimoslar qayerda yashagan?",
+       "options": [
+        "Kaliforniyada",
+        "Grenlandiyadan Alyaskagacha, Chukotkaning sharqiy chekkasigacha",
+        "Meksikada",
+        "Perudan"
+       ],
+       "correct_index": 1,
+       "page": 110
+      },
+      {
+       "question": "Eskimoslar uylarini nima bilan qizitgan?",
+       "options": [
+        "Daraxt bilan",
+        "Ko'mir bilan",
+        "Gaz bilan",
+        "Tyulen va morj yog'i bilan"
+       ],
+       "correct_index": 3,
+       "page": 110
+      },
+      {
+       "question": "Aleutlar qayerda yashagan?",
+       "options": [
+        "Aleut orollari va Alyaska yarimorolining g'arbida",
+        "Kaliforniyada",
+        "Meksikada",
+        "Amazonkada"
+       ],
+       "correct_index": 0,
+       "page": 110
+      },
+      {
+       "question": "Mayyalar qaysi hududda yashagan?",
+       "options": [
+        "Peru",
+        "Meksika, Gvatemala, Beliz, Gonduras va Salvador g'arbida",
+        "Chili",
+        "Braziliya"
+       ],
+       "correct_index": 1,
+       "page": 111
+      },
+      {
+       "question": "Mayyalar yana qanday atalgan?",
+       "options": [
+        "\"Yangi Rim\"",
+        "\"Quyosh farzandlari\"",
+        "\"Yangi dunyo yunonlari\"",
+        "\"Dengiz xalqi\""
+       ],
+       "correct_index": 2,
+       "page": 111
+      },
+      {
+       "question": "Mayya shahar-davlatlari nimaga ega edi?",
+       "options": [
+        "Umumiy hukmdorga",
+        "Mustaqil boshqaruv tizimiga",
+        "Papaga",
+        "Qirolga"
+       ],
+       "correct_index": 1,
+       "page": 111
+      },
+      {
+       "question": "Mayyalar davlatini kim boshqargan?",
+       "options": [
+        "Parlament",
+        "Cheklanmagan hokimiyatli hokim",
+        "Kengash",
+        "Kohin faqat"
+       ],
+       "correct_index": 1,
+       "page": 111
+      },
+      {
+       "question": "Mayya hukmdorining eng yaqin yordamchisi kim?",
+       "options": [
+        "Vazir",
+        "Sarkarda",
+        "Qozi",
+        "Oliy kohin"
+       ],
+       "correct_index": 3,
+       "page": 111
+      },
+      {
+       "question": "Mayya shaharlariga qaysilar kiradi?",
+       "options": [
+        "Tikal, Kopan, Chichen-Itsa, Uxmal, Mayyapan",
+        "Kusko, Lima",
+        "Tenochtitlan",
+        "Kito"
+       ],
+       "correct_index": 0,
+       "page": 111
+      },
+      {
+       "question": "Mayyapanga qaysi yili asos solindi?",
+       "options": [
+        "1521-yilda",
+        "1429-yilda",
+        "1263-yilda",
+        "1300-yilda"
+       ],
+       "correct_index": 2,
+       "page": 111
+      },
+      {
+       "question": "Inklar davlatining markazi qaysi shahar?",
+       "options": [
+        "Tenochtitlan",
+        "Lima",
+        "Kusko",
+        "Kito"
+       ],
+       "correct_index": 2,
+       "page": 112
+      },
+      {
+       "question": "Kusko qanday atalgan?",
+       "options": [
+        "Oy shahri",
+        "Oltin shahar",
+        "Tosh shahar",
+        "Quyosh shahri"
+       ],
+       "correct_index": 3,
+       "page": 112
+      },
+      {
+       "question": "Inklar qaysi asrda kuchaydi?",
+       "options": [
+        "V asrda",
+        "XV asrda",
+        "XVII asrda",
+        "XIII asrda"
+       ],
+       "correct_index": 3,
+       "page": 112
+      },
+      {
+       "question": "Inklar imperiyasi qaysi inka davrida tuzildi?",
+       "options": [
+        "Montezuma",
+        "Atahualpa",
+        "Pachakutek",
+        "Manko"
+       ],
+       "correct_index": 2,
+       "page": 112
+      },
+      {
+       "question": "Atsteklar hukmdori Montezuma I qaysi asrda qurilish ishlari olib bordi?",
+       "options": [
+        "XV asr o'rtalarida",
+        "XIII",
+        "XVII",
+        "XI"
+       ],
+       "correct_index": 0,
+       "page": 112
+      },
+      {
+       "question": "Montezuma I nimalar qurdi?",
+       "options": [
+        "Port",
+        "To'g'onlar, toshdan saroy va ehromlar, Buyuk ibodatxonani tikladi",
+        "Zavod",
+        "Universitet"
+       ],
+       "correct_index": 1,
+       "page": 112
+      },
+      {
+       "question": "Atsteklarning so'nggi hukmdori kim?",
+       "options": [
+        "Montezuma I",
+        "Pachakutek",
+        "Montezuma II",
+        "Kortes"
+       ],
+       "correct_index": 2,
+       "page": 112
+      },
+      {
+       "question": "Atstek ittifoqi qaysi shaharlardan iborat edi?",
+       "options": [
+        "Kusko, Lima, Kito",
+        "Tikal, Kopan",
+        "Tenochtitlan, Teskoko, Tlakopan",
+        "Mayyapan, Uxmal"
+       ],
+       "correct_index": 2,
+       "page": 112
+      },
+      {
+       "question": "Ernan Kortes kim?",
+       "options": [
+        "Hind rahbari",
+        "Savdogar",
+        "Ispan konkistadori",
+        "Rohib"
+       ],
+       "correct_index": 2,
+       "page": 112
+      },
+      {
+       "question": "Kortes Tenochtitlanni qaysi yili egalladi?",
+       "options": [
+        "1492-yilda",
+        "1521-yilda",
+        "1498-yilda",
+        "1453-yilda"
+       ],
+       "correct_index": 1,
+       "page": 112
+      },
+      {
+       "question": "Konkistador so'zi nimani anglatadi?",
+       "options": [
+        "\"Savdogar\"",
+        "\"Dengizchi\"",
+        "\"Rohib\"",
+        "\"Bosqinchi\""
+       ],
+       "correct_index": 3,
+       "page": 113
+      },
+      {
+       "question": "Hindu nomi qanday kelib chiqqan?",
+       "options": [
+        "Hind daryosidan",
+        "Arab tilidan",
+        "Xitoy tilidan",
+        "Kolumbning Hindiston deb o'ylashidan"
+       ],
+       "correct_index": 3,
+       "page": 113
+      },
+      {
+       "question": "Inklar imperiyasi nechta viloyatga bo'lingan?",
+       "options": [
+        "Ikkita",
+        "O'nta",
+        "Bitta",
+        "To'rtta"
+       ],
+       "correct_index": 3,
+       "page": 113
+      },
+      {
+       "question": "Viloyatlarni kimlar boshqargan?",
+       "options": [
+        "Ruhoniylar",
+        "Sarkardalar",
+        "Savdogarlar",
+        "Hukmdorning qarindoshlari - gubernatorlar"
+       ],
+       "correct_index": 3,
+       "page": 113
+      },
+      {
+       "question": "Oliy Inka qanday vakolatlarga ega edi?",
+       "options": [
+        "Faqat ibodat",
+        "Faqat savdo",
+        "Qo'shinga qo'mondonlik, sud, qonun chiqarish",
+        "Faqat soliq"
+       ],
+       "correct_index": 2,
        "page": 113
       }
      ]

@@ -284,6 +284,413 @@
    ],
    "correct_index": 3,
    "page": 83
+  },
+  {
+   "question": "Oltin O'rda kimning ulusi hududida tashkil topdi?",
+   "options": [
+    "Chig'atoy",
+    "Chingizxonning to'ng'ich o'g'li Jo'jining",
+    "O'qtoy",
+    "Tuli"
+   ],
+   "correct_index": 1,
+   "page": 78
+  },
+  {
+   "question": "Jo'ji ulusi qaysi daryolar oralig'ida edi?",
+   "options": [
+    "Nil-Gang",
+    "Irtishdan Volgabo'yigacha",
+    "Dunay-Reyn",
+    "Amur-Xuanxe"
+   ],
+   "correct_index": 1,
+   "page": 78
+  },
+  {
+   "question": "Jo'ji vafotidan keyin kim ulusni kengaytirdi?",
+   "options": [
+    "O'g'li Botuxon",
+    "Berka",
+    "Uzbek",
+    "Tuxta"
+   ],
+   "correct_index": 0,
+   "page": 78
+  },
+  {
+   "question": "Botuxon qaysi yillarda Sharqiy Yevropada istilolar qildi?",
+   "options": [
+    "1206-1227",
+    "1256-1260",
+    "1237-1242",
+    "1380-1395"
+   ],
+   "correct_index": 2,
+   "page": 78
+  },
+  {
+   "question": "Botuxon qaysi davlatlarga ham bostirib kirdi?",
+   "options": [
+    "Fransiyaga",
+    "Chexiya va Vengriyaga",
+    "Angliyaga",
+    "Italiyaga"
+   ],
+   "correct_index": 1,
+   "page": 78
+  },
+  {
+   "question": "Oltin O'rda qaysi asr 40-yillari boshida tuzildi?",
+   "options": [
+    "XI asr",
+    "XIII asr",
+    "XV asr",
+    "IX asr"
+   ],
+   "correct_index": 1,
+   "page": 78
+  },
+  {
+   "question": "Rus manbalarida bu davlat qanday atalgan?",
+   "options": [
+    "Jo'ji ulusi",
+    "Chig'atoy",
+    "Oltin O'rda",
+    "Yuan"
+   ],
+   "correct_index": 2,
+   "page": 78
+  },
+  {
+   "question": "Sharq manbalarida Oltin O'rda qanday atalgan?",
+   "options": [
+    "Oltin O'rda",
+    "Chig'atoy ulusi",
+    "Jo'ji ulusi",
+    "Yuan"
+   ],
+   "correct_index": 2,
+   "page": 78
+  },
+  {
+   "question": "\"O'rda\" nimani anglatadi?",
+   "options": [
+    "Qarorgoh, chodir",
+    "Qo'shin",
+    "Davlat",
+    "Xalq"
+   ],
+   "correct_index": 0,
+   "page": 79
+  },
+  {
+   "question": "Botuxon Volgabo'yida qarorgohiga nima o'rnatdi?",
+   "options": [
+    "Saroy",
+    "Qal'a",
+    "Minora",
+    "Hashamdor oltin chodir"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Ibn Battutaga ko'ra O'zbekxon taxti nima bilan qoplangan?",
+   "options": [
+    "Oltin bilan",
+    "Kumush",
+    "Marmar",
+    "Teri"
+   ],
+   "correct_index": 0,
+   "page": 79
+  },
+  {
+   "question": "Oltin O'rda xonlari kim bo'lishi shart edi?",
+   "options": [
+    "Zodagon",
+    "Rohib",
+    "Savdogar",
+    "Chingiziylar va Jo'ji avlodlaridan"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Saylangan xon nimaga ko'tarilgan?",
+   "options": [
+    "Taxtga",
+    "Oq kigizga",
+    "Otga",
+    "Qalqonga"
+   ],
+   "correct_index": 1,
+   "page": 79
+  },
+  {
+   "question": "Xonga qaysi qurol topshirilgan?",
+   "options": [
+    "Kumush qalqon",
+    "Nayza",
+    "Oltin qilich",
+    "Gurzi"
+   ],
+   "correct_index": 2,
+   "page": 79
+  },
+  {
+   "question": "Ijro hokimiyati boshlig'i kim edi?",
+   "options": [
+    "Vazir",
+    "Dorug'a",
+    "Noyon",
+    "Beklarbegi"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Soliq va moliyaga mas'ul devonni kim boshqargan?",
+   "options": [
+    "Beklarbegi",
+    "Dorug'a",
+    "Vazir",
+    "Xon"
+   ],
+   "correct_index": 2,
+   "page": 79
+  },
+  {
+   "question": "Viloyat va shaharlarga hokimlar qanday atalgan?",
+   "options": [
+    "Beklar",
+    "Voliylar",
+    "Graflar",
+    "Dorug'alar"
+   ],
+   "correct_index": 3,
+   "page": 79
+  },
+  {
+   "question": "Ko'chmanchi mo'g'ullar nima bo'lib qoldi?",
+   "options": [
+    "Turkiy xalqlar orasida tarqalib ketdi",
+    "Hukmron",
+    "Haydalgan",
+    "Yo'qolgan"
+   ],
+   "correct_index": 0,
+   "page": 80
+  },
+  {
+   "question": "Oltin O'rdaning dastlabki poytaxti qaysi?",
+   "options": [
+    "Saroy Botu",
+    "Saroy Berka",
+    "Qoraqurum",
+    "Moskva"
+   ],
+   "correct_index": 0,
+   "page": 80
+  },
+  {
+   "question": "Saroy Botu qaysi daryoning quyi oqimida?",
+   "options": [
+    "Don",
+    "Dnepr",
+    "Volga",
+    "Ural"
+   ],
+   "correct_index": 2,
+   "page": 80
+  },
+  {
+   "question": "Oltin O'rda tashqi siyosatidagi ustuvor yo'nalish nima?",
+   "options": [
+    "Ulug' xon boshchiligidagi Mo'g'ullar imperiyasi bilan hamkorlik",
+    "Xitoyga urush",
+    "Hindistonga yurish",
+    "Rus bilan urush"
+   ],
+   "correct_index": 0,
+   "page": 81
+  },
+  {
+   "question": "Botuxon qurultoyga qayerga borib turgan?",
+   "options": [
+    "Samarqandga",
+    "Pekinga",
+    "Qoraqurumga",
+    "Saroyga"
+   ],
+   "correct_index": 2,
+   "page": 81
+  },
+  {
+   "question": "Botuxon kimning ulug' xon bo'lishiga yordam berdi?",
+   "options": [
+    "Jiyani Munkening",
+    "Guyukning",
+    "Xubilayning",
+    "Qora-Hulaguning"
+   ],
+   "correct_index": 0,
+   "page": 81
+  },
+  {
+   "question": "Berkaxon qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1237-1255",
+    "1266-1280",
+    "1312-1342",
+    "1255-1266"
+   ],
+   "correct_index": 3,
+   "page": 81
+  },
+  {
+   "question": "Berkaxon ulug' xon ruxsatisiz taxtga kelgan birinchi hukmdor, bu qaysi ulus?",
+   "options": [
+    "Jo'ji ulusi",
+    "Chig'atoy",
+    "Hulakuyli",
+    "Yuan"
+   ],
+   "correct_index": 0,
+   "page": 81
+  },
+  {
+   "question": "Imperiya ichidagi kurashda kim g'alaba qozondi?",
+   "options": [
+    "Oriqbuqa",
+    "Xubilay",
+    "Munke",
+    "Guyuk"
+   ],
+   "correct_index": 1,
+   "page": 81
+  },
+  {
+   "question": "Rus knyazlari mo'g'ullarga nima to'lagan?",
+   "options": [
+    "O'lpon",
+    "Qul",
+    "Oltin",
+    "Qurol"
+   ],
+   "correct_index": 0,
+   "page": 82
+  },
+  {
+   "question": "1480-yilda Oltin O'rda kimni bo'ysundirishga urindi?",
+   "options": [
+    "Dmitriyni",
+    "Kalitani",
+    "Yaroslavni",
+    "Moskva knyazi Ivan III ni"
+   ],
+   "correct_index": 3,
+   "page": 82
+  },
+  {
+   "question": "Oltin O'rda mustaqil davlat bo'lib nima qila boshladi?",
+   "options": [
+    "Qurol yasashni",
+    "Maktab ochishni",
+    "Savdoni yopishni",
+    "O'z nomidan tangalar zarb qilishni"
+   ],
+   "correct_index": 3,
+   "page": 82
+  },
+  {
+   "question": "O'zbekxon qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1342-1357",
+    "1255-1266",
+    "1237-1255",
+    "1312-1342"
+   ],
+   "correct_index": 3,
+   "page": 83
+  },
+  {
+   "question": "Jonibekxon qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1312-1342",
+    "1255-1266",
+    "1342-1357",
+    "1380-1395"
+   ],
+   "correct_index": 2,
+   "page": 83
+  },
+  {
+   "question": "O'zbekxon imperiyani nechta tumanga bo'ldi?",
+   "options": [
+    "70 ta",
+    "7 ta",
+    "700 ta",
+    "10 ta"
+   ],
+   "correct_index": 0,
+   "page": 83
+  },
+  {
+   "question": "Tumanlar nechta yirik viloyatga birlashtirildi?",
+   "options": [
+    "O'nta",
+    "Besh",
+    "Yigirma",
+    "Uch"
+   ],
+   "correct_index": 0,
+   "page": 83
+  },
+  {
+   "question": "Viloyatlarga kim boshchilik qilgan?",
+   "options": [
+    "Ulusbegilar",
+    "Dorug'alar",
+    "Voliylar",
+    "Graflar"
+   ],
+   "correct_index": 0,
+   "page": 83
+  },
+  {
+   "question": "O'zbekxon qaysi yili islomni qabul qildi?",
+   "options": [
+    "1312-yilda",
+    "1342-yilda",
+    "1314-yilda",
+    "1237-yilda"
+   ],
+   "correct_index": 2,
+   "page": 83
+  },
+  {
+   "question": "Jonibekxon vafotidan keyin nima boshlandi?",
+   "options": [
+    "Tinchlik",
+    "Birlik",
+    "Taxt uchun kurash",
+    "Yuksalish"
+   ],
+   "correct_index": 2,
+   "page": 83
+  },
+  {
+   "question": "Oltin O'rdaning inqiroziga nima sabab bo'ldi?",
+   "options": [
+    "Taxt vorisi haqidagi qonun yo'qligi",
+    "Qurg'oqchilik",
+    "Savdo",
+    "Dengiz"
+   ],
+   "correct_index": 0,
+   "page": 83
   }
  ]
 }

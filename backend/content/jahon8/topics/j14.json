@@ -266,6 +266,314 @@
    ],
    "correct_index": 1,
    "page": 88
+  },
+  {
+   "question": "Dehli sultonligiga qaysi yili asos solindi?",
+   "options": [
+    "1229-yilda",
+    "1206-yilda",
+    "1325-yilda",
+    "1398-yilda"
+   ],
+   "correct_index": 1,
+   "page": 85
+  },
+  {
+   "question": "Dehli sultonligiga kim asos soldi?",
+   "options": [
+    "Eltutmish",
+    "Qutbiddin Oyboq",
+    "Xiljiy",
+    "Tug'luq"
+   ],
+   "correct_index": 1,
+   "page": 85
+  },
+  {
+   "question": "Qutbiddin Oyboq qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1211-1236",
+    "1206-1210",
+    "1236-1240",
+    "1296-1316"
+   ],
+   "correct_index": 1,
+   "page": 85
+  },
+  {
+   "question": "Oyboqdan keyin taxtga kim keldi?",
+   "options": [
+    "Roziya",
+    "Xiljiy",
+    "Turk g'ulomi Shamsiddin Eltutmish",
+    "Tug'luq"
+   ],
+   "correct_index": 2,
+   "page": 85
+  },
+  {
+   "question": "Eltutmish qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1211-1236",
+    "1206-1210",
+    "1236-1240",
+    "1296-1316"
+   ],
+   "correct_index": 0,
+   "page": 85
+  },
+  {
+   "question": "Eltutmish nimalarni sultonlikka qo'shdi?",
+   "options": [
+    "Panjob, Sind, Bengaliya",
+    "Misr",
+    "Eron",
+    "Xitoy"
+   ],
+   "correct_index": 0,
+   "page": 85
+  },
+  {
+   "question": "Eltutmishni 1229-yilda kim mustaqil hukmdor deb e'tirof etdi?",
+   "options": [
+    "Papa",
+    "Bag'dod xalifasi",
+    "Imperator",
+    "Xon"
+   ],
+   "correct_index": 1,
+   "page": 85
+  },
+  {
+   "question": "Eltutmish merosxo'r qilib kimni tayinladi?",
+   "options": [
+    "To'ng'ich qizi Roziyani",
+    "O'g'lini",
+    "Ukasini",
+    "Vazirni"
+   ],
+   "correct_index": 0,
+   "page": 85
+  },
+  {
+   "question": "Roziya qaysi yili taxtga o'tirdi?",
+   "options": [
+    "1211-yilda",
+    "1229-yilda",
+    "1240-yilda",
+    "1236-yilda"
+   ],
+   "correct_index": 3,
+   "page": 85
+  },
+  {
+   "question": "Roziya qanday hukmdor edi?",
+   "options": [
+    "Birinchi qirol",
+    "Qirolicha faqat",
+    "Ruhoniy",
+    "Sultonlikning yagona musulmon ayol hukmdori"
+   ],
+   "correct_index": 3,
+   "page": 85
+  },
+  {
+   "question": "Alouddin Xiljiy bozorda nimani belgilab qo'ydi?",
+   "options": [
+    "Soliqni",
+    "Narxlarni",
+    "Tolasini",
+    "Qurolni"
+   ],
+   "correct_index": 1,
+   "page": 86
+  },
+  {
+   "question": "Xiljiy ayg'oqchilari nima qilgan?",
+   "options": [
+    "Soliq yig'gan",
+    "Sud qilgan",
+    "\"Sinov xaridlari\" o'tkazgan",
+    "Qo'shin tuzgan"
+   ],
+   "correct_index": 2,
+   "page": 86
+  },
+  {
+   "question": "Narx oshsa savdogarlar nima bo'lgan?",
+   "options": [
+    "Qatl qilingan",
+    "Mukofotlangan",
+    "Hech narsa",
+    "Katta jarimaga tortilgan"
+   ],
+   "correct_index": 3,
+   "page": 86
+  },
+  {
+   "question": "Narx tushmasa sulton nima qilgan?",
+   "options": [
+    "Soliq oshirgan",
+    "Davlat g'alla zaxirasini bozorga chiqargan",
+    "Bozorni yopgan",
+    "Savdoni taqiqlagan"
+   ],
+   "correct_index": 1,
+   "page": 86
+  },
+  {
+   "question": "Sultonlik boshqaruvida barcha devonlar kimga bo'ysungan?",
+   "options": [
+    "Bosh vazirga",
+    "Qozikalonga",
+    "Ulamolarga",
+    "Qo'mondonga"
+   ],
+   "correct_index": 0,
+   "page": 86
+  },
+  {
+   "question": "Harbiy islohot natijasida nima tuzildi?",
+   "options": [
+    "Flot",
+    "Parlament",
+    "Senat",
+    "Maxfiy bo'lim"
+   ],
+   "correct_index": 3,
+   "page": 86
+  },
+  {
+   "question": "XII-XIII asrlarda sultonlikda nima uzil-kesil o'rnatildi?",
+   "options": [
+    "Hind hokimiyati",
+    "Musulmonlar hokimiyati",
+    "Rim hokimiyati",
+    "Mo'g'ul hokimiyati"
+   ],
+   "correct_index": 1,
+   "page": 86
+  },
+  {
+   "question": "Islom sultonlikda nima deb e'lon qilindi?",
+   "options": [
+    "Taqiqlangan din",
+    "Ixtiyoriy",
+    "Davlat dini",
+    "Qullar dini"
+   ],
+   "correct_index": 2,
+   "page": 86
+  },
+  {
+   "question": "Yer kimning mulki deb qaralgan?",
+   "options": [
+    "Dehqonlarning",
+    "Ruhoniylarning",
+    "Sultonning",
+    "Savdogarlarning"
+   ],
+   "correct_index": 2,
+   "page": 87
+  },
+  {
+   "question": "Iqto egalari soliqning qancha qismini o'zida qoldirgan?",
+   "options": [
+    "1-2%",
+    "10-20%",
+    "50%",
+    "90%"
+   ],
+   "correct_index": 1,
+   "page": 87
+  },
+  {
+   "question": "Rajputlar kimlar?",
+   "options": [
+    "Savdogarlar",
+    "Rohiblar",
+    "Qullar",
+    "O'rta va mayda hind feodallari"
+   ],
+   "correct_index": 3,
+   "page": 87
+  },
+  {
+   "question": "Xolisa nima?",
+   "options": [
+    "Xususiy yer",
+    "Iqto",
+    "Cherkov yeri",
+    "Davlat ixtiyoridagi yerlar"
+   ],
+   "correct_index": 3,
+   "page": 87
+  },
+  {
+   "question": "Muhammad Tug'luq qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1296-1316",
+    "1351-1388",
+    "1325-1351",
+    "1206-1236"
+   ],
+   "correct_index": 2,
+   "page": 87
+  },
+  {
+   "question": "Sayyidlar sulolasiga kim asos soldi?",
+   "options": [
+    "Eltutmish",
+    "Tug'luq",
+    "Xiljiy",
+    "Xizr Xon"
+   ],
+   "correct_index": 3,
+   "page": 88
+  },
+  {
+   "question": "Sayyidlar sulolasi hokimiyati qayergacha yetgan?",
+   "options": [
+    "Butun Hindistonga",
+    "Dehli va uning atrofidan nariga o'tmagan",
+    "Eronga",
+    "Xitoyga"
+   ],
+   "correct_index": 1,
+   "page": 88
+  },
+  {
+   "question": "Dehli sultonlari qanday bo'lib qoldi?",
+   "options": [
+    "Kuchli",
+    "Qo'g'irchoq, nomigagina hukmron",
+    "Mustaqil",
+    "Imperator"
+   ],
+   "correct_index": 1,
+   "page": 88
+  },
+  {
+   "question": "\"Sulton Shoh Olamning kuchi Dehlidan Palamgacha\" nimani anglatadi?",
+   "options": [
+    "Kuchli sultonni",
+    "Yangi shaharni",
+    "Savdoni",
+    "Sulton hokimiyati juda zaiflashganini"
+   ],
+   "correct_index": 3,
+   "page": 88
+  },
+  {
+   "question": "Palam hozir qayerda?",
+   "options": [
+    "Dehli yaqinida (markaziy aeroport joyi)",
+    "Bombayda",
+    "Kalkuttada",
+    "Lahorda"
+   ],
+   "correct_index": 0,
+   "page": 88
   }
  ]
 }

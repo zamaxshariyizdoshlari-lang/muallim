@@ -265,6 +265,413 @@
    ],
    "correct_index": 3,
    "page": 39
+  },
+  {
+   "question": "Fridrix II qaysi sulolaning eng ko'zga ko'ringan vakili edi?",
+   "options": [
+    "Gabsburglar",
+    "Shtaufenlar",
+    "Kapetinglar",
+    "Karolinglar"
+   ],
+   "correct_index": 1,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II qaysi millatlarga mansub edi?",
+   "options": [
+    "Nemis va italyan",
+    "Faqat nemis",
+    "Faqat italyan",
+    "Fransuz"
+   ],
+   "correct_index": 0,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II qaysi madaniyatga qiziqqan?",
+   "options": [
+    "Arab va Vizantiya madaniyatiga",
+    "Rim",
+    "Xitoy",
+    "Hind"
+   ],
+   "correct_index": 0,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II qaysi tillarda so'zlasha olgan?",
+   "options": [
+    "Faqat nemis",
+    "Rus",
+    "Slavyan",
+    "Arab va yunon"
+   ],
+   "correct_index": 3,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II she'rlarni qaysi tilda yozardi?",
+   "options": [
+    "Nemis",
+    "Lotin",
+    "Italyan tilida",
+    "Yunon"
+   ],
+   "correct_index": 2,
+   "page": 36
+  },
+  {
+   "question": "Palermodagi saroy qanday uslubda bezatilgan?",
+   "options": [
+    "Gotika",
+    "Roman",
+    "Sharqona uslubda",
+    "Barokko"
+   ],
+   "correct_index": 2,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II qaysi yillarda yashagan?",
+   "options": [
+    "1152-1190",
+    "1250-1272",
+    "1194-1250",
+    "1100-1150"
+   ],
+   "correct_index": 2,
+   "page": 36
+  },
+  {
+   "question": "Zamondoshlari Fridrix II ni qanday atagan?",
+   "options": [
+    "\"Buyuk\"",
+    "\"Jahon hayrati\"",
+    "\"Jasur\"",
+    "\"Fotih\""
+   ],
+   "correct_index": 1,
+   "page": 36
+  },
+  {
+   "question": "Fridrix II nechta lochinga ega edi?",
+   "options": [
+    "5 ta",
+    "50 tagacha",
+    "500 ta",
+    "15 ta"
+   ],
+   "correct_index": 1,
+   "page": 37
+  },
+  {
+   "question": "Fridrix II kitobi nima haqida?",
+   "options": [
+    "Qushlar bilan ov qilish san'ati",
+    "Tarix",
+    "Astronomiya",
+    "Din"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Fridrix II qaysi universitetga asos soldi?",
+   "options": [
+    "Neapol universitetiga",
+    "Boloniya",
+    "Parij",
+    "Oksford"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Neapol universiteti qanday universitet edi?",
+   "options": [
+    "Cherkov universiteti",
+    "Savdogarlar universiteti",
+    "Ilk universitet",
+    "Hukmdorlar asos solgan birinchi universitet"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Fridrix II qayerdan turib boshqargan?",
+   "options": [
+    "Rimdan",
+    "Parijdan",
+    "Sitsiliyadan",
+    "Londondan"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Germaniyada amalda hokimiyat kimlar qo'lida edi?",
+   "options": [
+    "Imperator",
+    "Papa",
+    "Savdogarlar",
+    "Yirik feodallar"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Papa Grigoriy IX Fridrix II ni nima deb e'lon qildi?",
+   "options": [
+    "Avliyo",
+    "Qirol",
+    "Yeretik (dindan qaytgan)",
+    "Sarkarda"
+   ],
+   "correct_index": 2,
+   "page": 37
+  },
+  {
+   "question": "Papa Innokentiy IV Fridrix II ni nimada aybladi?",
+   "options": [
+    "O'g'irlikda",
+    "Xiyonatda",
+    "Sudxo'rlikda",
+    "Shakkoklikda"
+   ],
+   "correct_index": 3,
+   "page": 37
+  },
+  {
+   "question": "Fridrix II qaysi yili mag'lubiyatga uchradi?",
+   "options": [
+    "1248-yilda",
+    "1250-yilda",
+    "1230-yilda",
+    "1215-yilda"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Fridrix II qaysi yili vafot etdi?",
+   "options": [
+    "1250-yilda",
+    "1248-yilda",
+    "1194-yilda",
+    "1190-yilda"
+   ],
+   "correct_index": 0,
+   "page": 37
+  },
+  {
+   "question": "Gabsburglarning kuchi nimaga asoslangan edi?",
+   "options": [
+    "Dengiz flotiga",
+    "Meros bo'lib o'tadigan xususiy yerlarga",
+    "Soliqqa",
+    "Yollanma qo'shinga"
+   ],
+   "correct_index": 1,
+   "page": 38
+  },
+  {
+   "question": "Gabsburglar nimani nikoh diplomatiyasi orqali qo'lga kiritdi?",
+   "options": [
+    "Faqat pul",
+    "Faqat yer",
+    "Burgundiyaning bir qismi, Ispaniya toj-taxti",
+    "Rim papaligi"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Gabsburglar Germaniyada qaysi hududlarni egalladi?",
+   "options": [
+    "Shtiriya, Krayna, Tirol, Shvabiyaning bir qismi",
+    "Bavariya",
+    "Saksoniya",
+    "Prussiya"
+   ],
+   "correct_index": 0,
+   "page": 38
+  },
+  {
+   "question": "Germaniya imperatorida nima mavjud emas edi?",
+   "options": [
+    "Umumimperiya qo'shini, soliqlar, markaziy sud",
+    "Tojlar",
+    "Saroy",
+    "Poytaxt"
+   ],
+   "correct_index": 0,
+   "page": 38
+  },
+  {
+   "question": "Shimoliy Germaniya shaharlari qaysi dengizlarda savdo qilgan?",
+   "options": [
+    "O'rta",
+    "Qora",
+    "Shimoliy va Boltiq",
+    "Atlantika"
+   ],
+   "correct_index": 2,
+   "page": 38
+  },
+  {
+   "question": "Qaysi shaharlar Ganza ittifoqiga birlashdi?",
+   "options": [
+    "Berlin, Vena",
+    "Parij, London",
+    "Rim, Venetsiya",
+    "Lyubek, Gamburg, Bremen"
+   ],
+   "correct_index": 3,
+   "page": 38
+  },
+  {
+   "question": "Ganza ittifoqi qaysi asr o'rtalarida tashkil topdi?",
+   "options": [
+    "XIV asr o'rtalarida",
+    "IX asr",
+    "XVII asr",
+    "XII asr"
+   ],
+   "correct_index": 0,
+   "page": 38
+  },
+  {
+   "question": "Ganza qaysi mamlakatlar bilan savdo qilgan?",
+   "options": [
+    "Skandinaviya, Polsha, Angliya, Rossiya",
+    "Hindiston",
+    "Xitoy",
+    "Amerika"
+   ],
+   "correct_index": 0,
+   "page": 38
+  },
+  {
+   "question": "XV asr boshida Ganza nechta shaharni birlashtirdi?",
+   "options": [
+    "16 ta",
+    "160 ga yaqin",
+    "600 ta",
+    "60 ta"
+   ],
+   "correct_index": 1,
+   "page": 39
+  },
+  {
+   "question": "Ganzaning asosiy raqibi kim edi?",
+   "options": [
+    "Fransiya",
+    "Italiya",
+    "Vizantiya",
+    "Daniya qirolligi"
+   ],
+   "correct_index": 3,
+   "page": 39
+  },
+  {
+   "question": "Ganza Daniyaga qaysi yili zarba berdi?",
+   "options": [
+    "1254-yilda",
+    "1331-yilda",
+    "1370-yilda",
+    "1400-yilda"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Ganza qanday ittifoq edi?",
+   "options": [
+    "Faqat harbiy",
+    "Faqat diniy",
+    "Iqtisodiy va siyosiy",
+    "Faqat madaniy"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Ganza qaysi asrgacha o'z ahamiyatini saqlagan?",
+   "options": [
+    "XII asrgacha",
+    "XV asrgacha",
+    "XVII asrgacha qisman",
+    "XX asrgacha"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Reyn savdo ittifoqi qaysi yili tashkil topdi?",
+   "options": [
+    "1331-yilda",
+    "1370-yilda",
+    "1254-yilda",
+    "1215-yilda"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Reyn ittifoqiga qaysi shaharlar kirgan?",
+   "options": [
+    "Lyubek, Bremen",
+    "Frankfurt, Mayns, Kyoln, Vorms, Strasburg",
+    "Berlin, Drezden",
+    "Gamburg, Rostok"
+   ],
+   "correct_index": 1,
+   "page": 39
+  },
+  {
+   "question": "Shvabiya ittifoqi qaysi yili tashkil topgan?",
+   "options": [
+    "1254-yilda",
+    "1370-yilda",
+    "1331-yilda",
+    "1400-yilda"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Shvabiya ittifoqiga nechta shahar kirgan?",
+   "options": [
+    "9 ta",
+    "900 ta",
+    "19 ta",
+    "90 ta"
+   ],
+   "correct_index": 3,
+   "page": 39
+  },
+  {
+   "question": "Shvabiya ittifoqi shaharlari nimada yetakchi edi?",
+   "options": [
+    "Vino, baliq",
+    "Ipak, oltin",
+    "Gazlama, metallurgiya, qurol ishlab chiqarishda",
+    "Kema, tuz"
+   ],
+   "correct_index": 2,
+   "page": 39
+  },
+  {
+   "question": "Shvabiya ittifoqining yirik savdo markazlari qayerda bo'lgan?",
+   "options": [
+    "Venetsiyada",
+    "Parijda",
+    "Londonda",
+    "Rimda"
+   ],
+   "correct_index": 0,
+   "page": 39
   }
  ]
 }

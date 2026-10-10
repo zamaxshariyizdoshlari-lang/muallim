@@ -277,6 +277,380 @@
    ],
    "correct_index": 3,
    "page": 113
+  },
+  {
+   "question": "Amerika qaysi yarimsharda joylashgan?",
+   "options": [
+    "Sharqiy",
+    "G'arbiy yarimsharda",
+    "Janubiy",
+    "Shimoliy"
+   ],
+   "correct_index": 1,
+   "page": 109
+  },
+  {
+   "question": "Shimoliy Amerikada hozir qaysi davlatlar bor?",
+   "options": [
+    "AQSH va Kanada",
+    "Braziliya",
+    "Argentina",
+    "Peru"
+   ],
+   "correct_index": 0,
+   "page": 109
+  },
+  {
+   "question": "Shimoliy Amerika hindulari qaysi irqga mansub?",
+   "options": [
+    "Yevropeoid",
+    "Negroid",
+    "Mongoloid",
+    "Avstraloid"
+   ],
+   "correct_index": 2,
+   "page": 109
+  },
+  {
+   "question": "Qaysi guruhda mongoloid belgilar ko'proq?",
+   "options": [
+    "Kaliforniya hindularida",
+    "Aleut-eskimoslarda",
+    "Mayyalarda",
+    "Inklarda"
+   ],
+   "correct_index": 1,
+   "page": 109
+  },
+  {
+   "question": "Markaziy va Janubiy amerikalik hindular qanday edi?",
+   "options": [
+    "Baland, oq",
+    "Past, oq",
+    "Baland, qora",
+    "Past bo'yli, ochiq jigarrang badanli"
+   ],
+   "correct_index": 3,
+   "page": 109
+  },
+  {
+   "question": "Shimoliy Amerika hindularining asosiy qismi nima bilan shug'ullangan?",
+   "options": [
+    "Dehqonchilik",
+    "Ovchilik, termachilik, baliqchilik",
+    "Savdo",
+    "Hunarmandchilik"
+   ],
+   "correct_index": 1,
+   "page": 109
+  },
+  {
+   "question": "Kaliforniya hindulari nimani bilmagan?",
+   "options": [
+    "Dehqonchilikni",
+    "Ovni",
+    "Baliq ovini",
+    "Termachilikni"
+   ],
+   "correct_index": 0,
+   "page": 110
+  },
+  {
+   "question": "Kaliforniya hindulari qaysi qurollardan foydalangan?",
+   "options": [
+    "Qilich",
+    "Nayza",
+    "To'p",
+    "O'q-yoy, sanchqi, savat, daraxt poyasidan qayiq"
+   ],
+   "correct_index": 3,
+   "page": 110
+  },
+  {
+   "question": "Kaliforniya hindulari qayerlarda yashagan?",
+   "options": [
+    "Qasrlarda",
+    "Tosh uylarda",
+    "Kemalarda",
+    "Chayla va yarimyerto'lalarda"
+   ],
+   "correct_index": 3,
+   "page": 110
+  },
+  {
+   "question": "Eskimoslar qayerda yashagan?",
+   "options": [
+    "Kaliforniyada",
+    "Grenlandiyadan Alyaskagacha, Chukotkaning sharqiy chekkasigacha",
+    "Meksikada",
+    "Perudan"
+   ],
+   "correct_index": 1,
+   "page": 110
+  },
+  {
+   "question": "Eskimoslar uylarini nima bilan qizitgan?",
+   "options": [
+    "Daraxt bilan",
+    "Ko'mir bilan",
+    "Gaz bilan",
+    "Tyulen va morj yog'i bilan"
+   ],
+   "correct_index": 3,
+   "page": 110
+  },
+  {
+   "question": "Aleutlar qayerda yashagan?",
+   "options": [
+    "Aleut orollari va Alyaska yarimorolining g'arbida",
+    "Kaliforniyada",
+    "Meksikada",
+    "Amazonkada"
+   ],
+   "correct_index": 0,
+   "page": 110
+  },
+  {
+   "question": "Mayyalar qaysi hududda yashagan?",
+   "options": [
+    "Peru",
+    "Meksika, Gvatemala, Beliz, Gonduras va Salvador g'arbida",
+    "Chili",
+    "Braziliya"
+   ],
+   "correct_index": 1,
+   "page": 111
+  },
+  {
+   "question": "Mayyalar yana qanday atalgan?",
+   "options": [
+    "\"Yangi Rim\"",
+    "\"Quyosh farzandlari\"",
+    "\"Yangi dunyo yunonlari\"",
+    "\"Dengiz xalqi\""
+   ],
+   "correct_index": 2,
+   "page": 111
+  },
+  {
+   "question": "Mayya shahar-davlatlari nimaga ega edi?",
+   "options": [
+    "Umumiy hukmdorga",
+    "Mustaqil boshqaruv tizimiga",
+    "Papaga",
+    "Qirolga"
+   ],
+   "correct_index": 1,
+   "page": 111
+  },
+  {
+   "question": "Mayyalar davlatini kim boshqargan?",
+   "options": [
+    "Parlament",
+    "Cheklanmagan hokimiyatli hokim",
+    "Kengash",
+    "Kohin faqat"
+   ],
+   "correct_index": 1,
+   "page": 111
+  },
+  {
+   "question": "Mayya hukmdorining eng yaqin yordamchisi kim?",
+   "options": [
+    "Vazir",
+    "Sarkarda",
+    "Qozi",
+    "Oliy kohin"
+   ],
+   "correct_index": 3,
+   "page": 111
+  },
+  {
+   "question": "Mayya shaharlariga qaysilar kiradi?",
+   "options": [
+    "Tikal, Kopan, Chichen-Itsa, Uxmal, Mayyapan",
+    "Kusko, Lima",
+    "Tenochtitlan",
+    "Kito"
+   ],
+   "correct_index": 0,
+   "page": 111
+  },
+  {
+   "question": "Mayyapanga qaysi yili asos solindi?",
+   "options": [
+    "1521-yilda",
+    "1429-yilda",
+    "1263-yilda",
+    "1300-yilda"
+   ],
+   "correct_index": 2,
+   "page": 111
+  },
+  {
+   "question": "Inklar davlatining markazi qaysi shahar?",
+   "options": [
+    "Tenochtitlan",
+    "Lima",
+    "Kusko",
+    "Kito"
+   ],
+   "correct_index": 2,
+   "page": 112
+  },
+  {
+   "question": "Kusko qanday atalgan?",
+   "options": [
+    "Oy shahri",
+    "Oltin shahar",
+    "Tosh shahar",
+    "Quyosh shahri"
+   ],
+   "correct_index": 3,
+   "page": 112
+  },
+  {
+   "question": "Inklar qaysi asrda kuchaydi?",
+   "options": [
+    "V asrda",
+    "XV asrda",
+    "XVII asrda",
+    "XIII asrda"
+   ],
+   "correct_index": 3,
+   "page": 112
+  },
+  {
+   "question": "Inklar imperiyasi qaysi inka davrida tuzildi?",
+   "options": [
+    "Montezuma",
+    "Atahualpa",
+    "Pachakutek",
+    "Manko"
+   ],
+   "correct_index": 2,
+   "page": 112
+  },
+  {
+   "question": "Atsteklar hukmdori Montezuma I qaysi asrda qurilish ishlari olib bordi?",
+   "options": [
+    "XV asr o'rtalarida",
+    "XIII",
+    "XVII",
+    "XI"
+   ],
+   "correct_index": 0,
+   "page": 112
+  },
+  {
+   "question": "Montezuma I nimalar qurdi?",
+   "options": [
+    "Port",
+    "To'g'onlar, toshdan saroy va ehromlar, Buyuk ibodatxonani tikladi",
+    "Zavod",
+    "Universitet"
+   ],
+   "correct_index": 1,
+   "page": 112
+  },
+  {
+   "question": "Atsteklarning so'nggi hukmdori kim?",
+   "options": [
+    "Montezuma I",
+    "Pachakutek",
+    "Montezuma II",
+    "Kortes"
+   ],
+   "correct_index": 2,
+   "page": 112
+  },
+  {
+   "question": "Atstek ittifoqi qaysi shaharlardan iborat edi?",
+   "options": [
+    "Kusko, Lima, Kito",
+    "Tikal, Kopan",
+    "Tenochtitlan, Teskoko, Tlakopan",
+    "Mayyapan, Uxmal"
+   ],
+   "correct_index": 2,
+   "page": 112
+  },
+  {
+   "question": "Ernan Kortes kim?",
+   "options": [
+    "Hind rahbari",
+    "Savdogar",
+    "Ispan konkistadori",
+    "Rohib"
+   ],
+   "correct_index": 2,
+   "page": 112
+  },
+  {
+   "question": "Kortes Tenochtitlanni qaysi yili egalladi?",
+   "options": [
+    "1492-yilda",
+    "1521-yilda",
+    "1498-yilda",
+    "1453-yilda"
+   ],
+   "correct_index": 1,
+   "page": 112
+  },
+  {
+   "question": "Konkistador so'zi nimani anglatadi?",
+   "options": [
+    "\"Savdogar\"",
+    "\"Dengizchi\"",
+    "\"Rohib\"",
+    "\"Bosqinchi\""
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Hindu nomi qanday kelib chiqqan?",
+   "options": [
+    "Hind daryosidan",
+    "Arab tilidan",
+    "Xitoy tilidan",
+    "Kolumbning Hindiston deb o'ylashidan"
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Inklar imperiyasi nechta viloyatga bo'lingan?",
+   "options": [
+    "Ikkita",
+    "O'nta",
+    "Bitta",
+    "To'rtta"
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Viloyatlarni kimlar boshqargan?",
+   "options": [
+    "Ruhoniylar",
+    "Sarkardalar",
+    "Savdogarlar",
+    "Hukmdorning qarindoshlari - gubernatorlar"
+   ],
+   "correct_index": 3,
+   "page": 113
+  },
+  {
+   "question": "Oliy Inka qanday vakolatlarga ega edi?",
+   "options": [
+    "Faqat ibodat",
+    "Faqat savdo",
+    "Qo'shinga qo'mondonlik, sud, qonun chiqarish",
+    "Faqat soliq"
+   ],
+   "correct_index": 2,
+   "page": 113
   }
  ]
 }

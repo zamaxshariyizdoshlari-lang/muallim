@@ -232,6 +232,270 @@
    ],
    "correct_index": 1,
    "page": 22
+  },
+  {
+   "question": "Yuz yillik urushdan keyin Fransiyada kimlar hududni bo'lib olgan edi?",
+   "options": [
+    "Inglizlar",
+    "O'zboshimcha mahalliy zodagonlar",
+    "Cherkov",
+    "Dehqonlar"
+   ],
+   "correct_index": 1,
+   "page": 22
+  },
+  {
+   "question": "Lyudovik XI qaysi yillarda qirol bo'lgan?",
+   "options": [
+    "1461-1483",
+    "1285-1314",
+    "1422-1461",
+    "1337-1453"
+   ],
+   "correct_index": 0,
+   "page": 22
+  },
+  {
+   "question": "Frank-Burgund urushlarida Lyudovik XI kimga qarshi kurashgan?",
+   "options": [
+    "Angliyaga",
+    "Burgundiya gersogi Karl Jasurga",
+    "Papaga",
+    "Ispaniyaga"
+   ],
+   "correct_index": 1,
+   "page": 22
+  },
+  {
+   "question": "Zodagonlar ittifoqi qanday atalgan?",
+   "options": [
+    "\"Xalq ittifoqi\"",
+    "\"Qirol do'stlari\"",
+    "\"Jamiyat baxt-saodati\"",
+    "\"Birlik\""
+   ],
+   "correct_index": 2,
+   "page": 22
+  },
+  {
+   "question": "Zodagonlar ittifoqi rahbari kim edi?",
+   "options": [
+    "Lyudovik XI",
+    "Filipp IV",
+    "Karl VII",
+    "Karl Jasur"
+   ],
+   "correct_index": 3,
+   "page": 22
+  },
+  {
+   "question": "Urush Fransiya iqtisodiyotiga qanday ta'sir qildi?",
+   "options": [
+    "Boyitdi",
+    "Shahar va qishloqlar vayron bo'ldi, savdo izdan chiqdi",
+    "O'zgartirmadi",
+    "Kuchaytirdi"
+   ],
+   "correct_index": 1,
+   "page": 22
+  },
+  {
+   "question": "Dehqon va hunarmandlar urushdan keyin nima qildi?",
+   "options": [
+    "Xo'jalikni tezda tiklashga harakat qildi",
+    "Qochdi",
+    "Isyon ko'tardi",
+    "Ishlamadi"
+   ],
+   "correct_index": 0,
+   "page": 22
+  },
+  {
+   "question": "Urushdan keyin dehqonlar nimani sota boshladi?",
+   "options": [
+    "Qurol",
+    "Ipak",
+    "Qul",
+    "G'allani qo'shni o'lkalarga"
+   ],
+   "correct_index": 3,
+   "page": 22
+  },
+  {
+   "question": "Lyudovik XI qanday qo'shin tuzdi?",
+   "options": [
+    "Xalq lashkari",
+    "Dengiz floti",
+    "Fillar",
+    "Ritsarlar va yollanma askarlardan doimiy qo'shin"
+   ],
+   "correct_index": 3,
+   "page": 23
+  },
+  {
+   "question": "Qo'shin ta'minoti uchun nima joriy qilindi?",
+   "options": [
+    "Yillik soliq",
+    "Zakot",
+    "Ushr",
+    "Boj"
+   ],
+   "correct_index": 0,
+   "page": 23
+  },
+  {
+   "question": "Gersog va graflar o'z mulklarini saqlab qoldimi?",
+   "options": [
+    "Yo'q, musodara",
+    "Ha, lekin siyosiy mustaqilligi yo'q edi",
+    "Ha, to'liq mustaqil",
+    "Qirolga bergan"
+   ],
+   "correct_index": 1,
+   "page": 23
+  },
+  {
+   "question": "Mamlakatning ichki va tashqi siyosatini kim belgilagan?",
+   "options": [
+    "General shtatlar",
+    "Papa",
+    "Gersoglar",
+    "Qirolning o'zi"
+   ],
+   "correct_index": 3,
+   "page": 23
+  },
+  {
+   "question": "Davlat amaldorlari kimdan maosh olgan?",
+   "options": [
+    "Papadan",
+    "Qiroldan",
+    "Feodaldan",
+    "Xalqdan"
+   ],
+   "correct_index": 1,
+   "page": 23
+  },
+  {
+   "question": "Lyudovik XI hazil tariqasida nima degan?",
+   "options": [
+    "\"Men yolg'izman\"",
+    "\"Men hamma maslahatchilarni otimning egarida olib yuraman\"",
+    "\"Hamma menga kerak\"",
+    "\"Maslahat shart\""
+   ],
+   "correct_index": 1,
+   "page": 23
+  },
+  {
+   "question": "Lyudovik XI General shtatlarni necha marta chaqirdi?",
+   "options": [
+    "Har yili",
+    "Hech qachon",
+    "O'n marta",
+    "Bir marta"
+   ],
+   "correct_index": 3,
+   "page": 23
+  },
+  {
+   "question": "XV asr oxiriga kelib Fransiya qaysi monarxiyaga aylandi?",
+   "options": [
+    "Toifaviy monarxiyaga",
+    "Respublikaga",
+    "Mutlaq monarxiyaga",
+    "Teokratiyaga"
+   ],
+   "correct_index": 2,
+   "page": 23
+  },
+  {
+   "question": "Fransiya birlashgach kimlar qirolga soliq to'lay boshladi?",
+   "options": [
+    "Faqat zodagonlar",
+    "Faqat ruhoniylar",
+    "Dehqonlar, hunarmandlar, shaharliklar",
+    "Hech kim"
+   ],
+   "correct_index": 2,
+   "page": 24
+  },
+  {
+   "question": "Kuchli qirol hokimiyati kimning hukmronligini mustahkamladi?",
+   "options": [
+    "Dehqonlar",
+    "Feodallarning qaram dehqonlar ustidan hukmronligini",
+    "Papa",
+    "Savdogarlar"
+   ],
+   "correct_index": 1,
+   "page": 24
+  },
+  {
+   "question": "Feodallar nima qila olmaydigan bo'ldi?",
+   "options": [
+    "Soliq yig'ish",
+    "Yerga egalik",
+    "O'zboshimchalik bilan qishloq va shaharlarni talash",
+    "Qo'shin saqlash"
+   ],
+   "correct_index": 2,
+   "page": 24
+  },
+  {
+   "question": "Savdogarlar nima qila boshladi?",
+   "options": [
+    "Qochdi",
+    "Urush qildi",
+    "Yashirindi",
+    "Butun mamlakat bo'ylab xavfsiz savdo"
+   ],
+   "correct_index": 3,
+   "page": 24
+  },
+  {
+   "question": "Lion shahri nima markaziga aylandi?",
+   "options": [
+    "Vinochilik",
+    "Shoyi ishlab chiqarish va to'qimachilik",
+    "Qurolsozlik",
+    "Kemasozlik"
+   ],
+   "correct_index": 1,
+   "page": 24
+  },
+  {
+   "question": "Lionga Italiyadan kimlar olib kelindi?",
+   "options": [
+    "Rassomlar",
+    "Ipak gazlama to'quvchi mohir ustalar",
+    "Askarlar",
+    "Rohiblar"
+   ],
+   "correct_index": 1,
+   "page": 24
+  },
+  {
+   "question": "Fransiyada nimalar yagona qilindi?",
+   "options": [
+    "Pul, o'lchov va og'irlik birliklari",
+    "Til va din",
+    "Qonun faqat",
+    "Qo'shin faqat"
+   ],
+   "correct_index": 0,
+   "page": 24
+  },
+  {
+   "question": "Fransiyada nima tashkil qilindi?",
+   "options": [
+    "Dengiz qaroqchiligi",
+    "Armiya akademiyasi",
+    "Ulkan savdo floti",
+    "Universitet"
+   ],
+   "correct_index": 2,
+   "page": 24
   }
  ]
 }

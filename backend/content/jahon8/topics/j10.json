@@ -277,6 +277,424 @@
    ],
    "correct_index": 3,
    "page": 62
+  },
+  {
+   "question": "Ikkinchi Bolgariya podshohligi qaysi yildan?",
+   "options": [
+    "1018-yildan",
+    "1396-yildan",
+    "1000-yildan",
+    "1187-yildan"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Birinchi Bolgariya tugagach Bolgariya qancha yil Vizantiya qo'lida bo'ldi?",
+   "options": [
+    "Taxminan 170 yil",
+    "17 yil",
+    "70 yil",
+    "700 yil"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Vizantiyaga qarshi qo'zg'olon ko'targan zodagon kim edi?",
+   "options": [
+    "Asen",
+    "Simeon",
+    "Ishtvan",
+    "Kazimir"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Bolgariya qaysi hukmdor davrida gullab-yashnadi?",
+   "options": [
+    "Asen I",
+    "Asen II",
+    "Simeon",
+    "Boleslav"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Bolgariya Bolqonda qanday davlat bo'ldi?",
+   "options": [
+    "Eng katta davlat",
+    "Eng kichik",
+    "Vassal",
+    "Respublika"
+   ],
+   "correct_index": 0,
+   "page": 59
+  },
+  {
+   "question": "Asen II davrida qaysi hududlar qo'shildi?",
+   "options": [
+    "Rim",
+    "Italiya",
+    "Misr",
+    "Frakiya, Makedoniya, Epir, Fessaliyaning bir qismi"
+   ],
+   "correct_index": 3,
+   "page": 59
+  },
+  {
+   "question": "Mamlakatda birinchi marta nima zarb qilindi?",
+   "options": [
+    "Kumush pul",
+    "Oltin pul",
+    "Mis pul",
+    "Qog'oz pul"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Bolgar savdogarlari qaysi yarmarkalarda qatnashgan?",
+   "options": [
+    "Qohira",
+    "Flandriya va Shampan",
+    "Bag'dod",
+    "Samarqand"
+   ],
+   "correct_index": 1,
+   "page": 59
+  },
+  {
+   "question": "Chexiya boshqa nom bilan nima deb atalgan?",
+   "options": [
+    "Moraviya",
+    "Bogemiya",
+    "Slovakiya",
+    "Silezya"
+   ],
+   "correct_index": 1,
+   "page": 60
+  },
+  {
+   "question": "Qirol Yan Lyuksemburg davrida nima muntazam chaqirilgan?",
+   "options": [
+    "Parlament",
+    "Senat",
+    "Veche",
+    "Seym"
+   ],
+   "correct_index": 3,
+   "page": 60
+  },
+  {
+   "question": "XIV asrda Chexiya qanday davlat edi?",
+   "options": [
+    "Kambag'al",
+    "Kichik",
+    "Vassal",
+    "Yevropaning eng boy davlatlaridan biri"
+   ],
+   "correct_index": 3,
+   "page": 60
+  },
+  {
+   "question": "Chexiyaning yirik savdo markazi qaysi shahar?",
+   "options": [
+    "Vena",
+    "Berlin",
+    "Praga",
+    "Varshava"
+   ],
+   "correct_index": 2,
+   "page": 60
+  },
+  {
+   "question": "Yan Gus nimani qoraladi?",
+   "options": [
+    "Qirolni",
+    "Savdoni",
+    "Indulgensiya savdosini va ruhoniylar qilmishini",
+    "Ilmni"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "Gus ibodatni qaysi tilda o'tkazishni taklif qildi?",
+   "options": [
+    "Lotin",
+    "Chex tilida",
+    "Nemis",
+    "Yunon"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "Gus nimani taklif qildi?",
+   "options": [
+    "Papaga bo'ysunish",
+    "Chexiyaning o'z cherkovi bo'lishi va qirolga bo'ysunishi",
+    "Cherkovni yopish",
+    "Soliq oshirish"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "Gusni qayerdagi yig'ilishga chaqirishdi?",
+   "options": [
+    "Konstansa shahridagi",
+    "Rimdagi",
+    "Parijdagi",
+    "Pragadagi"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Gusga nima kafolatlangan edi?",
+   "options": [
+    "Qamoq",
+    "Qatl",
+    "Shaxsiy daxlsizlik (himoya yorlig'i)",
+    "Surgun"
+   ],
+   "correct_index": 2,
+   "page": 61
+  },
+  {
+   "question": "Gus qaysi yili gulxanda yoqildi?",
+   "options": [
+    "1415-yilda",
+    "1419-yilda",
+    "1434-yilda",
+    "1000-yilda"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Guschilar harakati qaysi yili Pragada boshlandi?",
+   "options": [
+    "1419-yilda",
+    "1415-yilda",
+    "1434-yilda",
+    "1187-yilda"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Yangi qirol Sigizmund nima qila olmadi?",
+   "options": [
+    "Qo'zg'olonni bostira olmadi",
+    "Taxtga o'tira olmadi",
+    "Papaga bo'ysunolmadi",
+    "Soliq yig'ib bo'lmadi"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Chexiya 1419-yilda nimadan ajraldi?",
+   "options": [
+    "Germaniya imperiyasidan",
+    "Polshadan",
+    "Vengriyadan",
+    "Fransiyadan"
+   ],
+   "correct_index": 0,
+   "page": 61
+  },
+  {
+   "question": "Guschilar harakati necha oqimga bo'lindi?",
+   "options": [
+    "Uch",
+    "Ikki oqimga",
+    "To'rt",
+    "Bir"
+   ],
+   "correct_index": 1,
+   "page": 61
+  },
+  {
+   "question": "Guschilar harakati qaysi yili bostirildi?",
+   "options": [
+    "1419-yilda",
+    "1415-yilda",
+    "1450-yilda",
+    "1434-yilda"
+   ],
+   "correct_index": 3,
+   "page": 61
+  },
+  {
+   "question": "Vengerlarning boshqa nomi nima?",
+   "options": [
+    "Madyarlar faqat",
+    "Mojorlar",
+    "Slavyanlar",
+    "Gotlar"
+   ],
+   "correct_index": 1,
+   "page": 62
+  },
+  {
+   "question": "Vengerlar X asrdan nimani o'zlashtirdi?",
+   "options": [
+    "Savdoni",
+    "Dehqonchilikni",
+    "Dengizchilikni",
+    "Ovchilikni"
+   ],
+   "correct_index": 1,
+   "page": 62
+  },
+  {
+   "question": "Vengriya davlati qaysi asr oxirida tashkil topdi?",
+   "options": [
+    "X asr",
+    "XIII asr",
+    "IX asr oxirida",
+    "XV asr"
+   ],
+   "correct_index": 2,
+   "page": 62
+  },
+  {
+   "question": "Ishtvan Buyuk qaysi sulolaning vakili?",
+   "options": [
+    "Piast",
+    "Kapet",
+    "Karolin",
+    "Arpad"
+   ],
+   "correct_index": 3,
+   "page": 62
+  },
+  {
+   "question": "Ishtvan Buyuk qaysi yili toj kiydi?",
+   "options": [
+    "966-yilda",
+    "863-yilda",
+    "1000-yilda",
+    "988-yilda"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Ishtvan Buyuk papadan nimani oldi?",
+   "options": [
+    "Qirol unvonini",
+    "Yerni",
+    "Xazinani",
+    "Qo'shinni"
+   ],
+   "correct_index": 0,
+   "page": 63
+  },
+  {
+   "question": "Vengriyada ishpan nima?",
+   "options": [
+    "Qirol",
+    "Rohib",
+    "Savdogar",
+    "Franklardagi graf kabi mansabdor"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Ishpan mansabi qanday bo'lgan?",
+   "options": [
+    "Merosiy",
+    "Saylanuvchi",
+    "Vaqtinchalik",
+    "Tayinlanuvchi"
+   ],
+   "correct_index": 0,
+   "page": 63
+  },
+  {
+   "question": "XIII asrda Vengriya hududi qayergacha yetdi?",
+   "options": [
+    "Boltiqqacha",
+    "Qora dengizgacha",
+    "Atlantikagacha",
+    "Adriatika sohillarigacha"
+   ],
+   "correct_index": 3,
+   "page": 63
+  },
+  {
+   "question": "Oltin bulla kim davrida qabul qilindi?",
+   "options": [
+    "Ishtvan I",
+    "Boleslav",
+    "Andrash II",
+    "Meshko"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Oltin bulla qaysi hujjatga qiyoslanadi?",
+   "options": [
+    "Kortesga",
+    "Yasoqqa",
+    "Angliyadagi \"Erkinlikning buyuk xartiyasi\"ga",
+    "Xammurapi qonuniga"
+   ],
+   "correct_index": 2,
+   "page": 63
+  },
+  {
+   "question": "Polshani qaysi sulola boshqargan?",
+   "options": [
+    "Arpadlar",
+    "Gabsburglar",
+    "Lyuksemburglar",
+    "Piastlar (960-1385)"
+   ],
+   "correct_index": 3,
+   "page": 62
+  },
+  {
+   "question": "Polsha qaysi knyaz davrida mayda viloyatlarga bo'lindi?",
+   "options": [
+    "Meshko I",
+    "Kazimir",
+    "Boleslav III",
+    "Boleslav I"
+   ],
+   "correct_index": 2,
+   "page": 62
+  },
+  {
+   "question": "Polshada dehqonlar soliqni kimga to'lagan?",
+   "options": [
+    "Cherkovga ham",
+    "Faqat qirolga",
+    "Faqat panga",
+    "Hech kimga"
+   ],
+   "correct_index": 0,
+   "page": 62
+  },
+  {
+   "question": "Polshada qaysi shaharlar savdo va hunarmandchilik markazi edi?",
+   "options": [
+    "Praga, Vena",
+    "Krakov, Gnezno, Poznan",
+    "Kiyev, Smolensk",
+    "Berlin, Drezden"
+   ],
+   "correct_index": 1,
+   "page": 62
   }
  ]
 }

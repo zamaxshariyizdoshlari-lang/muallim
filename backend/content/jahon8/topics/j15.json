@@ -284,6 +284,479 @@
    ],
    "correct_index": 1,
    "page": 95
+  },
+  {
+   "question": "Xubilay qaysi yili ulug' xoqon deb e'lon qilindi?",
+   "options": [
+    "1206-yilda",
+    "1279-yilda",
+    "1260-yilda",
+    "1368-yilda"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Xubilay Xitoyni qaysi yili to'liq egalladi?",
+   "options": [
+    "1279-yilda",
+    "1260-yilda",
+    "1368-yilda",
+    "1351-yilda"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Yuan sulolasi poytaxti qaysi?",
+   "options": [
+    "Xonbaliq (Xon shahri)",
+    "Nanking",
+    "Pekin",
+    "Xanchjou"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Xubilay qaysi davlatlarni bo'ysundirdi?",
+   "options": [
+    "Hindiston",
+    "Yaponiya",
+    "Birma, Kambodja, Koreya",
+    "Rus"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Vyetnam Yuan davrida nima bo'ldi?",
+   "options": [
+    "Vassalga aylantirildi",
+    "Mustamlaka",
+    "Ittifoqchi",
+    "Dushman"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Xubilay o'zini kim deb e'lon qildi?",
+   "options": [
+    "Osmon o'g'li",
+    "Ulug' xon faqat",
+    "Sulton",
+    "Papa"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Xubilay imperiyani nechta viloyatga bo'ldi?",
+   "options": [
+    "Besh",
+    "Yigirma",
+    "O'n",
+    "O'n ikkita"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Poytaxtda nechta markaziy boshqaruv organi bor edi?",
+   "options": [
+    "Uchta",
+    "Bitta",
+    "Ikkita",
+    "To'rtta"
+   ],
+   "correct_index": 0,
+   "page": 90
+  },
+  {
+   "question": "Yuan sulolasi qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1368-1644",
+    "960-1279",
+    "1279-1368",
+    "618-907"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Min sulolasi asoschisi kim?",
+   "options": [
+    "Xubilay",
+    "Yongle",
+    "Cheng Xua",
+    "Chju Yuan Chjan"
+   ],
+   "correct_index": 3,
+   "page": 90
+  },
+  {
+   "question": "Min sulolasi qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1279-1368",
+    "960-1279",
+    "1368-1644",
+    "618-907"
+   ],
+   "correct_index": 2,
+   "page": 90
+  },
+  {
+   "question": "Yuan davrida dehqonlar kimlarga qaram bo'lgan?",
+   "options": [
+    "Cherkovga",
+    "Savdogarlarga",
+    "Rohiblarga",
+    "Mo'g'ul zodagonlariga"
+   ],
+   "correct_index": 3,
+   "page": 91
+  },
+  {
+   "question": "Dehqonlarga nima taqiqlangan edi?",
+   "options": [
+    "Savdo",
+    "Ibodat",
+    "Ta'lim",
+    "Yashash joyini tark etish"
+   ],
+   "correct_index": 3,
+   "page": 91
+  },
+  {
+   "question": "Dehqonlar Yanszi vodiysida nima qildi?",
+   "options": [
+    "Shahar qurdi",
+    "Qal'a qurdi",
+    "O'rmonlarni kesib, botqoqlarni quritib yangi yerlar ochdi",
+    "Kema yasadi"
+   ],
+   "correct_index": 2,
+   "page": 91
+  },
+  {
+   "question": "XIV asr 40-yillarida Sariq daryoda nima yuz berdi?",
+   "options": [
+    "Qurg'oqchilik",
+    "Zilzila",
+    "Toshqin",
+    "Vulqon"
+   ],
+   "correct_index": 2,
+   "page": 91
+  },
+  {
+   "question": "Toshqin nimani vayron qildi?",
+   "options": [
+    "Buyuk kanalni",
+    "Buyuk devorni",
+    "Saroyni",
+    "Portni"
+   ],
+   "correct_index": 0,
+   "page": 91
+  },
+  {
+   "question": "Toshqin natijasida shimolda nima boshlandi?",
+   "options": [
+    "Ocharchilik",
+    "Boylik",
+    "Urush",
+    "Savdo"
+   ],
+   "correct_index": 0,
+   "page": 91
+  },
+  {
+   "question": "Qizil peshonabog'lilar qo'zg'oloni qaysi yili boshlandi?",
+   "options": [
+    "1368-yilda",
+    "1279-yilda",
+    "1351-yilda",
+    "1260-yilda"
+   ],
+   "correct_index": 2,
+   "page": 92
+  },
+  {
+   "question": "Qo'zg'olonni qaysi ittifoq tayyorlagan?",
+   "options": [
+    "\"Oq nilufar\"",
+    "\"Qizil gul\"",
+    "\"Oq atirgul\"",
+    "\"Sariq bayroq\""
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Markaziy Xitoydagi qo'zg'olonga kim boshchilik qildi?",
+   "options": [
+    "Rohib Chju Yuan Chjan",
+    "Xubilay",
+    "Yongle",
+    "Cheng Xua"
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Min davrida qaysi yili aholi ro'yxatdan o'tkazildi?",
+   "options": [
+    "1351-yilda",
+    "1368-yilda",
+    "1402-yilda",
+    "1370-yilda"
+   ],
+   "correct_index": 3,
+   "page": 92
+  },
+  {
+   "question": "Soliqlar yiliga necha marta undirilishi belgilandi?",
+   "options": [
+    "Bir marta",
+    "Uch marta",
+    "Ikki marta",
+    "Har oy"
+   ],
+   "correct_index": 2,
+   "page": 92
+  },
+  {
+   "question": "Qullarni ozod qilish haqida nima qabul qilindi?",
+   "options": [
+    "Farmon yasoq",
+    "Buyruq",
+    "Qonun",
+    "Maktub"
+   ],
+   "correct_index": 2,
+   "page": 92
+  },
+  {
+   "question": "Mo'g'ul va yirik mulkdorlar yerlari nima bo'ldi?",
+   "options": [
+    "Qaytarildi",
+    "Sotildi",
+    "Musodara qilinib, yersiz dehqonlarga berildi",
+    "Yoqildi"
+   ],
+   "correct_index": 2,
+   "page": 92
+  },
+  {
+   "question": "Min davrida davlat omborlarida nima to'planadi?",
+   "options": [
+    "Qurol",
+    "Oziq-ovqat zaxiralari",
+    "Oltin",
+    "Kitob"
+   ],
+   "correct_index": 1,
+   "page": 92
+  },
+  {
+   "question": "Chju Yuan Chjan poraxo'rlikka qanday munosabatda bo'lgan?",
+   "options": [
+    "Qattiq jazolagan",
+    "Ko'z yumgan",
+    "Maqtagan",
+    "Mukofotlagan"
+   ],
+   "correct_index": 0,
+   "page": 92
+  },
+  {
+   "question": "Min sulolasi davrida nima qayta tiklandi?",
+   "options": [
+    "Quldorlik",
+    "Meros",
+    "Savdo bojlari",
+    "Uch bosqichli imtihon tizimi"
+   ],
+   "correct_index": 3,
+   "page": 93
+  },
+  {
+   "question": "Qishloq maktablari kimlar uchun ochildi?",
+   "options": [
+    "Zodagonlar",
+    "Rohiblar",
+    "Askarlar",
+    "Oddiy aholi uchun"
+   ],
+   "correct_index": 3,
+   "page": 93
+  },
+  {
+   "question": "Imtihon necha yilda bir marta o'tkazilgan?",
+   "options": [
+    "Har yil",
+    "Besh yilda bir",
+    "Har oy",
+    "Uch yilda bir marta"
+   ],
+   "correct_index": 3,
+   "page": 93
+  },
+  {
+   "question": "Yongle qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1402-1424",
+    "1368-1398",
+    "1424-1450",
+    "1465-1488"
+   ],
+   "correct_index": 0,
+   "page": 93
+  },
+  {
+   "question": "Yongle poytaxtni qayerdan Pekinga ko'chirdi?",
+   "options": [
+    "Xonbaliqdan",
+    "Xanchjoudan",
+    "Nankindan",
+    "Loyandan"
+   ],
+   "correct_index": 2,
+   "page": 93
+  },
+  {
+   "question": "Yongle ensiklopediyasi qaysi yili yozildi?",
+   "options": [
+    "1408-yilda",
+    "1402-yilda",
+    "1424-yilda",
+    "1368-yilda"
+   ],
+   "correct_index": 0,
+   "page": 94
+  },
+  {
+   "question": "Cheng Xua davrida nima tiklanishi buyurildi?",
+   "options": [
+    "Buyuk kanal",
+    "Buyuk Xitoy devori",
+    "Saroy",
+    "Port"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Devorning qancha qismi qurildi?",
+   "options": [
+    "60 km",
+    "6 km",
+    "6000 km",
+    "600 km"
+   ],
+   "correct_index": 3,
+   "page": 94
+  },
+  {
+   "question": "Pekin Szin davlati poytaxti sifatida qanday atalgan?",
+   "options": [
+    "Xonbaliq",
+    "Dasin (Chjundu)",
+    "Nanking",
+    "Beypin"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "Mo'g'ullar quvilgach Pekin qanday nom oldi?",
+   "options": [
+    "Dasin",
+    "Beypin",
+    "Xonbaliq",
+    "Nanking"
+   ],
+   "correct_index": 1,
+   "page": 94
+  },
+  {
+   "question": "1387-1388-yillarda nima bo'ldi?",
+   "options": [
+    "Mo'g'ullar yutdi",
+    "Xitoy parchalandi",
+    "Mo'g'ullarning asosiy kuchlari yanchib tashlandi",
+    "Tinchlik"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Xitoy floti Ryukyu orollari yaqinida kimni yengdi?",
+   "options": [
+    "Koreys floti",
+    "Mo'g'ul floti",
+    "Arab floti",
+    "Yapon floti"
+   ],
+   "correct_index": 3,
+   "page": 95
+  },
+  {
+   "question": "Min imperiyasi qo'shni mamlakatlarni qanday hisoblagan?",
+   "options": [
+    "Teng",
+    "Dushman",
+    "Xitoyga qaram davlatlar",
+    "Ittifoqchi"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Amir Temur Xitoyga qaysi yili yurish boshlagan?",
+   "options": [
+    "1368-yilda",
+    "1402-yilda",
+    "1404-yil oxirida",
+    "1424-yilda"
+   ],
+   "correct_index": 2,
+   "page": 95
+  },
+  {
+   "question": "Yurish nega amalga oshmadi?",
+   "options": [
+    "Temurning yo'lda vafot etishi tufayli",
+    "Min kuchli bo'lgani",
+    "Qish",
+    "Qo'shin qochdi"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Yongle Temuriylar qaysi hukmdorlari bilan aloqa o'rnatdi?",
+   "options": [
+    "Shohrux va Ulug'bek",
+    "Boyazid",
+    "To'xtamish",
+    "Husayn"
+   ],
+   "correct_index": 0,
+   "page": 95
+  },
+  {
+   "question": "Admiral Chjan Xe nimaning rahbari edi?",
+   "options": [
+    "Quruqlik yurishlari",
+    "Qamal",
+    "Ulkan dengiz ekspeditsiyalari",
+    "Savdo faqat"
+   ],
+   "correct_index": 2,
+   "page": 95
   }
  ]
 }

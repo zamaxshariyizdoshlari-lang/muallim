@@ -277,6 +277,391 @@
    ],
    "correct_index": 1,
    "page": 107
+  },
+  {
+   "question": "Afrika kattaligi bo'yicha dunyoda nechanchi o'rinda?",
+   "options": [
+    "Birinchi",
+    "Uchinchi",
+    "To'rtinchi",
+    "Ikkinchi"
+   ],
+   "correct_index": 3,
+   "page": 103
+  },
+  {
+   "question": "Qadimgi sivilizatsiya Afrikaning qaysi vodiysida paydo bo'lgan?",
+   "options": [
+    "Niger",
+    "Nil vodiysida",
+    "Kongo",
+    "Zambezi"
+   ],
+   "correct_index": 1,
+   "page": 103
+  },
+  {
+   "question": "G'arbiy Afrikaning asosiy boyligi nima edi?",
+   "options": [
+    "Neft",
+    "Unumdor yerlar, oltin va temir",
+    "Gaz",
+    "Ko'mir"
+   ],
+   "correct_index": 1,
+   "page": 103
+  },
+  {
+   "question": "Sahroyi Kabir janubida kimlar yashagan?",
+   "options": [
+    "Dehqonlar",
+    "Savdogarlar",
+    "Savdo karvonlariga xavf solgan ko'chmanchi barbarlar",
+    "Rohiblar"
+   ],
+   "correct_index": 2,
+   "page": 103
+  },
+  {
+   "question": "Bantu qabilalari nima bilan shug'ullangan?",
+   "options": [
+    "Ovchilik",
+    "Dehqonchilik",
+    "Savdo",
+    "Baliqchilik"
+   ],
+   "correct_index": 1,
+   "page": 103
+  },
+  {
+   "question": "Mali davlati qaysi asrda vujudga kelgan?",
+   "options": [
+    "III asr",
+    "XV asr",
+    "VIII asrda (matnga ko'ra)",
+    "XVII asr"
+   ],
+   "correct_index": 2,
+   "page": 104
+  },
+  {
+   "question": "Mali poytaxti qaysi shahar?",
+   "options": [
+    "Tombuktu",
+    "Niara",
+    "Gao",
+    "Jenne"
+   ],
+   "correct_index": 1,
+   "page": 104
+  },
+  {
+   "question": "Mali nimada yetakchi bo'lgan?",
+   "options": [
+    "Ipak",
+    "Oltin savdosida",
+    "Qurol",
+    "Ziravor"
+   ],
+   "correct_index": 1,
+   "page": 104
+  },
+  {
+   "question": "Malida islom nima tufayli tezlashgan?",
+   "options": [
+    "Savdo aloqalari orqali",
+    "Urush",
+    "Qo'shin",
+    "Soliq"
+   ],
+   "correct_index": 0,
+   "page": 104
+  },
+  {
+   "question": "G'arbiy Sudandagi eng qudratli davlat?",
+   "options": [
+    "Mali",
+    "Songay",
+    "Gana",
+    "Zimbabve"
+   ],
+   "correct_index": 2,
+   "page": 104
+  },
+  {
+   "question": "Gana hukmdorlari kimlarga homiylik qilgan?",
+   "options": [
+    "Rimliklarga",
+    "Xitoylarga",
+    "Hindlarga",
+    "Arab savdogarlariga"
+   ],
+   "correct_index": 3,
+   "page": 104
+  },
+  {
+   "question": "Gana qaysi yili Marokash sultoni Abu Bakr tomonidan bosib olingan?",
+   "options": [
+    "1235-yilda",
+    "1324-yilda",
+    "1076-yilda",
+    "1591-yilda"
+   ],
+   "correct_index": 2,
+   "page": 104
+  },
+  {
+   "question": "Ganada aholi qaysi dinni qabul qildi?",
+   "options": [
+    "Xristianlikni",
+    "Buddizmni",
+    "Islomni",
+    "Yahudiylikni"
+   ],
+   "correct_index": 2,
+   "page": 104
+  },
+  {
+   "question": "Songay qabilalari qaysi shahar atrofida yashagan?",
+   "options": [
+    "Gao",
+    "Tombuktu",
+    "Niara",
+    "Jenne"
+   ],
+   "correct_index": 0,
+   "page": 105
+  },
+  {
+   "question": "Mali Gaoni qaysi asr oxirida bosib oldi?",
+   "options": [
+    "XI asr",
+    "XIII asr oxirida",
+    "XV asr",
+    "IX asr"
+   ],
+   "correct_index": 1,
+   "page": 105
+  },
+  {
+   "question": "Songay qaysi asr oxirida mustaqil davlat bo'ldi?",
+   "options": [
+    "XII asr",
+    "XVI asr",
+    "IX asr",
+    "XIV asr oxirida"
+   ],
+   "correct_index": 3,
+   "page": 105
+  },
+  {
+   "question": "Songay qaysi hukmdorlar davrida rivojlandi?",
+   "options": [
+    "Sundiata",
+    "Mansa Muso",
+    "Sunni Ali va Muhammad I",
+    "Askiya faqat"
+   ],
+   "correct_index": 2,
+   "page": 105
+  },
+  {
+   "question": "Songay chegaralari kengayishida nimadan foydalangan?",
+   "options": [
+    "Fillar",
+    "Zambaraklar",
+    "Dengiz floti",
+    "Otliq qo'shin va daryo floti"
+   ],
+   "correct_index": 3,
+   "page": 105
+  },
+  {
+   "question": "Songay XVI asr oxirida kim tomonidan bosib olindi?",
+   "options": [
+    "Mali",
+    "Gana",
+    "Marokash sultonligi",
+    "Misr"
+   ],
+   "correct_index": 2,
+   "page": 105
+  },
+  {
+   "question": "Mali qaysi asrda Sundiata Keyta davrida yuksaldi?",
+   "options": [
+    "XIII asrda",
+    "VIII asrda",
+    "XV asrda",
+    "XVII asrda"
+   ],
+   "correct_index": 0,
+   "page": 105
+  },
+  {
+   "question": "Sundiata qaysi hududlarni egalladi?",
+   "options": [
+    "Oltin konlari va Gana hududini",
+    "Misr",
+    "Eron",
+    "Hindiston"
+   ],
+   "correct_index": 0,
+   "page": 105
+  },
+  {
+   "question": "Mali hududi qayergacha cho'zilgan?",
+   "options": [
+    "Nildan Gangacha",
+    "Atlantika okeanidan Chad ko'ligacha",
+    "Dunaydan Volgagacha",
+    "Misrdan Hindistongacha"
+   ],
+   "correct_index": 1,
+   "page": 105
+  },
+  {
+   "question": "Bambuk nimasi bilan mashhur edi?",
+   "options": [
+    "Oltinga boy hududi",
+    "Tuz",
+    "Temir",
+    "Ipak"
+   ],
+   "correct_index": 0,
+   "page": 105
+  },
+  {
+   "question": "Monomotapa qayerda mavjud bo'lgan?",
+   "options": [
+    "Nil bo'yida",
+    "Zimbabve va Limpopo daryolari bo'yida",
+    "Niger bo'yida",
+    "Kongo bo'yida"
+   ],
+   "correct_index": 1,
+   "page": 106
+  },
+  {
+   "question": "Monomotapa poytaxti qaysi?",
+   "options": [
+    "Buyuk Zimbabve",
+    "Tombuktu",
+    "Gao",
+    "Niara"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Buyuk Zimbabveda qancha aholi yashagan?",
+   "options": [
+    "Taxminan 15 ming",
+    "150",
+    "1500",
+    "150 ming"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Monomotapa hukmdori kim edi?",
+   "options": [
+    "Lashkarboshi va oliy ruhoniy",
+    "Faqat qirol",
+    "Savdogar",
+    "Rohib"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Monomotapaning eng rivojlangan davri qaysi asr?",
+   "options": [
+    "XV asr",
+    "XI asr",
+    "XIX asr",
+    "VII asr"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Monomotapani XVII asr oxirida kim bosib oldi?",
+   "options": [
+    "Shona qabilalari",
+    "Bantu",
+    "Arablar",
+    "Songay"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Afrikaning orqada qolishining sabablaridan biri?",
+   "options": [
+    "Geografik ajralganligi",
+    "Yerlari unumsizligi",
+    "Soliq",
+    "Din"
+   ],
+   "correct_index": 0,
+   "page": 106
+  },
+  {
+   "question": "Neolit inqilobi Afrikada qanday bo'lgan?",
+   "options": [
+    "Erta",
+    "Yo'q",
+    "Yevropa va Osiyoga qaraganda kechroq",
+    "Bir vaqtda"
+   ],
+   "correct_index": 2,
+   "page": 107
+  },
+  {
+   "question": "Afrika aholisi tabiiy boyliklarni qazib olishda nimani bilmagan?",
+   "options": [
+    "Hech narsa",
+    "Hammasini",
+    "Takomillashgan samarali yo'llarni",
+    "Qurollarni"
+   ],
+   "correct_index": 2,
+   "page": 107
+  },
+  {
+   "question": "Afrikada taraqqiyotga nima to'sqinlik qilgan?",
+   "options": [
+    "Urushlar, bosqinlar va istilolar",
+    "Savdo",
+    "Ilm",
+    "Tinchlik"
+   ],
+   "correct_index": 0,
+   "page": 107
+  },
+  {
+   "question": "Mansa nima?",
+   "options": [
+    "Songay unvoni",
+    "Gana unvoni",
+    "Mali hukmdorlari unvoni",
+    "Zimbabve unvoni"
+   ],
+   "correct_index": 2,
+   "page": 107
+  },
+  {
+   "question": "Mamluk kimlar?",
+   "options": [
+    "Savdogarlar",
+    "Ruhoniylar",
+    "Dehqonlar",
+    "Misrda asosan kavkazlik va turkiy o'smir qullardan tashkil qilingan harbiylar"
+   ],
+   "correct_index": 3,
+   "page": 107
   }
  ]
 }

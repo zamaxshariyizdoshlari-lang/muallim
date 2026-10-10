@@ -270,6 +270,325 @@
    ],
    "correct_index": 3,
    "page": 34
+  },
+  {
+   "question": "Jon solig'i Angliyada birinchi marta qaysi yili joriy etildi?",
+   "options": [
+    "1215-yilda",
+    "1377-yilda",
+    "1381-yilda",
+    "1455-yilda"
+   ],
+   "correct_index": 1,
+   "page": 31
+  },
+  {
+   "question": "Jon solig'i qaysi qirol davrida joriy etildi?",
+   "options": [
+    "Richard II",
+    "Genrix IV",
+    "Eduard III",
+    "Ioann"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Jon solig'ini kimlar to'lagan?",
+   "options": [
+    "Faqat erkaklar",
+    "14 yoshdan yuqori barcha erkak va ayollar",
+    "Faqat boylar",
+    "Faqat dehqonlar"
+   ],
+   "correct_index": 1,
+   "page": 31
+  },
+  {
+   "question": "1380-yilda jon solig'i necha barobar oshirildi?",
+   "options": [
+    "2 barobar",
+    "5 barobar",
+    "10 barobar",
+    "3 barobar"
+   ],
+   "correct_index": 3,
+   "page": 31
+  },
+  {
+   "question": "Viklif nima talab qildi?",
+   "options": [
+    "Cherkovni isloh qilishni",
+    "Qirolni ag'darishni",
+    "Papa saylashni",
+    "Soliqni oshirishni"
+   ],
+   "correct_index": 0,
+   "page": 31
+  },
+  {
+   "question": "Viklif Injilni qaysi tilga tarjima qildi?",
+   "options": [
+    "Fransuz tiliga",
+    "Lotin tiliga",
+    "Nemis tiliga",
+    "Ingliz tiliga"
+   ],
+   "correct_index": 3,
+   "page": 31
+  },
+  {
+   "question": "Viklif Angliya papaga nima to'lashiga qarshi chiqdi?",
+   "options": [
+    "Bojga",
+    "Soliqqa",
+    "Qarzga",
+    "Jarimaga"
+   ],
+   "correct_index": 1,
+   "page": 31
+  },
+  {
+   "question": "Jon Boll kim edi?",
+   "options": [
+    "Qirol",
+    "Sarkarda",
+    "Rohib faqat",
+    "Viklifning tarafdori, xalq orasida nufuzli targ'ibotchi"
+   ],
+   "correct_index": 3,
+   "page": 31
+  },
+  {
+   "question": "Jon Boll nimadan so'rar edi?",
+   "options": [
+    "\"Qirol kim?\"",
+    "\"Papa kim?\"",
+    "\"Odam Ato yer haydab, Momo Havo charx yigirgan paytda kim zodagon bo'lgan?\"",
+    "\"Xalq kim?\""
+   ],
+   "correct_index": 2,
+   "page": 31
+  },
+  {
+   "question": "Jon Bollni kim qamoqqa oldi?",
+   "options": [
+    "Qirol",
+    "Papa",
+    "Kenterberi arxiyepiskopi",
+    "Lord"
+   ],
+   "correct_index": 2,
+   "page": 31
+  },
+  {
+   "question": "Uot Tayler qo'zg'oloni qaysi yili bo'lgan?",
+   "options": [
+    "1377-yilda",
+    "1380-yilda",
+    "1455-yilda",
+    "1381-yilda"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "Qo'zg'olon qaysi graflikda boshlangan?",
+   "options": [
+    "Kent",
+    "Londonda",
+    "Yorkshir",
+    "Esseks grafligida"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "Uot Tayler kim edi?",
+   "options": [
+    "Lord",
+    "Rohib",
+    "Baron",
+    "Qishloq hunarmandi, Yuz yillik urush qatnashchisi"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "\"Tayler\" so'zi ingliz tilida nimani anglatadi?",
+   "options": [
+    "Kamonchi",
+    "Tunukasoz",
+    "Duradgor",
+    "Bog'bon"
+   ],
+   "correct_index": 1,
+   "page": 32
+  },
+  {
+   "question": "Qo'zg'olonda 40 ta graflikdan nechtasi qatnashdi?",
+   "options": [
+    "5 tasi",
+    "40 tasi",
+    "25 tasi",
+    "10 tasi"
+   ],
+   "correct_index": 2,
+   "page": 32
+  },
+  {
+   "question": "Qo'zg'olonchilar qaysi shaharga bordi?",
+   "options": [
+    "Yorkka",
+    "Oksfordga",
+    "Londonga",
+    "Kembrijga"
+   ],
+   "correct_index": 2,
+   "page": 32
+  },
+  {
+   "question": "Yosh qirol qaerga yashirinib oldi?",
+   "options": [
+    "Tauer qal'asiga",
+    "Vestminsterga",
+    "Dovirga",
+    "Yorkka"
+   ],
+   "correct_index": 0,
+   "page": 32
+  },
+  {
+   "question": "\"Mayl End\" dasturida nima talab qilingan?",
+   "options": [
+    "Taxtdan voz kechish",
+    "Papani chetlatish",
+    "Soliq oshirish",
+    "Dehqonlar qaramligini bekor qilish, umumiy afv"
+   ],
+   "correct_index": 3,
+   "page": 32
+  },
+  {
+   "question": "1 akr yer uchun qancha ijara haqi belgilangan?",
+   "options": [
+    "4 pens",
+    "40 pens",
+    "1 pens",
+    "10 pens"
+   ],
+   "correct_index": 0,
+   "page": 32
+  },
+  {
+   "question": "Akr nechta sotixga teng?",
+   "options": [
+    "4 sotix",
+    "400 sotix",
+    "100 sotix",
+    "40 sotix"
+   ],
+   "correct_index": 3,
+   "page": 34
+  },
+  {
+   "question": "Qo'zg'olon nega muvaffaqiyatsiz bo'ldi?",
+   "options": [
+    "Papa yordami",
+    "Aniq dastur, harbiy ta'lim va qurol yetishmasligi",
+    "Fransuzlar kelishi",
+    "Qirol kuchliligi"
+   ],
+   "correct_index": 1,
+   "page": 33
+  },
+  {
+   "question": "Qo'zg'olonchilar rahbarlari kimlarning yolg'oniga ishonishdi?",
+   "options": [
+    "Papaning",
+    "Amaldorlarning",
+    "Qirolning o'zining",
+    "Savdogarlarning"
+   ],
+   "correct_index": 1,
+   "page": 33
+  },
+  {
+   "question": "Qo'zg'olon dehqonlar taqdiriga qanday ta'sir qildi?",
+   "options": [
+    "Qaramlik kuchaydi",
+    "Hech",
+    "Dehqonlar manfaatlariga qarshi qoidalar yumshatildi",
+    "Soliq oshdi"
+   ],
+   "correct_index": 2,
+   "page": 33
+  },
+  {
+   "question": "XV asr davomida dehqonlar nimaga erishdi?",
+   "options": [
+    "Ozodlikka",
+    "Qullikka",
+    "Qamoqqa",
+    "Surgunga"
+   ],
+   "correct_index": 0,
+   "page": 33
+  },
+  {
+   "question": "Yorklar va Lankasterlar urushi qaysi yillarda bo'lgan?",
+   "options": [
+    "1337-1453",
+    "1455-1485",
+    "1381-1400",
+    "1500-1550"
+   ],
+   "correct_index": 1,
+   "page": 33
+  },
+  {
+   "question": "Gullar urushi necha yil davom etgan?",
+   "options": [
+    "30 yil",
+    "3 yil",
+    "100 yil",
+    "10 yil"
+   ],
+   "correct_index": 0,
+   "page": 33
+  },
+  {
+   "question": "Yorklar bayrog'ida qanday gul bo'lgan?",
+   "options": [
+    "Oq atirgul",
+    "Qizil atirgul",
+    "Nilufar",
+    "Lola"
+   ],
+   "correct_index": 0,
+   "page": 33
+  },
+  {
+   "question": "Lankasterlar bayrog'ida qanday gul bo'lgan?",
+   "options": [
+    "Oq atirgul",
+    "Qizil atirgul",
+    "Nilufar",
+    "Lola"
+   ],
+   "correct_index": 1,
+   "page": 33
+  },
+  {
+   "question": "1403-yilda Angliya qiroli Genrix IV Amir Temurga nima yozdi?",
+   "options": [
+    "Do'stlik va savdoni kengaytirish istagida maktub",
+    "Urush e'lon qildi",
+    "Soliq talab qildi",
+    "Taxt taklif qildi"
+   ],
+   "correct_index": 0,
+   "page": 34
   }
  ]
 }

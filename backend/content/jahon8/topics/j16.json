@@ -277,6 +277,424 @@
    ],
    "correct_index": 2,
    "page": 101
+  },
+  {
+   "question": "Yaponiyada imperator hokimiyati qaysi asrda o'rnatilgan?",
+   "options": [
+    "V asrda",
+    "XII asrda (matnga ko'ra)",
+    "XV asrda",
+    "IX asrda"
+   ],
+   "correct_index": 1,
+   "page": 97
+  },
+  {
+   "question": "Imperator Yaponiyada kimning o'g'li hisoblangan?",
+   "options": [
+    "Okean xudosining",
+    "Tog' xudosining",
+    "Quyosh xudosi Amaterasuning",
+    "Yer xudosining"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Imperator davlat ishlariga qanday aralashgan?",
+   "options": [
+    "Kamdan-kam",
+    "Doim",
+    "Faqat urushda",
+    "Faqat soliqda"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Yaponiyani amalda kimlar boshqargan?",
+   "options": [
+    "Imperator",
+    "Oliy zodagonlar va amaldorlar",
+    "Papa",
+    "Savdogarlar"
+   ],
+   "correct_index": 1,
+   "page": 97
+  },
+  {
+   "question": "Yapon poytaxti qaysi shahar edi?",
+   "options": [
+    "Xeyyan",
+    "Kioto",
+    "Nara",
+    "Kamakura"
+   ],
+   "correct_index": 0,
+   "page": 97
+  },
+  {
+   "question": "Tayra va Minamoto xonadonlari o'rtasida urush qaysi yili boshlandi?",
+   "options": [
+    "1185-yilda",
+    "1192-yilda",
+    "1156-yilda",
+    "1333-yilda"
+   ],
+   "correct_index": 2,
+   "page": 97
+  },
+  {
+   "question": "Minamoto Yoritomo barcha raqiblarini qaysi yili mag'lub etdi?",
+   "options": [
+    "1156-yilda",
+    "1192-yilda",
+    "1333-yilda",
+    "1185-yilda"
+   ],
+   "correct_index": 3,
+   "page": 97
+  },
+  {
+   "question": "Yoritomo syogun unvonini qaysi yili oldi?",
+   "options": [
+    "1156-yilda",
+    "1185-yilda",
+    "1338-yilda",
+    "1192-yilda"
+   ],
+   "correct_index": 3,
+   "page": 97
+  },
+  {
+   "question": "Mo'g'ullar Yaponiyaga necha marta hujum qilgan?",
+   "options": [
+    "Bir marta",
+    "Besh marta",
+    "Ikki marta",
+    "Hech qachon"
+   ],
+   "correct_index": 2,
+   "page": 98
+  },
+  {
+   "question": "Mo'g'ul floti qanday halokatga uchradi?",
+   "options": [
+    "Kuchli tayfun",
+    "Jang",
+    "Yong'in",
+    "Ochlik"
+   ],
+   "correct_index": 0,
+   "page": 98
+  },
+  {
+   "question": "Mo'g'ullar qancha kema va askarni yo'qotdi?",
+   "options": [
+    "40 kema",
+    "4 ming kema va 100 ming askar",
+    "400 kema",
+    "1000 askar"
+   ],
+   "correct_index": 1,
+   "page": 98
+  },
+  {
+   "question": "Yaponlar tayfunni qanday atagan?",
+   "options": [
+    "\"Qora shamol\"",
+    "Kamikadze - \"ilohiy shamol\"",
+    "\"Dengiz ruhi\"",
+    "\"Ajdar\""
+   ],
+   "correct_index": 1,
+   "page": 98
+  },
+  {
+   "question": "Mo'g'ullarga qarshi kurash siyosiy tuzumga nima bo'ldi?",
+   "options": [
+    "Yengillik",
+    "Og'ir yuk",
+    "Foyda",
+    "Hech narsa"
+   ],
+   "correct_index": 1,
+   "page": 98
+  },
+  {
+   "question": "Kamakura syogunligi qaysi yili ag'darildi?",
+   "options": [
+    "1192-yilda",
+    "1338-yilda",
+    "1185-yilda",
+    "1333-yilda"
+   ],
+   "correct_index": 3,
+   "page": 98
+  },
+  {
+   "question": "Kamakurani kim ag'dardi?",
+   "options": [
+    "Tayra",
+    "Minamoto",
+    "Fudziva",
+    "Asikaga xonadoni"
+   ],
+   "correct_index": 3,
+   "page": 98
+  },
+  {
+   "question": "Kioto syogunligi qaysi yili asos solindi?",
+   "options": [
+    "1333-yilda",
+    "1192-yilda",
+    "1156-yilda",
+    "1338-yilda"
+   ],
+   "correct_index": 3,
+   "page": 98
+  },
+  {
+   "question": "Daymyolar kimlar?",
+   "options": [
+    "Savdogarlar",
+    "Rohiblar",
+    "Yirik mulkdorlar",
+    "Qullar"
+   ],
+   "correct_index": 2,
+   "page": 98
+  },
+  {
+   "question": "Koreyaga mo'g'ullarning tinimsiz hujumlari qaysi asr boshida boshlangan?",
+   "options": [
+    "XI asr",
+    "XIII asr boshida",
+    "XV asr",
+    "IX asr"
+   ],
+   "correct_index": 1,
+   "page": 99
+  },
+  {
+   "question": "Anbuk qal'asi jangi qaysi yili bo'lgan?",
+   "options": [
+    "1231-yilda",
+    "1356-yilda",
+    "1368-yilda",
+    "1392-yilda"
+   ],
+   "correct_index": 0,
+   "page": 99
+  },
+  {
+   "question": "Koryo hukumati qayerga ko'chirildi?",
+   "options": [
+    "Pxenyanga",
+    "Seulga",
+    "Sonakka",
+    "Kanxva oroliga"
+   ],
+   "correct_index": 3,
+   "page": 99
+  },
+  {
+   "question": "Hukumat nima uchun orolga ko'chirildi?",
+   "options": [
+    "Savdo",
+    "Qishloq",
+    "Mo'g'ul otliqlari bora olmasligi uchun",
+    "Dengiz"
+   ],
+   "correct_index": 2,
+   "page": 99
+  },
+  {
+   "question": "Xubilay davrida Koryo kimga aylandi?",
+   "options": [
+    "Mustaqil",
+    "Vassal davlatga",
+    "Ittifoqchi",
+    "Imperiya"
+   ],
+   "correct_index": 1,
+   "page": 99
+  },
+  {
+   "question": "Koryoliklar nima qilishga majbur bo'ldi?",
+   "options": [
+    "Soliqsiz yashash",
+    "Urush e'lon qilish",
+    "O'lpon to'lash va mo'g'ul qo'shinini boqish",
+    "Savdo"
+   ],
+   "correct_index": 2,
+   "page": 99
+  },
+  {
+   "question": "Koreyalik ustalar nima yasashga majbur qilingan?",
+   "options": [
+    "Kemalar (Yaponiyaga qarshi)",
+    "Qurol",
+    "Uylar",
+    "Ko'priklar"
+   ],
+   "correct_index": 0,
+   "page": 99
+  },
+  {
+   "question": "Koryo hukmdori Konmin qaysi yili mo'g'ul tarafdorlarini chetlatdi?",
+   "options": [
+    "1356-yilda",
+    "1231-yilda",
+    "1368-yilda",
+    "1392-yilda"
+   ],
+   "correct_index": 0,
+   "page": 99
+  },
+  {
+   "question": "Li Son Ge qanday nom bilan taxtga o'tirdi?",
+   "options": [
+    "Qirol Taejo",
+    "Konmin",
+    "Taejong",
+    "Sejong"
+   ],
+   "correct_index": 0,
+   "page": 100
+  },
+  {
+   "question": "Li Son Ge davlatni qanday atadi?",
+   "options": [
+    "Choson",
+    "Koryo",
+    "Silla",
+    "Pekche"
+   ],
+   "correct_index": 0,
+   "page": 100
+  },
+  {
+   "question": "Choson poytaxti qaysi shahar edi?",
+   "options": [
+    "Xanson (hozirgi Seul)",
+    "Pxenyan",
+    "Kegyon",
+    "Kioto"
+   ],
+   "correct_index": 0,
+   "page": 100
+  },
+  {
+   "question": "Taejo qaysi saroyni qurdirdi?",
+   "options": [
+    "Kyoto saroyi",
+    "Kyonbokkun",
+    "Oltin pavilyon",
+    "Ayo Sofiya"
+   ],
+   "correct_index": 1,
+   "page": 100
+  },
+  {
+   "question": "Taejo Koreyani kimning vassali deb tan olishga majbur bo'ldi?",
+   "options": [
+    "Yaponiyaning",
+    "Mo'g'ullarning",
+    "Xitoyning",
+    "Rusning"
+   ],
+   "correct_index": 2,
+   "page": 100
+  },
+  {
+   "question": "Taejong qaysi yillarda hukmronlik qildi?",
+   "options": [
+    "1392-1400",
+    "1400-1418",
+    "1418-1450",
+    "1450-1470"
+   ],
+   "correct_index": 1,
+   "page": 100
+  },
+  {
+   "question": "Taejong zodagonlar qo'shinini nima qildi?",
+   "options": [
+    "Kuchaytirdi",
+    "Tarqatdi",
+    "Saqladi",
+    "Sotdi"
+   ],
+   "correct_index": 1,
+   "page": 100
+  },
+  {
+   "question": "Davlat kengashi kimlardan iborat?",
+   "options": [
+    "Qirol va papa",
+    "Bosh vazir va ikki o'rinbosar",
+    "Faqat zodagonlar",
+    "Faqat ruhoniylar"
+   ],
+   "correct_index": 1,
+   "page": 100
+  },
+  {
+   "question": "1413-yilda nima joriy qilindi?",
+   "options": [
+    "Soliq bekor",
+    "Dinni almashtirish",
+    "Aholini ro'yxatga olish va shaxsni tasdiqlovchi \"taxta bo'lagi\"",
+    "Yangi alifbo"
+   ],
+   "correct_index": 2,
+   "page": 100
+  },
+  {
+   "question": "Sejong davrida tashqi siyosatning muhim yo'nalishi nima?",
+   "options": [
+    "Xitoyga urush",
+    "Hindiston",
+    "Rus",
+    "Yaponiya bilan munosabatlarni tartibga solish"
+   ],
+   "correct_index": 3,
+   "page": 101
+  },
+  {
+   "question": "Koreya kimlar tomonidan bosqinlarga uchragan edi?",
+   "options": [
+    "Yapon qaroqchilari",
+    "Mo'g'ullar",
+    "Arablar",
+    "Ruslar"
+   ],
+   "correct_index": 0,
+   "page": 101
+  },
+  {
+   "question": "Min imperatori Xongvu Chosonni darhol tan oldimi?",
+   "options": [
+    "Ha",
+    "Faqat Taejoni",
+    "Yo'q, shoshilmadi",
+    "Hech tan olmadi"
+   ],
+   "correct_index": 2,
+   "page": 101
+  },
+  {
+   "question": "Taejo davrida elchilar qayerlarga yuborilgan?",
+   "options": [
+    "Rim",
+    "Hindiston",
+    "Min imperiyasi va Yaponiyaga",
+    "Rus"
+   ],
+   "correct_index": 2,
+   "page": 101
   }
  ]
 }

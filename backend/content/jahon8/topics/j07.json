@@ -270,6 +270,380 @@
    ],
    "correct_index": 2,
    "page": 43
+  },
+  {
+   "question": "Venetsiya nechta aholiga ega edi?",
+   "options": [
+    "200 ming",
+    "20 ming",
+    "2 ming",
+    "2 million"
+   ],
+   "correct_index": 0,
+   "page": 41
+  },
+  {
+   "question": "Venetsiya qanday atalgan?",
+   "options": [
+    "\"Italiya Afinasi\"",
+    "\"Dengiz malikasi\"",
+    "\"Adriatika malikasi\"",
+    "\"Boqiy shahar\""
+   ],
+   "correct_index": 2,
+   "page": 41
+  },
+  {
+   "question": "Venetsiya qaysi dengizning sharqiy qismida savdo monopolisti bo'lgan?",
+   "options": [
+    "O'rta dengizning",
+    "Qora dengizning",
+    "Boltiq dengizining",
+    "Kaspiyning"
+   ],
+   "correct_index": 0,
+   "page": 41
+  },
+  {
+   "question": "Venetsiyaga qaysi hududlar qaram edi?",
+   "options": [
+    "Rus",
+    "Vizantiya, Misr, Suriya, Egey orollari",
+    "Polsha",
+    "Britaniya"
+   ],
+   "correct_index": 1,
+   "page": 41
+  },
+  {
+   "question": "Venetsiya oltin pullari qanday atalgan?",
+   "options": [
+    "Florin",
+    "Dukat",
+    "Dinor",
+    "Numisma"
+   ],
+   "correct_index": 1,
+   "page": 41
+  },
+  {
+   "question": "Venetsiya dukatlari Yevropada qanday vazifani bajargan?",
+   "options": [
+    "Mahalliy pul",
+    "Qurol",
+    "Bezak",
+    "Xalqaro pul vazifasini"
+   ],
+   "correct_index": 3,
+   "page": 41
+  },
+  {
+   "question": "Venetsiyaning asosiy raqibi kim edi?",
+   "options": [
+    "Florensiya",
+    "Piza",
+    "Milan",
+    "Genuya"
+   ],
+   "correct_index": 3,
+   "page": 41
+  },
+  {
+   "question": "Venetsiya ishlab chiqargan mahsulotlar qaysilar?",
+   "options": [
+    "Faqat bug'doy",
+    "Movut, ipak, oyna, qurol-yarog'",
+    "Faqat vino",
+    "Faqat mis"
+   ],
+   "correct_index": 1,
+   "page": 41
+  },
+  {
+   "question": "Florensiya qanday atalgan?",
+   "options": [
+    "\"Adriatika malikasi\"",
+    "\"Dengiz yulduzi\"",
+    "\"Italiya Afinasi\"",
+    "\"Boqiy shahar\""
+   ],
+   "correct_index": 2,
+   "page": 42
+  },
+  {
+   "question": "Florensiya qaysi daryo sohillarida joylashgan?",
+   "options": [
+    "Po",
+    "Tibr",
+    "Reyn",
+    "Arno"
+   ],
+   "correct_index": 3,
+   "page": 42
+  },
+  {
+   "question": "Florensiyada 1330-yilda nechta aholi yashagan?",
+   "options": [
+    "90 ming",
+    "9 ming",
+    "900 ming",
+    "19 ming"
+   ],
+   "correct_index": 0,
+   "page": 42
+  },
+  {
+   "question": "XIV asrda Florensiyada nechta movut korxonasi bo'lgan?",
+   "options": [
+    "200 dan ortiq",
+    "20",
+    "2",
+    "2000"
+   ],
+   "correct_index": 0,
+   "page": 42
+  },
+  {
+   "question": "Florensiyada qaysi hunarlar ham rivojlangan?",
+   "options": [
+    "Kemasozlik",
+    "Qurolsozlik",
+    "Dehqonchilik",
+    "Ipak to'qish, mo'ynachilik, zargarlik"
+   ],
+   "correct_index": 3,
+   "page": 42
+  },
+  {
+   "question": "Papalar boyliklarini qayerda saqlagan?",
+   "options": [
+    "Rim xazinasida",
+    "Monastirda",
+    "Qal'ada",
+    "Florensiya banklarida"
+   ],
+   "correct_index": 3,
+   "page": 42
+  },
+  {
+   "question": "Florensiya qaysi yili oltin tanga zarb qildi?",
+   "options": [
+    "1252-yilda",
+    "1284-yilda",
+    "1330-yilda",
+    "1400-yilda"
+   ],
+   "correct_index": 0,
+   "page": 42
+  },
+  {
+   "question": "Florensiyaning oliy organi nima edi?",
+   "options": [
+    "Veche",
+    "Sinyoriya",
+    "Kortes",
+    "Parlament"
+   ],
+   "correct_index": 1,
+   "page": 42
+  },
+  {
+   "question": "Sinyoriyaga kimlar saylangan?",
+   "options": [
+    "Faqat zodagonlar",
+    "Faqat savdogarlar",
+    "Faqat ruhoniylar",
+    "Katta korxonalardan yettita, kichiklardan ikkita vakil"
+   ],
+   "correct_index": 3,
+   "page": 42
+  },
+  {
+   "question": "Italiya dehqonlari qanday qaram edi?",
+   "options": [
+    "Bevosita qul",
+    "Rohib",
+    "Yirik mulkdorlarga yer orqali bog'langan",
+    "Savdogar"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "Italiyada dehqonlar xohlagan vaqtda nima qilishi mumkin edi?",
+   "options": [
+    "Yerdan va xo'jayindan voz kechib ketishi",
+    "Qolishi shart",
+    "Qul bo'lishi",
+    "Soliq to'lashi"
+   ],
+   "correct_index": 0,
+   "page": 43
+  },
+  {
+   "question": "Italiya shimolida dehqonlar qaramligi qaysi asrda bekor bo'ldi?",
+   "options": [
+    "XIII asrda",
+    "XI asrda",
+    "XV asrda",
+    "XVII asrda"
+   ],
+   "correct_index": 0,
+   "page": 43
+  },
+  {
+   "question": "Janubiy Italiyada dehqonlar qaramligi qaysi asrlarda bekor bo'ldi?",
+   "options": [
+    "X-XI asrlarda",
+    "XIII asrda",
+    "XIV-XV asrlarda",
+    "XVI asrda"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "Genuya qayerda joylashgan?",
+   "options": [
+    "Janubida",
+    "Sharqida",
+    "Italiyaning shimoli-g'arbida",
+    "Markazida"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "Genuya respublikasi qaysi asrda asos solingan?",
+   "options": [
+    "V asrda",
+    "XV asrda",
+    "XI asrda",
+    "IX asrda"
+   ],
+   "correct_index": 2,
+   "page": 43
+  },
+  {
+   "question": "Genuya qaysi yilgacha mavjud edi?",
+   "options": [
+    "1453-yilgacha",
+    "1648-yilgacha",
+    "1815-yilgacha",
+    "1797-yilgacha"
+   ],
+   "correct_index": 3,
+   "page": 43
+  },
+  {
+   "question": "1298-yilda genuyaliklar kimni mag'lub etdi?",
+   "options": [
+    "Vizantiyani",
+    "Arablarni",
+    "Pizani",
+    "Venetsiya flotini"
+   ],
+   "correct_index": 3,
+   "page": 43
+  },
+  {
+   "question": "1298-yildagi jangda kim asir tushdi?",
+   "options": [
+    "Papa",
+    "Venetsiyalik doj va Marko Polo",
+    "Qirol",
+    "Imperator"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Marko Polo asirlikda nimani aytib berdi?",
+   "options": [
+    "Qonunlarni",
+    "Sayohati tarixini",
+    "Tilini",
+    "Dinini"
+   ],
+   "correct_index": 1,
+   "page": 43
+  },
+  {
+   "question": "Genuya va Venetsiyaning oxirgi yirik to'qnashuvi qaysi yili?",
+   "options": [
+    "1380-yilda",
+    "1298-yilda",
+    "1453-yilda",
+    "1250-yilda"
+   ],
+   "correct_index": 0,
+   "page": 43
+  },
+  {
+   "question": "Doj kim?",
+   "options": [
+    "Papa",
+    "Qirol",
+    "Imperator",
+    "Venetsiya respublikasining saylangan rahbari"
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Dukat birinchi marta qaysi yili chiqarilgan?",
+   "options": [
+    "1252-yilda",
+    "1284-yilda (Venetsiya)",
+    "1330-yilda",
+    "1380-yilda"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Katolik cherkovida \"Buyuk bo'linish\" nima?",
+   "options": [
+    "Ikki papaning hukmronlik qilishi",
+    "Cherkov yo'qolishi",
+    "Din almashishi",
+    "Urush"
+   ],
+   "correct_index": 0,
+   "page": 44
+  },
+  {
+   "question": "Papalardan biri qayerda qarorgoh tutgan?",
+   "options": [
+    "Rimda faqat",
+    "Parijda",
+    "Londonda",
+    "Avinyon shahrida"
+   ],
+   "correct_index": 3,
+   "page": 44
+  },
+  {
+   "question": "Urban VI qayerda qarorgoh tutgan?",
+   "options": [
+    "Avinyonda",
+    "Rimda",
+    "Parijda",
+    "Londonda"
+   ],
+   "correct_index": 1,
+   "page": 44
+  },
+  {
+   "question": "Kliment VII qayerda qarorgoh tutgan?",
+   "options": [
+    "Avinyonda",
+    "Rimda",
+    "Parijda",
+    "Londonda"
+   ],
+   "correct_index": 0,
+   "page": 44
   }
  ]
 }
