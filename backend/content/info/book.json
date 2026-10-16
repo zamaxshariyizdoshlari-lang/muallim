@@ -135,6 +135,12 @@
          "Qabul qiluvchi"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s1a.svg",
+        "caption": "Axborot va informatika"
+       }
       ]
      },
      "test": [
@@ -350,6 +356,12 @@
          "1 : 2 = 0 (qoldiq 1)",
          "Qoldiqlar teskari yoziladi: 1101"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s1b.svg",
+        "caption": "Sanoq sistemalari"
        }
       ]
      },
@@ -568,6 +580,12 @@
          "Natijani KB/MB ga o'tkazing"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s1c.svg",
+        "caption": "Axborot o'lchovi"
+       }
       ]
      },
      "test": [
@@ -754,6 +772,12 @@
          "Integral sxemalar",
          "Mikroprotsessorlar"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s1d.svg",
+        "caption": "Kompyuter tarixi"
        }
       ]
      },
@@ -943,6 +967,12 @@
          "Operatsion tizim yuklanadi",
          "Foydalanuvchi dasturlari ishlaydi"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s1e.svg",
+        "caption": "Kompyuter qurilmalari"
        }
       ]
      },
@@ -1135,6 +1165,12 @@
          "O'rnatish va yangilanishlarni yoqish"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s2a.svg",
+        "caption": "Dasturiy ta'minot turlari"
+       }
       ]
      },
      "test": [
@@ -1325,6 +1361,12 @@
          "Yuklovchi (bootloader) OT yadrosini yuklaydi",
          "Foydalanuvchi interfeysi ochiladi"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s2b.svg",
+        "caption": "Operatsion tizimlar"
        }
       ]
      },
@@ -1521,6 +1563,12 @@
          "Ctrl+V (qo'yish)"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s2c.svg",
+        "caption": "Fayl va papkalar"
+       }
       ]
      },
      "test": [
@@ -1700,6 +1748,12 @@
          "Tizza va tirsaklar ~90° burchakda",
          "Har 45–60 daqiqada tanaffus qiling"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s2d.svg",
+        "caption": "Xavfsiz foydalanish"
        }
       ]
      },
@@ -1914,6 +1968,12 @@
          "De Morgan bilan ¬A ∨ ¬B ga tenglashtiring"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s3a.svg",
+        "caption": "Mantiq algebrasi"
+       }
       ]
      },
      "test": [
@@ -2106,6 +2166,12 @@
          "5 daqiqa damlang",
          "Piyolaga quying"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s3b.svg",
+        "caption": "Algoritm"
        }
       ]
      },
@@ -2319,6 +2385,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s3c.svg",
+        "caption": "Blok-sxema"
+       }
       ]
      },
      "test": [
@@ -2523,6 +2595,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s3d.svg",
+        "caption": "Qidiruv algoritmlari"
+       }
       ]
      },
      "test": [
@@ -2726,6 +2804,12 @@
          "print(stek.pop())"
         ],
         "mono": true
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s3e.svg",
+        "caption": "Ma'lumotlar tuzilmalari"
        }
       ]
      },
@@ -2936,6 +3020,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4a.svg",
+        "caption": "Python asoslari"
+       }
       ]
      },
      "test": [
@@ -3138,6 +3228,12 @@
          "print('nol')"
         ],
         "mono": true
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4b.svg",
+        "caption": "Shartli operatorlar"
        }
       ]
      },
@@ -3346,6 +3442,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4c.svg",
+        "caption": "Sikllar"
+       }
       ]
      },
      "test": [
@@ -3547,6 +3649,12 @@
          "print(kvadrat(5))"
         ],
         "mono": true
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4d.svg",
+        "caption": "Funksiyalar"
        }
       ]
      },
@@ -3750,6 +3858,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4e.svg",
+        "caption": "Ma'lumot turlari"
+       }
       ]
      },
      "test": [
@@ -3947,6 +4061,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s4f.svg",
+        "caption": "Fayllar va xatolar"
+       }
       ]
      },
      "test": [
@@ -4135,6 +4255,12 @@
          "Imlo tekshiruvi (F7)",
          "Chop etishdan oldin Print Preview"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s5a.svg",
+        "caption": "Word"
        }
       ]
      },
@@ -4339,6 +4465,12 @@
          "Enter bosing"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s5b.svg",
+        "caption": "Excel"
+       }
       ]
      },
      "test": [
@@ -4517,6 +4649,12 @@
          "Mashq qilish",
          "Taqdim etish"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s5c.svg",
+        "caption": "PowerPoint"
        }
       ]
      },
@@ -4707,6 +4845,12 @@
          "Kerakli formatda (JPEG/PNG) saqlang"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s5d.svg",
+        "caption": "Kompyuter grafikasi"
+       }
       ]
      },
      "test": [
@@ -4889,6 +5033,12 @@
          "Rang korreksiyasi",
          "Eksport (render)"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s5e.svg",
+        "caption": "Multimedia"
        }
       ]
      },
@@ -5074,6 +5224,12 @@
          "Router orqali Wi-Fi nomi va parolini sozlang",
          "Qurilmalarni Wi-Fi ga ulang"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s6a.svg",
+        "caption": "Tarmoq asoslari"
        }
       ]
      },
@@ -5271,6 +5427,12 @@
          "Server HTML javob qaytaradi",
          "Brauzer sahifani ko'rsatadi"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s6b.svg",
+        "caption": "Internet va IP"
        }
       ]
      },
@@ -5479,6 +5641,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s6c.svg",
+        "caption": "Veb texnologiyalar"
+       }
       ]
      },
      "test": [
@@ -5656,6 +5824,12 @@
          "Boshqa mustaqil manbalar bilan solishtiring",
          "Rasm/videoni teskari qidiruv bilan tekshiring"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s6d.svg",
+        "caption": "Internetdan foydalanish"
        }
       ]
      },
@@ -5840,6 +6014,12 @@
          "Muhim akkaunt parollarini almashtiring",
          "Zarur bo'lsa SIM-kartani bloklang"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s6e.svg",
+        "caption": "Mobil texnologiyalar"
        }
       ]
      },
@@ -6029,6 +6209,12 @@
          "Normallashtirish",
          "BMBT da amalga oshirish"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s7a.svg",
+        "caption": "Ma'lumotlar bazasi"
        }
       ]
      },
@@ -6244,6 +6430,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s7b.svg",
+        "caption": "SQL buyruqlari"
+       }
       ]
      },
      "test": [
@@ -6440,6 +6632,12 @@
          "COMMIT;"
         ],
         "mono": true
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s7c.svg",
+        "caption": "JOIN"
        }
       ]
      },
@@ -6639,6 +6837,12 @@
          "Vizualizatsiya",
          "Xulosa"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s7d.svg",
+        "caption": "Ma'lumotlarni tahlil qilish"
        }
       ]
      },
@@ -6842,6 +7046,12 @@
          "Xatni spam deb belgilang va o'chiring"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s8a.svg",
+        "caption": "Axborot xavfsizligi"
+       }
       ]
      },
      "test": [
@@ -7040,6 +7250,12 @@
          "Ikki bosqichli autentifikatsiyani yoqing",
          "Kirish qurilmalarini muntazam tekshiring"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s8b.svg",
+        "caption": "Parollar"
        }
       ]
      },
@@ -7246,6 +7462,12 @@
          "Qabul qiluvchi yopiq kalit bilan deshifrlaydi"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s8c.svg",
+        "caption": "Kriptografiya"
+       }
       ]
      },
      "test": [
@@ -7447,6 +7669,12 @@
          "Joriy etish"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s9a.svg",
+        "caption": "Sun'iy intellekt"
+       }
       ]
      },
      "test": [
@@ -7641,6 +7869,12 @@
          "Aktuator buyruq bajaradi"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s9b.svg",
+        "caption": "IoT va robototexnika"
+       }
       ]
      },
      "test": [
@@ -7834,6 +8068,12 @@
         ],
         "mono": true
        }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s9c.svg",
+        "caption": "Bulutli hisoblash"
+       }
       ]
      },
      "test": [
@@ -8011,6 +8251,12 @@
          "Litsenziya shartlarini tekshirish",
          "Iqtibos keltirib, manbani ko'rsatish"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/info/in_s9d.svg",
+        "caption": "Axborot jamiyati"
        }
       ]
      },

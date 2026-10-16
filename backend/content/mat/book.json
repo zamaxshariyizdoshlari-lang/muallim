@@ -158,6 +158,12 @@
          "120 − 3 = 117"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1a.svg",
+        "caption": "Natural sonlar va amallar"
+       }
       ]
      },
      "test": [
@@ -368,6 +374,12 @@
          "147 = 7·21 + 0",
          "EKUB = 21"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1b.svg",
+        "caption": "EKUB — Evklid algoritmi"
        }
       ]
      },
@@ -581,6 +593,12 @@
          "1 5/12"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1c.svg",
+        "caption": "Oddiy kasrlar"
+       }
       ]
      },
      "test": [
@@ -790,6 +808,12 @@
          "360 : 12",
          "= 30"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1d.svg",
+        "caption": "O'nli kasrlar"
        }
       ]
      },
@@ -1002,6 +1026,12 @@
          "= 680 so'm"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1e.svg",
+        "caption": "Nisbat, proporsiya, foiz"
+       }
       ]
      },
      "test": [
@@ -1210,6 +1240,12 @@
          "|−5| = 5",
          "9 + 8 − 5 = 12"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m1f.svg",
+        "caption": "Butun sonlar va modul"
        }
       ]
      },
@@ -1425,6 +1461,12 @@
          "= 12x"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2a.svg",
+        "caption": "Qisqa ko'paytirish formulasi"
+       }
       ]
      },
      "test": [
@@ -1633,6 +1675,12 @@
          "x² − 5x + 6 = (x − 2)(x − 3)",
          "Qavslarni ochib tekshiramiz"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2b.svg",
+        "caption": "Ko'paytuvchilarga ajratish"
        }
       ]
      },
@@ -1849,6 +1897,12 @@
          "−x = 1 ⇒ x = −1"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2c.svg",
+        "caption": "Chiziqli tenglama grafigi"
+       }
       ]
      },
      "test": [
@@ -2058,6 +2112,12 @@
          "1 < x < 5"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2d.svg",
+        "caption": "Tengsizlik oraliqlari"
+       }
       ]
      },
      "test": [
@@ -2263,6 +2323,12 @@
          "y = 5 − x = 3",
          "Javob: (2; 3)"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2e.svg",
+        "caption": "Tenglamalar sistemasi"
        }
       ]
      },
@@ -2470,6 +2536,12 @@
          "(x − 2) ni qisqartiramiz",
          "Natija: x + 2"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m2f.svg",
+        "caption": "Algebraik kasrlar"
        }
       ]
      },
@@ -2687,6 +2759,12 @@
          "x₁ = 3, x₂ = 2"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3a.svg",
+        "caption": "Kvadrat tenglama ildizlari"
+       }
       ]
      },
      "test": [
@@ -2893,6 +2971,12 @@
          "y = 2x − 2 + 2",
          "y = 2x"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3b.svg",
+        "caption": "Chiziqli funksiyalar"
        }
       ]
      },
@@ -3101,6 +3185,12 @@
          "y₀ = 4 − 8 + 7",
          "y_min = 3"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3c.svg",
+        "caption": "Kvadrat funksiya"
        }
       ]
      },
@@ -3311,6 +3401,12 @@
          "x = 3"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3d.svg",
+        "caption": "Ko'rsatkichli funksiya"
+       }
       ]
      },
      "test": [
@@ -3519,6 +3615,12 @@
          "x = 10"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3e.svg",
+        "caption": "Logarifm — ko'rsatkichli funksiyaning teskarisi"
+       }
       ]
      },
      "test": [
@@ -3726,6 +3828,12 @@
          "x² − x − 6 = 0 ⇒ x = 3 yoki x = −2",
          "x = −2 chet ildiz — javob x = 3"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m3f.svg",
+        "caption": "Modulli va kasr-ratsional funksiyalar"
        }
       ]
      },
@@ -3949,6 +4057,12 @@
          "= 1080°"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4a.svg",
+        "caption": "Asosiy tushunchalar"
+       }
       ]
      },
      "test": [
@@ -4159,6 +4273,12 @@
          "Asos burchagi = 70°"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4b.svg",
+        "caption": "Uchburchaklar"
+       }
       ]
      },
      "test": [
@@ -4365,6 +4485,12 @@
          "h² = 169 − 25 = 144",
          "h = 12 m"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4c.svg",
+        "caption": "Pifagor teoremasi"
        }
       ]
      },
@@ -4574,6 +4700,12 @@
          "S = 32"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4d.svg",
+        "caption": "To'rtburchaklar"
+       }
       ]
      },
      "test": [
@@ -4778,6 +4910,12 @@
          "S = π · 25",
          "S = 25π"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4e.svg",
+        "caption": "Aylana va doira"
        }
       ]
      },
@@ -4984,6 +5122,12 @@
          "S = √(21 · 8 · 7 · 6)",
          "S = 84"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m4f.svg",
+        "caption": "O'xshashlik va yuza"
        }
       ]
      },
@@ -5198,6 +5342,12 @@
          "h = 12"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m5a.svg",
+        "caption": "Chiziq va tekislik"
+       }
       ]
      },
      "test": [
@@ -5404,6 +5554,12 @@
          "V = 48"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m5b.svg",
+        "caption": "Prizma va piramida"
+       }
       ]
      },
      "test": [
@@ -5609,6 +5765,12 @@
          "V = ⅓ π · 9 · 4",
          "V = 12π"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m5c.svg",
+        "caption": "Aylanish jismlari"
        }
       ]
      },
@@ -5818,6 +5980,12 @@
          "Y = 2 − 20 + 30",
          "Y = 12"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m5d.svg",
+        "caption": "Jismlar hajmi va sirti"
        }
       ]
      },
@@ -6030,6 +6198,12 @@
          "kateti = 5"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6a.svg",
+        "caption": "Sin, cos, tg"
+       }
       ]
      },
      "test": [
@@ -6233,6 +6407,12 @@
          "cos 120° = −cos 60°",
          "cos 120° = −½"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6b.svg",
+        "caption": "Birlik aylana"
        }
       ]
      },
@@ -6440,6 +6620,12 @@
          "sin 2α = 2 · 3/5 · 4/5",
          "sin 2α = 24/25"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6c.svg",
+        "caption": "Trigonometrik formulalar"
        }
       ]
      },
@@ -6649,6 +6835,12 @@
          "T = π"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6d.svg",
+        "caption": "Sinus va kosinus grafigi"
+       }
       ]
      },
      "test": [
@@ -6856,6 +7048,12 @@
          "Javob: π/6 va 5π/6"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6e.svg",
+        "caption": "Trigonometrik tenglama"
+       }
       ]
      },
      "test": [
@@ -7062,6 +7260,12 @@
          "c² = 49",
          "c = 7"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m6f.svg",
+        "caption": "Sinuslar va kosinuslar teoremasi"
        }
       ]
      },
@@ -7274,6 +7478,12 @@
          "S₁₀ = 210"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7a.svg",
+        "caption": "Arifmetik progressiya"
+       }
       ]
      },
      "test": [
@@ -7483,6 +7693,12 @@
          "S = 9"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7b.svg",
+        "caption": "Geometrik progressiya"
+       }
       ]
      },
      "test": [
@@ -7691,6 +7907,12 @@
          "= 60"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7c.svg",
+        "caption": "Kombinatorika"
+       }
       ]
      },
      "test": [
@@ -7894,6 +8116,12 @@
          "P = 3/5 · 2/4",
          "P = 3/10"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7d.svg",
+        "caption": "Ehtimollik"
        }
       ]
      },
@@ -8100,6 +8328,12 @@
          "σ² = 8/3"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7e.svg",
+        "caption": "Statistika"
+       }
       ]
      },
      "test": [
@@ -8301,6 +8535,12 @@
          "Hammasi 30 ta",
          "30 − 28 = 2"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m7f.svg",
+        "caption": "To'plamlar va mantiq"
        }
       ]
      },
@@ -8512,6 +8752,12 @@
          "d = 5"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m8a.svg",
+        "caption": "Ikki nuqta orasidagi masofa"
+       }
       ]
      },
      "test": [
@@ -8715,6 +8961,12 @@
          "d = 10/5",
          "d = 2"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m8b.svg",
+        "caption": "To'g'ri chiziq va aylana"
        }
       ]
      },
@@ -8925,6 +9177,12 @@
          "e = c/a = 0,8"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m8c.svg",
+        "caption": "Konik kesimlar"
+       }
       ]
      },
      "test": [
@@ -9129,6 +9387,12 @@
          "3a − 2b = (6 − 2; 9 − (−2))",
          "(4; 11)"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m8d.svg",
+        "caption": "Vektorlarni qo'shish"
        }
       ]
      },
@@ -9339,6 +9603,12 @@
          "x → 2: limit = 4"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9a.svg",
+        "caption": "Limit"
+       }
       ]
      },
      "test": [
@@ -9542,6 +9812,12 @@
          "u′ = 3",
          "f′ = 15(3x + 1)⁴"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9b.svg",
+        "caption": "Hosila — urinma qiyaligi"
        }
       ]
      },
@@ -9750,6 +10026,12 @@
          "S_max = 25"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9c.svg",
+        "caption": "Hosila va ekstremumlar"
+       }
       ]
      },
      "test": [
@@ -9953,6 +10235,12 @@
          "C = 2",
          "F(x) = x² + 2"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9d.svg",
+        "caption": "Boshlang'ich funksiya"
        }
       ]
      },
@@ -10161,6 +10449,12 @@
          "S = 1/6"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9e.svg",
+        "caption": "Aniq integral"
+       }
       ]
      },
      "test": [
@@ -10365,6 +10659,12 @@
          "|∇f| = √(36 + 64)",
          "|∇f| = 10"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m9f.svg",
+        "caption": "Ko'p o'zgaruvchili funksiyalar"
        }
       ]
      },
@@ -10579,6 +10879,12 @@
          "5 + i"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m10a.svg",
+        "caption": "Kompleks sonlar"
+       }
       ]
      },
      "test": [
@@ -10785,6 +11091,12 @@
          "A⁻¹ = [[1, −1], [−1, 2]]"
         ]
        }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m10b.svg",
+        "caption": "Matritsalar"
+       }
       ]
      },
      "test": [
@@ -10989,6 +11301,12 @@
          "x + 2 + 1 = 6",
          "x = 3"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m10c.svg",
+        "caption": "Chiziqli sistemalar"
        }
       ]
      },
@@ -11196,6 +11514,12 @@
          "y = Ceˣ",
          "y(0) = 3 ⇒ y = 3eˣ"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m10d.svg",
+        "caption": "Differensial tenglama"
        }
       ]
      },
@@ -11405,6 +11729,12 @@
          "147 = 7·21 + 0",
          "EKUB = 21"
         ]
+       }
+      ],
+      "images": [
+       {
+        "src": "/mat/mt_m10e.svg",
+        "caption": "Sonlar nazariyasi va modul"
        }
       ]
      },
