@@ -142,12 +142,12 @@ function OrderItem({ item, onAnswered }) {
       >
         {picked.length === 0 && <span className="text-sm text-muted">So'zlarni pastdan tartib bilan bosing...</span>}
         {picked.map((t, i) => (
-          <span key={i} className="chip chip-gold !text-sm">{t.w}</span>
+          <span key={i} className={`chip chip-gold !text-sm ${item.mono ? 'font-mono' : ''}`}>{t.w}</span>
         ))}
       </div>
       <div className="flex flex-wrap gap-2">
         {remaining.map((t) => (
-          <button key={t.i} onClick={() => pick(t)} disabled={checked} className="option !w-auto px-4 py-2">
+          <button key={t.i} onClick={() => pick(t)} disabled={checked} className={`option !w-auto px-4 py-2 ${item.mono ? 'font-mono text-sm' : ''}`}>
             {t.w}
           </button>
         ))}
@@ -163,7 +163,7 @@ function OrderItem({ item, onAnswered }) {
         </div>
       )}
       {checked && !picked.every((t, i) => t.i === i) && (
-        <p className="mt-3 text-sm text-ink-2">To'g'ri javob: <b>{item.words.join(' ')}</b></p>
+        <p className="mt-3 text-sm text-ink-2">To'g'ri javob: {item.mono ? <pre className="mt-1 whitespace-pre-wrap font-mono text-ink">{item.words.join('\n')}</pre> : <b>{item.words.join(' ')}</b>}</p>
       )}
     </div>
   )

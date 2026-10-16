@@ -27,8 +27,16 @@ for sk, title in SECTION_TITLES.items():
     spec = importlib.util.spec_from_file_location(sk, path)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
+    extras = {}
+    xpath = os.path.join(HERE, 'units', f'{sk}_x.py')
+    if os.path.exists(xpath):
+        xspec = importlib.util.spec_from_file_location(sk + '_x', xpath)
+        xmod = importlib.util.module_from_spec(xspec)
+        xspec.loader.exec_module(xmod)
+        extras = xmod.EXTRAS
     topics = []
     for t, b in mod.TOPICS:
+        t['explanation'].update(extras.get(t['key'], {}))
         topics.append(t)
         bank[t['key']] = b
     sections.append({'key': sk, 'title': title, 'topics': topics})

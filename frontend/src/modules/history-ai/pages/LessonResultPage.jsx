@@ -17,6 +17,7 @@ import ReadingExercise from '../components/ReadingExercise'
 import ReviewWarmup from '../components/ReviewWarmup'
 import SentencePractice from '../components/SentencePractice'
 import SpeakingPractice from '../components/SpeakingPractice'
+import { CodeTrace, FormulaCards, ProblemSolver, WorkedExamples } from '../components/StemExercises'
 import TimelineGame from '../components/TimelineGame'
 import { BackLink, ErrorNote, PageTag, Spinner } from '../components/ui'
 import WritingPractice from '../components/WritingPractice'
@@ -27,6 +28,21 @@ const STAGES = [
   { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
   { n: 2, id: 'stage-2', label: "O'yinlar", icon: Gamepad2 },
   { n: 3, id: 'stage-3', label: 'Savollar', icon: HelpCircle },
+  { n: 4, id: 'stage-4', label: 'Mavzu testi', icon: ListChecks },
+]
+
+const MATH_STAGES = [
+  { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
+  { n: 2, id: 'stage-2', label: 'Formulalar', icon: Layers },
+  { n: 3, id: 'stage-3', label: 'Yechilgan misollar', icon: BookOpenCheck },
+  { n: 4, id: 'stage-4', label: 'Masalalar', icon: PencilLine },
+  { n: 5, id: 'stage-5', label: 'Mavzu testi', icon: ListChecks },
+]
+
+const CODE_STAGES = [
+  { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
+  { n: 2, id: 'stage-2', label: 'Atamalar', icon: Link2 },
+  { n: 3, id: 'stage-3', label: 'Kod va hisob', icon: PencilLine },
   { n: 4, id: 'stage-4', label: 'Mavzu testi', icon: ListChecks },
 ]
 
@@ -95,8 +111,12 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
 
   const ready = lesson?.status === 'done'
   const pageRange = ready ? pageRangeOf(lesson.lesson_plan) : null
-  const isLanguage = Boolean(lesson?.lesson_plan?.vocabulary?.length)
-  const stages = isLanguage ? LANGUAGE_STAGES : STAGES
+  const plan0 = lesson?.lesson_plan || {}
+  const isLanguage = Boolean(plan0.vocabulary?.length)
+  // Matematika (formula/masala) va informatika (kod/atama) uchun alohida mashq oqimi
+  const isMath = !isLanguage && Boolean(plan0.problems?.length && (plan0.formulas?.length || plan0.worked_examples?.length))
+  const isCode = !isLanguage && !isMath && Boolean(plan0.code_trace?.length || plan0.problems?.length || plan0.matching?.length)
+  const stages = isLanguage ? LANGUAGE_STAGES : isMath ? MATH_STAGES : isCode ? CODE_STAGES : STAGES
   const minutes = ready ? estimateMinutes(lesson, isLanguage) : null
   const { pretest, blockChecks } = ready ? planExtras(lesson) : { pretest: [], blockChecks: [] }
 
@@ -109,7 +129,7 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{topicTitle}</h1>
         {(pageRange || minutes) && (
           <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-            {pageRange && (
+            {pageRange && !isMath && !isCode && (
               <span className="flex items-center gap-2"><Clock size={14} /> Darslikning {pageRange} betlari asosida</span>
             )}
             {minutes && (
@@ -192,7 +212,76 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
             <LessonPlanCard plan={lesson.lesson_plan} topicId={topicId} blockChecks={blockChecks} />
           </Stage>
 
-          {isLanguage ? (
+          {isMath ? (
+            <>
+              <Stage n={2} id="stage-2" title="Asosiy formulalar" hint="Mavzudagi muhim formula va qoidalar - eslab qoling.">
+                <FormulaCards items={lesson.lesson_plan.formulas} />
+              </Stage>
+
+              <Stage n={3} id="stage-3" title="Yechilgan misollar" hint="Avval o'zingiz o'ylab ko'ring, so'ng yechimni qadam-baqadam oching.">
+                <WorkedExamples items={lesson.lesson_plan.worked_examples} />
+              </Stage>
+
+              <Stage n={4} id="stage-4" title="Mustaqil masalalar" hint="Javobni o'zingiz yozing. Kasr: 3/4, o'nli: 2,5. Bir necha ildiz: 2; -3.">
+                <div className="flex flex-col gap-8">
+                  <section className="card p-5 sm:p-6">
+                    <ProblemSolver items={lesson.lesson_plan.problems} />
+                  </section>
+                  {lesson.lesson_plan.sentence_practice?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Yechim qadamlarini tartiblang</h3>
+                      <SentencePractice items={lesson.lesson_plan.sentence_practice} />
+                    </section>
+                  )}
+                </div>
+              </Stage>
+
+              <Stage n={5} id="stage-5" title="Mavzu testi">
+                <div className="flex flex-col gap-5">
+                  <SelfRating topicId={topicId} />
+                  <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                </div>
+              </Stage>
+            </>
+          ) : isCode ? (
+            <>
+              <Stage n={2} id="stage-2" title="Atamalarni moslashtiring" hint="Atama va uning ta'rifini juftlang.">
+                {lesson.lesson_plan.matching?.length > 0
+                  ? <MatchingGame pairs={lesson.lesson_plan.matching} />
+                  : <p className="text-sm text-muted">Bu mavzuda atamalar mashqi yo'q.</p>}
+              </Stage>
+
+              <Stage n={3} id="stage-3" title="Kod va hisob-kitob" hint="Amaliy mashqlar: kodni o'qing, natijani toping, hisoblang.">
+                <div className="flex flex-col gap-8">
+                  {lesson.lesson_plan.code_trace?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Natijani oldindan ayting</h3>
+                      <CodeTrace items={lesson.lesson_plan.code_trace} />
+                    </section>
+                  )}
+                  {lesson.lesson_plan.problems?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Hisoblash va tahlil</h3>
+                      <ProblemSolver items={lesson.lesson_plan.problems} />
+                    </section>
+                  )}
+                  {lesson.lesson_plan.sentence_practice?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Kod qatorlarini to'g'ri tartibga soling</h3>
+                      <SentencePractice items={lesson.lesson_plan.sentence_practice} />
+                    </section>
+                  )}
+                </div>
+              </Stage>
+
+              <Stage n={4} id="stage-4" title="Mavzu testi">
+                <div className="flex flex-col gap-5">
+                  <SelfRating topicId={topicId} />
+                  <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                </div>
+              </Stage>
+            </>
+          ) : isLanguage ? (
             <>
               <Stage n={2} id="stage-2" title="Kartochkalar" hint="So'zlarni tinglab, tarjimasini mustahkamlang.">
                 <FlashcardDeck words={lesson.lesson_plan.vocabulary} />

@@ -51,6 +51,26 @@ def _check_lesson_extras(expl, tw, errors):
     for bi, b in enumerate(expl.get('blocks') or []):
         if b.get('check') is not None:
             _check_mcq(b['check'], f"{tw}.explanation.blocks[{bi}].check", errors)
+    for fi, f in enumerate(expl.get('formulas') or []):
+        if not (isinstance(f, dict) and str(f.get('name', '')).strip() and str(f.get('formula', '')).strip()):
+            errors.append(f"{tw}.explanation.formulas[{fi}]: name va formula majburiy")
+    for wi, w in enumerate(expl.get('worked_examples') or []):
+        if not (isinstance(w, dict) and str(w.get('problem', '')).strip() and isinstance(w.get('steps'), list) and w['steps']):
+            errors.append(f"{tw}.explanation.worked_examples[{wi}]: problem va steps majburiy")
+    for pi, p in enumerate(expl.get('problems') or []):
+        ans = p.get('answer') if isinstance(p, dict) else None
+        if not (isinstance(p, dict) and str(p.get('question', '')).strip()):
+            errors.append(f"{tw}.explanation.problems[{pi}]: question majburiy")
+        elif not (isinstance(ans, str) and ans.strip()) and not (isinstance(ans, list) and ans and all(isinstance(a, str) and a.strip() for a in ans)):
+            errors.append(f"{tw}.explanation.problems[{pi}]: answer (matn yoki matnlar ro'yxati) majburiy")
+    for ci, c in enumerate(expl.get('code_trace') or []):
+        if not (isinstance(c, dict) and str(c.get('code', '')).strip() and str(c.get('question', '')).strip() and c.get('answer')):
+            errors.append(f"{tw}.explanation.code_trace[{ci}]: code, question va answer majburiy")
+    mt = expl.get('matching')
+    if mt is not None:
+        lefts = [m.get('left') for m in mt] if isinstance(mt, list) else []
+        if not isinstance(mt, list) or len(mt) < 3 or not all(isinstance(m, dict) and m.get('left') and m.get('right') for m in mt) or len(set(lefts)) != len(lefts):
+            errors.append(f"{tw}.explanation.matching: kamida 3 ta juftlik, left takrorlanmas bo'lishi kerak")
     pretest = expl.get('pretest')
     if pretest is not None:
         if not isinstance(pretest, list) or not pretest:
@@ -312,6 +332,7 @@ def import_book_json(data, user):
             for key in (
                 'vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt',
                 'pretest', 'why', 'source_work', 'images', 'takeaways', 'mnemonics', 'maps', 'persons', 'classify',
+                'formulas', 'worked_examples', 'problems', 'code_trace', 'matching',
             ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]
