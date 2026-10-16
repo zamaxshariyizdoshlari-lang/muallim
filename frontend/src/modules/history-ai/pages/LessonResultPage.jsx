@@ -39,6 +39,13 @@ const MATH_STAGES = [
   { n: 5, id: 'stage-5', label: 'Mavzu testi', icon: ListChecks },
 ]
 
+const GEO_STAGES = [
+  { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
+  { n: 2, id: 'stage-2', label: 'Rasmlar bilan mashq', icon: Layers },
+  { n: 3, id: 'stage-3', label: 'Atamalar va hisob', icon: Link2 },
+  { n: 4, id: 'stage-4', label: 'Mavzu testi', icon: ListChecks },
+]
+
 const CODE_STAGES = [
   { n: 1, id: 'stage-1', label: 'Tushuntirish', icon: BookMarked },
   { n: 2, id: 'stage-2', label: 'Atamalar', icon: Link2 },
@@ -115,8 +122,9 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
   const isLanguage = Boolean(plan0.vocabulary?.length)
   // Matematika (formula/masala) va informatika (kod/atama) uchun alohida mashq oqimi
   const isMath = !isLanguage && Boolean(plan0.problems?.length && (plan0.formulas?.length || plan0.worked_examples?.length))
-  const isCode = !isLanguage && !isMath && Boolean(plan0.code_trace?.length || plan0.problems?.length || plan0.matching?.length)
-  const stages = isLanguage ? LANGUAGE_STAGES : isMath ? MATH_STAGES : isCode ? CODE_STAGES : STAGES
+  const isGeo = !isLanguage && plan0.layout === 'geo'
+  const isCode = !isLanguage && !isMath && !isGeo && Boolean(plan0.code_trace?.length || plan0.problems?.length || plan0.matching?.length)
+  const stages = isLanguage ? LANGUAGE_STAGES : isMath ? MATH_STAGES : isGeo ? GEO_STAGES : isCode ? CODE_STAGES : STAGES
   const minutes = ready ? estimateMinutes(lesson, isLanguage) : null
   const { pretest, blockChecks } = ready ? planExtras(lesson) : { pretest: [], blockChecks: [] }
 
@@ -129,7 +137,7 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
         <h1 className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">{topicTitle}</h1>
         {(pageRange || minutes) && (
           <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-            {pageRange && !isMath && !isCode && (
+            {pageRange && !isMath && !isCode && !isGeo && (
               <span className="flex items-center gap-2"><Clock size={14} /> Darslikning {pageRange} betlari asosida</span>
             )}
             {minutes && (
@@ -212,7 +220,34 @@ export default function LessonResultPage({ topicId, bookId, topicTitle, isTeache
             <LessonPlanCard plan={lesson.lesson_plan} topicId={topicId} blockChecks={blockChecks} />
           </Stage>
 
-          {isMath ? (
+          {isGeo ? (
+            <>
+              <Stage n={2} id="stage-2" title="Rasmlar bilan mashq" hint="Rasmga qarab savolga javob bering.">
+                <div className="grid gap-5 lg:grid-cols-2">
+                  {(lesson.lesson_plan.gallery || []).map((im, i) => <ImageFigure key={i} image={im} />)}
+                </div>
+              </Stage>
+
+              <Stage n={3} id="stage-3" title="Atamalar va hisob-kitob" hint="Atamalarni juftlang, geografik hisoblarni bajaring.">
+                <div className="flex flex-col gap-8">
+                  {lesson.lesson_plan.matching?.length > 0 && <MatchingGame pairs={lesson.lesson_plan.matching} />}
+                  {lesson.lesson_plan.problems?.length > 0 && (
+                    <section className="card p-5 sm:p-6">
+                      <h3 className="mb-4 font-display text-lg font-bold text-ink">Hisoblash masalalari</h3>
+                      <ProblemSolver items={lesson.lesson_plan.problems} />
+                    </section>
+                  )}
+                </div>
+              </Stage>
+
+              <Stage n={4} id="stage-4" title="Mavzu testi">
+                <div className="flex flex-col gap-5">
+                  <SelfRating topicId={topicId} />
+                  <FinalTestCta isTeacher={isTeacher} onStartTest={onStartTest} />
+                </div>
+              </Stage>
+            </>
+          ) : isMath ? (
             <>
               <Stage n={2} id="stage-2" title="Asosiy formulalar" hint="Mavzudagi muhim formula va qoidalar - eslab qoling.">
                 <FormulaCards items={lesson.lesson_plan.formulas} />
@@ -528,6 +563,7 @@ function LessonPlanCard({ plan, topicId, blockChecks = [] }) {
                   ))}
                 </p>
               )}
+              {b.image && <div className="mt-5"><ImageFigure image={b.image} /></div>}
               <BlockCheck question={blockChecks[i]} />
             </div>
           ))}

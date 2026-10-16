@@ -26,7 +26,8 @@ services:
       python manage.py import_book content/jahon8/book.json --user "$DJANGO_SUPERUSER_USERNAME" &&
       python manage.py import_book content/turk_c1/book.json --user "$DJANGO_SUPERUSER_USERNAME" &&
       python manage.py import_book content/info/book.json --user "$DJANGO_SUPERUSER_USERNAME" &&
-      python manage.py import_book content/mat/book.json --user "$DJANGO_SUPERUSER_USERNAME"
+      python manage.py import_book content/mat/book.json --user "$DJANGO_SUPERUSER_USERNAME" &&
+      python manage.py import_book content/geo/book.json --user "$DJANGO_SUPERUSER_USERNAME"
     startCommand: "gunicorn config.wsgi:application"
     envVars:
       - key: PYTHON_VERSION

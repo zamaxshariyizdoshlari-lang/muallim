@@ -1,0 +1,6400 @@
+{
+ "g1a": [
+  {
+   "question": "Yer Quyoshdan taxminan qancha uzoqlikda?",
+   "options": [
+    "15 mln km",
+    "150 mln km",
+    "1,5 mlrd km",
+    "150 ming km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Quruqlik sayyoralarga qaysi biri kiradi?",
+   "options": [
+    "Mars",
+    "Yupiter",
+    "Saturn",
+    "Neptun"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Gaz giganti sayyoralarga qaysi biri kiradi?",
+   "options": [
+    "Saturn",
+    "Merkuriy",
+    "Venera",
+    "Yer"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer yuzasining necha foizini quruqlik egallaydi?",
+   "options": [
+    "29 %",
+    "71 %",
+    "10 %",
+    "50 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer yuzasining maydoni?",
+   "options": [
+    "51 mln km²",
+    "510 mln km²",
+    "5,1 mlrd km²",
+    "149 mln km²"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ekvator radiusi?",
+   "options": [
+    "6357 km",
+    "12 756 km",
+    "40 075 km",
+    "6378 km"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qutb radiusi?",
+   "options": [
+    "6378 km",
+    "6357 km",
+    "12 000 km",
+    "4 000 km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yer qobiqlaridan qaysi biri suv qobig'i?",
+   "options": [
+    "Gidrosfera",
+    "Litosfera",
+    "Atmosfera",
+    "Biosfera"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer qobiqlaridan qaysi biri hayot qobig'i?",
+   "options": [
+    "Gidrosfera",
+    "Litosfera",
+    "Biosfera",
+    "Atmosfera"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yerning qattiq qobig'i qanday ataladi?",
+   "options": [
+    "Atmosfera",
+    "Gidrosfera",
+    "Litosfera",
+    "Biosfera"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yer atmosferasi nima uchun muhim?",
+   "options": [
+    "Faqat shamol hosil qiladi",
+    "Zararli nurlardan himoya qiladi va issiqlikni ushlaydi",
+    "Faqat suv saqlaydi",
+    "Hech qanday ahamiyati yo'q"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yerning shar shaklda ekanini nima isbotlaydi?",
+   "options": [
+    "Faqat daryolar",
+    "Kosmik suratlar va Oy tutilishidagi soya",
+    "Faqat tog'lar",
+    "Faqat shamollar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Quyosh tizimi taxminan qancha yil oldin paydo bo'lgan?",
+   "options": [
+    "4,6 mlrd yil",
+    "46 ming yil",
+    "460 mln yil",
+    "4,6 yil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ichki sayyoralar qanday?",
+   "options": [
+    "Gaz gigantlari",
+    "Qattiq quruqlik sayyoralari",
+    "Muz sayyoralar",
+    "Yulduzlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Saturnning o'ziga xos belgisi?",
+   "options": [
+    "Yo'ldoshi yo'q",
+    "Halqalar",
+    "Eng kichik sayyora",
+    "Suvli okeanlar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yerdan keyingi (Quyoshdan uzoqlashish tartibida) sayyora?",
+   "options": [
+    "Venera",
+    "Merkuriy",
+    "Yupiter",
+    "Mars"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Geografiya nimani o'rganadi?",
+   "options": [
+    "Faqat yulduzlarni",
+    "Faqat tarixni",
+    "Yer qobiqlari va ular orasidagi aloqalarni",
+    "Faqat sonlarni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Magnit maydon Yerni nimadan himoya qiladi?",
+   "options": [
+    "Yomg'irdan",
+    "Zilziladan",
+    "Quyosh shamolidan",
+    "Toshqindan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Suyuq suv saqlanishi uchun nima muhim?",
+   "options": [
+    "Juda yuqori harorat",
+    "Juda past harorat",
+    "Mos harorat (Quyoshdan optimal masofa)",
+    "Havosizlik"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g1b": [
+  {
+   "question": "Yer qaysi yo'nalishda aylanadi?",
+   "options": [
+    "G'arbdan sharqqa",
+    "Sharqdan g'arbga",
+    "Shimoldan janubga",
+    "Janubdan shimolga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer o'qining og'ish burchagi (orbitaga nisbatan)?",
+   "options": [
+    "23,5° (orbitaga)",
+    "90°",
+    "66,5°",
+    "0°"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Koriolis kuchi Shimoliy yarimsharda jismlarni qayoqqa og'diradi?",
+   "options": [
+    "Chapga",
+    "O'ngga",
+    "Yuqoriga",
+    "Og'dirmaydi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "21 mart nima deyiladi?",
+   "options": [
+    "Bahorgi tengkunlik",
+    "Yozgi turish",
+    "Kuzgi tengkunlik",
+    "Qishki turish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "22 dekabr nima deyiladi?",
+   "options": [
+    "Yozgi turish",
+    "Bahorgi tengkunlik",
+    "Kuzgi tengkunlik",
+    "Qishki turish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tengkunlikda kun va tun qanday bo'ladi?",
+   "options": [
+    "Kun uzun",
+    "Teng",
+    "Tun uzun",
+    "Tun bo'lmaydi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ekvatorda kun va tun yil bo'yi qanday?",
+   "options": [
+    "Kun uzun",
+    "Tun uzun",
+    "Kun bo'lmaydi",
+    "Deyarli teng"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qutb kuni nima?",
+   "options": [
+    "Bir soatlik kun",
+    "Oy yorug'i",
+    "Yarim yil davom etadigan yorug' vaqt",
+    "Yozning boshi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Orbita bo'ylab Yer tezligi taxminan qancha?",
+   "options": [
+    "3 km/s",
+    "300 km/s",
+    "30 km/s",
+    "0,3 km/s"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yil davomida 4 ta muhim sana nima deyiladi?",
+   "options": [
+    "Bayramlar",
+    "Oy fazalari",
+    "Tengkunlik va turish kunlari",
+    "Tutilishlar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyosh tush paytidagi balandligi formulasi?",
+   "options": [
+    "h = φ + δ",
+    "h = 90° + φ",
+    "h = δ − φ",
+    "h = 90° − |φ − δ|"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "22 iyunda δ nechaga teng?",
+   "options": [
+    "−23,5°",
+    "+23,5°",
+    "0°",
+    "90°"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toshkent (41° sh.k.) da 22 iyunda tush paytida Quyosh balandligi?",
+   "options": [
+    "72,5°",
+    "25,5°",
+    "90°",
+    "41°"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Toshkentda 22 dekabrda tush paytida Quyosh balandligi?",
+   "options": [
+    "72,5°",
+    "41°",
+    "25,5°",
+    "0°"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ekvatorda Yer aylanish tezligi taxminan?",
+   "options": [
+    "167 km/soat",
+    "16 700 km/soat",
+    "1670 km/soat",
+    "0 km/soat"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kabisa yil necha yilda bir marta?",
+   "options": [
+    "2 yilda",
+    "10 yilda",
+    "100 yilda",
+    "4 yilda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Fasllar almashishi Yerning Quyoshga yaqin-uzoqligidan emas, nimadan?",
+   "options": [
+    "Oy tortishidan",
+    "Okeandan",
+    "O'q og'maligidan",
+    "Vulqonlardan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyosh sharqdan chiqishi nima bilan bog'liq?",
+   "options": [
+    "Quyoshning harakati",
+    "Yerning g'arbdan sharqqa aylanishi",
+    "Oy harakati",
+    "Shamol"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g1c": [
+  {
+   "question": "Tropik qanday kenglikda?",
+   "options": [
+    "66,5°",
+    "0°",
+    "90°",
+    "23,5°"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Parallel nima?",
+   "options": [
+    "Qutblarni tutashtiruvchi chiziq",
+    "Ekvatorga parallel aylana",
+    "Daryo",
+    "Tog' tizmasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Meridian nima?",
+   "options": [
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiruvchi yarim aylana",
+    "Dengiz qirg'og'i",
+    "Chegara"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Geografik uzunlik qaysi oraliqda?",
+   "options": [
+    "0°–180°",
+    "0°–90°",
+    "0°–360° faqat",
+    "0°–45°"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Toshkentning taxminiy kengligi?",
+   "options": [
+    "69° sh.k.",
+    "41° sh.k.",
+    "21° sh.k.",
+    "10° j.k."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toshkentning taxminiy uzunligi?",
+   "options": [
+    "41° sh.u.",
+    "69° sh.u.",
+    "10° g'.u.",
+    "120° sh.u."
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "1° kenglik uzunligi taxminan?",
+   "options": [
+    "11 km",
+    "1110 km",
+    "111 km",
+    "1 km"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Toshkentda 12:00 bo'lsa, Londonda (UTC) soat nechta?",
+   "options": [
+    "17:00",
+    "12:00",
+    "07:00",
+    "05:00"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Toshkentda 12:00 bo'lsa, Moskvada (UTC+3) soat nechta?",
+   "options": [
+    "14:00",
+    "10:00",
+    "12:00",
+    "09:00"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toshkentda 12:00 bo'lsa, Pekinda (UTC+8) soat nechta?",
+   "options": [
+    "09:00",
+    "12:00",
+    "20:00",
+    "15:00"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yer nechta vaqt mintaqasiga bo'lingan?",
+   "options": [
+    "12",
+    "24",
+    "36",
+    "15"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sharqqa borganda vaqt qanday o'zgaradi?",
+   "options": [
+    "Ilgarilaydi",
+    "Ortda qoladi",
+    "O'zgarmaydi",
+    "To'xtaydi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Xalqaro sana chizig'i qaysi meridian bo'ylab o'tadi?",
+   "options": [
+    "0°",
+    "180°",
+    "90°",
+    "45°"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ekvator Yerni nimalarga bo'ladi?",
+   "options": [
+    "Sharqiy va G'arbiy yarimsharlarga",
+    "Materiklarga",
+    "Okeanlarga",
+    "Shimoliy va Janubiy yarimsharlarga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qutb doirasi qaysi yarimsharlarda bor?",
+   "options": [
+    "Faqat shimoliy",
+    "Faqat janubiy",
+    "Yo'q",
+    "Ikkalasida (66,5° sh. va j.)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nuqtaning koordinatalari nimadan iborat?",
+   "options": [
+    "Kenglik va uzunlik",
+    "Faqat balandlik",
+    "Faqat chuqurlik",
+    "Faqat masofa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Samarqand qaysi kenglikka yaqin?",
+   "options": [
+    "50° sh.k.",
+    "20° sh.k.",
+    "60° sh.k.",
+    "39,6° sh.k."
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Quyosh vaqti har 15° da necha soatga farq qiladi?",
+   "options": [
+    "2 soat",
+    "1 soat",
+    "30 daqiqa",
+    "15 soat"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g1d": [
+  {
+   "question": "Masshtab nima?",
+   "options": [
+    "Xarita rangi",
+    "Xarita sarlavhasi",
+    "Yo'nalish",
+    "Xarita masofasining yerdagi masofaga nisbati"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "1 : 1 000 000 masshtabda 1 sm yerda nechaga teng?",
+   "options": [
+    "1 km",
+    "100 km",
+    "1000 km",
+    "10 km"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "1 : 100 000 masshtabda 4,5 sm masofa yerda necha km?",
+   "options": [
+    "45 km",
+    "0,45 km",
+    "450 km",
+    "4,5 km"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chiziqli masshtab nima?",
+   "options": [
+    "Sonli nisbat",
+    "Nomli masshtab",
+    "Kesma ko'rinishidagi masshtab",
+    "Gorizontal"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sonli masshtab misoli?",
+   "options": [
+    "1 sm da 5 km",
+    "1 : 500 000",
+    "Kesma",
+    "5 km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mayda masshtabli xaritaga qaysi biri misol?",
+   "options": [
+    "Dunyo xaritasi",
+    "Shahar rejasi",
+    "Hovli rejasi",
+    "Xona rejasi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Gorizontal nima?",
+   "options": [
+    "Bir xil balandlikdagi nuqtalarni tutashtiruvchi chiziq",
+    "Daryo yo'nalishi",
+    "Chegara chizig'i",
+    "Yo'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Absolyut balandlik nimadan hisoblanadi?",
+   "options": [
+    "Yer markazidan",
+    "Eng baland tog'dan",
+    "Dunyo okeani sathidan",
+    "Shahardan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Azimut shimol uchun?",
+   "options": [
+    "90°",
+    "180°",
+    "0°",
+    "270°"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Azimut sharq uchun?",
+   "options": [
+    "0°",
+    "180°",
+    "270°",
+    "90°"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Azimut g'arb uchun?",
+   "options": [
+    "90°",
+    "270°",
+    "180°",
+    "0°"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kompas strelkasi nimani ko'rsatadi?",
+   "options": [
+    "Sharqni",
+    "Magnit shimolni",
+    "Janubni",
+    "Quyoshni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Umumiy xaritada pastlik odatda qanday rangda?",
+   "options": [
+    "Yashil",
+    "Oq",
+    "Qora",
+    "Qizil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tematik xaritaga qaysi biri misol?",
+   "options": [
+    "Faqat kompas",
+    "Globus",
+    "Rasm",
+    "Iqlim xaritasi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Siyosiy xarita nimani ko'rsatadi?",
+   "options": [
+    "Faqat relyefni",
+    "Faqat iqlimni",
+    "Faqat o'simlikni",
+    "Davlatlar va chegaralarni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xaritalarda buzilishlar nega bor?",
+   "options": [
+    "Xato chizilgani uchun",
+    "Yer shar, xarita esa yassi",
+    "Kompas tufayli",
+    "Masshtab yo'qligi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shartli belgilar xaritada nima uchun kerak?",
+   "options": [
+    "Bezak uchun",
+    "Rangni almashtirish",
+    "Masshtabni o'zgartirish",
+    "Ob'ektlarni ixcham ko'rsatish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qatlamli bo'yash usuli nimani ko'rsatadi?",
+   "options": [
+    "Aholi sonini",
+    "Yo'l uzunligini",
+    "Daryo oqimini",
+    "Balandlik zonalarini"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g2a": [
+  {
+   "question": "Mantiya qalinligi taxminan?",
+   "options": [
+    "29 km",
+    "290 km",
+    "29 000 km",
+    "2900 km"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yer yadrosi asosan nimadan iborat?",
+   "options": [
+    "Temir va nikel",
+    "Granit",
+    "Suv",
+    "Qum"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Litosferaga nima kiradi?",
+   "options": [
+    "Faqat yadro",
+    "Faqat okean",
+    "Yer po'sti va mantiyaning yuqori qismi",
+    "Atmosfera"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bazalt qaysi tur jins?",
+   "options": [
+    "Cho'kindi",
+    "Magmatik",
+    "Metamorfik",
+    "Organik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qumtosh qaysi tur jins?",
+   "options": [
+    "Magmatik",
+    "Metamorfik",
+    "Vulqon",
+    "Cho'kindi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Gneys qaysi tur jins?",
+   "options": [
+    "Magmatik",
+    "Metamorfik",
+    "Cho'kindi",
+    "Organik"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mineral nima?",
+   "options": [
+    "Tabiiy kimyoviy birikma",
+    "Tog' jinslari to'plami",
+    "Tuproq turi",
+    "Suv turi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng chuqur parma quduq (Kola) taxminan necha km?",
+   "options": [
+    "12 km",
+    "120 km",
+    "1,2 km",
+    "1200 km"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer ichi qanday o'rganiladi?",
+   "options": [
+    "Seysmik to'lqinlar yordamida",
+    "Faqat teleskop bilan",
+    "Faqat xarita bilan",
+    "Radio bilan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Chuqurlashgan sari harorat?",
+   "options": [
+    "Pasayadi",
+    "O'zgarmaydi",
+    "Tebranadi",
+    "Ortadi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Okean ostida po'st qalinligi?",
+   "options": [
+    "35–70 km",
+    "5–10 km",
+    "100 km",
+    "1 km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Metamorfik jinslar nima ta'sirida hosil bo'ladi?",
+   "options": [
+    "Faqat shamol",
+    "Faqat yomg'ir",
+    "Yuqori bosim va harorat",
+    "Faqat muz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Neft qaysi jinslar bilan bog'liq?",
+   "options": [
+    "Magmatik",
+    "Cho'kindi",
+    "Metamorfik",
+    "Hech biri"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Muruntau nima konlari bilan mashhur?",
+   "options": [
+    "Oltin",
+    "Neft",
+    "Ko'mir",
+    "Tuz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Olmaliq nima bilan mashhur?",
+   "options": [
+    "Gaz",
+    "Uran",
+    "Mis",
+    "Tuz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shurtan nima konlari bilan mashhur?",
+   "options": [
+    "Oltin",
+    "Mis",
+    "Fosforit",
+    "Gaz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Geotermal energiya nima?",
+   "options": [
+    "Quyosh energiyasi",
+    "Shamol energiyasi",
+    "Yer issiqligi energiyasi",
+    "Suv energiyasi"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g2b": [
+  {
+   "question": "Magma yuzaga chiqqanda nima deyiladi?",
+   "options": [
+    "Lava",
+    "Kul",
+    "Gaz",
+    "Tuz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'rta Atlantika tizmasi qanday chegara?",
+   "options": [
+    "Yaqinlashuvchi",
+    "Sirpanuvchi",
+    "Chegara emas",
+    "Uzoqlashuvchi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "San-Andreas yorig'i qanday chegara?",
+   "options": [
+    "Uzoqlashuvchi",
+    "Yaqinlashuvchi",
+    "Sirpanuvchi (transform)",
+    "Okean"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Subduksiya nima?",
+   "options": [
+    "Plitalarning uzoqlashishi",
+    "Bir plita ikkinchisi tagiga cho'kishi",
+    "Vulqon otilishi",
+    "Tog' nurashi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mariana novi qanday joy?",
+   "options": [
+    "Eng chuqur okean novi",
+    "Eng baland tog'",
+    "Daryo",
+    "Cho'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Fudziyama qayerda?",
+   "options": [
+    "Italiya",
+    "AQSH",
+    "Yaponiya",
+    "Rossiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Vezuviy qayerda?",
+   "options": [
+    "Yaponiya",
+    "Chili",
+    "Islandiya",
+    "Italiya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eng kuchli zilzila (1960) qayerda bo'lgan?",
+   "options": [
+    "Yaponiya",
+    "O'zbekiston",
+    "Italiya",
+    "Chili"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toshkent zilzilasi yili?",
+   "options": [
+    "1866",
+    "1996",
+    "1966",
+    "1946"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rixter shkalasida har bir birlik energiyani taxminan necha marta oshiradi?",
+   "options": [
+    "2 marta",
+    "32 marta",
+    "10 marta",
+    "100 marta"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Vulqon konusining tepasidagi chuqurcha?",
+   "options": [
+    "Epitsentr",
+    "Rift",
+    "Krater",
+    "Delta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Faol vulqonlarning taxminan qancha qismi Olov halqasida?",
+   "options": [
+    "10 %",
+    "25 %",
+    "75 %",
+    "5 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Seysmik hududlarda binolar qanday qurilishi kerak?",
+   "options": [
+    "Faqat baland",
+    "Zilzilabardosh",
+    "Faqat shisha",
+    "Faqat yog'och emas, beton"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Vulqon tuprog'i qanday?",
+   "options": [
+    "Unumdor",
+    "Unumsiz",
+    "Sho'r",
+    "Muzli"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Pangeya nima?",
+   "options": [
+    "Okean nomi",
+    "Qadimgi yagona o'ta qit'a",
+    "Vulqon",
+    "Daryo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Zilzila o'chog'i nima?",
+   "options": [
+    "Tebranish boshlangan chuqurlikdagi joy",
+    "Yuzadagi nuqta",
+    "Daryo boshi",
+    "Vulqon krateri"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sharqiy Afrika riftlari qanday chegara?",
+   "options": [
+    "Yaqinlashuvchi",
+    "Sirpanuvchi",
+    "Uzoqlashuvchi",
+    "Okean"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "And tog'lari qanday hosil bo'lgan?",
+   "options": [
+    "Plita cho'kishi (subduksiya) natijasida",
+    "Daryo eroziyasidan",
+    "Muz tufayli",
+    "Shamoldan"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g2c": [
+  {
+   "question": "Absolyut balandlik nimadan hisoblanadi?",
+   "options": [
+    "Yer markazidan",
+    "Eng pastdan",
+    "Dunyo okeani sathidan",
+    "Shahardan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Baland tog'lar balandligi?",
+   "options": [
+    "800 m gacha",
+    "3000 m dan yuqori",
+    "500 m",
+    "200 m"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ural tog'lari qanday?",
+   "options": [
+    "Yosh, baland",
+    "Vulqon",
+    "Muz",
+    "Eski, past"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kilimanjaro qanday tog'?",
+   "options": [
+    "Burmali",
+    "Plato",
+    "Tekislik",
+    "Vulqon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eng katta tekislik (hajmi bo'yicha)?",
+   "options": [
+    "Ustyurt",
+    "Dekan",
+    "Turon faqat",
+    "Amazonka"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Plato nima?",
+   "options": [
+    "Baland yassi tog'lik",
+    "Chuqur nov",
+    "Vulqon",
+    "Daryo vodiysi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ustyurt qanday relyef?",
+   "options": [
+    "Vulqon",
+    "Plato",
+    "Muzlik",
+    "Okean tizmasi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Elbrus qayerda?",
+   "options": [
+    "Osiyo",
+    "Yevropa (Kavkaz)",
+    "Afrika",
+    "Avstraliya"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Akonkagua qayerda?",
+   "options": [
+    "Janubiy Amerika",
+    "Afrika",
+    "Yevropa",
+    "Antarktida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Okeanning o'rtacha chuqurligi?",
+   "options": [
+    "~370 m",
+    "~3700 m",
+    "~37 000 m",
+    "~37 m"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mariana novi chuqurligi taxminan?",
+   "options": [
+    "1100 m",
+    "11 000 m",
+    "110 m",
+    "110 000 m"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Burmali tog'ga misol?",
+   "options": [
+    "Fudziyama",
+    "Etna",
+    "Alp",
+    "Elbrus faqat vulqon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tektonik kuchlar qanday kuch?",
+   "options": [
+    "Tashqi kuch",
+    "Quyosh kuchi",
+    "Inson kuchi",
+    "Ichki kuch"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nurash va eroziya qanday kuchlar?",
+   "options": [
+    "Ichki kuchlar",
+    "Magnit",
+    "Tashqi kuchlar",
+    "Tortishish emas"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eski tog'lar nega past?",
+   "options": [
+    "Yangi paydo bo'lgan",
+    "Uzoq yemirilgan",
+    "Vulqon bo'lgani",
+    "Muzliklar yo'qligi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Himolay qaysi qit'ada?",
+   "options": [
+    "Yevropa",
+    "Afrika",
+    "Osiyo",
+    "Amerika"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Okean tubi tekisliklari qanday?",
+   "options": [
+    "Baland tog'lar",
+    "Vulqonlar",
+    "Plato",
+    "Chuqur, tekis maydonlar"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g2d": [
+  {
+   "question": "Kimyoviy nurashga misol?",
+   "options": [
+    "Suvning muzlashi",
+    "Shamol uchirishi",
+    "Ohaktoshning erishi",
+    "Ildiz yorishi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Biologik nurashni nima yaratadi?",
+   "options": [
+    "Muzlik",
+    "Shamol",
+    "O'simlik ildizlari va organizmlar",
+    "Zilzila"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eroziya nima?",
+   "options": [
+    "Oqar suv yemirishi",
+    "Qum to'planishi",
+    "Magma otilishi",
+    "Muz erishi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Meandra nima?",
+   "options": [
+    "Daryo boshi",
+    "Delta",
+    "Plato",
+    "Daryoning egri-bugri o'zani"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Deflyatsiya nima?",
+   "options": [
+    "Suv yuvishi",
+    "Shamolning zarrachalarni uchirib ketishi",
+    "Muz yemirishi",
+    "Vulqon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Korraziya nima?",
+   "options": [
+    "Qum bilan jinsni silliqlash",
+    "Suv erishi",
+    "Muzlash",
+    "Zilzila"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dyuna qayerda uchraydi?",
+   "options": [
+    "Tog' cho'qqisida",
+    "Daryo boshida",
+    "Muz ostida",
+    "Qum cho'l va dengiz qirg'og'ida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qaysi cho'llar O'zbekistonda?",
+   "options": [
+    "Sahroi Kabir",
+    "Gobi",
+    "Atakama",
+    "Qizilqum"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Muzliklar qayerda ko'p?",
+   "options": [
+    "Sahroda",
+    "Antarktida va Grenlandiyada",
+    "Amazonkada",
+    "Kongoda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kar nima?",
+   "options": [
+    "Muzlik o'yib hosil qilgan kosa",
+    "Daryo deltasi",
+    "Barxan",
+    "Vulqon krateri"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Antropogen relyef nima?",
+   "options": [
+    "Vulqon relyefi",
+    "Muzlik relyefi",
+    "Dengiz relyefi",
+    "Inson yaratgan relyef"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Jar nima?",
+   "options": [
+    "Tepalik",
+    "Plato",
+    "Ko'l",
+    "Oqar suv yuvgan chuqur o'yiq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qo'ziqorinsimon toshlar qanday hosil bo'ladi?",
+   "options": [
+    "Shamol va qum silliqlashidan",
+    "Vulqondan",
+    "Daryodan",
+    "Muzlikdan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tuproq paydo bo'lishining boshlanishi?",
+   "options": [
+    "Nurash",
+    "Vulqon",
+    "Zilzila",
+    "Bo'ron"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tashqi kuchlarga nima kirmaydi?",
+   "options": [
+    "Shamol",
+    "Oqar suv",
+    "Muzlik",
+    "Zilzila (ichki)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sayoz qirg'oqda qum yotqizilishi?",
+   "options": [
+    "Vulqon",
+    "Tog'",
+    "Rift",
+    "Plyaj hosil bo'ladi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eroziya qishloq xo'jaligiga qanday ta'sir qiladi?",
+   "options": [
+    "Foyda beradi",
+    "Ta'sir qilmaydi",
+    "Hosildorlikni oshiradi",
+    "Tuproqni yuvib zarar yetkazadi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g3a": [
+  {
+   "question": "Havodagi azot ulushi?",
+   "options": [
+    "21 %",
+    "78 %",
+    "1 %",
+    "0,04 %"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Troposferaning qutbdagi qalinligi taxminan?",
+   "options": [
+    "8–10 km",
+    "50 km",
+    "100 km",
+    "1 km"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Troposferaning ekvatordagi qalinligi?",
+   "options": [
+    "16–18 km",
+    "5 km",
+    "50 km",
+    "1 km"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shimol yog'dulari qaysi qatlamda?",
+   "options": [
+    "Troposfera",
+    "Stratosfera",
+    "Mezosfera",
+    "Termosfera"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Meteorlar qaysi qatlamda yonadi?",
+   "options": [
+    "Troposfera",
+    "Ekzosfera",
+    "Stratosfera",
+    "Mezosfera"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eng yuqori qatlam?",
+   "options": [
+    "Troposfera",
+    "Ekzosfera",
+    "Termosfera",
+    "Stratosfera"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Ozon formulasi?",
+   "options": [
+    "O₂",
+    "CO₂",
+    "N₂",
+    "O₃"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ozon tuynugi qayerda paydo bo'lgan?",
+   "options": [
+    "Sahroda",
+    "Amazonkada",
+    "Himolayda",
+    "Antarktida ustida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ozon tuynugiga nima sabab bo'lgan?",
+   "options": [
+    "Freonlar",
+    "Vulqonlar",
+    "Shamollar",
+    "Yomg'ir"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Monreal protokoli yili?",
+   "options": [
+    "1887",
+    "1987",
+    "1997",
+    "2007"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Havoning qancha qismi dastlabki 30 km da?",
+   "options": [
+    "10 %",
+    "50 %",
+    "1 %",
+    "99 %"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Atmosfera qalinligi taxminan?",
+   "options": [
+    "20 km",
+    "2000–3000 km",
+    "200 m",
+    "2 km"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tropopauza qanday joy?",
+   "options": [
+    "Mezosfera cho'qqisi",
+    "Troposfera va stratosfera chegarasi",
+    "Yer yuzasi",
+    "Okean"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Stratosferada harorat nega ko'tariladi?",
+   "options": [
+    "Quyosh yaqin",
+    "Suv bug'i ko'p",
+    "Ozon nurni yutadi",
+    "Shamol ko'p"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Karbonat angidridning havodagi ulushi?",
+   "options": [
+    "21 %",
+    "~0,04 %",
+    "78 %",
+    "10 %"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Atmosfera qaysi jarayonda ishtirok etadi?",
+   "options": [
+    "Faqat zilzilada",
+    "Faqat vulqonda",
+    "Suv aylanishida",
+    "Hech qaysisida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Havo massasi nimaga bog'liq?",
+   "options": [
+    "Doimiy",
+    "Balandlik oshgani sari kamayadi",
+    "Oshadi",
+    "Nolga teng"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Havo ifloslanishining sababi?",
+   "options": [
+    "Faqat vulqon",
+    "Sanoat va transport",
+    "Faqat o'simlik",
+    "Okean"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g3b": [
+  {
+   "question": "Qum suvga nisbatan qanday isiydi?",
+   "options": [
+    "Sekinroq",
+    "Bir xil",
+    "Isimaydi",
+    "Tezroq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qor Quyosh nurini qanday ta'sirlaydi?",
+   "options": [
+    "Ko'p qaytaradi",
+    "Ko'p yutadi",
+    "Hech",
+    "Isitadi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng sovuq harorat qayerda qayd etilgan?",
+   "options": [
+    "Antarktida (Vostok)",
+    "Sahro",
+    "Arktika",
+    "Himolay"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "1013 gPa necha mm sim. ust.?",
+   "options": [
+    "100",
+    "1013",
+    "760",
+    "500"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Taxminan har 100 m ko'tarilishda bosim qancha kamayadi?",
+   "options": [
+    "~10 mm sim. ust.",
+    "~100 mm",
+    "~1 mm",
+    "~500 mm"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qutblarda bosim qanday?",
+   "options": [
+    "Past",
+    "Nol",
+    "O'zgaruvchan",
+    "Yuqori"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shamol nima?",
+   "options": [
+    "Havo tinchligi",
+    "Yomg'ir",
+    "Havoning gorizontal harakati",
+    "Bulut"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shamol qaysi yo'nalishda esadi?",
+   "options": [
+    "Past bosimdan yuqoriga",
+    "Har doim shimolga",
+    "Har doim janubga",
+    "Yuqori bosimdan past bosimga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kontinental iqlimda amplituda?",
+   "options": [
+    "Kichik",
+    "Katta",
+    "Nol",
+    "Doimiy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Dengiz iqlimida amplituda?",
+   "options": [
+    "Katta",
+    "Kichik",
+    "Juda katta",
+    "Nol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Kelvin shkalasida mutlaq nol?",
+   "options": [
+    "100 K",
+    "273 K",
+    "0 K (−273,15 °C)",
+    "−100 K"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Issiq havo qanday harakat qiladi?",
+   "options": [
+    "Cho'kadi",
+    "Ko'tariladi",
+    "Turadi",
+    "Yon tomonga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sovuq havo nima hosil qiladi?",
+   "options": [
+    "Yuqori bosim",
+    "Past bosim",
+    "Vulqon",
+    "Bulut"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ko'k Vodiydagi rekord harorat?",
+   "options": [
+    "+156 °C",
+    "+56,7 °C",
+    "+16 °C",
+    "0 °C"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yillik amplituda nima?",
+   "options": [
+    "Eng issiq va sovuq oy farqi",
+    "Kun farqi",
+    "Yog'in miqdori",
+    "Bosim farqi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng yaxshi qaytaradigan sirt?",
+   "options": [
+    "Qora tuproq",
+    "Asfalt",
+    "O'rmon",
+    "Qor"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Haroratni kim aniqlaydi?",
+   "options": [
+    "Barometr",
+    "Termometr",
+    "Kompas",
+    "Metr"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g3c": [
+  {
+   "question": "Shamol tezligi qanday birlikda o'lchanadi?",
+   "options": [
+    "mm",
+    "m/s",
+    "gPa",
+    "°C"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "12 ball nimani bildiradi?",
+   "options": [
+    "Bo'ron (33 m/s dan yuqori)",
+    "Shamol yo'q",
+    "Yengil shabada",
+    "Kuchsiz shamol"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shamol guli nima?",
+   "options": [
+    "O'simlik",
+    "Asbob",
+    "Shamol yo'nalishlari diagrammasi",
+    "Xarita"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Passatlar qaysi kengliklarda?",
+   "options": [
+    "Qutbda",
+    "Tropik kengliklarda",
+    "Mo'tadilda",
+    "Ekvatorda faqat"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "G'arbiy shamollar qaysi kengliklarda?",
+   "options": [
+    "Tropik",
+    "Ekvator",
+    "Mo'tadil",
+    "Qutb"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qutb shamollari qayerdan esadi?",
+   "options": [
+    "Sharqdan",
+    "G'arbdan",
+    "Shimoldan faqat",
+    "Yuqoridan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Muson yozda qayerdan esadi (Hindiston)?",
+   "options": [
+    "Quruqlikdan okeanga",
+    "Okeandan quruqlikka",
+    "Shimoldan",
+    "Tog'dan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Fen nima?",
+   "options": [
+    "Dengiz shabadasi",
+    "Qutb shamoli",
+    "Bo'ron",
+    "Tog'dan esadigan issiq quruq shamol"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Bora nima?",
+   "options": [
+    "Issiq shamol",
+    "Sovuq kuchli shamol",
+    "Yomg'ir",
+    "Briz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Front nima?",
+   "options": [
+    "Tog' tizmasi",
+    "Daryo",
+    "Ikki havo massasi chegarasi",
+    "Shamol turi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sovuq front nimaga olib keladi?",
+   "options": [
+    "Jala va keskin sovish",
+    "Doim issiq",
+    "Tinch ob-havo",
+    "Hech nimaga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Antisiklon qanday ob-havo?",
+   "options": [
+    "Yog'inli",
+    "Bo'ronli",
+    "Qorli doim",
+    "Ochiq, quruq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kontinental havo massasi qanday?",
+   "options": [
+    "Nam",
+    "Doim sovuq",
+    "Quruq",
+    "Doim issiq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Dengiz havo massasi qanday?",
+   "options": [
+    "Quruq",
+    "Muzli",
+    "Nam",
+    "Chang"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Koriolis kuchi nima ta'sir qiladi?",
+   "options": [
+    "Shamol yo'nalishini og'diradi",
+    "Haroratni oshiradi",
+    "Yomg'ir yog'diradi",
+    "Tuproq hosil qiladi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'zbekistonda bahorda esadigan mahalliy shamol?",
+   "options": [
+    "Passat",
+    "Bora",
+    "Muson",
+    "Bahorak (Qo'zi)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Briz kechasi qayerdan esadi?",
+   "options": [
+    "Dengizdan quruqlikka",
+    "Quruqlikdan dengizga",
+    "Havodan",
+    "Yo'q"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iliq front nimaga olib keladi?",
+   "options": [
+    "Quruq sovuq",
+    "Bo'ron",
+    "Zilzila",
+    "Ko'p yog'in, ob-havoning asta o'zgarishi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g3d": [
+  {
+   "question": "Mutlaq namlik nima?",
+   "options": [
+    "Foizdagi nisbat",
+    "Yog'in miqdori",
+    "Bosim",
+    "1 m³ havodagi bug' grammi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "20 °C da maksimal bug' miqdori?",
+   "options": [
+    "4,8 g/m³",
+    "30,4 g/m³",
+    "17,3 g/m³",
+    "100 g/m³"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "To'yinish nuqtasida nisbiy namlik?",
+   "options": [
+    "0 %",
+    "100 %",
+    "50 %",
+    "10 %"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Gigrometr nimani o'lchaydi?",
+   "options": [
+    "Bosimni",
+    "Haroratni",
+    "Namlikni",
+    "Shamolni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Pluviometr nimani o'lchaydi?",
+   "options": [
+    "Shamolni",
+    "Bosimni",
+    "Yog'inni",
+    "Haroratni"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "1 mm yog'in 1 m² ga necha litr?",
+   "options": [
+    "10 litr",
+    "0,1 litr",
+    "100 litr",
+    "1 litr"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sirrus bulutlari qanday?",
+   "options": [
+    "Patsimon, yuqorida",
+    "Past qatlamli",
+    "Jala bulut",
+    "Tuman"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kumulonimbus qanday bulut?",
+   "options": [
+    "Patsimon",
+    "Qatlamli",
+    "Jala va momaqaldiroq",
+    "Tuman"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Konvektiv yog'in qayerda ko'p?",
+   "options": [
+    "Qutbda",
+    "Cho'lda",
+    "Okeanda faqat",
+    "Ekvatorda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Frontal yog'in qayerda?",
+   "options": [
+    "Ekvatorda",
+    "Sahroda",
+    "Mo'tadil kengliklarda",
+    "Antarktidada"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng kam yog'in qayerda?",
+   "options": [
+    "Amazonka",
+    "Cherrapunji",
+    "Atakama cho'li",
+    "Yevropa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yomg'ir soyasi nima?",
+   "options": [
+    "Yomg'irli tog'",
+    "Ko'l",
+    "Tog' orti qurg'oqchil hudud",
+    "Okean"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qirov nima?",
+   "options": [
+    "Yer yuzasida muz kristallari",
+    "Bulut",
+    "Yomg'ir",
+    "Do'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ekvatorda yillik yog'in?",
+   "options": [
+    "<250 mm",
+    "10 mm",
+    "100 mm",
+    "1500–3000 mm"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'zbekiston tekisliklarida yillik yog'in?",
+   "options": [
+    "2000 mm",
+    "100–200 mm",
+    "5000 mm",
+    "10 mm"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Do'l nima?",
+   "options": [
+    "Muz bo'laklari ko'rinishidagi yog'in",
+    "Qor",
+    "Shabnam",
+    "Tuman"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bulut ballari qanday?",
+   "options": [
+    "0–100",
+    "0–10",
+    "1–3",
+    "0–360"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Havo sovuganda namlik sig'imi?",
+   "options": [
+    "Oshadi",
+    "Kamayadi",
+    "O'zgarmaydi",
+    "Cheksiz"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g3e": [
+  {
+   "question": "Ob-havo nima?",
+   "options": [
+    "Ma'lum vaqtdagi atmosfera holati",
+    "Ko'p yillik rejim",
+    "Kenglik",
+    "Yog'in"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Iqlim odatda necha yillik ma'lumotdan aniqlanadi?",
+   "options": [
+    "30 yil",
+    "1 yil",
+    "1 kun",
+    "100 yil"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qaysi omil iqlimga ta'sir qiladi?",
+   "options": [
+    "Faqat yer rangi",
+    "Faqat tuproq",
+    "Okean oqimlari",
+    "Faqat xarita"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "G'arbiy Yevropa nega iliq?",
+   "options": [
+    "Shimoliy Atlantika oqimi tufayli",
+    "Quyoshga yaqin",
+    "Vulqon",
+    "Cho'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tog'da iqlim qanday o'zgaradi?",
+   "options": [
+    "Balandlik bo'yicha (vertikal mintaqalilik)",
+    "O'zgarmaydi",
+    "Faqat shimolga",
+    "Faqat g'arbga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Subekvatorial iqlimda nima bor?",
+   "options": [
+    "Faqat qor",
+    "Doim quruq",
+    "Nam va quruq mavsum",
+    "Doim sovuq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mo'tadil iqlimning belgisi?",
+   "options": [
+    "Fasl yo'q",
+    "Yil bo'yi issiq",
+    "To'rt fasl",
+    "Yil bo'yi muz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Arktik iqlim qanday?",
+   "options": [
+    "Juda sovuq",
+    "Issiq",
+    "Nam issiq",
+    "Qurg'oqchil issiq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tropik iqlimda nima ko'p?",
+   "options": [
+    "Muz",
+    "Cho'llar",
+    "Tayga",
+    "Tundra"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toshkentda eng issiq oy?",
+   "options": [
+    "Yanvar",
+    "Mart",
+    "Iyul",
+    "Noyabr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Toshkentda eng sovuq oy?",
+   "options": [
+    "Iyul",
+    "Aprel",
+    "Yanvar",
+    "Sentyabr"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Toshkentda yog'in qaysi mavsumda ko'p?",
+   "options": [
+    "Qish-bahor",
+    "Yoz",
+    "Faqat yoz",
+    "Faqat kuz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Iqlimogrammada ustunlar nimani ko'rsatadi?",
+   "options": [
+    "Haroratni",
+    "Yog'inni",
+    "Bosimni",
+    "Shamolni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Iqlimogrammada chiziq nimani ko'rsatadi?",
+   "options": [
+    "Yog'inni",
+    "Haroratni",
+    "Shamolni",
+    "Namlikni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qutb mintaqasi qaysi kenglikda?",
+   "options": [
+    "0°",
+    "66,5° dan yuqori",
+    "23,5°",
+    "45°"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Meteorologik stansiya nima qiladi?",
+   "options": [
+    "Ob-havoni kuzatadi",
+    "Yo'l quradi",
+    "Neft qazadi",
+    "Ekin ekadi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Okean iqlimga qanday ta'sir qiladi?",
+   "options": [
+    "Keskinlashtiradi",
+    "Yumshatadi",
+    "Ta'sir qilmaydi",
+    "Quritadi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Subtropik iqlim yozi?",
+   "options": [
+    "Sovuq",
+    "Nam sovuq",
+    "Quruq va issiq",
+    "Qorli"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g4a": [
+  {
+   "question": "Gidrosfera nima?",
+   "options": [
+    "Havo qobig'i",
+    "Tosh qobig'i",
+    "Hayot qobig'i",
+    "Yerning suv qobig'i"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chuchuk suv jami suvning qancha qismi?",
+   "options": [
+    "~25 %",
+    "~50 %",
+    "~2,5 %",
+    "~97 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qaysi suv zaxirasi eng katta chuchuk?",
+   "options": [
+    "Muzliklar",
+    "Daryo",
+    "Ko'l",
+    "Bulut"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer osti suvlari chuchuk suvning qancha qismi?",
+   "options": [
+    "~3 %",
+    "~60 %",
+    "~30 %",
+    "~0,3 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Katta aylanish qayerda?",
+   "options": [
+    "Faqat okeanda",
+    "Faqat quruqlikda",
+    "Atmosferada faqat",
+    "Okean–quruqlik–okean"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yog'in suvi qayerga boradi?",
+   "options": [
+    "Faqat yo'qoladi",
+    "Kosmosga",
+    "Yerning ichiga",
+    "Oqim, singish, bug'lanish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Suvning issiqlik sig'imi?",
+   "options": [
+    "Katta",
+    "Kichik",
+    "Nol",
+    "Cheksiz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Transchegaraviy daryo nima?",
+   "options": [
+    "Faqat bitta davlatda",
+    "Bir necha davlat orqali oqadigan",
+    "Kichik daryo",
+    "Quriydigan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O'zbekiston asosiy daryolari?",
+   "options": [
+    "Nil",
+    "Volga",
+    "Amudaryo va Sirdaryo",
+    "Amazonka"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Gidrosfera hajmi taxminan?",
+   "options": [
+    "14 km³",
+    "1,4 mln km³",
+    "1,4 mlrd km³",
+    "140 km³"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Hayvon tanasida suv ulushi?",
+   "options": [
+    "5 %",
+    "10 %",
+    "60–90 %",
+    "100 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ichimlik suvidan qiynalayotganlar ulushi?",
+   "options": [
+    "Har to'rtinchi odam",
+    "Hech kim",
+    "Har yuzinchi",
+    "Hamma"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kondensatsiya qaysi bosqichda?",
+   "options": [
+    "Bug'lanishda",
+    "Oqimda",
+    "Muzlashda",
+    "Bulut hosil bo'lishida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Muzlar erishi nimaga olib keladi?",
+   "options": [
+    "Okean sathi tushadi",
+    "Hech nima",
+    "Okean sathi ko'tariladi",
+    "Daryo quriydi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ichki aylanish nima?",
+   "options": [
+    "Okeandagi aylanish",
+    "Quruqlik ichidagi suv aylanishi",
+    "Atmosfera",
+    "Muz aylanishi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Suvni tejash nega kerak?",
+   "options": [
+    "Chuchuk suv kam",
+    "Suv ko'p",
+    "Suv arzon",
+    "Ahamiyati yo'q"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g4b": [
+  {
+   "question": "Eng kichik okean?",
+   "options": [
+    "Hind",
+    "Atlantika",
+    "Shimoliy Muz",
+    "Tinch"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Dunyo okeani yer yuzining necha foizi?",
+   "options": [
+    "71 %",
+    "29 %",
+    "50 %",
+    "90 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Mariana novi chuqurligi?",
+   "options": [
+    "~1 km",
+    "~110 km",
+    "~11 km",
+    "~110 m"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qizil dengiz sho'rligi?",
+   "options": [
+    "41 ‰",
+    "7 ‰",
+    "18 ‰",
+    "340 ‰"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Baltika sho'rligi nega past?",
+   "options": [
+    "Ko'p daryolar quyiladi",
+    "Issiq",
+    "Bug'lanish ko'p",
+    "Muz yo'q"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "1 promille nima?",
+   "options": [
+    "1 kg suvda 1 kg tuz",
+    "100 l da 1 g",
+    "1 l suvda 1 g tuz",
+    "1 ml"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kuroshio qayerda?",
+   "options": [
+    "Atlantika",
+    "Hind",
+    "Tinch okean (Yaponiya)",
+    "Shimoliy Muz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Golfstrim qaysi iqlimni yumshatadi?",
+   "options": [
+    "Avstraliya",
+    "Hindiston",
+    "Afrika",
+    "G'arbiy Yevropa"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Peru oqimi nimaga hissa qo'shadi?",
+   "options": [
+    "O'rmonga",
+    "Atakama cho'li hosil bo'lishiga",
+    "Yomg'irga",
+    "Qorga"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oqimlarni nima hosil qiladi?",
+   "options": [
+    "Zilzila faqat",
+    "Vulqon faqat",
+    "Muz faqat",
+    "Shamol, zichlik farqi, Yer aylanishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qabariq va qaytish sababi?",
+   "options": [
+    "Shamol",
+    "Oy va Quyosh tortishi",
+    "Daryolar",
+    "Vulqon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qabariq sutkada necha marta?",
+   "options": [
+    "1 marta",
+    "2 marta",
+    "5 marta",
+    "Hech"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sunami balandligi qirg'oqda?",
+   "options": [
+    "10–30 m gacha",
+    "1 sm",
+    "100 m doim",
+    "Sezilmaydi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bo'g'oz nima?",
+   "options": [
+    "Ko'l",
+    "Ikki suv havzasini bog'lovchi tor suv",
+    "Daryo",
+    "Orol"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Gibraltar nima?",
+   "options": [
+    "Bo'g'oz",
+    "Ko'rfaz",
+    "Orol",
+    "Tog'"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Bengal nima?",
+   "options": [
+    "Bo'g'oz",
+    "Dengiz",
+    "Orol",
+    "Ko'rfaz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chuqurlikda harorat?",
+   "options": [
+    "Pasayadi",
+    "Oshadi",
+    "O'zgarmaydi",
+    "100 °C"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g4c": [
+  {
+   "question": "Daryo sarfi nimada o'lchanadi?",
+   "options": [
+    "km",
+    "°C",
+    "gPa",
+    "m³/s"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Havza nima?",
+   "options": [
+    "Daryo uzunligi",
+    "Daryo va irmoqlari suv yig'adigan maydon",
+    "Daryo chuqurligi",
+    "Ko'l"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Suvayirg'ich nima?",
+   "options": [
+    "Daryo o'zani",
+    "Ko'l",
+    "Havzalarni ajratuvchi chiziq",
+    "Delta"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Volga qayerda?",
+   "options": [
+    "Osiyo",
+    "Afrika",
+    "Amerika",
+    "Yevropa"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nil qaysi materikda?",
+   "options": [
+    "Osiyo",
+    "Avstraliya",
+    "Amerika",
+    "Afrika"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sirdaryo qaysi tog'lardan boshlanadi?",
+   "options": [
+    "Alp",
+    "And",
+    "Tyan-Shan",
+    "Ural"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Amudaryo yozda nega sersuv?",
+   "options": [
+    "Yomg'ir ko'pligi",
+    "Quyosh yo'qligi",
+    "Shamol",
+    "Muzliklar erishi tufayli"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Toshqin nima?",
+   "options": [
+    "Quriy",
+    "Muzlash",
+    "Past suv",
+    "Suv sathining keskin ko'tarilishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qayroqqum qanday obyekt?",
+   "options": [
+    "Suv ombori",
+    "Cho'l",
+    "Tog'",
+    "Shahar"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tuyamo'yin nima?",
+   "options": [
+    "Shahar",
+    "Tog'",
+    "Cho'l",
+    "Suv ombori va gidrouzel"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Katta Farg'ona kanali nima uchun?",
+   "options": [
+    "Transport faqat",
+    "Sayyohlik",
+    "Sug'orish",
+    "Ov"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Orol fojeasiga sabab?",
+   "options": [
+    "Zilzila",
+    "Vulqon",
+    "Daryo suvining ko'p olinishi",
+    "Muz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Quyi oqimda daryo?",
+   "options": [
+    "Sekin oqadi, meandra hosil qiladi",
+    "Juda tez",
+    "Quriydi doim",
+    "Muzlaydi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yuqori oqimda daryo?",
+   "options": [
+    "Sekin",
+    "Delta hosil qiladi",
+    "Tez, tor vodiy",
+    "Ko'lga aylanadi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Daryodan energiya olish?",
+   "options": [
+    "GES",
+    "TES",
+    "AES",
+    "Quyosh"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Estuariy nima?",
+   "options": [
+    "Delta",
+    "Daryoning voronkasimon og'zi",
+    "Kanal",
+    "Ko'l"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g4d": [
+  {
+   "question": "Baykal qayerda?",
+   "options": [
+    "Rossiya (Sibir)",
+    "Hindiston",
+    "Braziliya",
+    "AQSH"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Issiqko'l qayerda?",
+   "options": [
+    "O'zbekiston",
+    "Qirg'iziston",
+    "Rossiya",
+    "Xitoy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oqar ko'l qanday?",
+   "options": [
+    "Chuchuk",
+    "Sho'r",
+    "Muzli",
+    "Quruq"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Oqmas ko'l qanday bo'ladi?",
+   "options": [
+    "Doim chuchuk",
+    "Ko'pincha sho'r",
+    "Muz",
+    "Daryo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qoplama muzliklar qayerda?",
+   "options": [
+    "Antarktida va Grenlandiya",
+    "Sahroda",
+    "Amazonkada",
+    "Yevropada"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tog' muzligi qismlari?",
+   "options": [
+    "Faqat boshi",
+    "Faqat tili",
+    "Oziqlanish va erish zonalari",
+    "Yo'q"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Muzliklar hozir?",
+   "options": [
+    "Kengaymoqda",
+    "O'zgarmaydi",
+    "Qisqarmoqda",
+    "Yo'q bo'ldi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Botqoqda nima hosil bo'ladi?",
+   "options": [
+    "Neft",
+    "Torf",
+    "Oltin",
+    "Marmar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Suv ombori nima?",
+   "options": [
+    "To'g'on bilan to'silgan sun'iy ko'l",
+    "Tabiiy ko'l",
+    "Daryo",
+    "Dengiz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qayroqqum qaysi daryoda?",
+   "options": [
+    "Amudaryo",
+    "Zarafshon",
+    "Sirdaryo",
+    "Qashqadaryo"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Chorvoq qayerda?",
+   "options": [
+    "Samarqand",
+    "Toshkent viloyati (Chirchiq)",
+    "Nukus",
+    "Termiz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mineral suvlar nima uchun?",
+   "options": [
+    "Faqat sug'orish",
+    "Faqat qurilish",
+    "Ov",
+    "Davolash"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tektonik ko'l qanday hosil bo'ladi?",
+   "options": [
+    "Yer po'sti harakati natijasida",
+    "Vulqon kulidan",
+    "Muzdan",
+    "Shamoldan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Karst ko'llari qanday jinsda?",
+   "options": [
+    "Ohaktosh",
+    "Granit",
+    "Bazalt",
+    "Qum"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kaspiy qaysi turdagi?",
+   "options": [
+    "Oqar chuchuk",
+    "Muzlik",
+    "Qoldiq, oqmas",
+    "Vulqon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Baykal chuchuk suvning qanchasini saqlaydi?",
+   "options": [
+    "~2 %",
+    "~60 %",
+    "~0,2 %",
+    "~20 %"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Muz ko'chishi qanday?",
+   "options": [
+    "Qotib turadi",
+    "Havoga ko'tariladi",
+    "Shamol bilan",
+    "O'z og'irligi bilan siljiydi"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g5a": [
+  {
+   "question": "Fotosintez nima?",
+   "options": [
+    "Nafas olish",
+    "Yog'in",
+    "O'simlikda nur energiyasidan organik modda hosil bo'lishi",
+    "Bug'lanish"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yirtqich qaysi toifaga kiradi?",
+   "options": [
+    "Ishlab chiqaruvchi",
+    "Iste'molchi",
+    "Chirituvchi",
+    "Mineral"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oziq to'ri nima?",
+   "options": [
+    "Baliq to'ri",
+    "Ko'p oziq zanjirlarining birikuvi",
+    "Yo'l tarmog'i",
+    "Daryo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Oziq zanjiri nega qisqa?",
+   "options": [
+    "Hayvon yo'qligidan",
+    "Energiya yo'qolishi tufayli",
+    "Suv yo'qligidan",
+    "Qor tufayli"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Energiya piramidasi asosida kimlar?",
+   "options": [
+    "Yirtqichlar",
+    "Chirituvchilar",
+    "Odamlar",
+    "Ishlab chiqaruvchilar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Marjon riflari qayerda?",
+   "options": [
+    "Issiq dengizlarda",
+    "Qutbda",
+    "Cho'lda",
+    "Tog'da"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zomin qo'riqxonasi qaysi viloyatda?",
+   "options": [
+    "Jizzax",
+    "Samarqand",
+    "Xorazm",
+    "Navoiy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qo'riqxona nima?",
+   "options": [
+    "Dam olish maskani",
+    "Tabiat to'liq muhofaza qilinadigan hudud",
+    "Ferma",
+    "Ko'l"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Biosfera chegarasi dengiz tubida?",
+   "options": [
+    "~1 km",
+    "~100 km",
+    "~11 km",
+    "0"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Turlarning yo'qolishi sababi?",
+   "options": [
+    "O'rmon kesish, ifloslanish, ov",
+    "Faqat zilzila",
+    "Faqat vulqon",
+    "Faqat shamol"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Biologik xilma-xillik nima?",
+   "options": [
+    "Faqat hayvon soni",
+    "Faqat o'simlik soni",
+    "Daryolar soni",
+    "Turlar, genlar, ekotizimlar boyligi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Quyon qaysi toifaga kiradi?",
+   "options": [
+    "1-tartib iste'molchi (o'txo'r)",
+    "Yirtqich",
+    "Chirituvchi",
+    "Ishlab chiqaruvchi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tulki qaysi toifaga kiradi?",
+   "options": [
+    "Ishlab chiqaruvchi",
+    "Chirituvchi",
+    "2-tartib iste'molchi",
+    "1-tartib"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Moddalar ekotizimda qanday?",
+   "options": [
+    "Yo'qoladi",
+    "Faqat to'planadi",
+    "Muzlaydi",
+    "Aylanadi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Energiya ekotizimda?",
+   "options": [
+    "Aylanadi",
+    "Oshadi",
+    "O'zgarmaydi",
+    "Bir tomonlama oqadi va kamayadi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nurota qo'riqxonasi qayerda?",
+   "options": [
+    "Qoraqalpog'iston",
+    "Navoiy viloyati",
+    "Toshkent",
+    "Surxondaryo"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g5b": [
+  {
+   "question": "Gumus nima?",
+   "options": [
+    "Tosh",
+    "Suv",
+    "Chirigan organik moddalar",
+    "Havo"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Chernozemda gumus?",
+   "options": [
+    "~0,1 %",
+    "~50 %",
+    "0 %",
+    "~10 % gacha"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'zbekiston bo'z tuproqlarida gumus?",
+   "options": [
+    "~10 %",
+    "~1–2 %",
+    "~30 %",
+    "0 %"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "O gorizont nima?",
+   "options": [
+    "Tosh",
+    "O'simlik qoldiqlari to'shamasi",
+    "Gumusli qatlam",
+    "Ona jins"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "C gorizont nima?",
+   "options": [
+    "Gumus",
+    "Ona jins",
+    "To'shama",
+    "Suv"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tuproq hosil bo'lish tezligi?",
+   "options": [
+    "Tez",
+    "Bir kunda",
+    "Bir soatda",
+    "Juda sekin"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tuproq tarkibida eng ko'p?",
+   "options": [
+    "Mineral zarrachalar",
+    "Gumus",
+    "Suv",
+    "Muz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zovur nima uchun?",
+   "options": [
+    "Sug'orish",
+    "Ekin ekish",
+    "Yo'l",
+    "Ortiqcha suv va tuzni chiqarish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Almashlab ekish nima?",
+   "options": [
+    "Bir ekin ekish",
+    "Yerni tashlab qo'yish",
+    "Ekinlarni navbat bilan ekish",
+    "Faqat o'g'it"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tomchilatib sug'orish afzalligi?",
+   "options": [
+    "Suvni tejaydi, sho'rlanishni kamaytiradi",
+    "Suvni oshiradi",
+    "Tuproqni quritadi",
+    "Zararli"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Terrasa nima?",
+   "options": [
+    "Yonbag'irdagi zinapoyasimon dalalar",
+    "Daryo",
+    "Yo'l",
+    "Ko'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Pestitsid nima?",
+   "options": [
+    "Suv",
+    "O'g'it",
+    "Zararkunandaga qarshi kimyoviy vosita",
+    "Tuz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Cho'llanish nima?",
+   "options": [
+    "Cho'lning ko'payishi tabiiy",
+    "Unumdor yerning cho'lga aylanishi",
+    "O'rmon",
+    "Daryo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Daraxt polosalari nima uchun?",
+   "options": [
+    "Shamol eroziyasidan himoya",
+    "Bezak",
+    "Suv uchun",
+    "Yo'l"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tuproq qayta tiklanadimi?",
+   "options": [
+    "Juda sekin, resurs sifatida cheklangan",
+    "Bir yilda",
+    "Tez",
+    "Doim"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tuproq rangi nimaga bog'liq?",
+   "options": [
+    "Faqat suvga",
+    "Gumus miqdoriga",
+    "Faqat quyoshga",
+    "Faqat havoga"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g5c": [
+  {
+   "question": "Tayga qanday o'rmon?",
+   "options": [
+    "Keng bargli",
+    "Mangr",
+    "Palma",
+    "Ignabargli"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tundra o'simligi?",
+   "options": [
+    "Palma",
+    "Saksovul",
+    "Moxlar va lishayniklar",
+    "Emen"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Dasht tuprog'i?",
+   "options": [
+    "Qum",
+    "Sho'rtob",
+    "Podzol",
+    "Qora tuproq (chernozem)"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tayga tuprog'i?",
+   "options": [
+    "Chernozem",
+    "Bo'z",
+    "Podzol",
+    "Qum"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Cho'l hayvoni?",
+   "options": [
+    "Shimol bug'usi",
+    "Fil",
+    "Ayiq",
+    "Tuya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shimol bug'usi qayerda?",
+   "options": [
+    "Savanna",
+    "Tundra",
+    "Cho'l",
+    "Dasht"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Bo'ri va ayiq qaysi zonada?",
+   "options": [
+    "Cho'l",
+    "Savanna",
+    "Tundra",
+    "Tayga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Akatsiya daraxti qaysi zonada?",
+   "options": [
+    "Tundra",
+    "Tayga",
+    "Dasht",
+    "Savanna"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Amazonka qaysi zonada?",
+   "options": [
+    "Nam ekvatorial o'rmon",
+    "Savanna",
+    "Cho'l",
+    "Dasht"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yer o'pkasi deb nimaga aytiladi?",
+   "options": [
+    "Cho'l",
+    "Tundra",
+    "Okean",
+    "Nam ekvatorial o'rmonlar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Har 1 km ko'tarilganda harorat?",
+   "options": [
+    "~6 °C pasayadi",
+    "6 °C ko'tariladi",
+    "O'zgarmaydi",
+    "60 °C pasayadi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Adir qaysi mintaqa?",
+   "options": [
+    "Muz",
+    "Archazor",
+    "Cho'l",
+    "Tog' etagidagi o'tloq-dasht"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Alp o'tloqlari qayerda?",
+   "options": [
+    "Tog'ning yuqori qismi",
+    "Etagida",
+    "Daryo bo'yida",
+    "Cho'lda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dasht qayerda dehqonchilik?",
+   "options": [
+    "Yo'q",
+    "Buyuk g'alla zonasi",
+    "Faqat ov",
+    "Faqat baliq"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Savanna iqlimi?",
+   "options": [
+    "Doim nam",
+    "Doim sovuq",
+    "Nam va quruq mavsum",
+    "Doim quruq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Cho'lda dehqonchilik qanday?",
+   "options": [
+    "Sug'orma, vohalarda",
+    "Yomg'irli",
+    "Muzli",
+    "Yo'q"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tog' o'rmonida nima o'sadi (O'zbekiston)?",
+   "options": [
+    "Palma",
+    "Mangr",
+    "Archa, yong'oq",
+    "Kaktus"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g6a": [
+  {
+   "question": "Pangeya nima?",
+   "options": [
+    "Okean",
+    "Qadimgi yagona o'ta qit'a",
+    "Tog'",
+    "Daryo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qaysi materik eng sovuq?",
+   "options": [
+    "Antarktida",
+    "Afrika",
+    "Avstraliya",
+    "Yevropa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Afrika maydoni?",
+   "options": [
+    "7,7",
+    "30,3 mln km²",
+    "44,4",
+    "10,5"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yevropa va Osiyo qaysi materik qismlari?",
+   "options": [
+    "Yevroosiyo",
+    "Afrika",
+    "Amerika",
+    "Avstraliya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Quruqlik asosan qaysi yarimsharda?",
+   "options": [
+    "Janubiy",
+    "Shimoliy",
+    "Teng",
+    "Ekvatorda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Janubiy okean qayerda?",
+   "options": [
+    "Ekvatorda",
+    "Shimolda",
+    "Antarktida atrofida",
+    "Hind okeanida"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shimoliy Amerika maydoni?",
+   "options": [
+    "44,4",
+    "7,7",
+    "10,5",
+    "24,2 mln km²"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Janubiy Amerika maydoni?",
+   "options": [
+    "30,3",
+    "24,2",
+    "44,4",
+    "17,8 mln km²"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Antarktida maydoni?",
+   "options": [
+    "7,7",
+    "30,3",
+    "14,1 mln km²",
+    "17,8"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Dunyo qismlari nechta?",
+   "options": [
+    "6",
+    "4",
+    "5",
+    "7"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Okeanlar materiklarni nima qiladi?",
+   "options": [
+    "Faqat ajratadi",
+    "Ajratadi va bog'laydi",
+    "Faqat bog'laydi",
+    "Yo'q qiladi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Materikni o'rganish rejasida birinchi nima?",
+   "options": [
+    "Aholi soni",
+    "Davlatlar",
+    "Hayvonlar",
+    "Geografik o'rni"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Osiyoning maydoni?",
+   "options": [
+    "30,3",
+    "17,8",
+    "10,5",
+    "44,4 mln km²"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Avstraliya qaysi yarimsharda?",
+   "options": [
+    "Janubiy",
+    "Shimoliy",
+    "Ikkala",
+    "Hech qaysi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Materiklar nima ustida joylashgan?",
+   "options": [
+    "Muz",
+    "Suv",
+    "Havo",
+    "Litosfera plitalari"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g6b": [
+  {
+   "question": "Afrikaning shimolida qaysi dengiz?",
+   "options": [
+    "Qora",
+    "Baltika",
+    "O'rta dengiz",
+    "Oq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Suvaysh kanali nimani ajratadi?",
+   "options": [
+    "Afrikani Osiyodan",
+    "Yevropani Osiyodan",
+    "Amerikani",
+    "Avstraliyani"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Atlas tog'lari qayerda?",
+   "options": [
+    "Janub",
+    "Sharq",
+    "Markaz",
+    "Shimoli-g'arb"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Viktoriya sharsharasi qaysi daryoda?",
+   "options": [
+    "Nil",
+    "Zambezi",
+    "Kongo",
+    "Niger"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Serengeti nima?",
+   "options": [
+    "Savanna milliy bog'i",
+    "Cho'l",
+    "Tog'",
+    "Daryo"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Olmos qayerda ko'p?",
+   "options": [
+    "Misr",
+    "Janubiy Afrika, Botsvana",
+    "Liviya",
+    "Marokash"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afrika aholisi?",
+   "options": [
+    "~140 mln",
+    "~1,4 mlrd",
+    "~14 mlrd",
+    "~14 mln"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afrikada nechta davlat?",
+   "options": [
+    "20",
+    "100",
+    "54",
+    "10"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Misr tsivilizatsiyasi nimasi bilan mashhur?",
+   "options": [
+    "Ko'priklar",
+    "Sirk",
+    "Piramidalar",
+    "Metro"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rift tizimi nima?",
+   "options": [
+    "Daryo",
+    "Cho'l",
+    "Tog' tizmasi",
+    "Tektonik yoriq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tanganika qanday ko'l?",
+   "options": [
+    "Vulqon",
+    "Muz",
+    "Tektonik, chuqur",
+    "Qoldiq"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Afrika iqlimi?",
+   "options": [
+    "Eng issiq materik",
+    "Eng sovuq",
+    "Mo'tadil",
+    "Qutb"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kalaxari qayerda?",
+   "options": [
+    "Shimol",
+    "Sharq",
+    "G'arb",
+    "Janubiy Afrika"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nigeriya nima bilan mashhur?",
+   "options": [
+    "Cho'l",
+    "Tog'",
+    "Okean",
+    "Aholisi eng ko'p, neft"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Nil qaysi dengizga quyiladi?",
+   "options": [
+    "O'rta dengiz",
+    "Qizil",
+    "Qora",
+    "Kaspiy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Namib qayerda?",
+   "options": [
+    "Sharq",
+    "Markaz",
+    "Shimol",
+    "Atlantika sohili (janubi-g'arb)"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g6c": [
+  {
+   "question": "Avstraliyaning eng yirik shaharlaridan biri?",
+   "options": [
+    "Berlin",
+    "Sidney",
+    "Rim",
+    "Toshkent"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Koala nima?",
+   "options": [
+    "Qush",
+    "Baliq",
+    "Sudralib yuruvchi",
+    "Qopchiqli hayvon"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Emu nima?",
+   "options": [
+    "Hayvon",
+    "Baliq",
+    "O'simlik",
+    "Uchmaydigan yirik qush"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Platipus nimasi bilan mashhur?",
+   "options": [
+    "Uchadi",
+    "Baliq",
+    "Tuxum qo'yuvchi sut emizuvchi",
+    "O'txo'r qush"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Endemik nima?",
+   "options": [
+    "Ko'chib yuruvchi",
+    "Faqat shu yerda yashovchi tur",
+    "Yirtqich",
+    "Qush"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Murrey daryosi qayerda?",
+   "options": [
+    "Afrika",
+    "Osiyo",
+    "Yevropa",
+    "Avstraliya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Eyr ko'li qanday?",
+   "options": [
+    "Doim chuchuk",
+    "Vaqtli suvli cho'l ko'li",
+    "Muz",
+    "Vulqon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Avstraliya nimada yetakchi?",
+   "options": [
+    "Paxta",
+    "Banan",
+    "Neft",
+    "Jun yetkazib berishda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yangi Zelandiya poytaxti?",
+   "options": [
+    "Vellington",
+    "Oklend",
+    "Sidney",
+    "Kanberra"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Atoll nima?",
+   "options": [
+    "Vulqon",
+    "Daryo",
+    "Halqasimon marjon orol",
+    "Tog'"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Gavayi qaysi guruhda?",
+   "options": [
+    "Melaneziya",
+    "Mikroneziya",
+    "Polineziya",
+    "Yevropa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Fiji qaysi guruhda?",
+   "options": [
+    "Polineziya",
+    "Mikroneziya",
+    "Afrika",
+    "Melaneziya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Avstraliyada qaysi o'simlik ko'p?",
+   "options": [
+    "Palma",
+    "Evkalipt",
+    "Qarag'ay",
+    "Chinor"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Buyuk Suvayirg'ich tizmasi qayerda?",
+   "options": [
+    "G'arbda",
+    "Markazda",
+    "Shimolda",
+    "Sharqda"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kapitan Kuk sharqiy qirg'oqni qachon xaritaga tushirgan?",
+   "options": [
+    "1770",
+    "1470",
+    "1870",
+    "1970"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g6d": [
+  {
+   "question": "Pampa nima?",
+   "options": [
+    "Cho'l",
+    "Tog'",
+    "Daryo",
+    "Argentina dashti"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Titikaka qanday ko'l?",
+   "options": [
+    "Eng katta",
+    "Eng baland kemalar qatnaydigan ko'l",
+    "Eng chuqur",
+    "Sho'r"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Braziliyada qaysi til?",
+   "options": [
+    "Ispan",
+    "Portugal",
+    "Ingliz",
+    "Fransuz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Boshqa davlatlarda asosiy til?",
+   "options": [
+    "Ispan",
+    "Portugal",
+    "Rus",
+    "Arab"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Machu-Pikchu kimlarniki?",
+   "options": [
+    "Mayyalar",
+    "Misrliklar",
+    "Inklar",
+    "Ruslar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kofe qaysi davlatda ko'p?",
+   "options": [
+    "Chili",
+    "Braziliya",
+    "Peru",
+    "Bolivia"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yaguar qayerda?",
+   "options": [
+    "Tundra",
+    "Cho'l",
+    "Amazoniya",
+    "Qutb"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Lama qayerda?",
+   "options": [
+    "And tog'larida",
+    "Cho'lda",
+    "Daryoda",
+    "Qutbda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kondor nima?",
+   "options": [
+    "Baliq",
+    "Hayvon",
+    "Katta qush",
+    "Ilon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Selvas nima?",
+   "options": [
+    "Nam ekvatorial o'rmon",
+    "Cho'l",
+    "Dasht",
+    "Tundra"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Amazonka havzasi?",
+   "options": [
+    "~7 mln km²",
+    "~700 km²",
+    "~70 km²",
+    "~7 km²"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Kolumb sharqiy qirg'oqqa qachon yetgan?",
+   "options": [
+    "1298",
+    "1698",
+    "1498",
+    "1798"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Janubiy Amerikada nechta mustaqil davlat?",
+   "options": [
+    "50",
+    "12",
+    "5",
+    "30"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aholisi?",
+   "options": [
+    "~440 mln",
+    "~44 mln",
+    "~4,4 mlrd",
+    "~44 ming"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "San-Paulu qaysi davlatda?",
+   "options": [
+    "Braziliya",
+    "Argentina",
+    "Peru",
+    "Chili"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g6e": [
+  {
+   "question": "Qoyali tog'lar qayerda?",
+   "options": [
+    "Sharqda",
+    "Janubda",
+    "G'arbda",
+    "Markazda faqat"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Appalachi qanday tog'lar?",
+   "options": [
+    "Eski, past",
+    "Yosh, baland",
+    "Vulqon",
+    "Muz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Preriya nima?",
+   "options": [
+    "Cho'l",
+    "Shimoliy Amerika dashti",
+    "Tayga",
+    "Tundra"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Uragan nima?",
+   "options": [
+    "Tropik bo'ron",
+    "Zilzila",
+    "Qor",
+    "Vulqon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Meksika poytaxti?",
+   "options": [
+    "Kankun",
+    "Mexiko",
+    "Gvadalaxara",
+    "Akapulko"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Grand-Kanyonni qaysi daryo hosil qilgan?",
+   "options": [
+    "Kolorado",
+    "Missisipi",
+    "Gudzon",
+    "Yukon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Panama kesmasi nimani ajratadi?",
+   "options": [
+    "Yevropa va Osiyoni",
+    "Afrika va Osiyoni",
+    "Shimoliy va Janubiy Amerikani",
+    "Avstraliyani"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Kanada maydoni bo'yicha dunyoda?",
+   "options": [
+    "10-o'rin",
+    "1-o'rin",
+    "2-o'rin",
+    "50-o'rin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Inuitlar kimlar?",
+   "options": [
+    "Janub xalqi",
+    "Yevropaliklar",
+    "Shimoliy tub xalq",
+    "Afrikaliklar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "AQSH aholisi?",
+   "options": [
+    "~33 mln",
+    "~3,3 mlrd",
+    "~335 mln",
+    "~335 ming"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Sonora qaysi cho'l?",
+   "options": [
+    "Afrikada",
+    "Shimoliy Amerikada",
+    "Osiyoda",
+    "Yevropada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shimoliy Amerika aholisi?",
+   "options": [
+    "~60 mln",
+    "~6 mlrd",
+    "~6 mln",
+    "~600 mln"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Alyaska qaysi davlatda?",
+   "options": [
+    "Kanada",
+    "AQSH",
+    "Rossiya",
+    "Meksika"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sent-Lorens nimaga quyiladi?",
+   "options": [
+    "Atlantika okeaniga",
+    "Tinch okeanga",
+    "Shimoliy Muz okeaniga",
+    "Meksika ko'rfaziga"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Florida iqlimi?",
+   "options": [
+    "Arktik",
+    "Subtropik",
+    "Cho'l",
+    "Ekvatorial"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g6f": [
+  {
+   "question": "Skandinaviya nima?",
+   "options": [
+    "Yarimorol",
+    "Orol",
+    "Tog'",
+    "Daryo"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Pireney qayerda?",
+   "options": [
+    "Italiya",
+    "Germaniya",
+    "Ispaniya va Fransiya chegarasida",
+    "Polsha"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Vezuviy qayerda?",
+   "options": [
+    "Ispaniya",
+    "Fransiya",
+    "Gretsiya",
+    "Italiya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Fyord nima?",
+   "options": [
+    "Daryo",
+    "Cho'l",
+    "Tog'",
+    "Tor chuqur dengiz ko'rfazi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Dunay qaysi dengizga quyiladi?",
+   "options": [
+    "Baltika",
+    "Shimoliy dengiz",
+    "Qora dengiz",
+    "Kaspiy"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Reyn qayerda?",
+   "options": [
+    "Sharqiy Yevropa",
+    "G'arbiy Yevropa",
+    "Janubiy Yevropa",
+    "Shimoliy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Golfstrim Yevropa iqlimini?",
+   "options": [
+    "Sovutadi",
+    "Ta'sir qilmaydi",
+    "Yumshatadi",
+    "Quritadi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Yevropa maydoni?",
+   "options": [
+    "~105 mln",
+    "~1 mln",
+    "~50 mln",
+    "~10,5 mln km²"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yevropa aholisi?",
+   "options": [
+    "~75 mln",
+    "~7,5 mlrd",
+    "~7 mln",
+    "~750 mln"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Yevropa Ittifoqi nechta davlat?",
+   "options": [
+    "5",
+    "100",
+    "15",
+    "27"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Londonda qaysi davlat poytaxti?",
+   "options": [
+    "Fransiya",
+    "Italiya",
+    "Buyuk Britaniya",
+    "Germaniya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rim qaysi davlat poytaxti?",
+   "options": [
+    "Ispaniya",
+    "Gretsiya",
+    "Italiya",
+    "Fransiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Pitsa va pasta vatani?",
+   "options": [
+    "Italiya",
+    "Fransiya",
+    "Germaniya",
+    "Polsha"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng baland Yevropa cho'qqisi (Kavkaz)?",
+   "options": [
+    "Monblan",
+    "Elbrus",
+    "Etna",
+    "Vezuviy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yevropa tekisligi nima?",
+   "options": [
+    "Katta qismi tekislik",
+    "Faqat tog'",
+    "Faqat cho'l",
+    "Faqat muz"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g6g": [
+  {
+   "question": "Tibet platosi qanday ataladi?",
+   "options": [
+    "Dunyo tomi",
+    "Dunyo bog'i",
+    "Dunyo daryosi",
+    "Dunyo o'rmoni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Himolay qaysi plitalar to'qnashuvidan?",
+   "options": [
+    "Tinch va Amerika",
+    "Hind va Yevroosiyo",
+    "Afrika va Yevropa",
+    "Avstraliya"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sibir qanday zona?",
+   "options": [
+    "Tayga",
+    "Cho'l",
+    "Savanna",
+    "Tundra"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yantszi qayerda?",
+   "options": [
+    "Hindiston",
+    "Yaponiya",
+    "Xitoy",
+    "Rossiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Gang daryosi qayerda?",
+   "options": [
+    "Xitoy",
+    "Rossiya",
+    "Eron",
+    "Hindiston"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mekong qayerda?",
+   "options": [
+    "Yevropa",
+    "Janubi-Sharqiy Osiyo",
+    "Afrika",
+    "Amerika"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Gobi nima?",
+   "options": [
+    "Tog'",
+    "Cho'l",
+    "Daryo",
+    "Dengiz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qor qoploni qayerda?",
+   "options": [
+    "Tog'larda (Pomir, Tyan-Shan)",
+    "Dengizda",
+    "Cho'lda",
+    "Tropik o'rmonda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buyuk Ipak yo'li nimani bog'lagan?",
+   "options": [
+    "Osiyoni Yevropa bilan",
+    "Amerikani",
+    "Afrikani",
+    "Avstraliyani"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Toshkent qaysi mintaqada?",
+   "options": [
+    "Sharqiy Osiyo",
+    "Markaziy Osiyo",
+    "G'arbiy Osiyo",
+    "Janubiy Osiyo"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Yaponiya qaysi mintaqada?",
+   "options": [
+    "Sharqiy Osiyo",
+    "Markaziy",
+    "G'arbiy",
+    "Janubiy"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Fors ko'rfazi nima bilan boy?",
+   "options": [
+    "Oltin faqat",
+    "Ko'mir",
+    "Olmos",
+    "Neft va gaz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Osiyo aholisi?",
+   "options": [
+    "~4,7 mlrd",
+    "~470 mln",
+    "~47 mlrd",
+    "~47 mln"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yakutiya qanday?",
+   "options": [
+    "Issiq",
+    "Nam",
+    "Musson",
+    "Sovuq qutb"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Hindixitoy qaysi mintaqada?",
+   "options": [
+    "Markaziy",
+    "Shimoliy",
+    "Janubi-Sharqiy Osiyo",
+    "G'arbiy"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g6h": [
+  {
+   "question": "Qutb ayig'i qayerda?",
+   "options": [
+    "Antarktida",
+    "Afrika",
+    "Avstraliya",
+    "Arktika"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Antarktida muzining chuchuk suvdagi ulushi?",
+   "options": [
+    "~60 %",
+    "~6 %",
+    "~1 %",
+    "~100 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng past harorat qayd etilgan joy?",
+   "options": [
+    "Vostok",
+    "Moskva",
+    "Yakutsk",
+    "Oymyakon"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng baland Antarktida cho'qqisi?",
+   "options": [
+    "Everest",
+    "Elbrus",
+    "Vinson",
+    "Denali"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Krill nima?",
+   "options": [
+    "Baliq",
+    "Qush",
+    "Kit",
+    "Mayda qisqichbaqa"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Muz Quyosh nurini?",
+   "options": [
+    "Yutadi",
+    "Qaytaradi",
+    "Ko'paytiradi",
+    "Yo'q qiladi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Dengiz muzi Arktikada?",
+   "options": [
+    "Qisqarmoqda",
+    "Kengaymoqda",
+    "O'zgarmaydi",
+    "Yo'q"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Okean sathi yiliga?",
+   "options": [
+    "~3–4 m",
+    "~3–4 mm ko'tarilmoqda",
+    "~3–4 sm",
+    "Tushmoqda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Antarktidada doimiy aholi?",
+   "options": [
+    "Millionlab",
+    "Minglab",
+    "Yuzlab doimiy",
+    "Yo'q, faqat tadqiqotchilar"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Inuitlar kimlar?",
+   "options": [
+    "Antarktika",
+    "Afrika xalqi",
+    "Arktikaning tub xalqi",
+    "Yevropaliklar"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Albedo nima?",
+   "options": [
+    "Harorat",
+    "Bosim",
+    "Shamol",
+    "Sirtning nurni qaytarish xususiyati"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Antarktidada yog'in?",
+   "options": [
+    "Ko'p",
+    "Juda kam",
+    "Doim yomg'ir",
+    "Har kuni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qutb kuni nima?",
+   "options": [
+    "Bir kunlik",
+    "Oy yorug'i",
+    "Yarim yil davomida Quyosh botmaydi",
+    "Doimiy tun"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Antarktida maydoni?",
+   "options": [
+    "1,4",
+    "141",
+    "14,1 mln km²",
+    "7,7"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Shimoliy dengiz yo'li qayerda?",
+   "options": [
+    "Arktikada (Rossiya shimolida)",
+    "Antarktidada",
+    "Hind okeanida",
+    "Sahroda"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g7a": [
+  {
+   "question": "Dunyo o'rtacha zichligi?",
+   "options": [
+    "~6",
+    "~600",
+    "~60 kishi/km²",
+    "~6000"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng siyrak joylardan biri?",
+   "options": [
+    "Bangladesh",
+    "Yava",
+    "Hindiston",
+    "Mongoliya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Mexanik o'sish nima?",
+   "options": [
+    "Tug'ilishga",
+    "O'limga",
+    "Zichlikka",
+    "Migratsiya hisobiga"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Immigratsiya nima?",
+   "options": [
+    "Chiqib ketish",
+    "Tug'ilish",
+    "O'lim",
+    "Davlatga kirib kelish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Emigratsiya nima?",
+   "options": [
+    "Kirib kelish",
+    "O'lim",
+    "Davlatdan chiqib ketish",
+    "Tug'ilish"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tabiiy o'sish birligi?",
+   "options": [
+    "Metr",
+    "Kilogramm",
+    "Promille (‰)",
+    "Gradus"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Keng asosli piramida nimani bildiradi?",
+   "options": [
+    "Qarigan aholi",
+    "Yosh, o'sayotgan aholi",
+    "Kam aholi",
+    "Cho'l"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Eng yuqori tabiiy o'sish?",
+   "options": [
+    "Yevropa",
+    "Yaponiya",
+    "Afrika (Sahroosti)",
+    "Rossiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Aholi 2 mlrd ga qachon yetgan?",
+   "options": [
+    "1927-yil",
+    "1827",
+    "1960",
+    "1999"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "2100-yilga bashorat?",
+   "options": [
+    "~20 mlrd",
+    "~2 mlrd",
+    "~5 mlrd",
+    "~10,4 mlrd"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Aholi qayerda ko'p to'planadi?",
+   "options": [
+    "Tekislik va daryo vodiylarida",
+    "Qutbda",
+    "Cho'lda",
+    "Tog' cho'qqisida"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "INI nimani birlashtiradi?",
+   "options": [
+    "Faqat daromad",
+    "Faqat maydon",
+    "Daromad, ta'lim, sog'liq",
+    "Faqat aholi"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'zbekiston aholisi qanday?",
+   "options": [
+    "Qarigan",
+    "Yosh, tez o'sayotgan",
+    "Kamaymoqda",
+    "Juda siyrak"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qarish nimani anglatadi?",
+   "options": [
+    "Bolalar ortadi",
+    "Aholi ko'payadi",
+    "Hech nima",
+    "Keksalar ulushi ortadi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kutilayotgan umr Yaponiyada?",
+   "options": [
+    "~84 yil",
+    "~54",
+    "~104",
+    "~34"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g7b": [
+  {
+   "question": "Dunyoda taxminan nechta til?",
+   "options": [
+    "~7000",
+    "~70",
+    "~700",
+    "~70 000"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "BMT rasmiy tillaridan biri?",
+   "options": [
+    "O'zbek",
+    "Yapon",
+    "Hind",
+    "Arab"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Turkiy tilga qaysi biri kiradi?",
+   "options": [
+    "Turk",
+    "Fransuz",
+    "Nemis",
+    "Italyan"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buddizm asosan qayerda?",
+   "options": [
+    "Sharqiy va Janubi-Sharqiy Osiyo",
+    "Amerika",
+    "Afrika",
+    "Yevropa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "O'zbeklar aholining necha foizi?",
+   "options": [
+    "~20 %",
+    "~50 %",
+    "~84 %",
+    "~100 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Navro'z qanday meros?",
+   "options": [
+    "Tog'",
+    "Daryo",
+    "Shahar",
+    "Nomoddiy madaniy meros"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shashmaqom nima?",
+   "options": [
+    "Taom",
+    "Kiyim",
+    "Musiqa janri (nomoddiy meros)",
+    "Bino"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Buxoro YuNESKO ro'yxatidami?",
+   "options": [
+    "Yo'q",
+    "Faqat Xiva",
+    "Faqat Toshkent",
+    "Ha"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Etnos nima?",
+   "options": [
+    "Til",
+    "Din",
+    "Shahar",
+    "Xalq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qoraqalpoq tili qayerda davlat tili?",
+   "options": [
+    "Butun Rossiyada",
+    "Qoraqalpog'istonda",
+    "Xitoyda",
+    "Turkiyada"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hind-yevropa tiliga misol?",
+   "options": [
+    "O'zbek",
+    "Xitoy",
+    "Arab",
+    "Rus"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sino-tibet tiliga misol?",
+   "options": [
+    "Ingliz",
+    "Ispan",
+    "Xitoy",
+    "Turk"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Bag'rikenglik nima?",
+   "options": [
+    "Boshqa madaniyatga hurmat",
+    "Dushmanlik",
+    "Befarqlik",
+    "Qo'rquv"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Pravoslavlik qaysi dinning yo'nalishi?",
+   "options": [
+    "Islom",
+    "Nasroniylik",
+    "Buddizm",
+    "Hinduizm"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Mandarin qaysi til?",
+   "options": [
+    "Yapon",
+    "Xitoy",
+    "Koreys",
+    "Hind"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g7c": [
+  {
+   "question": "Agglomeratsiya nima?",
+   "options": [
+    "Daryo",
+    "Tog'",
+    "Cho'l",
+    "Shahar va atrofidagi aholi punktlarining birlashuvi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Poytaxt shahar funksiyasi?",
+   "options": [
+    "Faqat sanoat",
+    "Faqat port",
+    "Qishloq",
+    "Ma'muriy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "1950-yilda shahar aholisi?",
+   "options": [
+    "~30 %",
+    "~60 %",
+    "~90 %",
+    "~5 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "2050 bashorat?",
+   "options": [
+    "~68 %",
+    "~30 %",
+    "~10 %",
+    "~100 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Dehli qaysi davlatda?",
+   "options": [
+    "Hindiston",
+    "Pokiston",
+    "Xitoy",
+    "Yaponiya"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "San-Paulu qaysi davlatda?",
+   "options": [
+    "Braziliya",
+    "Argentina",
+    "Chili",
+    "Peru"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Toshkent aholisi?",
+   "options": [
+    "~29 mln",
+    "~2,9 mln",
+    "~290 ming",
+    "~29 ming"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Megalopolis nima?",
+   "options": [
+    "Qishloq",
+    "Daryo",
+    "Tog'",
+    "Bir necha agglomeratsiya birlashuvi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Port shahar qanday funksiya?",
+   "options": [
+    "Ilmiy",
+    "Qishloq",
+    "Ma'muriy",
+    "Transport"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rivojlangan davlatlarda shahar aholisi?",
+   "options": [
+    "75–90 %",
+    "10 %",
+    "30 %",
+    "0 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Rejasiz urbanizatsiya natijasi?",
+   "options": [
+    "Chekka kambag'al mahallalar",
+    "Yangi tog'lar",
+    "Cho'l",
+    "Daryo"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Toshkent qayta qurilgan sababi?",
+   "options": [
+    "1966-yil zilzilasi",
+    "Toshqin",
+    "Yong'in",
+    "Urush"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qadimiy shaharlar qayerda paydo bo'lgan?",
+   "options": [
+    "Cho'lda",
+    "Tog' cho'qqisida",
+    "Qutbda",
+    "Daryo bo'ylarida, savdo yo'llarida"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shaharlar soni O'zbekistonda?",
+   "options": [
+    "~12",
+    "~120",
+    "~1200",
+    "~2"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Aqlli shahar nima?",
+   "options": [
+    "Kichik shahar",
+    "Qadimiy shahar",
+    "Qishloq",
+    "Texnologiyadan foydalanuvchi shahar"
+   ],
+   "correct_index": 3
+  }
+ ],
+ "g7d": [
+  {
+   "question": "Olmaliq nimasi bilan mashhur?",
+   "options": [
+    "Gaz",
+    "Mis",
+    "Oltin",
+    "Ko'mir"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Shurtan nimasi bilan mashhur?",
+   "options": [
+    "Mis",
+    "Uran",
+    "Oltin",
+    "Gaz"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Navoiy nima bilan mashhur?",
+   "options": [
+    "Neft",
+    "Uran va oltin",
+    "Ko'mir",
+    "Tuz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "GES nima?",
+   "options": [
+    "Gidroelektrostansiya",
+    "Atom",
+    "Quyosh",
+    "Issiqlik"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Shamol energiyasi manbasi?",
+   "options": [
+    "Neft",
+    "Gaz",
+    "Shamol turbinalari",
+    "Ko'mir"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Geotermal energiya nima?",
+   "options": [
+    "Quyosh",
+    "Shamol",
+    "Yer issiqligi",
+    "To'lqin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Neft zaxirasi yirik davlat?",
+   "options": [
+    "Monako",
+    "Saudiya Arabistoni",
+    "Fiji",
+    "Nepal"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Gaz bo'yicha yirik davlat?",
+   "options": [
+    "Rossiya",
+    "Nepal",
+    "Bolivia",
+    "Chad"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ko'mir bo'yicha yetakchi?",
+   "options": [
+    "Fiji",
+    "Panama",
+    "Monako",
+    "Xitoy"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Neft ulushi?",
+   "options": [
+    "~31 %",
+    "~3 %",
+    "~81 %",
+    "~1 %"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Atom energiyasi ulushi?",
+   "options": [
+    "~40 %",
+    "~80 %",
+    "~4 %",
+    "~0,4 %"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "O'zbekistonda quyoshli kunlar?",
+   "options": [
+    "30",
+    "100",
+    "10",
+    "300 dan ortiq"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Suv resursi nima?",
+   "options": [
+    "Tugamaydigan",
+    "Qayta tiklanadigan, ammo cheklangan",
+    "Mineral",
+    "Yo'q"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Fotoelektrik batareya nima?",
+   "options": [
+    "Shamol turbinasi",
+    "Neft",
+    "Quyosh nurini elektrga aylantiradi",
+    "Gaz"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Resurslarni nima qilish kerak?",
+   "options": [
+    "Isrof qilish",
+    "Tejab, oqilona ishlatish",
+    "Yo'q qilish",
+    "Saqlamaslik"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g7e": [
+  {
+   "question": "Ilm-fan qaysi tarmoq?",
+   "options": [
+    "Birlamchi",
+    "To'rtlamchi",
+    "Ikkilamchi",
+    "Uchlamchi"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Savdo qaysi tarmoq?",
+   "options": [
+    "Birlamchi",
+    "Ikkilamchi",
+    "To'rtlamchi",
+    "Uchlamchi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Panama kanali qayerda?",
+   "options": [
+    "Afrika",
+    "Osiyo",
+    "Markaziy Amerika",
+    "Yevropa"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Havo transporti afzalligi?",
+   "options": [
+    "Arzonlik",
+    "Katta yuk",
+    "Quvur",
+    "Tezlik"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Quvur transporti nimani tashiydi?",
+   "options": [
+    "Neft va gazni",
+    "Odamlarni",
+    "Mevani",
+    "Mashinalarni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Paxta yetishtiruvchi davlat?",
+   "options": [
+    "Grenlandiya",
+    "Monako",
+    "O'zbekiston",
+    "Islandiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Mashinasozlik markazi?",
+   "options": [
+    "Chad",
+    "Nepal",
+    "Yaponiya",
+    "Bolivia"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qishloq xo'jaligi tarkibi?",
+   "options": [
+    "Faqat sanoat",
+    "Dehqonchilik va chorvachilik",
+    "Faqat savdo",
+    "Faqat IT"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Globalizatsiya nima?",
+   "options": [
+    "Izolyatsiya",
+    "Urush",
+    "Tabiat hodisasi",
+    "Dunyo mamlakatlari aloqasining kuchayishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Ikki karra yopiq davlat nima?",
+   "options": [
+    "Orol davlat",
+    "Dengiz davlati",
+    "Qishloq",
+    "Dengizga chiqishi yo'q va qo'shnilari ham shunday"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Rivojlangan davlatda YaIM asosan?",
+   "options": [
+    "Qishloq xo'jaligidan",
+    "Konchilikdan",
+    "Xizmat ko'rsatishdan",
+    "Ovdan"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Rivojlanayotgan davlatlar tayanadi?",
+   "options": [
+    "IT faqat",
+    "Kosmos",
+    "Qishloq xo'jaligi va xomashyo",
+    "Robot"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Makkajo'xori qaysi ekin?",
+   "options": [
+    "Texnik",
+    "Sabzavot",
+    "Meva",
+    "G'alla"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Shakarqamish qaysi ekin?",
+   "options": [
+    "G'alla",
+    "Texnik",
+    "Meva",
+    "Poliz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sholi qayerda ko'p?",
+   "options": [
+    "Qutb",
+    "Sahro",
+    "Janubiy va Sharqiy Osiyo",
+    "Tundra"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g8a": [
+  {
+   "question": "Ikki karra yopiq nima?",
+   "options": [
+    "Orol",
+    "Dengizga chiqishi yo'q, qo'shnilari ham shunday",
+    "Yarim orol",
+    "Qirg'oq davlat"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Chegara bo'lmagan davlat?",
+   "options": [
+    "Turkmaniston",
+    "Qirg'iziston",
+    "Tojikiston",
+    "Rossiya"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qoraqalpog'iston markazi?",
+   "options": [
+    "Xiva",
+    "Qarshi",
+    "Termiz",
+    "Nukus"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Xorazm markazi?",
+   "options": [
+    "Nukus",
+    "Termiz",
+    "Navoiy",
+    "Urganch"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Surxondaryo markazi?",
+   "options": [
+    "Qarshi",
+    "Termiz",
+    "Guliston",
+    "Jizzax"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qashqadaryo markazi?",
+   "options": [
+    "Termiz",
+    "Qarshi",
+    "Guliston",
+    "Navoiy"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Sirdaryo markazi?",
+   "options": [
+    "Guliston",
+    "Jizzax",
+    "Navoiy",
+    "Nukus"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "G'arbdan sharqqa uzunligi?",
+   "options": [
+    "~1425 km",
+    "~142 km",
+    "~14 250 km",
+    "~500 km"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Buyuk Ipak yo'li nimani bog'lagan?",
+   "options": [
+    "Sharq va G'arbni",
+    "Faqat Yevropani",
+    "Qutblarni",
+    "Okeanlarni"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Eng uzun chegara kim bilan?",
+   "options": [
+    "Tojikiston",
+    "Afg'oniston",
+    "Turkmaniston",
+    "Qozog'iston"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'zbekiston qaysi mintaqada?",
+   "options": [
+    "Markaziy Osiyo",
+    "Janubiy Osiyo",
+    "Yaqin Sharq",
+    "Sharqiy Yevropa"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Aholisi?",
+   "options": [
+    "~36 mln dan ortiq",
+    "~3,6 mln",
+    "~360 mln",
+    "~3,6 mlrd"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ma'muriy birliklar tarkibi?",
+   "options": [
+    "12 viloyat, 1 respublika, 1 shahar",
+    "14 viloyat",
+    "10 viloyat",
+    "5 viloyat"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Davlat tili?",
+   "options": [
+    "Rus tili",
+    "O'zbek tili",
+    "Ingliz tili",
+    "Arab tili"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Afg'oniston qaysi tomonda?",
+   "options": [
+    "Janubda",
+    "Shimolda",
+    "G'arbda",
+    "Sharqda"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g8b": [
+  {
+   "question": "Mingbuloq botig'i balandligi?",
+   "options": [
+    "−12 m",
+    "+12 m",
+    "4643 m",
+    "1000 m"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Farg'ona vodiysining ahamiyati?",
+   "options": [
+    "Cho'l",
+    "Zich aholili hudud",
+    "Dengiz",
+    "Muz"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Qaysi hudud tog'li?",
+   "options": [
+    "Chotqol",
+    "Qizilqum",
+    "Ustyurt",
+    "Orolbo'yi"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Ustyurt nima?",
+   "options": [
+    "Dengiz",
+    "Vulqon",
+    "Muzlik",
+    "Plato"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sel xavfi qayerda?",
+   "options": [
+    "Cho'lda",
+    "Tog'li hududlarda",
+    "Dengizda",
+    "Qutbda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Angren nimasi?",
+   "options": [
+    "Oltin koni",
+    "Ko'mir koni",
+    "Neft koni",
+    "Tuz koni"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Boybichakon nimasi bilan mashhur?",
+   "options": [
+    "Oltin",
+    "Neft",
+    "Gaz",
+    "Osh tuzi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Voha nima?",
+   "options": [
+    "Cho'l o'rtasidagi sug'oriladigan hudud",
+    "Tog'",
+    "Dengiz",
+    "Muz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Seysmik xavf nima?",
+   "options": [
+    "Suv ko'pligi",
+    "Issiqlik",
+    "Zilzila xavfi",
+    "Shamol"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Tuyamo'yin nima?",
+   "options": [
+    "Cho'l",
+    "Tog'",
+    "Shahar",
+    "Suv ombori"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Chorvoq nima?",
+   "options": [
+    "Vulqon",
+    "Cho'l",
+    "Suv ombori",
+    "Plato"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Fosforit nima uchun?",
+   "options": [
+    "Yoqilg'i",
+    "Mineral o'g'it",
+    "Oltin olish",
+    "Kiyim"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Neft qaysi hududda bor?",
+   "options": [
+    "Qizilqum markazi",
+    "Orol",
+    "Chotqol cho'qqisi",
+    "Farg'ona vodiysi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Marmar nima?",
+   "options": [
+    "Ruda",
+    "Gaz",
+    "Neft",
+    "Noruda qurilish materiali"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Tyan-Shan qayerda?",
+   "options": [
+    "Sharqda",
+    "G'arbda",
+    "Shimolda",
+    "Janubi-g'arbda"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g8c": [
+  {
+   "question": "Yog'in cho'lda yiliga?",
+   "options": [
+    "80–200 mm",
+    "2000 mm",
+    "5000 mm",
+    "0 mm"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Tog'larda yog'in?",
+   "options": [
+    "10 mm",
+    "50 mm",
+    "800–1000 mm gacha",
+    "0 mm"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Daryolar to'yinadi?",
+   "options": [
+    "Faqat yomg'irdan",
+    "Qor va muz erishidan",
+    "Dengizdan",
+    "Vulqondan"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Saksovul qayerda o'sadi?",
+   "options": [
+    "Cho'lda",
+    "Alp o'tloqlarida",
+    "Muzlikda",
+    "Dengizda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Adirda ko'p o'sadi?",
+   "options": [
+    "Efemerlar",
+    "Kaktus",
+    "Palma",
+    "Baobab"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qo'riqxona nima?",
+   "options": [
+    "Shahar",
+    "Tabiat muhofaza etiladigan hudud",
+    "Zavod",
+    "Bozor"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Orol 1960-yilda dunyodagi nechanchi ko'l?",
+   "options": [
+    "1-",
+    "10-",
+    "20-",
+    "4-"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Orolqumda nima ekilmoqda?",
+   "options": [
+    "Saksovul",
+    "Paxta",
+    "Banan",
+    "Shakarqamish"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Sirdaryo qayerdan boshlanadi?",
+   "options": [
+    "Ural",
+    "Alp",
+    "Tyan-Shan",
+    "Oltoy"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Orol qurishi oqibati?",
+   "options": [
+    "Yomg'ir ko'payishi",
+    "Tuz-chang bo'ronlari",
+    "Muzlik",
+    "Vulqon"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Suvni tejash nima uchun kerak?",
+   "options": [
+    "Suv juda ko'p",
+    "Cho'l yo'q",
+    "Suv taqchil",
+    "Hech nima"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Chotqol qo'riqxonasi qayerda?",
+   "options": [
+    "Xorazmda",
+    "Surxondaryoda",
+    "Toshkent viloyatida",
+    "Qoraqalpog'istonda"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Buxoro bug'usi qayerda yashaydi?",
+   "options": [
+    "To'qayzorlarda",
+    "Qutbda",
+    "Muzlikda",
+    "Okeanda"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yog'in qaysi fasllarda ko'proq?",
+   "options": [
+    "Faqat yoz",
+    "Faqat kuz",
+    "Qish va bahor",
+    "Hech qachon"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Iyulda cho'lda eng yuqori harorat?",
+   "options": [
+    "+5 °C",
+    "0 °C",
+    "+45 °C gacha",
+    "−20 °C"
+   ],
+   "correct_index": 2
+  }
+ ],
+ "g8d": [
+  {
+   "question": "Sholi qayerda ekiladi?",
+   "options": [
+    "Quruq cho'lda",
+    "Suv mo'l joyda",
+    "Tog' cho'qqisida",
+    "Muzda"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tomchilatib sug'orish nima uchun?",
+   "options": [
+    "Suvni isrof",
+    "Cho'l qilish",
+    "Hech nima",
+    "Suvni tejash"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Olmaliq nimasi bilan mashhur?",
+   "options": [
+    "Avtomobil",
+    "Mis",
+    "Paxta",
+    "Marmar"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Chirchiq kimyo mahsuloti?",
+   "options": [
+    "Mashina",
+    "O'g'it",
+    "Non",
+    "Kitob"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Navoiyda nima qazib olinadi?",
+   "options": [
+    "Oltin va uran",
+    "Banan",
+    "Marmar faqat",
+    "Kofe"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Hamkor davlat?",
+   "options": [
+    "Xitoy",
+    "Chad",
+    "Nepal",
+    "Fiji"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "IT park nima?",
+   "options": [
+    "Qishloq",
+    "Zavod",
+    "Dala",
+    "Dasturiy mahsulot markazi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Turizm markazi?",
+   "options": [
+    "Antarktida",
+    "Sahroi Kabir",
+    "Samarqand",
+    "Grenlandiya"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Ipakchilik nima?",
+   "options": [
+    "Ipak qurti boqish",
+    "Baliq ovi",
+    "Neft",
+    "Ko'mir"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Paxta qaysi turdagi ekin?",
+   "options": [
+    "G'alla",
+    "Poliz",
+    "Texnik",
+    "Meva"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Aholi o'rtacha yoshi?",
+   "options": [
+    "~58",
+    "~28",
+    "~8",
+    "~88"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Tuyamo'yin GES nima?",
+   "options": [
+    "Atom",
+    "Quyosh",
+    "Suv elektr stansiyasi",
+    "Shamol"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng siyrak aholili hudud?",
+   "options": [
+    "Navoiy cho'llari",
+    "Toshkent",
+    "Andijon",
+    "Farg'ona"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Zomin nima?",
+   "options": [
+    "Cho'l",
+    "Dam olish va qo'riqxona hududi",
+    "Dengiz",
+    "Port"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toshkent IES nima?",
+   "options": [
+    "Tog'",
+    "Issiqlik elektr stansiyasi",
+    "Daryo",
+    "Maktab"
+   ],
+   "correct_index": 1
+  }
+ ],
+ "g9a": [
+  {
+   "question": "CO₂ miqdori hozir?",
+   "options": [
+    "~42 ppm",
+    "~421 ppm",
+    "~4210 ppm",
+    "~4 ppm"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Harorat qanchaga ko'tarilgan?",
+   "options": [
+    "~12 °C",
+    "~1,2 °C",
+    "~0,01 °C",
+    "~30 °C"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Issiqxona effekti nima?",
+   "options": [
+    "Sovish",
+    "Yomg'ir",
+    "Gazlar issiqlikni ushlab turishi",
+    "Shamol"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Dengiz sathi nega ko'tariladi?",
+   "options": [
+    "Zilzila",
+    "Vulqon",
+    "Oy",
+    "Muzliklar erishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qaysi energiya toza?",
+   "options": [
+    "Quyosh",
+    "Ko'mir",
+    "Neft",
+    "Gaz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Plastik butilka parchalanishi?",
+   "options": [
+    "~1 yil",
+    "~1 kun",
+    "~1 oy",
+    "~450 yil"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Cho'llashish nima?",
+   "options": [
+    "Cho'l o'rmonga",
+    "Dengiz hosil",
+    "Tog' o'sishi",
+    "Yerning cho'lga aylanishi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Kislotali yomg'ir sababi?",
+   "options": [
+    "Sanoat gazlari",
+    "Oy",
+    "Shamol",
+    "Tuz"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Chiqindini saralash nima uchun?",
+   "options": [
+    "Yoqish uchun",
+    "Ko'mish uchun",
+    "Qayta ishlash uchun",
+    "Hech nima"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Elektromobil afzalligi?",
+   "options": [
+    "Ko'p tutun",
+    "Tutun chiqarmaydi",
+    "Ko'p chang",
+    "Hech nima"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Monreal protokoli nimaga?",
+   "options": [
+    "Ozon qatlamini asrash",
+    "Savdo",
+    "Urush",
+    "Sport"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Metan nima?",
+   "options": [
+    "Suv",
+    "Tosh",
+    "Metall",
+    "Issiqxona gazi"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "O'rmon kesilishi natijasi?",
+   "options": [
+    "Havo tozaligi",
+    "Yomg'ir ko'payishi",
+    "CO₂ ko'payishi",
+    "Hech nima"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Eng yaxshi shaxsiy hissa?",
+   "options": [
+    "Isrofgarchilik",
+    "Chiqindi tashlash",
+    "Hech nima",
+    "Tejamkorlik, daraxt ekish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Sanoat inqilobidan keyin CO₂ ...",
+   "options": [
+    "Oshdi",
+    "Kamaydi",
+    "O'zgarmadi",
+    "Yo'qoldi"
+   ],
+   "correct_index": 0
+  }
+ ],
+ "g9b": [
+  {
+   "question": "Ochlik asosan qayerda ko'p?",
+   "options": [
+    "Yevropa",
+    "Avstraliya",
+    "Yaponiya",
+    "Afrika va Janubiy Osiyo"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Oziqning qancha qismi isrof?",
+   "options": [
+    "~1/3",
+    "~1/100",
+    "~3/4",
+    "~0"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Qaysi BRM suvga oid?",
+   "options": [
+    "Toza suv va sanitariya",
+    "Arzon tolalar",
+    "Kosmos",
+    "Sport"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Suv tejash usuli?",
+   "options": [
+    "Ariqlarni ochiq qoldirish",
+    "Suvni to'kish",
+    "Hech nima",
+    "Tomchilatib sug'orish"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Qayta tiklanadigan energiya maqsadi 2030?",
+   "options": [
+    "~4 %",
+    "~100 %",
+    "0 %",
+    "~40 %"
+   ],
+   "correct_index": 3
+  },
+  {
+   "question": "Quyosh stansiyasi qayerda?",
+   "options": [
+    "Antarktida",
+    "Navoiy",
+    "Okean tubi",
+    "Everest"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Amudaryo suvini kim boshqaradi?",
+   "options": [
+    "Faqat bitta",
+    "Hech kim",
+    "Davlatlar birgalikda",
+    "Okean"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Qaysi sabab ochlikka olib keladi?",
+   "options": [
+    "Yomg'ir bayrami",
+    "Urush va qurg'oqchilik",
+    "Tinchlik",
+    "Ko'p hosil"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Toza ichimlik suvidan mahrum?",
+   "options": [
+    "~2 mlrd kishi",
+    "~2 ming",
+    "~2 mln",
+    "Hech kim"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Okean suvi qanday?",
+   "options": [
+    "Chuchuk",
+    "Sho'r",
+    "Distillangan",
+    "Shirin"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "BMT qachon BRM qabul qildi?",
+   "options": [
+    "1945",
+    "2015",
+    "1990",
+    "2030"
+   ],
+   "correct_index": 1
+  },
+  {
+   "question": "Hosildor navlar nima uchun?",
+   "options": [
+    "Oziq-ovqat ko'paytirish",
+    "Ochlik ko'paytirish",
+    "Suv ifloslash",
+    "Hech nima"
+   ],
+   "correct_index": 0
+  },
+  {
+   "question": "Yashil hududlar nima beradi?",
+   "options": [
+    "Ifloslanish",
+    "Chang",
+    "Toza havo",
+    "Shovqin"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Isrofgarchilikni kamaytirish?",
+   "options": [
+    "Ko'p tashlash",
+    "Ko'p ishlab chiqarish",
+    "Oziq va suvni tejash",
+    "Yo'q"
+   ],
+   "correct_index": 2
+  },
+  {
+   "question": "Barqaror rivojlanish kimga tegishli?",
+   "options": [
+    "Faqat boylarga",
+    "Faqat bir davlatga",
+    "Hammaga",
+    "Hech kimga"
+   ],
+   "correct_index": 2
+  }
+ ]
+}

@@ -152,6 +152,15 @@ def _check_lesson_extras(expl, tw, errors):
                     errors.append(f"{tw}.explanation.classify.items[{ii}]: text va to'g'ri category kerak")
             if len(errors) == n_before and len({it['category'] for it in items}) < 2:
                 errors.append(f"{tw}.explanation.classify: elementlar kamida 2 ta toifaga tegishli bo'lishi kerak")
+    for bi, b in enumerate(expl.get('blocks') or []):
+        im = b.get('image')
+        if im is not None and not (isinstance(im, dict) and str(im.get('src', '')).strip() and str(im.get('caption', '')).strip()):
+            errors.append(f"{tw}.explanation.blocks[{bi}].image: src va caption majburiy")
+    for gi, g in enumerate(expl.get('gallery') or []):
+        if not (isinstance(g, dict) and str(g.get('src', '')).strip() and str(g.get('caption', '')).strip()):
+            errors.append(f"{tw}.explanation.gallery[{gi}]: src va caption majburiy")
+        elif g.get('question') is not None:
+            _check_mcq(g['question'], f"{tw}.explanation.gallery[{gi}].question", errors)
     images = expl.get('images')
     if images is not None:
         if not isinstance(images, list):
@@ -332,7 +341,7 @@ def import_book_json(data, user):
             for key in (
                 'vocabulary', 'listening', 'reading', 'sentence_practice', 'writing_prompt', 'speaking_prompt',
                 'pretest', 'why', 'source_work', 'images', 'takeaways', 'mnemonics', 'maps', 'persons', 'classify',
-                'formulas', 'worked_examples', 'problems', 'code_trace', 'matching',
+                'formulas', 'worked_examples', 'problems', 'code_trace', 'matching', 'layout', 'gallery',
             ):
                 if expl.get(key):
                     lesson_plan[key] = expl[key]
