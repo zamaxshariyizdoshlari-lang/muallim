@@ -89,7 +89,17 @@
     "page": 77
    }
   ],
-  "summary": "Kushon imperiyasidan keyin Guptalar sulolasi (Chandragupta) Hindistonni birlashtirdi, ammo VI asrda eftaliylar hujumida parchalandi. VII asrda Xarsha imperiyasi vujudga keldi. Hindistonda kasta tuzumi saqlanib qoldi. Siyosiy tarqoqlik tufayli G'azna hukmdori Mahmud istilolari boshlandi va XIII asr boshida Dehli sultonligi tuzildi."
+  "summary": "Kushon imperiyasidan keyin Guptalar sulolasi (Chandragupta) Hindistonni birlashtirdi, ammo VI asrda eftaliylar hujumida parchalandi. VII asrda Xarsha imperiyasi vujudga keldi. Hindistonda kasta tuzumi saqlanib qoldi. Siyosiy tarqoqlik tufayli G'azna hukmdori Mahmud istilolari boshlandi va XIII asr boshida Dehli sultonligi tuzildi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m12_vaqt.svg",
+    "caption": "Hindiston tarixi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m12_kasta.svg",
+    "caption": "Hind jamiyatidagi to'rt varna"
+   }
+  ]
  },
  "test": [
   {

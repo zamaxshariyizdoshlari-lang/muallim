@@ -97,7 +97,17 @@
     "page": 141
    }
   ],
-  "summary": "Arablar zabt etilgan xalqlar madaniyatini o'zlashtirib, arab tili asosida yangi sivilizatsiya yaratdilar. Xorazmiy, Farg'oniy, Beruniy, Ibn Sino fan rivojiga hissa qo'shdi. Bayt ul-hikma, madrasalar, kutubxonalar ochildi; qog'oz keng tarqaldi. Al-Hamro, Qurdoba masjidi kabi me'morchilik durdonalari va \"Ming bir kecha\" adabiyoti yaratildi."
+  "summary": "Arablar zabt etilgan xalqlar madaniyatini o'zlashtirib, arab tili asosida yangi sivilizatsiya yaratdilar. Xorazmiy, Farg'oniy, Beruniy, Ibn Sino fan rivojiga hissa qo'shdi. Bayt ul-hikma, madrasalar, kutubxonalar ochildi; qog'oz keng tarqaldi. Al-Hamro, Qurdoba masjidi kabi me'morchilik durdonalari va \"Ming bir kecha\" adabiyoti yaratildi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m22_vaqt.svg",
+    "caption": "Arab xalifaligi madaniyati: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m22_olim.svg",
+    "caption": "Mashhur olimlar va ularning sohalari"
+   }
+  ]
  },
  "test": [
   {

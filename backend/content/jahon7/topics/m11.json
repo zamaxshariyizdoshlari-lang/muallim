@@ -93,7 +93,17 @@
     "page": 70
    }
   ],
-  "summary": "Mo'g'ullar ko'chmanchi chorvadorlar bo'lib, XII asrda mulkiy tabaqalanish kuchaydi. Temuchin 1206-yilda Chingizxon deb e'lon qilinib, markazlashgan davlat tuzdi. Kuchli otliq qo'shin yordamida mo'g'ullar Xitoy, Markaziy Osiyo, Rus, Eron va Bag'dodni zabt etdi; faqat 1260-yilda Ayn-Jalutda Misr mamluklaridan yengildi."
+  "summary": "Mo'g'ullar ko'chmanchi chorvadorlar bo'lib, XII asrda mulkiy tabaqalanish kuchaydi. Temuchin 1206-yilda Chingizxon deb e'lon qilinib, markazlashgan davlat tuzdi. Kuchli otliq qo'shin yordamida mo'g'ullar Xitoy, Markaziy Osiyo, Rus, Eron va Bag'dodni zabt etdi; faqat 1260-yilda Ayn-Jalutda Misr mamluklaridan yengildi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m11_vaqt.svg",
+    "caption": "Mo'g'ullar davlati: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m11_ulus.svg",
+    "caption": "Mo'g'ul imperiyasi uluslari"
+   }
+  ]
  },
  "test": [
   {

@@ -97,7 +97,17 @@
     "page": 61
    }
   ],
-  "summary": "Muhammad (s.a.v.) vafotidan keyin xulafoi roshidinlar davrida arablar Iroq, Suriya, Misr, Eronni fath etdi. Umaviylar Damashqda, Abbosiylar Bag'dodda hukmronlik qildi. Xalifalikda ilm-fan va madaniyat yuksaldi. Xalq qo'zg'olonlari, viloyatlarning ajralib chiqishi va saljuqiy hamda mo'g'ullar hujumi xalifalikni 1258-yilda barham toptirdi."
+  "summary": "Muhammad (s.a.v.) vafotidan keyin xulafoi roshidinlar davrida arablar Iroq, Suriya, Misr, Eronni fath etdi. Umaviylar Damashqda, Abbosiylar Bag'dodda hukmronlik qildi. Xalifalikda ilm-fan va madaniyat yuksaldi. Xalq qo'zg'olonlari, viloyatlarning ajralib chiqishi va saljuqiy hamda mo'g'ullar hujumi xalifalikni 1258-yilda barham toptirdi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m09_vaqt.svg",
+    "caption": "Arab xalifaligi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m09_sulola.svg",
+    "caption": "Umaviylar va Abbosiylar"
+   }
+  ]
  },
  "test": [
   {

@@ -89,7 +89,17 @@
     "page": 135
    }
   ],
-  "summary": "Buyuk Karl davrida Karolinglar uyg'onishi boshlandi: maktablar va saroy akademiyasi ochildi. Vizantiya madaniyati antik an'analarni saqlab qoldi, Ayo Sofiya uning cho'qqisi edi. G'arbda maktablarda yetti erkin san'at o'qitilgan, XI-XII asrlarda Boloniya, Parij, Oksford, Kembrij universitetlari paydo bo'ldi."
+  "summary": "Buyuk Karl davrida Karolinglar uyg'onishi boshlandi: maktablar va saroy akademiyasi ochildi. Vizantiya madaniyati antik an'analarni saqlab qoldi, Ayo Sofiya uning cho'qqisi edi. G'arbda maktablarda yetti erkin san'at o'qitilgan, XI-XII asrlarda Boloniya, Parij, Oksford, Kembrij universitetlari paydo bo'ldi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m21_vaqt.svg",
+    "caption": "Yevropa madaniyati: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m21_uslub.svg",
+    "caption": "Roman va gotika uslubi"
+   }
+  ]
  },
  "test": [
   {

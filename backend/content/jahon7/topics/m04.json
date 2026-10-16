@@ -115,7 +115,17 @@
     "page": 29
    }
   ],
-  "summary": "Britaniya aholisi kelt-brittlar rimliklar ketgach, anglosakslarga (angl, saks, yut) yo'liqdi; ular qirolliklar tuzib, 829-yilda Ekbert davrida Angliya nomi ostida birlashdi. Normannlar hujumini Buyuk Alfred qaytardi, ammo XI asrda daniyaliklar, so'ng Vilgelm I boshchiligidagi normandlar Angliyani egalladi."
+  "summary": "Britaniya aholisi kelt-brittlar rimliklar ketgach, anglosakslarga (angl, saks, yut) yo'liqdi; ular qirolliklar tuzib, 829-yilda Ekbert davrida Angliya nomi ostida birlashdi. Normannlar hujumini Buyuk Alfred qaytardi, ammo XI asrda daniyaliklar, so'ng Vilgelm I boshchiligidagi normandlar Angliyani egalladi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m04_vaqt.svg",
+    "caption": "Angliya tarixi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m04_tuzum.svg",
+    "caption": "Angliyada davlat tuzumi"
+   }
+  ]
  },
  "test": [
   {

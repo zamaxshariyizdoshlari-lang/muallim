@@ -115,7 +115,17 @@
     "page": 149
    }
   ],
-  "summary": "Xitoyliklar choy, bayramlar, ixtirolar (porox, kompas, seysmograf, kitob bosish) bilan mashhur. Koreyaga konfutsiylik, buddizm va islom kirib kelgan. Yaponiya xitoy yozuvi asosida o'z alifbosini yaratgan. Hindistonda o'nlik raqam tizimi, Ajanta ibodatxonasi, sanskrit adabiyoti va shaxmat paydo bo'lgan; musulmonlar davrida masjid va minoralar qurilgan."
+  "summary": "Xitoyliklar choy, bayramlar, ixtirolar (porox, kompas, seysmograf, kitob bosish) bilan mashhur. Koreyaga konfutsiylik, buddizm va islom kirib kelgan. Yaponiya xitoy yozuvi asosida o'z alifbosini yaratgan. Hindistonda o'nlik raqam tizimi, Ajanta ibodatxonasi, sanskrit adabiyoti va shaxmat paydo bo'lgan; musulmonlar davrida masjid va minoralar qurilgan.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m23_vaqt.svg",
+    "caption": "Sharq xalqlari madaniyati: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m23_din.svg",
+    "caption": "Sharq xalqlarining dinlari"
+   }
+  ]
  },
  "test": [
   {

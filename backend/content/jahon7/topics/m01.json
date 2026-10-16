@@ -89,7 +89,17 @@
     "page": 11
    }
   ],
-  "summary": "German qabilalari Rim imperiyasining shimolida yashagan, urug'-qabila tuzumida bo'lgan. Imperiya qullar mehnati va og'ir soliqlar tufayli inqirozga yuz tutdi, 395-yilda ikkiga bo'lindi. Xunnlar bosimi bilan german qabilalari G'arbiy Rimga bostirib kirdi va o'z qirolliklarini tuzdi; 476-yilda G'arbiy Rim imperiyasi tugadi."
+  "summary": "German qabilalari Rim imperiyasining shimolida yashagan, urug'-qabila tuzumida bo'lgan. Imperiya qullar mehnati va og'ir soliqlar tufayli inqirozga yuz tutdi, 395-yilda ikkiga bo'lindi. Xunnlar bosimi bilan german qabilalari G'arbiy Rimga bostirib kirdi va o'z qirolliklarini tuzdi; 476-yilda G'arbiy Rim imperiyasi tugadi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m01_vaqt.svg",
+    "caption": "German qabilalari va Rim: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m01_sabab.svg",
+    "caption": "Rim imperiyasi inqirozi sabablari"
+   }
+  ]
  },
  "test": [
   {

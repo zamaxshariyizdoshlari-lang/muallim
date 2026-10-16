@@ -97,7 +97,17 @@
     "page": 47
    }
   ],
-  "summary": "Slavyanlar g'arbiy, sharqiy va janubiy guruhlarga bo'lingan. Kirill va Mefodiy slavyan yozuvini yaratdi. VII-X asrlarda Bulg'oriya, Moraviya, Chexiya, Polsha davlatlari tuzildi. Sharqiy slavyanlar yerlarida Oleg 882-yilda Kiyev Rusiga asos soldi, Vladimir xristianlikni qabul qildi, Yaroslav Donishmand davrida madaniyat va qonunchilik rivojlandi."
+  "summary": "Slavyanlar g'arbiy, sharqiy va janubiy guruhlarga bo'lingan. Kirill va Mefodiy slavyan yozuvini yaratdi. VII-X asrlarda Bulg'oriya, Moraviya, Chexiya, Polsha davlatlari tuzildi. Sharqiy slavyanlar yerlarida Oleg 882-yilda Kiyev Rusiga asos soldi, Vladimir xristianlikni qabul qildi, Yaroslav Donishmand davrida madaniyat va qonunchilik rivojlandi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m07_vaqt.svg",
+    "caption": "Slavyanlar davlatlari: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m07_guruh.svg",
+    "caption": "Slavyanlarning uch tarmog'i"
+   }
+  ]
  },
  "test": [
   {

@@ -97,7 +97,17 @@
     "page": 94
    }
   ],
-  "summary": "Amerikaga odamlar Shimoliy Osiyodan Bering bo'g'ozi orqali o'tgan. Mayyalar iyeroglif yozuvi, taqvim va nol belgisini yaratgan, asteklar Tenochtitlanda sug'orma dehqonchilik va hunarmandchilikni rivojlantirgan, inklar And tog'larida Kusko markazli markazlashgan davlat qurgan. Hammasi temir va g'ildirakni bilmagan, makkajo'xori va kartoshka ekkan."
+  "summary": "Amerikaga odamlar Shimoliy Osiyodan Bering bo'g'ozi orqali o'tgan. Mayyalar iyeroglif yozuvi, taqvim va nol belgisini yaratgan, asteklar Tenochtitlanda sug'orma dehqonchilik va hunarmandchilikni rivojlantirgan, inklar And tog'larida Kusko markazli markazlashgan davlat qurgan. Hammasi temir va g'ildirakni bilmagan, makkajo'xori va kartoshka ekkan.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m16_vaqt.svg",
+    "caption": "Amerika xalqlari: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m16_xalq.svg",
+    "caption": "Amerikaning uch buyuk xalqi"
+   }
+  ]
  },
  "test": [
   {

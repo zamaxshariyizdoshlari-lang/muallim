@@ -107,7 +107,17 @@
     "page": 122
    }
   ],
-  "summary": "X-XI asrlarda hunarmandchilik dehqonchilikdan ajralib, savdo yo'llari va qal'alar yonida shaharlar vujudga keldi. Shaharliklar senyorlardan mustaqillik uchun kurashdi. Hunarmandlar sexlarga birlashdi, keyinchalik xalfalar va ustalar o'rtasida ziddiyat paydo bo'ldi. Tovar xo'jaligi, bozorlar, bank va birjalar rivojlandi; Levant va Shimoliy savdo yo'llari muhim edi."
+  "summary": "X-XI asrlarda hunarmandchilik dehqonchilikdan ajralib, savdo yo'llari va qal'alar yonida shaharlar vujudga keldi. Shaharliklar senyorlardan mustaqillik uchun kurashdi. Hunarmandlar sexlarga birlashdi, keyinchalik xalfalar va ustalar o'rtasida ziddiyat paydo bo'ldi. Tovar xo'jaligi, bozorlar, bank va birjalar rivojlandi; Levant va Shimoliy savdo yo'llari muhim edi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m19_vaqt.svg",
+    "caption": "Yevropa shaharlari: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m19_sinf.svg",
+    "caption": "O'rta asr shahri aholisi"
+   }
+  ]
  },
  "test": [
   {

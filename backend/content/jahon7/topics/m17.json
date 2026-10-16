@@ -97,7 +97,17 @@
     "page": 105
    }
   ],
-  "summary": "Xristianlik IV asrdan german qabilalariga tarqaldi. 1054-yilda cherkov G'arbiy katolik va Sharqiy pravoslavga bo'lindi. Cherkov ulkan yerlar, ushr va indulgensiya savdosi hisobiga boyib, Innokentiy III davrida cho'qqiga chiqdi. Cherkovga qarshi chiqqan yeretiklarni jazolash uchun inkvizitsiya tuzildi."
+  "summary": "Xristianlik IV asrdan german qabilalariga tarqaldi. 1054-yilda cherkov G'arbiy katolik va Sharqiy pravoslavga bo'lindi. Cherkov ulkan yerlar, ushr va indulgensiya savdosi hisobiga boyib, Innokentiy III davrida cho'qqiga chiqdi. Cherkovga qarshi chiqqan yeretiklarni jazolash uchun inkvizitsiya tuzildi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m17_vaqt.svg",
+    "caption": "Xristian olamidagi o'zgarishlar: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m17_cherkov.svg",
+    "caption": "Katolik va pravoslav"
+   }
+  ]
  },
  "test": [
   {

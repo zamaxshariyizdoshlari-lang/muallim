@@ -93,7 +93,17 @@
     "page": 35
    }
   ],
-  "summary": "Sharqiy Frank qirolligida 919-yilda Genrix I saylanib, Germaniya qirolligi vujudga keldi. Otton I vengerlarni yengib, 962-yilda imperator bo'ldi va Muqaddas Rim imperiyasiga asos soldi. Imperatorlar cherkovni nazorat qilmoqchi bo'ldi, papalar esa qarshilik qildi. Fridrix I Barbarossa davrida imperiya kuchining cho'qqisiga chiqdi."
+  "summary": "Sharqiy Frank qirolligida 919-yilda Genrix I saylanib, Germaniya qirolligi vujudga keldi. Otton I vengerlarni yengib, 962-yilda imperator bo'ldi va Muqaddas Rim imperiyasiga asos soldi. Imperatorlar cherkovni nazorat qilmoqchi bo'ldi, papalar esa qarshilik qildi. Fridrix I Barbarossa davrida imperiya kuchining cho'qqisiga chiqdi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m05_vaqt.svg",
+    "caption": "Muqaddas Rim imperiyasi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m05_kuch.svg",
+    "caption": "Imperator va papa kurashi"
+   }
+  ]
  },
  "test": [
   {

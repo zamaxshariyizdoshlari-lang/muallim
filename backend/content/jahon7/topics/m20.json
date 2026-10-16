@@ -89,7 +89,17 @@
     "page": 128
    }
   ],
-  "summary": "Osiyo shaharlari ma'muriy markaz va qal'alar o'rnida paydo bo'lib, davlat yerlarida joylashgani sababli feodallarga qarshi kurashmagan. Xitoy shaharlarida maishiy xizmat yaxshi yo'lga qo'yilgan, O'rta Osiyo shaharlari ark, shahriston va rabodga bo'lingan. Buyuk Ipak yo'li va dengiz yo'llari savdoni rivojlantirgan."
+  "summary": "Osiyo shaharlari ma'muriy markaz va qal'alar o'rnida paydo bo'lib, davlat yerlarida joylashgani sababli feodallarga qarshi kurashmagan. Xitoy shaharlarida maishiy xizmat yaxshi yo'lga qo'yilgan, O'rta Osiyo shaharlari ark, shahriston va rabodga bo'lingan. Buyuk Ipak yo'li va dengiz yo'llari savdoni rivojlantirgan.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m20_vaqt.svg",
+    "caption": "Osiyo shaharlari: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m20_taqqos.svg",
+    "caption": "Yevropa va Osiyo shaharlari"
+   }
+  ]
  },
  "test": [
   {

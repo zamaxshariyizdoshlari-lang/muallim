@@ -89,7 +89,17 @@
     "page": 41
    }
   ],
-  "summary": "Sharqiy Rim imperiyasi - Vizantiya - Konstantinopolda vasilevs boshqaruvida mavjud bo'ldi, uning poytaxti savdo va hunarmandchilik markazi edi. Yustinian I davrida u cho'qqiga chiqdi: Ayo Sofiya qurildi, Rim qonunlari majmui tuzildi, Afrika va Italiya qo'shib olindi. Keyingi asrlarda arablar, slavyanlar, saljuqiylar hujumi tufayli imperiya qisqardi, diplomatiya esa rivojlandi."
+  "summary": "Sharqiy Rim imperiyasi - Vizantiya - Konstantinopolda vasilevs boshqaruvida mavjud bo'ldi, uning poytaxti savdo va hunarmandchilik markazi edi. Yustinian I davrida u cho'qqiga chiqdi: Ayo Sofiya qurildi, Rim qonunlari majmui tuzildi, Afrika va Italiya qo'shib olindi. Keyingi asrlarda arablar, slavyanlar, saljuqiylar hujumi tufayli imperiya qisqardi, diplomatiya esa rivojlandi.",
+  "images": [
+   {
+    "src": "/jahon7/j7_m06_vaqt.svg",
+    "caption": "Vizantiya tarixi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon7/j7_m06_yustinian.svg",
+    "caption": "Yustinian islohotlari"
+   }
+  ]
  },
  "test": [
   {
