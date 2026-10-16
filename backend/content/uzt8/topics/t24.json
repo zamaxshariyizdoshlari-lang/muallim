@@ -92,7 +92,17 @@
     "page": 189
    }
   ],
-  "summary": "Alisher Navoiy 1441-yilda Hirotda tug'ilib, Sulton Husayn Mirzo saroyida vazir bo'ldi. U Hirotda madrasa, xonaqoh, shifoxona, rabot, ko'prik, hovuz qurdirib, ilm-fan homiysi bo'ldi. Uning asarlari adabiyot bilan birga tarixiy manba hamdir. Haykallari dunyoning ko'plab shaharlarida o'rnatilgan."
+  "summary": "Alisher Navoiy 1441-yilda Hirotda tug'ilib, Sulton Husayn Mirzo saroyida vazir bo'ldi. U Hirotda madrasa, xonaqoh, shifoxona, rabot, ko'prik, hovuz qurdirib, ilm-fan homiysi bo'ldi. Uning asarlari adabiyot bilan birga tarixiy manba hamdir. Haykallari dunyoning ko'plab shaharlarida o'rnatilgan.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t24_vaqt.svg",
+    "caption": "Alisher Navoiy: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t24_asar.svg",
+    "caption": "Navoiy asarlari"
+   }
+  ]
  },
  "test": [
   {

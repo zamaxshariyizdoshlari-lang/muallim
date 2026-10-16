@@ -132,7 +132,17 @@
     "page": 48
    }
   ],
-  "summary": "Sind bo'yidagi mag'lubiyatdan so'ng Jaloliddin Hindistonda davlat tuzdi, so'ng Iroqqa o'tib, Kirmon, Fors, Isfahonni, Ozarbayjon, Shirvon va Gurjistonni birlashtirdi. Mo'g'ullarga qarshi ittifoq tuza olmadi: xalifa, Ko'niya sultoni va ukasi xiyonat qildi. 1231-yilda kurdlar qo'lida halok bo'ldi. Mustaqillik yillarida uning nomi qayta tiklandi."
+  "summary": "Sind bo'yidagi mag'lubiyatdan so'ng Jaloliddin Hindistonda davlat tuzdi, so'ng Iroqqa o'tib, Kirmon, Fors, Isfahonni, Ozarbayjon, Shirvon va Gurjistonni birlashtirdi. Mo'g'ullarga qarshi ittifoq tuza olmadi: xalifa, Ko'niya sultoni va ukasi xiyonat qildi. 1231-yilda kurdlar qo'lida halok bo'ldi. Mustaqillik yillarida uning nomi qayta tiklandi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t05_vaqt.svg",
+    "caption": "Davlatni tiklash yo'li: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t05_sabab.svg",
+    "caption": "Muvaffaqiyatsizlik sabablari"
+   }
+  ]
  },
  "test": [
   {

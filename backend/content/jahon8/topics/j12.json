@@ -86,7 +86,17 @@
     "page": 76
    }
   ],
-  "summary": "Mo'g'ullar bosqinidan keyin Eronda Hulokuiylar (Elxoniylar) davlati vujudga keldi. G'ozonxon islom davlat dini qildi, soliq va pul islohotlarini o'tkazdi. XIV asrdan davlat parchalanib, Jaloyiriylar, Muzaffariylar, Sarbadorlar, so'ng Qora qo'yunlilar va Oq qo'yunlilar davlatlari paydo bo'ldi. Amir Temur Eronni egallab tarqoqlikka chek qo'ydi."
+  "summary": "Mo'g'ullar bosqinidan keyin Eronda Hulokuiylar (Elxoniylar) davlati vujudga keldi. G'ozonxon islom davlat dini qildi, soliq va pul islohotlarini o'tkazdi. XIV asrdan davlat parchalanib, Jaloyiriylar, Muzaffariylar, Sarbadorlar, so'ng Qora qo'yunlilar va Oq qo'yunlilar davlatlari paydo bo'ldi. Amir Temur Eronni egallab tarqoqlikka chek qo'ydi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j12_vaqt.svg",
+    "caption": "Eron: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j12_ada.svg",
+    "caption": "Eron adabiyoti"
+   }
+  ]
  },
  "test": [
   {

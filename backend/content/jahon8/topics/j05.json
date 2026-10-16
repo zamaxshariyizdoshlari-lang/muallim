@@ -90,7 +90,17 @@
     "page": 34
    }
   ],
-  "summary": "Angliyada soliqlarning ko'payishi, Viklif va Boll g'oyalari 1381-yilda Uot Tayler qo'zg'olonini keltirib chiqardi. Qo'zg'olon bostirilsa-da, XV asrda dehqonlar ozod bo'ldi. 1455-1485-yillarda Lankasterlar va Yorklar o'rtasidagi sulolaviy \"Oq va qizil gullar urushi\" bo'ldi."
+  "summary": "Angliyada soliqlarning ko'payishi, Viklif va Boll g'oyalari 1381-yilda Uot Tayler qo'zg'olonini keltirib chiqardi. Qo'zg'olon bostirilsa-da, XV asrda dehqonlar ozod bo'ldi. 1455-1485-yillarda Lankasterlar va Yorklar o'rtasidagi sulolaviy \"Oq va qizil gullar urushi\" bo'ldi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j05_vaqt.svg",
+    "caption": "XIV-XV asrlarda Angliya: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j05_atirgul.svg",
+    "caption": "Qizil va Oq atirgullar urushi"
+   }
+  ]
  },
  "test": [
   {

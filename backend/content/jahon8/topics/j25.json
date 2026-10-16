@@ -97,7 +97,17 @@
     "page": 157
    }
   ],
-  "summary": "Osiyoda astronomiya (Marog'a, Samarqand), geografiya, akademiyalar (Ulug'bek, Sejong), me'morchilik (Oltin pavilyon) rivojlandi. Afrikada Mali va Songayning madrasalari, haykaltaroshlik va niqob san'ati mashhur bo'ldi. Amerikada atsteklar astronomiya va qurilishda, inklar yo'llar, kipu va maktablarda yutuqlarga erishdi."
+  "summary": "Osiyoda astronomiya (Marog'a, Samarqand), geografiya, akademiyalar (Ulug'bek, Sejong), me'morchilik (Oltin pavilyon) rivojlandi. Afrikada Mali va Songayning madrasalari, haykaltaroshlik va niqob san'ati mashhur bo'ldi. Amerikada atsteklar astronomiya va qurilishda, inklar yo'llar, kipu va maktablarda yutuqlarga erishdi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j25_vaqt.svg",
+    "caption": "Boshqa qit'alar madaniyati: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j25_ilm.svg",
+    "caption": "Sharq ilm-fani"
+   }
+  ]
  },
  "test": [
   {

@@ -104,7 +104,17 @@
     "page": 83
    }
   ],
-  "summary": "Oltin O'rda Botuxon tomonidan Volga bo'yida tuzildi, poytaxti Saroy Botu. Xonlar chingiziylardan bo'lib, qurultoyda saylangan. Rus knyazliklari vassal bo'lib o'lpon to'lagan. O'zbekxon va Jonibekxon davrida davlat yuksaldi. Keyin taxt uchun kurash, Temurning zarbalari va ruslarning birlashishi natijasida Oltin O'rda inqirozga uchradi."
+  "summary": "Oltin O'rda Botuxon tomonidan Volga bo'yida tuzildi, poytaxti Saroy Botu. Xonlar chingiziylardan bo'lib, qurultoyda saylangan. Rus knyazliklari vassal bo'lib o'lpon to'lagan. O'zbekxon va Jonibekxon davrida davlat yuksaldi. Keyin taxt uchun kurash, Temurning zarbalari va ruslarning birlashishi natijasida Oltin O'rda inqirozga uchradi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j13_vaqt.svg",
+    "caption": "Oltin O'rda: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j13_tuzum.svg",
+    "caption": "Oltin O'rda hokimiyat tuzilmasi"
+   }
+  ]
  },
  "test": [
   {

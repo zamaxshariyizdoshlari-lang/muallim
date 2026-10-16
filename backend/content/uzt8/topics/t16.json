@@ -129,7 +129,17 @@
     "page": 144
    }
   ],
-  "summary": "Temur sug'orish kanallarini qazdirib, bo'z yerlarni o'zlashtirdi. Samarqand yangitdan qurilib, masjid, saroy va bog'lar bilan bezatildi. Eron, Suriya, Kichik Osiyodan ustalar keltirildi, hunarmandchilik, qog'ozsozlik rivojlandi. Temur zabt etgan shaharlarni ham qayta qurdi."
+  "summary": "Temur sug'orish kanallarini qazdirib, bo'z yerlarni o'zlashtirdi. Samarqand yangitdan qurilib, masjid, saroy va bog'lar bilan bezatildi. Eron, Suriya, Kichik Osiyodan ustalar keltirildi, hunarmandchilik, qog'ozsozlik rivojlandi. Temur zabt etgan shaharlarni ham qayta qurdi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t16_vaqt.svg",
+    "caption": "Obodonlashtirish: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t16_bino.svg",
+    "caption": "Temur davri binolari"
+   }
+  ]
  },
  "test": [
   {

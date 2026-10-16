@@ -97,7 +97,17 @@
     "page": 107
    }
   ],
-  "summary": "Afrikada Nil vodiysida qadimgi sivilizatsiya paydo bo'lgan, G'arbiy Afrikada Gana, Mali, Songay oltin va tuz savdosi bilan yuksalgan; Janubda Monomotapa gullab-yashnagan. Biroq qit'a geografik ajralganligi, neolit inqilobining kechikishi va doimiy urushlar tufayli Yevropa va Osiyodan orqada qoldi."
+  "summary": "Afrikada Nil vodiysida qadimgi sivilizatsiya paydo bo'lgan, G'arbiy Afrikada Gana, Mali, Songay oltin va tuz savdosi bilan yuksalgan; Janubda Monomotapa gullab-yashnagan. Biroq qit'a geografik ajralganligi, neolit inqilobining kechikishi va doimiy urushlar tufayli Yevropa va Osiyodan orqada qoldi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j17_vaqt.svg",
+    "caption": "Afrika: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j17_davlat.svg",
+    "caption": "G'arbiy Afrika davlatlari"
+   }
+  ]
  },
  "test": [
   {

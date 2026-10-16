@@ -1,129 +1,827 @@
 {
-  "key": "p26", "title": "26-§. Afinada demokratiya", "start_page": 95, "end_page": 98,
-  "explanation": {
-    "takeaways": ["Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan; demokratiya - 'xalq hokimiyati' (demos - xalq, kratos - hokimiyat).", "Drakont (mil. avv. 621) qattiq qonunlar yozgan; Solon (594) aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan.", "Perikl davrida (443-429) Afina eng qudratli bo'lgan; Parfenon qurilgan; ayollar va chet elliklar Xalq majlisida qatnasha olmagan."],
-    "goals": ["Demokratiya tushunchasi va Afinada uning shakllanishini bilish", "Drakont, Solon va Perikl davri o'zgarishlarini tartib bilan tushuntirish"],
-    "blocks": [
-      { "heading": "Demokratiyaning shakllanishi", "pages": [95],
-        "text": "Afina shahrida savdo-sotiq, sud va harbiy sohalarga oid muhim masalalar xalq yig'inida muhokama qilingan. Xalq yig'ilgan joy - shahar maydoni esa agora deb yuritilgan. U Akropol tevaragida joylashgan. Afina shahrida barcha erkak fuqarolar davlatni qanday boshqarish kerakligi xususida o'z fikr-mulohazalarini bayon eta olar edi. Ular yuzaga kelgan muammolar va yangi qonunlarni muhokama qilish uchun har oyda to'rt marta agorada yig'ilardi. Barcha qarorlar ovoz berish yo'li bilan qabul qilingan. Boshqaruvning bu shakli demokratiya deb ataladi, bu atama \"xalq hokimiyati\" degan ma'noni anglatadi (demos - \"xalq\" va kratos - \"hokimiyat\")." },
-      { "heading": "Drakont qonunlari", "pages": [95, 96],
-        "text": "Afinani idora qilishda Oqsoqollar kengashi muhim ahamiyatga ega bo'lgan. Shu kengash hokimlar va sudyalarni saylagan. Ular kengash a'zolari singari faqat Afina aslzodalaridan bo'lgan. Afinada aholining bir qismini zodagonlar (aristokratlar) tashkil etgan, boshqa bir qismi - oddiy xalq ularning foydasiga ishlashga majbur edi. Shu bois Afina davlati aholisi o'rtasida kelishmovchilik va nizolar vujudga kelgan.\n\nAdolat qaror topishini xohlagan har ikkala tomon Drakont ismli hukmdorga murojaat etadi. Ular Drakontdan huquq va majburiyatlar borasida hammani tenglashtiruvchi qonunlar yozishni iltimos qiladi. Mil. avv. 621-yilda Drakont qonunlarni yozadi va amalga kiritadi. Bu qonunlar shu qadar qattiq va ayovsiz ediki, afinaliklar ularga \"siyoh qolib, qon bilan yozilgan\" deya ta'rif berishgan. Qonunlarni buzganlik uchun Drakont bitta jazoni - o'lim jazosini belgilagan. Dastlab afinaliklar bu qonunlarga itoat etishgan, so'ngra norozi bo'la boshlashgan va qonunchi Drakontni shahardan haydab yuborishgan." },
-      { "heading": "Solon islohotlari", "pages": [96, 97],
-        "text": "Afina davlatida xalq aslzodalar hukmronligidan norozi edi. Xalqning ahvoli tobora yomonlashaverdi, shunda odamlar o'z haq-huquqlari uchun kurashga bel bog'ladi. Ular zodagonlarning uy-qo'rg'onlariga hujum qila boshladi. Xalq zodagonlarga qarshi qo'zg'olon ko'taradi. O'z yeri va jonidan xavotirlangan zodagonlar yon berishga va xalq talablarining bir qismini bajarishga majbur bo'ladi.\n\nO'ta bilimdon va tajribali Solon degan zodagon xalqqa yon berishning qattiq tarafdori bo'lgan. Zodagonlar Solonga ishondi va uni Afina hukmdori etib sayladi. Mil. avv. 594-yilda Solon davlatni idora qilishning oldingi tizimini o'zgartirdi. Avvalgi boshqaruv tizimi - aristokratiya (aslzodalar hokimiyati)ni demokratiya (xalq hokimiyati)ga almashtirdi. Solonning taklifi bilan dehqonlar qarzdorlarni qul qilishi bekor bo'ldi. Xalq majlisi faoliyati tiklanib, davlat boshqaruvidagi oliy tashkilotga aylandi. Davlatni boshqarishda faqat erkak fuqarolar ishtirok eta olardi. Ayollar va chet elliklar qabul qilinayotgan qonunlar muhokamasida va ovoz berishda ishtirok eta olmasdi." },
-      { "heading": "Afinada demokratiya ravnaqi", "pages": [97, 98],
-        "text": "Barcha erkak fuqarolar 20 yoshdan boshlab Xalq majlisida ishtirok etardi. Xalq majlisining katta qismi hunarmandlar, savdogarlar, yollanib ishlovchilar, dehqonlardan iborat bo'lgan. Xalq majlisida omma uchun foydali qarorlar qabul qilingan. Xalq majlisi yangi qonunlarni tasdiqlar, eski qonunlarni bekor qilar, boshqa qarorlar, masalan, yangi inshootlar qurilishiga, armiyaga va boshqalarga mablag' ajratish to'g'risida qaror qabul qilar edi.\n\nHar yili saylanadigan Beshyuzlar kengashi kundalik joriy masalalarga yechim topardi. Beshyuzlar kengashiga strateg rahbarlik qilgan. Kengash qarorlari Xalq majlisida tasdiqlangan. Xalq sudi ham Afinada muhim davlat organi bo'lgan. 30 yoshga to'lgan fuqarolar uning faoliyatida ishtirok etar edi. Sudda ayblanuvchi shaxs o'zini-o'zi himoya qila bilishi yoki chiroyli so'zlay oladigan va qonunlarni biladigan odamni yollashi kerak bo'lgan." },
-      { "heading": "\"Perikl asri\"", "pages": [98],
-        "text": "Mil. avv. 443-429-yillarda 15 marotaba strateg lavozimiga saylangan Perikl hukmronligi davrida Afina eng qudratli davlatga aylandi va mamlakatda demokratiya ravnaq topdi. Bu davr shuning uchun ham \"Perikl asri\" deb atalgan. Ajoyib yunon yozuvchilari, olimlari va rassomlari Periklning do'stlari bo'lgan. Perikl tarixchi Gerodot, haykaltarosh Fidiy bilan do'st tutingan edi. Perikl Xalq majlisidagi lavozimlarga ish haqi to'lashni joriy qildi. Perikl hukmronligi davrida Afinada katta qurilish ishlari amalga oshirildi. U Akropolda qurilgan mashhur inshoot Parfenon - ma'buda Afina ibodatxonasining tashabbuskori bo'lgan. Kam ta'minlangan oilalar teatr-spektakllarni borib ko'rishi uchun pul jamg'armasi tashkil etilgan." }
+ "key": "p26",
+ "title": "26-§. Afinada demokratiya",
+ "start_page": 95,
+ "end_page": 98,
+ "explanation": {
+  "takeaways": [
+   "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan; demokratiya - 'xalq hokimiyati' (demos - xalq, kratos - hokimiyat).",
+   "Drakont (mil. avv. 621) qattiq qonunlar yozgan; Solon (594) aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan.",
+   "Perikl davrida (443-429) Afina eng qudratli bo'lgan; Parfenon qurilgan; ayollar va chet elliklar Xalq majlisida qatnasha olmagan."
+  ],
+  "goals": [
+   "Demokratiya tushunchasi va Afinada uning shakllanishini bilish",
+   "Drakont, Solon va Perikl davri o'zgarishlarini tartib bilan tushuntirish"
+  ],
+  "blocks": [
+   {
+    "heading": "Demokratiyaning shakllanishi",
+    "pages": [
+     95
     ],
-    "key_facts": [
-      { "fact": "Afinada xalq yig'ini o'tadigan shahar maydoni agora, Akropol tevaragida joylashgan; yig'in oyiga to'rt marta o'tgan", "page": 95 },
-      { "fact": "Demokratiya - \"xalq hokimiyati\" (demos - xalq, kratos - hokimiyat)", "page": 95 },
-      { "fact": "Mil. avv. 621-yilda Drakont qattiq qonunlar yozgan; ular \"siyoh qolib, qon bilan yozilgan\" deb ataladi, jazo - o'lim", "page": 96 },
-      { "fact": "Mil. avv. 594-yilda Solon aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan", "page": 97 },
-      { "fact": "Mil. avv. 443-429-yillarda Perikl 15 marta strateg saylanib, Afina eng qudratli bo'lgan; \"Perikl asri\"; Parfenon", "page": 98 }
+    "text": "Afina shahrida savdo-sotiq, sud va harbiy sohalarga oid muhim masalalar xalq yig'inida muhokama qilingan. Xalq yig'ilgan joy - shahar maydoni esa agora deb yuritilgan. U Akropol tevaragida joylashgan. Afina shahrida barcha erkak fuqarolar davlatni qanday boshqarish kerakligi xususida o'z fikr-mulohazalarini bayon eta olar edi. Ular yuzaga kelgan muammolar va yangi qonunlarni muhokama qilish uchun har oyda to'rt marta agorada yig'ilardi. Barcha qarorlar ovoz berish yo'li bilan qabul qilingan. Boshqaruvning bu shakli demokratiya deb ataladi, bu atama \"xalq hokimiyati\" degan ma'noni anglatadi (demos - \"xalq\" va kratos - \"hokimiyat\")."
+   },
+   {
+    "heading": "Drakont qonunlari",
+    "pages": [
+     95,
+     96
     ],
-    "why": {
-      "causes": [
-        "Afinada aslzodalar va oddiy xalq o'rtasida kelishmovchilik va nizolar vujudga keldi",
-        "Aslzodalar hukmronligidan norozi xalqning ahvoli tobora yomonlashdi va u qo'zg'olon ko'tardi",
-        "Drakont qonunlari juda qattiq bo'lib, bitta jazo — o'lim jazosini belgilagan"
-      ],
-      "effects": [
-        "Afinaliklar Drakont qonunlaridan norozi bo'lib, qonunchini shahardan haydab yubordi",
-        "Zodagonlar yon berishga majbur bo'ldi: Solon mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirdi, qarzdorlarni qul qilish bekor bo'ldi",
-        "Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi, barcha qarorlar ovoz berish yo'li bilan qabul qilindi",
-        "Perikl davrida Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, Parfenon va boshqa inshootlar qurildi"
-      ]
-    },
-    "summary": "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan (demokratiya). Drakont (621) qattiq qonunlar bilan, Solon (594) esa islohotlar bilan aristokratiyani demokratiyaga almashtirdi. Perikl (443-429) davrida demokratiya va Afina eng yuksak darajaga chiqdi, Parfenon qurildi."
-  },
-  "presentation": { "slides": [
-    { "title": "26-§. Afinada demokratiya", "bullets": [], "page": null },
-    { "title": "Xalq yig'ini", "bullets": ["Agora - shahar maydoni", "Oyiga 4 marta", "Ovoz berish yo'li bilan qaror"], "page": 95 },
-    { "title": "Demokratiya", "bullets": ["\"Xalq hokimiyati\"", "Demos - xalq, kratos - hokimiyat"], "page": 95 },
-    { "title": "Drakont", "bullets": ["Mil. avv. 621-yil", "\"Siyoh qolib, qon bilan\" yozilgan qonunlar", "Jazo - o'lim"], "page": 96 },
-    { "title": "Solon", "bullets": ["Mil. avv. 594-yil", "Aristokratiya -> demokratiya", "Qarzdorlarni qul qilish bekor"], "page": 97 },
-    { "title": "Boshqaruv organlari", "bullets": ["Xalq majlisi (20 yoshdan)", "Beshyuzlar kengashi, strateg", "Xalq sudi (30 yoshdan)"], "page": 98 },
-    { "title": "Perikl asri", "bullets": ["Mil. avv. 443-429-yillar", "15 marta strateg", "Parfenon"], "page": 98 }
-  ] },
-  "games": {
-    "timeline": { "items": [
-      { "label": "Mil. avv. 621-yilda Drakont qattiq qonunlarni yozadi", "page": 96 },
-      { "label": "Mil. avv. 594-yilda Solon aristokratiyani demokratiyaga almashtiradi", "page": 97 },
-      { "label": "Mil. avv. 443-429-yillarda Perikl 15 marta strateg lavozimiga saylanadi", "page": 98 }
-    ] },
-    "matching": { "pairs": [
-      { "left": "Agora", "right": "Xalq yig'ini o'tadigan shahar maydoni", "page": 95 },
-      { "left": "Demokratiya", "right": "\"Xalq hokimiyati\"", "page": 95 },
-      { "left": "Oqsoqollar kengashi", "right": "Hokimlar va sudyalarni saylagan aslzodalar kengashi", "page": 95 },
-      { "left": "Drakont", "right": "\"Siyoh qolib, qon bilan yozilgan\" qonunlar muallifi", "page": 96 },
-      { "left": "Solon", "right": "Mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirgan hukmdor", "page": 97 },
-      { "left": "Beshyuzlar kengashi", "right": "Har yili saylanib, joriy masalalarni hal qilgan organ", "page": 98 },
-      { "left": "Strateg", "right": "Beshyuzlar kengashiga rahbarlik qilgan lavozim", "page": 98 },
-      { "left": "Parfenon", "right": "Akropolda ma'buda Afina ibodatxonasi", "page": 98 }
-    ] },
-    "fill_blank": { "questions": [
-      { "question": "Afinada xalq yig'ilgan shahar maydoni ____ deb yuritilgan.", "options": ["agora", "akropol", "polis", "palestra"], "correct_index": 0, "page": 95 },
-      { "question": "Xalq yig'ini oyiga ____ marta o'tkazilgan.", "options": ["bir", "ikki", "to'rt", "o'n"], "correct_index": 2, "page": 95 },
-      { "question": "Drakont qonunlarni mil. avv. ____-yilda yozgan.", "options": ["621", "594", "443", "700"], "correct_index": 0, "page": 96 },
-      { "question": "Solon islohotlari mil. avv. ____-yilda o'tkazilgan.", "options": ["594", "621", "429", "500"], "correct_index": 0, "page": 97 },
-      { "question": "Erkak fuqarolar ____ yoshdan Xalq majlisida ishtirok etgan.", "options": ["20", "18", "30", "40"], "correct_index": 0, "page": 97 },
-      { "question": "Perikl ____ marotaba strateg lavozimiga saylangan.", "options": ["15", "5", "10", "25"], "correct_index": 0, "page": 98 }
-    ] }
-  },
-  "practice": {
-    "book_questions": [
-      { "question": "Shahardagi xalq yig'ini maydoni qanday atalgan?", "answer": "Agora - Akropol tevaragida joylashgan shahar maydoni.", "page": 95 },
-      { "question": "Demokratiya nima? Afinada demokratiya qaysi shaklda namoyon bo'ldi?", "answer": "Demokratiya - \"xalq hokimiyati\". Afinada barcha erkak fuqarolar agorada yig'ilib, muhim masalalarni muhokama qilib, ovoz berish yo'li bilan qaror qabul qilgan (Xalq majlisi).", "page": 95 },
-      { "question": "Afina davlatida boshqaruv qanday yo'l bilan amalga oshirilgan?", "answer": "Xalq majlisi, Beshyuzlar kengashi (strateg rahbarligida) va Xalq sudi orqali; qarorlar ovoz berish yo'li bilan qabul qilingan.", "page": 98 },
-      { "question": "Solon islohotlari o'tkazilgandan keyin aholi turmushida qanday o'zgarishlar bo'ldi?", "answer": "Dehqonlarning qarzdorlarni qul qilishi bekor bo'ldi, aristokratiya demokratiyaga almashtirildi va Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi.", "page": 97 },
-      { "question": "Xalq yig'inida va Beshyuzlar kengashida qanday qarorlar qabul qilinishi mumkin edi?", "answer": "Xalq majlisi yangi qonunlarni tasdiqlagan, eskilarini bekor qilgan, qurilish va armiyaga mablag' ajratish haqida qaror qilgan; Beshyuzlar kengashi kundalik joriy masalalarni hal qilgan.", "page": 98 },
-      { "question": "\"Perikl asri\"da Afinada qanday o'zgarishlar ro'y berdi?", "answer": "Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, lavozimlarga ish haqi joriy etildi, Parfenon kabi katta qurilishlar amalga oshirildi.", "page": 98 }
+    "text": "Afinani idora qilishda Oqsoqollar kengashi muhim ahamiyatga ega bo'lgan. Shu kengash hokimlar va sudyalarni saylagan. Ular kengash a'zolari singari faqat Afina aslzodalaridan bo'lgan. Afinada aholining bir qismini zodagonlar (aristokratlar) tashkil etgan, boshqa bir qismi - oddiy xalq ularning foydasiga ishlashga majbur edi. Shu bois Afina davlati aholisi o'rtasida kelishmovchilik va nizolar vujudga kelgan.\n\nAdolat qaror topishini xohlagan har ikkala tomon Drakont ismli hukmdorga murojaat etadi. Ular Drakontdan huquq va majburiyatlar borasida hammani tenglashtiruvchi qonunlar yozishni iltimos qiladi. Mil. avv. 621-yilda Drakont qonunlarni yozadi va amalga kiritadi. Bu qonunlar shu qadar qattiq va ayovsiz ediki, afinaliklar ularga \"siyoh qolib, qon bilan yozilgan\" deya ta'rif berishgan. Qonunlarni buzganlik uchun Drakont bitta jazoni - o'lim jazosini belgilagan. Dastlab afinaliklar bu qonunlarga itoat etishgan, so'ngra norozi bo'la boshlashgan va qonunchi Drakontni shahardan haydab yuborishgan."
+   },
+   {
+    "heading": "Solon islohotlari",
+    "pages": [
+     96,
+     97
     ],
-    "quiz": [
-      { "question": "Nima uchun afinaliklar Drakont qonunlarini \"siyoh qolib, qon bilan yozilgan\" deb atagan?", "options": ["Qonunlar shu qadar qattiq va ayovsiz ediki", "Ular haqiqatan ham qon bilan yozilgani uchun", "Ular qizil siyohda yozilgani uchun", "Ular qirmizi rangli toshga o'yib yozilgani uchun"], "correct_index": 0, "page": 96, "explanation": "Drakont qonunlari shu qadar qattiq va ayovsiz ediki, afinaliklar ularni 'siyoh qolib, qon bilan yozilgan' deb atagan." },
-      { "question": "Kim Xalq majlisida qatnasha olmagan?", "options": ["Ayollar va chet elliklar", "Dehqonlar va ziroatchilar", "Hunarmandlar va ustalar", "Savdogarlar va yollanma ishchilar"], "correct_index": 0, "page": 97, "explanation": "Xalq majlisida ayollar va chet elliklar qatnasha olmagan." },
-      { "question": "Sudda ayblanuvchi nima qilishi kerak edi?", "options": ["O'zini himoya qilishi yoki so'zga usta odamni yollashi", "Faqat jim turib, hukmni kutishi", "Podshoga yozma ravishda murojaat qilishi", "Ma'budlarga qurbonlik keltirishi"], "correct_index": 0, "page": 98, "explanation": "Sudda ayblanuvchi o'zini himoya qilishi yoki so'zga usta odamni yollashi kerak edi." }
-    ]
+    "text": "Afina davlatida xalq aslzodalar hukmronligidan norozi edi. Xalqning ahvoli tobora yomonlashaverdi, shunda odamlar o'z haq-huquqlari uchun kurashga bel bog'ladi. Ular zodagonlarning uy-qo'rg'onlariga hujum qila boshladi. Xalq zodagonlarga qarshi qo'zg'olon ko'taradi. O'z yeri va jonidan xavotirlangan zodagonlar yon berishga va xalq talablarining bir qismini bajarishga majbur bo'ladi.\n\nO'ta bilimdon va tajribali Solon degan zodagon xalqqa yon berishning qattiq tarafdori bo'lgan. Zodagonlar Solonga ishondi va uni Afina hukmdori etib sayladi. Mil. avv. 594-yilda Solon davlatni idora qilishning oldingi tizimini o'zgartirdi. Avvalgi boshqaruv tizimi - aristokratiya (aslzodalar hokimiyati)ni demokratiya (xalq hokimiyati)ga almashtirdi. Solonning taklifi bilan dehqonlar qarzdorlarni qul qilishi bekor bo'ldi. Xalq majlisi faoliyati tiklanib, davlat boshqaruvidagi oliy tashkilotga aylandi. Davlatni boshqarishda faqat erkak fuqarolar ishtirok eta olardi. Ayollar va chet elliklar qabul qilinayotgan qonunlar muhokamasida va ovoz berishda ishtirok eta olmasdi."
+   },
+   {
+    "heading": "Afinada demokratiya ravnaqi",
+    "pages": [
+     97,
+     98
+    ],
+    "text": "Barcha erkak fuqarolar 20 yoshdan boshlab Xalq majlisida ishtirok etardi. Xalq majlisining katta qismi hunarmandlar, savdogarlar, yollanib ishlovchilar, dehqonlardan iborat bo'lgan. Xalq majlisida omma uchun foydali qarorlar qabul qilingan. Xalq majlisi yangi qonunlarni tasdiqlar, eski qonunlarni bekor qilar, boshqa qarorlar, masalan, yangi inshootlar qurilishiga, armiyaga va boshqalarga mablag' ajratish to'g'risida qaror qabul qilar edi.\n\nHar yili saylanadigan Beshyuzlar kengashi kundalik joriy masalalarga yechim topardi. Beshyuzlar kengashiga strateg rahbarlik qilgan. Kengash qarorlari Xalq majlisida tasdiqlangan. Xalq sudi ham Afinada muhim davlat organi bo'lgan. 30 yoshga to'lgan fuqarolar uning faoliyatida ishtirok etar edi. Sudda ayblanuvchi shaxs o'zini-o'zi himoya qila bilishi yoki chiroyli so'zlay oladigan va qonunlarni biladigan odamni yollashi kerak bo'lgan."
+   },
+   {
+    "heading": "\"Perikl asri\"",
+    "pages": [
+     98
+    ],
+    "text": "Mil. avv. 443-429-yillarda 15 marotaba strateg lavozimiga saylangan Perikl hukmronligi davrida Afina eng qudratli davlatga aylandi va mamlakatda demokratiya ravnaq topdi. Bu davr shuning uchun ham \"Perikl asri\" deb atalgan. Ajoyib yunon yozuvchilari, olimlari va rassomlari Periklning do'stlari bo'lgan. Perikl tarixchi Gerodot, haykaltarosh Fidiy bilan do'st tutingan edi. Perikl Xalq majlisidagi lavozimlarga ish haqi to'lashni joriy qildi. Perikl hukmronligi davrida Afinada katta qurilish ishlari amalga oshirildi. U Akropolda qurilgan mashhur inshoot Parfenon - ma'buda Afina ibodatxonasining tashabbuskori bo'lgan. Kam ta'minlangan oilalar teatr-spektakllarni borib ko'rishi uchun pul jamg'armasi tashkil etilgan."
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "Afinada xalq yig'ini o'tadigan shahar maydoni agora, Akropol tevaragida joylashgan; yig'in oyiga to'rt marta o'tgan",
+    "page": 95
+   },
+   {
+    "fact": "Demokratiya - \"xalq hokimiyati\" (demos - xalq, kratos - hokimiyat)",
+    "page": 95
+   },
+   {
+    "fact": "Mil. avv. 621-yilda Drakont qattiq qonunlar yozgan; ular \"siyoh qolib, qon bilan yozilgan\" deb ataladi, jazo - o'lim",
+    "page": 96
+   },
+   {
+    "fact": "Mil. avv. 594-yilda Solon aristokratiyani demokratiyaga almashtirib, qarzdorlarni qul qilishni bekor qilgan",
+    "page": 97
+   },
+   {
+    "fact": "Mil. avv. 443-429-yillarda Perikl 15 marta strateg saylanib, Afina eng qudratli bo'lgan; \"Perikl asri\"; Parfenon",
+    "page": 98
+   }
+  ],
+  "why": {
+   "causes": [
+    "Afinada aslzodalar va oddiy xalq o'rtasida kelishmovchilik va nizolar vujudga keldi",
+    "Aslzodalar hukmronligidan norozi xalqning ahvoli tobora yomonlashdi va u qo'zg'olon ko'tardi",
+    "Drakont qonunlari juda qattiq bo'lib, bitta jazo — o'lim jazosini belgilagan"
+   ],
+   "effects": [
+    "Afinaliklar Drakont qonunlaridan norozi bo'lib, qonunchini shahardan haydab yubordi",
+    "Zodagonlar yon berishga majbur bo'ldi: Solon mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirdi, qarzdorlarni qul qilish bekor bo'ldi",
+    "Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi, barcha qarorlar ovoz berish yo'li bilan qabul qilindi",
+    "Perikl davrida Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, Parfenon va boshqa inshootlar qurildi"
+   ]
   },
-  "test": [
-    { "question": "Afina shahrida muhim masalalar qayerda muhokama qilingan?", "options": ["Xalq yig'inida", "Saroyda", "Ibodatxonada", "Portda"], "correct_index": 0, "page": 95, "explanation": "Afina shahrida muhim masalalar xalq yig'inida muhokama qilingan." },
-    { "question": "Xalq yig'ilgan shahar maydoni qanday atalgan?", "options": ["Agora", "Akropol", "Pirey", "Palestra"], "correct_index": 0, "page": 95, "explanation": "Xalq yig'ilgan shahar maydoni agora deb atalgan." },
-    { "question": "Agora shaharning qayerida joylashgan edi?", "options": ["Akropol tevaragida", "Portda", "Devor tashqarisida", "Tog' cho'qqisida"], "correct_index": 0, "page": 95, "explanation": "Agora shaharning Akropol tevaragida joylashgan edi." },
-    { "question": "Afinada davlatni qanday boshqarish haqida kimlar fikr bildira olgan?", "options": ["Barcha erkak fuqarolar", "Faqat zodagonlar va ularning vakillari", "Faqat kohinlar va ruhoniylar", "Barcha aholi, jumladan ayollar va qullar"], "correct_index": 0, "page": 95, "explanation": "Afinada davlatni qanday boshqarish haqida barcha erkak fuqarolar fikr bildira olgan." },
-    { "question": "Xalq yig'ini oyiga necha marta yig'ilgan?", "options": ["To'rt marta", "Bir marta", "O'n marta", "Har kuni"], "correct_index": 0, "page": 95, "explanation": "Xalq yig'ini oyiga to'rt marta yig'ilgan." },
-    { "question": "Qarorlar qanday qabul qilingan?", "options": ["Ovoz berish yo'li bilan", "Podsho buyrug'i bilan", "Qur'a tashlab", "Kohinlar aytishi bilan"], "correct_index": 0, "page": 95, "explanation": "Qarorlar ovoz berish yo'li bilan qabul qilingan." },
-    { "question": "\"Demokratiya\" atamasi nimani anglatadi?", "options": ["\"Xalq hokimiyati\"", "\"Shoh hokimiyati\"", "\"Aslzodalar hokimiyati\"", "\"Kohinlar hokimiyati\""], "correct_index": 0, "page": 95, "explanation": "'Demokratiya' atamasi 'xalq hokimiyati' degan ma'noni anglatadi." },
-    { "question": "\"Demos\" so'zi nima degani?", "options": ["Xalq", "Hokimiyat", "Shahar", "Qonun"], "correct_index": 0, "page": 95, "explanation": "'Demos' so'zi xalq degani." },
-    { "question": "\"Kratos\" so'zi nima degani?", "options": ["Hokimiyat", "Xalq", "Kuch-qudrat faqat", "Shahar"], "correct_index": 0, "page": 95, "explanation": "'Kratos' so'zi hokimiyat degani." },
-    { "question": "Hokimlar va sudyalarni kim saylagan?", "options": ["Oqsoqollar kengashi", "Xalq majlisi", "Beshyuzlar kengashi", "Strateg"], "correct_index": 0, "page": 95, "explanation": "Hokimlar va sudyalarni oqsoqollar kengashi saylagan." },
-    { "question": "Oqsoqollar kengashi a'zolari kimlardan bo'lgan?", "options": ["Faqat Afina aslzodalaridan", "Butun xalqdan, saylov orqali tanlanganlar", "Hunarmandlar va savdogarlardan iborat vakillar", "Chet elliklar va metek savdogarlaridan"], "correct_index": 0, "page": 96, "explanation": "Oqsoqollar kengashi a'zolari faqat Afina aslzodalaridan bo'lgan." },
-    { "question": "Afina aholisi o'rtasida nizolar nima sababdan vujudga kelgan?", "options": ["Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun", "Diniy kelishmovchilik va ibodat tafovutlari tufayli", "Qo'shni davlat bosqini va urush xavfi tufayli", "Qurg'oqchilik va ochlik sababli"], "correct_index": 0, "page": 96, "explanation": "Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun Afina aholisi o'rtasida nizolar vujudga kelgan." },
-    { "question": "Adolat xohlagan tomonlar kimga murojaat etgan?", "options": ["Drakontga", "Solonga", "Periklga", "Minosga"], "correct_index": 0, "page": 96, "explanation": "Adolat xohlagan tomonlar Drakontga murojaat etgan." },
-    { "question": "Drakont qonunlari qachon amalga kiritilgan?", "options": ["Mil. avv. 621-yilda", "Mil. avv. 594-yilda", "Mil. avv. 443-yilda", "Mil. avv. 500-yilda"], "correct_index": 0, "page": 96, "explanation": "Drakont qonunlari mil. avv. 621-yilda amalga kiritilgan." },
-    { "question": "Drakont qonunlariga afinaliklar qanday ta'rif berishgan?", "options": ["\"Siyoh qolib, qon bilan yozilgan\"", "\"Adolat qonunlari\" deb", "\"Oltin qonunlar\" deb", "\"Yumshoq qonunlar\" deb"], "correct_index": 0, "page": 96, "explanation": "Afinaliklar Drakont qonunlarini 'siyoh qolib, qon bilan yozilgan' deb atagan." },
-    { "question": "Drakont qonunlarni buzganlik uchun qanday jazo belgilagan?", "options": ["Bitta jazo - o'lim jazosi", "Jarima solishni va mol-mulkni tortib olishni", "Shahardan surgun qilishni", "Qullikka sotib yuborishni"], "correct_index": 0, "page": 96, "explanation": "Drakont qonunlarni buzganlik uchun bitta jazo - o'lim jazosini belgilagan." },
-    { "question": "Drakontning oxiri nima bilan tugagan?", "options": ["Afinaliklar norozi bo'lib, uni shahardan haydab yuborishgan", "U taxtga o'tirib, podsho bo'lgan", "U qatl etilgan", "U Spartaga ketib qolgan"], "correct_index": 0, "page": 96, "explanation": "Drakontning oxiri afinaliklar norozi bo'lib, uni shahardan haydab yuborishi bilan tugagan." },
-    { "question": "Zodagonlarga qarshi kim qo'zg'olon ko'targan?", "options": ["Xalq", "Kohinlar", "Chet elliklar", "Qo'shni davlat"], "correct_index": 0, "page": 97, "explanation": "Zodagonlarga qarshi xalq qo'zg'olon ko'targan." },
-    { "question": "Solon kim edi?", "options": ["Xalqqa yon berish tarafdori bo'lgan bilimdon zodagon", "Sparta shohi va jangchi sarkarda", "Fors satrapi va noibi", "Metek savdogar va boy hunarmand"], "correct_index": 0, "page": 97, "explanation": "Solon xalqqa yon berish tarafdori bo'lgan bilimdon zodagon edi." },
-    { "question": "Solon qachon davlatni idora qilish tizimini o'zgartirdi?", "options": ["Mil. avv. 594-yilda", "Mil. avv. 621-yilda", "Mil. avv. 443-yilda", "Mil. avv. 330-yilda"], "correct_index": 0, "page": 97, "explanation": "Solon davlatni idora qilish tizimini mil. avv. 594-yilda o'zgartirgan." },
-    { "question": "Solon qaysi boshqaruvni qaysisiga almashtirdi?", "options": ["Aristokratiyani demokratiyaga", "Demokratiyani aristokratiyaga", "Monarxiyani respublikaga", "Tiraniyani oligarxiyaga"], "correct_index": 0, "page": 97, "explanation": "Solon aristokratiyani demokratiyaga almashtirgan." },
-    { "question": "Aristokratiya nima?", "options": ["Aslzodalar hokimiyati", "Xalq hokimiyati", "Yagona hukmdor hokimiyati", "Kohinlar hokimiyati"], "correct_index": 0, "page": 97, "explanation": "Aristokratiya - aslzodalar hokimiyati." },
-    { "question": "Solon taklifi bilan nima bekor bo'ldi?", "options": ["Dehqonlar qarzdorlarni qul qilishi", "Xalq majlisi va uning yig'inlari", "Soliqlar va bojlar", "Sud va sudyalar tizimi"], "correct_index": 0, "page": 97, "explanation": "Solon taklifi bilan dehqonlarning qarzdorlarni qul qilishi bekor bo'lgan." },
-    { "question": "Solondan keyin davlat boshqaruvining oliy tashkilotiga nima aylandi?", "options": ["Xalq majlisi", "Oqsoqollar kengashi", "Beshyuzlar kengashi", "Xalq sudi"], "correct_index": 0, "page": 97, "explanation": "Solondan keyin davlat boshqaruvining oliy tashkilotiga Xalq majlisi aylangan." },
-    { "question": "Davlatni boshqarishda kimlar ishtirok eta olmagan?", "options": ["Ayollar va chet elliklar", "Dehqonlar va ziroatkorlar", "Hunarmandlar va ustalar", "Savdogarlar va ularning vakillari"], "correct_index": 0, "page": 97, "explanation": "Davlatni boshqarishda ayollar va chet elliklar ishtirok eta olmagan." },
-    { "question": "Erkak fuqarolar necha yoshdan Xalq majlisida ishtirok etgan?", "options": ["20 yoshdan", "14 yoshdan", "30 yoshdan", "40 yoshdan"], "correct_index": 0, "page": 97, "explanation": "Erkak fuqarolar 20 yoshdan Xalq majlisida ishtirok etgan." },
-    { "question": "Xalq majlisining katta qismi kimlardan iborat bo'lgan?", "options": ["Hunarmandlar, savdogarlar, yollanma ishlovchilar, dehqonlar", "Faqat zodagonlar va ularning vakillari", "Faqat harbiylar va sarkardalar", "Kohinlar va ibodatxona xizmatchilari"], "correct_index": 0, "page": 97, "explanation": "Xalq majlisining katta qismini hunarmandlar, savdogarlar, yollanma ishlovchilar va dehqonlar tashkil etgan." },
-    { "question": "Xalq majlisi nimalarga qaror qabul qilgan?", "options": ["Yangi qonunlarni tasdiqlash, eskilarini bekor qilish, mablag' ajratish", "Faqat urush e'lon qilish haqida", "Faqat soliq undirish haqida", "Faqat sud hukmlarini chiqarish haqida"], "correct_index": 0, "page": 98, "explanation": "Xalq majlisi yangi qonunlarni tasdiqlash, eskilarini bekor qilish va mablag' ajratishga qaror qabul qilgan." },
-    { "question": "Beshyuzlar kengashi qanday saylangan?", "options": ["Har yili", "Umrbod", "Har o'n yilda", "Meros orqali"], "correct_index": 0, "page": 98, "explanation": "Beshyuzlar kengashi har yili saylangan." },
-    { "question": "Beshyuzlar kengashiga kim rahbarlik qilgan?", "options": ["Strateg", "Drakont", "Solon", "Metek"], "correct_index": 0, "page": 98, "explanation": "Beshyuzlar kengashiga strateg rahbarlik qilgan." },
-    { "question": "Xalq sudi faoliyatida necha yoshdan fuqarolar ishtirok etgan?", "options": ["30 yoshdan", "20 yoshdan", "18 yoshdan", "50 yoshdan"], "correct_index": 0, "page": 98, "explanation": "Xalq sudi faoliyatida 30 yoshdan fuqarolar ishtirok etgan." },
-    { "question": "\"Perikl asri\" qaysi yillarni o'z ichiga oladi?", "options": ["Mil. avv. 443-429-yillar", "Mil. avv. 621-594-yillar", "Mil. avv. 330-yil", "Mil. avv. 700-yillar"], "correct_index": 0, "page": 98, "explanation": "'Perikl asri' mil. avv. 443-429-yillarni o'z ichiga oladi." },
-    { "question": "Perikl necha marta strateg lavozimiga saylangan?", "options": ["15 marotaba", "3 marotaba", "7 marotaba", "30 marotaba"], "correct_index": 0, "page": 98, "explanation": "Perikl 15 marotaba strateg lavozimiga saylangan." },
-    { "question": "Perikl davrida Afinaning holati qanday edi?", "options": ["Eng qudratli davlat, demokratiya ravnaq topgan", "Kuchsizlanib, tanazzulga yuz tutgan", "Sparta qo'li ostida qolgan", "Fors davlati tarkibiga kirib ketgan"], "correct_index": 0, "page": 98, "explanation": "Perikl davrida Afina eng qudratli davlat bo'lgan va demokratiya ravnaq topgan." },
-    { "question": "Perikl qaysi mashhur kishilar bilan do'st bo'lgan?", "options": ["Tarixchi Gerodot va haykaltarosh Fidiy", "Xammurapi va Sargon I bilan", "Kir II va Doro I bilan", "Budda va Zardusht bilan"], "correct_index": 0, "page": 98, "explanation": "Perikl tarixchi Gerodot va haykaltarosh Fidiy bilan do'st bo'lgan." },
-    { "question": "Perikl Xalq majlisidagi lavozimlarga nimani joriy qildi?", "options": ["Ish haqi to'lashni", "Soliq undirishni", "Meros huquqini", "Umrbod lavozimni"], "correct_index": 0, "page": 98, "explanation": "Perikl Xalq majlisidagi lavozimlarga ish haqi to'lashni joriy qilgan." },
-    { "question": "Parfenon nima?", "options": ["Akropolda qurilgan ma'buda Afina ibodatxonasi", "Afinadagi Pirey porti nomi", "Xalq majlisi yig'iladigan bino", "Sud majlisi o'tkaziladigan bino"], "correct_index": 0, "page": 98, "explanation": "Parfenon - Akropolda qurilgan ma'buda Afina ibodatxonasi." },
-    { "question": "Kam ta'minlangan oilalar uchun qanday pul jamg'armasi tashkil etilgan?", "options": ["Teatr-spektakllarni borib ko'rish uchun", "Qurol-yarog' sotib olish uchun jamg'arma", "Yangi kemalar qurish uchun jamg'arma", "Maktablar qurish uchun jamg'arma"], "correct_index": 0, "page": 98, "explanation": "Kam ta'minlangan oilalar uchun teatr-spektakllarni borib ko'rish uchun maxsus pul jamg'armasi tashkil etilgan." }
+  "summary": "Afinada muhim masalalar agoradagi xalq yig'inida ovoz berish bilan hal qilingan (demokratiya). Drakont (621) qattiq qonunlar bilan, Solon (594) esa islohotlar bilan aristokratiyani demokratiyaga almashtirdi. Perikl (443-429) davrida demokratiya va Afina eng yuksak darajaga chiqdi, Parfenon qurildi.",
+  "images": [
+   {
+    "src": "/qd6/q6_p26_vaqt.svg",
+    "caption": "Afinada demokratiya: vaqt chizig'i"
+   },
+   {
+    "src": "/qd6/q6_p26_org.svg",
+    "caption": "Afina boshqaruvi"
+   }
   ]
+ },
+ "presentation": {
+  "slides": [
+   {
+    "title": "26-§. Afinada demokratiya",
+    "bullets": [],
+    "page": null
+   },
+   {
+    "title": "Xalq yig'ini",
+    "bullets": [
+     "Agora - shahar maydoni",
+     "Oyiga 4 marta",
+     "Ovoz berish yo'li bilan qaror"
+    ],
+    "page": 95
+   },
+   {
+    "title": "Demokratiya",
+    "bullets": [
+     "\"Xalq hokimiyati\"",
+     "Demos - xalq, kratos - hokimiyat"
+    ],
+    "page": 95
+   },
+   {
+    "title": "Drakont",
+    "bullets": [
+     "Mil. avv. 621-yil",
+     "\"Siyoh qolib, qon bilan\" yozilgan qonunlar",
+     "Jazo - o'lim"
+    ],
+    "page": 96
+   },
+   {
+    "title": "Solon",
+    "bullets": [
+     "Mil. avv. 594-yil",
+     "Aristokratiya -> demokratiya",
+     "Qarzdorlarni qul qilish bekor"
+    ],
+    "page": 97
+   },
+   {
+    "title": "Boshqaruv organlari",
+    "bullets": [
+     "Xalq majlisi (20 yoshdan)",
+     "Beshyuzlar kengashi, strateg",
+     "Xalq sudi (30 yoshdan)"
+    ],
+    "page": 98
+   },
+   {
+    "title": "Perikl asri",
+    "bullets": [
+     "Mil. avv. 443-429-yillar",
+     "15 marta strateg",
+     "Parfenon"
+    ],
+    "page": 98
+   }
+  ]
+ },
+ "games": {
+  "timeline": {
+   "items": [
+    {
+     "label": "Mil. avv. 621-yilda Drakont qattiq qonunlarni yozadi",
+     "page": 96
+    },
+    {
+     "label": "Mil. avv. 594-yilda Solon aristokratiyani demokratiyaga almashtiradi",
+     "page": 97
+    },
+    {
+     "label": "Mil. avv. 443-429-yillarda Perikl 15 marta strateg lavozimiga saylanadi",
+     "page": 98
+    }
+   ]
+  },
+  "matching": {
+   "pairs": [
+    {
+     "left": "Agora",
+     "right": "Xalq yig'ini o'tadigan shahar maydoni",
+     "page": 95
+    },
+    {
+     "left": "Demokratiya",
+     "right": "\"Xalq hokimiyati\"",
+     "page": 95
+    },
+    {
+     "left": "Oqsoqollar kengashi",
+     "right": "Hokimlar va sudyalarni saylagan aslzodalar kengashi",
+     "page": 95
+    },
+    {
+     "left": "Drakont",
+     "right": "\"Siyoh qolib, qon bilan yozilgan\" qonunlar muallifi",
+     "page": 96
+    },
+    {
+     "left": "Solon",
+     "right": "Mil. avv. 594-yilda aristokratiyani demokratiyaga almashtirgan hukmdor",
+     "page": 97
+    },
+    {
+     "left": "Beshyuzlar kengashi",
+     "right": "Har yili saylanib, joriy masalalarni hal qilgan organ",
+     "page": 98
+    },
+    {
+     "left": "Strateg",
+     "right": "Beshyuzlar kengashiga rahbarlik qilgan lavozim",
+     "page": 98
+    },
+    {
+     "left": "Parfenon",
+     "right": "Akropolda ma'buda Afina ibodatxonasi",
+     "page": 98
+    }
+   ]
+  },
+  "fill_blank": {
+   "questions": [
+    {
+     "question": "Afinada xalq yig'ilgan shahar maydoni ____ deb yuritilgan.",
+     "options": [
+      "agora",
+      "akropol",
+      "polis",
+      "palestra"
+     ],
+     "correct_index": 0,
+     "page": 95
+    },
+    {
+     "question": "Xalq yig'ini oyiga ____ marta o'tkazilgan.",
+     "options": [
+      "bir",
+      "ikki",
+      "to'rt",
+      "o'n"
+     ],
+     "correct_index": 2,
+     "page": 95
+    },
+    {
+     "question": "Drakont qonunlarni mil. avv. ____-yilda yozgan.",
+     "options": [
+      "621",
+      "594",
+      "443",
+      "700"
+     ],
+     "correct_index": 0,
+     "page": 96
+    },
+    {
+     "question": "Solon islohotlari mil. avv. ____-yilda o'tkazilgan.",
+     "options": [
+      "594",
+      "621",
+      "429",
+      "500"
+     ],
+     "correct_index": 0,
+     "page": 97
+    },
+    {
+     "question": "Erkak fuqarolar ____ yoshdan Xalq majlisida ishtirok etgan.",
+     "options": [
+      "20",
+      "18",
+      "30",
+      "40"
+     ],
+     "correct_index": 0,
+     "page": 97
+    },
+    {
+     "question": "Perikl ____ marotaba strateg lavozimiga saylangan.",
+     "options": [
+      "15",
+      "5",
+      "10",
+      "25"
+     ],
+     "correct_index": 0,
+     "page": 98
+    }
+   ]
+  }
+ },
+ "practice": {
+  "book_questions": [
+   {
+    "question": "Shahardagi xalq yig'ini maydoni qanday atalgan?",
+    "answer": "Agora - Akropol tevaragida joylashgan shahar maydoni.",
+    "page": 95
+   },
+   {
+    "question": "Demokratiya nima? Afinada demokratiya qaysi shaklda namoyon bo'ldi?",
+    "answer": "Demokratiya - \"xalq hokimiyati\". Afinada barcha erkak fuqarolar agorada yig'ilib, muhim masalalarni muhokama qilib, ovoz berish yo'li bilan qaror qabul qilgan (Xalq majlisi).",
+    "page": 95
+   },
+   {
+    "question": "Afina davlatida boshqaruv qanday yo'l bilan amalga oshirilgan?",
+    "answer": "Xalq majlisi, Beshyuzlar kengashi (strateg rahbarligida) va Xalq sudi orqali; qarorlar ovoz berish yo'li bilan qabul qilingan.",
+    "page": 98
+   },
+   {
+    "question": "Solon islohotlari o'tkazilgandan keyin aholi turmushida qanday o'zgarishlar bo'ldi?",
+    "answer": "Dehqonlarning qarzdorlarni qul qilishi bekor bo'ldi, aristokratiya demokratiyaga almashtirildi va Xalq majlisi davlat boshqaruvining oliy tashkilotiga aylandi.",
+    "page": 97
+   },
+   {
+    "question": "Xalq yig'inida va Beshyuzlar kengashida qanday qarorlar qabul qilinishi mumkin edi?",
+    "answer": "Xalq majlisi yangi qonunlarni tasdiqlagan, eskilarini bekor qilgan, qurilish va armiyaga mablag' ajratish haqida qaror qilgan; Beshyuzlar kengashi kundalik joriy masalalarni hal qilgan.",
+    "page": 98
+   },
+   {
+    "question": "\"Perikl asri\"da Afinada qanday o'zgarishlar ro'y berdi?",
+    "answer": "Afina eng qudratli davlatga aylandi, demokratiya ravnaq topdi, lavozimlarga ish haqi joriy etildi, Parfenon kabi katta qurilishlar amalga oshirildi.",
+    "page": 98
+   }
+  ],
+  "quiz": [
+   {
+    "question": "Nima uchun afinaliklar Drakont qonunlarini \"siyoh qolib, qon bilan yozilgan\" deb atagan?",
+    "options": [
+     "Qonunlar shu qadar qattiq va ayovsiz ediki",
+     "Ular haqiqatan ham qon bilan yozilgani uchun",
+     "Ular qizil siyohda yozilgani uchun",
+     "Ular qirmizi rangli toshga o'yib yozilgani uchun"
+    ],
+    "correct_index": 0,
+    "page": 96,
+    "explanation": "Drakont qonunlari shu qadar qattiq va ayovsiz ediki, afinaliklar ularni 'siyoh qolib, qon bilan yozilgan' deb atagan."
+   },
+   {
+    "question": "Kim Xalq majlisida qatnasha olmagan?",
+    "options": [
+     "Ayollar va chet elliklar",
+     "Dehqonlar va ziroatchilar",
+     "Hunarmandlar va ustalar",
+     "Savdogarlar va yollanma ishchilar"
+    ],
+    "correct_index": 0,
+    "page": 97,
+    "explanation": "Xalq majlisida ayollar va chet elliklar qatnasha olmagan."
+   },
+   {
+    "question": "Sudda ayblanuvchi nima qilishi kerak edi?",
+    "options": [
+     "O'zini himoya qilishi yoki so'zga usta odamni yollashi",
+     "Faqat jim turib, hukmni kutishi",
+     "Podshoga yozma ravishda murojaat qilishi",
+     "Ma'budlarga qurbonlik keltirishi"
+    ],
+    "correct_index": 0,
+    "page": 98,
+    "explanation": "Sudda ayblanuvchi o'zini himoya qilishi yoki so'zga usta odamni yollashi kerak edi."
+   }
+  ]
+ },
+ "test": [
+  {
+   "question": "Afina shahrida muhim masalalar qayerda muhokama qilingan?",
+   "options": [
+    "Xalq yig'inida",
+    "Saroyda",
+    "Ibodatxonada",
+    "Portda"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Afina shahrida muhim masalalar xalq yig'inida muhokama qilingan."
+  },
+  {
+   "question": "Xalq yig'ilgan shahar maydoni qanday atalgan?",
+   "options": [
+    "Agora",
+    "Akropol",
+    "Pirey",
+    "Palestra"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Xalq yig'ilgan shahar maydoni agora deb atalgan."
+  },
+  {
+   "question": "Agora shaharning qayerida joylashgan edi?",
+   "options": [
+    "Akropol tevaragida",
+    "Portda",
+    "Devor tashqarisida",
+    "Tog' cho'qqisida"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Agora shaharning Akropol tevaragida joylashgan edi."
+  },
+  {
+   "question": "Afinada davlatni qanday boshqarish haqida kimlar fikr bildira olgan?",
+   "options": [
+    "Barcha erkak fuqarolar",
+    "Faqat zodagonlar va ularning vakillari",
+    "Faqat kohinlar va ruhoniylar",
+    "Barcha aholi, jumladan ayollar va qullar"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Afinada davlatni qanday boshqarish haqida barcha erkak fuqarolar fikr bildira olgan."
+  },
+  {
+   "question": "Xalq yig'ini oyiga necha marta yig'ilgan?",
+   "options": [
+    "To'rt marta",
+    "Bir marta",
+    "O'n marta",
+    "Har kuni"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Xalq yig'ini oyiga to'rt marta yig'ilgan."
+  },
+  {
+   "question": "Qarorlar qanday qabul qilingan?",
+   "options": [
+    "Ovoz berish yo'li bilan",
+    "Podsho buyrug'i bilan",
+    "Qur'a tashlab",
+    "Kohinlar aytishi bilan"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Qarorlar ovoz berish yo'li bilan qabul qilingan."
+  },
+  {
+   "question": "\"Demokratiya\" atamasi nimani anglatadi?",
+   "options": [
+    "\"Xalq hokimiyati\"",
+    "\"Shoh hokimiyati\"",
+    "\"Aslzodalar hokimiyati\"",
+    "\"Kohinlar hokimiyati\""
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "'Demokratiya' atamasi 'xalq hokimiyati' degan ma'noni anglatadi."
+  },
+  {
+   "question": "\"Demos\" so'zi nima degani?",
+   "options": [
+    "Xalq",
+    "Hokimiyat",
+    "Shahar",
+    "Qonun"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "'Demos' so'zi xalq degani."
+  },
+  {
+   "question": "\"Kratos\" so'zi nima degani?",
+   "options": [
+    "Hokimiyat",
+    "Xalq",
+    "Kuch-qudrat faqat",
+    "Shahar"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "'Kratos' so'zi hokimiyat degani."
+  },
+  {
+   "question": "Hokimlar va sudyalarni kim saylagan?",
+   "options": [
+    "Oqsoqollar kengashi",
+    "Xalq majlisi",
+    "Beshyuzlar kengashi",
+    "Strateg"
+   ],
+   "correct_index": 0,
+   "page": 95,
+   "explanation": "Hokimlar va sudyalarni oqsoqollar kengashi saylagan."
+  },
+  {
+   "question": "Oqsoqollar kengashi a'zolari kimlardan bo'lgan?",
+   "options": [
+    "Faqat Afina aslzodalaridan",
+    "Butun xalqdan, saylov orqali tanlanganlar",
+    "Hunarmandlar va savdogarlardan iborat vakillar",
+    "Chet elliklar va metek savdogarlaridan"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Oqsoqollar kengashi a'zolari faqat Afina aslzodalaridan bo'lgan."
+  },
+  {
+   "question": "Afina aholisi o'rtasida nizolar nima sababdan vujudga kelgan?",
+   "options": [
+    "Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun",
+    "Diniy kelishmovchilik va ibodat tafovutlari tufayli",
+    "Qo'shni davlat bosqini va urush xavfi tufayli",
+    "Qurg'oqchilik va ochlik sababli"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Oddiy xalq zodagonlar foydasiga ishlashga majbur bo'lgani uchun Afina aholisi o'rtasida nizolar vujudga kelgan."
+  },
+  {
+   "question": "Adolat xohlagan tomonlar kimga murojaat etgan?",
+   "options": [
+    "Drakontga",
+    "Solonga",
+    "Periklga",
+    "Minosga"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Adolat xohlagan tomonlar Drakontga murojaat etgan."
+  },
+  {
+   "question": "Drakont qonunlari qachon amalga kiritilgan?",
+   "options": [
+    "Mil. avv. 621-yilda",
+    "Mil. avv. 594-yilda",
+    "Mil. avv. 443-yilda",
+    "Mil. avv. 500-yilda"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Drakont qonunlari mil. avv. 621-yilda amalga kiritilgan."
+  },
+  {
+   "question": "Drakont qonunlariga afinaliklar qanday ta'rif berishgan?",
+   "options": [
+    "\"Siyoh qolib, qon bilan yozilgan\"",
+    "\"Adolat qonunlari\" deb",
+    "\"Oltin qonunlar\" deb",
+    "\"Yumshoq qonunlar\" deb"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Afinaliklar Drakont qonunlarini 'siyoh qolib, qon bilan yozilgan' deb atagan."
+  },
+  {
+   "question": "Drakont qonunlarni buzganlik uchun qanday jazo belgilagan?",
+   "options": [
+    "Bitta jazo - o'lim jazosi",
+    "Jarima solishni va mol-mulkni tortib olishni",
+    "Shahardan surgun qilishni",
+    "Qullikka sotib yuborishni"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Drakont qonunlarni buzganlik uchun bitta jazo - o'lim jazosini belgilagan."
+  },
+  {
+   "question": "Drakontning oxiri nima bilan tugagan?",
+   "options": [
+    "Afinaliklar norozi bo'lib, uni shahardan haydab yuborishgan",
+    "U taxtga o'tirib, podsho bo'lgan",
+    "U qatl etilgan",
+    "U Spartaga ketib qolgan"
+   ],
+   "correct_index": 0,
+   "page": 96,
+   "explanation": "Drakontning oxiri afinaliklar norozi bo'lib, uni shahardan haydab yuborishi bilan tugagan."
+  },
+  {
+   "question": "Zodagonlarga qarshi kim qo'zg'olon ko'targan?",
+   "options": [
+    "Xalq",
+    "Kohinlar",
+    "Chet elliklar",
+    "Qo'shni davlat"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Zodagonlarga qarshi xalq qo'zg'olon ko'targan."
+  },
+  {
+   "question": "Solon kim edi?",
+   "options": [
+    "Xalqqa yon berish tarafdori bo'lgan bilimdon zodagon",
+    "Sparta shohi va jangchi sarkarda",
+    "Fors satrapi va noibi",
+    "Metek savdogar va boy hunarmand"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Solon xalqqa yon berish tarafdori bo'lgan bilimdon zodagon edi."
+  },
+  {
+   "question": "Solon qachon davlatni idora qilish tizimini o'zgartirdi?",
+   "options": [
+    "Mil. avv. 594-yilda",
+    "Mil. avv. 621-yilda",
+    "Mil. avv. 443-yilda",
+    "Mil. avv. 330-yilda"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Solon davlatni idora qilish tizimini mil. avv. 594-yilda o'zgartirgan."
+  },
+  {
+   "question": "Solon qaysi boshqaruvni qaysisiga almashtirdi?",
+   "options": [
+    "Aristokratiyani demokratiyaga",
+    "Demokratiyani aristokratiyaga",
+    "Monarxiyani respublikaga",
+    "Tiraniyani oligarxiyaga"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Solon aristokratiyani demokratiyaga almashtirgan."
+  },
+  {
+   "question": "Aristokratiya nima?",
+   "options": [
+    "Aslzodalar hokimiyati",
+    "Xalq hokimiyati",
+    "Yagona hukmdor hokimiyati",
+    "Kohinlar hokimiyati"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Aristokratiya - aslzodalar hokimiyati."
+  },
+  {
+   "question": "Solon taklifi bilan nima bekor bo'ldi?",
+   "options": [
+    "Dehqonlar qarzdorlarni qul qilishi",
+    "Xalq majlisi va uning yig'inlari",
+    "Soliqlar va bojlar",
+    "Sud va sudyalar tizimi"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Solon taklifi bilan dehqonlarning qarzdorlarni qul qilishi bekor bo'lgan."
+  },
+  {
+   "question": "Solondan keyin davlat boshqaruvining oliy tashkilotiga nima aylandi?",
+   "options": [
+    "Xalq majlisi",
+    "Oqsoqollar kengashi",
+    "Beshyuzlar kengashi",
+    "Xalq sudi"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Solondan keyin davlat boshqaruvining oliy tashkilotiga Xalq majlisi aylangan."
+  },
+  {
+   "question": "Davlatni boshqarishda kimlar ishtirok eta olmagan?",
+   "options": [
+    "Ayollar va chet elliklar",
+    "Dehqonlar va ziroatkorlar",
+    "Hunarmandlar va ustalar",
+    "Savdogarlar va ularning vakillari"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Davlatni boshqarishda ayollar va chet elliklar ishtirok eta olmagan."
+  },
+  {
+   "question": "Erkak fuqarolar necha yoshdan Xalq majlisida ishtirok etgan?",
+   "options": [
+    "20 yoshdan",
+    "14 yoshdan",
+    "30 yoshdan",
+    "40 yoshdan"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Erkak fuqarolar 20 yoshdan Xalq majlisida ishtirok etgan."
+  },
+  {
+   "question": "Xalq majlisining katta qismi kimlardan iborat bo'lgan?",
+   "options": [
+    "Hunarmandlar, savdogarlar, yollanma ishlovchilar, dehqonlar",
+    "Faqat zodagonlar va ularning vakillari",
+    "Faqat harbiylar va sarkardalar",
+    "Kohinlar va ibodatxona xizmatchilari"
+   ],
+   "correct_index": 0,
+   "page": 97,
+   "explanation": "Xalq majlisining katta qismini hunarmandlar, savdogarlar, yollanma ishlovchilar va dehqonlar tashkil etgan."
+  },
+  {
+   "question": "Xalq majlisi nimalarga qaror qabul qilgan?",
+   "options": [
+    "Yangi qonunlarni tasdiqlash, eskilarini bekor qilish, mablag' ajratish",
+    "Faqat urush e'lon qilish haqida",
+    "Faqat soliq undirish haqida",
+    "Faqat sud hukmlarini chiqarish haqida"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Xalq majlisi yangi qonunlarni tasdiqlash, eskilarini bekor qilish va mablag' ajratishga qaror qabul qilgan."
+  },
+  {
+   "question": "Beshyuzlar kengashi qanday saylangan?",
+   "options": [
+    "Har yili",
+    "Umrbod",
+    "Har o'n yilda",
+    "Meros orqali"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Beshyuzlar kengashi har yili saylangan."
+  },
+  {
+   "question": "Beshyuzlar kengashiga kim rahbarlik qilgan?",
+   "options": [
+    "Strateg",
+    "Drakont",
+    "Solon",
+    "Metek"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Beshyuzlar kengashiga strateg rahbarlik qilgan."
+  },
+  {
+   "question": "Xalq sudi faoliyatida necha yoshdan fuqarolar ishtirok etgan?",
+   "options": [
+    "30 yoshdan",
+    "20 yoshdan",
+    "18 yoshdan",
+    "50 yoshdan"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Xalq sudi faoliyatida 30 yoshdan fuqarolar ishtirok etgan."
+  },
+  {
+   "question": "\"Perikl asri\" qaysi yillarni o'z ichiga oladi?",
+   "options": [
+    "Mil. avv. 443-429-yillar",
+    "Mil. avv. 621-594-yillar",
+    "Mil. avv. 330-yil",
+    "Mil. avv. 700-yillar"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "'Perikl asri' mil. avv. 443-429-yillarni o'z ichiga oladi."
+  },
+  {
+   "question": "Perikl necha marta strateg lavozimiga saylangan?",
+   "options": [
+    "15 marotaba",
+    "3 marotaba",
+    "7 marotaba",
+    "30 marotaba"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Perikl 15 marotaba strateg lavozimiga saylangan."
+  },
+  {
+   "question": "Perikl davrida Afinaning holati qanday edi?",
+   "options": [
+    "Eng qudratli davlat, demokratiya ravnaq topgan",
+    "Kuchsizlanib, tanazzulga yuz tutgan",
+    "Sparta qo'li ostida qolgan",
+    "Fors davlati tarkibiga kirib ketgan"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Perikl davrida Afina eng qudratli davlat bo'lgan va demokratiya ravnaq topgan."
+  },
+  {
+   "question": "Perikl qaysi mashhur kishilar bilan do'st bo'lgan?",
+   "options": [
+    "Tarixchi Gerodot va haykaltarosh Fidiy",
+    "Xammurapi va Sargon I bilan",
+    "Kir II va Doro I bilan",
+    "Budda va Zardusht bilan"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Perikl tarixchi Gerodot va haykaltarosh Fidiy bilan do'st bo'lgan."
+  },
+  {
+   "question": "Perikl Xalq majlisidagi lavozimlarga nimani joriy qildi?",
+   "options": [
+    "Ish haqi to'lashni",
+    "Soliq undirishni",
+    "Meros huquqini",
+    "Umrbod lavozimni"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Perikl Xalq majlisidagi lavozimlarga ish haqi to'lashni joriy qilgan."
+  },
+  {
+   "question": "Parfenon nima?",
+   "options": [
+    "Akropolda qurilgan ma'buda Afina ibodatxonasi",
+    "Afinadagi Pirey porti nomi",
+    "Xalq majlisi yig'iladigan bino",
+    "Sud majlisi o'tkaziladigan bino"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Parfenon - Akropolda qurilgan ma'buda Afina ibodatxonasi."
+  },
+  {
+   "question": "Kam ta'minlangan oilalar uchun qanday pul jamg'armasi tashkil etilgan?",
+   "options": [
+    "Teatr-spektakllarni borib ko'rish uchun",
+    "Qurol-yarog' sotib olish uchun jamg'arma",
+    "Yangi kemalar qurish uchun jamg'arma",
+    "Maktablar qurish uchun jamg'arma"
+   ],
+   "correct_index": 0,
+   "page": 98,
+   "explanation": "Kam ta'minlangan oilalar uchun teatr-spektakllarni borib ko'rish uchun maxsus pul jamg'armasi tashkil etilgan."
+  }
+ ]
 }

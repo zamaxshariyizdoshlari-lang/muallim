@@ -110,7 +110,17 @@
     "page": 92
    }
   ],
-  "summary": "Amir Husayn Temurning safdoshlarini soliqlar bilan siqib, ularning ittifoqi uzildi. 1370-yilda Temur Balxni egallab, Husaynni yengdi. Qurultoyda Suyurg'atmish nomigagina xon bo'ldi, Temur Movarounnahr amiri sifatida haqiqiy hokimiyatni oldi va Samarqandni poytaxt qildi. U qonun ustuvorligini ta'minlab, yo'llar xavfsizligi va obodonlashtirishga e'tibor qaratdi."
+  "summary": "Amir Husayn Temurning safdoshlarini soliqlar bilan siqib, ularning ittifoqi uzildi. 1370-yilda Temur Balxni egallab, Husaynni yengdi. Qurultoyda Suyurg'atmish nomigagina xon bo'ldi, Temur Movarounnahr amiri sifatida haqiqiy hokimiyatni oldi va Samarqandni poytaxt qildi. U qonun ustuvorligini ta'minlab, yo'llar xavfsizligi va obodonlashtirishga e'tibor qaratdi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t10_vaqt.svg",
+    "caption": "Amir Temur hukmdor: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t10_jang.svg",
+    "caption": "Amir Temur yo'li"
+   }
+  ]
  },
  "test": [
   {

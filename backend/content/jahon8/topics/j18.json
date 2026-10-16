@@ -97,7 +97,17 @@
     "page": 113
    }
   ],
-  "summary": "Shimoliy Amerikaning tub aholisi (hindular, eskimoslar, aleutlar) ovchilik va baliqchilik bilan shug'ullangan. Markaziy va Janubiy Amerikada mayyalar, atsteklar va inklar shahar-davlatlar va imperiyalar yaratdi. Atsteklar davlati 1521-yilda ispan konkistadori Kortes tomonidan tugatildi."
+  "summary": "Shimoliy Amerikaning tub aholisi (hindular, eskimoslar, aleutlar) ovchilik va baliqchilik bilan shug'ullangan. Markaziy va Janubiy Amerikada mayyalar, atsteklar va inklar shahar-davlatlar va imperiyalar yaratdi. Atsteklar davlati 1521-yilda ispan konkistadori Kortes tomonidan tugatildi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j18_vaqt.svg",
+    "caption": "Amerika xalqlari: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j18_xalq.svg",
+    "caption": "Uch tsivilizatsiya"
+   }
+  ]
  },
  "test": [
   {

@@ -93,7 +93,17 @@
     "page": 151
    }
   ],
-  "summary": "XIV asrda Italiyaning savdo shaharlarida antik madaniyatga qaytish va gumanizm asosida Uyg'onish davri boshlandi. Dante, Petrarka, Bokkachcho ilk adabiyotni yaratdi; Brunelleski arxitekturani, Mazachcho rassomchilikni yangiladi. Yangi g'oyalar universitetlar va matbaa orqali Shimoliy Yevropaga tarqaldi; van Eyk realizmi, musiqaning rivoji bu davr belgilari."
+  "summary": "XIV asrda Italiyaning savdo shaharlarida antik madaniyatga qaytish va gumanizm asosida Uyg'onish davri boshlandi. Dante, Petrarka, Bokkachcho ilk adabiyotni yaratdi; Brunelleski arxitekturani, Mazachcho rassomchilikni yangiladi. Yangi g'oyalar universitetlar va matbaa orqali Shimoliy Yevropaga tarqaldi; van Eyk realizmi, musiqaning rivoji bu davr belgilari.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j24_vaqt.svg",
+    "caption": "Ilk Uyg'onish: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j24_ijod.svg",
+    "caption": "Ilk Uyg'onish ijodkorlari"
+   }
+  ]
  },
  "test": [
   {

@@ -85,7 +85,17 @@
     "page": 39
    }
   ],
-  "summary": "Shtaufenlardan Fridrix II Sitsiliyadan turib boshqarib, fan va madaniyatni qo'llab-quvvatladi; papa bilan kurashda mag'lub bo'ldi. Germaniyada imperator hokimiyati zaif, feodallar kuchli edi; Gabsburglar yer-mulklarini nikoh orqali kengaytirdi. Shaharlar Ganza, Reyn va Shvabiya savdo ittifoqlariga birlashdi."
+  "summary": "Shtaufenlardan Fridrix II Sitsiliyadan turib boshqarib, fan va madaniyatni qo'llab-quvvatladi; papa bilan kurashda mag'lub bo'ldi. Germaniyada imperator hokimiyati zaif, feodallar kuchli edi; Gabsburglar yer-mulklarini nikoh orqali kengaytirdi. Shaharlar Ganza, Reyn va Shvabiya savdo ittifoqlariga birlashdi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j06_vaqt.svg",
+    "caption": "Germaniya: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j06_imp.svg",
+    "caption": "Germaniya siyosiy bo'linishi"
+   }
+  ]
  },
  "test": [
   {

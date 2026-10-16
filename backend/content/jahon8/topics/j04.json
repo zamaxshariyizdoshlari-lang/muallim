@@ -85,7 +85,17 @@
     "page": 29
    }
   ],
-  "summary": "Angliyada qirol hokimiyatini mustahkamlash uchun sharoit Fransiyadagidan yaxshi edi. Qirol Ioann baronlar bosimi ostida 1215-yilda \"Erkinlikning buyuk xartiyasi\"ni imzoladi. Simon de Monfor 1265-yilda parlamentni chaqirdi, 1295-yildan u doimiy bo'ldi va soliqlarni tasdiqlash huquqini oldi. 1343-yilda ikki palataga bo'lindi."
+  "summary": "Angliyada qirol hokimiyatini mustahkamlash uchun sharoit Fransiyadagidan yaxshi edi. Qirol Ioann baronlar bosimi ostida 1215-yilda \"Erkinlikning buyuk xartiyasi\"ni imzoladi. Simon de Monfor 1265-yilda parlamentni chaqirdi, 1295-yildan u doimiy bo'ldi va soliqlarni tasdiqlash huquqini oldi. 1343-yilda ikki palataga bo'lindi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j04_vaqt.svg",
+    "caption": "Angliyada markazlashuv: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j04_parl.svg",
+    "caption": "Parlament palatalari"
+   }
+  ]
  },
  "test": [
   {

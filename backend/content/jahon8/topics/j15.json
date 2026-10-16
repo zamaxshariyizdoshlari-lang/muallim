@@ -104,7 +104,17 @@
     "page": 95
    }
   ],
-  "summary": "Xubilay Xitoyni egallab Yuan sulolasini tuzdi; dehqonlar qaramlikda, xo'jalik inqirozda edi. 1351-yildagi qo'zg'olondan so'ng Chju Yuan Chjan Min sulolasini o'rnatdi, soliqlar kamaytirildi, imtihon tizimi tiklandi. Yongle davrida poytaxt Pekinga ko'chirildi, Buyuk kanal tiklandi, dengiz ekspeditsiyalari bo'ldi. Temur Xitoyga yurish rejalashtirgan."
+  "summary": "Xubilay Xitoyni egallab Yuan sulolasini tuzdi; dehqonlar qaramlikda, xo'jalik inqirozda edi. 1351-yildagi qo'zg'olondan so'ng Chju Yuan Chjan Min sulolasini o'rnatdi, soliqlar kamaytirildi, imtihon tizimi tiklandi. Yongle davrida poytaxt Pekinga ko'chirildi, Buyuk kanal tiklandi, dengiz ekspeditsiyalari bo'ldi. Temur Xitoyga yurish rejalashtirgan.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j15_vaqt.svg",
+    "caption": "Xitoy: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j15_sul.svg",
+    "caption": "Xitoy sulolalari"
+   }
+  ]
  },
  "test": [
   {

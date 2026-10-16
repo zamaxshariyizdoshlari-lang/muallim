@@ -97,7 +97,17 @@
     "page": 168
    }
   ],
-  "summary": "Temuriylar davrida asosiy yer solig'i xiroj bo'lib, uch muddatda yig'ilgan. Kumush tanga va miri, mis fulus zarb qilingan; Ulug'bek pul islohoti o'tkazdi. Yer mulki to'rt shaklda bo'lgan, suyurg'ol tarqalgan. Yangi kanallar qazilib, dehqonchilik maydonlari kengaydi."
+  "summary": "Temuriylar davrida asosiy yer solig'i xiroj bo'lib, uch muddatda yig'ilgan. Kumush tanga va miri, mis fulus zarb qilingan; Ulug'bek pul islohoti o'tkazdi. Yer mulki to'rt shaklda bo'lgan, suyurg'ol tarqalgan. Yangi kanallar qazilib, dehqonchilik maydonlari kengaydi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t20_vaqt.svg",
+    "caption": "Iqtisodiy munosabatlar: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t20_soha.svg",
+    "caption": "Iqtisod sohalari"
+   }
+  ]
  },
  "test": [
   {

@@ -99,3 +99,9 @@ def inject(course, imgs):
         if patch(d):
             json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'{course}: {sum(len(v) for v in imgs.values())} rasm, {n} mavzu yangilandi')
+
+
+def adder(pref, I):
+    def add(k, tl, tle, f2, t2, s2):
+        I[k] = [(f'{pref}_{k}_vaqt', tl + ': vaqt chizig\'i', timeline(tl, tle)), (f'{pref}_{k}_{f2}', t2, s2)]
+    return add

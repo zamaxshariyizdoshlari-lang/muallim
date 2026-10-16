@@ -1,123 +1,782 @@
 {
-  "key": "p10", "title": "10-§. Qadimgi Misr madaniyati", "start_page": 40, "end_page": 42,
-  "explanation": {
-    "takeaways": ["Misrliklar 750 iyeroglifdan iborat yozuvni yaratib, papirusga yozgan; uni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qigan.", "Amaliy ehtiyojlar astronomiya, 365 kunlik taqvim (12 oy x 30 kun + 5 kun), geometriya, matematika va tibbiyotni rivojlantirgan.", "Yagona o'lchov 'podsho tirsagi' (52,5 sm) va 24 bo'lmali suv soati joriy etilgan."],
-    "goals": ["Misr yozuvi (iyerogliflar) va uning o'qilishini bilish", "Misrliklarning amaliy bilimlari - astronomiya, geometriya, tibbiyot, o'lchov birliklarini tushuntirish"],
-    "blocks": [
-      { "heading": "Yozuv", "pages": [40],
-        "text": "Qadimgi misrliklar yozuvi insoniyatning ilk yozuvlaridan biri edi. Dastlab har bir so'z rasm ko'rinishida yozilgan. Yozuvdan duolar va marosimlarni yozib borishda foydalanilgan, shuning uchun ham u \"muqaddas kalom\" yoki \"ma'budlar kalomi\" deb nomlangan. Qadimgi yunonlar ularni \"iyerogliflar\" deyishgan (\"muqaddas bitiklar\" ma'nosini anglatadi). Yozuvlar maqbaralarning devorlariga va ma'budlar haykallariga o'yib yozilgan. Yozuv uchun tosh va sopoldan ham foydalanilgan.\n\nMisrliklar alifbosi 750 iyeroglifdan iborat bo'lgan. Har bir so'z o'zida bir qancha ramzlar va timsollarni ifoda etgan. Iyerogliflarni o'rganish ancha qiyin ish bo'lib, savod chiqarish ko'pchilikka ham nasib etavermagan. Iyerogliflarni qamish qalam bilan papirusga, ya'ni papirus poyasidan ishlangan qog'ozga yozishgan. Turli rangdagi mineral bo'yoqlar siyoh vazifasini o'tagan. Ta'lim ola yotganda sopol idishlar parchasiga yoki ohaktoshga yozishgan. Husnixat san'atini egallagan kishilar yuksak savodxon kishilar sanalgan, ular katta imtiyozlarga va izzat-hurmatga ega bo'lgan." },
-      { "heading": "Iyerogliflar sirining kashf etilishi", "pages": [41],
-        "text": "Taniqli fransuz olimi Jak-Fransua Shampolyon 1822-yilda jahonshumul ahamiyatga molik kashfiyot qildi: qadimiy Misr matnlarini o'qishga muvaffaq bo'ldi. Bu kashfiyotga Qohira shahridan uncha uzoq bo'lmagan Rozett shahri yaqinidagi bir toshga chekilgan qadimgi misr va qadimgi yunon tillaridagi bir xil ma'nodagi bitik sababchi bo'ldi. Yunon tilidan tarjima qilish qiyinchilik tug'dirmadi, matnlarni taqqoslab ko'rib, har bir iyeroglif anglatgan ma'noni tushuntirib berish imkoni topildi.\n\nAna shu kashfiyotdan keyin papiruslarga bitilgan ko'plab matnlar, ibodatxonalar va piramidalar devorlaridagi bitiklar ko'p asrlik jimjitlikdan so'ng \"tilga kirdi\". Tarixchilar esa qadimgi Misr sivilizatsiyasini o'rganish uchun muhim va ishonchli manbaga ega bo'lishdi. Bugungi kunda Rozett bitiktoshi Londondagi Britaniya muzeyida saqlanmoqda." },
-      { "heading": "Astronomiya va taqvim", "pages": [42],
-        "text": "Misrda amaliy bilimlarning dunyoga kelishi va rivoj topishi misrliklarning kundalik hayoti bilan bog'liq bo'lgan. Ziroatkorlar qachon urug'likni yerga qadash, qay mahalda hosilni yig'ishtirib olishni bilishi zarur edi. Bu muddatlarni misrliklar yulduzlarga qarab aniqlagan. Shu tariqa astronomiya, ya'ni yulduzlar haqidagi fan dunyoga keldi.\n\nYulduzlarni kuzata turib, misrliklar yil davomiyligini 365 kun etib aniq belgiladi, birinchi bo'lib taqvim tuzdi, 365 kunni esa 30 kundan 12 oyga taqsimladi, ortib qolgan 5 kunni bayram kunlari sanab, hisobga kiritmadi." },
-      { "heading": "Geometriya va matematika", "pages": [42],
-        "text": "Anhorlar qazilayotganda, istalgan imorat va inshootni barpo etayotganda maydon hajmini o'lchash zarur edi, shu tariqa geometriya fani - yer yuzasini o'lchash ilmi dunyoga keldi. Misrliklar nafaqat oddiy arifmetik hisoblashni, qolaversa, kasrlar, maxrajlar va murakkab hisob-kitoblarni ham bilishgan. Matematika fani ana shu asosda taraqqiy etdi." },
-      { "heading": "Tibbiyot", "pages": [42],
-        "text": "Misrliklar tibbiyot fani haqidagi bilimlarga ega bo'lishgan. Mumiyolangan mayitlarni tayyorlash jarayonida misrliklar odamning ichki tuzilishini ham yaxshi o'rgangan. Davolash muolajasida giyohlar damlamasi, ma'danli suvlar va tuzdan keng foydalangan. Misr shaharlarida tabiblarga ta'lim beruvchi maxsus maktablar bo'lgan." },
-      { "heading": "O'lchov birliklari va suv soati", "pages": [42],
-        "text": "Misrda asosiy o'lchov birligi \"tirsak\" bo'lib, u tirsakdan barmoqlar uchigacha bo'lgan uzunlikka teng edi. Qo'llar uzunligi turlicha bo'lgani sababli \"podsho tirsagi\" degan yagona o'lchov joriy etilgan, u 52,5 santimetrga teng bo'lgan. Bir kaft = to'rt barmoq, bir tirsak = yettita kaft.\n\nMisrda vaqt 24 ta bo'lmaga ajratilgan maxsus idishdan iborat suv soatlari yordamida o'lchangan. Bir bo'lmadan ikkinchisiga oqib o'tadigan suvning hajmi bir soat deb hisoblangan." }
+ "key": "p10",
+ "title": "10-§. Qadimgi Misr madaniyati",
+ "start_page": 40,
+ "end_page": 42,
+ "explanation": {
+  "takeaways": [
+   "Misrliklar 750 iyeroglifdan iborat yozuvni yaratib, papirusga yozgan; uni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qigan.",
+   "Amaliy ehtiyojlar astronomiya, 365 kunlik taqvim (12 oy x 30 kun + 5 kun), geometriya, matematika va tibbiyotni rivojlantirgan.",
+   "Yagona o'lchov 'podsho tirsagi' (52,5 sm) va 24 bo'lmali suv soati joriy etilgan."
+  ],
+  "goals": [
+   "Misr yozuvi (iyerogliflar) va uning o'qilishini bilish",
+   "Misrliklarning amaliy bilimlari - astronomiya, geometriya, tibbiyot, o'lchov birliklarini tushuntirish"
+  ],
+  "blocks": [
+   {
+    "heading": "Yozuv",
+    "pages": [
+     40
     ],
-    "key_facts": [
-      { "fact": "Misr alifbosi 750 iyeroglifdan iborat bo'lgan; yozuv \"muqaddas kalom\" deb atalgan", "page": 40 },
-      { "fact": "Iyerogliflar qamish qalam bilan papirusga (papirus poyasidan ishlangan qog'ozga) yozilgan", "page": 40 },
-      { "fact": "Jak-Fransua Shampolyon 1822-yilda Rozett bitiktoshi yordamida iyerogliflarni o'qishga muvaffaq bo'lgan", "page": 41 },
-      { "fact": "Misrliklar yilni 365 kunga, oyni 30 kunga (12 oy) bo'lib, birinchi taqvimni tuzgan; 5 kun bayram kunlari bo'lgan", "page": 42 },
-      { "fact": "\"Podsho tirsagi\" 52,5 santimetrga teng yagona o'lchov birligi bo'lgan", "page": 42 }
+    "text": "Qadimgi misrliklar yozuvi insoniyatning ilk yozuvlaridan biri edi. Dastlab har bir so'z rasm ko'rinishida yozilgan. Yozuvdan duolar va marosimlarni yozib borishda foydalanilgan, shuning uchun ham u \"muqaddas kalom\" yoki \"ma'budlar kalomi\" deb nomlangan. Qadimgi yunonlar ularni \"iyerogliflar\" deyishgan (\"muqaddas bitiklar\" ma'nosini anglatadi). Yozuvlar maqbaralarning devorlariga va ma'budlar haykallariga o'yib yozilgan. Yozuv uchun tosh va sopoldan ham foydalanilgan.\n\nMisrliklar alifbosi 750 iyeroglifdan iborat bo'lgan. Har bir so'z o'zida bir qancha ramzlar va timsollarni ifoda etgan. Iyerogliflarni o'rganish ancha qiyin ish bo'lib, savod chiqarish ko'pchilikka ham nasib etavermagan. Iyerogliflarni qamish qalam bilan papirusga, ya'ni papirus poyasidan ishlangan qog'ozga yozishgan. Turli rangdagi mineral bo'yoqlar siyoh vazifasini o'tagan. Ta'lim ola yotganda sopol idishlar parchasiga yoki ohaktoshga yozishgan. Husnixat san'atini egallagan kishilar yuksak savodxon kishilar sanalgan, ular katta imtiyozlarga va izzat-hurmatga ega bo'lgan."
+   },
+   {
+    "heading": "Iyerogliflar sirining kashf etilishi",
+    "pages": [
+     41
     ],
-    "why": {
-      "causes": [
-        "Ziroatkorlar urug'likni qachon qadash va hosilni qachon yig'ishni bilishi zarur edi",
-        "Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur edi",
-        "Qo'llar uzunligi turlicha bo'lgani uchun o'lchovlar bir xil chiqmasdi"
-      ],
-      "effects": [
-        "Misrliklar yulduzlarni kuzatib astronomiyaga asos soldi: yilni 365 kun deb aniqladi va birinchi taqvimni tuzdi",
-        "Yer yuzasini o'lchash ilmi — geometriya paydo bo'ldi, matematika taraqqiy etdi",
-        "Mumiyolash jarayonida odamning ichki tuzilishi o'rganilib, tibbiyot bilimlari rivojlandi",
-        "Yagona 'podsho tirsagi' (52,5 sm) o'lchovi joriy etildi",
-        "Rozett bitiktoshi tufayli Shampolyon 1822-yilda iyerogliflarni o'qidi va tarixchilar qadimgi Misrni o'rganish uchun ishonchli manbaga ega bo'ldi"
-      ]
-    },
-    "summary": "Misrliklar iyeroglif yozuvini yaratib, uni papirusga yozgan; bu yozuvni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qidi. Amaliy ehtiyojlar astronomiya, taqvim, geometriya, matematika, tibbiyot, o'lchov birliklari va suv soatining paydo bo'lishiga olib keldi."
-  },
-  "presentation": { "slides": [
-    { "title": "10-§. Qadimgi Misr madaniyati", "bullets": [], "page": null },
-    { "title": "Iyeroglif yozuvi", "bullets": ["Insoniyatning ilk yozuvlaridan biri", "750 iyeroglif", "\"Muqaddas kalom\", \"ma'budlar kalomi\""], "page": 40 },
-    { "title": "Papirus", "bullets": ["Papirus poyasidan qog'oz", "Qamish qalam, mineral bo'yoq", "Ta'lim: sopol parchasi va ohaktosh"], "page": 40 },
-    { "title": "Shampolyon kashfiyoti", "bullets": ["1822-yil, fransuz olimi", "Rozett bitiktoshi (misr va yunon tilida)", "Britaniya muzeyida saqlanadi"], "page": 41 },
-    { "title": "Astronomiya va taqvim", "bullets": ["Yil - 365 kun", "12 oy x 30 kun + 5 bayram kuni"], "page": 42 },
-    { "title": "Fanlar", "bullets": ["Geometriya - yer o'lchash ilmi", "Matematika: kasrlar va maxrajlar", "Tibbiyot va tabiblar maktabi"], "page": 42 },
-    { "title": "O'lchovlar", "bullets": ["\"Podsho tirsagi\" - 52,5 sm", "1 tirsak = 7 kaft, 1 kaft = 4 barmoq", "Suv soati - 24 bo'lma"], "page": 42 }
-  ] },
-  "games": {
-    "matching": { "pairs": [
-      { "left": "Iyerogliflar", "right": "Yunonlar bergan nom: \"muqaddas bitiklar\"", "page": 40 },
-      { "left": "Papirus", "right": "Papirus poyasidan ishlangan qog'oz", "page": 40 },
-      { "left": "Shampolyon", "right": "1822-yilda Misr matnlarini o'qishga muvaffaq bo'lgan fransuz olimi", "page": 41 },
-      { "left": "Rozett bitiktoshi", "right": "Londondagi Britaniya muzeyida saqlanadigan ikki tilli bitik", "page": 41 },
-      { "left": "Astronomiya", "right": "Yulduzlar haqidagi fan", "page": 42 },
-      { "left": "Geometriya", "right": "Yer yuzasini o'lchash ilmi", "page": 42 },
-      { "left": "\"Podsho tirsagi\"", "right": "52,5 santimetrga teng yagona o'lchov", "page": 42 },
-      { "left": "Suv soati", "right": "24 bo'lmaga ajratilgan maxsus idish", "page": 42 }
-    ] },
-    "fill_blank": { "questions": [
-      { "question": "Misr alifbosi ____ iyeroglifdan iborat bo'lgan.", "options": ["75", "750", "7500", "27"], "correct_index": 1, "page": 40 },
-      { "question": "Iyerogliflar ____ poyasidan ishlangan qog'ozga yozilgan.", "options": ["papirus", "paxta", "qamish", "bambuk"], "correct_index": 0, "page": 40 },
-      { "question": "Shampolyon iyerogliflarni ____-yilda o'qishga muvaffaq bo'ldi.", "options": ["1722", "1822", "1922", "1622"], "correct_index": 1, "page": 41 },
-      { "question": "Misrliklar yil davomiyligini ____ kun etib belgiladi.", "options": ["300", "360", "365", "400"], "correct_index": 2, "page": 42 },
-      { "question": "\"Podsho tirsagi\" ____ santimetrga teng bo'lgan.", "options": ["25,5", "52,5", "75", "100"], "correct_index": 1, "page": 42 },
-      { "question": "Misrda vaqt ____ ta bo'lmaga ajratilgan idishdan iborat suv soati bilan o'lchangan.", "options": ["12", "24", "60", "7"], "correct_index": 1, "page": 42 }
-    ] }
-  },
-  "practice": {
-    "book_questions": [
-      { "question": "Qadimgi Misr yozuvining o'ziga xosligi nimada?", "answer": "Dastlab har bir so'z rasm ko'rinishida yozilgan; alifbo 750 iyeroglifdan iborat, har bir so'z bir qancha ramz va timsolni ifodalagan. Yozuv qamish qalam bilan papirusga, shuningdek tosh va sopolga yozilgan.", "page": 40 },
-      { "question": "Nima uchun misrliklar iyerogliflarni \"muqaddas kalom\" deb atagan?", "answer": "Chunki yozuvdan duolar va marosimlarni yozib borishda foydalanilgan.", "page": 40 },
-      { "question": "Misr yozuvi sirini Siz ham yecha olarmidingiz? Qanday qilib?", "answer": "Darslikka ko'ra, Shampolyon Rozett bitiktoshidagi bir xil ma'nodagi qadimgi misr va qadimgi yunon matnlarini taqqoslab, har bir iyeroglifning ma'nosini aniqlagan.", "page": 41 },
-      { "question": "Misrliklarning dunyoviy bilimlaridagi yutuqlarni sanab bering.", "answer": "Astronomiya va 365 kunlik taqvim (12 oy x 30 kun + 5 kun), geometriya, arifmetika va kasrlar, tibbiyot (tabiblar maktabi, giyohlar), o'lchov birliklari (podsho tirsagi - 52,5 sm) va suv soatlari.", "page": 42 }
+    "text": "Taniqli fransuz olimi Jak-Fransua Shampolyon 1822-yilda jahonshumul ahamiyatga molik kashfiyot qildi: qadimiy Misr matnlarini o'qishga muvaffaq bo'ldi. Bu kashfiyotga Qohira shahridan uncha uzoq bo'lmagan Rozett shahri yaqinidagi bir toshga chekilgan qadimgi misr va qadimgi yunon tillaridagi bir xil ma'nodagi bitik sababchi bo'ldi. Yunon tilidan tarjima qilish qiyinchilik tug'dirmadi, matnlarni taqqoslab ko'rib, har bir iyeroglif anglatgan ma'noni tushuntirib berish imkoni topildi.\n\nAna shu kashfiyotdan keyin papiruslarga bitilgan ko'plab matnlar, ibodatxonalar va piramidalar devorlaridagi bitiklar ko'p asrlik jimjitlikdan so'ng \"tilga kirdi\". Tarixchilar esa qadimgi Misr sivilizatsiyasini o'rganish uchun muhim va ishonchli manbaga ega bo'lishdi. Bugungi kunda Rozett bitiktoshi Londondagi Britaniya muzeyida saqlanmoqda."
+   },
+   {
+    "heading": "Astronomiya va taqvim",
+    "pages": [
+     42
     ],
-    "quiz": [
-      { "question": "Iyerogliflar sirini ochishga qaysi topilma sababchi bo'ldi?", "options": ["Rozett bitiktoshi", "Piramida devori", "Tutanxamon maqbarasi", "Sfinks haykali"], "correct_index": 0, "page": 41, "explanation": "Iyerogliflar sirini ochishga Rozett bitiktoshi sababchi bo'lgan." },
-      { "question": "Astronomiya nima uchun vujudga kelgan?", "options": ["Ziroatkorlarga urug' sepish va hosil yig'ish muddatlarini aniqlash zarur bo'lgani uchun", "Fir'avnlar buyurgani va qo'llab-quvvatlagani uchun", "Dengizchilik uchun yo'l topishga muhtojlik tufayli", "Harbiy yurishlar rejasini tuzish uchun"], "correct_index": 0, "page": 42, "explanation": "Astronomiya ziroatkorlarga urug' sepish va hosil yig'ish muddatlarini aniqlash zarur bo'lgani uchun vujudga kelgan." },
-      { "question": "Nima uchun misrliklar \"podsho tirsagi\" yagona o'lchovini joriy etgan?", "options": ["Qo'llar uzunligi turlicha bo'lgani uchun", "Tirsak o'lchovi eskirib qolgani uchun", "Metr o'lchovi hali ixtiro qilinmagani uchun", "Fir'avn shunday xohlagani uchun"], "correct_index": 0, "page": 42, "explanation": "Qo'llar uzunligi turlicha bo'lgani uchun misrliklar yagona 'podsho tirsagi' o'lchovini joriy etgan." }
-    ]
+    "text": "Misrda amaliy bilimlarning dunyoga kelishi va rivoj topishi misrliklarning kundalik hayoti bilan bog'liq bo'lgan. Ziroatkorlar qachon urug'likni yerga qadash, qay mahalda hosilni yig'ishtirib olishni bilishi zarur edi. Bu muddatlarni misrliklar yulduzlarga qarab aniqlagan. Shu tariqa astronomiya, ya'ni yulduzlar haqidagi fan dunyoga keldi.\n\nYulduzlarni kuzata turib, misrliklar yil davomiyligini 365 kun etib aniq belgiladi, birinchi bo'lib taqvim tuzdi, 365 kunni esa 30 kundan 12 oyga taqsimladi, ortib qolgan 5 kunni bayram kunlari sanab, hisobga kiritmadi."
+   },
+   {
+    "heading": "Geometriya va matematika",
+    "pages": [
+     42
+    ],
+    "text": "Anhorlar qazilayotganda, istalgan imorat va inshootni barpo etayotganda maydon hajmini o'lchash zarur edi, shu tariqa geometriya fani - yer yuzasini o'lchash ilmi dunyoga keldi. Misrliklar nafaqat oddiy arifmetik hisoblashni, qolaversa, kasrlar, maxrajlar va murakkab hisob-kitoblarni ham bilishgan. Matematika fani ana shu asosda taraqqiy etdi."
+   },
+   {
+    "heading": "Tibbiyot",
+    "pages": [
+     42
+    ],
+    "text": "Misrliklar tibbiyot fani haqidagi bilimlarga ega bo'lishgan. Mumiyolangan mayitlarni tayyorlash jarayonida misrliklar odamning ichki tuzilishini ham yaxshi o'rgangan. Davolash muolajasida giyohlar damlamasi, ma'danli suvlar va tuzdan keng foydalangan. Misr shaharlarida tabiblarga ta'lim beruvchi maxsus maktablar bo'lgan."
+   },
+   {
+    "heading": "O'lchov birliklari va suv soati",
+    "pages": [
+     42
+    ],
+    "text": "Misrda asosiy o'lchov birligi \"tirsak\" bo'lib, u tirsakdan barmoqlar uchigacha bo'lgan uzunlikka teng edi. Qo'llar uzunligi turlicha bo'lgani sababli \"podsho tirsagi\" degan yagona o'lchov joriy etilgan, u 52,5 santimetrga teng bo'lgan. Bir kaft = to'rt barmoq, bir tirsak = yettita kaft.\n\nMisrda vaqt 24 ta bo'lmaga ajratilgan maxsus idishdan iborat suv soatlari yordamida o'lchangan. Bir bo'lmadan ikkinchisiga oqib o'tadigan suvning hajmi bir soat deb hisoblangan."
+   }
+  ],
+  "key_facts": [
+   {
+    "fact": "Misr alifbosi 750 iyeroglifdan iborat bo'lgan; yozuv \"muqaddas kalom\" deb atalgan",
+    "page": 40
+   },
+   {
+    "fact": "Iyerogliflar qamish qalam bilan papirusga (papirus poyasidan ishlangan qog'ozga) yozilgan",
+    "page": 40
+   },
+   {
+    "fact": "Jak-Fransua Shampolyon 1822-yilda Rozett bitiktoshi yordamida iyerogliflarni o'qishga muvaffaq bo'lgan",
+    "page": 41
+   },
+   {
+    "fact": "Misrliklar yilni 365 kunga, oyni 30 kunga (12 oy) bo'lib, birinchi taqvimni tuzgan; 5 kun bayram kunlari bo'lgan",
+    "page": 42
+   },
+   {
+    "fact": "\"Podsho tirsagi\" 52,5 santimetrga teng yagona o'lchov birligi bo'lgan",
+    "page": 42
+   }
+  ],
+  "why": {
+   "causes": [
+    "Ziroatkorlar urug'likni qachon qadash va hosilni qachon yig'ishni bilishi zarur edi",
+    "Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur edi",
+    "Qo'llar uzunligi turlicha bo'lgani uchun o'lchovlar bir xil chiqmasdi"
+   ],
+   "effects": [
+    "Misrliklar yulduzlarni kuzatib astronomiyaga asos soldi: yilni 365 kun deb aniqladi va birinchi taqvimni tuzdi",
+    "Yer yuzasini o'lchash ilmi — geometriya paydo bo'ldi, matematika taraqqiy etdi",
+    "Mumiyolash jarayonida odamning ichki tuzilishi o'rganilib, tibbiyot bilimlari rivojlandi",
+    "Yagona 'podsho tirsagi' (52,5 sm) o'lchovi joriy etildi",
+    "Rozett bitiktoshi tufayli Shampolyon 1822-yilda iyerogliflarni o'qidi va tarixchilar qadimgi Misrni o'rganish uchun ishonchli manbaga ega bo'ldi"
+   ]
   },
-  "test": [
-    { "question": "Misr yozuvi qanday yozuv edi?", "options": ["Insoniyatning ilk yozuvlaridan biri", "Insoniyat tarixidagi eng oxirgi yozuv turi", "Faqat savdo hisoblari uchun yaratilgan yozuv", "Faqat harbiy buyruqlar uchun yaratilgan yozuv"], "correct_index": 0, "page": 40, "explanation": "Misr yozuvi insoniyatning ilk yozuvlaridan biri edi." },
-    { "question": "Misr yozuvida dastlab har bir so'z qanday yozilgan?", "options": ["Rasm ko'rinishida", "Harflar bilan", "Raqamlar bilan", "Chiziqchalar bilan"], "correct_index": 0, "page": 40, "explanation": "Misr yozuvida dastlab har bir so'z rasm ko'rinishida yozilgan." },
-    { "question": "Yozuvdan nima uchun foydalanilgan?", "options": ["Duolar va marosimlarni yozib borish uchun", "Faqat savdo hisobi va yuk qaydlari uchun", "Faqat xat yozish va xabar yuborish uchun", "Faqat qonunlar va soliqlar uchun"], "correct_index": 0, "page": 40, "explanation": "Yozuv duolar va marosimlarni yozib borish uchun ishlatilgan." },
-    { "question": "Misr yozuvi qanday atalgan?", "options": ["\"Muqaddas kalom\" yoki \"ma'budlar kalomi\"", "\"Podsho yozuvi\" yoki \"fir'avn xati\" deb", "\"Kohin xati\" yoki \"ruhoniy yozuvi\" deb", "\"Nil yozuvi\" yoki \"daryo xati\" deb"], "correct_index": 0, "page": 40, "explanation": "Misr yozuvi 'muqaddas kalom' yoki 'ma'budlar kalomi' deb atalgan." },
-    { "question": "Qadimgi yunonlar Misr yozuvini qanday atashgan?", "options": ["Iyerogliflar", "Papiruslar", "Sfinkslar", "Nomlar"], "correct_index": 0, "page": 40, "explanation": "Qadimgi yunonlar Misr yozuvini iyerogliflar deb atagan." },
-    { "question": "\"Iyerogliflar\" so'zi qanday ma'noni anglatadi?", "options": ["Muqaddas bitiklar", "Oltin yozuv", "Sirli belgilar", "Podsho farmoni"], "correct_index": 0, "page": 40, "explanation": "'Iyerogliflar' so'zi 'muqaddas bitiklar' degan ma'noni bildiradi." },
-    { "question": "Yozuvlar qayerlarga o'yib yozilgan?", "options": ["Maqbaralar devorlariga va ma'budlar haykallariga", "Faqat papirus varaqlariga", "Temir plitalarga va zirhlarga", "Faqat hayvon suyaklariga"], "correct_index": 0, "page": 40, "explanation": "Yozuvlar maqbaralar devorlariga va ma'budlar haykallariga o'yib yozilgan." },
-    { "question": "Misr alifbosi nechta iyeroglifdan iborat bo'lgan?", "options": ["750 ta", "75 ta", "7500 ta", "27 ta"], "correct_index": 0, "page": 40, "explanation": "Misr alifbosi 750 ta iyeroglifdan iborat bo'lgan." },
-    { "question": "Iyerogliflarni o'rganish qanday edi?", "options": ["Ancha qiyin, savod chiqarish ko'pchilikka nasib etmagan", "Juda oson bo'lgani uchun hamma o'rgangan", "Faqat bolalar uchun mo'ljallangan oson mashq edi", "Majburiy bo'lib, hamma uchun oson edi"], "correct_index": 0, "page": 40, "explanation": "Iyerogliflarni o'rganish ancha qiyin bo'lgan, shuning uchun savod chiqarish ko'pchilikka nasib etmagan." },
-    { "question": "Iyerogliflar nimaga yozilgan?", "options": ["Papirusga, ya'ni papirus poyasidan ishlangan qog'ozga", "Oddiy qog'ozga qamish bilan", "Hayvon terisi pergamentiga", "Yog'och taxtachalarga"], "correct_index": 0, "page": 40, "explanation": "Iyerogliflar papirusga, ya'ni papirus poyasidan ishlangan qog'ozga yozilgan." },
-    { "question": "Yozishda nima qalam vazifasini o'tagan?", "options": ["Qamish qalam", "Qush tuki", "Temir qalam", "Ko'mir bo'lagi"], "correct_index": 0, "page": 40, "explanation": "Yozishda qamish qalam ishlatilgan." },
-    { "question": "Siyoh vazifasini nima o'tagan?", "options": ["Turli rangdagi mineral bo'yoqlar", "Qora dud va qurum aralashmasi", "O'simlik sharbati va gul bo'yog'i", "Oddiy suv va loy"], "correct_index": 0, "page": 40, "explanation": "Siyoh vazifasini turli rangdagi mineral bo'yoqlar o'tagan." },
-    { "question": "Ta'lim olayotganda nimalarga yozishgan?", "options": ["Sopol idish parchasi yoki ohaktoshga", "Qimmatbaho papirusga, har gal yangisiga", "Maxsus daftarga qamish bilan", "Mum bilan qoplangan taxtachaga"], "correct_index": 0, "page": 40, "explanation": "O'qiyotganda talabalar sopol idish parchasi yoki ohaktoshga yozgan." },
-    { "question": "Husnixat san'atini egallagan kishilar kim hisoblangan?", "options": ["Yuksak savodxon kishilar, katta imtiyoz va hurmatga ega", "Oddiy hunarmandlar va ustalar", "Qullar va xizmatkorlar", "Sarkardalar va jangchilar"], "correct_index": 0, "page": 40, "explanation": "Husnixat san'atini egallagan kishilar yuksak savodxon bo'lib, katta imtiyoz va hurmatga ega bo'lgan." },
-    { "question": "Qadimiy Misr matnlarini o'qishga kim va qachon muvaffaq bo'lgan?", "options": ["Jak-Fransua Shampolyon, 1822-yilda", "Gerodot, mil. avv. V asrda", "Arrian, milodiy II asrda", "Kambiz II, mil. avv. 525-yilda"], "correct_index": 0, "page": 41, "explanation": "Misr matnlarini 1822-yilda Jak-Fransua Shampolyon o'qishga muvaffaq bo'lgan." },
-    { "question": "Shampolyon qaysi davlat olimi edi?", "options": ["Fransuz", "Ingliz", "Nemis", "Misrlik"], "correct_index": 0, "page": 41, "explanation": "Shampolyon fransuz olimi edi." },
-    { "question": "Iyerogliflar sirini ochishga nima sababchi bo'ldi?", "options": ["Rozett shahri yaqinidan topilgan, ikki tilda bitilgan tosh", "Tutanxamon maqbarasidan topilgan papirus", "Piramida devoridagi yozuvlar to'plami", "Sfinks poyidagi bitiklar"], "correct_index": 0, "page": 41, "explanation": "Iyerogliflar sirini ochishga Rozett yaqinidan topilgan, ikki tilda bitilgan tosh sababchi bo'lgan." },
-    { "question": "Rozett bitiktoshida qaysi tillarda bir xil ma'nodagi bitik bor?", "options": ["Qadimgi misr va qadimgi yunon", "Qadimgi misr va lotin tillarida", "Yunon va fors tillarida", "Misr va arab tillarida"], "correct_index": 0, "page": 41, "explanation": "Rozett bitiktoshida qadimgi misr va qadimgi yunon tillarida bir xil ma'nodagi bitik bor." },
-    { "question": "Rozett bitiktoshi hozir qayerda saqlanmoqda?", "options": ["Londondagi Britaniya muzeyida", "Qohira muzeyida, Misrda", "Parijdagi Luvr muzeyida", "Berlin muzeyida"], "correct_index": 0, "page": 41, "explanation": "Rozett bitiktoshi hozir Londondagi Britaniya muzeyida saqlanmoqda." },
-    { "question": "Misrliklar yulduzlarga qarab nimalarni aniqlagan?", "options": ["Urug'lik ekish va hosil yig'ish muddatlarini", "Faqat ob-havo o'zgarishini oldindan", "Dengiz savdosi yo'llarini aniq", "Urush boshlash vaqtini"], "correct_index": 0, "page": 42, "explanation": "Misrliklar yulduzlarga qarab urug'lik ekish va hosil yig'ish muddatlarini aniqlagan." },
-    { "question": "Yulduzlar haqidagi fan qanday nomlanadi?", "options": ["Astronomiya", "Geometriya", "Botanika", "Arifmetika"], "correct_index": 0, "page": 42, "explanation": "Yulduzlar haqidagi fan astronomiya deyiladi." },
-    { "question": "Misrliklar yil davomiyligini necha kun deb belgiladi?", "options": ["365 kun", "300 kun", "354 kun", "400 kun"], "correct_index": 0, "page": 42, "explanation": "Misrliklar yil davomiyligini 365 kun deb belgilagan." },
-    { "question": "Misr taqvimida yil qanday bo'lingan?", "options": ["30 kundan 12 oyga, ortiqcha 5 kun bayram", "28 kundan 13 oyga bo'lingan, ortiqcha kun yo'q", "31 kundan 12 oyga bo'lingan", "30 kundan 10 oyga bo'lingan"], "correct_index": 0, "page": 42, "explanation": "Misr taqvimida yil 30 kundan 12 oyga bo'lingan, ortiqcha 5 kun bayram kunlari bo'lgan." },
-    { "question": "Geometriya fani nima uchun dunyoga keldi?", "options": ["Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur bo'lgani uchun", "Astronomiya rivoji tufayli yulduzlarni o'lchash uchun", "Savdo hisobi va narx belgilash uchun", "Tibbiyotda dori miqdorini o'lchash uchun"], "correct_index": 0, "page": 42, "explanation": "Geometriya anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur bo'lgani uchun dunyoga kelgan." },
-    { "question": "Geometriya nima ilmi?", "options": ["Yer yuzasini o'lchash ilmi", "Yulduzlar harakatini kuzatish ilmi", "Kasalliklarni davolash ilmi", "Yozuv va xattotlik ilmi"], "correct_index": 0, "page": 42, "explanation": "Geometriya - yer yuzasini o'lchash ilmi." },
-    { "question": "Misrliklar matematikadan qaysi tushunchalarni bilgan?", "options": ["Arifmetik hisob, kasrlar va maxrajlar", "Faqat qo'shish va ayirishni", "Faqat ko'paytirishni", "Logarifmlarni va algebrani"], "correct_index": 0, "page": 42, "explanation": "Misrliklar arifmetik hisob, kasrlar va maxrajlarni bilgan." },
-    { "question": "Misrliklar odamning ichki tuzilishini qanday o'rgangan?", "options": ["Mumiyolangan mayitlarni tayyorlash jarayonida", "Maxsus jarrohlik maktablarida jonli odam ustida", "Urushlarda yaralanganlarni kuzatib", "Hayvonlarni parchalab o'rganib"], "correct_index": 0, "page": 42, "explanation": "Misrliklar odamning ichki tuzilishini mumiyolangan mayitlarni tayyorlash jarayonida o'rgangan." },
-    { "question": "Davolashda nimalardan keng foydalanilgan?", "options": ["Giyohlar damlamasi, ma'danli suvlar va tuz", "Faqat sehr va duo-afsunlardan", "Faqat oltin kukuni va qimmatbaho toshlardan", "Faqat sut va asaldan"], "correct_index": 0, "page": 42, "explanation": "Davolashda giyohlar damlamasi, ma'danli suvlar va tuzdan keng foydalanilgan." },
-    { "question": "Misr shaharlarida tabiblar uchun nima bo'lgan?", "options": ["Ta'lim beruvchi maxsus maktablar", "Qal'a ichidagi katta kasalxonalar", "Davlat dorixonalari tarmog'i", "Katta tibbiy kutubxona"], "correct_index": 0, "page": 42, "explanation": "Misr shaharlarida tabiblar uchun ta'lim beruvchi maxsus maktablar bo'lgan." },
-    { "question": "Misrda asosiy o'lchov birligi nima edi?", "options": ["Tirsak", "Qadam", "Barmoq", "Metr"], "correct_index": 0, "page": 42, "explanation": "Misrda asosiy o'lchov birligi tirsak edi." },
-    { "question": "\"Podsho tirsagi\" nima uchun joriy etilgan?", "options": ["Qo'llar uzunligi turlicha bo'lgani uchun", "Fir'avn buyrug'i bilan", "Chet ellik savdogarlar talabi bilan", "Kohinlar tavsiyasiga ko'ra"], "correct_index": 0, "page": 42, "explanation": "'Podsho tirsagi' qo'llar uzunligi turlicha bo'lgani uchun joriy etilgan." },
-    { "question": "\"Podsho tirsagi\" necha santimetrga teng bo'lgan?", "options": ["52,5 santimetr", "25 santimetr", "100 santimetr", "10 santimetr"], "correct_index": 0, "page": 42, "explanation": "'Podsho tirsagi' 52,5 santimetrga teng bo'lgan." },
-    { "question": "Bir tirsak nechta kaftga teng?", "options": ["Yettita kaft", "Ikkita kaft", "To'rtta kaft", "O'nta kaft"], "correct_index": 0, "page": 42, "explanation": "Bir tirsak yettita kaftga teng bo'lgan." },
-    { "question": "Bir kaft nechta barmoqqa teng?", "options": ["To'rtta barmoq", "Ikkita barmoq", "Beshta barmoq", "Yettita barmoq"], "correct_index": 0, "page": 42, "explanation": "Bir kaft to'rtta barmoqqa teng bo'lgan." },
-    { "question": "Misrda vaqt qanday asbob yordamida o'lchangan?", "options": ["24 ta bo'lmaga ajratilgan suv soati", "Faqat quyosh soati yordamida", "Qum soati yordamida", "Mexanik soat yordamida"], "correct_index": 0, "page": 42, "explanation": "Misrda vaqt 24 ta bo'lmaga ajratilgan suv soati yordamida o'lchangan." },
-    { "question": "Suv soatida bir soat nima deb hisoblangan?", "options": ["Bir bo'lmadan ikkinchisiga oqib o'tadigan suv hajmi", "Idish to'lib toshishi uchun ketadigan vaqt", "Suvning butunlay oqib tugashi uchun vaqt", "Uch bo'lma suvining oqib o'tishi"], "correct_index": 0, "page": 42, "explanation": "Suv soatida bir soat bir bo'lmadan ikkinchisiga oqib o'tadigan suv hajmi deb hisoblangan." }
+  "summary": "Misrliklar iyeroglif yozuvini yaratib, uni papirusga yozgan; bu yozuvni 1822-yilda Shampolyon Rozett bitiktoshi yordamida o'qidi. Amaliy ehtiyojlar astronomiya, taqvim, geometriya, matematika, tibbiyot, o'lchov birliklari va suv soatining paydo bo'lishiga olib keldi.",
+  "images": [
+   {
+    "src": "/qd6/q6_p10_vaqt.svg",
+    "caption": "Misr madaniyati: vaqt chizig'i"
+   },
+   {
+    "src": "/qd6/q6_p10_ilm.svg",
+    "caption": "Misr yutuqlari"
+   }
   ]
+ },
+ "presentation": {
+  "slides": [
+   {
+    "title": "10-§. Qadimgi Misr madaniyati",
+    "bullets": [],
+    "page": null
+   },
+   {
+    "title": "Iyeroglif yozuvi",
+    "bullets": [
+     "Insoniyatning ilk yozuvlaridan biri",
+     "750 iyeroglif",
+     "\"Muqaddas kalom\", \"ma'budlar kalomi\""
+    ],
+    "page": 40
+   },
+   {
+    "title": "Papirus",
+    "bullets": [
+     "Papirus poyasidan qog'oz",
+     "Qamish qalam, mineral bo'yoq",
+     "Ta'lim: sopol parchasi va ohaktosh"
+    ],
+    "page": 40
+   },
+   {
+    "title": "Shampolyon kashfiyoti",
+    "bullets": [
+     "1822-yil, fransuz olimi",
+     "Rozett bitiktoshi (misr va yunon tilida)",
+     "Britaniya muzeyida saqlanadi"
+    ],
+    "page": 41
+   },
+   {
+    "title": "Astronomiya va taqvim",
+    "bullets": [
+     "Yil - 365 kun",
+     "12 oy x 30 kun + 5 bayram kuni"
+    ],
+    "page": 42
+   },
+   {
+    "title": "Fanlar",
+    "bullets": [
+     "Geometriya - yer o'lchash ilmi",
+     "Matematika: kasrlar va maxrajlar",
+     "Tibbiyot va tabiblar maktabi"
+    ],
+    "page": 42
+   },
+   {
+    "title": "O'lchovlar",
+    "bullets": [
+     "\"Podsho tirsagi\" - 52,5 sm",
+     "1 tirsak = 7 kaft, 1 kaft = 4 barmoq",
+     "Suv soati - 24 bo'lma"
+    ],
+    "page": 42
+   }
+  ]
+ },
+ "games": {
+  "matching": {
+   "pairs": [
+    {
+     "left": "Iyerogliflar",
+     "right": "Yunonlar bergan nom: \"muqaddas bitiklar\"",
+     "page": 40
+    },
+    {
+     "left": "Papirus",
+     "right": "Papirus poyasidan ishlangan qog'oz",
+     "page": 40
+    },
+    {
+     "left": "Shampolyon",
+     "right": "1822-yilda Misr matnlarini o'qishga muvaffaq bo'lgan fransuz olimi",
+     "page": 41
+    },
+    {
+     "left": "Rozett bitiktoshi",
+     "right": "Londondagi Britaniya muzeyida saqlanadigan ikki tilli bitik",
+     "page": 41
+    },
+    {
+     "left": "Astronomiya",
+     "right": "Yulduzlar haqidagi fan",
+     "page": 42
+    },
+    {
+     "left": "Geometriya",
+     "right": "Yer yuzasini o'lchash ilmi",
+     "page": 42
+    },
+    {
+     "left": "\"Podsho tirsagi\"",
+     "right": "52,5 santimetrga teng yagona o'lchov",
+     "page": 42
+    },
+    {
+     "left": "Suv soati",
+     "right": "24 bo'lmaga ajratilgan maxsus idish",
+     "page": 42
+    }
+   ]
+  },
+  "fill_blank": {
+   "questions": [
+    {
+     "question": "Misr alifbosi ____ iyeroglifdan iborat bo'lgan.",
+     "options": [
+      "75",
+      "750",
+      "7500",
+      "27"
+     ],
+     "correct_index": 1,
+     "page": 40
+    },
+    {
+     "question": "Iyerogliflar ____ poyasidan ishlangan qog'ozga yozilgan.",
+     "options": [
+      "papirus",
+      "paxta",
+      "qamish",
+      "bambuk"
+     ],
+     "correct_index": 0,
+     "page": 40
+    },
+    {
+     "question": "Shampolyon iyerogliflarni ____-yilda o'qishga muvaffaq bo'ldi.",
+     "options": [
+      "1722",
+      "1822",
+      "1922",
+      "1622"
+     ],
+     "correct_index": 1,
+     "page": 41
+    },
+    {
+     "question": "Misrliklar yil davomiyligini ____ kun etib belgiladi.",
+     "options": [
+      "300",
+      "360",
+      "365",
+      "400"
+     ],
+     "correct_index": 2,
+     "page": 42
+    },
+    {
+     "question": "\"Podsho tirsagi\" ____ santimetrga teng bo'lgan.",
+     "options": [
+      "25,5",
+      "52,5",
+      "75",
+      "100"
+     ],
+     "correct_index": 1,
+     "page": 42
+    },
+    {
+     "question": "Misrda vaqt ____ ta bo'lmaga ajratilgan idishdan iborat suv soati bilan o'lchangan.",
+     "options": [
+      "12",
+      "24",
+      "60",
+      "7"
+     ],
+     "correct_index": 1,
+     "page": 42
+    }
+   ]
+  }
+ },
+ "practice": {
+  "book_questions": [
+   {
+    "question": "Qadimgi Misr yozuvining o'ziga xosligi nimada?",
+    "answer": "Dastlab har bir so'z rasm ko'rinishida yozilgan; alifbo 750 iyeroglifdan iborat, har bir so'z bir qancha ramz va timsolni ifodalagan. Yozuv qamish qalam bilan papirusga, shuningdek tosh va sopolga yozilgan.",
+    "page": 40
+   },
+   {
+    "question": "Nima uchun misrliklar iyerogliflarni \"muqaddas kalom\" deb atagan?",
+    "answer": "Chunki yozuvdan duolar va marosimlarni yozib borishda foydalanilgan.",
+    "page": 40
+   },
+   {
+    "question": "Misr yozuvi sirini Siz ham yecha olarmidingiz? Qanday qilib?",
+    "answer": "Darslikka ko'ra, Shampolyon Rozett bitiktoshidagi bir xil ma'nodagi qadimgi misr va qadimgi yunon matnlarini taqqoslab, har bir iyeroglifning ma'nosini aniqlagan.",
+    "page": 41
+   },
+   {
+    "question": "Misrliklarning dunyoviy bilimlaridagi yutuqlarni sanab bering.",
+    "answer": "Astronomiya va 365 kunlik taqvim (12 oy x 30 kun + 5 kun), geometriya, arifmetika va kasrlar, tibbiyot (tabiblar maktabi, giyohlar), o'lchov birliklari (podsho tirsagi - 52,5 sm) va suv soatlari.",
+    "page": 42
+   }
+  ],
+  "quiz": [
+   {
+    "question": "Iyerogliflar sirini ochishga qaysi topilma sababchi bo'ldi?",
+    "options": [
+     "Rozett bitiktoshi",
+     "Piramida devori",
+     "Tutanxamon maqbarasi",
+     "Sfinks haykali"
+    ],
+    "correct_index": 0,
+    "page": 41,
+    "explanation": "Iyerogliflar sirini ochishga Rozett bitiktoshi sababchi bo'lgan."
+   },
+   {
+    "question": "Astronomiya nima uchun vujudga kelgan?",
+    "options": [
+     "Ziroatkorlarga urug' sepish va hosil yig'ish muddatlarini aniqlash zarur bo'lgani uchun",
+     "Fir'avnlar buyurgani va qo'llab-quvvatlagani uchun",
+     "Dengizchilik uchun yo'l topishga muhtojlik tufayli",
+     "Harbiy yurishlar rejasini tuzish uchun"
+    ],
+    "correct_index": 0,
+    "page": 42,
+    "explanation": "Astronomiya ziroatkorlarga urug' sepish va hosil yig'ish muddatlarini aniqlash zarur bo'lgani uchun vujudga kelgan."
+   },
+   {
+    "question": "Nima uchun misrliklar \"podsho tirsagi\" yagona o'lchovini joriy etgan?",
+    "options": [
+     "Qo'llar uzunligi turlicha bo'lgani uchun",
+     "Tirsak o'lchovi eskirib qolgani uchun",
+     "Metr o'lchovi hali ixtiro qilinmagani uchun",
+     "Fir'avn shunday xohlagani uchun"
+    ],
+    "correct_index": 0,
+    "page": 42,
+    "explanation": "Qo'llar uzunligi turlicha bo'lgani uchun misrliklar yagona 'podsho tirsagi' o'lchovini joriy etgan."
+   }
+  ]
+ },
+ "test": [
+  {
+   "question": "Misr yozuvi qanday yozuv edi?",
+   "options": [
+    "Insoniyatning ilk yozuvlaridan biri",
+    "Insoniyat tarixidagi eng oxirgi yozuv turi",
+    "Faqat savdo hisoblari uchun yaratilgan yozuv",
+    "Faqat harbiy buyruqlar uchun yaratilgan yozuv"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Misr yozuvi insoniyatning ilk yozuvlaridan biri edi."
+  },
+  {
+   "question": "Misr yozuvida dastlab har bir so'z qanday yozilgan?",
+   "options": [
+    "Rasm ko'rinishida",
+    "Harflar bilan",
+    "Raqamlar bilan",
+    "Chiziqchalar bilan"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Misr yozuvida dastlab har bir so'z rasm ko'rinishida yozilgan."
+  },
+  {
+   "question": "Yozuvdan nima uchun foydalanilgan?",
+   "options": [
+    "Duolar va marosimlarni yozib borish uchun",
+    "Faqat savdo hisobi va yuk qaydlari uchun",
+    "Faqat xat yozish va xabar yuborish uchun",
+    "Faqat qonunlar va soliqlar uchun"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Yozuv duolar va marosimlarni yozib borish uchun ishlatilgan."
+  },
+  {
+   "question": "Misr yozuvi qanday atalgan?",
+   "options": [
+    "\"Muqaddas kalom\" yoki \"ma'budlar kalomi\"",
+    "\"Podsho yozuvi\" yoki \"fir'avn xati\" deb",
+    "\"Kohin xati\" yoki \"ruhoniy yozuvi\" deb",
+    "\"Nil yozuvi\" yoki \"daryo xati\" deb"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Misr yozuvi 'muqaddas kalom' yoki 'ma'budlar kalomi' deb atalgan."
+  },
+  {
+   "question": "Qadimgi yunonlar Misr yozuvini qanday atashgan?",
+   "options": [
+    "Iyerogliflar",
+    "Papiruslar",
+    "Sfinkslar",
+    "Nomlar"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Qadimgi yunonlar Misr yozuvini iyerogliflar deb atagan."
+  },
+  {
+   "question": "\"Iyerogliflar\" so'zi qanday ma'noni anglatadi?",
+   "options": [
+    "Muqaddas bitiklar",
+    "Oltin yozuv",
+    "Sirli belgilar",
+    "Podsho farmoni"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "'Iyerogliflar' so'zi 'muqaddas bitiklar' degan ma'noni bildiradi."
+  },
+  {
+   "question": "Yozuvlar qayerlarga o'yib yozilgan?",
+   "options": [
+    "Maqbaralar devorlariga va ma'budlar haykallariga",
+    "Faqat papirus varaqlariga",
+    "Temir plitalarga va zirhlarga",
+    "Faqat hayvon suyaklariga"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Yozuvlar maqbaralar devorlariga va ma'budlar haykallariga o'yib yozilgan."
+  },
+  {
+   "question": "Misr alifbosi nechta iyeroglifdan iborat bo'lgan?",
+   "options": [
+    "750 ta",
+    "75 ta",
+    "7500 ta",
+    "27 ta"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Misr alifbosi 750 ta iyeroglifdan iborat bo'lgan."
+  },
+  {
+   "question": "Iyerogliflarni o'rganish qanday edi?",
+   "options": [
+    "Ancha qiyin, savod chiqarish ko'pchilikka nasib etmagan",
+    "Juda oson bo'lgani uchun hamma o'rgangan",
+    "Faqat bolalar uchun mo'ljallangan oson mashq edi",
+    "Majburiy bo'lib, hamma uchun oson edi"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Iyerogliflarni o'rganish ancha qiyin bo'lgan, shuning uchun savod chiqarish ko'pchilikka nasib etmagan."
+  },
+  {
+   "question": "Iyerogliflar nimaga yozilgan?",
+   "options": [
+    "Papirusga, ya'ni papirus poyasidan ishlangan qog'ozga",
+    "Oddiy qog'ozga qamish bilan",
+    "Hayvon terisi pergamentiga",
+    "Yog'och taxtachalarga"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Iyerogliflar papirusga, ya'ni papirus poyasidan ishlangan qog'ozga yozilgan."
+  },
+  {
+   "question": "Yozishda nima qalam vazifasini o'tagan?",
+   "options": [
+    "Qamish qalam",
+    "Qush tuki",
+    "Temir qalam",
+    "Ko'mir bo'lagi"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Yozishda qamish qalam ishlatilgan."
+  },
+  {
+   "question": "Siyoh vazifasini nima o'tagan?",
+   "options": [
+    "Turli rangdagi mineral bo'yoqlar",
+    "Qora dud va qurum aralashmasi",
+    "O'simlik sharbati va gul bo'yog'i",
+    "Oddiy suv va loy"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Siyoh vazifasini turli rangdagi mineral bo'yoqlar o'tagan."
+  },
+  {
+   "question": "Ta'lim olayotganda nimalarga yozishgan?",
+   "options": [
+    "Sopol idish parchasi yoki ohaktoshga",
+    "Qimmatbaho papirusga, har gal yangisiga",
+    "Maxsus daftarga qamish bilan",
+    "Mum bilan qoplangan taxtachaga"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "O'qiyotganda talabalar sopol idish parchasi yoki ohaktoshga yozgan."
+  },
+  {
+   "question": "Husnixat san'atini egallagan kishilar kim hisoblangan?",
+   "options": [
+    "Yuksak savodxon kishilar, katta imtiyoz va hurmatga ega",
+    "Oddiy hunarmandlar va ustalar",
+    "Qullar va xizmatkorlar",
+    "Sarkardalar va jangchilar"
+   ],
+   "correct_index": 0,
+   "page": 40,
+   "explanation": "Husnixat san'atini egallagan kishilar yuksak savodxon bo'lib, katta imtiyoz va hurmatga ega bo'lgan."
+  },
+  {
+   "question": "Qadimiy Misr matnlarini o'qishga kim va qachon muvaffaq bo'lgan?",
+   "options": [
+    "Jak-Fransua Shampolyon, 1822-yilda",
+    "Gerodot, mil. avv. V asrda",
+    "Arrian, milodiy II asrda",
+    "Kambiz II, mil. avv. 525-yilda"
+   ],
+   "correct_index": 0,
+   "page": 41,
+   "explanation": "Misr matnlarini 1822-yilda Jak-Fransua Shampolyon o'qishga muvaffaq bo'lgan."
+  },
+  {
+   "question": "Shampolyon qaysi davlat olimi edi?",
+   "options": [
+    "Fransuz",
+    "Ingliz",
+    "Nemis",
+    "Misrlik"
+   ],
+   "correct_index": 0,
+   "page": 41,
+   "explanation": "Shampolyon fransuz olimi edi."
+  },
+  {
+   "question": "Iyerogliflar sirini ochishga nima sababchi bo'ldi?",
+   "options": [
+    "Rozett shahri yaqinidan topilgan, ikki tilda bitilgan tosh",
+    "Tutanxamon maqbarasidan topilgan papirus",
+    "Piramida devoridagi yozuvlar to'plami",
+    "Sfinks poyidagi bitiklar"
+   ],
+   "correct_index": 0,
+   "page": 41,
+   "explanation": "Iyerogliflar sirini ochishga Rozett yaqinidan topilgan, ikki tilda bitilgan tosh sababchi bo'lgan."
+  },
+  {
+   "question": "Rozett bitiktoshida qaysi tillarda bir xil ma'nodagi bitik bor?",
+   "options": [
+    "Qadimgi misr va qadimgi yunon",
+    "Qadimgi misr va lotin tillarida",
+    "Yunon va fors tillarida",
+    "Misr va arab tillarida"
+   ],
+   "correct_index": 0,
+   "page": 41,
+   "explanation": "Rozett bitiktoshida qadimgi misr va qadimgi yunon tillarida bir xil ma'nodagi bitik bor."
+  },
+  {
+   "question": "Rozett bitiktoshi hozir qayerda saqlanmoqda?",
+   "options": [
+    "Londondagi Britaniya muzeyida",
+    "Qohira muzeyida, Misrda",
+    "Parijdagi Luvr muzeyida",
+    "Berlin muzeyida"
+   ],
+   "correct_index": 0,
+   "page": 41,
+   "explanation": "Rozett bitiktoshi hozir Londondagi Britaniya muzeyida saqlanmoqda."
+  },
+  {
+   "question": "Misrliklar yulduzlarga qarab nimalarni aniqlagan?",
+   "options": [
+    "Urug'lik ekish va hosil yig'ish muddatlarini",
+    "Faqat ob-havo o'zgarishini oldindan",
+    "Dengiz savdosi yo'llarini aniq",
+    "Urush boshlash vaqtini"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrliklar yulduzlarga qarab urug'lik ekish va hosil yig'ish muddatlarini aniqlagan."
+  },
+  {
+   "question": "Yulduzlar haqidagi fan qanday nomlanadi?",
+   "options": [
+    "Astronomiya",
+    "Geometriya",
+    "Botanika",
+    "Arifmetika"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Yulduzlar haqidagi fan astronomiya deyiladi."
+  },
+  {
+   "question": "Misrliklar yil davomiyligini necha kun deb belgiladi?",
+   "options": [
+    "365 kun",
+    "300 kun",
+    "354 kun",
+    "400 kun"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrliklar yil davomiyligini 365 kun deb belgilagan."
+  },
+  {
+   "question": "Misr taqvimida yil qanday bo'lingan?",
+   "options": [
+    "30 kundan 12 oyga, ortiqcha 5 kun bayram",
+    "28 kundan 13 oyga bo'lingan, ortiqcha kun yo'q",
+    "31 kundan 12 oyga bo'lingan",
+    "30 kundan 10 oyga bo'lingan"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misr taqvimida yil 30 kundan 12 oyga bo'lingan, ortiqcha 5 kun bayram kunlari bo'lgan."
+  },
+  {
+   "question": "Geometriya fani nima uchun dunyoga keldi?",
+   "options": [
+    "Anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur bo'lgani uchun",
+    "Astronomiya rivoji tufayli yulduzlarni o'lchash uchun",
+    "Savdo hisobi va narx belgilash uchun",
+    "Tibbiyotda dori miqdorini o'lchash uchun"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Geometriya anhorlar qazish va inshootlar qurishda maydon hajmini o'lchash zarur bo'lgani uchun dunyoga kelgan."
+  },
+  {
+   "question": "Geometriya nima ilmi?",
+   "options": [
+    "Yer yuzasini o'lchash ilmi",
+    "Yulduzlar harakatini kuzatish ilmi",
+    "Kasalliklarni davolash ilmi",
+    "Yozuv va xattotlik ilmi"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Geometriya - yer yuzasini o'lchash ilmi."
+  },
+  {
+   "question": "Misrliklar matematikadan qaysi tushunchalarni bilgan?",
+   "options": [
+    "Arifmetik hisob, kasrlar va maxrajlar",
+    "Faqat qo'shish va ayirishni",
+    "Faqat ko'paytirishni",
+    "Logarifmlarni va algebrani"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrliklar arifmetik hisob, kasrlar va maxrajlarni bilgan."
+  },
+  {
+   "question": "Misrliklar odamning ichki tuzilishini qanday o'rgangan?",
+   "options": [
+    "Mumiyolangan mayitlarni tayyorlash jarayonida",
+    "Maxsus jarrohlik maktablarida jonli odam ustida",
+    "Urushlarda yaralanganlarni kuzatib",
+    "Hayvonlarni parchalab o'rganib"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrliklar odamning ichki tuzilishini mumiyolangan mayitlarni tayyorlash jarayonida o'rgangan."
+  },
+  {
+   "question": "Davolashda nimalardan keng foydalanilgan?",
+   "options": [
+    "Giyohlar damlamasi, ma'danli suvlar va tuz",
+    "Faqat sehr va duo-afsunlardan",
+    "Faqat oltin kukuni va qimmatbaho toshlardan",
+    "Faqat sut va asaldan"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Davolashda giyohlar damlamasi, ma'danli suvlar va tuzdan keng foydalanilgan."
+  },
+  {
+   "question": "Misr shaharlarida tabiblar uchun nima bo'lgan?",
+   "options": [
+    "Ta'lim beruvchi maxsus maktablar",
+    "Qal'a ichidagi katta kasalxonalar",
+    "Davlat dorixonalari tarmog'i",
+    "Katta tibbiy kutubxona"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misr shaharlarida tabiblar uchun ta'lim beruvchi maxsus maktablar bo'lgan."
+  },
+  {
+   "question": "Misrda asosiy o'lchov birligi nima edi?",
+   "options": [
+    "Tirsak",
+    "Qadam",
+    "Barmoq",
+    "Metr"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrda asosiy o'lchov birligi tirsak edi."
+  },
+  {
+   "question": "\"Podsho tirsagi\" nima uchun joriy etilgan?",
+   "options": [
+    "Qo'llar uzunligi turlicha bo'lgani uchun",
+    "Fir'avn buyrug'i bilan",
+    "Chet ellik savdogarlar talabi bilan",
+    "Kohinlar tavsiyasiga ko'ra"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "'Podsho tirsagi' qo'llar uzunligi turlicha bo'lgani uchun joriy etilgan."
+  },
+  {
+   "question": "\"Podsho tirsagi\" necha santimetrga teng bo'lgan?",
+   "options": [
+    "52,5 santimetr",
+    "25 santimetr",
+    "100 santimetr",
+    "10 santimetr"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "'Podsho tirsagi' 52,5 santimetrga teng bo'lgan."
+  },
+  {
+   "question": "Bir tirsak nechta kaftga teng?",
+   "options": [
+    "Yettita kaft",
+    "Ikkita kaft",
+    "To'rtta kaft",
+    "O'nta kaft"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Bir tirsak yettita kaftga teng bo'lgan."
+  },
+  {
+   "question": "Bir kaft nechta barmoqqa teng?",
+   "options": [
+    "To'rtta barmoq",
+    "Ikkita barmoq",
+    "Beshta barmoq",
+    "Yettita barmoq"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Bir kaft to'rtta barmoqqa teng bo'lgan."
+  },
+  {
+   "question": "Misrda vaqt qanday asbob yordamida o'lchangan?",
+   "options": [
+    "24 ta bo'lmaga ajratilgan suv soati",
+    "Faqat quyosh soati yordamida",
+    "Qum soati yordamida",
+    "Mexanik soat yordamida"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Misrda vaqt 24 ta bo'lmaga ajratilgan suv soati yordamida o'lchangan."
+  },
+  {
+   "question": "Suv soatida bir soat nima deb hisoblangan?",
+   "options": [
+    "Bir bo'lmadan ikkinchisiga oqib o'tadigan suv hajmi",
+    "Idish to'lib toshishi uchun ketadigan vaqt",
+    "Suvning butunlay oqib tugashi uchun vaqt",
+    "Uch bo'lma suvining oqib o'tishi"
+   ],
+   "correct_index": 0,
+   "page": 42,
+   "explanation": "Suv soatida bir soat bir bo'lmadan ikkinchisiga oqib o'tadigan suv hajmi deb hisoblangan."
+  }
+ ]
 }

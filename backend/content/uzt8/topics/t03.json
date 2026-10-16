@@ -167,7 +167,17 @@
     "page": 34
    }
   ],
-  "summary": "Muhammad Xorazmshoh qo'shinni shaharlarga bo'lib yubordi va mudofaa kuchsiz bo'ldi. Chingizxon 1219-yilda yurishni boshlab, O'tror, Buxoro (1220), Samarqand (1220) va Urganch (1221) ni egalladi. Temur Malik va Najmiddin Kubro qahramonlik ko'rsatdi. Muhammad Xorazmshoh Ashura orolida vafot etdi, Jaloliddin valiahd bo'ldi."
+  "summary": "Muhammad Xorazmshoh qo'shinni shaharlarga bo'lib yubordi va mudofaa kuchsiz bo'ldi. Chingizxon 1219-yilda yurishni boshlab, O'tror, Buxoro (1220), Samarqand (1220) va Urganch (1221) ni egalladi. Temur Malik va Najmiddin Kubro qahramonlik ko'rsatdi. Muhammad Xorazmshoh Ashura orolida vafot etdi, Jaloliddin valiahd bo'ldi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t03_vaqt.svg",
+    "caption": "Mudofaa va oqibatlari: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t03_xato.svg",
+    "caption": "Mudofaa xatolari"
+   }
+  ]
  },
  "test": [
   {

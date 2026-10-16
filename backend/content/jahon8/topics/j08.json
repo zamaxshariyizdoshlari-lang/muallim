@@ -104,7 +104,17 @@
     "page": 50
    }
   ],
-  "summary": "Pireney yarimorolida arablar 711-yildan hukmronlik qilgan; rekonkista natijasida Kastiliya, Aragon, Navarra, Portugaliya paydo bo'ldi, 1492-yilda Granada qulagach, jarayon tugadi. Kastiliyada Kortes chaqirildi, Alfonso X davrida Toledo ilm markazi bo'ldi. Portugaliya mustaqil davlat sifatida dengiz va mustamlaka imperiyasiga aylandi. Kastiliya qiroli Genrix III Amir Temur bilan elchilik aloqasi o'rnatdi."
+  "summary": "Pireney yarimorolida arablar 711-yildan hukmronlik qilgan; rekonkista natijasida Kastiliya, Aragon, Navarra, Portugaliya paydo bo'ldi, 1492-yilda Granada qulagach, jarayon tugadi. Kastiliyada Kortes chaqirildi, Alfonso X davrida Toledo ilm markazi bo'ldi. Portugaliya mustaqil davlat sifatida dengiz va mustamlaka imperiyasiga aylandi. Kastiliya qiroli Genrix III Amir Temur bilan elchilik aloqasi o'rnatdi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j08_vaqt.svg",
+    "caption": "Pireney yarimoroli: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j08_reko.svg",
+    "caption": "Rekonkista bosqichlari"
+   }
+  ]
  },
  "test": [
   {

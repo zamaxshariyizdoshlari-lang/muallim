@@ -96,7 +96,17 @@
     "page": 13
    }
   ],
-  "summary": "Kapetinglar davrida Fransiya feodal tarqoqlikda edi. Lyudovik VI, Filipp II Avgust va Filipp IV davrida qirol mulklari kengayib, mamlakatning 3/4 qismi birlashtirildi. Filipp IV papa bilan kurashda 1302-yilda General shtatlarni chaqirdi. XIV asrda Fransiyada toifaviy monarxiya qaror topdi."
+  "summary": "Kapetinglar davrida Fransiya feodal tarqoqlikda edi. Lyudovik VI, Filipp II Avgust va Filipp IV davrida qirol mulklari kengayib, mamlakatning 3/4 qismi birlashtirildi. Filipp IV papa bilan kurashda 1302-yilda General shtatlarni chaqirdi. XIV asrda Fransiyada toifaviy monarxiya qaror topdi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j01_vaqt.svg",
+    "caption": "Fransiya markazlashuvi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j01_shtat.svg",
+    "caption": "General shtatlar tarkibi"
+   }
+  ]
  },
  "test": [
   {

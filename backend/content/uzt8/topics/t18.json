@@ -125,7 +125,17 @@
     "page": 151
    }
   ],
-  "summary": "Ulug'bek 15 yoshda Movarounnahr hokimi bo'ldi, Mo'g'ulistonga yurib g'alaba qozondi, Samarqand, Buxoro, G'ijduvonda madrasalar qurdi. Rasadxona va astronomiya maktabini yaratdi, \"Ziji jadidi Ko'ragoniy\" bilan jahonga mashhur bo'ldi. Tamg'a solig'ini tiklagani uchun boylar norozi bo'ldi; o'g'li Abdullatif 1449-yilda uni mag'lub qilib o'ldirtirdi."
+  "summary": "Ulug'bek 15 yoshda Movarounnahr hokimi bo'ldi, Mo'g'ulistonga yurib g'alaba qozondi, Samarqand, Buxoro, G'ijduvonda madrasalar qurdi. Rasadxona va astronomiya maktabini yaratdi, \"Ziji jadidi Ko'ragoniy\" bilan jahonga mashhur bo'ldi. Tamg'a solig'ini tiklagani uchun boylar norozi bo'ldi; o'g'li Abdullatif 1449-yilda uni mag'lub qilib o'ldirtirdi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t18_vaqt.svg",
+    "caption": "Mirzo Ulug'bek: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t18_asar.svg",
+    "caption": "Ulug'bek yutuqlari"
+   }
+  ]
  },
  "test": [
   {

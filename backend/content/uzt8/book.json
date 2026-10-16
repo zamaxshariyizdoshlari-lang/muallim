@@ -78,7 +78,17 @@
         "page": 11
        }
       ],
-      "summary": "XIII asr boshida Xorazmshohlar davlati Muhammad Xorazmshoh davrida Kaspiydan Hindistongacha cho'zildi. Qoraxoniylar tugatildi, Samarqand poytaxt bo'ldi. Qo'shin qang'li-qipchoq va turkmanlardan iborat edi. Xalifa an-Nosir esa Xorazmshohga qarshi Chingizxon bilan aloqa o'rnatdi. Ichki bo'linishlar davlatni zaiflashtirgan."
+      "summary": "XIII asr boshida Xorazmshohlar davlati Muhammad Xorazmshoh davrida Kaspiydan Hindistongacha cho'zildi. Qoraxoniylar tugatildi, Samarqand poytaxt bo'ldi. Qo'shin qang'li-qipchoq va turkmanlardan iborat edi. Xalifa an-Nosir esa Xorazmshohga qarshi Chingizxon bilan aloqa o'rnatdi. Ichki bo'linishlar davlatni zaiflashtirgan.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t01_vaqt.svg",
+        "caption": "Xorazm XIII asr boshi: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t01_ichki.svg",
+        "caption": "Davlatning ichki ziddiyatlari"
+       }
+      ]
      },
      "test": [
       {
@@ -651,7 +661,17 @@
         "page": 18
        }
       ],
-      "summary": "Chingizxon 1206-yilda ulug' xon bo'lib, Xorazmshoh bilan savdo va do'stlik aloqalarini o'rnatmoqchi bo'ldi. Ammo Mahmud Yalavoch orqali Xorazmshohning zaif tomonlarini o'rgandi. 1218-yilda O'tror hokimi Inolchiq savdo karvonini o'ldirib, Chingizxon elchisi Ibn Kafroj Bug'roni ham qatl ettirdi. Bu mo'g'ullarning Movarounnahrga yurishiga sabab bo'ldi."
+      "summary": "Chingizxon 1206-yilda ulug' xon bo'lib, Xorazmshoh bilan savdo va do'stlik aloqalarini o'rnatmoqchi bo'ldi. Ammo Mahmud Yalavoch orqali Xorazmshohning zaif tomonlarini o'rgandi. 1218-yilda O'tror hokimi Inolchiq savdo karvonini o'ldirib, Chingizxon elchisi Ibn Kafroj Bug'roni ham qatl ettirdi. Bu mo'g'ullarning Movarounnahrga yurishiga sabab bo'ldi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t02_vaqt.svg",
+        "caption": "Xorazm va mo'g'ullar: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t02_sabab.svg",
+        "caption": "Urushning sabablari"
+       }
+      ]
      },
      "test": [
       {
@@ -1289,7 +1309,17 @@
         "page": 34
        }
       ],
-      "summary": "Muhammad Xorazmshoh qo'shinni shaharlarga bo'lib yubordi va mudofaa kuchsiz bo'ldi. Chingizxon 1219-yilda yurishni boshlab, O'tror, Buxoro (1220), Samarqand (1220) va Urganch (1221) ni egalladi. Temur Malik va Najmiddin Kubro qahramonlik ko'rsatdi. Muhammad Xorazmshoh Ashura orolida vafot etdi, Jaloliddin valiahd bo'ldi."
+      "summary": "Muhammad Xorazmshoh qo'shinni shaharlarga bo'lib yubordi va mudofaa kuchsiz bo'ldi. Chingizxon 1219-yilda yurishni boshlab, O'tror, Buxoro (1220), Samarqand (1220) va Urganch (1221) ni egalladi. Temur Malik va Najmiddin Kubro qahramonlik ko'rsatdi. Muhammad Xorazmshoh Ashura orolida vafot etdi, Jaloliddin valiahd bo'ldi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t03_vaqt.svg",
+        "caption": "Mudofaa va oqibatlari: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t03_xato.svg",
+        "caption": "Mudofaa xatolari"
+       }
+      ]
      },
      "test": [
       {
@@ -2130,7 +2160,17 @@
         "page": 40
        }
       ],
-      "summary": "Jaloliddin Manguberdi Niso va Parvonda mo'g'ullarni yengib, ularning yengilmasligi haqidagi mish-mishlarni yo'q qildi. Ammo o'lja talashuvi tufayli lashkarboshilar qo'shinni tark etdi. 1221-yil kuzida Sind daryosi bo'yida Chingizxon yetib kelib, Jaloliddin qo'shinini mag'lub etdi; sulton esa otda daryodan kechib o'tdi."
+      "summary": "Jaloliddin Manguberdi Niso va Parvonda mo'g'ullarni yengib, ularning yengilmasligi haqidagi mish-mishlarni yo'q qildi. Ammo o'lja talashuvi tufayli lashkarboshilar qo'shinni tark etdi. 1221-yil kuzida Sind daryosi bo'yida Chingizxon yetib kelib, Jaloliddin qo'shinini mag'lub etdi; sulton esa otda daryodan kechib o'tdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t04_vaqt.svg",
+        "caption": "Jaloliddin Manguberdi: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t04_jang.svg",
+        "caption": "Jaloliddinning g'alabalari"
+       }
+      ]
      },
      "test": [
       {
@@ -2744,7 +2784,17 @@
         "page": 48
        }
       ],
-      "summary": "Sind bo'yidagi mag'lubiyatdan so'ng Jaloliddin Hindistonda davlat tuzdi, so'ng Iroqqa o'tib, Kirmon, Fors, Isfahonni, Ozarbayjon, Shirvon va Gurjistonni birlashtirdi. Mo'g'ullarga qarshi ittifoq tuza olmadi: xalifa, Ko'niya sultoni va ukasi xiyonat qildi. 1231-yilda kurdlar qo'lida halok bo'ldi. Mustaqillik yillarida uning nomi qayta tiklandi."
+      "summary": "Sind bo'yidagi mag'lubiyatdan so'ng Jaloliddin Hindistonda davlat tuzdi, so'ng Iroqqa o'tib, Kirmon, Fors, Isfahonni, Ozarbayjon, Shirvon va Gurjistonni birlashtirdi. Mo'g'ullarga qarshi ittifoq tuza olmadi: xalifa, Ko'niya sultoni va ukasi xiyonat qildi. 1231-yilda kurdlar qo'lida halok bo'ldi. Mustaqillik yillarida uning nomi qayta tiklandi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t05_vaqt.svg",
+        "caption": "Davlatni tiklash yo'li: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t05_sabab.svg",
+        "caption": "Muvaffaqiyatsizlik sabablari"
+       }
+      ]
      },
      "test": [
       {
@@ -3430,7 +3480,17 @@
         "page": 61
        }
       ],
-      "summary": "Mo'g'ullar istilosi Turonni xarobaga aylantirdi. Chingizxon yerlarni uluslarga bo'lib berdi, Chig'atoy ulusi Movarounnahr va Yettisuvni qamradi. Mahmud Yalavoch va Mas'udbek Movarounnahrni boshqardi. Kebekxon o'troqlashuv va pul islohotlarini o'tkazdi. Islomni qabul qilgan Tarmashiringa qarshi ko'chmanchi mo'g'ul zodagonlari isyon ko'tardi va ulus parchalana boshladi."
+      "summary": "Mo'g'ullar istilosi Turonni xarobaga aylantirdi. Chingizxon yerlarni uluslarga bo'lib berdi, Chig'atoy ulusi Movarounnahr va Yettisuvni qamradi. Mahmud Yalavoch va Mas'udbek Movarounnahrni boshqardi. Kebekxon o'troqlashuv va pul islohotlarini o'tkazdi. Islomni qabul qilgan Tarmashiringa qarshi ko'chmanchi mo'g'ul zodagonlari isyon ko'tardi va ulus parchalana boshladi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t06_vaqt.svg",
+        "caption": "Chig'atoy ulusi: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t06_ulus.svg",
+        "caption": "Mo'g'ul uluslari"
+       }
+      ]
      },
      "test": [
       {
@@ -4170,7 +4230,17 @@
         "page": 69
        }
       ],
-      "summary": "Chig'atoy ulusi Yettisuvdan Amudaryogacha cho'zilgan. Qozonxon markaziy hokimiyatni mustahkamlamoqchi bo'lsa-da, amir Qazag'on uni 1346-yilda yengdi. Qazag'on qo'g'irchoq xonlar bilan boshqardi; 1348-yilda Tug'luq Temur sharqda xon bo'lib, ulus rasman ikkiga bo'lindi. Aholi og'ir soliq to'ladi, vaqf xonaqolari ijtimoiy himoya vazifasini bajardi."
+      "summary": "Chig'atoy ulusi Yettisuvdan Amudaryogacha cho'zilgan. Qozonxon markaziy hokimiyatni mustahkamlamoqchi bo'lsa-da, amir Qazag'on uni 1346-yilda yengdi. Qazag'on qo'g'irchoq xonlar bilan boshqardi; 1348-yilda Tug'luq Temur sharqda xon bo'lib, ulus rasman ikkiga bo'lindi. Aholi og'ir soliq to'ladi, vaqf xonaqolari ijtimoiy himoya vazifasini bajardi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t07_vaqt.svg",
+        "caption": "Chig'atoy ulusining bo'linishi: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t07_iqtisod.svg",
+        "caption": "Kebekxon islohoti"
+       }
+      ]
      },
      "test": [
       {
@@ -4806,7 +4876,17 @@
         "page": 73
        }
       ],
-      "summary": "Mo'g'ullar hukmronligida Turonda ilm-fan oqsadi, ammo adabiyot, tarix va tasavvuf rivojlandi. Jaloliddin Rumiy, Sa'diy, Amir Xusrav jahon adabiyotida taniqli bo'ldi. Tarixnavislikda Juzjoniy, Rashiduddin ijod qildi. Pahlavon Mahmud ruboiylari, Rabg'uziy turkiy asari va Bahouddin Naqshband ta'limoti ma'naviyatni boyitdi."
+      "summary": "Mo'g'ullar hukmronligida Turonda ilm-fan oqsadi, ammo adabiyot, tarix va tasavvuf rivojlandi. Jaloliddin Rumiy, Sa'diy, Amir Xusrav jahon adabiyotida taniqli bo'ldi. Tarixnavislikda Juzjoniy, Rashiduddin ijod qildi. Pahlavon Mahmud ruboiylari, Rabg'uziy turkiy asari va Bahouddin Naqshband ta'limoti ma'naviyatni boyitdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t08_vaqt.svg",
+        "caption": "Ilm-fan XIII-XIV asr: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t08_olim.svg",
+        "caption": "Ilm va madaniyat"
+       }
+      ]
      },
      "test": [
       {
@@ -5440,7 +5520,17 @@
         "page": 84
        }
       ],
-      "summary": "XIV asr o'rtalarida Chig'atoy ulusi mayda bekliklarga bo'linib, Tug'luq Temur Movarounnahrga bostirib kirdi. Amir Temur Kesh dorug'asi bo'ldi, so'ng Amir Husayn bilan ittifoq tuzib, mo'g'ullarga qarshi kurashdi. Loy jangida (1365) ular mag'lub bo'ldi, Samarqandni sarbadorlar himoya qildi. Temur sarbadorlar rahbari Mavlonozodaning hayotini saqlab qoldi, bu Husayn bilan munosabatni keskinlashtirdi."
+      "summary": "XIV asr o'rtalarida Chig'atoy ulusi mayda bekliklarga bo'linib, Tug'luq Temur Movarounnahrga bostirib kirdi. Amir Temur Kesh dorug'asi bo'ldi, so'ng Amir Husayn bilan ittifoq tuzib, mo'g'ullarga qarshi kurashdi. Loy jangida (1365) ular mag'lub bo'ldi, Samarqandni sarbadorlar himoya qildi. Temur sarbadorlar rahbari Mavlonozodaning hayotini saqlab qoldi, bu Husayn bilan munosabatni keskinlashtirdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t09_vaqt.svg",
+        "caption": "Turon XIV asr o'rtalari: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t09_kuch.svg",
+        "caption": "Siyosiy kuchlar"
+       }
+      ]
      },
      "test": [
       {
@@ -6153,7 +6243,17 @@
         "page": 92
        }
       ],
-      "summary": "Amir Husayn Temurning safdoshlarini soliqlar bilan siqib, ularning ittifoqi uzildi. 1370-yilda Temur Balxni egallab, Husaynni yengdi. Qurultoyda Suyurg'atmish nomigagina xon bo'ldi, Temur Movarounnahr amiri sifatida haqiqiy hokimiyatni oldi va Samarqandni poytaxt qildi. U qonun ustuvorligini ta'minlab, yo'llar xavfsizligi va obodonlashtirishga e'tibor qaratdi."
+      "summary": "Amir Husayn Temurning safdoshlarini soliqlar bilan siqib, ularning ittifoqi uzildi. 1370-yilda Temur Balxni egallab, Husaynni yengdi. Qurultoyda Suyurg'atmish nomigagina xon bo'ldi, Temur Movarounnahr amiri sifatida haqiqiy hokimiyatni oldi va Samarqandni poytaxt qildi. U qonun ustuvorligini ta'minlab, yo'llar xavfsizligi va obodonlashtirishga e'tibor qaratdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t10_vaqt.svg",
+        "caption": "Amir Temur hukmdor: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t10_jang.svg",
+        "caption": "Amir Temur yo'li"
+       }
+      ]
      },
      "test": [
       {
@@ -6934,7 +7034,17 @@
         "page": 109
        }
       ],
-      "summary": "Temur Mo'g'uliston, Xorazm, Xuroson va Eronni bo'ysundirdi, Oltin O'rda xoni To'xtamishni Terek bo'yida (1395) yengdi, Hindistonda Dehlini egalladi (1398-1399), Anqarada Usmoniy sultoni Boyazid Yildirimni mag'lub etdi (1402). Xitoyga yurishi chog'ida 1405-yil fevralda O'trorda vafot etdi. U kuchli markazlashgan davlat barpo etdi, madaniyatga homiylik qildi."
+      "summary": "Temur Mo'g'uliston, Xorazm, Xuroson va Eronni bo'ysundirdi, Oltin O'rda xoni To'xtamishni Terek bo'yida (1395) yengdi, Hindistonda Dehlini egalladi (1398-1399), Anqarada Usmoniy sultoni Boyazid Yildirimni mag'lub etdi (1402). Xitoyga yurishi chog'ida 1405-yil fevralda O'trorda vafot etdi. U kuchli markazlashgan davlat barpo etdi, madaniyatga homiylik qildi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t11_vaqt.svg",
+        "caption": "Markazlashgan davlat: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t11_yurish.svg",
+        "caption": "Dastlabki yurishlar"
+       }
+      ]
      },
      "test": [
       {
@@ -7852,7 +7962,17 @@
         "page": 116
        }
       ],
-      "summary": "Temur Anqara jangi bilan Yevropani Usmoniylar xavfidan qutqardi. Fransiya, Angliya, Kastiliya bilan elchilik va savdo aloqalarini o'rnatdi; Klavixo boshchiligidagi Ispaniya elchilari 1404-yilda Samarqandda qabul qilindi. Buyuk ipak yo'lida savdo karvonlarining xavfsizligi ta'minlandi, Samarqand yirik savdo markaziga aylandi."
+      "summary": "Temur Anqara jangi bilan Yevropani Usmoniylar xavfidan qutqardi. Fransiya, Angliya, Kastiliya bilan elchilik va savdo aloqalarini o'rnatdi; Klavixo boshchiligidagi Ispaniya elchilari 1404-yilda Samarqandda qabul qilindi. Buyuk ipak yo'lida savdo karvonlarining xavfsizligi ta'minlandi, Samarqand yirik savdo markaziga aylandi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t12_vaqt.svg",
+        "caption": "Tashqi siyosat: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t12_yurish.svg",
+        "caption": "Yurishlar yo'nalishi"
+       }
+      ]
      },
      "test": [
       {
@@ -8328,7 +8448,17 @@
         "page": 125
        }
       ],
-      "summary": "Temur qo'shinida qat'iy intizom va aniq tuzilma (o'nlik-tuman) bo'lgan. U qo'shinni yetti qo'lga bo'ldi, to'p (ra'd)ni birinchi bor Turonda ishlatdi, yangi qanot himoyasi va qo'qqisdan hujum usullarini joriy etdi. Qo'shin tunkal orqali yig'ilib, ulufa olgan. Ayg'oqchilik va kontrrazvedka rivojlangan, Samarqand va Shohruxiya kabi qal'alar mustahkamlangan."
+      "summary": "Temur qo'shinida qat'iy intizom va aniq tuzilma (o'nlik-tuman) bo'lgan. U qo'shinni yetti qo'lga bo'ldi, to'p (ra'd)ni birinchi bor Turonda ishlatdi, yangi qanot himoyasi va qo'qqisdan hujum usullarini joriy etdi. Qo'shin tunkal orqali yig'ilib, ulufa olgan. Ayg'oqchilik va kontrrazvedka rivojlangan, Samarqand va Shohruxiya kabi qal'alar mustahkamlangan.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t13_vaqt.svg",
+        "caption": "Harbiy strategiya: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t13_tuzilma.svg",
+        "caption": "Qo'shin tuzilmasi"
+       }
+      ]
      },
      "test": [
       {
@@ -8870,7 +9000,17 @@
         "page": 131
        }
       ],
-      "summary": "Temur davlatini adolat va qonun ustuvorligiga asoslagan yagona markazlashgan tizim sifatida qurdi. Davlat uzoq hududlarni o'z ichiga oldi. Joylarda voliylar, beklar, hokimlar, kutvollar boshqargan; xabar yozuvchilar nazorat qilgan. Sud tizimi tabaqalarga bo'lingan: qozilar, shayxulislom, muftiy, muhtasib, qozikalon va adolat devoni."
+      "summary": "Temur davlatini adolat va qonun ustuvorligiga asoslagan yagona markazlashgan tizim sifatida qurdi. Davlat uzoq hududlarni o'z ichiga oldi. Joylarda voliylar, beklar, hokimlar, kutvollar boshqargan; xabar yozuvchilar nazorat qilgan. Sud tizimi tabaqalarga bo'lingan: qozilar, shayxulislom, muftiy, muhtasib, qozikalon va adolat devoni.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t14_vaqt.svg",
+        "caption": "Davlat boshqaruvi: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t14_tuzum.svg",
+        "caption": "Boshqaruv tizimi"
+       }
+      ]
      },
      "test": [
       {
@@ -9433,7 +9573,17 @@
         "page": 136
        }
       ],
-      "summary": "Temur kuchli markazlashgan davlat qurib, Yevropani Boyazid xavfidan qutqargani uchun Yevropada \"xaloskor\" deb ulug'landi. Uning davrida iqtisod va madaniyat gullab-yashnadi. Temur haqidagi asosiy manbalar - Yazdiy, Shomiy, Ibn Arabshoh, Klavixo, Grinlo. Mustaqillikdan keyin uning nomi tiklandi: ordeni, muzey, jamg'arma, haykallar."
+      "summary": "Temur kuchli markazlashgan davlat qurib, Yevropani Boyazid xavfidan qutqargani uchun Yevropada \"xaloskor\" deb ulug'landi. Uning davrida iqtisod va madaniyat gullab-yashnadi. Temur haqidagi asosiy manbalar - Yazdiy, Shomiy, Ibn Arabshoh, Klavixo, Grinlo. Mustaqillikdan keyin uning nomi tiklandi: ordeni, muzey, jamg'arma, haykallar.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t15_vaqt.svg",
+        "caption": "Jahon tarixida o'rni: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t15_ahamiyat.svg",
+        "caption": "Temur davlatining ahamiyati"
+       }
+      ]
      },
      "test": [
       {
@@ -10077,7 +10227,17 @@
         "page": 144
        }
       ],
-      "summary": "Temur sug'orish kanallarini qazdirib, bo'z yerlarni o'zlashtirdi. Samarqand yangitdan qurilib, masjid, saroy va bog'lar bilan bezatildi. Eron, Suriya, Kichik Osiyodan ustalar keltirildi, hunarmandchilik, qog'ozsozlik rivojlandi. Temur zabt etgan shaharlarni ham qayta qurdi."
+      "summary": "Temur sug'orish kanallarini qazdirib, bo'z yerlarni o'zlashtirdi. Samarqand yangitdan qurilib, masjid, saroy va bog'lar bilan bezatildi. Eron, Suriya, Kichik Osiyodan ustalar keltirildi, hunarmandchilik, qog'ozsozlik rivojlandi. Temur zabt etgan shaharlarni ham qayta qurdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t16_vaqt.svg",
+        "caption": "Obodonlashtirish: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t16_bino.svg",
+        "caption": "Temur davri binolari"
+       }
+      ]
      },
      "test": [
       {
@@ -10684,7 +10844,17 @@
         "page": 148
        }
       ],
-      "summary": "Temur 1405-yil fevralda vafot etgach, taxt uchun kurash boshlandi: Xalil Sulton Samarqandni egalladi, so'ng Shohrux Xurosondan kelib hokimiyatni mustahkamladi. U Ulug'bekni Movarounnahr hokimi qildi, Xitoy, Hindiston, Misr va Usmoniylar bilan diplomatik aloqalar o'rnatdi."
+      "summary": "Temur 1405-yil fevralda vafot etgach, taxt uchun kurash boshlandi: Xalil Sulton Samarqandni egalladi, so'ng Shohrux Xurosondan kelib hokimiyatni mustahkamladi. U Ulug'bekni Movarounnahr hokimi qildi, Xitoy, Hindiston, Misr va Usmoniylar bilan diplomatik aloqalar o'rnatdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t17_vaqt.svg",
+        "caption": "Temuriylar davri: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t17_markaz.svg",
+        "caption": "Ikki markaz"
+       }
+      ]
      },
      "test": [
       {
@@ -11181,7 +11351,17 @@
         "page": 151
        }
       ],
-      "summary": "Ulug'bek 15 yoshda Movarounnahr hokimi bo'ldi, Mo'g'ulistonga yurib g'alaba qozondi, Samarqand, Buxoro, G'ijduvonda madrasalar qurdi. Rasadxona va astronomiya maktabini yaratdi, \"Ziji jadidi Ko'ragoniy\" bilan jahonga mashhur bo'ldi. Tamg'a solig'ini tiklagani uchun boylar norozi bo'ldi; o'g'li Abdullatif 1449-yilda uni mag'lub qilib o'ldirtirdi."
+      "summary": "Ulug'bek 15 yoshda Movarounnahr hokimi bo'ldi, Mo'g'ulistonga yurib g'alaba qozondi, Samarqand, Buxoro, G'ijduvonda madrasalar qurdi. Rasadxona va astronomiya maktabini yaratdi, \"Ziji jadidi Ko'ragoniy\" bilan jahonga mashhur bo'ldi. Tamg'a solig'ini tiklagani uchun boylar norozi bo'ldi; o'g'li Abdullatif 1449-yilda uni mag'lub qilib o'ldirtirdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t18_vaqt.svg",
+        "caption": "Mirzo Ulug'bek: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t18_asar.svg",
+        "caption": "Ulug'bek yutuqlari"
+       }
+      ]
      },
      "test": [
       {
@@ -11920,7 +12100,17 @@
         "page": 162
        }
       ],
-      "summary": "Sulton Husayn Mirzo Temurning ikki tomondan avlodi bo'lib, 1469-yilda Xurosonda hokimiyatga keldi. Uning davrida tinchlik o'rnatilib, Hirot Sharqning yirik ilm-fan va san'at markaziga aylandi. U Usmoniylar bilan do'stona aloqa o'rnatdi, o'zi ham she'r yozdi."
+      "summary": "Sulton Husayn Mirzo Temurning ikki tomondan avlodi bo'lib, 1469-yilda Xurosonda hokimiyatga keldi. Uning davrida tinchlik o'rnatilib, Hirot Sharqning yirik ilm-fan va san'at markaziga aylandi. U Usmoniylar bilan do'stona aloqa o'rnatdi, o'zi ham she'r yozdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t19_vaqt.svg",
+        "caption": "Sulton Husayn Mirzo: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t19_davr.svg",
+        "caption": "Hirot madaniy markaz"
+       }
+      ]
      },
      "test": [
       {
@@ -12433,7 +12623,17 @@
         "page": 168
        }
       ],
-      "summary": "Temuriylar davrida asosiy yer solig'i xiroj bo'lib, uch muddatda yig'ilgan. Kumush tanga va miri, mis fulus zarb qilingan; Ulug'bek pul islohoti o'tkazdi. Yer mulki to'rt shaklda bo'lgan, suyurg'ol tarqalgan. Yangi kanallar qazilib, dehqonchilik maydonlari kengaydi."
+      "summary": "Temuriylar davrida asosiy yer solig'i xiroj bo'lib, uch muddatda yig'ilgan. Kumush tanga va miri, mis fulus zarb qilingan; Ulug'bek pul islohoti o'tkazdi. Yer mulki to'rt shaklda bo'lgan, suyurg'ol tarqalgan. Yangi kanallar qazilib, dehqonchilik maydonlari kengaydi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t20_vaqt.svg",
+        "caption": "Iqtisodiy munosabatlar: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t20_soha.svg",
+        "caption": "Iqtisod sohalari"
+       }
+      ]
      },
      "test": [
       {
@@ -12901,7 +13101,17 @@
         "page": 171
        }
       ],
-      "summary": "Temuriylar renessansi XIV-XV asrlarda ilm-fan, madaniyat, hunarmandchilik rivojlangan davr. Madrasalarda diniy va dunyoviy fanlar o'qitilgan, vaqf daromadi bilan ta'minlangan. Tibbiyotda shifoxonalar ochilgan, Samarqandda \"Dor ush-shifo\" faoliyat yuritgan."
+      "summary": "Temuriylar renessansi XIV-XV asrlarda ilm-fan, madaniyat, hunarmandchilik rivojlangan davr. Madrasalarda diniy va dunyoviy fanlar o'qitilgan, vaqf daromadi bilan ta'minlangan. Tibbiyotda shifoxonalar ochilgan, Samarqandda \"Dor ush-shifo\" faoliyat yuritgan.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t21_vaqt.svg",
+        "caption": "Ikkinchi Renessans: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t21_asos.svg",
+        "caption": "Ikkinchi Renessans asoschilari"
+       }
+      ]
      },
      "test": [
       {
@@ -13244,7 +13454,17 @@
         "page": 176
        }
       ],
-      "summary": "Temuriylar me'morchiligi mahobati, koshinkor bezaklari, ikki qavatli gumbazlari bilan ajralgan. Samarqand yangitdan qurilib \"hisor\" bilan o'ralgan. Shahrisabzdagi Oqsaroy eng yirik inshoot bo'lgan. Ahmad Yassaviy maqbarasi, Bibixonim masjidi, Go'ri Amir me'morchilik durdonalaridir."
+      "summary": "Temuriylar me'morchiligi mahobati, koshinkor bezaklari, ikki qavatli gumbazlari bilan ajralgan. Samarqand yangitdan qurilib \"hisor\" bilan o'ralgan. Shahrisabzdagi Oqsaroy eng yirik inshoot bo'lgan. Ahmad Yassaviy maqbarasi, Bibixonim masjidi, Go'ri Amir me'morchilik durdonalaridir.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t22_vaqt.svg",
+        "caption": "Me'morchilik: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t22_majmua.svg",
+        "caption": "Mashhur majmualar"
+       }
+      ]
      },
      "test": [
       {
@@ -13799,7 +14019,17 @@
         "page": 184
        }
       ],
-      "summary": "Temuriylar davrida xattotlik (Sultonali Mashhadiy), miniatyura (Kamoliddin Behzod, Mirak Naqqosh) yuksaldi. Badiiy hunarmandchilik koshin, yog'och va tosh o'ymakorligi, metall ishlov va kulolchilikda namoyon bo'ldi. Savdo yo'llarining Movarounnahrdan o'tishi ishlab chiqarish rivojiga yordam berdi."
+      "summary": "Temuriylar davrida xattotlik (Sultonali Mashhadiy), miniatyura (Kamoliddin Behzod, Mirak Naqqosh) yuksaldi. Badiiy hunarmandchilik koshin, yog'och va tosh o'ymakorligi, metall ishlov va kulolchilikda namoyon bo'ldi. Savdo yo'llarining Movarounnahrdan o'tishi ishlab chiqarish rivojiga yordam berdi.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t23_vaqt.svg",
+        "caption": "San'at va hunarmandchilik: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t23_san.svg",
+        "caption": "San'at turlari"
+       }
+      ]
      },
      "test": [
       {
@@ -14329,7 +14559,17 @@
         "page": 189
        }
       ],
-      "summary": "Alisher Navoiy 1441-yilda Hirotda tug'ilib, Sulton Husayn Mirzo saroyida vazir bo'ldi. U Hirotda madrasa, xonaqoh, shifoxona, rabot, ko'prik, hovuz qurdirib, ilm-fan homiysi bo'ldi. Uning asarlari adabiyot bilan birga tarixiy manba hamdir. Haykallari dunyoning ko'plab shaharlarida o'rnatilgan."
+      "summary": "Alisher Navoiy 1441-yilda Hirotda tug'ilib, Sulton Husayn Mirzo saroyida vazir bo'ldi. U Hirotda madrasa, xonaqoh, shifoxona, rabot, ko'prik, hovuz qurdirib, ilm-fan homiysi bo'ldi. Uning asarlari adabiyot bilan birga tarixiy manba hamdir. Haykallari dunyoning ko'plab shaharlarida o'rnatilgan.",
+      "images": [
+       {
+        "src": "/uzt8/u8_t24_vaqt.svg",
+        "caption": "Alisher Navoiy: vaqt chizig'i"
+       },
+       {
+        "src": "/uzt8/u8_t24_asar.svg",
+        "caption": "Navoiy asarlari"
+       }
+      ]
      },
      "test": [
       {

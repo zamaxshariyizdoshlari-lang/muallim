@@ -92,7 +92,17 @@
     "page": 176
    }
   ],
-  "summary": "Temuriylar me'morchiligi mahobati, koshinkor bezaklari, ikki qavatli gumbazlari bilan ajralgan. Samarqand yangitdan qurilib \"hisor\" bilan o'ralgan. Shahrisabzdagi Oqsaroy eng yirik inshoot bo'lgan. Ahmad Yassaviy maqbarasi, Bibixonim masjidi, Go'ri Amir me'morchilik durdonalaridir."
+  "summary": "Temuriylar me'morchiligi mahobati, koshinkor bezaklari, ikki qavatli gumbazlari bilan ajralgan. Samarqand yangitdan qurilib \"hisor\" bilan o'ralgan. Shahrisabzdagi Oqsaroy eng yirik inshoot bo'lgan. Ahmad Yassaviy maqbarasi, Bibixonim masjidi, Go'ri Amir me'morchilik durdonalaridir.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t22_vaqt.svg",
+    "caption": "Me'morchilik: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t22_majmua.svg",
+    "caption": "Mashhur majmualar"
+   }
+  ]
  },
  "test": [
   {

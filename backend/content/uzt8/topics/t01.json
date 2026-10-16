@@ -63,7 +63,17 @@
     "page": 11
    }
   ],
-  "summary": "XIII asr boshida Xorazmshohlar davlati Muhammad Xorazmshoh davrida Kaspiydan Hindistongacha cho'zildi. Qoraxoniylar tugatildi, Samarqand poytaxt bo'ldi. Qo'shin qang'li-qipchoq va turkmanlardan iborat edi. Xalifa an-Nosir esa Xorazmshohga qarshi Chingizxon bilan aloqa o'rnatdi. Ichki bo'linishlar davlatni zaiflashtirgan."
+  "summary": "XIII asr boshida Xorazmshohlar davlati Muhammad Xorazmshoh davrida Kaspiydan Hindistongacha cho'zildi. Qoraxoniylar tugatildi, Samarqand poytaxt bo'ldi. Qo'shin qang'li-qipchoq va turkmanlardan iborat edi. Xalifa an-Nosir esa Xorazmshohga qarshi Chingizxon bilan aloqa o'rnatdi. Ichki bo'linishlar davlatni zaiflashtirgan.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t01_vaqt.svg",
+    "caption": "Xorazm XIII asr boshi: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t01_ichki.svg",
+    "caption": "Davlatning ichki ziddiyatlari"
+   }
+  ]
  },
  "test": [
   {

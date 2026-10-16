@@ -126,7 +126,17 @@
     "page": 125
    }
   ],
-  "summary": "Temur qo'shinida qat'iy intizom va aniq tuzilma (o'nlik-tuman) bo'lgan. U qo'shinni yetti qo'lga bo'ldi, to'p (ra'd)ni birinchi bor Turonda ishlatdi, yangi qanot himoyasi va qo'qqisdan hujum usullarini joriy etdi. Qo'shin tunkal orqali yig'ilib, ulufa olgan. Ayg'oqchilik va kontrrazvedka rivojlangan, Samarqand va Shohruxiya kabi qal'alar mustahkamlangan."
+  "summary": "Temur qo'shinida qat'iy intizom va aniq tuzilma (o'nlik-tuman) bo'lgan. U qo'shinni yetti qo'lga bo'ldi, to'p (ra'd)ni birinchi bor Turonda ishlatdi, yangi qanot himoyasi va qo'qqisdan hujum usullarini joriy etdi. Qo'shin tunkal orqali yig'ilib, ulufa olgan. Ayg'oqchilik va kontrrazvedka rivojlangan, Samarqand va Shohruxiya kabi qal'alar mustahkamlangan.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t13_vaqt.svg",
+    "caption": "Harbiy strategiya: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t13_tuzilma.svg",
+    "caption": "Qo'shin tuzilmasi"
+   }
+  ]
  },
  "test": [
   {

@@ -97,7 +97,17 @@
     "page": 133
    }
   ],
-  "summary": "Mo'g'ullar yurishi Osiyoda iqtisodiy inqirozga olib keldi, so'ng Buyuk ipak yo'li savdosi tiklandi. Afrikada Gana va Mali oltin-tuz savdosidan boyidi, Mansa Muso davri cho'qqi bo'ldi. Atsteklar chinampalar va bozor bilan, inklar tog' dehqonchiligi va lama boqish bilan xo'jaligini yuritdi."
+  "summary": "Mo'g'ullar yurishi Osiyoda iqtisodiy inqirozga olib keldi, so'ng Buyuk ipak yo'li savdosi tiklandi. Afrikada Gana va Mali oltin-tuz savdosidan boyidi, Mansa Muso davri cho'qqi bo'ldi. Atsteklar chinampalar va bozor bilan, inklar tog' dehqonchiligi va lama boqish bilan xo'jaligini yuritdi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j21_vaqt.svg",
+    "caption": "Boshqa qit'alar iqtisodi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j21_yo.svg",
+    "caption": "Asosiy savdo yo'llari"
+   }
+  ]
  },
  "test": [
   {

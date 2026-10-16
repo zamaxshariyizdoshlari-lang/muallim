@@ -200,7 +200,17 @@
     "page": 109
    }
   ],
-  "summary": "Temur Mo'g'uliston, Xorazm, Xuroson va Eronni bo'ysundirdi, Oltin O'rda xoni To'xtamishni Terek bo'yida (1395) yengdi, Hindistonda Dehlini egalladi (1398-1399), Anqarada Usmoniy sultoni Boyazid Yildirimni mag'lub etdi (1402). Xitoyga yurishi chog'ida 1405-yil fevralda O'trorda vafot etdi. U kuchli markazlashgan davlat barpo etdi, madaniyatga homiylik qildi."
+  "summary": "Temur Mo'g'uliston, Xorazm, Xuroson va Eronni bo'ysundirdi, Oltin O'rda xoni To'xtamishni Terek bo'yida (1395) yengdi, Hindistonda Dehlini egalladi (1398-1399), Anqarada Usmoniy sultoni Boyazid Yildirimni mag'lub etdi (1402). Xitoyga yurishi chog'ida 1405-yil fevralda O'trorda vafot etdi. U kuchli markazlashgan davlat barpo etdi, madaniyatga homiylik qildi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t11_vaqt.svg",
+    "caption": "Markazlashgan davlat: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t11_yurish.svg",
+    "caption": "Dastlabki yurishlar"
+   }
+  ]
  },
  "test": [
   {

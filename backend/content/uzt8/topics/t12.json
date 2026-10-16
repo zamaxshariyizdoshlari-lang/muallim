@@ -84,7 +84,17 @@
     "page": 116
    }
   ],
-  "summary": "Temur Anqara jangi bilan Yevropani Usmoniylar xavfidan qutqardi. Fransiya, Angliya, Kastiliya bilan elchilik va savdo aloqalarini o'rnatdi; Klavixo boshchiligidagi Ispaniya elchilari 1404-yilda Samarqandda qabul qilindi. Buyuk ipak yo'lida savdo karvonlarining xavfsizligi ta'minlandi, Samarqand yirik savdo markaziga aylandi."
+  "summary": "Temur Anqara jangi bilan Yevropani Usmoniylar xavfidan qutqardi. Fransiya, Angliya, Kastiliya bilan elchilik va savdo aloqalarini o'rnatdi; Klavixo boshchiligidagi Ispaniya elchilari 1404-yilda Samarqandda qabul qilindi. Buyuk ipak yo'lida savdo karvonlarining xavfsizligi ta'minlandi, Samarqand yirik savdo markaziga aylandi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t12_vaqt.svg",
+    "caption": "Tashqi siyosat: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t12_yurish.svg",
+    "caption": "Yurishlar yo'nalishi"
+   }
+  ]
  },
  "test": [
   {

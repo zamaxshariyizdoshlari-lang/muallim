@@ -97,7 +97,17 @@
     "page": 71
    }
   ],
-  "summary": "Saljuqiylar davlati parchalangach, Anatoliyada Usmon beyligi paydo bo'ldi va Usmon I davrida mustaqillikka erishdi. Murod I yanichar qo'shinini tuzib Bolqonni zabt etdi, Adrianopol poytaxt bo'ldi. Boyazid Anqarada Temurdan yengildi, ammo Mehmed II 1453-yilda Konstantinopolni egallab, Vizantiyaga barham berdi. Salim I davrida sultonlar xalifa ham bo'ldi; imperiya uch qit'ani qamradi."
+  "summary": "Saljuqiylar davlati parchalangach, Anatoliyada Usmon beyligi paydo bo'ldi va Usmon I davrida mustaqillikka erishdi. Murod I yanichar qo'shinini tuzib Bolqonni zabt etdi, Adrianopol poytaxt bo'ldi. Boyazid Anqarada Temurdan yengildi, ammo Mehmed II 1453-yilda Konstantinopolni egallab, Vizantiyaga barham berdi. Salim I davrida sultonlar xalifa ham bo'ldi; imperiya uch qit'ani qamradi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j11_vaqt.svg",
+    "caption": "Usmoniy sultonligi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j11_qit.svg",
+    "caption": "Uch qit'a"
+   }
+  ]
  },
  "test": [
   {

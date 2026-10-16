@@ -77,7 +77,17 @@
     "page": 73
    }
   ],
-  "summary": "Mo'g'ullar hukmronligida Turonda ilm-fan oqsadi, ammo adabiyot, tarix va tasavvuf rivojlandi. Jaloliddin Rumiy, Sa'diy, Amir Xusrav jahon adabiyotida taniqli bo'ldi. Tarixnavislikda Juzjoniy, Rashiduddin ijod qildi. Pahlavon Mahmud ruboiylari, Rabg'uziy turkiy asari va Bahouddin Naqshband ta'limoti ma'naviyatni boyitdi."
+  "summary": "Mo'g'ullar hukmronligida Turonda ilm-fan oqsadi, ammo adabiyot, tarix va tasavvuf rivojlandi. Jaloliddin Rumiy, Sa'diy, Amir Xusrav jahon adabiyotida taniqli bo'ldi. Tarixnavislikda Juzjoniy, Rashiduddin ijod qildi. Pahlavon Mahmud ruboiylari, Rabg'uziy turkiy asari va Bahouddin Naqshband ta'limoti ma'naviyatni boyitdi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t08_vaqt.svg",
+    "caption": "Ilm-fan XIII-XIV asr: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t08_olim.svg",
+    "caption": "Ilm va madaniyat"
+   }
+  ]
  },
  "test": [
   {

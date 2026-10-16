@@ -108,7 +108,17 @@
     "page": 19
    }
   ],
-  "summary": "Yuz yillik urush (1337-1453) Akvitaniya, Flandriya va Eduard III ning taxtga da'vosi sababli boshlangan. Ingliz uzun kamonli yomenlari dastlab g'alaba qozondi, Fransiya xaroba bo'ldi, Jakeriya qo'zg'oloni bostirildi. 1429-yilda Janna d'Ark Orleanni ozod qilib burilish yasadi. Urush Fransiya g'alabasi bilan tugadi."
+  "summary": "Yuz yillik urush (1337-1453) Akvitaniya, Flandriya va Eduard III ning taxtga da'vosi sababli boshlangan. Ingliz uzun kamonli yomenlari dastlab g'alaba qozondi, Fransiya xaroba bo'ldi, Jakeriya qo'zg'oloni bostirildi. 1429-yilda Janna d'Ark Orleanni ozod qilib burilish yasadi. Urush Fransiya g'alabasi bilan tugadi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j02_vaqt.svg",
+    "caption": "Yuz yillik urush: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j02_sabab.svg",
+    "caption": "Yuz yillik urush sabablari va natijalari"
+   }
+  ]
  },
  "test": [
   {

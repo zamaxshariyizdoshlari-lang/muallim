@@ -97,7 +97,17 @@
     "page": 145
    }
   ],
-  "summary": "X-XIII asrlarda Yevropa cherkovlari roman uslubida, keyin gotika uslubida qurildi. Gotikada uchli yoylar, tayanch yarim arkalar, vitraj oynalar yuksak va yorug' binolarni yaratdi. Tasviriy san'at va haykaltaroshlik cherkov maqsadiga xizmat qildi. Teatr cherkov ayvonlaridan bozor maydonlariga ko'chdi, sayyor guruhlar paydo bo'ldi."
+  "summary": "X-XIII asrlarda Yevropa cherkovlari roman uslubida, keyin gotika uslubida qurildi. Gotikada uchli yoylar, tayanch yarim arkalar, vitraj oynalar yuksak va yorug' binolarni yaratdi. Tasviriy san'at va haykaltaroshlik cherkov maqsadiga xizmat qildi. Teatr cherkov ayvonlaridan bozor maydonlariga ko'chdi, sayyor guruhlar paydo bo'ldi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j23_vaqt.svg",
+    "caption": "Me'morchilik va san'at: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j23_uslub.svg",
+    "caption": "Roman va gotika"
+   }
+  ]
  },
  "test": [
   {

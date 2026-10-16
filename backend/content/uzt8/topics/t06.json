@@ -143,7 +143,17 @@
     "page": 61
    }
   ],
-  "summary": "Mo'g'ullar istilosi Turonni xarobaga aylantirdi. Chingizxon yerlarni uluslarga bo'lib berdi, Chig'atoy ulusi Movarounnahr va Yettisuvni qamradi. Mahmud Yalavoch va Mas'udbek Movarounnahrni boshqardi. Kebekxon o'troqlashuv va pul islohotlarini o'tkazdi. Islomni qabul qilgan Tarmashiringa qarshi ko'chmanchi mo'g'ul zodagonlari isyon ko'tardi va ulus parchalana boshladi."
+  "summary": "Mo'g'ullar istilosi Turonni xarobaga aylantirdi. Chingizxon yerlarni uluslarga bo'lib berdi, Chig'atoy ulusi Movarounnahr va Yettisuvni qamradi. Mahmud Yalavoch va Mas'udbek Movarounnahrni boshqardi. Kebekxon o'troqlashuv va pul islohotlarini o'tkazdi. Islomni qabul qilgan Tarmashiringa qarshi ko'chmanchi mo'g'ul zodagonlari isyon ko'tardi va ulus parchalana boshladi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t06_vaqt.svg",
+    "caption": "Chig'atoy ulusi: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t06_ulus.svg",
+    "caption": "Mo'g'ul uluslari"
+   }
+  ]
  },
  "test": [
   {

@@ -93,7 +93,17 @@
     "page": 131
    }
   ],
-  "summary": "Temur davlatini adolat va qonun ustuvorligiga asoslagan yagona markazlashgan tizim sifatida qurdi. Davlat uzoq hududlarni o'z ichiga oldi. Joylarda voliylar, beklar, hokimlar, kutvollar boshqargan; xabar yozuvchilar nazorat qilgan. Sud tizimi tabaqalarga bo'lingan: qozilar, shayxulislom, muftiy, muhtasib, qozikalon va adolat devoni."
+  "summary": "Temur davlatini adolat va qonun ustuvorligiga asoslagan yagona markazlashgan tizim sifatida qurdi. Davlat uzoq hududlarni o'z ichiga oldi. Joylarda voliylar, beklar, hokimlar, kutvollar boshqargan; xabar yozuvchilar nazorat qilgan. Sud tizimi tabaqalarga bo'lingan: qozilar, shayxulislom, muftiy, muhtasib, qozikalon va adolat devoni.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t14_vaqt.svg",
+    "caption": "Davlat boshqaruvi: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t14_tuzum.svg",
+    "caption": "Boshqaruv tizimi"
+   }
+  ]
  },
  "test": [
   {

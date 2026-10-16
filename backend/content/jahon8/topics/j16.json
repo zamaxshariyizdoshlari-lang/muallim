@@ -97,7 +97,17 @@
     "page": 100
    }
   ],
-  "summary": "Yaponiyada imperator nomigagina hukmdor, haqiqiy hokimiyat syogunlar qo'lida edi. Mo'g'ullar Yaponiyaga ikki bor hujum qilib, tayfundan yengildi. Kamakura syogunligi 1333-yilda ag'darilib, Kioto syogunligi o'rnatildi. Koreyada Koryo mo'g'ullarga bo'ysundi, so'ng 1392-yilda Li Son Ge Choson davlatini tuzdi; Taejong va Sejong davrida islohotlar o'tkazildi."
+  "summary": "Yaponiyada imperator nomigagina hukmdor, haqiqiy hokimiyat syogunlar qo'lida edi. Mo'g'ullar Yaponiyaga ikki bor hujum qilib, tayfundan yengildi. Kamakura syogunligi 1333-yilda ag'darilib, Kioto syogunligi o'rnatildi. Koreyada Koryo mo'g'ullarga bo'ysundi, so'ng 1392-yilda Li Son Ge Choson davlatini tuzdi; Taejong va Sejong davrida islohotlar o'tkazildi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j16_vaqt.svg",
+    "caption": "Yaponiya va Koreya: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j16_jam.svg",
+    "caption": "Yaponiya va Koreya"
+   }
+  ]
  },
  "test": [
   {

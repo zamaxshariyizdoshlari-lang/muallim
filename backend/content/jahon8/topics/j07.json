@@ -90,7 +90,17 @@
     "page": 44
    }
   ],
-  "summary": "Italiyada savdo va sanoat bilan boyigan Venetsiya, Genuya, Florensiya kabi shahar-respublikalar paydo bo'ldi. Venetsiya va Genuya O'rta dengizda raqobat qildi. Dehqonlar qaramligi bu yerda erta tugadi. Rim cherkovida \"Buyuk bo'linish\" davrida ikkita papa hukmronlik qildi."
+  "summary": "Italiyada savdo va sanoat bilan boyigan Venetsiya, Genuya, Florensiya kabi shahar-respublikalar paydo bo'ldi. Venetsiya va Genuya O'rta dengizda raqobat qildi. Dehqonlar qaramligi bu yerda erta tugadi. Rim cherkovida \"Buyuk bo'linish\" davrida ikkita papa hukmronlik qildi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j07_vaqt.svg",
+    "caption": "Italiya: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j07_shahar.svg",
+    "caption": "Italiyaning yirik shahar-davlatlari"
+   }
+  ]
  },
  "test": [
   {

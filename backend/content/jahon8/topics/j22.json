@@ -101,7 +101,17 @@
     "page": 139
    }
   ],
-  "summary": "O'rta asr ilm-fani cherkov nazorati ostida bo'lib, ilohiyot yetakchi fan edi. Maktablarda yetti erkin san'at o'qitilgan, universitetlar ochildi. Foma Akvinskiy ilohiyotni mustahkamladi, alkimyo kimyoga zamin bo'ldi. Milliy tillarda qahramonlik eposlari va shahar adabiyoti paydo bo'ldi. 1445-yilda Gutenberg kitob bosish usulini ixtiro qildi."
+  "summary": "O'rta asr ilm-fani cherkov nazorati ostida bo'lib, ilohiyot yetakchi fan edi. Maktablarda yetti erkin san'at o'qitilgan, universitetlar ochildi. Foma Akvinskiy ilohiyotni mustahkamladi, alkimyo kimyoga zamin bo'ldi. Milliy tillarda qahramonlik eposlari va shahar adabiyoti paydo bo'ldi. 1445-yilda Gutenberg kitob bosish usulini ixtiro qildi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j22_vaqt.svg",
+    "caption": "Yevropada ilm-fan: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j22_fan.svg",
+    "caption": "Universitet fakultetlari"
+   }
+  ]
  },
  "test": [
   {

@@ -97,7 +97,17 @@
     "page": 127
    }
   ],
-  "summary": "XIII-XV asrlarda savdo va hunarmandchilik rivoji natijasida yangi shaharlar vujudga keldi. Qora o'lat (1347-1351) aholining uchdan birini yo'q qilib, feodal tuzumni zaiflashtirdi. Gildiyalar dastlab rivojlantirdi, so'ng yangilikka to'sqinlik qilib inqirozga yuz tutdi. XV asrda Medichi, Fugger kabi bankirlar, veksel va birjalar paydo bo'ldi."
+  "summary": "XIII-XV asrlarda savdo va hunarmandchilik rivoji natijasida yangi shaharlar vujudga keldi. Qora o'lat (1347-1351) aholining uchdan birini yo'q qilib, feodal tuzumni zaiflashtirdi. Gildiyalar dastlab rivojlantirdi, so'ng yangilikka to'sqinlik qilib inqirozga yuz tutdi. XV asrda Medichi, Fugger kabi bankirlar, veksel va birjalar paydo bo'ldi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j20_vaqt.svg",
+    "caption": "Yevropa iqtisodiyoti: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j20_hunar.svg",
+    "caption": "Sexdan manufakturagacha"
+   }
+  ]
  },
  "test": [
   {

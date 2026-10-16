@@ -117,7 +117,17 @@
     "page": 184
    }
   ],
-  "summary": "Temuriylar davrida xattotlik (Sultonali Mashhadiy), miniatyura (Kamoliddin Behzod, Mirak Naqqosh) yuksaldi. Badiiy hunarmandchilik koshin, yog'och va tosh o'ymakorligi, metall ishlov va kulolchilikda namoyon bo'ldi. Savdo yo'llarining Movarounnahrdan o'tishi ishlab chiqarish rivojiga yordam berdi."
+  "summary": "Temuriylar davrida xattotlik (Sultonali Mashhadiy), miniatyura (Kamoliddin Behzod, Mirak Naqqosh) yuksaldi. Badiiy hunarmandchilik koshin, yog'och va tosh o'ymakorligi, metall ishlov va kulolchilikda namoyon bo'ldi. Savdo yo'llarining Movarounnahrdan o'tishi ishlab chiqarish rivojiga yordam berdi.",
+  "images": [
+   {
+    "src": "/uzt8/u8_t23_vaqt.svg",
+    "caption": "San'at va hunarmandchilik: vaqt chizig'i"
+   },
+   {
+    "src": "/uzt8/u8_t23_san.svg",
+    "caption": "San'at turlari"
+   }
+  ]
  },
  "test": [
   {

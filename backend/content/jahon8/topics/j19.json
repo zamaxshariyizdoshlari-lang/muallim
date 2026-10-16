@@ -97,7 +97,17 @@
     "page": 121
    }
   ],
-  "summary": "O'rta asrlar Yevropasida jamiyat ruhoniylar, zodagonlar, dehqonlar va shaharliklarga bo'lingan. Zodagonlar manor va qasrlarda, dehqonlar sodda uylarda yashagan. Kiyim va taom ijtimoiy tabaqani ko'rsatgan. Tibbiyot juda oz rivojlangan, Salerno maktabi muhim bo'lgan, karantin joriy etilgan. Kundalik hayot cherkov bilan bog'liq bo'lib, lotin tili ibodat tili edi."
+  "summary": "O'rta asrlar Yevropasida jamiyat ruhoniylar, zodagonlar, dehqonlar va shaharliklarga bo'lingan. Zodagonlar manor va qasrlarda, dehqonlar sodda uylarda yashagan. Kiyim va taom ijtimoiy tabaqani ko'rsatgan. Tibbiyot juda oz rivojlangan, Salerno maktabi muhim bo'lgan, karantin joriy etilgan. Kundalik hayot cherkov bilan bog'liq bo'lib, lotin tili ibodat tili edi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j19_vaqt.svg",
+    "caption": "Kundalik hayot: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j19_sinf.svg",
+    "caption": "O'rta asr jamiyati"
+   }
+  ]
  },
  "test": [
   {

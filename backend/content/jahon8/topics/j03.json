@@ -74,7 +74,17 @@
     "page": 24
    }
   ],
-  "summary": "Yuz yillik urushdan keyin Lyudovik XI feodallarga qarshi kurashib, Burgundiya gersogi Karl Jasur bilan urush olib bordi va mamlakatni birlashtirdi. U doimiy qo'shin tuzib, soliq joriy etdi, amaldorlarga tayandi. Fransiya mutlaq monarxiyaga aylandi, savdo va hunarmandchilik rivojlandi."
+  "summary": "Yuz yillik urushdan keyin Lyudovik XI feodallarga qarshi kurashib, Burgundiya gersogi Karl Jasur bilan urush olib bordi va mamlakatni birlashtirdi. U doimiy qo'shin tuzib, soliq joriy etdi, amaldorlarga tayandi. Fransiya mutlaq monarxiyaga aylandi, savdo va hunarmandchilik rivojlandi.",
+  "images": [
+   {
+    "src": "/jahon8/j8_j03_vaqt.svg",
+    "caption": "Fransiyaning birlashishi: vaqt chizig'i"
+   },
+   {
+    "src": "/jahon8/j8_j03_yol.svg",
+    "caption": "Mamlakatni birlashtirish yo'li"
+   }
+  ]
  },
  "test": [
   {
